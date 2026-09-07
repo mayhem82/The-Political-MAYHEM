@@ -16,6 +16,15 @@ The architecture is to be reproduced as closely as the political domain permits.
 
 Everything else should remain structurally equivalent unless the political domain requires a genuine domain-specific adaptation.
 
+## Two master glossaries
+
+The public reference layer preserves the same two-glossary separation as TheNRLMAYHEM:
+
+- **Political Master Glossary** — native political, electoral, parliamentary, government, party and polling terminology. MAYHEM/site architecture is excluded.
+- **Site Master Glossary** — MAYHEM architecture, sport-legibility translations, evidence states, lifecycle states, tipping controls, audit language and public-interface terminology. Native political terminology is excluded.
+
+The two glossaries must not be merged or renamed into one another.
+
 The system is built forward first. Retroactive ingestion and analysis are built only after a genuine forward baseline exists, exactly as with TheNRLMAYHEM. Retro-derived discoveries may then append improved current projections from the point of discovery forward, while prior projections remain immutable.
 
 The operating system remains continuously expanding:

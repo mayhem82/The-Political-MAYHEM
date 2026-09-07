@@ -1,0 +1,34 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://mayhem82.github.io/The-Political-MAYHEM/schema/contest-checkpoint.schema.json",
+  "title": "Political MAYHEM Contest Checkpoint",
+  "type": "object",
+  "required": ["checkpoint_id", "contest_id", "cycle_id", "checkpoint_type", "captured_at", "capture_state", "source_snapshot_ids", "evidence_state", "projection_state", "integrity"],
+  "properties": {
+    "checkpoint_id": {"type": "string"},
+    "contest_id": {"type": "string"},
+    "cycle_id": {"type": "string"},
+    "checkpoint_type": {"enum": ["BASELINE", "PERIODIC", "NOMINATION_CLOSE", "CAMPAIGN_MILESTONE", "POLL_RELEASE", "DEBATE", "PRE_POLL", "T_7D", "T_72H", "T_24H", "T_3H", "POLL_CLOSE", "POST_OUTCOME", "OTHER"]},
+    "scheduled_for": {"type": ["string", "null"], "format": "date-time"},
+    "captured_at": {"type": "string", "format": "date-time"},
+    "evidence_cutoff": {"type": ["string", "null"], "format": "date-time"},
+    "capture_state": {"enum": ["PENDING", "CAPTURED_IN_WINDOW", "CAPTURED_LATE_PRE_OUTCOME", "MISSED_NOT_CAPTURED", "POST_OUTCOME_ONLY"]},
+    "source_snapshot_ids": {"type": "array", "items": {"type": "string"}},
+    "intelligence_event_ids": {"type": "array", "items": {"type": "string"}},
+    "evidence_state": {"enum": ["VERIFIED", "UNVERIFIED", "CONTRADICTED", "MIXED", "UNKNOWN"]},
+    "open_conflict_ids": {"type": "array", "items": {"type": "string"}},
+    "projection_id": {"type": ["string", "null"]},
+    "projection_state": {"enum": ["NONE", "OPEN", "FROZEN", "GRADED", "ABSTAIN_INSUFFICIENT_EVIDENCE"]},
+    "notes": {"type": "string"},
+    "integrity": {
+      "type": "object",
+      "required": ["hindsight_changes_prohibited", "retroactive_signal_backfill_prohibited"],
+      "properties": {
+        "frozen_at": {"type": ["string", "null"], "format": "date-time"},
+        "hindsight_changes_prohibited": {"const": true},
+        "retroactive_signal_backfill_prohibited": {"const": true}
+      }
+    }
+  },
+  "additionalProperties": true
+}

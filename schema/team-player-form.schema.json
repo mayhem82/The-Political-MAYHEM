@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "schema/team-player-form.schema.json",
+  "title": "Political MAYHEM Team and Player Form Snapshot",
+  "type": "object",
+  "required": ["snapshot_id","scope","captured_at","status","team_form","player_form","form_dimensions"],
+  "properties": {
+    "snapshot_id": {"type":"string"},
+    "scope": {"type":"string"},
+    "captured_at": {"type":"string","format":"date-time"},
+    "status": {"enum":["FORWARD_BASELINE","ACTIVE","SUPERSEDED"]},
+    "team_form": {"type":"array","items":{"$ref":"#/$defs/formRecord"}},
+    "player_form": {"type":"array","items":{"$ref":"#/$defs/formRecord"}},
+    "form_dimensions": {"type":"object"}
+  },
+  "$defs": {
+    "formRecord": {
+      "type":"object",
+      "required":["form_state","trend","signals","contradictions","tip_effects"],
+      "properties": {
+        "party_id":{"type":"string"},
+        "actor_id":{"type":"string"},
+        "form_state":{"type":"string"},
+        "trend":{"enum":["RISING","STEADY","FALLING","VOLATILE","UNRESOLVED"]},
+        "signals":{"type":"array"},
+        "contradictions":{"type":"array"},
+        "tip_effects":{"type":"array"},
+        "last_material_change":{"type":["string","null"]}
+      },
+      "anyOf":[{"required":["party_id"]},{"required":["actor_id"]}]
+    }
+  }
+}

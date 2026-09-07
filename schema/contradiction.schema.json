@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://mayhem82.github.io/The-Political-MAYHEM/schema/contradiction.schema.json",
+  "title": "Political MAYHEM Contradiction Record",
+  "type": "object",
+  "required": ["conflict_id", "created_at", "conflict_type", "claim_a", "claim_b", "source_snapshot_ids", "resolution_state"],
+  "properties": {
+    "conflict_id": {"type": "string"},
+    "contest_id": {"type": ["string", "null"]},
+    "cycle_id": {"type": ["string", "null"]},
+    "actor_id": {"type": ["string", "null"]},
+    "party_id": {"type": ["string", "null"]},
+    "created_at": {"type": "string", "format": "date-time"},
+    "conflict_type": {"enum": ["FACTUAL", "TEMPORAL", "NUMERIC", "ATTRIBUTION", "POSITION", "PROMISE_ACTION", "SOURCE_DISAGREEMENT", "POLLING", "OUTCOME", "OTHER"]},
+    "claim_a": {},
+    "claim_b": {},
+    "source_snapshot_ids": {"type": "array", "minItems": 2, "items": {"type": "string"}},
+    "resolution_state": {"enum": ["OPEN", "RESOLVED", "UNRESOLVED", "PARTIALLY_RESOLVED"]},
+    "resolved_to": {},
+    "resolved_by_source_snapshot_ids": {"type": "array", "items": {"type": "string"}},
+    "resolved_at": {"type": ["string", "null"], "format": "date-time"},
+    "resolution_event_id": {"type": ["string", "null"]},
+    "resolution_basis": {"type": ["string", "null"]},
+    "projection_effect": {"enum": ["NO_EFFECT", "CONFIDENCE_CHANGE", "RANKING_CHANGE", "OUTCOME_SELECTION_CHANGE", "ABSTAIN_INSUFFICIENT_EVIDENCE"]},
+    "original_claims_preserved": {"const": true}
+  },
+  "additionalProperties": true
+}

@@ -21,6 +21,38 @@ Its architecture should remain structurally equivalent wherever the political do
 
 Politics-specific mechanisms are added only when no faithful NRL-domain equivalent exists or when the political domain contains additional causal structure that must be represented.
 
+## Sport legibility translation layer
+
+Sport is the canonical public translation layer for political legibility.
+
+This does not make politics literally sport and does not weaken the political evidence model. The underlying architecture remains political-domain native, provenance-controlled and auditable. The sport layer sits above that architecture and translates the changing political environment into a grammar that is already widely understood: teams, players, form, selection, rivalries, fixtures, live state, tipping, outcomes and post-event review.
+
+**Sport for legibility. Evidence architecture for truth control.**
+
+The public problem being addressed is state reconstruction. Conventional political information arrives fragmented across speeches, polling, policy announcements, parliamentary events, campaigns, personalities, institutions and elections. The Political MAYHEM should expose the current competitive state directly rather than requiring the user to reconstruct it.
+
+The canonical public translation includes:
+
+- party → team;
+- political actor → player;
+- party leadership → captain / leadership group;
+- party political form → team form;
+- actor political form → player form;
+- candidate or role change → selection change;
+- actor eligibility, withdrawal, resignation or incapacity → availability state;
+- defined outcome-bearing political target → fixture / match;
+- political cycle → season;
+- persistent competitive relationship → rivalry;
+- coalition, preference or confidence-and-supply arrangement → tactical alliance;
+- electorate, jurisdiction, chamber or institutional context → venue / field context;
+- verified political outcome → result;
+- selected outcome → MAYHEM tip;
+- attached probability/confidence → tip confidence;
+- target evidence cutoff → close / freeze point;
+- outcome verification and failure analysis → post-match review.
+
+The complete translation specification is maintained in `docs/SPORT-LEGIBILITY-TRANSLATION-LAYER.md`.
+
 ## Continuous operating model
 
 The Political MAYHEM has no COMPLETE state. It has verified snapshots.
@@ -30,6 +62,8 @@ Its operating loop is:
 **INGEST → ANALYSE → MAP RELATIONSHIPS → PROJECT → PRESERVE → RECONCILE → LEARN → RE-INGEST EXPANDED STATE → ANALYSE AGAIN**
 
 New evidence, actors, parties, contests, sources, contradictions, failures, signals, relationships and political mechanisms continuously expand the system.
+
+Politics is treated as a continuously active field. Party and actor states accumulate even when no election or other outcome-bearing event is imminent. Discrete tipping targets emerge from that field, receive their own evidence clocks and freeze points, and then resolve back into the continuing field.
 
 ## Forward-first construction
 
@@ -153,7 +187,8 @@ When implementing any new Political MAYHEM feature:
 3. translate teams to parties and players to actors;
 4. translate other NRL event entities to the closest political equivalent;
 5. preserve provenance, versioning, temporal integrity, reconciliation, grading, failure retention, calibration and relationship mapping;
-6. add political-specific mechanisms only where the political domain genuinely requires them;
-7. preserve prior snapshots rather than rewriting history.
+6. preserve the separation between canonical political data and the sport-legibility public translation layer;
+7. add political-specific mechanisms only where the political domain genuinely requires them;
+8. preserve prior snapshots rather than rewriting history.
 
-The Political MAYHEM is not to be simplified into a conventional election-prediction dashboard. It is an expanding political intelligence system built on the same underlying operating architecture as TheNRLMAYHEM.
+The Political MAYHEM is not to be simplified into a conventional election-prediction dashboard. It is an expanding political intelligence system built on the same underlying operating architecture as TheNRLMAYHEM, with sport used as the missing public legibility layer rather than as a substitute for political reality.

@@ -8,6 +8,7 @@ on:
     branches: [main]
     paths:
       - 'scripts/ingest-federal-parliament.py'
+      - 'scripts/prepare-federal-ingest.py'
       - '.github/workflows/ingest-federal-players.yml'
 
 permissions:
@@ -29,6 +30,9 @@ jobs:
 
       - name: Install ingestion dependency
         run: python -m pip install --disable-pip-version-check PyYAML==6.0.2
+
+      - name: Prepare current Senate name normalization
+        run: python scripts/prepare-federal-ingest.py
 
       - name: Ingest every current federal parliamentarian
         run: python scripts/ingest-federal-parliament.py

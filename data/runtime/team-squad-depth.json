@@ -1,16 +1,28 @@
 {
-  "snapshot_id": "FEDERAL-TEAM-SQUAD-DEPTH-001",
+  "snapshot_id": "FEDERAL-TEAM-SQUAD-DEPTH-20260908-090746",
   "scope": "Australia — Federal Parliament",
-  "captured_at": "2026-09-08T08:23:00+10:00",
+  "captured_at": "2026-09-08T09:07:46+10:00",
   "metric": "CURRENT_PARLIAMENTARY_PARTY_AFFILIATION_COUNT",
-  "source": {
-    "publisher": "Parliament of Australia",
-    "source_url": "https://www.aph.gov.au/Senators_and_Members/Parliamentarian_Search_Results?sen=1",
-    "captured_at": "2026-09-08T08:23:00+10:00"
+  "provenance": {
+    "primary_authority": "Parliament of Australia",
+    "primary_reference": "https://www.aph.gov.au/Senators_and_Members/Contacting_Senators_and_Members/Address_labels_and_CSV_files",
+    "automated_acquisition": {
+      "state": "PRIMARY_DERIVED_STRUCTURED_MIRROR_WITH_EXPLICIT_CURRENT_APH_CORRECTIONS",
+      "reason": "aph.gov.au returns HTTP 403 to GitHub-hosted runners",
+      "house_mirror": "https://raw.githubusercontent.com/coldix/elections/main/data/federal-49/house-members.yaml",
+      "senate_mirror": "https://raw.githubusercontent.com/coldix/elections/main/data/federal-49/senate-members.yaml",
+      "mirror_primary_capture_date": "2026-08-09"
+    },
+    "current_correction_refs": [
+      "https://www.aph.gov.au/Senators_and_Members/Parliamentarian?MPID=263528",
+      "https://www.aph.gov.au/Senators_and_Members/Parliamentarian?MPID=300639",
+      "https://www.aph.gov.au/Senators_and_Members/Contacting_Senators_and_Members/List_of_Senators"
+    ],
+    "validated_against_current_aph_party_facets": true
   },
   "rules": {
     "parliamentary_squad_is_not_whole_party": true,
-    "tracked_intelligence_roster_is_not_full_parliamentary_squad_unless_coverage_is_complete": true,
+    "all_current_federal_parliamentary_players_are_ingested": true,
     "organisational_officials_candidates_state_teams_and_affiliates_are_separate_layers": true,
     "affiliates_are_not_silently_folded_into_party_counts": true
   },
@@ -19,67 +31,122 @@
       "party_id": "AUS-FED-ALP",
       "team": "Labor",
       "federal_parliamentary_squad": 124,
-      "tracked_intelligence_players": 6,
-      "coverage_state": "PARTIAL_TRACKED_ROSTER",
-      "related_affiliates": []
+      "house_players": 94,
+      "senate_players": 30,
+      "ingested_players": 124,
+      "coverage_state": "CURRENT_FEDERAL_PARLIAMENTARY_SQUAD_FULLY_INGESTED",
+      "coverage_percent": 100
     },
     {
       "party_id": "AUS-FED-LIB",
       "team": "Liberal",
       "federal_parliamentary_squad": 38,
-      "tracked_intelligence_players": 5,
-      "coverage_state": "PARTIAL_TRACKED_ROSTER",
-      "related_affiliates": [
-        {
-          "name": "Liberal National Party of Queensland",
-          "federal_parliamentarians": 18,
-          "relationship": "SEPARATE_PARTY_AFFILIATE_IN_FEDERAL_COALITION_CONTEXT",
-          "counting_rule": "NOT_INCLUDED_IN_LIBERAL_DIRECT_AFFILIATION_COUNT"
-        }
-      ]
+      "house_players": 17,
+      "senate_players": 21,
+      "ingested_players": 38,
+      "coverage_state": "CURRENT_FEDERAL_PARLIAMENTARY_SQUAD_FULLY_INGESTED",
+      "coverage_percent": 100
+    },
+    {
+      "party_id": "AUS-FED-LNP",
+      "team": "LNP",
+      "federal_parliamentary_squad": 18,
+      "house_players": 16,
+      "senate_players": 2,
+      "ingested_players": 18,
+      "coverage_state": "CURRENT_FEDERAL_PARLIAMENTARY_SQUAD_FULLY_INGESTED",
+      "coverage_percent": 100
     },
     {
       "party_id": "AUS-FED-NAT",
       "team": "Nationals",
       "federal_parliamentary_squad": 11,
-      "tracked_intelligence_players": 5,
-      "coverage_state": "PARTIAL_TRACKED_ROSTER",
-      "related_affiliates": [
-        {
-          "name": "Liberal National Party of Queensland",
-          "federal_parliamentarians": 18,
-          "relationship": "SEPARATE_PARTY_AFFILIATE_IN_FEDERAL_COALITION_CONTEXT",
-          "counting_rule": "NOT_INCLUDED_IN_NATIONALS_DIRECT_AFFILIATION_COUNT"
-        }
-      ]
+      "house_players": 8,
+      "senate_players": 3,
+      "ingested_players": 11,
+      "coverage_state": "CURRENT_FEDERAL_PARLIAMENTARY_SQUAD_FULLY_INGESTED",
+      "coverage_percent": 100
+    },
+    {
+      "party_id": "AUS-FED-CLP",
+      "team": "CLP",
+      "federal_parliamentary_squad": 1,
+      "house_players": 0,
+      "senate_players": 1,
+      "ingested_players": 1,
+      "coverage_state": "CURRENT_FEDERAL_PARLIAMENTARY_SQUAD_FULLY_INGESTED",
+      "coverage_percent": 100
     },
     {
       "party_id": "AUS-FED-GRN",
       "team": "Greens",
       "federal_parliamentary_squad": 11,
-      "tracked_intelligence_players": 6,
-      "coverage_state": "PARTIAL_TRACKED_ROSTER",
-      "related_affiliates": []
+      "house_players": 1,
+      "senate_players": 10,
+      "ingested_players": 11,
+      "coverage_state": "CURRENT_FEDERAL_PARLIAMENTARY_SQUAD_FULLY_INGESTED",
+      "coverage_percent": 100
     },
     {
       "party_id": "AUS-FED-ONP",
       "team": "One Nation",
       "federal_parliamentary_squad": 6,
-      "tracked_intelligence_players": 6,
-      "coverage_state": "CURRENT_FEDERAL_PARLIAMENTARY_SQUAD_FULLY_TRACKED",
-      "related_affiliates": []
-    }
-  ],
-  "unassigned_affiliate_or_other_party_counts": [
-    {
-      "name": "Liberal National Party of Queensland",
-      "federal_parliamentarians": 18,
-      "reason": "Parliament lists LNP as a distinct party affiliation. Political MAYHEM does not silently allocate those actors to Liberal or Nationals team totals."
+      "house_players": 2,
+      "senate_players": 4,
+      "ingested_players": 6,
+      "coverage_state": "CURRENT_FEDERAL_PARLIAMENTARY_SQUAD_FULLY_INGESTED",
+      "coverage_percent": 100
     },
     {
-      "name": "Country Liberal Party",
-      "federal_parliamentarians": 1,
-      "reason": "Parliament lists CLP as a distinct party affiliation. It remains separate until an explicit team relationship object is ingested."
+      "party_id": "AUS-FED-AV",
+      "team": "Australia's Voice",
+      "federal_parliamentary_squad": 1,
+      "house_players": 0,
+      "senate_players": 1,
+      "ingested_players": 1,
+      "coverage_state": "CURRENT_FEDERAL_PARLIAMENTARY_SQUAD_FULLY_INGESTED",
+      "coverage_percent": 100
+    },
+    {
+      "party_id": "AUS-FED-CA",
+      "team": "Centre Alliance",
+      "federal_parliamentary_squad": 1,
+      "house_players": 1,
+      "senate_players": 0,
+      "ingested_players": 1,
+      "coverage_state": "CURRENT_FEDERAL_PARLIAMENTARY_SQUAD_FULLY_INGESTED",
+      "coverage_percent": 100
+    },
+    {
+      "party_id": "AUS-FED-JLN",
+      "team": "JLN",
+      "federal_parliamentary_squad": 1,
+      "house_players": 0,
+      "senate_players": 1,
+      "ingested_players": 1,
+      "coverage_state": "CURRENT_FEDERAL_PARLIAMENTARY_SQUAD_FULLY_INGESTED",
+      "coverage_percent": 100
+    },
+    {
+      "party_id": "AUS-FED-KAP",
+      "team": "KAP",
+      "federal_parliamentary_squad": 1,
+      "house_players": 1,
+      "senate_players": 0,
+      "ingested_players": 1,
+      "coverage_state": "CURRENT_FEDERAL_PARLIAMENTARY_SQUAD_FULLY_INGESTED",
+      "coverage_percent": 100
+    },
+    {
+      "party_id": "AUS-FED-UAP",
+      "team": "UAP",
+      "federal_parliamentary_squad": 1,
+      "house_players": 0,
+      "senate_players": 1,
+      "ingested_players": 1,
+      "coverage_state": "CURRENT_FEDERAL_PARLIAMENTARY_SQUAD_FULLY_INGESTED",
+      "coverage_percent": 100
     }
-  ]
+  ],
+  "independent_players": 12
 }

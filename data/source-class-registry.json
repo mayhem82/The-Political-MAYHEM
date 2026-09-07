@@ -1,0 +1,33 @@
+{
+  "snapshot": "POLITICAL-SOURCE-CLASS-REGISTRY-001",
+  "canonical_classes": [
+    {"id": "PRIMARY_ELECTORAL_AUTHORITY", "description": "Official electoral commission or election administration source"},
+    {"id": "PRIMARY_PARLIAMENT", "description": "Official parliament, legislature, chamber, committee or parliamentary record"},
+    {"id": "PRIMARY_GOVERNMENT", "description": "Official government department, agency, ministerial or statutory authority source"},
+    {"id": "PRIMARY_PARTY", "description": "Official political party source"},
+    {"id": "PRIMARY_ACTOR", "description": "Direct statement or publication by the political actor"},
+    {"id": "PRIMARY_COURT_TRIBUNAL", "description": "Official court, tribunal or judicial source"},
+    {"id": "PRIMARY_REGULATOR", "description": "Official regulator, integrity body, commission or watchdog source"},
+    {"id": "PRIMARY_DISCLOSURE", "description": "Official donations, funding, lobbying, interests or disclosure register"},
+    {"id": "PRIMARY_STATISTICS", "description": "Official statistical or administrative dataset"},
+    {"id": "PRIMARY_POLL", "description": "Direct pollster publication with methodology or primary polling release"},
+    {"id": "PRIMARY_MARKET_OBSERVATION", "description": "Direct political market observation where lawfully accessible"},
+    {"id": "SECONDARY_ANALYSIS", "description": "Independent analysis or journalism"},
+    {"id": "SECONDARY_HISTORICAL", "description": "Historical database, archive or secondary historical record"},
+    {"id": "SECONDARY_POLL_AGGREGATION", "description": "Polling aggregation or secondary poll comparison"},
+    {"id": "SECONDARY_DERIVED_DATA", "description": "Derived statistical, geographic, electoral or political dataset"},
+    {"id": "MEDIA_TRANSCRIPT", "description": "Broadcast, interview, press conference or media transcript not otherwise primary"},
+    {"id": "OTHER", "description": "Unclassified source requiring review"}
+  ],
+  "aliases": {
+    "OFFICIAL": "PRIMARY_GOVERNMENT",
+    "ELECTORAL": "PRIMARY_ELECTORAL_AUTHORITY",
+    "PARLIAMENTARY": "PRIMARY_PARLIAMENT",
+    "PARTY": "PRIMARY_PARTY",
+    "ACTOR_DIRECT": "PRIMARY_ACTOR",
+    "POLL": "PRIMARY_POLL",
+    "JOURNALISM": "SECONDARY_ANALYSIS",
+    "HISTORICAL": "SECONDARY_HISTORICAL"
+  },
+  "rule": "Persist canonical class plus original encountered class. Alias mapping never rewrites the original source representation. Source class identifies provenance type, not truth status."
+}

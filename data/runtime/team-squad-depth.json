@@ -1,0 +1,85 @@
+{
+  "snapshot_id": "FEDERAL-TEAM-SQUAD-DEPTH-001",
+  "scope": "Australia — Federal Parliament",
+  "captured_at": "2026-09-08T08:23:00+10:00",
+  "metric": "CURRENT_PARLIAMENTARY_PARTY_AFFILIATION_COUNT",
+  "source": {
+    "publisher": "Parliament of Australia",
+    "source_url": "https://www.aph.gov.au/Senators_and_Members/Parliamentarian_Search_Results?sen=1",
+    "captured_at": "2026-09-08T08:23:00+10:00"
+  },
+  "rules": {
+    "parliamentary_squad_is_not_whole_party": true,
+    "tracked_intelligence_roster_is_not_full_parliamentary_squad_unless_coverage_is_complete": true,
+    "organisational_officials_candidates_state_teams_and_affiliates_are_separate_layers": true,
+    "affiliates_are_not_silently_folded_into_party_counts": true
+  },
+  "teams": [
+    {
+      "party_id": "AUS-FED-ALP",
+      "team": "Labor",
+      "federal_parliamentary_squad": 124,
+      "tracked_intelligence_players": 6,
+      "coverage_state": "PARTIAL_TRACKED_ROSTER",
+      "related_affiliates": []
+    },
+    {
+      "party_id": "AUS-FED-LIB",
+      "team": "Liberal",
+      "federal_parliamentary_squad": 38,
+      "tracked_intelligence_players": 5,
+      "coverage_state": "PARTIAL_TRACKED_ROSTER",
+      "related_affiliates": [
+        {
+          "name": "Liberal National Party of Queensland",
+          "federal_parliamentarians": 18,
+          "relationship": "SEPARATE_PARTY_AFFILIATE_IN_FEDERAL_COALITION_CONTEXT",
+          "counting_rule": "NOT_INCLUDED_IN_LIBERAL_DIRECT_AFFILIATION_COUNT"
+        }
+      ]
+    },
+    {
+      "party_id": "AUS-FED-NAT",
+      "team": "Nationals",
+      "federal_parliamentary_squad": 11,
+      "tracked_intelligence_players": 5,
+      "coverage_state": "PARTIAL_TRACKED_ROSTER",
+      "related_affiliates": [
+        {
+          "name": "Liberal National Party of Queensland",
+          "federal_parliamentarians": 18,
+          "relationship": "SEPARATE_PARTY_AFFILIATE_IN_FEDERAL_COALITION_CONTEXT",
+          "counting_rule": "NOT_INCLUDED_IN_NATIONALS_DIRECT_AFFILIATION_COUNT"
+        }
+      ]
+    },
+    {
+      "party_id": "AUS-FED-GRN",
+      "team": "Greens",
+      "federal_parliamentary_squad": 11,
+      "tracked_intelligence_players": 6,
+      "coverage_state": "PARTIAL_TRACKED_ROSTER",
+      "related_affiliates": []
+    },
+    {
+      "party_id": "AUS-FED-ONP",
+      "team": "One Nation",
+      "federal_parliamentary_squad": 6,
+      "tracked_intelligence_players": 6,
+      "coverage_state": "CURRENT_FEDERAL_PARLIAMENTARY_SQUAD_FULLY_TRACKED",
+      "related_affiliates": []
+    }
+  ],
+  "unassigned_affiliate_or_other_party_counts": [
+    {
+      "name": "Liberal National Party of Queensland",
+      "federal_parliamentarians": 18,
+      "reason": "Parliament lists LNP as a distinct party affiliation. Political MAYHEM does not silently allocate those actors to Liberal or Nationals team totals."
+    },
+    {
+      "name": "Country Liberal Party",
+      "federal_parliamentarians": 1,
+      "reason": "Parliament lists CLP as a distinct party affiliation. It remains separate until an explicit team relationship object is ingested."
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://mayhem82.github.io/The-Political-MAYHEM/schema/source-snapshot.schema.json",
+  "title": "Political MAYHEM Source Snapshot",
+  "type": "object",
+  "required": ["snapshot_id", "source_id", "source_url", "source_class", "captured_at", "content_hash"],
+  "properties": {
+    "snapshot_id": {"type": "string"},
+    "contest_id": {"type": ["string", "null"]},
+    "cycle_id": {"type": ["string", "null"]},
+    "source_id": {"type": "string"},
+    "source_registry_snapshot": {"type": ["string", "null"]},
+    "source_url": {"type": "string"},
+    "source_name": {"type": "string"},
+    "source_class": {"type": "string"},
+    "original_source_class": {"type": ["string", "null"]},
+    "published_at": {"type": ["string", "null"], "format": "date-time"},
+    "captured_at": {"type": "string", "format": "date-time"},
+    "content_hash": {"type": "string"},
+    "previous_snapshot_id": {"type": ["string", "null"]},
+    "public_access": {"enum": ["OPEN", "ACCOUNT_REQUIRED", "PAYWALLED", "RESTRICTED", "UNKNOWN"]},
+    "notes": {"type": "string"}
+  },
+  "additionalProperties": true
+}

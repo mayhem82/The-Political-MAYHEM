@@ -1,5 +1,5 @@
 {
-  "snapshot_id": "FEDERAL-PARTY-ROSTERS-002",
+  "snapshot_id": "FEDERAL-PARTY-ROSTERS-003",
   "scope": "Australia — Federal",
   "captured_at": "2026-09-08T08:23:00+10:00",
   "status": "FORWARD_BASELINE",
@@ -96,11 +96,14 @@
         {"actor_id":"ACT-MALCOLM-ROBERTS","name":"Malcolm Roberts","role":"Senator for Queensland","status":"ACTIVE"},
         {"actor_id":"ACT-SEAN-BELL","name":"Sean Bell","role":"One Nation Whip; Senator for New South Wales","status":"ACTIVE"},
         {"actor_id":"ACT-TYRON-WHITTEN","name":"Tyron Whitten","role":"Senator for Western Australia","status":"ACTIVE"},
-        {"actor_id":"ACT-BARNABY-JOYCE","name":"Barnaby Joyce","role":"Member for New England; One Nation","status":"ACTIVE"}
+        {"actor_id":"ACT-BARNABY-JOYCE","name":"Barnaby Joyce","role":"Member for New England; One Nation","status":"ACTIVE"},
+        {"actor_id":"ACT-DAVID-FARLEY","name":"David Farley","role":"Member for Farrer; One Nation","status":"ACTIVE"}
       ],
-      "roster_scope": "CURRENT_FEDERAL_PARLIAMENTARY_TEAM",
+      "roster_scope": "CURRENT_FEDERAL_PARLIAMENTARY_TEAM_COMPLETE",
       "source_refs": [
-        "https://www.aph.gov.au/Senators_and_Members/Parliamentarian_Search_Results?gen=0&mem=1&par=-1&ps=12&q=Na+O&sen=1&sr=1&st=2",
+        "https://www.aph.gov.au/Senators_and_Members/Parliamentarian_Search_Results?sen=1",
+        "https://www.aph.gov.au/Senators_and_Members/Parliamentarian?MPID=62329",
+        "https://www.aph.gov.au/Senators_and_Members/Parliamentarian?MPID=e5d&print=1",
         "https://www.aph.gov.au/Senators_and_Members/Senators/Seating_plan/Seating_plan_text_description",
         "https://nsw.onenation.org.au/team",
         "https://www.onenation.org.au/about"

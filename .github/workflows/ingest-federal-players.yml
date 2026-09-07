@@ -27,6 +27,9 @@ jobs:
         with:
           python-version: '3.12'
 
+      - name: Install ingestion dependency
+        run: python -m pip install --disable-pip-version-check PyYAML==6.0.2
+
       - name: Ingest every current federal parliamentarian
         run: python scripts/ingest-federal-parliament.py
 

@@ -1,0 +1,31 @@
+{
+  "snapshot_id": "FEDERAL-LADDER-001",
+  "scope": "Australia — Federal",
+  "captured_at": "2026-09-08T08:23:00+10:00",
+  "metric": "LATEST_NATIONALLY_COMPARABLE_PRIMARY_VOTE",
+  "metric_description": "Current political ladder ordered by the latest nationally comparable primary-vote poll that reports Labor, One Nation, Liberal, Greens and Nationals separately. This is a polling/form ladder, not a parliamentary seat table and not a forecast.",
+  "source": {
+    "publisher": "Roy Morgan Research",
+    "published_at": "2026-09-07",
+    "fieldwork_start": "2026-08-31",
+    "fieldwork_end": "2026-09-06",
+    "sample_size": 1541,
+    "source_url": "https://www.roymorgan.com/findings/10333-federal-voting-intention-september-7-2026"
+  },
+  "entries": [
+    {"rank":1,"party_id":"AUS-FED-ALP","team":"Labor","primary_vote":27.0,"movement_points":-2.5},
+    {"rank":2,"party_id":"AUS-FED-ONP","team":"One Nation","primary_vote":26.5,"movement_points":3.0},
+    {"rank":3,"party_id":"AUS-FED-LIB","team":"Liberal","primary_vote":17.0,"movement_points":-1.0},
+    {"rank":4,"party_id":"AUS-FED-GRN","team":"Greens","primary_vote":14.5,"movement_points":1.0},
+    {"rank":5,"party_id":"AUS-FED-NAT","team":"Nationals","primary_vote":4.5,"movement_points":2.0}
+  ],
+  "excluded_from_team_ladder": [
+    {"label":"Independents / Other Parties","primary_vote":10.5,"reason":"Not a single political team."}
+  ],
+  "integrity": {
+    "order_is_source_derived": true,
+    "no_manual_reordering": true,
+    "poll_is_not_forecast": true,
+    "parliamentary_strength_is_separate_dimension": true
+  }
+}

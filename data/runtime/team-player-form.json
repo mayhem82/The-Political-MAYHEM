@@ -1,0 +1,28 @@
+{
+  "snapshot_id": "TEAM-PLAYER-FORM-001",
+  "scope": "Australia — Federal",
+  "captured_at": "2026-09-08T00:00:00+10:00",
+  "status": "FORWARD_BASELINE",
+  "rules": {
+    "forward_only": true,
+    "append_or_supersede_only": true,
+    "unknown_is_not_neutral": true,
+    "inference_is_not_observation": true,
+    "form_requires_evidence": true,
+    "tip_effect_requires_explicit_lineage": true
+  },
+  "team_form": [
+    {"party_id":"AUS-FED-ALP","form_state":"BASELINE_ESTABLISHING","trend":"UNRESOLVED","signals":[],"contradictions":[],"tip_effects":[],"last_material_change":null},
+    {"party_id":"AUS-FED-LIB","form_state":"BASELINE_ESTABLISHING","trend":"UNRESOLVED","signals":[],"contradictions":[],"tip_effects":[],"last_material_change":null},
+    {"party_id":"AUS-FED-NAT","form_state":"BASELINE_ESTABLISHING","trend":"UNRESOLVED","signals":[],"contradictions":[],"tip_effects":[],"last_material_change":null},
+    {"party_id":"AUS-FED-GRN","form_state":"BASELINE_ESTABLISHING","trend":"UNRESOLVED","signals":[],"contradictions":[],"tip_effects":[],"last_material_change":null},
+    {"party_id":"AUS-FED-ONP","form_state":"BASELINE_ESTABLISHING","trend":"UNRESOLVED","signals":[],"contradictions":[],"tip_effects":[],"last_material_change":null}
+  ],
+  "player_form": [],
+  "form_dimensions": {
+    "team": ["electoral_performance","polling","leadership_state","internal_stability","candidate_field","issue_exposure","funding_disclosures","endorsements","alliances","institutional_position","resource_allocation","geographic_strength","preference_relationships"],
+    "player": ["role","availability","status","statements","observable_behaviour","leadership_position","endorsements","disputes","alliances","withdrawal","resignation","eligibility","influence"]
+  },
+  "trend_values": ["RISING","STEADY","FALLING","VOLATILE","UNRESOLVED"],
+  "evidence_states": ["VERIFIED","UNVERIFIED","CONTRADICTED","SIGNAL","UNKNOWN"]
+}

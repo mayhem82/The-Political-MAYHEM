@@ -7,71 +7,141 @@
   <link rel="stylesheet" href="site.css">
 </head>
 <body>
-  <header class="hero">
+  <header class="topbar">
     <div class="wrap">
-      <p class="eyebrow">POLITICAL INTELLIGENCE • FORWARD-FIRST • AUDITABLE</p>
+      <p class="eyebrow">MAYHEM POLITICAL TIPPING INTELLIGENCE ENGINE</p>
       <h1>The Political MAYHEM</h1>
-      <p class="lede">A public map of what has been built, where it sits, and how evidence moves through the system.</p>
-      <div class="status">STATUS: EXPANDING — NEVER COMPLETE</div>
+      <p class="lede">Watch a political contest unfold like a match: evidence arrives, signals change, the MAYHEM tip moves, the tip freezes before the outcome, and the result is audited without hindsight.</p>
+      <nav class="tabs" aria-label="Primary">
+        <a class="active" href="#contest">Contest</a>
+        <a href="#live-intelligence">Live Intelligence</a>
+        <a href="#tipping">Tipping</a>
+        <a href="#parties">Parties</a>
+        <a href="#actors">Actors</a>
+        <a href="#audit">Audit Clock</a>
+        <a href="#build">Build Map</a>
+      </nav>
     </div>
   </header>
 
   <main class="wrap">
-    <section>
-      <h2>System map</h2>
-      <div class="flow">
-        <div class="node">Source</div><div class="arrow">→</div>
-        <div class="node">Snapshot</div><div class="arrow">→</div>
-        <div class="node">Intelligence Event</div><div class="arrow">→</div>
-        <div class="node">Contradiction</div><div class="arrow">→</div>
-        <div class="node">Checkpoint</div><div class="arrow">→</div>
-        <div class="node">Projection</div><div class="arrow">→</div>
-        <div class="node">Freeze</div><div class="arrow">→</div>
-        <div class="node">Verified Outcome</div><div class="arrow">→</div>
-        <div class="node">Failure Audit</div>
+    <section id="contest" class="scoreboard">
+      <div class="kicker">NEXT / CURRENT POLITICAL CONTEST</div>
+      <div class="empty-state">
+        <span class="state-pill">FORWARD BASELINE READY</span>
+        <h2>No live political contest registered yet</h2>
+        <p>The engine is built to treat the next registered contest as a live match state. Once a genuine contest is registered, this panel becomes the primary watch surface.</p>
+      </div>
+      <div class="watch-grid">
+        <article>
+          <small>CONTEST STATE</small>
+          <strong id="contest-state">UPCOMING</strong>
+          <p>Moves through upcoming, contest window, outcome verification and verified outcome.</p>
+        </article>
+        <article>
+          <small>CURRENT MAYHEM TIP</small>
+          <strong id="current-tip">NO TIP YET</strong>
+          <p>A tip is only displayed once supported by a real forward evidence set.</p>
+        </article>
+        <article>
+          <small>TIP CONFIDENCE</small>
+          <strong id="tip-confidence">—</strong>
+          <p>Confidence changes must preserve the prior tip version and its evidence cutoff.</p>
+        </article>
+        <article>
+          <small>EVIDENCE CUTOFF</small>
+          <strong id="evidence-cutoff">—</strong>
+          <p>No evidence captured later can be inserted into an earlier tip.</p>
+        </article>
       </div>
     </section>
 
-    <section>
-      <h2>What exists now</h2>
+    <section id="live-intelligence">
+      <div class="section-head">
+        <div><span class="kicker">LIVE INTELLIGENCE FEED</span><h2>What would move the tip</h2></div>
+        <span class="live-dot">FORWARD ONLY</span>
+      </div>
+      <div class="feed">
+        <div><b>Source capture</b><span>Official, parliamentary, party, actor, polling, disclosure, regulatory, statistical and other classified sources.</span></div>
+        <div><b>Intelligence event</b><span>New verified fact, statement, behaviour, change, signal or contradiction captured with timestamp and provenance.</span></div>
+        <div><b>Party / actor change</b><span>State changes can alter confidence, ranking, the selected tip, or force abstention.</span></div>
+        <div><b>Contradiction</b><span>Competing claims remain visible until resolved; the original claims are preserved.</span></div>
+        <div><b>Tip revision</b><span>Every changed MAYHEM tip becomes a new version. Earlier tips remain immutable.</span></div>
+      </div>
+    </section>
+
+    <section id="tipping">
+      <div class="section-head">
+        <div><span class="kicker">TIPPING ENGINE</span><h2>Political tipping is the operational output</h2></div>
+      </div>
+      <div class="tip-flow">
+        <div class="node">Evidence</div><div class="arrow">→</div>
+        <div class="node">Live intelligence</div><div class="arrow">→</div>
+        <div class="node">MAYHEM tip</div><div class="arrow">→</div>
+        <div class="node">Tip revision</div><div class="arrow">→</div>
+        <div class="node">Tip freeze</div><div class="arrow">→</div>
+        <div class="node">Verified outcome</div><div class="arrow">→</div>
+        <div class="node">Grade</div><div class="arrow">→</div>
+        <div class="node">Failure audit</div>
+      </div>
+      <div class="rules compact">
+        <p><b>Tip:</b> the public-facing selected political outcome.</p>
+        <p><b>Projection:</b> the underlying immutable analytical record supporting that tip.</p>
+        <p><b>Freeze:</b> the last valid pre-outcome tip state. It cannot be rewritten after the result.</p>
+        <p><b>Grade:</b> CORRECT, INCORRECT, PARTIAL or VOID against a verified outcome.</p>
+      </div>
+    </section>
+
+    <section id="audit">
+      <div class="section-head">
+        <div><span class="kicker">AUDIT CLOCK</span><h2>Contest-watch checkpoints</h2></div>
+      </div>
+      <div class="clock-grid">
+        <article><strong>BASELINE</strong><span>Initial contest state and evidence set.</span></article>
+        <article><strong>PERIODIC</strong><span>Recurring forward capture while the contest evolves.</span></article>
+        <article><strong>MILESTONE</strong><span>Nominations, debates, polling releases, campaign events and material state changes.</span></article>
+        <article><strong>T-7D / T-72H / T-24H / T-3H</strong><span>Increasingly tight pre-outcome watch states where applicable.</span></article>
+        <article><strong>POLL CLOSE / EVENT CLOSE</strong><span>Freeze the valid pre-outcome tip.</span></article>
+        <article><strong>POST OUTCOME</strong><span>Verify result, grade tip, preserve failure and audit causes.</span></article>
+      </div>
+    </section>
+
+    <section id="parties">
+      <div class="section-head"><div><span class="kicker">PARTY INTELLIGENCE</span><h2>Party state layer</h2></div><span class="status-built">BUILT</span></div>
+      <p class="section-copy">Tracks party performance, polling, preference flows, incumbency, candidate field, geography, funding disclosures, endorsements, campaign resource allocation, issue exposure, leadership state, internal stability and institutional relationships when evidence supports them.</p>
+    </section>
+
+    <section id="actors">
+      <div class="section-head"><div><span class="kicker">ACTOR INTELLIGENCE</span><h2>Actor state layer</h2></div><span class="status-built">BUILT</span></div>
+      <p class="section-copy">Tracks candidates, leaders, ministers, opposition figures, independents and influential officials. Observable behaviour, direct statements and inferred psychological or causal conditions remain separate evidence classes.</p>
+    </section>
+
+    <section id="build">
+      <div class="section-head"><div><span class="kicker">BUILD MAP</span><h2>What exists and where</h2></div><span class="status-live">EXPANDING</span></div>
       <div class="grid">
         <article><h3>Canonical domain</h3><p>Political cycles, contests, parties and actors.</p><span>BUILT</span></article>
         <article><h3>Source provenance</h3><p>Source classes and content-hashed source snapshots.</p><span>BUILT</span></article>
         <article><h3>Intelligence events</h3><p>Observed facts, direct statements, signals and separated inference.</p><span>BUILT</span></article>
-        <article><h3>Contradictions</h3><p>Competing claims preserved with explicit resolution state and evidence.</p><span>BUILT</span></article>
-        <article><h3>Checkpoints</h3><p>Forward capture states, late-capture handling and no hindsight reconstruction.</p><span>BUILT</span></article>
-        <article><h3>Projection lineage</h3><p>Versioned projections with evidence cutoffs and immutable frozen states.</p><span>BUILT</span></article>
-        <article><h3>Outcome verification</h3><p>Verified political outcomes tied to authoritative source snapshots.</p><span>BUILT</span></article>
-        <article><h3>Failure audit</h3><p>Incorrect or partial projections retained and classified for learning.</p><span>BUILT</span></article>
-        <article><h3>Forward integrity validator</h3><p>Machine checks enforce append-only ledgers, cutoff discipline and hindsight prohibition.</p><span>BUILT</span></article>
-        <article class="next"><h3>Live forward baseline</h3><p>First real contest registration, source acquisition and recurring evidence capture.</p><span>NEXT</span></article>
+        <article><h3>Contradictions</h3><p>Competing claims preserved with explicit resolution state.</p><span>BUILT</span></article>
+        <article><h3>Checkpoint ledger</h3><p>Forward capture, late capture, missed state and no hindsight reconstruction.</p><span>BUILT</span></article>
+        <article><h3>Tipping / projection lineage</h3><p>Versioned tips backed by immutable projection records and evidence cutoffs.</p><span>BUILT</span></article>
+        <article><h3>Outcome verification</h3><p>Political outcomes tied to authoritative source snapshots.</p><span>BUILT</span></article>
+        <article><h3>Failure audit</h3><p>Wrong or partial tips are retained and analysed rather than erased.</p><span>BUILT</span></article>
+        <article><h3>Forward integrity validator</h3><p>Machine checks enforce cutoff discipline and immutable history.</p><span>BUILT</span></article>
+        <article class="next"><h3>Live forward contest</h3><p>Register first genuine contest, populate sources and begin recurring evidence capture.</p><span>NEXT</span></article>
       </div>
-    </section>
 
-    <section>
-      <h2>Where it sits</h2>
       <div class="layers">
         <div><strong>Domain objects</strong><small>data/canonical/</small><p>Political cycle, contest, party and actor structures.</p></div>
         <div><strong>Evidence & provenance</strong><small>data/ + schema/</small><p>Source registry, snapshots, intelligence events and contradictions.</p></div>
-        <div><strong>Forward runtime</strong><small>data/runtime/</small><p>Ingestion manifest, checkpoint ledger, projection ledger, outcome ledger and audit ledger.</p></div>
-        <div><strong>Integrity controls</strong><small>scripts/</small><p>Machine validation of forward-only operation and immutable history.</p></div>
+        <div><strong>Forward runtime</strong><small>data/runtime/</small><p>Ingestion, checkpoints, tips/projections, outcomes and audits.</p></div>
+        <div><strong>Integrity controls</strong><small>scripts/</small><p>Forward-only and immutable-history validation.</p></div>
         <div><strong>Automation</strong><small>.github/workflows/</small><p>Continuous integrity checks on repository changes.</p></div>
-        <div><strong>Architecture</strong><small>docs/</small><p>Canonical operating rules, duplication strategy and build order.</p></div>
-      </div>
-    </section>
-
-    <section>
-      <h2>Non-negotiable integrity rules</h2>
-      <div class="rules">
-        <p>Only evidence knowable at the capture time can influence that projection.</p>
-        <p>Later evidence creates a later state. It does not rewrite an earlier one.</p>
-        <p>Frozen projections remain immutable, including failed projections.</p>
-        <p>Missed pre-outcome checkpoints are marked missed, not reconstructed.</p>
-        <p>Psychological or causal inference remains separate from observed fact.</p>
+        <div><strong>Architecture</strong><small>docs/</small><p>Canonical operating rules and expansion sequence.</p></div>
       </div>
     </section>
   </main>
 
-  <footer><div class="wrap">The Political MAYHEM • Public architecture surface • Expanding continuously</div></footer>
+  <footer><div class="wrap">The Political MAYHEM • Political tipping intelligence • Forward-first • Auditable • EXPANDING — NEVER COMPLETE</div></footer>
 </body>
 </html>

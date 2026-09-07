@@ -1,0 +1,106 @@
+{
+  "snapshot_id": "FEDERAL-PARTY-ROSTERS-001",
+  "scope": "Australia — Federal",
+  "captured_at": "2026-09-08T00:00:00+10:00",
+  "status": "FORWARD_BASELINE",
+  "rules": {
+    "party_is_team": true,
+    "actor_is_player": true,
+    "coalition_is_relationship_not_single_party": true,
+    "independents_are_standalone_actors": true,
+    "rosters_are_append_or_supersede_not_hindsight_rewrite": true
+  },
+  "parties": [
+    {
+      "party_id": "AUS-FED-ALP",
+      "name": "Australian Labor Party",
+      "short_name": "Labor",
+      "team_state": "GOVERNMENT",
+      "leader_actor_id": "ACT-ANTHONY-ALBANESE",
+      "actors": [
+        {"actor_id":"ACT-ANTHONY-ALBANESE","name":"Anthony Albanese","role":"Prime Minister; Leader, Federal Parliamentary Labor Party","status":"ACTIVE"},
+        {"actor_id":"ACT-RICHARD-MARLES","name":"Richard Marles","role":"Deputy Prime Minister; senior Labor leadership actor","status":"ACTIVE"},
+        {"actor_id":"ACT-JIM-CHALMERS","name":"Jim Chalmers","role":"Treasurer","status":"ACTIVE"},
+        {"actor_id":"ACT-PENNY-WONG","name":"Penny Wong","role":"Minister for Foreign Affairs; senior Senate actor","status":"ACTIVE"},
+        {"actor_id":"ACT-KATY-GALLAGHER","name":"Katy Gallagher","role":"Minister for Finance; senior government actor","status":"ACTIVE"},
+        {"actor_id":"ACT-TONY-BURKE","name":"Tony Burke","role":"Senior minister; Leader of the House","status":"ACTIVE"}
+      ],
+      "source_refs": [
+        "https://www.alp.org.au/about/national-executive/",
+        "https://www.alp.org.au/news/budget-2026-taking-pressure-off-australians/"
+      ]
+    },
+    {
+      "party_id": "AUS-FED-LIB",
+      "name": "Liberal Party of Australia",
+      "short_name": "Liberal",
+      "team_state": "OPPOSITION_COALITION_PARTNER",
+      "leader_actor_id": "ACT-ANGUS-TAYLOR",
+      "actors": [
+        {"actor_id":"ACT-ANGUS-TAYLOR","name":"Angus Taylor","role":"Leader of the Opposition; Leader of the Liberal Party","status":"ACTIVE"},
+        {"actor_id":"ACT-JANE-HUME","name":"Jane Hume","role":"Deputy Leader of the Opposition; Deputy Leader of the Liberal Party","status":"ACTIVE"},
+        {"actor_id":"ACT-MICHAELIA-CASH","name":"Michaelia Cash","role":"Leader of the Opposition in the Senate; Shadow Attorney-General","status":"ACTIVE"},
+        {"actor_id":"ACT-PHILLIP-THOMPSON","name":"Phillip Thompson","role":"Shadow Minister; Member for Herbert","status":"ACTIVE"},
+        {"actor_id":"ACT-HENRY-PIKE","name":"Henry Pike","role":"Shadow Assistant Minister; Member for Bowman","status":"ACTIVE"}
+      ],
+      "source_refs": [
+        "https://www.liberal.org.au/2026/06/05/appointment-of-the-federal-director-of-the-liberal-party",
+        "https://www.liberal.org.au/2026/09/06/coalition-will-protect-and-defend-our-national-day-our-national-flag-and-our-war-memorials"
+      ]
+    },
+    {
+      "party_id": "AUS-FED-NAT",
+      "name": "National Party of Australia",
+      "short_name": "Nationals",
+      "team_state": "OPPOSITION_COALITION_PARTNER",
+      "leader_actor_id": "ACT-MATT-CANAVAN",
+      "actors": [
+        {"actor_id":"ACT-MATT-CANAVAN","name":"Matt Canavan","role":"Federal Leader of The Nationals; Senator for Queensland","status":"ACTIVE"},
+        {"actor_id":"ACT-DARREN-CHESTER","name":"Darren Chester","role":"Deputy Federal Leader; Member for Gippsland","status":"ACTIVE"},
+        {"actor_id":"ACT-BRIDGET-MCKENZIE","name":"Bridget McKenzie","role":"Federal Senate Leader; Senator for Victoria","status":"ACTIVE"},
+        {"actor_id":"ACT-DAVID-LITTLEPROUD","name":"David Littleproud","role":"Member for Maranoa; former federal leader","status":"ACTIVE"},
+        {"actor_id":"ACT-KEVIN-HOGAN","name":"Kevin Hogan","role":"Federal Member for Page","status":"ACTIVE"}
+      ],
+      "source_refs": [
+        "https://www.nationals.org.au/about/federal-management-committee",
+        "https://www.nationals.org.au/team"
+      ]
+    },
+    {
+      "party_id": "AUS-FED-GRN",
+      "name": "Australian Greens",
+      "short_name": "Greens",
+      "team_state": "CROSSBENCH_PARTY",
+      "leader_actor_id": "ACT-LARISSA-WATERS",
+      "actors": [
+        {"actor_id":"ACT-LARISSA-WATERS","name":"Larissa Waters","role":"Leader; Senator for Queensland","status":"ACTIVE"},
+        {"actor_id":"ACT-MEHREEN-FARUQI","name":"Mehreen Faruqi","role":"Deputy Leader; Senator for New South Wales","status":"ACTIVE"},
+        {"actor_id":"ACT-SARAH-HANSON-YOUNG","name":"Sarah Hanson-Young","role":"Manager of Greens Business in the Senate; Senator for South Australia","status":"ACTIVE"},
+        {"actor_id":"ACT-NICK-MCKIM","name":"Nick McKim","role":"Federal Greens actor; Senator","status":"ACTIVE"},
+        {"actor_id":"ACT-DAVID-SHOEBRIDGE","name":"David Shoebridge","role":"Federal Greens actor; Senator for New South Wales","status":"ACTIVE"},
+        {"actor_id":"ACT-BARBARA-POCOCK","name":"Barbara Pocock","role":"Federal Greens actor; Senator for South Australia","status":"ACTIVE"}
+      ],
+      "source_refs": [
+        "https://greens.org.au/media-contacts",
+        "https://greens.org.au/news/media-release/progressive-parliament-politics-heart-incoming-greens-leader-larissa-waters"
+      ]
+    },
+    {
+      "party_id": "AUS-FED-ONP",
+      "name": "Pauline Hanson's One Nation",
+      "short_name": "One Nation",
+      "team_state": "CROSSBENCH_PARTY",
+      "leader_actor_id": "ACT-PAULINE-HANSON",
+      "actors": [
+        {"actor_id":"ACT-PAULINE-HANSON","name":"Pauline Hanson","role":"Federal Leader; Senator for Queensland","status":"ACTIVE"},
+        {"actor_id":"ACT-MALCOLM-ROBERTS","name":"Malcolm Roberts","role":"Senator for Queensland","status":"ACTIVE"},
+        {"actor_id":"ACT-SEAN-BELL","name":"Sean Bell","role":"Senator for New South Wales","status":"ACTIVE"},
+        {"actor_id":"ACT-TYRON-WHITTEN","name":"Tyron Whitten","role":"Senator for Western Australia","status":"ACTIVE"}
+      ],
+      "source_refs": [
+        "https://nsw.onenation.org.au/team",
+        "https://www.onenation.org.au/about"
+      ]
+    }
+  ]
+}

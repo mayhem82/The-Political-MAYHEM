@@ -1,0 +1,35 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://mayhem82.github.io/The-Political-MAYHEM/schema/projection-audit.schema.json",
+  "title": "Political MAYHEM Projection Audit",
+  "type": "object",
+  "required": ["audit_id", "projection_id", "verified_outcome_id", "graded_at", "grade", "pre_outcome_evidence_only", "failure_classes", "integrity"],
+  "properties": {
+    "audit_id": {"type": "string"},
+    "projection_id": {"type": "string"},
+    "verified_outcome_id": {"type": "string"},
+    "graded_at": {"type": "string", "format": "date-time"},
+    "grade": {"enum": ["CORRECT", "INCORRECT", "PARTIAL", "VOID"]},
+    "pre_outcome_evidence_only": {"const": true},
+    "failure_classes": {
+      "type": "array",
+      "items": {"enum": ["NONE", "MISSING_EVIDENCE", "LATE_EVIDENCE", "SOURCE_FAILURE", "CONTRADICTION_UNRESOLVED", "SIGNAL_MISCLASSIFIED", "SIGNAL_OVERWEIGHTED", "SIGNAL_UNDERWEIGHTED", "ACTOR_MODEL_FAILURE", "PARTY_MODEL_FAILURE", "STRUCTURAL_MODEL_FAILURE", "POLLING_ERROR", "PROJECTION_RULE_FAILURE", "CALIBRATION_FAILURE", "ABSTENTION_FAILURE", "OTHER"]}
+    },
+    "failure_findings": {"type": "array", "items": {"type": "string"}},
+    "source_snapshot_ids_reviewed": {"type": "array", "items": {"type": "string"}},
+    "intelligence_event_ids_reviewed": {"type": "array", "items": {"type": "string"}},
+    "open_conflict_ids_at_freeze": {"type": "array", "items": {"type": "string"}},
+    "counterfactual_changes_prohibited": {"const": true},
+    "lessons_for_future_rule_versions": {"type": "array", "items": {"type": "string"}},
+    "integrity": {
+      "type": "object",
+      "required": ["frozen_projection_unchanged", "no_hindsight_rewrite", "audit_append_only"],
+      "properties": {
+        "frozen_projection_unchanged": {"const": true},
+        "no_hindsight_rewrite": {"const": true},
+        "audit_append_only": {"const": true}
+      }
+    }
+  },
+  "additionalProperties": true
+}

@@ -1,0 +1,49 @@
+{
+  "system": "The Political MAYHEM",
+  "snapshot": "POLITICAL-GLOSSARY-SNAP-001",
+  "captured_at": "2026-09-08T09:50:00+10:00",
+  "scope": "Australian political, electoral and parliamentary terminology used to understand the political domain. MAYHEM/site architecture and sport-legibility interface terms are excluded and belong in the separate Site Master Glossary.",
+  "rules": [
+    "Preserve native political terminology as encountered in authoritative sources.",
+    "Do not place MAYHEM architecture, audit-state or sport-translation terminology in this glossary.",
+    "Use authoritative Australian electoral and parliamentary sources where available.",
+    "A glossary entry is a research aid, not evidence of a political proposition by itself."
+  ],
+  "sources": [
+    "https://www.aec.gov.au/footer/glossary.htm",
+    "https://www.aph.gov.au/Help/Glossary",
+    "https://www.aph.gov.au/About_Parliament/House_of_Representatives/Powers_practice_and_procedure/00_-_Infosheets/Infosheet_24_-_Glossary_of_procedural_terms"
+  ],
+  "terms": [
+    {"term":"Absolute majority","category":"ELECTIONS","plain_language":"More than half of the formal votes in a House of Representatives election.","research_use":"Determine whether a candidate has won without further preference distribution.","status":"VERIFIED","source":"AEC"},
+    {"term":"Ballot","category":"ELECTIONS","plain_language":"A method of secret voting, normally in written form.","research_use":"Anchor voting-process terminology.","status":"VERIFIED","source":"AEC"},
+    {"term":"By-election","category":"ELECTIONS","plain_language":"An election held to fill a single vacancy in the House of Representatives.","research_use":"Identify seat-specific electoral contests outside a general election.","status":"VERIFIED","source":"AEC"},
+    {"term":"Candidate","category":"ELECTIONS","plain_language":"A person formally nominated to stand for election.","research_use":"Separate declared or endorsed contenders from formally nominated candidates.","status":"VERIFIED","source":"AEC"},
+    {"term":"Coalition","category":"PARTIES","plain_language":"An alliance between political parties formed for electoral, parliamentary or governing purposes.","research_use":"Track relationships between parties without collapsing them into one party object.","status":"VERIFIED","source":"POLITICAL DOMAIN"},
+    {"term":"Crossbench","category":"PARLIAMENT","plain_language":"Members or senators who are neither part of the government nor the official opposition.","research_use":"Track balance-of-power actors and voting blocs.","status":"VERIFIED","source":"APH"},
+    {"term":"Declaration of poll","category":"ELECTIONS","plain_language":"The formal statement of an election result.","research_use":"Identify authoritative outcome finalisation.","status":"VERIFIED","source":"AEC"},
+    {"term":"Distribution of preferences","category":"ELECTIONS","plain_language":"The process used to determine the winning candidate when no candidate has an absolute majority of first-preference votes.","research_use":"Analyse how lower preferences affect final outcomes.","status":"VERIFIED","source":"AEC"},
+    {"term":"Division","category":"PARLIAMENT","plain_language":"A formal recorded vote in a house of Parliament; the word is also used for a House of Representatives electorate in electoral administration.","research_use":"Disambiguate parliamentary voting from electoral geography.","status":"VERIFIED","source":"AEC / APH"},
+    {"term":"Electorate","category":"ELECTIONS","plain_language":"The body of electors in an electoral area; commonly used for the electoral area itself.","research_use":"Anchor seat-level analysis and representation.","status":"VERIFIED","source":"AEC"},
+    {"term":"Hung parliament","category":"GOVERNMENT FORMATION","plain_language":"A parliament in which no political party or coalition holds a majority in the House of Representatives.","research_use":"Identify government-formation and balance-of-power conditions.","status":"VERIFIED","source":"AEC"},
+    {"term":"Independent","category":"PARTIES","plain_language":"A candidate or parliamentarian who does not belong to a registered political party.","research_use":"Keep independent actors separate from synthetic party groupings.","status":"VERIFIED","source":"AEC"},
+    {"term":"Informal vote","category":"ELECTIONS","plain_language":"A vote not marked according to the rules and therefore unable to be counted toward the result.","research_use":"Interpret turnout and vote totals correctly.","status":"VERIFIED","source":"AEC"},
+    {"term":"Marginal seat","category":"ELECTIONS","plain_language":"AEC terminology for a seat where the elected candidate received less than 56 per cent of the vote.","research_use":"Flag electorates with relatively narrow prior margins.","status":"VERIFIED","source":"AEC"},
+    {"term":"Minister","category":"GOVERNMENT","plain_language":"A member of the executive government responsible for a portfolio or area of administration.","research_use":"Track executive responsibility and portfolio changes.","status":"VERIFIED","source":"APH"},
+    {"term":"No confidence","category":"PARLIAMENT","plain_language":"A parliamentary motion or vote expressing dissatisfaction with a government or minister; a successful House no-confidence motion may lead to resignation.","research_use":"Identify government-survival and ministerial-risk events.","status":"VERIFIED","source":"APH"},
+    {"term":"Political party","category":"PARTIES","plain_language":"An organisation representing people with similar political ideas or aims and, when registered, able to have party affiliation shown for endorsed candidates on ballot papers.","research_use":"Define canonical party-team entities.","status":"VERIFIED","source":"AEC"},
+    {"term":"Preferential voting","category":"ELECTIONS","plain_language":"A voting system requiring voters to rank candidates in order of preference, with preferences distributed as required to determine the elected candidate.","research_use":"Analyse preference flows and final House outcomes.","status":"VERIFIED","source":"AEC"},
+    {"term":"Preselection","category":"PARTIES","plain_language":"The choice by a political party of its candidate for an election.","research_use":"Track candidate-selection changes within parties.","status":"VERIFIED","source":"AEC"},
+    {"term":"Primary vote","category":"POLLING / ELECTIONS","plain_language":"The first-preference vote received by a party or candidate before preference distributions.","research_use":"Compare first-choice support across elections and polls.","status":"VERIFIED","source":"ELECTORAL USAGE"},
+    {"term":"Proportional representation","category":"ELECTIONS","plain_language":"An electoral system used in multi-member electorates where representation is broadly proportional to electoral support.","research_use":"Interpret Senate election mechanics separately from House contests.","status":"VERIFIED","source":"AEC"},
+    {"term":"Question Time","category":"PARLIAMENT","plain_language":"A daily parliamentary period in which ministers are asked questions without notice about their responsibilities.","research_use":"Track accountability exchanges, claims and ministerial pressure.","status":"VERIFIED","source":"APH"},
+    {"term":"Redistribution","category":"ELECTIONS","plain_language":"The redrawing of electoral boundaries so divisions contain approximately equal numbers of electors.","research_use":"Control for boundary changes in seat-level historical comparisons.","status":"VERIFIED","source":"AEC"},
+    {"term":"Referendum","category":"ELECTIONS","plain_language":"A national vote on a proposed change to the Australian Constitution requiring the constitutional double-majority test.","research_use":"Treat constitutional contests separately from ordinary elections.","status":"VERIFIED","source":"AEC"},
+    {"term":"Responsible government","category":"GOVERNMENT FORMATION","plain_language":"A system in which the government is answerable to Parliament and the ministry must maintain the confidence of the House of Representatives.","research_use":"Model government survival and confidence relationships.","status":"VERIFIED","source":"APH"},
+    {"term":"Shadow minister","category":"OPPOSITION","plain_language":"A member of the main opposition party or parties who acts as spokesperson in an area usually corresponding to a ministerial portfolio.","research_use":"Track opposition portfolio responsibility and personnel changes.","status":"VERIFIED","source":"APH"},
+    {"term":"Turnout","category":"ELECTIONS","plain_language":"The number of enrolled electors who voted in an election.","research_use":"Analyse participation and denominator effects on vote shares.","status":"VERIFIED","source":"AEC"},
+    {"term":"Two-candidate-preferred (TCP)","category":"ELECTIONS","plain_language":"A count of preferences between the final two candidates in a House of Representatives division.","research_use":"Analyse the actual final pair in a seat.","status":"VERIFIED","source":"AEC"},
+    {"term":"Two-party-preferred (TPP)","category":"ELECTIONS","plain_language":"An informational House count showing the result as if the final two candidates were from Labor and the Liberal/National Coalition.","research_use":"Compare major-side electoral support across time and seats.","status":"VERIFIED","source":"AEC"},
+    {"term":"Writ","category":"ELECTIONS","plain_language":"A document commanding an electoral officer to hold an election and specifying key electoral dates.","research_use":"Anchor formal election timetable milestones.","status":"VERIFIED","source":"AEC"}
+  ]
+}

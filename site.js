@@ -21,8 +21,14 @@ async function loadPartyRosters(){
       card.className='party-card';
       const leader=(party.actors||[]).find(a=>a.actor_id===party.leader_actor_id);
       const state=teamForm.get(party.party_id)||{form_state:'UNKNOWN',trend:'UNRESOLVED',signals:[],contradictions:[],tip_effects:[]};
-      const squad=squadDepth.get(party.party_id)||{federal_parliamentary_squad:'—',tracked_intelligence_players:(party.actors||[]).length,coverage_state:'UNKNOWN',related_affiliates:[]};
-      const affiliateNote=(squad.related_affiliates||[]).length?`${squad.related_affiliates[0].name}: ${(squad.related_affiliates[0].federal_parliamentarians??'—')} separate federal affiliates`:'No separate affiliate count';
+      const squad=squadDepth.get(party.party_id)||{federal_parliamentary_squad:null,tracked_intelligence_players:(party.actors||[]).length,coverage_state:'UNKNOWN',related_affiliates:[]};
+      const total=Number.isFinite(Number(squad.federal_parliamentary_squad))?Number(squad.federal_parliamentary_squad):null;
+      const tracked=(party.actors||[]).length;
+      const untracked=total==null?null:Math.max(total-tracked,0);
+      const coverage=total&&total>0?Math.round((tracked/total)*100):null;
+      const affiliateNote=(squad.related_affiliates||[]).length
+        ?(squad.related_affiliates||[]).map(a=>`${a.name}: ${a.federal_parliamentarians??'—'}`).join(' · ')
+        :'None separately counted';
       card.innerHTML=`
         <div class="party-head">
           <div>
@@ -34,10 +40,10 @@ async function loadPartyRosters(){
         </div>
         <div class="leader-strip"><b>Captain / leader</b><span>${leader?leader.name:'Not resolved'}</span></div>
         <div class="form-strip">
-          <div><small>FEDERAL PARLIAMENTARY SQUAD</small><strong>${squad.federal_parliamentary_squad}</strong></div>
-          <div><small>TRACKED INTELLIGENCE PLAYERS</small><strong>${(party.actors||[]).length}</strong></div>
-          <div><small>ROSTER COVERAGE</small><strong>${String(squad.coverage_state||'UNKNOWN').replaceAll('_',' ')}</strong></div>
-          <div><small>AFFILIATE DEPTH</small><strong>${affiliateNote}</strong></div>
+          <div><small>TOTAL FEDERAL PLAYERS</small><strong>${total??'—'}</strong></div>
+          <div><small>IN-DEPTH COVERAGE</small><strong>${total==null?tracked:`${tracked} / ${total}`}${coverage==null?'':` · ${coverage}%`}</strong></div>
+          <div><small>NOT YET SHOWN IN DEPTH</small><strong>${untracked??'—'}</strong></div>
+          <div><small>SEPARATE AFFILIATES</small><strong>${affiliateNote}</strong></div>
         </div>
         <div class="form-strip">
           <div><small>TEAM FORM</small><strong>${state.form_state.replaceAll('_',' ')}</strong></div>
@@ -51,7 +57,7 @@ async function loadPartyRosters(){
       for(const actor of party.actors||[]){
         const row=document.createElement('div');
         row.className='player-row';
-        row.innerHTML=`<div><span class="player-label">TRACKED PLAYER</span><b>${actor.name}</b></div><span>${actor.role}</span>`;
+        row.innerHTML=`<div><span class="player-label">PLAYER SHOWN IN DEPTH</span><b>${actor.name}</b></div><span>${actor.role}</span>`;
         roster.appendChild(row);
       }
       host.appendChild(card);
@@ -59,7 +65,7 @@ async function loadPartyRosters(){
     const meta=document.getElementById('roster-meta');
     if(meta)meta.textContent=`${data.scope} • ${data.parties.length} tracked teams • roster ${data.snapshot_id} • squad depth ${depth.snapshot_id} • form ${form.snapshot_id}`;
     const formMeta=document.getElementById('form-meta');
-    if(formMeta)formMeta.textContent=`Team size now distinguishes the full current federal parliamentary squad from the smaller intelligence roster shown on each card. One Nation's current federal parliamentary squad is fully tracked; larger parties remain partial intelligence rosters. Source: ${depth.source.publisher}.`;
+    if(formMeta)formMeta.textContent=`Count rule: TOTAL FEDERAL PLAYERS is the team size. IN-DEPTH COVERAGE is a subset of that same total, not an additional group. Example: One Nation 6 / 6 means six total federal players and all six shown in depth — not twelve players.`;
   }catch(err){
     host.innerHTML='<div class="empty-state"><b>Roster/form feed unavailable</b><p>The runtime data exists but could not be loaded into this page.</p></div>';
   }

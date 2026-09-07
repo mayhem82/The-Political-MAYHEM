@@ -1,5 +1,5 @@
 {
-  "snapshot_id": "POLITICAL-MAYHEM-CANONICAL-001",
+  "snapshot_id": "POLITICAL-MAYHEM-CANONICAL-002",
   "status": "EXPANDING",
   "canonical": {
     "cycle_schema": {"path": "data/canonical/political-cycle.schema.json"},
@@ -20,12 +20,18 @@
     "checkpoint_ledger": "data/runtime/contest-checkpoints.json",
     "projection_ledger": "data/runtime/projections.json",
     "outcome_ledger": "data/runtime/verified-outcomes.json",
-    "audit_ledger": "data/runtime/projection-audits.json"
+    "audit_ledger": "data/runtime/projection-audits.json",
+    "party_rosters": "data/runtime/party-rosters.json",
+    "team_player_form": "data/runtime/team-player-form.json",
+    "team_squad_depth": "data/runtime/team-squad-depth.json",
+    "federal_form_ladder": "data/runtime/federal-ladder.json"
   },
   "integrity": {
     "forward_first": true,
     "hindsight_changes_prohibited": true,
     "retroactive_signal_backfill_prohibited": true,
-    "failed_projections_retained": true
+    "failed_projections_retained": true,
+    "tracked_roster_not_silently_equated_to_full_team": true,
+    "affiliate_counts_not_silently_folded": true
   }
 }

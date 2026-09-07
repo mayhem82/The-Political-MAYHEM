@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "political-contest.schema.json",
+  "title": "Political MAYHEM Political Contest",
+  "type": "object",
+  "required": ["contest_id", "cycle_id", "jurisdiction", "contest_type", "status", "created_at", "updated_at"],
+  "properties": {
+    "contest_id": {"type": "string"},
+    "cycle_id": {"type": "string"},
+    "jurisdiction": {"type": "string"},
+    "contest_type": {"type": "string"},
+    "name": {"type": "string"},
+    "electorate_or_scope": {"type": ["string", "null"]},
+    "scheduled_at": {"type": ["string", "null"], "format": "date-time"},
+    "evidence_cutoff": {"type": ["string", "null"], "format": "date-time"},
+    "status": {"enum": ["UPCOMING", "CONTEST_WINDOW", "OUTCOME_VERIFICATION_PENDING", "VERIFIED_OUTCOME"]},
+    "party_ids": {"type": "array", "items": {"type": "string"}},
+    "actor_ids": {"type": "array", "items": {"type": "string"}},
+    "current_projection_id": {"type": ["string", "null"]},
+    "verified_outcome_id": {"type": ["string", "null"]},
+    "source_refs": {"type": "array", "items": {"type": "string"}},
+    "created_at": {"type": "string", "format": "date-time"},
+    "updated_at": {"type": "string", "format": "date-time"}
+  },
+  "additionalProperties": true
+}

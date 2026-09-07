@@ -1,0 +1,12 @@
+{
+  "snapshot_id": "POLITICAL-PROJECTION-AUDIT-LEDGER-001",
+  "created_at": "2026-09-08T00:00:00+10:00",
+  "audits": [],
+  "rules": {
+    "append_only": true,
+    "incorrect_projection_requires_failure_audit": true,
+    "pre_outcome_evidence_only_for_failure_causation": true,
+    "post_outcome_evidence_separate": true,
+    "frozen_projection_unchanged": true
+  }
+}

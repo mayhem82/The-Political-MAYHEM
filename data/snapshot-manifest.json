@@ -1,0 +1,31 @@
+{
+  "snapshot_id": "POLITICAL-MAYHEM-CANONICAL-001",
+  "status": "EXPANDING",
+  "canonical": {
+    "cycle_schema": {"path": "data/canonical/political-cycle.schema.json"},
+    "contest_schema": {"path": "data/canonical/political-contest.schema.json"},
+    "party_schema": {"path": "data/canonical/party.schema.json"},
+    "actor_schema": {"path": "data/canonical/actor.schema.json"},
+    "source_registry": {"path": "data/source-class-registry.json"},
+    "source_snapshot_schema": {"path": "schema/source-snapshot.schema.json"},
+    "intelligence_event_schema": {"path": "schema/intelligence-event.schema.json"},
+    "checkpoint_schema": {"path": "schema/contest-checkpoint.schema.json"},
+    "contradiction_schema": {"path": "schema/contradiction.schema.json"},
+    "projection_schema": {"path": "schema/projection.schema.json"},
+    "verified_outcome_schema": {"path": "schema/verified-outcome.schema.json"},
+    "projection_audit_schema": {"path": "schema/projection-audit.schema.json"}
+  },
+  "runtime": {
+    "ingestion_manifest": "data/runtime/forward-ingestion-manifest.json",
+    "checkpoint_ledger": "data/runtime/contest-checkpoints.json",
+    "projection_ledger": "data/runtime/projections.json",
+    "outcome_ledger": "data/runtime/verified-outcomes.json",
+    "audit_ledger": "data/runtime/projection-audits.json"
+  },
+  "integrity": {
+    "forward_first": true,
+    "hindsight_changes_prohibited": true,
+    "retroactive_signal_backfill_prohibited": true,
+    "failed_projections_retained": true
+  }
+}

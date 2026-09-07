@@ -1,0 +1,24 @@
+{
+  "snapshot_id": "FORWARD-INGESTION-MANIFEST-001",
+  "mode": "FORWARD_ONLY",
+  "created_at": "2026-09-08T00:00:00+10:00",
+  "rules": {
+    "evidence_must_be_knowable_at_capture_time": true,
+    "captured_at_required": true,
+    "source_snapshot_required": true,
+    "original_source_representation_preserved": true,
+    "later_discovery_creates_new_event": true,
+    "retroactive_insertion_into_prior_projection_prohibited": true,
+    "post_outcome_material_separated": true
+  },
+  "queues": {
+    "sources": [],
+    "snapshots": [],
+    "intelligence_events": [],
+    "contradictions": [],
+    "contest_state_updates": [],
+    "party_state_updates": [],
+    "actor_state_updates": []
+  },
+  "status": "READY_FOR_FORWARD_BASELINE"
+}

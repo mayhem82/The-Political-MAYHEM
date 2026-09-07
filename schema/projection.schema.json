@@ -1,0 +1,38 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://mayhem82.github.io/The-Political-MAYHEM/schema/projection.schema.json",
+  "title": "Political MAYHEM Projection",
+  "type": "object",
+  "required": ["projection_id", "contest_id", "cycle_id", "projected_outcome", "created_at", "evidence_cutoff", "source_snapshot_ids", "projection_state", "integrity"],
+  "properties": {
+    "projection_id": {"type": "string"},
+    "contest_id": {"type": "string"},
+    "cycle_id": {"type": "string"},
+    "projected_outcome": {},
+    "probability": {"type": ["number", "null"], "minimum": 0, "maximum": 1},
+    "confidence": {"type": ["number", "null"], "minimum": 0, "maximum": 100},
+    "created_at": {"type": "string", "format": "date-time"},
+    "evidence_cutoff": {"type": "string", "format": "date-time"},
+    "source_snapshot_ids": {"type": "array", "items": {"type": "string"}},
+    "intelligence_event_ids": {"type": "array", "items": {"type": "string"}},
+    "analysis_lineage": {"type": "array", "items": {"type": "string"}},
+    "model_version": {"type": ["string", "null"]},
+    "rule_version": {"type": ["string", "null"]},
+    "prior_projection_id": {"type": ["string", "null"]},
+    "revision_reason": {"type": ["string", "null"]},
+    "projection_state": {"enum": ["OPEN", "FROZEN", "GRADED"]},
+    "verified_outcome_id": {"type": ["string", "null"]},
+    "grade": {"enum": ["CORRECT", "INCORRECT", "PARTIAL", "VOID", null]},
+    "post_outcome_audit_ref": {"type": ["string", "null"]},
+    "integrity": {
+      "type": "object",
+      "required": ["hindsight_changes_prohibited"],
+      "properties": {
+        "frozen_at": {"type": ["string", "null"], "format": "date-time"},
+        "hindsight_changes_prohibited": {"const": true},
+        "retroactive_signal_backfill_prohibited": {"const": true}
+      }
+    }
+  },
+  "additionalProperties": true
+}

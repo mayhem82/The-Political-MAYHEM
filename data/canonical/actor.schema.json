@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "actor.schema.json",
+  "title": "Political MAYHEM Actor",
+  "type": "object",
+  "required": ["actor_id", "name", "jurisdiction", "observations", "created_at", "updated_at"],
+  "properties": {
+    "actor_id": {"type": "string"},
+    "name": {"type": "string"},
+    "jurisdiction": {"type": "string"},
+    "party_id": {"type": ["string", "null"]},
+    "roles": {"type": "array", "items": {"type": "string"}},
+    "availability_state": {"type": ["string", "null"]},
+    "observations": {"type": "array", "items": {"type": "string"}},
+    "behaviour_refs": {"type": "array", "items": {"type": "string"}},
+    "inference_refs": {"type": "array", "items": {"type": "string"}},
+    "source_refs": {"type": "array", "items": {"type": "string"}},
+    "created_at": {"type": "string", "format": "date-time"},
+    "updated_at": {"type": "string", "format": "date-time"}
+  },
+  "additionalProperties": true
+}

@@ -11,13 +11,12 @@
     <div class="wrap">
       <p class="eyebrow">MAYHEM POLITICAL TIPPING INTELLIGENCE ENGINE</p>
       <h1>The Political MAYHEM</h1>
-      <p class="lede">Politics is the live field. The engine watches it continuously: evidence arrives, actors and parties move, contests emerge and overlap, MAYHEM tips change, relevant tips freeze before their outcome, and every result is audited without hindsight.</p>
+      <p class="lede">Politics is the live field. Parties are the teams, political actors are the players, and the engine watches both continuously while auditable tipping targets emerge, move, freeze and resolve.</p>
       <nav class="tabs" aria-label="Primary">
         <a class="active" href="#field">Live Field</a>
+        <a href="#teams">Teams & Players</a>
         <a href="#live-intelligence">Live Intelligence</a>
         <a href="#tipping">Tipping</a>
-        <a href="#parties">Parties</a>
-        <a href="#actors">Actors</a>
         <a href="#audit">Audit Clock</a>
         <a href="#build">Build Map</a>
       </nav>
@@ -33,50 +32,39 @@
         <p>The engine is not waiting for a single election to begin. It continuously tracks the current political environment and opens, updates, freezes and grades individual tipping targets as they become outcome-bearing.</p>
       </div>
       <div class="watch-grid">
-        <article>
-          <small>FIELD STATE</small>
-          <strong id="contest-state">ACTIVE</strong>
-          <p>Government, opposition, parties, actors, polling, policy, institutions and emerging contests remain under continuous forward watch.</p>
-        </article>
-        <article>
-          <small>ACTIVE MAYHEM TIPS</small>
-          <strong id="current-tip">0 REGISTERED</strong>
-          <p>Multiple tipping targets can coexist. Each keeps its own evidence cutoff, version history, freeze and outcome grade.</p>
-        </article>
-        <article>
-          <small>LIVE SIGNAL STATE</small>
-          <strong id="tip-confidence">FORWARD ONLY</strong>
-          <p>New evidence can move current state and future tips, never rewrite an earlier state.</p>
-        </article>
-        <article>
-          <small>EVIDENCE CLOCK</small>
-          <strong id="evidence-cutoff">RUNNING</strong>
-          <p>Every capture is timestamped so the system can prove what was knowable when each tip existed.</p>
-        </article>
+        <article><small>FIELD STATE</small><strong>ACTIVE</strong><p>Government, opposition, parties, actors, polling, policy, institutions and emerging contests remain under continuous forward watch.</p></article>
+        <article><small>ACTIVE MAYHEM TIPS</small><strong>0 REGISTERED</strong><p>Multiple tipping targets can coexist. Each keeps its own evidence cutoff, version history, freeze and outcome grade.</p></article>
+        <article><small>LIVE SIGNAL STATE</small><strong>FORWARD ONLY</strong><p>New evidence can move current state and future tips, never rewrite an earlier state.</p></article>
+        <article><small>EVIDENCE CLOCK</small><strong>RUNNING</strong><p>Every capture is timestamped so the system can prove what was knowable when each tip existed.</p></article>
       </div>
     </section>
 
-    <section id="live-intelligence">
+    <section id="teams">
       <div class="section-head">
-        <div><span class="kicker">LIVE INTELLIGENCE FEED</span><h2>What is moving across the field</h2></div>
-        <span class="live-dot">CONTINUOUS</span>
+        <div><span class="kicker">TEAMS & PLAYERS</span><h2>Party rosters are the core political field</h2></div>
+        <span class="status-live">FORWARD BASELINE</span>
       </div>
+      <p class="section-copy">The NRL translation is direct: party = team, actor = player. Party form and actor form accumulate continuously and feed every later MAYHEM tip. Coalition relationships are tracked as relationships between teams, not collapsed into a synthetic single party. Independents remain standalone actors rather than being forced into a fake team.</p>
+      <p id="roster-meta" class="roster-meta">Loading federal party roster baseline…</p>
+      <div id="party-rosters" class="party-rosters"><div class="empty-state">Loading teams and players…</div></div>
+    </section>
+
+    <section id="live-intelligence">
+      <div class="section-head"><div><span class="kicker">LIVE INTELLIGENCE FEED</span><h2>What is moving across the field</h2></div><span class="live-dot">CONTINUOUS</span></div>
       <div class="feed">
         <div><b>Source capture</b><span>Official, parliamentary, government, party, actor, polling, disclosure, regulatory, statistical, media-transcript and other classified sources.</span></div>
-        <div><b>Intelligence event</b><span>New verified fact, statement, behaviour, change, signal or contradiction captured with timestamp and provenance.</span></div>
-        <div><b>Party / actor movement</b><span>Leadership, candidacy, alliances, disputes, availability, endorsements, funding, issue exposure and institutional relationships can alter the live state.</span></div>
+        <div><b>Team movement</b><span>Leadership, internal stability, polling, funding, endorsements, alliances, candidate field, issue exposure and institutional relationships change party form.</span></div>
+        <div><b>Player movement</b><span>Role, availability, statements, behaviour, disputes, leadership position, withdrawal, resignation, eligibility and alliances change actor form.</span></div>
         <div><b>Contest formation</b><span>Election, seat, leadership, legislative, referendum, appointment, resignation, removal or government-formation targets can emerge from the continuous field.</span></div>
         <div><b>Tip revision</b><span>Every changed MAYHEM tip becomes a new version. Earlier tips remain immutable.</span></div>
       </div>
     </section>
 
     <section id="tipping">
-      <div class="section-head">
-        <div><span class="kicker">TIPPING ENGINE</span><h2>Continuous field, discrete auditable tips</h2></div>
-      </div>
+      <div class="section-head"><div><span class="kicker">TIPPING ENGINE</span><h2>Continuous field, discrete auditable tips</h2></div></div>
       <div class="tip-flow">
-        <div class="node">Live political field</div><div class="arrow">→</div>
-        <div class="node">Evidence</div><div class="arrow">→</div>
+        <div class="node">Teams + players</div><div class="arrow">→</div>
+        <div class="node">Live evidence</div><div class="arrow">→</div>
         <div class="node">Intelligence state</div><div class="arrow">→</div>
         <div class="node">Tipping target</div><div class="arrow">→</div>
         <div class="node">MAYHEM tip</div><div class="arrow">→</div>
@@ -86,21 +74,19 @@
         <div class="node">Grade / audit</div>
       </div>
       <div class="rules compact">
-        <p><b>Field:</b> politics never goes idle; the evidence environment is continuously changing.</p>
+        <p><b>Team:</b> a political party with its own longitudinal intelligence state.</p>
+        <p><b>Player:</b> a political actor whose longitudinal state belongs to, or interacts with, one or more team and contest states.</p>
         <p><b>Tip:</b> the public-facing selected outcome for a defined political target.</p>
         <p><b>Projection:</b> the immutable analytical record underneath that tip.</p>
         <p><b>Freeze:</b> the last valid pre-outcome tip state for that target. Other political intelligence continues moving.</p>
-        <p><b>Grade:</b> CORRECT, INCORRECT, PARTIAL or VOID against a verified outcome.</p>
       </div>
     </section>
 
     <section id="audit">
-      <div class="section-head">
-        <div><span class="kicker">AUDIT CLOCK</span><h2>Continuous watch with target-specific clocks</h2></div>
-      </div>
+      <div class="section-head"><div><span class="kicker">AUDIT CLOCK</span><h2>Continuous watch with target-specific clocks</h2></div></div>
       <div class="clock-grid">
-        <article><strong>CONTINUOUS BASELINE</strong><span>The political field remains under forward capture even when no single outcome is imminent.</span></article>
-        <article><strong>PERIODIC</strong><span>Recurring capture maintains current party, actor, institutional and contest state.</span></article>
+        <article><strong>CONTINUOUS BASELINE</strong><span>Party and actor states remain under forward capture even when no single outcome is imminent.</span></article>
+        <article><strong>PERIODIC</strong><span>Recurring capture maintains current team, player, institutional and contest state.</span></article>
         <article><strong>MILESTONE</strong><span>Nominations, debates, polling releases, leadership events, legislation, disclosures and other material changes.</span></article>
         <article><strong>T-7D / T-72H / T-24H / T-3H</strong><span>Target-specific tightening where an outcome has a defined close or decision time.</span></article>
         <article><strong>TARGET CLOSE</strong><span>Freeze only the relevant tip. The wider political field remains live.</span></article>
@@ -108,20 +94,11 @@
       </div>
     </section>
 
-    <section id="parties">
-      <div class="section-head"><div><span class="kicker">PARTY INTELLIGENCE</span><h2>Party state layer</h2></div><span class="status-built">BUILT</span></div>
-      <p class="section-copy">Tracks party performance, polling, preference flows, incumbency, candidate field, geography, funding disclosures, endorsements, campaign resource allocation, issue exposure, leadership state, internal stability and institutional relationships when evidence supports them.</p>
-    </section>
-
-    <section id="actors">
-      <div class="section-head"><div><span class="kicker">ACTOR INTELLIGENCE</span><h2>Actor state layer</h2></div><span class="status-built">BUILT</span></div>
-      <p class="section-copy">Tracks candidates, leaders, ministers, opposition figures, independents and influential officials continuously. Observable behaviour, direct statements and inferred psychological or causal conditions remain separate evidence classes.</p>
-    </section>
-
     <section id="build">
       <div class="section-head"><div><span class="kicker">BUILD MAP</span><h2>What exists and where</h2></div><span class="status-live">EXPANDING</span></div>
       <div class="grid">
         <article><h3>Canonical domain</h3><p>Political cycles, contests, parties and actors.</p><span>BUILT</span></article>
+        <article><h3>Party roster baseline</h3><p>Federal teams and tracked players now have a public runtime surface.</p><span>BUILT</span></article>
         <article><h3>Source provenance</h3><p>Source classes and content-hashed source snapshots.</p><span>BUILT</span></article>
         <article><h3>Intelligence events</h3><p>Observed facts, direct statements, signals and separated inference.</p><span>BUILT</span></article>
         <article><h3>Contradictions</h3><p>Competing claims preserved with explicit resolution state.</p><span>BUILT</span></article>
@@ -129,21 +106,19 @@
         <article><h3>Tipping / projection lineage</h3><p>Versioned tips backed by immutable projection records and evidence cutoffs.</p><span>BUILT</span></article>
         <article><h3>Outcome verification</h3><p>Political outcomes tied to authoritative source snapshots.</p><span>BUILT</span></article>
         <article><h3>Failure audit</h3><p>Wrong or partial tips are retained and analysed rather than erased.</p><span>BUILT</span></article>
-        <article><h3>Forward integrity validator</h3><p>Machine checks enforce cutoff discipline and immutable history.</p><span>BUILT</span></article>
-        <article class="next"><h3>Live field ingestion</h3><p>Populate the continuous political baseline, then open and track multiple real tipping targets from that state.</p><span>NEXT</span></article>
+        <article class="next"><h3>Longitudinal team/player state</h3><p>Expand each roster from identity and role into continuously updated form, availability, signals, contradictions and tipping effects.</p><span>NEXT</span></article>
       </div>
-
       <div class="layers">
+        <div><strong>Team/player baseline</strong><small>data/runtime/party-rosters.json</small><p>Current federal party roster snapshot feeding the public site.</p></div>
         <div><strong>Domain objects</strong><small>data/canonical/</small><p>Political cycle, contest, party and actor structures.</p></div>
         <div><strong>Evidence & provenance</strong><small>data/ + schema/</small><p>Source registry, snapshots, intelligence events and contradictions.</p></div>
         <div><strong>Forward runtime</strong><small>data/runtime/</small><p>Continuous ingestion, checkpoints, tips/projections, outcomes and audits.</p></div>
-        <div><strong>Integrity controls</strong><small>scripts/</small><p>Forward-only and immutable-history validation.</p></div>
-        <div><strong>Automation</strong><small>.github/workflows/</small><p>Continuous integrity checks on repository changes.</p></div>
-        <div><strong>Architecture</strong><small>docs/</small><p>Canonical operating rules and expansion sequence.</p></div>
+        <div><strong>Public renderer</strong><small>site.js</small><p>Loads runtime team/player data directly into the website.</p></div>
       </div>
     </section>
   </main>
 
-  <footer><div class="wrap">The Political MAYHEM • Continuous political tipping intelligence • Forward-first • Auditable • EXPANDING — NEVER COMPLETE</div></footer>
+  <footer><div class="wrap">The Political MAYHEM • Continuous political tipping intelligence • Teams + players • Forward-first • Auditable • EXPANDING — NEVER COMPLETE</div></footer>
+  <script src="site.js"></script>
 </body>
 </html>

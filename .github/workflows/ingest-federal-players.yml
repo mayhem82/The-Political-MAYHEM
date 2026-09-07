@@ -1,0 +1,43 @@
+name: Ingest Federal Players
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '15 21 * * *'
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/ingest-federal-parliament.py'
+      - '.github/workflows/ingest-federal-players.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  ingest:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Ingest every current federal parliamentarian
+        run: python scripts/ingest-federal-parliament.py
+
+      - name: Commit refreshed parliamentary runtime
+        run: |
+          git config user.name "Political MAYHEM Runtime"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/runtime/federal-parliamentary-players.json data/runtime/party-rosters.json data/runtime/team-squad-depth.json data/runtime/team-player-form.json
+          if git diff --cached --quiet; then
+            echo "No parliamentary roster changes"
+            exit 0
+          fi
+          git commit -m "Refresh complete federal parliamentary player roster"
+          git push

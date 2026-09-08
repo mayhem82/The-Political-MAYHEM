@@ -31,6 +31,8 @@ jobs:
         run: node scripts/validate-political-competition-classes.mjs
       - name: Validate player competition slate
         run: node scripts/validate-player-competition-slate.mjs
+      - name: Validate Political MAYHEM match events
+        run: node scripts/validate-competition-events.mjs
       - name: Validate political temporal engine
         run: node scripts/validate-political-temporal-engine.mjs
       - name: Validate record diff engine

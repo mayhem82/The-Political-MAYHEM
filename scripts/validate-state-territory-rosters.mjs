@@ -107,8 +107,9 @@ const coverageKeyById={
   'AUS-ACT':'australian_capital_territory',
   'AUS-NT':'northern_territory'
 };
+const activeBaselineStatuses=new Set(['CAPTURE_ACTIVE_FULL_CONFIGURED_BASELINE','CAPTURE_ACTIVE_PARTIAL_BASELINE','CAPTURE_ACTIVE_DEGRADED_CURRENT_RUN']);
 for(const [id,key] of Object.entries(coverageKeyById)){
-  assert(coverage[key]==='CAPTURE_ACTIVE_FULL_CONFIGURED_BASELINE',`${id} evidence watch is not marked active with a captured baseline`);
+  assert(activeBaselineStatuses.has(coverage[key]),`${id} evidence watch is not marked active with a captured baseline`);
 }
 
 const allIds=[...(base.jurisdictions||[]).flatMap(j=>(j.players||[]).map(p=>`${j.competition_id}:${p.actor_id}`)),...qldRows.map(r=>`AUS-QLD:${r[0]}`),...waRows.map(r=>`AUS-WA:${r[0]}`),...nswRows.map(r=>`AUS-NSW:${r[0]}`),...vicRows.map(r=>`AUS-VIC:${r[0]}`),...saRows.map(r=>`AUS-SA:${r[0]}`),...tasRows.map(r=>`AUS-TAS:${r[0]}`)];

@@ -1,5 +1,5 @@
 {
-  "field_id": "AUSTRALIAN-POLITICAL-COMPETITIONS-006",
+  "field_id": "AUSTRALIAN-POLITICAL-COMPETITIONS-007",
   "captured_at": "2026-09-08T10:51:00+10:00",
   "status": "ACTIVE_MULTI_JURISDICTION_FIELD",
   "sports_translation": {
@@ -14,15 +14,15 @@
     {"competition_id":"AUS-QLD","jurisdiction":"Queensland","level":"STATE","public_label":"Queensland","field_state":"ACTIVE","ingestion_state":"CURRENT_PARLIAMENTARY_ROSTER_INGESTED","player_state":"93_CURRENT_MEMBERS_INGESTED","ingested_player_count":93,"party_team_count":4,"independent_player_count":1},
     {"competition_id":"AUS-WA","jurisdiction":"Western Australia","level":"STATE","public_label":"Western Australia","field_state":"ACTIVE","ingestion_state":"CURRENT_PARLIAMENTARY_ROSTER_INGESTED","player_state":"95_CURRENT_MEMBERS_INGESTED","ingested_player_count":95,"party_team_count":8,"independent_player_count":1},
     {"competition_id":"AUS-SA","jurisdiction":"South Australia","level":"STATE","public_label":"South Australia","field_state":"ACTIVE","ingestion_state":"STRUCTURAL_INGESTION_PENDING","player_state":"PENDING"},
-    {"competition_id":"AUS-TAS","jurisdiction":"Tasmania","level":"STATE","public_label":"Tasmania","field_state":"ACTIVE","ingestion_state":"STRUCTURAL_INGESTION_PENDING","player_state":"PENDING"},
+    {"competition_id":"AUS-TAS","jurisdiction":"Tasmania","level":"STATE","public_label":"Tasmania","field_state":"ACTIVE","ingestion_state":"CURRENT_PARLIAMENTARY_ROSTER_INGESTED","player_state":"50_CURRENT_MEMBERS_INGESTED","ingested_player_count":50,"party_team_count":4,"independent_player_count":13},
     {"competition_id":"AUS-ACT","jurisdiction":"Australian Capital Territory","level":"TERRITORY","public_label":"ACT","field_state":"ACTIVE","ingestion_state":"CURRENT_PARLIAMENTARY_ROSTER_INGESTED","player_state":"25_CURRENT_MEMBERS_INGESTED","ingested_player_count":25,"party_team_count":3,"independent_player_count":3},
     {"competition_id":"AUS-NT","jurisdiction":"Northern Territory","level":"TERRITORY","public_label":"Northern Territory","field_state":"ACTIVE","ingestion_state":"CURRENT_PARLIAMENTARY_ROSTER_INGESTED","player_state":"25_CURRENT_MEMBERS_INGESTED","ingested_player_count":25,"party_team_count":2,"independent_player_count":3}
   ],
   "ingestion_progress": {
     "state_territory_jurisdictions_total": 8,
-    "state_territory_jurisdictions_with_complete_current_player_rosters": 6,
-    "state_territory_players_ingested": 501,
-    "remaining_jurisdictions": ["AUS-SA","AUS-TAS"]
+    "state_territory_jurisdictions_with_complete_current_player_rosters": 7,
+    "state_territory_players_ingested": 551,
+    "remaining_jurisdictions": ["AUS-SA"]
   },
   "integrity": {
     "jurisdictions_remain_distinct": true,

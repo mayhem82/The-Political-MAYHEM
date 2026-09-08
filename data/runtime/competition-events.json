@@ -35,6 +35,12 @@
       "PASSAGE_STATUS_EVENT"
     ]
   },
+  "allowed": {
+    "side": ["SUPPORTING", "OPPOSING", "NEUTRAL_OR_UNRESOLVED", "ELECTORAL_FIELD"],
+    "evidence_state": ["VERIFIED", "UNVERIFIED", "CONTRADICTED", "UNKNOWN"],
+    "competition_effect": ["NO_EFFECT", "ADVANTAGE_SUPPORTING", "ADVANTAGE_OPPOSING", "CONTEST_STATE_CHANGE", "OUTCOME_VERIFICATION_TRIGGER"],
+    "projection_effect": ["NO_EFFECT", "CONFIDENCE_CHANGE", "RANKING_CHANGE", "OUTCOME_SELECTION_CHANGE", "ABSTAIN_INSUFFICIENT_EVIDENCE"]
+  },
   "event_fields": [
     "event_id",
     "contest_id",

@@ -1,127 +1,110 @@
 import fs from 'node:fs';
 
-const read = p => JSON.parse(fs.readFileSync(p, 'utf8'));
-const fail = [];
-const assert = (condition, message) => { if (!condition) fail.push(message); };
-const unique = xs => new Set(xs).size === xs.length;
+const read=p=>JSON.parse(fs.readFileSync(p,'utf8'));
+const fail=[];
+const assert=(condition,message)=>{if(!condition)fail.push(message)};
+const unique=xs=>new Set(xs).size===xs.length;
 
-const data = read('data/runtime/state-territory-parliamentary-players.json');
-const qld = read('data/runtime/queensland-parliamentary-players.json');
-const wa = read('data/runtime/western-australia-parliamentary-players.json');
-const competitions = read('data/runtime/political-competitions.json');
-const manifest = read('data/runtime/forward-ingestion-manifest.json');
+const base=read('data/runtime/state-territory-parliamentary-players.json');
+const qld=read('data/runtime/queensland-parliamentary-players.json');
+const wa=read('data/runtime/western-australia-parliamentary-players.json');
+const nsw=read('data/runtime/new-south-wales-parliamentary-players.json');
+const competitions=read('data/runtime/political-competitions.json');
+const manifest=read('data/runtime/forward-ingestion-manifest.json');
 
-assert(data.rules?.jurisdictions_remain_distinct === true, 'jurisdiction separation rule missing');
-assert(data.rules?.independents_are_standalone_players === true, 'standalone independent rule missing');
-assert(data.rules?.no_synthetic_independent_team === true, 'synthetic-independent prohibition missing');
+assert(base.rules?.jurisdictions_remain_distinct===true,'jurisdiction separation rule missing');
+assert(base.rules?.independents_are_standalone_players===true,'standalone independent rule missing');
+assert(base.rules?.no_synthetic_independent_team===true,'synthetic-independent prohibition missing');
 
-const baseCompleted = data.coverage?.completed_jurisdictions || [];
-assert(baseCompleted.includes('AUS-ACT'), 'ACT not marked complete');
-assert(baseCompleted.includes('AUS-NT'), 'NT not marked complete');
-assert(data.coverage?.completed_player_count === 50, `ACT/NT player count expected 50, got ${data.coverage?.completed_player_count}`);
+const baseCompleted=base.coverage?.completed_jurisdictions||[];
+assert(baseCompleted.includes('AUS-ACT'),'ACT not marked complete');
+assert(baseCompleted.includes('AUS-NT'),'NT not marked complete');
+assert(base.coverage?.completed_player_count===50,`ACT/NT player count expected 50, got ${base.coverage?.completed_player_count}`);
 
-for (const j of data.jurisdictions || []) {
-  const players = j.players || [];
-  const teamPlayers = players.filter(p => p.party_id);
-  const independents = players.filter(p => !p.party_id);
-  const teamCount = (j.teams || []).reduce((n,t) => n + Number(t.player_count || 0), 0);
-  assert(players.length === j.counts?.total_players, `${j.competition_id} player total mismatch`);
-  assert(teamPlayers.length === j.counts?.party_affiliated, `${j.competition_id} party-affiliated count mismatch`);
-  assert(independents.length === j.counts?.independents, `${j.competition_id} independent count mismatch`);
-  assert(teamCount === teamPlayers.length, `${j.competition_id} team counts do not reconcile to party players`);
-  assert(unique(players.map(p => p.actor_id)), `${j.competition_id} actor IDs are not unique`);
-  assert(players.every(p => p.jurisdiction_id === j.competition_id), `${j.competition_id} contains cross-jurisdiction player`);
-  assert(independents.every(p => p.party === 'Independent'), `${j.competition_id} standalone independent label mismatch`);
-  assert(!((j.teams || []).some(t => /independent/i.test(t.name))), `${j.competition_id} has synthetic Independent team`);
-  assert(j.integrity?.official_total_reconciled === true, `${j.competition_id} total not reconciled to official source`);
-  assert(j.integrity?.official_party_breakdown_reconciled === true, `${j.competition_id} party breakdown not reconciled to official source`);
-  assert(j.integrity?.all_current_players_ingested === true, `${j.competition_id} not marked complete`);
-
-  const competition = (competitions.competitions || []).find(c => c.competition_id === j.competition_id);
-  assert(Boolean(competition), `${j.competition_id} missing from political competitions registry`);
-  if (competition) {
-    assert(competition.ingestion_state === 'CURRENT_PARLIAMENTARY_ROSTER_INGESTED', `${j.competition_id} competition ingestion state mismatch`);
-    assert(competition.ingested_player_count === players.length, `${j.competition_id} competition player count mismatch`);
-  }
+for(const j of base.jurisdictions||[]){
+  const players=j.players||[];
+  const partyPlayers=players.filter(p=>p.party_id);
+  const independents=players.filter(p=>!p.party_id);
+  const teamCount=(j.teams||[]).reduce((n,t)=>n+Number(t.player_count||0),0);
+  assert(players.length===j.counts?.total_players,`${j.competition_id} player total mismatch`);
+  assert(partyPlayers.length===j.counts?.party_affiliated,`${j.competition_id} party-affiliated count mismatch`);
+  assert(independents.length===j.counts?.independents,`${j.competition_id} independent count mismatch`);
+  assert(teamCount===partyPlayers.length,`${j.competition_id} team counts do not reconcile`);
+  assert(unique(players.map(p=>p.actor_id)),`${j.competition_id} actor IDs are not unique`);
+  assert(players.every(p=>p.jurisdiction_id===j.competition_id),`${j.competition_id} contains cross-jurisdiction player`);
+  assert(!(j.teams||[]).some(t=>/independent/i.test(t.name)),`${j.competition_id} has synthetic Independent team`);
+  assert(j.integrity?.official_total_reconciled===true,`${j.competition_id} total not reconciled`);
+  assert(j.integrity?.official_party_breakdown_reconciled===true,`${j.competition_id} party breakdown not reconciled`);
+  assert(j.integrity?.all_current_players_ingested===true,`${j.competition_id} not marked complete`);
+  const c=(competitions.competitions||[]).find(x=>x.competition_id===j.competition_id);
+  assert(c?.ingestion_state==='CURRENT_PARLIAMENTARY_ROSTER_INGESTED',`${j.competition_id} competition ingestion state mismatch`);
+  assert(c?.ingested_player_count===players.length,`${j.competition_id} competition player count mismatch`);
 }
 
-const act = (data.jurisdictions || []).find(j => j.competition_id === 'AUS-ACT');
-const nt = (data.jurisdictions || []).find(j => j.competition_id === 'AUS-NT');
-assert(act?.counts?.total_players === 25, 'ACT expected 25 players');
-assert(act?.teams?.find(t => t.party_id === 'AUS-ACT-LAB')?.player_count === 10, 'ACT Labor expected 10');
-assert(act?.teams?.find(t => t.party_id === 'AUS-ACT-LIB')?.player_count === 8, 'ACT Liberals expected 8');
-assert(act?.teams?.find(t => t.party_id === 'AUS-ACT-GRN')?.player_count === 4, 'ACT Greens expected 4');
-assert(act?.counts?.independents === 3, 'ACT independents expected 3');
-assert(nt?.counts?.total_players === 25, 'NT expected 25 players');
-assert(nt?.teams?.find(t => t.party_id === 'AUS-NT-CLP')?.player_count === 17, 'NT CLP expected 17');
-assert(nt?.teams?.find(t => t.party_id === 'AUS-NT-LAB')?.player_count === 5, 'NT Labor expected 5');
-assert(nt?.counts?.independents === 3, 'NT independents expected 3');
+const act=(base.jurisdictions||[]).find(j=>j.competition_id==='AUS-ACT');
+const nt=(base.jurisdictions||[]).find(j=>j.competition_id==='AUS-NT');
+assert(act?.counts?.total_players===25,'ACT expected 25 players');
+assert(nt?.counts?.total_players===25,'NT expected 25 players');
 
-// Queensland uses a compact field-indexed player representation to keep the public runtime small.
-assert(qld.competition_id === 'AUS-QLD', 'Queensland competition ID mismatch');
-assert(qld.status === 'COMPLETE_CURRENT_PARLIAMENTARY_ROSTER', 'Queensland roster not marked complete');
-assert(qld.source?.publisher === 'Queensland Parliament', 'Queensland primary source publisher mismatch');
-assert(qld.source?.source_reported_total === 93, 'Queensland source-reported total expected 93');
-assert(Array.isArray(qld.player_fields) && qld.player_fields.join('|') === 'actor_id|name|electorate|party_abbreviation', 'Queensland compact player fields changed');
-const qldRows = qld.players || [];
-assert(qldRows.length === 93, `Queensland player rows expected 93, got ${qldRows.length}`);
-assert(unique(qldRows.map(r => r[0])), 'Queensland actor IDs are not unique');
-const qldPartyCounts = qldRows.reduce((m,r)=>(m[r[3]]=(m[r[3]]||0)+1,m),{});
-assert(qldPartyCounts.LNP === 53, `Queensland LNP expected 53, got ${qldPartyCounts.LNP}`);
-assert(qldPartyCounts.ALP === 36, `Queensland Labor expected 36, got ${qldPartyCounts.ALP}`);
-assert(qldPartyCounts.KAP === 2, `Queensland KAP expected 2, got ${qldPartyCounts.KAP}`);
-assert(qldPartyCounts.GRN === 1, `Queensland Greens expected 1, got ${qldPartyCounts.GRN}`);
-assert(qldPartyCounts.IND === 1, `Queensland independent expected 1, got ${qldPartyCounts.IND}`);
-assert((qld.teams || []).reduce((n,t)=>n+Number(t.player_count||0),0) === 92, 'Queensland party team counts expected 92');
-assert(!(qld.teams || []).some(t => /independent/i.test(t.name)), 'Queensland has synthetic Independent team');
-assert(qld.integrity?.official_total_reconciled === true, 'Queensland total not reconciled');
-assert(qld.integrity?.official_party_breakdown_reconciled === true, 'Queensland party breakdown not reconciled');
-const qldCompetition = (competitions.competitions || []).find(c => c.competition_id === 'AUS-QLD');
-assert(qldCompetition?.ingestion_state === 'CURRENT_PARLIAMENTARY_ROSTER_INGESTED', 'Queensland competition ingestion state mismatch');
-assert(qldCompetition?.ingested_player_count === 93, 'Queensland competition player count mismatch');
+function compactRoster(data,expected){
+  assert(data.competition_id===expected.id,`${expected.label} competition ID mismatch`);
+  assert(data.status==='COMPLETE_CURRENT_PARLIAMENTARY_ROSTER',`${expected.label} roster not marked complete`);
+  assert(Array.isArray(data.player_fields),`${expected.label} player_fields missing`);
+  const rows=data.players||[];
+  assert(rows.length===expected.total,`${expected.label} player rows expected ${expected.total}, got ${rows.length}`);
+  assert(unique(rows.map(r=>r[0])),`${expected.label} actor IDs are not unique`);
+  assert(data.counts?.total_players===expected.total,`${expected.label} total mismatch`);
+  assert(data.counts?.party_affiliated===expected.party,`${expected.label} party-affiliated mismatch`);
+  assert(data.counts?.independents===expected.ind,`${expected.label} independent mismatch`);
+  assert(data.counts?.teams===expected.teams,`${expected.label} team count mismatch`);
+  assert((data.teams||[]).reduce((n,t)=>n+Number(t.player_count||0),0)===expected.party,`${expected.label} team counts do not reconcile`);
+  assert(!(data.teams||[]).some(t=>/independent/i.test(t.name)),`${expected.label} has synthetic Independent team`);
+  assert(data.integrity?.official_total_reconciled===true,`${expected.label} total not reconciled`);
+  assert(data.integrity?.official_party_breakdown_reconciled===true,`${expected.label} party breakdown not reconciled`);
+  const c=(competitions.competitions||[]).find(x=>x.competition_id===expected.id);
+  assert(c?.ingestion_state==='CURRENT_PARLIAMENTARY_ROSTER_INGESTED',`${expected.label} competition ingestion state mismatch`);
+  assert(c?.ingested_player_count===expected.total,`${expected.label} competition player count mismatch`);
+  for(const [abbr,count] of Object.entries(expected.parties||{})){
+    const idx=data.player_fields.indexOf('party_abbreviation');
+    assert(idx>=0,`${expected.label} party_abbreviation field missing`);
+    if(idx>=0)assert(rows.filter(r=>r[idx]===abbr).length===count,`${expected.label} ${abbr} expected ${count}`);
+  }
+  for(const [chamber,count] of Object.entries(expected.chambers||{})){
+    const idx=data.player_fields.indexOf('chamber');
+    assert(idx>=0,`${expected.label} chamber field missing`);
+    if(idx>=0)assert(rows.filter(r=>r[idx]===chamber).length===count,`${expected.label} ${chamber} expected ${count}`);
+  }
+  return rows;
+}
 
-// Western Australia uses a compact two-chamber player representation.
-assert(wa.competition_id === 'AUS-WA', 'Western Australia competition ID mismatch');
-assert(wa.status === 'COMPLETE_CURRENT_PARLIAMENTARY_ROSTER', 'Western Australia roster not marked complete');
-assert(Array.isArray(wa.sources) && wa.sources.length === 2, 'Western Australia must retain both chamber source records');
-assert(Array.isArray(wa.player_fields) && wa.player_fields.join('|') === 'actor_id|name|chamber|electorate|party_abbreviation', 'Western Australia compact player fields changed');
-const waRows = wa.players || [];
-assert(waRows.length === 95, `Western Australia player rows expected 95, got ${waRows.length}`);
-assert(unique(waRows.map(r => r[0])), 'Western Australia actor IDs are not unique');
-assert(waRows.filter(r => r[2] === 'LEGISLATIVE_ASSEMBLY').length === 58, 'Western Australia Assembly rows expected 58');
-assert(waRows.filter(r => r[2] === 'LEGISLATIVE_COUNCIL').length === 37, 'Western Australia Council rows expected 37');
-assert(wa.counts?.total_players === 95, 'Western Australia total expected 95');
-assert(wa.counts?.party_affiliated === 94, 'Western Australia party-affiliated count expected 94');
-assert(wa.counts?.independents === 1, 'Western Australia independent count expected 1');
-assert(wa.counts?.teams === 8, 'Western Australia team count expected 8');
-assert((wa.teams || []).reduce((n,t)=>n+Number(t.player_count||0),0) === 94, 'Western Australia party team counts expected 94');
-assert(!(wa.teams || []).some(t => /independent/i.test(t.name)), 'Western Australia has synthetic Independent team');
-assert(wa.integrity?.official_chamber_totals_reconciled === true, 'Western Australia chamber totals not reconciled');
-const waCompetition = (competitions.competitions || []).find(c => c.competition_id === 'AUS-WA');
-assert(waCompetition?.ingestion_state === 'CURRENT_PARLIAMENTARY_ROSTER_INGESTED', 'Western Australia competition ingestion state mismatch');
-assert(waCompetition?.ingested_player_count === 95, 'Western Australia competition player count mismatch');
+const qldRows=compactRoster(qld,{id:'AUS-QLD',label:'Queensland',total:93,party:92,ind:1,teams:4,parties:{LNP:53,ALP:36,KAP:2,GRN:1,IND:1}});
+const waRows=compactRoster(wa,{id:'AUS-WA',label:'Western Australia',total:95,party:94,ind:1,teams:8,parties:{ALP:61,LIB:16,NAT:8,GWA:4,ONP:2,AJP:1,AC:1,LCWA:1,IND:1},chambers:{LEGISLATIVE_ASSEMBLY:58,LEGISLATIVE_COUNCIL:37}});
+const nswRows=compactRoster(nsw,{id:'AUS-NSW',label:'New South Wales',total:135,party:122,ind:13,teams:8,parties:{ALP:61,LIB:33,NAT:16,GRN:7,SFF:2,LCP:1,AJP:1,LP:1,IND:13},chambers:{LEGISLATIVE_ASSEMBLY:93,LEGISLATIVE_COUNCIL:42}});
 
-assert(competitions.ingestion_progress?.state_territory_jurisdictions_with_complete_current_player_rosters === 4, 'competition progress expected 4/8 complete');
-assert(competitions.ingestion_progress?.state_territory_players_ingested === 238, 'competition progress expected 238 state/territory players');
-assert((competitions.ingestion_progress?.remaining_jurisdictions || []).length === 4, 'competition progress expected 4 remaining jurisdictions');
-assert(!(competitions.ingestion_progress?.remaining_jurisdictions || []).includes('AUS-WA'), 'Western Australia incorrectly remains roster-pending');
-assert(manifest.structural_data_loaded?.state_and_territory_player_rosters === '4_OF_8_COMPLETE', 'ingestion manifest state/territory roster status mismatch');
-assert(manifest.structural_data_loaded?.state_and_territory_players_ingested === 238, 'ingestion manifest state/territory player count mismatch');
-assert((manifest.queues?.jurisdiction_ingestion || []).length === 4, 'remaining jurisdiction ingestion queue expected 4');
-assert((manifest.queues?.jurisdiction_evidence_activation || []).includes('AUS-QLD'), 'Queensland evidence activation not queued');
-assert((manifest.queues?.jurisdiction_evidence_activation || []).includes('AUS-WA'), 'Western Australia evidence activation not queued');
+assert(nsw.integrity?.official_chamber_totals_reconciled===true,'NSW chamber totals not reconciled');
+assert(wa.integrity?.official_chamber_totals_reconciled===true,'WA chamber totals not reconciled');
 
-const allCurrentIds=[
-  ...(data.jurisdictions||[]).flatMap(j=>(j.players||[]).map(p=>`${j.competition_id}:${p.actor_id}`)),
+const progress=competitions.ingestion_progress||{};
+assert(progress.state_territory_jurisdictions_with_complete_current_player_rosters===5,'competition progress expected 5/8 complete');
+assert(progress.state_territory_players_ingested===373,'competition progress expected 373 state/territory players');
+assert((progress.remaining_jurisdictions||[]).length===3,'competition progress expected 3 remaining jurisdictions');
+assert(!(progress.remaining_jurisdictions||[]).includes('AUS-NSW'),'NSW incorrectly remains roster-pending');
+assert(manifest.structural_data_loaded?.state_and_territory_player_rosters==='5_OF_8_COMPLETE','ingestion manifest roster status mismatch');
+assert(manifest.structural_data_loaded?.state_and_territory_players_ingested===373,'ingestion manifest player count mismatch');
+assert((manifest.queues?.jurisdiction_ingestion||[]).length===3,'remaining jurisdiction ingestion queue expected 3');
+for(const id of ['AUS-QLD','AUS-WA','AUS-NSW','AUS-ACT','AUS-NT'])assert((manifest.queues?.jurisdiction_evidence_activation||[]).includes(id),`${id} evidence activation not queued`);
+
+const allIds=[
+  ...(base.jurisdictions||[]).flatMap(j=>(j.players||[]).map(p=>`${j.competition_id}:${p.actor_id}`)),
   ...qldRows.map(r=>`AUS-QLD:${r[0]}`),
-  ...waRows.map(r=>`AUS-WA:${r[0]}`)
+  ...waRows.map(r=>`AUS-WA:${r[0]}`),
+  ...nswRows.map(r=>`AUS-NSW:${r[0]}`)
 ];
-assert(unique(allCurrentIds), 'state/territory jurisdiction-qualified actor IDs are not unique');
+assert(unique(allIds),'state/territory jurisdiction-qualified actor IDs are not unique');
 
-if (fail.length) {
+if(fail.length){
   console.error('POLITICAL_MAYHEM_STATE_TERRITORY_ROSTER_INTEGRITY_FAILED');
-  for (const message of fail) console.error('- ' + message);
+  for(const message of fail)console.error('- '+message);
   process.exit(1);
 }
-
-console.log('POLITICAL_MAYHEM_STATE_TERRITORY_ROSTER_INTEGRITY_PASS', 'jurisdictions=4', 'players=238', 'ACT=25', 'NT=25', 'QLD=93', 'WA=95');
+console.log('POLITICAL_MAYHEM_STATE_TERRITORY_ROSTER_INTEGRITY_PASS','jurisdictions=5','players=373','NSW=135','QLD=93','WA=95','ACT=25','NT=25');

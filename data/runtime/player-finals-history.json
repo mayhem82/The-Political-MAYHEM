@@ -1,0 +1,32 @@
+{
+  "ledger_id": "POLITICAL-PLAYER-FINALS-HISTORY-001",
+  "status": "HISTORICAL_BACKFILL_IN_PROGRESS",
+  "purpose": "Source-backed Political MAYHEM player finals history. One entry represents one verified election candidacy/final actually entered by a player.",
+  "rules": {
+    "one_entry_per_actor_per_election_contest": true,
+    "election_day_team_is_immutable": true,
+    "current_affiliation_must_not_rewrite_historical_team": true,
+    "win_requires_verified_election_result": true,
+    "loss_requires_verified_candidacy_and_non_election": true,
+    "missing_history_is_not_zero": true,
+    "career_total_requires_complete_player_history": true,
+    "source_lineage_required": true,
+    "retrospective_discovery_is_valid_evidence": true
+  },
+  "coverage": {
+    "AUS-FED": {
+      "state": "BACKFILL_PENDING",
+      "career_totals_authorised": false,
+      "source_authority": "Australian Electoral Commission"
+    },
+    "AUS-NSW": {"state":"BACKFILL_PENDING","career_totals_authorised":false},
+    "AUS-VIC": {"state":"BACKFILL_PENDING","career_totals_authorised":false},
+    "AUS-QLD": {"state":"BACKFILL_PENDING","career_totals_authorised":false},
+    "AUS-WA": {"state":"BACKFILL_PENDING","career_totals_authorised":false},
+    "AUS-SA": {"state":"BACKFILL_PENDING","career_totals_authorised":false},
+    "AUS-TAS": {"state":"BACKFILL_PENDING","career_totals_authorised":false},
+    "AUS-ACT": {"state":"BACKFILL_PENDING","career_totals_authorised":false},
+    "AUS-NT": {"state":"BACKFILL_PENDING","career_totals_authorised":false}
+  },
+  "entries": []
+}

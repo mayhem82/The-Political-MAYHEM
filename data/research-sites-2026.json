@@ -1,0 +1,64 @@
+{
+  "system": "The Political MAYHEM",
+  "year": 2026,
+  "snapshot": "POLITICAL-RESEARCH-SITES-SNAP-001",
+  "purpose": "Source-location registry for systematic Australian political evidence acquisition. A listed site or endpoint is a research location, not evidence by itself.",
+  "rules": [
+    "Prefer parliament, electoral authority, government and official party sources for primary political facts and attributed claims.",
+    "Preserve source URL, source snapshot ID and genuine capture time for evidence actually ingested.",
+    "A site listing is not evidence by itself.",
+    "A raw source change is not a political signal; semantic promotion requires the configured review path.",
+    "Party and government claims remain attributed to their publisher unless independently verified.",
+    "Observation remains distinct from inference and no projection effect occurs without registered evidence lineage.",
+    "Jurisdictions remain distinct; cross-jurisdiction effects require explicit evidence rather than assumed transfer.",
+    "Current parliamentary, electoral, government and party publication surfaces change on different clocks and remain separate research targets.",
+    "Structured publication additions may enter deterministic review, but publication does not verify the underlying claim content.",
+    "Contradictions remain visible until evidence resolves them; resolution must preserve the original claims and identify the resolving evidence.",
+    "Historical material may support context and reconstruction, but forward-state claims require contemporaneous forward capture.",
+    "No source is silently substituted for another jurisdiction, publisher or evidentiary class."
+  ],
+  "sites": [
+    {"name":"Parliament of Australia — Live Minutes","url":"https://www.aph.gov.au/LiveMinutes","class":"PRIMARY_PARLIAMENT","source_id":"SRC-APH-LIVE-MINUTES","jurisdiction":"AUS-FED","research_use":"Forward capture of published federal chamber activity and parliamentary state changes."},
+    {"name":"Parliament of Australia — Senate Week Ahead","url":"https://www.aph.gov.au/Parliamentary_Business/Chamber_documents/Senate_chamber_documents/The_Week_Ahead","class":"PRIMARY_PARLIAMENT","source_id":"SRC-APH-WEEK-AHEAD","jurisdiction":"AUS-FED","research_use":"Forward capture of the published Senate program and scheduled parliamentary business."},
+    {"name":"Australian Electoral Commission — media","url":"https://www.aec.gov.au/media/","class":"PRIMARY_ELECTORAL_AUTHORITY","source_id":"SRC-AEC-MEDIA","jurisdiction":"AUS-FED","research_use":"Federal electoral administration, notices, election operations and official media releases."},
+    {"name":"Prime Minister of Australia — media","url":"https://www.pm.gov.au/media","class":"PRIMARY_GOVERNMENT","source_id":"SRC-PM-MEDIA","jurisdiction":"AUS-FED","research_use":"Official Prime Minister media releases, speeches, transcripts and government political communications."},
+    {"name":"Australian Labor Party — news","url":"https://www.alp.org.au/news/","class":"PRIMARY_PARTY","source_id":"SRC-ALP-FEDERAL-NEWS","jurisdiction":"AUS-FED","research_use":"Attributed federal Labor announcements, campaign communication and party-position changes."},
+    {"name":"Liberal Party of Australia — official site","url":"https://www.liberal.org.au/","class":"PRIMARY_PARTY","source_id":"SRC-LIBERAL-FEDERAL-HOME","jurisdiction":"AUS-FED","research_use":"Attributed federal Liberal announcements, campaign communication and party-position changes."},
+    {"name":"Australian Greens — Federal MPs media releases","url":"https://greens.org.au/news/media-releases","class":"PRIMARY_PARTY","source_id":"SRC-GREENS-FEDERAL-RELEASE-INDEX","jurisdiction":"AUS-FED","research_use":"Attributed Greens federal media releases, policy communication and spokesperson activity."},
+    {"name":"The Nationals — Latest News","url":"https://www.nationals.org.au/news","class":"PRIMARY_PARTY","source_id":"SRC-NATIONALS-FEDERAL-NEWS","jurisdiction":"AUS-FED","research_use":"Attributed Nationals announcements, policy communication and campaign activity."},
+    {"name":"Pauline Hanson's One Nation — Latest News","url":"https://www.onenation.org.au/news","class":"PRIMARY_PARTY","source_id":"SRC-ONENATION-FEDERAL-NEWS","jurisdiction":"AUS-FED","research_use":"Attributed One Nation announcements, policy communication and campaign activity."},
+
+    {"name":"Parliament of NSW — Hansard and House papers","url":"https://www.parliament.nsw.gov.au/parliamentary-business/hansard","class":"PRIMARY_PARLIAMENT","source_id":"SRC-NSW-HANSARD","jurisdiction":"AUS-NSW","research_use":"NSW parliamentary proceedings, statements and legislative activity."},
+    {"name":"NSW Government — Ministerial releases","url":"https://www.nsw.gov.au/ministerial-releases","class":"PRIMARY_GOVERNMENT","source_id":"SRC-NSW-MINISTERIAL-RELEASES","jurisdiction":"AUS-NSW","research_use":"NSW ministerial announcements and government policy communication."},
+    {"name":"NSW Electoral Commission — news and media releases","url":"https://elections.nsw.gov.au/about-us/media-centre/news-and-media-releases","class":"PRIMARY_ELECTORAL_AUTHORITY","source_id":"SRC-NSWEC-MEDIA","jurisdiction":"AUS-NSW","research_use":"NSW electoral administration, notices and election-related official releases."},
+
+    {"name":"Parliament of Victoria — Hansard","url":"https://www.parliament.vic.gov.au/hansard/","class":"PRIMARY_PARLIAMENT","source_id":"SRC-VIC-HANSARD","jurisdiction":"AUS-VIC","research_use":"Victorian parliamentary proceedings, statements and legislative activity."},
+    {"name":"Victorian Electoral Commission — 2026 state election","url":"https://www.vec.vic.gov.au/voting/2026-state-election","class":"PRIMARY_ELECTORAL_AUTHORITY","source_id":"SRC-VEC-2026-STATE-ELECTION","jurisdiction":"AUS-VIC","research_use":"Canonical 2026 Victorian state-election dates, milestones and electoral administration."},
+    {"name":"Victorian Electoral Commission — media centre","url":"https://www.vec.vic.gov.au/Media/","class":"PRIMARY_ELECTORAL_AUTHORITY","source_id":"SRC-VEC-MEDIA","jurisdiction":"AUS-VIC","research_use":"Victorian electoral notices, administration updates and official media releases."},
+    {"name":"Premier of Victoria — media centre","url":"https://www.premier.vic.gov.au/media-centre/","class":"PRIMARY_GOVERNMENT","source_id":"SRC-VIC-PREMIER-MEDIA","jurisdiction":"AUS-VIC","research_use":"Victorian Premier and government announcements relevant to the live state political field."},
+
+    {"name":"Queensland Parliament — Record of Proceedings","url":"https://www.parliament.qld.gov.au/Work-of-the-Assembly/Record-of-Proceedings/Latest-Record-of-Proceedings","class":"PRIMARY_PARLIAMENT","source_id":"SRC-QLD-HANSARD","jurisdiction":"AUS-QLD","research_use":"Queensland parliamentary proceedings, statements and legislative activity."},
+    {"name":"Electoral Commission of Queensland — 2026 media statements","url":"https://www.ecq.qld.gov.au/media/2026-media-statements","class":"PRIMARY_ELECTORAL_AUTHORITY","source_id":"SRC-ECQ-MEDIA","jurisdiction":"AUS-QLD","research_use":"Queensland electoral administration, notices and official media statements."},
+    {"name":"Queensland Government — Ministerial Media Statements","url":"https://statements.qld.gov.au/","class":"PRIMARY_GOVERNMENT","source_id":"SRC-QLD-MINISTERIAL-STATEMENTS","jurisdiction":"AUS-QLD","research_use":"Queensland ministerial announcements and government policy communication."},
+
+    {"name":"Parliament of Western Australia — Hansard","url":"https://www.parliament.wa.gov.au/hansard/search/results","class":"PRIMARY_PARLIAMENT","source_id":"SRC-WA-HANSARD","jurisdiction":"AUS-WA","research_use":"Western Australian parliamentary proceedings, statements and legislative activity."},
+    {"name":"Western Australian Electoral Commission — media releases","url":"https://www.elections.wa.gov.au/about-us/media/releases","class":"PRIMARY_ELECTORAL_AUTHORITY","source_id":"SRC-WAEC-MEDIA","jurisdiction":"AUS-WA","research_use":"Western Australian electoral administration, notices and official media releases."},
+    {"name":"Western Australian Government — media statements","url":"https://www.wa.gov.au/government/media-statements","class":"PRIMARY_GOVERNMENT","source_id":"SRC-WA-GOV-MEDIA","jurisdiction":"AUS-WA","research_use":"Western Australian government announcements and ministerial communication."},
+
+    {"name":"Parliament of South Australia — parliamentary business","url":"https://www.parliament.sa.gov.au/","class":"PRIMARY_PARLIAMENT","source_id":"SRC-SA-PARLIAMENT","jurisdiction":"AUS-SA","research_use":"South Australian parliamentary business, proceedings and legislative activity."},
+    {"name":"Electoral Commission of South Australia — news and notices","url":"https://www.ecsa.sa.gov.au/news","class":"PRIMARY_ELECTORAL_AUTHORITY","source_id":"SRC-ECSA-NEWS","jurisdiction":"AUS-SA","research_use":"South Australian electoral administration, notices and official updates."},
+    {"name":"Premier of South Australia — media releases","url":"https://www.premier.sa.gov.au/config/funnelback-config/premiermediareleases-funnelback-connector","class":"PRIMARY_GOVERNMENT","source_id":"SRC-SA-PREMIER-MEDIA","jurisdiction":"AUS-SA","research_use":"South Australian Premier and government media releases."},
+
+    {"name":"Parliament of Tasmania — Hansard","url":"https://www.parliament.tas.gov.au/hansard","class":"PRIMARY_PARLIAMENT","source_id":"SRC-TAS-HANSARD","jurisdiction":"AUS-TAS","research_use":"Tasmanian parliamentary proceedings, statements and legislative activity."},
+    {"name":"Tasmanian Electoral Commission — media releases","url":"https://www.tec.tas.gov.au/media/","class":"PRIMARY_ELECTORAL_AUTHORITY","source_id":"SRC-TEC-MEDIA","jurisdiction":"AUS-TAS","research_use":"Tasmanian electoral administration, notices and official media releases."},
+    {"name":"Premier of Tasmania — latest news","url":"https://www.premier.tas.gov.au/latest-news","class":"PRIMARY_GOVERNMENT","source_id":"SRC-TAS-PREMIER-NEWS","jurisdiction":"AUS-TAS","research_use":"Tasmanian Premier and government announcements."},
+
+    {"name":"ACT Legislative Assembly — parliamentary business","url":"https://www.parliament.act.gov.au/","class":"PRIMARY_PARLIAMENT","source_id":"SRC-ACT-PARLIAMENT","jurisdiction":"AUS-ACT","research_use":"ACT parliamentary proceedings, statements and legislative activity."},
+    {"name":"Elections ACT — news archive","url":"https://www.elections.act.gov.au/about-the-commission/publications/news-archives","class":"PRIMARY_ELECTORAL_AUTHORITY","source_id":"SRC-ELECTIONS-ACT-NEWS","jurisdiction":"AUS-ACT","research_use":"ACT electoral administration, notices and archived official election news."},
+    {"name":"ACT Government — media releases","url":"https://www.cmtedd.act.gov.au/open_government/inform/act_government_media_releases","class":"PRIMARY_GOVERNMENT","source_id":"SRC-ACT-GOV-MEDIA","jurisdiction":"AUS-ACT","research_use":"ACT government and ministerial media releases."},
+
+    {"name":"Northern Territory Legislative Assembly — parliamentary business","url":"https://parliament.nt.gov.au/","class":"PRIMARY_PARLIAMENT","source_id":"SRC-NT-PARLIAMENT","jurisdiction":"AUS-NT","research_use":"Northern Territory parliamentary proceedings, statements and legislative activity."},
+    {"name":"Northern Territory Electoral Commission — media releases","url":"https://ntec.nt.gov.au/about-us/media-and-publications/media-releases","class":"PRIMARY_ELECTORAL_AUTHORITY","source_id":"SRC-NTEC-MEDIA","jurisdiction":"AUS-NT","research_use":"Northern Territory electoral administration, notices and official media releases."},
+    {"name":"Northern Territory Government — Newsroom","url":"https://newsroom.nt.gov.au/","class":"PRIMARY_GOVERNMENT","source_id":"SRC-NT-GOV-NEWSROOM","jurisdiction":"AUS-NT","research_use":"Northern Territory government and ministerial announcements."}
+  ]
+}

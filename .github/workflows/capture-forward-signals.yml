@@ -53,12 +53,24 @@ jobs:
         run: node scripts/reconcile-political-lifecycle.mjs
       - name: Discover Political MAYHEM competition candidates
         run: node scripts/discover-political-competitions.mjs
-      - name: Validate resulting forward state
+      - name: Validate complete Political MAYHEM state
         run: |
+          node scripts/validate-forward-integrity.mjs
           node scripts/validate-forward-signal-integrity-v2.mjs
           node scripts/validate-projection-integrity.mjs
           node scripts/validate-political-lifecycle.mjs
+          node scripts/validate-political-competition-classes.mjs
           node scripts/validate-competition-discovery.mjs
+          node scripts/validate-player-competition-slate.mjs
+          node scripts/validate-competition-events.mjs
+          node scripts/validate-political-temporal-engine.mjs
+          node scripts/validate-record-diff-engine.mjs
+          node scripts/validate-political-normalize-engine.mjs
+          node scripts/validate-political-conflict-engine.mjs
+          node scripts/validate-political-abstention-integrity.mjs
+          node scripts/validate-political-research-sites.mjs
+          node scripts/validate-state-territory-rosters.mjs
+          node scripts/validate-federal-senate-electoral-integrity.mjs
       - name: Commit captured, reviewed, screened and reconciled state
         run: |
           if git diff --quiet -- data/runtime/forward-signal-capture-state.json data/runtime/source-snapshots.json data/runtime/intelligence-events.json data/runtime/signal-reviews.json data/runtime/forward-ingestion-manifest.json data/runtime/political-cycles.json data/runtime/political-contests.json data/runtime/contest-checkpoints.json data/runtime/competition-discovery-candidates.json; then

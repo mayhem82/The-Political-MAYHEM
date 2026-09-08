@@ -6,6 +6,8 @@ const assert=(condition,message)=>{if(!condition)fail.push(message)};
 const unique=values=>new Set(values).size===values.length;
 
 const registry=read('data/political-competition-class-registry.json');
+const cycleRegistry=read('data/political-cycle-class-registry.json');
+const cycles=read('data/runtime/political-cycles.json');
 const contests=read('data/runtime/political-contests.json');
 const snapshots=read('data/runtime/source-snapshots.json');
 const snapshotIds=new Set((snapshots.snapshots||[]).map(x=>x.snapshot_id));
@@ -33,6 +35,25 @@ for(const c of classes){
   assert(Boolean(c.definition),`${c.competition_class||'UNKNOWN'} definition missing`);
   assert(Boolean(c.competition_object),`${c.competition_class||'UNKNOWN'} competition_object missing`);
   assert(Boolean(c.participant_model),`${c.competition_class||'UNKNOWN'} participant_model missing`);
+}
+
+assert(cycleRegistry.status==='ACTIVE','cycle class registry is not ACTIVE');
+assert(cycleRegistry.rules?.contest_must_belong_to_registered_cycle===true,'registered-cycle rule missing');
+assert(cycleRegistry.rules?.cycle_class_must_match_competition_context===true,'cycle/competition compatibility rule missing');
+assert(cycleRegistry.rules?.electoral_contests_use_electoral_cycles===true,'electoral-cycle rule missing');
+assert(cycleRegistry.rules?.legislative_contests_use_parliamentary_cycles===true,'legislative-cycle rule missing');
+assert(cycleRegistry.rules?.cycle_class_does_not_limit_player_to_one_competition===true,'cycle multi-competition player rule missing');
+const cycleClasses=cycleRegistry.classes||[];
+assert(unique(cycleClasses.map(x=>x.cycle_class)),'cycle class IDs are not unique');
+const cycleClassById=new Map(cycleClasses.map(x=>[x.cycle_class,x]));
+assert(cycleClassById.has('ELECTORAL_CYCLE'),'ELECTORAL_CYCLE missing');
+assert(cycleClassById.has('PARLIAMENTARY_TERM'),'PARLIAMENTARY_TERM missing');
+const cycleById=new Map();
+for(const cycle of cycles.cycles||[]){
+  assert(Boolean(cycle.cycle_class),`${cycle.cycle_id}: cycle_class missing`);
+  const definition=cycleClassById.get(cycle.cycle_class);
+  assert(Boolean(definition),`${cycle.cycle_id}: unregistered cycle class ${cycle.cycle_class}`);
+  cycleById.set(cycle.cycle_id,cycle);
 }
 
 const legislative=byId.get('LEGISLATIVE');
@@ -79,6 +100,13 @@ for(const contest of contests.contests||[]){
   assert(Boolean(contest.competition_class),`${contest.contest_id}: competition_class missing`);
   assert(byId.has(contest.competition_class),`${contest.contest_id}: unregistered competition class ${contest.competition_class}`);
   assert(Array.isArray(contest.source_refs)&&contest.source_refs.length>0,`${contest.contest_id}: source lineage missing`);
+  const cycle=cycleById.get(contest.cycle_id);
+  assert(Boolean(cycle),`${contest.contest_id}: cycle ${contest.cycle_id} missing from cycle ledger`);
+  if(cycle){
+    const cycleClass=cycleClassById.get(cycle.cycle_class);
+    const allowed=new Set(cycleClass?.allowed_competition_classes||[]);
+    assert(allowed.has(contest.competition_class),`${contest.contest_id}: ${contest.competition_class} contest is incompatible with ${cycle.cycle_class}`);
+  }
 
   if(contest.competition_class==='LEGISLATIVE'){
     assert(legislativeTypes.has(contest.contest_type),`${contest.contest_id}: invalid legislative contest_type`);
@@ -110,4 +138,4 @@ if(fail.length){
   for(const message of fail) console.error('- '+message);
   process.exit(1);
 }
-console.log('POLITICAL_MAYHEM_COMPETITION_CLASS_INTEGRITY_PASS',`classes=${classes.length}`,`contests=${(contests.contests||[]).length}`,`legislative=${(contests.contests||[]).filter(x=>x.competition_class==='LEGISLATIVE').length}`,'sport=POLITICAL_MAYHEM','legislativeThreshold=MATERIAL_RESISTANCE_EVIDENCED');
+console.log('POLITICAL_MAYHEM_COMPETITION_CLASS_INTEGRITY_PASS',`classes=${classes.length}`,`cycleClasses=${cycleClasses.length}`,`contests=${(contests.contests||[]).length}`,`legislative=${(contests.contests||[]).filter(x=>x.competition_class==='LEGISLATIVE').length}`,'sport=POLITICAL_MAYHEM','legislativeThreshold=MATERIAL_RESISTANCE_EVIDENCED');

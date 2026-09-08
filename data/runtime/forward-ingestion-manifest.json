@@ -3,7 +3,7 @@
   "mode": "FORWARD_ONLY",
   "scope": "Australia — Federal, States and Territories",
   "created_at": "2026-09-08T00:00:00+10:00",
-  "updated_at": "2026-09-08T21:55:37.483Z",
+  "updated_at": "2026-09-09T09:04:32+10:00",
   "rules": {
     "evidence_must_be_knowable_at_capture_time": true,
     "captured_at_required": true,
@@ -30,8 +30,8 @@
   },
   "live_evidence_ingestion": {
     "running": true,
-    "source_snapshots_ingested": 105,
-    "intelligence_events_ingested": 64,
+    "source_snapshots_ingested": 107,
+    "intelligence_events_ingested": 66,
     "contradictions_ingested": 0,
     "party_state_updates_ingested": 8,
     "actor_state_updates_ingested": 2,
@@ -41,7 +41,7 @@
     "raw_source_changes_ingested": 0,
     "signal_reviews_ingested": 18,
     "post_separation_promoted_signals_ingested": 0,
-    "last_capture_at": "2026-09-08T21:54:54.322Z",
+    "last_capture_at": "2026-09-09T09:04:32+10:00",
     "jurisdiction_coverage": {
       "federal": "CAPTURE_ACTIVE_DEGRADED_CURRENT_RUN",
       "new_south_wales": "CAPTURE_ACTIVE_FULL_CONFIGURED_BASELINE",
@@ -174,5 +174,5 @@
     "source_changes_pending_review": [],
     "jurisdiction_evidence_activation": []
   },
-  "status": "LIVE_INGESTION_ACTIVE_STRUCTURED_CAPTURE_AND_DETERMINISTIC_SIGNAL_REVIEW"
+  "status": "LIVE_INGESTION_ACTIVE_FORWARD_SIGNAL_CAPTURE_RUNNING"
 }

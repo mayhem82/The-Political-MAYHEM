@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-INTELLIGENCE-EVENTS-001",
   "scope": "Australia — multi-jurisdiction",
-  "captured_at": "2026-09-08T21:55:37.483Z",
+  "captured_at": "2026-09-09T09:04:32+10:00",
   "mode": "FORWARD_ONLY",
   "rules": {
     "observation_distinct_from_inference": true,
@@ -7903,6 +7903,46 @@
         "source_change_parent_retained": true,
         "deterministic_review": true
       }
+    },
+    {
+      "event_id": "INTEL-20260909-APH-DISALLOWANCE-001",
+      "jurisdiction_id": "AUS-FED",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "SNAP-APH-DISALLOWANCE-20260909-0904",
+      "captured_at": "2026-09-09T09:04:32+10:00",
+      "event_date": "2026-09-09",
+      "checkpoint": "CONTINUOUS_FORWARD_CAPTURE",
+      "event_type": "FIELD_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "source_class": "PRIMARY_PARLIAMENT",
+      "source_id": "SRC-APH-DISALLOWANCE-ALERT",
+      "claim": "A federal disallowance motion concerning the Carbon Credits (Carbon Farming Initiative—Improved Forest Management in Multiple-use Public Native Forests) Methodology Determination 2026 remains unresolved, with Senator Cadell's motion postponed to 15 September 2026; a separate House disallowance notice by Mr Tehan is also marked to be resolved.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "frozen": false
+    },
+    {
+      "event_id": "INTEL-20260909-APH-BILL-001",
+      "jurisdiction_id": "AUS-FED",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "SNAP-APH-AI-KILL-SWITCH-BILL-20260909-0904",
+      "captured_at": "2026-09-09T09:04:32+10:00",
+      "event_date": "2026-09-09",
+      "checkpoint": "CONTINUOUS_FORWARD_CAPTURE",
+      "event_type": "FIELD_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "source_class": "PRIMARY_PARLIAMENT",
+      "source_id": "SRC-APH-BILLS-BEFORE-PARLIAMENT",
+      "claim": "The AI Kill Switch and Data Centre Control Bill 2026, sponsored by Andrew Gee MP, is currently before the House of Representatives after introduction on 7 September 2026.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "frozen": false
     }
   ]
 }

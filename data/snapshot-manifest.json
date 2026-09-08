@@ -1,5 +1,5 @@
 {
-  "snapshot_id": "POLITICAL-MAYHEM-CANONICAL-013",
+  "snapshot_id": "POLITICAL-MAYHEM-CANONICAL-014",
   "status": "EXPANDING",
   "canonical": {
     "cycle_schema": {"path": "data/canonical/political-cycle.schema.json"},
@@ -66,6 +66,10 @@
     "synthetic_composite_player_score_prohibited": true,
     "missing_player_stat_data_is_not_zero": true,
     "federal_house_division_electoral_context_complete": true,
+    "federal_house_2025_elected_candidate_stats_complete": true,
+    "federal_house_current_player_candidate_specific_stats_complete": true,
+    "current_house_replacements_do_not_inherit_predecessor_stats": true,
+    "federal_house_candidate_specific_current_player_coverage_is_explicit": true,
     "other_first_preference_not_attributed_to_individual_players": true,
     "tpp_not_misrepresented_as_tcp": true,
     "election_day_party_preserved_for_historical_stats": true,

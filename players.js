@@ -1,6 +1,7 @@
 const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const words=s=>String(s??'UNKNOWN').replaceAll('_',' ');
 const chamberLabel=c=>words(c||'UNKNOWN');
+const divKey=s=>String(s??'').toLowerCase().replace(/[^a-z0-9]/g,'');
 const pct=v=>v==null?'—':`${Number(v).toFixed(2).replace(/\.00$/,'')}%`;
 const signed=v=>v==null?'—':`${Number(v)>0?'+':''}${Number(v).toFixed(2).replace(/\.00$/,'')} pp`;
 
@@ -26,7 +27,7 @@ Promise.all([
   const order=['AUS-FED','AUS-NSW','AUS-VIC','AUS-QLD','AUS-WA','AUS-SA','AUS-TAS','AUS-ACT','AUS-NT'];fields.sort((a,b)=>order.indexOf(a.id)-order.indexOf(b.id));
 
   const electoralIx=Object.fromEntries((electoral.fields||[]).map((f,i)=>[f,i]));
-  const divisionResults=new Map((electoral.division_results||[]).map(r=>[r[electoralIx.division],r]));
+  const divisionResults=new Map((electoral.division_results||[]).map(r=>[divKey(r[electoralIx.division]),r]));
   const candidateResults=new Map((electoral.candidate_specific_results||[]).map(r=>[r.actor_id,r]));
   const electionOverrides=electoral.current_player_election_party_overrides||{};
   const partyCodeBySlug={labor:'ALP',liberal:'LP','liberal-national':'LNP',nationals:'NP','country-liberal':'CLP'};
@@ -81,7 +82,7 @@ Promise.all([
     if(p.chamber!=='HOUSE')return{state:'PENDING',message:'Senate candidate/group statistical dossier not yet loaded.'};
     const specific=candidateResults.get(p.actor_id);
     if(specific)return{state:'CANDIDATE_SPECIFIC',event:specific.event,primary:specific.primary_vote_percent,primarySwing:specific.primary_swing_points,tcp:specific.tcp_percent,tcpSwing:specific.tcp_swing_points,marginVotes:specific.tcp_margin_votes,sourceClass:specific.source_class};
-    const row=divisionResults.get(p.division||p.electorate);
+    const row=divisionResults.get(divKey(p.division||p.electorate));
     if(!row)return{state:'PENDING',message:'Division electoral context not resolved in the current snapshot.'};
     const code=Object.prototype.hasOwnProperty.call(electionOverrides,p.actor_id)?electionOverrides[p.actor_id].election_party_code:partyCodeBySlug[p.party];
     const tppAlp=row[electoralIx.tpp_alp_percent],tppLnc=row[electoralIx.tpp_lnc_percent];

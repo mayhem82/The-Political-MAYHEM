@@ -69,64 +69,64 @@
     {
       "jurisdiction_id": "AUS-FED",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-08T23:12:46.291Z",
+      "last_screened_at": "2026-09-08T23:14:35.753Z",
       "signals_examined": 16,
       "candidates_detected": 3
     },
     {
       "jurisdiction_id": "AUS-NSW",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-08T23:12:46.291Z",
-      "signals_examined": 6,
-      "candidates_detected": 0
+      "last_screened_at": "2026-09-08T23:14:35.753Z",
+      "signals_examined": 7,
+      "candidates_detected": 1
     },
     {
       "jurisdiction_id": "AUS-VIC",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-08T23:12:46.291Z",
+      "last_screened_at": "2026-09-08T23:14:35.753Z",
       "signals_examined": 0,
       "candidates_detected": 0
     },
     {
       "jurisdiction_id": "AUS-QLD",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-08T23:12:46.291Z",
+      "last_screened_at": "2026-09-08T23:14:35.753Z",
       "signals_examined": 0,
       "candidates_detected": 0
     },
     {
       "jurisdiction_id": "AUS-WA",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-08T23:12:46.291Z",
+      "last_screened_at": "2026-09-08T23:14:35.753Z",
       "signals_examined": 0,
       "candidates_detected": 0
     },
     {
       "jurisdiction_id": "AUS-SA",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-08T23:12:46.291Z",
+      "last_screened_at": "2026-09-08T23:14:35.753Z",
       "signals_examined": 0,
       "candidates_detected": 0
     },
     {
       "jurisdiction_id": "AUS-TAS",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-08T23:12:46.291Z",
+      "last_screened_at": "2026-09-08T23:14:35.753Z",
       "signals_examined": 5,
       "candidates_detected": 0
     },
     {
       "jurisdiction_id": "AUS-ACT",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-08T23:12:46.291Z",
-      "signals_examined": 9,
+      "last_screened_at": "2026-09-08T23:14:35.753Z",
+      "signals_examined": 10,
       "candidates_detected": 0
     },
     {
       "jurisdiction_id": "AUS-NT",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-08T23:12:46.291Z",
-      "signals_examined": 6,
+      "last_screened_at": "2026-09-08T23:14:35.753Z",
+      "signals_examined": 7,
       "candidates_detected": 0
     }
   ],
@@ -226,13 +226,48 @@
           "reason": "DETERMINISTIC_COMPETITION_FAMILY_SCREEN"
         }
       ]
+    },
+    {
+      "candidate_id": "DISC-NSW-LEGISLATION-0d378a0ca6b9611d",
+      "jurisdiction_id": "AUS-NSW",
+      "competition_family": "LEGISLATION",
+      "proposed_competition_class": "LEGISLATIVE",
+      "proposed_cycle_id": null,
+      "subject": "Private Abortion Law Reform Amendment (Sex Selection Prohibition) Bill 2025 Origin: Legislative Council Location: Legislative Council Status: Second Reading, Debate adjourned, Wed 24 June 2026",
+      "candidate_state": "EVIDENCE_GAP",
+      "detected_at": "2026-09-08T23:14:35.619Z",
+      "source_snapshot_ids": [
+        "AUTO-WATCH-NSW-CURRENT-BILLS-20260908231347"
+      ],
+      "signal_event_ids": [
+        "SIG-REV-CHG-WATCH-NSW-CURRENT-BILLS-20260908231347"
+      ],
+      "review_ids": [
+        "REV-CHG-WATCH-NSW-CURRENT-BILLS-20260908231347"
+      ],
+      "evidence_summary": "Screened PRIMARY_PARLIAMENT evidence contains language consistent with a legislation competition candidate. This is a discovery observation, not a registered contest or outcome inference.",
+      "registration_blockers": [
+        "MATERIAL_RESISTANCE_NOT_YET_EVIDENCED",
+        "SUPPORTING_SIDE_NOT_YET_RESOLVED",
+        "OPPOSING_SIDE_NOT_YET_RESOLVED",
+        "REGISTERED_COMPATIBLE_CYCLE_REQUIRED"
+      ],
+      "linked_contest_id": null,
+      "state_history": [
+        {
+          "from": null,
+          "to": "EVIDENCE_GAP",
+          "at": "2026-09-08T23:14:35.619Z",
+          "reason": "DETERMINISTIC_COMPETITION_FAMILY_SCREEN"
+        }
+      ]
     }
   ],
-  "last_screened_at": "2026-09-08T23:12:46.291Z",
+  "last_screened_at": "2026-09-08T23:14:35.753Z",
   "last_screen_summary": {
-    "signals_examined": 42,
-    "candidates_total": 3,
-    "candidates_added": 0,
+    "signals_examined": 45,
+    "candidates_total": 4,
+    "candidates_added": 1,
     "candidate_lineage_merges": 3,
     "registered_contests_unchanged": true
   }

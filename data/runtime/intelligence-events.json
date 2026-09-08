@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-INTELLIGENCE-EVENTS-001",
   "scope": "Australia — multi-jurisdiction",
-  "captured_at": "2026-09-08T23:12:46.175Z",
+  "captured_at": "2026-09-08T23:14:35.619Z",
   "mode": "FORWARD_ONLY",
   "rules": {
     "observation_distinct_from_inference": true,
@@ -13031,6 +13031,870 @@
           "record_id": "e1c8d06d96c0dff73984",
           "title": "List of candidate",
           "url": "https://ntec.nt.gov.au/elections/current-elections/2026-mulka-by-election/list-of-candidates"
+        }
+      ],
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "underlying_publication_claims_not_promoted_to_verified_fact": true,
+        "source_change_parent_retained": true,
+        "deterministic_review": true
+      }
+    },
+    {
+      "event_id": "CHG-WATCH-NSW-CURRENT-BILLS-20260908231347",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-NSW",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-NSW-CURRENT-BILLS-20260908231347",
+      "captured_at": "2026-09-08T23:13:47.019Z",
+      "event_date": "2026-09-09",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_PARLIAMENT",
+      "source_id": "SRC-NSW-CURRENT-BILLS",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "review_policy": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-NSW-CURRENT-BILLS-20260908231158",
+        "content_hash": "2d7fa2689a2aad13e126cfa38b3a36e85c80d359094c6eebc9008addeb0866bc",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-NSW-CURRENT-BILLS-20260908231347",
+        "content_hash": "3c3757a9a75d918eb5aa205b1a9fe33c2dd15a49661683b78a117e362edcfda0",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "STRUCTURED_RECORD_SET",
+        "records_added": [
+          {
+            "record_id": "00c83a8591b98a680667",
+            "title": "Legislative process explained Learn how bills progress through Parliament, the different types of laws and how to understand an Act",
+            "url": "https://www.parliament.nsw.gov.au/parliamentary-business/bills/legislative-process-explained"
+          },
+          {
+            "record_id": "06653687166a39a65a50",
+            "title": "Legislation Review Digests Find analysis and commentary from the Legislation Review Committee.",
+            "url": "https://www.parliament.nsw.gov.au/parliamentary-business/committees/legislation-review-digest"
+          },
+          {
+            "record_id": "0a5e85fefc835298a183",
+            "title": "Bills glossary Learn key terms used in the legislative process",
+            "url": "https://www.parliament.nsw.gov.au/parliamentary-business/bills/bills-glossary"
+          },
+          {
+            "record_id": "11faba10f15ed633b972",
+            "title": "Government 24-Hour Economy Legislation Amendment (Vibrancy Reforms) Bill 2024 Origin: Legislative Council Status: Assented on Thu 31 October 2024",
+            "url": "https://search.parliament.nsw.gov.au/s/redirect?collection=pon1~sp-bills&url=https%3A%2F%2Fwww.parliament.nsw.gov.au%2Fparliamentary-business%2Fbills%2Fbill-details%3FbillId%3D18665%26ref%3D3287&index_url=https%3A%2F%2Fponsw%2Fbill%2F18665&auth=D2LYyvFAW%2FFnhpsq7ACAwA&profile=bills-current&rank=3&query=%21FunDoesNotExist%3Apadrenull"
+          },
+          {
+            "record_id": "1cb00147849cc0665edd",
+            "title": "Government 24-Hour Economy Commissioner Bill 2023 Origin: Legislative Council Status: Assented on Tue 12 December 2023 Cognate bill",
+            "url": "https://search.parliament.nsw.gov.au/s/redirect?collection=pon1~sp-bills&url=https%3A%2F%2Fwww.parliament.nsw.gov.au%2Fparliamentary-business%2Fbills%2Fbill-details%3FbillId%3D18524%26ref%3D3287&index_url=https%3A%2F%2Fponsw%2Fbill%2F18524&auth=%2BVArZywimtv7VAvH1emusg&profile=bills-current&rank=1&query=%21FunDoesNotExist%3Apadrenull"
+          },
+          {
+            "record_id": "3a8e66be42cce26bb4c1",
+            "title": "See Bills glossary",
+            "url": "https://www.parliament.nsw.gov.au/parliamentary-business/bills/bills-glossary"
+          },
+          {
+            "record_id": "3b8e9013c8b87d9b0678",
+            "title": "Government 24-Hour Economy Legislation Amendment (Vibrancy Reforms) Bill 2023 Origin: Legislative Council Status: Assented on Tue 12 December 2023 Cognate bill",
+            "url": "https://search.parliament.nsw.gov.au/s/redirect?collection=pon1~sp-bills&url=https%3A%2F%2Fwww.parliament.nsw.gov.au%2Fparliamentary-business%2Fbills%2Fbill-details%3FbillId%3D18523%26ref%3D3287&index_url=https%3A%2F%2Fponsw%2Fbill%2F18523&auth=ApMzqGUesWdSNRkQ7ANIyA&profile=bills-current&rank=2&query=%21FunDoesNotExist%3Apadrenull"
+          },
+          {
+            "record_id": "51afcfe38c020d6d1d51",
+            "title": "Government Ageing and Disability Commissioner Amendment Bill 2023 Origin: Legislative Assembly Status: Assented on Wed 03 April 2024",
+            "url": "https://search.parliament.nsw.gov.au/s/redirect?collection=pon1~sp-bills&url=https%3A%2F%2Fwww.parliament.nsw.gov.au%2Fparliamentary-business%2Fbills%2Fbill-details%3FbillId%3D18527%26ref%3D3287&index_url=https%3A%2F%2Fponsw%2Fbill%2F18527&auth=JR4R3yb%2FOinmWLj%2BrGzb6g&profile=bills-current&rank=7&query=%21FunDoesNotExist%3Apadrenull"
+          },
+          {
+            "record_id": "6888238bee1cac74a559",
+            "title": "Private Alcohol Consumption in Public Places (Liberalisation) Bill 2024 Origin: Legislative Council Location: Legislative Council Status: Second Reading negatived on division in the LC, Wed 23 October 2024",
+            "url": "https://search.parliament.nsw.gov.au/s/redirect?collection=pon1~sp-bills&url=https%3A%2F%2Fwww.parliament.nsw.gov.au%2Fparliamentary-business%2Fbills%2Fbill-details%3FbillId%3D18608%26ref%3D3287&index_url=https%3A%2F%2Fponsw%2Fbill%2F18608&auth=cb%2B33BL%2BNnBCEurc%2FAHdag&profile=bills-current&rank=9&query=%21FunDoesNotExist%3Apadrenull"
+          },
+          {
+            "record_id": "7360a48420f91b4257a5",
+            "title": "Back to top",
+            "url": "https://www.parliament.nsw.gov.au/parliamentary-business/bills/current-session-bills"
+          },
+          {
+            "record_id": "781f2069c52033adc95c",
+            "title": "Private Alcohol Consumption in Public Places Legislation Amendment (Liberalisation) Bill 2024 Origin: Legislative Council Status: Withdrawn, Tue 04 June 2024",
+            "url": "https://search.parliament.nsw.gov.au/s/redirect?collection=pon1~sp-bills&url=https%3A%2F%2Fwww.parliament.nsw.gov.au%2Fparliamentary-business%2Fbills%2Fbill-details%3FbillId%3D18553%26ref%3D3287&index_url=https%3A%2F%2Fponsw%2Fbill%2F18553&auth=nH%2FF%2F5vsNeCzXBlEFIrKzw&profile=bills-current&rank=10&query=%21FunDoesNotExist%3Apadrenull"
+          },
+          {
+            "record_id": "8fa912ebde44831c736d",
+            "title": "Government 24-Hour Economy Legislation Amendment (Vibrancy Reforms) Bill 2025 Origin: Legislative Council Status: Assented on Mon 24 November 2025",
+            "url": "https://search.parliament.nsw.gov.au/s/redirect?collection=pon1~sp-bills&url=https%3A%2F%2Fwww.parliament.nsw.gov.au%2Fparliamentary-business%2Fbills%2Fbill-details%3FbillId%3D18813%26ref%3D3287&index_url=https%3A%2F%2Fponsw%2Fbill%2F18813&auth=oDyBZTPLUm8UNrsHJBjIyQ&profile=bills-current&rank=4&query=%21FunDoesNotExist%3Apadrenull"
+          },
+          {
+            "record_id": "9f873b946f460cddc20d",
+            "title": "Government Agriculture Commissioner Bill 2024 Origin: Legislative Council Status: Assented on Thu 31 October 2024",
+            "url": "https://search.parliament.nsw.gov.au/s/redirect?collection=pon1~sp-bills&url=https%3A%2F%2Fwww.parliament.nsw.gov.au%2Fparliamentary-business%2Fbills%2Fbill-details%3FbillId%3D18643%26ref%3D3287&index_url=https%3A%2F%2Fponsw%2Fbill%2F18643&auth=EqP2IzWtqj6MNnIFxMOR%2Fg&profile=bills-current&rank=8&query=%21FunDoesNotExist%3Apadrenull"
+          },
+          {
+            "record_id": "dec84de9d236b60d5aee",
+            "title": "Private Abortion Law Reform Amendment (Health Care Access) Bill 2025 Origin: Legislative Council Status: Assented on Wed 11 June 2025",
+            "url": "https://search.parliament.nsw.gov.au/s/redirect?collection=pon1~sp-bills&url=https%3A%2F%2Fwww.parliament.nsw.gov.au%2Fparliamentary-business%2Fbills%2Fbill-details%3FbillId%3D18697%26ref%3D3287&index_url=https%3A%2F%2Fponsw%2Fbill%2F18697&auth=l%2BuL7dT8rojkUa9bj3kPkg&profile=bills-current&rank=5&query=%21FunDoesNotExist%3Apadrenull"
+          },
+          {
+            "record_id": "df38f587f7a19e496499",
+            "title": "Hansard by bill Read parliamentary debates related to a specific bill.",
+            "url": "https://www.parliament.nsw.gov.au/parliamentary-business/hansard/hansard-by-bill"
+          },
+          {
+            "record_id": "fe327f0e75b23e8d5bc4",
+            "title": "Private Abortion Law Reform Amendment (Sex Selection Prohibition) Bill 2025 Origin: Legislative Council Location: Legislative Council Status: Second Reading, Debate adjourned, Wed 24 June 2026",
+            "url": "https://search.parliament.nsw.gov.au/s/redirect?collection=pon1~sp-bills&url=https%3A%2F%2Fwww.parliament.nsw.gov.au%2Fparliamentary-business%2Fbills%2Fbill-details%3FbillId%3D18794%26ref%3D3287&index_url=https%3A%2F%2Fponsw%2Fbill%2F18794&auth=ibVfKPg09mrG0xUv0VrDGA&profile=bills-current&rank=6&query=%21FunDoesNotExist%3Apadrenull"
+          }
+        ],
+        "records_removed": [
+          {
+            "record_id": "0337bb201e62822f717a",
+            "title": "Current session bills A list of bills proposed or introduced in the current session of Parliament.",
+            "url": "https://www.parliament.nsw.gov.au/parliamentary-business/bills/current-session-bills"
+          },
+          {
+            "record_id": "2b09da27105926e885fb",
+            "title": "Learn more about the legislative process",
+            "url": "https://www.parliament.nsw.gov.au/parliamentary-business/bills/legislative-process-explained"
+          },
+          {
+            "record_id": "35541eeb64be58ec76e9",
+            "title": "Back to top",
+            "url": "https://www.parliament.nsw.gov.au/parliamentary-business/bills"
+          },
+          {
+            "record_id": "3c46828591be187fb7c3",
+            "title": "Bills glossary Commonly used terms in the legislative process.",
+            "url": "https://www.parliament.nsw.gov.au/parliamentary-business/bills/bills-glossary"
+          },
+          {
+            "record_id": "3d8bbd5a81beb3402380",
+            "title": "Assented bills Bills that have passed both Houses and haves been signed by the Governor to become law.",
+            "url": "https://www.parliament.nsw.gov.au/parliamentary-business/bills/assented-bills"
+          },
+          {
+            "record_id": "68ef3b16937186041b3f",
+            "title": "All bills All bills proposed or introduced in NSW Parliament since 1856.",
+            "url": "https://www.parliament.nsw.gov.au/parliamentary-business/bills/all-bills"
+          },
+          {
+            "record_id": "6bbb1c067670897d50f6",
+            "title": "Delegated Legislation Committee The Delegated Legislation Committee scrutinises all instruments of a legislative nature that are subject to disallowance.",
+            "url": "https://www.parliament.nsw.gov.au/parliamentary-business/committees/committee-details?committeeId=252"
+          },
+          {
+            "record_id": "8c454c777fddf1090640",
+            "title": "Hansard by bill Access to bill speeches and debates made by members through their passage in the Houses of Parliament.",
+            "url": "https://www.parliament.nsw.gov.au/parliamentary-business/hansard/hansard-by-bill"
+          },
+          {
+            "record_id": "fcd536cf34af5f9bfb56",
+            "title": "Legislation Review Committee The Legislation Review Committee reviews Bills and regulations and reports on them in the Legislation Review Digest.",
+            "url": "https://www.parliament.nsw.gov.au/parliamentary-business/committees/committee-details?committeeId=245"
+          }
+        ],
+        "added_count": 16,
+        "removed_count": 9,
+        "before_count": 68,
+        "after_count": 75,
+        "delta_hash": "75d37301dee79a4d69ee4ada37884825c035fc8d77c4301cdff8a8f0dfe41b20"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-ELECTIONS-ACT-NEWS-20260908231347",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-ACT",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-ELECTIONS-ACT-NEWS-20260908231347",
+      "captured_at": "2026-09-08T23:13:47.019Z",
+      "event_date": "2026-09-09",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_ELECTORAL_AUTHORITY",
+      "source_id": "SRC-ELECTIONS-ACT-NEWS",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "review_policy": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-ELECTIONS-ACT-NEWS-20260908215454",
+        "content_hash": "d0279b3fef85831e6d13287f26550fd5e08e883bb61a0ea46d8b59a15233eafa",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-ELECTIONS-ACT-NEWS-20260908231347",
+        "content_hash": "65eba258524e03b3994d6ae1f2370dca84b2fd23c112893e7f853ec12494d4ea",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "STRUCTURED_RECORD_SET",
+        "records_added": [
+          {
+            "record_id": "053b49a631200edf8447",
+            "title": "Funding, disclosures and registers",
+            "url": "https://www.elections.act.gov.au/about-the-commission/publications/news-archives"
+          },
+          {
+            "record_id": "06aae5f67ba2e86ab363",
+            "title": "For voters",
+            "url": "https://www.elections.act.gov.au/about-the-commission/publications/news-archives"
+          },
+          {
+            "record_id": "0e0fa4dc365fda2be96d",
+            "title": "Skip to content",
+            "url": "https://www.elections.act.gov.au/about-the-commission/publications/news-archives"
+          },
+          {
+            "record_id": "192c6342a93df6d97001",
+            "title": "14 June 2024 Canberra Progressives apply to change the registered officer of the party",
+            "url": "https://www.elections.act.gov.au/about-the-commission/publications/news-archives/canberra-progressives-apply-to-change-the-registered-officer-of-the-party"
+          },
+          {
+            "record_id": "1b4347faab034b6357a9",
+            "title": "15 May 2024 Strong Independents apply to register as a political party for ACT Legislative Assembly elections",
+            "url": "https://www.elections.act.gov.au/about-the-commission/publications/news-archives/strong-independents-apply-to-register-as-a-political-party-for-act-legislative-assembly-elections"
+          },
+          {
+            "record_id": "1e642febde88f0395a01",
+            "title": "12 June 2024 Elections ACT's Service Delivery Plan for the 2024 ACT Legislative Assembly election is now available for viewing",
+            "url": "https://www.elections.act.gov.au/about-the-commission/publications/news-archives/elections-acts-service-delivery-plan-for-the-2024-act-legislative-assembly-election-is-now-available-for-viewing"
+          },
+          {
+            "record_id": "32d7fc3a07106583ce0b",
+            "title": "4 June 2024 Strong Independents officially registered for the 2024 ACT Legislative Assembly election",
+            "url": "https://www.elections.act.gov.au/about-the-commission/publications/news-archives/strong-independents-officially-registered-for-the-2024-act-legislative-assembly-election"
+          },
+          {
+            "record_id": "449c9fd5617e5ffe88cb",
+            "title": "For political participants",
+            "url": "https://www.elections.act.gov.au/about-the-commission/publications/news-archives"
+          },
+          {
+            "record_id": "655ef8f5e703018bf8f4",
+            "title": "12 June 2024 Elections ACT has re-released the source code for the electronic voting and counting system",
+            "url": "https://www.elections.act.gov.au/about-the-commission/publications/news-archives/elections-act-has-re-released-the-source-code-for-the-electronic-voting-and-counting-system"
+          },
+          {
+            "record_id": "a3857c658c21c7698da7",
+            "title": "News archives",
+            "url": "https://www.elections.act.gov.au/about-the-commission/publications/news-archives"
+          },
+          {
+            "record_id": "a5f53957f9b327858628",
+            "title": "17 May 2024 Independents for Canberra apply to change party abbreviation, Registered Officer and Secretary of the party",
+            "url": "https://www.elections.act.gov.au/about-the-commission/publications/news-archives/independents-for-canberra-apply-to-change-party-abbreviation,-registered-officer-and-secretary-of-the-party"
+          },
+          {
+            "record_id": "ae0fa7e29ce939d7c2db",
+            "title": "About the Commission",
+            "url": "https://www.elections.act.gov.au/about-the-commission"
+          },
+          {
+            "record_id": "b27b0bfd1a431fc4d7c6",
+            "title": "17 May 2024 Nominations for the ACT Aboriginal and Torres Strait Islander Elected Body (ATSIEB) 2024 are now open",
+            "url": "https://www.elections.act.gov.au/about-the-commission/publications/news-archives/nominations-for-the-act-aboriginal-and-torres-strait-islander-elected-body-atsieb-2024-are-now-open"
+          },
+          {
+            "record_id": "b4e14e76407a5ca368ce",
+            "title": "See all news",
+            "url": "https://www.elections.act.gov.au/about-the-commission/publications/news-archives"
+          },
+          {
+            "record_id": "d06265aff89799bf6987",
+            "title": "Translate",
+            "url": "https://www.elections.act.gov.au/about-the-commission/publications/news-archives"
+          },
+          {
+            "record_id": "e5d8cb2f4379903e4e65",
+            "title": "7 June 2024 Fiona Carrick Independent apply to register as a political party for ACT Legislative Assembly elections",
+            "url": "https://www.elections.act.gov.au/about-the-commission/publications/news-archives/fiona-carrick-independent-apply-to-register-as-a-political-party-for-act-legislative-assembly-elections"
+          },
+          {
+            "record_id": "ed2d080d80f5578b604f",
+            "title": "Elections",
+            "url": "https://www.elections.act.gov.au/about-the-commission/publications/news-archives"
+          },
+          {
+            "record_id": "ee901265f22dcecc014f",
+            "title": "24 May 2024 Reminder for new political parties intending to register for the 2024 ACT election",
+            "url": "https://www.elections.act.gov.au/about-the-commission/publications/news-archives/reminder-for-new-political-parties-intending-to-register-for-the-2024-act-election"
+          },
+          {
+            "record_id": "fdb43d4a34aaeb422813",
+            "title": "Integrity",
+            "url": "https://www.elections.act.gov.au/about-the-commission/publications/news-archives"
+          }
+        ],
+        "records_removed": [
+          {
+            "record_id": "25cfb46c829c7f3d2385",
+            "title": "Click to find out more",
+            "url": "https://www.elections.act.gov.au/for-political-participants"
+          },
+          {
+            "record_id": "484cb2dc13de8d0ed7db",
+            "title": "Financial disclosure",
+            "url": "https://www.elections.act.gov.au/funding-disclosures-and-registers"
+          },
+          {
+            "record_id": "7e311b4010f8537cefc1",
+            "title": "Electoral integrity",
+            "url": "https://www.elections.act.gov.au/integrity"
+          },
+          {
+            "record_id": "a0936318fd8395c13134",
+            "title": "Click to find out more",
+            "url": "https://www.elections.act.gov.au/elections"
+          }
+        ],
+        "added_count": 19,
+        "removed_count": 4,
+        "before_count": 48,
+        "after_count": 63,
+        "delta_hash": "83205a93f203e8a05cbb6fc4c8b3afbea402f4530ecdce75e9fabc446b493179"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-NTEC-MEDIA-20260908231347",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-NT",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-NTEC-MEDIA-20260908231347",
+      "captured_at": "2026-09-08T23:13:47.019Z",
+      "event_date": "2026-09-09",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_ELECTORAL_AUTHORITY",
+      "source_id": "SRC-NTEC-MEDIA",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "review_policy": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-NTEC-MEDIA-20260908231158",
+        "content_hash": "af21f6c8c575c1f4b6d30324d0f82cc155166a90dfde6b29f65a07fd9001158a",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-NTEC-MEDIA-20260908231347",
+        "content_hash": "b235d5b5c8af855ff4d7cdcd29204cb356ec34d283dea8cad7e3b0738433e996",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "STRUCTURED_RECORD_SET",
+        "records_added": [
+          {
+            "record_id": "4297265d1134b8543a56",
+            "title": "Timetable",
+            "url": "https://ntec.nt.gov.au/elections/current-elections/2026-mulka-by-election/Mulka-timetable"
+          },
+          {
+            "record_id": "e1c8d06d96c0dff73984",
+            "title": "List of candidate",
+            "url": "https://ntec.nt.gov.au/elections/current-elections/2026-mulka-by-election/list-of-candidates"
+          }
+        ],
+        "records_removed": [
+          {
+            "record_id": "18db2e364ec543aa2917",
+            "title": "2022 (12)",
+            "url": "https://ntec.nt.gov.au/about-us/media-and-publications/media-releases/2022"
+          },
+          {
+            "record_id": "248ec28e5c87e1848da0",
+            "title": "Skip to main navigation",
+            "url": "https://ntec.nt.gov.au/about-us/media-and-publications/media-releases"
+          },
+          {
+            "record_id": "50aefaff7f3642161412",
+            "title": "2024 (45)",
+            "url": "https://ntec.nt.gov.au/about-us/media-and-publications/media-releases/2024"
+          },
+          {
+            "record_id": "6747a7644bfac85ebf91",
+            "title": "2021 (22)",
+            "url": "https://ntec.nt.gov.au/about-us/media-and-publications/media-releases/2021"
+          },
+          {
+            "record_id": "914da1d68b1c54b2691f",
+            "title": "2025 (31)",
+            "url": "https://ntec.nt.gov.au/about-us/media-and-publications/media-releases/2025"
+          },
+          {
+            "record_id": "abda225ae92bab593eb9",
+            "title": "2026 (31)",
+            "url": "https://ntec.nt.gov.au/about-us/media-and-publications/media-releases/2026"
+          },
+          {
+            "record_id": "cf2caaf0bb64d2b93508",
+            "title": "2020 (30)",
+            "url": "https://ntec.nt.gov.au/about-us/media-and-publications/media-releases/2020"
+          },
+          {
+            "record_id": "dc477118fd386d837561",
+            "title": "Skip to main content",
+            "url": "https://ntec.nt.gov.au/about-us/media-and-publications/media-releases"
+          },
+          {
+            "record_id": "dd2388691b8bf63b647b",
+            "title": "2023 (63)",
+            "url": "https://ntec.nt.gov.au/about-us/media-and-publications/media-releases/2023"
+          },
+          {
+            "record_id": "eea3e6c860ab9b6be80b",
+            "title": "Print this page",
+            "url": "https://ntec.nt.gov.au/about-us/media-and-publications/media-releases"
+          }
+        ],
+        "added_count": 2,
+        "removed_count": 10,
+        "before_count": 137,
+        "after_count": 129,
+        "delta_hash": "f0229d292ab32f218558c1908f94fc59ab5a3859e110845a9cd7834fc3adf906"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "SIG-REV-CHG-WATCH-NSW-CURRENT-BILLS-20260908231347",
+      "parent_event_id": "CHG-WATCH-NSW-CURRENT-BILLS-20260908231347",
+      "review_id": "REV-CHG-WATCH-NSW-CURRENT-BILLS-20260908231347",
+      "jurisdiction_id": "AUS-NSW",
+      "party_id": null,
+      "actor_id": null,
+      "contest_id": null,
+      "cycle_id": null,
+      "source_snapshot_id": "AUTO-WATCH-NSW-CURRENT-BILLS-20260908231347",
+      "record_id": null,
+      "captured_at": "2026-09-08T23:14:35.619Z",
+      "event_date": "2026-09-09",
+      "checkpoint": "CONTINUOUS_FORWARD_SIGNAL_REVIEW",
+      "event_type": "SIGNAL_CREATED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_PARLIAMENT",
+      "source_id": "SRC-NSW-CURRENT-BILLS",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "claim": "Parliament of NSW — Current session bills added 16 structured publication records to its forward-captured official index: Legislative process explained Learn how bills progress through Parliament, the different types of laws and how to understand an Act; Legislation Review Digests Find analysis and commentary from the Legislation Review Committee.; Bills glossary Learn key terms used in the legislative process; Government 24-Hour Economy Legislation Amendment (Vibrancy Reforms) Bill 2024 Origin: Legislative Council Status: Assented on Thu 31 October 2024; Government 24-Hour Economy Commissioner Bill 2023 Origin: Legislative Council Status: Assented on Tue 12 December 2023 Cognate bill; +11 more",
+      "observed_behaviour": "One or more structured publication records appeared in the monitored official source index after the preceding forward snapshot.",
+      "publication_records_added": [
+        {
+          "record_id": "00c83a8591b98a680667",
+          "title": "Legislative process explained Learn how bills progress through Parliament, the different types of laws and how to understand an Act",
+          "url": "https://www.parliament.nsw.gov.au/parliamentary-business/bills/legislative-process-explained"
+        },
+        {
+          "record_id": "06653687166a39a65a50",
+          "title": "Legislation Review Digests Find analysis and commentary from the Legislation Review Committee.",
+          "url": "https://www.parliament.nsw.gov.au/parliamentary-business/committees/legislation-review-digest"
+        },
+        {
+          "record_id": "0a5e85fefc835298a183",
+          "title": "Bills glossary Learn key terms used in the legislative process",
+          "url": "https://www.parliament.nsw.gov.au/parliamentary-business/bills/bills-glossary"
+        },
+        {
+          "record_id": "11faba10f15ed633b972",
+          "title": "Government 24-Hour Economy Legislation Amendment (Vibrancy Reforms) Bill 2024 Origin: Legislative Council Status: Assented on Thu 31 October 2024",
+          "url": "https://search.parliament.nsw.gov.au/s/redirect?collection=pon1~sp-bills&url=https%3A%2F%2Fwww.parliament.nsw.gov.au%2Fparliamentary-business%2Fbills%2Fbill-details%3FbillId%3D18665%26ref%3D3287&index_url=https%3A%2F%2Fponsw%2Fbill%2F18665&auth=D2LYyvFAW%2FFnhpsq7ACAwA&profile=bills-current&rank=3&query=%21FunDoesNotExist%3Apadrenull"
+        },
+        {
+          "record_id": "1cb00147849cc0665edd",
+          "title": "Government 24-Hour Economy Commissioner Bill 2023 Origin: Legislative Council Status: Assented on Tue 12 December 2023 Cognate bill",
+          "url": "https://search.parliament.nsw.gov.au/s/redirect?collection=pon1~sp-bills&url=https%3A%2F%2Fwww.parliament.nsw.gov.au%2Fparliamentary-business%2Fbills%2Fbill-details%3FbillId%3D18524%26ref%3D3287&index_url=https%3A%2F%2Fponsw%2Fbill%2F18524&auth=%2BVArZywimtv7VAvH1emusg&profile=bills-current&rank=1&query=%21FunDoesNotExist%3Apadrenull"
+        },
+        {
+          "record_id": "3a8e66be42cce26bb4c1",
+          "title": "See Bills glossary",
+          "url": "https://www.parliament.nsw.gov.au/parliamentary-business/bills/bills-glossary"
+        },
+        {
+          "record_id": "3b8e9013c8b87d9b0678",
+          "title": "Government 24-Hour Economy Legislation Amendment (Vibrancy Reforms) Bill 2023 Origin: Legislative Council Status: Assented on Tue 12 December 2023 Cognate bill",
+          "url": "https://search.parliament.nsw.gov.au/s/redirect?collection=pon1~sp-bills&url=https%3A%2F%2Fwww.parliament.nsw.gov.au%2Fparliamentary-business%2Fbills%2Fbill-details%3FbillId%3D18523%26ref%3D3287&index_url=https%3A%2F%2Fponsw%2Fbill%2F18523&auth=ApMzqGUesWdSNRkQ7ANIyA&profile=bills-current&rank=2&query=%21FunDoesNotExist%3Apadrenull"
+        },
+        {
+          "record_id": "51afcfe38c020d6d1d51",
+          "title": "Government Ageing and Disability Commissioner Amendment Bill 2023 Origin: Legislative Assembly Status: Assented on Wed 03 April 2024",
+          "url": "https://search.parliament.nsw.gov.au/s/redirect?collection=pon1~sp-bills&url=https%3A%2F%2Fwww.parliament.nsw.gov.au%2Fparliamentary-business%2Fbills%2Fbill-details%3FbillId%3D18527%26ref%3D3287&index_url=https%3A%2F%2Fponsw%2Fbill%2F18527&auth=JR4R3yb%2FOinmWLj%2BrGzb6g&profile=bills-current&rank=7&query=%21FunDoesNotExist%3Apadrenull"
+        },
+        {
+          "record_id": "6888238bee1cac74a559",
+          "title": "Private Alcohol Consumption in Public Places (Liberalisation) Bill 2024 Origin: Legislative Council Location: Legislative Council Status: Second Reading negatived on division in the LC, Wed 23 October 2024",
+          "url": "https://search.parliament.nsw.gov.au/s/redirect?collection=pon1~sp-bills&url=https%3A%2F%2Fwww.parliament.nsw.gov.au%2Fparliamentary-business%2Fbills%2Fbill-details%3FbillId%3D18608%26ref%3D3287&index_url=https%3A%2F%2Fponsw%2Fbill%2F18608&auth=cb%2B33BL%2BNnBCEurc%2FAHdag&profile=bills-current&rank=9&query=%21FunDoesNotExist%3Apadrenull"
+        },
+        {
+          "record_id": "7360a48420f91b4257a5",
+          "title": "Back to top",
+          "url": "https://www.parliament.nsw.gov.au/parliamentary-business/bills/current-session-bills"
+        },
+        {
+          "record_id": "781f2069c52033adc95c",
+          "title": "Private Alcohol Consumption in Public Places Legislation Amendment (Liberalisation) Bill 2024 Origin: Legislative Council Status: Withdrawn, Tue 04 June 2024",
+          "url": "https://search.parliament.nsw.gov.au/s/redirect?collection=pon1~sp-bills&url=https%3A%2F%2Fwww.parliament.nsw.gov.au%2Fparliamentary-business%2Fbills%2Fbill-details%3FbillId%3D18553%26ref%3D3287&index_url=https%3A%2F%2Fponsw%2Fbill%2F18553&auth=nH%2FF%2F5vsNeCzXBlEFIrKzw&profile=bills-current&rank=10&query=%21FunDoesNotExist%3Apadrenull"
+        },
+        {
+          "record_id": "8fa912ebde44831c736d",
+          "title": "Government 24-Hour Economy Legislation Amendment (Vibrancy Reforms) Bill 2025 Origin: Legislative Council Status: Assented on Mon 24 November 2025",
+          "url": "https://search.parliament.nsw.gov.au/s/redirect?collection=pon1~sp-bills&url=https%3A%2F%2Fwww.parliament.nsw.gov.au%2Fparliamentary-business%2Fbills%2Fbill-details%3FbillId%3D18813%26ref%3D3287&index_url=https%3A%2F%2Fponsw%2Fbill%2F18813&auth=oDyBZTPLUm8UNrsHJBjIyQ&profile=bills-current&rank=4&query=%21FunDoesNotExist%3Apadrenull"
+        },
+        {
+          "record_id": "9f873b946f460cddc20d",
+          "title": "Government Agriculture Commissioner Bill 2024 Origin: Legislative Council Status: Assented on Thu 31 October 2024",
+          "url": "https://search.parliament.nsw.gov.au/s/redirect?collection=pon1~sp-bills&url=https%3A%2F%2Fwww.parliament.nsw.gov.au%2Fparliamentary-business%2Fbills%2Fbill-details%3FbillId%3D18643%26ref%3D3287&index_url=https%3A%2F%2Fponsw%2Fbill%2F18643&auth=EqP2IzWtqj6MNnIFxMOR%2Fg&profile=bills-current&rank=8&query=%21FunDoesNotExist%3Apadrenull"
+        },
+        {
+          "record_id": "dec84de9d236b60d5aee",
+          "title": "Private Abortion Law Reform Amendment (Health Care Access) Bill 2025 Origin: Legislative Council Status: Assented on Wed 11 June 2025",
+          "url": "https://search.parliament.nsw.gov.au/s/redirect?collection=pon1~sp-bills&url=https%3A%2F%2Fwww.parliament.nsw.gov.au%2Fparliamentary-business%2Fbills%2Fbill-details%3FbillId%3D18697%26ref%3D3287&index_url=https%3A%2F%2Fponsw%2Fbill%2F18697&auth=l%2BuL7dT8rojkUa9bj3kPkg&profile=bills-current&rank=5&query=%21FunDoesNotExist%3Apadrenull"
+        },
+        {
+          "record_id": "df38f587f7a19e496499",
+          "title": "Hansard by bill Read parliamentary debates related to a specific bill.",
+          "url": "https://www.parliament.nsw.gov.au/parliamentary-business/hansard/hansard-by-bill"
+        },
+        {
+          "record_id": "fe327f0e75b23e8d5bc4",
+          "title": "Private Abortion Law Reform Amendment (Sex Selection Prohibition) Bill 2025 Origin: Legislative Council Location: Legislative Council Status: Second Reading, Debate adjourned, Wed 24 June 2026",
+          "url": "https://search.parliament.nsw.gov.au/s/redirect?collection=pon1~sp-bills&url=https%3A%2F%2Fwww.parliament.nsw.gov.au%2Fparliamentary-business%2Fbills%2Fbill-details%3FbillId%3D18794%26ref%3D3287&index_url=https%3A%2F%2Fponsw%2Fbill%2F18794&auth=ibVfKPg09mrG0xUv0VrDGA&profile=bills-current&rank=6&query=%21FunDoesNotExist%3Apadrenull"
+        }
+      ],
+      "publication_records_removed": [
+        {
+          "record_id": "0337bb201e62822f717a",
+          "title": "Current session bills A list of bills proposed or introduced in the current session of Parliament.",
+          "url": "https://www.parliament.nsw.gov.au/parliamentary-business/bills/current-session-bills"
+        },
+        {
+          "record_id": "2b09da27105926e885fb",
+          "title": "Learn more about the legislative process",
+          "url": "https://www.parliament.nsw.gov.au/parliamentary-business/bills/legislative-process-explained"
+        },
+        {
+          "record_id": "35541eeb64be58ec76e9",
+          "title": "Back to top",
+          "url": "https://www.parliament.nsw.gov.au/parliamentary-business/bills"
+        },
+        {
+          "record_id": "3c46828591be187fb7c3",
+          "title": "Bills glossary Commonly used terms in the legislative process.",
+          "url": "https://www.parliament.nsw.gov.au/parliamentary-business/bills/bills-glossary"
+        },
+        {
+          "record_id": "3d8bbd5a81beb3402380",
+          "title": "Assented bills Bills that have passed both Houses and haves been signed by the Governor to become law.",
+          "url": "https://www.parliament.nsw.gov.au/parliamentary-business/bills/assented-bills"
+        },
+        {
+          "record_id": "68ef3b16937186041b3f",
+          "title": "All bills All bills proposed or introduced in NSW Parliament since 1856.",
+          "url": "https://www.parliament.nsw.gov.au/parliamentary-business/bills/all-bills"
+        },
+        {
+          "record_id": "6bbb1c067670897d50f6",
+          "title": "Delegated Legislation Committee The Delegated Legislation Committee scrutinises all instruments of a legislative nature that are subject to disallowance.",
+          "url": "https://www.parliament.nsw.gov.au/parliamentary-business/committees/committee-details?committeeId=252"
+        },
+        {
+          "record_id": "8c454c777fddf1090640",
+          "title": "Hansard by bill Access to bill speeches and debates made by members through their passage in the Houses of Parliament.",
+          "url": "https://www.parliament.nsw.gov.au/parliamentary-business/hansard/hansard-by-bill"
+        },
+        {
+          "record_id": "fcd536cf34af5f9bfb56",
+          "title": "Legislation Review Committee The Legislation Review Committee reviews Bills and regulations and reports on them in the Legislation Review Digest.",
+          "url": "https://www.parliament.nsw.gov.au/parliamentary-business/committees/committee-details?committeeId=245"
+        }
+      ],
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "underlying_publication_claims_not_promoted_to_verified_fact": true,
+        "source_change_parent_retained": true,
+        "deterministic_review": true
+      }
+    },
+    {
+      "event_id": "SIG-REV-CHG-WATCH-ELECTIONS-ACT-NEWS-20260908231347",
+      "parent_event_id": "CHG-WATCH-ELECTIONS-ACT-NEWS-20260908231347",
+      "review_id": "REV-CHG-WATCH-ELECTIONS-ACT-NEWS-20260908231347",
+      "jurisdiction_id": "AUS-ACT",
+      "party_id": null,
+      "actor_id": null,
+      "contest_id": null,
+      "cycle_id": null,
+      "source_snapshot_id": "AUTO-WATCH-ELECTIONS-ACT-NEWS-20260908231347",
+      "record_id": null,
+      "captured_at": "2026-09-08T23:14:35.619Z",
+      "event_date": "2026-09-09",
+      "checkpoint": "CONTINUOUS_FORWARD_SIGNAL_REVIEW",
+      "event_type": "SIGNAL_CREATED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_ELECTORAL_AUTHORITY",
+      "source_id": "SRC-ELECTIONS-ACT-NEWS",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "claim": "Elections ACT — news archive added 19 structured publication records to its forward-captured official index: Funding, disclosures and registers; For voters; Skip to content; 14 June 2024 Canberra Progressives apply to change the registered officer of the party; 15 May 2024 Strong Independents apply to register as a political party for ACT Legislative Assembly elections; +14 more",
+      "observed_behaviour": "One or more structured publication records appeared in the monitored official source index after the preceding forward snapshot.",
+      "publication_records_added": [
+        {
+          "record_id": "053b49a631200edf8447",
+          "title": "Funding, disclosures and registers",
+          "url": "https://www.elections.act.gov.au/about-the-commission/publications/news-archives"
+        },
+        {
+          "record_id": "06aae5f67ba2e86ab363",
+          "title": "For voters",
+          "url": "https://www.elections.act.gov.au/about-the-commission/publications/news-archives"
+        },
+        {
+          "record_id": "0e0fa4dc365fda2be96d",
+          "title": "Skip to content",
+          "url": "https://www.elections.act.gov.au/about-the-commission/publications/news-archives"
+        },
+        {
+          "record_id": "192c6342a93df6d97001",
+          "title": "14 June 2024 Canberra Progressives apply to change the registered officer of the party",
+          "url": "https://www.elections.act.gov.au/about-the-commission/publications/news-archives/canberra-progressives-apply-to-change-the-registered-officer-of-the-party"
+        },
+        {
+          "record_id": "1b4347faab034b6357a9",
+          "title": "15 May 2024 Strong Independents apply to register as a political party for ACT Legislative Assembly elections",
+          "url": "https://www.elections.act.gov.au/about-the-commission/publications/news-archives/strong-independents-apply-to-register-as-a-political-party-for-act-legislative-assembly-elections"
+        },
+        {
+          "record_id": "1e642febde88f0395a01",
+          "title": "12 June 2024 Elections ACT's Service Delivery Plan for the 2024 ACT Legislative Assembly election is now available for viewing",
+          "url": "https://www.elections.act.gov.au/about-the-commission/publications/news-archives/elections-acts-service-delivery-plan-for-the-2024-act-legislative-assembly-election-is-now-available-for-viewing"
+        },
+        {
+          "record_id": "32d7fc3a07106583ce0b",
+          "title": "4 June 2024 Strong Independents officially registered for the 2024 ACT Legislative Assembly election",
+          "url": "https://www.elections.act.gov.au/about-the-commission/publications/news-archives/strong-independents-officially-registered-for-the-2024-act-legislative-assembly-election"
+        },
+        {
+          "record_id": "449c9fd5617e5ffe88cb",
+          "title": "For political participants",
+          "url": "https://www.elections.act.gov.au/about-the-commission/publications/news-archives"
+        },
+        {
+          "record_id": "655ef8f5e703018bf8f4",
+          "title": "12 June 2024 Elections ACT has re-released the source code for the electronic voting and counting system",
+          "url": "https://www.elections.act.gov.au/about-the-commission/publications/news-archives/elections-act-has-re-released-the-source-code-for-the-electronic-voting-and-counting-system"
+        },
+        {
+          "record_id": "a3857c658c21c7698da7",
+          "title": "News archives",
+          "url": "https://www.elections.act.gov.au/about-the-commission/publications/news-archives"
+        },
+        {
+          "record_id": "a5f53957f9b327858628",
+          "title": "17 May 2024 Independents for Canberra apply to change party abbreviation, Registered Officer and Secretary of the party",
+          "url": "https://www.elections.act.gov.au/about-the-commission/publications/news-archives/independents-for-canberra-apply-to-change-party-abbreviation,-registered-officer-and-secretary-of-the-party"
+        },
+        {
+          "record_id": "ae0fa7e29ce939d7c2db",
+          "title": "About the Commission",
+          "url": "https://www.elections.act.gov.au/about-the-commission"
+        },
+        {
+          "record_id": "b27b0bfd1a431fc4d7c6",
+          "title": "17 May 2024 Nominations for the ACT Aboriginal and Torres Strait Islander Elected Body (ATSIEB) 2024 are now open",
+          "url": "https://www.elections.act.gov.au/about-the-commission/publications/news-archives/nominations-for-the-act-aboriginal-and-torres-strait-islander-elected-body-atsieb-2024-are-now-open"
+        },
+        {
+          "record_id": "b4e14e76407a5ca368ce",
+          "title": "See all news",
+          "url": "https://www.elections.act.gov.au/about-the-commission/publications/news-archives"
+        },
+        {
+          "record_id": "d06265aff89799bf6987",
+          "title": "Translate",
+          "url": "https://www.elections.act.gov.au/about-the-commission/publications/news-archives"
+        },
+        {
+          "record_id": "e5d8cb2f4379903e4e65",
+          "title": "7 June 2024 Fiona Carrick Independent apply to register as a political party for ACT Legislative Assembly elections",
+          "url": "https://www.elections.act.gov.au/about-the-commission/publications/news-archives/fiona-carrick-independent-apply-to-register-as-a-political-party-for-act-legislative-assembly-elections"
+        },
+        {
+          "record_id": "ed2d080d80f5578b604f",
+          "title": "Elections",
+          "url": "https://www.elections.act.gov.au/about-the-commission/publications/news-archives"
+        },
+        {
+          "record_id": "ee901265f22dcecc014f",
+          "title": "24 May 2024 Reminder for new political parties intending to register for the 2024 ACT election",
+          "url": "https://www.elections.act.gov.au/about-the-commission/publications/news-archives/reminder-for-new-political-parties-intending-to-register-for-the-2024-act-election"
+        },
+        {
+          "record_id": "fdb43d4a34aaeb422813",
+          "title": "Integrity",
+          "url": "https://www.elections.act.gov.au/about-the-commission/publications/news-archives"
+        }
+      ],
+      "publication_records_removed": [
+        {
+          "record_id": "25cfb46c829c7f3d2385",
+          "title": "Click to find out more",
+          "url": "https://www.elections.act.gov.au/for-political-participants"
+        },
+        {
+          "record_id": "484cb2dc13de8d0ed7db",
+          "title": "Financial disclosure",
+          "url": "https://www.elections.act.gov.au/funding-disclosures-and-registers"
+        },
+        {
+          "record_id": "7e311b4010f8537cefc1",
+          "title": "Electoral integrity",
+          "url": "https://www.elections.act.gov.au/integrity"
+        },
+        {
+          "record_id": "a0936318fd8395c13134",
+          "title": "Click to find out more",
+          "url": "https://www.elections.act.gov.au/elections"
+        }
+      ],
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "underlying_publication_claims_not_promoted_to_verified_fact": true,
+        "source_change_parent_retained": true,
+        "deterministic_review": true
+      }
+    },
+    {
+      "event_id": "SIG-REV-CHG-WATCH-NTEC-MEDIA-20260908231347",
+      "parent_event_id": "CHG-WATCH-NTEC-MEDIA-20260908231347",
+      "review_id": "REV-CHG-WATCH-NTEC-MEDIA-20260908231347",
+      "jurisdiction_id": "AUS-NT",
+      "party_id": null,
+      "actor_id": null,
+      "contest_id": null,
+      "cycle_id": null,
+      "source_snapshot_id": "AUTO-WATCH-NTEC-MEDIA-20260908231347",
+      "record_id": null,
+      "captured_at": "2026-09-08T23:14:35.619Z",
+      "event_date": "2026-09-09",
+      "checkpoint": "CONTINUOUS_FORWARD_SIGNAL_REVIEW",
+      "event_type": "SIGNAL_CREATED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_ELECTORAL_AUTHORITY",
+      "source_id": "SRC-NTEC-MEDIA",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "claim": "Northern Territory Electoral Commission — media releases added 2 structured publication records to its forward-captured official index: Timetable; List of candidate",
+      "observed_behaviour": "One or more structured publication records appeared in the monitored official source index after the preceding forward snapshot.",
+      "publication_records_added": [
+        {
+          "record_id": "4297265d1134b8543a56",
+          "title": "Timetable",
+          "url": "https://ntec.nt.gov.au/elections/current-elections/2026-mulka-by-election/Mulka-timetable"
+        },
+        {
+          "record_id": "e1c8d06d96c0dff73984",
+          "title": "List of candidate",
+          "url": "https://ntec.nt.gov.au/elections/current-elections/2026-mulka-by-election/list-of-candidates"
+        }
+      ],
+      "publication_records_removed": [
+        {
+          "record_id": "18db2e364ec543aa2917",
+          "title": "2022 (12)",
+          "url": "https://ntec.nt.gov.au/about-us/media-and-publications/media-releases/2022"
+        },
+        {
+          "record_id": "248ec28e5c87e1848da0",
+          "title": "Skip to main navigation",
+          "url": "https://ntec.nt.gov.au/about-us/media-and-publications/media-releases"
+        },
+        {
+          "record_id": "50aefaff7f3642161412",
+          "title": "2024 (45)",
+          "url": "https://ntec.nt.gov.au/about-us/media-and-publications/media-releases/2024"
+        },
+        {
+          "record_id": "6747a7644bfac85ebf91",
+          "title": "2021 (22)",
+          "url": "https://ntec.nt.gov.au/about-us/media-and-publications/media-releases/2021"
+        },
+        {
+          "record_id": "914da1d68b1c54b2691f",
+          "title": "2025 (31)",
+          "url": "https://ntec.nt.gov.au/about-us/media-and-publications/media-releases/2025"
+        },
+        {
+          "record_id": "abda225ae92bab593eb9",
+          "title": "2026 (31)",
+          "url": "https://ntec.nt.gov.au/about-us/media-and-publications/media-releases/2026"
+        },
+        {
+          "record_id": "cf2caaf0bb64d2b93508",
+          "title": "2020 (30)",
+          "url": "https://ntec.nt.gov.au/about-us/media-and-publications/media-releases/2020"
+        },
+        {
+          "record_id": "dc477118fd386d837561",
+          "title": "Skip to main content",
+          "url": "https://ntec.nt.gov.au/about-us/media-and-publications/media-releases"
+        },
+        {
+          "record_id": "dd2388691b8bf63b647b",
+          "title": "2023 (63)",
+          "url": "https://ntec.nt.gov.au/about-us/media-and-publications/media-releases/2023"
+        },
+        {
+          "record_id": "eea3e6c860ab9b6be80b",
+          "title": "Print this page",
+          "url": "https://ntec.nt.gov.au/about-us/media-and-publications/media-releases"
         }
       ],
       "inference": null,

@@ -27,6 +27,8 @@ jobs:
         run: node scripts/validate-projection-integrity.mjs
       - name: Validate political lifecycle
         run: node scripts/validate-political-lifecycle.mjs
+      - name: Validate political temporal engine
+        run: node scripts/validate-political-temporal-engine.mjs
       - name: Validate state and territory rosters
         run: node scripts/validate-state-territory-rosters.mjs
       - name: Validate federal Senate electoral statistics

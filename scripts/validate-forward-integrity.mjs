@@ -17,6 +17,10 @@ assert(manifest.integrity?.party_affiliation_not_silently_collapsed_into_coaliti
 assert(manifest.integrity?.player_statistics_preserve_native_political_units === true, 'native political player-stat units invariant missing');
 assert(manifest.integrity?.synthetic_composite_player_score_prohibited === true, 'synthetic player-score prohibition missing');
 assert(manifest.integrity?.missing_player_stat_data_is_not_zero === true, 'missing-player-stat-is-not-zero invariant missing');
+assert(manifest.integrity?.federal_house_division_electoral_context_complete === true, 'federal House electoral-context completion invariant missing');
+assert(manifest.integrity?.other_first_preference_not_attributed_to_individual_players === true, 'OTH non-attribution invariant missing');
+assert(manifest.integrity?.tpp_not_misrepresented_as_tcp === true, 'TPP/TCP distinction invariant missing');
+assert(manifest.integrity?.election_day_party_preserved_for_historical_stats === true, 'historical election-party invariant missing');
 
 for (const [name, entry] of Object.entries(manifest.canonical || {})) {
   assert(entry?.path && fs.existsSync(entry.path), `canonical dependency missing: ${name}`);
@@ -30,6 +34,9 @@ assert(statRegistry.rules?.no_synthetic_composite_player_score === true, 'player
 assert(statRegistry.rules?.zero_requires_observed_zero === true, 'player stat registry permits unobserved zero');
 assert(statRegistry.rules?.missing_data_is_not_zero === true, 'player stat registry conflates missing data with zero');
 assert(statRegistry.rules?.source_lineage_required === true, 'player stat registry source lineage rule missing');
+assert(statRegistry.rules?.aggregate_other_vote_must_not_be_attributed_to_an_individual_player === true, 'player stat registry permits OTH attribution to individual players');
+assert(statRegistry.rules?.two_party_preferred_must_not_be_labelled_two_candidate_preferred_in_nonclassic_contests === true, 'player stat registry permits TPP/TCP conflation');
+assert(statRegistry.rules?.historical_election_party_must_not_be_rewritten_by_current_affiliation === true, 'player stat registry permits current party to rewrite historical election party');
 assert((statRegistry.groups || []).some(g=>g.group_id==='STRUCTURAL'), 'structural player stat group missing');
 assert((statRegistry.groups || []).some(g=>g.group_id==='FORWARD_INTELLIGENCE'), 'forward-intelligence player stat group missing');
 assert((statRegistry.groups || []).some(g=>g.group_id==='ELECTORAL_PERFORMANCE'), 'electoral-performance player stat group missing');
@@ -122,6 +129,37 @@ for (const f of form.player_form || []) {
 }
 assert((form.team_form || []).length === 12, `team form contains ${(form.team_form || []).length} teams, expected 12`);
 
+// Federal House electoral-performance integrity.
+const electoral = read(manifest.runtime.federal_house_electoral_performance);
+assert(electoral.status === 'COMPLETE_150_DIVISION_PARTY_FIRST_PREFERENCE_AND_TPP_CONTEXT', 'federal House electoral snapshot not marked complete for division context');
+assert(electoral.rules?.other_column_must_not_be_attributed_to_any_individual_candidate === true, 'electoral runtime permits OTH attribution to an individual');
+assert(electoral.rules?.tpp_is_division_context_not_tcp_for_non_classic_contests === true, 'electoral runtime permits TPP/TCP conflation');
+assert(electoral.rules?.current_party_affiliation_must_not_rewrite_election_day_party === true, 'electoral runtime permits current affiliation to rewrite historical party');
+assert(electoral.rules?.missing_candidate_specific_result_is_not_zero === true, 'electoral runtime permits missing candidate result to become zero');
+const electoralFields = electoral.fields || [];
+const eix = Object.fromEntries(electoralFields.map((f,i)=>[f,i]));
+const divisionRows = electoral.division_results || [];
+assert(electoralFields.length === 10, `electoral field count expected 10, got ${electoralFields.length}`);
+assert(divisionRows.length === 150, `federal House division electoral rows expected 150, got ${divisionRows.length}`);
+assert(unique(divisionRows.map(r=>r[eix.division])), 'federal House electoral division names are not unique');
+assert(electoral.coverage?.division_context_records === 150, 'electoral coverage does not record 150 division contexts');
+assert(electoral.coverage?.division_context_total === 150, 'electoral expected division total is not 150');
+const divisionNames = new Set(divisionRows.map(r=>r[eix.division]));
+for (const p of allPlayers.filter(p=>p.chamber==='HOUSE')) assert(divisionNames.has(p.division), `current House player division missing electoral context: ${p.actor_id} ${p.division}`);
+const candidateSpecific = electoral.candidate_specific_results || [];
+assert(candidateSpecific.length === 5, `candidate-specific electoral records expected 5, got ${candidateSpecific.length}`);
+assert(unique(candidateSpecific.map(x=>x.actor_id)), 'candidate-specific electoral actor IDs are not unique');
+for (const x of candidateSpecific) assert(playerIds.includes(x.actor_id), `candidate-specific electoral record references unknown current federal player: ${x.actor_id}`);
+assert(electoral.current_player_election_party_overrides?.['ACT-BARNABY-JOYCE']?.election_party_code === 'NP', 'Barnaby Joyce 2025 election-party override must remain Nationals');
+assert(electoral.current_player_election_party_overrides?.['ACT-DAVID-FARLEY']?.election_party_code === null, 'David Farley must not inherit a 2025 general-election party code');
+const adelaide = divisionRows.find(r=>r[eix.division]==='Adelaide');
+assert(adelaide?.[eix.alp_first_preference_percent] === 46.49, 'Adelaide ALP first preference must equal AEC final 46.49');
+assert(adelaide?.[eix.tpp_alp_percent] === 69.07, 'Adelaide ALP TPP must equal AEC final 69.07');
+const bradfield = candidateSpecific.find(x=>x.actor_id==='ACT-NICOLETTE-BOELE');
+assert(bradfield?.primary_vote_percent === 27.01 && bradfield?.tcp_percent === 50.01, 'Nicolette Boele candidate-specific result mismatch');
+const farley = candidateSpecific.find(x=>x.actor_id==='ACT-DAVID-FARLEY');
+assert(farley?.event === '2026 Farrer By-election' && farley?.tcp_percent === 57.55, 'David Farley by-election result mismatch');
+
 const projections = read(manifest.runtime.projection_ledger);
 assert(projections.rules?.append_only === true, 'projection ledger not append-only');
 assert(projections.rules?.frozen_projection_mutation_prohibited === true, 'frozen projection mutation prohibition missing');
@@ -172,4 +210,4 @@ if (fail.length) {
   process.exit(1);
 }
 
-console.log('POLITICAL_MAYHEM_FORWARD_INTEGRITY_PASS', manifest.snapshot_id, `players=${allPlayers.length}`, `teams=${partyTeams.length}`, `independents=${independentPlayers.length}`, `playerStatGroups=${(statRegistry.groups||[]).length}`);
+console.log('POLITICAL_MAYHEM_FORWARD_INTEGRITY_PASS', manifest.snapshot_id, `players=${allPlayers.length}`, `teams=${partyTeams.length}`, `independents=${independentPlayers.length}`, `playerStatGroups=${(statRegistry.groups||[]).length}`, `houseElectoralDivisions=${divisionRows.length}`, `candidateSpecificElectoral=${candidateSpecific.length}`);

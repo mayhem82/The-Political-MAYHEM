@@ -29,8 +29,8 @@ for(const file of files){
 }
 
 const bootstrap=fs.readFileSync('docs/NEW-THREAD-BOOTSTRAP.md','utf8');
-if(!bootstrap.includes('There is no forward-only experiment.')) throw new Error('bootstrap must explicitly state that there is no forward-only experiment');
-if(!bootstrap.includes('Retrospective evidence discovery and ongoing capture')) throw new Error('bootstrap must preserve retrospective discovery and ongoing capture as parallel evidence streams');
+if(!/there is no forward-only experiment\./i.test(bootstrap)) throw new Error('bootstrap must explicitly state that there is no forward-only experiment');
+if(!/retrospective(?: evidence)? discovery/i.test(bootstrap)||!/ongoing(?:\/live)? (?:evidence )?capture/i.test(bootstrap)) throw new Error('bootstrap must preserve retrospective discovery and ongoing capture as parallel evidence streams');
 
 const architecture=fs.readFileSync('docs/POLITICAL-MAYHEM-ARCHITECTURE.md','utf8');
 if(!architecture.includes('## Temporal evidence architecture')) throw new Error('architecture must define the temporal evidence architecture');

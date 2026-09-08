@@ -1,0 +1,47 @@
+{
+  "ledger_id": "POLITICAL-EDGE-CALIBRATION-001",
+  "domain": "AUSTRALIAN_POLITICS",
+  "status": "EMPIRICAL_EDGE_NOT_YET_ESTABLISHED",
+  "created_at": "2026-09-08T16:58:00+10:00",
+  "updated_at": "2026-09-08T16:58:00+10:00",
+  "rules": {
+    "append_only_input_ledgers": true,
+    "frozen_projection_required": true,
+    "verified_outcome_required": true,
+    "explicit_probability_required_for_scoring": true,
+    "contemporaneous_baseline_required_for_comparative_edge": true,
+    "baseline_capture_must_not_postdate_projection_freeze": true,
+    "missing_baseline_is_null_not_zero": true,
+    "negative_edge_is_retained": true,
+    "failed_tips_are_retained": true,
+    "void_tips_are_not_scored": true,
+    "no_hindsight_reconstruction": true
+  },
+  "metric_definitions": {
+    "brier_score": "(forecast_probability - binary_outcome)^2; lower is better",
+    "log_loss": "negative log likelihood of the observed binary outcome; lower is better",
+    "brier_edge_vs_baseline": "baseline_brier - mayhem_brier; positive means MAYHEM outperformed the contemporaneous baseline",
+    "log_loss_edge_vs_baseline": "baseline_log_loss - mayhem_log_loss; positive means MAYHEM outperformed the contemporaneous baseline"
+  },
+  "summary": {
+    "projection_versions": 0,
+    "frozen_projection_versions": 0,
+    "graded_projection_versions": 0,
+    "graded_probability_tips": 0,
+    "baseline_comparable_tips": 0,
+    "correct": 0,
+    "incorrect": 0,
+    "partial": 0,
+    "void": 0,
+    "mean_mayhem_brier": null,
+    "mean_baseline_brier": null,
+    "mean_brier_edge": null,
+    "mean_mayhem_log_loss": null,
+    "mean_baseline_log_loss": null,
+    "mean_log_loss_edge": null,
+    "empirical_advantage_state": "NOT_MEASURABLE_YET"
+  },
+  "calibration_bins": [],
+  "records": [],
+  "notes": "Architectural advantage is already enforced by freeze, lineage and anti-hindsight rules. Empirical informational advantage remains unproven until this ledger accumulates graded, pre-committed probability forecasts and, where available, contemporaneous comparison baselines."
+}

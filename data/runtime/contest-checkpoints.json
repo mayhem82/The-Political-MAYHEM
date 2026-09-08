@@ -34,6 +34,34 @@
           }
         },
         {
+          "checkpoint_id": "CP-AUS-VIC-SE2026-GOVERNMENT-PERIODIC-20260909T064233",
+          "contest_id": "AUS-VIC-SE2026-GOVERNMENT",
+          "cycle_id": "AUS-VIC-SE2026",
+          "checkpoint_type": "PERIODIC",
+          "scheduled_for": null,
+          "captured_at": "2026-09-09T06:42:33+10:00",
+          "reconciled_at": null,
+          "evidence_cutoff": "2026-09-09T06:42:33+10:00",
+          "capture_state": "CAPTURED_IN_WINDOW",
+          "source_snapshot_ids": [
+            "AUTO-WATCH-VEC-2026-STATE-ELECTION-20260908042439",
+            "SNAP-ONP-VIC-20260908-BLACKBURN"
+          ],
+          "intelligence_event_ids": [
+            "INTEL-20260908-015"
+          ],
+          "evidence_state": "MIXED",
+          "open_conflict_ids": [],
+          "projection_id": null,
+          "projection_state": "ABSTAIN_INSUFFICIENT_EVIDENCE",
+          "notes": "Insufficient forward evidence for a government-formation projection. The VEC source establishes the election timetable and the captured One Nation event establishes observable candidate campaign activity only; neither supports an outcome-bearing inference, probability or winner selection.",
+          "integrity": {
+            "frozen_at": "2026-09-09T06:42:33+10:00",
+            "hindsight_changes_prohibited": true,
+            "retroactive_signal_backfill_prohibited": true
+          }
+        },
+        {
           "checkpoint_id": "CP-AUS-VIC-SE2026-GOVERNMENT-WRIT-20261103T1800",
           "contest_id": "AUS-VIC-SE2026-GOVERNMENT",
           "cycle_id": "AUS-VIC-SE2026",

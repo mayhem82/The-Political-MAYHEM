@@ -8,7 +8,7 @@ Target implementation: `mayhem82/The-Political-MAYHEM`
 
 The Political MAYHEM is to be built as the political-domain duplicate of TheNRLMAYHEM.
 
-Do not redesign the architecture from first principles. Read the NRL repository, reproduce its operating structure, data flow, provenance model, versioning discipline, failure retention, relationship mapping, live/forward operation, audit behaviour and expansion logic, then translate the domain entities.
+Do not redesign the architecture from first principles. Read the NRL repository, reproduce its operating structure, data flow, provenance model, versioning discipline, failure retention, relationship mapping, live operation, audit behaviour and expansion logic, then translate the domain entities.
 
 The default structural substitutions are:
 
@@ -26,42 +26,52 @@ Preserve all architecture that remains meaningful after those substitutions. Ada
 
 Paste this into the new thread:
 
-`Explicitly reference mayhem82/TheNRLMAYHEM and mayhem82/The-Political-MAYHEM for this thread. Build The Political MAYHEM as the political-domain duplicate of TheNRLMAYHEM. Read the NRL repository architecture and current implementation first, then reproduce it in mayhem82/The-Political-MAYHEM with the primary substitutions teams → parties and players → actors, plus direct political equivalents for fixtures, seasons, results, form, availability, live state, grading, failure analysis, relationship mapping and public surfaces. Preserve the same continuously expanding MAYHEM operating model, temporal provenance, immutable projection history, result reconciliation, failure retention, calibration discipline, recursive analysis and Lattice Atlas relationship mapping. Build forward/live tipping first. Do not build the retroactive ingestion and retrospective signal-mining layer until a genuine forward baseline has formed. When retro analysis is later added, it may append better current projections from the genuine time of discovery forward but may never rewrite earlier projections. Do not import a political-domain deviation unless evidence shows the NRL structure cannot map cleanly. Never treat the repository as complete; use verified snapshots. Execute repository changes autonomously when requested and reread every write after persistence.`
+`Explicitly reference mayhem82/TheNRLMAYHEM and mayhem82/The-Political-MAYHEM for this thread. Build The Political MAYHEM as the political-domain duplicate of TheNRLMAYHEM. Read the NRL repository architecture and current implementation first, then reproduce it in mayhem82/The-Political-MAYHEM with the primary substitutions teams → parties and players → actors, plus direct political equivalents for fixtures, seasons, results, form, availability, live state, grading, failure analysis, relationship mapping and public surfaces. Preserve the same continuously expanding MAYHEM operating model, temporal provenance, immutable projection history, result reconciliation, failure retention, calibration discipline, recursive analysis and Lattice Atlas relationship mapping. Treat retrospective discovery of historical evidence and ongoing capture of new evidence as co-equal evidence streams. Preserve both the source/event time and the MAYHEM discovery/capture time for every evidence item. A frozen prediction may claim only evidence demonstrably available before its evidence cutoff and freeze; evidence discovered later may improve historical understanding, failure analysis, relationship mapping, model rules and future projections but may never be retroactively credited to an earlier frozen prediction or used to rewrite its score. Do not import a political-domain deviation unless evidence shows the NRL structure cannot map cleanly. Never treat the repository as complete; use verified snapshots. Execute repository changes autonomously when requested and reread every write after persistence.`
 
 ## Build-order equivalence
 
-Follow the same broad build order as TheNRLMAYHEM:
+Follow the same broad operating architecture as TheNRLMAYHEM, adapted to Political MAYHEM:
 
 1. Canonical political-cycle and contest data model.
 2. Party objects equivalent to team objects.
 3. Actor objects equivalent to player objects.
 4. Source registry and provenance rules.
-5. Current contest/event lifecycle handling.
-6. Forward evidence ingestion.
-7. Projection/tip generation and immutable capture.
-8. Public/current projection surfaces.
-9. Outcome verification.
-10. Projection grading.
-11. Failure audit and retained failed projections.
-12. Party intelligence equivalent to team intelligence.
-13. Actor intelligence equivalent to player intelligence.
-14. Calibration and source-performance learning from genuine contemporaneous evidence.
-15. Information-advantage and temporal evidence ledger.
-16. Lattice Atlas relationship mapping and recursively expanding analysis.
-17. Genuine forward baseline accumulation.
-18. Retroactive ingestion and retrospective single-signal / multidimensional discovery built last.
+5. Historical evidence discovery with explicit source/event time and discovery-time provenance.
+6. Ongoing/live evidence capture with immutable capture lineage.
+7. Current contest/event lifecycle handling and competition discovery.
+8. Projection/tip generation and immutable capture.
+9. Public/current projection surfaces.
+10. Outcome verification.
+11. Projection grading.
+12. Failure audit and retained failed projections using the full timed evidence record.
+13. Party intelligence equivalent to team intelligence.
+14. Actor intelligence equivalent to player intelligence.
+15. Calibration and source-performance learning from genuine contemporaneous prediction baselines.
+16. Information-advantage and temporal evidence ledger.
+17. Lattice Atlas relationship mapping and recursively expanding analysis.
+18. Continuous re-ingestion, retrospective expansion and prospective capture without terminal completion.
 
-Do not move retroactive analysis ahead of the forward architecture merely because historical data is easier to obtain.
+Historical data being easier to obtain does not make it privileged, and live data being newer does not make it the only legitimate evidence. Both streams must retain temporal provenance.
 
-## Forward-first rule
+## Temporal provenance rule
 
-The forward system must exist before the historical discovery engine so the architecture acquires a genuine uncontaminated baseline.
+There is no forward-only experiment.
 
-A projection made at time `T` may use only evidence genuinely knowable at `T`.
+The evidence universe includes:
 
-Later evidence creates a later projection version. It does not rewrite the earlier version.
+- historical evidence discovered retrospectively;
+- evidence captured while the system is live;
+- evidence discovered after a prediction freeze;
+- evidence discovered after an outcome;
+- verified outcomes and later explanatory evidence.
 
-When the retro layer is eventually introduced, a relationship discovered at time `R` may influence projections from `R` onward. It cannot be inserted retrospectively into predictions made before `R`.
+Each item keeps its own source/event time and its MAYHEM discovery or capture time.
+
+A projection made and frozen at time `T` may be scored only from evidence demonstrably available to MAYHEM by its recorded evidence cutoff at or before `T`.
+
+Evidence discovered after `T` remains valid evidence. It may change later projections, reveal missed mechanisms, alter relationship maps, improve model rules, or explain why an earlier prediction succeeded or failed. It cannot be inserted into that earlier prediction's frozen evidentiary lineage or used to rewrite its score.
+
+Anti-hindsight therefore protects the integrity of frozen predictions; it does not prohibit retrospective discovery or retrospective analysis.
 
 ## Political signal expansion
 

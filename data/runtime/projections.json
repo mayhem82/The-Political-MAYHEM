@@ -1,6 +1,7 @@
 {
-  "snapshot_id": "POLITICAL-PROJECTION-LEDGER-001",
+  "snapshot_id": "POLITICAL-PROJECTION-LEDGER-002",
   "created_at": "2026-09-08T00:00:00+10:00",
+  "updated_at": "2026-09-09T05:05:00+10:00",
   "projections": [],
   "rules": {
     "append_only": true,
@@ -8,6 +9,14 @@
     "frozen_projection_mutation_prohibited": true,
     "evidence_cutoff_required": true,
     "source_lineage_required": true,
-    "failed_projections_retained": true
+    "failed_projections_retained": true,
+    "explicit_probability_required_for_frozen_tip": true,
+    "comparison_baseline_must_be_pre_freeze": true,
+    "raw_source_change_requires_signal_promotion_before_projection_use": true,
+    "grading_rule_precommitted": true,
+    "grading_requires_verified_outcome": true,
+    "pre_outcome_payload_hash_must_verify_before_grading": true,
+    "incorrect_projection_requires_failure_audit": true,
+    "post_outcome_updates_are_metadata_only": true
   }
 }

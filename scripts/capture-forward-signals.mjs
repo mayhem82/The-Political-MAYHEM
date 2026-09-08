@@ -31,7 +31,7 @@ const headerProfiles=[
   {
     id:'IDENTIFIED_AUTOMATION',
     headers:{
-      'user-agent':'Political-MAYHEM-Forward-Signal-Capture/1.1 (+https://github.com/mayhem82/The-Political-MAYHEM)',
+      'user-agent':'Political-MAYHEM-Forward-Signal-Capture/1.2 (+https://github.com/mayhem82/The-Political-MAYHEM)',
       'accept':'text/html,application/xhtml+xml,application/rss+xml,application/xml,text/plain,*/*',
       'accept-language':'en-AU,en;q=0.9'
     }
@@ -78,10 +78,12 @@ const manifest=read(MANIFEST);
 state.sources ||= {};
 snapshotRegister.snapshots ||= [];
 eventLedger.events ||= [];
+const snapshotById=new Map(snapshotRegister.snapshots.map(x=>[x.snapshot_id,x]));
 
 let dirty=false;
 let baselineCount=0;
 let signalCount=0;
+let representationUpgradeCount=0;
 const failures=[];
 const nowDate=new Date();
 const now=nowDate.toISOString();
@@ -94,17 +96,28 @@ for(const source of (registry.sources||[]).filter(x=>x.active)){
     if(!representation) throw new Error('empty normalised representation');
     const contentHash=sha(representation);
     const previous=state.sources[source.watch_id]||null;
-    if(previous?.content_hash===contentHash){
-      if(previous.acquisition_url!==acquisition.url || previous.header_profile!==acquisition.header_profile){
+    const previousSnapshot=previous?snapshotById.get(previous.snapshot_id):null;
+    const sameHash=previous?.content_hash===contentHash;
+    const requiresRepresentationUpgrade=Boolean(previous && sameHash && previousSnapshot?.captured_representation_complete!==true);
+    const acquisitionMetadataChanged=Boolean(previous && sameHash && !requiresRepresentationUpgrade && (previous.acquisition_url!==acquisition.url || previous.header_profile!==acquisition.header_profile || previous.content_type!==acquisition.content_type));
+
+    if(previous && sameHash && !requiresRepresentationUpgrade){
+      if(acquisitionMetadataChanged){
         state.sources[source.watch_id]={...previous,acquisition_url:acquisition.url,requested_url:acquisition.requested_url,header_profile:acquisition.header_profile,content_type:acquisition.content_type};
         dirty=true;
       }
       continue;
     }
 
+    const contentChanged=Boolean(previous && !sameHash);
     const snapshotId=`AUTO-${source.watch_id}-${compact(nowDate)}`;
     if(!snapshotRegister.snapshots.some(x=>x.snapshot_id===snapshotId)){
-      snapshotRegister.snapshots.push({
+      const notes=!previous
+        ?'Automated forward baseline capture. No signal event is created for the first observed representation.'
+        :requiresRepresentationUpgrade
+          ?'Evidence-preservation upgrade of an existing unchanged baseline. Full normalized representation retained; content hash unchanged; no political signal created.'
+          :'Automated forward capture after source representation changed. Hash is reproducible from the complete normalized representation stored here.';
+      const snapshot={
         snapshot_id:snapshotId,
         contest_id:null,
         cycle_id:null,
@@ -122,14 +135,19 @@ for(const source of (registry.sources||[]).filter(x=>x.active)){
         published_date:null,
         captured_at:now,
         content_hash:contentHash,
+        hash_basis:'COMPLETE_NORMALISED_CAPTURED_REPRESENTATION',
         previous_snapshot_id:previous?.snapshot_id||null,
         public_access:'OPEN',
-        captured_representation:representation.slice(0,1200),
-        notes:previous?'Automated forward capture after source representation changed. Hash covers the normalised captured representation.':'Automated forward baseline capture. No signal event is created for the first observed representation.'
-      });
+        captured_representation:representation,
+        captured_representation_complete:true,
+        captured_representation_length:representation.length,
+        notes
+      };
+      snapshotRegister.snapshots.push(snapshot);
+      snapshotById.set(snapshotId,snapshot);
     }
 
-    if(previous){
+    if(contentChanged){
       const eventId=`SIG-${source.watch_id}-${compact(nowDate)}`;
       if(!eventLedger.events.some(x=>x.event_id===eventId)){
         eventLedger.events.push({
@@ -156,7 +174,11 @@ for(const source of (registry.sources||[]).filter(x=>x.active)){
         });
         signalCount++;
       }
-    }else baselineCount++;
+    }else if(!previous){
+      baselineCount++;
+    }else if(requiresRepresentationUpgrade){
+      representationUpgradeCount++;
+    }
 
     state.sources[source.watch_id]={
       source_id:source.source_id,
@@ -168,7 +190,8 @@ for(const source of (registry.sources||[]).filter(x=>x.active)){
       acquisition_url:acquisition.url,
       requested_url:acquisition.requested_url,
       header_profile:acquisition.header_profile,
-      content_type:acquisition.content_type
+      content_type:acquisition.content_type,
+      captured_representation_complete:true
     };
     dirty=true;
   }catch(err){
@@ -179,7 +202,7 @@ for(const source of (registry.sources||[]).filter(x=>x.active)){
 
 state.status='ACTIVE';
 state.updated_at=now;
-state.last_run={captured_at:now,baselines_created:baselineCount,signals_created:signalCount,failures};
+state.last_run={captured_at:now,baselines_created:baselineCount,signals_created:signalCount,representation_upgrades:representationUpgradeCount,failures};
 manifest.updated_at=now;
 manifest.live_evidence_ingestion ||= {};
 manifest.live_evidence_ingestion.running=true;
@@ -197,4 +220,4 @@ if(dirty){
 }
 write(STATE,state);
 write(MANIFEST,manifest);
-console.log(`FORWARD_SIGNAL_CAPTURE_OK dirty=${dirty} baselines=${baselineCount} signals=${signalCount} failures=${failures.length}`);
+console.log(`FORWARD_SIGNAL_CAPTURE_OK dirty=${dirty} baselines=${baselineCount} signals=${signalCount} representation_upgrades=${representationUpgradeCount} failures=${failures.length}`);

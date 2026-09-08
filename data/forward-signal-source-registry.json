@@ -1,7 +1,7 @@
 {
-  "registry_id": "FORWARD-SIGNAL-SOURCE-REGISTRY-008",
+  "registry_id": "FORWARD-SIGNAL-SOURCE-REGISTRY-009",
   "status": "ACTIVE_EXPANDING_ALL_JURISDICTIONS",
-  "updated_at": "2026-09-09T07:54:00+10:00",
+  "updated_at": "2026-09-09T07:59:00+10:00",
   "capture_cadence": "HOURLY",
   "rules": {
     "forward_only": true,
@@ -44,6 +44,7 @@
     {"watch_id":"WATCH-VIC-PREMIER-MEDIA","source_id":"SRC-VIC-PREMIER-MEDIA","name":"Premier of Victoria — media centre","url":"https://www.premier.vic.gov.au/media-centre/","fallback_urls":["https://www.premier.vic.gov.au/"],"jurisdiction_id":"AUS-VIC","party_id":null,"source_class":"PRIMARY_GOVERNMENT","capture_mode":"PUBLICATION_FEED_HASH","review_policy":"AUTO_PROMOTE_PUBLICATION_ADDITIONS","active":true},
 
     {"watch_id":"WATCH-QLD-HANSARD","source_id":"SRC-QLD-HANSARD","name":"Queensland Parliament — Record of Proceedings","url":"https://www.parliament.qld.gov.au/Work-of-the-Assembly/Record-of-Proceedings/Latest-Record-of-Proceedings","fallback_urls":["https://www.parliament.qld.gov.au/Work-of-the-Assembly/Record-of-Proceedings"],"jurisdiction_id":"AUS-QLD","party_id":null,"source_class":"PRIMARY_PARLIAMENT","capture_mode":"NORMALISED_PAGE_HASH","review_policy":"REVIEW_UNSTRUCTURED_CHANGE","active":true},
+    {"watch_id":"WATCH-QLD-BILLS","source_id":"SRC-QLD-BILLS","name":"Queensland Parliament — Bills before the House","url":"https://www.parliament.qld.gov.au/Work-of-the-Assembly/Bills-and-Legislation/Bills-before-the-House","fallback_urls":["https://www.parliament.qld.gov.au/Work-of-the-Assembly/Bills-and-Legislation"],"jurisdiction_id":"AUS-QLD","party_id":null,"source_class":"PRIMARY_PARLIAMENT","capture_mode":"PUBLICATION_FEED_HASH","review_policy":"AUTO_PROMOTE_PUBLICATION_ADDITIONS","active":true},
     {"watch_id":"WATCH-ECQ-MEDIA","source_id":"SRC-ECQ-MEDIA","name":"Electoral Commission of Queensland — 2026 media statements","url":"https://www.ecq.qld.gov.au/media/2026-media-statements","fallback_urls":["https://www.ecq.qld.gov.au/home"],"jurisdiction_id":"AUS-QLD","party_id":null,"source_class":"PRIMARY_ELECTORAL_AUTHORITY","capture_mode":"PUBLICATION_FEED_HASH","review_policy":"AUTO_PROMOTE_PUBLICATION_ADDITIONS","active":true},
     {"watch_id":"WATCH-QLD-MINISTERIAL-STATEMENTS","source_id":"SRC-QLD-MINISTERIAL-STATEMENTS","name":"Queensland Government — Ministerial Media Statements","url":"https://statements.qld.gov.au/","fallback_urls":["https://www.qld.gov.au/government/news-and-publications/ministerial-media-statements"],"jurisdiction_id":"AUS-QLD","party_id":null,"source_class":"PRIMARY_GOVERNMENT","capture_mode":"PUBLICATION_FEED_HASH","review_policy":"AUTO_PROMOTE_PUBLICATION_ADDITIONS","active":true},
 

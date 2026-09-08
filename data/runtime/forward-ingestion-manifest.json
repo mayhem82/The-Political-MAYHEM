@@ -1,5 +1,5 @@
 {
-  "snapshot_id": "FORWARD-INGESTION-MANIFEST-008",
+  "snapshot_id": "FORWARD-INGESTION-MANIFEST-009",
   "mode": "FORWARD_ONLY",
   "scope": "Australia — Federal, States and Territories",
   "created_at": "2026-09-08T00:00:00+10:00",
@@ -21,8 +21,8 @@
     "federal_team_player_form_shells": true,
     "federal_polling_ladder_snapshot": true,
     "political_competition_registry": true,
-    "state_and_territory_player_rosters": "6_OF_8_COMPLETE",
-    "state_and_territory_players_ingested": 501
+    "state_and_territory_player_rosters": "7_OF_8_COMPLETE",
+    "state_and_territory_players_ingested": 551
   },
   "live_evidence_ingestion": {
     "running": true,
@@ -40,7 +40,7 @@
       "queensland": "ROSTER_COMPLETE_EVIDENCE_STREAM_PENDING",
       "western_australia": "ROSTER_COMPLETE_EVIDENCE_STREAM_PENDING",
       "south_australia": "ROSTER_PENDING",
-      "tasmania": "ROSTER_PENDING",
+      "tasmania": "ROSTER_COMPLETE_EVIDENCE_STREAM_PENDING",
       "australian_capital_territory": "ROSTER_COMPLETE_EVIDENCE_STREAM_PENDING",
       "northern_territory": "ROSTER_COMPLETE_EVIDENCE_STREAM_PENDING"
     }
@@ -53,8 +53,8 @@
     "contest_state_updates": [],
     "party_state_updates": [],
     "actor_state_updates": [],
-    "jurisdiction_ingestion": ["AUS-SA","AUS-TAS"],
-    "jurisdiction_evidence_activation": ["AUS-ACT","AUS-NT","AUS-QLD","AUS-WA","AUS-NSW","AUS-VIC"]
+    "jurisdiction_ingestion": ["AUS-SA"],
+    "jurisdiction_evidence_activation": ["AUS-ACT","AUS-NT","AUS-QLD","AUS-WA","AUS-NSW","AUS-VIC","AUS-TAS"]
   },
   "status": "LIVE_INGESTION_ACTIVE_STATE_TERRITORY_ROSTER_EXPANSION_IN_PROGRESS"
 }

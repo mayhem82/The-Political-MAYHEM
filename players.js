@@ -7,8 +7,8 @@ const signed=v=>v==null?'—':`${Number(v)>0?'+':''}${Number(v).toFixed(2).repla
 const eventYear=r=>Number((String(r?.event||'').match(/\b(20\d{2})\b/)||[])[1]||0);
 
 Promise.all([
-  'data/runtime/federal-parliamentary-players.json','data/runtime/party-rosters.json','data/runtime/state-territory-parliamentary-players.json','data/runtime/queensland-parliamentary-players.json','data/runtime/western-australia-parliamentary-players.json','data/runtime/new-south-wales-parliamentary-players.json','data/runtime/victoria-parliamentary-players.json','data/runtime/south-australia-parliamentary-players.json','data/runtime/tasmania-parliamentary-players.json','data/runtime/political-competitions.json','data/runtime/team-player-form.json','data/runtime/intelligence-events.json','data/player-stat-registry.json','data/runtime/federal-house-electoral-performance-v2.json'
-].map(f=>fetch(f+'?'+Date.now(),{cache:'no-store'}).then(r=>{if(!r.ok)throw Error(f);return r.json()}))).then(([fed,fedRosters,st,qld,wa,nsw,vic,sa,tas,competitions,form,intel,statRegistry,electoral])=>{
+  'data/runtime/federal-parliamentary-players.json','data/runtime/party-rosters.json','data/runtime/state-territory-parliamentary-players.json','data/runtime/queensland-parliamentary-players.json','data/runtime/western-australia-parliamentary-players.json','data/runtime/new-south-wales-parliamentary-players.json','data/runtime/victoria-parliamentary-players.json','data/runtime/south-australia-parliamentary-players.json','data/runtime/tasmania-parliamentary-players.json','data/runtime/political-competitions.json','data/runtime/team-player-form.json','data/runtime/intelligence-events.json','data/player-stat-registry.json','data/runtime/federal-house-electoral-performance-v2.json','data/runtime/federal-senate-electoral-performance.json'
+].map(f=>fetch(f+'?'+Date.now(),{cache:'no-store'}).then(r=>{if(!r.ok)throw Error(f);return r.json()}))).then(([fed,fedRosters,st,qld,wa,nsw,vic,sa,tas,competitions,form,intel,statRegistry,electoral,senateElectoral])=>{
   const fedTeams=new Map((fedRosters.parties||[]).map(t=>[t.party_id,t.short_name]));
   const playerForm=new Map((form.player_form||[]).map(x=>[x.actor_id,x]));
   const events=intel.events||[];
@@ -31,6 +31,8 @@ Promise.all([
   const divisionResults=new Map((electoral.division_results||[]).map(r=>[divKey(r[electoralIx.division]),r]));
   const candidateResults=new Map();
   for(const r of electoral.candidate_specific_results||[]){const prior=candidateResults.get(r.actor_id);if(!prior||eventYear(r)>=eventYear(prior))candidateResults.set(r.actor_id,r)}
+  const senateRecords=new Map((senateElectoral.current_senator_records||[]).map(r=>[r.actor_id,r]));
+  const senateUnresolved=new Map((senateElectoral.unresolved_current_senators||[]).map(r=>[r.actor_id,r]));
   const electionOverrides=electoral.current_player_election_party_overrides||{};
   const partyCodeBySlug={labor:'ALP',liberal:'LP','liberal-national':'LNP',nationals:'NP','country-liberal':'CLP'};
   const primaryFieldByCode={ALP:'alp_first_preference_percent',LP:'liberal_first_preference_percent',LNP:'lnp_first_preference_percent',NP:'nationals_first_preference_percent',CLP:'clp_first_preference_percent'};
@@ -40,7 +42,7 @@ Promise.all([
   jurisdiction.innerHTML=fields.map(f=>`<option value="${esc(f.id)}">${esc(f.label)} · ${f.players.length} players</option>`).join('');
   const requested=new URLSearchParams(location.search).get('jurisdiction');if(fields.some(f=>f.id===requested))jurisdiction.value=requested;
 
-  if(registryHost)registryHost.innerHTML=`<b>STAT COVERAGE</b><span>Structural and forward-intelligence stats are live. Federal House electoral context is 150/150 divisions and candidate-specific electoral statistics are loaded for 150/150 current House players. Senate and state/territory electoral dossiers, plus parliamentary-activity statistics, remain expansion layers.</span><small>Missing data is never rendered as zero. Registry ${esc(statRegistry.registry_id||'')}</small>`;
+  if(registryHost)registryHost.innerHTML=`<b>STAT COVERAGE</b><span>Federal House candidate-specific electoral statistics are loaded for 150/150 current House players. Federal Senate elected-record and group-vote context is loaded for ${esc(senateElectoral.coverage?.current_senators_with_elected_record||0)}/76 current Senators; ${esc(senateElectoral.coverage?.current_senators_without_elected_record||0)} current replacements or unmatched Senators are explicitly withheld from predecessor statistics. State/territory electoral dossiers and parliamentary-activity statistics remain expansion layers.</span><small>Senate group vote is team context, never an individual primary vote. Missing data is never rendered as zero. Registry ${esc(statRegistry.registry_id||'')}</small>`;
 
   const fieldStats=field=>{
     const partyPlayers=field.players.filter(p=>p.party_id).length;
@@ -64,7 +66,9 @@ Promise.all([
     ];
     if(field.id==='AUS-FED')stats.push(
       {label:'HOUSE ELECTORAL CONTEXT',value:`${electoral.coverage?.division_context_records||0}/150`},
-      {label:'HOUSE CANDIDATE STATS',value:`${electoral.coverage?.current_players_with_any_candidate_specific_stats||0}/150`}
+      {label:'HOUSE CANDIDATE STATS',value:`${electoral.coverage?.current_players_with_any_candidate_specific_stats||0}/150`},
+      {label:'SENATE ELECTED RECORDS',value:`${senateElectoral.coverage?.current_senators_with_elected_record||0}/76`},
+      {label:'SENATE REPLACEMENTS / UNMATCHED',value:senateElectoral.coverage?.current_senators_without_elected_record??'—'}
     );
     statsTitle.textContent=`${field.label} player statistics`;
     statsHost.innerHTML=stats.map(x=>`<div class="player-stat"><small>${esc(x.label)}</small><strong>${esc(x.value)}</strong></div>`).join('');
@@ -83,7 +87,12 @@ Promise.all([
   };
 
   const federalElectoralStats=p=>{
-    if(p.chamber!=='HOUSE')return{state:'PENDING',message:'Senate candidate/group statistical dossier not yet loaded.'};
+    if(p.chamber==='SENATE'){
+      const r=senateRecords.get(p.actor_id);
+      if(r)return{state:'SENATE_ELECTED',event:r.event,electionParty:r.election_party_name||r.election_party_code,electedOrder:r.elected_order,groupName:r.group_name||r.group_code,groupVotes:r.group_first_preference_votes,stateFormal:r.state_formal_votes,groupPercent:r.group_first_preference_percent};
+      const unresolved=senateUnresolved.get(p.actor_id);
+      return{state:'SENATE_REPLACEMENT',message:unresolved?.reason||'No directly matched 2025 or 2022 elected-Senator record is loaded for this current Senator.'};
+    }
     const specific=candidateResults.get(p.actor_id);
     if(specific)return{state:'CANDIDATE_SPECIFIC',event:specific.event,primary:specific.primary_vote_percent,primarySwing:specific.primary_swing_points,tcp:specific.tcp_percent,tcpSwing:specific.tcp_swing_points,marginVotes:specific.tcp_margin_votes,sourceClass:specific.source_class};
     const row=divisionResults.get(divKey(p.division||p.electorate));
@@ -99,6 +108,8 @@ Promise.all([
   const electoralBlock=(field,p)=>{
     if(field.id!=='AUS-FED')return`<div class="player-section-label">ELECTORAL PERFORMANCE</div><div class="player-evidence muted-evidence"><small>JURISDICTION DOSSIER</small><p>Candidate-level electoral performance for ${esc(field.label)} has not yet been ingested. Missing statistics are not rendered as zero.</p></div>`;
     const e=federalElectoralStats(p);
+    if(e.state==='SENATE_ELECTED')return`<div class="player-section-label">ELECTORAL PERFORMANCE</div><div class="electoral-stats"><span><small>EVENT / COHORT</small><b>${esc(e.event)}</b><em>${esc(e.electionParty||'')} at election</em></span><span><small>ELECTED ORDER</small><b>${e.electedOrder==null?'—':esc('#'+e.electedOrder+' in '+String(p.state||'').toUpperCase())}</b></span><span><small>GROUP FIRST PREFERENCE</small><b>${esc(pct(e.groupPercent))}</b><em>${e.groupVotes==null?'—':esc(Number(e.groupVotes).toLocaleString())+' votes'} · ${esc(e.groupName||'group')}</em></span><span><small>STATE FORMAL VOTES</small><b>${e.stateFormal==null?'—':esc(Number(e.stateFormal).toLocaleString())}</b></span></div><div class="electoral-note">AEC final Senate result · group first preference is team/group context, not this Senator's individual primary vote.</div>`;
+    if(e.state==='SENATE_REPLACEMENT')return`<div class="player-section-label">ELECTORAL PERFORMANCE</div><div class="player-evidence muted-evidence"><small>SENATE REPLACEMENT / UNMATCHED COHORT</small><p>${esc(e.message)}</p><span>Predecessor election statistics are deliberately not inherited.</span></div>`;
     if(e.state==='PENDING')return`<div class="player-section-label">ELECTORAL PERFORMANCE</div><div class="player-evidence muted-evidence"><small>FEDERAL ELECTORAL DOSSIER</small><p>${esc(e.message)}</p></div>`;
     if(e.state==='CANDIDATE_SPECIFIC')return`<div class="player-section-label">ELECTORAL PERFORMANCE</div><div class="electoral-stats"><span><small>EVENT</small><b>${esc(e.event)}</b></span><span><small>PRIMARY VOTE</small><b>${esc(pct(e.primary))}</b>${e.primarySwing!=null?`<em>${esc(signed(e.primarySwing))}</em>`:''}</span><span><small>TCP</small><b>${esc(pct(e.tcp))}</b>${e.tcpSwing!=null?`<em>${esc(signed(e.tcpSwing))}</em>`:''}</span><span><small>TCP MARGIN</small><b>${e.marginVotes==null?'—':esc(Number(e.marginVotes).toLocaleString())+' votes'}</b></span></div><div class="electoral-note">Candidate-specific result · ${esc(words(e.sourceClass))}</div>`;
     if(e.state==='MAJOR_PARTY_DIVISION_DERIVED')return`<div class="player-section-label">ELECTORAL PERFORMANCE</div><div class="electoral-stats"><span><small>EVENT</small><b>${esc(e.event)}</b></span><span><small>PRIMARY VOTE</small><b>${esc(pct(e.primary))}</b><em>${esc(e.electionPartyCode)} at election</em></span><span><small>DIVISION 2PP · PARTY SIDE</small><b>${esc(pct(e.partySide2pp))}</b><em>Statistical 2PP, not TCP in non-classic contests</em></span><span><small>DIVISION 2PP CONTEXT</small><b>ALP ${esc(pct(e.tppAlp))} · LNC ${esc(pct(e.tppLnc))}</b></span></div><div class="electoral-note">AEC final 2025 division result · historical election party preserved where current affiliation changed.</div>`;
@@ -116,6 +127,6 @@ Promise.all([
 
   const rebuild=()=>{const field=fields.find(f=>f.id===jurisdiction.value)||fields[0];team.innerHTML='<option value="">All teams + independents</option>'+field.teams.slice().sort((a,b)=>a.name.localeCompare(b.name)).map(t=>`<option value="${esc(t.party_id)}">${esc(t.name)} · ${t.player_count} players</option>`).join('')+`<option value="INDEPENDENT">Independent · ${field.independents} players</option>`;const chambers=[...new Set(field.players.map(p=>p.chamber).filter(Boolean))].sort();chamber.innerHTML='<option value="">All chambers</option>'+chambers.map(c=>`<option value="${esc(c)}">${esc(chamberLabel(c))}</option>`).join('');draw()};
   jurisdiction.addEventListener('change',rebuild);search.addEventListener('input',draw);team.addEventListener('change',draw);chamber.addEventListener('change',draw);
-  const progress=competitions.ingestion_progress||{};document.getElementById('player-meta').textContent=`${fields.reduce((n,f)=>n+f.players.length,0)} parliamentary players ingested across Federal Finals and all ${progress.state_territory_jurisdictions_with_complete_current_player_rosters||8} state/territory competitions · federal House candidate-specific electoral stats ${electoral.coverage?.current_players_with_any_candidate_specific_stats||0}/150 current players · political statistics expand only from source-backed records.`;
+  const progress=competitions.ingestion_progress||{};document.getElementById('player-meta').textContent=`${fields.reduce((n,f)=>n+f.players.length,0)} parliamentary players ingested across Federal Finals and all ${progress.state_territory_jurisdictions_with_complete_current_player_rosters||8} state/territory competitions · House candidate-specific stats ${electoral.coverage?.current_players_with_any_candidate_specific_stats||0}/150 · Senate elected-record stats ${senateElectoral.coverage?.current_senators_with_elected_record||0}/76 · political statistics expand only from source-backed records.`;
   rebuild();
 }).catch(e=>{document.getElementById('player-list').innerHTML=`<div class="empty-state">Parliamentary player feeds unavailable: ${esc(e.message)}</div>`});

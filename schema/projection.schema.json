@@ -3,7 +3,7 @@
   "$id": "https://mayhem82.github.io/The-Political-MAYHEM/schema/projection.schema.json",
   "title": "Political MAYHEM Projection",
   "type": "object",
-  "required": ["projection_id", "contest_id", "cycle_id", "projected_outcome", "created_at", "evidence_cutoff", "source_snapshot_ids", "projection_state", "integrity"],
+  "required": ["projection_id", "contest_id", "cycle_id", "projected_outcome", "created_at", "evidence_cutoff", "source_snapshot_ids", "grading_rule", "projection_state", "integrity"],
   "properties": {
     "projection_id": {"type": "string"},
     "contest_id": {"type": "string"},
@@ -13,7 +13,7 @@
     "confidence": {"type": ["number", "null"], "minimum": 0, "maximum": 100},
     "created_at": {"type": "string", "format": "date-time"},
     "evidence_cutoff": {"type": "string", "format": "date-time"},
-    "source_snapshot_ids": {"type": "array", "items": {"type": "string"}},
+    "source_snapshot_ids": {"type": "array", "minItems": 1, "items": {"type": "string"}},
     "intelligence_event_ids": {"type": "array", "items": {"type": "string"}},
     "analysis_lineage": {"type": "array", "items": {"type": "string"}},
     "comparison_baselines": {
@@ -30,8 +30,16 @@
           "source_snapshot_ids": {"type": "array", "minItems": 1, "items": {"type": "string"}},
           "primary": {"type": "boolean"}
         },
-        "additionalProperties": true
+        "additionalProperties": false
       }
+    },
+    "grading_rule": {
+      "type": "object",
+      "required": ["type"],
+      "properties": {
+        "type": {"enum": ["EXACT_JSON"]}
+      },
+      "additionalProperties": true
     },
     "model_version": {"type": ["string", "null"]},
     "rule_version": {"type": ["string", "null"]},
@@ -40,16 +48,27 @@
     "projection_state": {"enum": ["OPEN", "FROZEN", "GRADED"]},
     "verified_outcome_id": {"type": ["string", "null"]},
     "grade": {"enum": ["CORRECT", "INCORRECT", "PARTIAL", "VOID", null]},
+    "graded_at": {"type": ["string", "null"], "format": "date-time"},
+    "failure_audit_state": {"enum": ["REQUIRED_PENDING", "COMPLETE", null]},
     "post_outcome_audit_ref": {"type": ["string", "null"]},
     "integrity": {
       "type": "object",
-      "required": ["hindsight_changes_prohibited"],
+      "required": ["hindsight_changes_prohibited", "retroactive_signal_backfill_prohibited", "pre_outcome_payload_hash"],
       "properties": {
         "frozen_at": {"type": ["string", "null"], "format": "date-time"},
         "hindsight_changes_prohibited": {"const": true},
-        "retroactive_signal_backfill_prohibited": {"const": true}
+        "retroactive_signal_backfill_prohibited": {"const": true},
+        "raw_source_change_lineage_prohibited": {"const": true},
+        "pre_outcome_payload_hash": {"type": "string"},
+        "registration_hash": {"type": "string"}
       }
     }
   },
+  "allOf": [
+    {
+      "if": {"properties": {"projection_state": {"enum": ["FROZEN", "GRADED"]}}},
+      "then": {"required": ["probability"]}
+    }
+  ],
   "additionalProperties": true
 }

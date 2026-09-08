@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-SIGNAL-REVIEWS-001",
   "created_at": "2026-09-09T05:05:00+10:00",
-  "updated_at": "2026-09-08T23:39:22.842Z",
+  "updated_at": "2026-09-08T23:46:29.410Z",
   "rules": {
     "append_only": true,
     "raw_source_change_is_immutable": true,
@@ -7366,6 +7366,1251 @@
           }
         ],
         "delta_hash": "f0229d292ab32f218558c1908f94fc59ab5a3859e110845a9cd7834fc3adf906"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-APH-BILLS-20260908234539",
+      "source_change_event_id": "CHG-WATCH-APH-BILLS-20260908234539",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-APH-BILLS-20260908234539",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Parliament of Australia — Bills and Legislation added 1 structured publication record to its forward-captured official index: Telecommunications Legislation Amendment (Universa...",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-09-08T23:46:29.410Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "482c4b90b9cd4fe2c84a",
+            "title": "Telecommunications Legislation Amendment (Universa...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7414"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "4c7a76b5989435c30a70",
+            "title": "Criminal Code Amendment (National Sport Integrity ...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7531"
+          }
+        ],
+        "delta_hash": "a00ee88e69e047d7372a4f5525a95391730a978ec98e878e628006703f78aa70"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-PM-MEDIA-20260908234539",
+      "source_change_event_id": "CHG-WATCH-PM-MEDIA-20260908234539",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-PM-MEDIA-20260908234539",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Prime Minister of Australia — media added 1 structured publication record to its forward-captured official index: Television interview - Sunrise",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-09-08T23:46:29.410Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "8dfe9e2e580111a97ec2",
+            "title": "Television interview - Sunrise",
+            "url": "https://www.pm.gov.au/media/television-interview-sunrise-44"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "8799b8ce9d359f5ac490",
+            "title": "Press conference, Palau",
+            "url": "https://www.pm.gov.au/media/press-conference-palau"
+          }
+        ],
+        "delta_hash": "37fbc1e7237997ada222d1f50b949ad18af30c4848d71aa32b73b28daab7cffc"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-NSW-CURRENT-BILLS-20260908234539",
+      "source_change_event_id": "CHG-WATCH-NSW-CURRENT-BILLS-20260908234539",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-NSW-CURRENT-BILLS-20260908234539",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Parliament of NSW — Current session bills added 9 structured publication records to its forward-captured official index: Current session bills A list of bills proposed or introduced in the current session of Parliament.; Learn more about the legislative process; Back to top; Bills glossary Commonly used terms in the legislative process.; Assented bills Bills that have passed both Houses and haves been signed by the Governor to become law.; +4 more",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-09-08T23:46:29.410Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "0337bb201e62822f717a",
+            "title": "Current session bills A list of bills proposed or introduced in the current session of Parliament.",
+            "url": "https://www.parliament.nsw.gov.au/parliamentary-business/bills/current-session-bills"
+          },
+          {
+            "record_id": "2b09da27105926e885fb",
+            "title": "Learn more about the legislative process",
+            "url": "https://www.parliament.nsw.gov.au/parliamentary-business/bills/legislative-process-explained"
+          },
+          {
+            "record_id": "35541eeb64be58ec76e9",
+            "title": "Back to top",
+            "url": "https://www.parliament.nsw.gov.au/parliamentary-business/bills"
+          },
+          {
+            "record_id": "3c46828591be187fb7c3",
+            "title": "Bills glossary Commonly used terms in the legislative process.",
+            "url": "https://www.parliament.nsw.gov.au/parliamentary-business/bills/bills-glossary"
+          },
+          {
+            "record_id": "3d8bbd5a81beb3402380",
+            "title": "Assented bills Bills that have passed both Houses and haves been signed by the Governor to become law.",
+            "url": "https://www.parliament.nsw.gov.au/parliamentary-business/bills/assented-bills"
+          },
+          {
+            "record_id": "68ef3b16937186041b3f",
+            "title": "All bills All bills proposed or introduced in NSW Parliament since 1856.",
+            "url": "https://www.parliament.nsw.gov.au/parliamentary-business/bills/all-bills"
+          },
+          {
+            "record_id": "6bbb1c067670897d50f6",
+            "title": "Delegated Legislation Committee The Delegated Legislation Committee scrutinises all instruments of a legislative nature that are subject to disallowance.",
+            "url": "https://www.parliament.nsw.gov.au/parliamentary-business/committees/committee-details?committeeId=252"
+          },
+          {
+            "record_id": "8c454c777fddf1090640",
+            "title": "Hansard by bill Access to bill speeches and debates made by members through their passage in the Houses of Parliament.",
+            "url": "https://www.parliament.nsw.gov.au/parliamentary-business/hansard/hansard-by-bill"
+          },
+          {
+            "record_id": "fcd536cf34af5f9bfb56",
+            "title": "Legislation Review Committee The Legislation Review Committee reviews Bills and regulations and reports on them in the Legislation Review Digest.",
+            "url": "https://www.parliament.nsw.gov.au/parliamentary-business/committees/committee-details?committeeId=245"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "00c83a8591b98a680667",
+            "title": "Legislative process explained Learn how bills progress through Parliament, the different types of laws and how to understand an Act",
+            "url": "https://www.parliament.nsw.gov.au/parliamentary-business/bills/legislative-process-explained"
+          },
+          {
+            "record_id": "06653687166a39a65a50",
+            "title": "Legislation Review Digests Find analysis and commentary from the Legislation Review Committee.",
+            "url": "https://www.parliament.nsw.gov.au/parliamentary-business/committees/legislation-review-digest"
+          },
+          {
+            "record_id": "0a5e85fefc835298a183",
+            "title": "Bills glossary Learn key terms used in the legislative process",
+            "url": "https://www.parliament.nsw.gov.au/parliamentary-business/bills/bills-glossary"
+          },
+          {
+            "record_id": "11faba10f15ed633b972",
+            "title": "Government 24-Hour Economy Legislation Amendment (Vibrancy Reforms) Bill 2024 Origin: Legislative Council Status: Assented on Thu 31 October 2024",
+            "url": "https://search.parliament.nsw.gov.au/s/redirect?collection=pon1~sp-bills&url=https%3A%2F%2Fwww.parliament.nsw.gov.au%2Fparliamentary-business%2Fbills%2Fbill-details%3FbillId%3D18665%26ref%3D3287&index_url=https%3A%2F%2Fponsw%2Fbill%2F18665&auth=D2LYyvFAW%2FFnhpsq7ACAwA&profile=bills-current&rank=3&query=%21FunDoesNotExist%3Apadrenull"
+          },
+          {
+            "record_id": "1cb00147849cc0665edd",
+            "title": "Government 24-Hour Economy Commissioner Bill 2023 Origin: Legislative Council Status: Assented on Tue 12 December 2023 Cognate bill",
+            "url": "https://search.parliament.nsw.gov.au/s/redirect?collection=pon1~sp-bills&url=https%3A%2F%2Fwww.parliament.nsw.gov.au%2Fparliamentary-business%2Fbills%2Fbill-details%3FbillId%3D18524%26ref%3D3287&index_url=https%3A%2F%2Fponsw%2Fbill%2F18524&auth=%2BVArZywimtv7VAvH1emusg&profile=bills-current&rank=1&query=%21FunDoesNotExist%3Apadrenull"
+          },
+          {
+            "record_id": "3a8e66be42cce26bb4c1",
+            "title": "See Bills glossary",
+            "url": "https://www.parliament.nsw.gov.au/parliamentary-business/bills/bills-glossary"
+          },
+          {
+            "record_id": "3b8e9013c8b87d9b0678",
+            "title": "Government 24-Hour Economy Legislation Amendment (Vibrancy Reforms) Bill 2023 Origin: Legislative Council Status: Assented on Tue 12 December 2023 Cognate bill",
+            "url": "https://search.parliament.nsw.gov.au/s/redirect?collection=pon1~sp-bills&url=https%3A%2F%2Fwww.parliament.nsw.gov.au%2Fparliamentary-business%2Fbills%2Fbill-details%3FbillId%3D18523%26ref%3D3287&index_url=https%3A%2F%2Fponsw%2Fbill%2F18523&auth=ApMzqGUesWdSNRkQ7ANIyA&profile=bills-current&rank=2&query=%21FunDoesNotExist%3Apadrenull"
+          },
+          {
+            "record_id": "51afcfe38c020d6d1d51",
+            "title": "Government Ageing and Disability Commissioner Amendment Bill 2023 Origin: Legislative Assembly Status: Assented on Wed 03 April 2024",
+            "url": "https://search.parliament.nsw.gov.au/s/redirect?collection=pon1~sp-bills&url=https%3A%2F%2Fwww.parliament.nsw.gov.au%2Fparliamentary-business%2Fbills%2Fbill-details%3FbillId%3D18527%26ref%3D3287&index_url=https%3A%2F%2Fponsw%2Fbill%2F18527&auth=JR4R3yb%2FOinmWLj%2BrGzb6g&profile=bills-current&rank=7&query=%21FunDoesNotExist%3Apadrenull"
+          },
+          {
+            "record_id": "6888238bee1cac74a559",
+            "title": "Private Alcohol Consumption in Public Places (Liberalisation) Bill 2024 Origin: Legislative Council Location: Legislative Council Status: Second Reading negatived on division in the LC, Wed 23 October 2024",
+            "url": "https://search.parliament.nsw.gov.au/s/redirect?collection=pon1~sp-bills&url=https%3A%2F%2Fwww.parliament.nsw.gov.au%2Fparliamentary-business%2Fbills%2Fbill-details%3FbillId%3D18608%26ref%3D3287&index_url=https%3A%2F%2Fponsw%2Fbill%2F18608&auth=cb%2B33BL%2BNnBCEurc%2FAHdag&profile=bills-current&rank=9&query=%21FunDoesNotExist%3Apadrenull"
+          },
+          {
+            "record_id": "7360a48420f91b4257a5",
+            "title": "Back to top",
+            "url": "https://www.parliament.nsw.gov.au/parliamentary-business/bills/current-session-bills"
+          },
+          {
+            "record_id": "781f2069c52033adc95c",
+            "title": "Private Alcohol Consumption in Public Places Legislation Amendment (Liberalisation) Bill 2024 Origin: Legislative Council Status: Withdrawn, Tue 04 June 2024",
+            "url": "https://search.parliament.nsw.gov.au/s/redirect?collection=pon1~sp-bills&url=https%3A%2F%2Fwww.parliament.nsw.gov.au%2Fparliamentary-business%2Fbills%2Fbill-details%3FbillId%3D18553%26ref%3D3287&index_url=https%3A%2F%2Fponsw%2Fbill%2F18553&auth=nH%2FF%2F5vsNeCzXBlEFIrKzw&profile=bills-current&rank=10&query=%21FunDoesNotExist%3Apadrenull"
+          },
+          {
+            "record_id": "8fa912ebde44831c736d",
+            "title": "Government 24-Hour Economy Legislation Amendment (Vibrancy Reforms) Bill 2025 Origin: Legislative Council Status: Assented on Mon 24 November 2025",
+            "url": "https://search.parliament.nsw.gov.au/s/redirect?collection=pon1~sp-bills&url=https%3A%2F%2Fwww.parliament.nsw.gov.au%2Fparliamentary-business%2Fbills%2Fbill-details%3FbillId%3D18813%26ref%3D3287&index_url=https%3A%2F%2Fponsw%2Fbill%2F18813&auth=oDyBZTPLUm8UNrsHJBjIyQ&profile=bills-current&rank=4&query=%21FunDoesNotExist%3Apadrenull"
+          },
+          {
+            "record_id": "9f873b946f460cddc20d",
+            "title": "Government Agriculture Commissioner Bill 2024 Origin: Legislative Council Status: Assented on Thu 31 October 2024",
+            "url": "https://search.parliament.nsw.gov.au/s/redirect?collection=pon1~sp-bills&url=https%3A%2F%2Fwww.parliament.nsw.gov.au%2Fparliamentary-business%2Fbills%2Fbill-details%3FbillId%3D18643%26ref%3D3287&index_url=https%3A%2F%2Fponsw%2Fbill%2F18643&auth=EqP2IzWtqj6MNnIFxMOR%2Fg&profile=bills-current&rank=8&query=%21FunDoesNotExist%3Apadrenull"
+          },
+          {
+            "record_id": "dec84de9d236b60d5aee",
+            "title": "Private Abortion Law Reform Amendment (Health Care Access) Bill 2025 Origin: Legislative Council Status: Assented on Wed 11 June 2025",
+            "url": "https://search.parliament.nsw.gov.au/s/redirect?collection=pon1~sp-bills&url=https%3A%2F%2Fwww.parliament.nsw.gov.au%2Fparliamentary-business%2Fbills%2Fbill-details%3FbillId%3D18697%26ref%3D3287&index_url=https%3A%2F%2Fponsw%2Fbill%2F18697&auth=l%2BuL7dT8rojkUa9bj3kPkg&profile=bills-current&rank=5&query=%21FunDoesNotExist%3Apadrenull"
+          },
+          {
+            "record_id": "df38f587f7a19e496499",
+            "title": "Hansard by bill Read parliamentary debates related to a specific bill.",
+            "url": "https://www.parliament.nsw.gov.au/parliamentary-business/hansard/hansard-by-bill"
+          },
+          {
+            "record_id": "fe327f0e75b23e8d5bc4",
+            "title": "Private Abortion Law Reform Amendment (Sex Selection Prohibition) Bill 2025 Origin: Legislative Council Location: Legislative Council Status: Second Reading, Debate adjourned, Wed 24 June 2026",
+            "url": "https://search.parliament.nsw.gov.au/s/redirect?collection=pon1~sp-bills&url=https%3A%2F%2Fwww.parliament.nsw.gov.au%2Fparliamentary-business%2Fbills%2Fbill-details%3FbillId%3D18794%26ref%3D3287&index_url=https%3A%2F%2Fponsw%2Fbill%2F18794&auth=ibVfKPg09mrG0xUv0VrDGA&profile=bills-current&rank=6&query=%21FunDoesNotExist%3Apadrenull"
+          }
+        ],
+        "delta_hash": "67e071aaf9b5cdf37942e870b79647093366ca9272d1792d3176bb87daf722ee"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-ACT-GOV-MEDIA-20260908234539",
+      "source_change_event_id": "CHG-WATCH-ACT-GOV-MEDIA-20260908234539",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-ACT-GOV-MEDIA-20260908234539",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "ACT Government — media releases added 34 structured publication records to its forward-captured official index: View media releases; View media releases; Land Development Agency; View media releases; Media releases issued by Ministers; +29 more",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-09-08T23:46:29.410Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "03df36a18eb0d0a38c97",
+            "title": "View media releases",
+            "url": "https://www.cmtedd.act.gov.au/open_government/inform/act_government_media_releases/chs"
+          },
+          {
+            "record_id": "11230e7abc5a011a5b16",
+            "title": "View media releases",
+            "url": "https://www.cmtedd.act.gov.au/open_government/inform/act_government_media_releases/marisa-paterson-mla-media-releases"
+          },
+          {
+            "record_id": "125cc5a8b7af27feefbe",
+            "title": "Land Development Agency",
+            "url": "https://www.cmtedd.act.gov.au/open_government/inform/act_government_media_releases/lda"
+          },
+          {
+            "record_id": "128e0bcb2f56d02286f3",
+            "title": "View media releases",
+            "url": "https://www.cmtedd.act.gov.au/open_government/inform/act_government_media_releases/cheyne"
+          },
+          {
+            "record_id": "297bae641cb5ed845a0b",
+            "title": "Media releases issued by Ministers",
+            "url": "https://www.cmtedd.act.gov.au/open_government/inform/act_government_media_releases/latest_minister_media_releases"
+          },
+          {
+            "record_id": "2c2d88c83d3faead430f",
+            "title": "Disclaimer",
+            "url": "https://www.cmtedd.act.gov.au/legal/disclaimer"
+          },
+          {
+            "record_id": "2e8754e4d27e378a7f95",
+            "title": "View media releases",
+            "url": "https://www.cmtedd.act.gov.au/open_government/inform/act_government_media_releases/caitlin-tough-mla-media-releases"
+          },
+          {
+            "record_id": "41abb4381646a74de740",
+            "title": "Languages",
+            "url": "https://www.cmtedd.act.gov.au/functions/languages"
+          },
+          {
+            "record_id": "477cd14ccf253a3861fa",
+            "title": "Public notices",
+            "url": "https://www.cmtedd.act.gov.au/open_government/public-notices"
+          },
+          {
+            "record_id": "527dff7100c148e6160b",
+            "title": "View media releases",
+            "url": "https://www.cmtedd.act.gov.au/open_government/inform/act_government_media_releases/act-city-renewal-authority-media-releases"
+          },
+          {
+            "record_id": "5646d9da7800aafd56c9",
+            "title": "View media releases",
+            "url": "https://www.cmtedd.act.gov.au/open_government/inform/act_government_media_releases/rachel-stephen-smith-mla-media-releases"
+          },
+          {
+            "record_id": "776fdea4acf4eb1aa28a",
+            "title": "Subscribe to a media release RSS feed",
+            "url": "https://www.cmtedd.act.gov.au/open_government/inform/act_government_media_releases/all_media_release_rss_feeds"
+          },
+          {
+            "record_id": "7a69807dd5b1f2401391",
+            "title": "View media releases",
+            "url": "https://www.cmtedd.act.gov.au/open_government/inform/act_government_media_releases/chris-steel-mla-media-releases"
+          },
+          {
+            "record_id": "7b5507a82c83ae3ff046",
+            "title": "View media releases",
+            "url": "https://www.cmtedd.act.gov.au/open_government/inform/act_government_media_releases/infrastructure-canberra"
+          },
+          {
+            "record_id": "808e944ffbfdf950d6e3",
+            "title": "Skip to content",
+            "url": "https://www.cmtedd.act.gov.au/open_government/inform/act_government_media_releases"
+          },
+          {
+            "record_id": "98227df2c6f2bec57d78",
+            "title": "View media releases",
+            "url": "https://www.cmtedd.act.gov.au/open_government/inform/act_government_media_releases/suzanne-orr-mla-media-releases"
+          },
+          {
+            "record_id": "a8e2a5e65e62cc06dd37",
+            "title": "WorkSafe ACT",
+            "url": "https://www.cmtedd.act.gov.au/open_government/inform/act_government_media_releases/worksafe-act"
+          },
+          {
+            "record_id": "aaa33e7c7ffd5afe86d4",
+            "title": "About us",
+            "url": "https://www.cmtedd.act.gov.au/functions/about"
+          },
+          {
+            "record_id": "adb4cb715cf2d93b4e89",
+            "title": "View media releases",
+            "url": "https://www.cmtedd.act.gov.au/open_government/inform/act_government_media_releases/etd"
+          },
+          {
+            "record_id": "b109e9c82a97f959e15f",
+            "title": "ACT Health",
+            "url": "https://www.cmtedd.act.gov.au/open_government/inform/act_government_media_releases/hd"
+          },
+          {
+            "record_id": "b8c69c6d78770c2e1c3e",
+            "title": "View media releases",
+            "url": "https://www.cmtedd.act.gov.au/open_government/inform/act_government_media_releases/barr"
+          },
+          {
+            "record_id": "ba5e2f36c8a7cf0c616a",
+            "title": "View media releases",
+            "url": "https://www.cmtedd.act.gov.au/open_government/inform/act_government_media_releases/dc"
+          },
+          {
+            "record_id": "ba9a02889c2c613a8e93",
+            "title": "Former ministers media releases",
+            "url": "https://www.cmtedd.act.gov.au/open_government/inform/act_government_media_releases/past-ministers-media-releases"
+          },
+          {
+            "record_id": "c38f71a3f95b203d5ce0",
+            "title": "View media releases",
+            "url": "https://www.cmtedd.act.gov.au/open_government/inform/act_government_media_releases/cmcd"
+          },
+          {
+            "record_id": "d50e97c3d8b751ebec02",
+            "title": "Transport Canberra and City Services",
+            "url": "https://www.cmtedd.act.gov.au/open_government/inform/act_government_media_releases/act-transport-canberra-and-city-services-media-releases"
+          },
+          {
+            "record_id": "d5dd774fc395a323e040",
+            "title": "Environment, Planning and Sustainable Development Directorate",
+            "url": "https://www.cmtedd.act.gov.au/open_government/inform/act_government_media_releases/esdd"
+          },
+          {
+            "record_id": "db53d7bffd13d383f8af",
+            "title": "View media releases",
+            "url": "https://www.cmtedd.act.gov.au/open_government/inform/act_government_media_releases/michael-pettersson-mla-media-releases"
+          },
+          {
+            "record_id": "e34ed7bb90356ebf03c3",
+            "title": "View media releases",
+            "url": "https://www.cmtedd.act.gov.au/open_government/inform/act_government_media_releases/access-canberra"
+          },
+          {
+            "record_id": "e56e20cd9e5e49dd0ddd",
+            "title": "Open Government",
+            "url": "https://www.cmtedd.act.gov.au/open_government"
+          },
+          {
+            "record_id": "ebaa1ff2ce44b8c5e660",
+            "title": "View media releases",
+            "url": "https://www.cmtedd.act.gov.au/open_government/inform/act_government_media_releases/ce"
+          },
+          {
+            "record_id": "f68eefcc2c8d1a29a974",
+            "title": "View media releases",
+            "url": "https://www.cmtedd.act.gov.au/open_government/inform/act_government_media_releases/act-suburban-land-agency-media-releases"
+          },
+          {
+            "record_id": "fbbda4cdd35e3e7ed6ec",
+            "title": "View media releases",
+            "url": "https://www.cmtedd.act.gov.au/open_government/inform/act_government_media_releases/hcs"
+          },
+          {
+            "record_id": "fc1dd2b1867ed295817d",
+            "title": "Media releases issued by Directorates",
+            "url": "https://www.cmtedd.act.gov.au/open_government/inform/act_government_media_releases/latest_directorate_media_releases"
+          },
+          {
+            "record_id": "ff217f3415747f446c93",
+            "title": "View media releases",
+            "url": "https://www.cmtedd.act.gov.au/open_government/inform/act_government_media_releases/jacsd"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "00bd00bfcb5985dc19b5",
+            "title": "08 Sep 2026 Biological intelligence firm Diversity Arrays Technology named ACT Exporter of the Year Diversity Arrays Technology (DArT), an integrated biological intelligence business founded in Canberra, has been named ACT Exporter...",
+            "url": "https://www.cmtedd.act.gov.au/open_government/inform/act_government_media_releases/barr/2026/biological-intelligence-firm-diversity-arrays-technology-named-act-exporter-of-the-year"
+          },
+          {
+            "record_id": "031750be2e3c11586c7d",
+            "title": "Detainees at the Alexander Maconochie Centre",
+            "url": "https://www.act.gov.au/law-and-justice/detainees-at-the-alexander-maconochie-centre"
+          },
+          {
+            "record_id": "04ab03baecc23896ef09",
+            "title": "Albert Hall",
+            "url": "https://www.act.gov.au/venues-spaces-and-precincts/albert-hall"
+          },
+          {
+            "record_id": "0503acfb11218d742875",
+            "title": "Money and tax",
+            "url": "https://www.act.gov.au/money-and-tax"
+          },
+          {
+            "record_id": "06076b473ac9109c554d",
+            "title": "City Services Directorate website",
+            "url": "https://www.act.gov.au/city-services/city-services-directorate-website"
+          },
+          {
+            "record_id": "067f90fbc0a05aad2e77",
+            "title": "Public space improvements at Group Centres Have your say on options for public space improvements at the Charnwood, Erindale and Mawson shops.",
+            "url": "https://yoursayconversations.act.gov.au/public-space-improvements-local-shops"
+          },
+          {
+            "record_id": "0a86b22eaa077820c027",
+            "title": "book-a-venue",
+            "url": "https://www.act.gov.au/venues-spaces-and-precincts/book-a-venue"
+          },
+          {
+            "record_id": "0f62ac13366fb3a9947b",
+            "title": "Housing, planning and property",
+            "url": "https://www.act.gov.au/housing-planning-and-property"
+          },
+          {
+            "record_id": "0f9c56e66389f210157c",
+            "title": "Affirmative consent",
+            "url": "https://www.act.gov.au/law-and-justice/affirmative-consent"
+          },
+          {
+            "record_id": "17d1c9418f8348b4652c",
+            "title": "Land release and development opportunities",
+            "url": "https://www.act.gov.au/housing-planning-and-property/land-develop"
+          },
+          {
+            "record_id": "1943d8a94c82a15ac8a4",
+            "title": "Public housing",
+            "url": "https://www.act.gov.au/housing-planning-and-property/public-housing"
+          },
+          {
+            "record_id": "1d71b2a60c8997ecac9c",
+            "title": "Heritage",
+            "url": "https://www.act.gov.au/environment/heritage"
+          },
+          {
+            "record_id": "1f0db3b05c922312b508",
+            "title": "Pathways Hub",
+            "url": "https://www.act.gov.au/education-and-training/pathways-hub"
+          },
+          {
+            "record_id": "22b5038d0a2be2311dad",
+            "title": "ACT Revenue Office",
+            "url": "https://www.act.gov.au/money-and-tax/act-revenue-office"
+          },
+          {
+            "record_id": "25f8919f58396e307473",
+            "title": "Public transport and MyWay+",
+            "url": "https://www.transport.act.gov.au/tickets-and-myway"
+          },
+          {
+            "record_id": "2947a6650755d262076e",
+            "title": "Clinician alerts",
+            "url": "https://www.act.gov.au/health/clinician-alerts"
+          },
+          {
+            "record_id": "2a0faa700af82bd407c1",
+            "title": "Honours and awards",
+            "url": "https://www.act.gov.au/community/honours-and-awards"
+          },
+          {
+            "record_id": "2b3e6df46236cb56a5b4",
+            "title": "Older Canberrans",
+            "url": "https://www.act.gov.au/community/older-canberrans"
+          },
+          {
+            "record_id": "2e08e7e73a26cd2ea3b7",
+            "title": "City and Environment Directorate",
+            "url": "https://www.act.gov.au/directorates-and-agencies/city-and-environment-directorate"
+          },
+          {
+            "record_id": "2eaf49d66192da41bd7f",
+            "title": "Renew or replace your drivers licence",
+            "url": "https://www.act.gov.au/transport-and-traffic/renew-or-replace-your-drivers-licence"
+          },
+          {
+            "record_id": "2efa20d1464ee6f8e216",
+            "title": "Restorative justice",
+            "url": "https://www.act.gov.au/law-and-justice/restorative-justice"
+          },
+          {
+            "record_id": "2f30a404e54e42aa358c",
+            "title": "Renting in the ACT",
+            "url": "https://www.act.gov.au/housing-planning-and-property/renting"
+          },
+          {
+            "record_id": "30d69350bba82060113f",
+            "title": "Transport and traffic",
+            "url": "https://www.act.gov.au/transport-and-traffic"
+          },
+          {
+            "record_id": "3119778bf9f6eb03ff7d",
+            "title": "Multicultural communities",
+            "url": "https://www.act.gov.au/community/multicultural-communities"
+          },
+          {
+            "record_id": "3122cdc071186c86a136",
+            "title": "Access Canberra",
+            "url": "https://www.act.gov.au/city-services/access-canberra"
+          },
+          {
+            "record_id": "319befb073ec7f5b1f1f",
+            "title": "View more Canberra news",
+            "url": "https://www.act.gov.au/our-canberra"
+          },
+          {
+            "record_id": "32ff0f2a5d29578c66c8",
+            "title": "Supporting education in the ACT",
+            "url": "https://www.act.gov.au/education-and-training/supporting-education-in-the-act"
+          },
+          {
+            "record_id": "33f21460699744f14439",
+            "title": "Air quality",
+            "url": "https://www.act.gov.au/environment/air-quality"
+          },
+          {
+            "record_id": "34e9fe557b9f932a72a0",
+            "title": "Teaching and assessment",
+            "url": "https://www.act.gov.au/education-and-training/teaching-and-assessment"
+          },
+          {
+            "record_id": "350efb6903b484a2e08b",
+            "title": "International students and temporary visa holders",
+            "url": "https://www.act.gov.au/education-and-training/international-students-and-temporary-visa-holders"
+          },
+          {
+            "record_id": "366507d742cd9bfc2a73",
+            "title": "Tickets and MyWay+",
+            "url": "https://www.act.gov.au/transport-and-traffic/tickets-and-myway"
+          },
+          {
+            "record_id": "378cd0939971670491f2",
+            "title": "ACT Government jobs",
+            "url": "https://www.jobs.act.gov.au/home"
+          },
+          {
+            "record_id": "37f75e65048fb85cd284",
+            "title": "Bus timetables",
+            "url": "https://www.transport.act.gov.au/getting-around/timetables"
+          },
+          {
+            "record_id": "39d24ff952eb3cc62829",
+            "title": "Board of Inquiry into Aboriginal and Torres Strait Islander deaths in custody in the Alexander Maconochie Centre",
+            "url": "https://www.act.gov.au/law-and-justice/board-of-inquiry-into-aboriginal-and-torres-strait-islander-deaths-in-custody-in-the-amc"
+          },
+          {
+            "record_id": "3b26bcf49de8ead9b204",
+            "title": "Run your business",
+            "url": "https://www.act.gov.au/business/run-your-business"
+          },
+          {
+            "record_id": "3c55faa8ee58950838c2",
+            "title": "Public holidays and school terms",
+            "url": "https://www.act.gov.au/living-in-the-act/public-holidays-school-terms-and-daylight-saving"
+          },
+          {
+            "record_id": "3c97bc6d1a496b5c81b7",
+            "title": "Work with ACT Government",
+            "url": "https://www.act.gov.au/work-with-act-government"
+          },
+          {
+            "record_id": "3db4da447a74374eeaf0",
+            "title": "Recycling and bin collection",
+            "url": "https://www.act.gov.au/city-services/recycling-and-bin-collection"
+          },
+          {
+            "record_id": "412f9cc30783c91466b1",
+            "title": "School term dates and public holidays",
+            "url": "https://www.act.gov.au/education-and-training/school-term-dates-and-public-holidays-old"
+          },
+          {
+            "record_id": "43481139b4a228057e3e",
+            "title": "Venues, spaces and precincts",
+            "url": "https://www.act.gov.au/venues-spaces-and-precincts"
+          },
+          {
+            "record_id": "43ff6b93ee5531d22aaa",
+            "title": "Find a school and enrol",
+            "url": "https://www.act.gov.au/education-and-training/find-a-school-and-enrol"
+          },
+          {
+            "record_id": "47b775d0b3b506bb75a0",
+            "title": "Pets and wildlife",
+            "url": "https://www.act.gov.au/city-services/pets-and-wildlife"
+          },
+          {
+            "record_id": "48b6108eadb6aad6c536",
+            "title": "Conducting health research in the ACT",
+            "url": "https://www.act.gov.au/health/conducting-health-research"
+          },
+          {
+            "record_id": "4a0cf062893fde2320b1",
+            "title": "Community",
+            "url": "https://www.act.gov.au/community"
+          },
+          {
+            "record_id": "4bff3ba05ad3ec742669",
+            "title": "City services",
+            "url": "https://www.act.gov.au/city-services"
+          },
+          {
+            "record_id": "4ded5794ac00974f89bb",
+            "title": "Tools and resources",
+            "url": "https://www.act.gov.au/business/tools-and-resources"
+          },
+          {
+            "record_id": "4e51b83d0a76f0e310f7",
+            "title": "09 Sep 2026 New trial to support endorsed midwives in ACT public maternity services Women and families accessing public maternity services in Canberra will benefit from a new trial designed to...",
+            "url": "https://www.cmtedd.act.gov.au/open_government/inform/act_government_media_releases/marisa-paterson-mla-media-releases/2026/new-trial-to-support-endorsed-midwives-in-act-public-maternity-services"
+          },
+          {
+            "record_id": "502ad2ef561b2e598b73",
+            "title": "Open government information",
+            "url": "https://www.act.gov.au/open"
+          },
+          {
+            "record_id": "50bdbf61e63577ea1102",
+            "title": "Victim support",
+            "url": "https://www.act.gov.au/law-and-justice/victim-support"
+          },
+          {
+            "record_id": "56a35ba4a8e455c077bf",
+            "title": "State Emergency Service",
+            "url": "https://www.act.gov.au/emergency-and-safety/state-emergency-service"
+          },
+          {
+            "record_id": "58d2cbc962f65fc89ef6",
+            "title": "Homes for Canberra",
+            "url": "https://www.act.gov.au/housing-planning-and-property/homes-for-canberra"
+          },
+          {
+            "record_id": "5ab72d5dd7c19f185bac",
+            "title": "Trees and nature strips",
+            "url": "https://www.act.gov.au/city-services/trees-and-nature-strips"
+          },
+          {
+            "record_id": "5b0261ee9045f2364cc8",
+            "title": "Law and justice",
+            "url": "https://www.act.gov.au/law-and-justice"
+          },
+          {
+            "record_id": "5c94aa19cbea4254a151",
+            "title": "Draft ACT Skate Strategy Following a community-driven inquiry with 33 recommendations, the ACT Government is seeking feedback on a Draft Skate Strategy to support planning and skate culture.",
+            "url": "https://yoursayconversations.act.gov.au/draft-act-skate-strategy"
+          },
+          {
+            "record_id": "5e4e2ecff171dffb05d8",
+            "title": "Education service providers",
+            "url": "https://www.act.gov.au/education-and-training/education-service-providers"
+          },
+          {
+            "record_id": "5eeb757f145ea1ae41eb",
+            "title": "Environment",
+            "url": "https://www.act.gov.au/environment"
+          },
+          {
+            "record_id": "6223207b806a11c9b7aa",
+            "title": "Reduce the impacts of disasters",
+            "url": "https://www.act.gov.au/emergency-and-safety/reduce-the-impact-of-disasters"
+          },
+          {
+            "record_id": "6377652041794819f835",
+            "title": "Digital Canberra",
+            "url": "https://www.act.gov.au/directorates-and-agencies/digital-canberra"
+          },
+          {
+            "record_id": "65d21f63dad73a8832ec",
+            "title": "Living healthy in the ACT",
+            "url": "https://www.act.gov.au/health/topics"
+          },
+          {
+            "record_id": "673216512cf66b6b3876",
+            "title": "Ambulance",
+            "url": "https://www.act.gov.au/emergency-and-safety/ambulance"
+          },
+          {
+            "record_id": "681d9d0390e083ee1d19",
+            "title": "Community All Canberra Diversity Arrays Technology named ACT Exporter of the Year",
+            "url": "https://www.act.gov.au/our-canberra/latest-news/2026/september/diversity-arrays-technology-named-act-exporter-of-the-year"
+          },
+          {
+            "record_id": "6af160a82479c149e9a9",
+            "title": "ACT Government Communications",
+            "url": "https://www.act.gov.au/act-government/communications"
+          },
+          {
+            "record_id": "6f4f1f472993b2b7964c",
+            "title": "Renew rego",
+            "url": "https://www.accesscanberra.act.gov.au/driving-transport-and-parking/registration/renewing-vehicle-registration"
+          },
+          {
+            "record_id": "6ff17c63a6b780c8faad",
+            "title": "Chief Minister, Treasury and Economic Development Directorate",
+            "url": "https://www.act.gov.au/directorates-and-agencies/chief-minister-treasury-and-economic-development-directorate"
+          },
+          {
+            "record_id": "722353322d341ef89828",
+            "title": "About ACT Government",
+            "url": "https://www.act.gov.au/act-government"
+          },
+          {
+            "record_id": "738f2d881535f29d44b0",
+            "title": "Former Transport Depot",
+            "url": "https://www.act.gov.au/venues-spaces-and-precincts/former-transport-depot"
+          },
+          {
+            "record_id": "754e4c85328d82c4f647",
+            "title": "Yarralumla Woolshed",
+            "url": "https://www.act.gov.au/venues-spaces-and-precincts/yarralumla-woolshed"
+          },
+          {
+            "record_id": "7756cf8d0a3d255045e1",
+            "title": "Community service providers",
+            "url": "https://www.act.gov.au/community/community-service-providers"
+          },
+          {
+            "record_id": "79e8a73eb5c95d5d8398",
+            "title": "Health and Community Services Directorate",
+            "url": "https://www.act.gov.au/directorates-and-agencies/health-and-community-services-directorate"
+          },
+          {
+            "record_id": "7d65791da3ce5cf337d7",
+            "title": "Support for veterans and their families",
+            "url": "https://www.act.gov.au/community/support-for-veterans-and-their-families"
+          },
+          {
+            "record_id": "7e7eea126dd60513cb48",
+            "title": "Fix my street",
+            "url": "https://www.act.gov.au/city-services/fix-my-street"
+          },
+          {
+            "record_id": "7fdfef0445d61b06dc94",
+            "title": "Directorates and agencies",
+            "url": "https://www.act.gov.au/act-government/directorates-and-agencies"
+          },
+          {
+            "record_id": "80c4e1d116b1557f4a1e",
+            "title": "People with disability",
+            "url": "https://www.act.gov.au/community/people-with-disability"
+          },
+          {
+            "record_id": "81961cd3aae94292d853",
+            "title": "Domestic, family and sexual violence",
+            "url": "https://www.act.gov.au/community/domestic-family-and-sexual-violence"
+          },
+          {
+            "record_id": "84cb199c7e6dd9d359df",
+            "title": "Coercive control",
+            "url": "https://www.act.gov.au/law-and-justice/coercive-control"
+          },
+          {
+            "record_id": "87548a327e58f517ab0a",
+            "title": "Infrastructure Canberra",
+            "url": "https://www.act.gov.au/directorates-and-agencies/infrastructure-canberra"
+          },
+          {
+            "record_id": "893e4a1960dd64364980",
+            "title": "Canberra Health Services",
+            "url": "https://www.act.gov.au/directorates-and-agencies/canberra-health-services"
+          },
+          {
+            "record_id": "8af28edcbdd795c0aa99",
+            "title": "Funding and support",
+            "url": "https://www.act.gov.au/money-and-tax/grants-funding-and-incentives"
+          },
+          {
+            "record_id": "900f3452aad34fb0c2f2",
+            "title": "Industry guidance",
+            "url": "https://www.act.gov.au/business/industry-guidance"
+          },
+          {
+            "record_id": "9077cc21f745cf05eefd",
+            "title": "Start a food business",
+            "url": "https://www.act.gov.au/business/start-a-food-business"
+          },
+          {
+            "record_id": "940288089171cb86affb",
+            "title": "Black Mountain Slipway",
+            "url": "https://www.act.gov.au/venues-spaces-and-precincts/black-mountain-slipway"
+          },
+          {
+            "record_id": "9408c917cb8812afc475",
+            "title": "Fitters Workshop",
+            "url": "https://www.act.gov.au/venues-spaces-and-precincts/fitters-workshop"
+          },
+          {
+            "record_id": "94376e8eddcc63b32e4d",
+            "title": "Get housing help and crisis support",
+            "url": "https://www.act.gov.au/housing-planning-and-property/help"
+          },
+          {
+            "record_id": "979e718fcdae75db0a53",
+            "title": "Find a health service or short-term support",
+            "url": "https://www.act.gov.au/health/find-a-health-service-or-short-term-support"
+          },
+          {
+            "record_id": "98aeb4500a0e74bc6aea",
+            "title": "ACT Emergency Services Agency",
+            "url": "https://www.act.gov.au/emergency-and-safety/act-emergency-services-agency"
+          },
+          {
+            "record_id": "9a6af77dc2ca8a77055b",
+            "title": "See all media releases",
+            "url": "https://www.cmtedd.act.gov.au/open_government/inform/act_government_media_releases"
+          },
+          {
+            "record_id": "9b7f5e3c3b64987a8921",
+            "title": "Healthier Work",
+            "url": "https://www.act.gov.au/business/healthier-work"
+          },
+          {
+            "record_id": "a14d0885571c18d7357f",
+            "title": "Legal support services",
+            "url": "https://www.act.gov.au/law-and-justice/legal-support"
+          },
+          {
+            "record_id": "a1f4ac5e0fe6710a2e07",
+            "title": "Planning and building in the ACT",
+            "url": "https://www.act.gov.au/housing-planning-and-property/plan-build"
+          },
+          {
+            "record_id": "a4d36df11b8473eaee2a",
+            "title": "Education Directorate",
+            "url": "https://www.act.gov.au/directorates-and-agencies/education-directorate"
+          },
+          {
+            "record_id": "a6d0950a2d4176f862ba",
+            "title": "Canberra Institute of Technology",
+            "url": "https://www.act.gov.au/education-and-training/canberra-institute-of-technology"
+          },
+          {
+            "record_id": "a716b88ca21983f8e093",
+            "title": "Start a business in Canberra",
+            "url": "https://www.act.gov.au/business/start-a-business-in-canberra"
+          },
+          {
+            "record_id": "a7e2db7075d538834aad",
+            "title": "Skills and training",
+            "url": "https://www.act.gov.au/education-and-training/skills-and-training"
+          },
+          {
+            "record_id": "aa77116a9c8267de3ec2",
+            "title": "Gambling harm",
+            "url": "https://www.act.gov.au/community/gambling-harm"
+          },
+          {
+            "record_id": "ab242aa4e774c09a5ebe",
+            "title": "Built for CBR",
+            "url": "https://www.act.gov.au/builtforcbr"
+          },
+          {
+            "record_id": "ac74fd6659e07e7ae8e4",
+            "title": "Journey planner",
+            "url": "https://www.act.gov.au/transport-and-traffic/journey-planner"
+          },
+          {
+            "record_id": "acd2769a6f3fbee87db5",
+            "title": "Cost of living payment for apprentices and trainees",
+            "url": "https://www.act.gov.au/education-and-training/payment-for-apprentices-and-trainees"
+          },
+          {
+            "record_id": "add80bfd3c6ff71629dc",
+            "title": "Recreation All Canberra What’s on these spring school holidays",
+            "url": "https://www.act.gov.au/our-canberra/latest-news/2026/september/whats-on-these-spring-school-holidays"
+          },
+          {
+            "record_id": "ae8c93cdb94a282f6c44",
+            "title": "Buying and owning a home in the ACT",
+            "url": "https://www.act.gov.au/housing-planning-and-property/buy-own"
+          },
+          {
+            "record_id": "af2c25a3aef2642f432f",
+            "title": "Apply for grants and funding",
+            "url": "https://www.act.gov.au/business/apply-for-grants-and-funding"
+          },
+          {
+            "record_id": "af921648b71057c1f519",
+            "title": "Research and data",
+            "url": "https://www.act.gov.au/environment/research-and-data"
+          },
+          {
+            "record_id": "b03b5e338f3c635a71f8",
+            "title": "08 Sep 2026 Nominations open for the 2026 CBR Sport Awards Nominations are now open for the 2026 CBR Sport Awards, recognising outstanding achievements and contributions across the...",
+            "url": "https://www.cmtedd.act.gov.au/open_government/inform/act_government_media_releases/chris-steel-mla-media-releases/2026/nominations-open-for-the-2026-cbr-sport-awards"
+          },
+          {
+            "record_id": "b0628f48bccda823e57e",
+            "title": "Gungahlin Community Centre",
+            "url": "https://www.act.gov.au/venues-spaces-and-precincts/gungahlin-community-centre"
+          },
+          {
+            "record_id": "b112ec12291eebf7b418",
+            "title": "Tharwa Community Room",
+            "url": "https://www.act.gov.au/venues-spaces-and-precincts/tharwa-community-room"
+          },
+          {
+            "record_id": "b18c0fc6a4c0a0aad363",
+            "title": "Work with ACT Government",
+            "url": "https://www.act.gov.au/act-government/work-with-act-government"
+          },
+          {
+            "record_id": "b21bd9e8357554d7d3b5",
+            "title": "Animals and plants",
+            "url": "https://www.act.gov.au/environment/animals-and-plants"
+          },
+          {
+            "record_id": "b375d57925219f7fd90b",
+            "title": "Life at school and college",
+            "url": "https://www.act.gov.au/education-and-training/life-at-school-and-college"
+          },
+          {
+            "record_id": "b4bbffc19e9c42610c1f",
+            "title": "Fire and rescue",
+            "url": "https://www.act.gov.au/emergency-and-safety/fire-and-rescue"
+          },
+          {
+            "record_id": "b57ca4cd8088e6603bce",
+            "title": "Cost of living support",
+            "url": "https://www.act.gov.au/money-and-tax/cost-of-living-support"
+          },
+          {
+            "record_id": "b62f392330a6cfb0ab48",
+            "title": "Driver licence renewal",
+            "url": "https://www.accesscanberra.act.gov.au/driving-transport-and-parking/licences/renew-or-replace-your-driver-licence"
+          },
+          {
+            "record_id": "b6ead27b3ce76ffdab7a",
+            "title": "Ways to pay a fine",
+            "url": "https://www.act.gov.au/transport-and-traffic/ways-to-pay-a-fine"
+          },
+          {
+            "record_id": "b72cf723de800bdd69ed",
+            "title": "Current incidents",
+            "url": "https://www.act.gov.au/emergency-and-safety/current-incidents"
+          },
+          {
+            "record_id": "b874e481c6a6c375300a",
+            "title": "Education and training",
+            "url": "https://www.act.gov.au/education-and-training"
+          },
+          {
+            "record_id": "b8fbb96549f3559ccc40",
+            "title": "LGBTIQA+ communities",
+            "url": "https://www.act.gov.au/community/lgbtiqa-communities"
+          },
+          {
+            "record_id": "ba4a43caddf744224f93",
+            "title": "Digital Health Record",
+            "url": "https://www.act.gov.au/health/digital-health-record"
+          },
+          {
+            "record_id": "bb7999d5a6d44cc706cf",
+            "title": "Transport Canberra",
+            "url": "https://www.act.gov.au/transport-and-traffic/transport-canberra"
+          },
+          {
+            "record_id": "bbe8fc2ab893a1445f9e",
+            "title": "Providing health care in the ACT",
+            "url": "https://www.act.gov.au/health/providing-health-care-in-the-act"
+          },
+          {
+            "record_id": "be9d0d5fabc2ba38fc33",
+            "title": "Environment projects",
+            "url": "https://www.act.gov.au/environment/environment-projects"
+          },
+          {
+            "record_id": "c1a6829237c398c17084",
+            "title": "The Draft Southern Gateway Planning and Design Framework Have your say on creating essential community facilities, parks and active travel networks along the Southern Gateway Corridor for the Territory.",
+            "url": "https://yoursayconversations.act.gov.au/southerngatewaycorridor"
+          },
+          {
+            "record_id": "c49f39d02400c3192090",
+            "title": "Reporting notifiable diseases",
+            "url": "https://www.act.gov.au/health/reporting-notifiable-diseases"
+          },
+          {
+            "record_id": "c4b9c5343b6cbae5d342",
+            "title": "Bin collection calendar",
+            "url": "https://www.cityservices.act.gov.au/recycling-and-waste/bins"
+          },
+          {
+            "record_id": "c512be94722ed2bc081f",
+            "title": "Renewing registration",
+            "url": "https://www.act.gov.au/transport-and-traffic/renewing-registration"
+          },
+          {
+            "record_id": "c64fdf340fc9d7fdea51",
+            "title": "Law reforms",
+            "url": "https://www.act.gov.au/law-and-justice/law-reforms"
+          },
+          {
+            "record_id": "c7a99fab3cce43809b76",
+            "title": "Child protection and youth justice",
+            "url": "https://www.act.gov.au/community/child-protection-and-youth-justice"
+          },
+          {
+            "record_id": "c9424ba85e004594048f",
+            "title": "Oaks Estate Community Hall",
+            "url": "https://www.act.gov.au/venues-spaces-and-precincts/oaks-estate-community-hall"
+          },
+          {
+            "record_id": "c99aba772c9eae964a82",
+            "title": "ACT Government",
+            "url": "https://www.act.gov.au/act-government"
+          },
+          {
+            "record_id": "ccafab512053e9ffd31f",
+            "title": "Emergency and safety",
+            "url": "https://www.act.gov.au/emergency-and-safety"
+          },
+          {
+            "record_id": "cd0364ace303db94eaef",
+            "title": "Parks and conservation",
+            "url": "https://www.act.gov.au/environment/parks-and-conservation"
+          },
+          {
+            "record_id": "cf684dd2b0772a8d0162",
+            "title": "Families",
+            "url": "https://www.act.gov.au/community/families"
+          },
+          {
+            "record_id": "d0677f6d11695f0dbba2",
+            "title": "Aboriginal and Torres Strait Islander peoples",
+            "url": "https://www.act.gov.au/community/aboriginal-and-torres-strait-islander-peoples"
+          },
+          {
+            "record_id": "d48611ce648694d88509",
+            "title": "Get help and advice",
+            "url": "https://www.act.gov.au/business/get-help-and-advice"
+          },
+          {
+            "record_id": "d7cf664181c22d26f1bc",
+            "title": "Justice and Community Safety Directorate",
+            "url": "https://www.act.gov.au/directorates-and-agencies/justice-and-community-safety-directorate"
+          },
+          {
+            "record_id": "d8c5cd0cb649c4eea763",
+            "title": "Fuel supply in the ACT",
+            "url": "https://www.act.gov.au/act-government/fuel-supply-in-the-act"
+          },
+          {
+            "record_id": "e45bb5933c91e8fd115a",
+            "title": "Rural fire service",
+            "url": "https://www.act.gov.au/emergency-and-safety/rural-fire-service"
+          },
+          {
+            "record_id": "e4b0150e07b503b596dd",
+            "title": "Subscribe now",
+            "url": "https://www.act.gov.au/our-canberra/subscribe-to-our-canberra"
+          },
+          {
+            "record_id": "e670674ff3f914b7afa2",
+            "title": "Business",
+            "url": "https://www.act.gov.au/business"
+          },
+          {
+            "record_id": "ef49e21bc8f797f44414",
+            "title": "ACT Legislation Register",
+            "url": "https://www.act.gov.au/law-and-justice/act-legislation-register"
+          },
+          {
+            "record_id": "ef6a5c347d2961ee0717",
+            "title": "Early childhood and preschool",
+            "url": "https://www.act.gov.au/education-and-training/early-childhood-and-preschool"
+          },
+          {
+            "record_id": "f3d8b31086caae0d09fc",
+            "title": "Open government information",
+            "url": "https://www.act.gov.au/act-government/open"
+          },
+          {
+            "record_id": "f9428e75eabe33e47476",
+            "title": "Routes and timetables",
+            "url": "https://www.act.gov.au/transport-and-traffic/routes-and-timetables"
+          },
+          {
+            "record_id": "f95ff8cea179f3d33447",
+            "title": "Vehicle registration and transfer",
+            "url": "https://www.act.gov.au/transport-and-traffic/vehicle-registration-and-transfer"
+          },
+          {
+            "record_id": "f9c09f51fc356a5f43f2",
+            "title": "Events All Canberra What to expect at Floriade 2026",
+            "url": "https://www.act.gov.au/our-canberra/latest-news/2026/september/what-to-expect-at-floriade-2026"
+          },
+          {
+            "record_id": "fb5136fb757ffde324dd",
+            "title": "Per- and poly-fluoroalkyl substances (PFAS)",
+            "url": "https://www.act.gov.au/environment/per-and-poly-fluoroalkyl-substances-pfas"
+          },
+          {
+            "record_id": "fdde860c2f093dd09a0f",
+            "title": "Protect your identity after a data breach or cyber-attack",
+            "url": "https://www.act.gov.au/emergency-and-safety/protect-your-identity-after-a-data-breach-or-cyber-attack"
+          }
+        ],
+        "delta_hash": "6d8e9c80637722b202444084f249bdacf3eca12ab8a396f3b4e215877655c80f"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-NTEC-MEDIA-20260908234539",
+      "source_change_event_id": "CHG-WATCH-NTEC-MEDIA-20260908234539",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-NTEC-MEDIA-20260908234539",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Northern Territory Electoral Commission — media releases added 10 structured publication records to its forward-captured official index: 2022 (12); Skip to main navigation; 2024 (45); 2021 (22); 2025 (31); +5 more",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-09-08T23:46:29.410Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "18db2e364ec543aa2917",
+            "title": "2022 (12)",
+            "url": "https://ntec.nt.gov.au/about-us/media-and-publications/media-releases/2022"
+          },
+          {
+            "record_id": "248ec28e5c87e1848da0",
+            "title": "Skip to main navigation",
+            "url": "https://ntec.nt.gov.au/about-us/media-and-publications/media-releases"
+          },
+          {
+            "record_id": "50aefaff7f3642161412",
+            "title": "2024 (45)",
+            "url": "https://ntec.nt.gov.au/about-us/media-and-publications/media-releases/2024"
+          },
+          {
+            "record_id": "6747a7644bfac85ebf91",
+            "title": "2021 (22)",
+            "url": "https://ntec.nt.gov.au/about-us/media-and-publications/media-releases/2021"
+          },
+          {
+            "record_id": "914da1d68b1c54b2691f",
+            "title": "2025 (31)",
+            "url": "https://ntec.nt.gov.au/about-us/media-and-publications/media-releases/2025"
+          },
+          {
+            "record_id": "abda225ae92bab593eb9",
+            "title": "2026 (31)",
+            "url": "https://ntec.nt.gov.au/about-us/media-and-publications/media-releases/2026"
+          },
+          {
+            "record_id": "cf2caaf0bb64d2b93508",
+            "title": "2020 (30)",
+            "url": "https://ntec.nt.gov.au/about-us/media-and-publications/media-releases/2020"
+          },
+          {
+            "record_id": "dc477118fd386d837561",
+            "title": "Skip to main content",
+            "url": "https://ntec.nt.gov.au/about-us/media-and-publications/media-releases"
+          },
+          {
+            "record_id": "dd2388691b8bf63b647b",
+            "title": "2023 (63)",
+            "url": "https://ntec.nt.gov.au/about-us/media-and-publications/media-releases/2023"
+          },
+          {
+            "record_id": "eea3e6c860ab9b6be80b",
+            "title": "Print this page",
+            "url": "https://ntec.nt.gov.au/about-us/media-and-publications/media-releases"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "4297265d1134b8543a56",
+            "title": "Timetable",
+            "url": "https://ntec.nt.gov.au/elections/current-elections/2026-mulka-by-election/Mulka-timetable"
+          },
+          {
+            "record_id": "e1c8d06d96c0dff73984",
+            "title": "List of candidate",
+            "url": "https://ntec.nt.gov.au/elections/current-elections/2026-mulka-by-election/list-of-candidates"
+          }
+        ],
+        "delta_hash": "53f125fbc1f47eaec1990b11784c26de2b5395cedb073e20c1c3a894b687f224"
       },
       "integrity": {
         "source_change_unchanged": true,

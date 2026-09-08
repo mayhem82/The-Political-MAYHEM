@@ -69,64 +69,64 @@
     {
       "jurisdiction_id": "AUS-FED",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-08T23:39:22.976Z",
-      "signals_examined": 18,
-      "candidates_detected": 4
+      "last_screened_at": "2026-09-08T23:46:29.535Z",
+      "signals_examined": 20,
+      "candidates_detected": 5
     },
     {
       "jurisdiction_id": "AUS-NSW",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-08T23:39:22.976Z",
-      "signals_examined": 8,
+      "last_screened_at": "2026-09-08T23:46:29.535Z",
+      "signals_examined": 9,
       "candidates_detected": 1
     },
     {
       "jurisdiction_id": "AUS-VIC",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-08T23:39:22.976Z",
+      "last_screened_at": "2026-09-08T23:46:29.535Z",
       "signals_examined": 0,
       "candidates_detected": 0
     },
     {
       "jurisdiction_id": "AUS-QLD",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-08T23:39:22.976Z",
+      "last_screened_at": "2026-09-08T23:46:29.535Z",
       "signals_examined": 0,
       "candidates_detected": 0
     },
     {
       "jurisdiction_id": "AUS-WA",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-08T23:39:22.976Z",
+      "last_screened_at": "2026-09-08T23:46:29.535Z",
       "signals_examined": 0,
       "candidates_detected": 0
     },
     {
       "jurisdiction_id": "AUS-SA",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-08T23:39:22.976Z",
+      "last_screened_at": "2026-09-08T23:46:29.535Z",
       "signals_examined": 0,
       "candidates_detected": 0
     },
     {
       "jurisdiction_id": "AUS-TAS",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-08T23:39:22.976Z",
+      "last_screened_at": "2026-09-08T23:46:29.535Z",
       "signals_examined": 5,
       "candidates_detected": 0
     },
     {
       "jurisdiction_id": "AUS-ACT",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-08T23:39:22.976Z",
-      "signals_examined": 11,
+      "last_screened_at": "2026-09-08T23:46:29.535Z",
+      "signals_examined": 12,
       "candidates_detected": 0
     },
     {
       "jurisdiction_id": "AUS-NT",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-08T23:39:22.976Z",
-      "signals_examined": 9,
+      "last_screened_at": "2026-09-08T23:46:29.535Z",
+      "signals_examined": 10,
       "candidates_detected": 0
     }
   ],
@@ -301,14 +301,46 @@
           "reason": "DETERMINISTIC_COMPETITION_FAMILY_SCREEN"
         }
       ]
+    },
+    {
+      "candidate_id": "DISC-FED-PROCEDURAL-f552dd41fc1b3cd3",
+      "jurisdiction_id": "AUS-FED",
+      "competition_family": "PROCEDURAL",
+      "proposed_competition_class": "PARLIAMENTARY_PROCEDURE",
+      "proposed_cycle_id": "AUS-FED-48TH-PARLIAMENT",
+      "subject": "Telecommunications Legislation Amendment (Universa...",
+      "candidate_state": "REVIEW_REQUIRED",
+      "detected_at": "2026-09-08T23:46:29.410Z",
+      "source_snapshot_ids": [
+        "AUTO-WATCH-APH-BILLS-20260908234539"
+      ],
+      "signal_event_ids": [
+        "SIG-REV-CHG-WATCH-APH-BILLS-20260908234539"
+      ],
+      "review_ids": [
+        "REV-CHG-WATCH-APH-BILLS-20260908234539"
+      ],
+      "evidence_summary": "Screened PRIMARY_PARLIAMENT evidence contains language consistent with a procedural competition candidate. This is a discovery observation, not a registered contest or outcome inference.",
+      "registration_blockers": [
+        "MATERIAL_PROCEDURAL_OPPOSITION_REQUIRES_REVIEW"
+      ],
+      "linked_contest_id": null,
+      "state_history": [
+        {
+          "from": null,
+          "to": "REVIEW_REQUIRED",
+          "at": "2026-09-08T23:46:29.410Z",
+          "reason": "DETERMINISTIC_COMPETITION_FAMILY_SCREEN"
+        }
+      ]
     }
   ],
-  "last_screened_at": "2026-09-08T23:39:22.976Z",
+  "last_screened_at": "2026-09-08T23:46:29.535Z",
   "last_screen_summary": {
-    "signals_examined": 51,
-    "candidates_total": 5,
+    "signals_examined": 56,
+    "candidates_total": 6,
     "candidates_added": 1,
-    "candidate_lineage_merges": 4,
+    "candidate_lineage_merges": 5,
     "registered_contests_unchanged": true
   }
 }

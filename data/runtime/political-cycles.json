@@ -1,7 +1,7 @@
 {
   "snapshot_id": "POLITICAL-CYCLE-LEDGER-001",
   "created_at": "2026-09-08T14:15:00+10:00",
-  "updated_at": "2026-09-09T07:17:00+10:00",
+  "updated_at": "2026-09-09T09:28:00+10:00",
   "timebase": "Australia/Sydney",
   "cycles": [
     {
@@ -57,6 +57,32 @@
         }
       ],
       "integrity_note": "The 48th Parliament is the active federal parliamentary-term competition cycle. Start and end dates are intentionally unset here; the MAYHEM forward baseline is the captured APH parliamentary source state, not a reconstructed term history."
+    },
+    {
+      "cycle_id": "AUS-NSW-58TH-PARLIAMENT",
+      "jurisdiction": "New South Wales",
+      "cycle_class": "PARLIAMENTARY_TERM",
+      "cycle_type": "STATE_PARLIAMENTARY_TERM",
+      "name": "58th Parliament",
+      "status": "ACTIVE",
+      "start_date": null,
+      "end_date": null,
+      "contest_ids": [],
+      "source_refs": [
+        "SNAP-NSW-58TH-PARLIAMENT-20260909-0928"
+      ],
+      "temporal_evidence_baseline_at": "2026-09-09T09:28:00+10:00",
+      "created_at": "2026-09-09T09:28:00+10:00",
+      "updated_at": "2026-09-09T09:28:00+10:00",
+      "lifecycle_history": [
+        {
+          "from": null,
+          "to": "ACTIVE",
+          "at": "2026-09-09T09:28:00+10:00",
+          "reason": "PRIMARY_NSW_PARLIAMENT_EVIDENCE_IDENTIFIES_CURRENT_58TH_PARLIAMENT"
+        }
+      ],
+      "integrity_note": "The 58th Parliament is registered from current primary NSW Parliament evidence. Historical and ongoing evidence may attach with its own temporal provenance; no start or end date is inferred here."
     }
   ],
   "rules": {

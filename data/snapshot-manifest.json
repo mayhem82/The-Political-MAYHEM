@@ -1,5 +1,5 @@
 {
-  "snapshot_id": "POLITICAL-MAYHEM-CANONICAL-004",
+  "snapshot_id": "POLITICAL-MAYHEM-CANONICAL-005",
   "status": "EXPANDING",
   "canonical": {
     "cycle_schema": {"path": "data/canonical/political-cycle.schema.json"},
@@ -25,6 +25,7 @@
     "outcome_ledger": "data/runtime/verified-outcomes.json",
     "audit_ledger": "data/runtime/projection-audits.json",
     "federal_parliamentary_players": "data/runtime/federal-parliamentary-players.json",
+    "state_territory_parliamentary_players": "data/runtime/state-territory-parliamentary-players.json",
     "party_rosters": "data/runtime/party-rosters.json",
     "team_player_form": "data/runtime/team-player-form.json",
     "team_squad_depth": "data/runtime/team-squad-depth.json",
@@ -42,6 +43,9 @@
     "federal_team_rosters_are_complete_current_parliamentary_squads": true,
     "states_and_territories_are_first_class_live_fields": true,
     "federal_final_layer_does_not_replace_state_territory_fields": true,
-    "jurisdiction_boundaries_preserved": true
+    "jurisdiction_boundaries_preserved": true,
+    "act_current_parliamentary_roster_complete": true,
+    "nt_current_parliamentary_roster_complete": true,
+    "state_territory_roster_expansion_is_partial_and_explicit": true
   }
 }

@@ -29,19 +29,7 @@ const now=new Date().toISOString();
 const currentYear=new Date(now).getUTCFullYear();
 const jurisdictions=['AUS-FED','AUS-NSW','AUS-VIC','AUS-QLD','AUS-WA','AUS-SA','AUS-TAS','AUS-ACT','AUS-NT'];
 const labelToJurisdiction={
-  'Australia':'AUS-FED',
-  'Federal':'AUS-FED',
-  'New South Wales':'AUS-NSW',
-  'NSW':'AUS-NSW',
-  'Victoria':'AUS-VIC',
-  'Queensland':'AUS-QLD',
-  'Western Australia':'AUS-WA',
-  'South Australia':'AUS-SA',
-  'Tasmania':'AUS-TAS',
-  'Australian Capital Territory':'AUS-ACT',
-  'ACT':'AUS-ACT',
-  'Northern Territory':'AUS-NT',
-  'NT':'AUS-NT'
+  'Australia':'AUS-FED','Federal':'AUS-FED','New South Wales':'AUS-NSW','NSW':'AUS-NSW','Victoria':'AUS-VIC','Queensland':'AUS-QLD','Western Australia':'AUS-WA','South Australia':'AUS-SA','Tasmania':'AUS-TAS','Australian Capital Territory':'AUS-ACT','ACT':'AUS-ACT','Northern Territory':'AUS-NT','NT':'AUS-NT'
 };
 const eventById=new Map((events.events||[]).map(x=>[x.event_id,x]));
 const existingById=new Map(discovery.candidates.map(x=>[x.candidate_id,x]));
@@ -88,6 +76,11 @@ const screen=(text,sourceClass='')=>{
   const electionProcess=(/\b(election|electoral)\b/.test(t)&&/\b(nomination|candidate|candidacy|voting|polling day|writ|preference)\b/.test(t));
   if(explicitElection||electionProcess) return 'ELECTION';
 
+  const publicActors=/\b(public|community|communities|citizen|citizens|resident|residents|campaign|campaigners|advocacy|petition|protest|protesters)\b/.test(t);
+  const publicDemand=/\b(demand|demands|call for|calls for|petition|campaign|protest|submission|advocacy|pressure|urged|urge)\b/.test(t);
+  const institutionalResponse=/\b(government|council|department|minister|agency|authority|parliament|institution)\b/.test(t)&&/\b(refuse|refused|reject|rejected|resist|resisted|delay|delayed|concede|conceded|backdown|back down|reverse|reversed|change|changed|agree|agreed|inaction|inertia)\b/.test(t);
+  if(publicActors&&publicDemand&&institutionalResponse) return 'PUBLIC_PRESSURE';
+
   const implementation=/\b(implement|implementation|enact|enactment|regulation|regulatory|commence|commencement)\b/.test(t);
   if(implementation&&resistanceTerm) return 'POLICY_ENACTMENT';
   return null;
@@ -107,26 +100,37 @@ const likelyCoveredByRegisteredContest=(jurisdictionId,family,subject)=>{
   });
 };
 
-const classForFamily=family=>family==='ELECTION'?'ELECTORAL':family==='LEGISLATION'?'LEGISLATIVE':null;
+const classForFamily=family=>({
+  ELECTION:'ELECTORAL',
+  LEGISLATION:'LEGISLATIVE',
+  LEADERSHIP:'LEADERSHIP',
+  CONFIDENCE_SUPPLY:'CONFIDENCE_SUPPLY',
+  BUDGET:'BUDGET',
+  PROCEDURAL:'PARLIAMENTARY_PROCEDURE',
+  POLICY_ENACTMENT:'POLICY_ENACTMENT',
+  PUBLIC_PRESSURE:'PUBLIC_PRESSURE'
+})[family]||null;
+
 const stateAndBlockers=(family,cycle)=>{
+  let state='REVIEW_REQUIRED';
+  let blockers=[];
   if(family==='LEGISLATION'){
-    const blockers=['MATERIAL_RESISTANCE_NOT_YET_EVIDENCED','SUPPORTING_SIDE_NOT_YET_RESOLVED','OPPOSING_SIDE_NOT_YET_RESOLVED'];
-    if(!cycle) blockers.push('REGISTERED_PARLIAMENTARY_CYCLE_REQUIRED');
-    return {state:'EVIDENCE_GAP',blockers};
+    state='EVIDENCE_GAP';
+    blockers=['MATERIAL_RESISTANCE_NOT_YET_EVIDENCED','SUPPORTING_SIDE_NOT_YET_RESOLVED','OPPOSING_SIDE_NOT_YET_RESOLVED'];
+  }else if(family==='ELECTION'){
+    blockers=['DISTINCT_ELECTORAL_CONTEST_SCOPE_REQUIRES_REVIEW'];
+  }else{
+    blockers=[({
+      LEADERSHIP:'MATERIAL_OPPOSITION_OR_BALLOT_NOT_YET_RESOLVED',
+      CONFIDENCE_SUPPLY:'CONFIDENCE_OR_SUPPLY_THRESHOLD_REQUIRES_REVIEW',
+      BUDGET:'MATERIAL_BUDGET_RESISTANCE_REQUIRES_REVIEW',
+      PROCEDURAL:'MATERIAL_PROCEDURAL_OPPOSITION_REQUIRES_REVIEW',
+      POLICY_ENACTMENT:'MATERIAL_POLICY_RESISTANCE_REQUIRES_REVIEW',
+      PUBLIC_PRESSURE:'DEFINED_PUBLIC_DEMAND_AND_INSTITUTIONAL_RESISTANCE_REQUIRE_REVIEW'
+    })[family]||'COMPETITION_THRESHOLD_REQUIRES_REVIEW'];
   }
-  if(family==='ELECTION'){
-    const blockers=['DISTINCT_ELECTORAL_CONTEST_SCOPE_REQUIRES_REVIEW'];
-    if(!cycle) blockers.push('REGISTERED_ELECTORAL_CYCLE_REQUIRED');
-    return {state:'REVIEW_REQUIRED',blockers};
-  }
-  const extra={
-    LEADERSHIP:'MATERIAL_OPPOSITION_OR_BALLOT_NOT_YET_RESOLVED',
-    CONFIDENCE_SUPPLY:'CONFIDENCE_OR_SUPPLY_THRESHOLD_REQUIRES_REVIEW',
-    BUDGET:'MATERIAL_BUDGET_RESISTANCE_REQUIRES_REVIEW',
-    PROCEDURAL:'MATERIAL_PROCEDURAL_OPPOSITION_REQUIRES_REVIEW',
-    POLICY_ENACTMENT:'MATERIAL_POLICY_RESISTANCE_REQUIRES_REVIEW'
-  }[family]||'COMPETITION_THRESHOLD_REQUIRES_REVIEW';
-  return {state:'REVIEW_REQUIRED',blockers:['COMPETITION_CLASS_NOT_YET_REGISTERED',extra]};
+  if(!cycle) blockers.push('REGISTERED_COMPATIBLE_CYCLE_REQUIRED');
+  return {state,blockers};
 };
 
 const candidateId=(jurisdictionId,family,subject)=>{
@@ -148,6 +152,8 @@ const addCandidate=({jurisdictionId,family,subject,event,reviewId=null})=>{
     existing.source_snapshot_ids=uniq([...(existing.source_snapshot_ids||[]),event.source_snapshot_id]);
     existing.signal_event_ids=uniq([...(existing.signal_event_ids||[]),event.event_id]);
     existing.review_ids=uniq([...(existing.review_ids||[]),reviewId]);
+    if(!existing.proposed_competition_class&&proposedClass) existing.proposed_competition_class=proposedClass;
+    if(!existing.proposed_cycle_id&&cycle) existing.proposed_cycle_id=cycle.cycle_id;
     merged++;
     return;
   }
@@ -164,10 +170,10 @@ const addCandidate=({jurisdictionId,family,subject,event,reviewId=null})=>{
     source_snapshot_ids:[event.source_snapshot_id],
     signal_event_ids:[event.event_id],
     review_ids:reviewId?[reviewId]:[],
-    evidence_summary:`Forward-screened ${event.source_class||'political'} signal contains language consistent with a ${family.toLowerCase().replaceAll('_',' ')} competition candidate. This is a discovery observation, not a registered contest or outcome inference.`,
+    evidence_summary:`Screened ${event.source_class||'political'} evidence contains language consistent with a ${family.toLowerCase().replaceAll('_',' ')} competition candidate. This is a discovery observation, not a registered contest or outcome inference.`,
     registration_blockers:blockers,
     linked_contest_id:null,
-    state_history:[{from:null,to:state,at:detectedAt,reason:'DETERMINISTIC_FORWARD_COMPETITION_FAMILY_SCREEN'}]
+    state_history:[{from:null,to:state,at:detectedAt,reason:'DETERMINISTIC_COMPETITION_FAMILY_SCREEN'}]
   };
   discovery.candidates.push(candidate);
   existingById.set(id,candidate);

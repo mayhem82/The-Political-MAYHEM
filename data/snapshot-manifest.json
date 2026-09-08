@@ -1,5 +1,5 @@
 {
-  "snapshot_id": "POLITICAL-MAYHEM-CANONICAL-014",
+  "snapshot_id": "POLITICAL-MAYHEM-CANONICAL-015",
   "status": "EXPANDING",
   "canonical": {
     "cycle_schema": {"path": "data/canonical/political-cycle.schema.json"},
@@ -27,6 +27,7 @@
     "audit_ledger": "data/runtime/projection-audits.json",
     "federal_parliamentary_players": "data/runtime/federal-parliamentary-players.json",
     "federal_house_electoral_performance": "data/runtime/federal-house-electoral-performance-v2.json",
+    "federal_senate_electoral_performance": "data/runtime/federal-senate-electoral-performance.json",
     "state_territory_parliamentary_players": "data/runtime/state-territory-parliamentary-players.json",
     "queensland_parliamentary_players": "data/runtime/queensland-parliamentary-players.json",
     "western_australia_parliamentary_players": "data/runtime/western-australia-parliamentary-players.json",
@@ -73,6 +74,10 @@
     "other_first_preference_not_attributed_to_individual_players": true,
     "tpp_not_misrepresented_as_tcp": true,
     "election_day_party_preserved_for_historical_stats": true,
+    "federal_senate_elected_record_coverage_is_explicit": true,
+    "federal_senate_group_vote_is_context_not_individual_primary": true,
+    "federal_senate_replacements_do_not_inherit_predecessor_stats": true,
+    "federal_senate_unresolved_replacements_are_explicit": true,
     "candidate_specific_electoral_dossiers_are_expanding": true
   }
 }

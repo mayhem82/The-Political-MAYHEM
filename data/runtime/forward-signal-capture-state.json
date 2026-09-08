@@ -173,9 +173,10 @@
       "captured_at": "2026-09-08T09:32:10.059Z",
       "acquisition_url": "https://www.parliament.sa.gov.au/",
       "requested_url": "https://www.parliament.sa.gov.au/",
-      "header_profile": "IDENTIFIED_AUTOMATION",
+      "header_profile": "BROWSER_COMPATIBILITY",
       "content_type": "text/html; charset=utf-8",
-      "captured_representation_complete": true
+      "captured_representation_complete": true,
+      "capture_mode": "NORMALISED_PAGE_HASH"
     },
     "WATCH-TAS-HANSARD": {
       "source_id": "SRC-TAS-HANSARD",
@@ -401,11 +402,11 @@
       "source_id": "SRC-ELECTIONS-ACT-NEWS",
       "jurisdiction_id": "AUS-ACT",
       "party_id": null,
-      "content_hash": "d0279b3fef85831e6d13287f26550fd5e08e883bb61a0ea46d8b59a15233eafa",
-      "snapshot_id": "AUTO-WATCH-ELECTIONS-ACT-NEWS-20260908204409",
-      "captured_at": "2026-09-08T20:44:09.589Z",
-      "acquisition_url": "https://www.elections.act.gov.au/",
-      "requested_url": "https://www.elections.act.gov.au/",
+      "content_hash": "65eba258524e03b3994d6ae1f2370dca84b2fd23c112893e7f853ec12494d4ea",
+      "snapshot_id": "AUTO-WATCH-ELECTIONS-ACT-NEWS-20260908211018",
+      "captured_at": "2026-09-08T21:10:18.308Z",
+      "acquisition_url": "https://www.elections.act.gov.au/about-the-commission/publications/news-archives",
+      "requested_url": "https://www.elections.act.gov.au/about-the-commission/publications/news-archives",
       "header_profile": "BROWSER_COMPATIBILITY",
       "content_type": "text/html; charset=utf-8",
       "capture_mode": "PUBLICATION_FEED_HASH",
@@ -454,9 +455,9 @@
       "captured_representation_complete": true
     }
   },
-  "updated_at": "2026-09-08T20:44:09.589Z",
+  "updated_at": "2026-09-08T21:10:18.308Z",
   "last_run": {
-    "captured_at": "2026-09-08T20:44:09.589Z",
+    "captured_at": "2026-09-08T21:10:18.308Z",
     "baselines_created": 0,
     "source_changes_created": 1,
     "semantic_signals_created": 0,
@@ -465,10 +466,6 @@
       {
         "watch_id": "WATCH-ALP-NEWS",
         "error": "https://www.alp.org.au/news/ [IDENTIFIED_AUTOMATION] 404 Not Found | https://www.alp.org.au/news/ [BROWSER_COMPATIBILITY] 404 Not Found | https://www.alp.org.au/news [IDENTIFIED_AUTOMATION] 404 Not Found | https://www.alp.org.au/news [BROWSER_COMPATIBILITY] 404 Not Found"
-      },
-      {
-        "watch_id": "WATCH-TAS-HANSARD",
-        "error": "https://www.parliament.tas.gov.au/hansard [IDENTIFIED_AUTOMATION] 403 Forbidden | https://www.parliament.tas.gov.au/hansard [BROWSER_COMPATIBILITY] 403 Forbidden"
       },
       {
         "watch_id": "WATCH-NT-PARLIAMENT",
@@ -480,7 +477,7 @@
   "coverage": {
     "active_sources": 34,
     "baselines_captured": 33,
-    "current_run_failures": 3,
+    "current_run_failures": 2,
     "jurisdictions": {
       "AUS-FED": {
         "configured_sources": 9,
@@ -552,13 +549,13 @@
       "AUS-TAS": {
         "configured_sources": 3,
         "baseline_sources": 3,
-        "current_run_failures": 1,
+        "current_run_failures": 0,
         "source_classes": [
           "PRIMARY_ELECTORAL_AUTHORITY",
           "PRIMARY_GOVERNMENT",
           "PRIMARY_PARLIAMENT"
         ],
-        "status": "CAPTURE_ACTIVE_DEGRADED_CURRENT_RUN"
+        "status": "CAPTURE_ACTIVE_FULL_CONFIGURED_BASELINE"
       },
       "AUS-ACT": {
         "configured_sources": 3,

@@ -29,6 +29,8 @@ jobs:
         run: node scripts/validate-political-lifecycle.mjs
       - name: Validate Political MAYHEM competition classes
         run: node scripts/validate-political-competition-classes.mjs
+      - name: Validate competition discovery
+        run: node scripts/validate-competition-discovery.mjs
       - name: Validate player competition slate
         run: node scripts/validate-player-competition-slate.mjs
       - name: Validate Political MAYHEM match events

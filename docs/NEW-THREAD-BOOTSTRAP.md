@@ -123,6 +123,22 @@ The Political MAYHEM may analyse and forecast political outcomes, actor behaviou
 
 It must remain descriptive and nonpartisan. It is not to become a voter-persuasion, demographic-targeting or campaign-manipulation engine.
 
+## Atomic commit discipline
+
+Repository implementation must advance in small, independently verifiable steps.
+
+For normal build work:
+
+1. make one atomic change or one tightly coupled change-set;
+2. commit it immediately;
+3. reread the persisted file or files and verify the new SHA;
+4. run only the smallest relevant validation needed for that step;
+5. only then begin the next step.
+
+Do not bundle unrelated runtime data, UI, manifest, workflow and documentation changes into one oversized write sequence. Prefer several small commits over one broad commit, even when all changes belong to the same feature.
+
+If a step fails, preserve the last verified commit as the restart point. Do not continue stacking dependent writes on top of an unverified change.
+
 ## Persistence rule
 
 Repository writes are not assumed successful merely because a write was attempted.

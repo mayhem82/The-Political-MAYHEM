@@ -7,6 +7,7 @@ const unique = xs => new Set(xs).size === xs.length;
 
 const data = read('data/runtime/state-territory-parliamentary-players.json');
 const qld = read('data/runtime/queensland-parliamentary-players.json');
+const wa = read('data/runtime/western-australia-parliamentary-players.json');
 const competitions = read('data/runtime/political-competitions.json');
 const manifest = read('data/runtime/forward-ingestion-manifest.json');
 
@@ -79,15 +80,42 @@ const qldCompetition = (competitions.competitions || []).find(c => c.competition
 assert(qldCompetition?.ingestion_state === 'CURRENT_PARLIAMENTARY_ROSTER_INGESTED', 'Queensland competition ingestion state mismatch');
 assert(qldCompetition?.ingested_player_count === 93, 'Queensland competition player count mismatch');
 
-assert(competitions.ingestion_progress?.state_territory_jurisdictions_with_complete_current_player_rosters === 3, 'competition progress expected 3/8 complete');
-assert(competitions.ingestion_progress?.state_territory_players_ingested === 143, 'competition progress expected 143 state/territory players');
-assert((competitions.ingestion_progress?.remaining_jurisdictions || []).length === 5, 'competition progress expected 5 remaining jurisdictions');
-assert(manifest.structural_data_loaded?.state_and_territory_player_rosters === '3_OF_8_COMPLETE', 'ingestion manifest state/territory roster status mismatch');
-assert(manifest.structural_data_loaded?.state_and_territory_players_ingested === 143, 'ingestion manifest state/territory player count mismatch');
-assert((manifest.queues?.jurisdiction_ingestion || []).length === 5, 'remaining jurisdiction ingestion queue expected 5');
-assert((manifest.queues?.jurisdiction_evidence_activation || []).includes('AUS-QLD'), 'Queensland evidence activation not queued');
+// Western Australia uses a compact two-chamber player representation.
+assert(wa.competition_id === 'AUS-WA', 'Western Australia competition ID mismatch');
+assert(wa.status === 'COMPLETE_CURRENT_PARLIAMENTARY_ROSTER', 'Western Australia roster not marked complete');
+assert(Array.isArray(wa.sources) && wa.sources.length === 2, 'Western Australia must retain both chamber source records');
+assert(Array.isArray(wa.player_fields) && wa.player_fields.join('|') === 'actor_id|name|chamber|electorate|party_abbreviation', 'Western Australia compact player fields changed');
+const waRows = wa.players || [];
+assert(waRows.length === 95, `Western Australia player rows expected 95, got ${waRows.length}`);
+assert(unique(waRows.map(r => r[0])), 'Western Australia actor IDs are not unique');
+assert(waRows.filter(r => r[2] === 'LEGISLATIVE_ASSEMBLY').length === 58, 'Western Australia Assembly rows expected 58');
+assert(waRows.filter(r => r[2] === 'LEGISLATIVE_COUNCIL').length === 37, 'Western Australia Council rows expected 37');
+assert(wa.counts?.total_players === 95, 'Western Australia total expected 95');
+assert(wa.counts?.party_affiliated === 94, 'Western Australia party-affiliated count expected 94');
+assert(wa.counts?.independents === 1, 'Western Australia independent count expected 1');
+assert(wa.counts?.teams === 8, 'Western Australia team count expected 8');
+assert((wa.teams || []).reduce((n,t)=>n+Number(t.player_count||0),0) === 94, 'Western Australia party team counts expected 94');
+assert(!(wa.teams || []).some(t => /independent/i.test(t.name)), 'Western Australia has synthetic Independent team');
+assert(wa.integrity?.official_chamber_totals_reconciled === true, 'Western Australia chamber totals not reconciled');
+const waCompetition = (competitions.competitions || []).find(c => c.competition_id === 'AUS-WA');
+assert(waCompetition?.ingestion_state === 'CURRENT_PARLIAMENTARY_ROSTER_INGESTED', 'Western Australia competition ingestion state mismatch');
+assert(waCompetition?.ingested_player_count === 95, 'Western Australia competition player count mismatch');
 
-const allCurrentIds=[...(data.jurisdictions||[]).flatMap(j=>(j.players||[]).map(p=>`${j.competition_id}:${p.actor_id}`)),...qldRows.map(r=>`AUS-QLD:${r[0]}`)];
+assert(competitions.ingestion_progress?.state_territory_jurisdictions_with_complete_current_player_rosters === 4, 'competition progress expected 4/8 complete');
+assert(competitions.ingestion_progress?.state_territory_players_ingested === 238, 'competition progress expected 238 state/territory players');
+assert((competitions.ingestion_progress?.remaining_jurisdictions || []).length === 4, 'competition progress expected 4 remaining jurisdictions');
+assert(!(competitions.ingestion_progress?.remaining_jurisdictions || []).includes('AUS-WA'), 'Western Australia incorrectly remains roster-pending');
+assert(manifest.structural_data_loaded?.state_and_territory_player_rosters === '4_OF_8_COMPLETE', 'ingestion manifest state/territory roster status mismatch');
+assert(manifest.structural_data_loaded?.state_and_territory_players_ingested === 238, 'ingestion manifest state/territory player count mismatch');
+assert((manifest.queues?.jurisdiction_ingestion || []).length === 4, 'remaining jurisdiction ingestion queue expected 4');
+assert((manifest.queues?.jurisdiction_evidence_activation || []).includes('AUS-QLD'), 'Queensland evidence activation not queued');
+assert((manifest.queues?.jurisdiction_evidence_activation || []).includes('AUS-WA'), 'Western Australia evidence activation not queued');
+
+const allCurrentIds=[
+  ...(data.jurisdictions||[]).flatMap(j=>(j.players||[]).map(p=>`${j.competition_id}:${p.actor_id}`)),
+  ...qldRows.map(r=>`AUS-QLD:${r[0]}`),
+  ...waRows.map(r=>`AUS-WA:${r[0]}`)
+];
 assert(unique(allCurrentIds), 'state/territory jurisdiction-qualified actor IDs are not unique');
 
 if (fail.length) {
@@ -96,4 +124,4 @@ if (fail.length) {
   process.exit(1);
 }
 
-console.log('POLITICAL_MAYHEM_STATE_TERRITORY_ROSTER_INTEGRITY_PASS', 'jurisdictions=3', 'players=143', 'ACT=25', 'NT=25', 'QLD=93');
+console.log('POLITICAL_MAYHEM_STATE_TERRITORY_ROSTER_INTEGRITY_PASS', 'jurisdictions=4', 'players=238', 'ACT=25', 'NT=25', 'QLD=93', 'WA=95');

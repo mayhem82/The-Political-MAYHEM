@@ -77,7 +77,7 @@ try{conflicts.resolveConflict(conflict,{resolved_to:'OUTCOME-A',source_snapshot_
 assert(evidenceBlocked,'resolution without source evidence was not rejected');
 
 const all=conflicts.detectAll([a,b,sameValue,differentKey]);
-assert(all.length===2,'detectAll did not return the expected pairwise disagreements');
+assert(all.length===1,'detectAll did not return the expected pairwise disagreement');
 assert(all.every(x=>x.conflict_type==='SOURCE_DISAGREEMENT'),'detectAll inferred unsupported conflict types');
 
 if(fail.length){

@@ -14,12 +14,28 @@ assert(manifest.integrity?.all_current_federal_parliamentarians_ingested === tru
 assert(manifest.integrity?.party_roster_counts_reconcile_to_player_index === true, 'party/player reconciliation invariant missing');
 assert(manifest.integrity?.independents_remain_standalone_players === true, 'standalone independent invariant missing');
 assert(manifest.integrity?.party_affiliation_not_silently_collapsed_into_coalition === true, 'party affiliation/coalition separation invariant missing');
+assert(manifest.integrity?.player_statistics_preserve_native_political_units === true, 'native political player-stat units invariant missing');
+assert(manifest.integrity?.synthetic_composite_player_score_prohibited === true, 'synthetic player-score prohibition missing');
+assert(manifest.integrity?.missing_player_stat_data_is_not_zero === true, 'missing-player-stat-is-not-zero invariant missing');
 
 for (const [name, entry] of Object.entries(manifest.canonical || {})) {
   assert(entry?.path && fs.existsSync(entry.path), `canonical dependency missing: ${name}`);
 }
 for (const [name, path] of Object.entries(manifest.runtime || {})) {
   assert(path && fs.existsSync(path), `runtime dependency missing: ${name}`);
+}
+
+const statRegistry = read(manifest.canonical.player_stat_registry?.path || 'data/player-stat-registry.json');
+assert(statRegistry.rules?.no_synthetic_composite_player_score === true, 'player stat registry permits synthetic composite score');
+assert(statRegistry.rules?.zero_requires_observed_zero === true, 'player stat registry permits unobserved zero');
+assert(statRegistry.rules?.missing_data_is_not_zero === true, 'player stat registry conflates missing data with zero');
+assert(statRegistry.rules?.source_lineage_required === true, 'player stat registry source lineage rule missing');
+assert((statRegistry.groups || []).some(g=>g.group_id==='STRUCTURAL'), 'structural player stat group missing');
+assert((statRegistry.groups || []).some(g=>g.group_id==='FORWARD_INTELLIGENCE'), 'forward-intelligence player stat group missing');
+assert((statRegistry.groups || []).some(g=>g.group_id==='ELECTORAL_PERFORMANCE'), 'electoral-performance player stat group missing');
+assert((statRegistry.groups || []).some(g=>g.group_id==='PARLIAMENTARY_ACTIVITY'), 'parliamentary-activity player stat group missing');
+for (const group of statRegistry.groups || []) for (const stat of group.stats || []) {
+  assert(stat.stat_id && stat.label && stat.unit && stat.source, `incomplete player stat definition in ${group.group_id || 'UNKNOWN_GROUP'}`);
 }
 
 const ingestion = read(manifest.runtime.ingestion_manifest);
@@ -156,4 +172,4 @@ if (fail.length) {
   process.exit(1);
 }
 
-console.log('POLITICAL_MAYHEM_FORWARD_INTEGRITY_PASS', manifest.snapshot_id, `players=${allPlayers.length}`, `teams=${partyTeams.length}`, `independents=${independentPlayers.length}`);
+console.log('POLITICAL_MAYHEM_FORWARD_INTEGRITY_PASS', manifest.snapshot_id, `players=${allPlayers.length}`, `teams=${partyTeams.length}`, `independents=${independentPlayers.length}`, `playerStatGroups=${(statRegistry.groups||[]).length}`);

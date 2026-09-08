@@ -55,9 +55,9 @@
       "source_id": "SRC-APH-LIVE-MINUTES",
       "jurisdiction_id": "AUS-FED",
       "party_id": null,
-      "content_hash": "26d9ca034bde2159c13c6d58460bd6b3c6c63fcb4696a480a36ff8de57d8437d",
-      "snapshot_id": "AUTO-WATCH-APH-LIVE-MINUTES-20260908041957",
-      "captured_at": "2026-09-08T04:19:57.115Z",
+      "content_hash": "8b47c262e27fe593a1f5258dd5fe433d6c1a00f875124ea81703a84b8d81330b",
+      "snapshot_id": "AUTO-WATCH-APH-LIVE-MINUTES-20260908042014",
+      "captured_at": "2026-09-08T04:20:14.367Z",
       "acquisition_url": "https://www.aph.gov.au/LiveMinutes",
       "requested_url": "https://www.aph.gov.au/LiveMinutes",
       "header_profile": "BROWSER_COMPATIBILITY",
@@ -74,18 +74,25 @@
       "requested_url": "https://www.aph.gov.au/Parliamentary_Business/Chamber_documents/Senate_chamber_documents/The_Week_Ahead",
       "header_profile": "BROWSER_COMPATIBILITY",
       "content_type": "text/html; charset=utf-8"
+    },
+    "WATCH-ONENATION-NEWS": {
+      "source_id": "SRC-ONENATION-FEDERAL-NEWS",
+      "jurisdiction_id": "AUS-FED",
+      "party_id": "AUS-FED-ONP",
+      "content_hash": "9bb9a96623484d63e58a436871c6a32957699d05656e894a8d1bfa1d0073d47f",
+      "snapshot_id": "AUTO-WATCH-ONENATION-NEWS-20260908042014",
+      "captured_at": "2026-09-08T04:20:14.367Z",
+      "acquisition_url": "https://www.onenation.org.au/news.rss",
+      "requested_url": "https://www.onenation.org.au/news.rss",
+      "header_profile": "IDENTIFIED_AUTOMATION",
+      "content_type": "application/rss+xml; charset=utf-8"
     }
   },
-  "updated_at": "2026-09-08T04:19:57.115Z",
+  "updated_at": "2026-09-08T04:20:14.367Z",
   "last_run": {
-    "captured_at": "2026-09-08T04:19:57.115Z",
-    "baselines_created": 2,
-    "signals_created": 0,
-    "failures": [
-      {
-        "watch_id": "WATCH-ONENATION-NEWS",
-        "error": "https://www.onenation.org.au/news [IDENTIFIED_AUTOMATION] 403 Forbidden | https://www.onenation.org.au/news [BROWSER_COMPATIBILITY] 403 Forbidden"
-      }
-    ]
+    "captured_at": "2026-09-08T04:20:14.367Z",
+    "baselines_created": 1,
+    "signals_created": 1,
+    "failures": []
   }
 }

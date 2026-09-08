@@ -8,7 +8,12 @@ on:
     branches: [main]
     paths:
       - 'scripts/capture-forward-signals.mjs'
+      - 'scripts/reconcile-political-lifecycle.mjs'
       - 'data/forward-signal-source-registry.json'
+      - 'data/runtime/political-cycles.json'
+      - 'data/runtime/political-contests.json'
+      - 'data/runtime/contest-checkpoints.json'
+      - 'data/runtime/verified-outcomes.json'
       - '.github/workflows/capture-forward-signals.yml'
 
 permissions:
@@ -30,15 +35,22 @@ jobs:
           node-version: 22
       - name: Capture forward signals
         run: node scripts/capture-forward-signals.mjs
-      - name: Commit captured state
+      - name: Reconcile political lifecycle
+        run: node scripts/reconcile-political-lifecycle.mjs
+      - name: Validate resulting forward state
         run: |
-          if git diff --quiet -- data/runtime/forward-signal-capture-state.json data/runtime/source-snapshots.json data/runtime/intelligence-events.json data/runtime/forward-ingestion-manifest.json; then
-            echo 'No new forward signal state.'
+          node scripts/validate-forward-signal-integrity.mjs
+          node scripts/validate-projection-integrity.mjs
+          node scripts/validate-political-lifecycle.mjs
+      - name: Commit captured and reconciled state
+        run: |
+          if git diff --quiet -- data/runtime/forward-signal-capture-state.json data/runtime/source-snapshots.json data/runtime/intelligence-events.json data/runtime/forward-ingestion-manifest.json data/runtime/political-cycles.json data/runtime/political-contests.json data/runtime/contest-checkpoints.json; then
+            echo 'No new forward signal or lifecycle state.'
             exit 0
           fi
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add data/runtime/forward-signal-capture-state.json data/runtime/source-snapshots.json data/runtime/intelligence-events.json data/runtime/forward-ingestion-manifest.json
-          git commit -m 'Capture forward political signals'
+          git add data/runtime/forward-signal-capture-state.json data/runtime/source-snapshots.json data/runtime/intelligence-events.json data/runtime/forward-ingestion-manifest.json data/runtime/political-cycles.json data/runtime/political-contests.json data/runtime/contest-checkpoints.json
+          git commit -m 'Capture forward political state'
           git pull --rebase origin main
           git push origin main

@@ -11,14 +11,38 @@
     "source_id": {"type": "string"},
     "source_registry_snapshot": {"type": ["string", "null"]},
     "source_url": {"type": "string"},
+    "acquisition_url": {"type": ["string", "null"]},
+    "requested_acquisition_url": {"type": ["string", "null"]},
+    "acquisition_header_profile": {"type": ["string", "null"]},
+    "acquisition_content_type": {"type": ["string", "null"]},
     "source_name": {"type": "string"},
     "source_class": {"type": "string"},
     "original_source_class": {"type": ["string", "null"]},
+    "capture_mode": {"enum": ["NORMALISED_PAGE_HASH", "PUBLICATION_FEED_HASH", null]},
     "published_at": {"type": ["string", "null"], "format": "date-time"},
+    "published_date": {"type": ["string", "null"]},
     "captured_at": {"type": "string", "format": "date-time"},
     "content_hash": {"type": "string"},
+    "hash_basis": {"type": ["string", "null"]},
     "previous_snapshot_id": {"type": ["string", "null"]},
     "public_access": {"enum": ["OPEN", "ACCOUNT_REQUIRED", "PAYWALLED", "RESTRICTED", "UNKNOWN"]},
+    "captured_representation": {"type": ["string", "null"]},
+    "captured_representation_complete": {"type": ["boolean", "null"]},
+    "captured_representation_length": {"type": ["integer", "null"], "minimum": 0},
+    "structured_records": {
+      "type": ["array", "null"],
+      "items": {
+        "type": "object",
+        "required": ["record_id", "title", "url"],
+        "properties": {
+          "record_id": {"type": "string"},
+          "title": {"type": "string"},
+          "url": {"type": "string"},
+          "published": {"type": ["string", "null"]}
+        },
+        "additionalProperties": true
+      }
+    },
     "notes": {"type": "string"}
   },
   "additionalProperties": true

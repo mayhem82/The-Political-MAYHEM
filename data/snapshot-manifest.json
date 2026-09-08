@@ -1,5 +1,5 @@
 {
-  "snapshot_id": "POLITICAL-MAYHEM-CANONICAL-016",
+  "snapshot_id": "POLITICAL-MAYHEM-CANONICAL-017",
   "status": "EXPANDING",
   "canonical": {
     "cycle_schema": {"path": "data/canonical/political-cycle.schema.json"},
@@ -15,7 +15,8 @@
     "contradiction_schema": {"path": "schema/contradiction.schema.json"},
     "projection_schema": {"path": "schema/projection.schema.json"},
     "verified_outcome_schema": {"path": "schema/verified-outcome.schema.json"},
-    "projection_audit_schema": {"path": "schema/projection-audit.schema.json"}
+    "projection_audit_schema": {"path": "schema/projection-audit.schema.json"},
+    "edge_calibration_record_schema": {"path": "schema/edge-calibration-record.schema.json"}
   },
   "runtime": {
     "ingestion_manifest": "data/runtime/forward-ingestion-manifest.json",
@@ -27,6 +28,7 @@
     "projection_ledger": "data/runtime/projections.json",
     "outcome_ledger": "data/runtime/verified-outcomes.json",
     "audit_ledger": "data/runtime/projection-audits.json",
+    "edge_calibration_ledger": "data/runtime/edge-calibration-ledger.json",
     "federal_parliamentary_players": "data/runtime/federal-parliamentary-players.json",
     "federal_house_electoral_performance": "data/runtime/federal-house-electoral-performance-v2.json",
     "federal_senate_electoral_performance": "data/runtime/federal-senate-electoral-performance.json",
@@ -53,6 +55,11 @@
     "forward_signal_semantic_promotion_requires_evidence": true,
     "forward_signal_source_failures_remain_explicit": true,
     "forward_signal_seed_identity_collisions_are_rejected": true,
+    "edge_calibration_ledger_public_and_persistent": true,
+    "empirical_advantage_not_claimed_without_graded_probability_tips": true,
+    "comparative_edge_requires_contemporaneous_pre_freeze_baseline": true,
+    "negative_edge_retained": true,
+    "missing_comparison_baseline_is_not_zero_edge": true,
     "all_current_federal_parliamentarians_ingested": true,
     "party_roster_counts_reconcile_to_player_index": true,
     "independents_remain_standalone_players": true,

@@ -63,7 +63,8 @@ for(const contest of contests.contests||[]){
       const due=time(checkpoint.scheduled_for);
       if(boundary!=null && due!=null && due<=boundary && nowMs>=boundary){
         checkpoint.capture_state='MISSED_NOT_CAPTURED';
-        checkpoint.captured_at=now;
+        checkpoint.captured_at=null;
+        checkpoint.reconciled_at=now;
         checkpoint.evidence_cutoff=null;
         checkpoint.projection_state=checkpoint.projection_state==='NONE'?'ABSTAIN_INSUFFICIENT_EVIDENCE':checkpoint.projection_state;
         checkpoint.notes=`${checkpoint.notes?`${checkpoint.notes} `:''}Scheduled pre-outcome checkpoint was not captured before the registered contest boundary; no reconstruction performed.`;

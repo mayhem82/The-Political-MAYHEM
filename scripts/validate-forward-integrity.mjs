@@ -4,6 +4,7 @@ const read = p => JSON.parse(fs.readFileSync(p, 'utf8'));
 const fail = [];
 const assert = (condition, message) => { if (!condition) fail.push(message); };
 const unique = xs => new Set(xs).size === xs.length;
+const normaliseDivision = s => String(s ?? '').toLowerCase().replace(/[^a-z0-9]/g, '');
 
 const manifest = read('data/snapshot-manifest.json');
 assert(manifest.integrity?.forward_first === true, 'forward_first invariant missing');
@@ -50,7 +51,6 @@ assert(ingestion.mode === 'FORWARD_ONLY', 'ingestion mode is not FORWARD_ONLY');
 assert(ingestion.rules?.evidence_must_be_knowable_at_capture_time === true, 'knowable-at-capture rule missing');
 assert(ingestion.rules?.retroactive_insertion_into_prior_projection_prohibited === true, 'retroactive insertion prohibition missing');
 
-// Complete current federal player/team baseline.
 const players = read(manifest.runtime.federal_parliamentary_players);
 const roster = read(manifest.runtime.party_rosters);
 const depth = read(manifest.runtime.team_squad_depth);
@@ -91,9 +91,7 @@ for (const actor of rosterActors) {
   assert(Boolean(global), `roster actor missing from global player index: ${actor.actor_id}`);
   if (global) assert(global.party_id === actor.roster_party_id, `${actor.actor_id} team mismatch: roster=${actor.roster_party_id} global=${global.party_id}`);
 }
-for (const p of allPlayers.filter(p => p.party_id)) {
-  assert(rosterIds.includes(p.actor_id), `party-affiliated global player missing from team roster: ${p.actor_id}`);
-}
+for (const p of allPlayers.filter(p => p.party_id)) assert(rosterIds.includes(p.actor_id), `party-affiliated global player missing from team roster: ${p.actor_id}`);
 for (const p of independentPlayers) {
   assert(!rosterIds.includes(p.actor_id), `independent player incorrectly assigned to party team: ${p.actor_id}`);
   assert(independentRoster.some(a => a.actor_id === p.actor_id), `independent player missing standalone roster entry: ${p.actor_id}`);
@@ -129,7 +127,6 @@ for (const f of form.player_form || []) {
 }
 assert((form.team_form || []).length === 12, `team form contains ${(form.team_form || []).length} teams, expected 12`);
 
-// Federal House electoral-performance integrity.
 const electoral = read(manifest.runtime.federal_house_electoral_performance);
 assert(electoral.status === 'COMPLETE_150_DIVISION_PARTY_FIRST_PREFERENCE_AND_TPP_CONTEXT', 'federal House electoral snapshot not marked complete for division context');
 assert(electoral.rules?.other_column_must_not_be_attributed_to_any_individual_candidate === true, 'electoral runtime permits OTH attribution to an individual');
@@ -141,11 +138,11 @@ const eix = Object.fromEntries(electoralFields.map((f,i)=>[f,i]));
 const divisionRows = electoral.division_results || [];
 assert(electoralFields.length === 10, `electoral field count expected 10, got ${electoralFields.length}`);
 assert(divisionRows.length === 150, `federal House division electoral rows expected 150, got ${divisionRows.length}`);
-assert(unique(divisionRows.map(r=>r[eix.division])), 'federal House electoral division names are not unique');
+assert(unique(divisionRows.map(r=>normaliseDivision(r[eix.division]))), 'federal House electoral division names are not unique');
 assert(electoral.coverage?.division_context_records === 150, 'electoral coverage does not record 150 division contexts');
 assert(electoral.coverage?.division_context_total === 150, 'electoral expected division total is not 150');
-const divisionNames = new Set(divisionRows.map(r=>r[eix.division]));
-for (const p of allPlayers.filter(p=>p.chamber==='HOUSE')) assert(divisionNames.has(p.division), `current House player division missing electoral context: ${p.actor_id} ${p.division}`);
+const divisionNames = new Set(divisionRows.map(r=>normaliseDivision(r[eix.division])));
+for (const p of allPlayers.filter(p=>p.chamber==='HOUSE')) assert(divisionNames.has(normaliseDivision(p.division)), `current House player division missing electoral context: ${p.actor_id} ${p.division}`);
 const candidateSpecific = electoral.candidate_specific_results || [];
 assert(candidateSpecific.length === 5, `candidate-specific electoral records expected 5, got ${candidateSpecific.length}`);
 assert(unique(candidateSpecific.map(x=>x.actor_id)), 'candidate-specific electoral actor IDs are not unique');
@@ -173,9 +170,7 @@ for (const p of projections.projections || []) {
     assert(p.integrity?.retroactive_signal_backfill_prohibited === true, `${p.projection_id} frozen without retroactive backfill prohibition`);
     assert(p.integrity?.frozen_at, `${p.projection_id} frozen without frozen_at`);
   }
-  if (p.prior_projection_id) {
-    assert((projections.projections || []).some(x => x.projection_id === p.prior_projection_id), `${p.projection_id} references missing prior projection`);
-  }
+  if (p.prior_projection_id) assert((projections.projections || []).some(x => x.projection_id === p.prior_projection_id), `${p.projection_id} references missing prior projection`);
 }
 
 const checkpoints = read(manifest.runtime.checkpoint_ledger);

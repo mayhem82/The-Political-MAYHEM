@@ -9,7 +9,9 @@
     "Do not contaminate the Political Master Glossary with MAYHEM/site architecture.",
     "Sport labels are interface mappings and never override canonical political entities or evidence semantics.",
     "A missed pre-outcome checkpoint may be captured late only while the target remains open; preserve both due time and actual capture time.",
-    "Never backdate a late capture or use post-outcome information to reconstruct a pre-outcome checkpoint."
+    "Never backdate a late capture or use post-outcome information to reconstruct a pre-outcome checkpoint.",
+    "Retrospective evidence discovery and ongoing capture are both valid evidence streams; preserve source/event time and MAYHEM discovery/capture time separately.",
+    "Later-discovered evidence may explain or audit an earlier frozen prediction but must never be credited to that prediction's original evidentiary lineage."
   ],
   "terms": [
     {"term":"Audit Clock","category":"SITE ARCHITECTURE","plain_language":"The public MAYHEM view of continuous evidence capture, target-specific checkpoints, freezes, outcomes and audits.","research_use":"Control timed evidence capture and expose completed, late or missed checkpoints.","status":"VERIFIED"},
@@ -24,7 +26,7 @@
     {"term":"Decision continuity","category":"ANALYTICS","plain_language":"A test of whether an existing tip remains supported after new evidence arrives.","research_use":"Detect stale or inertial selections.","status":"VERIFIED"},
     {"term":"Evidence-family dependence","category":"EVIDENCE CONTROL","plain_language":"The risk that apparently separate observations derive from the same underlying source or mechanism.","research_use":"Prevent correlated evidence from being counted as independent support.","status":"VERIFIED"},
     {"term":"Evidence lineage","category":"EVIDENCE CONTROL","plain_language":"The traceable chain connecting a conclusion or tip to observations and original sources.","research_use":"Audit provenance and source independence.","status":"VERIFIED"},
-    {"term":"Failure audit","category":"AUDIT","plain_language":"A mandatory review triggered when a genuine frozen MAYHEM tip is wrong or materially incomplete.","research_use":"Identify pre-outcome analytical defects before learning is allowed.","status":"VERIFIED"},
+    {"term":"Failure audit","category":"AUDIT","plain_language":"A mandatory review triggered when a genuine frozen MAYHEM tip is wrong or materially incomplete. The original decision is judged against evidence available by its freeze, while later-discovered evidence may be used to explain missed mechanisms or causation if its timing is preserved.","research_use":"Separate evaluation of the original pre-freeze decision from later explanatory learning without rewriting the frozen prediction.","status":"VERIFIED"},
     {"term":"Fixture","category":"SPORT LEGIBILITY","plain_language":"Public sports-language shorthand for a defined political outcome-bearing tipping target.","research_use":"Make discrete political targets legible without changing their canonical political meaning.","status":"VERIFIED"},
     {"term":"Form","category":"SPORT LEGIBILITY","plain_language":"Evidence-supported change in a party or actor state over time.","research_use":"Translate longitudinal political state into familiar sports language.","status":"VERIFIED"},
     {"term":"Freeze","category":"TIPPING","plain_language":"The last valid pre-outcome tip state for a defined target.","research_use":"Lock the decision boundary against hindsight.","status":"VERIFIED"},
@@ -48,6 +50,7 @@
     {"term":"Source reliability","category":"EVIDENCE CONTROL","plain_language":"A longitudinal evidence-supported assessment of how consistently a source performs for a defined use.","research_use":"Use only after accumulated audit evidence.","status":"VERIFIED"},
     {"term":"Structural baseline","category":"ANALYTICS","plain_language":"The longer-run reference state used to compare current political conditions and deltas.","research_use":"Anchor later continuity and form analysis.","status":"VERIFIED"},
     {"term":"Team","category":"SPORT LEGIBILITY","plain_language":"Public sports-language label for a political party.","research_use":"Make party competition legible while canonical data retains actual party identities.","status":"VERIFIED"},
+    {"term":"Temporal provenance","category":"EVIDENCE CONTROL","plain_language":"The preservation of both when a political fact or event occurred and when MAYHEM discovered or captured the evidence for it.","research_use":"Allow retrospective discovery and ongoing capture to coexist while preventing later evidence from being falsely credited to an earlier frozen prediction.","status":"VERIFIED"},
     {"term":"Tip grade","category":"AUDIT","plain_language":"The outcome label showing whether a genuine frozen MAYHEM tip was correct, incorrect, partial or void.","research_use":"Keep ordinary tipping result separate from deeper calibration analysis.","status":"VERIFIED"},
     {"term":"Tipping target","category":"TIPPING","plain_language":"A defined political outcome that can be timestamped, versioned, frozen and later verified.","research_use":"Separate auditable discrete predictions from the continuously live political field.","status":"VERIFIED"},
     {"term":"Uncertainty","category":"EVIDENCE STATE","plain_language":"Explicit recognition that available evidence does not support a stronger directional claim.","research_use":"Prevent incomplete evidence from becoming false certainty.","status":"VERIFIED"},

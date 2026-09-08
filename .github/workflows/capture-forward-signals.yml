@@ -1,0 +1,44 @@
+name: Capture Forward Political Signals
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 * * * *'
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/capture-forward-signals.mjs'
+      - 'data/forward-signal-source-registry.json'
+      - '.github/workflows/capture-forward-signals.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: political-mayhem-forward-signal-capture
+  cancel-in-progress: false
+
+jobs:
+  capture:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Capture forward signals
+        run: node scripts/capture-forward-signals.mjs
+      - name: Commit captured state
+        run: |
+          if git diff --quiet -- data/runtime/forward-signal-capture-state.json data/runtime/source-snapshots.json data/runtime/intelligence-events.json data/runtime/forward-ingestion-manifest.json; then
+            echo 'No new forward signal state.'
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/runtime/forward-signal-capture-state.json data/runtime/source-snapshots.json data/runtime/intelligence-events.json data/runtime/forward-ingestion-manifest.json
+          git commit -m 'Capture forward political signals'
+          git pull --rebase origin main
+          git push origin main

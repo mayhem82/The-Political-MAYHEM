@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-INTELLIGENCE-EVENTS-001",
   "scope": "Australia — multi-jurisdiction",
-  "captured_at": "2026-09-08T21:11:31.920Z",
+  "captured_at": "2026-09-08T21:13:16.630Z",
   "mode": "FORWARD_ONLY",
   "rules": {
     "observation_distinct_from_inference": true,
@@ -3797,6 +3797,332 @@
           "record_id": "a0936318fd8395c13134",
           "title": "Click to find out more",
           "url": "https://www.elections.act.gov.au/elections"
+        }
+      ],
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "underlying_publication_claims_not_promoted_to_verified_fact": true,
+        "source_change_parent_retained": true,
+        "deterministic_review": true
+      }
+    },
+    {
+      "event_id": "CHG-WATCH-NSW-MINISTERIAL-RELEASES-20260908211233",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-NSW",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-NSW-MINISTERIAL-RELEASES-20260908211233",
+      "captured_at": "2026-09-08T21:12:33.316Z",
+      "event_date": "2026-09-09",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-NSW-MINISTERIAL-RELEASES",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "review_policy": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-NSW-MINISTERIAL-RELEASES-20260908195628",
+        "content_hash": "fb79e1145aecf30a27793564c3c4f198b3256bb1ef88ddbec7286dbc5fa2d43d",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-NSW-MINISTERIAL-RELEASES-20260908211233",
+        "content_hash": "c543a759a25f88a87c7a724af584a2dbdc8a4a448d4bb0660cb6a958961beea0",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "STRUCTURED_RECORD_SET",
+        "records_added": [
+          {
+            "record_id": "307f88855e03fd6352e6",
+            "title": "Designs unveiled for Wyong’s new Key Health Worker Accommodation",
+            "url": "https://www.nsw.gov.au/ministerial-releases/designs-unveiled-for-wyongs-new-key-health-worker-accommodation"
+          },
+          {
+            "record_id": "4ac628e4cc49a4c73f23",
+            "title": "New Wyong Hospital Palliative Care Unit officially open",
+            "url": "https://www.nsw.gov.au/ministerial-releases/new-wyong-hospital-palliative-care-unit-officially-open"
+          },
+          {
+            "record_id": "8968225a2991a3c91655",
+            "title": "Plans for 300+ homes at Haberfield dive site revealed",
+            "url": "https://www.nsw.gov.au/ministerial-releases/plans-new-homes-haberfield"
+          }
+        ],
+        "records_removed": [
+          {
+            "record_id": "0ae2c7788622eac28253",
+            "title": "Minns Government delivers $350,000 boost for Rehab In The Home in southern Lake Macquarie",
+            "url": "https://www.nsw.gov.au/ministerial-releases/minns-government-delivers-350000-boost-for-rehab-home-southern-lake-macquarie"
+          },
+          {
+            "record_id": "16c933c27d72be1d77a8",
+            "title": "NSW Government backs councils to host major multicultural festivals",
+            "url": "https://www.nsw.gov.au/ministerial-releases/local-council-grants-multicultural-festivals"
+          },
+          {
+            "record_id": "8c5128c98bb5d029de57",
+            "title": "Design released for long-awaited Spring Farm Parkway extension",
+            "url": "https://www.nsw.gov.au/ministerial-releases/spring-farm-parkway-extension-design-released"
+          }
+        ],
+        "added_count": 3,
+        "removed_count": 3,
+        "before_count": 88,
+        "after_count": 88,
+        "delta_hash": "e8087bbdceef4363fa9a3058afb5ea9243a77a902284803502f4929a8d883e0e"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-TAS-PREMIER-NEWS-20260908211233",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-TAS",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-TAS-PREMIER-NEWS-20260908211233",
+      "captured_at": "2026-09-08T21:12:33.316Z",
+      "event_date": "2026-09-09",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-TAS-PREMIER-NEWS",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "review_policy": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-TAS-PREMIER-NEWS-20260908195628",
+        "content_hash": "22c9049be470ddacd14a9a9beacab37051f2a2e645e963c55da6dbf62e6b971a",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-TAS-PREMIER-NEWS-20260908211233",
+        "content_hash": "f8c6ea12dc4ed208418c9c407781d9fa186c8f8b34357364936bd32481989c6f",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "STRUCTURED_RECORD_SET",
+        "records_added": [
+          {
+            "record_id": "5503ad540fbf99bf866e",
+            "title": "2030 Strong Plan for Tasmania’s Future",
+            "url": "https://www.premier.tas.gov.au/our-plan"
+          },
+          {
+            "record_id": "5c58e4f76fec3a1ce5fe",
+            "title": "Contact your Premier",
+            "url": "https://www.premier.tas.gov.au/contact"
+          },
+          {
+            "record_id": "7984975787b4ef2c7007",
+            "title": "Budget 2026-27",
+            "url": "https://www.premier.tas.gov.au/budget-2026"
+          },
+          {
+            "record_id": "bff1215bcb385f2f222a",
+            "title": "300 days of delivering for Tasmania",
+            "url": "https://www.premier.tas.gov.au/__data/assets/pdf_file/0027/517923/2026-Third-100-Days-of-Delivery_Digital.pdf"
+          }
+        ],
+        "records_removed": [
+          {
+            "record_id": "2bcce0ac785aed0142b0",
+            "title": "LGH heating and cooling upgrades near completion 6 September 2026 Another important milestone has been reached for the major upgrades to the heating, ventilation and air conditioning system at the Launcesto...",
+            "url": "https://www.premier.tas.gov.au/latest-news/2026/september/lgh-heating-and-cooling-upgrades-near-completion"
+          },
+          {
+            "record_id": "4895ffb37dd4cdf684df",
+            "title": "Federal Labor must deliver more aged care places for Tasmanians 5 September 2026 The Tasmanian Government is backing calls from peak health organisations for action on aged care. Liberal Member for Lyons, Jane Howlett, sa...",
+            "url": "https://www.premier.tas.gov.au/latest-news/2026/september/federal-labor-must-deliver-more-aged-care-places-for-tasmanians"
+          },
+          {
+            "record_id": "5c3dcf15929652ba0c21",
+            "title": "New bulk-billing GP clinic locked in for Risdon Vale 6 September 2026 The Tasmanian Government has today announced Risdon Vale as the location of its newest TassieDoc clinic, significantly increasing access to ...",
+            "url": "https://www.premier.tas.gov.au/latest-news/2026/september/new-bulk-billing-gp-clinic-locked-in-for-risdon-vale"
+          },
+          {
+            "record_id": "638ebf37fb6ee94f329c",
+            "title": "Extended hours for more healthcare, closer to home 5 September 2026 Tasmanian community pharmacies in rural and regional areas can now open for longer as part of the Tasmanian Government&rsquo;s 2025 election...",
+            "url": "https://www.premier.tas.gov.au/latest-news/2026/september/extended-hours-for-more-healthcare,-closer-to-home"
+          },
+          {
+            "record_id": "d7a1477e0a98625953b3",
+            "title": "Skip to content",
+            "url": "https://www.premier.tas.gov.au/latest-news"
+          }
+        ],
+        "added_count": 4,
+        "removed_count": 5,
+        "before_count": 141,
+        "after_count": 140,
+        "delta_hash": "4b2a3ce15e36f4356fce72d6eb5eef7e55d60e286c50d7e5097873c48ca62074"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "SIG-REV-CHG-WATCH-NSW-MINISTERIAL-RELEASES-20260908211233",
+      "parent_event_id": "CHG-WATCH-NSW-MINISTERIAL-RELEASES-20260908211233",
+      "review_id": "REV-CHG-WATCH-NSW-MINISTERIAL-RELEASES-20260908211233",
+      "jurisdiction_id": "AUS-NSW",
+      "party_id": null,
+      "actor_id": null,
+      "contest_id": null,
+      "cycle_id": null,
+      "source_snapshot_id": "AUTO-WATCH-NSW-MINISTERIAL-RELEASES-20260908211233",
+      "record_id": null,
+      "captured_at": "2026-09-08T21:13:16.630Z",
+      "event_date": "2026-09-09",
+      "checkpoint": "CONTINUOUS_FORWARD_SIGNAL_REVIEW",
+      "event_type": "SIGNAL_CREATED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-NSW-MINISTERIAL-RELEASES",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "claim": "NSW Government — Ministerial releases added 3 structured publication records to its forward-captured official index: Designs unveiled for Wyong’s new Key Health Worker Accommodation; New Wyong Hospital Palliative Care Unit officially open; Plans for 300+ homes at Haberfield dive site revealed",
+      "observed_behaviour": "One or more structured publication records appeared in the monitored official source index after the preceding forward snapshot.",
+      "publication_records_added": [
+        {
+          "record_id": "307f88855e03fd6352e6",
+          "title": "Designs unveiled for Wyong’s new Key Health Worker Accommodation",
+          "url": "https://www.nsw.gov.au/ministerial-releases/designs-unveiled-for-wyongs-new-key-health-worker-accommodation"
+        },
+        {
+          "record_id": "4ac628e4cc49a4c73f23",
+          "title": "New Wyong Hospital Palliative Care Unit officially open",
+          "url": "https://www.nsw.gov.au/ministerial-releases/new-wyong-hospital-palliative-care-unit-officially-open"
+        },
+        {
+          "record_id": "8968225a2991a3c91655",
+          "title": "Plans for 300+ homes at Haberfield dive site revealed",
+          "url": "https://www.nsw.gov.au/ministerial-releases/plans-new-homes-haberfield"
+        }
+      ],
+      "publication_records_removed": [
+        {
+          "record_id": "0ae2c7788622eac28253",
+          "title": "Minns Government delivers $350,000 boost for Rehab In The Home in southern Lake Macquarie",
+          "url": "https://www.nsw.gov.au/ministerial-releases/minns-government-delivers-350000-boost-for-rehab-home-southern-lake-macquarie"
+        },
+        {
+          "record_id": "16c933c27d72be1d77a8",
+          "title": "NSW Government backs councils to host major multicultural festivals",
+          "url": "https://www.nsw.gov.au/ministerial-releases/local-council-grants-multicultural-festivals"
+        },
+        {
+          "record_id": "8c5128c98bb5d029de57",
+          "title": "Design released for long-awaited Spring Farm Parkway extension",
+          "url": "https://www.nsw.gov.au/ministerial-releases/spring-farm-parkway-extension-design-released"
+        }
+      ],
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "underlying_publication_claims_not_promoted_to_verified_fact": true,
+        "source_change_parent_retained": true,
+        "deterministic_review": true
+      }
+    },
+    {
+      "event_id": "SIG-REV-CHG-WATCH-TAS-PREMIER-NEWS-20260908211233",
+      "parent_event_id": "CHG-WATCH-TAS-PREMIER-NEWS-20260908211233",
+      "review_id": "REV-CHG-WATCH-TAS-PREMIER-NEWS-20260908211233",
+      "jurisdiction_id": "AUS-TAS",
+      "party_id": null,
+      "actor_id": null,
+      "contest_id": null,
+      "cycle_id": null,
+      "source_snapshot_id": "AUTO-WATCH-TAS-PREMIER-NEWS-20260908211233",
+      "record_id": null,
+      "captured_at": "2026-09-08T21:13:16.630Z",
+      "event_date": "2026-09-09",
+      "checkpoint": "CONTINUOUS_FORWARD_SIGNAL_REVIEW",
+      "event_type": "SIGNAL_CREATED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-TAS-PREMIER-NEWS",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "claim": "Premier of Tasmania — latest news added 4 structured publication records to its forward-captured official index: 2030 Strong Plan for Tasmania’s Future; Contact your Premier; Budget 2026-27; 300 days of delivering for Tasmania",
+      "observed_behaviour": "One or more structured publication records appeared in the monitored official source index after the preceding forward snapshot.",
+      "publication_records_added": [
+        {
+          "record_id": "5503ad540fbf99bf866e",
+          "title": "2030 Strong Plan for Tasmania’s Future",
+          "url": "https://www.premier.tas.gov.au/our-plan"
+        },
+        {
+          "record_id": "5c58e4f76fec3a1ce5fe",
+          "title": "Contact your Premier",
+          "url": "https://www.premier.tas.gov.au/contact"
+        },
+        {
+          "record_id": "7984975787b4ef2c7007",
+          "title": "Budget 2026-27",
+          "url": "https://www.premier.tas.gov.au/budget-2026"
+        },
+        {
+          "record_id": "bff1215bcb385f2f222a",
+          "title": "300 days of delivering for Tasmania",
+          "url": "https://www.premier.tas.gov.au/__data/assets/pdf_file/0027/517923/2026-Third-100-Days-of-Delivery_Digital.pdf"
+        }
+      ],
+      "publication_records_removed": [
+        {
+          "record_id": "2bcce0ac785aed0142b0",
+          "title": "LGH heating and cooling upgrades near completion 6 September 2026 Another important milestone has been reached for the major upgrades to the heating, ventilation and air conditioning system at the Launcesto...",
+          "url": "https://www.premier.tas.gov.au/latest-news/2026/september/lgh-heating-and-cooling-upgrades-near-completion"
+        },
+        {
+          "record_id": "4895ffb37dd4cdf684df",
+          "title": "Federal Labor must deliver more aged care places for Tasmanians 5 September 2026 The Tasmanian Government is backing calls from peak health organisations for action on aged care. Liberal Member for Lyons, Jane Howlett, sa...",
+          "url": "https://www.premier.tas.gov.au/latest-news/2026/september/federal-labor-must-deliver-more-aged-care-places-for-tasmanians"
+        },
+        {
+          "record_id": "5c3dcf15929652ba0c21",
+          "title": "New bulk-billing GP clinic locked in for Risdon Vale 6 September 2026 The Tasmanian Government has today announced Risdon Vale as the location of its newest TassieDoc clinic, significantly increasing access to ...",
+          "url": "https://www.premier.tas.gov.au/latest-news/2026/september/new-bulk-billing-gp-clinic-locked-in-for-risdon-vale"
+        },
+        {
+          "record_id": "638ebf37fb6ee94f329c",
+          "title": "Extended hours for more healthcare, closer to home 5 September 2026 Tasmanian community pharmacies in rural and regional areas can now open for longer as part of the Tasmanian Government&rsquo;s 2025 election...",
+          "url": "https://www.premier.tas.gov.au/latest-news/2026/september/extended-hours-for-more-healthcare,-closer-to-home"
+        },
+        {
+          "record_id": "d7a1477e0a98625953b3",
+          "title": "Skip to content",
+          "url": "https://www.premier.tas.gov.au/latest-news"
         }
       ],
       "inference": null,

@@ -48,9 +48,9 @@
       "source_id": "SRC-NSW-MINISTERIAL-RELEASES",
       "jurisdiction_id": "AUS-NSW",
       "party_id": null,
-      "content_hash": "fb79e1145aecf30a27793564c3c4f198b3256bb1ef88ddbec7286dbc5fa2d43d",
-      "snapshot_id": "AUTO-WATCH-NSW-MINISTERIAL-RELEASES-20260908195628",
-      "captured_at": "2026-09-08T19:56:28.584Z",
+      "content_hash": "c543a759a25f88a87c7a724af584a2dbdc8a4a448d4bb0660cb6a958961beea0",
+      "snapshot_id": "AUTO-WATCH-NSW-MINISTERIAL-RELEASES-20260908211233",
+      "captured_at": "2026-09-08T21:12:33.316Z",
       "acquisition_url": "https://www.nsw.gov.au/ministerial-releases",
       "requested_url": "https://www.nsw.gov.au/ministerial-releases",
       "header_profile": "IDENTIFIED_AUTOMATION",
@@ -173,7 +173,7 @@
       "captured_at": "2026-09-08T09:32:10.059Z",
       "acquisition_url": "https://www.parliament.sa.gov.au/",
       "requested_url": "https://www.parliament.sa.gov.au/",
-      "header_profile": "BROWSER_COMPATIBILITY",
+      "header_profile": "IDENTIFIED_AUTOMATION",
       "content_type": "text/html; charset=utf-8",
       "captured_representation_complete": true,
       "capture_mode": "NORMALISED_PAGE_HASH"
@@ -388,11 +388,11 @@
       "source_id": "SRC-TAS-PREMIER-NEWS",
       "jurisdiction_id": "AUS-TAS",
       "party_id": null,
-      "content_hash": "22c9049be470ddacd14a9a9beacab37051f2a2e645e963c55da6dbf62e6b971a",
-      "snapshot_id": "AUTO-WATCH-TAS-PREMIER-NEWS-20260908195628",
-      "captured_at": "2026-09-08T19:56:28.584Z",
-      "acquisition_url": "https://www.premier.tas.gov.au/latest-news",
-      "requested_url": "https://www.premier.tas.gov.au/latest-news",
+      "content_hash": "f8c6ea12dc4ed208418c9c407781d9fa186c8f8b34357364936bd32481989c6f",
+      "snapshot_id": "AUTO-WATCH-TAS-PREMIER-NEWS-20260908211233",
+      "captured_at": "2026-09-08T21:12:33.316Z",
+      "acquisition_url": "https://www.premier.tas.gov.au/",
+      "requested_url": "https://www.premier.tas.gov.au/",
       "header_profile": "BROWSER_COMPATIBILITY",
       "content_type": "text/html; charset=utf-8",
       "capture_mode": "PUBLICATION_FEED_HASH",
@@ -455,17 +455,21 @@
       "captured_representation_complete": true
     }
   },
-  "updated_at": "2026-09-08T21:10:18.308Z",
+  "updated_at": "2026-09-08T21:12:33.316Z",
   "last_run": {
-    "captured_at": "2026-09-08T21:10:18.308Z",
+    "captured_at": "2026-09-08T21:12:33.316Z",
     "baselines_created": 0,
-    "source_changes_created": 1,
+    "source_changes_created": 2,
     "semantic_signals_created": 0,
     "representation_upgrades": 0,
     "failures": [
       {
         "watch_id": "WATCH-ALP-NEWS",
         "error": "https://www.alp.org.au/news/ [IDENTIFIED_AUTOMATION] 404 Not Found | https://www.alp.org.au/news/ [BROWSER_COMPATIBILITY] 404 Not Found | https://www.alp.org.au/news [IDENTIFIED_AUTOMATION] 404 Not Found | https://www.alp.org.au/news [BROWSER_COMPATIBILITY] 404 Not Found"
+      },
+      {
+        "watch_id": "WATCH-ACT-PARLIAMENT",
+        "error": "https://www.parliament.act.gov.au/ [IDENTIFIED_AUTOMATION] 403 Forbidden | https://www.parliament.act.gov.au/ [BROWSER_COMPATIBILITY] 403 Forbidden"
       },
       {
         "watch_id": "WATCH-NT-PARLIAMENT",
@@ -477,7 +481,7 @@
   "coverage": {
     "active_sources": 34,
     "baselines_captured": 33,
-    "current_run_failures": 2,
+    "current_run_failures": 3,
     "jurisdictions": {
       "AUS-FED": {
         "configured_sources": 9,
@@ -560,13 +564,13 @@
       "AUS-ACT": {
         "configured_sources": 3,
         "baseline_sources": 3,
-        "current_run_failures": 0,
+        "current_run_failures": 1,
         "source_classes": [
           "PRIMARY_ELECTORAL_AUTHORITY",
           "PRIMARY_GOVERNMENT",
           "PRIMARY_PARLIAMENT"
         ],
-        "status": "CAPTURE_ACTIVE_FULL_CONFIGURED_BASELINE"
+        "status": "CAPTURE_ACTIVE_DEGRADED_CURRENT_RUN"
       },
       "AUS-NT": {
         "configured_sources": 3,

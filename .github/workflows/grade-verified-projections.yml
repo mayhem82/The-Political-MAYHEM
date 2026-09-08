@@ -1,0 +1,43 @@
+name: Grade Verified Political Projections
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'data/runtime/verified-outcomes.json'
+      - 'data/runtime/projections.json'
+      - 'scripts/grade-verified-projections.mjs'
+      - '.github/workflows/grade-verified-projections.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: political-mayhem-grade-projections
+  cancel-in-progress: false
+
+jobs:
+  grade:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Grade frozen tips against verified outcomes
+        run: node scripts/grade-verified-projections.mjs
+      - name: Commit grading metadata
+        run: |
+          if git diff --quiet -- data/runtime/projections.json data/runtime/political-contests.json; then
+            echo 'No projection grading change.'
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/runtime/projections.json data/runtime/political-contests.json
+          git commit -m 'Grade verified political projections'
+          git pull --rebase origin main
+          git push origin main

@@ -240,10 +240,11 @@
       "proposed_competition_class": "LEGISLATIVE",
       "proposed_cycle_id": "AUS-NSW-58TH-PARLIAMENT",
       "subject": "Private Abortion Law Reform Amendment (Sex Selection Prohibition) Bill 2025 Origin: Legislative Council Location: Legislative Council Status: Second Reading, Debate adjourned, Wed 24 June 2026",
-      "candidate_state": "EVIDENCE_GAP",
+      "candidate_state": "REGISTERED",
       "detected_at": "2026-09-08T23:14:35.619Z",
       "source_snapshot_ids": [
-        "AUTO-WATCH-NSW-CURRENT-BILLS-20260908231347"
+        "AUTO-WATCH-NSW-CURRENT-BILLS-20260908231347",
+        "SNAP-NSW-ABORTION-BILL-18794-20260909-0928"
       ],
       "signal_event_ids": [
         "SIG-REV-CHG-WATCH-NSW-CURRENT-BILLS-20260908231347"
@@ -251,20 +252,21 @@
       "review_ids": [
         "REV-CHG-WATCH-NSW-CURRENT-BILLS-20260908231347"
       ],
-      "evidence_summary": "Screened PRIMARY_PARLIAMENT evidence contains language consistent with a legislation competition candidate. This is a discovery observation, not a registered contest or outcome inference.",
-      "registration_blockers": [
-        "MATERIAL_RESISTANCE_NOT_YET_EVIDENCED",
-        "SUPPORTING_SIDE_NOT_YET_RESOLVED",
-        "OPPOSING_SIDE_NOT_YET_RESOLVED",
-        "REGISTERED_COMPATIBLE_CYCLE_REQUIRED"
-      ],
-      "linked_contest_id": null,
+      "evidence_summary": "Primary NSW Parliament evidence records the bill in second-reading debate, John Ruddick as the member with carriage, and a lodged amendment set by Stephen Lawrence. This establishes a material contest over passage as introduced. The amendment is not treated as proof of outright opposition, and neither player's action is converted into a party-wide position.",
+      "registration_blockers": [],
+      "linked_contest_id": "AUS-NSW-58P-BILL-18794",
       "state_history": [
         {
           "from": null,
           "to": "EVIDENCE_GAP",
           "at": "2026-09-08T23:14:35.619Z",
           "reason": "DETERMINISTIC_COMPETITION_FAMILY_SCREEN"
+        },
+        {
+          "from": "EVIDENCE_GAP",
+          "to": "REGISTERED",
+          "at": "2026-09-09T09:47:00+10:00",
+          "reason": "PRIMARY_EVIDENCE_RESOLVED_CONTEST_OBJECT_PLAYERS_MATERIAL_RESISTANCE_AND_VERIFIABLE_LEGISLATIVE_OUTCOME"
         }
       ]
     },

@@ -1,5 +1,5 @@
 {
-  "registry_id": "POLITICAL-PLAYER-STAT-REGISTRY-001",
+  "registry_id": "POLITICAL-PLAYER-STAT-REGISTRY-002",
   "status": "EXPANDING",
   "purpose": "Define political-player statistics in native political units while retaining the sports translation layer for legibility.",
   "rules": {
@@ -9,41 +9,44 @@
     "inference_is_not_observation": true,
     "source_lineage_required": true,
     "jurisdiction_context_required": true,
-    "statistics_must_remain_comparable_within_their_native_unit": true
+    "statistics_must_remain_comparable_within_their_native_unit": true,
+    "aggregate_other_vote_must_not_be_attributed_to_an_individual_player": true,
+    "two_party_preferred_must_not_be_labelled_two_candidate_preferred_in_nonclassic_contests": true,
+    "historical_election_party_must_not_be_rewritten_by_current_affiliation": true
   },
   "groups": [
     {
       "group_id": "STRUCTURAL",
       "public_label": "STRUCTURAL",
       "stats": [
-        {"stat_id":"competition","label":"COMPETITION","unit":"CATEGORY","source":"CURRENT_PARLIAMENTARY_ROSTER"},
-        {"stat_id":"team","label":"TEAM","unit":"CATEGORY","source":"CURRENT_PARLIAMENTARY_ROSTER"},
-        {"stat_id":"chamber","label":"CHAMBER","unit":"CATEGORY","source":"CURRENT_PARLIAMENTARY_ROSTER"},
-        {"stat_id":"electorate","label":"ELECTORATE / STATE","unit":"CATEGORY","source":"CURRENT_PARLIAMENTARY_ROSTER"}
+        {"stat_id":"competition","label":"COMPETITION","unit":"CATEGORY","source":"CURRENT_PARLIAMENTARY_ROSTER","availability":"LOADED"},
+        {"stat_id":"team","label":"TEAM","unit":"CATEGORY","source":"CURRENT_PARLIAMENTARY_ROSTER","availability":"LOADED"},
+        {"stat_id":"chamber","label":"CHAMBER","unit":"CATEGORY","source":"CURRENT_PARLIAMENTARY_ROSTER","availability":"LOADED"},
+        {"stat_id":"electorate","label":"ELECTORATE / STATE","unit":"CATEGORY","source":"CURRENT_PARLIAMENTARY_ROSTER","availability":"LOADED"}
       ]
     },
     {
       "group_id": "FORWARD_INTELLIGENCE",
       "public_label": "CURRENT PERFORMANCE",
       "stats": [
-        {"stat_id":"ledger_events","label":"LEDGER EVENTS","unit":"COUNT","source":"INTELLIGENCE_EVENT_LEDGER"},
-        {"stat_id":"verified_events","label":"VERIFIED","unit":"COUNT","source":"INTELLIGENCE_EVENT_LEDGER"},
-        {"stat_id":"distinct_sources","label":"SOURCES","unit":"COUNT","source":"INTELLIGENCE_EVENT_LEDGER"},
-        {"stat_id":"role_changes","label":"ROLE CHANGES","unit":"COUNT","source":"INTELLIGENCE_EVENT_LEDGER"},
-        {"stat_id":"contradictions","label":"CONTRADICTIONS","unit":"COUNT","source":"PLAYER_FORM_AND_CONTRADICTION_LEDGER"},
-        {"stat_id":"target_effects","label":"TARGET EFFECTS","unit":"COUNT","source":"INTELLIGENCE_EVENT_LEDGER"},
-        {"stat_id":"form","label":"FORM","unit":"STATE","source":"PLAYER_FORM_LEDGER"},
-        {"stat_id":"trend","label":"TREND","unit":"STATE","source":"PLAYER_FORM_LEDGER"}
+        {"stat_id":"ledger_events","label":"LEDGER EVENTS","unit":"COUNT","source":"INTELLIGENCE_EVENT_LEDGER","availability":"LOADED"},
+        {"stat_id":"verified_events","label":"VERIFIED","unit":"COUNT","source":"INTELLIGENCE_EVENT_LEDGER","availability":"LOADED"},
+        {"stat_id":"distinct_sources","label":"SOURCES","unit":"COUNT","source":"INTELLIGENCE_EVENT_LEDGER","availability":"LOADED"},
+        {"stat_id":"role_changes","label":"ROLE CHANGES","unit":"COUNT","source":"INTELLIGENCE_EVENT_LEDGER","availability":"LOADED"},
+        {"stat_id":"contradictions","label":"CONTRADICTIONS","unit":"COUNT","source":"PLAYER_FORM_AND_CONTRADICTION_LEDGER","availability":"LOADED"},
+        {"stat_id":"target_effects","label":"TARGET EFFECTS","unit":"COUNT","source":"INTELLIGENCE_EVENT_LEDGER","availability":"LOADED"},
+        {"stat_id":"form","label":"FORM","unit":"STATE","source":"PLAYER_FORM_LEDGER","availability":"LOADED"},
+        {"stat_id":"trend","label":"TREND","unit":"STATE","source":"PLAYER_FORM_LEDGER","availability":"LOADED"}
       ]
     },
     {
       "group_id": "ELECTORAL_PERFORMANCE",
       "public_label": "ELECTORAL PERFORMANCE",
       "stats": [
-        {"stat_id":"primary_vote_percent","label":"PRIMARY VOTE","unit":"PERCENT","source":"ELECTORAL_AUTHORITY_RESULT","availability":"NOT_YET_INGESTED_SYSTEM_WIDE"},
-        {"stat_id":"two_candidate_or_two_party_percent","label":"2CP / 2PP","unit":"PERCENT","source":"ELECTORAL_AUTHORITY_RESULT","availability":"NOT_YET_INGESTED_SYSTEM_WIDE"},
-        {"stat_id":"margin_percent","label":"MARGIN","unit":"PERCENTAGE_POINTS","source":"ELECTORAL_AUTHORITY_RESULT","availability":"NOT_YET_INGESTED_SYSTEM_WIDE"},
-        {"stat_id":"swing_points","label":"SWING","unit":"PERCENTAGE_POINTS","source":"ELECTORAL_AUTHORITY_RESULT","availability":"NOT_YET_INGESTED_SYSTEM_WIDE"}
+        {"stat_id":"primary_vote_percent","label":"PRIMARY VOTE","unit":"PERCENT","source":"ELECTORAL_AUTHORITY_RESULT","availability":"FEDERAL_HOUSE_MAJOR_PARTY_DIVISION_CONTEXT_PLUS_5_CANDIDATE_SPECIFIC_RECORDS_LOADED"},
+        {"stat_id":"two_candidate_or_two_party_percent","label":"TCP / DIVISION 2PP","unit":"PERCENT","source":"ELECTORAL_AUTHORITY_RESULT","availability":"FEDERAL_HOUSE_150_OF_150_DIVISION_2PP_PLUS_5_CANDIDATE_TCP_RECORDS_LOADED"},
+        {"stat_id":"margin_percent","label":"MARGIN","unit":"VOTES_OR_PERCENTAGE_POINTS_AS_PUBLISHED","source":"ELECTORAL_AUTHORITY_RESULT","availability":"FEDERAL_HOUSE_CANDIDATE_SPECIFIC_EXPANDING"},
+        {"stat_id":"swing_points","label":"SWING","unit":"PERCENTAGE_POINTS","source":"ELECTORAL_AUTHORITY_RESULT","availability":"FEDERAL_HOUSE_CANDIDATE_SPECIFIC_EXPANDING"}
       ]
     },
     {

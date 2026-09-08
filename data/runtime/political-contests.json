@@ -1,9 +1,45 @@
 {
   "snapshot_id": "POLITICAL-CONTEST-LEDGER-001",
   "created_at": "2026-09-08T14:15:00+10:00",
-  "updated_at": "2026-09-08T14:15:00+10:00",
+  "updated_at": "2026-09-08T14:27:04+10:00",
   "timebase": "Australia/Sydney",
-  "contests": [],
+  "contests": [
+    {
+      "contest_id": "AUS-VIC-SE2026-GOVERNMENT",
+      "cycle_id": "AUS-VIC-SE2026",
+      "jurisdiction": "Victoria",
+      "contest_type": "STATE_GENERAL_ELECTION_GOVERNMENT_FORMATION",
+      "name": "2026 Victorian State Election — Government Formation",
+      "electorate_or_scope": "Victoria — Legislative Assembly government formation",
+      "scheduled_at": "2026-11-28T08:00:00+11:00",
+      "window_open_at": "2026-09-08T04:24:39.238Z",
+      "close_at": "2026-11-28T18:00:00+11:00",
+      "outcome_expected_at": null,
+      "evidence_cutoff": "2026-09-08T04:24:39.238Z",
+      "status": "CONTEST_WINDOW",
+      "party_ids": [],
+      "actor_ids": [],
+      "participant_scope_state": "NOMINATIONS_NOT_CLOSED",
+      "participant_refresh_due_at": "2026-11-09T12:00:00+11:00",
+      "participant_scope_note": "Current parliamentary parties and members are not treated as the final election participant field. Candidate nominations close at 12 noon on 9 November 2026 according to the captured VEC source.",
+      "current_projection_id": null,
+      "verified_outcome_id": null,
+      "source_refs": [
+        "AUTO-WATCH-VEC-2026-STATE-ELECTION-20260908042439"
+      ],
+      "created_at": "2026-09-08T14:27:04+10:00",
+      "updated_at": "2026-09-08T14:27:04+10:00",
+      "lifecycle_history": [
+        {
+          "from": null,
+          "to": "CONTEST_WINDOW",
+          "at": "2026-09-08T14:27:04+10:00",
+          "reason": "MAYHEM_FORWARD_OBSERVATION_WINDOW_OPENED_FROM_VEC_BASELINE"
+        }
+      ],
+      "integrity_note": "window_open_at is the MAYHEM forward-observation baseline, not a claim about the statutory election period. No government-formation projection exists yet."
+    }
+  ],
   "rules": {
     "registered_cycle_required": true,
     "source_lineage_required": true,

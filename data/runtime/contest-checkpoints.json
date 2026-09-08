@@ -1,8 +1,249 @@
 {
   "snapshot_id": "POLITICAL-CHECKPOINT-LEDGER-001",
-  "generated_at": "2026-09-08T00:00:00+10:00",
+  "generated_at": "2026-09-08T14:27:04+10:00",
   "timebase": "Australia/Sydney",
-  "contests": [],
+  "contests": [
+    {
+      "contest_id": "AUS-VIC-SE2026-GOVERNMENT",
+      "cycle_id": "AUS-VIC-SE2026",
+      "lifecycle": "CONTEST_WINDOW",
+      "checkpoints": [
+        {
+          "checkpoint_id": "CP-AUS-VIC-SE2026-GOVERNMENT-BASELINE-20260908",
+          "contest_id": "AUS-VIC-SE2026-GOVERNMENT",
+          "cycle_id": "AUS-VIC-SE2026",
+          "checkpoint_type": "BASELINE",
+          "scheduled_for": null,
+          "captured_at": "2026-09-08T04:24:39.238Z",
+          "reconciled_at": null,
+          "evidence_cutoff": "2026-09-08T04:24:39.238Z",
+          "capture_state": "CAPTURED_IN_WINDOW",
+          "source_snapshot_ids": [
+            "AUTO-WATCH-VEC-2026-STATE-ELECTION-20260908042439"
+          ],
+          "intelligence_event_ids": [],
+          "evidence_state": "VERIFIED",
+          "open_conflict_ids": [],
+          "projection_id": null,
+          "projection_state": "NONE",
+          "notes": "First forward-only Victorian election target checkpoint. The VEC primary source confirms the 28 November 2026 election, 8 am to 6 pm voting window, nomination close and other official timeline milestones. No projection was generated from timing evidence alone.",
+          "integrity": {
+            "frozen_at": "2026-09-08T14:27:04+10:00",
+            "hindsight_changes_prohibited": true,
+            "retroactive_signal_backfill_prohibited": true
+          }
+        },
+        {
+          "checkpoint_id": "CP-AUS-VIC-SE2026-GOVERNMENT-WRIT-20261103T1800",
+          "contest_id": "AUS-VIC-SE2026-GOVERNMENT",
+          "cycle_id": "AUS-VIC-SE2026",
+          "checkpoint_type": "CAMPAIGN_MILESTONE",
+          "scheduled_for": "2026-11-03T18:00:00+11:00",
+          "captured_at": null,
+          "reconciled_at": null,
+          "evidence_cutoff": null,
+          "capture_state": "PENDING",
+          "source_snapshot_ids": [],
+          "intelligence_event_ids": [],
+          "evidence_state": "UNKNOWN",
+          "open_conflict_ids": [],
+          "projection_id": null,
+          "projection_state": "NONE",
+          "notes": "Official VEC timeline: issue of writs at 6 pm on 3 November 2026.",
+          "integrity": {
+            "frozen_at": null,
+            "hindsight_changes_prohibited": true,
+            "retroactive_signal_backfill_prohibited": true
+          }
+        },
+        {
+          "checkpoint_id": "CP-AUS-VIC-SE2026-GOVERNMENT-ROLL-CLOSE-20261103T2000",
+          "contest_id": "AUS-VIC-SE2026-GOVERNMENT",
+          "cycle_id": "AUS-VIC-SE2026",
+          "checkpoint_type": "CAMPAIGN_MILESTONE",
+          "scheduled_for": "2026-11-03T20:00:00+11:00",
+          "captured_at": null,
+          "reconciled_at": null,
+          "evidence_cutoff": null,
+          "capture_state": "PENDING",
+          "source_snapshot_ids": [],
+          "intelligence_event_ids": [],
+          "evidence_state": "UNKNOWN",
+          "open_conflict_ids": [],
+          "projection_id": null,
+          "projection_state": "NONE",
+          "notes": "Official VEC timeline: electoral roll closes at 8 pm on 3 November 2026.",
+          "integrity": {
+            "frozen_at": null,
+            "hindsight_changes_prohibited": true,
+            "retroactive_signal_backfill_prohibited": true
+          }
+        },
+        {
+          "checkpoint_id": "CP-AUS-VIC-SE2026-GOVERNMENT-NOMINATION-CLOSE-20261109T1200",
+          "contest_id": "AUS-VIC-SE2026-GOVERNMENT",
+          "cycle_id": "AUS-VIC-SE2026",
+          "checkpoint_type": "NOMINATION_CLOSE",
+          "scheduled_for": "2026-11-09T12:00:00+11:00",
+          "captured_at": null,
+          "reconciled_at": null,
+          "evidence_cutoff": null,
+          "capture_state": "PENDING",
+          "source_snapshot_ids": [],
+          "intelligence_event_ids": [],
+          "evidence_state": "UNKNOWN",
+          "open_conflict_ids": [],
+          "projection_id": null,
+          "projection_state": "NONE",
+          "notes": "Official VEC timeline: nominations close for all candidates at 12 noon on 9 November 2026. Participant field must be refreshed from official nomination data after this boundary.",
+          "integrity": {
+            "frozen_at": null,
+            "hindsight_changes_prohibited": true,
+            "retroactive_signal_backfill_prohibited": true
+          }
+        },
+        {
+          "checkpoint_id": "CP-AUS-VIC-SE2026-GOVERNMENT-PRE-POLL-20261118",
+          "contest_id": "AUS-VIC-SE2026-GOVERNMENT",
+          "cycle_id": "AUS-VIC-SE2026",
+          "checkpoint_type": "PRE_POLL",
+          "scheduled_for": null,
+          "milestone_date": "2026-11-18",
+          "captured_at": null,
+          "reconciled_at": null,
+          "evidence_cutoff": null,
+          "capture_state": "PENDING",
+          "source_snapshot_ids": [],
+          "intelligence_event_ids": [],
+          "evidence_state": "UNKNOWN",
+          "open_conflict_ids": [],
+          "projection_id": null,
+          "projection_state": "NONE",
+          "notes": "Official VEC evidence gives 18 November 2026 as the early-voting opening date but does not state an opening clock time in the captured page. No exact scheduler time is invented.",
+          "integrity": {
+            "frozen_at": null,
+            "hindsight_changes_prohibited": true,
+            "retroactive_signal_backfill_prohibited": true
+          }
+        },
+        {
+          "checkpoint_id": "CP-AUS-VIC-SE2026-GOVERNMENT-T7D",
+          "contest_id": "AUS-VIC-SE2026-GOVERNMENT",
+          "cycle_id": "AUS-VIC-SE2026",
+          "checkpoint_type": "T_7D",
+          "scheduled_for": "2026-11-21T18:00:00+11:00",
+          "captured_at": null,
+          "reconciled_at": null,
+          "evidence_cutoff": null,
+          "capture_state": "PENDING",
+          "source_snapshot_ids": [],
+          "intelligence_event_ids": [],
+          "evidence_state": "UNKNOWN",
+          "open_conflict_ids": [],
+          "projection_id": null,
+          "projection_state": "NONE",
+          "notes": "MAYHEM checkpoint mechanically derived as seven days before the VEC-confirmed 6 pm poll close.",
+          "integrity": {
+            "frozen_at": null,
+            "hindsight_changes_prohibited": true,
+            "retroactive_signal_backfill_prohibited": true
+          }
+        },
+        {
+          "checkpoint_id": "CP-AUS-VIC-SE2026-GOVERNMENT-T72H",
+          "contest_id": "AUS-VIC-SE2026-GOVERNMENT",
+          "cycle_id": "AUS-VIC-SE2026",
+          "checkpoint_type": "T_72H",
+          "scheduled_for": "2026-11-25T18:00:00+11:00",
+          "captured_at": null,
+          "reconciled_at": null,
+          "evidence_cutoff": null,
+          "capture_state": "PENDING",
+          "source_snapshot_ids": [],
+          "intelligence_event_ids": [],
+          "evidence_state": "UNKNOWN",
+          "open_conflict_ids": [],
+          "projection_id": null,
+          "projection_state": "NONE",
+          "notes": "MAYHEM checkpoint mechanically derived as 72 hours before the VEC-confirmed 6 pm poll close.",
+          "integrity": {
+            "frozen_at": null,
+            "hindsight_changes_prohibited": true,
+            "retroactive_signal_backfill_prohibited": true
+          }
+        },
+        {
+          "checkpoint_id": "CP-AUS-VIC-SE2026-GOVERNMENT-T24H",
+          "contest_id": "AUS-VIC-SE2026-GOVERNMENT",
+          "cycle_id": "AUS-VIC-SE2026",
+          "checkpoint_type": "T_24H",
+          "scheduled_for": "2026-11-27T18:00:00+11:00",
+          "captured_at": null,
+          "reconciled_at": null,
+          "evidence_cutoff": null,
+          "capture_state": "PENDING",
+          "source_snapshot_ids": [],
+          "intelligence_event_ids": [],
+          "evidence_state": "UNKNOWN",
+          "open_conflict_ids": [],
+          "projection_id": null,
+          "projection_state": "NONE",
+          "notes": "MAYHEM checkpoint mechanically derived as 24 hours before the VEC-confirmed 6 pm poll close.",
+          "integrity": {
+            "frozen_at": null,
+            "hindsight_changes_prohibited": true,
+            "retroactive_signal_backfill_prohibited": true
+          }
+        },
+        {
+          "checkpoint_id": "CP-AUS-VIC-SE2026-GOVERNMENT-T3H",
+          "contest_id": "AUS-VIC-SE2026-GOVERNMENT",
+          "cycle_id": "AUS-VIC-SE2026",
+          "checkpoint_type": "T_3H",
+          "scheduled_for": "2026-11-28T15:00:00+11:00",
+          "captured_at": null,
+          "reconciled_at": null,
+          "evidence_cutoff": null,
+          "capture_state": "PENDING",
+          "source_snapshot_ids": [],
+          "intelligence_event_ids": [],
+          "evidence_state": "UNKNOWN",
+          "open_conflict_ids": [],
+          "projection_id": null,
+          "projection_state": "NONE",
+          "notes": "MAYHEM checkpoint mechanically derived as three hours before the VEC-confirmed 6 pm poll close.",
+          "integrity": {
+            "frozen_at": null,
+            "hindsight_changes_prohibited": true,
+            "retroactive_signal_backfill_prohibited": true
+          }
+        },
+        {
+          "checkpoint_id": "CP-AUS-VIC-SE2026-GOVERNMENT-POLL-CLOSE",
+          "contest_id": "AUS-VIC-SE2026-GOVERNMENT",
+          "cycle_id": "AUS-VIC-SE2026",
+          "checkpoint_type": "POLL_CLOSE",
+          "scheduled_for": "2026-11-28T18:00:00+11:00",
+          "captured_at": null,
+          "reconciled_at": null,
+          "evidence_cutoff": null,
+          "capture_state": "PENDING",
+          "source_snapshot_ids": [],
+          "intelligence_event_ids": [],
+          "evidence_state": "UNKNOWN",
+          "open_conflict_ids": [],
+          "projection_id": null,
+          "projection_state": "NONE",
+          "notes": "Official VEC election-day voting closes at 6 pm on 28 November 2026. This is the registered forward-evidence boundary for the government-formation contest.",
+          "integrity": {
+            "frozen_at": null,
+            "hindsight_changes_prohibited": true,
+            "retroactive_signal_backfill_prohibited": true
+          }
+        }
+      ]
+    }
+  ],
   "rules": {
     "missed_checkpoint_before_outcome_may_be_captured_late": true,
     "late_capture_label": "CAPTURED_LATE_PRE_OUTCOME",

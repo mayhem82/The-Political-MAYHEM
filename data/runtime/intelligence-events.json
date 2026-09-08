@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-INTELLIGENCE-EVENTS-001",
   "scope": "Australia — multi-jurisdiction",
-  "captured_at": "2026-09-09T09:28:00+10:00",
+  "captured_at": "2026-09-08T23:39:22.842Z",
   "mode": "FORWARD_ONLY",
   "rules": {
     "observation_distinct_from_inference": true,
@@ -16017,6 +16017,644 @@
           "record_id": "e1c8d06d96c0dff73984",
           "title": "List of candidate",
           "url": "https://ntec.nt.gov.au/elections/current-elections/2026-mulka-by-election/list-of-candidates"
+        }
+      ],
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "underlying_publication_claims_not_promoted_to_verified_fact": true,
+        "source_change_parent_retained": true,
+        "deterministic_review": true
+      }
+    },
+    {
+      "event_id": "CHG-WATCH-APH-LIVE-MINUTES-20260908233843",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-FED",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-APH-LIVE-MINUTES-20260908233843",
+      "captured_at": "2026-09-08T23:38:43.359Z",
+      "event_date": "2026-09-09",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_PARLIAMENT",
+      "source_id": "SRC-APH-LIVE-MINUTES",
+      "capture_mode": "NORMALISED_PAGE_HASH",
+      "review_policy": "REVIEW_UNSTRUCTURED_CHANGE",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-APH-LIVE-MINUTES-20260908232420",
+        "content_hash": "b631af83715a434bd1f8d05422e93e73cf4847b5d71d1401cecace87a9de0db2",
+        "capture_mode": "NORMALISED_PAGE_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-APH-LIVE-MINUTES-20260908233843",
+        "content_hash": "ae035007bf1d291aa63a525d6d48d7c90b236ca4e4ba44794799639e0651e486",
+        "capture_mode": "NORMALISED_PAGE_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "TEXT_REPRESENTATION",
+        "first_difference_offset": 4726,
+        "before_length": 6486,
+        "after_length": 8910,
+        "before_excerpt": "ishworth ( Minister for Employment and Workplace Relations ) moved—That the debate be adjourned. - <TIME> Question—put. In this section Bills and Legislation Tabled documents Chamber documents Work of the Senate House of Representatives cha",
+        "after_excerpt": "ishworth ( Minister for Employment and Workplace Relations ) moved—That the debate be adjourned. - <TIME> Question—put. - <TIME> Division 268 The House divided (the Speaker, Mr Dick, in the Chair)— AYES, 88 Mr Abdo Mr Conroy Mr Khalil Ms Roberts Dr Aly Ms K Cook Ms M M H King Ms Rowland Ms Ambihaipahar Dr T Cook Ms Lawrence Ms J Ryan Ms Belyea Mr Dreyfus Mr Laxale Ms Scrymgour Ms Berry Mrs Elliot Dr Leigh Ms Sitou Mr Bowen Ms Fernando Ms McBain Mr D Smith* Ms Briskey Ms France Ms McBride Mr M Smith Mr Burke Dr Freelander Mr Marles Mr Soon Mr Burnell Mr French Ms Mascarenhas Ms Stanley* Mr Burns Dr Garland Ms Miller-Frost Ms Teesdale Mr Butler Mr Georganas Mr Mitchell Ms Templeman Ms Byrnes Mr Giles Mr Moncrieff Mr Thistlethwaite Ms Campbell Mr Gorman Dr Mulino Ms Thwaites Dr Chalmers Mr Gosling Mr Neumann Ms Urquhart Dr Charlton Mr Gregg Mr Ng Ms Watson-Brown Ms Chesters Mr Hill Ms Payne Mr Watts Mr Clare Mr Holzberger Mrs Phillips Ms Wells Ms Clutterham Mr Husic Ms Plibersek Ms White Ms Coffey Ms Jarrett Mr Rae Mr Wilkie Ms Coker Ms Jordan-Baird Dr Reid Mr J Wilson Ms Collins Ms Kearney Mr Repacholi Ms Witty Ms Comer Mr Keogh Ms Rishworth Mr Zappia NOES, 47 Ms Aldred Mr Gee* Mr Littleproud Mr Small Mr Batt Dr Haines Mr McCormack Mr Taylor Ms Bell Mr Hamilton Mrs McIntosh Mr Tehan Mr Birrell Mr Hastie Ms McKenzie Mr Thompson Ms Boele Mr Hawke Mr L O’Brien Mr Venning Mr Boyce Mr Hogan Mr Pasin Mr Violi Mr Buchholz Mr Joyce Ms Penfold Mr Wallace Mr Caldwell Mr Katter Mr Pike Dr Webster Mr Chaffey Mr Kennedy Ms Price Mr Willcox Ms Chaney Ms Landry Mr Rebello Mr R Wilson Mr Chester Ms Le Dr M Ryan Mr T Wilson Mr Farley* Mr Leeser Ms Sharkie * Tellers And so it was resolved in the affirmative. - <TIME> Debate adjourned and the resumption of the debate made an order of the day for the next sitting . - <TIME> 5 Telecommunications Legislation Amendment (Universal Outdoor Mobile Obligation) Bill 2025 —REPORT FROM FEDERATION CHAMBER The Speaker reported that the Federation Chamber had been unable to complete its consideration of the bill and had returned the bill with an unresolved question ( see item No. 4, Minutes of Proceedings of the Federation Chamber, 11 August 2026 ) , and presented a certified copy of the bill together with a schedule of the unresolved question . - <TIME> Unresolved q uestion— That the amendment be agreed to — - <TIME> Question—put. - <TIME> Division 269 ( This division is yet to be finalised and details are subject to change. ) The House divided (the Speaker, Mr Dick, in the Chair)— In this section Bills and Legislation Tabled documents Chamber documents Work of the Senate House of Representatives cha",
+        "delta_hash": "9dcbdd4834d433b37e4310d6782a35ea118917832e9b76ba913a8ab770737892"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-APH-BILLS-20260908233843",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-FED",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-APH-BILLS-20260908233843",
+      "captured_at": "2026-09-08T23:38:43.359Z",
+      "event_date": "2026-09-09",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_PARLIAMENT",
+      "source_id": "SRC-APH-BILLS",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "review_policy": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-APH-BILLS-20260908230751",
+        "content_hash": "d673fd54c06d6ae6631966d6568ee4dd728d8b4d2cb0838bf9eb7f5346120e1d",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-APH-BILLS-20260908233843",
+        "content_hash": "06f35e034e8ff7c2c786b44e3ed973f4804869ffad650ea3bb25ad9029ad8dc6",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "STRUCTURED_RECORD_SET",
+        "records_added": [
+          {
+            "record_id": "9a464308b729d7d70d55",
+            "title": "Fair Work Amendment (Disqualified Officers) Bill 2...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=s1510"
+          }
+        ],
+        "records_removed": [
+          {
+            "record_id": "d5a16ee120c163412491",
+            "title": "Criminal Code Amendment (Flag Protection) Bill 202...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7432"
+          }
+        ],
+        "added_count": 1,
+        "removed_count": 1,
+        "before_count": 96,
+        "after_count": 96,
+        "delta_hash": "8a541d0d76cfa23887f6258c5946b1622811344d968ec7e2ea64a43952e6cb03"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-PM-MEDIA-20260908233843",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-FED",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-PM-MEDIA-20260908233843",
+      "captured_at": "2026-09-08T23:38:43.359Z",
+      "event_date": "2026-09-09",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-PM-MEDIA",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "review_policy": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-PM-MEDIA-20260908230751",
+        "content_hash": "006d1c518ad45125a10def58dc8b1ace7d124e338cb9662760038e979257fd94",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-PM-MEDIA-20260908233843",
+        "content_hash": "8bd85a2ed6cb01e89961f0332f2e23afb18b0b3b067f2c3a28df648e872bc793",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "STRUCTURED_RECORD_SET",
+        "records_added": [
+          {
+            "record_id": "c219054a83442899cac5",
+            "title": "Lasting Legacy: A new era for the Hunter as M1 extension opens",
+            "url": "https://www.pm.gov.au/media/lasting-legacy-new-era-hunter-m1-extension-opens"
+          },
+          {
+            "record_id": "ce6aaa7a87a61b8dc8e3",
+            "title": "Television interview - ABC news breakfast",
+            "url": "https://www.pm.gov.au/media/television-interview-abc-news-breakfast-42"
+          }
+        ],
+        "records_removed": [
+          {
+            "record_id": "1dd1b815cc3e45d52807",
+            "title": "Supporting Pacific athletes to go for gold",
+            "url": "https://www.pm.gov.au/media/supporting-pacific-athletes-go-gold"
+          },
+          {
+            "record_id": "6c4f9dfb03076700f399",
+            "title": "75 years of ANZUS",
+            "url": "https://www.pm.gov.au/media/75-years-anzus"
+          }
+        ],
+        "added_count": 2,
+        "removed_count": 2,
+        "before_count": 27,
+        "after_count": 27,
+        "delta_hash": "07f4e9dd71b5674cd1521b33ab26c0cf9b4e1dee4d6a81cf4dcf6358ff8408e6"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-NSW-MINISTERIAL-RELEASES-20260908233843",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-NSW",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-NSW-MINISTERIAL-RELEASES-20260908233843",
+      "captured_at": "2026-09-08T23:38:43.359Z",
+      "event_date": "2026-09-09",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-NSW-MINISTERIAL-RELEASES",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "review_policy": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-NSW-MINISTERIAL-RELEASES-20260908230751",
+        "content_hash": "fb79e1145aecf30a27793564c3c4f198b3256bb1ef88ddbec7286dbc5fa2d43d",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-NSW-MINISTERIAL-RELEASES-20260908233843",
+        "content_hash": "c543a759a25f88a87c7a724af584a2dbdc8a4a448d4bb0660cb6a958961beea0",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "STRUCTURED_RECORD_SET",
+        "records_added": [
+          {
+            "record_id": "307f88855e03fd6352e6",
+            "title": "Designs unveiled for Wyong’s new Key Health Worker Accommodation",
+            "url": "https://www.nsw.gov.au/ministerial-releases/designs-unveiled-for-wyongs-new-key-health-worker-accommodation"
+          },
+          {
+            "record_id": "4ac628e4cc49a4c73f23",
+            "title": "New Wyong Hospital Palliative Care Unit officially open",
+            "url": "https://www.nsw.gov.au/ministerial-releases/new-wyong-hospital-palliative-care-unit-officially-open"
+          },
+          {
+            "record_id": "8968225a2991a3c91655",
+            "title": "Plans for 300+ homes at Haberfield dive site revealed",
+            "url": "https://www.nsw.gov.au/ministerial-releases/plans-new-homes-haberfield"
+          }
+        ],
+        "records_removed": [
+          {
+            "record_id": "0ae2c7788622eac28253",
+            "title": "Minns Government delivers $350,000 boost for Rehab In The Home in southern Lake Macquarie",
+            "url": "https://www.nsw.gov.au/ministerial-releases/minns-government-delivers-350000-boost-for-rehab-home-southern-lake-macquarie"
+          },
+          {
+            "record_id": "16c933c27d72be1d77a8",
+            "title": "NSW Government backs councils to host major multicultural festivals",
+            "url": "https://www.nsw.gov.au/ministerial-releases/local-council-grants-multicultural-festivals"
+          },
+          {
+            "record_id": "8c5128c98bb5d029de57",
+            "title": "Design released for long-awaited Spring Farm Parkway extension",
+            "url": "https://www.nsw.gov.au/ministerial-releases/spring-farm-parkway-extension-design-released"
+          }
+        ],
+        "added_count": 3,
+        "removed_count": 3,
+        "before_count": 88,
+        "after_count": 88,
+        "delta_hash": "e8087bbdceef4363fa9a3058afb5ea9243a77a902284803502f4929a8d883e0e"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-NTEC-MEDIA-20260908233843",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-NT",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-NTEC-MEDIA-20260908233843",
+      "captured_at": "2026-09-08T23:38:43.359Z",
+      "event_date": "2026-09-09",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_ELECTORAL_AUTHORITY",
+      "source_id": "SRC-NTEC-MEDIA",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "review_policy": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-NTEC-MEDIA-20260908232420",
+        "content_hash": "af21f6c8c575c1f4b6d30324d0f82cc155166a90dfde6b29f65a07fd9001158a",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-NTEC-MEDIA-20260908233843",
+        "content_hash": "b235d5b5c8af855ff4d7cdcd29204cb356ec34d283dea8cad7e3b0738433e996",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "STRUCTURED_RECORD_SET",
+        "records_added": [
+          {
+            "record_id": "4297265d1134b8543a56",
+            "title": "Timetable",
+            "url": "https://ntec.nt.gov.au/elections/current-elections/2026-mulka-by-election/Mulka-timetable"
+          },
+          {
+            "record_id": "e1c8d06d96c0dff73984",
+            "title": "List of candidate",
+            "url": "https://ntec.nt.gov.au/elections/current-elections/2026-mulka-by-election/list-of-candidates"
+          }
+        ],
+        "records_removed": [
+          {
+            "record_id": "18db2e364ec543aa2917",
+            "title": "2022 (12)",
+            "url": "https://ntec.nt.gov.au/about-us/media-and-publications/media-releases/2022"
+          },
+          {
+            "record_id": "248ec28e5c87e1848da0",
+            "title": "Skip to main navigation",
+            "url": "https://ntec.nt.gov.au/about-us/media-and-publications/media-releases"
+          },
+          {
+            "record_id": "50aefaff7f3642161412",
+            "title": "2024 (45)",
+            "url": "https://ntec.nt.gov.au/about-us/media-and-publications/media-releases/2024"
+          },
+          {
+            "record_id": "6747a7644bfac85ebf91",
+            "title": "2021 (22)",
+            "url": "https://ntec.nt.gov.au/about-us/media-and-publications/media-releases/2021"
+          },
+          {
+            "record_id": "914da1d68b1c54b2691f",
+            "title": "2025 (31)",
+            "url": "https://ntec.nt.gov.au/about-us/media-and-publications/media-releases/2025"
+          },
+          {
+            "record_id": "abda225ae92bab593eb9",
+            "title": "2026 (31)",
+            "url": "https://ntec.nt.gov.au/about-us/media-and-publications/media-releases/2026"
+          },
+          {
+            "record_id": "cf2caaf0bb64d2b93508",
+            "title": "2020 (30)",
+            "url": "https://ntec.nt.gov.au/about-us/media-and-publications/media-releases/2020"
+          },
+          {
+            "record_id": "dc477118fd386d837561",
+            "title": "Skip to main content",
+            "url": "https://ntec.nt.gov.au/about-us/media-and-publications/media-releases"
+          },
+          {
+            "record_id": "dd2388691b8bf63b647b",
+            "title": "2023 (63)",
+            "url": "https://ntec.nt.gov.au/about-us/media-and-publications/media-releases/2023"
+          },
+          {
+            "record_id": "eea3e6c860ab9b6be80b",
+            "title": "Print this page",
+            "url": "https://ntec.nt.gov.au/about-us/media-and-publications/media-releases"
+          }
+        ],
+        "added_count": 2,
+        "removed_count": 10,
+        "before_count": 137,
+        "after_count": 129,
+        "delta_hash": "f0229d292ab32f218558c1908f94fc59ab5a3859e110845a9cd7834fc3adf906"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "SIG-REV-CHG-WATCH-APH-BILLS-20260908233843",
+      "parent_event_id": "CHG-WATCH-APH-BILLS-20260908233843",
+      "review_id": "REV-CHG-WATCH-APH-BILLS-20260908233843",
+      "jurisdiction_id": "AUS-FED",
+      "party_id": null,
+      "actor_id": null,
+      "contest_id": null,
+      "cycle_id": null,
+      "source_snapshot_id": "AUTO-WATCH-APH-BILLS-20260908233843",
+      "record_id": "9a464308b729d7d70d55",
+      "captured_at": "2026-09-08T23:39:22.842Z",
+      "event_date": "2026-09-09",
+      "checkpoint": "CONTINUOUS_FORWARD_SIGNAL_REVIEW",
+      "event_type": "SIGNAL_CREATED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_PARLIAMENT",
+      "source_id": "SRC-APH-BILLS",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "claim": "Parliament of Australia — Bills and Legislation added 1 structured publication record to its forward-captured official index: Fair Work Amendment (Disqualified Officers) Bill 2...",
+      "observed_behaviour": "One or more structured publication records appeared in the monitored official source index after the preceding forward snapshot.",
+      "publication_records_added": [
+        {
+          "record_id": "9a464308b729d7d70d55",
+          "title": "Fair Work Amendment (Disqualified Officers) Bill 2...",
+          "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=s1510"
+        }
+      ],
+      "publication_records_removed": [
+        {
+          "record_id": "d5a16ee120c163412491",
+          "title": "Criminal Code Amendment (Flag Protection) Bill 202...",
+          "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7432"
+        }
+      ],
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "underlying_publication_claims_not_promoted_to_verified_fact": true,
+        "source_change_parent_retained": true,
+        "deterministic_review": true
+      }
+    },
+    {
+      "event_id": "SIG-REV-CHG-WATCH-PM-MEDIA-20260908233843",
+      "parent_event_id": "CHG-WATCH-PM-MEDIA-20260908233843",
+      "review_id": "REV-CHG-WATCH-PM-MEDIA-20260908233843",
+      "jurisdiction_id": "AUS-FED",
+      "party_id": null,
+      "actor_id": null,
+      "contest_id": null,
+      "cycle_id": null,
+      "source_snapshot_id": "AUTO-WATCH-PM-MEDIA-20260908233843",
+      "record_id": null,
+      "captured_at": "2026-09-08T23:39:22.842Z",
+      "event_date": "2026-09-09",
+      "checkpoint": "CONTINUOUS_FORWARD_SIGNAL_REVIEW",
+      "event_type": "SIGNAL_CREATED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-PM-MEDIA",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "claim": "Prime Minister of Australia — media added 2 structured publication records to its forward-captured official index: Lasting Legacy: A new era for the Hunter as M1 extension opens; Television interview - ABC news breakfast",
+      "observed_behaviour": "One or more structured publication records appeared in the monitored official source index after the preceding forward snapshot.",
+      "publication_records_added": [
+        {
+          "record_id": "c219054a83442899cac5",
+          "title": "Lasting Legacy: A new era for the Hunter as M1 extension opens",
+          "url": "https://www.pm.gov.au/media/lasting-legacy-new-era-hunter-m1-extension-opens"
+        },
+        {
+          "record_id": "ce6aaa7a87a61b8dc8e3",
+          "title": "Television interview - ABC news breakfast",
+          "url": "https://www.pm.gov.au/media/television-interview-abc-news-breakfast-42"
+        }
+      ],
+      "publication_records_removed": [
+        {
+          "record_id": "1dd1b815cc3e45d52807",
+          "title": "Supporting Pacific athletes to go for gold",
+          "url": "https://www.pm.gov.au/media/supporting-pacific-athletes-go-gold"
+        },
+        {
+          "record_id": "6c4f9dfb03076700f399",
+          "title": "75 years of ANZUS",
+          "url": "https://www.pm.gov.au/media/75-years-anzus"
+        }
+      ],
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "underlying_publication_claims_not_promoted_to_verified_fact": true,
+        "source_change_parent_retained": true,
+        "deterministic_review": true
+      }
+    },
+    {
+      "event_id": "SIG-REV-CHG-WATCH-NSW-MINISTERIAL-RELEASES-20260908233843",
+      "parent_event_id": "CHG-WATCH-NSW-MINISTERIAL-RELEASES-20260908233843",
+      "review_id": "REV-CHG-WATCH-NSW-MINISTERIAL-RELEASES-20260908233843",
+      "jurisdiction_id": "AUS-NSW",
+      "party_id": null,
+      "actor_id": null,
+      "contest_id": null,
+      "cycle_id": null,
+      "source_snapshot_id": "AUTO-WATCH-NSW-MINISTERIAL-RELEASES-20260908233843",
+      "record_id": null,
+      "captured_at": "2026-09-08T23:39:22.842Z",
+      "event_date": "2026-09-09",
+      "checkpoint": "CONTINUOUS_FORWARD_SIGNAL_REVIEW",
+      "event_type": "SIGNAL_CREATED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-NSW-MINISTERIAL-RELEASES",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "claim": "NSW Government — Ministerial releases added 3 structured publication records to its forward-captured official index: Designs unveiled for Wyong’s new Key Health Worker Accommodation; New Wyong Hospital Palliative Care Unit officially open; Plans for 300+ homes at Haberfield dive site revealed",
+      "observed_behaviour": "One or more structured publication records appeared in the monitored official source index after the preceding forward snapshot.",
+      "publication_records_added": [
+        {
+          "record_id": "307f88855e03fd6352e6",
+          "title": "Designs unveiled for Wyong’s new Key Health Worker Accommodation",
+          "url": "https://www.nsw.gov.au/ministerial-releases/designs-unveiled-for-wyongs-new-key-health-worker-accommodation"
+        },
+        {
+          "record_id": "4ac628e4cc49a4c73f23",
+          "title": "New Wyong Hospital Palliative Care Unit officially open",
+          "url": "https://www.nsw.gov.au/ministerial-releases/new-wyong-hospital-palliative-care-unit-officially-open"
+        },
+        {
+          "record_id": "8968225a2991a3c91655",
+          "title": "Plans for 300+ homes at Haberfield dive site revealed",
+          "url": "https://www.nsw.gov.au/ministerial-releases/plans-new-homes-haberfield"
+        }
+      ],
+      "publication_records_removed": [
+        {
+          "record_id": "0ae2c7788622eac28253",
+          "title": "Minns Government delivers $350,000 boost for Rehab In The Home in southern Lake Macquarie",
+          "url": "https://www.nsw.gov.au/ministerial-releases/minns-government-delivers-350000-boost-for-rehab-home-southern-lake-macquarie"
+        },
+        {
+          "record_id": "16c933c27d72be1d77a8",
+          "title": "NSW Government backs councils to host major multicultural festivals",
+          "url": "https://www.nsw.gov.au/ministerial-releases/local-council-grants-multicultural-festivals"
+        },
+        {
+          "record_id": "8c5128c98bb5d029de57",
+          "title": "Design released for long-awaited Spring Farm Parkway extension",
+          "url": "https://www.nsw.gov.au/ministerial-releases/spring-farm-parkway-extension-design-released"
+        }
+      ],
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "underlying_publication_claims_not_promoted_to_verified_fact": true,
+        "source_change_parent_retained": true,
+        "deterministic_review": true
+      }
+    },
+    {
+      "event_id": "SIG-REV-CHG-WATCH-NTEC-MEDIA-20260908233843",
+      "parent_event_id": "CHG-WATCH-NTEC-MEDIA-20260908233843",
+      "review_id": "REV-CHG-WATCH-NTEC-MEDIA-20260908233843",
+      "jurisdiction_id": "AUS-NT",
+      "party_id": null,
+      "actor_id": null,
+      "contest_id": null,
+      "cycle_id": null,
+      "source_snapshot_id": "AUTO-WATCH-NTEC-MEDIA-20260908233843",
+      "record_id": null,
+      "captured_at": "2026-09-08T23:39:22.842Z",
+      "event_date": "2026-09-09",
+      "checkpoint": "CONTINUOUS_FORWARD_SIGNAL_REVIEW",
+      "event_type": "SIGNAL_CREATED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_ELECTORAL_AUTHORITY",
+      "source_id": "SRC-NTEC-MEDIA",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "claim": "Northern Territory Electoral Commission — media releases added 2 structured publication records to its forward-captured official index: Timetable; List of candidate",
+      "observed_behaviour": "One or more structured publication records appeared in the monitored official source index after the preceding forward snapshot.",
+      "publication_records_added": [
+        {
+          "record_id": "4297265d1134b8543a56",
+          "title": "Timetable",
+          "url": "https://ntec.nt.gov.au/elections/current-elections/2026-mulka-by-election/Mulka-timetable"
+        },
+        {
+          "record_id": "e1c8d06d96c0dff73984",
+          "title": "List of candidate",
+          "url": "https://ntec.nt.gov.au/elections/current-elections/2026-mulka-by-election/list-of-candidates"
+        }
+      ],
+      "publication_records_removed": [
+        {
+          "record_id": "18db2e364ec543aa2917",
+          "title": "2022 (12)",
+          "url": "https://ntec.nt.gov.au/about-us/media-and-publications/media-releases/2022"
+        },
+        {
+          "record_id": "248ec28e5c87e1848da0",
+          "title": "Skip to main navigation",
+          "url": "https://ntec.nt.gov.au/about-us/media-and-publications/media-releases"
+        },
+        {
+          "record_id": "50aefaff7f3642161412",
+          "title": "2024 (45)",
+          "url": "https://ntec.nt.gov.au/about-us/media-and-publications/media-releases/2024"
+        },
+        {
+          "record_id": "6747a7644bfac85ebf91",
+          "title": "2021 (22)",
+          "url": "https://ntec.nt.gov.au/about-us/media-and-publications/media-releases/2021"
+        },
+        {
+          "record_id": "914da1d68b1c54b2691f",
+          "title": "2025 (31)",
+          "url": "https://ntec.nt.gov.au/about-us/media-and-publications/media-releases/2025"
+        },
+        {
+          "record_id": "abda225ae92bab593eb9",
+          "title": "2026 (31)",
+          "url": "https://ntec.nt.gov.au/about-us/media-and-publications/media-releases/2026"
+        },
+        {
+          "record_id": "cf2caaf0bb64d2b93508",
+          "title": "2020 (30)",
+          "url": "https://ntec.nt.gov.au/about-us/media-and-publications/media-releases/2020"
+        },
+        {
+          "record_id": "dc477118fd386d837561",
+          "title": "Skip to main content",
+          "url": "https://ntec.nt.gov.au/about-us/media-and-publications/media-releases"
+        },
+        {
+          "record_id": "dd2388691b8bf63b647b",
+          "title": "2023 (63)",
+          "url": "https://ntec.nt.gov.au/about-us/media-and-publications/media-releases/2023"
+        },
+        {
+          "record_id": "eea3e6c860ab9b6be80b",
+          "title": "Print this page",
+          "url": "https://ntec.nt.gov.au/about-us/media-and-publications/media-releases"
         }
       ],
       "inference": null,

@@ -69,64 +69,64 @@
     {
       "jurisdiction_id": "AUS-FED",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-08T23:25:00.750Z",
-      "signals_examined": 16,
-      "candidates_detected": 3
+      "last_screened_at": "2026-09-08T23:39:22.976Z",
+      "signals_examined": 18,
+      "candidates_detected": 4
     },
     {
       "jurisdiction_id": "AUS-NSW",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-08T23:25:00.750Z",
-      "signals_examined": 7,
+      "last_screened_at": "2026-09-08T23:39:22.976Z",
+      "signals_examined": 8,
       "candidates_detected": 1
     },
     {
       "jurisdiction_id": "AUS-VIC",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-08T23:25:00.750Z",
+      "last_screened_at": "2026-09-08T23:39:22.976Z",
       "signals_examined": 0,
       "candidates_detected": 0
     },
     {
       "jurisdiction_id": "AUS-QLD",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-08T23:25:00.750Z",
+      "last_screened_at": "2026-09-08T23:39:22.976Z",
       "signals_examined": 0,
       "candidates_detected": 0
     },
     {
       "jurisdiction_id": "AUS-WA",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-08T23:25:00.750Z",
+      "last_screened_at": "2026-09-08T23:39:22.976Z",
       "signals_examined": 0,
       "candidates_detected": 0
     },
     {
       "jurisdiction_id": "AUS-SA",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-08T23:25:00.750Z",
+      "last_screened_at": "2026-09-08T23:39:22.976Z",
       "signals_examined": 0,
       "candidates_detected": 0
     },
     {
       "jurisdiction_id": "AUS-TAS",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-08T23:25:00.750Z",
+      "last_screened_at": "2026-09-08T23:39:22.976Z",
       "signals_examined": 5,
       "candidates_detected": 0
     },
     {
       "jurisdiction_id": "AUS-ACT",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-08T23:25:00.750Z",
+      "last_screened_at": "2026-09-08T23:39:22.976Z",
       "signals_examined": 11,
       "candidates_detected": 0
     },
     {
       "jurisdiction_id": "AUS-NT",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-08T23:25:00.750Z",
-      "signals_examined": 8,
+      "last_screened_at": "2026-09-08T23:39:22.976Z",
+      "signals_examined": 9,
       "candidates_detected": 0
     }
   ],
@@ -232,7 +232,7 @@
       "jurisdiction_id": "AUS-NSW",
       "competition_family": "LEGISLATION",
       "proposed_competition_class": "LEGISLATIVE",
-      "proposed_cycle_id": null,
+      "proposed_cycle_id": "AUS-NSW-58TH-PARLIAMENT",
       "subject": "Private Abortion Law Reform Amendment (Sex Selection Prohibition) Bill 2025 Origin: Legislative Council Location: Legislative Council Status: Second Reading, Debate adjourned, Wed 24 June 2026",
       "candidate_state": "EVIDENCE_GAP",
       "detected_at": "2026-09-08T23:14:35.619Z",
@@ -261,13 +261,47 @@
           "reason": "DETERMINISTIC_COMPETITION_FAMILY_SCREEN"
         }
       ]
+    },
+    {
+      "candidate_id": "DISC-FED-LEGISLATION-6638e01a2529918f",
+      "jurisdiction_id": "AUS-FED",
+      "competition_family": "LEGISLATION",
+      "proposed_competition_class": "LEGISLATIVE",
+      "proposed_cycle_id": "AUS-FED-48TH-PARLIAMENT",
+      "subject": "Fair Work Amendment (Disqualified Officers) Bill 2...",
+      "candidate_state": "EVIDENCE_GAP",
+      "detected_at": "2026-09-08T23:39:22.842Z",
+      "source_snapshot_ids": [
+        "AUTO-WATCH-APH-BILLS-20260908233843"
+      ],
+      "signal_event_ids": [
+        "SIG-REV-CHG-WATCH-APH-BILLS-20260908233843"
+      ],
+      "review_ids": [
+        "REV-CHG-WATCH-APH-BILLS-20260908233843"
+      ],
+      "evidence_summary": "Screened PRIMARY_PARLIAMENT evidence contains language consistent with a legislation competition candidate. This is a discovery observation, not a registered contest or outcome inference.",
+      "registration_blockers": [
+        "MATERIAL_RESISTANCE_NOT_YET_EVIDENCED",
+        "SUPPORTING_SIDE_NOT_YET_RESOLVED",
+        "OPPOSING_SIDE_NOT_YET_RESOLVED"
+      ],
+      "linked_contest_id": null,
+      "state_history": [
+        {
+          "from": null,
+          "to": "EVIDENCE_GAP",
+          "at": "2026-09-08T23:39:22.842Z",
+          "reason": "DETERMINISTIC_COMPETITION_FAMILY_SCREEN"
+        }
+      ]
     }
   ],
-  "last_screened_at": "2026-09-08T23:25:00.750Z",
+  "last_screened_at": "2026-09-08T23:39:22.976Z",
   "last_screen_summary": {
-    "signals_examined": 47,
-    "candidates_total": 4,
-    "candidates_added": 0,
+    "signals_examined": 51,
+    "candidates_total": 5,
+    "candidates_added": 1,
     "candidate_lineage_merges": 4,
     "registered_contests_unchanged": true
   }

@@ -2,5 +2,58 @@
   "state_id": "FORWARD-SIGNAL-CAPTURE-STATE-001",
   "status": "ACTIVE",
   "created_at": "2026-09-08T13:38:00+10:00",
-  "sources": {}
+  "sources": {
+    "WATCH-LIBERAL-HOME": {
+      "source_id": "SRC-LIBERAL-FEDERAL-HOME",
+      "jurisdiction_id": "AUS-FED",
+      "party_id": "AUS-FED-LIB",
+      "content_hash": "065c14d3506f53634b0cc71584ba1a7973040b8b88287ab50bf3fa2d9c3d99cb",
+      "snapshot_id": "AUTO-WATCH-LIBERAL-HOME-20260908034459",
+      "captured_at": "2026-09-08T03:44:59.147Z"
+    },
+    "WATCH-GREENS-FEDERAL-MEDIA": {
+      "source_id": "SRC-GREENS-FEDERAL-RELEASE-INDEX",
+      "jurisdiction_id": "AUS-FED",
+      "party_id": "AUS-FED-GRN",
+      "content_hash": "b43420649434974476f46d5450f0c88d87fa9ff6fcb4de8c0f1e24bc89afa665",
+      "snapshot_id": "AUTO-WATCH-GREENS-FEDERAL-MEDIA-20260908034459",
+      "captured_at": "2026-09-08T03:44:59.147Z"
+    },
+    "WATCH-NATIONALS-NEWS": {
+      "source_id": "SRC-NATIONALS-FEDERAL-NEWS",
+      "jurisdiction_id": "AUS-FED",
+      "party_id": "AUS-FED-NAT",
+      "content_hash": "9835976cafb52b0471cf288d6d958a8082d8e6bdba88205826156df05bc20554",
+      "snapshot_id": "AUTO-WATCH-NATIONALS-NEWS-20260908034459",
+      "captured_at": "2026-09-08T03:44:59.147Z"
+    },
+    "WATCH-NSW-MINISTERIAL-RELEASES": {
+      "source_id": "SRC-NSW-MINISTERIAL-RELEASES",
+      "jurisdiction_id": "AUS-NSW",
+      "party_id": null,
+      "content_hash": "b05938ea58378d92a067ef2fd14c084bd87e384c957e2d80cbcc85a87e8c191e",
+      "snapshot_id": "AUTO-WATCH-NSW-MINISTERIAL-RELEASES-20260908034459",
+      "captured_at": "2026-09-08T03:44:59.147Z"
+    }
+  },
+  "updated_at": "2026-09-08T03:44:59.147Z",
+  "last_run": {
+    "captured_at": "2026-09-08T03:44:59.147Z",
+    "baselines_created": 4,
+    "signals_created": 0,
+    "failures": [
+      {
+        "watch_id": "WATCH-APH-LIVE-MINUTES",
+        "error": "403 Forbidden"
+      },
+      {
+        "watch_id": "WATCH-APH-WEEK-AHEAD",
+        "error": "403 Forbidden"
+      },
+      {
+        "watch_id": "WATCH-ONENATION-NEWS",
+        "error": "403 Forbidden"
+      }
+    ]
+  }
 }

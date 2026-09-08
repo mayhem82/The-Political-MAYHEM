@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-INTELLIGENCE-EVENTS-001",
   "scope": "Australia — multi-jurisdiction",
-  "captured_at": "2026-09-08T10:20:00+10:00",
+  "captured_at": "2026-09-08T03:44:59.147Z",
   "mode": "FORWARD_ONLY",
   "rules": {
     "observation_distinct_from_inference": true,
@@ -44,7 +44,11 @@
       "signal_state": "OBSERVED",
       "source_class": "PRIMARY_POLL",
       "claim": "Roy Morgan measured Labor primary vote at 27.0% in fieldwork conducted 31 August to 6 September 2026.",
-      "after": {"primary_vote_percent":27.0,"movement_points":-2.5,"sample_size":1541},
+      "after": {
+        "primary_vote_percent": 27,
+        "movement_points": -2.5,
+        "sample_size": 1541
+      },
       "inference": null,
       "inference_class": "NONE",
       "projection_effect": "NO_EFFECT",
@@ -64,7 +68,11 @@
       "signal_state": "OBSERVED",
       "source_class": "PRIMARY_POLL",
       "claim": "Roy Morgan measured One Nation primary vote at 26.5% in fieldwork conducted 31 August to 6 September 2026.",
-      "after": {"primary_vote_percent":26.5,"movement_points":3.0,"sample_size":1541},
+      "after": {
+        "primary_vote_percent": 26.5,
+        "movement_points": 3,
+        "sample_size": 1541
+      },
       "inference": null,
       "inference_class": "NONE",
       "projection_effect": "NO_EFFECT",
@@ -84,7 +92,11 @@
       "signal_state": "OBSERVED",
       "source_class": "PRIMARY_POLL",
       "claim": "Roy Morgan measured Liberal primary vote at 17.0% in fieldwork conducted 31 August to 6 September 2026.",
-      "after": {"primary_vote_percent":17.0,"movement_points":-1.0,"sample_size":1541},
+      "after": {
+        "primary_vote_percent": 17,
+        "movement_points": -1,
+        "sample_size": 1541
+      },
       "inference": null,
       "inference_class": "NONE",
       "projection_effect": "NO_EFFECT",
@@ -104,7 +116,11 @@
       "signal_state": "OBSERVED",
       "source_class": "PRIMARY_POLL",
       "claim": "Roy Morgan measured Greens primary vote at 14.5% in fieldwork conducted 31 August to 6 September 2026.",
-      "after": {"primary_vote_percent":14.5,"movement_points":1.0,"sample_size":1541},
+      "after": {
+        "primary_vote_percent": 14.5,
+        "movement_points": 1,
+        "sample_size": 1541
+      },
       "inference": null,
       "inference_class": "NONE",
       "projection_effect": "NO_EFFECT",
@@ -124,7 +140,11 @@
       "signal_state": "OBSERVED",
       "source_class": "PRIMARY_POLL",
       "claim": "Roy Morgan measured Nationals primary vote at 4.5% in fieldwork conducted 31 August to 6 September 2026.",
-      "after": {"primary_vote_percent":4.5,"movement_points":2.0,"sample_size":1541},
+      "after": {
+        "primary_vote_percent": 4.5,
+        "movement_points": 2,
+        "sample_size": 1541
+      },
       "inference": null,
       "inference_class": "NONE",
       "projection_effect": "NO_EFFECT",
@@ -144,7 +164,9 @@
       "signal_state": "CONFIRMED_FACT",
       "source_class": "PRIMARY_PARTY",
       "claim": "The Australian Greens announced Vanessa Bleyer had joined the federal team and taken Agriculture, Science/Industry/Innovation, Tourism and Healthy Oceans portfolios.",
-      "after": {"portfolio_change":true},
+      "after": {
+        "portfolio_change": true
+      },
       "inference": null,
       "inference_class": "NONE",
       "projection_effect": "NO_EFFECT",
@@ -164,7 +186,10 @@
       "signal_state": "CONFIRMED_FACT",
       "source_class": "PRIMARY_PARTY",
       "claim": "The Australian Greens announced David Shoebridge as spokesperson for Digital Rights and AI.",
-      "after": {"portfolio_change":true,"portfolio":"Digital Rights and AI"},
+      "after": {
+        "portfolio_change": true,
+        "portfolio": "Digital Rights and AI"
+      },
       "inference": null,
       "inference_class": "NONE",
       "projection_effect": "NO_EFFECT",

@@ -1,9 +1,9 @@
 {
-  "snapshot_id": "FORWARD-INGESTION-MANIFEST-010",
+  "snapshot_id": "FORWARD-INGESTION-MANIFEST-011",
   "mode": "FORWARD_ONLY",
   "scope": "Australia — Federal, States and Territories",
   "created_at": "2026-09-08T00:00:00+10:00",
-  "updated_at": "2026-09-08T19:10:50.592Z",
+  "updated_at": "2026-09-09T05:05:00+10:00",
   "rules": {
     "evidence_must_be_knowable_at_capture_time": true,
     "captured_at_required": true,
@@ -13,7 +13,11 @@
     "retroactive_insertion_into_prior_projection_prohibited": true,
     "post_outcome_material_separated": true,
     "jurisdictions_remain_distinct": true,
-    "cross_jurisdiction_effect_requires_explicit_lineage": true
+    "cross_jurisdiction_effect_requires_explicit_lineage": true,
+    "raw_source_change_is_not_a_political_signal": true,
+    "raw_source_change_requires_review_before_signal_promotion": true,
+    "raw_source_change_prohibited_from_projection_lineage": true,
+    "signal_review_decisions_are_append_only": true
   },
   "structural_data_loaded": {
     "federal_parliamentary_players": true,
@@ -33,19 +37,22 @@
     "actor_state_updates_ingested": 2,
     "field_state_updates_ingested": 1,
     "contest_state_updates_ingested": 0,
-    "jurisdiction_coverage": {
-      "federal": "STARTED",
-      "new_south_wales": "ROSTER_COMPLETE_EVIDENCE_STREAM_PENDING",
-      "victoria": "ROSTER_COMPLETE_EVIDENCE_STREAM_PENDING",
-      "queensland": "ROSTER_COMPLETE_EVIDENCE_STREAM_PENDING",
-      "western_australia": "ROSTER_COMPLETE_EVIDENCE_STREAM_PENDING",
-      "south_australia": "ROSTER_COMPLETE_EVIDENCE_STREAM_PENDING",
-      "tasmania": "ROSTER_COMPLETE_EVIDENCE_STREAM_PENDING",
-      "australian_capital_territory": "ROSTER_COMPLETE_EVIDENCE_STREAM_PENDING",
-      "northern_territory": "ROSTER_COMPLETE_EVIDENCE_STREAM_PENDING"
-    },
     "signals_ingested": 15,
-    "last_capture_at": "2026-09-08T19:10:50.592Z"
+    "raw_source_changes_ingested": 0,
+    "signal_reviews_ingested": 0,
+    "post_separation_promoted_signals_ingested": 0,
+    "last_capture_at": "2026-09-08T19:10:50.592Z",
+    "jurisdiction_coverage": {
+      "federal": "SOURCE_WATCH_ACTIVE_FORWARD_BASELINE_CAPTURED",
+      "new_south_wales": "SOURCE_WATCH_ACTIVE_FORWARD_BASELINE_CAPTURED",
+      "victoria": "SOURCE_WATCH_ACTIVE_FORWARD_BASELINE_CAPTURED",
+      "queensland": "SOURCE_WATCH_ACTIVE_FORWARD_BASELINE_CAPTURED",
+      "western_australia": "SOURCE_WATCH_ACTIVE_FORWARD_BASELINE_CAPTURED",
+      "south_australia": "SOURCE_WATCH_ACTIVE_FORWARD_BASELINE_CAPTURED",
+      "tasmania": "SOURCE_WATCH_ACTIVE_FORWARD_BASELINE_CAPTURED",
+      "australian_capital_territory": "SOURCE_WATCH_ACTIVE_FORWARD_BASELINE_CAPTURED",
+      "northern_territory": "SOURCE_WATCH_ACTIVE_FORWARD_BASELINE_CAPTURED"
+    }
   },
   "queues": {
     "sources": [],
@@ -56,16 +63,8 @@
     "party_state_updates": [],
     "actor_state_updates": [],
     "jurisdiction_ingestion": [],
-    "jurisdiction_evidence_activation": [
-      "AUS-ACT",
-      "AUS-NT",
-      "AUS-QLD",
-      "AUS-WA",
-      "AUS-NSW",
-      "AUS-VIC",
-      "AUS-TAS",
-      "AUS-SA"
-    ]
+    "source_changes_pending_review": [],
+    "jurisdiction_evidence_activation": []
   },
-  "status": "LIVE_INGESTION_ACTIVE_FORWARD_SIGNAL_CAPTURE_RUNNING"
+  "status": "LIVE_INGESTION_ACTIVE_RAW_SOURCE_CHANGE_CAPTURE_AND_SIGNAL_PROMOTION"
 }

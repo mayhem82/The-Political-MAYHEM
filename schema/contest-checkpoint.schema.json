@@ -10,7 +10,8 @@
     "cycle_id": {"type": "string"},
     "checkpoint_type": {"enum": ["BASELINE", "PERIODIC", "NOMINATION_CLOSE", "CAMPAIGN_MILESTONE", "POLL_RELEASE", "DEBATE", "PRE_POLL", "T_7D", "T_72H", "T_24H", "T_3H", "POLL_CLOSE", "POST_OUTCOME", "OTHER"]},
     "scheduled_for": {"type": ["string", "null"], "format": "date-time"},
-    "captured_at": {"type": "string", "format": "date-time"},
+    "captured_at": {"type": ["string", "null"], "format": "date-time"},
+    "reconciled_at": {"type": ["string", "null"], "format": "date-time"},
     "evidence_cutoff": {"type": ["string", "null"], "format": "date-time"},
     "capture_state": {"enum": ["PENDING", "CAPTURED_IN_WINDOW", "CAPTURED_LATE_PRE_OUTCOME", "MISSED_NOT_CAPTURED", "POST_OUTCOME_ONLY"]},
     "source_snapshot_ids": {"type": "array", "items": {"type": "string"}},
@@ -30,5 +31,20 @@
       }
     }
   },
+  "allOf": [
+    {
+      "if": {"properties": {"capture_state": {"const": "PENDING"}}},
+      "then": {
+        "properties": {
+          "captured_at": {"const": null},
+          "evidence_cutoff": {"const": null}
+        }
+      }
+    },
+    {
+      "if": {"properties": {"capture_state": {"const": "MISSED_NOT_CAPTURED"}}},
+      "then": {"properties": {"captured_at": {"const": null}}}
+    }
+  ],
   "additionalProperties": true
 }

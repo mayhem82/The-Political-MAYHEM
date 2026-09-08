@@ -1,9 +1,12 @@
 import fs from 'node:fs';
+import {createRequire} from 'node:module';
 
+const require=createRequire(import.meta.url);
+const temporal=require('../engine/temporal.js');
 const read=p=>JSON.parse(fs.readFileSync(p,'utf8'));
 const write=(p,v)=>fs.writeFileSync(p,JSON.stringify(v,null,2)+'\n');
 const time=v=>{if(!v)return null;const n=Date.parse(v);return Number.isFinite(n)?n:null;};
-const order={UPCOMING:0,CONTEST_WINDOW:1,OUTCOME_VERIFICATION_PENDING:2,VERIFIED_OUTCOME:3};
+const order=Object.fromEntries(temporal.LIFECYCLE_STATES.map((state,index)=>[state,index]));
 
 const contestsPath='data/runtime/political-contests.json';
 const cyclesPath='data/runtime/political-cycles.json';
@@ -47,9 +50,18 @@ for(const contest of contests.contests||[]){
     continue;
   }
 
-  const closeMs=time(contest.close_at??contest.outcome_expected_at);
+  const closeAt=contest.close_at??contest.outcome_expected_at;
+  const closeMs=time(closeAt);
   const openMs=time(contest.window_open_at);
-  if(closeMs!=null && nowMs>=closeMs && order[contest.status]<order.OUTCOME_VERIFICATION_PENDING){
+  if(closeMs!=null&&openMs!=null){
+    const target=temporal.lifecycleState({window_open_at:contest.window_open_at,close_at:closeAt,now:nowDate});
+    if(order[target]>order[contest.status]){
+      const reason=target==='OUTCOME_VERIFICATION_PENDING'
+        ?'REGISTERED_CONTEST_CLOSE_REACHED_WITHOUT_VERIFIED_OUTCOME'
+        :'REGISTERED_CONTEST_WINDOW_OPEN_REACHED';
+      advance(contest,target,reason);
+    }
+  }else if(closeMs!=null && nowMs>=closeMs && order[contest.status]<order.OUTCOME_VERIFICATION_PENDING){
     advance(contest,'OUTCOME_VERIFICATION_PENDING','REGISTERED_CONTEST_CLOSE_REACHED_WITHOUT_VERIFIED_OUTCOME');
   }else if(openMs!=null && nowMs>=openMs && contest.status==='UPCOMING'){
     advance(contest,'CONTEST_WINDOW','REGISTERED_CONTEST_WINDOW_OPEN_REACHED');

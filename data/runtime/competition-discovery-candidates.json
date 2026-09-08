@@ -1,0 +1,60 @@
+{
+  "ledger_id": "POLITICAL-MAYHEM-COMPETITION-DISCOVERY-001",
+  "status": "ACTIVE",
+  "scope": "ALL_NINE_POLITICAL_FIELDS",
+  "rules": {
+    "source_activity_is_not_automatically_a_competition": true,
+    "empty_registered_contest_ledger_does_not_mean_quiet": true,
+    "candidate_is_not_a_registered_contest": true,
+    "discovery_is_forward_only": true,
+    "candidate_requires_source_lineage": true,
+    "candidate_requires_reviewed_or_verified_signal": true,
+    "promotion_requires_registered_competition_class": true,
+    "promotion_requires_registered_cycle": true,
+    "promotion_requires_class_threshold_evidence": true,
+    "rejection_is_retained": true,
+    "cross_jurisdiction_inference_is_prohibited": true
+  },
+  "candidate_states": [
+    "REVIEW_REQUIRED",
+    "EVIDENCE_GAP",
+    "ELIGIBLE_FOR_REGISTRATION",
+    "REGISTERED",
+    "REJECTED_NOT_COMPETITION"
+  ],
+  "competition_families": [
+    "ELECTION",
+    "LEGISLATION",
+    "LEADERSHIP",
+    "CONFIDENCE_SUPPLY",
+    "BUDGET",
+    "PROCEDURAL",
+    "POLICY_ENACTMENT"
+  ],
+  "screening_rules": {
+    "ELECTION": "Official electoral or reviewed political evidence indicates a specific election, by-election, nomination, candidacy, voting or government-formation contest.",
+    "LEGISLATION": "Reviewed or verified evidence identifies a bill, motion or parliamentary measure; registration still requires evidenced material resistance and sourced sides.",
+    "LEADERSHIP": "Reviewed or verified evidence identifies an actual leadership ballot, challenge, vacancy contest or materially opposed leadership process.",
+    "CONFIDENCE_SUPPLY": "Reviewed or verified evidence identifies an actual confidence, no-confidence, supply or government-survival contest.",
+    "BUDGET": "Reviewed or verified evidence identifies a materially contested budget or appropriation passage process; routine budget publication alone is insufficient.",
+    "PROCEDURAL": "Reviewed or verified evidence identifies a materially opposed parliamentary procedural objective with a verifiable result.",
+    "POLICY_ENACTMENT": "Reviewed or verified evidence identifies an explicit implementation objective facing material political resistance and a verifiable decision outcome."
+  },
+  "candidate_fields": [
+    "candidate_id",
+    "jurisdiction_id",
+    "competition_family",
+    "proposed_competition_class",
+    "subject",
+    "candidate_state",
+    "detected_at",
+    "source_snapshot_ids",
+    "signal_event_ids",
+    "review_ids",
+    "evidence_summary",
+    "registration_blockers",
+    "linked_contest_id",
+    "state_history"
+  ],
+  "candidates": []
+}

@@ -1,7 +1,7 @@
 {
-  "registry_id": "FORWARD-SIGNAL-SOURCE-REGISTRY-007",
+  "registry_id": "FORWARD-SIGNAL-SOURCE-REGISTRY-008",
   "status": "ACTIVE_EXPANDING_ALL_JURISDICTIONS",
-  "updated_at": "2026-09-09T07:43:00+10:00",
+  "updated_at": "2026-09-09T07:54:00+10:00",
   "capture_cadence": "HOURLY",
   "rules": {
     "forward_only": true,
@@ -34,6 +34,7 @@
     {"watch_id":"WATCH-ONENATION-NEWS","source_id":"SRC-ONENATION-FEDERAL-NEWS","name":"Pauline Hanson's One Nation — Latest News","url":"https://www.onenation.org.au/news","fallback_urls":["https://www.onenation.org.au/news.rss"],"jurisdiction_id":"AUS-FED","party_id":"AUS-FED-ONP","source_class":"PRIMARY_PARTY","capture_mode":"PUBLICATION_FEED_HASH","review_policy":"AUTO_PROMOTE_PUBLICATION_ADDITIONS","active":true},
 
     {"watch_id":"WATCH-NSW-HANSARD","source_id":"SRC-NSW-HANSARD","name":"Parliament of NSW — Hansard and House papers","url":"https://www.parliament.nsw.gov.au/parliamentary-business/hansard","fallback_urls":["https://www.parliament.nsw.gov.au/hansard/Pages/home.aspx"],"jurisdiction_id":"AUS-NSW","party_id":null,"source_class":"PRIMARY_PARLIAMENT","capture_mode":"NORMALISED_PAGE_HASH","review_policy":"REVIEW_UNSTRUCTURED_CHANGE","active":true},
+    {"watch_id":"WATCH-NSW-CURRENT-BILLS","source_id":"SRC-NSW-CURRENT-BILLS","name":"Parliament of NSW — Current session bills","url":"https://www.parliament.nsw.gov.au/parliamentary-business/bills/current-session-bills","fallback_urls":["https://www.parliament.nsw.gov.au/parliamentary-business/bills"],"jurisdiction_id":"AUS-NSW","party_id":null,"source_class":"PRIMARY_PARLIAMENT","capture_mode":"PUBLICATION_FEED_HASH","review_policy":"AUTO_PROMOTE_PUBLICATION_ADDITIONS","active":true},
     {"watch_id":"WATCH-NSW-MINISTERIAL-RELEASES","source_id":"SRC-NSW-MINISTERIAL-RELEASES","name":"NSW Government — Ministerial releases","url":"https://www.nsw.gov.au/ministerial-releases","fallback_urls":[],"jurisdiction_id":"AUS-NSW","party_id":null,"source_class":"PRIMARY_GOVERNMENT","capture_mode":"PUBLICATION_FEED_HASH","review_policy":"AUTO_PROMOTE_PUBLICATION_ADDITIONS","active":true},
     {"watch_id":"WATCH-NSWEC-MEDIA","source_id":"SRC-NSWEC-MEDIA","name":"NSW Electoral Commission — news and media releases","url":"https://elections.nsw.gov.au/about-us/media-centre/news-and-media-releases","fallback_urls":["https://elections.nsw.gov.au/"],"jurisdiction_id":"AUS-NSW","party_id":null,"source_class":"PRIMARY_ELECTORAL_AUTHORITY","capture_mode":"PUBLICATION_FEED_HASH","review_policy":"AUTO_PROMOTE_PUBLICATION_ADDITIONS","active":true},
 

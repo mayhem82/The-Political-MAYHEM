@@ -13,7 +13,8 @@
     "promotion_requires_registered_cycle": true,
     "promotion_requires_class_threshold_evidence": true,
     "rejection_is_retained": true,
-    "cross_jurisdiction_inference_is_prohibited": true
+    "cross_jurisdiction_inference_is_prohibited": true,
+    "all_nine_fields_must_record_screening_state": true
   },
   "candidate_states": [
     "REVIEW_REQUIRED",
@@ -21,6 +22,10 @@
     "ELIGIBLE_FOR_REGISTRATION",
     "REGISTERED",
     "REJECTED_NOT_COMPETITION"
+  ],
+  "screening_states": [
+    "NOT_YET_SCREENED",
+    "SCREENED"
   ],
   "competition_families": [
     "ELECTION",
@@ -45,6 +50,7 @@
     "jurisdiction_id",
     "competition_family",
     "proposed_competition_class",
+    "proposed_cycle_id",
     "subject",
     "candidate_state",
     "detected_at",
@@ -55,6 +61,17 @@
     "registration_blockers",
     "linked_contest_id",
     "state_history"
+  ],
+  "jurisdiction_screening": [
+    {"jurisdiction_id":"AUS-FED","screening_state":"NOT_YET_SCREENED","last_screened_at":null,"signals_examined":0,"candidates_detected":0},
+    {"jurisdiction_id":"AUS-NSW","screening_state":"NOT_YET_SCREENED","last_screened_at":null,"signals_examined":0,"candidates_detected":0},
+    {"jurisdiction_id":"AUS-VIC","screening_state":"NOT_YET_SCREENED","last_screened_at":null,"signals_examined":0,"candidates_detected":0},
+    {"jurisdiction_id":"AUS-QLD","screening_state":"NOT_YET_SCREENED","last_screened_at":null,"signals_examined":0,"candidates_detected":0},
+    {"jurisdiction_id":"AUS-WA","screening_state":"NOT_YET_SCREENED","last_screened_at":null,"signals_examined":0,"candidates_detected":0},
+    {"jurisdiction_id":"AUS-SA","screening_state":"NOT_YET_SCREENED","last_screened_at":null,"signals_examined":0,"candidates_detected":0},
+    {"jurisdiction_id":"AUS-TAS","screening_state":"NOT_YET_SCREENED","last_screened_at":null,"signals_examined":0,"candidates_detected":0},
+    {"jurisdiction_id":"AUS-ACT","screening_state":"NOT_YET_SCREENED","last_screened_at":null,"signals_examined":0,"candidates_detected":0},
+    {"jurisdiction_id":"AUS-NT","screening_state":"NOT_YET_SCREENED","last_screened_at":null,"signals_examined":0,"candidates_detected":0}
   ],
   "candidates": []
 }

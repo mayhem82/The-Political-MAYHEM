@@ -3,7 +3,7 @@
   "event": "2025 Federal Election",
   "jurisdiction_id": "AUS-FED",
   "chamber": "HOUSE",
-  "captured_at": "2026-09-08T02:50:57.366Z",
+  "captured_at": "2026-09-08T02:55:37.099Z",
   "status": "COMPLETE_150_DIVISION_CONTEXT_AND_2025_ELECTED_CANDIDATE_STATS_WITH_CURRENT_MEMBER_RECONCILIATION",
   "sources": [
     {
@@ -27,7 +27,8 @@
     "missing_candidate_specific_result_is_not_zero": true,
     "current_member_replacement_must_not_inherit_predecessor_election_stats": true,
     "candidate_specific_primary_is_derived_only_from_candidate_total_votes_over_division_formal_candidate_votes": true,
-    "final_tcp_is_taken_from_aec_final_seat_summary": true
+    "final_tcp_is_taken_from_aec_final_seat_summary": true,
+    "surname_reconciliation_requires_terminal_name_token_match": true
   },
   "fields": [
     "division",
@@ -1844,14 +1845,6 @@
     ]
   ],
   "current_player_election_party_overrides": {
-    "ACT-BARNABY-JOYCE": {
-      "election_party_code": "NP",
-      "reason": "Current affiliation differs from election-day affiliation; Barnaby Joyce was elected in New England in 2025 as The Nationals."
-    },
-    "ACT-DAVID-FARLEY": {
-      "election_party_code": "LP",
-      "reason": "Current affiliation differs from election-day affiliation; David Farley was elected in Farrer in 2025 as Liberal."
-    },
     "ACT-DAVID-SMITH": {
       "election_party_code": "ALP",
       "reason": "Current affiliation differs from election-day affiliation; David Smith was elected in Bean in 2025 as Australian Labor Party."
@@ -1868,9 +1861,17 @@
       "election_party_code": "NP",
       "reason": "Current affiliation differs from election-day affiliation; Pat Conaghan was elected in Cowper in 2025 as The Nationals."
     },
+    "ACT-DAVID-FARLEY": {
+      "election_party_code": null,
+      "reason": "Current member David Farley was not the 2025 general-election winner for Farrer; 2025 candidate statistics must not be attributed to this actor."
+    },
     "ACT-ALISON-PENFOLD": {
       "election_party_code": "NP",
       "reason": "Current affiliation differs from election-day affiliation; Alison Penfold was elected in Lyne in 2025 as The Nationals."
+    },
+    "ACT-BARNABY-JOYCE": {
+      "election_party_code": "NP",
+      "reason": "Current affiliation differs from election-day affiliation; Barnaby Joyce was elected in New England in 2025 as The Nationals."
     },
     "ACT-KEVIN-HOGAN": {
       "election_party_code": "NP",
@@ -2557,27 +2558,6 @@
       "source_class": "PRIMARY_ELECTORAL_AUTHORITY",
       "actor_id": "ACT-KRISTY-MCBAIN",
       "current_player_name": "Kristy McBain"
-    },
-    {
-      "event": "2025 Federal Election",
-      "division": "Farrer",
-      "state": "NSW",
-      "candidate_id": 41463,
-      "candidate_name": "Sussan LEY",
-      "election_party_code": "LP",
-      "election_party_name": "Liberal",
-      "primary_votes": 44743,
-      "formal_votes": 103063,
-      "primary_vote_percent": 43.41,
-      "primary_swing_points": -8.85,
-      "tcp_percent": 56.19,
-      "tcp_margin_votes": 12769,
-      "tcp_swing_points": 56.19,
-      "successful_party": "Liberal",
-      "declared": "29 May 25 AEST",
-      "source_class": "PRIMARY_ELECTORAL_AUTHORITY",
-      "actor_id": "ACT-DAVID-FARLEY",
-      "current_player_name": "David Farley"
     },
     {
       "event": "2025 Federal Election",
@@ -5391,16 +5371,44 @@
   "coverage": {
     "division_context_records": 150,
     "division_context_total": 150,
-    "candidate_specific_records": 5,
+    "candidate_specific_records": 150,
     "candidate_specific_expansion_state": "EXPANDING",
     "elected_2025_candidate_records": 150,
     "elected_2025_candidate_expected": 150,
     "current_house_players": 150,
     "current_players_with_candidate_specific_stats": 150,
     "current_players_without_candidate_specific_stats": 0,
-    "current_player_candidate_specific_expansion": "COMPLETE"
+    "current_player_candidate_specific_expansion": "COMPLETE",
+    "candidate_specific_2025_current_players": 149,
+    "historical_2025_winners_not_current_members": 1,
+    "later_event_candidate_specific_records": 1,
+    "current_players_with_any_candidate_specific_stats": 150,
+    "current_players_without_any_candidate_specific_stats": 0
   },
-  "historical_2025_winners_not_current_members": [],
+  "historical_2025_winners_not_current_members": [
+    {
+      "event": "2025 Federal Election",
+      "division": "Farrer",
+      "state": "NSW",
+      "candidate_id": 41463,
+      "candidate_name": "Sussan LEY",
+      "election_party_code": "LP",
+      "election_party_name": "Liberal",
+      "primary_votes": 44743,
+      "formal_votes": 103063,
+      "primary_vote_percent": 43.41,
+      "primary_swing_points": -8.85,
+      "tcp_percent": 56.19,
+      "tcp_margin_votes": 12769,
+      "tcp_swing_points": 56.19,
+      "successful_party": "Liberal",
+      "declared": "29 May 25 AEST",
+      "source_class": "PRIMARY_ELECTORAL_AUTHORITY",
+      "current_actor_id": "ACT-DAVID-FARLEY",
+      "current_player_name": "David Farley",
+      "replacement_state": "CURRENT_MEMBER_DIFFERS_FROM_2025_WINNER"
+    }
+  ],
   "unresolved_current_house_players": [],
   "provenance": {
     "primary_first_preferences": "https://results.aec.gov.au/31496/Website/Downloads/HouseFirstPrefsByCandidateByVoteTypeDownload-31496.csv",

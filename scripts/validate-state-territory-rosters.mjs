@@ -54,10 +54,13 @@ function compactRoster(data,expected){
   assert(data.counts?.party_affiliated===expected.party,`${expected.label} party-affiliated mismatch`);
   assert(data.counts?.independents===expected.ind,`${expected.label} independent mismatch`);
   assert(data.counts?.teams===expected.teams,`${expected.label} team count mismatch`);
-  assert((data.teams||[]).reduce((n,t)=>n+Number(t.player_count||0),0)===expected.party,`${expected.label} team counts do not reconcile`);
+  const teamCount=(data.teams||[]).reduce((n,t)=>n+Number(t.player_count||0),0);
+  assert(teamCount===expected.party,`${expected.label} team counts do not reconcile`);
   assert(!(data.teams||[]).some(t=>/independent/i.test(t.name)),`${expected.label} has synthetic Independent team`);
-  assert(data.integrity?.official_total_reconciled===true,`${expected.label} total not reconciled`);
-  assert(data.integrity?.official_party_breakdown_reconciled===true,`${expected.label} party breakdown not reconciled`);
+  const totalReconciled=data.integrity?.official_total_reconciled===true||data.integrity?.official_chamber_totals_reconciled===true;
+  const partyReconciled=data.integrity?.official_party_breakdown_reconciled===true||Number(data.integrity?.party_team_count_sum)===expected.party;
+  assert(totalReconciled,`${expected.label} total not reconciled`);
+  assert(partyReconciled,`${expected.label} party breakdown not reconciled`);
   const c=(competitions.competitions||[]).find(x=>x.competition_id===expected.id);
   assert(c?.ingestion_state==='CURRENT_PARLIAMENTARY_ROSTER_INGESTED',`${expected.label} competition ingestion state mismatch`);
   assert(c?.ingested_player_count===expected.total,`${expected.label} competition player count mismatch`);

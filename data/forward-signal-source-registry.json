@@ -1,7 +1,7 @@
 {
-  "registry_id": "FORWARD-SIGNAL-SOURCE-REGISTRY-003",
-  "status": "ACTIVE_EXPANDING",
-  "updated_at": "2026-09-08T14:25:00+10:00",
+  "registry_id": "FORWARD-SIGNAL-SOURCE-REGISTRY-004",
+  "status": "ACTIVE_EXPANDING_ALL_JURISDICTIONS",
+  "updated_at": "2026-09-08T19:25:00+10:00",
   "capture_cadence": "HOURLY",
   "rules": {
     "forward_only": true,
@@ -12,7 +12,8 @@
     "no_projection_effect_without_registered_target": true,
     "same_hash_must_not_create_duplicate_signal": true,
     "first_capture_establishes_baseline": true,
-    "fallback_must_preserve_same_primary_source_or_official_publisher": true
+    "fallback_must_preserve_same_primary_source_or_official_publisher": true,
+    "all_nine_political_fields_require_at_least_one_active_primary_source_watch": true
   },
   "sources": [
     {
@@ -36,6 +37,30 @@
       "jurisdiction_id": "AUS-FED",
       "party_id": null,
       "source_class": "PRIMARY_PARLIAMENT",
+      "capture_mode": "NORMALISED_PAGE_HASH",
+      "active": true
+    },
+    {
+      "watch_id": "WATCH-AEC-MEDIA",
+      "source_id": "SRC-AEC-MEDIA",
+      "name": "Australian Electoral Commission — media",
+      "url": "https://www.aec.gov.au/media/",
+      "fallback_urls": ["https://www.aec.gov.au/media/media-releases/"],
+      "jurisdiction_id": "AUS-FED",
+      "party_id": null,
+      "source_class": "PRIMARY_ELECTORAL_AUTHORITY",
+      "capture_mode": "NORMALISED_PAGE_HASH",
+      "active": true
+    },
+    {
+      "watch_id": "WATCH-ALP-NEWS",
+      "source_id": "SRC-ALP-FEDERAL-NEWS",
+      "name": "Australian Labor Party — news",
+      "url": "https://www.alp.org.au/news/",
+      "fallback_urls": ["https://www.alp.org.au/news"],
+      "jurisdiction_id": "AUS-FED",
+      "party_id": "AUS-FED-ALP",
+      "source_class": "PRIMARY_PARTY",
       "capture_mode": "NORMALISED_PAGE_HASH",
       "active": true
     },
@@ -88,6 +113,18 @@
       "active": true
     },
     {
+      "watch_id": "WATCH-NSW-HANSARD",
+      "source_id": "SRC-NSW-HANSARD",
+      "name": "Parliament of NSW — Hansard and House papers",
+      "url": "https://www.parliament.nsw.gov.au/parliamentary-business/hansard",
+      "fallback_urls": ["https://www.parliament.nsw.gov.au/hansard/Pages/home.aspx"],
+      "jurisdiction_id": "AUS-NSW",
+      "party_id": null,
+      "source_class": "PRIMARY_PARLIAMENT",
+      "capture_mode": "NORMALISED_PAGE_HASH",
+      "active": true
+    },
+    {
       "watch_id": "WATCH-NSW-MINISTERIAL-RELEASES",
       "source_id": "SRC-NSW-MINISTERIAL-RELEASES",
       "name": "NSW Government — Ministerial releases",
@@ -100,6 +137,18 @@
       "active": true
     },
     {
+      "watch_id": "WATCH-VIC-HANSARD",
+      "source_id": "SRC-VIC-HANSARD",
+      "name": "Parliament of Victoria — Hansard",
+      "url": "https://www.parliament.vic.gov.au/hansard/",
+      "fallback_urls": ["https://hansard.parliament.vic.gov.au/"],
+      "jurisdiction_id": "AUS-VIC",
+      "party_id": null,
+      "source_class": "PRIMARY_PARLIAMENT",
+      "capture_mode": "NORMALISED_PAGE_HASH",
+      "active": true
+    },
+    {
       "watch_id": "WATCH-VEC-2026-STATE-ELECTION",
       "source_id": "SRC-VEC-2026-STATE-ELECTION",
       "name": "Victorian Electoral Commission — 2026 state election",
@@ -108,6 +157,78 @@
       "jurisdiction_id": "AUS-VIC",
       "party_id": null,
       "source_class": "PRIMARY_ELECTORAL_AUTHORITY",
+      "capture_mode": "NORMALISED_PAGE_HASH",
+      "active": true
+    },
+    {
+      "watch_id": "WATCH-QLD-HANSARD",
+      "source_id": "SRC-QLD-HANSARD",
+      "name": "Queensland Parliament — Record of Proceedings",
+      "url": "https://www.parliament.qld.gov.au/Work-of-the-Assembly/Record-of-Proceedings/Latest-Record-of-Proceedings",
+      "fallback_urls": ["https://www.parliament.qld.gov.au/Work-of-the-Assembly/Record-of-Proceedings"],
+      "jurisdiction_id": "AUS-QLD",
+      "party_id": null,
+      "source_class": "PRIMARY_PARLIAMENT",
+      "capture_mode": "NORMALISED_PAGE_HASH",
+      "active": true
+    },
+    {
+      "watch_id": "WATCH-WA-HANSARD",
+      "source_id": "SRC-WA-HANSARD",
+      "name": "Parliament of Western Australia — Hansard search",
+      "url": "https://www.parliament.wa.gov.au/hansard/search/results",
+      "fallback_urls": ["https://www.parliament.wa.gov.au/4825795E0000B647/content/hansard-how-to-search-and-use-hansard"],
+      "jurisdiction_id": "AUS-WA",
+      "party_id": null,
+      "source_class": "PRIMARY_PARLIAMENT",
+      "capture_mode": "NORMALISED_PAGE_HASH",
+      "active": true
+    },
+    {
+      "watch_id": "WATCH-SA-PARLIAMENT",
+      "source_id": "SRC-SA-PARLIAMENT",
+      "name": "Parliament of South Australia — parliamentary business",
+      "url": "https://www.parliament.sa.gov.au/",
+      "fallback_urls": [],
+      "jurisdiction_id": "AUS-SA",
+      "party_id": null,
+      "source_class": "PRIMARY_PARLIAMENT",
+      "capture_mode": "NORMALISED_PAGE_HASH",
+      "active": true
+    },
+    {
+      "watch_id": "WATCH-TAS-HANSARD",
+      "source_id": "SRC-TAS-HANSARD",
+      "name": "Parliament of Tasmania — Hansard",
+      "url": "https://www.parliament.tas.gov.au/hansard",
+      "fallback_urls": [],
+      "jurisdiction_id": "AUS-TAS",
+      "party_id": null,
+      "source_class": "PRIMARY_PARLIAMENT",
+      "capture_mode": "NORMALISED_PAGE_HASH",
+      "active": true
+    },
+    {
+      "watch_id": "WATCH-ACT-PARLIAMENT",
+      "source_id": "SRC-ACT-PARLIAMENT",
+      "name": "ACT Legislative Assembly — parliamentary business",
+      "url": "https://www.parliament.act.gov.au/",
+      "fallback_urls": [],
+      "jurisdiction_id": "AUS-ACT",
+      "party_id": null,
+      "source_class": "PRIMARY_PARLIAMENT",
+      "capture_mode": "NORMALISED_PAGE_HASH",
+      "active": true
+    },
+    {
+      "watch_id": "WATCH-NT-PARLIAMENT",
+      "source_id": "SRC-NT-PARLIAMENT",
+      "name": "Northern Territory Legislative Assembly — parliamentary business",
+      "url": "https://parliament.nt.gov.au/",
+      "fallback_urls": [],
+      "jurisdiction_id": "AUS-NT",
+      "party_id": null,
+      "source_class": "PRIMARY_PARLIAMENT",
       "capture_mode": "NORMALISED_PAGE_HASH",
       "active": true
     }

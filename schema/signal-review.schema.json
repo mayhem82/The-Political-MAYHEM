@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://mayhem82.github.io/The-Political-MAYHEM/schema/signal-review.schema.json",
+  "title": "Political MAYHEM Source Change Review",
+  "type": "object",
+  "required": ["review_id", "source_change_event_id", "decision", "reviewed_at", "integrity"],
+  "properties": {
+    "review_id": {"type": "string"},
+    "source_change_event_id": {"type": "string"},
+    "decision": {"enum": ["PROMOTED_TO_SIGNAL", "EXCLUDED_AS_NON_SIGNAL"]},
+    "signal_event_id": {"type": ["string", "null"]},
+    "contest_id": {"type": ["string", "null"]},
+    "cycle_id": {"type": ["string", "null"]},
+    "party_id": {"type": ["string", "null"]},
+    "actor_id": {"type": ["string", "null"]},
+    "signal_state": {"enum": ["POSSIBLE_SIGNAL", "PROBABLE_SIGNAL", "CORROBORATED_SIGNAL", "CONFIRMED_FACT", "CONFLICTING", "EXCLUDED", null]},
+    "materiality_state": {"enum": ["IMMATERIAL", "MATERIAL", "CONTEST_RELEVANT", "UNKNOWN"]},
+    "claim": {"type": ["string", "null"]},
+    "review_basis": {"type": "string"},
+    "reviewed_at": {"type": "string", "format": "date-time"},
+    "reviewer_mode": {"enum": ["HUMAN", "ASSISTED", "DETERMINISTIC_RULE"]},
+    "integrity": {
+      "type": "object",
+      "required": ["source_change_unchanged", "review_append_only", "no_projection_effect_by_default"],
+      "properties": {
+        "source_change_unchanged": {"const": true},
+        "review_append_only": {"const": true},
+        "no_projection_effect_by_default": {"const": true}
+      }
+    }
+  },
+  "additionalProperties": true
+}

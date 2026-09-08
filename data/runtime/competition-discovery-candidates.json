@@ -138,26 +138,32 @@
       "proposed_competition_class": "PARLIAMENTARY_PROCEDURE",
       "proposed_cycle_id": "AUS-FED-48TH-PARLIAMENT",
       "subject": "Federal disallowance contest — Carbon Credits (Carbon Farming Initiative—Improved Forest Management in Multiple-use Public Native Forests) Methodology Determination 2026",
-      "candidate_state": "REVIEW_REQUIRED",
+      "candidate_state": "REGISTERED",
       "detected_at": "2026-09-09T09:04:32+10:00",
       "source_snapshot_ids": [
-        "SNAP-APH-DISALLOWANCE-20260909-0904"
+        "SNAP-APH-DISALLOWANCE-20260909-0904",
+        "SNAP-APH-DISALLOWANCE-F2026L00835-20260909-0928",
+        "SNAP-FRL-F2026L00835-20260909-0928"
       ],
       "signal_event_ids": [
         "INTEL-20260909-APH-DISALLOWANCE-001"
       ],
       "review_ids": [],
-      "evidence_summary": "Official Parliament of Australia evidence records unresolved disallowance action against the 2026 native-forest carbon methodology determination. Senator Cadell's motion is postponed to 15 September 2026 and a separate House disallowance notice by Mr Tehan is also unresolved. This establishes a current procedural competition candidate within the 48th Parliament; opposing-side composition still requires resolution before match registration.",
-      "registration_blockers": [
-        "MATERIAL_PROCEDURAL_OPPOSITION_REQUIRES_REVIEW"
-      ],
-      "linked_contest_id": null,
+      "evidence_summary": "Primary Parliament of Australia evidence records unresolved notices by Senator Ross Cadell and Dan Tehan MP seeking disallowance of F2026L00835, while the Federal Register records the instrument as in force. The contest object, opposing procedural objectives, arena and verifiable result are therefore sufficiently defined for match registration.",
+      "registration_blockers": [],
+      "linked_contest_id": "AUS-FED-48P-F2026L00835-DISALLOWANCE",
       "state_history": [
         {
           "from": null,
           "to": "REVIEW_REQUIRED",
           "at": "2026-09-09T09:04:32+10:00",
           "reason": "CURRENT_PRIMARY_PARLIAMENT_COMPETITION_INGEST"
+        },
+        {
+          "from": "REVIEW_REQUIRED",
+          "to": "REGISTERED",
+          "at": "2026-09-09T09:29:00+10:00",
+          "reason": "PRIMARY_EVIDENCE_RESOLVED_CONTEST_OBJECT_RESISTANCE_SIDES_AND_VERIFIABLE_PROCEDURAL_OUTCOME"
         }
       ]
     },

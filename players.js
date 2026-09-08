@@ -1,4 +1,4 @@
-const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot',"'":'&#39;'}[c]));
+const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const words=s=>String(s??'UNKNOWN').replaceAll('_',' ');
 const chamberLabel=c=>words(c||'UNKNOWN');
 const divKey=s=>String(s??'').toLowerCase().replace(/[^a-z0-9]/g,'');

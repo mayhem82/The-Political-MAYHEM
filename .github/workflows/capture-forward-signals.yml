@@ -8,8 +8,11 @@ on:
     branches: [main]
     paths:
       - 'scripts/capture-forward-signals.mjs'
+      - 'scripts/review-forward-signals.mjs'
       - 'scripts/reconcile-political-lifecycle.mjs'
+      - 'scripts/validate-forward-signal-integrity.mjs'
       - 'data/forward-signal-source-registry.json'
+      - 'data/forward-signal-review-policy.json'
       - 'data/runtime/political-cycles.json'
       - 'data/runtime/political-contests.json'
       - 'data/runtime/contest-checkpoints.json'
@@ -33,8 +36,10 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 22
-      - name: Capture forward signals
+      - name: Capture raw forward source state
         run: node scripts/capture-forward-signals.mjs
+      - name: Review structured source changes
+        run: node scripts/review-forward-signals.mjs
       - name: Reconcile political lifecycle
         run: node scripts/reconcile-political-lifecycle.mjs
       - name: Validate resulting forward state
@@ -42,15 +47,15 @@ jobs:
           node scripts/validate-forward-signal-integrity.mjs
           node scripts/validate-projection-integrity.mjs
           node scripts/validate-political-lifecycle.mjs
-      - name: Commit captured and reconciled state
+      - name: Commit captured, reviewed and reconciled state
         run: |
-          if git diff --quiet -- data/runtime/forward-signal-capture-state.json data/runtime/source-snapshots.json data/runtime/intelligence-events.json data/runtime/forward-ingestion-manifest.json data/runtime/political-cycles.json data/runtime/political-contests.json data/runtime/contest-checkpoints.json; then
+          if git diff --quiet -- data/runtime/forward-signal-capture-state.json data/runtime/source-snapshots.json data/runtime/intelligence-events.json data/runtime/signal-reviews.json data/runtime/forward-ingestion-manifest.json data/runtime/political-cycles.json data/runtime/political-contests.json data/runtime/contest-checkpoints.json; then
             echo 'No new forward signal or lifecycle state.'
             exit 0
           fi
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add data/runtime/forward-signal-capture-state.json data/runtime/source-snapshots.json data/runtime/intelligence-events.json data/runtime/forward-ingestion-manifest.json data/runtime/political-cycles.json data/runtime/political-contests.json data/runtime/contest-checkpoints.json
-          git commit -m 'Capture forward political state'
+          git add data/runtime/forward-signal-capture-state.json data/runtime/source-snapshots.json data/runtime/intelligence-events.json data/runtime/signal-reviews.json data/runtime/forward-ingestion-manifest.json data/runtime/political-cycles.json data/runtime/political-contests.json data/runtime/contest-checkpoints.json
+          git commit -m 'Capture and review forward political state'
           git pull --rebase origin main
           git push origin main

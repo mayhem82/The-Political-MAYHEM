@@ -1,5 +1,5 @@
 {
-  "registry_id": "POLITICAL-PLAYER-STAT-REGISTRY-004",
+  "registry_id": "POLITICAL-PLAYER-STAT-REGISTRY-005",
   "status": "EXPANDING",
   "purpose": "Define political-player statistics in native political units while retaining the sports translation layer for legibility.",
   "rules": {
@@ -15,6 +15,7 @@
     "historical_election_party_must_not_be_rewritten_by_current_affiliation": true,
     "current_member_replacement_must_not_inherit_predecessor_election_stats": true,
     "senate_group_first_preference_must_not_be_labelled_individual_primary_vote": true,
+    "senate_replacement_must_not_inherit_predecessor_election_stats": true,
     "senate_replacement_must_not_inherit_predecessor_elected_record": true
   },
   "groups": [

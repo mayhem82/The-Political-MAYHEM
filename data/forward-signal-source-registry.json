@@ -1,19 +1,23 @@
 {
-  "registry_id": "FORWARD-SIGNAL-SOURCE-REGISTRY-004",
+  "registry_id": "FORWARD-SIGNAL-SOURCE-REGISTRY-005",
   "status": "ACTIVE_EXPANDING_ALL_JURISDICTIONS",
-  "updated_at": "2026-09-08T19:25:00+10:00",
+  "updated_at": "2026-09-09T05:05:00+10:00",
   "capture_cadence": "HOURLY",
   "rules": {
     "forward_only": true,
-    "source_change_is_a_possible_signal_not_a_substantive_fact": true,
+    "first_capture_establishes_baseline": true,
+    "raw_source_change_is_not_a_political_signal": true,
+    "raw_source_change_is_preserved_as_source_changed_event": true,
+    "semantic_promotion_requires_explicit_review_record": true,
     "semantic_promotion_requires_source_specific_extraction_or_review": true,
     "observation_must_remain_distinct_from_inference": true,
     "party_claims_must_remain_attributed": true,
     "no_projection_effect_without_registered_target": true,
-    "same_hash_must_not_create_duplicate_signal": true,
-    "first_capture_establishes_baseline": true,
+    "raw_source_change_must_not_enter_projection_lineage": true,
+    "same_hash_must_not_create_duplicate_change": true,
     "fallback_must_preserve_same_primary_source_or_official_publisher": true,
-    "all_nine_political_fields_require_at_least_one_active_primary_source_watch": true
+    "all_nine_political_fields_require_at_least_one_active_primary_source_watch": true,
+    "legacy_possible_signal_records_are_retained_and_not_rewritten": true
   },
   "sources": [
     {

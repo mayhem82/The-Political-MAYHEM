@@ -8,6 +8,7 @@ const MANIFEST='data/runtime/forward-ingestion-manifest.json';
 const read=p=>JSON.parse(fs.readFileSync(p,'utf8'));
 const write=(p,v)=>fs.writeFileSync(p,JSON.stringify(v,null,2)+'\n');
 const same=(a,b)=>JSON.stringify(a)===JSON.stringify(b);
+const allowedSeedModes=new Set(['FORWARD_ONLY','TEMPORAL_PROVENANCE']);
 
 const snapshots=read(SNAPSHOTS);
 const events=read(EVENTS);
@@ -22,7 +23,7 @@ let latestCapture=null;
 const files=fs.existsSync(SEED_DIR)?fs.readdirSync(SEED_DIR).filter(f=>f.endsWith('.json')).sort():[];
 for(const file of files){
   const seed=read(path.join(SEED_DIR,file));
-  if(seed.mode!=='FORWARD_ONLY') throw new Error(`${file}: seed mode must be FORWARD_ONLY`);
+  if(!allowedSeedModes.has(seed.mode)) throw new Error(`${file}: seed mode must be FORWARD_ONLY or TEMPORAL_PROVENANCE`);
   for(const snap of seed.snapshots||[]){
     if(!snap.snapshot_id||!snap.source_url||!snap.captured_at||!snap.content_hash) throw new Error(`${file}: incomplete source snapshot`);
     const prior=snapshotById.get(snap.snapshot_id);

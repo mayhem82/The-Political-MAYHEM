@@ -1,7 +1,7 @@
 {
   "snapshot_id": "POLITICAL-CONTEST-LEDGER-001",
   "created_at": "2026-09-08T14:15:00+10:00",
-  "updated_at": "2026-09-09T09:29:00+10:00",
+  "updated_at": "2026-09-09T09:47:00+10:00",
   "timebase": "Australia/Sydney",
   "contests": [
     {
@@ -123,6 +123,96 @@
         "evidence_uses_temporal_provenance": true
       },
       "integrity_note": "Registration records a genuine procedural contest: named parliamentarians are seeking disallowance while the instrument remains in force. It does not infer that every government member actively supports the instrument."
+    },
+    {
+      "contest_id": "AUS-NSW-58P-BILL-18794",
+      "cycle_id": "AUS-NSW-58TH-PARLIAMENT",
+      "jurisdiction": "New South Wales",
+      "competition_class": "LEGISLATIVE",
+      "contest_type": "BILL_PASSAGE_WITH_RESISTANCE",
+      "name": "Abortion Law Reform Amendment (Sex Selection Prohibition) Bill 2025",
+      "electorate_or_scope": "58th Parliament — Legislative Council",
+      "scheduled_at": null,
+      "window_open_at": "2026-09-09T09:28:00+10:00",
+      "close_at": null,
+      "outcome_expected_at": null,
+      "evidence_cutoff": "2026-09-09T09:28:00+10:00",
+      "status": "CONTEST_WINDOW",
+      "party_ids": [],
+      "actor_ids": [
+        "NSW-JOHN-RUDDICK",
+        "NSW-STEPHEN-LAWRENCE"
+      ],
+      "measure": {
+        "measure_type": "BILL",
+        "title": "Abortion Law Reform Amendment (Sex Selection Prohibition) Bill 2025",
+        "bill_id": "18794",
+        "originating_chamber": "LEGISLATIVE_COUNCIL"
+      },
+      "objective": {
+        "supporting_side": "Pass the bill as introduced",
+        "opposing_side": "Alter or defeat passage as introduced"
+      },
+      "current_stage": "LEGISLATIVE_COUNCIL_SECOND_READING_DEBATE_ADJOURNED",
+      "supporting_side": {
+        "party_ids": [],
+        "actor_ids": [
+          "NSW-JOHN-RUDDICK"
+        ],
+        "source_snapshot_ids": [
+          "SNAP-NSW-ABORTION-BILL-18794-20260909-0928"
+        ],
+        "position_scope": "MEMBER_WITH_CARRIAGE",
+        "position_note": "John Ruddick is the member with carriage. This establishes his player role in seeking passage; no Libertarian Party-wide position is inferred from that fact alone."
+      },
+      "opposing_side": {
+        "party_ids": [],
+        "actor_ids": [
+          "NSW-STEPHEN-LAWRENCE"
+        ],
+        "source_snapshot_ids": [
+          "SNAP-NSW-ABORTION-BILL-18794-20260909-0928"
+        ],
+        "position_scope": "ALTERING_POSITION_EVIDENCED_NOT_OUTRIGHT_DEFEAT_ASSUMED",
+        "position_note": "Stephen Lawrence has a lodged amendment set. This evidences a contest over passage as introduced; it is not treated as proof that he seeks outright defeat of the bill, and no Labor Party-wide position is inferred."
+      },
+      "material_resistance": {
+        "state": "EVIDENCED",
+        "description": "The bill remains in second-reading debate and has lodged Legislative Council amendment sets, establishing material resistance to passage in its introduced form.",
+        "source_snapshot_ids": [
+          "SNAP-NSW-ABORTION-BILL-18794-20260909-0928"
+        ]
+      },
+      "verified_outcome_options": [
+        "PASSED",
+        "DEFEATED",
+        "WITHDRAWN",
+        "LAPSED"
+      ],
+      "current_projection_id": null,
+      "verified_outcome_id": null,
+      "source_refs": [
+        "AUTO-WATCH-NSW-CURRENT-BILLS-20260908231347",
+        "SNAP-NSW-ABORTION-BILL-18794-20260909-0928"
+      ],
+      "created_at": "2026-09-09T09:47:00+10:00",
+      "updated_at": "2026-09-09T09:47:00+10:00",
+      "lifecycle_history": [
+        {
+          "from": null,
+          "to": "CONTEST_WINDOW",
+          "at": "2026-09-09T09:47:00+10:00",
+          "reason": "PRIMARY_NSW_PARLIAMENT_EVIDENCES_SECOND_READING_CONTEST_AND_LODGED_AMENDMENTS"
+        }
+      ],
+      "integrity": {
+        "material_resistance_required": true,
+        "side_positions_require_source_lineage": true,
+        "outcome_requires_verification": true,
+        "player_position_changes_require_temporal_provenance": true,
+        "party_position_not_inferred_from_individual_player": true
+      },
+      "integrity_note": "This match is defined as passage as introduced versus alteration or defeat as introduced. A lodged amendment is not converted into an unsupported claim of outright opposition, and individual player actions do not establish team-wide positions."
     }
   ],
   "rules": {

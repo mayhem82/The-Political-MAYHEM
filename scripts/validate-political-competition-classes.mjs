@@ -21,21 +21,32 @@ assert(registry.rules?.one_player_may_participate_in_multiple_competition_classe
 assert(registry.rules?.parliamentary_roster_membership_does_not_define_complete_competition_slate===true,'roster/competition-slate separation missing');
 assert(registry.rules?.contest_registration_requires_evidence_lineage===true,'contest evidence-lineage requirement missing');
 assert(registry.rules?.competition_outcome_requires_verification===true,'verified-outcome requirement missing');
+assert(registry.rules?.continuous_competition_field_is_not_the_same_as_a_registered_match===true,'continuous-field/registered-match separation missing');
+assert(registry.rules?.absence_of_registered_match_is_not_evidence_of_no_competition===true,'empty registered-match ledger must not imply no competition');
 
 const classes=registry.classes||[];
 const classIds=classes.map(x=>x.competition_class);
-assert(classes.length>=2,'expected at least electoral and legislative competition classes');
+const requiredClasses=['ELECTORAL','LEGISLATIVE','LEADERSHIP','CONFIDENCE_SUPPLY','BUDGET','POLICY_ENACTMENT','PARLIAMENTARY_PROCEDURE','PUBLIC_PRESSURE'];
 assert(unique(classIds),'competition class IDs are not unique');
 const byId=new Map(classes.map(x=>[x.competition_class,x]));
-assert(byId.has('ELECTORAL'),'ELECTORAL competition class missing');
-assert(byId.has('LEGISLATIVE'),'LEGISLATIVE competition class missing');
+for(const required of requiredClasses)assert(byId.has(required),`${required} competition class missing`);
+assert(classes.length>=requiredClasses.length,`expected at least ${requiredClasses.length} Political MAYHEM competition classes`);
 
 for(const c of classes){
   assert(Boolean(c.public_label),`${c.competition_class||'UNKNOWN'} public_label missing`);
   assert(Boolean(c.definition),`${c.competition_class||'UNKNOWN'} definition missing`);
   assert(Boolean(c.competition_object),`${c.competition_class||'UNKNOWN'} competition_object missing`);
   assert(Boolean(c.participant_model),`${c.competition_class||'UNKNOWN'} participant_model missing`);
+  assert(Boolean(c.field_mode),`${c.competition_class||'UNKNOWN'} field_mode missing`);
 }
+for(const required of requiredClasses.filter(x=>x!=='ELECTORAL')){
+  assert(byId.get(required)?.field_mode==='CONTINUOUS_DISCOVERY_WITH_DISCRETE_MATCHES',`${required} must remain a continuous discovery field with discrete evidence-backed matches`);
+}
+
+const publicPressure=byId.get('PUBLIC_PRESSURE');
+assert(publicPressure?.integrity?.institutional_self_reporting_does_not_prove_public_gain===true,'public-pressure institutional self-reporting boundary missing');
+assert(publicPressure?.integrity?.public_gain_requires_measurable_outcome_evidence===true,'public-pressure measurable gain rule missing');
+assert(publicPressure?.integrity?.causal_claim_that_public_pressure_forced_concession_requires_evidence===true,'public-pressure causation rule missing');
 
 assert(cycleRegistry.status==='ACTIVE','cycle class registry is not ACTIVE');
 assert(cycleRegistry.rules?.contest_must_belong_to_registered_cycle===true,'registered-cycle rule missing');
@@ -60,17 +71,13 @@ const legislative=byId.get('LEGISLATIVE');
 if(legislative){
   assert(legislative.registration_threshold==='MATERIAL_RESISTANCE_EVIDENCED','legislative contests must require evidenced material resistance');
   const events=new Set(legislative.match_events||[]);
-  for(const required of ['INTRODUCTION','AMENDMENT','COMMITTEE_STAGE','CROSSBENCH_NEGOTIATION','PROCEDURAL_MOVE','DIVISION_OR_VOTE','WITHDRAWAL']){
-    assert(events.has(required),`legislative match event missing: ${required}`);
-  }
+  for(const required of ['INTRODUCTION','AMENDMENT','COMMITTEE_STAGE','CROSSBENCH_NEGOTIATION','PROCEDURAL_MOVE','DIVISION_OR_VOTE','WITHDRAWAL'])assert(events.has(required),`legislative match event missing: ${required}`);
   const outcomes=new Set(legislative.verified_outcomes||[]);
-  for(const required of ['PASSED','DEFEATED','WITHDRAWN','LAPSED']){
-    assert(outcomes.has(required),`legislative verified outcome missing: ${required}`);
-  }
+  for(const required of ['PASSED','DEFEATED','WITHDRAWN','LAPSED'])assert(outcomes.has(required),`legislative verified outcome missing: ${required}`);
   assert(legislative.integrity?.proposal_without_material_resistance_is_not_automatically_a_competition===true,'uncontested proposal exclusion missing');
   assert(legislative.integrity?.support_or_opposition_requires_source_lineage===true,'legislative side lineage requirement missing');
   assert(legislative.integrity?.vote_or_passage_status_requires_verification===true,'legislative outcome verification requirement missing');
-  assert(legislative.integrity?.player_position_may_change_only_from_forward_evidence===true,'legislative forward-position rule missing');
+  assert(legislative.integrity?.player_position_change_requires_temporal_provenance===true,'legislative player-position temporal provenance rule missing');
 }
 
 const legislativeTypes=new Set(['BILL_PASSAGE_WITH_RESISTANCE','MOTION_PASSAGE_WITH_RESISTANCE','PARLIAMENTARY_MEASURE_WITH_RESISTANCE']);
@@ -128,7 +135,7 @@ for(const contest of contests.contests||[]){
     assert(contest.integrity?.material_resistance_required===true,`${contest.contest_id}: material-resistance integrity rule missing`);
     assert(contest.integrity?.side_positions_require_source_lineage===true,`${contest.contest_id}: side-lineage integrity rule missing`);
     assert(contest.integrity?.outcome_requires_verification===true,`${contest.contest_id}: outcome-verification integrity rule missing`);
-    assert(contest.integrity?.player_position_changes_require_forward_evidence===true,`${contest.contest_id}: forward player-position rule missing`);
+    if(contest.integrity?.player_position_changes_require_forward_evidence!==undefined)assert(false,`${contest.contest_id}: obsolete forward-only player-position rule remains`);
     if(contest.status==='VERIFIED_OUTCOME') assert(legislativeOutcomes.has(contest.verified_outcome),`${contest.contest_id}: verified legislative outcome invalid`);
   }
 }
@@ -138,4 +145,4 @@ if(fail.length){
   for(const message of fail) console.error('- '+message);
   process.exit(1);
 }
-console.log('POLITICAL_MAYHEM_COMPETITION_CLASS_INTEGRITY_PASS',`classes=${classes.length}`,`cycleClasses=${cycleClasses.length}`,`contests=${(contests.contests||[]).length}`,`legislative=${(contests.contests||[]).filter(x=>x.competition_class==='LEGISLATIVE').length}`,'sport=POLITICAL_MAYHEM','legislativeThreshold=MATERIAL_RESISTANCE_EVIDENCED');
+console.log('POLITICAL_MAYHEM_COMPETITION_CLASS_INTEGRITY_PASS',`classes=${classes.length}`,`continuous=${classes.filter(x=>x.field_mode==='CONTINUOUS_DISCOVERY_WITH_DISCRETE_MATCHES').length}`,`cycleClasses=${cycleClasses.length}`,`contests=${(contests.contests||[]).length}`,'sport=POLITICAL_MAYHEM');

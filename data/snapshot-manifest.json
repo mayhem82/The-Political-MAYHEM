@@ -1,5 +1,5 @@
 {
-  "snapshot_id": "POLITICAL-MAYHEM-CANONICAL-018",
+  "snapshot_id": "POLITICAL-MAYHEM-CANONICAL-019",
   "status": "EXPANDING",
   "canonical": {
     "cycle_schema": {"path": "data/canonical/political-cycle.schema.json"},
@@ -8,6 +8,7 @@
     "actor_schema": {"path": "data/canonical/actor.schema.json"},
     "source_registry": {"path": "data/source-class-registry.json"},
     "forward_signal_source_registry": {"path": "data/forward-signal-source-registry.json"},
+    "forward_signal_review_policy": {"path": "data/forward-signal-review-policy.json"},
     "player_stat_registry": {"path": "data/player-stat-registry.json"},
     "source_snapshot_schema": {"path": "schema/source-snapshot.schema.json"},
     "intelligence_event_schema": {"path": "schema/intelligence-event.schema.json"},
@@ -61,6 +62,13 @@
     "signal_review_ledger_append_only": true,
     "excluded_source_changes_are_retained": true,
     "promoted_signals_retain_parent_source_change_lineage": true,
+    "all_nine_fields_have_multi_source_forward_capture": true,
+    "structured_publication_capture_is_order_independent": true,
+    "capture_mode_migration_cannot_create_false_signal": true,
+    "deterministic_signal_review_is_limited_to_structured_publication_additions": true,
+    "deterministic_signal_review_does_not_verify_underlying_publication_claims": true,
+    "removal_only_publication_change_is_not_auto_promoted": true,
+    "unstructured_source_change_requires_review": true,
     "frozen_tip_probability_required": true,
     "projection_grading_rule_precommitted": true,
     "projection_pre_outcome_payload_hashed": true,

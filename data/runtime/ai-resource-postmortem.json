@@ -1,0 +1,57 @@
+{
+  "schema_version": "1.0",
+  "record_id": "POLITICAL-MAYHEM-AI-RESOURCE-POSTMORTEM-001",
+  "scope": {
+    "system": "The Political MAYHEM",
+    "chat_threads": 3,
+    "thread_count_status": "USER_REPORTED",
+    "purpose": "Postmortem accounting for three exhausted ChatGPT build threads"
+  },
+  "thread_limit_finding": {
+    "limit_reached_events": 3,
+    "limiting_variable": null,
+    "threshold_value": null,
+    "value_at_termination": null,
+    "user_visible_capacity_specification": "NOT_PROVIDED",
+    "independent_threshold_reproducibility": "NOT_CURRENTLY_POSSIBLE",
+    "finding": "A thread termination boundary is reported as reached, but the user-facing record does not expose the limiting variable, its threshold, or the measured value at termination. The boundary is therefore not quantitatively auditable from the available conversation record."
+  },
+  "measurement_policy": {
+    "measured": "Directly available from a source or countable event",
+    "derived": "Calculated from measured inputs",
+    "estimated": "Modelled from stated assumptions and external reference data",
+    "unknown": "Not available and not to be fabricated"
+  },
+  "cost_dimensions": [
+    {"id": 1, "metric": "threads_consumed", "status": "MEASURED", "value": 3},
+    {"id": 2, "metric": "user_turns", "status": "UNKNOWN"},
+    {"id": 3, "metric": "assistant_generations", "status": "UNKNOWN"},
+    {"id": 4, "metric": "user_words_characters", "status": "UNKNOWN"},
+    {"id": 5, "metric": "assistant_words_characters", "status": "UNKNOWN"},
+    {"id": 6, "metric": "estimated_input_tokens", "status": "UNKNOWN"},
+    {"id": 7, "metric": "estimated_output_tokens", "status": "UNKNOWN"},
+    {"id": 8, "metric": "cumulative_context_load", "status": "UNKNOWN"},
+    {"id": 9, "metric": "cognition_compute_load", "status": "UNKNOWN"},
+    {"id": 10, "metric": "ai_electricity_wh_kwh", "status": "UNKNOWN"},
+    {"id": 11, "metric": "cooling_water", "status": "UNKNOWN"},
+    {"id": 12, "metric": "api_equivalent_inference_cost", "status": "UNKNOWN"},
+    {"id": 13, "metric": "tool_invocations", "status": "PARTIAL"},
+    {"id": 14, "metric": "web_research_activity", "status": "PARTIAL"},
+    {"id": 15, "metric": "github_ci_activity", "status": "PARTIAL"},
+    {"id": 16, "metric": "failed_generations", "status": "PARTIAL"},
+    {"id": 17, "metric": "retries", "status": "UNKNOWN"},
+    {"id": 18, "metric": "rework", "status": "UNKNOWN"},
+    {"id": 19, "metric": "latency_wait_time", "status": "UNKNOWN"},
+    {"id": 20, "metric": "human_input_burden", "status": "UNKNOWN"},
+    {"id": 21, "metric": "verification_burden", "status": "PARTIAL"},
+    {"id": 22, "metric": "persistent_output_yield", "status": "PARTIAL"},
+    {"id": 23, "metric": "waste_ratio", "status": "PENDING_DERIVATION"},
+    {"id": 24, "metric": "cost_per_retained_increment", "status": "PENDING_DERIVATION"}
+  ],
+  "guardrails": [
+    "Do not infer a numeric thread maximum from an API context-window specification.",
+    "Do not label estimated energy, water, cognition, token, or monetary values as measured.",
+    "Do not substitute an average-query benchmark for long-context thread telemetry without an explicit model and uncertainty range.",
+    "Preserve unknown values as unknown until evidence becomes available."
+  ]
+}

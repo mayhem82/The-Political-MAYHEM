@@ -1,0 +1,28 @@
+{
+  "field_id": "AUSTRALIAN-POLITICAL-COMPETITIONS-001",
+  "captured_at": "2026-09-08T10:20:00+10:00",
+  "status": "ACTIVE_MULTI_JURISDICTION_FIELD",
+  "sports_translation": {
+    "federal": "FINALS",
+    "states_and_territories": "ACTIVE_COMPETITIONS",
+    "rule": "Federal politics is the national finals layer; state and territory political fields continue independently and concurrently rather than disappearing beneath the federal field."
+  },
+  "competitions": [
+    {"competition_id":"AUS-FED","jurisdiction":"Australia","level":"FEDERAL","public_label":"Federal Finals","field_state":"ACTIVE","ingestion_state":"SOURCE_CAPTURE_STARTED","player_state":"226_CURRENT_PARLIAMENTARIANS_INGESTED"},
+    {"competition_id":"AUS-NSW","jurisdiction":"New South Wales","level":"STATE","public_label":"NSW","field_state":"ACTIVE","ingestion_state":"STRUCTURAL_INGESTION_PENDING","player_state":"PENDING"},
+    {"competition_id":"AUS-VIC","jurisdiction":"Victoria","level":"STATE","public_label":"Victoria","field_state":"ACTIVE","ingestion_state":"STRUCTURAL_INGESTION_PENDING","player_state":"PENDING"},
+    {"competition_id":"AUS-QLD","jurisdiction":"Queensland","level":"STATE","public_label":"Queensland","field_state":"ACTIVE","ingestion_state":"STRUCTURAL_INGESTION_PENDING","player_state":"PENDING"},
+    {"competition_id":"AUS-WA","jurisdiction":"Western Australia","level":"STATE","public_label":"Western Australia","field_state":"ACTIVE","ingestion_state":"STRUCTURAL_INGESTION_PENDING","player_state":"PENDING"},
+    {"competition_id":"AUS-SA","jurisdiction":"South Australia","level":"STATE","public_label":"South Australia","field_state":"ACTIVE","ingestion_state":"STRUCTURAL_INGESTION_PENDING","player_state":"PENDING"},
+    {"competition_id":"AUS-TAS","jurisdiction":"Tasmania","level":"STATE","public_label":"Tasmania","field_state":"ACTIVE","ingestion_state":"STRUCTURAL_INGESTION_PENDING","player_state":"PENDING"},
+    {"competition_id":"AUS-ACT","jurisdiction":"Australian Capital Territory","level":"TERRITORY","public_label":"ACT","field_state":"ACTIVE","ingestion_state":"STRUCTURAL_INGESTION_PENDING","player_state":"PENDING"},
+    {"competition_id":"AUS-NT","jurisdiction":"Northern Territory","level":"TERRITORY","public_label":"Northern Territory","field_state":"ACTIVE","ingestion_state":"STRUCTURAL_INGESTION_PENDING","player_state":"PENDING"}
+  ],
+  "integrity": {
+    "jurisdictions_remain_distinct": true,
+    "state_events_do_not_rewrite_federal_state": true,
+    "federal_events_do_not_overwrite_state_state": true,
+    "cross_jurisdiction_relationships_require_explicit_lineage": true,
+    "all_fields_are_continuously_live": true
+  }
+}

@@ -21,6 +21,8 @@ jobs:
           node-version: '22'
       - name: Validate player card JavaScript syntax
         run: node --check players.js
+      - name: Validate player finals history
+        run: node scripts/validate-player-finals-history.mjs
       - name: Validate forward integrity
         run: node scripts/validate-forward-integrity.mjs
       - name: Validate forward signal capture

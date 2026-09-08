@@ -1,5 +1,5 @@
 {
-  "registry_id": "POLITICAL-MAYHEM-COMPETITION-CLASSES-001",
+  "registry_id": "POLITICAL-MAYHEM-COMPETITION-CLASSES-002",
   "status": "ACTIVE",
   "model": "POLITICAL_MAYHEM_SPORT",
   "rules": {
@@ -9,53 +9,101 @@
     "one_player_may_participate_in_multiple_competition_classes": true,
     "parliamentary_roster_membership_does_not_define_complete_competition_slate": true,
     "contest_registration_requires_evidence_lineage": true,
-    "competition_outcome_requires_verification": true
+    "competition_outcome_requires_verification": true,
+    "continuous_competition_field_is_not_the_same_as_a_registered_match": true,
+    "absence_of_registered_match_is_not_evidence_of_no_competition": true
   },
   "classes": [
     {
       "competition_class": "ELECTORAL",
       "public_label": "Election",
+      "field_mode": "PERIODIC_DISCRETE_MATCHES",
       "definition": "A political contest in which an electoral process determines representation, government formation or another registered electoral outcome.",
       "competition_object": "ELECTION_OR_ELECTORAL_OUTCOME",
       "participant_model": "CANDIDATES_PARTIES_TEAMS_OR_REGISTERED_SIDES",
-      "example_contest_types": [
-        "STATE_GENERAL_ELECTION_GOVERNMENT_FORMATION"
-      ],
-      "outcome_examples": [
-        "ELECTED",
-        "DEFEATED",
-        "GOVERNMENT_FORMED",
-        "NO_VERIFIED_OUTCOME_YET"
-      ]
+      "example_contest_types": ["GENERAL_ELECTION","BY_ELECTION","GOVERNMENT_FORMATION"],
+      "outcome_examples": ["ELECTED","DEFEATED","GOVERNMENT_FORMED","NO_VERIFIED_OUTCOME_YET"]
     },
     {
       "competition_class": "LEGISLATIVE",
       "public_label": "Legislative Contest",
-      "definition": "A political contest over whether a bill, motion or other parliamentary measure succeeds against material resistance.",
+      "field_mode": "CONTINUOUS_DISCOVERY_WITH_DISCRETE_MATCHES",
+      "definition": "Competition over whether a bill, motion or other parliamentary measure succeeds against material resistance.",
       "competition_object": "BILL_MOTION_OR_PARLIAMENTARY_MEASURE",
       "participant_model": "SUPPORTING_SIDE_OPPOSING_SIDE_AND_RECORDED_CROSSBENCH_OR_INDEPENDENT_PLAYERS",
       "registration_threshold": "MATERIAL_RESISTANCE_EVIDENCED",
-      "match_events": [
-        "INTRODUCTION",
-        "AMENDMENT",
-        "COMMITTEE_STAGE",
-        "PARTY_ROOM_POSITION",
-        "CROSSBENCH_NEGOTIATION",
-        "PROCEDURAL_MOVE",
-        "DIVISION_OR_VOTE",
-        "WITHDRAWAL"
-      ],
-      "verified_outcomes": [
-        "PASSED",
-        "DEFEATED",
-        "WITHDRAWN",
-        "LAPSED"
-      ],
+      "match_events": ["INTRODUCTION","AMENDMENT","COMMITTEE_STAGE","PARTY_ROOM_POSITION","CROSSBENCH_NEGOTIATION","PROCEDURAL_MOVE","DIVISION_OR_VOTE","WITHDRAWAL"],
+      "verified_outcomes": ["PASSED","DEFEATED","WITHDRAWN","LAPSED"],
       "integrity": {
         "proposal_without_material_resistance_is_not_automatically_a_competition": true,
         "support_or_opposition_requires_source_lineage": true,
         "vote_or_passage_status_requires_verification": true,
-        "player_position_may_change_only_from_forward_evidence": true
+        "player_position_change_requires_temporal_provenance": true
+      }
+    },
+    {
+      "competition_class": "LEADERSHIP",
+      "public_label": "Leadership Control",
+      "field_mode": "CONTINUOUS_DISCOVERY_WITH_DISCRETE_MATCHES",
+      "definition": "Competition for control or retention of party, parliamentary or executive leadership where rival claimants or organised resistance are evidenced.",
+      "competition_object": "LEADERSHIP_POSITION_OR_CONTROL",
+      "participant_model": "LEADER_CHALLENGER_FACTIONS_TEAMS_AND_SUPPORTING_PLAYERS",
+      "registration_threshold": "RIVAL_CLAIM_OR_ORGANISED_RESISTANCE_EVIDENCED",
+      "verified_outcomes": ["RETAINED","REPLACED","ELECTED_LEADER","WITHDRAWN","NO_VERIFIED_OUTCOME_YET"]
+    },
+    {
+      "competition_class": "CONFIDENCE_SUPPLY",
+      "public_label": "Confidence & Supply",
+      "field_mode": "CONTINUOUS_DISCOVERY_WITH_DISCRETE_MATCHES",
+      "definition": "Competition over whether a government can retain the parliamentary support necessary to survive confidence questions or secure supply.",
+      "competition_object": "GOVERNMENT_SURVIVAL_OR_SUPPLY",
+      "participant_model": "GOVERNMENT_OPPOSITION_CROSSBENCH_AND_RELEVANT_PLAYERS",
+      "registration_threshold": "MATERIAL_CONFIDENCE_OR_SUPPLY_RISK_EVIDENCED",
+      "verified_outcomes": ["CONFIDENCE_RETAINED","CONFIDENCE_LOST","SUPPLY_SECURED","SUPPLY_DENIED","NO_VERIFIED_OUTCOME_YET"]
+    },
+    {
+      "competition_class": "BUDGET",
+      "public_label": "Budget Contest",
+      "field_mode": "CONTINUOUS_DISCOVERY_WITH_DISCRETE_MATCHES",
+      "definition": "Competition over the passage, amendment, defeat or political survival of a budget or material fiscal package under evidenced resistance.",
+      "competition_object": "BUDGET_OR_MATERIAL_FISCAL_PACKAGE",
+      "participant_model": "GOVERNMENT_OPPOSITION_CROSSBENCH_TEAMS_AND_RELEVANT_PLAYERS",
+      "registration_threshold": "MATERIAL_FISCAL_RESISTANCE_EVIDENCED",
+      "verified_outcomes": ["PASSED","AMENDED_AND_PASSED","DEFEATED","WITHDRAWN","NO_VERIFIED_OUTCOME_YET"]
+    },
+    {
+      "competition_class": "POLICY_ENACTMENT",
+      "public_label": "Policy Enactment",
+      "field_mode": "CONTINUOUS_DISCOVERY_WITH_DISCRETE_MATCHES",
+      "definition": "Competition over whether an announced policy objective is converted into an implemented institutional outcome against evidenced political, administrative or stakeholder resistance.",
+      "competition_object": "POLICY_OBJECTIVE_AND_IMPLEMENTATION_OUTCOME",
+      "participant_model": "SPONSORING_PLAYERS_TEAMS_OPPONENTS_INSTITUTIONS_AND_RELEVANT_PUBLIC_ACTORS",
+      "registration_threshold": "DEFINED_POLICY_OBJECTIVE_AND_MATERIAL_RESISTANCE_EVIDENCED",
+      "verified_outcomes": ["IMPLEMENTED","PARTIALLY_IMPLEMENTED","BLOCKED","ABANDONED","NO_VERIFIED_OUTCOME_YET"]
+    },
+    {
+      "competition_class": "PARLIAMENTARY_PROCEDURE",
+      "public_label": "Parliamentary Procedure",
+      "field_mode": "CONTINUOUS_DISCOVERY_WITH_DISCRETE_MATCHES",
+      "definition": "Competition over control of parliamentary procedure, scheduling, referrals, suspensions, amendments, inquiries or other procedural machinery where opposing sides and a measurable objective exist.",
+      "competition_object": "PROCEDURAL_CONTROL_OR_PARLIAMENTARY_ACTION",
+      "participant_model": "GOVERNMENT_OPPOSITION_CROSSBENCH_COMMITTEES_AND_RELEVANT_PLAYERS",
+      "registration_threshold": "CONTESTED_PROCEDURAL_OBJECTIVE_EVIDENCED",
+      "verified_outcomes": ["MOTION_CARRIED","MOTION_DEFEATED","REFERRAL_SECURED","PROCEDURE_BLOCKED","NO_VERIFIED_OUTCOME_YET"]
+    },
+    {
+      "competition_class": "PUBLIC_PRESSURE",
+      "public_label": "Public Pressure",
+      "field_mode": "CONTINUOUS_DISCOVERY_WITH_DISCRETE_MATCHES",
+      "definition": "Competition in which citizens, communities, campaigns or public-interest actors seek a defined institutional concession, reversal, action or measurable outcome against institutional resistance or inertia.",
+      "competition_object": "PUBLIC_DEMAND_AND_INSTITUTIONAL_RESPONSE",
+      "participant_model": "PUBLIC_ACTORS_COMMUNITIES_CAMPAIGNS_INSTITUTIONS_TEAMS_AND_RELEVANT_PLAYERS",
+      "registration_threshold": "DEFINED_PUBLIC_DEMAND_AND_EVIDENCED_INSTITUTIONAL_RESISTANCE_OR_INERTIA",
+      "verified_outcomes": ["CONCESSION_WON","PARTIAL_CONCESSION","DEMAND_REJECTED","INSTITUTIONAL_REVERSAL","POLICY_CHANGED","NO_VERIFIED_OUTCOME_YET"],
+      "integrity": {
+        "institutional_self_reporting_does_not_prove_public_gain": true,
+        "public_gain_requires_measurable_outcome_evidence": true,
+        "causal_claim_that_public_pressure_forced_concession_requires_evidence": true
       }
     }
   ]

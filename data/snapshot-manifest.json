@@ -1,5 +1,5 @@
 {
-  "snapshot_id": "POLITICAL-MAYHEM-CANONICAL-012",
+  "snapshot_id": "POLITICAL-MAYHEM-CANONICAL-013",
   "status": "EXPANDING",
   "canonical": {
     "cycle_schema": {"path": "data/canonical/political-cycle.schema.json"},
@@ -26,6 +26,7 @@
     "outcome_ledger": "data/runtime/verified-outcomes.json",
     "audit_ledger": "data/runtime/projection-audits.json",
     "federal_parliamentary_players": "data/runtime/federal-parliamentary-players.json",
+    "federal_house_electoral_performance": "data/runtime/federal-house-electoral-performance-v2.json",
     "state_territory_parliamentary_players": "data/runtime/state-territory-parliamentary-players.json",
     "queensland_parliamentary_players": "data/runtime/queensland-parliamentary-players.json",
     "western_australia_parliamentary_players": "data/runtime/western-australia-parliamentary-players.json",
@@ -63,6 +64,11 @@
     "state_territory_roster_expansion_is_partial_and_explicit": false,
     "player_statistics_preserve_native_political_units": true,
     "synthetic_composite_player_score_prohibited": true,
-    "missing_player_stat_data_is_not_zero": true
+    "missing_player_stat_data_is_not_zero": true,
+    "federal_house_division_electoral_context_complete": true,
+    "other_first_preference_not_attributed_to_individual_players": true,
+    "tpp_not_misrepresented_as_tcp": true,
+    "election_day_party_preserved_for_historical_stats": true,
+    "candidate_specific_electoral_dossiers_are_expanding": true
   }
 }

@@ -95,11 +95,25 @@ assert(competitions.integrity?.all_state_territory_current_parliamentary_rosters
 assert(manifest.structural_data_loaded?.state_and_territory_player_rosters==='8_OF_8_COMPLETE','ingestion manifest roster status mismatch');
 assert(manifest.structural_data_loaded?.state_and_territory_players_ingested===620,'ingestion manifest player count mismatch');
 assert((manifest.queues?.jurisdiction_ingestion||[]).length===0,'jurisdiction ingestion queue should be empty');
-for(const id of ['AUS-QLD','AUS-WA','AUS-NSW','AUS-VIC','AUS-SA','AUS-TAS','AUS-ACT','AUS-NT'])assert((manifest.queues?.jurisdiction_evidence_activation||[]).includes(id),`${id} evidence activation not queued`);
+assert((manifest.queues?.jurisdiction_evidence_activation||[]).length===0,'jurisdiction evidence activation queue should be empty after watcher activation');
+const coverage=manifest.live_evidence_ingestion?.jurisdiction_coverage||{};
+const coverageKeyById={
+  'AUS-QLD':'queensland',
+  'AUS-WA':'western_australia',
+  'AUS-NSW':'new_south_wales',
+  'AUS-VIC':'victoria',
+  'AUS-SA':'south_australia',
+  'AUS-TAS':'tasmania',
+  'AUS-ACT':'australian_capital_territory',
+  'AUS-NT':'northern_territory'
+};
+for(const [id,key] of Object.entries(coverageKeyById)){
+  assert(coverage[key]==='SOURCE_WATCH_ACTIVE_FORWARD_BASELINE_CAPTURED',`${id} evidence watch is not marked active with a captured baseline`);
+}
 
 const allIds=[...(base.jurisdictions||[]).flatMap(j=>(j.players||[]).map(p=>`${j.competition_id}:${p.actor_id}`)),...qldRows.map(r=>`AUS-QLD:${r[0]}`),...waRows.map(r=>`AUS-WA:${r[0]}`),...nswRows.map(r=>`AUS-NSW:${r[0]}`),...vicRows.map(r=>`AUS-VIC:${r[0]}`),...saRows.map(r=>`AUS-SA:${r[0]}`),...tasRows.map(r=>`AUS-TAS:${r[0]}`)];
 assert(unique(allIds),'state/territory jurisdiction-qualified actor IDs are not unique');
 assert(allIds.length===620,`state/territory player universe expected 620, got ${allIds.length}`);
 
 if(fail.length){console.error('POLITICAL_MAYHEM_STATE_TERRITORY_ROSTER_INTEGRITY_FAILED');for(const message of fail)console.error('- '+message);process.exit(1)}
-console.log('POLITICAL_MAYHEM_STATE_TERRITORY_ROSTER_INTEGRITY_PASS','jurisdictions=8','players=620','SA=69','TAS=50','VIC=128','NSW=135','QLD=93','WA=95','ACT=25','NT=25');
+console.log('POLITICAL_MAYHEM_STATE_TERRITORY_ROSTER_INTEGRITY_PASS','jurisdictions=8','players=620','evidenceWatches=8','SA=69','TAS=50','VIC=128','NSW=135','QLD=93','WA=95','ACT=25','NT=25');

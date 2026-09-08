@@ -15,10 +15,12 @@ const compact = d => d.toISOString().replace(/[-:.TZ]/g, '').slice(0, 14);
 const hash = v => crypto.createHash('sha256').update(JSON.stringify(v)).digest('hex');
 
 const ledgerPath = 'data/runtime/projections.json';
+const contestLedgerPath = 'data/runtime/political-contests.json';
 const snapshotsPath = 'data/runtime/source-snapshots.json';
 const eventsPath = 'data/runtime/intelligence-events.json';
 
 const ledger = read(ledgerPath);
+const contestLedger = read(contestLedgerPath);
 const snapshots = new Map((read(snapshotsPath).snapshots || []).map(x => [x.snapshot_id, x]));
 const events = new Map((read(eventsPath).events || []).map(x => [x.event_id, x]));
 const input = read(inputPath);
@@ -33,6 +35,11 @@ if (!input.cycle_id) throw new Error('cycle_id is required');
 if (input.projected_outcome === undefined || input.projected_outcome === null) throw new Error('projected_outcome is required');
 if (!Array.isArray(input.source_snapshot_ids) || input.source_snapshot_ids.length === 0) throw new Error('at least one source_snapshot_id is required');
 
+const contest = (contestLedger.contests || []).find(x => x.contest_id === input.contest_id);
+if (!contest) throw new Error(`contest_id is not registered: ${input.contest_id}`);
+if (contest.cycle_id !== input.cycle_id) throw new Error(`cycle_id ${input.cycle_id} does not match registered contest cycle ${contest.cycle_id}`);
+if (!['UPCOMING', 'CONTEST_WINDOW'].includes(contest.status)) throw new Error(`contest ${input.contest_id} is not open for forward projection: ${contest.status}`);
+
 for (const id of input.source_snapshot_ids) {
   const s = snapshots.get(id);
   if (!s) throw new Error(`unknown source snapshot ${id}`);
@@ -45,12 +52,14 @@ for (const id of (input.intelligence_event_ids || [])) {
 }
 
 const existing = ledger.projections || [];
-let prior = null;
 if (input.prior_projection_id) {
-  prior = existing.find(x => x.projection_id === input.prior_projection_id);
+  const prior = existing.find(x => x.projection_id === input.prior_projection_id);
   if (!prior) throw new Error(`prior projection ${input.prior_projection_id} does not exist`);
   if (prior.contest_id !== input.contest_id || prior.cycle_id !== input.cycle_id) throw new Error('revision must remain within the same contest and cycle');
   if (!input.revision_reason) throw new Error('revision_reason is required when prior_projection_id is set');
+  if (contest.current_projection_id && contest.current_projection_id !== input.prior_projection_id) throw new Error(`revision must descend from current projection ${contest.current_projection_id}`);
+} else if (contest.current_projection_id) {
+  throw new Error(`contest ${input.contest_id} already has current projection ${contest.current_projection_id}; revision requires prior_projection_id`);
 }
 
 const projectionId = input.projection_id || `POL-PROJ-${compact(now)}-${hash({contest_id:input.contest_id,cycle_id:input.cycle_id,projected_outcome:input.projected_outcome,evidenceCutoff}).slice(0,8).toUpperCase()}`;
@@ -93,5 +102,9 @@ const projection = {
 ledger.projections ||= [];
 ledger.projections.push(projection);
 ledger.updated_at = createdAt;
+contest.current_projection_id = projectionId;
+contest.updated_at = createdAt;
+contestLedger.updated_at = createdAt;
 write(ledgerPath, ledger);
-console.log(`FORWARD_PROJECTION_REGISTERED ${projectionId} state=${state} sources=${projection.source_snapshot_ids.length} events=${projection.intelligence_event_ids.length}`);
+write(contestLedgerPath, contestLedger);
+console.log(`FORWARD_PROJECTION_REGISTERED ${projectionId} state=${state} contest=${input.contest_id} sources=${projection.source_snapshot_ids.length} events=${projection.intelligence_event_ids.length}`);

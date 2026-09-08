@@ -1,12 +1,13 @@
 {
-  "ledger_id": "POLITICAL-MAYHEM-COMPETITION-DISCOVERY-001",
+  "ledger_id": "POLITICAL-MAYHEM-COMPETITION-DISCOVERY-002",
   "status": "ACTIVE",
   "scope": "ALL_NINE_POLITICAL_FIELDS",
   "rules": {
     "source_activity_is_not_automatically_a_competition": true,
     "empty_registered_contest_ledger_does_not_mean_quiet": true,
     "candidate_is_not_a_registered_contest": true,
-    "discovery_is_forward_only": true,
+    "discovery_uses_temporal_provenance": true,
+    "retrospective_and_ongoing_evidence_are_valid_discovery_inputs": true,
     "candidate_requires_source_lineage": true,
     "candidate_requires_reviewed_or_verified_signal": true,
     "promotion_requires_registered_competition_class": true,
@@ -34,7 +35,8 @@
     "CONFIDENCE_SUPPLY",
     "BUDGET",
     "PROCEDURAL",
-    "POLICY_ENACTMENT"
+    "POLICY_ENACTMENT",
+    "PUBLIC_PRESSURE"
   ],
   "screening_rules": {
     "ELECTION": "Official electoral or reviewed political evidence indicates a specific election, by-election, nomination, candidacy, voting or government-formation contest.",
@@ -43,7 +45,8 @@
     "CONFIDENCE_SUPPLY": "Reviewed or verified evidence identifies an actual confidence, no-confidence, supply or government-survival contest.",
     "BUDGET": "Reviewed or verified evidence identifies a materially contested budget or appropriation passage process; routine budget publication alone is insufficient.",
     "PROCEDURAL": "Reviewed or verified evidence identifies a materially opposed parliamentary procedural objective with a verifiable result.",
-    "POLICY_ENACTMENT": "Reviewed or verified evidence identifies an explicit implementation objective facing material political resistance and a verifiable decision outcome."
+    "POLICY_ENACTMENT": "Reviewed or verified evidence identifies an explicit implementation objective facing material political resistance and a verifiable decision outcome.",
+    "PUBLIC_PRESSURE": "Reviewed or verified evidence identifies a defined public demand facing institutional resistance or inertia. Institutional self-reporting alone does not establish a public gain, concession or causal effect."
   },
   "candidate_fields": [
     "candidate_id",
@@ -133,7 +136,7 @@
       "jurisdiction_id": "AUS-FED",
       "competition_family": "PROCEDURAL",
       "proposed_competition_class": "PARLIAMENTARY_PROCEDURE",
-      "proposed_cycle_id": null,
+      "proposed_cycle_id": "AUS-FED-48TH-PARLIAMENT",
       "subject": "Federal disallowance contest — Carbon Credits (Carbon Farming Initiative—Improved Forest Management in Multiple-use Public Native Forests) Methodology Determination 2026",
       "candidate_state": "REVIEW_REQUIRED",
       "detected_at": "2026-09-09T09:04:32+10:00",
@@ -144,9 +147,8 @@
         "INTEL-20260909-APH-DISALLOWANCE-001"
       ],
       "review_ids": [],
-      "evidence_summary": "Official Parliament of Australia evidence records unresolved disallowance action against the 2026 native-forest carbon methodology determination. Senator Cadell's motion is postponed to 15 September 2026 and a separate House disallowance notice by Mr Tehan is also unresolved. This establishes a current procedural competition candidate; opposing-side composition and a compatible cycle registration still require resolution before match registration.",
+      "evidence_summary": "Official Parliament of Australia evidence records unresolved disallowance action against the 2026 native-forest carbon methodology determination. Senator Cadell's motion is postponed to 15 September 2026 and a separate House disallowance notice by Mr Tehan is also unresolved. This establishes a current procedural competition candidate within the 48th Parliament; opposing-side composition still requires resolution before match registration.",
       "registration_blockers": [
-        "REGISTERED_COMPATIBLE_CYCLE_REQUIRED",
         "MATERIAL_PROCEDURAL_OPPOSITION_REQUIRES_REVIEW"
       ],
       "linked_contest_id": null,
@@ -209,7 +211,7 @@
       "review_ids": [
         "REV-CHG-WATCH-APH-BILLS-20260908230751"
       ],
-      "evidence_summary": "Forward-screened PRIMARY_PARLIAMENT signal contains language consistent with a legislation competition candidate. This is a discovery observation, not a registered contest or outcome inference.",
+      "evidence_summary": "Screened PRIMARY_PARLIAMENT evidence contains language consistent with a legislation competition candidate. This is a discovery observation, not a registered contest or outcome inference.",
       "registration_blockers": [
         "MATERIAL_RESISTANCE_NOT_YET_EVIDENCED",
         "SUPPORTING_SIDE_NOT_YET_RESOLVED",
@@ -221,7 +223,7 @@
           "from": null,
           "to": "EVIDENCE_GAP",
           "at": "2026-09-08T23:08:38.430Z",
-          "reason": "DETERMINISTIC_FORWARD_COMPETITION_FAMILY_SCREEN"
+          "reason": "DETERMINISTIC_COMPETITION_FAMILY_SCREEN"
         }
       ]
     }

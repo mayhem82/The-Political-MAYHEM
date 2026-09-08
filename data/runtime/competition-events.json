@@ -1,0 +1,56 @@
+{
+  "ledger_id": "POLITICAL-MAYHEM-COMPETITION-EVENTS-001",
+  "status": "ACTIVE",
+  "rules": {
+    "event_requires_registered_contest": true,
+    "event_requires_source_lineage": true,
+    "event_is_observation_before_inference": true,
+    "event_does_not_rewrite_prior_event": true,
+    "event_does_not_change_verified_outcome_retroactively": true,
+    "player_and_team_effects_require_explicit_lineage": true,
+    "cross_competition_effects_are_not_implicit": true,
+    "no_hindsight_backfill": true
+  },
+  "allowed_event_types": {
+    "ELECTORAL": [
+      "NOMINATION",
+      "WITHDRAWAL",
+      "ENDORSEMENT",
+      "CAMPAIGN_EVENT",
+      "POLL_OR_SURVEY",
+      "PREFERENCE_POSITION",
+      "VOTING_EVENT",
+      "COUNT_UPDATE",
+      "DECLARATION_OR_FORMATION_EVENT"
+    ],
+    "LEGISLATIVE": [
+      "INTRODUCTION",
+      "AMENDMENT",
+      "COMMITTEE_STAGE",
+      "PARTY_ROOM_POSITION",
+      "CROSSBENCH_NEGOTIATION",
+      "PROCEDURAL_MOVE",
+      "DIVISION_OR_VOTE",
+      "WITHDRAWAL",
+      "PASSAGE_STATUS_EVENT"
+    ]
+  },
+  "event_fields": [
+    "event_id",
+    "contest_id",
+    "cycle_id",
+    "competition_class",
+    "event_type",
+    "occurred_at",
+    "captured_at",
+    "party_ids",
+    "actor_ids",
+    "side",
+    "observation",
+    "evidence_state",
+    "source_snapshot_ids",
+    "competition_effect",
+    "projection_effect"
+  ],
+  "events": []
+}

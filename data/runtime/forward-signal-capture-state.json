@@ -150,9 +150,9 @@
       "source_id": "SRC-WA-HANSARD",
       "jurisdiction_id": "AUS-WA",
       "party_id": null,
-      "content_hash": "c8cf8172bcf6e9b34bf5b7f783c715212d04f45405a53772b52e731a0143c862",
-      "snapshot_id": "AUTO-WATCH-WA-HANSARD-20260908093210",
-      "captured_at": "2026-09-08T09:32:10.059Z",
+      "content_hash": "00a33ddd56f92bad50f4b7a2dc37da8ea67cd87d15b29b950b0c95e3046fcf9d",
+      "snapshot_id": "AUTO-WATCH-WA-HANSARD-20260908175555",
+      "captured_at": "2026-09-08T17:55:55.356Z",
       "acquisition_url": "https://www.parliament.wa.gov.au/4825795E0000B647/content/hansard-how-to-search-and-use-hansard",
       "requested_url": "https://www.parliament.wa.gov.au/4825795E0000B647/content/hansard-how-to-search-and-use-hansard",
       "header_profile": "BROWSER_COMPATIBILITY",
@@ -189,9 +189,9 @@
       "source_id": "SRC-ACT-PARLIAMENT",
       "jurisdiction_id": "AUS-ACT",
       "party_id": null,
-      "content_hash": "026fbdeb1d94c0d8227ca65f7b5b22534e09bdbf8157c9e4a6c4427f65b2c7d1",
-      "snapshot_id": "AUTO-WATCH-ACT-PARLIAMENT-20260908093210",
-      "captured_at": "2026-09-08T09:32:10.059Z",
+      "content_hash": "a6728e6dec4567e1153fa21489775e44c58eedab297cccdc4e8eca5f1bb174bf",
+      "snapshot_id": "AUTO-WATCH-ACT-PARLIAMENT-20260908175555",
+      "captured_at": "2026-09-08T17:55:55.356Z",
       "acquisition_url": "https://www.parliament.act.gov.au/",
       "requested_url": "https://www.parliament.act.gov.au/",
       "header_profile": "BROWSER_COMPATIBILITY",
@@ -215,9 +215,9 @@
       "source_id": "SRC-NSW-HANSARD",
       "jurisdiction_id": "AUS-NSW",
       "party_id": null,
-      "content_hash": "d61c40d3047edae63c1d655ba0f7693a8af87a5e6bdae70a4a5631407171f1fd",
-      "snapshot_id": "AUTO-WATCH-NSW-HANSARD-20260908133822",
-      "captured_at": "2026-09-08T13:38:22.284Z",
+      "content_hash": "ab1213ba82402919f7d3fd1417f4b9bfb67112c81d27ed6bbdfddd4fdc32b959",
+      "snapshot_id": "AUTO-WATCH-NSW-HANSARD-20260908175555",
+      "captured_at": "2026-09-08T17:55:55.356Z",
       "acquisition_url": "https://www.parliament.nsw.gov.au/parliamentary-business/hansard",
       "requested_url": "https://www.parliament.nsw.gov.au/parliamentary-business/hansard",
       "header_profile": "BROWSER_COMPATIBILITY",
@@ -225,16 +225,20 @@
       "captured_representation_complete": true
     }
   },
-  "updated_at": "2026-09-08T13:38:22.284Z",
+  "updated_at": "2026-09-08T17:55:55.356Z",
   "last_run": {
-    "captured_at": "2026-09-08T13:38:22.284Z",
-    "baselines_created": 1,
-    "signals_created": 2,
+    "captured_at": "2026-09-08T17:55:55.356Z",
+    "baselines_created": 0,
+    "signals_created": 3,
     "representation_upgrades": 0,
     "failures": [
       {
         "watch_id": "WATCH-ALP-NEWS",
         "error": "https://www.alp.org.au/news/ [IDENTIFIED_AUTOMATION] 404 Not Found | https://www.alp.org.au/news/ [BROWSER_COMPATIBILITY] 404 Not Found | https://www.alp.org.au/news [IDENTIFIED_AUTOMATION] 404 Not Found | https://www.alp.org.au/news [BROWSER_COMPATIBILITY] 404 Not Found"
+      },
+      {
+        "watch_id": "WATCH-TAS-HANSARD",
+        "error": "https://www.parliament.tas.gov.au/hansard [IDENTIFIED_AUTOMATION] 403 Forbidden | https://www.parliament.tas.gov.au/hansard [BROWSER_COMPATIBILITY] 403 Forbidden"
       }
     ]
   }

@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-INTELLIGENCE-EVENTS-001",
   "scope": "Australia — multi-jurisdiction",
-  "captured_at": "2026-09-08T13:38:22.284Z",
+  "captured_at": "2026-09-08T17:55:55.356Z",
   "mode": "FORWARD_ONLY",
   "rules": {
     "observation_distinct_from_inference": true,
@@ -585,6 +585,84 @@
       },
       "after": {
         "content_hash": "26c896813a99ec6f85a20ee529c4c05e90c3624ca7bc98697e4304e34095f3ff"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. Semantic classification is pending; this event records only the observed source change.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "frozen": false
+    },
+    {
+      "event_id": "SIG-WATCH-NSW-HANSARD-20260908175555",
+      "jurisdiction_id": "AUS-NSW",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-NSW-HANSARD-20260908175555",
+      "captured_at": "2026-09-08T17:55:55.356Z",
+      "event_date": "2026-09-09",
+      "checkpoint": "CONTINUOUS_FORWARD_SIGNAL_CAPTURE",
+      "event_type": "SIGNAL_CREATED",
+      "evidence_state": "SIGNAL",
+      "signal_state": "POSSIBLE_SIGNAL",
+      "source_class": "PRIMARY_PARLIAMENT",
+      "source_id": "SRC-NSW-HANSARD",
+      "before": {
+        "content_hash": "d61c40d3047edae63c1d655ba0f7693a8af87a5e6bdae70a4a5631407171f1fd"
+      },
+      "after": {
+        "content_hash": "ab1213ba82402919f7d3fd1417f4b9bfb67112c81d27ed6bbdfddd4fdc32b959"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. Semantic classification is pending; this event records only the observed source change.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "frozen": false
+    },
+    {
+      "event_id": "SIG-WATCH-WA-HANSARD-20260908175555",
+      "jurisdiction_id": "AUS-WA",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-WA-HANSARD-20260908175555",
+      "captured_at": "2026-09-08T17:55:55.356Z",
+      "event_date": "2026-09-09",
+      "checkpoint": "CONTINUOUS_FORWARD_SIGNAL_CAPTURE",
+      "event_type": "SIGNAL_CREATED",
+      "evidence_state": "SIGNAL",
+      "signal_state": "POSSIBLE_SIGNAL",
+      "source_class": "PRIMARY_PARLIAMENT",
+      "source_id": "SRC-WA-HANSARD",
+      "before": {
+        "content_hash": "c8cf8172bcf6e9b34bf5b7f783c715212d04f45405a53772b52e731a0143c862"
+      },
+      "after": {
+        "content_hash": "00a33ddd56f92bad50f4b7a2dc37da8ea67cd87d15b29b950b0c95e3046fcf9d"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. Semantic classification is pending; this event records only the observed source change.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "frozen": false
+    },
+    {
+      "event_id": "SIG-WATCH-ACT-PARLIAMENT-20260908175555",
+      "jurisdiction_id": "AUS-ACT",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-ACT-PARLIAMENT-20260908175555",
+      "captured_at": "2026-09-08T17:55:55.356Z",
+      "event_date": "2026-09-09",
+      "checkpoint": "CONTINUOUS_FORWARD_SIGNAL_CAPTURE",
+      "event_type": "SIGNAL_CREATED",
+      "evidence_state": "SIGNAL",
+      "signal_state": "POSSIBLE_SIGNAL",
+      "source_class": "PRIMARY_PARLIAMENT",
+      "source_id": "SRC-ACT-PARLIAMENT",
+      "before": {
+        "content_hash": "026fbdeb1d94c0d8227ca65f7b5b22534e09bdbf8157c9e4a6c4427f65b2c7d1"
+      },
+      "after": {
+        "content_hash": "a6728e6dec4567e1153fa21489775e44c58eedab297cccdc4e8eca5f1bb174bf"
       },
       "claim": "Monitored official source changed from its previous forward-captured representation. Semantic classification is pending; this event records only the observed source change.",
       "inference": null,

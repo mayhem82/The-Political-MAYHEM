@@ -13,12 +13,23 @@
       "status": "ACTIVE",
       "start_date": null,
       "end_date": null,
-      "contest_ids": ["AUS-VIC-SE2026-GOVERNMENT"],
-      "source_refs": ["AUTO-WATCH-VEC-2026-STATE-ELECTION-20260908042439"],
+      "contest_ids": [
+        "AUS-VIC-SE2026-GOVERNMENT"
+      ],
+      "source_refs": [
+        "AUTO-WATCH-VEC-2026-STATE-ELECTION-20260908042439"
+      ],
       "forward_baseline_started_at": "2026-09-08T04:24:39.238Z",
       "created_at": "2026-09-08T14:27:04+10:00",
       "updated_at": "2026-09-08T14:27:04+10:00",
-      "lifecycle_history": [{"from": null,"to": "ACTIVE","at": "2026-09-08T14:27:04+10:00","reason": "FORWARD_BASELINE_REGISTERED_FROM_VEC_PRIMARY_ELECTORAL_AUTHORITY"}]
+      "lifecycle_history": [
+        {
+          "from": null,
+          "to": "ACTIVE",
+          "at": "2026-09-08T14:27:04+10:00",
+          "reason": "FORWARD_BASELINE_REGISTERED_FROM_VEC_PRIMARY_ELECTORAL_AUTHORITY"
+        }
+      ]
     },
     {
       "cycle_id": "AUS-FED-48TH-PARLIAMENT",
@@ -29,12 +40,24 @@
       "status": "ACTIVE",
       "start_date": null,
       "end_date": null,
-      "contest_ids": ["AUS-FED-48P-F2026L00835-DISALLOWANCE"],
-      "source_refs": ["AUTO-WATCH-APH-WEEK-AHEAD-20260908042439", "AUTO-WATCH-APH-LIVE-MINUTES-20260908133822"],
+      "contest_ids": [
+        "AUS-FED-48P-F2026L00835-DISALLOWANCE"
+      ],
+      "source_refs": [
+        "AUTO-WATCH-APH-WEEK-AHEAD-20260908042439",
+        "AUTO-WATCH-APH-LIVE-MINUTES-20260908133822"
+      ],
       "forward_baseline_started_at": "2026-09-08T04:24:39.238Z",
       "created_at": "2026-09-09T07:17:00+10:00",
       "updated_at": "2026-09-09T09:29:00+10:00",
-      "lifecycle_history": [{"from": null,"to": "ACTIVE","at": "2026-09-09T07:17:00+10:00","reason": "FORWARD_PARLIAMENTARY_BASELINE_REGISTERED_FROM_APH_PRIMARY_PARLIAMENT_SOURCES"}],
+      "lifecycle_history": [
+        {
+          "from": null,
+          "to": "ACTIVE",
+          "at": "2026-09-09T07:17:00+10:00",
+          "reason": "FORWARD_PARLIAMENTARY_BASELINE_REGISTERED_FROM_APH_PRIMARY_PARLIAMENT_SOURCES"
+        }
+      ],
       "integrity_note": "The 48th Parliament is the active federal parliamentary-term competition cycle. Start and end dates are intentionally unset here; the MAYHEM forward baseline is the captured APH parliamentary source state, not a reconstructed term history."
     },
     {
@@ -47,11 +70,20 @@
       "start_date": null,
       "end_date": null,
       "contest_ids": [],
-      "source_refs": ["SNAP-NSW-58TH-PARLIAMENT-20260909-0928"],
+      "source_refs": [
+        "SNAP-NSW-58TH-PARLIAMENT-20260909-0928"
+      ],
       "temporal_evidence_baseline_at": "2026-09-09T09:28:00+10:00",
       "created_at": "2026-09-09T09:28:00+10:00",
       "updated_at": "2026-09-09T09:28:00+10:00",
-      "lifecycle_history": [{"from": null,"to": "ACTIVE","at": "2026-09-09T09:28:00+10:00","reason": "PRIMARY_NSW_PARLIAMENT_EVIDENCE_IDENTIFIES_CURRENT_58TH_PARLIAMENT"}],
+      "lifecycle_history": [
+        {
+          "from": null,
+          "to": "ACTIVE",
+          "at": "2026-09-09T09:28:00+10:00",
+          "reason": "PRIMARY_NSW_PARLIAMENT_EVIDENCE_IDENTIFIES_CURRENT_58TH_PARLIAMENT"
+        }
+      ],
       "integrity_note": "The 58th Parliament is registered from current primary NSW Parliament evidence. Historical and ongoing evidence may attach with its own temporal provenance; no start or end date is inferred here."
     }
   ],

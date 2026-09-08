@@ -1,0 +1,46 @@
+name: Build Political Edge Calibration
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'data/runtime/projections.json'
+      - 'data/runtime/verified-outcomes.json'
+      - 'data/runtime/projection-audits.json'
+      - 'data/runtime/source-snapshots.json'
+      - 'scripts/build-edge-calibration.mjs'
+      - 'schema/edge-calibration-record.schema.json'
+      - '.github/workflows/build-edge-calibration.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: political-mayhem-edge-calibration
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Build edge and calibration ledger
+        run: node scripts/build-edge-calibration.mjs
+      - name: Commit derived edge state
+        run: |
+          if git diff --quiet -- data/runtime/edge-calibration-ledger.json; then
+            echo 'No edge/calibration state change.'
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/runtime/edge-calibration-ledger.json
+          git commit -m 'Rebuild political edge calibration ledger'
+          git pull --rebase origin main
+          git push origin main

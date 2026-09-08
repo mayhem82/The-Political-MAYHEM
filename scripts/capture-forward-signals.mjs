@@ -10,7 +10,6 @@ const MANIFEST='data/runtime/forward-ingestion-manifest.json';
 const read=p=>JSON.parse(fs.readFileSync(p,'utf8'));
 const write=(p,v)=>fs.writeFileSync(p,JSON.stringify(v,null,2)+'\n');
 const sha=s=>crypto.createHash('sha256').update(String(s)).digest('hex');
-const iso=()=>new Date().toISOString();
 const localDate=d=>new Intl.DateTimeFormat('en-CA',{timeZone:'Australia/Sydney',year:'numeric',month:'2-digit',day:'2-digit'}).format(d);
 const compact=d=>d.toISOString().replace(/[-:.TZ]/g,'').slice(0,14);
 const decode=s=>String(s)
@@ -27,10 +26,42 @@ function normaliseHtml(html){
     .replace(/\b\d{1,2}:\d{2}(?::\d{2})?\s*(?:AM|PM|AEST|AEDT)?\b/gi,'<TIME>')
     .replace(/\s+/g,' ').trim();
 }
-async function fetchText(url){
-  const r=await fetch(url,{headers:{'user-agent':'Political-MAYHEM-Forward-Signal-Capture/1.0 (+https://github.com/mayhem82/The-Political-MAYHEM)','accept':'text/html,text/plain,*/*'}});
-  if(!r.ok) throw new Error(`${r.status} ${r.statusText}`);
-  return await r.text();
+const headerProfiles=[
+  {
+    id:'IDENTIFIED_AUTOMATION',
+    headers:{
+      'user-agent':'Political-MAYHEM-Forward-Signal-Capture/1.1 (+https://github.com/mayhem82/The-Political-MAYHEM)',
+      'accept':'text/html,application/xhtml+xml,application/rss+xml,application/xml,text/plain,*/*',
+      'accept-language':'en-AU,en;q=0.9'
+    }
+  },
+  {
+    id:'BROWSER_COMPATIBILITY',
+    headers:{
+      'user-agent':'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0 Safari/537.36',
+      'accept':'text/html,application/xhtml+xml,application/rss+xml,application/xml;q=0.9,text/plain;q=0.8,*/*;q=0.5',
+      'accept-language':'en-AU,en;q=0.9',
+      'cache-control':'no-cache',
+      'pragma':'no-cache',
+      'from':'https://github.com/mayhem82/The-Political-MAYHEM'
+    }
+  }
+];
+async function fetchSource(source){
+  const urls=[source.url,...(source.fallback_urls||[])].filter((v,i,a)=>v&&a.indexOf(v)===i);
+  const errors=[];
+  for(const url of urls){
+    for(const profile of headerProfiles){
+      try{
+        const r=await fetch(url,{headers:profile.headers,redirect:'follow'});
+        if(!r.ok){errors.push(`${url} [${profile.id}] ${r.status} ${r.statusText}`);continue;}
+        const text=await r.text();
+        if(!String(text).trim()){errors.push(`${url} [${profile.id}] empty response`);continue;}
+        return {text,url:r.url||url,requested_url:url,header_profile:profile.id,content_type:r.headers.get('content-type')||null};
+      }catch(err){errors.push(`${url} [${profile.id}] ${err?.message||err}`);}
+    }
+  }
+  throw new Error(errors.join(' | '));
 }
 
 const registry=read(REGISTRY);
@@ -52,12 +83,18 @@ const dateLocal=localDate(nowDate);
 
 for(const source of (registry.sources||[]).filter(x=>x.active)){
   try{
-    const html=await fetchText(source.url);
-    const representation=normaliseHtml(html);
+    const acquisition=await fetchSource(source);
+    const representation=normaliseHtml(acquisition.text);
     if(!representation) throw new Error('empty normalised representation');
     const contentHash=sha(representation);
     const previous=state.sources[source.watch_id]||null;
-    if(previous?.content_hash===contentHash) continue;
+    if(previous?.content_hash===contentHash){
+      if(previous.acquisition_url!==acquisition.url || previous.header_profile!==acquisition.header_profile){
+        state.sources[source.watch_id]={...previous,acquisition_url:acquisition.url,requested_url:acquisition.requested_url,header_profile:acquisition.header_profile,content_type:acquisition.content_type};
+        dirty=true;
+      }
+      continue;
+    }
 
     const snapshotId=`AUTO-${source.watch_id}-${compact(nowDate)}`;
     if(!snapshotRegister.snapshots.some(x=>x.snapshot_id===snapshotId)){
@@ -68,6 +105,10 @@ for(const source of (registry.sources||[]).filter(x=>x.active)){
         source_id:source.source_id,
         source_registry_snapshot:registry.registry_id,
         source_url:source.url,
+        acquisition_url:acquisition.url,
+        requested_acquisition_url:acquisition.requested_url,
+        acquisition_header_profile:acquisition.header_profile,
+        acquisition_content_type:acquisition.content_type,
         source_name:source.name,
         source_class:source.source_class,
         original_source_class:null,
@@ -117,7 +158,11 @@ for(const source of (registry.sources||[]).filter(x=>x.active)){
       party_id:source.party_id??null,
       content_hash:contentHash,
       snapshot_id:snapshotId,
-      captured_at:now
+      captured_at:now,
+      acquisition_url:acquisition.url,
+      requested_url:acquisition.requested_url,
+      header_profile:acquisition.header_profile,
+      content_type:acquisition.content_type
     };
     dirty=true;
   }catch(err){
@@ -126,25 +171,24 @@ for(const source of (registry.sources||[]).filter(x=>x.active)){
   }
 }
 
+state.status='ACTIVE';
+state.updated_at=now;
+state.last_run={captured_at:now,baselines_created:baselineCount,signals_created:signalCount,failures};
+manifest.updated_at=now;
+manifest.live_evidence_ingestion ||= {};
+manifest.live_evidence_ingestion.running=true;
+manifest.live_evidence_ingestion.last_capture_at=now;
 if(dirty){
-  state.status='ACTIVE';
-  state.updated_at=now;
-  state.last_run={captured_at:now,baselines_created:baselineCount,signals_created:signalCount,failures};
   snapshotRegister.scope='Australia — multi-jurisdiction';
   snapshotRegister.captured_at=now;
   eventLedger.captured_at=now;
-  manifest.updated_at=now;
-  manifest.live_evidence_ingestion ||= {};
-  manifest.live_evidence_ingestion.running=true;
   manifest.live_evidence_ingestion.source_snapshots_ingested=snapshotRegister.snapshots.length;
   manifest.live_evidence_ingestion.intelligence_events_ingested=eventLedger.events.length;
   manifest.live_evidence_ingestion.signals_ingested=eventLedger.events.filter(x=>x.event_type==='SIGNAL_CREATED').length;
-  manifest.live_evidence_ingestion.last_capture_at=now;
   manifest.status='LIVE_INGESTION_ACTIVE_FORWARD_SIGNAL_CAPTURE_RUNNING';
-  write(STATE,state);
   write(SNAPSHOTS,snapshotRegister);
   write(EVENTS,eventLedger);
-  write(MANIFEST,manifest);
 }
-
+write(STATE,state);
+write(MANIFEST,manifest);
 console.log(`FORWARD_SIGNAL_CAPTURE_OK dirty=${dirty} baselines=${baselineCount} signals=${signalCount} failures=${failures.length}`);

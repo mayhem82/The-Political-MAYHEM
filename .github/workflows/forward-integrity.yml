@@ -27,6 +27,8 @@ jobs:
         run: node scripts/validate-projection-integrity.mjs
       - name: Validate projection audit evidence timing
         run: node scripts/validate-projection-audit-integrity.mjs
+      - name: Validate temporal provenance language
+        run: node scripts/validate-temporal-provenance-language.mjs
       - name: Validate political lifecycle
         run: node scripts/validate-political-lifecycle.mjs
       - name: Validate Political MAYHEM competition classes

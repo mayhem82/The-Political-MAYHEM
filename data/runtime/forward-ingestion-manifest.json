@@ -1,8 +1,9 @@
 {
-  "snapshot_id": "FORWARD-INGESTION-MANIFEST-002",
+  "snapshot_id": "FORWARD-INGESTION-MANIFEST-003",
   "mode": "FORWARD_ONLY",
+  "scope": "Australia — Federal, States and Territories",
   "created_at": "2026-09-08T00:00:00+10:00",
-  "updated_at": "2026-09-08T10:10:00+10:00",
+  "updated_at": "2026-09-08T10:20:00+10:00",
   "rules": {
     "evidence_must_be_knowable_at_capture_time": true,
     "captured_at_required": true,
@@ -10,22 +11,38 @@
     "original_source_representation_preserved": true,
     "later_discovery_creates_new_event": true,
     "retroactive_insertion_into_prior_projection_prohibited": true,
-    "post_outcome_material_separated": true
+    "post_outcome_material_separated": true,
+    "jurisdictions_remain_distinct": true,
+    "cross_jurisdiction_effect_requires_explicit_lineage": true
   },
   "structural_data_loaded": {
     "federal_parliamentary_players": true,
-    "party_rosters": true,
-    "team_player_form_shells": true,
-    "federal_polling_ladder_snapshot": true
+    "federal_party_rosters": true,
+    "federal_team_player_form_shells": true,
+    "federal_polling_ladder_snapshot": true,
+    "political_competition_registry": true,
+    "state_and_territory_player_rosters": false
   },
   "live_evidence_ingestion": {
-    "running": false,
-    "source_snapshots_ingested": 0,
-    "intelligence_events_ingested": 0,
+    "running": true,
+    "source_snapshots_ingested": 7,
+    "intelligence_events_ingested": 11,
     "contradictions_ingested": 0,
-    "party_state_updates_ingested": 0,
-    "actor_state_updates_ingested": 0,
-    "contest_state_updates_ingested": 0
+    "party_state_updates_ingested": 8,
+    "actor_state_updates_ingested": 2,
+    "field_state_updates_ingested": 1,
+    "contest_state_updates_ingested": 0,
+    "jurisdiction_coverage": {
+      "federal": "STARTED",
+      "new_south_wales": "PENDING",
+      "victoria": "PENDING",
+      "queensland": "PENDING",
+      "western_australia": "PENDING",
+      "south_australia": "PENDING",
+      "tasmania": "PENDING",
+      "australian_capital_territory": "PENDING",
+      "northern_territory": "PENDING"
+    }
   },
   "queues": {
     "sources": [],
@@ -34,7 +51,17 @@
     "contradictions": [],
     "contest_state_updates": [],
     "party_state_updates": [],
-    "actor_state_updates": []
+    "actor_state_updates": [],
+    "jurisdiction_ingestion": [
+      "AUS-NSW",
+      "AUS-VIC",
+      "AUS-QLD",
+      "AUS-WA",
+      "AUS-SA",
+      "AUS-TAS",
+      "AUS-ACT",
+      "AUS-NT"
+    ]
   },
-  "status": "STRUCTURAL_DATA_LOADED_LIVE_EVIDENCE_INGESTION_NOT_STARTED"
+  "status": "LIVE_INGESTION_STARTED_MULTI_JURISDICTION_EXPANSION_ACTIVE"
 }

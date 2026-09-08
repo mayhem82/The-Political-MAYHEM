@@ -1,0 +1,50 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://mayhem82.github.io/The-Political-MAYHEM/schema/edge-calibration-record.schema.json",
+  "title": "Political MAYHEM Edge / Calibration Record",
+  "type": "object",
+  "required": ["edge_record_id", "projection_id", "contest_id", "frozen_at", "outcome_id", "grade", "mayhem_probability", "outcome_binary", "mayhem_brier", "mayhem_log_loss"],
+  "properties": {
+    "edge_record_id": {"type": "string"},
+    "projection_id": {"type": "string"},
+    "contest_id": {"type": "string"},
+    "cycle_id": {"type": ["string", "null"]},
+    "frozen_at": {"type": "string", "format": "date-time"},
+    "evidence_cutoff": {"type": "string", "format": "date-time"},
+    "outcome_id": {"type": "string"},
+    "grade": {"enum": ["CORRECT", "INCORRECT", "PARTIAL", "VOID"]},
+    "mayhem_probability": {"type": "number", "minimum": 0, "maximum": 1},
+    "outcome_binary": {"enum": [0, 1]},
+    "mayhem_brier": {"type": "number", "minimum": 0, "maximum": 1},
+    "mayhem_log_loss": {"type": "number", "minimum": 0},
+    "baseline": {
+      "type": ["object", "null"],
+      "properties": {
+        "baseline_id": {"type": "string"},
+        "baseline_type": {"enum": ["MARKET", "CONSENSUS", "POLL", "MODEL", "BOOKMAKER", "OTHER"]},
+        "label": {"type": "string"},
+        "probability": {"type": "number", "minimum": 0, "maximum": 1},
+        "captured_at": {"type": "string", "format": "date-time"},
+        "source_snapshot_ids": {"type": "array", "minItems": 1, "items": {"type": "string"}},
+        "brier": {"type": "number", "minimum": 0, "maximum": 1},
+        "log_loss": {"type": "number", "minimum": 0}
+      },
+      "required": ["baseline_id", "baseline_type", "label", "probability", "captured_at", "source_snapshot_ids", "brier", "log_loss"],
+      "additionalProperties": true
+    },
+    "brier_edge_vs_baseline": {"type": ["number", "null"]},
+    "log_loss_edge_vs_baseline": {"type": ["number", "null"]},
+    "audit_id": {"type": ["string", "null"]},
+    "integrity": {
+      "type": "object",
+      "required": ["frozen_projection_unchanged", "verified_outcome_required", "negative_edge_retained", "no_hindsight_baseline"],
+      "properties": {
+        "frozen_projection_unchanged": {"const": true},
+        "verified_outcome_required": {"const": true},
+        "negative_edge_retained": {"const": true},
+        "no_hindsight_baseline": {"const": true}
+      }
+    }
+  },
+  "additionalProperties": true
+}

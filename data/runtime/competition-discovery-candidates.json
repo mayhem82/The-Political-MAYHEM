@@ -66,9 +66,9 @@
     {
       "jurisdiction_id": "AUS-FED",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-08T21:55:37.598Z",
-      "signals_examined": 12,
-      "candidates_detected": 0
+      "last_screened_at": "2026-09-09T09:04:32+10:00",
+      "signals_examined": 14,
+      "candidates_detected": 2
     },
     {
       "jurisdiction_id": "AUS-NSW",
@@ -127,12 +127,76 @@
       "candidates_detected": 0
     }
   ],
-  "candidates": [],
-  "last_screened_at": "2026-09-08T21:55:37.598Z",
+  "candidates": [
+    {
+      "candidate_id": "DISC-FED-PROCEDURAL-0266f38ab0f94358",
+      "jurisdiction_id": "AUS-FED",
+      "competition_family": "PROCEDURAL",
+      "proposed_competition_class": "PARLIAMENTARY_PROCEDURE",
+      "proposed_cycle_id": null,
+      "subject": "Federal disallowance contest — Carbon Credits (Carbon Farming Initiative—Improved Forest Management in Multiple-use Public Native Forests) Methodology Determination 2026",
+      "candidate_state": "REVIEW_REQUIRED",
+      "detected_at": "2026-09-09T09:04:32+10:00",
+      "source_snapshot_ids": [
+        "SNAP-APH-DISALLOWANCE-20260909-0904"
+      ],
+      "signal_event_ids": [
+        "INTEL-20260909-APH-DISALLOWANCE-001"
+      ],
+      "review_ids": [],
+      "evidence_summary": "Official Parliament of Australia evidence records unresolved disallowance action against the 2026 native-forest carbon methodology determination. Senator Cadell's motion is postponed to 15 September 2026 and a separate House disallowance notice by Mr Tehan is also unresolved. This establishes a current procedural competition candidate; opposing-side composition and a compatible cycle registration still require resolution before match registration.",
+      "registration_blockers": [
+        "REGISTERED_COMPATIBLE_CYCLE_REQUIRED",
+        "MATERIAL_PROCEDURAL_OPPOSITION_REQUIRES_REVIEW"
+      ],
+      "linked_contest_id": null,
+      "state_history": [
+        {
+          "from": null,
+          "to": "REVIEW_REQUIRED",
+          "at": "2026-09-09T09:04:32+10:00",
+          "reason": "CURRENT_PRIMARY_PARLIAMENT_COMPETITION_INGEST"
+        }
+      ]
+    },
+    {
+      "candidate_id": "DISC-FED-LEGISLATION-dc5b3bded5961647",
+      "jurisdiction_id": "AUS-FED",
+      "competition_family": "LEGISLATION",
+      "proposed_competition_class": "LEGISLATIVE",
+      "proposed_cycle_id": "AUS-FED-48TH-PARLIAMENT",
+      "subject": "AI Kill Switch and Data Centre Control Bill 2026",
+      "candidate_state": "EVIDENCE_GAP",
+      "detected_at": "2026-09-09T09:04:32+10:00",
+      "source_snapshot_ids": [
+        "SNAP-APH-AI-KILL-SWITCH-BILL-20260909-0904"
+      ],
+      "signal_event_ids": [
+        "INTEL-20260909-APH-BILL-001"
+      ],
+      "review_ids": [],
+      "evidence_summary": "Official Parliament of Australia evidence verifies that the AI Kill Switch and Data Centre Control Bill 2026 is currently before the House of Representatives after introduction on 7 September 2026. The bill is therefore a live legislative competition candidate; material resistance and both competition sides have not yet been evidenced sufficiently for registered-match promotion.",
+      "registration_blockers": [
+        "MATERIAL_RESISTANCE_NOT_YET_EVIDENCED",
+        "SUPPORTING_SIDE_NOT_YET_RESOLVED",
+        "OPPOSING_SIDE_NOT_YET_RESOLVED"
+      ],
+      "linked_contest_id": null,
+      "state_history": [
+        {
+          "from": null,
+          "to": "EVIDENCE_GAP",
+          "at": "2026-09-09T09:04:32+10:00",
+          "reason": "CURRENT_PRIMARY_PARLIAMENT_COMPETITION_INGEST"
+        }
+      ]
+    }
+  ],
+  "last_screened_at": "2026-09-09T09:04:32+10:00",
   "last_screen_summary": {
-    "signals_examined": 31,
-    "candidates_total": 0,
-    "candidates_added": 0,
+    "signals_examined": 33,
+    "candidates_total": 2,
+    "candidates_added": 2,
     "candidate_lineage_merges": 0,
     "registered_contests_unchanged": true
   }

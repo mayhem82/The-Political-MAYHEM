@@ -90,9 +90,15 @@ for(const s of snapshotRows.filter(s=>s.source_registry_snapshot===registry.regi
 }
 
 const failures=new Map((state.last_run?.failures||[]).map(x=>[x.watch_id,x.error]));
+const registryUpdatedAt=Date.parse(registry.updated_at||'');
+const lastCaptureAt=Date.parse(state.last_run?.captured_at||state.updated_at||'');
+const registryNewerThanCapture=Number.isFinite(registryUpdatedAt)&&Number.isFinite(lastCaptureAt)&&registryUpdatedAt>lastCaptureAt;
+let pendingFirstCapture=0;
 for(const w of active){
  const current=state.sources?.[w.watch_id];
- assert(Boolean(current)||failures.has(w.watch_id),`${w.watch_id} has neither baseline nor explicit latest-run failure`);
+ const pending=Boolean(!current&&!failures.has(w.watch_id)&&registryNewerThanCapture);
+ if(pending) pendingFirstCapture++;
+ assert(Boolean(current)||failures.has(w.watch_id)||pending,`${w.watch_id} has neither baseline nor explicit latest-run failure`);
  if(!current) continue;
  const s=snapshotById.get(current.snapshot_id);
  assert(Boolean(s),`${w.watch_id} current state references missing snapshot ${current.snapshot_id}`);
@@ -103,6 +109,7 @@ for(const w of active){
   assert(['PUBLICATION_FEED_HASH','TRANSITIONAL_PUBLICATION_HASH'].includes(current.capture_mode),`${w.watch_id} transition pointer has invalid state mode`);
  }
 }
+if(pendingFirstCapture>0) assert(registryNewerThanCapture,'pending first capture is only allowed after a newer source-registry revision');
 
 const rawChanges=eventRows.filter(e=>e.event_type==='SOURCE_CHANGED');
 const reviewedByChange=new Map(reviewRows.map(r=>[r.source_change_event_id,r]));
@@ -164,4 +171,4 @@ if(fail.length){
  for(const m of fail) console.error('- '+m);
  process.exit(1);
 }
-console.log('POLITICAL_MAYHEM_FORWARD_SIGNAL_INTEGRITY_V2_PASS',`active=${active.length}`,`fields=${fields.length}`,`snapshots=${snapshotRows.length}`,`transition=${transitionIds.size}`,`rawChanges=${rawChanges.length}`,`reviews=${reviewRows.length}`,`promoted=${reviewRows.filter(r=>r.decision==='PROMOTED_TO_SIGNAL').length}`,`latestFailures=${failures.size}`);
+console.log('POLITICAL_MAYHEM_FORWARD_SIGNAL_INTEGRITY_V2_PASS',`active=${active.length}`,`fields=${fields.length}`,`snapshots=${snapshotRows.length}`,`transition=${transitionIds.size}`,`rawChanges=${rawChanges.length}`,`reviews=${reviewRows.length}`,`promoted=${reviewRows.filter(r=>r.decision==='PROMOTED_TO_SIGNAL').length}`,`latestFailures=${failures.size}`,`pendingFirstCapture=${pendingFirstCapture}`);

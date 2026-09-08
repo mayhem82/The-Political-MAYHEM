@@ -1,11 +1,11 @@
 {
-  "registry_id": "POLITICAL-MAYHEM-CYCLE-CLASSES-001",
+  "registry_id": "POLITICAL-MAYHEM-CYCLE-CLASSES-002",
   "status": "ACTIVE",
   "rules": {
     "contest_must_belong_to_registered_cycle": true,
     "cycle_class_must_match_competition_context": true,
     "electoral_contests_use_electoral_cycles": true,
-    "legislative_contests_use_parliamentary_cycles": true,
+    "parliamentary_competitions_use_parliamentary_terms": true,
     "cycle_class_does_not_limit_player_to_one_competition": true
   },
   "classes": [
@@ -18,8 +18,14 @@
     {
       "cycle_class": "PARLIAMENTARY_TERM",
       "public_label": "Parliamentary Term",
-      "allowed_competition_classes": ["LEGISLATIVE"],
-      "definition": "A parliamentary term or equivalent sourced legislative period containing bill, motion and parliamentary-measure competitions."
+      "allowed_competition_classes": [
+        "LEGISLATIVE",
+        "CONFIDENCE_SUPPLY",
+        "BUDGET",
+        "POLICY_ENACTMENT",
+        "PARLIAMENTARY_PROCEDURE"
+      ],
+      "definition": "A parliamentary term containing legislative, confidence and supply, budget, policy-enactment and parliamentary-procedure competitions where their evidence-backed objective occurs within that parliament."
     }
   ]
 }

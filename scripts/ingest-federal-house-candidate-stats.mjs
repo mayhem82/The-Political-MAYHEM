@@ -8,6 +8,7 @@ const MIRROR_FP='https://raw.githubusercontent.com/rNLKJA/public-services-open-s
 const AEC_SEAT='https://results.aec.gov.au/31496/Website/HouseSeatSummary-31496.htm';
 
 const norm=s=>String(s??'').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/[^a-z0-9]/g,'');
+const tokens=s=>String(s??'').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/[^a-z0-9]+/g,' ').trim().split(/\s+/).filter(Boolean);
 const num=s=>{const x=Number(String(s??'').replace(/[,+%]/g,'').trim());return Number.isFinite(x)?x:null};
 const round2=n=>Math.round(Number(n)*100)/100;
 const decode=s=>String(s??'').replace(/&nbsp;/g,' ').replace(/&amp;/g,'&').replace(/&quot;/g,'"').replace(/&#39;|&apos;/g,"'").replace(/&lt;/g,'<').replace(/&gt;/g,'>');
@@ -55,8 +56,9 @@ async function seatSummary(){
 }
 
 function surnameMatches(currentName,aecSurname){
-  const sn=norm(aecSurname); if(!sn) return false;
-  return norm(currentName).includes(sn);
+  const current=tokens(currentName),surname=tokens(aecSurname);
+  if(!surname.length||surname.length>current.length) return false;
+  return surname.every((token,i)=>current[current.length-surname.length+i]===token);
 }
 
 const current=JSON.parse(fs.readFileSync(PLAYERS,'utf8'));
@@ -121,6 +123,9 @@ const currentIds=new Set(house.map(p=>p.actor_id));
 const coveredCurrent=new Set(combined.filter(r=>currentIds.has(r.actor_id)).map(r=>r.actor_id));
 const unresolved=house.filter(p=>!coveredCurrent.has(p.actor_id)).map(p=>({actor_id:p.actor_id,name:p.name,division:p.division,reason:'No candidate-specific election record for the current member is loaded yet'}));
 
+if(records.length+historicalWinners.length!==150) throw new Error(`2025 elected-candidate reconciliation produced ${records.length+historicalWinners.length}, expected 150`);
+if(!historicalWinners.every(x=>!records.some(r=>r.actor_id===x.current_actor_id&&norm(r.division)===norm(x.division)))) throw new Error('Replacement current member inherited a predecessor 2025 result');
+
 const out={
   ...existing,
   snapshot_id:'FEDERAL-HOUSE-ELECTORAL-PERFORMANCE-002',
@@ -137,9 +142,10 @@ const out={
     current_member_replacement_must_not_inherit_predecessor_election_stats:true,
     candidate_specific_primary_is_derived_only_from_candidate_total_votes_over_division_formal_candidate_votes:true,
     final_tcp_is_taken_from_aec_final_seat_summary:true,
-    missing_candidate_specific_result_is_not_zero:true
+    missing_candidate_specific_result_is_not_zero:true,
+    surname_reconciliation_requires_terminal_name_token_match:true
   },
-  current_player_election_party_overrides:{...(existing.current_player_election_party_overrides||{}),...overrides},
+  current_player_election_party_overrides:overrides,
   candidate_specific_results:combined,
   historical_2025_winners_not_current_members:historicalWinners,
   coverage:{
@@ -148,9 +154,15 @@ const out={
     division_context_total:150,
     elected_2025_candidate_records:records.length+historicalWinners.length,
     elected_2025_candidate_expected:150,
+    candidate_specific_records:combined.length,
+    candidate_specific_2025_current_players:records.length,
+    historical_2025_winners_not_current_members:historicalWinners.length,
+    later_event_candidate_specific_records:later.length,
     current_house_players:150,
     current_players_with_candidate_specific_stats:coveredCurrent.size,
     current_players_without_candidate_specific_stats:unresolved.length,
+    current_players_with_any_candidate_specific_stats:coveredCurrent.size,
+    current_players_without_any_candidate_specific_stats:unresolved.length,
     current_player_candidate_specific_expansion:unresolved.length?'EXPANDING':'COMPLETE'
   },
   unresolved_current_house_players:unresolved,

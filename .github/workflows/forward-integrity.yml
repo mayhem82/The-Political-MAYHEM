@@ -25,6 +25,8 @@ jobs:
         run: node scripts/validate-forward-signal-integrity.mjs
       - name: Validate projection integrity
         run: node scripts/validate-projection-integrity.mjs
+      - name: Validate political lifecycle
+        run: node scripts/validate-political-lifecycle.mjs
       - name: Validate state and territory rosters
         run: node scripts/validate-state-territory-rosters.mjs
       - name: Validate federal Senate electoral statistics

@@ -6,6 +6,7 @@ const STATE='data/runtime/forward-signal-capture-state.json';
 const SNAPSHOTS='data/runtime/source-snapshots.json';
 const EVENTS='data/runtime/intelligence-events.json';
 const MANIFEST='data/runtime/forward-ingestion-manifest.json';
+const FETCH_TIMEOUT_MS=15000;
 
 const read=p=>JSON.parse(fs.readFileSync(p,'utf8'));
 const write=(p,v)=>fs.writeFileSync(p,JSON.stringify(v,null,2)+'\n');
@@ -52,13 +53,18 @@ async function fetchSource(source){
   const errors=[];
   for(const url of urls){
     for(const profile of headerProfiles){
+      const controller=new AbortController();
+      const timer=setTimeout(()=>controller.abort(),FETCH_TIMEOUT_MS);
       try{
-        const r=await fetch(url,{headers:profile.headers,redirect:'follow'});
+        const r=await fetch(url,{headers:profile.headers,redirect:'follow',signal:controller.signal});
         if(!r.ok){errors.push(`${url} [${profile.id}] ${r.status} ${r.statusText}`);continue;}
         const text=await r.text();
         if(!String(text).trim()){errors.push(`${url} [${profile.id}] empty response`);continue;}
         return {text,url:r.url||url,requested_url:url,header_profile:profile.id,content_type:r.headers.get('content-type')||null};
-      }catch(err){errors.push(`${url} [${profile.id}] ${err?.message||err}`);}
+      }catch(err){
+        const label=err?.name==='AbortError'?`timeout>${FETCH_TIMEOUT_MS}ms`:(err?.message||err);
+        errors.push(`${url} [${profile.id}] ${label}`);
+      }finally{clearTimeout(timer);}
     }
   }
   throw new Error(errors.join(' | '));

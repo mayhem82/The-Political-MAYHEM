@@ -1,0 +1,62 @@
+{
+  "registry_id": "POLITICAL-MAYHEM-COMPETITION-CLASSES-001",
+  "status": "ACTIVE",
+  "model": "POLITICAL_MAYHEM_SPORT",
+  "rules": {
+    "political_mayhem_is_the_sport": true,
+    "competition_class_is_not_jurisdiction": true,
+    "one_player_may_participate_in_multiple_competitions": true,
+    "one_player_may_participate_in_multiple_competition_classes": true,
+    "parliamentary_roster_membership_does_not_define_complete_competition_slate": true,
+    "contest_registration_requires_evidence_lineage": true,
+    "competition_outcome_requires_verification": true
+  },
+  "classes": [
+    {
+      "competition_class": "ELECTORAL",
+      "public_label": "Election",
+      "definition": "A political contest in which an electoral process determines representation, government formation or another registered electoral outcome.",
+      "competition_object": "ELECTION_OR_ELECTORAL_OUTCOME",
+      "participant_model": "CANDIDATES_PARTIES_TEAMS_OR_REGISTERED_SIDES",
+      "example_contest_types": [
+        "STATE_GENERAL_ELECTION_GOVERNMENT_FORMATION"
+      ],
+      "outcome_examples": [
+        "ELECTED",
+        "DEFEATED",
+        "GOVERNMENT_FORMED",
+        "NO_VERIFIED_OUTCOME_YET"
+      ]
+    },
+    {
+      "competition_class": "LEGISLATIVE",
+      "public_label": "Legislative Contest",
+      "definition": "A political contest over whether a bill, motion or other parliamentary measure succeeds against material resistance.",
+      "competition_object": "BILL_MOTION_OR_PARLIAMENTARY_MEASURE",
+      "participant_model": "SUPPORTING_SIDE_OPPOSING_SIDE_AND_RECORDED_CROSSBENCH_OR_INDEPENDENT_PLAYERS",
+      "registration_threshold": "MATERIAL_RESISTANCE_EVIDENCED",
+      "match_events": [
+        "INTRODUCTION",
+        "AMENDMENT",
+        "COMMITTEE_STAGE",
+        "PARTY_ROOM_POSITION",
+        "CROSSBENCH_NEGOTIATION",
+        "PROCEDURAL_MOVE",
+        "DIVISION_OR_VOTE",
+        "WITHDRAWAL"
+      ],
+      "verified_outcomes": [
+        "PASSED",
+        "DEFEATED",
+        "WITHDRAWN",
+        "LAPSED"
+      ],
+      "integrity": {
+        "proposal_without_material_resistance_is_not_automatically_a_competition": true,
+        "support_or_opposition_requires_source_lineage": true,
+        "vote_or_passage_status_requires_verification": true,
+        "player_position_may_change_only_from_forward_evidence": true
+      }
+    }
+  ]
+}

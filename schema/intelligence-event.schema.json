@@ -7,6 +7,7 @@
   "properties": {
     "event_id": {"type": "string"},
     "parent_event_id": {"type": ["string", "null"]},
+    "review_id": {"type": ["string", "null"]},
     "contest_id": {"type": ["string", "null"]},
     "cycle_id": {"type": ["string", "null"]},
     "party_id": {"type": ["string", "null"]},
@@ -23,8 +24,13 @@
     "materiality_state": {"enum": ["UNASSESSED", "IMMATERIAL", "MATERIAL", "CONTEST_RELEVANT", "UNKNOWN"]},
     "source_class": {"type": "string"},
     "source_id": {"type": ["string", "null"]},
+    "capture_mode": {"enum": ["NORMALISED_PAGE_HASH", "PUBLICATION_FEED_HASH", null]},
+    "review_policy": {"type": ["string", "null"]},
     "before": {},
     "after": {},
+    "representation_delta": {"type": ["object", "null"]},
+    "publication_records_added": {"type": "array", "items": {"type": "object"}},
+    "publication_records_removed": {"type": "array", "items": {"type": "object"}},
     "claim": {"type": ["string", "null"]},
     "observed_behaviour": {"type": ["string", "null"]},
     "direct_actor_statement": {"type": ["string", "null"]},
@@ -33,7 +39,8 @@
     "conflict_ids": {"type": "array", "items": {"type": "string"}},
     "projection_effect": {"enum": ["NO_EFFECT", "CONFIDENCE_CHANGE", "RANKING_CHANGE", "OUTCOME_SELECTION_CHANGE", "ABSTAIN_INSUFFICIENT_EVIDENCE"]},
     "information_advantage": {"enum": ["NONE", "POSSIBLE", "CORROBORATED", "DEMONSTRATED"]},
-    "frozen": {"type": "boolean"}
+    "frozen": {"type": "boolean"},
+    "integrity": {"type": ["object", "null"]}
   },
   "additionalProperties": true
 }

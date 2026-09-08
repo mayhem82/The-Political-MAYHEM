@@ -35,6 +35,8 @@ jobs:
         run: node scripts/validate-political-normalize-engine.mjs
       - name: Validate political contradiction engine
         run: node scripts/validate-political-conflict-engine.mjs
+      - name: Validate political abstention integrity
+        run: node scripts/validate-political-abstention-integrity.mjs
       - name: Validate state and territory rosters
         run: node scripts/validate-state-territory-rosters.mjs
       - name: Validate federal Senate electoral statistics

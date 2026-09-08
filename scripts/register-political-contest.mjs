@@ -31,8 +31,13 @@ const status=input.status||'UPCOMING';
 if(!['UPCOMING','CONTEST_WINDOW'].includes(status)) throw new Error('new contest status must be UPCOMING or CONTEST_WINDOW');
 for(const [k,v] of [['scheduled_at',input.scheduled_at],['window_open_at',input.window_open_at],['close_at',input.close_at],['outcome_expected_at',input.outcome_expected_at],['evidence_cutoff',input.evidence_cutoff]]) validTime(v,k);
 if(input.window_open_at&&input.close_at&&Date.parse(input.close_at)<Date.parse(input.window_open_at)) throw new Error('close_at cannot precede window_open_at');
+const evidenceCutoff=input.evidence_cutoff??now;
+const evidenceCutoffMs=validTime(evidenceCutoff,'evidence_cutoff');
+if(evidenceCutoffMs>nowDate.getTime()) throw new Error('evidence_cutoff cannot be in the future');
 if(!Array.isArray(input.source_snapshot_ids)||input.source_snapshot_ids.length===0) throw new Error('source_snapshot_ids is required');
-for(const id of input.source_snapshot_ids){const s=snapshots.get(id);if(!s)throw new Error(`unknown source snapshot ${id}`);if(validTime(s.captured_at,`${id}.captured_at`)>nowDate.getTime())throw new Error(`source snapshot ${id} has future captured_at`);}
+for(const id of input.source_snapshot_ids){const s=snapshots.get(id);if(!s)throw new Error(`unknown source snapshot ${id}`);const captured=validTime(s.captured_at,`${id}.captured_at`);if(captured>evidenceCutoffMs)throw new Error(`source snapshot ${id} was captured after evidence_cutoff`);}
+const evidenceState=input.evidence_state||'VERIFIED';
+if(!['VERIFIED','UNVERIFIED','CONTRADICTED','MIXED','UNKNOWN'].includes(evidenceState)) throw new Error('invalid evidence_state');
 
 const contest={
   contest_id:input.contest_id,
@@ -45,7 +50,7 @@ const contest={
   window_open_at:input.window_open_at??null,
   close_at:input.close_at??null,
   outcome_expected_at:input.outcome_expected_at??null,
-  evidence_cutoff:input.evidence_cutoff??now,
+  evidence_cutoff:evidenceCutoff,
   status,
   party_ids:[...new Set(input.party_ids||[])],
   actor_ids:[...new Set(input.actor_ids||[])],
@@ -75,11 +80,11 @@ checkpoints.contests.push({
     checkpoint_type:'BASELINE',
     scheduled_for:null,
     captured_at:now,
-    evidence_cutoff:contest.evidence_cutoff,
+    evidence_cutoff:evidenceCutoff,
     capture_state:'CAPTURED_IN_WINDOW',
     source_snapshot_ids:[...contest.source_refs],
     intelligence_event_ids:[],
-    evidence_state:input.evidence_state||'VERIFIED',
+    evidence_state:evidenceState,
     open_conflict_ids:[],
     projection_id:null,
     projection_state:'NONE',

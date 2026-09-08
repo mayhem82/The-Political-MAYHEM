@@ -1,5 +1,5 @@
 {
-  "registry_id": "POLITICAL-PLAYER-STAT-REGISTRY-005",
+  "registry_id": "POLITICAL-PLAYER-STAT-REGISTRY-006",
   "status": "EXPANDING",
   "purpose": "Define political-player statistics in native political units while retaining the sports translation layer for legibility.",
   "rules": {
@@ -16,7 +16,12 @@
     "current_member_replacement_must_not_inherit_predecessor_election_stats": true,
     "senate_group_first_preference_must_not_be_labelled_individual_primary_vote": true,
     "senate_replacement_must_not_inherit_predecessor_election_stats": true,
-    "senate_replacement_must_not_inherit_predecessor_elected_record": true
+    "senate_replacement_must_not_inherit_predecessor_elected_record": true,
+    "finals_history_preserves_team_at_time_of_contest": true,
+    "finals_history_preserves_jurisdiction_and_contest": true,
+    "career_finals_total_requires_complete_historical_coverage": true,
+    "partial_history_must_be_labelled_known_finals_not_career_total": true,
+    "missing_historical_contests_must_not_be_rendered_as_losses_or_zero": true
   },
   "groups": [
     {
@@ -61,6 +66,25 @@
         "Seven current Senators are later replacements or otherwise do not match a 2025/2022 elected-Senator record in the current snapshot; predecessor electoral records are not inherited.",
         "A Senate group first-preference percentage is team/group context and is never represented as the individual Senator's primary vote.",
         "State/territory candidate-level electoral statistics remain a separate expansion layer."
+      ]
+    },
+    {
+      "group_id": "FINALS_HISTORY",
+      "public_label": "FINALS HISTORY",
+      "stats": [
+        {"stat_id":"known_finals","label":"KNOWN FINALS","unit":"COUNT","source":"SOURCE_BACKED_ELECTORAL_CONTEST_HISTORY","availability":"PARTIAL_HISTORY"},
+        {"stat_id":"known_wins","label":"KNOWN WINS","unit":"COUNT","source":"SOURCE_BACKED_ELECTORAL_CONTEST_HISTORY","availability":"PARTIAL_HISTORY"},
+        {"stat_id":"known_losses","label":"KNOWN LOSSES","unit":"COUNT","source":"SOURCE_BACKED_ELECTORAL_CONTEST_HISTORY","availability":"PARTIAL_HISTORY"},
+        {"stat_id":"final_team","label":"TEAM AT FINAL","unit":"CATEGORY_PER_CONTEST","source":"ELECTORAL_AUTHORITY_RESULT","availability":"PARTIAL_HISTORY"},
+        {"stat_id":"final_result","label":"FINAL RESULT","unit":"WIN_LOSS_OR_UNRESOLVED","source":"ELECTORAL_AUTHORITY_RESULT","availability":"PARTIAL_HISTORY"},
+        {"stat_id":"career_finals","label":"CAREER FINALS","unit":"COUNT","source":"SOURCE_BACKED_ELECTORAL_CONTEST_HISTORY","availability":"WITHHELD_UNTIL_HISTORY_COMPLETE"}
+      ],
+      "scope_notes": [
+        "A final is an election contest in which the player was a candidate on the ballot.",
+        "Each history row preserves the contest, jurisdiction, team/party represented at that contest and verified election result.",
+        "Current federal electoral datasets provide only partial career history; therefore the UI must say KNOWN FINALS rather than CAREER FINALS until historical ingestion is complete.",
+        "A player changing parties does not rewrite the team recorded for an earlier final.",
+        "A missing historical contest is unknown, not a loss and not a zero."
       ]
     },
     {

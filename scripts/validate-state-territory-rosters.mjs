@@ -10,6 +10,7 @@ const qld=read('data/runtime/queensland-parliamentary-players.json');
 const wa=read('data/runtime/western-australia-parliamentary-players.json');
 const nsw=read('data/runtime/new-south-wales-parliamentary-players.json');
 const vic=read('data/runtime/victoria-parliamentary-players.json');
+const tas=read('data/runtime/tasmania-parliamentary-players.json');
 const competitions=read('data/runtime/political-competitions.json');
 const manifest=read('data/runtime/forward-ingestion-manifest.json');
 
@@ -81,22 +82,26 @@ const qldRows=compactRoster(qld,{id:'AUS-QLD',label:'Queensland',total:93,party:
 const waRows=compactRoster(wa,{id:'AUS-WA',label:'Western Australia',total:95,party:94,ind:1,teams:8,parties:{ALP:61,LIB:16,NAT:8,GWA:4,ONP:2,AJP:1,AC:1,LCWA:1,IND:1},chambers:{LEGISLATIVE_ASSEMBLY:58,LEGISLATIVE_COUNCIL:37}});
 const nswRows=compactRoster(nsw,{id:'AUS-NSW',label:'New South Wales',total:135,party:122,ind:13,teams:8,parties:{ALP:61,LIB:33,NAT:16,GRN:7,SFF:2,LCP:1,AJP:1,LP:1,IND:13},chambers:{LEGISLATIVE_ASSEMBLY:93,LEGISLATIVE_COUNCIL:42}});
 const vicRows=compactRoster(vic,{id:'AUS-VIC',label:'Victoria',total:128,party:124,ind:4,teams:9,parties:{ALP:69,LIB:31,NAT:11,GRN:7,LCV:2,AJP:1,LP:1,ONP:1,SFF:1,IND:4},chambers:{LEGISLATIVE_ASSEMBLY:88,LEGISLATIVE_COUNCIL:40}});
+const tasRows=compactRoster(tas,{id:'AUS-TAS',label:'Tasmania',total:50,party:37,ind:13,teams:4,parties:{LIB:17,ALP:13,GRN:6,SFF:1,IND:13},chambers:{HOUSE_OF_ASSEMBLY:35,LEGISLATIVE_COUNCIL:15}});
 assert(nsw.integrity?.official_chamber_totals_reconciled===true,'NSW chamber totals not reconciled');
 assert(wa.integrity?.official_chamber_totals_reconciled===true,'WA chamber totals not reconciled');
 assert(vic.integrity?.official_chamber_totals_reconciled===true,'Victoria chamber totals not reconciled');
+assert(tas.integrity?.official_chamber_totals_reconciled===true,'Tasmania chamber totals not reconciled');
 
 const progress=competitions.ingestion_progress||{};
-assert(progress.state_territory_jurisdictions_with_complete_current_player_rosters===6,'competition progress expected 6/8 complete');
-assert(progress.state_territory_players_ingested===501,'competition progress expected 501 state/territory players');
-assert((progress.remaining_jurisdictions||[]).length===2,'competition progress expected 2 remaining jurisdictions');
-for(const done of ['AUS-NSW','AUS-VIC','AUS-QLD','AUS-WA','AUS-ACT','AUS-NT'])assert(!(progress.remaining_jurisdictions||[]).includes(done),`${done} incorrectly remains roster-pending`);
-assert(manifest.structural_data_loaded?.state_and_territory_player_rosters==='6_OF_8_COMPLETE','ingestion manifest roster status mismatch');
-assert(manifest.structural_data_loaded?.state_and_territory_players_ingested===501,'ingestion manifest player count mismatch');
-assert((manifest.queues?.jurisdiction_ingestion||[]).length===2,'remaining jurisdiction ingestion queue expected 2');
-for(const id of ['AUS-QLD','AUS-WA','AUS-NSW','AUS-VIC','AUS-ACT','AUS-NT'])assert((manifest.queues?.jurisdiction_evidence_activation||[]).includes(id),`${id} evidence activation not queued`);
+assert(progress.state_territory_jurisdictions_with_complete_current_player_rosters===7,'competition progress expected 7/8 complete');
+assert(progress.state_territory_players_ingested===551,'competition progress expected 551 state/territory players');
+assert((progress.remaining_jurisdictions||[]).length===1,'competition progress expected 1 remaining jurisdiction');
+for(const done of ['AUS-NSW','AUS-VIC','AUS-QLD','AUS-WA','AUS-TAS','AUS-ACT','AUS-NT'])assert(!(progress.remaining_jurisdictions||[]).includes(done),`${done} incorrectly remains roster-pending`);
+assert((progress.remaining_jurisdictions||[])[0]==='AUS-SA','South Australia must be the sole remaining roster-pending jurisdiction');
+assert(manifest.structural_data_loaded?.state_and_territory_player_rosters==='7_OF_8_COMPLETE','ingestion manifest roster status mismatch');
+assert(manifest.structural_data_loaded?.state_and_territory_players_ingested===551,'ingestion manifest player count mismatch');
+assert((manifest.queues?.jurisdiction_ingestion||[]).length===1,'remaining jurisdiction ingestion queue expected 1');
+assert((manifest.queues?.jurisdiction_ingestion||[])[0]==='AUS-SA','South Australia must be the sole ingestion queue item');
+for(const id of ['AUS-QLD','AUS-WA','AUS-NSW','AUS-VIC','AUS-TAS','AUS-ACT','AUS-NT'])assert((manifest.queues?.jurisdiction_evidence_activation||[]).includes(id),`${id} evidence activation not queued`);
 
-const allIds=[...(base.jurisdictions||[]).flatMap(j=>(j.players||[]).map(p=>`${j.competition_id}:${p.actor_id}`)),...qldRows.map(r=>`AUS-QLD:${r[0]}`),...waRows.map(r=>`AUS-WA:${r[0]}`),...nswRows.map(r=>`AUS-NSW:${r[0]}`),...vicRows.map(r=>`AUS-VIC:${r[0]}`)];
+const allIds=[...(base.jurisdictions||[]).flatMap(j=>(j.players||[]).map(p=>`${j.competition_id}:${p.actor_id}`)),...qldRows.map(r=>`AUS-QLD:${r[0]}`),...waRows.map(r=>`AUS-WA:${r[0]}`),...nswRows.map(r=>`AUS-NSW:${r[0]}`),...vicRows.map(r=>`AUS-VIC:${r[0]}`),...tasRows.map(r=>`AUS-TAS:${r[0]}`)];
 assert(unique(allIds),'state/territory jurisdiction-qualified actor IDs are not unique');
 
 if(fail.length){console.error('POLITICAL_MAYHEM_STATE_TERRITORY_ROSTER_INTEGRITY_FAILED');for(const message of fail)console.error('- '+message);process.exit(1)}
-console.log('POLITICAL_MAYHEM_STATE_TERRITORY_ROSTER_INTEGRITY_PASS','jurisdictions=6','players=501','VIC=128','NSW=135','QLD=93','WA=95','ACT=25','NT=25');
+console.log('POLITICAL_MAYHEM_STATE_TERRITORY_ROSTER_INTEGRITY_PASS','jurisdictions=7','players=551','TAS=50','VIC=128','NSW=135','QLD=93','WA=95','ACT=25','NT=25');

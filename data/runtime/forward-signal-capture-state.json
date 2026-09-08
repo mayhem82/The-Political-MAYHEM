@@ -9,7 +9,11 @@
       "party_id": "AUS-FED-LIB",
       "content_hash": "065c14d3506f53634b0cc71584ba1a7973040b8b88287ab50bf3fa2d9c3d99cb",
       "snapshot_id": "AUTO-WATCH-LIBERAL-HOME-20260908034459",
-      "captured_at": "2026-09-08T03:44:59.147Z"
+      "captured_at": "2026-09-08T03:44:59.147Z",
+      "acquisition_url": "https://www.liberal.org.au/",
+      "requested_url": "https://www.liberal.org.au/",
+      "header_profile": "IDENTIFIED_AUTOMATION",
+      "content_type": "text/html; charset=UTF-8"
     },
     "WATCH-GREENS-FEDERAL-MEDIA": {
       "source_id": "SRC-GREENS-FEDERAL-RELEASE-INDEX",
@@ -17,7 +21,11 @@
       "party_id": "AUS-FED-GRN",
       "content_hash": "b43420649434974476f46d5450f0c88d87fa9ff6fcb4de8c0f1e24bc89afa665",
       "snapshot_id": "AUTO-WATCH-GREENS-FEDERAL-MEDIA-20260908034459",
-      "captured_at": "2026-09-08T03:44:59.147Z"
+      "captured_at": "2026-09-08T03:44:59.147Z",
+      "acquisition_url": "https://greens.org.au/news/media-releases",
+      "requested_url": "https://greens.org.au/news/media-releases",
+      "header_profile": "IDENTIFIED_AUTOMATION",
+      "content_type": "text/html; charset=UTF-8"
     },
     "WATCH-NATIONALS-NEWS": {
       "source_id": "SRC-NATIONALS-FEDERAL-NEWS",
@@ -25,7 +33,11 @@
       "party_id": "AUS-FED-NAT",
       "content_hash": "9835976cafb52b0471cf288d6d958a8082d8e6bdba88205826156df05bc20554",
       "snapshot_id": "AUTO-WATCH-NATIONALS-NEWS-20260908034459",
-      "captured_at": "2026-09-08T03:44:59.147Z"
+      "captured_at": "2026-09-08T03:44:59.147Z",
+      "acquisition_url": "https://www.nationals.org.au/news",
+      "requested_url": "https://www.nationals.org.au/news",
+      "header_profile": "IDENTIFIED_AUTOMATION",
+      "content_type": "text/html; charset=utf-8"
     },
     "WATCH-NSW-MINISTERIAL-RELEASES": {
       "source_id": "SRC-NSW-MINISTERIAL-RELEASES",
@@ -33,26 +45,46 @@
       "party_id": null,
       "content_hash": "b05938ea58378d92a067ef2fd14c084bd87e384c957e2d80cbcc85a87e8c191e",
       "snapshot_id": "AUTO-WATCH-NSW-MINISTERIAL-RELEASES-20260908034459",
-      "captured_at": "2026-09-08T03:44:59.147Z"
+      "captured_at": "2026-09-08T03:44:59.147Z",
+      "acquisition_url": "https://www.nsw.gov.au/ministerial-releases",
+      "requested_url": "https://www.nsw.gov.au/ministerial-releases",
+      "header_profile": "IDENTIFIED_AUTOMATION",
+      "content_type": "text/html; charset=UTF-8"
+    },
+    "WATCH-APH-LIVE-MINUTES": {
+      "source_id": "SRC-APH-LIVE-MINUTES",
+      "jurisdiction_id": "AUS-FED",
+      "party_id": null,
+      "content_hash": "26d9ca034bde2159c13c6d58460bd6b3c6c63fcb4696a480a36ff8de57d8437d",
+      "snapshot_id": "AUTO-WATCH-APH-LIVE-MINUTES-20260908041957",
+      "captured_at": "2026-09-08T04:19:57.115Z",
+      "acquisition_url": "https://www.aph.gov.au/LiveMinutes",
+      "requested_url": "https://www.aph.gov.au/LiveMinutes",
+      "header_profile": "BROWSER_COMPATIBILITY",
+      "content_type": "text/html; charset=utf-8"
+    },
+    "WATCH-APH-WEEK-AHEAD": {
+      "source_id": "SRC-APH-WEEK-AHEAD",
+      "jurisdiction_id": "AUS-FED",
+      "party_id": null,
+      "content_hash": "6c5071884517290dce3a38b4ffc1b2e52016e2ad0aee4e9ebad2a52c7936f0d1",
+      "snapshot_id": "AUTO-WATCH-APH-WEEK-AHEAD-20260908041957",
+      "captured_at": "2026-09-08T04:19:57.115Z",
+      "acquisition_url": "https://www.aph.gov.au/Parliamentary_Business/Chamber_documents/Senate_chamber_documents/The_Week_Ahead",
+      "requested_url": "https://www.aph.gov.au/Parliamentary_Business/Chamber_documents/Senate_chamber_documents/The_Week_Ahead",
+      "header_profile": "BROWSER_COMPATIBILITY",
+      "content_type": "text/html; charset=utf-8"
     }
   },
-  "updated_at": "2026-09-08T03:44:59.147Z",
+  "updated_at": "2026-09-08T04:19:57.115Z",
   "last_run": {
-    "captured_at": "2026-09-08T03:44:59.147Z",
-    "baselines_created": 4,
+    "captured_at": "2026-09-08T04:19:57.115Z",
+    "baselines_created": 2,
     "signals_created": 0,
     "failures": [
       {
-        "watch_id": "WATCH-APH-LIVE-MINUTES",
-        "error": "403 Forbidden"
-      },
-      {
-        "watch_id": "WATCH-APH-WEEK-AHEAD",
-        "error": "403 Forbidden"
-      },
-      {
         "watch_id": "WATCH-ONENATION-NEWS",
-        "error": "403 Forbidden"
+        "error": "https://www.onenation.org.au/news [IDENTIFIED_AUTOMATION] 403 Forbidden | https://www.onenation.org.au/news [BROWSER_COMPATIBILITY] 403 Forbidden"
       }
     ]
   }

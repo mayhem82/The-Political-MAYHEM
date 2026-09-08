@@ -1,0 +1,95 @@
+{
+  "registry_id": "FORWARD-SIGNAL-SOURCE-REGISTRY-001",
+  "status": "ACTIVE_EXPANDING",
+  "updated_at": "2026-09-08T13:38:00+10:00",
+  "capture_cadence": "HOURLY",
+  "rules": {
+    "forward_only": true,
+    "source_change_is_a_possible_signal_not_a_substantive_fact": true,
+    "semantic_promotion_requires_source_specific_extraction_or_review": true,
+    "observation_must_remain_distinct_from_inference": true,
+    "party_claims_must_remain_attributed": true,
+    "no_projection_effect_without_registered_target": true,
+    "same_hash_must_not_create_duplicate_signal": true,
+    "first_capture_establishes_baseline": true
+  },
+  "sources": [
+    {
+      "watch_id": "WATCH-APH-LIVE-MINUTES",
+      "source_id": "SRC-APH-LIVE-MINUTES",
+      "name": "Parliament of Australia — Live Minutes",
+      "url": "https://www.aph.gov.au/LiveMinutes",
+      "jurisdiction_id": "AUS-FED",
+      "party_id": null,
+      "source_class": "PRIMARY_PARLIAMENT",
+      "capture_mode": "NORMALISED_PAGE_HASH",
+      "active": true
+    },
+    {
+      "watch_id": "WATCH-APH-WEEK-AHEAD",
+      "source_id": "SRC-APH-WEEK-AHEAD",
+      "name": "Parliament of Australia — Senate Week Ahead",
+      "url": "https://www.aph.gov.au/Parliamentary_Business/Chamber_documents/Senate_chamber_documents/The_Week_Ahead",
+      "jurisdiction_id": "AUS-FED",
+      "party_id": null,
+      "source_class": "PRIMARY_PARLIAMENT",
+      "capture_mode": "NORMALISED_PAGE_HASH",
+      "active": true
+    },
+    {
+      "watch_id": "WATCH-LIBERAL-HOME",
+      "source_id": "SRC-LIBERAL-FEDERAL-HOME",
+      "name": "Liberal Party of Australia — official site",
+      "url": "https://www.liberal.org.au/",
+      "jurisdiction_id": "AUS-FED",
+      "party_id": "AUS-FED-LIB",
+      "source_class": "PRIMARY_PARTY",
+      "capture_mode": "NORMALISED_PAGE_HASH",
+      "active": true
+    },
+    {
+      "watch_id": "WATCH-GREENS-FEDERAL-MEDIA",
+      "source_id": "SRC-GREENS-FEDERAL-RELEASE-INDEX",
+      "name": "Australian Greens — Federal MPs media releases",
+      "url": "https://greens.org.au/news/media-releases",
+      "jurisdiction_id": "AUS-FED",
+      "party_id": "AUS-FED-GRN",
+      "source_class": "PRIMARY_PARTY",
+      "capture_mode": "NORMALISED_PAGE_HASH",
+      "active": true
+    },
+    {
+      "watch_id": "WATCH-NATIONALS-NEWS",
+      "source_id": "SRC-NATIONALS-FEDERAL-NEWS",
+      "name": "The Nationals — Latest News",
+      "url": "https://www.nationals.org.au/news",
+      "jurisdiction_id": "AUS-FED",
+      "party_id": "AUS-FED-NAT",
+      "source_class": "PRIMARY_PARTY",
+      "capture_mode": "NORMALISED_PAGE_HASH",
+      "active": true
+    },
+    {
+      "watch_id": "WATCH-ONENATION-NEWS",
+      "source_id": "SRC-ONENATION-FEDERAL-NEWS",
+      "name": "Pauline Hanson's One Nation — Latest News",
+      "url": "https://www.onenation.org.au/news",
+      "jurisdiction_id": "AUS-FED",
+      "party_id": "AUS-FED-ONP",
+      "source_class": "PRIMARY_PARTY",
+      "capture_mode": "NORMALISED_PAGE_HASH",
+      "active": true
+    },
+    {
+      "watch_id": "WATCH-NSW-MINISTERIAL-RELEASES",
+      "source_id": "SRC-NSW-MINISTERIAL-RELEASES",
+      "name": "NSW Government — Ministerial releases",
+      "url": "https://www.nsw.gov.au/ministerial-releases",
+      "jurisdiction_id": "AUS-NSW",
+      "party_id": null,
+      "source_class": "PRIMARY_GOVERNMENT",
+      "capture_mode": "NORMALISED_PAGE_HASH",
+      "active": true
+    }
+  ]
+}

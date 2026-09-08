@@ -1,0 +1,37 @@
+{
+  "register_id": "FORWARD-CAPTURE-TRANSITION-001",
+  "status": "CLOSED_TRANSITION_WINDOW",
+  "transition": "STRUCTURED_PUBLICATION_CAPTURE_V1_TO_V2",
+  "recorded_at": "2026-09-09T05:48:00+10:00",
+  "purpose": "Explicitly identify forward snapshots created during the deployment window in which PUBLICATION_FEED_HASH had been assigned but structured_records were not yet persisted. These snapshots remain immutable evidence artifacts and are permanently ineligible for deterministic semantic promotion.",
+  "rules": {
+    "listed_snapshots_remain_immutable": true,
+    "listed_snapshots_are_not_source_change_evidence": true,
+    "listed_snapshots_are_not_signal_evidence": true,
+    "listed_snapshots_are_not_projection_evidence": true,
+    "next_successful_structured_capture_reestablishes_baseline_without_signal": true,
+    "transition_membership_is_closed_and_must_not_expand_automatically": true
+  },
+  "snapshot_ids": [
+    "AUTO-WATCH-PM-MEDIA-20260908195418",
+    "AUTO-WATCH-ALP-NEWS-20260908195418",
+    "AUTO-WATCH-GREENS-FEDERAL-MEDIA-20260908195418",
+    "AUTO-WATCH-NATIONALS-NEWS-20260908195418",
+    "AUTO-WATCH-NSW-MINISTERIAL-RELEASES-20260908195418",
+    "AUTO-WATCH-NSWEC-MEDIA-20260908195418",
+    "AUTO-WATCH-VEC-MEDIA-20260908195418",
+    "AUTO-WATCH-VIC-PREMIER-MEDIA-20260908195418",
+    "AUTO-WATCH-ECQ-MEDIA-20260908195418",
+    "AUTO-WATCH-QLD-MINISTERIAL-STATEMENTS-20260908195418",
+    "AUTO-WATCH-WAEC-MEDIA-20260908195418",
+    "AUTO-WATCH-WA-GOV-MEDIA-20260908195418",
+    "AUTO-WATCH-ECSA-NEWS-20260908195418",
+    "AUTO-WATCH-SA-PREMIER-MEDIA-20260908195418",
+    "AUTO-WATCH-TEC-MEDIA-20260908195418",
+    "AUTO-WATCH-TAS-PREMIER-NEWS-20260908195418",
+    "AUTO-WATCH-ELECTIONS-ACT-NEWS-20260908195418",
+    "AUTO-WATCH-ACT-GOV-MEDIA-20260908195418",
+    "AUTO-WATCH-NTEC-MEDIA-20260908195418",
+    "AUTO-WATCH-NT-GOV-NEWSROOM-20260908195418"
+  ]
+}

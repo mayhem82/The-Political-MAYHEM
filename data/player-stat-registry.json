@@ -1,0 +1,62 @@
+{
+  "registry_id": "POLITICAL-PLAYER-STAT-REGISTRY-001",
+  "status": "EXPANDING",
+  "purpose": "Define political-player statistics in native political units while retaining the sports translation layer for legibility.",
+  "rules": {
+    "no_synthetic_composite_player_score": true,
+    "zero_requires_observed_zero": true,
+    "missing_data_is_not_zero": true,
+    "inference_is_not_observation": true,
+    "source_lineage_required": true,
+    "jurisdiction_context_required": true,
+    "statistics_must_remain_comparable_within_their_native_unit": true
+  },
+  "groups": [
+    {
+      "group_id": "STRUCTURAL",
+      "public_label": "STRUCTURAL",
+      "stats": [
+        {"stat_id":"competition","label":"COMPETITION","unit":"CATEGORY","source":"CURRENT_PARLIAMENTARY_ROSTER"},
+        {"stat_id":"team","label":"TEAM","unit":"CATEGORY","source":"CURRENT_PARLIAMENTARY_ROSTER"},
+        {"stat_id":"chamber","label":"CHAMBER","unit":"CATEGORY","source":"CURRENT_PARLIAMENTARY_ROSTER"},
+        {"stat_id":"electorate","label":"ELECTORATE / STATE","unit":"CATEGORY","source":"CURRENT_PARLIAMENTARY_ROSTER"}
+      ]
+    },
+    {
+      "group_id": "FORWARD_INTELLIGENCE",
+      "public_label": "CURRENT PERFORMANCE",
+      "stats": [
+        {"stat_id":"ledger_events","label":"LEDGER EVENTS","unit":"COUNT","source":"INTELLIGENCE_EVENT_LEDGER"},
+        {"stat_id":"verified_events","label":"VERIFIED","unit":"COUNT","source":"INTELLIGENCE_EVENT_LEDGER"},
+        {"stat_id":"distinct_sources","label":"SOURCES","unit":"COUNT","source":"INTELLIGENCE_EVENT_LEDGER"},
+        {"stat_id":"role_changes","label":"ROLE CHANGES","unit":"COUNT","source":"INTELLIGENCE_EVENT_LEDGER"},
+        {"stat_id":"contradictions","label":"CONTRADICTIONS","unit":"COUNT","source":"PLAYER_FORM_AND_CONTRADICTION_LEDGER"},
+        {"stat_id":"target_effects","label":"TARGET EFFECTS","unit":"COUNT","source":"INTELLIGENCE_EVENT_LEDGER"},
+        {"stat_id":"form","label":"FORM","unit":"STATE","source":"PLAYER_FORM_LEDGER"},
+        {"stat_id":"trend","label":"TREND","unit":"STATE","source":"PLAYER_FORM_LEDGER"}
+      ]
+    },
+    {
+      "group_id": "ELECTORAL_PERFORMANCE",
+      "public_label": "ELECTORAL PERFORMANCE",
+      "stats": [
+        {"stat_id":"primary_vote_percent","label":"PRIMARY VOTE","unit":"PERCENT","source":"ELECTORAL_AUTHORITY_RESULT","availability":"NOT_YET_INGESTED_SYSTEM_WIDE"},
+        {"stat_id":"two_candidate_or_two_party_percent","label":"2CP / 2PP","unit":"PERCENT","source":"ELECTORAL_AUTHORITY_RESULT","availability":"NOT_YET_INGESTED_SYSTEM_WIDE"},
+        {"stat_id":"margin_percent","label":"MARGIN","unit":"PERCENTAGE_POINTS","source":"ELECTORAL_AUTHORITY_RESULT","availability":"NOT_YET_INGESTED_SYSTEM_WIDE"},
+        {"stat_id":"swing_points","label":"SWING","unit":"PERCENTAGE_POINTS","source":"ELECTORAL_AUTHORITY_RESULT","availability":"NOT_YET_INGESTED_SYSTEM_WIDE"}
+      ]
+    },
+    {
+      "group_id": "PARLIAMENTARY_ACTIVITY",
+      "public_label": "PARLIAMENTARY ACTIVITY",
+      "stats": [
+        {"stat_id":"hansard_contributions","label":"HANSARD CONTRIBUTIONS","unit":"COUNT","source":"PRIMARY_PARLIAMENT","availability":"INGESTION_PENDING"},
+        {"stat_id":"questions","label":"QUESTIONS","unit":"COUNT","source":"PRIMARY_PARLIAMENT","availability":"INGESTION_PENDING"},
+        {"stat_id":"motions","label":"MOTIONS","unit":"COUNT","source":"PRIMARY_PARLIAMENT","availability":"INGESTION_PENDING"},
+        {"stat_id":"bills","label":"BILLS","unit":"COUNT","source":"PRIMARY_PARLIAMENT","availability":"INGESTION_PENDING"},
+        {"stat_id":"committee_roles","label":"COMMITTEE ROLES","unit":"COUNT","source":"PRIMARY_PARLIAMENT","availability":"INGESTION_PENDING"},
+        {"stat_id":"division_participation","label":"DIVISION PARTICIPATION","unit":"COUNT_OR_PERCENT","source":"PRIMARY_PARLIAMENT","availability":"INGESTION_PENDING"}
+      ]
+    }
+  ]
+}

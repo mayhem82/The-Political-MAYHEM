@@ -1,7 +1,7 @@
 {
   "system": "The Political MAYHEM",
   "year": 2026,
-  "snapshot": "POLITICAL-RESEARCH-SITES-SNAP-002",
+  "snapshot": "POLITICAL-RESEARCH-SITES-SNAP-003",
   "purpose": "Source-location registry for systematic Australian political evidence acquisition. A listed site or endpoint is a research location, not evidence by itself.",
   "rules": [
     "Prefer parliament, electoral authority, government and official party sources for primary political facts and attributed claims.",
@@ -30,6 +30,7 @@
     {"name":"Pauline Hanson's One Nation — Latest News","url":"https://www.onenation.org.au/news","class":"PRIMARY_PARTY","source_id":"SRC-ONENATION-FEDERAL-NEWS","jurisdiction":"AUS-FED","research_use":"Attributed One Nation announcements, policy communication and campaign activity."},
 
     {"name":"Parliament of NSW — Hansard and House papers","url":"https://www.parliament.nsw.gov.au/parliamentary-business/hansard","class":"PRIMARY_PARLIAMENT","source_id":"SRC-NSW-HANSARD","jurisdiction":"AUS-NSW","research_use":"NSW parliamentary proceedings, statements and legislative activity."},
+    {"name":"Parliament of NSW — Current session bills","url":"https://www.parliament.nsw.gov.au/parliamentary-business/bills/current-session-bills","class":"PRIMARY_PARLIAMENT","source_id":"SRC-NSW-CURRENT-BILLS","jurisdiction":"AUS-NSW","research_use":"Structured forward capture of NSW current-session bills and new legislative activity for competition discovery."},
     {"name":"NSW Government — Ministerial releases","url":"https://www.nsw.gov.au/ministerial-releases","class":"PRIMARY_GOVERNMENT","source_id":"SRC-NSW-MINISTERIAL-RELEASES","jurisdiction":"AUS-NSW","research_use":"NSW ministerial announcements and government policy communication."},
     {"name":"NSW Electoral Commission — news and media releases","url":"https://elections.nsw.gov.au/about-us/media-centre/news-and-media-releases","class":"PRIMARY_ELECTORAL_AUTHORITY","source_id":"SRC-NSWEC-MEDIA","jurisdiction":"AUS-NSW","research_use":"NSW electoral administration, notices and election-related official releases."},
 

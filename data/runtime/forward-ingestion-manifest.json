@@ -1,7 +1,8 @@
 {
-  "snapshot_id": "FORWARD-INGESTION-MANIFEST-001",
+  "snapshot_id": "FORWARD-INGESTION-MANIFEST-002",
   "mode": "FORWARD_ONLY",
   "created_at": "2026-09-08T00:00:00+10:00",
+  "updated_at": "2026-09-08T10:10:00+10:00",
   "rules": {
     "evidence_must_be_knowable_at_capture_time": true,
     "captured_at_required": true,
@@ -10,6 +11,21 @@
     "later_discovery_creates_new_event": true,
     "retroactive_insertion_into_prior_projection_prohibited": true,
     "post_outcome_material_separated": true
+  },
+  "structural_data_loaded": {
+    "federal_parliamentary_players": true,
+    "party_rosters": true,
+    "team_player_form_shells": true,
+    "federal_polling_ladder_snapshot": true
+  },
+  "live_evidence_ingestion": {
+    "running": false,
+    "source_snapshots_ingested": 0,
+    "intelligence_events_ingested": 0,
+    "contradictions_ingested": 0,
+    "party_state_updates_ingested": 0,
+    "actor_state_updates_ingested": 0,
+    "contest_state_updates_ingested": 0
   },
   "queues": {
     "sources": [],
@@ -20,5 +36,5 @@
     "party_state_updates": [],
     "actor_state_updates": []
   },
-  "status": "READY_FOR_FORWARD_BASELINE"
+  "status": "STRUCTURAL_DATA_LOADED_LIVE_EVIDENCE_INGESTION_NOT_STARTED"
 }

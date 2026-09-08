@@ -7,12 +7,14 @@ on:
   push:
     branches: [main]
     paths:
+      - 'scripts/prepare-forward-capture-transition.mjs'
       - 'scripts/capture-forward-signals.mjs'
       - 'scripts/review-forward-signals.mjs'
       - 'scripts/reconcile-political-lifecycle.mjs'
-      - 'scripts/validate-forward-signal-integrity.mjs'
+      - 'scripts/validate-forward-signal-integrity-v2.mjs'
       - 'data/forward-signal-source-registry.json'
       - 'data/forward-signal-review-policy.json'
+      - 'data/forward-capture-transition-register.json'
       - 'data/runtime/political-cycles.json'
       - 'data/runtime/political-contests.json'
       - 'data/runtime/contest-checkpoints.json'
@@ -36,6 +38,8 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 22
+      - name: Prepare closed capture transition
+        run: node scripts/prepare-forward-capture-transition.mjs
       - name: Capture raw forward source state
         run: node scripts/capture-forward-signals.mjs
       - name: Review structured source changes
@@ -44,7 +48,7 @@ jobs:
         run: node scripts/reconcile-political-lifecycle.mjs
       - name: Validate resulting forward state
         run: |
-          node scripts/validate-forward-signal-integrity.mjs
+          node scripts/validate-forward-signal-integrity-v2.mjs
           node scripts/validate-projection-integrity.mjs
           node scripts/validate-political-lifecycle.mjs
       - name: Commit captured, reviewed and reconciled state

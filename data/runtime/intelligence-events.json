@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-INTELLIGENCE-EVENTS-001",
   "scope": "Australia — multi-jurisdiction",
-  "captured_at": "2026-09-08T04:21:02.479Z",
+  "captured_at": "2026-09-08T04:23:40.990Z",
   "mode": "FORWARD_ONLY",
   "rules": {
     "observation_distinct_from_inference": true,
@@ -351,6 +351,32 @@
       },
       "after": {
         "content_hash": "8b47c262e27fe593a1f5258dd5fe433d6c1a00f875124ea81703a84b8d81330b"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. Semantic classification is pending; this event records only the observed source change.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "frozen": false
+    },
+    {
+      "event_id": "SIG-WATCH-APH-LIVE-MINUTES-20260908042340",
+      "jurisdiction_id": "AUS-FED",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-APH-LIVE-MINUTES-20260908042340",
+      "captured_at": "2026-09-08T04:23:40.990Z",
+      "event_date": "2026-09-08",
+      "checkpoint": "CONTINUOUS_FORWARD_SIGNAL_CAPTURE",
+      "event_type": "SIGNAL_CREATED",
+      "evidence_state": "SIGNAL",
+      "signal_state": "POSSIBLE_SIGNAL",
+      "source_class": "PRIMARY_PARLIAMENT",
+      "source_id": "SRC-APH-LIVE-MINUTES",
+      "before": {
+        "content_hash": "8b47c262e27fe593a1f5258dd5fe433d6c1a00f875124ea81703a84b8d81330b"
+      },
+      "after": {
+        "content_hash": "e953869dc7a6b8d97c9eb5ac9629a00cf8b97ed451cabfb0049cc0d471e252d5"
       },
       "claim": "Monitored official source changed from its previous forward-captured representation. Semantic classification is pending; this event records only the observed source change.",
       "inference": null,

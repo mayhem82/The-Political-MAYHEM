@@ -1,7 +1,7 @@
 {
-  "registry_id": "FORWARD-SIGNAL-SOURCE-REGISTRY-002",
+  "registry_id": "FORWARD-SIGNAL-SOURCE-REGISTRY-003",
   "status": "ACTIVE_EXPANDING",
-  "updated_at": "2026-09-08T14:22:00+10:00",
+  "updated_at": "2026-09-08T14:25:00+10:00",
   "capture_cadence": "HOURLY",
   "rules": {
     "forward_only": true,
@@ -96,6 +96,18 @@
       "jurisdiction_id": "AUS-NSW",
       "party_id": null,
       "source_class": "PRIMARY_GOVERNMENT",
+      "capture_mode": "NORMALISED_PAGE_HASH",
+      "active": true
+    },
+    {
+      "watch_id": "WATCH-VEC-2026-STATE-ELECTION",
+      "source_id": "SRC-VEC-2026-STATE-ELECTION",
+      "name": "Victorian Electoral Commission — 2026 state election",
+      "url": "https://www.vec.vic.gov.au/voting/2026-state-election",
+      "fallback_urls": ["https://www.vec.vic.gov.au/voting/types-of-elections/state-elections"],
+      "jurisdiction_id": "AUS-VIC",
+      "party_id": null,
+      "source_class": "PRIMARY_ELECTORAL_AUTHORITY",
       "capture_mode": "NORMALISED_PAGE_HASH",
       "active": true
     }

@@ -74,14 +74,15 @@ for(const id of transitionIds){
  const s=snapshotById.get(id);
  assert(Boolean(s),`transition register references missing snapshot ${id}`);
  if(!s) continue;
- assert(s.capture_mode==='PUBLICATION_FEED_HASH',`${id} transition snapshot no longer preserves original capture mode`);
+ assert(!Object.prototype.hasOwnProperty.call(s,'capture_mode'),`${id} transition snapshot legacy capture metadata was mutated`);
  assert(!eventRows.some(e=>e.source_snapshot_id===id&&['SOURCE_CHANGED','SIGNAL_CREATED'].includes(e.event_type)),`${id} transition snapshot incorrectly entered change/signal lineage`);
  assert(!reviewRows.some(r=>eventById.get(r.source_change_event_id)?.source_snapshot_id===id),`${id} transition snapshot incorrectly entered review lineage`);
 }
 
 for(const s of snapshotRows.filter(s=>s.source_registry_snapshot===registry.registry_id)){
+ if(transitionIds.has(s.snapshot_id)) continue;
  assert(['NORMALISED_PAGE_HASH','PUBLICATION_FEED_HASH'].includes(s.capture_mode),`${s.snapshot_id} invalid current-registry capture mode`);
- if(s.capture_mode==='PUBLICATION_FEED_HASH'&&!transitionIds.has(s.snapshot_id)){
+ if(s.capture_mode==='PUBLICATION_FEED_HASH'){
   assert(Array.isArray(s.structured_records)&&s.structured_records.length>0,`${s.snapshot_id} publication snapshot lacks structured records`);
   assert(s.hash_basis==='COMPLETE_STRUCTURED_PUBLICATION_RECORD_SET',`${s.snapshot_id} structured snapshot has wrong hash basis`);
  }

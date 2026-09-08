@@ -65,17 +65,23 @@ New evidence, actors, parties, contests, sources, contradictions, failures, sign
 
 Politics is treated as a continuously active field. Party and actor states accumulate even when no election or other outcome-bearing event is imminent. Discrete tipping targets emerge from that field, receive their own evidence clocks and freeze points, and then resolve back into the continuing field.
 
-## Forward-first construction
+## Temporal evidence architecture
 
-The forward/live political tipping system is constructed before the retroactive discovery system.
+There is no forward-only experiment and no requirement that retrospective discovery wait for a live baseline.
 
-This preserves a genuine baseline of contemporaneous decisions made without hindsight.
+Political MAYHEM operates with multiple legitimate evidence timings at once:
 
-The retroactive ingestion and analysis layer is therefore deliberately late in the build sequence.
+- historical evidence discovered retrospectively;
+- evidence captured during ongoing live monitoring;
+- evidence discovered after a prediction freeze but before an outcome;
+- evidence discovered after an outcome;
+- verified outcomes and later explanatory evidence.
 
-When that layer is eventually added, it may discover signals that improve current and future projections. Those improvements must be appended as later projection versions from their genuine discovery time onward.
+Every evidence item must preserve both its political/source time and the time at which MAYHEM discovered or captured it.
 
-Retroactive analysis must never rewrite the original contemporaneous projection, evidence set or grade.
+The anti-hindsight boundary applies to a frozen prediction, not to the evidence universe. A projection may claim only evidence demonstrably available to MAYHEM by its recorded evidence cutoff. Evidence discovered later remains valid evidence for historical reconstruction, causal analysis, failure audit, relationship mapping, model learning and later projections, but it cannot be retroactively credited to the earlier frozen projection or used to rewrite its score.
+
+This separation allows retrospective discovery to contribute fully to the experiment without contaminating contemporaneous prediction measurement.
 
 ## Projection lineage
 
@@ -154,9 +160,9 @@ Every new validated observation may open additional analytical paths. Paths may 
 
 Incorrect political projections are not discarded or rewritten.
 
-The failed projection remains immutable and must be available for failure analysis using only information that was genuinely knowable before the relevant outcome cutoff when assessing the quality of the original decision.
+The failed projection remains immutable. Assessing the quality of the original decision uses the evidence actually available by that projection's cutoff. Explaining why the decision succeeded or failed may use the full evidence record, including historical or post-freeze evidence discovered later, provided its discovery timing is preserved and it is not misrepresented as contemporaneous input to the frozen prediction.
 
-Post-outcome events may be analysed separately as outcome explanation but must not be inserted into the historical pre-outcome evidence set.
+Later evidence may reveal missing mechanisms, source gaps, causal pathways or model weaknesses. Those findings belong in the audit and may influence future model rules and projections.
 
 ## Calibration
 
@@ -164,7 +170,7 @@ Calibration must use genuine contemporaneous probabilities/projections only.
 
 No retrospective probability may be backfilled into a prior political prediction merely because later analysis suggests the system would have preferred a different estimate.
 
-Retro-derived signals may influence later projections only after their discovery.
+Evidence discovered later may influence later projections and model learning from its genuine discovery time onward. It may also explain earlier outcomes and prediction failures, but does not alter the earlier recorded probability or score.
 
 ## Public/private intelligence separation
 

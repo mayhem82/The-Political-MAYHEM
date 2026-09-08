@@ -25,7 +25,9 @@ The public reference layer preserves the same two-glossary separation as TheNRLM
 
 The two glossaries must not be merged or renamed into one another.
 
-The system is built forward first. Retroactive ingestion and analysis are built only after a genuine forward baseline exists, exactly as with TheNRLMAYHEM. Retro-derived discoveries may then append improved current projections from the point of discovery forward, while prior projections remain immutable.
+The evidence system is temporally layered, not forward-only. Retrospective discovery of historical evidence and ongoing capture of new evidence are both legitimate inputs to the experiment. Every evidence item must preserve its source/event time and its MAYHEM discovery or capture time.
+
+Prediction integrity is a separate boundary: a frozen tip may claim only evidence that was actually available to MAYHEM before that tip's evidence cutoff and freeze. Evidence discovered later may improve historical understanding, causal analysis, failure audits, relationship maps, model rules and future projections, but it cannot be retroactively credited to an earlier frozen prediction or used to rewrite its score.
 
 The operating system remains continuously expanding:
 

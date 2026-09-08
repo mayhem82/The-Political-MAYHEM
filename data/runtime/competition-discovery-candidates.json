@@ -17,27 +17,9 @@
     "cross_jurisdiction_inference_is_prohibited": true,
     "all_nine_fields_must_record_screening_state": true
   },
-  "candidate_states": [
-    "REVIEW_REQUIRED",
-    "EVIDENCE_GAP",
-    "ELIGIBLE_FOR_REGISTRATION",
-    "REGISTERED",
-    "REJECTED_NOT_COMPETITION"
-  ],
-  "screening_states": [
-    "NOT_YET_SCREENED",
-    "SCREENED"
-  ],
-  "competition_families": [
-    "ELECTION",
-    "LEGISLATION",
-    "LEADERSHIP",
-    "CONFIDENCE_SUPPLY",
-    "BUDGET",
-    "PROCEDURAL",
-    "POLICY_ENACTMENT",
-    "PUBLIC_PRESSURE"
-  ],
+  "candidate_states": ["REVIEW_REQUIRED","EVIDENCE_GAP","ELIGIBLE_FOR_REGISTRATION","REGISTERED","REJECTED_NOT_COMPETITION"],
+  "screening_states": ["NOT_YET_SCREENED","SCREENED"],
+  "competition_families": ["ELECTION","LEGISLATION","LEADERSHIP","CONFIDENCE_SUPPLY","BUDGET","PROCEDURAL","POLICY_ENACTMENT","PUBLIC_PRESSURE"],
   "screening_rules": {
     "ELECTION": "Official electoral or reviewed political evidence indicates a specific election, by-election, nomination, candidacy, voting or government-formation contest.",
     "LEGISLATION": "Reviewed or verified evidence identifies a bill, motion or parliamentary measure; registration still requires evidenced material resistance and sourced sides.",
@@ -48,87 +30,17 @@
     "POLICY_ENACTMENT": "Reviewed or verified evidence identifies an explicit implementation objective facing material political resistance and a verifiable decision outcome.",
     "PUBLIC_PRESSURE": "Reviewed or verified evidence identifies a defined public demand facing institutional resistance or inertia. Institutional self-reporting alone does not establish a public gain, concession or causal effect."
   },
-  "candidate_fields": [
-    "candidate_id",
-    "jurisdiction_id",
-    "competition_family",
-    "proposed_competition_class",
-    "proposed_cycle_id",
-    "subject",
-    "candidate_state",
-    "detected_at",
-    "source_snapshot_ids",
-    "signal_event_ids",
-    "review_ids",
-    "evidence_summary",
-    "registration_blockers",
-    "linked_contest_id",
-    "state_history"
-  ],
+  "candidate_fields": ["candidate_id","jurisdiction_id","competition_family","proposed_competition_class","proposed_cycle_id","subject","candidate_state","detected_at","source_snapshot_ids","signal_event_ids","review_ids","evidence_summary","registration_blockers","linked_contest_id","state_history"],
   "jurisdiction_screening": [
-    {
-      "jurisdiction_id": "AUS-FED",
-      "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-08T23:39:22.976Z",
-      "signals_examined": 18,
-      "candidates_detected": 4
-    },
-    {
-      "jurisdiction_id": "AUS-NSW",
-      "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-08T23:39:22.976Z",
-      "signals_examined": 8,
-      "candidates_detected": 1
-    },
-    {
-      "jurisdiction_id": "AUS-VIC",
-      "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-08T23:39:22.976Z",
-      "signals_examined": 0,
-      "candidates_detected": 0
-    },
-    {
-      "jurisdiction_id": "AUS-QLD",
-      "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-08T23:39:22.976Z",
-      "signals_examined": 0,
-      "candidates_detected": 0
-    },
-    {
-      "jurisdiction_id": "AUS-WA",
-      "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-08T23:39:22.976Z",
-      "signals_examined": 0,
-      "candidates_detected": 0
-    },
-    {
-      "jurisdiction_id": "AUS-SA",
-      "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-08T23:39:22.976Z",
-      "signals_examined": 0,
-      "candidates_detected": 0
-    },
-    {
-      "jurisdiction_id": "AUS-TAS",
-      "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-08T23:39:22.976Z",
-      "signals_examined": 5,
-      "candidates_detected": 0
-    },
-    {
-      "jurisdiction_id": "AUS-ACT",
-      "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-08T23:39:22.976Z",
-      "signals_examined": 11,
-      "candidates_detected": 0
-    },
-    {
-      "jurisdiction_id": "AUS-NT",
-      "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-08T23:39:22.976Z",
-      "signals_examined": 9,
-      "candidates_detected": 0
-    }
+    {"jurisdiction_id":"AUS-FED","screening_state":"SCREENED","last_screened_at":"2026-09-08T23:39:22.976Z","signals_examined":18,"candidates_detected":4},
+    {"jurisdiction_id":"AUS-NSW","screening_state":"SCREENED","last_screened_at":"2026-09-08T23:39:22.976Z","signals_examined":8,"candidates_detected":1},
+    {"jurisdiction_id":"AUS-VIC","screening_state":"SCREENED","last_screened_at":"2026-09-08T23:39:22.976Z","signals_examined":0,"candidates_detected":0},
+    {"jurisdiction_id":"AUS-QLD","screening_state":"SCREENED","last_screened_at":"2026-09-08T23:39:22.976Z","signals_examined":0,"candidates_detected":0},
+    {"jurisdiction_id":"AUS-WA","screening_state":"SCREENED","last_screened_at":"2026-09-08T23:39:22.976Z","signals_examined":0,"candidates_detected":0},
+    {"jurisdiction_id":"AUS-SA","screening_state":"SCREENED","last_screened_at":"2026-09-08T23:39:22.976Z","signals_examined":0,"candidates_detected":0},
+    {"jurisdiction_id":"AUS-TAS","screening_state":"SCREENED","last_screened_at":"2026-09-08T23:39:22.976Z","signals_examined":5,"candidates_detected":0},
+    {"jurisdiction_id":"AUS-ACT","screening_state":"SCREENED","last_screened_at":"2026-09-08T23:39:22.976Z","signals_examined":11,"candidates_detected":0},
+    {"jurisdiction_id":"AUS-NT","screening_state":"SCREENED","last_screened_at":"2026-09-08T23:39:22.976Z","signals_examined":9,"candidates_detected":0}
   ],
   "candidates": [
     {
@@ -138,171 +50,32 @@
       "proposed_competition_class": "PARLIAMENTARY_PROCEDURE",
       "proposed_cycle_id": "AUS-FED-48TH-PARLIAMENT",
       "subject": "Federal disallowance contest — Carbon Credits (Carbon Farming Initiative—Improved Forest Management in Multiple-use Public Native Forests) Methodology Determination 2026",
-      "candidate_state": "REVIEW_REQUIRED",
+      "candidate_state": "REGISTERED",
       "detected_at": "2026-09-09T09:04:32+10:00",
-      "source_snapshot_ids": [
-        "SNAP-APH-DISALLOWANCE-20260909-0904"
-      ],
-      "signal_event_ids": [
-        "INTEL-20260909-APH-DISALLOWANCE-001"
-      ],
+      "source_snapshot_ids": ["SNAP-APH-DISALLOWANCE-20260909-0904","SNAP-APH-DISALLOWANCE-F2026L00835-20260909-0928","SNAP-FRL-F2026L00835-20260909-0928"],
+      "signal_event_ids": ["INTEL-20260909-APH-DISALLOWANCE-001"],
       "review_ids": [],
-      "evidence_summary": "Official Parliament of Australia evidence records unresolved disallowance action against the 2026 native-forest carbon methodology determination. Senator Cadell's motion is postponed to 15 September 2026 and a separate House disallowance notice by Mr Tehan is also unresolved. This establishes a current procedural competition candidate within the 48th Parliament; opposing-side composition still requires resolution before match registration.",
-      "registration_blockers": [
-        "MATERIAL_PROCEDURAL_OPPOSITION_REQUIRES_REVIEW"
-      ],
-      "linked_contest_id": null,
+      "evidence_summary": "Primary Parliament of Australia evidence records unresolved notices by Senator Ross Cadell and Dan Tehan MP seeking disallowance of F2026L00835, while the Federal Register records the instrument as in force. The contest object, opposing procedural objectives, arena and verifiable result are therefore sufficiently defined for match registration.",
+      "registration_blockers": [],
+      "linked_contest_id": "AUS-FED-48P-F2026L00835-DISALLOWANCE",
       "state_history": [
-        {
-          "from": null,
-          "to": "REVIEW_REQUIRED",
-          "at": "2026-09-09T09:04:32+10:00",
-          "reason": "CURRENT_PRIMARY_PARLIAMENT_COMPETITION_INGEST"
-        }
+        {"from":null,"to":"REVIEW_REQUIRED","at":"2026-09-09T09:04:32+10:00","reason":"CURRENT_PRIMARY_PARLIAMENT_COMPETITION_INGEST"},
+        {"from":"REVIEW_REQUIRED","to":"REGISTERED","at":"2026-09-09T09:29:00+10:00","reason":"PRIMARY_EVIDENCE_RESOLVED_CONTEST_OBJECT_RESISTANCE_SIDES_AND_VERIFIABLE_PROCEDURAL_OUTCOME"}
       ]
     },
     {
-      "candidate_id": "DISC-FED-LEGISLATION-dc5b3bded5961647",
-      "jurisdiction_id": "AUS-FED",
-      "competition_family": "LEGISLATION",
-      "proposed_competition_class": "LEGISLATIVE",
-      "proposed_cycle_id": "AUS-FED-48TH-PARLIAMENT",
-      "subject": "AI Kill Switch and Data Centre Control Bill 2026",
-      "candidate_state": "EVIDENCE_GAP",
-      "detected_at": "2026-09-09T09:04:32+10:00",
-      "source_snapshot_ids": [
-        "SNAP-APH-AI-KILL-SWITCH-BILL-20260909-0904"
-      ],
-      "signal_event_ids": [
-        "INTEL-20260909-APH-BILL-001"
-      ],
-      "review_ids": [],
-      "evidence_summary": "Official Parliament of Australia evidence verifies that the AI Kill Switch and Data Centre Control Bill 2026 is currently before the House of Representatives after introduction on 7 September 2026. The bill is therefore a live legislative competition candidate; material resistance and both competition sides have not yet been evidenced sufficiently for registered-match promotion.",
-      "registration_blockers": [
-        "MATERIAL_RESISTANCE_NOT_YET_EVIDENCED",
-        "SUPPORTING_SIDE_NOT_YET_RESOLVED",
-        "OPPOSING_SIDE_NOT_YET_RESOLVED"
-      ],
-      "linked_contest_id": null,
-      "state_history": [
-        {
-          "from": null,
-          "to": "EVIDENCE_GAP",
-          "at": "2026-09-09T09:04:32+10:00",
-          "reason": "CURRENT_PRIMARY_PARLIAMENT_COMPETITION_INGEST"
-        }
-      ]
+      "candidate_id":"DISC-FED-LEGISLATION-dc5b3bded5961647","jurisdiction_id":"AUS-FED","competition_family":"LEGISLATION","proposed_competition_class":"LEGISLATIVE","proposed_cycle_id":"AUS-FED-48TH-PARLIAMENT","subject":"AI Kill Switch and Data Centre Control Bill 2026","candidate_state":"EVIDENCE_GAP","detected_at":"2026-09-09T09:04:32+10:00","source_snapshot_ids":["SNAP-APH-AI-KILL-SWITCH-BILL-20260909-0904"],"signal_event_ids":["INTEL-20260909-APH-BILL-001"],"review_ids":[],"evidence_summary":"Official Parliament of Australia evidence verifies that the AI Kill Switch and Data Centre Control Bill 2026 is currently before the House of Representatives after introduction on 7 September 2026. The bill is therefore a live legislative competition candidate; material resistance and both competition sides have not yet been evidenced sufficiently for registered-match promotion.","registration_blockers":["MATERIAL_RESISTANCE_NOT_YET_EVIDENCED","SUPPORTING_SIDE_NOT_YET_RESOLVED","OPPOSING_SIDE_NOT_YET_RESOLVED"],"linked_contest_id":null,"state_history":[{"from":null,"to":"EVIDENCE_GAP","at":"2026-09-09T09:04:32+10:00","reason":"CURRENT_PRIMARY_PARLIAMENT_COMPETITION_INGEST"}]
     },
     {
-      "candidate_id": "DISC-FED-LEGISLATION-73b7ce668c1b5f50",
-      "jurisdiction_id": "AUS-FED",
-      "competition_family": "LEGISLATION",
-      "proposed_competition_class": "LEGISLATIVE",
-      "proposed_cycle_id": "AUS-FED-48TH-PARLIAMENT",
-      "subject": "Criminal Code Amendment (Flag Protection) Bill 202...",
-      "candidate_state": "EVIDENCE_GAP",
-      "detected_at": "2026-09-08T23:08:38.430Z",
-      "source_snapshot_ids": [
-        "AUTO-WATCH-APH-BILLS-20260908230751"
-      ],
-      "signal_event_ids": [
-        "SIG-REV-CHG-WATCH-APH-BILLS-20260908230751"
-      ],
-      "review_ids": [
-        "REV-CHG-WATCH-APH-BILLS-20260908230751"
-      ],
-      "evidence_summary": "Screened PRIMARY_PARLIAMENT evidence contains language consistent with a legislation competition candidate. This is a discovery observation, not a registered contest or outcome inference.",
-      "registration_blockers": [
-        "MATERIAL_RESISTANCE_NOT_YET_EVIDENCED",
-        "SUPPORTING_SIDE_NOT_YET_RESOLVED",
-        "OPPOSING_SIDE_NOT_YET_RESOLVED"
-      ],
-      "linked_contest_id": null,
-      "state_history": [
-        {
-          "from": null,
-          "to": "EVIDENCE_GAP",
-          "at": "2026-09-08T23:08:38.430Z",
-          "reason": "DETERMINISTIC_COMPETITION_FAMILY_SCREEN"
-        }
-      ]
+      "candidate_id":"DISC-FED-LEGISLATION-73b7ce668c1b5f50","jurisdiction_id":"AUS-FED","competition_family":"LEGISLATION","proposed_competition_class":"LEGISLATIVE","proposed_cycle_id":"AUS-FED-48TH-PARLIAMENT","subject":"Criminal Code Amendment (Flag Protection) Bill 202...","candidate_state":"EVIDENCE_GAP","detected_at":"2026-09-08T23:08:38.430Z","source_snapshot_ids":["AUTO-WATCH-APH-BILLS-20260908230751"],"signal_event_ids":["SIG-REV-CHG-WATCH-APH-BILLS-20260908230751"],"review_ids":["REV-CHG-WATCH-APH-BILLS-20260908230751"],"evidence_summary":"Screened PRIMARY_PARLIAMENT evidence contains language consistent with a legislation competition candidate. This is a discovery observation, not a registered contest or outcome inference.","registration_blockers":["MATERIAL_RESISTANCE_NOT_YET_EVIDENCED","SUPPORTING_SIDE_NOT_YET_RESOLVED","OPPOSING_SIDE_NOT_YET_RESOLVED"],"linked_contest_id":null,"state_history":[{"from":null,"to":"EVIDENCE_GAP","at":"2026-09-08T23:08:38.430Z","reason":"DETERMINISTIC_COMPETITION_FAMILY_SCREEN"}]
     },
     {
-      "candidate_id": "DISC-NSW-LEGISLATION-0d378a0ca6b9611d",
-      "jurisdiction_id": "AUS-NSW",
-      "competition_family": "LEGISLATION",
-      "proposed_competition_class": "LEGISLATIVE",
-      "proposed_cycle_id": "AUS-NSW-58TH-PARLIAMENT",
-      "subject": "Private Abortion Law Reform Amendment (Sex Selection Prohibition) Bill 2025 Origin: Legislative Council Location: Legislative Council Status: Second Reading, Debate adjourned, Wed 24 June 2026",
-      "candidate_state": "EVIDENCE_GAP",
-      "detected_at": "2026-09-08T23:14:35.619Z",
-      "source_snapshot_ids": [
-        "AUTO-WATCH-NSW-CURRENT-BILLS-20260908231347"
-      ],
-      "signal_event_ids": [
-        "SIG-REV-CHG-WATCH-NSW-CURRENT-BILLS-20260908231347"
-      ],
-      "review_ids": [
-        "REV-CHG-WATCH-NSW-CURRENT-BILLS-20260908231347"
-      ],
-      "evidence_summary": "Screened PRIMARY_PARLIAMENT evidence contains language consistent with a legislation competition candidate. This is a discovery observation, not a registered contest or outcome inference.",
-      "registration_blockers": [
-        "MATERIAL_RESISTANCE_NOT_YET_EVIDENCED",
-        "SUPPORTING_SIDE_NOT_YET_RESOLVED",
-        "OPPOSING_SIDE_NOT_YET_RESOLVED",
-        "REGISTERED_COMPATIBLE_CYCLE_REQUIRED"
-      ],
-      "linked_contest_id": null,
-      "state_history": [
-        {
-          "from": null,
-          "to": "EVIDENCE_GAP",
-          "at": "2026-09-08T23:14:35.619Z",
-          "reason": "DETERMINISTIC_COMPETITION_FAMILY_SCREEN"
-        }
-      ]
+      "candidate_id":"DISC-NSW-LEGISLATION-0d378a0ca6b9611d","jurisdiction_id":"AUS-NSW","competition_family":"LEGISLATION","proposed_competition_class":"LEGISLATIVE","proposed_cycle_id":"AUS-NSW-58TH-PARLIAMENT","subject":"Private Abortion Law Reform Amendment (Sex Selection Prohibition) Bill 2025 Origin: Legislative Council Location: Legislative Council Status: Second Reading, Debate adjourned, Wed 24 June 2026","candidate_state":"EVIDENCE_GAP","detected_at":"2026-09-08T23:14:35.619Z","source_snapshot_ids":["AUTO-WATCH-NSW-CURRENT-BILLS-20260908231347"],"signal_event_ids":["SIG-REV-CHG-WATCH-NSW-CURRENT-BILLS-20260908231347"],"review_ids":["REV-CHG-WATCH-NSW-CURRENT-BILLS-20260908231347"],"evidence_summary":"Screened PRIMARY_PARLIAMENT evidence contains language consistent with a legislation competition candidate. This is a discovery observation, not a registered contest or outcome inference.","registration_blockers":["MATERIAL_RESISTANCE_NOT_YET_EVIDENCED","SUPPORTING_SIDE_NOT_YET_RESOLVED","OPPOSING_SIDE_NOT_YET_RESOLVED","REGISTERED_COMPATIBLE_CYCLE_REQUIRED"],"linked_contest_id":null,"state_history":[{"from":null,"to":"EVIDENCE_GAP","at":"2026-09-08T23:14:35.619Z","reason":"DETERMINISTIC_COMPETITION_FAMILY_SCREEN"}]
     },
     {
-      "candidate_id": "DISC-FED-LEGISLATION-6638e01a2529918f",
-      "jurisdiction_id": "AUS-FED",
-      "competition_family": "LEGISLATION",
-      "proposed_competition_class": "LEGISLATIVE",
-      "proposed_cycle_id": "AUS-FED-48TH-PARLIAMENT",
-      "subject": "Fair Work Amendment (Disqualified Officers) Bill 2...",
-      "candidate_state": "EVIDENCE_GAP",
-      "detected_at": "2026-09-08T23:39:22.842Z",
-      "source_snapshot_ids": [
-        "AUTO-WATCH-APH-BILLS-20260908233843"
-      ],
-      "signal_event_ids": [
-        "SIG-REV-CHG-WATCH-APH-BILLS-20260908233843"
-      ],
-      "review_ids": [
-        "REV-CHG-WATCH-APH-BILLS-20260908233843"
-      ],
-      "evidence_summary": "Screened PRIMARY_PARLIAMENT evidence contains language consistent with a legislation competition candidate. This is a discovery observation, not a registered contest or outcome inference.",
-      "registration_blockers": [
-        "MATERIAL_RESISTANCE_NOT_YET_EVIDENCED",
-        "SUPPORTING_SIDE_NOT_YET_RESOLVED",
-        "OPPOSING_SIDE_NOT_YET_RESOLVED"
-      ],
-      "linked_contest_id": null,
-      "state_history": [
-        {
-          "from": null,
-          "to": "EVIDENCE_GAP",
-          "at": "2026-09-08T23:39:22.842Z",
-          "reason": "DETERMINISTIC_COMPETITION_FAMILY_SCREEN"
-        }
-      ]
+      "candidate_id":"DISC-FED-LEGISLATION-6638e01a2529918f","jurisdiction_id":"AUS-FED","competition_family":"LEGISLATION","proposed_competition_class":"LEGISLATIVE","proposed_cycle_id":"AUS-FED-48TH-PARLIAMENT","subject":"Fair Work Amendment (Disqualified Officers) Bill 2...","candidate_state":"EVIDENCE_GAP","detected_at":"2026-09-08T23:39:22.842Z","source_snapshot_ids":["AUTO-WATCH-APH-BILLS-20260908233843"],"signal_event_ids":["SIG-REV-CHG-WATCH-APH-BILLS-20260908233843"],"review_ids":["REV-CHG-WATCH-APH-BILLS-20260908233843"],"evidence_summary":"Screened PRIMARY_PARLIAMENT evidence contains language consistent with a legislation competition candidate. This is a discovery observation, not a registered contest or outcome inference.","registration_blockers":["MATERIAL_RESISTANCE_NOT_YET_EVIDENCED","SUPPORTING_SIDE_NOT_YET_RESOLVED","OPPOSING_SIDE_NOT_YET_RESOLVED"],"linked_contest_id":null,"state_history":[{"from":null,"to":"EVIDENCE_GAP","at":"2026-09-08T23:39:22.842Z","reason":"DETERMINISTIC_COMPETITION_FAMILY_SCREEN"}]
     }
   ],
-  "last_screened_at": "2026-09-08T23:39:22.976Z",
-  "last_screen_summary": {
-    "signals_examined": 51,
-    "candidates_total": 5,
-    "candidates_added": 1,
-    "candidate_lineage_merges": 4,
-    "registered_contests_unchanged": true
-  }
+  "last_screened_at":"2026-09-08T23:39:22.976Z",
+  "last_screen_summary":{"signals_examined":51,"candidates_total":5,"candidates_added":1,"candidate_lineage_merges":4,"registered_contests_unchanged":true}
 }

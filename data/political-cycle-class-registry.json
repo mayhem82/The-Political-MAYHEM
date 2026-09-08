@@ -1,0 +1,25 @@
+{
+  "registry_id": "POLITICAL-MAYHEM-CYCLE-CLASSES-001",
+  "status": "ACTIVE",
+  "rules": {
+    "contest_must_belong_to_registered_cycle": true,
+    "cycle_class_must_match_competition_context": true,
+    "electoral_contests_use_electoral_cycles": true,
+    "legislative_contests_use_parliamentary_cycles": true,
+    "cycle_class_does_not_limit_player_to_one_competition": true
+  },
+  "classes": [
+    {
+      "cycle_class": "ELECTORAL_CYCLE",
+      "public_label": "Election Cycle",
+      "allowed_competition_classes": ["ELECTORAL"],
+      "definition": "A bounded electoral cycle containing one or more election-related Political MAYHEM contests."
+    },
+    {
+      "cycle_class": "PARLIAMENTARY_TERM",
+      "public_label": "Parliamentary Term",
+      "allowed_competition_classes": ["LEGISLATIVE"],
+      "definition": "A parliamentary term or equivalent sourced legislative period containing bill, motion and parliamentary-measure competitions."
+    }
+  ]
+}

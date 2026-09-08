@@ -17,6 +17,10 @@ const reviews=read('data/runtime/signal-reviews.json');
 
 const jurisdictions=['AUS-FED','AUS-NSW','AUS-VIC','AUS-QLD','AUS-WA','AUS-SA','AUS-TAS','AUS-ACT','AUS-NT'];
 const jurisdictionSet=new Set(jurisdictions);
+const labelToJurisdiction={
+  'Australia':'AUS-FED','Federal':'AUS-FED','New South Wales':'AUS-NSW','NSW':'AUS-NSW','Victoria':'AUS-VIC','Queensland':'AUS-QLD','Western Australia':'AUS-WA','South Australia':'AUS-SA','Tasmania':'AUS-TAS','Australian Capital Territory':'AUS-ACT','ACT':'AUS-ACT','Northern Territory':'AUS-NT','NT':'AUS-NT'
+};
+const contestJurisdictionId=contest=>contest?.jurisdiction_id||labelToJurisdiction[contest?.jurisdiction]||null;
 const requiredRules=[
   'source_activity_is_not_automatically_a_competition',
   'empty_registered_contest_ledger_does_not_mean_quiet',
@@ -136,7 +140,7 @@ for(const candidate of candidates){
     const contest=contestById.get(candidate.linked_contest_id);
     assert(Boolean(contest),`${candidate.candidate_id}: REGISTERED candidate lacks valid linked contest`);
     if(contest){
-      assert(contest.jurisdiction===candidate.jurisdiction_id||contest.jurisdiction_id===candidate.jurisdiction_id,`${candidate.candidate_id}: linked contest jurisdiction mismatch`);
+      assert(contestJurisdictionId(contest)===candidate.jurisdiction_id,`${candidate.candidate_id}: linked contest jurisdiction mismatch`);
       if(proposedClass) assert(contest.competition_class===proposedClass,`${candidate.candidate_id}: linked contest class mismatch`);
       if(proposedCycle) assert(contest.cycle_id===proposedCycle,`${candidate.candidate_id}: linked contest cycle mismatch`);
       assert(refs.some(ref=>(contest.source_refs||[]).includes(ref)),`${candidate.candidate_id}: linked contest has no shared source lineage`);

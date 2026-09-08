@@ -9,7 +9,7 @@ function valueOf(record){
 }
 
 function sourceOf(record){
-  return record.source_snapshot_id||record.source_id||null;
+  return record.source_snapshot_id||null;
 }
 
 function detectPairConflicts(a,b){

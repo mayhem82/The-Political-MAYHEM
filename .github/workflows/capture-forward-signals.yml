@@ -11,13 +11,18 @@ on:
       - 'scripts/capture-forward-signals.mjs'
       - 'scripts/review-forward-signals.mjs'
       - 'scripts/reconcile-political-lifecycle.mjs'
+      - 'scripts/discover-political-competitions.mjs'
       - 'scripts/validate-forward-signal-integrity-v2.mjs'
+      - 'scripts/validate-competition-discovery.mjs'
       - 'data/forward-signal-source-registry.json'
       - 'data/forward-signal-review-policy.json'
       - 'data/forward-capture-transition-register.json'
+      - 'data/political-competition-class-registry.json'
+      - 'data/political-cycle-class-registry.json'
       - 'data/runtime/political-cycles.json'
       - 'data/runtime/political-contests.json'
       - 'data/runtime/contest-checkpoints.json'
+      - 'data/runtime/competition-discovery-candidates.json'
       - 'data/runtime/verified-outcomes.json'
       - '.github/workflows/capture-forward-signals.yml'
 
@@ -46,20 +51,23 @@ jobs:
         run: node scripts/review-forward-signals.mjs
       - name: Reconcile political lifecycle
         run: node scripts/reconcile-political-lifecycle.mjs
+      - name: Discover Political MAYHEM competition candidates
+        run: node scripts/discover-political-competitions.mjs
       - name: Validate resulting forward state
         run: |
           node scripts/validate-forward-signal-integrity-v2.mjs
           node scripts/validate-projection-integrity.mjs
           node scripts/validate-political-lifecycle.mjs
-      - name: Commit captured, reviewed and reconciled state
+          node scripts/validate-competition-discovery.mjs
+      - name: Commit captured, reviewed, screened and reconciled state
         run: |
-          if git diff --quiet -- data/runtime/forward-signal-capture-state.json data/runtime/source-snapshots.json data/runtime/intelligence-events.json data/runtime/signal-reviews.json data/runtime/forward-ingestion-manifest.json data/runtime/political-cycles.json data/runtime/political-contests.json data/runtime/contest-checkpoints.json; then
-            echo 'No new forward signal or lifecycle state.'
+          if git diff --quiet -- data/runtime/forward-signal-capture-state.json data/runtime/source-snapshots.json data/runtime/intelligence-events.json data/runtime/signal-reviews.json data/runtime/forward-ingestion-manifest.json data/runtime/political-cycles.json data/runtime/political-contests.json data/runtime/contest-checkpoints.json data/runtime/competition-discovery-candidates.json; then
+            echo 'No new forward signal, lifecycle or competition-discovery state.'
             exit 0
           fi
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add data/runtime/forward-signal-capture-state.json data/runtime/source-snapshots.json data/runtime/intelligence-events.json data/runtime/signal-reviews.json data/runtime/forward-ingestion-manifest.json data/runtime/political-cycles.json data/runtime/political-contests.json data/runtime/contest-checkpoints.json
-          git commit -m 'Capture and review forward political state'
+          git add data/runtime/forward-signal-capture-state.json data/runtime/source-snapshots.json data/runtime/intelligence-events.json data/runtime/signal-reviews.json data/runtime/forward-ingestion-manifest.json data/runtime/political-cycles.json data/runtime/political-contests.json data/runtime/contest-checkpoints.json data/runtime/competition-discovery-candidates.json
+          git commit -m 'Capture review and screen forward political state'
           git pull --rebase origin main
           git push origin main

@@ -13,6 +13,7 @@ const REVIEWS='data/runtime/signal-reviews.json';
 const CYCLES='data/runtime/political-cycles.json';
 const CYCLE_CLASSES='data/political-cycle-class-registry.json';
 const CONTESTS='data/runtime/political-contests.json';
+const SNAPSHOTS='data/runtime/source-snapshots.json';
 
 const discovery=read(DISCOVERY);
 const events=read(EVENTS);
@@ -20,6 +21,7 @@ const reviews=read(REVIEWS);
 const cycles=read(CYCLES);
 const cycleClasses=read(CYCLE_CLASSES);
 const contests=read(CONTESTS);
+const snapshots=read(SNAPSHOTS);
 
 discovery.candidates ||= [];
 discovery.jurisdiction_screening ||= [];
@@ -44,6 +46,7 @@ const labelToJurisdiction={
 const eventById=new Map((events.events||[]).map(x=>[x.event_id,x]));
 const existingById=new Map(discovery.candidates.map(x=>[x.candidate_id,x]));
 const examined=new Map(jurisdictions.map(j=>[j,new Set()]));
+const snapshotIds=new Set((snapshots.snapshots||[]).map(x=>x.snapshot_id));
 
 const cycleClassById=new Map((cycleClasses.classes||[]).map(x=>[x.cycle_class,x]));
 const cycleJurisdictionId=cycle=>cycle.jurisdiction_id||labelToJurisdiction[cycle.jurisdiction]||null;
@@ -134,7 +137,7 @@ const candidateId=(jurisdictionId,family,subject)=>{
 let added=0;
 let merged=0;
 const addCandidate=({jurisdictionId,family,subject,event,reviewId=null})=>{
-  if(!jurisdictions.includes(jurisdictionId)||!event?.source_snapshot_id) return;
+  if(!jurisdictions.includes(jurisdictionId)||!event?.source_snapshot_id||!snapshotIds.has(event.source_snapshot_id)) return;
   if(likelyCoveredByRegisteredContest(jurisdictionId,family,subject)) return;
   const proposedClass=classForFamily(family);
   const cycle=compatibleCycle(jurisdictionId,proposedClass);

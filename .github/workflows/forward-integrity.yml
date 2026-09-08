@@ -23,3 +23,5 @@ jobs:
         run: node scripts/validate-forward-integrity.mjs
       - name: Validate state and territory rosters
         run: node scripts/validate-state-territory-rosters.mjs
+      - name: Validate federal Senate electoral statistics
+        run: node scripts/validate-federal-senate-electoral-integrity.mjs

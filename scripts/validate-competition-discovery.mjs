@@ -25,6 +25,8 @@ const requiredRules=[
   'source_activity_is_not_automatically_a_competition',
   'empty_registered_contest_ledger_does_not_mean_quiet',
   'candidate_is_not_a_registered_contest',
+  'discovery_uses_temporal_provenance',
+  'retrospective_and_ongoing_evidence_are_valid_discovery_inputs',
   'candidate_requires_source_lineage',
   'candidate_requires_reviewed_or_verified_signal',
   'promotion_requires_registered_competition_class',
@@ -38,14 +40,14 @@ const requiredRules=[
 assert(ledger.status==='ACTIVE','competition discovery ledger is not ACTIVE');
 assert(ledger.scope==='ALL_NINE_POLITICAL_FIELDS','competition discovery scope is not all nine political fields');
 for(const rule of requiredRules) assert(ledger.rules?.[rule]===true,`competition discovery invariant missing: ${rule}`);
-assert(ledger.rules?.discovery_uses_temporal_provenance===true||ledger.rules?.discovery_is_forward_only===true,'competition discovery timing invariant missing during temporal-provenance transition');
+assert(ledger.rules?.discovery_is_forward_only!==true,'obsolete discovery_is_forward_only invariant returned');
 
 const candidateStates=new Set(ledger.candidate_states||[]);
 for(const state of ['REVIEW_REQUIRED','EVIDENCE_GAP','ELIGIBLE_FOR_REGISTRATION','REGISTERED','REJECTED_NOT_COMPETITION']) assert(candidateStates.has(state),`candidate state missing: ${state}`);
 const screeningStates=new Set(ledger.screening_states||[]);
 for(const state of ['NOT_YET_SCREENED','SCREENED']) assert(screeningStates.has(state),`screening state missing: ${state}`);
 const families=new Set(ledger.competition_families||[]);
-for(const family of ['ELECTION','LEGISLATION','LEADERSHIP','CONFIDENCE_SUPPLY','BUDGET','PROCEDURAL','POLICY_ENACTMENT']) assert(families.has(family),`competition family missing: ${family}`);
+for(const family of ['ELECTION','LEGISLATION','LEADERSHIP','CONFIDENCE_SUPPLY','BUDGET','PROCEDURAL','POLICY_ENACTMENT','PUBLIC_PRESSURE']) assert(families.has(family),`competition family missing: ${family}`);
 
 const screening=ledger.jurisdiction_screening||[];
 assert(screening.length===9,`jurisdiction screening must contain exactly 9 records, found ${screening.length}`);
@@ -171,4 +173,4 @@ if(fail.length){
   for(const message of fail) console.error('- '+message);
   process.exit(1);
 }
-console.log('POLITICAL_MAYHEM_COMPETITION_DISCOVERY_INTEGRITY_PASS',`candidates=${candidates.length}`,`screened=${screening.filter(x=>x.screening_state==='SCREENED').length}/9`,`registered=${candidates.filter(x=>x.candidate_state==='REGISTERED').length}`);
+console.log('POLITICAL_MAYHEM_COMPETITION_DISCOVERY_INTEGRITY_PASS',`candidates=${candidates.length}`,`screened=${screening.filter(x=>x.screening_state==='SCREENED').length}/9`,`registered=${candidates.filter(x=>x.candidate_state==='REGISTERED').length}`,'temporalProvenance=ENFORCED','families=8');

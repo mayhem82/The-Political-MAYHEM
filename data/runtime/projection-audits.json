@@ -5,8 +5,9 @@
   "rules": {
     "append_only": true,
     "incorrect_projection_requires_failure_audit": true,
-    "pre_outcome_evidence_only_for_failure_causation": true,
-    "post_outcome_evidence_separate": true,
+    "retrospective_evidence_allowed_in_failure_causation": true,
+    "evidence_timing_must_be_preserved": true,
+    "later_evidence_cannot_be_credited_to_frozen_projection": true,
     "frozen_projection_unchanged": true
   }
 }

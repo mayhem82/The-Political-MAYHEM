@@ -19,6 +19,8 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '22'
+      - name: Validate player card JavaScript syntax
+        run: node --check players.js
       - name: Validate forward integrity
         run: node scripts/validate-forward-integrity.mjs
       - name: Validate forward signal capture

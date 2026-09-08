@@ -1,0 +1,139 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://mayhem82.github.io/The-Political-MAYHEM/schema/legislative-contest.schema.json",
+  "title": "Political MAYHEM Legislative Contest",
+  "type": "object",
+  "required": [
+    "contest_id",
+    "cycle_id",
+    "jurisdiction",
+    "competition_class",
+    "contest_type",
+    "name",
+    "measure",
+    "objective",
+    "current_stage",
+    "supporting_side",
+    "opposing_side",
+    "material_resistance",
+    "status",
+    "source_refs",
+    "integrity"
+  ],
+  "properties": {
+    "contest_id": {"type": "string", "minLength": 1},
+    "cycle_id": {"type": "string", "minLength": 1},
+    "jurisdiction": {"type": "string", "minLength": 1},
+    "competition_class": {"const": "LEGISLATIVE"},
+    "contest_type": {
+      "enum": [
+        "BILL_PASSAGE_WITH_RESISTANCE",
+        "MOTION_PASSAGE_WITH_RESISTANCE",
+        "PARLIAMENTARY_MEASURE_WITH_RESISTANCE"
+      ]
+    },
+    "name": {"type": "string", "minLength": 1},
+    "measure": {
+      "type": "object",
+      "required": ["measure_type", "title"],
+      "properties": {
+        "measure_type": {"enum": ["BILL", "MOTION", "OTHER_PARLIAMENTARY_MEASURE"]},
+        "official_id": {"type": ["string", "null"]},
+        "title": {"type": "string", "minLength": 1},
+        "originating_chamber": {"type": ["string", "null"]}
+      },
+      "additionalProperties": true
+    },
+    "objective": {
+      "type": "object",
+      "required": ["supporting_side", "opposing_side"],
+      "properties": {
+        "supporting_side": {"type": "string", "minLength": 1},
+        "opposing_side": {"type": "string", "minLength": 1}
+      },
+      "additionalProperties": false
+    },
+    "current_stage": {"type": "string", "minLength": 1},
+    "supporting_side": {"$ref": "#/$defs/side"},
+    "opposing_side": {"$ref": "#/$defs/side"},
+    "material_resistance": {
+      "type": "object",
+      "required": ["state", "source_snapshot_ids"],
+      "properties": {
+        "state": {"const": "EVIDENCED"},
+        "description": {"type": ["string", "null"]},
+        "source_snapshot_ids": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {"type": "string", "minLength": 1}
+        }
+      },
+      "additionalProperties": true
+    },
+    "status": {
+      "enum": ["UPCOMING", "CONTEST_WINDOW", "OUTCOME_VERIFICATION_PENDING", "VERIFIED_OUTCOME"]
+    },
+    "source_refs": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {"type": "string", "minLength": 1}
+    },
+    "verified_outcome": {
+      "enum": ["PASSED", "DEFEATED", "WITHDRAWN", "LAPSED", null]
+    },
+    "integrity": {
+      "type": "object",
+      "required": [
+        "material_resistance_required",
+        "side_positions_require_source_lineage",
+        "outcome_requires_verification",
+        "player_position_changes_require_forward_evidence"
+      ],
+      "properties": {
+        "material_resistance_required": {"const": true},
+        "side_positions_require_source_lineage": {"const": true},
+        "outcome_requires_verification": {"const": true},
+        "player_position_changes_require_forward_evidence": {"const": true}
+      },
+      "additionalProperties": true
+    }
+  },
+  "$defs": {
+    "side": {
+      "type": "object",
+      "required": ["party_ids", "actor_ids", "source_snapshot_ids"],
+      "properties": {
+        "party_ids": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {"type": "string", "minLength": 1}
+        },
+        "actor_ids": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {"type": "string", "minLength": 1}
+        },
+        "source_snapshot_ids": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {"type": "string", "minLength": 1}
+        }
+      },
+      "anyOf": [
+        {"properties": {"party_ids": {"minItems": 1}}},
+        {"properties": {"actor_ids": {"minItems": 1}}}
+      ],
+      "additionalProperties": true
+    }
+  },
+  "allOf": [
+    {
+      "if": {"properties": {"status": {"const": "VERIFIED_OUTCOME"}}},
+      "then": {"required": ["verified_outcome"]}
+    }
+  ],
+  "additionalProperties": true
+}

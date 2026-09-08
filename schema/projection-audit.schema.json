@@ -3,14 +3,26 @@
   "$id": "https://mayhem82.github.io/The-Political-MAYHEM/schema/projection-audit.schema.json",
   "title": "Political MAYHEM Projection Audit",
   "type": "object",
-  "required": ["audit_id", "projection_id", "verified_outcome_id", "graded_at", "grade", "pre_outcome_evidence_only", "failure_classes", "integrity"],
+  "required": ["audit_id", "projection_id", "verified_outcome_id", "graded_at", "grade", "evidence_timing", "failure_classes", "integrity"],
   "properties": {
     "audit_id": {"type": "string"},
     "projection_id": {"type": "string"},
     "verified_outcome_id": {"type": "string"},
     "graded_at": {"type": "string", "format": "date-time"},
     "grade": {"enum": ["CORRECT", "INCORRECT", "PARTIAL", "VOID"]},
-    "pre_outcome_evidence_only": {"const": true},
+    "evidence_timing": {
+      "type": "object",
+      "required": ["pre_freeze_source_snapshot_ids", "pre_freeze_intelligence_event_ids", "post_freeze_source_snapshot_ids", "post_freeze_intelligence_event_ids", "post_outcome_source_snapshot_ids", "post_outcome_intelligence_event_ids"],
+      "properties": {
+        "pre_freeze_source_snapshot_ids": {"type": "array", "items": {"type": "string"}},
+        "pre_freeze_intelligence_event_ids": {"type": "array", "items": {"type": "string"}},
+        "post_freeze_source_snapshot_ids": {"type": "array", "items": {"type": "string"}},
+        "post_freeze_intelligence_event_ids": {"type": "array", "items": {"type": "string"}},
+        "post_outcome_source_snapshot_ids": {"type": "array", "items": {"type": "string"}},
+        "post_outcome_intelligence_event_ids": {"type": "array", "items": {"type": "string"}}
+      },
+      "additionalProperties": false
+    },
     "failure_classes": {
       "type": "array",
       "items": {"enum": ["NONE", "MISSING_EVIDENCE", "LATE_EVIDENCE", "SOURCE_FAILURE", "CONTRADICTION_UNRESOLVED", "SIGNAL_MISCLASSIFIED", "SIGNAL_OVERWEIGHTED", "SIGNAL_UNDERWEIGHTED", "ACTOR_MODEL_FAILURE", "PARTY_MODEL_FAILURE", "STRUCTURAL_MODEL_FAILURE", "POLLING_ERROR", "PROJECTION_RULE_FAILURE", "CALIBRATION_FAILURE", "ABSTENTION_FAILURE", "OTHER"]}
@@ -23,11 +35,12 @@
     "lessons_for_future_rule_versions": {"type": "array", "items": {"type": "string"}},
     "integrity": {
       "type": "object",
-      "required": ["frozen_projection_unchanged", "no_hindsight_rewrite", "audit_append_only"],
+      "required": ["frozen_projection_unchanged", "no_hindsight_rewrite", "audit_append_only", "later_evidence_not_credited_to_frozen_projection"],
       "properties": {
         "frozen_projection_unchanged": {"const": true},
         "no_hindsight_rewrite": {"const": true},
-        "audit_append_only": {"const": true}
+        "audit_append_only": {"const": true},
+        "later_evidence_not_credited_to_frozen_projection": {"const": true}
       }
     }
   },

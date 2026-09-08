@@ -19,6 +19,17 @@
     "review_basis": {"type": "string"},
     "reviewed_at": {"type": "string", "format": "date-time"},
     "reviewer_mode": {"enum": ["HUMAN", "ASSISTED", "DETERMINISTIC_RULE"]},
+    "policy_id": {"type": ["string", "null"]},
+    "policy_name": {"type": ["string", "null"]},
+    "structured_evidence": {
+      "type": ["object", "null"],
+      "properties": {
+        "added_records": {"type": "array", "items": {"type": "object"}},
+        "removed_records": {"type": "array", "items": {"type": "object"}},
+        "delta_hash": {"type": ["string", "null"]}
+      },
+      "additionalProperties": true
+    },
     "integrity": {
       "type": "object",
       "required": ["source_change_unchanged", "review_append_only", "no_projection_effect_by_default"],

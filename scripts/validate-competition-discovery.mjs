@@ -25,7 +25,6 @@ const requiredRules=[
   'source_activity_is_not_automatically_a_competition',
   'empty_registered_contest_ledger_does_not_mean_quiet',
   'candidate_is_not_a_registered_contest',
-  'discovery_is_forward_only',
   'candidate_requires_source_lineage',
   'candidate_requires_reviewed_or_verified_signal',
   'promotion_requires_registered_competition_class',
@@ -39,6 +38,7 @@ const requiredRules=[
 assert(ledger.status==='ACTIVE','competition discovery ledger is not ACTIVE');
 assert(ledger.scope==='ALL_NINE_POLITICAL_FIELDS','competition discovery scope is not all nine political fields');
 for(const rule of requiredRules) assert(ledger.rules?.[rule]===true,`competition discovery invariant missing: ${rule}`);
+assert(ledger.rules?.discovery_uses_temporal_provenance===true||ledger.rules?.discovery_is_forward_only===true,'competition discovery timing invariant missing during temporal-provenance transition');
 
 const candidateStates=new Set(ledger.candidate_states||[]);
 for(const state of ['REVIEW_REQUIRED','EVIDENCE_GAP','ELIGIBLE_FOR_REGISTRATION','REGISTERED','REJECTED_NOT_COMPETITION']) assert(candidateStates.has(state),`candidate state missing: ${state}`);
@@ -70,7 +70,16 @@ const reviewById=new Map((reviews.reviews||[]).map(x=>[x.review_id,x]));
 const candidates=ledger.candidates||[];
 assert(unique(candidates.map(x=>x.candidate_id)),'competition discovery candidate IDs are not unique');
 
-const familyClassExpectation={ELECTION:'ELECTORAL',LEGISLATION:'LEGISLATIVE'};
+const familyClassExpectation={
+  ELECTION:'ELECTORAL',
+  LEGISLATION:'LEGISLATIVE',
+  LEADERSHIP:'LEADERSHIP',
+  CONFIDENCE_SUPPLY:'CONFIDENCE_SUPPLY',
+  BUDGET:'BUDGET',
+  PROCEDURAL:'PARLIAMENTARY_PROCEDURE',
+  POLICY_ENACTMENT:'POLICY_ENACTMENT',
+  PUBLIC_PRESSURE:'PUBLIC_PRESSURE'
+};
 
 for(const candidate of candidates){
   assert(Boolean(candidate.candidate_id),'competition discovery candidate missing candidate_id');

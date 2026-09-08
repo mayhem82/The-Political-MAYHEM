@@ -63,15 +63,77 @@
     "state_history"
   ],
   "jurisdiction_screening": [
-    {"jurisdiction_id":"AUS-FED","screening_state":"NOT_YET_SCREENED","last_screened_at":null,"signals_examined":0,"candidates_detected":0},
-    {"jurisdiction_id":"AUS-NSW","screening_state":"NOT_YET_SCREENED","last_screened_at":null,"signals_examined":0,"candidates_detected":0},
-    {"jurisdiction_id":"AUS-VIC","screening_state":"NOT_YET_SCREENED","last_screened_at":null,"signals_examined":0,"candidates_detected":0},
-    {"jurisdiction_id":"AUS-QLD","screening_state":"NOT_YET_SCREENED","last_screened_at":null,"signals_examined":0,"candidates_detected":0},
-    {"jurisdiction_id":"AUS-WA","screening_state":"NOT_YET_SCREENED","last_screened_at":null,"signals_examined":0,"candidates_detected":0},
-    {"jurisdiction_id":"AUS-SA","screening_state":"NOT_YET_SCREENED","last_screened_at":null,"signals_examined":0,"candidates_detected":0},
-    {"jurisdiction_id":"AUS-TAS","screening_state":"NOT_YET_SCREENED","last_screened_at":null,"signals_examined":0,"candidates_detected":0},
-    {"jurisdiction_id":"AUS-ACT","screening_state":"NOT_YET_SCREENED","last_screened_at":null,"signals_examined":0,"candidates_detected":0},
-    {"jurisdiction_id":"AUS-NT","screening_state":"NOT_YET_SCREENED","last_screened_at":null,"signals_examined":0,"candidates_detected":0}
+    {
+      "jurisdiction_id": "AUS-FED",
+      "screening_state": "SCREENED",
+      "last_screened_at": "2026-09-08T21:41:09.984Z",
+      "signals_examined": 12,
+      "candidates_detected": 0
+    },
+    {
+      "jurisdiction_id": "AUS-NSW",
+      "screening_state": "SCREENED",
+      "last_screened_at": "2026-09-08T21:41:09.984Z",
+      "signals_examined": 2,
+      "candidates_detected": 0
+    },
+    {
+      "jurisdiction_id": "AUS-VIC",
+      "screening_state": "SCREENED",
+      "last_screened_at": "2026-09-08T21:41:09.984Z",
+      "signals_examined": 0,
+      "candidates_detected": 0
+    },
+    {
+      "jurisdiction_id": "AUS-QLD",
+      "screening_state": "SCREENED",
+      "last_screened_at": "2026-09-08T21:41:09.984Z",
+      "signals_examined": 0,
+      "candidates_detected": 0
+    },
+    {
+      "jurisdiction_id": "AUS-WA",
+      "screening_state": "SCREENED",
+      "last_screened_at": "2026-09-08T21:41:09.984Z",
+      "signals_examined": 0,
+      "candidates_detected": 0
+    },
+    {
+      "jurisdiction_id": "AUS-SA",
+      "screening_state": "SCREENED",
+      "last_screened_at": "2026-09-08T21:41:09.984Z",
+      "signals_examined": 0,
+      "candidates_detected": 0
+    },
+    {
+      "jurisdiction_id": "AUS-TAS",
+      "screening_state": "SCREENED",
+      "last_screened_at": "2026-09-08T21:41:09.984Z",
+      "signals_examined": 2,
+      "candidates_detected": 0
+    },
+    {
+      "jurisdiction_id": "AUS-ACT",
+      "screening_state": "SCREENED",
+      "last_screened_at": "2026-09-08T21:41:09.984Z",
+      "signals_examined": 5,
+      "candidates_detected": 0
+    },
+    {
+      "jurisdiction_id": "AUS-NT",
+      "screening_state": "SCREENED",
+      "last_screened_at": "2026-09-08T21:41:09.984Z",
+      "signals_examined": 1,
+      "candidates_detected": 0
+    }
   ],
-  "candidates": []
+  "candidates": [],
+  "last_screened_at": "2026-09-08T21:41:09.984Z",
+  "last_screen_summary": {
+    "signals_examined": 22,
+    "candidates_total": 0,
+    "candidates_added": 0,
+    "candidate_lineage_merges": 0,
+    "registered_contests_unchanged": true
+  }
 }

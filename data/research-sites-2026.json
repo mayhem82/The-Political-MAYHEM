@@ -1,7 +1,7 @@
 {
   "system": "The Political MAYHEM",
   "year": 2026,
-  "snapshot": "POLITICAL-RESEARCH-SITES-SNAP-001",
+  "snapshot": "POLITICAL-RESEARCH-SITES-SNAP-002",
   "purpose": "Source-location registry for systematic Australian political evidence acquisition. A listed site or endpoint is a research location, not evidence by itself.",
   "rules": [
     "Prefer parliament, electoral authority, government and official party sources for primary political facts and attributed claims.",
@@ -20,6 +20,7 @@
   "sites": [
     {"name":"Parliament of Australia — Live Minutes","url":"https://www.aph.gov.au/LiveMinutes","class":"PRIMARY_PARLIAMENT","source_id":"SRC-APH-LIVE-MINUTES","jurisdiction":"AUS-FED","research_use":"Forward capture of published federal chamber activity and parliamentary state changes."},
     {"name":"Parliament of Australia — Senate Week Ahead","url":"https://www.aph.gov.au/Parliamentary_Business/Chamber_documents/Senate_chamber_documents/The_Week_Ahead","class":"PRIMARY_PARLIAMENT","source_id":"SRC-APH-WEEK-AHEAD","jurisdiction":"AUS-FED","research_use":"Forward capture of the published Senate program and scheduled parliamentary business."},
+    {"name":"Parliament of Australia — Bills and Legislation","url":"https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation","class":"PRIMARY_PARLIAMENT","source_id":"SRC-APH-BILLS","jurisdiction":"AUS-FED","research_use":"Structured forward capture of federal bills, bill-homepage updates and current parliamentary legislative activity for competition discovery."},
     {"name":"Australian Electoral Commission — media","url":"https://www.aec.gov.au/media/","class":"PRIMARY_ELECTORAL_AUTHORITY","source_id":"SRC-AEC-MEDIA","jurisdiction":"AUS-FED","research_use":"Federal electoral administration, notices, election operations and official media releases."},
     {"name":"Prime Minister of Australia — media","url":"https://www.pm.gov.au/media","class":"PRIMARY_GOVERNMENT","source_id":"SRC-PM-MEDIA","jurisdiction":"AUS-FED","research_use":"Official Prime Minister media releases, speeches, transcripts and government political communications."},
     {"name":"Australian Labor Party — news","url":"https://www.alp.org.au/news/","class":"PRIMARY_PARTY","source_id":"SRC-ALP-FEDERAL-NEWS","jurisdiction":"AUS-FED","research_use":"Attributed federal Labor announcements, campaign communication and party-position changes."},

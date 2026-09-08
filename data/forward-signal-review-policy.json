@@ -1,0 +1,33 @@
+{
+  "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+  "status": "ACTIVE",
+  "updated_at": "2026-09-09T05:48:00+10:00",
+  "purpose": "Deterministically separate raw source changes from auditable political signals without allowing page-hash noise, inference or hindsight into the signal layer.",
+  "rules": {
+    "raw_source_change_never_auto_becomes_substantive_claim": true,
+    "automatic_promotion_requires_structured_added_records": true,
+    "automatic_promotion_claim_is_limited_to_observed_publication_activity": true,
+    "automatic_promotion_does_not_validate_underlying_claim_content": true,
+    "removal_only_change_is_excluded_as_non_signal": true,
+    "unstructured_page_change_requires_review": true,
+    "projection_effect_is_always_no_effect_at_signal_promotion": true,
+    "materiality_is_not_inferred_by_deterministic_review": true,
+    "one_review_record_per_raw_source_change": true,
+    "review_and_signal_lineage_must_be_append_only": true
+  },
+  "policies": {
+    "AUTO_PROMOTE_PUBLICATION_ADDITIONS": {
+      "eligible_capture_modes": ["PUBLICATION_FEED_HASH"],
+      "eligible_source_classes": ["PRIMARY_ELECTORAL_AUTHORITY", "PRIMARY_PARLIAMENT", "PRIMARY_GOVERNMENT", "PRIMARY_PARTY", "PRIMARY_ACTOR", "PRIMARY_REGULATOR", "PRIMARY_DISCLOSURE", "PRIMARY_POLL"],
+      "added_record_decision": "PROMOTED_TO_SIGNAL",
+      "added_record_signal_state": "CONFIRMED_FACT",
+      "added_record_materiality_state": "UNKNOWN",
+      "removal_only_decision": "EXCLUDED_AS_NON_SIGNAL",
+      "reviewer_mode": "DETERMINISTIC_RULE"
+    },
+    "REVIEW_UNSTRUCTURED_CHANGE": {
+      "eligible_capture_modes": ["NORMALISED_PAGE_HASH"],
+      "decision": "PENDING_HUMAN_OR_ASSISTED_REVIEW"
+    }
+  }
+}

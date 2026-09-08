@@ -108,7 +108,7 @@ const coverageKeyById={
   'AUS-NT':'northern_territory'
 };
 for(const [id,key] of Object.entries(coverageKeyById)){
-  assert(coverage[key]==='SOURCE_WATCH_ACTIVE_FORWARD_BASELINE_CAPTURED',`${id} evidence watch is not marked active with a captured baseline`);
+  assert(coverage[key]==='CAPTURE_ACTIVE_FULL_CONFIGURED_BASELINE',`${id} evidence watch is not marked active with a captured baseline`);
 }
 
 const allIds=[...(base.jurisdictions||[]).flatMap(j=>(j.players||[]).map(p=>`${j.competition_id}:${p.actor_id}`)),...qldRows.map(r=>`AUS-QLD:${r[0]}`),...waRows.map(r=>`AUS-WA:${r[0]}`),...nswRows.map(r=>`AUS-NSW:${r[0]}`),...vicRows.map(r=>`AUS-VIC:${r[0]}`),...saRows.map(r=>`AUS-SA:${r[0]}`),...tasRows.map(r=>`AUS-TAS:${r[0]}`)];

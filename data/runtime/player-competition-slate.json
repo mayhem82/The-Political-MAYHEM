@@ -1,0 +1,41 @@
+{
+  "ledger_id": "POLITICAL-MAYHEM-PLAYER-COMPETITION-SLATE-001",
+  "status": "ACTIVE",
+  "rules": {
+    "one_player_may_have_multiple_contest_entries": true,
+    "one_player_may_span_multiple_competition_classes": true,
+    "parliamentary_roster_does_not_create_contest_entry": true,
+    "contest_entry_requires_registered_contest": true,
+    "participation_requires_source_lineage": true,
+    "result_requires_verified_contest_outcome": true,
+    "position_changes_are_append_only_history": true,
+    "no_hindsight_backfill": true
+  },
+  "entry_fields": [
+    "entry_id",
+    "actor_id",
+    "contest_id",
+    "cycle_id",
+    "competition_class",
+    "participation_role",
+    "side",
+    "participation_state",
+    "result_state",
+    "source_snapshot_ids",
+    "created_at",
+    "updated_at",
+    "participation_history"
+  ],
+  "allowed": {
+    "participation_role": [
+      "CANDIDATE",
+      "SUPPORTING_SIDE_PLAYER",
+      "OPPOSING_SIDE_PLAYER",
+      "OTHER_REGISTERED_PARTICIPANT"
+    ],
+    "side": ["SUPPORTING", "OPPOSING", "ELECTORAL_FIELD", "OTHER"],
+    "participation_state": ["REGISTERED", "ACTIVE", "COMPLETED", "WITHDRAWN"],
+    "result_state": ["PENDING", "WIN", "LOSS", "PARTIAL", "VOID", "UNKNOWN"]
+  },
+  "entries": []
+}

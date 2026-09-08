@@ -1,5 +1,5 @@
 {
-  "snapshot_id": "POLITICAL-MAYHEM-CANONICAL-011",
+  "snapshot_id": "POLITICAL-MAYHEM-CANONICAL-012",
   "status": "EXPANDING",
   "canonical": {
     "cycle_schema": {"path": "data/canonical/political-cycle.schema.json"},
@@ -7,6 +7,7 @@
     "party_schema": {"path": "data/canonical/party.schema.json"},
     "actor_schema": {"path": "data/canonical/actor.schema.json"},
     "source_registry": {"path": "data/source-class-registry.json"},
+    "player_stat_registry": {"path": "data/player-stat-registry.json"},
     "source_snapshot_schema": {"path": "schema/source-snapshot.schema.json"},
     "intelligence_event_schema": {"path": "schema/intelligence-event.schema.json"},
     "checkpoint_schema": {"path": "schema/contest-checkpoint.schema.json"},
@@ -59,6 +60,9 @@
     "sa_current_parliamentary_roster_complete": true,
     "tas_current_parliamentary_roster_complete": true,
     "all_state_territory_current_parliamentary_rosters_complete": true,
-    "state_territory_roster_expansion_is_partial_and_explicit": false
+    "state_territory_roster_expansion_is_partial_and_explicit": false,
+    "player_statistics_preserve_native_political_units": true,
+    "synthetic_composite_player_score_prohibited": true,
+    "missing_player_stat_data_is_not_zero": true
   }
 }

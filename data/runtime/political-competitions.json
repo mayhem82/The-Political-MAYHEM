@@ -1,6 +1,6 @@
 {
-  "field_id": "AUSTRALIAN-POLITICAL-COMPETITIONS-002",
-  "captured_at": "2026-09-08T10:21:33+10:00",
+  "field_id": "AUSTRALIAN-POLITICAL-COMPETITIONS-003",
+  "captured_at": "2026-09-08T10:35:00+10:00",
   "status": "ACTIVE_MULTI_JURISDICTION_FIELD",
   "sports_translation": {
     "federal": "FINALS",
@@ -11,7 +11,7 @@
     {"competition_id":"AUS-FED","jurisdiction":"Australia","level":"FEDERAL","public_label":"Federal Finals","field_state":"ACTIVE","ingestion_state":"SOURCE_CAPTURE_STARTED","player_state":"226_CURRENT_PARLIAMENTARIANS_INGESTED","ingested_player_count":226},
     {"competition_id":"AUS-NSW","jurisdiction":"New South Wales","level":"STATE","public_label":"NSW","field_state":"ACTIVE","ingestion_state":"STRUCTURAL_INGESTION_PENDING","player_state":"PENDING"},
     {"competition_id":"AUS-VIC","jurisdiction":"Victoria","level":"STATE","public_label":"Victoria","field_state":"ACTIVE","ingestion_state":"STRUCTURAL_INGESTION_PENDING","player_state":"PENDING"},
-    {"competition_id":"AUS-QLD","jurisdiction":"Queensland","level":"STATE","public_label":"Queensland","field_state":"ACTIVE","ingestion_state":"STRUCTURAL_INGESTION_PENDING","player_state":"PENDING"},
+    {"competition_id":"AUS-QLD","jurisdiction":"Queensland","level":"STATE","public_label":"Queensland","field_state":"ACTIVE","ingestion_state":"CURRENT_PARLIAMENTARY_ROSTER_INGESTED","player_state":"93_CURRENT_MEMBERS_INGESTED","ingested_player_count":93,"party_team_count":4,"independent_player_count":1},
     {"competition_id":"AUS-WA","jurisdiction":"Western Australia","level":"STATE","public_label":"Western Australia","field_state":"ACTIVE","ingestion_state":"STRUCTURAL_INGESTION_PENDING","player_state":"PENDING"},
     {"competition_id":"AUS-SA","jurisdiction":"South Australia","level":"STATE","public_label":"South Australia","field_state":"ACTIVE","ingestion_state":"STRUCTURAL_INGESTION_PENDING","player_state":"PENDING"},
     {"competition_id":"AUS-TAS","jurisdiction":"Tasmania","level":"STATE","public_label":"Tasmania","field_state":"ACTIVE","ingestion_state":"STRUCTURAL_INGESTION_PENDING","player_state":"PENDING"},
@@ -20,9 +20,9 @@
   ],
   "ingestion_progress": {
     "state_territory_jurisdictions_total": 8,
-    "state_territory_jurisdictions_with_complete_current_player_rosters": 2,
-    "state_territory_players_ingested": 50,
-    "remaining_jurisdictions": ["AUS-NSW","AUS-VIC","AUS-QLD","AUS-WA","AUS-SA","AUS-TAS"]
+    "state_territory_jurisdictions_with_complete_current_player_rosters": 3,
+    "state_territory_players_ingested": 143,
+    "remaining_jurisdictions": ["AUS-NSW","AUS-VIC","AUS-WA","AUS-SA","AUS-TAS"]
   },
   "integrity": {
     "jurisdictions_remain_distinct": true,

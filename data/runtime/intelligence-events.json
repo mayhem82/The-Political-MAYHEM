@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-INTELLIGENCE-EVENTS-001",
   "scope": "Australia — multi-jurisdiction",
-  "captured_at": "2026-09-09T02:54:33.206Z",
+  "captured_at": "2026-09-09T02:58:10.770Z",
   "mode": "FORWARD_ONLY",
   "rules": {
     "observation_distinct_from_inference": true,
@@ -32331,6 +32331,913 @@
       "projection_effect": "NO_EFFECT",
       "information_advantage": "NONE",
       "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-NSW-MINISTERIAL-RELEASES-20260909025709",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-NSW",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-NSW-MINISTERIAL-RELEASES-20260909025709",
+      "captured_at": "2026-09-09T02:57:09.298Z",
+      "event_date": "2026-09-09",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-NSW-MINISTERIAL-RELEASES",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "review_policy": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-NSW-MINISTERIAL-RELEASES-20260909010945",
+        "content_hash": "fb79e1145aecf30a27793564c3c4f198b3256bb1ef88ddbec7286dbc5fa2d43d",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-NSW-MINISTERIAL-RELEASES-20260909025709",
+        "content_hash": "c543a759a25f88a87c7a724af584a2dbdc8a4a448d4bb0660cb6a958961beea0",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "STRUCTURED_RECORD_SET",
+        "records_added": [
+          {
+            "record_id": "307f88855e03fd6352e6",
+            "title": "Designs unveiled for Wyong’s new Key Health Worker Accommodation",
+            "url": "https://www.nsw.gov.au/ministerial-releases/designs-unveiled-for-wyongs-new-key-health-worker-accommodation"
+          },
+          {
+            "record_id": "4ac628e4cc49a4c73f23",
+            "title": "New Wyong Hospital Palliative Care Unit officially open",
+            "url": "https://www.nsw.gov.au/ministerial-releases/new-wyong-hospital-palliative-care-unit-officially-open"
+          },
+          {
+            "record_id": "8968225a2991a3c91655",
+            "title": "Plans for 300+ homes at Haberfield dive site revealed",
+            "url": "https://www.nsw.gov.au/ministerial-releases/plans-new-homes-haberfield"
+          }
+        ],
+        "records_removed": [
+          {
+            "record_id": "0ae2c7788622eac28253",
+            "title": "Minns Government delivers $350,000 boost for Rehab In The Home in southern Lake Macquarie",
+            "url": "https://www.nsw.gov.au/ministerial-releases/minns-government-delivers-350000-boost-for-rehab-home-southern-lake-macquarie"
+          },
+          {
+            "record_id": "16c933c27d72be1d77a8",
+            "title": "NSW Government backs councils to host major multicultural festivals",
+            "url": "https://www.nsw.gov.au/ministerial-releases/local-council-grants-multicultural-festivals"
+          },
+          {
+            "record_id": "8c5128c98bb5d029de57",
+            "title": "Design released for long-awaited Spring Farm Parkway extension",
+            "url": "https://www.nsw.gov.au/ministerial-releases/spring-farm-parkway-extension-design-released"
+          }
+        ],
+        "added_count": 3,
+        "removed_count": 3,
+        "before_count": 88,
+        "after_count": 88,
+        "delta_hash": "e8087bbdceef4363fa9a3058afb5ea9243a77a902284803502f4929a8d883e0e"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-TAS-PREMIER-NEWS-20260909025709",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-TAS",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-TAS-PREMIER-NEWS-20260909025709",
+      "captured_at": "2026-09-09T02:57:09.298Z",
+      "event_date": "2026-09-09",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-TAS-PREMIER-NEWS",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "review_policy": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-TAS-PREMIER-NEWS-20260909024755",
+        "content_hash": "99e8faeb7079d8ca557096ad297bf472fd40f684a14221a5d21cba8bc24c6442",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-TAS-PREMIER-NEWS-20260909025709",
+        "content_hash": "7d083e78ce737f5365dd48d6d00e5bb987f226857aadc359974ebdb635a6abb2",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "STRUCTURED_RECORD_SET",
+        "records_added": [
+          {
+            "record_id": "5503ad540fbf99bf866e",
+            "title": "2030 Strong Plan for Tasmania’s Future",
+            "url": "https://www.premier.tas.gov.au/our-plan"
+          },
+          {
+            "record_id": "5c58e4f76fec3a1ce5fe",
+            "title": "Contact your Premier",
+            "url": "https://www.premier.tas.gov.au/contact"
+          },
+          {
+            "record_id": "7984975787b4ef2c7007",
+            "title": "Budget 2026-27",
+            "url": "https://www.premier.tas.gov.au/budget-2026"
+          },
+          {
+            "record_id": "bff1215bcb385f2f222a",
+            "title": "300 days of delivering for Tasmania",
+            "url": "https://www.premier.tas.gov.au/__data/assets/pdf_file/0027/517923/2026-Third-100-Days-of-Delivery_Digital.pdf"
+          }
+        ],
+        "records_removed": [
+          {
+            "record_id": "1380674db0bf814247ef",
+            "title": "Working together to help protect our threatened species 7 September 2026 Tasmanians are being encouraged to work together to protect our unique flora and fauna this Threatened Species Day, with a new round of cons...",
+            "url": "https://www.premier.tas.gov.au/latest-news/2026/september/working-together-to-help-protect-our-threatened-species"
+          },
+          {
+            "record_id": "26966632f7c5572725d3",
+            "title": "Paper titles cut from property transactions 7 September 2026 The Tasmanian Government has made it faster, simpler and safer to make property transactions, with paper certificates of title removed from ...",
+            "url": "https://www.premier.tas.gov.au/latest-news/2026/september/paper-titles-cut-from-property-transactions"
+          },
+          {
+            "record_id": "9187be13c3c0412ea6bb",
+            "title": "Tasmania’s tourism industry full steam ahead for Spirit’s inaugural sailing 7 September 2026 Preparations are being finalised for the launch of Spirit of Tasmania&rsquo;s new vessels, with Tourism Tasmania working with industry to bu...",
+            "url": "https://www.premier.tas.gov.au/latest-news/2026/september/tasmanias-tourism-industry-full-steam-ahead-for-spirits-inaugural-sailing"
+          },
+          {
+            "record_id": "9a575440a98cf4041fd6",
+            "title": "Clear expectations for data centres and AI infrastructure 7 September 2026 The Tasmanian Government has released its draft Expectations for Data Centres and AI Infrastructure.Minister for Business, Industry and Reso...",
+            "url": "https://www.premier.tas.gov.au/latest-news/2026/september/clear-expectations-for-data-centres-and-ai-infrastructure"
+          },
+          {
+            "record_id": "d7a1477e0a98625953b3",
+            "title": "Skip to content",
+            "url": "https://www.premier.tas.gov.au/latest-news"
+          }
+        ],
+        "added_count": 4,
+        "removed_count": 5,
+        "before_count": 141,
+        "after_count": 140,
+        "delta_hash": "f7a904ab4a5efe92842937fd6a7a2894c8d3f502cc9db6a8f3038ee84e8940be"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-NTEC-MEDIA-20260909025709",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-NT",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-NTEC-MEDIA-20260909025709",
+      "captured_at": "2026-09-09T02:57:09.298Z",
+      "event_date": "2026-09-09",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_ELECTORAL_AUTHORITY",
+      "source_id": "SRC-NTEC-MEDIA",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "review_policy": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-NTEC-MEDIA-20260909024114",
+        "content_hash": "067ba93fd6320e4dcdf8876ab83d56caa151975a7f8bb2566f9ab9d1cad4d79f",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-NTEC-MEDIA-20260909025709",
+        "content_hash": "d532efcb49c91a86b7f127743a6a3263afc6ecbd2be5d25d95636cba75d189c9",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "STRUCTURED_RECORD_SET",
+        "records_added": [
+          {
+            "record_id": "efda0cdb0cb550728d5e",
+            "title": "2025-2026 annual returns - gifts",
+            "url": "https://ntec.nt.gov.au/financial-disclosure/published-annual-returns/2025-2026-annual-returns-gifts"
+          }
+        ],
+        "records_removed": [],
+        "added_count": 1,
+        "removed_count": 0,
+        "before_count": 138,
+        "after_count": 139,
+        "delta_hash": "c41ac4756e8ff17ac4f108d01b3a03b52952cab72f8c820bb94a9cef96239811"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-NT-GOV-NEWSROOM-20260909025709",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-NT",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-NT-GOV-NEWSROOM-20260909025709",
+      "captured_at": "2026-09-09T02:57:09.298Z",
+      "event_date": "2026-09-09",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-NT-GOV-NEWSROOM",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "review_policy": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-NT-GOV-NEWSROOM-20260909024114",
+        "content_hash": "7087b6ada870cc1c3260f79b4cd6755a7aafe681c3cd231945dba682620e8a0e",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-NT-GOV-NEWSROOM-20260909025709",
+        "content_hash": "13904482ae17d57dc89cdb9e883613c802d2eee7a86e93875b94a52612bc64ee",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "STRUCTURED_RECORD_SET",
+        "records_added": [
+          {
+            "record_id": "1cac3c4bcc674c7bcd99",
+            "title": "Feedback",
+            "url": "https://mediareleases.nt.gov.au/feedback"
+          },
+          {
+            "record_id": "1d8953240f426684a961",
+            "title": "Privacy statement.",
+            "url": "https://mediareleases.nt.gov.au/privacy/icac-newsroom-privacy-statement"
+          },
+          {
+            "record_id": "3b1545c66c4762484ec7",
+            "title": "privacy statement.",
+            "url": "https://mediareleases.nt.gov.au/privacy/newsroom-privacy-statement"
+          },
+          {
+            "record_id": "9cded320b098e78d653c",
+            "title": "Departmental and agency media releases",
+            "url": "https://mediareleases.nt.gov.au/home"
+          },
+          {
+            "record_id": "a701b839bc09de66ebd0",
+            "title": "privacy statement.",
+            "url": "https://mediareleases.nt.gov.au/privacy/icac-newsroom-privacy-statement"
+          }
+        ],
+        "records_removed": [
+          {
+            "record_id": "5c1a650394b91a675891",
+            "title": "Feedback",
+            "url": "https://newsroom.nt.gov.au/feedback"
+          },
+          {
+            "record_id": "69d715cbea9855bce96b",
+            "title": "Northern Territory Government Newsroom",
+            "url": "https://newsroom.nt.gov.au/home"
+          },
+          {
+            "record_id": "757f3831ee515a040b13",
+            "title": "privacy statement.",
+            "url": "https://newsroom.nt.gov.au/privacy/office-of-chief-ministers-newsroom-privacy-statement"
+          }
+        ],
+        "added_count": 5,
+        "removed_count": 3,
+        "before_count": 6,
+        "after_count": 8,
+        "delta_hash": "941dedfafea8981c5112a5436f80b2185d9b2e131ae8f2a0045f18303820e4ed"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "SIG-REV-CHG-WATCH-NSW-MINISTERIAL-RELEASES-20260909025709",
+      "parent_event_id": "CHG-WATCH-NSW-MINISTERIAL-RELEASES-20260909025709",
+      "review_id": "REV-CHG-WATCH-NSW-MINISTERIAL-RELEASES-20260909025709",
+      "jurisdiction_id": "AUS-NSW",
+      "party_id": null,
+      "actor_id": null,
+      "contest_id": null,
+      "cycle_id": null,
+      "source_snapshot_id": "AUTO-WATCH-NSW-MINISTERIAL-RELEASES-20260909025709",
+      "record_id": null,
+      "captured_at": "2026-09-09T02:58:05.834Z",
+      "event_date": "2026-09-09",
+      "checkpoint": "CONTINUOUS_FORWARD_SIGNAL_REVIEW",
+      "event_type": "SIGNAL_CREATED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-NSW-MINISTERIAL-RELEASES",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "claim": "NSW Government — Ministerial releases added 3 structured publication records to its forward-captured official index: Designs unveiled for Wyong’s new Key Health Worker Accommodation; New Wyong Hospital Palliative Care Unit officially open; Plans for 300+ homes at Haberfield dive site revealed",
+      "observed_behaviour": "One or more structured publication records appeared in the monitored official source index after the preceding forward snapshot.",
+      "publication_records_added": [
+        {
+          "record_id": "307f88855e03fd6352e6",
+          "title": "Designs unveiled for Wyong’s new Key Health Worker Accommodation",
+          "url": "https://www.nsw.gov.au/ministerial-releases/designs-unveiled-for-wyongs-new-key-health-worker-accommodation"
+        },
+        {
+          "record_id": "4ac628e4cc49a4c73f23",
+          "title": "New Wyong Hospital Palliative Care Unit officially open",
+          "url": "https://www.nsw.gov.au/ministerial-releases/new-wyong-hospital-palliative-care-unit-officially-open"
+        },
+        {
+          "record_id": "8968225a2991a3c91655",
+          "title": "Plans for 300+ homes at Haberfield dive site revealed",
+          "url": "https://www.nsw.gov.au/ministerial-releases/plans-new-homes-haberfield"
+        }
+      ],
+      "publication_records_removed": [
+        {
+          "record_id": "0ae2c7788622eac28253",
+          "title": "Minns Government delivers $350,000 boost for Rehab In The Home in southern Lake Macquarie",
+          "url": "https://www.nsw.gov.au/ministerial-releases/minns-government-delivers-350000-boost-for-rehab-home-southern-lake-macquarie"
+        },
+        {
+          "record_id": "16c933c27d72be1d77a8",
+          "title": "NSW Government backs councils to host major multicultural festivals",
+          "url": "https://www.nsw.gov.au/ministerial-releases/local-council-grants-multicultural-festivals"
+        },
+        {
+          "record_id": "8c5128c98bb5d029de57",
+          "title": "Design released for long-awaited Spring Farm Parkway extension",
+          "url": "https://www.nsw.gov.au/ministerial-releases/spring-farm-parkway-extension-design-released"
+        }
+      ],
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "underlying_publication_claims_not_promoted_to_verified_fact": true,
+        "source_change_parent_retained": true,
+        "deterministic_review": true
+      }
+    },
+    {
+      "event_id": "SIG-REV-CHG-WATCH-TAS-PREMIER-NEWS-20260909025709",
+      "parent_event_id": "CHG-WATCH-TAS-PREMIER-NEWS-20260909025709",
+      "review_id": "REV-CHG-WATCH-TAS-PREMIER-NEWS-20260909025709",
+      "jurisdiction_id": "AUS-TAS",
+      "party_id": null,
+      "actor_id": null,
+      "contest_id": null,
+      "cycle_id": null,
+      "source_snapshot_id": "AUTO-WATCH-TAS-PREMIER-NEWS-20260909025709",
+      "record_id": null,
+      "captured_at": "2026-09-09T02:58:05.834Z",
+      "event_date": "2026-09-09",
+      "checkpoint": "CONTINUOUS_FORWARD_SIGNAL_REVIEW",
+      "event_type": "SIGNAL_CREATED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-TAS-PREMIER-NEWS",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "claim": "Premier of Tasmania — latest news added 4 structured publication records to its forward-captured official index: 2030 Strong Plan for Tasmania’s Future; Contact your Premier; Budget 2026-27; 300 days of delivering for Tasmania",
+      "observed_behaviour": "One or more structured publication records appeared in the monitored official source index after the preceding forward snapshot.",
+      "publication_records_added": [
+        {
+          "record_id": "5503ad540fbf99bf866e",
+          "title": "2030 Strong Plan for Tasmania’s Future",
+          "url": "https://www.premier.tas.gov.au/our-plan"
+        },
+        {
+          "record_id": "5c58e4f76fec3a1ce5fe",
+          "title": "Contact your Premier",
+          "url": "https://www.premier.tas.gov.au/contact"
+        },
+        {
+          "record_id": "7984975787b4ef2c7007",
+          "title": "Budget 2026-27",
+          "url": "https://www.premier.tas.gov.au/budget-2026"
+        },
+        {
+          "record_id": "bff1215bcb385f2f222a",
+          "title": "300 days of delivering for Tasmania",
+          "url": "https://www.premier.tas.gov.au/__data/assets/pdf_file/0027/517923/2026-Third-100-Days-of-Delivery_Digital.pdf"
+        }
+      ],
+      "publication_records_removed": [
+        {
+          "record_id": "1380674db0bf814247ef",
+          "title": "Working together to help protect our threatened species 7 September 2026 Tasmanians are being encouraged to work together to protect our unique flora and fauna this Threatened Species Day, with a new round of cons...",
+          "url": "https://www.premier.tas.gov.au/latest-news/2026/september/working-together-to-help-protect-our-threatened-species"
+        },
+        {
+          "record_id": "26966632f7c5572725d3",
+          "title": "Paper titles cut from property transactions 7 September 2026 The Tasmanian Government has made it faster, simpler and safer to make property transactions, with paper certificates of title removed from ...",
+          "url": "https://www.premier.tas.gov.au/latest-news/2026/september/paper-titles-cut-from-property-transactions"
+        },
+        {
+          "record_id": "9187be13c3c0412ea6bb",
+          "title": "Tasmania’s tourism industry full steam ahead for Spirit’s inaugural sailing 7 September 2026 Preparations are being finalised for the launch of Spirit of Tasmania&rsquo;s new vessels, with Tourism Tasmania working with industry to bu...",
+          "url": "https://www.premier.tas.gov.au/latest-news/2026/september/tasmanias-tourism-industry-full-steam-ahead-for-spirits-inaugural-sailing"
+        },
+        {
+          "record_id": "9a575440a98cf4041fd6",
+          "title": "Clear expectations for data centres and AI infrastructure 7 September 2026 The Tasmanian Government has released its draft Expectations for Data Centres and AI Infrastructure.Minister for Business, Industry and Reso...",
+          "url": "https://www.premier.tas.gov.au/latest-news/2026/september/clear-expectations-for-data-centres-and-ai-infrastructure"
+        },
+        {
+          "record_id": "d7a1477e0a98625953b3",
+          "title": "Skip to content",
+          "url": "https://www.premier.tas.gov.au/latest-news"
+        }
+      ],
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "underlying_publication_claims_not_promoted_to_verified_fact": true,
+        "source_change_parent_retained": true,
+        "deterministic_review": true
+      }
+    },
+    {
+      "event_id": "SIG-REV-CHG-WATCH-NTEC-MEDIA-20260909025709",
+      "parent_event_id": "CHG-WATCH-NTEC-MEDIA-20260909025709",
+      "review_id": "REV-CHG-WATCH-NTEC-MEDIA-20260909025709",
+      "jurisdiction_id": "AUS-NT",
+      "party_id": null,
+      "actor_id": null,
+      "contest_id": null,
+      "cycle_id": null,
+      "source_snapshot_id": "AUTO-WATCH-NTEC-MEDIA-20260909025709",
+      "record_id": "efda0cdb0cb550728d5e",
+      "captured_at": "2026-09-09T02:58:05.834Z",
+      "event_date": "2026-09-09",
+      "checkpoint": "CONTINUOUS_FORWARD_SIGNAL_REVIEW",
+      "event_type": "SIGNAL_CREATED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_ELECTORAL_AUTHORITY",
+      "source_id": "SRC-NTEC-MEDIA",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "claim": "Northern Territory Electoral Commission — media releases added 1 structured publication record to its forward-captured official index: 2025-2026 annual returns - gifts",
+      "observed_behaviour": "One or more structured publication records appeared in the monitored official source index after the preceding forward snapshot.",
+      "publication_records_added": [
+        {
+          "record_id": "efda0cdb0cb550728d5e",
+          "title": "2025-2026 annual returns - gifts",
+          "url": "https://ntec.nt.gov.au/financial-disclosure/published-annual-returns/2025-2026-annual-returns-gifts"
+        }
+      ],
+      "publication_records_removed": [],
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "underlying_publication_claims_not_promoted_to_verified_fact": true,
+        "source_change_parent_retained": true,
+        "deterministic_review": true
+      }
+    },
+    {
+      "event_id": "SIG-REV-CHG-WATCH-NT-GOV-NEWSROOM-20260909025709",
+      "parent_event_id": "CHG-WATCH-NT-GOV-NEWSROOM-20260909025709",
+      "review_id": "REV-CHG-WATCH-NT-GOV-NEWSROOM-20260909025709",
+      "jurisdiction_id": "AUS-NT",
+      "party_id": null,
+      "actor_id": null,
+      "contest_id": null,
+      "cycle_id": null,
+      "source_snapshot_id": "AUTO-WATCH-NT-GOV-NEWSROOM-20260909025709",
+      "record_id": null,
+      "captured_at": "2026-09-09T02:58:05.834Z",
+      "event_date": "2026-09-09",
+      "checkpoint": "CONTINUOUS_FORWARD_SIGNAL_REVIEW",
+      "event_type": "SIGNAL_CREATED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-NT-GOV-NEWSROOM",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "claim": "Northern Territory Government — Newsroom added 5 structured publication records to its forward-captured official index: Feedback; Privacy statement.; privacy statement.; Departmental and agency media releases; privacy statement.",
+      "observed_behaviour": "One or more structured publication records appeared in the monitored official source index after the preceding forward snapshot.",
+      "publication_records_added": [
+        {
+          "record_id": "1cac3c4bcc674c7bcd99",
+          "title": "Feedback",
+          "url": "https://mediareleases.nt.gov.au/feedback"
+        },
+        {
+          "record_id": "1d8953240f426684a961",
+          "title": "Privacy statement.",
+          "url": "https://mediareleases.nt.gov.au/privacy/icac-newsroom-privacy-statement"
+        },
+        {
+          "record_id": "3b1545c66c4762484ec7",
+          "title": "privacy statement.",
+          "url": "https://mediareleases.nt.gov.au/privacy/newsroom-privacy-statement"
+        },
+        {
+          "record_id": "9cded320b098e78d653c",
+          "title": "Departmental and agency media releases",
+          "url": "https://mediareleases.nt.gov.au/home"
+        },
+        {
+          "record_id": "a701b839bc09de66ebd0",
+          "title": "privacy statement.",
+          "url": "https://mediareleases.nt.gov.au/privacy/icac-newsroom-privacy-statement"
+        }
+      ],
+      "publication_records_removed": [
+        {
+          "record_id": "5c1a650394b91a675891",
+          "title": "Feedback",
+          "url": "https://newsroom.nt.gov.au/feedback"
+        },
+        {
+          "record_id": "69d715cbea9855bce96b",
+          "title": "Northern Territory Government Newsroom",
+          "url": "https://newsroom.nt.gov.au/home"
+        },
+        {
+          "record_id": "757f3831ee515a040b13",
+          "title": "privacy statement.",
+          "url": "https://newsroom.nt.gov.au/privacy/office-of-chief-ministers-newsroom-privacy-statement"
+        }
+      ],
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "underlying_publication_claims_not_promoted_to_verified_fact": true,
+        "source_change_parent_retained": true,
+        "deterministic_review": true
+      }
+    },
+    {
+      "event_id": "INTEL-ENRICH-AREA-d8e9f3b79351de1667b5245c-53321eb85ae720a8",
+      "parent_event_id": "INTEL-AREA-d8e9f3b79351de1667b5245c",
+      "jurisdiction_id": "AUS-FED",
+      "party_id": null,
+      "actor_id": null,
+      "party_ids": [],
+      "actor_ids": [
+        "ACT-MELISSA-MCINTOSH",
+        "ACT-HELEN-HAINES"
+      ],
+      "contest_id": null,
+      "cycle_id": null,
+      "competition_class": "LEGISLATIVE",
+      "area_evidence_id": "AREA-d8e9f3b79351de1667b5245c",
+      "detail_record_id": "DETAIL-aa5e47fab5f5e3c67f0dbee8",
+      "detail_version_id": "DETAIL-aa5e47fab5f5e3c67f0dbee8-V1",
+      "source_snapshot_id": "AUTO-WATCH-APH-BILLS-20260908234539",
+      "record_url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7414",
+      "captured_at": "2026-09-09T02:58:10.770Z",
+      "evidence_captured_at": "2026-09-09T00:51:55.056Z",
+      "event_date": "2026-09-09",
+      "checkpoint": "SUBSTANTIVE_INTELLIGENCE_ENRICHMENT",
+      "event_type": "AREA_EVIDENCE_INTELLIGENCE_ENRICHED",
+      "area_routing_state": "SUBSTANTIVE_CONTENT_ROUTED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_PARLIAMENT",
+      "source_id": "SRC-APH-BILLS",
+      "claim": "Enriched substantive legislative evidence from Telecommunications Legislation Amendment (Universal Outdoor Mobile Obligation) Bill 2025 &ndash; Parliament of Australia. Captured content includes stage: Introduced; resistance language: Amendment; outcome language: passed. Registration threshold state: evidence gap. Missing requirements: missing fact type explicit support position, missing fact type explicit opposition position, missing condition distinct supporting and opposing sides.",
+      "observed_behaviour": "Telecommunications Legislation Amendment (Universal Outdoor Mobile Obligation) Bill 2025 &ndash; Parliament of Australia Skip to navigation Skip to content Telecommunications Legislation Amendment (Universal Outdoor Mobile Obligation) Bill 2025 Type Government Portfolio Infrastructure, Transport, Regional Development, Communications, Sport and the Arts Originating house House of Representatives Status Before Reps Parliament no 48 Track (What's this?) Permalink Summary Amends the: Telecommunications (Consumer Protection and Service Standards) Act 1999 to establish a regulatory framework for a Universal Outdoor Mobile Obligation to ensure that baseline mobile coverage is reasonably available outdoors to all people in Australia on an equitable basis; and Competition and Consumer Act 2010 and Telecommunications Act 1997 to make consequential amendments. Progress House of Representatives Introduced and read a first time 27 Nov 2025 Second reading moved 27 Nov 2025 Second reading debate 02 Mar 2026 Second reading debate 11 Mar 2026 Second reading debate 28 May 2026 Referred to Federation Chamber 11 Aug 2026 Second reading debate 11 Aug 2026 Reported from Federation Chamber 09 Sep 2026 Second reading agreed to 09 Sep 2026 Consideration in detail debate Amendment details : 1 Crossbench agreed to 09 Sep 2026 Third reading agreed to 09 Sep 2026 Documents and transcripts Text of bill First reading Explanatory memoranda Explanatory memorandum Transcript of speeches All second reading speeches Minister's second reading speech Proposed amendments House of representatives 2nd reading amendment MCINTOSH, Melissa, MP Detail - Crossbench HAINES, Helen, MP Schedules of amendments Schedule of unresolved question in the Federation Chamber Bills digest Bills Digest Notes Considered by scruti",
+      "extracted_cues": {
+        "resistance_terms": [
+          "Amendment"
+        ],
+        "stage_terms": [
+          "Introduced"
+        ],
+        "outcome_terms": [
+          "passed"
+        ],
+        "pressure_terms": []
+      },
+      "entity_mentions": {
+        "actors": [
+          {
+            "actor_id": "ACT-MELISSA-MCINTOSH",
+            "name": "Melissa McIntosh",
+            "match_variant": "mcintosh melissa",
+            "party_id_at_resolution": "AUS-FED-LIB"
+          },
+          {
+            "actor_id": "ACT-HELEN-HAINES",
+            "name": "Helen Haines",
+            "match_variant": "haines helen",
+            "party_id_at_resolution": null
+          }
+        ],
+        "teams": []
+      },
+      "position_state": "UNRESOLVED",
+      "resistance_state": "RESISTANCE_LANGUAGE_PRESENT",
+      "outcome_state": "OUTCOME_LANGUAGE_PRESENT",
+      "contest_fact_ids": [
+        "FACT-191892e151120fced7702258",
+        "FACT-244a898460698f4053b84cbe",
+        "FACT-2462d8270e1e4d240fe9a963",
+        "FACT-2544a26f9878ae870c418182",
+        "FACT-2fb9a70381ad64f37c368c8f",
+        "FACT-30eb20556b95874de6401127",
+        "FACT-342b0d0eb6d79eda65d5a239",
+        "FACT-358c4725f19730257873ea1b",
+        "FACT-44688f8187a4fbf2df0527a4",
+        "FACT-4f805a3224dfa02d06792413",
+        "FACT-6cea9948c24bec4a6e0d3cf8",
+        "FACT-84990e4849d6971caeb73d8e",
+        "FACT-887d3d5f29020c40f8720738",
+        "FACT-eb1a46f69acbe68851e5863c",
+        "FACT-f9487bc881606e0078258804",
+        "FACT-fa75f9da4d491ac009dd65c3"
+      ],
+      "contest_fact_types": [
+        "AMENDMENT",
+        "CONTEST_OBJECT",
+        "MATERIAL_RESISTANCE",
+        "OBJECTIVE",
+        "POSSIBLE_OUTCOME_STATE",
+        "PROCEDURAL_ACTION",
+        "STAGE",
+        "VOTE_OR_DIVISION"
+      ],
+      "threshold_evaluation_id": "THRESH-ac3a0caecc9bb501b8e6656c",
+      "threshold_state": "EVIDENCE_GAP",
+      "threshold_blockers": [
+        "MISSING_CONDITION_DISTINCT_SUPPORTING_AND_OPPOSING_SIDES",
+        "MISSING_FACT_TYPE_EXPLICIT_OPPOSITION_POSITION",
+        "MISSING_FACT_TYPE_EXPLICIT_SUPPORT_POSITION"
+      ],
+      "supporting_entities": [],
+      "opposing_entities": [],
+      "registration_action": "NO_AUTOMATIC_REGISTRATION",
+      "intelligence_signature": "53321eb85ae720a86d62a78929fe0e912675334371e3e711fd3708427c1aaf3a",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "substantive_detail_lineage_required": true,
+        "active_contest_fact_lineage_required": true,
+        "threshold_evaluation_lineage_required": true,
+        "routing_does_not_register_match": true,
+        "threshold_eligibility_does_not_register_match": true,
+        "entity_mentions_do_not_establish_positions": true,
+        "retracted_facts_excluded": true,
+        "no_projection_effect_without_registered_target": true
+      }
+    },
+    {
+      "event_id": "INTEL-ENRICH-AREA-cc7601e0425abc6917d5af2f-6236eb0ce974d6d8",
+      "parent_event_id": "INTEL-AREA-cc7601e0425abc6917d5af2f",
+      "jurisdiction_id": "AUS-FED",
+      "party_id": null,
+      "actor_id": "ACT-REBEKHA-SHARKIE",
+      "party_ids": [],
+      "actor_ids": [
+        "ACT-REBEKHA-SHARKIE"
+      ],
+      "contest_id": null,
+      "cycle_id": null,
+      "competition_class": "LEGISLATIVE",
+      "area_evidence_id": "AREA-cc7601e0425abc6917d5af2f",
+      "detail_record_id": "DETAIL-c11cd7280aa77a1bded387eb",
+      "detail_version_id": "DETAIL-c11cd7280aa77a1bded387eb-V1",
+      "source_snapshot_id": "AUTO-WATCH-APH-BILLS-20260908230751",
+      "record_url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7432",
+      "captured_at": "2026-09-09T02:58:10.770Z",
+      "evidence_captured_at": "2026-09-09T00:51:56.356Z",
+      "event_date": "2026-09-09",
+      "checkpoint": "SUBSTANTIVE_INTELLIGENCE_ENRICHMENT",
+      "event_type": "AREA_EVIDENCE_INTELLIGENCE_ENRICHED",
+      "area_routing_state": "SUBSTANTIVE_CONTENT_ROUTED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_PARLIAMENT",
+      "source_id": "SRC-APH-BILLS",
+      "claim": "Enriched substantive legislative evidence from Criminal Code Amendment (Flag Protection) Bill 2026 &ndash; Parliament of Australia. Captured content includes stage: Introduced; resistance language: Amendment; outcome language: passed. Registration threshold state: evidence gap. Missing requirements: missing fact type material resistance, missing fact type explicit support position, missing fact type explicit opposition position, missing condition distinct supporting and opposing sides.",
+      "observed_behaviour": "Criminal Code Amendment (Flag Protection) Bill 2026 &ndash; Parliament of Australia Skip to navigation Skip to content Criminal Code Amendment (Flag Protection) Bill 2026 Type Private Sponsor(s) SHARKIE, Rebekha, MP Originating house House of Representatives Status Not Proceeding Parliament no 48 Track (What's this?) Permalink Summary Amends the Criminal Code Act 1995 to create a criminal offence of intentionally or recklessly burning or desecrating the Australian National Flag, the Australian Aboriginal Flag or the Torres Strait Islander Flag. Progress House of Representatives Introduced and read a first time 09 Feb 2026 Second reading moved 09 Feb 2026 Removed from the Notice Paper in accordance with (SO 42) 08 Sep 2026 Documents and transcripts Text of bill First reading Explanatory memoranda Explanatory memorandum Transcript of speeches All second reading speeches Private Member's introductory speech Proposed amendments No proposed amendments have been circulated. Schedules of amendments No documents at present Helpful information Text of bill First reading: Text of the bill as introduced into the Parliament Third reading: Prepared if the bill is amended by the house in which it was introduced. This version of the bill is then considered by the second house. As passed by both houses: Final text of bill agreed to by both the House of Representatives and the Senate which is presented to the Governor-General for assent. Explanatory memoranda Explanatory memorandum: Accompanies and provides an explanation of the content of the introduced version (first reading) of the bill. Supplementary explanatory memorandum: Accompanies and explains amendments proposed by the government to the bill. Revised explanatory memorandum: Accompanies and explains the amended version (third r",
+      "extracted_cues": {
+        "resistance_terms": [
+          "Amendment"
+        ],
+        "stage_terms": [
+          "Introduced"
+        ],
+        "outcome_terms": [
+          "passed"
+        ],
+        "pressure_terms": []
+      },
+      "entity_mentions": {
+        "actors": [
+          {
+            "actor_id": "ACT-REBEKHA-SHARKIE",
+            "name": "Rebekha Sharkie",
+            "match_variant": "sharkie rebekha",
+            "party_id_at_resolution": "AUS-FED-CA"
+          }
+        ],
+        "teams": []
+      },
+      "position_state": "UNRESOLVED",
+      "resistance_state": "RESISTANCE_LANGUAGE_PRESENT",
+      "outcome_state": "OUTCOME_LANGUAGE_PRESENT",
+      "contest_fact_ids": [
+        "FACT-089284e89f9f4a477281cf13",
+        "FACT-1d7ba6d776023172f7cdc675",
+        "FACT-320912f683f771e6349f049d",
+        "FACT-5a4679abdf1ade15a551f6df",
+        "FACT-667ec4a02e3e88f78f54a8ba",
+        "FACT-833394265ac69b8950ab09a6",
+        "FACT-9a3431d436ea3947f9587f46",
+        "FACT-a4ebd91f25d120bc220a5f6a",
+        "FACT-ee4956ca7f15b64c4056df06"
+      ],
+      "contest_fact_types": [
+        "AMENDMENT",
+        "CONTEST_OBJECT",
+        "OBJECTIVE",
+        "POSSIBLE_OUTCOME_STATE",
+        "PROCEDURAL_ACTION",
+        "STAGE"
+      ],
+      "threshold_evaluation_id": "THRESH-5a5f54de2864946b1053855d",
+      "threshold_state": "EVIDENCE_GAP",
+      "threshold_blockers": [
+        "MISSING_CONDITION_DISTINCT_SUPPORTING_AND_OPPOSING_SIDES",
+        "MISSING_FACT_TYPE_EXPLICIT_OPPOSITION_POSITION",
+        "MISSING_FACT_TYPE_EXPLICIT_SUPPORT_POSITION",
+        "MISSING_FACT_TYPE_MATERIAL_RESISTANCE"
+      ],
+      "supporting_entities": [],
+      "opposing_entities": [],
+      "registration_action": "NO_AUTOMATIC_REGISTRATION",
+      "intelligence_signature": "6236eb0ce974d6d8b8873e8430282670be458c235e2f2173dfc53bf8fed288c9",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "substantive_detail_lineage_required": true,
+        "active_contest_fact_lineage_required": true,
+        "threshold_evaluation_lineage_required": true,
+        "routing_does_not_register_match": true,
+        "threshold_eligibility_does_not_register_match": true,
+        "entity_mentions_do_not_establish_positions": true,
+        "retracted_facts_excluded": true,
+        "no_projection_effect_without_registered_target": true
+      }
+    },
+    {
+      "event_id": "INTEL-ENRICH-AREA-4174c8f7d7dd32e0571fcf72-ea3cdd1bde195e1c",
+      "parent_event_id": "INTEL-AREA-4174c8f7d7dd32e0571fcf72",
+      "jurisdiction_id": "AUS-FED",
+      "party_id": null,
+      "actor_id": null,
+      "party_ids": [],
+      "actor_ids": [],
+      "contest_id": null,
+      "cycle_id": null,
+      "competition_class": "LEGISLATIVE",
+      "area_evidence_id": "AREA-4174c8f7d7dd32e0571fcf72",
+      "detail_record_id": "DETAIL-debd4166aa251b215296d4a6",
+      "detail_version_id": "DETAIL-debd4166aa251b215296d4a6-V1",
+      "source_snapshot_id": "AUTO-WATCH-APH-BILLS-20260908233843",
+      "record_url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=s1510",
+      "captured_at": "2026-09-09T02:58:10.770Z",
+      "evidence_captured_at": "2026-09-09T00:51:56.961Z",
+      "event_date": "2026-09-09",
+      "checkpoint": "SUBSTANTIVE_INTELLIGENCE_ENRICHMENT",
+      "event_type": "AREA_EVIDENCE_INTELLIGENCE_ENRICHED",
+      "area_routing_state": "SUBSTANTIVE_CONTENT_ROUTED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_PARLIAMENT",
+      "source_id": "SRC-APH-BILLS",
+      "claim": "Enriched substantive legislative evidence from Fair Work Amendment (Disqualified Officers) Bill 2026 &ndash; Parliament of Australia. Captured content includes stage: Division; resistance language: Amendment; outcome language: passed. Registration threshold state: evidence gap. Missing requirements: missing fact type material resistance, missing fact type explicit support position, missing fact type explicit opposition position, missing condition distinct supporting and opposing sides.",
+      "observed_behaviour": "Fair Work Amendment (Disqualified Officers) Bill 2026 &ndash; Parliament of Australia Skip to navigation Skip to content Fair Work Amendment (Disqualified Officers) Bill 2026 Type Private Sponsor(s) HUME, Sen Jane Originating house Senate Status Before Senate Parliament no 48 Track (What's this?) Permalink Summary Amends the: Fair Work (Registered Organisations) Act 2009 to enable the administrator of a registered organisation to permanently expel members and disqualify officers in certain circumstances, removing the current five-year limit on periods of expulsion and disqualification; and Fair Work (Registered Organisations) (CFMEU Construction and General Division Administration) Determination 2024 to make a consequential amendment. Progress Senate Introduced and read a first time 19 Aug 2026 Second reading moved 19 Aug 2026 Second reading debate 09 Sep 2026 Documents and transcripts Text of bill First reading Explanatory memoranda Explanatory memorandum Transcript of speeches All second reading speeches Private Senator's introductory speech Proposed amendments No proposed amendments have been circulated. Schedules of amendments No documents at present Helpful information Text of bill First reading: Text of the bill as introduced into the Parliament Third reading: Prepared if the bill is amended by the house in which it was introduced. This version of the bill is then considered by the second house. As passed by both houses: Final text of bill agreed to by both the House of Representatives and the Senate which is presented to the Governor-General for assent. Explanatory memoranda Explanatory memorandum: Accompanies and provides an explanation of the content of the introduced version (first reading) of the bill. Supplementary explanatory memorandum: Accompanies and exp",
+      "extracted_cues": {
+        "resistance_terms": [
+          "Amendment"
+        ],
+        "stage_terms": [
+          "Division"
+        ],
+        "outcome_terms": [
+          "passed"
+        ],
+        "pressure_terms": []
+      },
+      "entity_mentions": {
+        "actors": [],
+        "teams": []
+      },
+      "position_state": "UNRESOLVED",
+      "resistance_state": "RESISTANCE_LANGUAGE_PRESENT",
+      "outcome_state": "OUTCOME_LANGUAGE_PRESENT",
+      "contest_fact_ids": [
+        "FACT-052d65b60a64b4a95d29ebef",
+        "FACT-3c47e76de780c3d1ac8734b6",
+        "FACT-3f7080457d570cf1863a94fa",
+        "FACT-46932a0c6c0748e71fb7930f",
+        "FACT-53fd91ed3b684bbd15657925",
+        "FACT-79a3b91f8702dd735356f7fb",
+        "FACT-aab60105402c36b3e7796404"
+      ],
+      "contest_fact_types": [
+        "AMENDMENT",
+        "CONTEST_OBJECT",
+        "OBJECTIVE",
+        "STAGE"
+      ],
+      "threshold_evaluation_id": "THRESH-904008a0d0dd3c215904bf9e",
+      "threshold_state": "EVIDENCE_GAP",
+      "threshold_blockers": [
+        "MISSING_CONDITION_DISTINCT_SUPPORTING_AND_OPPOSING_SIDES",
+        "MISSING_FACT_TYPE_EXPLICIT_OPPOSITION_POSITION",
+        "MISSING_FACT_TYPE_EXPLICIT_SUPPORT_POSITION",
+        "MISSING_FACT_TYPE_MATERIAL_RESISTANCE"
+      ],
+      "supporting_entities": [],
+      "opposing_entities": [],
+      "registration_action": "NO_AUTOMATIC_REGISTRATION",
+      "intelligence_signature": "ea3cdd1bde195e1c540f7b344f7566894014ce5f0e2ef75c08e43485282b344a",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "substantive_detail_lineage_required": true,
+        "active_contest_fact_lineage_required": true,
+        "threshold_evaluation_lineage_required": true,
+        "routing_does_not_register_match": true,
+        "threshold_eligibility_does_not_register_match": true,
+        "entity_mentions_do_not_establish_positions": true,
+        "retracted_facts_excluded": true,
+        "no_projection_effect_without_registered_target": true
+      }
     }
   ]
 }

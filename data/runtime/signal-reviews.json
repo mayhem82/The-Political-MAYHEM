@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-SIGNAL-REVIEWS-001",
   "created_at": "2026-09-09T05:05:00+10:00",
-  "updated_at": "2026-09-09T02:54:24.126Z",
+  "updated_at": "2026-09-09T02:58:05.834Z",
   "rules": {
     "append_only": true,
     "raw_source_change_is_immutable": true,
@@ -14262,6 +14262,245 @@
           }
         ],
         "delta_hash": "4c2582dad3c0d1e3c0e9fda9896e36d183c1739bbd1f72c0463c304156c419f8"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-NSW-MINISTERIAL-RELEASES-20260909025709",
+      "source_change_event_id": "CHG-WATCH-NSW-MINISTERIAL-RELEASES-20260909025709",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-NSW-MINISTERIAL-RELEASES-20260909025709",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "NSW Government — Ministerial releases added 3 structured publication records to its forward-captured official index: Designs unveiled for Wyong’s new Key Health Worker Accommodation; New Wyong Hospital Palliative Care Unit officially open; Plans for 300+ homes at Haberfield dive site revealed",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-09-09T02:58:05.834Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "307f88855e03fd6352e6",
+            "title": "Designs unveiled for Wyong’s new Key Health Worker Accommodation",
+            "url": "https://www.nsw.gov.au/ministerial-releases/designs-unveiled-for-wyongs-new-key-health-worker-accommodation"
+          },
+          {
+            "record_id": "4ac628e4cc49a4c73f23",
+            "title": "New Wyong Hospital Palliative Care Unit officially open",
+            "url": "https://www.nsw.gov.au/ministerial-releases/new-wyong-hospital-palliative-care-unit-officially-open"
+          },
+          {
+            "record_id": "8968225a2991a3c91655",
+            "title": "Plans for 300+ homes at Haberfield dive site revealed",
+            "url": "https://www.nsw.gov.au/ministerial-releases/plans-new-homes-haberfield"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "0ae2c7788622eac28253",
+            "title": "Minns Government delivers $350,000 boost for Rehab In The Home in southern Lake Macquarie",
+            "url": "https://www.nsw.gov.au/ministerial-releases/minns-government-delivers-350000-boost-for-rehab-home-southern-lake-macquarie"
+          },
+          {
+            "record_id": "16c933c27d72be1d77a8",
+            "title": "NSW Government backs councils to host major multicultural festivals",
+            "url": "https://www.nsw.gov.au/ministerial-releases/local-council-grants-multicultural-festivals"
+          },
+          {
+            "record_id": "8c5128c98bb5d029de57",
+            "title": "Design released for long-awaited Spring Farm Parkway extension",
+            "url": "https://www.nsw.gov.au/ministerial-releases/spring-farm-parkway-extension-design-released"
+          }
+        ],
+        "delta_hash": "e8087bbdceef4363fa9a3058afb5ea9243a77a902284803502f4929a8d883e0e"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-TAS-PREMIER-NEWS-20260909025709",
+      "source_change_event_id": "CHG-WATCH-TAS-PREMIER-NEWS-20260909025709",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-TAS-PREMIER-NEWS-20260909025709",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Premier of Tasmania — latest news added 4 structured publication records to its forward-captured official index: 2030 Strong Plan for Tasmania’s Future; Contact your Premier; Budget 2026-27; 300 days of delivering for Tasmania",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-09-09T02:58:05.834Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "5503ad540fbf99bf866e",
+            "title": "2030 Strong Plan for Tasmania’s Future",
+            "url": "https://www.premier.tas.gov.au/our-plan"
+          },
+          {
+            "record_id": "5c58e4f76fec3a1ce5fe",
+            "title": "Contact your Premier",
+            "url": "https://www.premier.tas.gov.au/contact"
+          },
+          {
+            "record_id": "7984975787b4ef2c7007",
+            "title": "Budget 2026-27",
+            "url": "https://www.premier.tas.gov.au/budget-2026"
+          },
+          {
+            "record_id": "bff1215bcb385f2f222a",
+            "title": "300 days of delivering for Tasmania",
+            "url": "https://www.premier.tas.gov.au/__data/assets/pdf_file/0027/517923/2026-Third-100-Days-of-Delivery_Digital.pdf"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "1380674db0bf814247ef",
+            "title": "Working together to help protect our threatened species 7 September 2026 Tasmanians are being encouraged to work together to protect our unique flora and fauna this Threatened Species Day, with a new round of cons...",
+            "url": "https://www.premier.tas.gov.au/latest-news/2026/september/working-together-to-help-protect-our-threatened-species"
+          },
+          {
+            "record_id": "26966632f7c5572725d3",
+            "title": "Paper titles cut from property transactions 7 September 2026 The Tasmanian Government has made it faster, simpler and safer to make property transactions, with paper certificates of title removed from ...",
+            "url": "https://www.premier.tas.gov.au/latest-news/2026/september/paper-titles-cut-from-property-transactions"
+          },
+          {
+            "record_id": "9187be13c3c0412ea6bb",
+            "title": "Tasmania’s tourism industry full steam ahead for Spirit’s inaugural sailing 7 September 2026 Preparations are being finalised for the launch of Spirit of Tasmania&rsquo;s new vessels, with Tourism Tasmania working with industry to bu...",
+            "url": "https://www.premier.tas.gov.au/latest-news/2026/september/tasmanias-tourism-industry-full-steam-ahead-for-spirits-inaugural-sailing"
+          },
+          {
+            "record_id": "9a575440a98cf4041fd6",
+            "title": "Clear expectations for data centres and AI infrastructure 7 September 2026 The Tasmanian Government has released its draft Expectations for Data Centres and AI Infrastructure.Minister for Business, Industry and Reso...",
+            "url": "https://www.premier.tas.gov.au/latest-news/2026/september/clear-expectations-for-data-centres-and-ai-infrastructure"
+          },
+          {
+            "record_id": "d7a1477e0a98625953b3",
+            "title": "Skip to content",
+            "url": "https://www.premier.tas.gov.au/latest-news"
+          }
+        ],
+        "delta_hash": "f7a904ab4a5efe92842937fd6a7a2894c8d3f502cc9db6a8f3038ee84e8940be"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-NTEC-MEDIA-20260909025709",
+      "source_change_event_id": "CHG-WATCH-NTEC-MEDIA-20260909025709",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-NTEC-MEDIA-20260909025709",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Northern Territory Electoral Commission — media releases added 1 structured publication record to its forward-captured official index: 2025-2026 annual returns - gifts",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-09-09T02:58:05.834Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "efda0cdb0cb550728d5e",
+            "title": "2025-2026 annual returns - gifts",
+            "url": "https://ntec.nt.gov.au/financial-disclosure/published-annual-returns/2025-2026-annual-returns-gifts"
+          }
+        ],
+        "removed_records": [],
+        "delta_hash": "c41ac4756e8ff17ac4f108d01b3a03b52952cab72f8c820bb94a9cef96239811"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-NT-GOV-NEWSROOM-20260909025709",
+      "source_change_event_id": "CHG-WATCH-NT-GOV-NEWSROOM-20260909025709",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-NT-GOV-NEWSROOM-20260909025709",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Northern Territory Government — Newsroom added 5 structured publication records to its forward-captured official index: Feedback; Privacy statement.; privacy statement.; Departmental and agency media releases; privacy statement.",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-09-09T02:58:05.834Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "1cac3c4bcc674c7bcd99",
+            "title": "Feedback",
+            "url": "https://mediareleases.nt.gov.au/feedback"
+          },
+          {
+            "record_id": "1d8953240f426684a961",
+            "title": "Privacy statement.",
+            "url": "https://mediareleases.nt.gov.au/privacy/icac-newsroom-privacy-statement"
+          },
+          {
+            "record_id": "3b1545c66c4762484ec7",
+            "title": "privacy statement.",
+            "url": "https://mediareleases.nt.gov.au/privacy/newsroom-privacy-statement"
+          },
+          {
+            "record_id": "9cded320b098e78d653c",
+            "title": "Departmental and agency media releases",
+            "url": "https://mediareleases.nt.gov.au/home"
+          },
+          {
+            "record_id": "a701b839bc09de66ebd0",
+            "title": "privacy statement.",
+            "url": "https://mediareleases.nt.gov.au/privacy/icac-newsroom-privacy-statement"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "5c1a650394b91a675891",
+            "title": "Feedback",
+            "url": "https://newsroom.nt.gov.au/feedback"
+          },
+          {
+            "record_id": "69d715cbea9855bce96b",
+            "title": "Northern Territory Government Newsroom",
+            "url": "https://newsroom.nt.gov.au/home"
+          },
+          {
+            "record_id": "757f3831ee515a040b13",
+            "title": "privacy statement.",
+            "url": "https://newsroom.nt.gov.au/privacy/office-of-chief-ministers-newsroom-privacy-statement"
+          }
+        ],
+        "delta_hash": "941dedfafea8981c5112a5436f80b2185d9b2e131ae8f2a0045f18303820e4ed"
       },
       "integrity": {
         "source_change_unchanged": true,

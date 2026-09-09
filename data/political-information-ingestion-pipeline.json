@@ -1,5 +1,5 @@
 {
-  "pipeline_id": "POLITICAL-MAYHEM-INFORMATION-INGESTION-001",
+  "pipeline_id": "POLITICAL-MAYHEM-INFORMATION-INGESTION-002",
   "status": "ACTIVE",
   "purpose": "Turn monitored political source activity into preserved substantive information that can be routed into Political MAYHEM competition areas and consumed by intelligence without relying on publication titles or raw page-hash movement alone.",
   "rules": {
@@ -14,8 +14,11 @@
     "entity_resolution_must_not_invent_identity": true,
     "competition_threshold_evaluation_occurs_after_substantive_ingestion": true,
     "failed_detail_acquisition_remains_explicit": true,
-    "institutional_self_reporting_alone_does_not_prove_public_gain": true
+    "institutional_self_reporting_alone_does_not_prove_public_gain": true,
+    "jurisdiction_source_count_is_not_area_coverage": true,
+    "each_area_requires_an_explicit_source_path": true
   },
+  "detail_capable_capture_modes": ["PUBLICATION_FEED_HASH", "RECORD_DETAIL_API", "DOCUMENT_FEED"],
   "stages": [
     {"stage": 1, "stage_id": "SOURCE_DISCOVERY", "output": "configured source/watch with jurisdiction and source class"},
     {"stage": 2, "stage_id": "SOURCE_CAPTURE", "output": "source snapshot or explicit acquisition failure"},
@@ -37,55 +40,64 @@
     "intelligence_events": "data/runtime/intelligence-events.json",
     "competition_discovery": "data/runtime/competition-discovery-candidates.json",
     "registered_matches": "data/runtime/political-contests.json",
-    "verified_outcomes": "data/runtime/verified-outcomes.json"
+    "verified_outcomes": "data/runtime/verified-outcomes.json",
+    "coverage": "data/runtime/information-ingestion-coverage.json"
   },
   "areas": [
     {
       "competition_class": "ELECTORAL",
       "required_information": ["specific election or electoral process", "candidate or party participation", "electoral stage or timetable", "voting/count/declaration evidence when available"],
       "high_value_sources": ["PRIMARY_ELECTORAL_AUTHORITY", "PRIMARY_CANDIDATE", "PRIMARY_PARTY", "PRIMARY_PARLIAMENT"],
+      "source_path_requirements": {"required_source_groups": [["PRIMARY_ELECTORAL_AUTHORITY"]], "automated_record_detail_path_required": true},
       "substantive_record_types": ["election notice", "candidate list", "nomination record", "preference record", "count update", "declaration"]
     },
     {
       "competition_class": "LEGISLATIVE",
       "required_information": ["bill or measure identity", "current parliamentary stage", "supporting position", "opposing or amendment position", "material resistance", "division or passage status when available"],
       "high_value_sources": ["PRIMARY_PARLIAMENT", "PRIMARY_PARTY", "PRIMARY_ACTOR"],
+      "source_path_requirements": {"required_source_groups": [["PRIMARY_PARLIAMENT"]], "automated_record_detail_path_required": true},
       "substantive_record_types": ["bill page", "bill text", "second-reading speech", "amendment sheet", "committee report", "division record", "party position"]
     },
     {
       "competition_class": "LEADERSHIP",
       "required_information": ["leadership position", "incumbent or vacancy state", "challenger or rival claim", "organised support or resistance", "ballot/process rules", "verified result when resolved"],
       "high_value_sources": ["PRIMARY_PARTY", "PRIMARY_ACTOR", "PRIMARY_PARLIAMENT"],
+      "source_path_requirements": {"required_source_groups": [["PRIMARY_PARTY", "PRIMARY_ACTOR"]], "automated_record_detail_path_required": true},
       "substantive_record_types": ["leadership announcement", "challenge statement", "ballot notice", "caucus or party-room result", "resignation"]
     },
     {
       "competition_class": "CONFIDENCE_SUPPLY",
       "required_information": ["government survival or supply objective", "confidence/supply instrument or explicit commitment", "government position", "opposing/crossbench position", "division or verified support state"],
       "high_value_sources": ["PRIMARY_PARLIAMENT", "PRIMARY_PARTY", "PRIMARY_ACTOR"],
+      "source_path_requirements": {"required_source_groups": [["PRIMARY_PARLIAMENT"], ["PRIMARY_PARTY", "PRIMARY_ACTOR"]], "automated_record_detail_path_required": true},
       "substantive_record_types": ["confidence motion", "no-confidence motion", "supply bill", "crossbench commitment", "division record"]
     },
     {
       "competition_class": "BUDGET",
       "required_information": ["budget or material fiscal package", "appropriation/passage stage", "government objective", "material opposition or amendment demand", "crossbench position where material", "passage/defeat/amendment outcome"],
       "high_value_sources": ["PRIMARY_GOVERNMENT", "PRIMARY_PARLIAMENT", "PRIMARY_PARTY", "PRIMARY_ACTOR"],
+      "source_path_requirements": {"required_source_groups": [["PRIMARY_GOVERNMENT"], ["PRIMARY_PARLIAMENT"], ["PRIMARY_PARTY", "PRIMARY_ACTOR"]], "automated_record_detail_path_required": true},
       "substantive_record_types": ["budget paper", "appropriation bill", "budget reply", "amendment", "division record", "fiscal agreement"]
     },
     {
       "competition_class": "POLICY_ENACTMENT",
       "required_information": ["defined policy objective", "implementation mechanism", "implementation stage", "material political/administrative/stakeholder resistance", "institutional decision or measurable implementation outcome"],
       "high_value_sources": ["PRIMARY_GOVERNMENT", "PRIMARY_PARLIAMENT", "PRIMARY_REGULATOR", "PRIMARY_PARTY", "PRIMARY_ACTOR"],
+      "source_path_requirements": {"required_source_groups": [["PRIMARY_GOVERNMENT", "PRIMARY_REGULATOR"], ["PRIMARY_PARLIAMENT", "PRIMARY_PARTY", "PRIMARY_ACTOR", "PRIMARY_REGULATOR"]], "automated_record_detail_path_required": true},
       "substantive_record_types": ["implementation plan", "regulation", "direction", "administrative decision", "stakeholder position", "commencement notice", "implementation report"]
     },
     {
       "competition_class": "PARLIAMENTARY_PROCEDURE",
       "required_information": ["specific procedural objective", "proposer/supporting side", "opposing side", "material procedural resistance", "motion/order/referral/amendment stage", "carried/defeated/blocked outcome when resolved"],
       "high_value_sources": ["PRIMARY_PARLIAMENT", "PRIMARY_PARTY", "PRIMARY_ACTOR"],
+      "source_path_requirements": {"required_source_groups": [["PRIMARY_PARLIAMENT"]], "automated_record_detail_path_required": true},
       "substantive_record_types": ["notice of motion", "disallowance notice", "standing-order motion", "referral", "procedural amendment", "division record"]
     },
     {
       "competition_class": "PUBLIC_PRESSURE",
       "required_information": ["defined public demand", "identifiable public actors/community/campaign", "observable pressure action", "institutional resistance or inertia", "institutional response", "measurable concession/reversal/outcome", "causal evidence before claiming pressure forced the outcome"],
       "high_value_sources": ["PRIMARY_PUBLIC_ACTOR", "PRIMARY_COMMUNITY", "PRIMARY_CAMPAIGN", "PRIMARY_PETITION", "PRIMARY_PARLIAMENT", "PRIMARY_GOVERNMENT", "PRIMARY_REGULATOR"],
+      "source_path_requirements": {"required_source_groups": [["PRIMARY_PUBLIC_ACTOR", "PRIMARY_COMMUNITY", "PRIMARY_CAMPAIGN", "PRIMARY_PETITION"], ["PRIMARY_PARLIAMENT", "PRIMARY_GOVERNMENT", "PRIMARY_REGULATOR"]], "automated_record_detail_path_required": true},
       "substantive_record_types": ["petition", "open letter", "campaign demand", "community submission", "protest/action record", "institutional response", "decision reversal", "measurable concession"]
     }
   ]

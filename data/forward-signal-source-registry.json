@@ -1,7 +1,7 @@
 {
-  "registry_id": "FORWARD-SIGNAL-SOURCE-REGISTRY-008",
+  "registry_id": "FORWARD-SIGNAL-SOURCE-REGISTRY-009",
   "status": "ACTIVE_EXPANDING_ALL_JURISDICTIONS",
-  "updated_at": "2026-09-09T07:54:00+10:00",
+  "updated_at": "2026-09-10T07:07:00+10:00",
   "capture_cadence": "HOURLY",
   "rules": {
     "forward_only": true,
@@ -27,6 +27,7 @@
     {"watch_id":"WATCH-APH-BILLS","source_id":"SRC-APH-BILLS","name":"Parliament of Australia — Bills and Legislation","url":"https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation","fallback_urls":["https://www.aph.gov.au/Parliamentary_Business/Bills_and_Legislation"],"jurisdiction_id":"AUS-FED","party_id":null,"source_class":"PRIMARY_PARLIAMENT","capture_mode":"PUBLICATION_FEED_HASH","review_policy":"AUTO_PROMOTE_PUBLICATION_ADDITIONS","active":true},
     {"watch_id":"WATCH-AEC-MEDIA","source_id":"SRC-AEC-MEDIA","name":"Australian Electoral Commission — media","url":"https://www.aec.gov.au/media/","fallback_urls":["https://www.aec.gov.au/media/media-releases/"],"jurisdiction_id":"AUS-FED","party_id":null,"source_class":"PRIMARY_ELECTORAL_AUTHORITY","capture_mode":"PUBLICATION_FEED_HASH","review_policy":"AUTO_PROMOTE_PUBLICATION_ADDITIONS","active":true},
     {"watch_id":"WATCH-PM-MEDIA","source_id":"SRC-PM-MEDIA","name":"Prime Minister of Australia — media","url":"https://www.pm.gov.au/media","fallback_urls":[],"jurisdiction_id":"AUS-FED","party_id":null,"source_class":"PRIMARY_GOVERNMENT","capture_mode":"PUBLICATION_FEED_HASH","review_policy":"AUTO_PROMOTE_PUBLICATION_ADDITIONS","active":true},
+    {"watch_id":"WATCH-APH-EPETITIONS","source_id":"SRC-APH-EPETITIONS","name":"Parliament of Australia — House e-petitions","url":"https://www.aph.gov.au/e-petitions/","fallback_urls":["https://www.aph.gov.au/Parliamentary_Business/Petitions"],"jurisdiction_id":"AUS-FED","party_id":null,"source_class":"PRIMARY_PETITION","capture_mode":"PUBLICATION_FEED_HASH","review_policy":"AUTO_PROMOTE_PUBLICATION_ADDITIONS","active":true},
     {"watch_id":"WATCH-ALP-NEWS","source_id":"SRC-ALP-FEDERAL-NEWS","name":"Australian Labor Party — news","url":"https://www.alp.org.au/news/all-news/","fallback_urls":["https://www.alp.org.au/news"],"jurisdiction_id":"AUS-FED","party_id":"AUS-FED-ALP","source_class":"PRIMARY_PARTY","capture_mode":"PUBLICATION_FEED_HASH","review_policy":"AUTO_PROMOTE_PUBLICATION_ADDITIONS","active":true},
     {"watch_id":"WATCH-LIBERAL-HOME","source_id":"SRC-LIBERAL-FEDERAL-HOME","name":"Liberal Party of Australia — official site","url":"https://www.liberal.org.au/","fallback_urls":[],"jurisdiction_id":"AUS-FED","party_id":"AUS-FED-LIB","source_class":"PRIMARY_PARTY","capture_mode":"NORMALISED_PAGE_HASH","review_policy":"REVIEW_UNSTRUCTURED_CHANGE","active":true},
     {"watch_id":"WATCH-GREENS-FEDERAL-MEDIA","source_id":"SRC-GREENS-FEDERAL-RELEASE-INDEX","name":"Australian Greens — Federal MPs media releases","url":"https://greens.org.au/news/media-releases","fallback_urls":[],"jurisdiction_id":"AUS-FED","party_id":"AUS-FED-GRN","source_class":"PRIMARY_PARTY","capture_mode":"PUBLICATION_FEED_HASH","review_policy":"AUTO_PROMOTE_PUBLICATION_ADDITIONS","active":true},

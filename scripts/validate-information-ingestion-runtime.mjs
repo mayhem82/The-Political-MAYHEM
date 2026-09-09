@@ -59,13 +59,17 @@ for(const row of areaRows){
   }
   assert(validTime(row.evidence_captured_at),`${row.area_evidence_id}: evidence_captured_at invalid`);
   assert(validTime(row.routed_at),`${row.area_evidence_id}: routed_at invalid`);
-  assert(row.routing_state==='SUBSTANTIVE_CONTENT_ROUTED',`${row.area_evidence_id}: invalid routing state`);
+  assert(['SUBSTANTIVE_CONTENT_ROUTED','RETRACTED_ROUTING_NOISE'].includes(row.routing_state),`${row.area_evidence_id}: invalid routing state ${row.routing_state}`);
   assert(Array.isArray(row.routing_hits)&&row.routing_hits.length>0,`${row.area_evidence_id}: routing hits missing`);
   assert(Array.isArray(row.actor_ids)&&Array.isArray(row.party_ids),`${row.area_evidence_id}: entity arrays missing`);
   assert(row.position_state==='UNRESOLVED',`${row.area_evidence_id}: router must not infer position`);
   assert(row.inference===null&&row.inference_class==='NONE',`${row.area_evidence_id}: routing contains inference`);
-  if(row.competition_class==='PUBLIC_PRESSURE'){
-    assert((row.extracted_cues?.pressure_terms||[]).length>0,`${row.area_evidence_id}: PUBLIC_PRESSURE route lacks pressure cues`);
+  if(row.routing_state==='RETRACTED_ROUTING_NOISE'){
+    assert(validTime(row.retracted_at),`${row.area_evidence_id}: retracted route missing retracted_at`);
+    assert(Boolean(row.retraction_reason),`${row.area_evidence_id}: retracted route missing reason`);
+  }
+  if(row.routing_state==='SUBSTANTIVE_CONTENT_ROUTED'&&row.competition_class==='PUBLIC_PRESSURE'){
+    assert((row.extracted_cues?.pressure_terms||[]).length>0,`${row.area_evidence_id}: active PUBLIC_PRESSURE route lacks pressure cues`);
   }
 }
 
@@ -74,4 +78,6 @@ if(fail.length){
   for(const message of fail) console.error('- '+message);
   process.exit(1);
 }
-console.log('POLITICAL_MAYHEM_INFORMATION_INGESTION_RUNTIME_PASS',`details=${detailRows.length}`,`area_records=${areaRows.length}`,`attempts=${attempts.length}`);
+const active=areaRows.filter(x=>x.routing_state==='SUBSTANTIVE_CONTENT_ROUTED');
+const retracted=areaRows.filter(x=>x.routing_state==='RETRACTED_ROUTING_NOISE');
+console.log('POLITICAL_MAYHEM_INFORMATION_INGESTION_RUNTIME_PASS',`details=${detailRows.length}`,`active_area_records=${active.length}`,`retracted=${retracted.length}`,`attempts=${attempts.length}`);

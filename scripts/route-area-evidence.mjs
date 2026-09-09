@@ -34,7 +34,7 @@ const routingRules={
     /\b(implementation|implementing|implemented|commencement|commence|regulation|regulations|ministerial direction|administrative decision|enforcement regime|rollout|roll[- ]out)\b/i
   ],
   PARLIAMENTARY_PROCEDURE:[
-    /\b(disallowance|motion to disallow|standing orders|suspension of standing orders|censure motion|referral to committee|refer to committee|procedural motion|closure motion|guillotine|division|notice of motion)\b/i
+    /\b(disallowance|motion to disallow|standing orders|suspension of standing orders|censure motion|referral to committee|refer to committee|procedural motion|closure motion|guillotine|notice of motion|negatived on division|carried on division|resolved on division|division result|division was called|division was required)\b/i
   ],
   PUBLIC_PRESSURE:[
     /\b(petition|open letter|protest|rally|community campaign|grassroots campaign|public campaign|citizen campaign|resident campaign|community submission|public submission)\b/i,
@@ -44,7 +44,7 @@ const routingRules={
 
 const factRules={
   resistance_terms:[/\b(oppose|opposed|opposition|resist|resistance|block|blocked|reject|rejected|defeat|defeated|amend|amendment|challenge|crossbench|dissent|objection|objected)\b/ig],
-  stage_terms:[/\b(first reading|second reading|third reading|committee stage|consideration in detail|division|vote|ballot|consultation|public exhibition|commencement|implementation|introduced|before the house|before the senate|before parliament)\b/ig],
+  stage_terms:[/\b(first reading|second reading|third reading|committee stage|consideration in detail|negatived on division|carried on division|resolved on division|division result|vote|ballot|consultation|public exhibition|commencement|implementation|introduced|before the house|before the senate|before parliament)\b/ig],
   outcome_terms:[/\b(passed|carried|defeated|rejected|withdrawn|lapsed|implemented|blocked|abandoned|retained|replaced|elected|concession|reversal|policy changed)\b/ig],
   pressure_terms:[/\b(petition|protest|rally|campaign|community submission|public submission|open letter|resident|citizen|community group)\b/ig]
 };

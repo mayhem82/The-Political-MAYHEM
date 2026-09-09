@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-MAYHEM-SOURCE-DETAIL-SNAPSHOTS-001",
   "status": "ACTIVE",
-  "updated_at": "2026-09-09T00:51:52.421Z",
+  "updated_at": "2026-09-09T00:53:25.659Z",
   "rules": {
     "detail_id_is_stable_per_source_record": true,
     "underlying_record_url_required": true,
@@ -577,14 +577,278 @@
       "record_title": "Hansard by bill Access to bill speeches and debates made by members through their passage in the Houses of Parliament.",
       "source_id": "SRC-NSW-CURRENT-BILLS",
       "jurisdiction_id": "AUS-NSW"
+    },
+    {
+      "detail_record_id": "DETAIL-a3c23ba9c55d7aa319116a37",
+      "attempted_at": "2026-09-09T00:53:25.659Z",
+      "state": "FAILED",
+      "error": "IDENTIFIED_AUTOMATION: 403 Forbidden | BROWSER_COMPATIBILITY: 403 Forbidden",
+      "record_url": "https://www.parliament.nsw.gov.au/parliamentary-business/bills/bill-details?billId=18794&ref=3287",
+      "original_record_url": "https://search.parliament.nsw.gov.au/s/redirect?collection=pon1~sp-bills&url=https%3A%2F%2Fwww.parliament.nsw.gov.au%2Fparliamentary-business%2Fbills%2Fbill-details%3FbillId%3D18794%26ref%3D3287&index_url=https%3A%2F%2Fponsw%2Fbill%2F18794&auth=ibVfKPg09mrG0xUv0VrDGA&profile=bills-current&rank=6&query=%21FunDoesNotExist%3Apadrenull",
+      "record_title": "Private Abortion Law Reform Amendment (Sex Selection Prohibition) Bill 2025 Origin: Legislative Council Location: Legislative Council Status: Second Reading, Debate adjourned, Wed 24 June 2026",
+      "source_id": "SRC-NSW-CURRENT-BILLS",
+      "jurisdiction_id": "AUS-NSW"
+    },
+    {
+      "detail_record_id": "DETAIL-aabc70ccbfa5193638ca7b3c",
+      "attempted_at": "2026-09-09T00:53:25.803Z",
+      "state": "FAILED",
+      "error": "IDENTIFIED_AUTOMATION: 403 Forbidden | BROWSER_COMPATIBILITY: 403 Forbidden",
+      "record_url": "https://www.premier.tas.gov.au/budget-2026",
+      "original_record_url": "https://www.premier.tas.gov.au/budget-2026",
+      "record_title": "Budget 2026-27",
+      "source_id": "SRC-TAS-PREMIER-NEWS",
+      "jurisdiction_id": "AUS-TAS"
+    },
+    {
+      "detail_record_id": "DETAIL-492fde09c068b713fc4ebbff",
+      "attempted_at": "2026-09-09T00:53:25.891Z",
+      "state": "FAILED",
+      "error": "IDENTIFIED_AUTOMATION: 403 Forbidden | BROWSER_COMPATIBILITY: 403 Forbidden",
+      "record_url": "https://www.ecq.qld.gov.au/elections/election-events/central-highlands-regional-council-by-election",
+      "original_record_url": "https://www.ecq.qld.gov.au/elections/election-events/central-highlands-regional-council-by-election",
+      "record_title": "2026 Central Highlands Regional Council by-election",
+      "source_id": "SRC-ECQ-MEDIA",
+      "jurisdiction_id": "AUS-QLD"
+    },
+    {
+      "detail_record_id": "DETAIL-ef6fbf2f1718e25da181f4a2",
+      "attempted_at": "2026-09-09T00:53:26.039Z",
+      "state": "FAILED",
+      "error": "IDENTIFIED_AUTOMATION: 403 Forbidden | BROWSER_COMPATIBILITY: 403 Forbidden",
+      "record_url": "https://www.ecq.qld.gov.au/elections/election-events/mapoon-aboriginal-shire-council-by-election",
+      "original_record_url": "https://www.ecq.qld.gov.au/elections/election-events/mapoon-aboriginal-shire-council-by-election",
+      "record_title": "2026 Mapoon Aboriginal Shire Council by-election",
+      "source_id": "SRC-ECQ-MEDIA",
+      "jurisdiction_id": "AUS-QLD"
+    },
+    {
+      "detail_record_id": "DETAIL-0b099e8055f9d127182fb469",
+      "attempted_at": "2026-09-09T00:53:26.230Z",
+      "state": "FAILED",
+      "error": "IDENTIFIED_AUTOMATION: 403 Forbidden | BROWSER_COMPATIBILITY: 403 Forbidden",
+      "record_url": "https://www.ecq.qld.gov.au/elections/election-events/pormpuraaw-aboriginal-shire-council-by-election",
+      "original_record_url": "https://www.ecq.qld.gov.au/elections/election-events/pormpuraaw-aboriginal-shire-council-by-election",
+      "record_title": "2026 Pormpuraaw Aboriginal Shire Council by-election",
+      "source_id": "SRC-ECQ-MEDIA",
+      "jurisdiction_id": "AUS-QLD"
+    },
+    {
+      "detail_record_id": "DETAIL-49dbaf9e9f96b878afad6510",
+      "attempted_at": "2026-09-09T00:53:26.387Z",
+      "state": "FAILED",
+      "error": "IDENTIFIED_AUTOMATION: 403 Forbidden | BROWSER_COMPATIBILITY: 403 Forbidden",
+      "record_url": "https://www.ecq.qld.gov.au/elections/election-events/stafford-state-by-election",
+      "original_record_url": "https://www.ecq.qld.gov.au/elections/election-events/stafford-state-by-election",
+      "record_title": "2026 Stafford State by-election",
+      "source_id": "SRC-ECQ-MEDIA",
+      "jurisdiction_id": "AUS-QLD"
+    },
+    {
+      "detail_record_id": "DETAIL-ed148c24f5fc2f4d1f83c6e8",
+      "attempted_at": "2026-09-09T00:53:26.553Z",
+      "state": "FAILED",
+      "error": "IDENTIFIED_AUTOMATION: 403 Forbidden | BROWSER_COMPATIBILITY: 403 Forbidden",
+      "record_url": "https://www.ecq.qld.gov.au/elections/election-events/tablelands-regional-council-by-election",
+      "original_record_url": "https://www.ecq.qld.gov.au/elections/election-events/tablelands-regional-council-by-election",
+      "record_title": "2026 Tablelands Regional Council by-election",
+      "source_id": "SRC-ECQ-MEDIA",
+      "jurisdiction_id": "AUS-QLD"
+    },
+    {
+      "detail_record_id": "DETAIL-45f9ff81789e0930ea349a5f",
+      "attempted_at": "2026-09-09T00:53:26.648Z",
+      "state": "FAILED",
+      "error": "IDENTIFIED_AUTOMATION: 403 Forbidden | BROWSER_COMPATIBILITY: 403 Forbidden",
+      "record_url": "https://www.ecq.qld.gov.au/elections/election-events/townsville-city-council-division-1-by-election",
+      "original_record_url": "https://www.ecq.qld.gov.au/elections/election-events/townsville-city-council-division-1-by-election",
+      "record_title": "2026 Townsville City Council by&#8209;election",
+      "source_id": "SRC-ECQ-MEDIA",
+      "jurisdiction_id": "AUS-QLD"
+    },
+    {
+      "detail_record_id": "DETAIL-66a2fd2b7d28599f84efcd97",
+      "attempted_at": "2026-09-09T00:53:26.700Z",
+      "state": "FAILED",
+      "error": "IDENTIFIED_AUTOMATION: 403 Forbidden | BROWSER_COMPATIBILITY: 403 Forbidden",
+      "record_url": "https://www.ecq.qld.gov.au/elections/election-events/winton-shire-council-by-election",
+      "original_record_url": "https://www.ecq.qld.gov.au/elections/election-events/winton-shire-council-by-election",
+      "record_title": "2026 Winton Shire Council by-election",
+      "source_id": "SRC-ECQ-MEDIA",
+      "jurisdiction_id": "AUS-QLD"
+    },
+    {
+      "detail_record_id": "DETAIL-45295f6710bac7e14484043d",
+      "attempted_at": "2026-09-09T00:53:26.874Z",
+      "state": "FAILED",
+      "error": "IDENTIFIED_AUTOMATION: 403 Forbidden | BROWSER_COMPATIBILITY: 403 Forbidden",
+      "record_url": "https://www.premier.tas.gov.au/latest-news/2026/september/extended-hours-for-more-healthcare,-closer-to-home",
+      "original_record_url": "https://www.premier.tas.gov.au/latest-news/2026/september/extended-hours-for-more-healthcare,-closer-to-home",
+      "record_title": "Extended hours for more healthcare, closer to home 5 September 2026 Tasmanian community pharmacies in rural and regional areas can now open for longer as part of the Tasmanian Government&rsquo;s 2025 election...",
+      "source_id": "SRC-TAS-PREMIER-NEWS",
+      "jurisdiction_id": "AUS-TAS"
+    },
+    {
+      "detail_record_id": "DETAIL-9209300d033e1022ec9d344b",
+      "attempted_at": "2026-09-09T00:53:27.000Z",
+      "state": "FAILED",
+      "error": "IDENTIFIED_AUTOMATION: 403 Forbidden | BROWSER_COMPATIBILITY: 403 Forbidden",
+      "record_url": "https://www.parliament.nsw.gov.au/parliamentary-business/hansard/hansard-by-bill",
+      "original_record_url": "https://www.parliament.nsw.gov.au/parliamentary-business/hansard/hansard-by-bill",
+      "record_title": "Hansard by bill Read parliamentary debates related to a specific bill.",
+      "source_id": "SRC-NSW-CURRENT-BILLS",
+      "jurisdiction_id": "AUS-NSW"
+    },
+    {
+      "detail_record_id": "DETAIL-675ad7e663c56ec3de72afd1",
+      "attempted_at": "2026-09-09T00:53:27.174Z",
+      "state": "FAILED",
+      "error": "IDENTIFIED_AUTOMATION: 403 Forbidden | BROWSER_COMPATIBILITY: 403 Forbidden",
+      "record_url": "https://ntec.nt.gov.au/elections/current-elections/2026-mulka-by-election/list-of-candidates",
+      "original_record_url": "https://ntec.nt.gov.au/elections/current-elections/2026-mulka-by-election/list-of-candidates",
+      "record_title": "List of candidate",
+      "source_id": "SRC-NTEC-MEDIA",
+      "jurisdiction_id": "AUS-NT"
+    },
+    {
+      "detail_record_id": "DETAIL-a88aa9c535a0ca1d9f0b7e93",
+      "attempted_at": "2026-09-09T00:53:27.257Z",
+      "state": "FAILED",
+      "error": "IDENTIFIED_AUTOMATION: 403 Forbidden | BROWSER_COMPATIBILITY: 403 Forbidden",
+      "record_url": "https://www.ecq.qld.gov.au/?a&equals;1143",
+      "original_record_url": "https://www.ecq.qld.gov.au/?a&equals;1143",
+      "record_title": "Visit the Election Events page to find out more.",
+      "source_id": "SRC-ECQ-MEDIA",
+      "jurisdiction_id": "AUS-QLD"
+    },
+    {
+      "detail_record_id": "DETAIL-dffa83bb2c89b5be1d2be981",
+      "attempted_at": "2026-09-09T00:53:27.299Z",
+      "state": "FAILED",
+      "error": "IDENTIFIED_AUTOMATION: 403 Forbidden | BROWSER_COMPATIBILITY: 403 Forbidden",
+      "record_url": "https://www.ecq.qld.gov.au/?a&equals;11601",
+      "original_record_url": "https://www.ecq.qld.gov.au/?a&equals;11601",
+      "record_title": "Election participants",
+      "source_id": "SRC-ECQ-MEDIA",
+      "jurisdiction_id": "AUS-QLD"
+    },
+    {
+      "detail_record_id": "DETAIL-ec085f6d08a13955431e77c6",
+      "attempted_at": "2026-09-09T00:53:27.364Z",
+      "state": "FAILED",
+      "error": "IDENTIFIED_AUTOMATION: 403 Forbidden | BROWSER_COMPATIBILITY: 403 Forbidden",
+      "record_url": "https://www.ecq.qld.gov.au/?a&equals;12060",
+      "original_record_url": "https://www.ecq.qld.gov.au/?a&equals;12060",
+      "record_title": "Information for election participants",
+      "source_id": "SRC-ECQ-MEDIA",
+      "jurisdiction_id": "AUS-QLD"
+    },
+    {
+      "detail_record_id": "DETAIL-4c5e7cf2d0feb82ac1c4778c",
+      "attempted_at": "2026-09-09T00:53:27.436Z",
+      "state": "FAILED",
+      "error": "IDENTIFIED_AUTOMATION: 403 Forbidden | BROWSER_COMPATIBILITY: 403 Forbidden",
+      "record_url": "https://www.ecq.qld.gov.au/?a&equals;77021",
+      "original_record_url": "https://www.ecq.qld.gov.au/?a&equals;77021",
+      "record_title": "Find out more about the Mornington Shire Council by-election here.",
+      "source_id": "SRC-ECQ-MEDIA",
+      "jurisdiction_id": "AUS-QLD"
+    },
+    {
+      "detail_record_id": "DETAIL-7a3058c2e164f8138a2dd5c7",
+      "attempted_at": "2026-09-09T00:53:27.488Z",
+      "state": "FAILED",
+      "error": "IDENTIFIED_AUTOMATION: 403 Forbidden | BROWSER_COMPATIBILITY: 403 Forbidden",
+      "record_url": "https://www.ecq.qld.gov.au/?a&equals;77056",
+      "original_record_url": "https://www.ecq.qld.gov.au/?a&equals;77056",
+      "record_title": "State General Election",
+      "source_id": "SRC-ECQ-MEDIA",
+      "jurisdiction_id": "AUS-QLD"
+    },
+    {
+      "detail_record_id": "DETAIL-690fc1cff420983e45d7e675",
+      "attempted_at": "2026-09-09T00:53:27.542Z",
+      "state": "FAILED",
+      "error": "IDENTIFIED_AUTOMATION: 403 Forbidden | BROWSER_COMPATIBILITY: 403 Forbidden",
+      "record_url": "https://www.ecq.qld.gov.au/?a&equals;77056",
+      "original_record_url": "https://www.ecq.qld.gov.au/?a&equals;77056",
+      "record_title": "Find out more about the State General Election.",
+      "source_id": "SRC-ECQ-MEDIA",
+      "jurisdiction_id": "AUS-QLD"
+    },
+    {
+      "detail_record_id": "DETAIL-57af484ff754885e367f18d6",
+      "attempted_at": "2026-09-09T00:53:27.607Z",
+      "state": "FAILED",
+      "error": "IDENTIFIED_AUTOMATION: 403 Forbidden | BROWSER_COMPATIBILITY: 403 Forbidden",
+      "record_url": "https://www.ecq.qld.gov.au/?a&equals;84619",
+      "original_record_url": "https://www.ecq.qld.gov.au/?a&equals;84619",
+      "record_title": "Check out the election daily summaries",
+      "source_id": "SRC-ECQ-MEDIA",
+      "jurisdiction_id": "AUS-QLD"
+    },
+    {
+      "detail_record_id": "DETAIL-2a24bf86b1ce239a5d8f88fc",
+      "attempted_at": "2026-09-09T00:53:27.703Z",
+      "state": "FAILED",
+      "error": "IDENTIFIED_AUTOMATION: 403 Forbidden | BROWSER_COMPATIBILITY: 403 Forbidden",
+      "record_url": "https://www.ecq.qld.gov.au/?a&equals;84619",
+      "original_record_url": "https://www.ecq.qld.gov.au/?a&equals;84619",
+      "record_title": "Check out the election daily summaries.",
+      "source_id": "SRC-ECQ-MEDIA",
+      "jurisdiction_id": "AUS-QLD"
+    },
+    {
+      "detail_record_id": "DETAIL-727cd5df30040d19465b2acf",
+      "attempted_at": "2026-09-09T00:53:27.860Z",
+      "state": "FAILED",
+      "error": "IDENTIFIED_AUTOMATION: 403 Forbidden | BROWSER_COMPATIBILITY: 403 Forbidden",
+      "record_url": "https://www.ecq.qld.gov.au/?a&equals;84619",
+      "original_record_url": "https://www.ecq.qld.gov.au/?a&equals;84619",
+      "record_title": "Read the election daily summaries",
+      "source_id": "SRC-ECQ-MEDIA",
+      "jurisdiction_id": "AUS-QLD"
+    },
+    {
+      "detail_record_id": "DETAIL-b4be419b95225ded3a023728",
+      "attempted_at": "2026-09-09T00:53:27.904Z",
+      "state": "FAILED",
+      "error": "IDENTIFIED_AUTOMATION: 403 Forbidden | BROWSER_COMPATIBILITY: 403 Forbidden",
+      "record_url": "https://www.ecq.qld.gov.au/?a&equals;91626",
+      "original_record_url": "https://www.ecq.qld.gov.au/?a&equals;91626",
+      "record_title": "Read the election report",
+      "source_id": "SRC-ECQ-MEDIA",
+      "jurisdiction_id": "AUS-QLD"
+    },
+    {
+      "detail_record_id": "DETAIL-f5db05f2617801ddb77dd133",
+      "attempted_at": "2026-09-09T00:53:27.953Z",
+      "state": "FAILED",
+      "error": "IDENTIFIED_AUTOMATION: 403 Forbidden | BROWSER_COMPATIBILITY: 403 Forbidden",
+      "record_url": "https://www.ecq.qld.gov.au/?external-uuid=8487ae65-77f1-4c34-b198-c93a7911617d",
+      "original_record_url": "https://www.ecq.qld.gov.au/?external-uuid=8487ae65-77f1-4c34-b198-c93a7911617d",
+      "record_title": "Balonne Shire Council Councillor by-election",
+      "source_id": "SRC-ECQ-MEDIA",
+      "jurisdiction_id": "AUS-QLD"
+    },
+    {
+      "detail_record_id": "DETAIL-e3d5c29360611703bbf653b0",
+      "attempted_at": "2026-09-09T00:53:28.021Z",
+      "state": "FAILED",
+      "error": "IDENTIFIED_AUTOMATION: 403 Forbidden | BROWSER_COMPATIBILITY: 403 Forbidden",
+      "record_url": "https://www.ecq.qld.gov.au/&",
+      "original_record_url": "https://www.ecq.qld.gov.au/&",
+      "record_title": "View election results",
+      "source_id": "SRC-ECQ-MEDIA",
+      "jurisdiction_id": "AUS-QLD"
     }
   ],
   "queue_state": {
-    "discovered_detail_records": 1022,
-    "queued_before_batch": 1019,
+    "discovered_detail_records": 363,
+    "queued_before_batch": 360,
     "attempted_this_run": 24,
-    "successful_this_run": 3,
-    "failed_this_run": 21,
-    "remaining_after_batch": 995
+    "successful_this_run": 0,
+    "failed_this_run": 24,
+    "remaining_after_batch": 336
   }
 }

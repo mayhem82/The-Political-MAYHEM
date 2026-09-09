@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-SIGNAL-REVIEWS-001",
   "created_at": "2026-09-09T05:05:00+10:00",
-  "updated_at": "2026-09-09T01:08:11.082Z",
+  "updated_at": "2026-09-09T01:10:37.950Z",
   "rules": {
     "append_only": true,
     "raw_source_change_is_immutable": true,
@@ -13261,6 +13261,141 @@
           }
         ],
         "delta_hash": "26b9a5d56ed147e51b537e09897849f26b13e5fd243c861bf2e9db17f79733fd"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-NSW-MINISTERIAL-RELEASES-20260909010945",
+      "source_change_event_id": "CHG-WATCH-NSW-MINISTERIAL-RELEASES-20260909010945",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-NSW-MINISTERIAL-RELEASES-20260909010945",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "NSW Government — Ministerial releases added 3 structured publication records to its forward-captured official index: Minns Government delivers $350,000 boost for Rehab In The Home in southern Lake Macquarie; NSW Government backs councils to host major multicultural festivals; Design released for long-awaited Spring Farm Parkway extension",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-09-09T01:10:37.950Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "0ae2c7788622eac28253",
+            "title": "Minns Government delivers $350,000 boost for Rehab In The Home in southern Lake Macquarie",
+            "url": "https://www.nsw.gov.au/ministerial-releases/minns-government-delivers-350000-boost-for-rehab-home-southern-lake-macquarie"
+          },
+          {
+            "record_id": "16c933c27d72be1d77a8",
+            "title": "NSW Government backs councils to host major multicultural festivals",
+            "url": "https://www.nsw.gov.au/ministerial-releases/local-council-grants-multicultural-festivals"
+          },
+          {
+            "record_id": "8c5128c98bb5d029de57",
+            "title": "Design released for long-awaited Spring Farm Parkway extension",
+            "url": "https://www.nsw.gov.au/ministerial-releases/spring-farm-parkway-extension-design-released"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "307f88855e03fd6352e6",
+            "title": "Designs unveiled for Wyong’s new Key Health Worker Accommodation",
+            "url": "https://www.nsw.gov.au/ministerial-releases/designs-unveiled-for-wyongs-new-key-health-worker-accommodation"
+          },
+          {
+            "record_id": "4ac628e4cc49a4c73f23",
+            "title": "New Wyong Hospital Palliative Care Unit officially open",
+            "url": "https://www.nsw.gov.au/ministerial-releases/new-wyong-hospital-palliative-care-unit-officially-open"
+          },
+          {
+            "record_id": "8968225a2991a3c91655",
+            "title": "Plans for 300+ homes at Haberfield dive site revealed",
+            "url": "https://www.nsw.gov.au/ministerial-releases/plans-new-homes-haberfield"
+          }
+        ],
+        "delta_hash": "a44660937cad93d8ae6b8f382d7c73e2f9e7c7e3a4ddc3d1ee01fbe361c5bbe3"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-TAS-PREMIER-NEWS-20260909010945",
+      "source_change_event_id": "CHG-WATCH-TAS-PREMIER-NEWS-20260909010945",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-TAS-PREMIER-NEWS-20260909010945",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Premier of Tasmania — latest news added 5 structured publication records to its forward-captured official index: LGH heating and cooling upgrades near completion 6 September 2026 Another important milestone has been reached for the major upgrades to the heating, ventilation and air conditioning system at the Launcesto...; Federal Labor must deliver more aged care places for Tasmanians 5 September 2026 The Tasmanian Government is backing calls from peak health organisations for action on aged care. Liberal Member for Lyons, Jane Howlett, sa...; New bulk-billing GP clinic locked in for Risdon Vale 6 September 2026 The Tasmanian Government has today announced Risdon Vale as the location of its newest TassieDoc clinic, significantly increasing access to ...; Tasmania’s tourism industry full steam ahead for Spirit’s inaugural sailing 7 September 2026 Preparations are being finalised for the launch of Spirit of Tasmania&rsquo;s new vessels, with Tourism Tasmania working with industry to bu...; Skip to content",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-09-09T01:10:37.950Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "2bcce0ac785aed0142b0",
+            "title": "LGH heating and cooling upgrades near completion 6 September 2026 Another important milestone has been reached for the major upgrades to the heating, ventilation and air conditioning system at the Launcesto...",
+            "url": "https://www.premier.tas.gov.au/latest-news/2026/september/lgh-heating-and-cooling-upgrades-near-completion"
+          },
+          {
+            "record_id": "4895ffb37dd4cdf684df",
+            "title": "Federal Labor must deliver more aged care places for Tasmanians 5 September 2026 The Tasmanian Government is backing calls from peak health organisations for action on aged care. Liberal Member for Lyons, Jane Howlett, sa...",
+            "url": "https://www.premier.tas.gov.au/latest-news/2026/september/federal-labor-must-deliver-more-aged-care-places-for-tasmanians"
+          },
+          {
+            "record_id": "5c3dcf15929652ba0c21",
+            "title": "New bulk-billing GP clinic locked in for Risdon Vale 6 September 2026 The Tasmanian Government has today announced Risdon Vale as the location of its newest TassieDoc clinic, significantly increasing access to ...",
+            "url": "https://www.premier.tas.gov.au/latest-news/2026/september/new-bulk-billing-gp-clinic-locked-in-for-risdon-vale"
+          },
+          {
+            "record_id": "9187be13c3c0412ea6bb",
+            "title": "Tasmania’s tourism industry full steam ahead for Spirit’s inaugural sailing 7 September 2026 Preparations are being finalised for the launch of Spirit of Tasmania&rsquo;s new vessels, with Tourism Tasmania working with industry to bu...",
+            "url": "https://www.premier.tas.gov.au/latest-news/2026/september/tasmanias-tourism-industry-full-steam-ahead-for-spirits-inaugural-sailing"
+          },
+          {
+            "record_id": "d7a1477e0a98625953b3",
+            "title": "Skip to content",
+            "url": "https://www.premier.tas.gov.au/latest-news"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "5503ad540fbf99bf866e",
+            "title": "2030 Strong Plan for Tasmania’s Future",
+            "url": "https://www.premier.tas.gov.au/our-plan"
+          },
+          {
+            "record_id": "5c58e4f76fec3a1ce5fe",
+            "title": "Contact your Premier",
+            "url": "https://www.premier.tas.gov.au/contact"
+          },
+          {
+            "record_id": "7984975787b4ef2c7007",
+            "title": "Budget 2026-27",
+            "url": "https://www.premier.tas.gov.au/budget-2026"
+          },
+          {
+            "record_id": "bff1215bcb385f2f222a",
+            "title": "300 days of delivering for Tasmania",
+            "url": "https://www.premier.tas.gov.au/__data/assets/pdf_file/0027/517923/2026-Third-100-Days-of-Delivery_Digital.pdf"
+          }
+        ],
+        "delta_hash": "d85fdbd060b3f2be1876fbf491d39b682b34129c0312d5af11b239fea6fadf7a"
       },
       "integrity": {
         "source_change_unchanged": true,

@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-MAYHEM-AREA-EVIDENCE-001",
   "status": "ACTIVE",
-  "updated_at": "2026-09-09T01:08:16.767Z",
+  "updated_at": "2026-09-09T01:10:45.799Z",
   "rules": {
     "record_requires_substantive_detail_lineage": true,
     "one_detail_record_may_route_to_multiple_areas": true,
@@ -62,11 +62,12 @@
       "inference_class": "NONE",
       "integrity": {
         "routing_does_not_register_match": true,
-        "entity_mentions_not_yet_resolved": true,
+        "entity_mentions_not_yet_resolved": false,
         "positions_not_inferred_from_routing": true,
         "entity_resolution_exact_jurisdiction_roster_only": true,
         "actor_affiliation_not_treated_as_explicit_team_mention": true,
-        "entity_mention_does_not_establish_position": true
+        "entity_mention_does_not_establish_position": true,
+        "entity_resolution_completed": true
       },
       "source_party_id": null,
       "entity_mentions": {
@@ -87,7 +88,7 @@
         "teams": []
       },
       "entity_resolution_state": "RESOLVED_EXPLICIT_CANONICAL_MENTIONS",
-      "entity_resolved_at": "2026-09-09T01:08:16.767Z",
+      "entity_resolved_at": "2026-09-09T01:10:45.799Z",
       "entity_resolution_history": [
         {
           "at": "2026-09-09T01:05:11.884Z",
@@ -206,11 +207,12 @@
       "inference_class": "NONE",
       "integrity": {
         "routing_does_not_register_match": true,
-        "entity_mentions_not_yet_resolved": true,
+        "entity_mentions_not_yet_resolved": false,
         "positions_not_inferred_from_routing": true,
         "entity_resolution_exact_jurisdiction_roster_only": true,
         "actor_affiliation_not_treated_as_explicit_team_mention": true,
-        "entity_mention_does_not_establish_position": true
+        "entity_mention_does_not_establish_position": true,
+        "entity_resolution_completed": true
       },
       "source_party_id": null,
       "entity_mentions": {
@@ -225,7 +227,7 @@
         "teams": []
       },
       "entity_resolution_state": "RESOLVED_EXPLICIT_CANONICAL_MENTIONS",
-      "entity_resolved_at": "2026-09-09T01:08:16.767Z",
+      "entity_resolved_at": "2026-09-09T01:10:45.799Z",
       "entity_resolution_history": [
         {
           "at": "2026-09-09T01:05:11.884Z",
@@ -341,11 +343,12 @@
       "inference_class": "NONE",
       "integrity": {
         "routing_does_not_register_match": true,
-        "entity_mentions_not_yet_resolved": true,
+        "entity_mentions_not_yet_resolved": false,
         "positions_not_inferred_from_routing": true,
         "entity_resolution_exact_jurisdiction_roster_only": true,
         "actor_affiliation_not_treated_as_explicit_team_mention": true,
-        "entity_mention_does_not_establish_position": true
+        "entity_mention_does_not_establish_position": true,
+        "entity_resolution_completed": true
       },
       "source_party_id": null,
       "entity_mentions": {
@@ -353,7 +356,7 @@
         "teams": []
       },
       "entity_resolution_state": "NO_CANONICAL_ENTITY_MENTION_RESOLVED",
-      "entity_resolved_at": "2026-09-09T01:08:16.767Z",
+      "entity_resolved_at": "2026-09-09T01:10:45.799Z",
       "entity_resolution_history": [
         {
           "at": "2026-09-09T01:05:11.884Z",
@@ -466,11 +469,12 @@
       "inference_class": "NONE",
       "integrity": {
         "routing_does_not_register_match": true,
-        "entity_mentions_not_yet_resolved": true,
+        "entity_mentions_not_yet_resolved": false,
         "positions_not_inferred_from_routing": true,
         "entity_resolution_exact_jurisdiction_roster_only": true,
         "actor_affiliation_not_treated_as_explicit_team_mention": true,
-        "entity_mention_does_not_establish_position": true
+        "entity_mention_does_not_establish_position": true,
+        "entity_resolution_completed": true
       },
       "source_party_id": null,
       "entity_mentions": {
@@ -478,7 +482,7 @@
         "teams": []
       },
       "entity_resolution_state": "NO_CANONICAL_ENTITY_MENTION_RESOLVED",
-      "entity_resolved_at": "2026-09-09T01:08:16.767Z",
+      "entity_resolved_at": "2026-09-09T01:10:45.799Z",
       "entity_resolution_history": [
         {
           "at": "2026-09-09T01:05:11.884Z",
@@ -491,7 +495,7 @@
     }
   ],
   "summary": {
-    "substantive_detail_records": 5,
+    "substantive_detail_records": 6,
     "area_evidence_records_total": 7,
     "active_area_evidence_records": 4,
     "added_this_run": 0,

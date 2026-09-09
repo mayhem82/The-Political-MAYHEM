@@ -69,64 +69,64 @@
     {
       "jurisdiction_id": "AUS-FED",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-09T03:37:30.453Z",
-      "signals_examined": 65,
+      "last_screened_at": "2026-09-09T03:42:17.692Z",
+      "signals_examined": 66,
       "candidates_detected": 17
     },
     {
       "jurisdiction_id": "AUS-NSW",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-09T03:37:30.453Z",
+      "last_screened_at": "2026-09-09T03:42:17.692Z",
       "signals_examined": 20,
       "candidates_detected": 1
     },
     {
       "jurisdiction_id": "AUS-VIC",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-09T03:37:30.453Z",
+      "last_screened_at": "2026-09-09T03:42:17.692Z",
       "signals_examined": 0,
       "candidates_detected": 0
     },
     {
       "jurisdiction_id": "AUS-QLD",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-09T03:37:30.453Z",
-      "signals_examined": 5,
+      "last_screened_at": "2026-09-09T03:42:17.692Z",
+      "signals_examined": 6,
       "candidates_detected": 43
     },
     {
       "jurisdiction_id": "AUS-WA",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-09T03:37:30.453Z",
+      "last_screened_at": "2026-09-09T03:42:17.692Z",
       "signals_examined": 0,
       "candidates_detected": 0
     },
     {
       "jurisdiction_id": "AUS-SA",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-09T03:37:30.453Z",
+      "last_screened_at": "2026-09-09T03:42:17.692Z",
       "signals_examined": 0,
       "candidates_detected": 0
     },
     {
       "jurisdiction_id": "AUS-TAS",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-09T03:37:30.453Z",
+      "last_screened_at": "2026-09-09T03:42:17.692Z",
       "signals_examined": 14,
       "candidates_detected": 0
     },
     {
       "jurisdiction_id": "AUS-ACT",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-09T03:37:30.453Z",
-      "signals_examined": 17,
+      "last_screened_at": "2026-09-09T03:42:17.692Z",
+      "signals_examined": 18,
       "candidates_detected": 0
     },
     {
       "jurisdiction_id": "AUS-NT",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-09T03:37:30.453Z",
-      "signals_examined": 22,
+      "last_screened_at": "2026-09-09T03:42:17.692Z",
+      "signals_examined": 24,
       "candidates_detected": 0
     }
   ],
@@ -1864,13 +1864,16 @@
       "candidate_state": "REVIEW_REQUIRED",
       "detected_at": "2026-09-09T00:57:49.450Z",
       "source_snapshot_ids": [
-        "AUTO-WATCH-ECQ-MEDIA-20260909005639"
+        "AUTO-WATCH-ECQ-MEDIA-20260909005639",
+        "AUTO-WATCH-ECQ-MEDIA-20260909034114"
       ],
       "signal_event_ids": [
-        "SIG-REV-CHG-WATCH-ECQ-MEDIA-20260909005639"
+        "SIG-REV-CHG-WATCH-ECQ-MEDIA-20260909005639",
+        "SIG-REV-CHG-WATCH-ECQ-MEDIA-20260909034114"
       ],
       "review_ids": [
-        "REV-CHG-WATCH-ECQ-MEDIA-20260909005639"
+        "REV-CHG-WATCH-ECQ-MEDIA-20260909005639",
+        "REV-CHG-WATCH-ECQ-MEDIA-20260909034114"
       ],
       "evidence_summary": "Screened PRIMARY_ELECTORAL_AUTHORITY evidence contains language consistent with a election competition candidate. This is a discovery observation, not a registered contest or outcome inference.",
       "registration_blockers": [
@@ -1910,11 +1913,11 @@
       "detail_version_ids": [
         "DETAIL-aa5e47fab5f5e3c67f0dbee8-V1"
       ],
-      "evidence_summary": "Substantive source record body was acquired, routed to LEGISLATIVE, and written into intelligence with retained detail and source-snapshot lineage. Match registration still requires the class-specific threshold and resolved contest facts.",
+      "evidence_summary": "Substantive source record body was acquired, routed to LEGISLATIVE, and written into intelligence with retained detail, source-snapshot and stage-10 threshold lineage. Match registration remains a separate action.",
       "registration_blockers": [
-        "MATERIAL_RESISTANCE_NOT_YET_EVIDENCED",
-        "SUPPORTING_SIDE_NOT_YET_RESOLVED",
-        "OPPOSING_SIDE_NOT_YET_RESOLVED"
+        "MISSING_CONDITION_DISTINCT_SUPPORTING_AND_OPPOSING_SIDES",
+        "MISSING_FACT_TYPE_EXPLICIT_OPPOSITION_POSITION",
+        "MISSING_FACT_TYPE_EXPLICIT_SUPPORT_POSITION"
       ],
       "linked_contest_id": null,
       "state_history": [
@@ -1923,6 +1926,18 @@
           "to": "EVIDENCE_GAP",
           "at": "2026-09-09T01:05:11.952Z",
           "reason": "SUBSTANTIVE_AREA_EVIDENCE_DISCOVERY"
+        },
+        {
+          "from": "EVIDENCE_GAP",
+          "to": "REVIEW_REQUIRED",
+          "at": "2026-09-09T01:05:11.952Z",
+          "reason": "SUBSTANTIVE_THRESHOLD_EVALUATION_PROPAGATED"
+        },
+        {
+          "from": "REVIEW_REQUIRED",
+          "to": "EVIDENCE_GAP",
+          "at": "2026-09-09T02:58:10.770Z",
+          "reason": "SUBSTANTIVE_THRESHOLD_EVALUATION_PROPAGATED"
         }
       ]
     },
@@ -1949,11 +1964,12 @@
       "detail_version_ids": [
         "DETAIL-c11cd7280aa77a1bded387eb-V1"
       ],
-      "evidence_summary": "Substantive source record body was acquired, routed to LEGISLATIVE, and written into intelligence with retained detail and source-snapshot lineage. Match registration still requires the class-specific threshold and resolved contest facts.",
+      "evidence_summary": "Substantive source record body was acquired, routed to LEGISLATIVE, and written into intelligence with retained detail, source-snapshot and stage-10 threshold lineage. Match registration remains a separate action.",
       "registration_blockers": [
-        "MATERIAL_RESISTANCE_NOT_YET_EVIDENCED",
-        "SUPPORTING_SIDE_NOT_YET_RESOLVED",
-        "OPPOSING_SIDE_NOT_YET_RESOLVED"
+        "MISSING_CONDITION_DISTINCT_SUPPORTING_AND_OPPOSING_SIDES",
+        "MISSING_FACT_TYPE_EXPLICIT_OPPOSITION_POSITION",
+        "MISSING_FACT_TYPE_EXPLICIT_SUPPORT_POSITION",
+        "MISSING_FACT_TYPE_MATERIAL_RESISTANCE"
       ],
       "linked_contest_id": null,
       "state_history": [
@@ -1962,6 +1978,18 @@
           "to": "EVIDENCE_GAP",
           "at": "2026-09-09T01:05:11.952Z",
           "reason": "SUBSTANTIVE_AREA_EVIDENCE_DISCOVERY"
+        },
+        {
+          "from": "EVIDENCE_GAP",
+          "to": "REVIEW_REQUIRED",
+          "at": "2026-09-09T01:05:11.952Z",
+          "reason": "SUBSTANTIVE_THRESHOLD_EVALUATION_PROPAGATED"
+        },
+        {
+          "from": "REVIEW_REQUIRED",
+          "to": "EVIDENCE_GAP",
+          "at": "2026-09-09T02:58:10.770Z",
+          "reason": "SUBSTANTIVE_THRESHOLD_EVALUATION_PROPAGATED"
         }
       ]
     },
@@ -1988,11 +2016,12 @@
       "detail_version_ids": [
         "DETAIL-debd4166aa251b215296d4a6-V1"
       ],
-      "evidence_summary": "Substantive source record body was acquired, routed to LEGISLATIVE, and written into intelligence with retained detail and source-snapshot lineage. Match registration still requires the class-specific threshold and resolved contest facts.",
+      "evidence_summary": "Substantive source record body was acquired, routed to LEGISLATIVE, and written into intelligence with retained detail, source-snapshot and stage-10 threshold lineage. Match registration remains a separate action.",
       "registration_blockers": [
-        "MATERIAL_RESISTANCE_NOT_YET_EVIDENCED",
-        "SUPPORTING_SIDE_NOT_YET_RESOLVED",
-        "OPPOSING_SIDE_NOT_YET_RESOLVED"
+        "MISSING_CONDITION_DISTINCT_SUPPORTING_AND_OPPOSING_SIDES",
+        "MISSING_FACT_TYPE_EXPLICIT_OPPOSITION_POSITION",
+        "MISSING_FACT_TYPE_EXPLICIT_SUPPORT_POSITION",
+        "MISSING_FACT_TYPE_MATERIAL_RESISTANCE"
       ],
       "linked_contest_id": null,
       "state_history": [
@@ -2001,6 +2030,18 @@
           "to": "EVIDENCE_GAP",
           "at": "2026-09-09T01:05:11.952Z",
           "reason": "SUBSTANTIVE_AREA_EVIDENCE_DISCOVERY"
+        },
+        {
+          "from": "EVIDENCE_GAP",
+          "to": "REVIEW_REQUIRED",
+          "at": "2026-09-09T01:05:11.952Z",
+          "reason": "SUBSTANTIVE_THRESHOLD_EVALUATION_PROPAGATED"
+        },
+        {
+          "from": "REVIEW_REQUIRED",
+          "to": "EVIDENCE_GAP",
+          "at": "2026-09-09T02:58:10.770Z",
+          "reason": "SUBSTANTIVE_THRESHOLD_EVALUATION_PROPAGATED"
         }
       ]
     },
@@ -2026,9 +2067,9 @@
       "detail_version_ids": [
         "DETAIL-debd4166aa251b215296d4a6-V1"
       ],
-      "evidence_summary": "Substantive source record body was acquired, routed to PARLIAMENTARY_PROCEDURE, and written into intelligence with retained detail and source-snapshot lineage. Match registration still requires the class-specific threshold and resolved contest facts.",
+      "evidence_summary": "Substantive source record body was acquired, routed to PARLIAMENTARY_PROCEDURE, and written into intelligence with retained detail, source-snapshot and stage-10 threshold lineage. Match registration remains a separate action.",
       "registration_blockers": [
-        "MATERIAL_PROCEDURAL_OPPOSITION_REQUIRES_REVIEW"
+        "THRESHOLD_EVALUATION_REQUIRED"
       ],
       "linked_contest_id": null,
       "state_history": [
@@ -2228,11 +2269,12 @@
         "DETAIL-8bf6ed0a0014627110320400-V1",
         "DETAIL-c0e9c58a77b04eb325b42600-V1"
       ],
-      "evidence_summary": "Substantive source record body was acquired, routed to LEGISLATIVE, and written into intelligence with retained detail and source-snapshot lineage. Match registration still requires the class-specific threshold and resolved contest facts.",
+      "evidence_summary": "Substantive source record body was acquired, routed to LEGISLATIVE, and written into intelligence with retained detail, source-snapshot and stage-10 threshold lineage. Match registration remains a separate action.",
       "registration_blockers": [
-        "MATERIAL_RESISTANCE_NOT_YET_EVIDENCED",
-        "SUPPORTING_SIDE_NOT_YET_RESOLVED",
-        "OPPOSING_SIDE_NOT_YET_RESOLVED"
+        "MISSING_CONDITION_DISTINCT_SUPPORTING_AND_OPPOSING_SIDES",
+        "MISSING_FACT_TYPE_EXPLICIT_OPPOSITION_POSITION",
+        "MISSING_FACT_TYPE_EXPLICIT_SUPPORT_POSITION",
+        "MISSING_FACT_TYPE_MATERIAL_RESISTANCE"
       ],
       "linked_contest_id": null,
       "state_history": [
@@ -2251,7 +2293,7 @@
       "proposed_competition_class": "BUDGET",
       "proposed_cycle_id": "AUS-FED-48TH-PARLIAMENT",
       "subject": "Ingested substantive budget evidence from Bills and Legislation &ndash; Parliament of Australia. Captured content includes stage: introduced; resistance language: Amendment; outcome language: Passed. Registration threshold state: evidence gap. Missing requirements: missing fact type objective, missi",
-      "candidate_state": "REVIEW_REQUIRED",
+      "candidate_state": "EVIDENCE_GAP",
       "detected_at": "2026-09-09T03:02:45.747Z",
       "source_snapshot_ids": [
         "AUTO-WATCH-APH-BILLS-20260909004900",
@@ -2294,9 +2336,13 @@
         "DETAIL-8bf6ed0a0014627110320400-V1",
         "DETAIL-c0e9c58a77b04eb325b42600-V1"
       ],
-      "evidence_summary": "Substantive source record body was acquired, routed to BUDGET, and written into intelligence with retained detail and source-snapshot lineage. Match registration still requires the class-specific threshold and resolved contest facts.",
+      "evidence_summary": "Substantive source record body was acquired, routed to BUDGET, and written into intelligence with retained detail, source-snapshot and stage-10 threshold lineage. Match registration remains a separate action.",
       "registration_blockers": [
-        "MATERIAL_BUDGET_RESISTANCE_REQUIRES_REVIEW"
+        "MISSING_CONDITION_DISTINCT_SUPPORTING_AND_OPPOSING_SIDES",
+        "MISSING_FACT_TYPE_EXPLICIT_OPPOSITION_POSITION",
+        "MISSING_FACT_TYPE_EXPLICIT_SUPPORT_POSITION",
+        "MISSING_FACT_TYPE_MATERIAL_RESISTANCE",
+        "MISSING_FACT_TYPE_OBJECTIVE"
       ],
       "linked_contest_id": null,
       "state_history": [
@@ -2305,6 +2351,12 @@
           "to": "REVIEW_REQUIRED",
           "at": "2026-09-09T03:02:45.747Z",
           "reason": "SUBSTANTIVE_AREA_EVIDENCE_DISCOVERY"
+        },
+        {
+          "from": "REVIEW_REQUIRED",
+          "to": "EVIDENCE_GAP",
+          "at": "2026-09-09T03:02:45.747Z",
+          "reason": "SUBSTANTIVE_THRESHOLD_EVALUATION_PROPAGATED"
         }
       ]
     },
@@ -2315,7 +2367,7 @@
       "proposed_competition_class": "PARLIAMENTARY_PROCEDURE",
       "proposed_cycle_id": "AUS-FED-48TH-PARLIAMENT",
       "subject": "Ingested substantive parliamentary procedure evidence from Bills and Legislation &ndash; Parliament of Australia. Captured content includes stage: introduced; resistance language: Amendment; outcome language: Passed. Registration threshold state: evidence gap. Missing requirements: missing fact type",
-      "candidate_state": "REVIEW_REQUIRED",
+      "candidate_state": "EVIDENCE_GAP",
       "detected_at": "2026-09-09T03:02:45.747Z",
       "source_snapshot_ids": [
         "AUTO-WATCH-APH-BILLS-20260909004900",
@@ -2358,9 +2410,12 @@
         "DETAIL-8bf6ed0a0014627110320400-V1",
         "DETAIL-c0e9c58a77b04eb325b42600-V1"
       ],
-      "evidence_summary": "Substantive source record body was acquired, routed to PARLIAMENTARY_PROCEDURE, and written into intelligence with retained detail and source-snapshot lineage. Match registration still requires the class-specific threshold and resolved contest facts.",
+      "evidence_summary": "Substantive source record body was acquired, routed to PARLIAMENTARY_PROCEDURE, and written into intelligence with retained detail, source-snapshot and stage-10 threshold lineage. Match registration remains a separate action.",
       "registration_blockers": [
-        "MATERIAL_PROCEDURAL_OPPOSITION_REQUIRES_REVIEW"
+        "MISSING_CONDITION_DISTINCT_SUPPORTING_AND_OPPOSING_SIDES",
+        "MISSING_FACT_TYPE_EXPLICIT_OPPOSITION_POSITION",
+        "MISSING_FACT_TYPE_EXPLICIT_SUPPORT_POSITION",
+        "MISSING_FACT_TYPE_MATERIAL_RESISTANCE"
       ],
       "linked_contest_id": null,
       "state_history": [
@@ -2369,6 +2424,12 @@
           "to": "REVIEW_REQUIRED",
           "at": "2026-09-09T03:02:45.747Z",
           "reason": "SUBSTANTIVE_AREA_EVIDENCE_DISCOVERY"
+        },
+        {
+          "from": "REVIEW_REQUIRED",
+          "to": "EVIDENCE_GAP",
+          "at": "2026-09-09T03:02:45.747Z",
+          "reason": "SUBSTANTIVE_THRESHOLD_EVALUATION_PROPAGATED"
         }
       ]
     },
@@ -2428,11 +2489,12 @@
       "detail_version_ids": [
         "DETAIL-352f37be4828554537d9e2da-V1"
       ],
-      "evidence_summary": "Substantive source record body was acquired, routed to LEGISLATIVE, and written into intelligence with retained detail and source-snapshot lineage. Match registration still requires the class-specific threshold and resolved contest facts.",
+      "evidence_summary": "Substantive source record body was acquired, routed to LEGISLATIVE, and written into intelligence with retained detail, source-snapshot and stage-10 threshold lineage. Match registration remains a separate action.",
       "registration_blockers": [
-        "MATERIAL_RESISTANCE_NOT_YET_EVIDENCED",
-        "SUPPORTING_SIDE_NOT_YET_RESOLVED",
-        "OPPOSING_SIDE_NOT_YET_RESOLVED"
+        "MISSING_CONDITION_DISTINCT_SUPPORTING_AND_OPPOSING_SIDES",
+        "MISSING_FACT_TYPE_EXPLICIT_OPPOSITION_POSITION",
+        "MISSING_FACT_TYPE_EXPLICIT_SUPPORT_POSITION",
+        "MISSING_FACT_TYPE_MATERIAL_RESISTANCE"
       ],
       "linked_contest_id": null,
       "state_history": [
@@ -2445,16 +2507,17 @@
       ]
     }
   ],
-  "last_screened_at": "2026-09-09T03:37:30.453Z",
+  "last_screened_at": "2026-09-09T03:42:17.692Z",
   "last_screen_summary": {
-    "signals_examined": 143,
+    "signals_examined": 148,
     "candidates_total": 61,
     "candidates_added": 0,
-    "candidate_lineage_merges": 138,
+    "candidate_lineage_merges": 139,
     "substantive_area_events_examined": 38,
+    "threshold_state_transitions": 8,
     "registered_contests_unchanged": true
   },
-  "last_duplicate_reconciliation_at": "2026-09-09T03:37:30.526Z",
+  "last_duplicate_reconciliation_at": "2026-09-09T03:42:17.774Z",
   "last_duplicate_reconciliation": {
     "rejected": 0,
     "active_area_family_keys": 35

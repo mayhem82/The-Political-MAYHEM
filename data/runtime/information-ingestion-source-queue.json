@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-MAYHEM-INFORMATION-SOURCE-QUEUE-001",
   "status": "ACTIVE",
-  "updated_at": "2026-09-09T02:42:16.900Z",
+  "updated_at": "2026-09-09T02:48:53.889Z",
   "rules": {
     "queue_is_derived_from_area_coverage": true,
     "source_path_gap_has_highest_priority": true,
@@ -1222,6 +1222,36 @@
       "state": "OPEN"
     },
     {
+      "queue_id": "INGEST-AUS-FED-PARLIAMENTARY_PROCEDURE",
+      "priority": 3,
+      "jurisdiction_id": "AUS-FED",
+      "competition_class": "PARLIAMENTARY_PROCEDURE",
+      "coverage_state": "INGESTION_PATH_READY_NO_SUBSTANTIVE_EVIDENCE",
+      "action": "BACKFILL_AVAILABLE_RECORDS_OR_WAIT_FOR_NEW_SUBSTANTIVE_RECORD",
+      "reason": "Source path and detail path exist, but no active substantive area evidence has yet been ingested.",
+      "missing_source_groups": [],
+      "existing_relevant_watch_ids": [
+        "WATCH-APH-LIVE-MINUTES",
+        "WATCH-APH-WEEK-AHEAD",
+        "WATCH-APH-BILLS",
+        "WATCH-ALP-NEWS",
+        "WATCH-LIBERAL-HOME",
+        "WATCH-GREENS-FEDERAL-MEDIA",
+        "WATCH-NATIONALS-NEWS",
+        "WATCH-ONENATION-NEWS"
+      ],
+      "existing_detail_capable_watch_ids": [
+        "WATCH-APH-BILLS",
+        "WATCH-ALP-NEWS",
+        "WATCH-GREENS-FEDERAL-MEDIA",
+        "WATCH-NATIONALS-NEWS",
+        "WATCH-ONENATION-NEWS"
+      ],
+      "substantive_area_evidence_count": 0,
+      "completion_condition": "Coverage cell reaches SUBSTANTIVE_EVIDENCE_ACTIVE with retained substantive-detail lineage.",
+      "state": "OPEN"
+    },
+    {
       "queue_id": "INGEST-AUS-FED-POLICY_ENACTMENT",
       "priority": 3,
       "jurisdiction_id": "AUS-FED",
@@ -1580,10 +1610,10 @@
     }
   ],
   "summary": {
-    "open_items": 70,
+    "open_items": 71,
     "add_missing_source_class_watch": 33,
     "add_or_upgrade_detail_capable_source": 14,
-    "backfill_or_wait": 23,
-    "active_cells_not_queued": 2
+    "backfill_or_wait": 24,
+    "active_cells_not_queued": 1
   }
 }

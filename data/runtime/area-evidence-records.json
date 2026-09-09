@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-MAYHEM-AREA-EVIDENCE-001",
   "status": "ACTIVE",
-  "updated_at": "2026-09-09T02:42:16.636Z",
+  "updated_at": "2026-09-09T02:48:53.587Z",
   "rules": {
     "record_requires_substantive_detail_lineage": true,
     "one_detail_record_may_route_to_multiple_areas": true,
@@ -88,7 +88,7 @@
         "teams": []
       },
       "entity_resolution_state": "RESOLVED_EXPLICIT_CANONICAL_MENTIONS",
-      "entity_resolved_at": "2026-09-09T02:42:16.636Z",
+      "entity_resolved_at": "2026-09-09T02:48:53.587Z",
       "entity_resolution_history": [
         {
           "at": "2026-09-09T01:05:11.884Z",
@@ -227,7 +227,7 @@
         "teams": []
       },
       "entity_resolution_state": "RESOLVED_EXPLICIT_CANONICAL_MENTIONS",
-      "entity_resolved_at": "2026-09-09T02:42:16.636Z",
+      "entity_resolved_at": "2026-09-09T02:48:53.587Z",
       "entity_resolution_history": [
         {
           "at": "2026-09-09T01:05:11.884Z",
@@ -356,7 +356,7 @@
         "teams": []
       },
       "entity_resolution_state": "NO_CANONICAL_ENTITY_MENTION_RESOLVED",
-      "entity_resolved_at": "2026-09-09T02:42:16.636Z",
+      "entity_resolved_at": "2026-09-09T02:48:53.587Z",
       "entity_resolution_history": [
         {
           "at": "2026-09-09T01:05:11.884Z",
@@ -441,7 +441,7 @@
       "record_url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=s1510",
       "evidence_captured_at": "2026-09-09T00:51:56.961Z",
       "routed_at": "2026-09-09T00:51:57.825Z",
-      "routing_state": "SUBSTANTIVE_CONTENT_ROUTED",
+      "routing_state": "RETRACTED_ROUTING_NOISE",
       "routing_hits": [
         "Division"
       ],
@@ -491,15 +491,25 @@
           "actor_ids": [],
           "party_ids": []
         }
+      ],
+      "retracted_at": "2026-09-09T02:48:53.524Z",
+      "retraction_reason": "Competition-class cue was outside the bounded 3200-character substantive routing window or no longer satisfied routing rules.",
+      "routing_history": [
+        {
+          "from": "SUBSTANTIVE_CONTENT_ROUTED",
+          "to": "RETRACTED_ROUTING_NOISE",
+          "at": "2026-09-09T02:48:53.524Z",
+          "reason": "ROUTING_NOISE_CORRECTION"
+        }
       ]
     }
   ],
   "summary": {
-    "substantive_detail_records": 7,
+    "substantive_detail_records": 9,
     "area_evidence_records_total": 7,
-    "active_area_evidence_records": 4,
+    "active_area_evidence_records": 3,
     "added_this_run": 0,
-    "retracted_this_run": 0,
+    "retracted_this_run": 1,
     "by_area": {
       "ELECTORAL": 0,
       "LEGISLATIVE": 3,
@@ -507,12 +517,12 @@
       "CONFIDENCE_SUPPLY": 0,
       "BUDGET": 0,
       "POLICY_ENACTMENT": 0,
-      "PARLIAMENTARY_PROCEDURE": 1,
+      "PARLIAMENTARY_PROCEDURE": 0,
       "PUBLIC_PRESSURE": 0
     }
   },
   "entity_resolution_summary": {
-    "active_rows_examined": 4,
+    "active_rows_examined": 3,
     "actor_mentions_resolved": 3,
     "team_mentions_resolved": 0,
     "jurisdictions_with_rosters": [

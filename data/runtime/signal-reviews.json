@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-SIGNAL-REVIEWS-001",
   "created_at": "2026-09-09T05:05:00+10:00",
-  "updated_at": "2026-09-09T02:42:08.208Z",
+  "updated_at": "2026-09-09T02:48:46.667Z",
   "rules": {
     "append_only": true,
     "raw_source_change_is_immutable": true,
@@ -14137,6 +14137,131 @@
           }
         ],
         "delta_hash": "e7991d6f5f5406db40299894dfa2632cb7ab9829ed75c2b2c76b1debd5c55d17"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-GREENS-FEDERAL-MEDIA-20260909024755",
+      "source_change_event_id": "CHG-WATCH-GREENS-FEDERAL-MEDIA-20260909024755",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-GREENS-FEDERAL-MEDIA-20260909024755",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": "AUS-FED-GRN",
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Australian Greens — Federal MPs media releases added 2 structured publication records to its forward-captured official index: PISA proves Australian teachers are world-class but need more support; Read more about PISA proves Australian teachers are world-class but need more support",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-09-09T02:48:46.667Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "0030093e89cec064f578",
+            "title": "PISA proves Australian teachers are world-class but need more support",
+            "url": "https://greens.org.au/news/media-release/pisa-proves-australian-teachers-are-world-class-need-more-support"
+          },
+          {
+            "record_id": "4c9e08c8a63ff0bb3982",
+            "title": "Read more about PISA proves Australian teachers are world-class but need more support",
+            "url": "https://greens.org.au/news/media-release/pisa-proves-australian-teachers-are-world-class-need-more-support"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "1b760ab2b532b13e45d6",
+            "title": "Read more about Senator announces intention to pass torch after strong Senate term",
+            "url": "https://greens.org.au/news/media-release/senator-announces-intention-pass-torch-after-strong-senate-term"
+          },
+          {
+            "record_id": "aedac8893a0ef7c0a4ef",
+            "title": "Senator announces intention to pass torch after strong Senate term",
+            "url": "https://greens.org.au/news/media-release/senator-announces-intention-pass-torch-after-strong-senate-term"
+          }
+        ],
+        "delta_hash": "51a206c78f4dac3b0b9d4a716eb70106bbdfbfd173c44ef4d525c7f392a06071"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-TAS-PREMIER-NEWS-20260909024755",
+      "source_change_event_id": "CHG-WATCH-TAS-PREMIER-NEWS-20260909024755",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-TAS-PREMIER-NEWS-20260909024755",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Premier of Tasmania — latest news added 5 structured publication records to its forward-captured official index: Working together to help protect our threatened species 7 September 2026 Tasmanians are being encouraged to work together to protect our unique flora and fauna this Threatened Species Day, with a new round of cons...; Paper titles cut from property transactions 7 September 2026 The Tasmanian Government has made it faster, simpler and safer to make property transactions, with paper certificates of title removed from ...; Tasmania’s tourism industry full steam ahead for Spirit’s inaugural sailing 7 September 2026 Preparations are being finalised for the launch of Spirit of Tasmania&rsquo;s new vessels, with Tourism Tasmania working with industry to bu...; Clear expectations for data centres and AI infrastructure 7 September 2026 The Tasmanian Government has released its draft Expectations for Data Centres and AI Infrastructure.Minister for Business, Industry and Reso...; Skip to content",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-09-09T02:48:46.667Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "1380674db0bf814247ef",
+            "title": "Working together to help protect our threatened species 7 September 2026 Tasmanians are being encouraged to work together to protect our unique flora and fauna this Threatened Species Day, with a new round of cons...",
+            "url": "https://www.premier.tas.gov.au/latest-news/2026/september/working-together-to-help-protect-our-threatened-species"
+          },
+          {
+            "record_id": "26966632f7c5572725d3",
+            "title": "Paper titles cut from property transactions 7 September 2026 The Tasmanian Government has made it faster, simpler and safer to make property transactions, with paper certificates of title removed from ...",
+            "url": "https://www.premier.tas.gov.au/latest-news/2026/september/paper-titles-cut-from-property-transactions"
+          },
+          {
+            "record_id": "9187be13c3c0412ea6bb",
+            "title": "Tasmania’s tourism industry full steam ahead for Spirit’s inaugural sailing 7 September 2026 Preparations are being finalised for the launch of Spirit of Tasmania&rsquo;s new vessels, with Tourism Tasmania working with industry to bu...",
+            "url": "https://www.premier.tas.gov.au/latest-news/2026/september/tasmanias-tourism-industry-full-steam-ahead-for-spirits-inaugural-sailing"
+          },
+          {
+            "record_id": "9a575440a98cf4041fd6",
+            "title": "Clear expectations for data centres and AI infrastructure 7 September 2026 The Tasmanian Government has released its draft Expectations for Data Centres and AI Infrastructure.Minister for Business, Industry and Reso...",
+            "url": "https://www.premier.tas.gov.au/latest-news/2026/september/clear-expectations-for-data-centres-and-ai-infrastructure"
+          },
+          {
+            "record_id": "d7a1477e0a98625953b3",
+            "title": "Skip to content",
+            "url": "https://www.premier.tas.gov.au/latest-news"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "5503ad540fbf99bf866e",
+            "title": "2030 Strong Plan for Tasmania’s Future",
+            "url": "https://www.premier.tas.gov.au/our-plan"
+          },
+          {
+            "record_id": "5c58e4f76fec3a1ce5fe",
+            "title": "Contact your Premier",
+            "url": "https://www.premier.tas.gov.au/contact"
+          },
+          {
+            "record_id": "7984975787b4ef2c7007",
+            "title": "Budget 2026-27",
+            "url": "https://www.premier.tas.gov.au/budget-2026"
+          },
+          {
+            "record_id": "bff1215bcb385f2f222a",
+            "title": "300 days of delivering for Tasmania",
+            "url": "https://www.premier.tas.gov.au/__data/assets/pdf_file/0027/517923/2026-Third-100-Days-of-Delivery_Digital.pdf"
+          }
+        ],
+        "delta_hash": "4c2582dad3c0d1e3c0e9fda9896e36d183c1739bbd1f72c0463c304156c419f8"
       },
       "integrity": {
         "source_change_unchanged": true,

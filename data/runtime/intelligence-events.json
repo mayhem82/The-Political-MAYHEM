@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-INTELLIGENCE-EVENTS-001",
   "scope": "Australia — multi-jurisdiction",
-  "captured_at": "2026-09-09T02:42:16.775Z",
+  "captured_at": "2026-09-09T02:48:53.769Z",
   "mode": "FORWARD_ONLY",
   "rules": {
     "observation_distinct_from_inference": true,
@@ -31891,6 +31891,399 @@
         "underlying_publication_claims_not_promoted_to_verified_fact": true,
         "source_change_parent_retained": true,
         "deterministic_review": true
+      }
+    },
+    {
+      "event_id": "CHG-WATCH-APH-LIVE-MINUTES-20260909024755",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-FED",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-APH-LIVE-MINUTES-20260909024755",
+      "captured_at": "2026-09-09T02:47:55.426Z",
+      "event_date": "2026-09-09",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_PARLIAMENT",
+      "source_id": "SRC-APH-LIVE-MINUTES",
+      "capture_mode": "NORMALISED_PAGE_HASH",
+      "review_policy": "REVIEW_UNSTRUCTURED_CHANGE",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-APH-LIVE-MINUTES-20260909024114",
+        "content_hash": "f7631fa5908822136b68498af5d7e015ee1d38bc499bed2abe17db4de45b2fb8",
+        "capture_mode": "NORMALISED_PAGE_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-APH-LIVE-MINUTES-20260909024755",
+        "content_hash": "6d3fe9f186ef74221ca87310ec6a8e1deef1ed9ddd1b7b763373c676caa865d6",
+        "capture_mode": "NORMALISED_PAGE_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "TEXT_REPRESENTATION",
+        "first_difference_offset": 12354,
+        "before_length": 14114,
+        "after_length": 14918,
+        "before_excerpt": " resumption of the debate on the question—That the bill be now read a second time— Debate resumed. Ms Kearney , <TIME>. In this section Bills and Legislation Tabled documents Chamber documents Work of the Senate House of Representatives cha",
+        "after_excerpt": " resumption of the debate on the question—That the bill be now read a second time— Debate resumed. Ms Kearney , <TIME>. - <TIME> Debate adjourned ( Mrs McIntosh ), and the resumption of the debate made an order of the day for a later hour this day. - <TIME> 10 matter DECLARED REFERRED TO FEDERATION CHAMBER Ms J Ryan ( Chief Government Whip ) declared that, unless otherwise ordered, the following order of the day, government business, is referred to the Federation Chamber for debate : Domestic, Family and Sexual Violence Commission—Ministerial statement—Motion to take note of document: Resumption of debate. - <TIME> 11 Wage Justice for Early Childhood Education and Care Workers (Special Account) (Extending Support and Strengthening Safety) Bill 2026 The order of the day having been read for the resumption of the debate on the question—That the bill be now read a second time— Debate resumed. Mr Burnell , <TIME>. In this section Bills and Legislation Tabled documents Chamber documents Work of the Senate House of Representatives cha",
+        "delta_hash": "9c3f1a6e0d5aca4433f054056f2bf0c557252ea07f6253881c577d65f258e16e"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-GREENS-FEDERAL-MEDIA-20260909024755",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-FED",
+      "party_id": "AUS-FED-GRN",
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-GREENS-FEDERAL-MEDIA-20260909024755",
+      "captured_at": "2026-09-09T02:47:55.426Z",
+      "event_date": "2026-09-09",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_PARTY",
+      "source_id": "SRC-GREENS-FEDERAL-RELEASE-INDEX",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "review_policy": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-GREENS-FEDERAL-MEDIA-20260908195628",
+        "content_hash": "5167b7aa11762329a5d13f88a6f5ab26a36493a072461141b52b76f7aaa3563a",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-GREENS-FEDERAL-MEDIA-20260909024755",
+        "content_hash": "033a4c189abd8cd01309a7ae66b6aa758edfff315779a5e198b0d10e672652c4",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "STRUCTURED_RECORD_SET",
+        "records_added": [
+          {
+            "record_id": "0030093e89cec064f578",
+            "title": "PISA proves Australian teachers are world-class but need more support",
+            "url": "https://greens.org.au/news/media-release/pisa-proves-australian-teachers-are-world-class-need-more-support"
+          },
+          {
+            "record_id": "4c9e08c8a63ff0bb3982",
+            "title": "Read more about PISA proves Australian teachers are world-class but need more support",
+            "url": "https://greens.org.au/news/media-release/pisa-proves-australian-teachers-are-world-class-need-more-support"
+          }
+        ],
+        "records_removed": [
+          {
+            "record_id": "1b760ab2b532b13e45d6",
+            "title": "Read more about Senator announces intention to pass torch after strong Senate term",
+            "url": "https://greens.org.au/news/media-release/senator-announces-intention-pass-torch-after-strong-senate-term"
+          },
+          {
+            "record_id": "aedac8893a0ef7c0a4ef",
+            "title": "Senator announces intention to pass torch after strong Senate term",
+            "url": "https://greens.org.au/news/media-release/senator-announces-intention-pass-torch-after-strong-senate-term"
+          }
+        ],
+        "added_count": 2,
+        "removed_count": 2,
+        "before_count": 75,
+        "after_count": 75,
+        "delta_hash": "51a206c78f4dac3b0b9d4a716eb70106bbdfbfd173c44ef4d525c7f392a06071"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-TAS-PREMIER-NEWS-20260909024755",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-TAS",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-TAS-PREMIER-NEWS-20260909024755",
+      "captured_at": "2026-09-09T02:47:55.426Z",
+      "event_date": "2026-09-09",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-TAS-PREMIER-NEWS",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "review_policy": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-TAS-PREMIER-NEWS-20260909024114",
+        "content_hash": "7d083e78ce737f5365dd48d6d00e5bb987f226857aadc359974ebdb635a6abb2",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-TAS-PREMIER-NEWS-20260909024755",
+        "content_hash": "99e8faeb7079d8ca557096ad297bf472fd40f684a14221a5d21cba8bc24c6442",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "STRUCTURED_RECORD_SET",
+        "records_added": [
+          {
+            "record_id": "1380674db0bf814247ef",
+            "title": "Working together to help protect our threatened species 7 September 2026 Tasmanians are being encouraged to work together to protect our unique flora and fauna this Threatened Species Day, with a new round of cons...",
+            "url": "https://www.premier.tas.gov.au/latest-news/2026/september/working-together-to-help-protect-our-threatened-species"
+          },
+          {
+            "record_id": "26966632f7c5572725d3",
+            "title": "Paper titles cut from property transactions 7 September 2026 The Tasmanian Government has made it faster, simpler and safer to make property transactions, with paper certificates of title removed from ...",
+            "url": "https://www.premier.tas.gov.au/latest-news/2026/september/paper-titles-cut-from-property-transactions"
+          },
+          {
+            "record_id": "9187be13c3c0412ea6bb",
+            "title": "Tasmania’s tourism industry full steam ahead for Spirit’s inaugural sailing 7 September 2026 Preparations are being finalised for the launch of Spirit of Tasmania&rsquo;s new vessels, with Tourism Tasmania working with industry to bu...",
+            "url": "https://www.premier.tas.gov.au/latest-news/2026/september/tasmanias-tourism-industry-full-steam-ahead-for-spirits-inaugural-sailing"
+          },
+          {
+            "record_id": "9a575440a98cf4041fd6",
+            "title": "Clear expectations for data centres and AI infrastructure 7 September 2026 The Tasmanian Government has released its draft Expectations for Data Centres and AI Infrastructure.Minister for Business, Industry and Reso...",
+            "url": "https://www.premier.tas.gov.au/latest-news/2026/september/clear-expectations-for-data-centres-and-ai-infrastructure"
+          },
+          {
+            "record_id": "d7a1477e0a98625953b3",
+            "title": "Skip to content",
+            "url": "https://www.premier.tas.gov.au/latest-news"
+          }
+        ],
+        "records_removed": [
+          {
+            "record_id": "5503ad540fbf99bf866e",
+            "title": "2030 Strong Plan for Tasmania’s Future",
+            "url": "https://www.premier.tas.gov.au/our-plan"
+          },
+          {
+            "record_id": "5c58e4f76fec3a1ce5fe",
+            "title": "Contact your Premier",
+            "url": "https://www.premier.tas.gov.au/contact"
+          },
+          {
+            "record_id": "7984975787b4ef2c7007",
+            "title": "Budget 2026-27",
+            "url": "https://www.premier.tas.gov.au/budget-2026"
+          },
+          {
+            "record_id": "bff1215bcb385f2f222a",
+            "title": "300 days of delivering for Tasmania",
+            "url": "https://www.premier.tas.gov.au/__data/assets/pdf_file/0027/517923/2026-Third-100-Days-of-Delivery_Digital.pdf"
+          }
+        ],
+        "added_count": 5,
+        "removed_count": 4,
+        "before_count": 140,
+        "after_count": 141,
+        "delta_hash": "4c2582dad3c0d1e3c0e9fda9896e36d183c1739bbd1f72c0463c304156c419f8"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "SIG-REV-CHG-WATCH-GREENS-FEDERAL-MEDIA-20260909024755",
+      "parent_event_id": "CHG-WATCH-GREENS-FEDERAL-MEDIA-20260909024755",
+      "review_id": "REV-CHG-WATCH-GREENS-FEDERAL-MEDIA-20260909024755",
+      "jurisdiction_id": "AUS-FED",
+      "party_id": "AUS-FED-GRN",
+      "actor_id": null,
+      "contest_id": null,
+      "cycle_id": null,
+      "source_snapshot_id": "AUTO-WATCH-GREENS-FEDERAL-MEDIA-20260909024755",
+      "record_id": null,
+      "captured_at": "2026-09-09T02:48:46.667Z",
+      "event_date": "2026-09-09",
+      "checkpoint": "CONTINUOUS_FORWARD_SIGNAL_REVIEW",
+      "event_type": "SIGNAL_CREATED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_PARTY",
+      "source_id": "SRC-GREENS-FEDERAL-RELEASE-INDEX",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "claim": "Australian Greens — Federal MPs media releases added 2 structured publication records to its forward-captured official index: PISA proves Australian teachers are world-class but need more support; Read more about PISA proves Australian teachers are world-class but need more support",
+      "observed_behaviour": "One or more structured publication records appeared in the monitored official source index after the preceding forward snapshot.",
+      "publication_records_added": [
+        {
+          "record_id": "0030093e89cec064f578",
+          "title": "PISA proves Australian teachers are world-class but need more support",
+          "url": "https://greens.org.au/news/media-release/pisa-proves-australian-teachers-are-world-class-need-more-support"
+        },
+        {
+          "record_id": "4c9e08c8a63ff0bb3982",
+          "title": "Read more about PISA proves Australian teachers are world-class but need more support",
+          "url": "https://greens.org.au/news/media-release/pisa-proves-australian-teachers-are-world-class-need-more-support"
+        }
+      ],
+      "publication_records_removed": [
+        {
+          "record_id": "1b760ab2b532b13e45d6",
+          "title": "Read more about Senator announces intention to pass torch after strong Senate term",
+          "url": "https://greens.org.au/news/media-release/senator-announces-intention-pass-torch-after-strong-senate-term"
+        },
+        {
+          "record_id": "aedac8893a0ef7c0a4ef",
+          "title": "Senator announces intention to pass torch after strong Senate term",
+          "url": "https://greens.org.au/news/media-release/senator-announces-intention-pass-torch-after-strong-senate-term"
+        }
+      ],
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "underlying_publication_claims_not_promoted_to_verified_fact": true,
+        "source_change_parent_retained": true,
+        "deterministic_review": true
+      }
+    },
+    {
+      "event_id": "SIG-REV-CHG-WATCH-TAS-PREMIER-NEWS-20260909024755",
+      "parent_event_id": "CHG-WATCH-TAS-PREMIER-NEWS-20260909024755",
+      "review_id": "REV-CHG-WATCH-TAS-PREMIER-NEWS-20260909024755",
+      "jurisdiction_id": "AUS-TAS",
+      "party_id": null,
+      "actor_id": null,
+      "contest_id": null,
+      "cycle_id": null,
+      "source_snapshot_id": "AUTO-WATCH-TAS-PREMIER-NEWS-20260909024755",
+      "record_id": null,
+      "captured_at": "2026-09-09T02:48:46.667Z",
+      "event_date": "2026-09-09",
+      "checkpoint": "CONTINUOUS_FORWARD_SIGNAL_REVIEW",
+      "event_type": "SIGNAL_CREATED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-TAS-PREMIER-NEWS",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "claim": "Premier of Tasmania — latest news added 5 structured publication records to its forward-captured official index: Working together to help protect our threatened species 7 September 2026 Tasmanians are being encouraged to work together to protect our unique flora and fauna this Threatened Species Day, with a new round of cons...; Paper titles cut from property transactions 7 September 2026 The Tasmanian Government has made it faster, simpler and safer to make property transactions, with paper certificates of title removed from ...; Tasmania’s tourism industry full steam ahead for Spirit’s inaugural sailing 7 September 2026 Preparations are being finalised for the launch of Spirit of Tasmania&rsquo;s new vessels, with Tourism Tasmania working with industry to bu...; Clear expectations for data centres and AI infrastructure 7 September 2026 The Tasmanian Government has released its draft Expectations for Data Centres and AI Infrastructure.Minister for Business, Industry and Reso...; Skip to content",
+      "observed_behaviour": "One or more structured publication records appeared in the monitored official source index after the preceding forward snapshot.",
+      "publication_records_added": [
+        {
+          "record_id": "1380674db0bf814247ef",
+          "title": "Working together to help protect our threatened species 7 September 2026 Tasmanians are being encouraged to work together to protect our unique flora and fauna this Threatened Species Day, with a new round of cons...",
+          "url": "https://www.premier.tas.gov.au/latest-news/2026/september/working-together-to-help-protect-our-threatened-species"
+        },
+        {
+          "record_id": "26966632f7c5572725d3",
+          "title": "Paper titles cut from property transactions 7 September 2026 The Tasmanian Government has made it faster, simpler and safer to make property transactions, with paper certificates of title removed from ...",
+          "url": "https://www.premier.tas.gov.au/latest-news/2026/september/paper-titles-cut-from-property-transactions"
+        },
+        {
+          "record_id": "9187be13c3c0412ea6bb",
+          "title": "Tasmania’s tourism industry full steam ahead for Spirit’s inaugural sailing 7 September 2026 Preparations are being finalised for the launch of Spirit of Tasmania&rsquo;s new vessels, with Tourism Tasmania working with industry to bu...",
+          "url": "https://www.premier.tas.gov.au/latest-news/2026/september/tasmanias-tourism-industry-full-steam-ahead-for-spirits-inaugural-sailing"
+        },
+        {
+          "record_id": "9a575440a98cf4041fd6",
+          "title": "Clear expectations for data centres and AI infrastructure 7 September 2026 The Tasmanian Government has released its draft Expectations for Data Centres and AI Infrastructure.Minister for Business, Industry and Reso...",
+          "url": "https://www.premier.tas.gov.au/latest-news/2026/september/clear-expectations-for-data-centres-and-ai-infrastructure"
+        },
+        {
+          "record_id": "d7a1477e0a98625953b3",
+          "title": "Skip to content",
+          "url": "https://www.premier.tas.gov.au/latest-news"
+        }
+      ],
+      "publication_records_removed": [
+        {
+          "record_id": "5503ad540fbf99bf866e",
+          "title": "2030 Strong Plan for Tasmania’s Future",
+          "url": "https://www.premier.tas.gov.au/our-plan"
+        },
+        {
+          "record_id": "5c58e4f76fec3a1ce5fe",
+          "title": "Contact your Premier",
+          "url": "https://www.premier.tas.gov.au/contact"
+        },
+        {
+          "record_id": "7984975787b4ef2c7007",
+          "title": "Budget 2026-27",
+          "url": "https://www.premier.tas.gov.au/budget-2026"
+        },
+        {
+          "record_id": "bff1215bcb385f2f222a",
+          "title": "300 days of delivering for Tasmania",
+          "url": "https://www.premier.tas.gov.au/__data/assets/pdf_file/0027/517923/2026-Third-100-Days-of-Delivery_Digital.pdf"
+        }
+      ],
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "underlying_publication_claims_not_promoted_to_verified_fact": true,
+        "source_change_parent_retained": true,
+        "deterministic_review": true
+      }
+    },
+    {
+      "event_id": "INTEL-RETRACT-AREA-43e33a1e6f80db4427eebc9b",
+      "parent_event_id": "INTEL-AREA-43e33a1e6f80db4427eebc9b",
+      "jurisdiction_id": "AUS-FED",
+      "party_id": null,
+      "actor_id": null,
+      "party_ids": [],
+      "actor_ids": [],
+      "contest_id": null,
+      "cycle_id": null,
+      "competition_class": "PARLIAMENTARY_PROCEDURE",
+      "area_evidence_id": "AREA-43e33a1e6f80db4427eebc9b",
+      "detail_record_id": "DETAIL-debd4166aa251b215296d4a6",
+      "detail_version_id": "DETAIL-debd4166aa251b215296d4a6-V1",
+      "source_snapshot_id": "AUTO-WATCH-APH-BILLS-20260908233843",
+      "record_url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=s1510",
+      "captured_at": "2026-09-09T02:48:53.769Z",
+      "evidence_captured_at": "2026-09-09T00:51:56.961Z",
+      "event_date": "2026-09-09",
+      "checkpoint": "SUBSTANTIVE_INFORMATION_INGESTION",
+      "event_type": "AREA_EVIDENCE_RETRACTED",
+      "area_routing_state": "RETRACTED_ROUTING_NOISE",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "CORRECTED",
+      "materiality_state": "IMMATERIAL",
+      "source_class": "PRIMARY_PARLIAMENT",
+      "source_id": "SRC-APH-BILLS",
+      "claim": "Retracted prior parliamentary procedure routing for Fair Work Amendment (Disqualified Officers) Bill 2026 &ndash; Parliament of Australia: Competition-class cue was outside the bounded 3200-character substantive routing window or no longer satisfied routing rules.",
+      "observed_behaviour": null,
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "prior_event_retained": true,
+        "routing_correction_append_only": true,
+        "no_projection_effect": true
       }
     }
   ]

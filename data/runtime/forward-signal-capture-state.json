@@ -63,9 +63,9 @@
       "source_id": "SRC-APH-LIVE-MINUTES",
       "jurisdiction_id": "AUS-FED",
       "party_id": null,
-      "content_hash": "d188b207e7090fe5a14cc4a4b085563c3a32fbbdd4e07cf3884284035108e519",
-      "snapshot_id": "AUTO-WATCH-APH-LIVE-MINUTES-20260909054134",
-      "captured_at": "2026-09-09T05:41:34.378Z",
+      "content_hash": "c676519c65626181499868b7fbac228192fc893bbb81b434dd879c1eaeab371e",
+      "snapshot_id": "AUTO-WATCH-APH-LIVE-MINUTES-20260909054530",
+      "captured_at": "2026-09-09T05:45:30.205Z",
       "acquisition_url": "https://www.aph.gov.au/LiveMinutes",
       "requested_url": "https://www.aph.gov.au/LiveMinutes",
       "header_profile": "BROWSER_COMPATIBILITY",
@@ -391,11 +391,11 @@
       "source_id": "SRC-TAS-PREMIER-NEWS",
       "jurisdiction_id": "AUS-TAS",
       "party_id": null,
-      "content_hash": "99e8faeb7079d8ca557096ad297bf472fd40f684a14221a5d21cba8bc24c6442",
-      "snapshot_id": "AUTO-WATCH-TAS-PREMIER-NEWS-20260909053055",
-      "captured_at": "2026-09-09T05:30:55.683Z",
-      "acquisition_url": "https://www.premier.tas.gov.au/latest-news",
-      "requested_url": "https://www.premier.tas.gov.au/latest-news",
+      "content_hash": "7d083e78ce737f5365dd48d6d00e5bb987f226857aadc359974ebdb635a6abb2",
+      "snapshot_id": "AUTO-WATCH-TAS-PREMIER-NEWS-20260909054530",
+      "captured_at": "2026-09-09T05:45:30.205Z",
+      "acquisition_url": "https://www.premier.tas.gov.au/",
+      "requested_url": "https://www.premier.tas.gov.au/",
       "header_profile": "BROWSER_COMPATIBILITY",
       "content_type": "text/html; charset=utf-8",
       "capture_mode": "PUBLICATION_FEED_HASH",
@@ -419,11 +419,11 @@
       "source_id": "SRC-NTEC-MEDIA",
       "jurisdiction_id": "AUS-NT",
       "party_id": null,
-      "content_hash": "d532efcb49c91a86b7f127743a6a3263afc6ecbd2be5d25d95636cba75d189c9",
-      "snapshot_id": "AUTO-WATCH-NTEC-MEDIA-20260909035658",
-      "captured_at": "2026-09-09T03:56:58.554Z",
-      "acquisition_url": "https://ntec.nt.gov.au/about-us/media-and-publications/media-releases",
-      "requested_url": "https://ntec.nt.gov.au/about-us/media-and-publications/media-releases",
+      "content_hash": "f4d890d24ceee433bd09c60848b7c003c6f19c5bd08e71bac4641cda2747bc31",
+      "snapshot_id": "AUTO-WATCH-NTEC-MEDIA-20260909054530",
+      "captured_at": "2026-09-09T05:45:30.205Z",
+      "acquisition_url": "https://ntec.nt.gov.au/",
+      "requested_url": "https://ntec.nt.gov.au/",
       "header_profile": "BROWSER_COMPATIBILITY",
       "content_type": "text/html; charset=utf-8",
       "capture_mode": "PUBLICATION_FEED_HASH",
@@ -447,11 +447,11 @@
       "source_id": "SRC-ACT-GOV-MEDIA",
       "jurisdiction_id": "AUS-ACT",
       "party_id": null,
-      "content_hash": "69a1280e86829b5f35b844a99ee45886a182426c28796aefb087adf8f90e93c7",
-      "snapshot_id": "AUTO-WATCH-ACT-GOV-MEDIA-20260909054134",
-      "captured_at": "2026-09-09T05:41:34.378Z",
-      "acquisition_url": "https://www.act.gov.au/",
-      "requested_url": "https://www.act.gov.au/",
+      "content_hash": "cc28ba4e700316adfc6773a11eaf134432094225bcbb375d549ff56584b1e06f",
+      "snapshot_id": "AUTO-WATCH-ACT-GOV-MEDIA-20260909054530",
+      "captured_at": "2026-09-09T05:45:30.205Z",
+      "acquisition_url": "https://www.cmtedd.act.gov.au/open_government/inform/act_government_media_releases",
+      "requested_url": "https://www.cmtedd.act.gov.au/open_government/inform/act_government_media_releases",
       "header_profile": "BROWSER_COMPATIBILITY",
       "content_type": "text/html; charset=utf-8",
       "capture_mode": "PUBLICATION_FEED_HASH",
@@ -486,11 +486,11 @@
       "captured_representation_complete": true
     }
   },
-  "updated_at": "2026-09-09T05:41:34.378Z",
+  "updated_at": "2026-09-09T05:45:30.205Z",
   "last_run": {
-    "captured_at": "2026-09-09T05:41:34.378Z",
+    "captured_at": "2026-09-09T05:45:30.205Z",
     "baselines_created": 0,
-    "source_changes_created": 3,
+    "source_changes_created": 4,
     "semantic_signals_created": 0,
     "representation_upgrades": 0,
     "failures": [
@@ -499,12 +499,8 @@
         "error": "https://www.alp.org.au/news/ [IDENTIFIED_AUTOMATION] 404 Not Found | https://www.alp.org.au/news/ [BROWSER_COMPATIBILITY] 404 Not Found | https://www.alp.org.au/news [IDENTIFIED_AUTOMATION] 404 Not Found | https://www.alp.org.au/news [BROWSER_COMPATIBILITY] 404 Not Found"
       },
       {
-        "watch_id": "WATCH-TAS-HANSARD",
-        "error": "https://www.parliament.tas.gov.au/hansard [IDENTIFIED_AUTOMATION] 403 Forbidden | https://www.parliament.tas.gov.au/hansard [BROWSER_COMPATIBILITY] 403 Forbidden"
-      },
-      {
-        "watch_id": "WATCH-NT-PARLIAMENT",
-        "error": "https://parliament.nt.gov.au/ [IDENTIFIED_AUTOMATION] 403 Forbidden | https://parliament.nt.gov.au/ [BROWSER_COMPATIBILITY] 403 Forbidden"
+        "watch_id": "WATCH-ECQ-MEDIA",
+        "error": "https://www.ecq.qld.gov.au/media/2026-media-statements [IDENTIFIED_AUTOMATION] 403 Forbidden | https://www.ecq.qld.gov.au/media/2026-media-statements [BROWSER_COMPATIBILITY] 403 Forbidden | https://www.ecq.qld.gov.au/home [IDENTIFIED_AUTOMATION] 403 Forbidden | https://www.ecq.qld.gov.au/home [BROWSER_COMPATIBILITY] 403 Forbidden"
       }
     ]
   },
@@ -512,7 +508,7 @@
   "coverage": {
     "active_sources": 36,
     "baselines_captured": 35,
-    "current_run_failures": 3,
+    "current_run_failures": 2,
     "jurisdictions": {
       "AUS-FED": {
         "configured_sources": 10,
@@ -551,13 +547,13 @@
       "AUS-QLD": {
         "configured_sources": 3,
         "baseline_sources": 3,
-        "current_run_failures": 0,
+        "current_run_failures": 1,
         "source_classes": [
           "PRIMARY_ELECTORAL_AUTHORITY",
           "PRIMARY_GOVERNMENT",
           "PRIMARY_PARLIAMENT"
         ],
-        "status": "CAPTURE_ACTIVE_FULL_CONFIGURED_BASELINE"
+        "status": "CAPTURE_ACTIVE_DEGRADED_CURRENT_RUN"
       },
       "AUS-WA": {
         "configured_sources": 3,
@@ -584,13 +580,13 @@
       "AUS-TAS": {
         "configured_sources": 3,
         "baseline_sources": 3,
-        "current_run_failures": 1,
+        "current_run_failures": 0,
         "source_classes": [
           "PRIMARY_ELECTORAL_AUTHORITY",
           "PRIMARY_GOVERNMENT",
           "PRIMARY_PARLIAMENT"
         ],
-        "status": "CAPTURE_ACTIVE_DEGRADED_CURRENT_RUN"
+        "status": "CAPTURE_ACTIVE_FULL_CONFIGURED_BASELINE"
       },
       "AUS-ACT": {
         "configured_sources": 3,
@@ -606,13 +602,13 @@
       "AUS-NT": {
         "configured_sources": 3,
         "baseline_sources": 3,
-        "current_run_failures": 1,
+        "current_run_failures": 0,
         "source_classes": [
           "PRIMARY_ELECTORAL_AUTHORITY",
           "PRIMARY_GOVERNMENT",
           "PRIMARY_PARLIAMENT"
         ],
-        "status": "CAPTURE_ACTIVE_DEGRADED_CURRENT_RUN"
+        "status": "CAPTURE_ACTIVE_FULL_CONFIGURED_BASELINE"
       }
     }
   }

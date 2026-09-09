@@ -69,64 +69,64 @@
     {
       "jurisdiction_id": "AUS-FED",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-09T05:42:24.584Z",
-      "signals_examined": 74,
+      "last_screened_at": "2026-09-09T05:46:21.734Z",
+      "signals_examined": 78,
       "candidates_detected": 23
     },
     {
       "jurisdiction_id": "AUS-NSW",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-09T05:42:24.584Z",
-      "signals_examined": 24,
+      "last_screened_at": "2026-09-09T05:46:21.734Z",
+      "signals_examined": 26,
       "candidates_detected": 5
     },
     {
       "jurisdiction_id": "AUS-VIC",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-09T05:42:24.584Z",
+      "last_screened_at": "2026-09-09T05:46:21.734Z",
       "signals_examined": 0,
       "candidates_detected": 0
     },
     {
       "jurisdiction_id": "AUS-QLD",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-09T05:42:24.584Z",
+      "last_screened_at": "2026-09-09T05:46:21.734Z",
       "signals_examined": 9,
       "candidates_detected": 43
     },
     {
       "jurisdiction_id": "AUS-WA",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-09T05:42:24.584Z",
+      "last_screened_at": "2026-09-09T05:46:21.734Z",
       "signals_examined": 0,
       "candidates_detected": 0
     },
     {
       "jurisdiction_id": "AUS-SA",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-09T05:42:24.584Z",
+      "last_screened_at": "2026-09-09T05:46:21.734Z",
       "signals_examined": 0,
       "candidates_detected": 0
     },
     {
       "jurisdiction_id": "AUS-TAS",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-09T05:42:24.584Z",
-      "signals_examined": 16,
+      "last_screened_at": "2026-09-09T05:46:21.734Z",
+      "signals_examined": 17,
       "candidates_detected": 0
     },
     {
       "jurisdiction_id": "AUS-ACT",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-09T05:42:24.584Z",
-      "signals_examined": 20,
+      "last_screened_at": "2026-09-09T05:46:21.734Z",
+      "signals_examined": 21,
       "candidates_detected": 1
     },
     {
       "jurisdiction_id": "AUS-NT",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-09T05:42:24.584Z",
-      "signals_examined": 28,
+      "last_screened_at": "2026-09-09T05:46:21.734Z",
+      "signals_examined": 29,
       "candidates_detected": 0
     }
   ],
@@ -2817,7 +2817,8 @@
         "AUTO-WATCH-NSW-MINISTERIAL-RELEASES-20260908215043"
       ],
       "signal_event_ids": [
-        "INTEL-AREA-bd26ad38f3081548dd7db4c0"
+        "INTEL-AREA-bd26ad38f3081548dd7db4c0",
+        "INTEL-ENRICH-AREA-bd26ad38f3081548dd7db4c0-9e16e1a91f28e4e9"
       ],
       "review_ids": [],
       "area_evidence_ids": [
@@ -2830,6 +2831,7 @@
       "registration_blockers": [
         "MISSING_CONDITION_DISTINCT_SUPPORTING_AND_OPPOSING_SIDES",
         "MISSING_FACT_TYPE_EXPLICIT_OPPOSITION_POSITION",
+        "MISSING_FACT_TYPE_EXPLICIT_SUPPORT_POSITION",
         "MISSING_FACT_TYPE_MATERIAL_RESISTANCE",
         "MISSING_FACT_TYPE_STAGE"
       ],
@@ -2856,7 +2858,8 @@
         "AUTO-WATCH-NSW-MINISTERIAL-RELEASES-20260908215043"
       ],
       "signal_event_ids": [
-        "INTEL-AREA-ef5ed4fbb67c5213c3214919"
+        "INTEL-AREA-ef5ed4fbb67c5213c3214919",
+        "INTEL-ENRICH-AREA-ef5ed4fbb67c5213c3214919-a3318ae1c94f2d18"
       ],
       "review_ids": [],
       "area_evidence_ids": [
@@ -2870,6 +2873,7 @@
         "MISSING_CONDITION_DISTINCT_SUPPORTING_AND_OPPOSING_SIDES",
         "MISSING_FACT_TYPE_CONTEST_OBJECT",
         "MISSING_FACT_TYPE_EXPLICIT_OPPOSITION_POSITION",
+        "MISSING_FACT_TYPE_EXPLICIT_SUPPORT_POSITION",
         "MISSING_FACT_TYPE_MATERIAL_RESISTANCE",
         "MISSING_FACT_TYPE_OBJECTIVE"
       ],
@@ -2978,7 +2982,8 @@
         "AUTO-WATCH-PM-MEDIA-20260909004900"
       ],
       "signal_event_ids": [
-        "INTEL-AREA-72df5dc9016cdbc9bc91c88f"
+        "INTEL-AREA-72df5dc9016cdbc9bc91c88f",
+        "INTEL-ENRICH-AREA-72df5dc9016cdbc9bc91c88f-f55d9799749b4fcc"
       ],
       "review_ids": [],
       "area_evidence_ids": [
@@ -2992,6 +2997,7 @@
         "MISSING_CONDITION_DISTINCT_SUPPORTING_AND_OPPOSING_SIDES",
         "MISSING_FACT_TYPE_CONTEST_OBJECT",
         "MISSING_FACT_TYPE_EXPLICIT_OPPOSITION_POSITION",
+        "MISSING_FACT_TYPE_EXPLICIT_SUPPORT_POSITION",
         "MISSING_FACT_TYPE_MATERIAL_RESISTANCE",
         "MISSING_FACT_TYPE_STAGE"
       ],
@@ -3018,7 +3024,8 @@
         "AUTO-WATCH-PM-MEDIA-20260909022740"
       ],
       "signal_event_ids": [
-        "INTEL-AREA-32c01893e29a41ab0de1147e"
+        "INTEL-AREA-32c01893e29a41ab0de1147e",
+        "INTEL-ENRICH-AREA-32c01893e29a41ab0de1147e-4b70dafecb75e82f"
       ],
       "review_ids": [],
       "area_evidence_ids": [
@@ -3031,6 +3038,7 @@
       "registration_blockers": [
         "MISSING_CONDITION_DISTINCT_SUPPORTING_AND_OPPOSING_SIDES",
         "MISSING_FACT_TYPE_EXPLICIT_OPPOSITION_POSITION",
+        "MISSING_FACT_TYPE_EXPLICIT_SUPPORT_POSITION",
         "MISSING_FACT_TYPE_MATERIAL_RESISTANCE",
         "MISSING_FACT_TYPE_OBJECTIVE",
         "MISSING_FACT_TYPE_STAGE"
@@ -3058,7 +3066,8 @@
         "AUTO-WATCH-PM-MEDIA-20260908233843"
       ],
       "signal_event_ids": [
-        "INTEL-AREA-496d2dd738d0137ef312cf3b"
+        "INTEL-AREA-496d2dd738d0137ef312cf3b",
+        "INTEL-ENRICH-AREA-496d2dd738d0137ef312cf3b-43cb8fbf83009a22"
       ],
       "review_ids": [],
       "area_evidence_ids": [
@@ -3069,7 +3078,10 @@
       ],
       "evidence_summary": "Substantive source record body was acquired, routed to LEGISLATIVE, and written into intelligence with retained detail, source-snapshot and stage-10 threshold lineage. Match registration remains a separate action.",
       "registration_blockers": [
+        "MISSING_CONDITION_DISTINCT_SUPPORTING_AND_OPPOSING_SIDES",
         "MISSING_FACT_TYPE_CONTEST_OBJECT",
+        "MISSING_FACT_TYPE_EXPLICIT_OPPOSITION_POSITION",
+        "MISSING_FACT_TYPE_EXPLICIT_SUPPORT_POSITION",
         "MISSING_FACT_TYPE_STAGE"
       ],
       "linked_contest_id": null,
@@ -3137,7 +3149,8 @@
       ],
       "signal_event_ids": [
         "INTEL-AREA-9e43d313c7571dcd88402aba",
-        "INTEL-ENRICH-AREA-9e43d313c7571dcd88402aba-9b89b1a1f95c2a94"
+        "INTEL-ENRICH-AREA-9e43d313c7571dcd88402aba-9b89b1a1f95c2a94",
+        "INTEL-ENRICH-AREA-9e43d313c7571dcd88402aba-5b3599b5431bb82a"
       ],
       "review_ids": [],
       "area_evidence_ids": [
@@ -3206,9 +3219,9 @@
       ]
     }
   ],
-  "last_screened_at": "2026-09-09T05:42:24.584Z",
+  "last_screened_at": "2026-09-09T05:46:21.734Z",
   "last_screen_summary": {
-    "signals_examined": 171,
+    "signals_examined": 180,
     "candidates_total": 72,
     "candidates_added": 0,
     "candidate_lineage_merges": 237,
@@ -3216,7 +3229,7 @@
     "threshold_state_transitions": 0,
     "registered_contests_unchanged": true
   },
-  "last_duplicate_reconciliation_at": "2026-09-09T05:42:24.664Z",
+  "last_duplicate_reconciliation_at": "2026-09-09T05:46:21.810Z",
   "last_duplicate_reconciliation": {
     "rejected": 0,
     "active_area_family_keys": 44

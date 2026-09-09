@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-INTELLIGENCE-EVENTS-001",
   "scope": "Australia — multi-jurisdiction",
-  "captured_at": "2026-09-09T05:42:24.308Z",
+  "captured_at": "2026-09-09T05:46:21.468Z",
   "mode": "FORWARD_ONLY",
   "rules": {
     "observation_distinct_from_inference": true,
@@ -50435,6 +50435,2973 @@
       "opposing_entities": [],
       "registration_action": "NO_AUTOMATIC_REGISTRATION",
       "intelligence_signature": "9b89b1a1f95c2a9463112f13ac04cbbb3a50360c6825437702e91da99b861286",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "substantive_detail_lineage_required": true,
+        "active_contest_fact_lineage_required": true,
+        "threshold_evaluation_lineage_required": true,
+        "routing_does_not_register_match": true,
+        "threshold_eligibility_does_not_register_match": true,
+        "entity_mentions_do_not_establish_positions": true,
+        "retracted_facts_excluded": true,
+        "no_projection_effect_without_registered_target": true
+      }
+    },
+    {
+      "event_id": "CHG-WATCH-APH-LIVE-MINUTES-20260909054530",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-FED",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-APH-LIVE-MINUTES-20260909054530",
+      "captured_at": "2026-09-09T05:45:30.205Z",
+      "event_date": "2026-09-09",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_PARLIAMENT",
+      "source_id": "SRC-APH-LIVE-MINUTES",
+      "capture_mode": "NORMALISED_PAGE_HASH",
+      "review_policy": "REVIEW_UNSTRUCTURED_CHANGE",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-APH-LIVE-MINUTES-20260909054134",
+        "content_hash": "d188b207e7090fe5a14cc4a4b085563c3a32fbbdd4e07cf3884284035108e519",
+        "capture_mode": "NORMALISED_PAGE_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-APH-LIVE-MINUTES-20260909054530",
+        "content_hash": "c676519c65626181499868b7fbac228192fc893bbb81b434dd879c1eaeab371e",
+        "capture_mode": "NORMALISED_PAGE_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "TEXT_REPRESENTATION",
+        "first_difference_offset": 17807,
+        "before_length": 19567,
+        "after_length": 19586,
+        "before_excerpt": "he House. - <TIME> Discussion ensued. Ms Kearney , <TIME>. Dr M Ryan , <TIME>. Ms K Cook , <TIME>. Ms Sharkie , <TIME>. In this section Bills and Legislation Tabled documents Chamber documents Work of the Senate House of Representatives cha",
+        "after_excerpt": "he House. - <TIME> Discussion ensued. Ms Kearney , <TIME>. Dr M Ryan , <TIME>. Ms K Cook , <TIME>. Ms Sharkie , <TIME>. Ms Sitou , <TIME>. In this section Bills and Legislation Tabled documents Chamber documents Work of the Senate House of Representatives cha",
+        "delta_hash": "bc1c8f90e197b2862d5e001d3a7b13413370a4f30d5c465ca40c6547bae47f5b"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-TAS-PREMIER-NEWS-20260909054530",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-TAS",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-TAS-PREMIER-NEWS-20260909054530",
+      "captured_at": "2026-09-09T05:45:30.205Z",
+      "event_date": "2026-09-09",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-TAS-PREMIER-NEWS",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "review_policy": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-TAS-PREMIER-NEWS-20260909053055",
+        "content_hash": "99e8faeb7079d8ca557096ad297bf472fd40f684a14221a5d21cba8bc24c6442",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-TAS-PREMIER-NEWS-20260909054530",
+        "content_hash": "7d083e78ce737f5365dd48d6d00e5bb987f226857aadc359974ebdb635a6abb2",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "STRUCTURED_RECORD_SET",
+        "records_added": [
+          {
+            "record_id": "5503ad540fbf99bf866e",
+            "title": "2030 Strong Plan for Tasmania’s Future",
+            "url": "https://www.premier.tas.gov.au/our-plan"
+          },
+          {
+            "record_id": "5c58e4f76fec3a1ce5fe",
+            "title": "Contact your Premier",
+            "url": "https://www.premier.tas.gov.au/contact"
+          },
+          {
+            "record_id": "7984975787b4ef2c7007",
+            "title": "Budget 2026-27",
+            "url": "https://www.premier.tas.gov.au/budget-2026"
+          },
+          {
+            "record_id": "bff1215bcb385f2f222a",
+            "title": "300 days of delivering for Tasmania",
+            "url": "https://www.premier.tas.gov.au/__data/assets/pdf_file/0027/517923/2026-Third-100-Days-of-Delivery_Digital.pdf"
+          }
+        ],
+        "records_removed": [
+          {
+            "record_id": "1380674db0bf814247ef",
+            "title": "Working together to help protect our threatened species 7 September 2026 Tasmanians are being encouraged to work together to protect our unique flora and fauna this Threatened Species Day, with a new round of cons...",
+            "url": "https://www.premier.tas.gov.au/latest-news/2026/september/working-together-to-help-protect-our-threatened-species"
+          },
+          {
+            "record_id": "26966632f7c5572725d3",
+            "title": "Paper titles cut from property transactions 7 September 2026 The Tasmanian Government has made it faster, simpler and safer to make property transactions, with paper certificates of title removed from ...",
+            "url": "https://www.premier.tas.gov.au/latest-news/2026/september/paper-titles-cut-from-property-transactions"
+          },
+          {
+            "record_id": "9187be13c3c0412ea6bb",
+            "title": "Tasmania’s tourism industry full steam ahead for Spirit’s inaugural sailing 7 September 2026 Preparations are being finalised for the launch of Spirit of Tasmania&rsquo;s new vessels, with Tourism Tasmania working with industry to bu...",
+            "url": "https://www.premier.tas.gov.au/latest-news/2026/september/tasmanias-tourism-industry-full-steam-ahead-for-spirits-inaugural-sailing"
+          },
+          {
+            "record_id": "9a575440a98cf4041fd6",
+            "title": "Clear expectations for data centres and AI infrastructure 7 September 2026 The Tasmanian Government has released its draft Expectations for Data Centres and AI Infrastructure.Minister for Business, Industry and Reso...",
+            "url": "https://www.premier.tas.gov.au/latest-news/2026/september/clear-expectations-for-data-centres-and-ai-infrastructure"
+          },
+          {
+            "record_id": "d7a1477e0a98625953b3",
+            "title": "Skip to content",
+            "url": "https://www.premier.tas.gov.au/latest-news"
+          }
+        ],
+        "added_count": 4,
+        "removed_count": 5,
+        "before_count": 141,
+        "after_count": 140,
+        "delta_hash": "f7a904ab4a5efe92842937fd6a7a2894c8d3f502cc9db6a8f3038ee84e8940be"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-ACT-GOV-MEDIA-20260909054530",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-ACT",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-ACT-GOV-MEDIA-20260909054530",
+      "captured_at": "2026-09-09T05:45:30.205Z",
+      "event_date": "2026-09-09",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-ACT-GOV-MEDIA",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "review_policy": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-ACT-GOV-MEDIA-20260909054134",
+        "content_hash": "69a1280e86829b5f35b844a99ee45886a182426c28796aefb087adf8f90e93c7",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-ACT-GOV-MEDIA-20260909054530",
+        "content_hash": "cc28ba4e700316adfc6773a11eaf134432094225bcbb375d549ff56584b1e06f",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "STRUCTURED_RECORD_SET",
+        "records_added": [
+          {
+            "record_id": "03df36a18eb0d0a38c97",
+            "title": "View media releases",
+            "url": "https://www.cmtedd.act.gov.au/open_government/inform/act_government_media_releases/chs"
+          },
+          {
+            "record_id": "11230e7abc5a011a5b16",
+            "title": "View media releases",
+            "url": "https://www.cmtedd.act.gov.au/open_government/inform/act_government_media_releases/marisa-paterson-mla-media-releases"
+          },
+          {
+            "record_id": "125cc5a8b7af27feefbe",
+            "title": "Land Development Agency",
+            "url": "https://www.cmtedd.act.gov.au/open_government/inform/act_government_media_releases/lda"
+          },
+          {
+            "record_id": "128e0bcb2f56d02286f3",
+            "title": "View media releases",
+            "url": "https://www.cmtedd.act.gov.au/open_government/inform/act_government_media_releases/cheyne"
+          },
+          {
+            "record_id": "297bae641cb5ed845a0b",
+            "title": "Media releases issued by Ministers",
+            "url": "https://www.cmtedd.act.gov.au/open_government/inform/act_government_media_releases/latest_minister_media_releases"
+          },
+          {
+            "record_id": "2c2d88c83d3faead430f",
+            "title": "Disclaimer",
+            "url": "https://www.cmtedd.act.gov.au/legal/disclaimer"
+          },
+          {
+            "record_id": "2e8754e4d27e378a7f95",
+            "title": "View media releases",
+            "url": "https://www.cmtedd.act.gov.au/open_government/inform/act_government_media_releases/caitlin-tough-mla-media-releases"
+          },
+          {
+            "record_id": "41abb4381646a74de740",
+            "title": "Languages",
+            "url": "https://www.cmtedd.act.gov.au/functions/languages"
+          },
+          {
+            "record_id": "477cd14ccf253a3861fa",
+            "title": "Public notices",
+            "url": "https://www.cmtedd.act.gov.au/open_government/public-notices"
+          },
+          {
+            "record_id": "527dff7100c148e6160b",
+            "title": "View media releases",
+            "url": "https://www.cmtedd.act.gov.au/open_government/inform/act_government_media_releases/act-city-renewal-authority-media-releases"
+          },
+          {
+            "record_id": "5646d9da7800aafd56c9",
+            "title": "View media releases",
+            "url": "https://www.cmtedd.act.gov.au/open_government/inform/act_government_media_releases/rachel-stephen-smith-mla-media-releases"
+          },
+          {
+            "record_id": "776fdea4acf4eb1aa28a",
+            "title": "Subscribe to a media release RSS feed",
+            "url": "https://www.cmtedd.act.gov.au/open_government/inform/act_government_media_releases/all_media_release_rss_feeds"
+          },
+          {
+            "record_id": "7a69807dd5b1f2401391",
+            "title": "View media releases",
+            "url": "https://www.cmtedd.act.gov.au/open_government/inform/act_government_media_releases/chris-steel-mla-media-releases"
+          },
+          {
+            "record_id": "7b5507a82c83ae3ff046",
+            "title": "View media releases",
+            "url": "https://www.cmtedd.act.gov.au/open_government/inform/act_government_media_releases/infrastructure-canberra"
+          },
+          {
+            "record_id": "808e944ffbfdf950d6e3",
+            "title": "Skip to content",
+            "url": "https://www.cmtedd.act.gov.au/open_government/inform/act_government_media_releases"
+          },
+          {
+            "record_id": "98227df2c6f2bec57d78",
+            "title": "View media releases",
+            "url": "https://www.cmtedd.act.gov.au/open_government/inform/act_government_media_releases/suzanne-orr-mla-media-releases"
+          },
+          {
+            "record_id": "a8e2a5e65e62cc06dd37",
+            "title": "WorkSafe ACT",
+            "url": "https://www.cmtedd.act.gov.au/open_government/inform/act_government_media_releases/worksafe-act"
+          },
+          {
+            "record_id": "aaa33e7c7ffd5afe86d4",
+            "title": "About us",
+            "url": "https://www.cmtedd.act.gov.au/functions/about"
+          },
+          {
+            "record_id": "adb4cb715cf2d93b4e89",
+            "title": "View media releases",
+            "url": "https://www.cmtedd.act.gov.au/open_government/inform/act_government_media_releases/etd"
+          },
+          {
+            "record_id": "b109e9c82a97f959e15f",
+            "title": "ACT Health",
+            "url": "https://www.cmtedd.act.gov.au/open_government/inform/act_government_media_releases/hd"
+          },
+          {
+            "record_id": "b8c69c6d78770c2e1c3e",
+            "title": "View media releases",
+            "url": "https://www.cmtedd.act.gov.au/open_government/inform/act_government_media_releases/barr"
+          },
+          {
+            "record_id": "ba5e2f36c8a7cf0c616a",
+            "title": "View media releases",
+            "url": "https://www.cmtedd.act.gov.au/open_government/inform/act_government_media_releases/dc"
+          },
+          {
+            "record_id": "ba9a02889c2c613a8e93",
+            "title": "Former ministers media releases",
+            "url": "https://www.cmtedd.act.gov.au/open_government/inform/act_government_media_releases/past-ministers-media-releases"
+          },
+          {
+            "record_id": "c38f71a3f95b203d5ce0",
+            "title": "View media releases",
+            "url": "https://www.cmtedd.act.gov.au/open_government/inform/act_government_media_releases/cmcd"
+          },
+          {
+            "record_id": "d50e97c3d8b751ebec02",
+            "title": "Transport Canberra and City Services",
+            "url": "https://www.cmtedd.act.gov.au/open_government/inform/act_government_media_releases/act-transport-canberra-and-city-services-media-releases"
+          },
+          {
+            "record_id": "d5dd774fc395a323e040",
+            "title": "Environment, Planning and Sustainable Development Directorate",
+            "url": "https://www.cmtedd.act.gov.au/open_government/inform/act_government_media_releases/esdd"
+          },
+          {
+            "record_id": "db53d7bffd13d383f8af",
+            "title": "View media releases",
+            "url": "https://www.cmtedd.act.gov.au/open_government/inform/act_government_media_releases/michael-pettersson-mla-media-releases"
+          },
+          {
+            "record_id": "e34ed7bb90356ebf03c3",
+            "title": "View media releases",
+            "url": "https://www.cmtedd.act.gov.au/open_government/inform/act_government_media_releases/access-canberra"
+          },
+          {
+            "record_id": "e56e20cd9e5e49dd0ddd",
+            "title": "Open Government",
+            "url": "https://www.cmtedd.act.gov.au/open_government"
+          },
+          {
+            "record_id": "ebaa1ff2ce44b8c5e660",
+            "title": "View media releases",
+            "url": "https://www.cmtedd.act.gov.au/open_government/inform/act_government_media_releases/ce"
+          },
+          {
+            "record_id": "f68eefcc2c8d1a29a974",
+            "title": "View media releases",
+            "url": "https://www.cmtedd.act.gov.au/open_government/inform/act_government_media_releases/act-suburban-land-agency-media-releases"
+          },
+          {
+            "record_id": "fbbda4cdd35e3e7ed6ec",
+            "title": "View media releases",
+            "url": "https://www.cmtedd.act.gov.au/open_government/inform/act_government_media_releases/hcs"
+          },
+          {
+            "record_id": "fc1dd2b1867ed295817d",
+            "title": "Media releases issued by Directorates",
+            "url": "https://www.cmtedd.act.gov.au/open_government/inform/act_government_media_releases/latest_directorate_media_releases"
+          },
+          {
+            "record_id": "ff217f3415747f446c93",
+            "title": "View media releases",
+            "url": "https://www.cmtedd.act.gov.au/open_government/inform/act_government_media_releases/jacsd"
+          }
+        ],
+        "records_removed": [
+          {
+            "record_id": "00bd00bfcb5985dc19b5",
+            "title": "08 Sep 2026 Biological intelligence firm Diversity Arrays Technology named ACT Exporter of the Year Diversity Arrays Technology (DArT), an integrated biological intelligence business founded in Canberra, has been named ACT Exporter...",
+            "url": "https://www.cmtedd.act.gov.au/open_government/inform/act_government_media_releases/barr/2026/biological-intelligence-firm-diversity-arrays-technology-named-act-exporter-of-the-year"
+          },
+          {
+            "record_id": "031750be2e3c11586c7d",
+            "title": "Detainees at the Alexander Maconochie Centre",
+            "url": "https://www.act.gov.au/law-and-justice/detainees-at-the-alexander-maconochie-centre"
+          },
+          {
+            "record_id": "04ab03baecc23896ef09",
+            "title": "Albert Hall",
+            "url": "https://www.act.gov.au/venues-spaces-and-precincts/albert-hall"
+          },
+          {
+            "record_id": "0503acfb11218d742875",
+            "title": "Money and tax",
+            "url": "https://www.act.gov.au/money-and-tax"
+          },
+          {
+            "record_id": "06076b473ac9109c554d",
+            "title": "City Services Directorate website",
+            "url": "https://www.act.gov.au/city-services/city-services-directorate-website"
+          },
+          {
+            "record_id": "067f90fbc0a05aad2e77",
+            "title": "Public space improvements at Group Centres Have your say on options for public space improvements at the Charnwood, Erindale and Mawson shops.",
+            "url": "https://yoursayconversations.act.gov.au/public-space-improvements-local-shops"
+          },
+          {
+            "record_id": "0a86b22eaa077820c027",
+            "title": "book-a-venue",
+            "url": "https://www.act.gov.au/venues-spaces-and-precincts/book-a-venue"
+          },
+          {
+            "record_id": "0f62ac13366fb3a9947b",
+            "title": "Housing, planning and property",
+            "url": "https://www.act.gov.au/housing-planning-and-property"
+          },
+          {
+            "record_id": "0f9c56e66389f210157c",
+            "title": "Affirmative consent",
+            "url": "https://www.act.gov.au/law-and-justice/affirmative-consent"
+          },
+          {
+            "record_id": "17d1c9418f8348b4652c",
+            "title": "Land release and development opportunities",
+            "url": "https://www.act.gov.au/housing-planning-and-property/land-develop"
+          },
+          {
+            "record_id": "1943d8a94c82a15ac8a4",
+            "title": "Public housing",
+            "url": "https://www.act.gov.au/housing-planning-and-property/public-housing"
+          },
+          {
+            "record_id": "1d71b2a60c8997ecac9c",
+            "title": "Heritage",
+            "url": "https://www.act.gov.au/environment/heritage"
+          },
+          {
+            "record_id": "1f0db3b05c922312b508",
+            "title": "Pathways Hub",
+            "url": "https://www.act.gov.au/education-and-training/pathways-hub"
+          },
+          {
+            "record_id": "22b5038d0a2be2311dad",
+            "title": "ACT Revenue Office",
+            "url": "https://www.act.gov.au/money-and-tax/act-revenue-office"
+          },
+          {
+            "record_id": "25f8919f58396e307473",
+            "title": "Public transport and MyWay+",
+            "url": "https://www.transport.act.gov.au/tickets-and-myway"
+          },
+          {
+            "record_id": "2947a6650755d262076e",
+            "title": "Clinician alerts",
+            "url": "https://www.act.gov.au/health/clinician-alerts"
+          },
+          {
+            "record_id": "2a0faa700af82bd407c1",
+            "title": "Honours and awards",
+            "url": "https://www.act.gov.au/community/honours-and-awards"
+          },
+          {
+            "record_id": "2b3e6df46236cb56a5b4",
+            "title": "Older Canberrans",
+            "url": "https://www.act.gov.au/community/older-canberrans"
+          },
+          {
+            "record_id": "2e08e7e73a26cd2ea3b7",
+            "title": "City and Environment Directorate",
+            "url": "https://www.act.gov.au/directorates-and-agencies/city-and-environment-directorate"
+          },
+          {
+            "record_id": "2eaf49d66192da41bd7f",
+            "title": "Renew or replace your drivers licence",
+            "url": "https://www.act.gov.au/transport-and-traffic/renew-or-replace-your-drivers-licence"
+          },
+          {
+            "record_id": "2efa20d1464ee6f8e216",
+            "title": "Restorative justice",
+            "url": "https://www.act.gov.au/law-and-justice/restorative-justice"
+          },
+          {
+            "record_id": "2f30a404e54e42aa358c",
+            "title": "Renting in the ACT",
+            "url": "https://www.act.gov.au/housing-planning-and-property/renting"
+          },
+          {
+            "record_id": "30d69350bba82060113f",
+            "title": "Transport and traffic",
+            "url": "https://www.act.gov.au/transport-and-traffic"
+          },
+          {
+            "record_id": "3119778bf9f6eb03ff7d",
+            "title": "Multicultural communities",
+            "url": "https://www.act.gov.au/community/multicultural-communities"
+          },
+          {
+            "record_id": "3122cdc071186c86a136",
+            "title": "Access Canberra",
+            "url": "https://www.act.gov.au/city-services/access-canberra"
+          },
+          {
+            "record_id": "319befb073ec7f5b1f1f",
+            "title": "View more Canberra news",
+            "url": "https://www.act.gov.au/our-canberra"
+          },
+          {
+            "record_id": "32ff0f2a5d29578c66c8",
+            "title": "Supporting education in the ACT",
+            "url": "https://www.act.gov.au/education-and-training/supporting-education-in-the-act"
+          },
+          {
+            "record_id": "33f21460699744f14439",
+            "title": "Air quality",
+            "url": "https://www.act.gov.au/environment/air-quality"
+          },
+          {
+            "record_id": "34e9fe557b9f932a72a0",
+            "title": "Teaching and assessment",
+            "url": "https://www.act.gov.au/education-and-training/teaching-and-assessment"
+          },
+          {
+            "record_id": "350efb6903b484a2e08b",
+            "title": "International students and temporary visa holders",
+            "url": "https://www.act.gov.au/education-and-training/international-students-and-temporary-visa-holders"
+          },
+          {
+            "record_id": "366507d742cd9bfc2a73",
+            "title": "Tickets and MyWay+",
+            "url": "https://www.act.gov.au/transport-and-traffic/tickets-and-myway"
+          },
+          {
+            "record_id": "378cd0939971670491f2",
+            "title": "ACT Government jobs",
+            "url": "https://www.jobs.act.gov.au/home"
+          },
+          {
+            "record_id": "37f75e65048fb85cd284",
+            "title": "Bus timetables",
+            "url": "https://www.transport.act.gov.au/getting-around/timetables"
+          },
+          {
+            "record_id": "39d24ff952eb3cc62829",
+            "title": "Board of Inquiry into Aboriginal and Torres Strait Islander deaths in custody in the Alexander Maconochie Centre",
+            "url": "https://www.act.gov.au/law-and-justice/board-of-inquiry-into-aboriginal-and-torres-strait-islander-deaths-in-custody-in-the-amc"
+          },
+          {
+            "record_id": "3b26bcf49de8ead9b204",
+            "title": "Run your business",
+            "url": "https://www.act.gov.au/business/run-your-business"
+          },
+          {
+            "record_id": "3c55faa8ee58950838c2",
+            "title": "Public holidays and school terms",
+            "url": "https://www.act.gov.au/living-in-the-act/public-holidays-school-terms-and-daylight-saving"
+          },
+          {
+            "record_id": "3c97bc6d1a496b5c81b7",
+            "title": "Work with ACT Government",
+            "url": "https://www.act.gov.au/work-with-act-government"
+          },
+          {
+            "record_id": "3db4da447a74374eeaf0",
+            "title": "Recycling and bin collection",
+            "url": "https://www.act.gov.au/city-services/recycling-and-bin-collection"
+          },
+          {
+            "record_id": "412f9cc30783c91466b1",
+            "title": "School term dates and public holidays",
+            "url": "https://www.act.gov.au/education-and-training/school-term-dates-and-public-holidays-old"
+          },
+          {
+            "record_id": "43481139b4a228057e3e",
+            "title": "Venues, spaces and precincts",
+            "url": "https://www.act.gov.au/venues-spaces-and-precincts"
+          },
+          {
+            "record_id": "43ff6b93ee5531d22aaa",
+            "title": "Find a school and enrol",
+            "url": "https://www.act.gov.au/education-and-training/find-a-school-and-enrol"
+          },
+          {
+            "record_id": "47b775d0b3b506bb75a0",
+            "title": "Pets and wildlife",
+            "url": "https://www.act.gov.au/city-services/pets-and-wildlife"
+          },
+          {
+            "record_id": "48b6108eadb6aad6c536",
+            "title": "Conducting health research in the ACT",
+            "url": "https://www.act.gov.au/health/conducting-health-research"
+          },
+          {
+            "record_id": "4a0cf062893fde2320b1",
+            "title": "Community",
+            "url": "https://www.act.gov.au/community"
+          },
+          {
+            "record_id": "4bff3ba05ad3ec742669",
+            "title": "City services",
+            "url": "https://www.act.gov.au/city-services"
+          },
+          {
+            "record_id": "4ded5794ac00974f89bb",
+            "title": "Tools and resources",
+            "url": "https://www.act.gov.au/business/tools-and-resources"
+          },
+          {
+            "record_id": "4e51b83d0a76f0e310f7",
+            "title": "09 Sep 2026 New trial to support endorsed midwives in ACT public maternity services Women and families accessing public maternity services in Canberra will benefit from a new trial designed to...",
+            "url": "https://www.cmtedd.act.gov.au/open_government/inform/act_government_media_releases/marisa-paterson-mla-media-releases/2026/new-trial-to-support-endorsed-midwives-in-act-public-maternity-services"
+          },
+          {
+            "record_id": "502ad2ef561b2e598b73",
+            "title": "Open government information",
+            "url": "https://www.act.gov.au/open"
+          },
+          {
+            "record_id": "50bdbf61e63577ea1102",
+            "title": "Victim support",
+            "url": "https://www.act.gov.au/law-and-justice/victim-support"
+          },
+          {
+            "record_id": "56a35ba4a8e455c077bf",
+            "title": "State Emergency Service",
+            "url": "https://www.act.gov.au/emergency-and-safety/state-emergency-service"
+          },
+          {
+            "record_id": "58d2cbc962f65fc89ef6",
+            "title": "Homes for Canberra",
+            "url": "https://www.act.gov.au/housing-planning-and-property/homes-for-canberra"
+          },
+          {
+            "record_id": "5ab72d5dd7c19f185bac",
+            "title": "Trees and nature strips",
+            "url": "https://www.act.gov.au/city-services/trees-and-nature-strips"
+          },
+          {
+            "record_id": "5b0261ee9045f2364cc8",
+            "title": "Law and justice",
+            "url": "https://www.act.gov.au/law-and-justice"
+          },
+          {
+            "record_id": "5c94aa19cbea4254a151",
+            "title": "Draft ACT Skate Strategy Following a community-driven inquiry with 33 recommendations, the ACT Government is seeking feedback on a Draft Skate Strategy to support planning and skate culture.",
+            "url": "https://yoursayconversations.act.gov.au/draft-act-skate-strategy"
+          },
+          {
+            "record_id": "5e4e2ecff171dffb05d8",
+            "title": "Education service providers",
+            "url": "https://www.act.gov.au/education-and-training/education-service-providers"
+          },
+          {
+            "record_id": "5eeb757f145ea1ae41eb",
+            "title": "Environment",
+            "url": "https://www.act.gov.au/environment"
+          },
+          {
+            "record_id": "61c38821a34a279eb178",
+            "title": "Recreation All Canberra Activities for toddlers in the ACT",
+            "url": "https://www.act.gov.au/our-canberra/latest-news/2026/september/activities-for-toddlers-in-canberra"
+          },
+          {
+            "record_id": "6223207b806a11c9b7aa",
+            "title": "Reduce the impacts of disasters",
+            "url": "https://www.act.gov.au/emergency-and-safety/reduce-the-impact-of-disasters"
+          },
+          {
+            "record_id": "6377652041794819f835",
+            "title": "Digital Canberra",
+            "url": "https://www.act.gov.au/directorates-and-agencies/digital-canberra"
+          },
+          {
+            "record_id": "65d21f63dad73a8832ec",
+            "title": "Living healthy in the ACT",
+            "url": "https://www.act.gov.au/health/topics"
+          },
+          {
+            "record_id": "673216512cf66b6b3876",
+            "title": "Ambulance",
+            "url": "https://www.act.gov.au/emergency-and-safety/ambulance"
+          },
+          {
+            "record_id": "6af160a82479c149e9a9",
+            "title": "ACT Government Communications",
+            "url": "https://www.act.gov.au/act-government/communications"
+          },
+          {
+            "record_id": "6f4f1f472993b2b7964c",
+            "title": "Renew rego",
+            "url": "https://www.accesscanberra.act.gov.au/driving-transport-and-parking/registration/renewing-vehicle-registration"
+          },
+          {
+            "record_id": "6ff17c63a6b780c8faad",
+            "title": "Chief Minister, Treasury and Economic Development Directorate",
+            "url": "https://www.act.gov.au/directorates-and-agencies/chief-minister-treasury-and-economic-development-directorate"
+          },
+          {
+            "record_id": "722353322d341ef89828",
+            "title": "About ACT Government",
+            "url": "https://www.act.gov.au/act-government"
+          },
+          {
+            "record_id": "738f2d881535f29d44b0",
+            "title": "Former Transport Depot",
+            "url": "https://www.act.gov.au/venues-spaces-and-precincts/former-transport-depot"
+          },
+          {
+            "record_id": "754e4c85328d82c4f647",
+            "title": "Yarralumla Woolshed",
+            "url": "https://www.act.gov.au/venues-spaces-and-precincts/yarralumla-woolshed"
+          },
+          {
+            "record_id": "7756cf8d0a3d255045e1",
+            "title": "Community service providers",
+            "url": "https://www.act.gov.au/community/community-service-providers"
+          },
+          {
+            "record_id": "79e8a73eb5c95d5d8398",
+            "title": "Health and Community Services Directorate",
+            "url": "https://www.act.gov.au/directorates-and-agencies/health-and-community-services-directorate"
+          },
+          {
+            "record_id": "7d65791da3ce5cf337d7",
+            "title": "Support for veterans and their families",
+            "url": "https://www.act.gov.au/community/support-for-veterans-and-their-families"
+          },
+          {
+            "record_id": "7e7eea126dd60513cb48",
+            "title": "Fix my street",
+            "url": "https://www.act.gov.au/city-services/fix-my-street"
+          },
+          {
+            "record_id": "7fdfef0445d61b06dc94",
+            "title": "Directorates and agencies",
+            "url": "https://www.act.gov.au/act-government/directorates-and-agencies"
+          },
+          {
+            "record_id": "80c4e1d116b1557f4a1e",
+            "title": "People with disability",
+            "url": "https://www.act.gov.au/community/people-with-disability"
+          },
+          {
+            "record_id": "81961cd3aae94292d853",
+            "title": "Domestic, family and sexual violence",
+            "url": "https://www.act.gov.au/community/domestic-family-and-sexual-violence"
+          },
+          {
+            "record_id": "84cb199c7e6dd9d359df",
+            "title": "Coercive control",
+            "url": "https://www.act.gov.au/law-and-justice/coercive-control"
+          },
+          {
+            "record_id": "87548a327e58f517ab0a",
+            "title": "Infrastructure Canberra",
+            "url": "https://www.act.gov.au/directorates-and-agencies/infrastructure-canberra"
+          },
+          {
+            "record_id": "893e4a1960dd64364980",
+            "title": "Canberra Health Services",
+            "url": "https://www.act.gov.au/directorates-and-agencies/canberra-health-services"
+          },
+          {
+            "record_id": "8af28edcbdd795c0aa99",
+            "title": "Funding and support",
+            "url": "https://www.act.gov.au/money-and-tax/grants-funding-and-incentives"
+          },
+          {
+            "record_id": "8d23f9172eaddd89cf09",
+            "title": "Recreation All Canberra Canberra’s best matchas, as voted by you",
+            "url": "https://www.act.gov.au/our-canberra/latest-news/2026/september/canberras-best-matchas,-as-voted-by-you"
+          },
+          {
+            "record_id": "900f3452aad34fb0c2f2",
+            "title": "Industry guidance",
+            "url": "https://www.act.gov.au/business/industry-guidance"
+          },
+          {
+            "record_id": "9077cc21f745cf05eefd",
+            "title": "Start a food business",
+            "url": "https://www.act.gov.au/business/start-a-food-business"
+          },
+          {
+            "record_id": "940288089171cb86affb",
+            "title": "Black Mountain Slipway",
+            "url": "https://www.act.gov.au/venues-spaces-and-precincts/black-mountain-slipway"
+          },
+          {
+            "record_id": "9408c917cb8812afc475",
+            "title": "Fitters Workshop",
+            "url": "https://www.act.gov.au/venues-spaces-and-precincts/fitters-workshop"
+          },
+          {
+            "record_id": "94376e8eddcc63b32e4d",
+            "title": "Get housing help and crisis support",
+            "url": "https://www.act.gov.au/housing-planning-and-property/help"
+          },
+          {
+            "record_id": "979e718fcdae75db0a53",
+            "title": "Find a health service or short-term support",
+            "url": "https://www.act.gov.au/health/find-a-health-service-or-short-term-support"
+          },
+          {
+            "record_id": "98aeb4500a0e74bc6aea",
+            "title": "ACT Emergency Services Agency",
+            "url": "https://www.act.gov.au/emergency-and-safety/act-emergency-services-agency"
+          },
+          {
+            "record_id": "9a6af77dc2ca8a77055b",
+            "title": "See all media releases",
+            "url": "https://www.cmtedd.act.gov.au/open_government/inform/act_government_media_releases"
+          },
+          {
+            "record_id": "9b7f5e3c3b64987a8921",
+            "title": "Healthier Work",
+            "url": "https://www.act.gov.au/business/healthier-work"
+          },
+          {
+            "record_id": "a14d0885571c18d7357f",
+            "title": "Legal support services",
+            "url": "https://www.act.gov.au/law-and-justice/legal-support"
+          },
+          {
+            "record_id": "a1f4ac5e0fe6710a2e07",
+            "title": "Planning and building in the ACT",
+            "url": "https://www.act.gov.au/housing-planning-and-property/plan-build"
+          },
+          {
+            "record_id": "a4d36df11b8473eaee2a",
+            "title": "Education Directorate",
+            "url": "https://www.act.gov.au/directorates-and-agencies/education-directorate"
+          },
+          {
+            "record_id": "a6d0950a2d4176f862ba",
+            "title": "Canberra Institute of Technology",
+            "url": "https://www.act.gov.au/education-and-training/canberra-institute-of-technology"
+          },
+          {
+            "record_id": "a716b88ca21983f8e093",
+            "title": "Start a business in Canberra",
+            "url": "https://www.act.gov.au/business/start-a-business-in-canberra"
+          },
+          {
+            "record_id": "a7e2db7075d538834aad",
+            "title": "Skills and training",
+            "url": "https://www.act.gov.au/education-and-training/skills-and-training"
+          },
+          {
+            "record_id": "aa77116a9c8267de3ec2",
+            "title": "Gambling harm",
+            "url": "https://www.act.gov.au/community/gambling-harm"
+          },
+          {
+            "record_id": "ab242aa4e774c09a5ebe",
+            "title": "Built for CBR",
+            "url": "https://www.act.gov.au/builtforcbr"
+          },
+          {
+            "record_id": "ac74fd6659e07e7ae8e4",
+            "title": "Journey planner",
+            "url": "https://www.act.gov.au/transport-and-traffic/journey-planner"
+          },
+          {
+            "record_id": "acd2769a6f3fbee87db5",
+            "title": "Cost of living payment for apprentices and trainees",
+            "url": "https://www.act.gov.au/education-and-training/payment-for-apprentices-and-trainees"
+          },
+          {
+            "record_id": "ae8c93cdb94a282f6c44",
+            "title": "Buying and owning a home in the ACT",
+            "url": "https://www.act.gov.au/housing-planning-and-property/buy-own"
+          },
+          {
+            "record_id": "af2c25a3aef2642f432f",
+            "title": "Apply for grants and funding",
+            "url": "https://www.act.gov.au/business/apply-for-grants-and-funding"
+          },
+          {
+            "record_id": "af921648b71057c1f519",
+            "title": "Research and data",
+            "url": "https://www.act.gov.au/environment/research-and-data"
+          },
+          {
+            "record_id": "b03b5e338f3c635a71f8",
+            "title": "08 Sep 2026 Nominations open for the 2026 CBR Sport Awards Nominations are now open for the 2026 CBR Sport Awards, recognising outstanding achievements and contributions across the...",
+            "url": "https://www.cmtedd.act.gov.au/open_government/inform/act_government_media_releases/chris-steel-mla-media-releases/2026/nominations-open-for-the-2026-cbr-sport-awards"
+          },
+          {
+            "record_id": "b0628f48bccda823e57e",
+            "title": "Gungahlin Community Centre",
+            "url": "https://www.act.gov.au/venues-spaces-and-precincts/gungahlin-community-centre"
+          },
+          {
+            "record_id": "b112ec12291eebf7b418",
+            "title": "Tharwa Community Room",
+            "url": "https://www.act.gov.au/venues-spaces-and-precincts/tharwa-community-room"
+          },
+          {
+            "record_id": "b18c0fc6a4c0a0aad363",
+            "title": "Work with ACT Government",
+            "url": "https://www.act.gov.au/act-government/work-with-act-government"
+          },
+          {
+            "record_id": "b21bd9e8357554d7d3b5",
+            "title": "Animals and plants",
+            "url": "https://www.act.gov.au/environment/animals-and-plants"
+          },
+          {
+            "record_id": "b375d57925219f7fd90b",
+            "title": "Life at school and college",
+            "url": "https://www.act.gov.au/education-and-training/life-at-school-and-college"
+          },
+          {
+            "record_id": "b4bbffc19e9c42610c1f",
+            "title": "Fire and rescue",
+            "url": "https://www.act.gov.au/emergency-and-safety/fire-and-rescue"
+          },
+          {
+            "record_id": "b57ca4cd8088e6603bce",
+            "title": "Cost of living support",
+            "url": "https://www.act.gov.au/money-and-tax/cost-of-living-support"
+          },
+          {
+            "record_id": "b62f392330a6cfb0ab48",
+            "title": "Driver licence renewal",
+            "url": "https://www.accesscanberra.act.gov.au/driving-transport-and-parking/licences/renew-or-replace-your-driver-licence"
+          },
+          {
+            "record_id": "b6ead27b3ce76ffdab7a",
+            "title": "Ways to pay a fine",
+            "url": "https://www.act.gov.au/transport-and-traffic/ways-to-pay-a-fine"
+          },
+          {
+            "record_id": "b72cf723de800bdd69ed",
+            "title": "Current incidents",
+            "url": "https://www.act.gov.au/emergency-and-safety/current-incidents"
+          },
+          {
+            "record_id": "b874e481c6a6c375300a",
+            "title": "Education and training",
+            "url": "https://www.act.gov.au/education-and-training"
+          },
+          {
+            "record_id": "b8fbb96549f3559ccc40",
+            "title": "LGBTIQA+ communities",
+            "url": "https://www.act.gov.au/community/lgbtiqa-communities"
+          },
+          {
+            "record_id": "ba4a43caddf744224f93",
+            "title": "Digital Health Record",
+            "url": "https://www.act.gov.au/health/digital-health-record"
+          },
+          {
+            "record_id": "bb7999d5a6d44cc706cf",
+            "title": "Transport Canberra",
+            "url": "https://www.act.gov.au/transport-and-traffic/transport-canberra"
+          },
+          {
+            "record_id": "bbe8fc2ab893a1445f9e",
+            "title": "Providing health care in the ACT",
+            "url": "https://www.act.gov.au/health/providing-health-care-in-the-act"
+          },
+          {
+            "record_id": "be9d0d5fabc2ba38fc33",
+            "title": "Environment projects",
+            "url": "https://www.act.gov.au/environment/environment-projects"
+          },
+          {
+            "record_id": "c1a6829237c398c17084",
+            "title": "The Draft Southern Gateway Planning and Design Framework Have your say on creating essential community facilities, parks and active travel networks along the Southern Gateway Corridor for the Territory.",
+            "url": "https://yoursayconversations.act.gov.au/southerngatewaycorridor"
+          },
+          {
+            "record_id": "c49f39d02400c3192090",
+            "title": "Reporting notifiable diseases",
+            "url": "https://www.act.gov.au/health/reporting-notifiable-diseases"
+          },
+          {
+            "record_id": "c4b9c5343b6cbae5d342",
+            "title": "Bin collection calendar",
+            "url": "https://www.cityservices.act.gov.au/recycling-and-waste/bins"
+          },
+          {
+            "record_id": "c512be94722ed2bc081f",
+            "title": "Renewing registration",
+            "url": "https://www.act.gov.au/transport-and-traffic/renewing-registration"
+          },
+          {
+            "record_id": "c64fdf340fc9d7fdea51",
+            "title": "Law reforms",
+            "url": "https://www.act.gov.au/law-and-justice/law-reforms"
+          },
+          {
+            "record_id": "c7a99fab3cce43809b76",
+            "title": "Child protection and youth justice",
+            "url": "https://www.act.gov.au/community/child-protection-and-youth-justice"
+          },
+          {
+            "record_id": "c9424ba85e004594048f",
+            "title": "Oaks Estate Community Hall",
+            "url": "https://www.act.gov.au/venues-spaces-and-precincts/oaks-estate-community-hall"
+          },
+          {
+            "record_id": "c99aba772c9eae964a82",
+            "title": "ACT Government",
+            "url": "https://www.act.gov.au/act-government"
+          },
+          {
+            "record_id": "cb85ef3f8fdfc18c6599",
+            "title": "Recreation All Canberra Canberra’s best gluten-free eats",
+            "url": "https://www.act.gov.au/our-canberra/latest-news/2026/september/canberras-best-gluten-free-eats"
+          },
+          {
+            "record_id": "ccafab512053e9ffd31f",
+            "title": "Emergency and safety",
+            "url": "https://www.act.gov.au/emergency-and-safety"
+          },
+          {
+            "record_id": "cd0364ace303db94eaef",
+            "title": "Parks and conservation",
+            "url": "https://www.act.gov.au/environment/parks-and-conservation"
+          },
+          {
+            "record_id": "cf684dd2b0772a8d0162",
+            "title": "Families",
+            "url": "https://www.act.gov.au/community/families"
+          },
+          {
+            "record_id": "d0677f6d11695f0dbba2",
+            "title": "Aboriginal and Torres Strait Islander peoples",
+            "url": "https://www.act.gov.au/community/aboriginal-and-torres-strait-islander-peoples"
+          },
+          {
+            "record_id": "d48611ce648694d88509",
+            "title": "Get help and advice",
+            "url": "https://www.act.gov.au/business/get-help-and-advice"
+          },
+          {
+            "record_id": "d7cf664181c22d26f1bc",
+            "title": "Justice and Community Safety Directorate",
+            "url": "https://www.act.gov.au/directorates-and-agencies/justice-and-community-safety-directorate"
+          },
+          {
+            "record_id": "d8c5cd0cb649c4eea763",
+            "title": "Fuel supply in the ACT",
+            "url": "https://www.act.gov.au/act-government/fuel-supply-in-the-act"
+          },
+          {
+            "record_id": "e45bb5933c91e8fd115a",
+            "title": "Rural fire service",
+            "url": "https://www.act.gov.au/emergency-and-safety/rural-fire-service"
+          },
+          {
+            "record_id": "e4b0150e07b503b596dd",
+            "title": "Subscribe now",
+            "url": "https://www.act.gov.au/our-canberra/subscribe-to-our-canberra"
+          },
+          {
+            "record_id": "e670674ff3f914b7afa2",
+            "title": "Business",
+            "url": "https://www.act.gov.au/business"
+          },
+          {
+            "record_id": "ef49e21bc8f797f44414",
+            "title": "ACT Legislation Register",
+            "url": "https://www.act.gov.au/law-and-justice/act-legislation-register"
+          },
+          {
+            "record_id": "ef6a5c347d2961ee0717",
+            "title": "Early childhood and preschool",
+            "url": "https://www.act.gov.au/education-and-training/early-childhood-and-preschool"
+          },
+          {
+            "record_id": "f3d8b31086caae0d09fc",
+            "title": "Open government information",
+            "url": "https://www.act.gov.au/act-government/open"
+          },
+          {
+            "record_id": "f9428e75eabe33e47476",
+            "title": "Routes and timetables",
+            "url": "https://www.act.gov.au/transport-and-traffic/routes-and-timetables"
+          },
+          {
+            "record_id": "f95ff8cea179f3d33447",
+            "title": "Vehicle registration and transfer",
+            "url": "https://www.act.gov.au/transport-and-traffic/vehicle-registration-and-transfer"
+          },
+          {
+            "record_id": "fb5136fb757ffde324dd",
+            "title": "Per- and poly-fluoroalkyl substances (PFAS)",
+            "url": "https://www.act.gov.au/environment/per-and-poly-fluoroalkyl-substances-pfas"
+          },
+          {
+            "record_id": "fdde860c2f093dd09a0f",
+            "title": "Protect your identity after a data breach or cyber-attack",
+            "url": "https://www.act.gov.au/emergency-and-safety/protect-your-identity-after-a-data-breach-or-cyber-attack"
+          }
+        ],
+        "added_count": 34,
+        "removed_count": 144,
+        "before_count": 144,
+        "after_count": 34,
+        "delta_hash": "f4c295fb21dc69fbbcb8f18d1792917600174eec7ef3923d5e83519272d449ae"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-NTEC-MEDIA-20260909054530",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-NT",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-NTEC-MEDIA-20260909054530",
+      "captured_at": "2026-09-09T05:45:30.205Z",
+      "event_date": "2026-09-09",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_ELECTORAL_AUTHORITY",
+      "source_id": "SRC-NTEC-MEDIA",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "review_policy": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-NTEC-MEDIA-20260909035658",
+        "content_hash": "d532efcb49c91a86b7f127743a6a3263afc6ecbd2be5d25d95636cba75d189c9",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-NTEC-MEDIA-20260909054530",
+        "content_hash": "f4d890d24ceee433bd09c60848b7c003c6f19c5bd08e71bac4641cda2747bc31",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "STRUCTURED_RECORD_SET",
+        "records_added": [
+          {
+            "record_id": "4297265d1134b8543a56",
+            "title": "Timetable",
+            "url": "https://ntec.nt.gov.au/elections/current-elections/2026-mulka-by-election/Mulka-timetable"
+          },
+          {
+            "record_id": "e1c8d06d96c0dff73984",
+            "title": "List of candidate",
+            "url": "https://ntec.nt.gov.au/elections/current-elections/2026-mulka-by-election/list-of-candidates"
+          }
+        ],
+        "records_removed": [
+          {
+            "record_id": "18db2e364ec543aa2917",
+            "title": "2022 (12)",
+            "url": "https://ntec.nt.gov.au/about-us/media-and-publications/media-releases/2022"
+          },
+          {
+            "record_id": "248ec28e5c87e1848da0",
+            "title": "Skip to main navigation",
+            "url": "https://ntec.nt.gov.au/about-us/media-and-publications/media-releases"
+          },
+          {
+            "record_id": "50aefaff7f3642161412",
+            "title": "2024 (45)",
+            "url": "https://ntec.nt.gov.au/about-us/media-and-publications/media-releases/2024"
+          },
+          {
+            "record_id": "6747a7644bfac85ebf91",
+            "title": "2021 (22)",
+            "url": "https://ntec.nt.gov.au/about-us/media-and-publications/media-releases/2021"
+          },
+          {
+            "record_id": "914da1d68b1c54b2691f",
+            "title": "2025 (31)",
+            "url": "https://ntec.nt.gov.au/about-us/media-and-publications/media-releases/2025"
+          },
+          {
+            "record_id": "abda225ae92bab593eb9",
+            "title": "2026 (31)",
+            "url": "https://ntec.nt.gov.au/about-us/media-and-publications/media-releases/2026"
+          },
+          {
+            "record_id": "cf2caaf0bb64d2b93508",
+            "title": "2020 (30)",
+            "url": "https://ntec.nt.gov.au/about-us/media-and-publications/media-releases/2020"
+          },
+          {
+            "record_id": "dc477118fd386d837561",
+            "title": "Skip to main content",
+            "url": "https://ntec.nt.gov.au/about-us/media-and-publications/media-releases"
+          },
+          {
+            "record_id": "dd2388691b8bf63b647b",
+            "title": "2023 (63)",
+            "url": "https://ntec.nt.gov.au/about-us/media-and-publications/media-releases/2023"
+          },
+          {
+            "record_id": "eea3e6c860ab9b6be80b",
+            "title": "Print this page",
+            "url": "https://ntec.nt.gov.au/about-us/media-and-publications/media-releases"
+          }
+        ],
+        "added_count": 2,
+        "removed_count": 10,
+        "before_count": 139,
+        "after_count": 131,
+        "delta_hash": "f0229d292ab32f218558c1908f94fc59ab5a3859e110845a9cd7834fc3adf906"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "SIG-REV-CHG-WATCH-TAS-PREMIER-NEWS-20260909054530",
+      "parent_event_id": "CHG-WATCH-TAS-PREMIER-NEWS-20260909054530",
+      "review_id": "REV-CHG-WATCH-TAS-PREMIER-NEWS-20260909054530",
+      "jurisdiction_id": "AUS-TAS",
+      "party_id": null,
+      "actor_id": null,
+      "contest_id": null,
+      "cycle_id": null,
+      "source_snapshot_id": "AUTO-WATCH-TAS-PREMIER-NEWS-20260909054530",
+      "record_id": null,
+      "captured_at": "2026-09-09T05:46:20.534Z",
+      "event_date": "2026-09-09",
+      "checkpoint": "CONTINUOUS_FORWARD_SIGNAL_REVIEW",
+      "event_type": "SIGNAL_CREATED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-TAS-PREMIER-NEWS",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "claim": "Premier of Tasmania — latest news added 4 structured publication records to its forward-captured official index: 2030 Strong Plan for Tasmania’s Future; Contact your Premier; Budget 2026-27; 300 days of delivering for Tasmania",
+      "observed_behaviour": "One or more structured publication records appeared in the monitored official source index after the preceding forward snapshot.",
+      "publication_records_added": [
+        {
+          "record_id": "5503ad540fbf99bf866e",
+          "title": "2030 Strong Plan for Tasmania’s Future",
+          "url": "https://www.premier.tas.gov.au/our-plan"
+        },
+        {
+          "record_id": "5c58e4f76fec3a1ce5fe",
+          "title": "Contact your Premier",
+          "url": "https://www.premier.tas.gov.au/contact"
+        },
+        {
+          "record_id": "7984975787b4ef2c7007",
+          "title": "Budget 2026-27",
+          "url": "https://www.premier.tas.gov.au/budget-2026"
+        },
+        {
+          "record_id": "bff1215bcb385f2f222a",
+          "title": "300 days of delivering for Tasmania",
+          "url": "https://www.premier.tas.gov.au/__data/assets/pdf_file/0027/517923/2026-Third-100-Days-of-Delivery_Digital.pdf"
+        }
+      ],
+      "publication_records_removed": [
+        {
+          "record_id": "1380674db0bf814247ef",
+          "title": "Working together to help protect our threatened species 7 September 2026 Tasmanians are being encouraged to work together to protect our unique flora and fauna this Threatened Species Day, with a new round of cons...",
+          "url": "https://www.premier.tas.gov.au/latest-news/2026/september/working-together-to-help-protect-our-threatened-species"
+        },
+        {
+          "record_id": "26966632f7c5572725d3",
+          "title": "Paper titles cut from property transactions 7 September 2026 The Tasmanian Government has made it faster, simpler and safer to make property transactions, with paper certificates of title removed from ...",
+          "url": "https://www.premier.tas.gov.au/latest-news/2026/september/paper-titles-cut-from-property-transactions"
+        },
+        {
+          "record_id": "9187be13c3c0412ea6bb",
+          "title": "Tasmania’s tourism industry full steam ahead for Spirit’s inaugural sailing 7 September 2026 Preparations are being finalised for the launch of Spirit of Tasmania&rsquo;s new vessels, with Tourism Tasmania working with industry to bu...",
+          "url": "https://www.premier.tas.gov.au/latest-news/2026/september/tasmanias-tourism-industry-full-steam-ahead-for-spirits-inaugural-sailing"
+        },
+        {
+          "record_id": "9a575440a98cf4041fd6",
+          "title": "Clear expectations for data centres and AI infrastructure 7 September 2026 The Tasmanian Government has released its draft Expectations for Data Centres and AI Infrastructure.Minister for Business, Industry and Reso...",
+          "url": "https://www.premier.tas.gov.au/latest-news/2026/september/clear-expectations-for-data-centres-and-ai-infrastructure"
+        },
+        {
+          "record_id": "d7a1477e0a98625953b3",
+          "title": "Skip to content",
+          "url": "https://www.premier.tas.gov.au/latest-news"
+        }
+      ],
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "underlying_publication_claims_not_promoted_to_verified_fact": true,
+        "source_change_parent_retained": true,
+        "deterministic_review": true
+      }
+    },
+    {
+      "event_id": "SIG-REV-CHG-WATCH-ACT-GOV-MEDIA-20260909054530",
+      "parent_event_id": "CHG-WATCH-ACT-GOV-MEDIA-20260909054530",
+      "review_id": "REV-CHG-WATCH-ACT-GOV-MEDIA-20260909054530",
+      "jurisdiction_id": "AUS-ACT",
+      "party_id": null,
+      "actor_id": null,
+      "contest_id": null,
+      "cycle_id": null,
+      "source_snapshot_id": "AUTO-WATCH-ACT-GOV-MEDIA-20260909054530",
+      "record_id": null,
+      "captured_at": "2026-09-09T05:46:20.534Z",
+      "event_date": "2026-09-09",
+      "checkpoint": "CONTINUOUS_FORWARD_SIGNAL_REVIEW",
+      "event_type": "SIGNAL_CREATED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-ACT-GOV-MEDIA",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "claim": "ACT Government — media releases added 34 structured publication records to its forward-captured official index: View media releases; View media releases; Land Development Agency; View media releases; Media releases issued by Ministers; +29 more",
+      "observed_behaviour": "One or more structured publication records appeared in the monitored official source index after the preceding forward snapshot.",
+      "publication_records_added": [
+        {
+          "record_id": "03df36a18eb0d0a38c97",
+          "title": "View media releases",
+          "url": "https://www.cmtedd.act.gov.au/open_government/inform/act_government_media_releases/chs"
+        },
+        {
+          "record_id": "11230e7abc5a011a5b16",
+          "title": "View media releases",
+          "url": "https://www.cmtedd.act.gov.au/open_government/inform/act_government_media_releases/marisa-paterson-mla-media-releases"
+        },
+        {
+          "record_id": "125cc5a8b7af27feefbe",
+          "title": "Land Development Agency",
+          "url": "https://www.cmtedd.act.gov.au/open_government/inform/act_government_media_releases/lda"
+        },
+        {
+          "record_id": "128e0bcb2f56d02286f3",
+          "title": "View media releases",
+          "url": "https://www.cmtedd.act.gov.au/open_government/inform/act_government_media_releases/cheyne"
+        },
+        {
+          "record_id": "297bae641cb5ed845a0b",
+          "title": "Media releases issued by Ministers",
+          "url": "https://www.cmtedd.act.gov.au/open_government/inform/act_government_media_releases/latest_minister_media_releases"
+        },
+        {
+          "record_id": "2c2d88c83d3faead430f",
+          "title": "Disclaimer",
+          "url": "https://www.cmtedd.act.gov.au/legal/disclaimer"
+        },
+        {
+          "record_id": "2e8754e4d27e378a7f95",
+          "title": "View media releases",
+          "url": "https://www.cmtedd.act.gov.au/open_government/inform/act_government_media_releases/caitlin-tough-mla-media-releases"
+        },
+        {
+          "record_id": "41abb4381646a74de740",
+          "title": "Languages",
+          "url": "https://www.cmtedd.act.gov.au/functions/languages"
+        },
+        {
+          "record_id": "477cd14ccf253a3861fa",
+          "title": "Public notices",
+          "url": "https://www.cmtedd.act.gov.au/open_government/public-notices"
+        },
+        {
+          "record_id": "527dff7100c148e6160b",
+          "title": "View media releases",
+          "url": "https://www.cmtedd.act.gov.au/open_government/inform/act_government_media_releases/act-city-renewal-authority-media-releases"
+        },
+        {
+          "record_id": "5646d9da7800aafd56c9",
+          "title": "View media releases",
+          "url": "https://www.cmtedd.act.gov.au/open_government/inform/act_government_media_releases/rachel-stephen-smith-mla-media-releases"
+        },
+        {
+          "record_id": "776fdea4acf4eb1aa28a",
+          "title": "Subscribe to a media release RSS feed",
+          "url": "https://www.cmtedd.act.gov.au/open_government/inform/act_government_media_releases/all_media_release_rss_feeds"
+        },
+        {
+          "record_id": "7a69807dd5b1f2401391",
+          "title": "View media releases",
+          "url": "https://www.cmtedd.act.gov.au/open_government/inform/act_government_media_releases/chris-steel-mla-media-releases"
+        },
+        {
+          "record_id": "7b5507a82c83ae3ff046",
+          "title": "View media releases",
+          "url": "https://www.cmtedd.act.gov.au/open_government/inform/act_government_media_releases/infrastructure-canberra"
+        },
+        {
+          "record_id": "808e944ffbfdf950d6e3",
+          "title": "Skip to content",
+          "url": "https://www.cmtedd.act.gov.au/open_government/inform/act_government_media_releases"
+        },
+        {
+          "record_id": "98227df2c6f2bec57d78",
+          "title": "View media releases",
+          "url": "https://www.cmtedd.act.gov.au/open_government/inform/act_government_media_releases/suzanne-orr-mla-media-releases"
+        },
+        {
+          "record_id": "a8e2a5e65e62cc06dd37",
+          "title": "WorkSafe ACT",
+          "url": "https://www.cmtedd.act.gov.au/open_government/inform/act_government_media_releases/worksafe-act"
+        },
+        {
+          "record_id": "aaa33e7c7ffd5afe86d4",
+          "title": "About us",
+          "url": "https://www.cmtedd.act.gov.au/functions/about"
+        },
+        {
+          "record_id": "adb4cb715cf2d93b4e89",
+          "title": "View media releases",
+          "url": "https://www.cmtedd.act.gov.au/open_government/inform/act_government_media_releases/etd"
+        },
+        {
+          "record_id": "b109e9c82a97f959e15f",
+          "title": "ACT Health",
+          "url": "https://www.cmtedd.act.gov.au/open_government/inform/act_government_media_releases/hd"
+        },
+        {
+          "record_id": "b8c69c6d78770c2e1c3e",
+          "title": "View media releases",
+          "url": "https://www.cmtedd.act.gov.au/open_government/inform/act_government_media_releases/barr"
+        },
+        {
+          "record_id": "ba5e2f36c8a7cf0c616a",
+          "title": "View media releases",
+          "url": "https://www.cmtedd.act.gov.au/open_government/inform/act_government_media_releases/dc"
+        },
+        {
+          "record_id": "ba9a02889c2c613a8e93",
+          "title": "Former ministers media releases",
+          "url": "https://www.cmtedd.act.gov.au/open_government/inform/act_government_media_releases/past-ministers-media-releases"
+        },
+        {
+          "record_id": "c38f71a3f95b203d5ce0",
+          "title": "View media releases",
+          "url": "https://www.cmtedd.act.gov.au/open_government/inform/act_government_media_releases/cmcd"
+        },
+        {
+          "record_id": "d50e97c3d8b751ebec02",
+          "title": "Transport Canberra and City Services",
+          "url": "https://www.cmtedd.act.gov.au/open_government/inform/act_government_media_releases/act-transport-canberra-and-city-services-media-releases"
+        },
+        {
+          "record_id": "d5dd774fc395a323e040",
+          "title": "Environment, Planning and Sustainable Development Directorate",
+          "url": "https://www.cmtedd.act.gov.au/open_government/inform/act_government_media_releases/esdd"
+        },
+        {
+          "record_id": "db53d7bffd13d383f8af",
+          "title": "View media releases",
+          "url": "https://www.cmtedd.act.gov.au/open_government/inform/act_government_media_releases/michael-pettersson-mla-media-releases"
+        },
+        {
+          "record_id": "e34ed7bb90356ebf03c3",
+          "title": "View media releases",
+          "url": "https://www.cmtedd.act.gov.au/open_government/inform/act_government_media_releases/access-canberra"
+        },
+        {
+          "record_id": "e56e20cd9e5e49dd0ddd",
+          "title": "Open Government",
+          "url": "https://www.cmtedd.act.gov.au/open_government"
+        },
+        {
+          "record_id": "ebaa1ff2ce44b8c5e660",
+          "title": "View media releases",
+          "url": "https://www.cmtedd.act.gov.au/open_government/inform/act_government_media_releases/ce"
+        },
+        {
+          "record_id": "f68eefcc2c8d1a29a974",
+          "title": "View media releases",
+          "url": "https://www.cmtedd.act.gov.au/open_government/inform/act_government_media_releases/act-suburban-land-agency-media-releases"
+        },
+        {
+          "record_id": "fbbda4cdd35e3e7ed6ec",
+          "title": "View media releases",
+          "url": "https://www.cmtedd.act.gov.au/open_government/inform/act_government_media_releases/hcs"
+        },
+        {
+          "record_id": "fc1dd2b1867ed295817d",
+          "title": "Media releases issued by Directorates",
+          "url": "https://www.cmtedd.act.gov.au/open_government/inform/act_government_media_releases/latest_directorate_media_releases"
+        },
+        {
+          "record_id": "ff217f3415747f446c93",
+          "title": "View media releases",
+          "url": "https://www.cmtedd.act.gov.au/open_government/inform/act_government_media_releases/jacsd"
+        }
+      ],
+      "publication_records_removed": [
+        {
+          "record_id": "00bd00bfcb5985dc19b5",
+          "title": "08 Sep 2026 Biological intelligence firm Diversity Arrays Technology named ACT Exporter of the Year Diversity Arrays Technology (DArT), an integrated biological intelligence business founded in Canberra, has been named ACT Exporter...",
+          "url": "https://www.cmtedd.act.gov.au/open_government/inform/act_government_media_releases/barr/2026/biological-intelligence-firm-diversity-arrays-technology-named-act-exporter-of-the-year"
+        },
+        {
+          "record_id": "031750be2e3c11586c7d",
+          "title": "Detainees at the Alexander Maconochie Centre",
+          "url": "https://www.act.gov.au/law-and-justice/detainees-at-the-alexander-maconochie-centre"
+        },
+        {
+          "record_id": "04ab03baecc23896ef09",
+          "title": "Albert Hall",
+          "url": "https://www.act.gov.au/venues-spaces-and-precincts/albert-hall"
+        },
+        {
+          "record_id": "0503acfb11218d742875",
+          "title": "Money and tax",
+          "url": "https://www.act.gov.au/money-and-tax"
+        },
+        {
+          "record_id": "06076b473ac9109c554d",
+          "title": "City Services Directorate website",
+          "url": "https://www.act.gov.au/city-services/city-services-directorate-website"
+        },
+        {
+          "record_id": "067f90fbc0a05aad2e77",
+          "title": "Public space improvements at Group Centres Have your say on options for public space improvements at the Charnwood, Erindale and Mawson shops.",
+          "url": "https://yoursayconversations.act.gov.au/public-space-improvements-local-shops"
+        },
+        {
+          "record_id": "0a86b22eaa077820c027",
+          "title": "book-a-venue",
+          "url": "https://www.act.gov.au/venues-spaces-and-precincts/book-a-venue"
+        },
+        {
+          "record_id": "0f62ac13366fb3a9947b",
+          "title": "Housing, planning and property",
+          "url": "https://www.act.gov.au/housing-planning-and-property"
+        },
+        {
+          "record_id": "0f9c56e66389f210157c",
+          "title": "Affirmative consent",
+          "url": "https://www.act.gov.au/law-and-justice/affirmative-consent"
+        },
+        {
+          "record_id": "17d1c9418f8348b4652c",
+          "title": "Land release and development opportunities",
+          "url": "https://www.act.gov.au/housing-planning-and-property/land-develop"
+        },
+        {
+          "record_id": "1943d8a94c82a15ac8a4",
+          "title": "Public housing",
+          "url": "https://www.act.gov.au/housing-planning-and-property/public-housing"
+        },
+        {
+          "record_id": "1d71b2a60c8997ecac9c",
+          "title": "Heritage",
+          "url": "https://www.act.gov.au/environment/heritage"
+        },
+        {
+          "record_id": "1f0db3b05c922312b508",
+          "title": "Pathways Hub",
+          "url": "https://www.act.gov.au/education-and-training/pathways-hub"
+        },
+        {
+          "record_id": "22b5038d0a2be2311dad",
+          "title": "ACT Revenue Office",
+          "url": "https://www.act.gov.au/money-and-tax/act-revenue-office"
+        },
+        {
+          "record_id": "25f8919f58396e307473",
+          "title": "Public transport and MyWay+",
+          "url": "https://www.transport.act.gov.au/tickets-and-myway"
+        },
+        {
+          "record_id": "2947a6650755d262076e",
+          "title": "Clinician alerts",
+          "url": "https://www.act.gov.au/health/clinician-alerts"
+        },
+        {
+          "record_id": "2a0faa700af82bd407c1",
+          "title": "Honours and awards",
+          "url": "https://www.act.gov.au/community/honours-and-awards"
+        },
+        {
+          "record_id": "2b3e6df46236cb56a5b4",
+          "title": "Older Canberrans",
+          "url": "https://www.act.gov.au/community/older-canberrans"
+        },
+        {
+          "record_id": "2e08e7e73a26cd2ea3b7",
+          "title": "City and Environment Directorate",
+          "url": "https://www.act.gov.au/directorates-and-agencies/city-and-environment-directorate"
+        },
+        {
+          "record_id": "2eaf49d66192da41bd7f",
+          "title": "Renew or replace your drivers licence",
+          "url": "https://www.act.gov.au/transport-and-traffic/renew-or-replace-your-drivers-licence"
+        },
+        {
+          "record_id": "2efa20d1464ee6f8e216",
+          "title": "Restorative justice",
+          "url": "https://www.act.gov.au/law-and-justice/restorative-justice"
+        },
+        {
+          "record_id": "2f30a404e54e42aa358c",
+          "title": "Renting in the ACT",
+          "url": "https://www.act.gov.au/housing-planning-and-property/renting"
+        },
+        {
+          "record_id": "30d69350bba82060113f",
+          "title": "Transport and traffic",
+          "url": "https://www.act.gov.au/transport-and-traffic"
+        },
+        {
+          "record_id": "3119778bf9f6eb03ff7d",
+          "title": "Multicultural communities",
+          "url": "https://www.act.gov.au/community/multicultural-communities"
+        },
+        {
+          "record_id": "3122cdc071186c86a136",
+          "title": "Access Canberra",
+          "url": "https://www.act.gov.au/city-services/access-canberra"
+        },
+        {
+          "record_id": "319befb073ec7f5b1f1f",
+          "title": "View more Canberra news",
+          "url": "https://www.act.gov.au/our-canberra"
+        },
+        {
+          "record_id": "32ff0f2a5d29578c66c8",
+          "title": "Supporting education in the ACT",
+          "url": "https://www.act.gov.au/education-and-training/supporting-education-in-the-act"
+        },
+        {
+          "record_id": "33f21460699744f14439",
+          "title": "Air quality",
+          "url": "https://www.act.gov.au/environment/air-quality"
+        },
+        {
+          "record_id": "34e9fe557b9f932a72a0",
+          "title": "Teaching and assessment",
+          "url": "https://www.act.gov.au/education-and-training/teaching-and-assessment"
+        },
+        {
+          "record_id": "350efb6903b484a2e08b",
+          "title": "International students and temporary visa holders",
+          "url": "https://www.act.gov.au/education-and-training/international-students-and-temporary-visa-holders"
+        },
+        {
+          "record_id": "366507d742cd9bfc2a73",
+          "title": "Tickets and MyWay+",
+          "url": "https://www.act.gov.au/transport-and-traffic/tickets-and-myway"
+        },
+        {
+          "record_id": "378cd0939971670491f2",
+          "title": "ACT Government jobs",
+          "url": "https://www.jobs.act.gov.au/home"
+        },
+        {
+          "record_id": "37f75e65048fb85cd284",
+          "title": "Bus timetables",
+          "url": "https://www.transport.act.gov.au/getting-around/timetables"
+        },
+        {
+          "record_id": "39d24ff952eb3cc62829",
+          "title": "Board of Inquiry into Aboriginal and Torres Strait Islander deaths in custody in the Alexander Maconochie Centre",
+          "url": "https://www.act.gov.au/law-and-justice/board-of-inquiry-into-aboriginal-and-torres-strait-islander-deaths-in-custody-in-the-amc"
+        },
+        {
+          "record_id": "3b26bcf49de8ead9b204",
+          "title": "Run your business",
+          "url": "https://www.act.gov.au/business/run-your-business"
+        },
+        {
+          "record_id": "3c55faa8ee58950838c2",
+          "title": "Public holidays and school terms",
+          "url": "https://www.act.gov.au/living-in-the-act/public-holidays-school-terms-and-daylight-saving"
+        },
+        {
+          "record_id": "3c97bc6d1a496b5c81b7",
+          "title": "Work with ACT Government",
+          "url": "https://www.act.gov.au/work-with-act-government"
+        },
+        {
+          "record_id": "3db4da447a74374eeaf0",
+          "title": "Recycling and bin collection",
+          "url": "https://www.act.gov.au/city-services/recycling-and-bin-collection"
+        },
+        {
+          "record_id": "412f9cc30783c91466b1",
+          "title": "School term dates and public holidays",
+          "url": "https://www.act.gov.au/education-and-training/school-term-dates-and-public-holidays-old"
+        },
+        {
+          "record_id": "43481139b4a228057e3e",
+          "title": "Venues, spaces and precincts",
+          "url": "https://www.act.gov.au/venues-spaces-and-precincts"
+        },
+        {
+          "record_id": "43ff6b93ee5531d22aaa",
+          "title": "Find a school and enrol",
+          "url": "https://www.act.gov.au/education-and-training/find-a-school-and-enrol"
+        },
+        {
+          "record_id": "47b775d0b3b506bb75a0",
+          "title": "Pets and wildlife",
+          "url": "https://www.act.gov.au/city-services/pets-and-wildlife"
+        },
+        {
+          "record_id": "48b6108eadb6aad6c536",
+          "title": "Conducting health research in the ACT",
+          "url": "https://www.act.gov.au/health/conducting-health-research"
+        },
+        {
+          "record_id": "4a0cf062893fde2320b1",
+          "title": "Community",
+          "url": "https://www.act.gov.au/community"
+        },
+        {
+          "record_id": "4bff3ba05ad3ec742669",
+          "title": "City services",
+          "url": "https://www.act.gov.au/city-services"
+        },
+        {
+          "record_id": "4ded5794ac00974f89bb",
+          "title": "Tools and resources",
+          "url": "https://www.act.gov.au/business/tools-and-resources"
+        },
+        {
+          "record_id": "4e51b83d0a76f0e310f7",
+          "title": "09 Sep 2026 New trial to support endorsed midwives in ACT public maternity services Women and families accessing public maternity services in Canberra will benefit from a new trial designed to...",
+          "url": "https://www.cmtedd.act.gov.au/open_government/inform/act_government_media_releases/marisa-paterson-mla-media-releases/2026/new-trial-to-support-endorsed-midwives-in-act-public-maternity-services"
+        },
+        {
+          "record_id": "502ad2ef561b2e598b73",
+          "title": "Open government information",
+          "url": "https://www.act.gov.au/open"
+        },
+        {
+          "record_id": "50bdbf61e63577ea1102",
+          "title": "Victim support",
+          "url": "https://www.act.gov.au/law-and-justice/victim-support"
+        },
+        {
+          "record_id": "56a35ba4a8e455c077bf",
+          "title": "State Emergency Service",
+          "url": "https://www.act.gov.au/emergency-and-safety/state-emergency-service"
+        },
+        {
+          "record_id": "58d2cbc962f65fc89ef6",
+          "title": "Homes for Canberra",
+          "url": "https://www.act.gov.au/housing-planning-and-property/homes-for-canberra"
+        },
+        {
+          "record_id": "5ab72d5dd7c19f185bac",
+          "title": "Trees and nature strips",
+          "url": "https://www.act.gov.au/city-services/trees-and-nature-strips"
+        },
+        {
+          "record_id": "5b0261ee9045f2364cc8",
+          "title": "Law and justice",
+          "url": "https://www.act.gov.au/law-and-justice"
+        },
+        {
+          "record_id": "5c94aa19cbea4254a151",
+          "title": "Draft ACT Skate Strategy Following a community-driven inquiry with 33 recommendations, the ACT Government is seeking feedback on a Draft Skate Strategy to support planning and skate culture.",
+          "url": "https://yoursayconversations.act.gov.au/draft-act-skate-strategy"
+        },
+        {
+          "record_id": "5e4e2ecff171dffb05d8",
+          "title": "Education service providers",
+          "url": "https://www.act.gov.au/education-and-training/education-service-providers"
+        },
+        {
+          "record_id": "5eeb757f145ea1ae41eb",
+          "title": "Environment",
+          "url": "https://www.act.gov.au/environment"
+        },
+        {
+          "record_id": "61c38821a34a279eb178",
+          "title": "Recreation All Canberra Activities for toddlers in the ACT",
+          "url": "https://www.act.gov.au/our-canberra/latest-news/2026/september/activities-for-toddlers-in-canberra"
+        },
+        {
+          "record_id": "6223207b806a11c9b7aa",
+          "title": "Reduce the impacts of disasters",
+          "url": "https://www.act.gov.au/emergency-and-safety/reduce-the-impact-of-disasters"
+        },
+        {
+          "record_id": "6377652041794819f835",
+          "title": "Digital Canberra",
+          "url": "https://www.act.gov.au/directorates-and-agencies/digital-canberra"
+        },
+        {
+          "record_id": "65d21f63dad73a8832ec",
+          "title": "Living healthy in the ACT",
+          "url": "https://www.act.gov.au/health/topics"
+        },
+        {
+          "record_id": "673216512cf66b6b3876",
+          "title": "Ambulance",
+          "url": "https://www.act.gov.au/emergency-and-safety/ambulance"
+        },
+        {
+          "record_id": "6af160a82479c149e9a9",
+          "title": "ACT Government Communications",
+          "url": "https://www.act.gov.au/act-government/communications"
+        },
+        {
+          "record_id": "6f4f1f472993b2b7964c",
+          "title": "Renew rego",
+          "url": "https://www.accesscanberra.act.gov.au/driving-transport-and-parking/registration/renewing-vehicle-registration"
+        },
+        {
+          "record_id": "6ff17c63a6b780c8faad",
+          "title": "Chief Minister, Treasury and Economic Development Directorate",
+          "url": "https://www.act.gov.au/directorates-and-agencies/chief-minister-treasury-and-economic-development-directorate"
+        },
+        {
+          "record_id": "722353322d341ef89828",
+          "title": "About ACT Government",
+          "url": "https://www.act.gov.au/act-government"
+        },
+        {
+          "record_id": "738f2d881535f29d44b0",
+          "title": "Former Transport Depot",
+          "url": "https://www.act.gov.au/venues-spaces-and-precincts/former-transport-depot"
+        },
+        {
+          "record_id": "754e4c85328d82c4f647",
+          "title": "Yarralumla Woolshed",
+          "url": "https://www.act.gov.au/venues-spaces-and-precincts/yarralumla-woolshed"
+        },
+        {
+          "record_id": "7756cf8d0a3d255045e1",
+          "title": "Community service providers",
+          "url": "https://www.act.gov.au/community/community-service-providers"
+        },
+        {
+          "record_id": "79e8a73eb5c95d5d8398",
+          "title": "Health and Community Services Directorate",
+          "url": "https://www.act.gov.au/directorates-and-agencies/health-and-community-services-directorate"
+        },
+        {
+          "record_id": "7d65791da3ce5cf337d7",
+          "title": "Support for veterans and their families",
+          "url": "https://www.act.gov.au/community/support-for-veterans-and-their-families"
+        },
+        {
+          "record_id": "7e7eea126dd60513cb48",
+          "title": "Fix my street",
+          "url": "https://www.act.gov.au/city-services/fix-my-street"
+        },
+        {
+          "record_id": "7fdfef0445d61b06dc94",
+          "title": "Directorates and agencies",
+          "url": "https://www.act.gov.au/act-government/directorates-and-agencies"
+        },
+        {
+          "record_id": "80c4e1d116b1557f4a1e",
+          "title": "People with disability",
+          "url": "https://www.act.gov.au/community/people-with-disability"
+        },
+        {
+          "record_id": "81961cd3aae94292d853",
+          "title": "Domestic, family and sexual violence",
+          "url": "https://www.act.gov.au/community/domestic-family-and-sexual-violence"
+        },
+        {
+          "record_id": "84cb199c7e6dd9d359df",
+          "title": "Coercive control",
+          "url": "https://www.act.gov.au/law-and-justice/coercive-control"
+        },
+        {
+          "record_id": "87548a327e58f517ab0a",
+          "title": "Infrastructure Canberra",
+          "url": "https://www.act.gov.au/directorates-and-agencies/infrastructure-canberra"
+        },
+        {
+          "record_id": "893e4a1960dd64364980",
+          "title": "Canberra Health Services",
+          "url": "https://www.act.gov.au/directorates-and-agencies/canberra-health-services"
+        },
+        {
+          "record_id": "8af28edcbdd795c0aa99",
+          "title": "Funding and support",
+          "url": "https://www.act.gov.au/money-and-tax/grants-funding-and-incentives"
+        },
+        {
+          "record_id": "8d23f9172eaddd89cf09",
+          "title": "Recreation All Canberra Canberra’s best matchas, as voted by you",
+          "url": "https://www.act.gov.au/our-canberra/latest-news/2026/september/canberras-best-matchas,-as-voted-by-you"
+        },
+        {
+          "record_id": "900f3452aad34fb0c2f2",
+          "title": "Industry guidance",
+          "url": "https://www.act.gov.au/business/industry-guidance"
+        },
+        {
+          "record_id": "9077cc21f745cf05eefd",
+          "title": "Start a food business",
+          "url": "https://www.act.gov.au/business/start-a-food-business"
+        },
+        {
+          "record_id": "940288089171cb86affb",
+          "title": "Black Mountain Slipway",
+          "url": "https://www.act.gov.au/venues-spaces-and-precincts/black-mountain-slipway"
+        },
+        {
+          "record_id": "9408c917cb8812afc475",
+          "title": "Fitters Workshop",
+          "url": "https://www.act.gov.au/venues-spaces-and-precincts/fitters-workshop"
+        },
+        {
+          "record_id": "94376e8eddcc63b32e4d",
+          "title": "Get housing help and crisis support",
+          "url": "https://www.act.gov.au/housing-planning-and-property/help"
+        },
+        {
+          "record_id": "979e718fcdae75db0a53",
+          "title": "Find a health service or short-term support",
+          "url": "https://www.act.gov.au/health/find-a-health-service-or-short-term-support"
+        },
+        {
+          "record_id": "98aeb4500a0e74bc6aea",
+          "title": "ACT Emergency Services Agency",
+          "url": "https://www.act.gov.au/emergency-and-safety/act-emergency-services-agency"
+        },
+        {
+          "record_id": "9a6af77dc2ca8a77055b",
+          "title": "See all media releases",
+          "url": "https://www.cmtedd.act.gov.au/open_government/inform/act_government_media_releases"
+        },
+        {
+          "record_id": "9b7f5e3c3b64987a8921",
+          "title": "Healthier Work",
+          "url": "https://www.act.gov.au/business/healthier-work"
+        },
+        {
+          "record_id": "a14d0885571c18d7357f",
+          "title": "Legal support services",
+          "url": "https://www.act.gov.au/law-and-justice/legal-support"
+        },
+        {
+          "record_id": "a1f4ac5e0fe6710a2e07",
+          "title": "Planning and building in the ACT",
+          "url": "https://www.act.gov.au/housing-planning-and-property/plan-build"
+        },
+        {
+          "record_id": "a4d36df11b8473eaee2a",
+          "title": "Education Directorate",
+          "url": "https://www.act.gov.au/directorates-and-agencies/education-directorate"
+        },
+        {
+          "record_id": "a6d0950a2d4176f862ba",
+          "title": "Canberra Institute of Technology",
+          "url": "https://www.act.gov.au/education-and-training/canberra-institute-of-technology"
+        },
+        {
+          "record_id": "a716b88ca21983f8e093",
+          "title": "Start a business in Canberra",
+          "url": "https://www.act.gov.au/business/start-a-business-in-canberra"
+        },
+        {
+          "record_id": "a7e2db7075d538834aad",
+          "title": "Skills and training",
+          "url": "https://www.act.gov.au/education-and-training/skills-and-training"
+        },
+        {
+          "record_id": "aa77116a9c8267de3ec2",
+          "title": "Gambling harm",
+          "url": "https://www.act.gov.au/community/gambling-harm"
+        },
+        {
+          "record_id": "ab242aa4e774c09a5ebe",
+          "title": "Built for CBR",
+          "url": "https://www.act.gov.au/builtforcbr"
+        },
+        {
+          "record_id": "ac74fd6659e07e7ae8e4",
+          "title": "Journey planner",
+          "url": "https://www.act.gov.au/transport-and-traffic/journey-planner"
+        },
+        {
+          "record_id": "acd2769a6f3fbee87db5",
+          "title": "Cost of living payment for apprentices and trainees",
+          "url": "https://www.act.gov.au/education-and-training/payment-for-apprentices-and-trainees"
+        },
+        {
+          "record_id": "ae8c93cdb94a282f6c44",
+          "title": "Buying and owning a home in the ACT",
+          "url": "https://www.act.gov.au/housing-planning-and-property/buy-own"
+        },
+        {
+          "record_id": "af2c25a3aef2642f432f",
+          "title": "Apply for grants and funding",
+          "url": "https://www.act.gov.au/business/apply-for-grants-and-funding"
+        },
+        {
+          "record_id": "af921648b71057c1f519",
+          "title": "Research and data",
+          "url": "https://www.act.gov.au/environment/research-and-data"
+        },
+        {
+          "record_id": "b03b5e338f3c635a71f8",
+          "title": "08 Sep 2026 Nominations open for the 2026 CBR Sport Awards Nominations are now open for the 2026 CBR Sport Awards, recognising outstanding achievements and contributions across the...",
+          "url": "https://www.cmtedd.act.gov.au/open_government/inform/act_government_media_releases/chris-steel-mla-media-releases/2026/nominations-open-for-the-2026-cbr-sport-awards"
+        },
+        {
+          "record_id": "b0628f48bccda823e57e",
+          "title": "Gungahlin Community Centre",
+          "url": "https://www.act.gov.au/venues-spaces-and-precincts/gungahlin-community-centre"
+        },
+        {
+          "record_id": "b112ec12291eebf7b418",
+          "title": "Tharwa Community Room",
+          "url": "https://www.act.gov.au/venues-spaces-and-precincts/tharwa-community-room"
+        },
+        {
+          "record_id": "b18c0fc6a4c0a0aad363",
+          "title": "Work with ACT Government",
+          "url": "https://www.act.gov.au/act-government/work-with-act-government"
+        },
+        {
+          "record_id": "b21bd9e8357554d7d3b5",
+          "title": "Animals and plants",
+          "url": "https://www.act.gov.au/environment/animals-and-plants"
+        },
+        {
+          "record_id": "b375d57925219f7fd90b",
+          "title": "Life at school and college",
+          "url": "https://www.act.gov.au/education-and-training/life-at-school-and-college"
+        },
+        {
+          "record_id": "b4bbffc19e9c42610c1f",
+          "title": "Fire and rescue",
+          "url": "https://www.act.gov.au/emergency-and-safety/fire-and-rescue"
+        },
+        {
+          "record_id": "b57ca4cd8088e6603bce",
+          "title": "Cost of living support",
+          "url": "https://www.act.gov.au/money-and-tax/cost-of-living-support"
+        },
+        {
+          "record_id": "b62f392330a6cfb0ab48",
+          "title": "Driver licence renewal",
+          "url": "https://www.accesscanberra.act.gov.au/driving-transport-and-parking/licences/renew-or-replace-your-driver-licence"
+        },
+        {
+          "record_id": "b6ead27b3ce76ffdab7a",
+          "title": "Ways to pay a fine",
+          "url": "https://www.act.gov.au/transport-and-traffic/ways-to-pay-a-fine"
+        },
+        {
+          "record_id": "b72cf723de800bdd69ed",
+          "title": "Current incidents",
+          "url": "https://www.act.gov.au/emergency-and-safety/current-incidents"
+        },
+        {
+          "record_id": "b874e481c6a6c375300a",
+          "title": "Education and training",
+          "url": "https://www.act.gov.au/education-and-training"
+        },
+        {
+          "record_id": "b8fbb96549f3559ccc40",
+          "title": "LGBTIQA+ communities",
+          "url": "https://www.act.gov.au/community/lgbtiqa-communities"
+        },
+        {
+          "record_id": "ba4a43caddf744224f93",
+          "title": "Digital Health Record",
+          "url": "https://www.act.gov.au/health/digital-health-record"
+        },
+        {
+          "record_id": "bb7999d5a6d44cc706cf",
+          "title": "Transport Canberra",
+          "url": "https://www.act.gov.au/transport-and-traffic/transport-canberra"
+        },
+        {
+          "record_id": "bbe8fc2ab893a1445f9e",
+          "title": "Providing health care in the ACT",
+          "url": "https://www.act.gov.au/health/providing-health-care-in-the-act"
+        },
+        {
+          "record_id": "be9d0d5fabc2ba38fc33",
+          "title": "Environment projects",
+          "url": "https://www.act.gov.au/environment/environment-projects"
+        },
+        {
+          "record_id": "c1a6829237c398c17084",
+          "title": "The Draft Southern Gateway Planning and Design Framework Have your say on creating essential community facilities, parks and active travel networks along the Southern Gateway Corridor for the Territory.",
+          "url": "https://yoursayconversations.act.gov.au/southerngatewaycorridor"
+        },
+        {
+          "record_id": "c49f39d02400c3192090",
+          "title": "Reporting notifiable diseases",
+          "url": "https://www.act.gov.au/health/reporting-notifiable-diseases"
+        },
+        {
+          "record_id": "c4b9c5343b6cbae5d342",
+          "title": "Bin collection calendar",
+          "url": "https://www.cityservices.act.gov.au/recycling-and-waste/bins"
+        },
+        {
+          "record_id": "c512be94722ed2bc081f",
+          "title": "Renewing registration",
+          "url": "https://www.act.gov.au/transport-and-traffic/renewing-registration"
+        },
+        {
+          "record_id": "c64fdf340fc9d7fdea51",
+          "title": "Law reforms",
+          "url": "https://www.act.gov.au/law-and-justice/law-reforms"
+        },
+        {
+          "record_id": "c7a99fab3cce43809b76",
+          "title": "Child protection and youth justice",
+          "url": "https://www.act.gov.au/community/child-protection-and-youth-justice"
+        },
+        {
+          "record_id": "c9424ba85e004594048f",
+          "title": "Oaks Estate Community Hall",
+          "url": "https://www.act.gov.au/venues-spaces-and-precincts/oaks-estate-community-hall"
+        },
+        {
+          "record_id": "c99aba772c9eae964a82",
+          "title": "ACT Government",
+          "url": "https://www.act.gov.au/act-government"
+        },
+        {
+          "record_id": "cb85ef3f8fdfc18c6599",
+          "title": "Recreation All Canberra Canberra’s best gluten-free eats",
+          "url": "https://www.act.gov.au/our-canberra/latest-news/2026/september/canberras-best-gluten-free-eats"
+        },
+        {
+          "record_id": "ccafab512053e9ffd31f",
+          "title": "Emergency and safety",
+          "url": "https://www.act.gov.au/emergency-and-safety"
+        },
+        {
+          "record_id": "cd0364ace303db94eaef",
+          "title": "Parks and conservation",
+          "url": "https://www.act.gov.au/environment/parks-and-conservation"
+        },
+        {
+          "record_id": "cf684dd2b0772a8d0162",
+          "title": "Families",
+          "url": "https://www.act.gov.au/community/families"
+        },
+        {
+          "record_id": "d0677f6d11695f0dbba2",
+          "title": "Aboriginal and Torres Strait Islander peoples",
+          "url": "https://www.act.gov.au/community/aboriginal-and-torres-strait-islander-peoples"
+        },
+        {
+          "record_id": "d48611ce648694d88509",
+          "title": "Get help and advice",
+          "url": "https://www.act.gov.au/business/get-help-and-advice"
+        },
+        {
+          "record_id": "d7cf664181c22d26f1bc",
+          "title": "Justice and Community Safety Directorate",
+          "url": "https://www.act.gov.au/directorates-and-agencies/justice-and-community-safety-directorate"
+        },
+        {
+          "record_id": "d8c5cd0cb649c4eea763",
+          "title": "Fuel supply in the ACT",
+          "url": "https://www.act.gov.au/act-government/fuel-supply-in-the-act"
+        },
+        {
+          "record_id": "e45bb5933c91e8fd115a",
+          "title": "Rural fire service",
+          "url": "https://www.act.gov.au/emergency-and-safety/rural-fire-service"
+        },
+        {
+          "record_id": "e4b0150e07b503b596dd",
+          "title": "Subscribe now",
+          "url": "https://www.act.gov.au/our-canberra/subscribe-to-our-canberra"
+        },
+        {
+          "record_id": "e670674ff3f914b7afa2",
+          "title": "Business",
+          "url": "https://www.act.gov.au/business"
+        },
+        {
+          "record_id": "ef49e21bc8f797f44414",
+          "title": "ACT Legislation Register",
+          "url": "https://www.act.gov.au/law-and-justice/act-legislation-register"
+        },
+        {
+          "record_id": "ef6a5c347d2961ee0717",
+          "title": "Early childhood and preschool",
+          "url": "https://www.act.gov.au/education-and-training/early-childhood-and-preschool"
+        },
+        {
+          "record_id": "f3d8b31086caae0d09fc",
+          "title": "Open government information",
+          "url": "https://www.act.gov.au/act-government/open"
+        },
+        {
+          "record_id": "f9428e75eabe33e47476",
+          "title": "Routes and timetables",
+          "url": "https://www.act.gov.au/transport-and-traffic/routes-and-timetables"
+        },
+        {
+          "record_id": "f95ff8cea179f3d33447",
+          "title": "Vehicle registration and transfer",
+          "url": "https://www.act.gov.au/transport-and-traffic/vehicle-registration-and-transfer"
+        },
+        {
+          "record_id": "fb5136fb757ffde324dd",
+          "title": "Per- and poly-fluoroalkyl substances (PFAS)",
+          "url": "https://www.act.gov.au/environment/per-and-poly-fluoroalkyl-substances-pfas"
+        },
+        {
+          "record_id": "fdde860c2f093dd09a0f",
+          "title": "Protect your identity after a data breach or cyber-attack",
+          "url": "https://www.act.gov.au/emergency-and-safety/protect-your-identity-after-a-data-breach-or-cyber-attack"
+        }
+      ],
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "underlying_publication_claims_not_promoted_to_verified_fact": true,
+        "source_change_parent_retained": true,
+        "deterministic_review": true
+      }
+    },
+    {
+      "event_id": "SIG-REV-CHG-WATCH-NTEC-MEDIA-20260909054530",
+      "parent_event_id": "CHG-WATCH-NTEC-MEDIA-20260909054530",
+      "review_id": "REV-CHG-WATCH-NTEC-MEDIA-20260909054530",
+      "jurisdiction_id": "AUS-NT",
+      "party_id": null,
+      "actor_id": null,
+      "contest_id": null,
+      "cycle_id": null,
+      "source_snapshot_id": "AUTO-WATCH-NTEC-MEDIA-20260909054530",
+      "record_id": null,
+      "captured_at": "2026-09-09T05:46:20.534Z",
+      "event_date": "2026-09-09",
+      "checkpoint": "CONTINUOUS_FORWARD_SIGNAL_REVIEW",
+      "event_type": "SIGNAL_CREATED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_ELECTORAL_AUTHORITY",
+      "source_id": "SRC-NTEC-MEDIA",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "claim": "Northern Territory Electoral Commission — media releases added 2 structured publication records to its forward-captured official index: Timetable; List of candidate",
+      "observed_behaviour": "One or more structured publication records appeared in the monitored official source index after the preceding forward snapshot.",
+      "publication_records_added": [
+        {
+          "record_id": "4297265d1134b8543a56",
+          "title": "Timetable",
+          "url": "https://ntec.nt.gov.au/elections/current-elections/2026-mulka-by-election/Mulka-timetable"
+        },
+        {
+          "record_id": "e1c8d06d96c0dff73984",
+          "title": "List of candidate",
+          "url": "https://ntec.nt.gov.au/elections/current-elections/2026-mulka-by-election/list-of-candidates"
+        }
+      ],
+      "publication_records_removed": [
+        {
+          "record_id": "18db2e364ec543aa2917",
+          "title": "2022 (12)",
+          "url": "https://ntec.nt.gov.au/about-us/media-and-publications/media-releases/2022"
+        },
+        {
+          "record_id": "248ec28e5c87e1848da0",
+          "title": "Skip to main navigation",
+          "url": "https://ntec.nt.gov.au/about-us/media-and-publications/media-releases"
+        },
+        {
+          "record_id": "50aefaff7f3642161412",
+          "title": "2024 (45)",
+          "url": "https://ntec.nt.gov.au/about-us/media-and-publications/media-releases/2024"
+        },
+        {
+          "record_id": "6747a7644bfac85ebf91",
+          "title": "2021 (22)",
+          "url": "https://ntec.nt.gov.au/about-us/media-and-publications/media-releases/2021"
+        },
+        {
+          "record_id": "914da1d68b1c54b2691f",
+          "title": "2025 (31)",
+          "url": "https://ntec.nt.gov.au/about-us/media-and-publications/media-releases/2025"
+        },
+        {
+          "record_id": "abda225ae92bab593eb9",
+          "title": "2026 (31)",
+          "url": "https://ntec.nt.gov.au/about-us/media-and-publications/media-releases/2026"
+        },
+        {
+          "record_id": "cf2caaf0bb64d2b93508",
+          "title": "2020 (30)",
+          "url": "https://ntec.nt.gov.au/about-us/media-and-publications/media-releases/2020"
+        },
+        {
+          "record_id": "dc477118fd386d837561",
+          "title": "Skip to main content",
+          "url": "https://ntec.nt.gov.au/about-us/media-and-publications/media-releases"
+        },
+        {
+          "record_id": "dd2388691b8bf63b647b",
+          "title": "2023 (63)",
+          "url": "https://ntec.nt.gov.au/about-us/media-and-publications/media-releases/2023"
+        },
+        {
+          "record_id": "eea3e6c860ab9b6be80b",
+          "title": "Print this page",
+          "url": "https://ntec.nt.gov.au/about-us/media-and-publications/media-releases"
+        }
+      ],
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "underlying_publication_claims_not_promoted_to_verified_fact": true,
+        "source_change_parent_retained": true,
+        "deterministic_review": true
+      }
+    },
+    {
+      "event_id": "INTEL-ENRICH-AREA-bd26ad38f3081548dd7db4c0-9e16e1a91f28e4e9",
+      "parent_event_id": "INTEL-AREA-bd26ad38f3081548dd7db4c0",
+      "jurisdiction_id": "AUS-NSW",
+      "party_id": null,
+      "actor_id": null,
+      "party_ids": [],
+      "actor_ids": [
+        "NSW-YASMIN-CATLEY",
+        "NSW-RYAN-PARK",
+        "NSW-GREG-PIPER"
+      ],
+      "contest_id": null,
+      "cycle_id": null,
+      "competition_class": "BUDGET",
+      "area_evidence_id": "AREA-bd26ad38f3081548dd7db4c0",
+      "detail_record_id": "DETAIL-9a7061640e7d041f5ac31366",
+      "detail_version_id": "DETAIL-9a7061640e7d041f5ac31366-V1",
+      "source_snapshot_id": "AUTO-WATCH-NSW-MINISTERIAL-RELEASES-20260908215043",
+      "record_url": "https://www.nsw.gov.au/ministerial-releases/minns-government-delivers-350000-boost-for-rehab-home-southern-lake-macquarie",
+      "captured_at": "2026-09-09T05:46:21.468Z",
+      "evidence_captured_at": "2026-09-09T03:50:01.988Z",
+      "event_date": "2026-09-09",
+      "checkpoint": "SUBSTANTIVE_INTELLIGENCE_ENRICHMENT",
+      "event_type": "AREA_EVIDENCE_INTELLIGENCE_ENRICHED",
+      "area_routing_state": "SUBSTANTIVE_CONTENT_ROUTED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-NSW-MINISTERIAL-RELEASES",
+      "claim": "Enriched substantive budget evidence from Minns Government delivers $350,000 boost for Rehab In The Home in southern Lake Macquarie. Registration threshold state: evidence gap. Missing requirements: missing fact type stage, missing fact type material resistance, missing fact type explicit support position, missing fact type explicit opposition position, missing condition distinct supporting and opposing sides.",
+      "observed_behaviour": "Minns Government delivers $350,000 boost for Rehab In The Home in southern Lake Macquarie | NSW Government menu Open Menu MyServiceNSW Logged in MyServiceNSW Manage account Logout of MyServiceNSW Ministerial media release Minns Government delivers $350,000 boost for Rehab In The Home in southern Lake Macquarie Published: 7 September 2026 Released by: Minister for Health, Minister for Regional Health Listen The Minns Government is investing $350,000 to expand Rehab In The Home services across southern Lake Macquarie, helping more people access rehabilitation and recovery services closer to home. Rehab In The Home enables eligible patients to receive rehabilitation care in their own homes, supporting recovery while reducing the need to travel for appointments. Funded as part of the 2026-27 State Budget, the investment will support allied health professionals from Hunter New England Local Health District to deliver the expanded community-based services to the southern Lake Macquarie region. The services will include community orthopaedic rehabilitation as well as discharge supports for patients returning home from Central Coast hospitals. The expansion builds on the successful rollout of nurse practitioner-led wound care, continence and aged care outreach clinics in early 2025, which have experienced increasing demand. As one of the fastest-growing areas in the region, southern Lake Macquarie continues to see increasing demand for local health services. The expanded outreach and rehabilitation services will make it easier for older people, people living with disability or mobility challenges, and families to access the care they need closer to home. This investment reflects the NSW Government's commitment to ensuring people living in growing communities can access high-qua",
+      "extracted_cues": {
+        "resistance_terms": [],
+        "stage_terms": [],
+        "outcome_terms": [],
+        "pressure_terms": []
+      },
+      "entity_mentions": {
+        "actors": [
+          {
+            "actor_id": "NSW-YASMIN-CATLEY",
+            "name": "Yasmin Catley",
+            "match_variant": "yasmin catley",
+            "party_id_at_resolution": "AUS-NSW-ALP"
+          },
+          {
+            "actor_id": "NSW-RYAN-PARK",
+            "name": "Ryan Park",
+            "match_variant": "ryan park",
+            "party_id_at_resolution": "AUS-NSW-ALP"
+          },
+          {
+            "actor_id": "NSW-GREG-PIPER",
+            "name": "Greg Piper",
+            "match_variant": "greg piper",
+            "party_id_at_resolution": null
+          }
+        ],
+        "teams": []
+      },
+      "position_state": "UNRESOLVED",
+      "resistance_state": "UNRESOLVED",
+      "outcome_state": "UNRESOLVED",
+      "contest_fact_ids": [
+        "FACT-0a0e40b1b897e9a010ca726c",
+        "FACT-221a638b6e1f34e978f1e4a1",
+        "FACT-3708aa4d951fa55221aa2547",
+        "FACT-399e70407b3417cc59f30b7a",
+        "FACT-76794f37e35ae9d8427a0fd4",
+        "FACT-c1715911fe9da4ce5a98bb8b",
+        "FACT-de35e7f5255d0989dd0e31b4"
+      ],
+      "contest_fact_types": [
+        "CONTEST_OBJECT",
+        "OBJECTIVE",
+        "PARTICIPANT"
+      ],
+      "threshold_evaluation_id": "THRESH-77d20e52e2a8748d87a2bfab",
+      "threshold_state": "EVIDENCE_GAP",
+      "threshold_blockers": [
+        "MISSING_CONDITION_DISTINCT_SUPPORTING_AND_OPPOSING_SIDES",
+        "MISSING_FACT_TYPE_EXPLICIT_OPPOSITION_POSITION",
+        "MISSING_FACT_TYPE_EXPLICIT_SUPPORT_POSITION",
+        "MISSING_FACT_TYPE_MATERIAL_RESISTANCE",
+        "MISSING_FACT_TYPE_STAGE"
+      ],
+      "supporting_entities": [],
+      "opposing_entities": [],
+      "registration_action": "NO_AUTOMATIC_REGISTRATION",
+      "intelligence_signature": "9e16e1a91f28e4e943f7f370d20415c532ffd8dcb01c126266b081a81a5616ea",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "substantive_detail_lineage_required": true,
+        "active_contest_fact_lineage_required": true,
+        "threshold_evaluation_lineage_required": true,
+        "routing_does_not_register_match": true,
+        "threshold_eligibility_does_not_register_match": true,
+        "entity_mentions_do_not_establish_positions": true,
+        "retracted_facts_excluded": true,
+        "no_projection_effect_without_registered_target": true
+      }
+    },
+    {
+      "event_id": "INTEL-ENRICH-AREA-ef5ed4fbb67c5213c3214919-a3318ae1c94f2d18",
+      "parent_event_id": "INTEL-AREA-ef5ed4fbb67c5213c3214919",
+      "jurisdiction_id": "AUS-NSW",
+      "party_id": null,
+      "actor_id": null,
+      "party_ids": [],
+      "actor_ids": [
+        "NSW-YASMIN-CATLEY",
+        "NSW-RYAN-PARK",
+        "NSW-GREG-PIPER"
+      ],
+      "contest_id": null,
+      "cycle_id": null,
+      "competition_class": "POLICY_ENACTMENT",
+      "area_evidence_id": "AREA-ef5ed4fbb67c5213c3214919",
+      "detail_record_id": "DETAIL-9a7061640e7d041f5ac31366",
+      "detail_version_id": "DETAIL-9a7061640e7d041f5ac31366-V1",
+      "source_snapshot_id": "AUTO-WATCH-NSW-MINISTERIAL-RELEASES-20260908215043",
+      "record_url": "https://www.nsw.gov.au/ministerial-releases/minns-government-delivers-350000-boost-for-rehab-home-southern-lake-macquarie",
+      "captured_at": "2026-09-09T05:46:21.468Z",
+      "evidence_captured_at": "2026-09-09T03:50:01.988Z",
+      "event_date": "2026-09-09",
+      "checkpoint": "SUBSTANTIVE_INTELLIGENCE_ENRICHMENT",
+      "event_type": "AREA_EVIDENCE_INTELLIGENCE_ENRICHED",
+      "area_routing_state": "SUBSTANTIVE_CONTENT_ROUTED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-NSW-MINISTERIAL-RELEASES",
+      "claim": "Enriched substantive policy enactment evidence from Minns Government delivers $350,000 boost for Rehab In The Home in southern Lake Macquarie. Registration threshold state: evidence gap. Missing requirements: missing fact type contest object, missing fact type objective, missing fact type material resistance, missing fact type explicit support position, missing fact type explicit opposition position, missing condition distinct supporting and opposing sides.",
+      "observed_behaviour": "Minns Government delivers $350,000 boost for Rehab In The Home in southern Lake Macquarie | NSW Government menu Open Menu MyServiceNSW Logged in MyServiceNSW Manage account Logout of MyServiceNSW Ministerial media release Minns Government delivers $350,000 boost for Rehab In The Home in southern Lake Macquarie Published: 7 September 2026 Released by: Minister for Health, Minister for Regional Health Listen The Minns Government is investing $350,000 to expand Rehab In The Home services across southern Lake Macquarie, helping more people access rehabilitation and recovery services closer to home. Rehab In The Home enables eligible patients to receive rehabilitation care in their own homes, supporting recovery while reducing the need to travel for appointments. Funded as part of the 2026-27 State Budget, the investment will support allied health professionals from Hunter New England Local Health District to deliver the expanded community-based services to the southern Lake Macquarie region. The services will include community orthopaedic rehabilitation as well as discharge supports for patients returning home from Central Coast hospitals. The expansion builds on the successful rollout of nurse practitioner-led wound care, continence and aged care outreach clinics in early 2025, which have experienced increasing demand. As one of the fastest-growing areas in the region, southern Lake Macquarie continues to see increasing demand for local health services. The expanded outreach and rehabilitation services will make it easier for older people, people living with disability or mobility challenges, and families to access the care they need closer to home. This investment reflects the NSW Government's commitment to ensuring people living in growing communities can access high-qua",
+      "extracted_cues": {
+        "resistance_terms": [],
+        "stage_terms": [],
+        "outcome_terms": [],
+        "pressure_terms": []
+      },
+      "entity_mentions": {
+        "actors": [
+          {
+            "actor_id": "NSW-YASMIN-CATLEY",
+            "name": "Yasmin Catley",
+            "match_variant": "yasmin catley",
+            "party_id_at_resolution": "AUS-NSW-ALP"
+          },
+          {
+            "actor_id": "NSW-RYAN-PARK",
+            "name": "Ryan Park",
+            "match_variant": "ryan park",
+            "party_id_at_resolution": "AUS-NSW-ALP"
+          },
+          {
+            "actor_id": "NSW-GREG-PIPER",
+            "name": "Greg Piper",
+            "match_variant": "greg piper",
+            "party_id_at_resolution": null
+          }
+        ],
+        "teams": []
+      },
+      "position_state": "UNRESOLVED",
+      "resistance_state": "UNRESOLVED",
+      "outcome_state": "UNRESOLVED",
+      "contest_fact_ids": [
+        "FACT-02ffe9173babd16c9bcd4a79",
+        "FACT-044aa61bce4b724884fef639",
+        "FACT-0fb1ef43794ac6aeca03f561",
+        "FACT-1e36c04cfe43c636dda51bf7",
+        "FACT-c9c4d1425e831413e1f64ada",
+        "FACT-e928ed2802c1acd503463188"
+      ],
+      "contest_fact_types": [
+        "IMPLEMENTATION_ACTION",
+        "PARTICIPANT",
+        "STAGE"
+      ],
+      "threshold_evaluation_id": "THRESH-3a129523041377a64806eef6",
+      "threshold_state": "EVIDENCE_GAP",
+      "threshold_blockers": [
+        "MISSING_CONDITION_DISTINCT_SUPPORTING_AND_OPPOSING_SIDES",
+        "MISSING_FACT_TYPE_CONTEST_OBJECT",
+        "MISSING_FACT_TYPE_EXPLICIT_OPPOSITION_POSITION",
+        "MISSING_FACT_TYPE_EXPLICIT_SUPPORT_POSITION",
+        "MISSING_FACT_TYPE_MATERIAL_RESISTANCE",
+        "MISSING_FACT_TYPE_OBJECTIVE"
+      ],
+      "supporting_entities": [],
+      "opposing_entities": [],
+      "registration_action": "NO_AUTOMATIC_REGISTRATION",
+      "intelligence_signature": "a3318ae1c94f2d183a3ddc09f29670f91bdc402896daa5e33ea145c401ebe81a",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "substantive_detail_lineage_required": true,
+        "active_contest_fact_lineage_required": true,
+        "threshold_evaluation_lineage_required": true,
+        "routing_does_not_register_match": true,
+        "threshold_eligibility_does_not_register_match": true,
+        "entity_mentions_do_not_establish_positions": true,
+        "retracted_facts_excluded": true,
+        "no_projection_effect_without_registered_target": true
+      }
+    },
+    {
+      "event_id": "INTEL-ENRICH-AREA-72df5dc9016cdbc9bc91c88f-f55d9799749b4fcc",
+      "parent_event_id": "INTEL-AREA-72df5dc9016cdbc9bc91c88f",
+      "jurisdiction_id": "AUS-FED",
+      "party_id": null,
+      "actor_id": null,
+      "party_ids": [],
+      "actor_ids": [
+        "ACT-ANIKA-WELLS",
+        "ACT-ANTHONY-ALBANESE"
+      ],
+      "contest_id": null,
+      "cycle_id": null,
+      "competition_class": "LEGISLATIVE",
+      "area_evidence_id": "AREA-72df5dc9016cdbc9bc91c88f",
+      "detail_record_id": "DETAIL-02038302db5d1edac5fd9913",
+      "detail_version_id": "DETAIL-02038302db5d1edac5fd9913-V1",
+      "source_snapshot_id": "AUTO-WATCH-PM-MEDIA-20260909004900",
+      "record_url": "https://www.pm.gov.au/media/my-feed-my-way",
+      "captured_at": "2026-09-09T05:46:21.468Z",
+      "evidence_captured_at": "2026-09-09T03:54:25.179Z",
+      "event_date": "2026-09-09",
+      "checkpoint": "SUBSTANTIVE_INTELLIGENCE_ENRICHMENT",
+      "event_type": "AREA_EVIDENCE_INTELLIGENCE_ENRICHED",
+      "area_routing_state": "SUBSTANTIVE_CONTENT_ROUTED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-PM-MEDIA",
+      "claim": "Enriched substantive legislative evidence from My Feed, My Way. Captured content includes stage: consultation. Registration threshold state: evidence gap. Missing requirements: missing fact type contest object, missing fact type stage, missing fact type material resistance, missing fact type explicit support position, missing fact type explicit opposition position, missing condition distinct supporting and opposing sides.",
+      "observed_behaviour": "My Feed, My Way | Prime Minister of Australia Skip to main content My Feed, My Way Media release Tuesday 8 September 2026 The Hon Anthony Albanese MP Prime Minister of Australia The Hon Anika Wells MP Minister for Communications Minister for Sport Listen The Albanese Government is taking the next step following its world leading social media age ban to ensure Australians have more choice online, with draft legislation for the Digital Duty of Care released today for targeted consultation. These new laws will put the onus on digital service providers to provide a safe online environment, setting minimum standards for the features and tools they use. This will include an Australian first, “My Feed, My Way,” initiative which will give Australians control over their social media algorithms. Social media platforms will be required to send a notification to new and existing users offering them a choice over their default feed. Users can choose to opt in to having their default feed include personalised content recommended by the algorithm. Alternatively, users can opt out of personally recommended content in their default feed and see the friends and creators they choose to follow. This will give Australians greater choice over their platforms and what they see. Further, digital services like online games, apps and AI chatbots will be required to protect under 18s from design features that have negative behavioural impacts, like addictive features or those that can have an effect on a young person’s self-esteem. They will also be required to protect under 18s from harmful content like: content that promotes, encourages or accelerates eating disorders content that promotes hostile ideas about women and gender equality pornography content that glorifies crime or life endangering",
+      "extracted_cues": {
+        "resistance_terms": [],
+        "stage_terms": [
+          "consultation"
+        ],
+        "outcome_terms": [],
+        "pressure_terms": []
+      },
+      "entity_mentions": {
+        "actors": [
+          {
+            "actor_id": "ACT-ANIKA-WELLS",
+            "name": "Anika Wells",
+            "match_variant": "anika wells",
+            "party_id_at_resolution": "AUS-FED-ALP"
+          },
+          {
+            "actor_id": "ACT-ANTHONY-ALBANESE",
+            "name": "Anthony Albanese",
+            "match_variant": "anthony albanese",
+            "party_id_at_resolution": "AUS-FED-ALP"
+          }
+        ],
+        "teams": []
+      },
+      "position_state": "UNRESOLVED",
+      "resistance_state": "UNRESOLVED",
+      "outcome_state": "UNRESOLVED",
+      "contest_fact_ids": [
+        "FACT-160f647fb655a415d5617092",
+        "FACT-b90e4231ae38b247b3c5995e"
+      ],
+      "contest_fact_types": [
+        "PARTICIPANT"
+      ],
+      "threshold_evaluation_id": "THRESH-77b39a0b6ebd99a0546eb017",
+      "threshold_state": "EVIDENCE_GAP",
+      "threshold_blockers": [
+        "MISSING_CONDITION_DISTINCT_SUPPORTING_AND_OPPOSING_SIDES",
+        "MISSING_FACT_TYPE_CONTEST_OBJECT",
+        "MISSING_FACT_TYPE_EXPLICIT_OPPOSITION_POSITION",
+        "MISSING_FACT_TYPE_EXPLICIT_SUPPORT_POSITION",
+        "MISSING_FACT_TYPE_MATERIAL_RESISTANCE",
+        "MISSING_FACT_TYPE_STAGE"
+      ],
+      "supporting_entities": [],
+      "opposing_entities": [],
+      "registration_action": "NO_AUTOMATIC_REGISTRATION",
+      "intelligence_signature": "f55d9799749b4fccdc8c0f96f1f4f1261e3679340dac63843c43801c1fbb64d5",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "substantive_detail_lineage_required": true,
+        "active_contest_fact_lineage_required": true,
+        "threshold_evaluation_lineage_required": true,
+        "routing_does_not_register_match": true,
+        "threshold_eligibility_does_not_register_match": true,
+        "entity_mentions_do_not_establish_positions": true,
+        "retracted_facts_excluded": true,
+        "no_projection_effect_without_registered_target": true
+      }
+    },
+    {
+      "event_id": "INTEL-ENRICH-AREA-32c01893e29a41ab0de1147e-4b70dafecb75e82f",
+      "parent_event_id": "INTEL-AREA-32c01893e29a41ab0de1147e",
+      "jurisdiction_id": "AUS-FED",
+      "party_id": "AUS-FED-ALP",
+      "actor_id": null,
+      "party_ids": [
+        "AUS-FED-ALP"
+      ],
+      "actor_ids": [
+        "ACT-ANTHONY-ALBANESE",
+        "ACT-CATHERINE-KING",
+        "ACT-MERYL-SWANSON",
+        "ACT-SHARON-CLAYDON"
+      ],
+      "contest_id": null,
+      "cycle_id": null,
+      "competition_class": "BUDGET",
+      "area_evidence_id": "AREA-32c01893e29a41ab0de1147e",
+      "detail_record_id": "DETAIL-bd92f3bf4fa54219095eb12d",
+      "detail_version_id": "DETAIL-bd92f3bf4fa54219095eb12d-V1",
+      "source_snapshot_id": "AUTO-WATCH-PM-MEDIA-20260909022740",
+      "record_url": "https://www.pm.gov.au/media/press-conference-tarro-nsw",
+      "captured_at": "2026-09-09T05:46:21.468Z",
+      "evidence_captured_at": "2026-09-09T03:54:25.461Z",
+      "event_date": "2026-09-09",
+      "checkpoint": "SUBSTANTIVE_INTELLIGENCE_ENRICHMENT",
+      "event_type": "AREA_EVIDENCE_INTELLIGENCE_ENRICHED",
+      "area_routing_state": "SUBSTANTIVE_CONTENT_ROUTED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-PM-MEDIA",
+      "claim": "Enriched substantive budget evidence from Press conference - Tarro, NSW. Registration threshold state: evidence gap. Missing requirements: missing fact type objective, missing fact type stage, missing fact type material resistance, missing fact type explicit support position, missing fact type explicit opposition position, missing condition distinct supporting and opposing sides.",
+      "observed_behaviour": "Press conference - Tarro, NSW | Prime Minister of Australia Skip to main content Press conference - Tarro, NSW Transcript Wednesday 9 September 2026 The Hon Anthony Albanese MP Prime Minister of Australia Listen MERYL SWANSON, MEMBER FOR PATERSON : Well, good morning everyone and welcome to the M1 here at – well, we’re kind of at Tarro at the moment, but it’s on its way to Raymond Terrace. But what is most exciting is that the people of the Hunter and the people of New South Wales and the Eastern Seaboard of Australia are going to be on their way within 48 hours on this magnificent piece of road infrastructure. Success has many parents, but let me tell you, Labor has delivered this road. And I cannot wait for the people of Australia to be driving on it in less than 48 hours. It’s been coming for around 20 years, and we’ve all been working towards this day to have it officially opened. It’s opened under Prime Minister Anthony Albanese, and we were just reflecting – I’ve been in this job ten years, and I think I’ve spoken in Parliament about this officially about 40 times, and I’ve mentioned it many more times. And I remember saying when I first got the job, I said 'the M1 is terrible. It's terrible at Hexham. It's just a choke point between Sydney and Brisbane. It needs to be fixed.' And he has backed this project in every step of the way. And I want to also mention Minister Catherine King. She came here and said 'we're going to fast track it.' It’s one thing to make a promise, it's another thing to deliver it. And that big group of people behind us, those workers, 70 per cent of them are from the Hunter. They've delivered this project not only on budget, but over 12 months early. When do you hear that? Especially in construction in the last few years. We've done it. The",
+      "extracted_cues": {
+        "resistance_terms": [],
+        "stage_terms": [],
+        "outcome_terms": [],
+        "pressure_terms": []
+      },
+      "entity_mentions": {
+        "actors": [
+          {
+            "actor_id": "ACT-ANTHONY-ALBANESE",
+            "name": "Anthony Albanese",
+            "match_variant": "anthony albanese",
+            "party_id_at_resolution": "AUS-FED-ALP"
+          },
+          {
+            "actor_id": "ACT-CATHERINE-KING",
+            "name": "Catherine King",
+            "match_variant": "catherine king",
+            "party_id_at_resolution": "AUS-FED-ALP"
+          },
+          {
+            "actor_id": "ACT-MERYL-SWANSON",
+            "name": "Meryl Swanson",
+            "match_variant": "meryl swanson",
+            "party_id_at_resolution": "AUS-FED-ALP"
+          },
+          {
+            "actor_id": "ACT-SHARON-CLAYDON",
+            "name": "Sharon Claydon",
+            "match_variant": "sharon claydon",
+            "party_id_at_resolution": "AUS-FED-ALP"
+          }
+        ],
+        "teams": [
+          {
+            "party_id": "AUS-FED-ALP",
+            "name": "Australian Labor Party",
+            "match_alias": "Labor"
+          }
+        ]
+      },
+      "position_state": "UNRESOLVED",
+      "resistance_state": "UNRESOLVED",
+      "outcome_state": "UNRESOLVED",
+      "contest_fact_ids": [
+        "FACT-05e02a98d95c16fa78d10da4",
+        "FACT-0bd2a854d13fa17201a16d8d",
+        "FACT-38c13377b477494b63713b57",
+        "FACT-55eced04bb2c90e6a99bc52c",
+        "FACT-ddb5b31869568645c06e88bd",
+        "FACT-e108cfd61d2d1c79ca5c8c33",
+        "FACT-e28fe7daecd2dfbddd6db2db",
+        "FACT-fa8c528a1c08e80f26936707",
+        "FACT-fef8a7fcbb6d2302f0fda2bf"
+      ],
+      "contest_fact_types": [
+        "CONTEST_OBJECT",
+        "PARTICIPANT"
+      ],
+      "threshold_evaluation_id": "THRESH-5b09e089b57b565e323c7cca",
+      "threshold_state": "EVIDENCE_GAP",
+      "threshold_blockers": [
+        "MISSING_CONDITION_DISTINCT_SUPPORTING_AND_OPPOSING_SIDES",
+        "MISSING_FACT_TYPE_EXPLICIT_OPPOSITION_POSITION",
+        "MISSING_FACT_TYPE_EXPLICIT_SUPPORT_POSITION",
+        "MISSING_FACT_TYPE_MATERIAL_RESISTANCE",
+        "MISSING_FACT_TYPE_OBJECTIVE",
+        "MISSING_FACT_TYPE_STAGE"
+      ],
+      "supporting_entities": [],
+      "opposing_entities": [],
+      "registration_action": "NO_AUTOMATIC_REGISTRATION",
+      "intelligence_signature": "4b70dafecb75e82f0430025b8825c744209e0ab4ae985a3652f2cc36bff1f754",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "substantive_detail_lineage_required": true,
+        "active_contest_fact_lineage_required": true,
+        "threshold_evaluation_lineage_required": true,
+        "routing_does_not_register_match": true,
+        "threshold_eligibility_does_not_register_match": true,
+        "entity_mentions_do_not_establish_positions": true,
+        "retracted_facts_excluded": true,
+        "no_projection_effect_without_registered_target": true
+      }
+    },
+    {
+      "event_id": "INTEL-ENRICH-AREA-496d2dd738d0137ef312cf3b-43cb8fbf83009a22",
+      "parent_event_id": "INTEL-AREA-496d2dd738d0137ef312cf3b",
+      "jurisdiction_id": "AUS-FED",
+      "party_id": "AUS-FED-LIB",
+      "actor_id": "ACT-ANTHONY-ALBANESE",
+      "party_ids": [
+        "AUS-FED-LIB"
+      ],
+      "actor_ids": [
+        "ACT-ANTHONY-ALBANESE"
+      ],
+      "contest_id": null,
+      "cycle_id": null,
+      "competition_class": "LEGISLATIVE",
+      "area_evidence_id": "AREA-496d2dd738d0137ef312cf3b",
+      "detail_record_id": "DETAIL-e8eb5ede7efb9a843c92aa93",
+      "detail_version_id": "DETAIL-e8eb5ede7efb9a843c92aa93-V1",
+      "source_snapshot_id": "AUTO-WATCH-PM-MEDIA-20260908233843",
+      "record_url": "https://www.pm.gov.au/media/television-interview-abc-news-breakfast-42",
+      "captured_at": "2026-09-09T05:46:21.468Z",
+      "evidence_captured_at": "2026-09-09T03:54:25.733Z",
+      "event_date": "2026-09-09",
+      "checkpoint": "SUBSTANTIVE_INTELLIGENCE_ENRICHMENT",
+      "event_type": "AREA_EVIDENCE_INTELLIGENCE_ENRICHED",
+      "area_routing_state": "SUBSTANTIVE_CONTENT_ROUTED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-PM-MEDIA",
+      "claim": "Enriched substantive legislative evidence from Television interview - ABC news breakfast. Registration threshold state: evidence gap. Missing requirements: missing fact type contest object, missing fact type stage, missing fact type explicit support position, missing fact type explicit opposition position, missing condition distinct supporting and opposing sides.",
+      "observed_behaviour": "Television interview - ABC news breakfast | Prime Minister of Australia Skip to main content Television interview - ABC news breakfast Transcript Wednesday 9 September 2026 The Hon Anthony Albanese MP Prime Minister of Australia Listen JAMES GLENDAY, HOST : Well, the Prime Minister Anthony Albanese is out and about this morning and he's happy to say that he's joining us live from north of Newcastle on a road. Prime Minister, welcome back to the program. It's a Sitting Week in Canberra but you've skipped town. Why are you up near Newcastle? ANTHONY ALBANESE, PRIME MINISTER : Because this piece of highway that I'm on that'll open on Friday, just north of Newcastle, travelling 15 kilometres to Raymond Terrace – everyone who's ever driven from Sydney to Brisbane or in this region knows that when you hit areas like Hexham and Heatherbrae, you hit a traffic jam. Now this will mean that there are no traffic lights all the way there from Melbourne till you get to Coffs Harbour. And when the Coffs Harbour Bypass opens later this year, it'll be all the way through to the Queensland border. This road we'll open today, but traffic starts in two days’ time, and it's going to make such a difference for productivity, for road safety, for everyone who travels on this road, but importantly as well for locals because it'll take a lot of the traffic off those local roads. So, great for road safety as well. GLENDAY : You do love infrastructure. I appreciate you joining us this morning – PRIME MINISTER : I do. GLENDAY : Now we've been getting plenty of questions about your social media plans. Do you know what percentage of people are actually likely to choose to opt out of a default algorithm on a social media app? PRIME MINISTER : Well, it's up to them. This is going to be world first. So,",
+      "extracted_cues": {
+        "resistance_terms": [],
+        "stage_terms": [],
+        "outcome_terms": [],
+        "pressure_terms": []
+      },
+      "entity_mentions": {
+        "actors": [
+          {
+            "actor_id": "ACT-ANTHONY-ALBANESE",
+            "name": "Anthony Albanese",
+            "match_variant": "anthony albanese",
+            "party_id_at_resolution": "AUS-FED-ALP"
+          }
+        ],
+        "teams": [
+          {
+            "party_id": "AUS-FED-LIB",
+            "name": "Liberal Party of Australia",
+            "match_alias": "Liberal"
+          }
+        ]
+      },
+      "position_state": "UNRESOLVED",
+      "resistance_state": "UNRESOLVED",
+      "outcome_state": "UNRESOLVED",
+      "contest_fact_ids": [
+        "FACT-33010b5b44031f2890767090",
+        "FACT-d5071733d93d15b1900ce084",
+        "FACT-e8056cc5ad74f465b54e2f84"
+      ],
+      "contest_fact_types": [
+        "MATERIAL_RESISTANCE",
+        "PARTICIPANT"
+      ],
+      "threshold_evaluation_id": "THRESH-2407d551e8fc92d0a791807f",
+      "threshold_state": "EVIDENCE_GAP",
+      "threshold_blockers": [
+        "MISSING_CONDITION_DISTINCT_SUPPORTING_AND_OPPOSING_SIDES",
+        "MISSING_FACT_TYPE_CONTEST_OBJECT",
+        "MISSING_FACT_TYPE_EXPLICIT_OPPOSITION_POSITION",
+        "MISSING_FACT_TYPE_EXPLICIT_SUPPORT_POSITION",
+        "MISSING_FACT_TYPE_STAGE"
+      ],
+      "supporting_entities": [],
+      "opposing_entities": [],
+      "registration_action": "NO_AUTOMATIC_REGISTRATION",
+      "intelligence_signature": "43cb8fbf83009a223e4436cce320a15e7828dd8e41d88005bbbc54d09c317b39",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "substantive_detail_lineage_required": true,
+        "active_contest_fact_lineage_required": true,
+        "threshold_evaluation_lineage_required": true,
+        "routing_does_not_register_match": true,
+        "threshold_eligibility_does_not_register_match": true,
+        "entity_mentions_do_not_establish_positions": true,
+        "retracted_facts_excluded": true,
+        "no_projection_effect_without_registered_target": true
+      }
+    },
+    {
+      "event_id": "INTEL-ENRICH-AREA-9e43d313c7571dcd88402aba-5b3599b5431bb82a",
+      "parent_event_id": "INTEL-ENRICH-AREA-9e43d313c7571dcd88402aba-9b89b1a1f95c2a94",
+      "jurisdiction_id": "AUS-FED",
+      "party_id": null,
+      "actor_id": null,
+      "party_ids": [
+        "AUS-FED-ALP",
+        "AUS-FED-LIB",
+        "AUS-FED-ONP"
+      ],
+      "actor_ids": [
+        "ACT-ANIKA-WELLS",
+        "ACT-ANTHONY-ALBANESE",
+        "ACT-MATT-CANAVAN"
+      ],
+      "contest_id": null,
+      "cycle_id": null,
+      "competition_class": "LEGISLATIVE",
+      "area_evidence_id": "AREA-9e43d313c7571dcd88402aba",
+      "detail_record_id": "DETAIL-94ab0097a6f73a25e60df0cd",
+      "detail_version_id": "DETAIL-94ab0097a6f73a25e60df0cd-V1",
+      "source_snapshot_id": "AUTO-WATCH-PM-MEDIA-20260908230751",
+      "record_url": "https://www.pm.gov.au/media/television-interview-today-13",
+      "captured_at": "2026-09-09T05:46:21.468Z",
+      "evidence_captured_at": "2026-09-09T03:54:26.270Z",
+      "event_date": "2026-09-09",
+      "checkpoint": "SUBSTANTIVE_INTELLIGENCE_ENRICHMENT",
+      "event_type": "AREA_EVIDENCE_INTELLIGENCE_ENRICHED",
+      "area_routing_state": "SUBSTANTIVE_CONTENT_ROUTED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-PM-MEDIA",
+      "claim": "Enriched substantive legislative evidence from Television interview - Today. Registration threshold state: evidence gap. Missing requirements: missing fact type contest object, missing fact type stage, missing fact type material resistance, missing fact type explicit opposition position, missing condition distinct supporting and opposing sides.",
+      "observed_behaviour": "Television interview - Today | Prime Minister of Australia Skip to main content Television interview - Today Transcript Wednesday 9 September 2026 The Hon Anthony Albanese MP Prime Minister of Australia Listen TOM STEINFORT, HOST: Well, the Labor Government is once again waging war on tech giants, releasing a draft Digital Duty of Care bill that allows Australians to opt out of addictive algorithms. SYLVIA JEFFREYS, HOST: To discuss, Prime Minister Anthony Albanese joins us now from New South Wales. Good morning to you, PM, and thank you for your time. ANTHONY ALBANESE, PRIME MINISTER: Good morning, great to be with you. JEFFREYS: Look, no doubt a lot of parents will be happy about some of these changes. But how can you guarantee the tech giants will comply? PRIME MINISTER: What we can do is make sure that we pass laws that ensure that the tech giants do have to comply. This is about putting the power back in the hands of consumers. And with the My Feed, My Way plan, what it's aimed at is if you want to go and continue to scroll and use the algorithms, you can do so. But if you want to opt out, you can certainly do so as well. This is about putting power back in the hands of Australians because we know that these big tech giants are having an impact. So, just one example is that you can have chatbots advising young girls and women on how to live on 600 calories a day. We know that that is just unhealthy, it's dangerous and it leads to eating disorders. And we want to make sure that that sort of behaviour doesn't occur. So, the government is prepared to pass this law. We've released an exposure draft just yesterday, and I think this is something the whole world is grappling with, frankly. But families watching this program are certainly grappling with it as well. STEINFO",
+      "extracted_cues": {
+        "resistance_terms": [],
+        "stage_terms": [],
+        "outcome_terms": [],
+        "pressure_terms": []
+      },
+      "entity_mentions": {
+        "actors": [
+          {
+            "actor_id": "ACT-ANIKA-WELLS",
+            "name": "Anika Wells",
+            "match_variant": "anika wells",
+            "party_id_at_resolution": "AUS-FED-ALP"
+          },
+          {
+            "actor_id": "ACT-ANTHONY-ALBANESE",
+            "name": "Anthony Albanese",
+            "match_variant": "anthony albanese",
+            "party_id_at_resolution": "AUS-FED-ALP"
+          },
+          {
+            "actor_id": "ACT-MATT-CANAVAN",
+            "name": "Matt Canavan",
+            "match_variant": "matt canavan",
+            "party_id_at_resolution": "AUS-FED-NAT"
+          }
+        ],
+        "teams": [
+          {
+            "party_id": "AUS-FED-ALP",
+            "name": "Australian Labor Party",
+            "match_alias": "Labor"
+          },
+          {
+            "party_id": "AUS-FED-LIB",
+            "name": "Liberal Party of Australia",
+            "match_alias": "Liberal"
+          },
+          {
+            "party_id": "AUS-FED-ONP",
+            "name": "Pauline Hanson's One Nation",
+            "match_alias": "One Nation"
+          }
+        ]
+      },
+      "position_state": "UNRESOLVED",
+      "resistance_state": "UNRESOLVED",
+      "outcome_state": "UNRESOLVED",
+      "contest_fact_ids": [
+        "FACT-0a9d36d83543e459a2bd8644",
+        "FACT-3d1c0e6c4cb6fcbef1f110e5",
+        "FACT-8bc0c0f6571ea0affb68e8d7",
+        "FACT-e0c026eec63a27101c50319e"
+      ],
+      "contest_fact_types": [
+        "EXPLICIT_SUPPORT_POSITION",
+        "PARTICIPANT"
+      ],
+      "threshold_evaluation_id": "THRESH-ce97b91669550280c7d30d12",
+      "threshold_state": "EVIDENCE_GAP",
+      "threshold_blockers": [
+        "MISSING_CONDITION_DISTINCT_SUPPORTING_AND_OPPOSING_SIDES",
+        "MISSING_FACT_TYPE_CONTEST_OBJECT",
+        "MISSING_FACT_TYPE_EXPLICIT_OPPOSITION_POSITION",
+        "MISSING_FACT_TYPE_MATERIAL_RESISTANCE",
+        "MISSING_FACT_TYPE_STAGE"
+      ],
+      "supporting_entities": [
+        "TEAM:AUS-FED-LIB"
+      ],
+      "opposing_entities": [],
+      "registration_action": "NO_AUTOMATIC_REGISTRATION",
+      "intelligence_signature": "5b3599b5431bb82ac2fc4ccf1765cc296c47ab79ad2a980988198c1a65b2f266",
       "inference": null,
       "inference_class": "NONE",
       "projection_effect": "NO_EFFECT",

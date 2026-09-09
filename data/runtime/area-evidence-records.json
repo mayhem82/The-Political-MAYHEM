@@ -1,0 +1,17 @@
+{
+  "ledger_id": "POLITICAL-MAYHEM-AREA-EVIDENCE-001",
+  "status": "ACTIVE",
+  "updated_at": null,
+  "rules": {
+    "record_requires_substantive_detail_lineage": true,
+    "one_detail_record_may_route_to_multiple_areas": true,
+    "routing_is_observation_not_competition_registration": true,
+    "entity_mentions_are_not_positions_without_evidence": true,
+    "resistance_is_not_inferred_from_mere_co_occurrence": true,
+    "public_pressure_gain_requires_measurable_outcome_evidence": true,
+    "institutional_response_is_not_automatically_a_public_concession": true,
+    "later_discovered_evidence_preserves_discovery_time": true,
+    "area_record_is_append_only_by_evidence_version": true
+  },
+  "records": []
+}

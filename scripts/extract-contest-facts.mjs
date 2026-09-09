@@ -11,6 +11,7 @@ const sha=s=>crypto.createHash('sha256').update(String(s)).digest('hex');
 const compact=s=>String(s??'').replace(/\s+/g,' ').trim();
 const uniq=xs=>[...new Set(xs.filter(Boolean))];
 const norm=s=>compact(s).normalize('NFKD').replace(/[\u0300-\u036f]/g,'').replace(/[’']/g,"'").toLowerCase();
+const escapeRegExp=s=>String(s).replace(/[.*+?^${}()|[\]\\]/g,'\\$&');
 
 function substantiveWindow(text){
   const raw=compact(text);
@@ -104,8 +105,53 @@ const classPatterns={
   }
 };
 
-const explicitSupport=/\b(?:supports?|supported|backs?|backed|endorses?|endorsed|in favour of|voted? for|will support)\b[^.;]{0,160}/ig;
-const explicitOpposition=/\b(?:opposes?|opposed|against|voted? against|will not support|does not support|rejects?|rejected)\b[^.;]{0,160}/ig;
+const supportPosition=/\b(?:supports|supported|supporting|support for|support of|backs|backed|endorses|endorsed|in favour of|voted for|votes for|voting for|will support|would support|has supported|have supported)\b/i;
+const oppositionPosition=/\b(?:opposes|opposed|opposing|opposition to|rejects|rejected|objects to|objected to|voted against|votes against|voting against|will not support|would not support|does not support|do not support|did not support|has not supported|have not supported|won['’]t support|wouldn['’]t support|doesn['’]t support|didn['’]t support)\b/i;
+
+function entityDescriptors(row){
+  const descriptors=[];
+  for(const actor of row.entity_mentions?.actors||[]){
+    descriptors.push({actor_id:actor.actor_id,party_id:null,variants:uniq([actor.name,actor.match_variant].map(compact).filter(Boolean))});
+  }
+  for(const team of row.entity_mentions?.teams||[]){
+    descriptors.push({actor_id:null,party_id:team.party_id,variants:uniq([team.name,team.match_alias].map(compact).filter(Boolean))});
+  }
+  return descriptors;
+}
+
+function entityBoundPositionHits(row,text,factType){
+  const phrasePattern=factType==='EXPLICIT_SUPPORT_POSITION'?supportPosition:oppositionPosition;
+  const out=[];
+  const seen=new Set();
+  for(const descriptor of entityDescriptors(row)){
+    for(const variant of descriptor.variants){
+      if(variant.length<3) continue;
+      const rx=new RegExp(`\\b${escapeRegExp(variant)}\\b`,'ig');
+      let entityMatch;
+      while((entityMatch=rx.exec(text))){
+        const afterStart=entityMatch.index+entityMatch[0].length;
+        const rawTail=text.slice(afterStart,Math.min(text.length,afterStart+180));
+        const boundary=rawTail.search(/[.;?!:]/);
+        const clauseTail=boundary>=0?rawTail.slice(0,boundary):rawTail;
+        const phraseMatch=phrasePattern.exec(clauseTail);
+        phrasePattern.lastIndex=0;
+        if(!phraseMatch||phraseMatch.index>120) continue;
+        const end=afterStart+phraseMatch.index+phraseMatch[0].length;
+        const entities={actor_ids:descriptor.actor_id?[descriptor.actor_id]:[],party_ids:descriptor.party_id?[descriptor.party_id]:[]};
+        const key=`${factType}|${descriptor.actor_id||descriptor.party_id}|${entityMatch.index}|${end}`;
+        if(seen.has(key)) continue;
+        seen.add(key);
+        out.push({
+          match:text.slice(entityMatch.index,end),
+          index:entityMatch.index,
+          entities,
+          binding:{relation:'ENTITY_PRECEDES_EXPLICIT_POSITION_LANGUAGE',phrase:compact(phraseMatch[0]),actor_ids:entities.actor_ids,party_ids:entities.party_ids}
+        });
+      }
+    }
+  }
+  return out;
+}
 
 function entityIdsForEvidence(row,evidenceText){
   const n=norm(evidenceText);
@@ -132,16 +178,17 @@ const existing=new Set(ledger.facts.map(x=>x.fact_id));
 const now=new Date().toISOString();
 let added=0,examined=0;
 
-function addFact(row,detail,factType,match,index,text){
+function addFact(row,detail,factType,match,index,text,entitiesOverride=null,positionBinding=null){
   if(!allowedTypes.has(factType)) return;
   const evidence=excerpt(text,index,match.length);
   if(!evidence) return;
-  const entities=entityIdsForEvidence(row,evidence);
-  const factId=`FACT-${sha(`${row.area_evidence_id}|${factType}|${compact(match)}|${evidence}`).slice(0,24)}`;
-  if(existing.has(factId)) return;
   const explicitPosition=['EXPLICIT_SUPPORT_POSITION','EXPLICIT_OPPOSITION_POSITION'].includes(factType);
+  const entities=entitiesOverride||entityIdsForEvidence(row,evidence);
   if(explicitPosition&&entities.actor_ids.length===0&&entities.party_ids.length===0) return;
-  ledger.facts.push({
+  const entitySignature=explicitPosition?`|actors:${[...entities.actor_ids].sort().join(',')}|parties:${[...entities.party_ids].sort().join(',')}`:'';
+  const factId=`FACT-${sha(`${row.area_evidence_id}|${factType}|${compact(match)}|${evidence}${entitySignature}`).slice(0,24)}`;
+  if(existing.has(factId)) return;
+  const fact={
     fact_id:factId,
     competition_class:row.competition_class,
     jurisdiction_id:row.jurisdiction_id,
@@ -167,8 +214,10 @@ function addFact(row,detail,factType,match,index,text){
     inference:null,
     inference_class:'NONE',
     projection_effect:'NO_EFFECT',
-    integrity:{source_text_preserved:true,area_lineage_preserved:true,entity_identity_limited_to_resolved_mentions:true,position_requires_explicit_language:true,competition_not_registered_by_fact:true}
-  });
+    integrity:{source_text_preserved:true,area_lineage_preserved:true,entity_identity_limited_to_resolved_mentions:true,position_requires_explicit_language:true,position_entity_binding_required:explicitPosition,competition_not_registered_by_fact:true}
+  };
+  if(explicitPosition) fact.position_binding=positionBinding;
+  ledger.facts.push(fact);
   existing.add(factId);added++;
 }
 
@@ -185,8 +234,8 @@ for(const row of areas.records||[]){
       for(const hit of allMatches(text,re)) addFact(row,detail,factType,hit.match,hit.index,text);
     }
   }
-  for(const hit of allMatches(text,explicitSupport)) addFact(row,detail,'EXPLICIT_SUPPORT_POSITION',hit.match,hit.index,text);
-  for(const hit of allMatches(text,explicitOpposition)) addFact(row,detail,'EXPLICIT_OPPOSITION_POSITION',hit.match,hit.index,text);
+  for(const hit of entityBoundPositionHits(row,text,'EXPLICIT_SUPPORT_POSITION')) addFact(row,detail,'EXPLICIT_SUPPORT_POSITION',hit.match,hit.index,text,hit.entities,hit.binding);
+  for(const hit of entityBoundPositionHits(row,text,'EXPLICIT_OPPOSITION_POSITION')) addFact(row,detail,'EXPLICIT_OPPOSITION_POSITION',hit.match,hit.index,text,hit.entities,hit.binding);
   for(const actor of row.entity_mentions?.actors||[]){
     const candidates=[actor.match_variant,actor.name].map(norm).filter(Boolean);
     const normalized=norm(text);

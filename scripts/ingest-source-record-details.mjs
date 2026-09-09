@@ -9,6 +9,7 @@ const MAX_BATCH=24;
 const FETCH_TIMEOUT_MS=15000;
 const MAX_BODY_CHARS=60000;
 const RETRY_COOLDOWN_MS=6*60*60*1000;
+const CURRENT_YEAR=new Date().getUTCFullYear();
 
 const read=p=>JSON.parse(fs.readFileSync(p,'utf8'));
 const write=(p,v)=>fs.writeFileSync(p,JSON.stringify(v,null,2)+'\n');
@@ -40,8 +41,25 @@ function titleFromHtml(html,fallback){
   return compact(fallback);
 }
 
+function canonicalRecordUrl(value){
+  try{
+    const u=new URL(value);
+    if(u.hostname==='search.parliament.nsw.gov.au'&&u.pathname==='/s/redirect'){
+      const embedded=u.searchParams.get('url');
+      if(embedded){
+        const direct=new URL(embedded);
+        direct.hash='';
+        return direct.toString();
+      }
+    }
+    u.hash='';
+    return u.toString();
+  }catch{return value;}
+}
+
 function priority(title=''){
-  const t=String(title).toLowerCase();
+  const raw=String(title);
+  const t=raw.toLowerCase();
   let score=0;
   const rules=[
     [/\b(no[- ]confidence|confidence|supply)\b/,100],
@@ -54,11 +72,16 @@ function priority(title=''){
     [/\b(implement|implementation|commence|regulation|direction|decision)\b/,60]
   ];
   for(const [re,value] of rules) if(re.test(t)) score=Math.max(score,value);
+  const years=[...raw.matchAll(/\b(20\d{2})\b/g)].map(m=>Number(m[1]));
+  if(years.includes(CURRENT_YEAR)) score+=35;
+  else if(years.length&&Math.max(...years)<CURRENT_YEAR) score-=35;
+  if(/\b(assented|withdrawn|negatived|lapsed|defeated|passed)\b/i.test(raw)&&!years.includes(CURRENT_YEAR)) score-=45;
+  if(/\b(second reading|debate adjourned|before the house|before the senate|introduced|current|scheduled|notice of motion)\b/i.test(raw)) score+=20;
   return score;
 }
 
 const headerProfiles=[
-  {id:'IDENTIFIED_AUTOMATION',headers:{'user-agent':'Political-MAYHEM-Information-Ingestion/1.0 (+https://github.com/mayhem82/The-Political-MAYHEM)','accept':'text/html,application/xhtml+xml,text/plain,application/pdf,*/*','accept-language':'en-AU,en;q=0.9'}},
+  {id:'IDENTIFIED_AUTOMATION',headers:{'user-agent':'Political-MAYHEM-Information-Ingestion/1.1 (+https://github.com/mayhem82/The-Political-MAYHEM)','accept':'text/html,application/xhtml+xml,text/plain,application/pdf,*/*','accept-language':'en-AU,en;q=0.9'}},
   {id:'BROWSER_COMPATIBILITY',headers:{'user-agent':'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0 Safari/537.36','accept':'text/html,application/xhtml+xml,text/plain,application/pdf,*/*;q=0.5','accept-language':'en-AU,en;q=0.9','cache-control':'no-cache','pragma':'no-cache'}}
 ];
 
@@ -99,7 +122,7 @@ for(const attempt of ledger.attempts){
   if(!prior||Date.parse(attempt.attempted_at)>Date.parse(prior.attempted_at)) latestAttempt.set(attempt.detail_record_id,attempt);
 }
 
-const queue=[];
+const queueById=new Map();
 for(const review of reviews.reviews||[]){
   if(review.decision!=='PROMOTED_TO_SIGNAL') continue;
   const change=eventById.get(review.source_change_event_id);
@@ -108,11 +131,12 @@ for(const review of reviews.reviews||[]){
   const source=sourceById.get(sourceId)||null;
   for(const record of review.structured_evidence?.added_records||[]){
     if(!record?.url) continue;
-    const detailRecordId=`DETAIL-${sha(`${sourceId||'UNKNOWN'}|${record.record_id||''}|${record.url}`).slice(0,24)}`;
-    if(completed.has(detailRecordId)) continue;
+    const resolvedUrl=canonicalRecordUrl(record.url);
+    const detailRecordId=`DETAIL-${sha(`${sourceId||'UNKNOWN'}|${record.record_id||''}|${resolvedUrl}`).slice(0,24)}`;
+    if(completed.has(detailRecordId)||queueById.has(detailRecordId)) continue;
     const prior=latestAttempt.get(detailRecordId);
     if(prior?.state==='FAILED'&&Date.now()-Date.parse(prior.attempted_at)<RETRY_COOLDOWN_MS) continue;
-    queue.push({
+    queueById.set(detailRecordId,{
       detail_record_id:detailRecordId,
       source_id:sourceId,
       watch_id:source?.watch_id||null,
@@ -125,14 +149,15 @@ for(const review of reviews.reviews||[]){
       source_snapshot_id:change?.source_snapshot_id||signal?.source_snapshot_id||null,
       record_id:record.record_id||null,
       record_title:compact(record.title),
-      record_url:record.url,
+      original_record_url:record.url,
+      record_url:resolvedUrl,
       record_published:record.published||null,
       priority:priority(record.title)
     });
   }
 }
 
-queue.sort((a,b)=>b.priority-a.priority||a.record_url.localeCompare(b.record_url));
+const queue=[...queueById.values()].sort((a,b)=>b.priority-a.priority||a.record_url.localeCompare(b.record_url));
 const batch=queue.slice(0,MAX_BATCH);
 let success=0,failed=0;
 const now=new Date().toISOString();
@@ -160,6 +185,7 @@ for(const item of batch){
       source_snapshot_id:item.source_snapshot_id,
       record_id:item.record_id,
       record_title:item.record_title,
+      original_record_url:item.original_record_url,
       resolved_title:titleFromHtml(raw,item.record_title),
       record_url:item.record_url,
       acquisition_url:acquired.url,
@@ -176,11 +202,11 @@ for(const item of batch){
       inference:null,
       inference_class:'NONE'
     });
-    ledger.attempts.push({detail_record_id:item.detail_record_id,attempted_at:attemptedAt,state:'SUCCESS',error:null});
+    ledger.attempts.push({detail_record_id:item.detail_record_id,attempted_at:attemptedAt,state:'SUCCESS',error:null,record_url:item.record_url});
     completed.add(item.detail_record_id);
     success++;
   }catch(err){
-    ledger.attempts.push({detail_record_id:item.detail_record_id,attempted_at:attemptedAt,state:'FAILED',error:String(err?.message||err),record_url:item.record_url,record_title:item.record_title,source_id:item.source_id,jurisdiction_id:item.jurisdiction_id});
+    ledger.attempts.push({detail_record_id:item.detail_record_id,attempted_at:attemptedAt,state:'FAILED',error:String(err?.message||err),record_url:item.record_url,original_record_url:item.original_record_url,record_title:item.record_title,source_id:item.source_id,jurisdiction_id:item.jurisdiction_id});
     failed++;
   }
 }

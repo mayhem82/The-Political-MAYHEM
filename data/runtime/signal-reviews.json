@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-SIGNAL-REVIEWS-001",
   "created_at": "2026-09-09T05:05:00+10:00",
-  "updated_at": "2026-09-09T02:28:29.084Z",
+  "updated_at": "2026-09-09T02:42:08.208Z",
   "rules": {
     "append_only": true,
     "raw_source_change_is_immutable": true,
@@ -13751,6 +13751,392 @@
           }
         ],
         "delta_hash": "941dedfafea8981c5112a5436f80b2185d9b2e131ae8f2a0045f18303820e4ed"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-ONENATION-NEWS-20260909024114",
+      "source_change_event_id": "CHG-WATCH-ONENATION-NEWS-20260909024114",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-ONENATION-NEWS-20260909024114",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": "AUS-FED-ONP",
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Pauline Hanson's One Nation — Latest News added 1 structured publication record to its forward-captured official index: One Nation Stands With Responsible Australian Firearm Owners",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-09-09T02:42:08.208Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "5ef65fc358039ac1c145",
+            "title": "One Nation Stands With Responsible Australian Firearm Owners",
+            "url": "http://www.onenation.org.au/responsible-firearm-owners",
+            "published": "Wed, 09 Sep 2026 11:57:00 +1000"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "da88f09b5d254b00f7bf",
+            "title": "Colleen Harkin: Keep Political Activism Out of Victorian Classrooms",
+            "url": "http://www.onenation.org.au/victoria-history-curriculum",
+            "published": "Mon, 24 Aug 2026 16:33:16 +1000"
+          }
+        ],
+        "delta_hash": "4ec1f55ebdf855c7296b269b6493e3f19fc35631250c19d1a8fa3fc85a7c41f0"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-NSW-CURRENT-BILLS-20260909024114",
+      "source_change_event_id": "CHG-WATCH-NSW-CURRENT-BILLS-20260909024114",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-NSW-CURRENT-BILLS-20260909024114",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Parliament of NSW — Current session bills added 16 structured publication records to its forward-captured official index: Legislative process explained Learn how bills progress through Parliament, the different types of laws and how to understand an Act; Legislation Review Digests Find analysis and commentary from the Legislation Review Committee.; Bills glossary Learn key terms used in the legislative process; Government 24-Hour Economy Legislation Amendment (Vibrancy Reforms) Bill 2024 Origin: Legislative Council Status: Assented on Thu 31 October 2024; Government 24-Hour Economy Commissioner Bill 2023 Origin: Legislative Council Status: Assented on Tue 12 December 2023 Cognate bill; +11 more",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-09-09T02:42:08.208Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "00c83a8591b98a680667",
+            "title": "Legislative process explained Learn how bills progress through Parliament, the different types of laws and how to understand an Act",
+            "url": "https://www.parliament.nsw.gov.au/parliamentary-business/bills/legislative-process-explained"
+          },
+          {
+            "record_id": "06653687166a39a65a50",
+            "title": "Legislation Review Digests Find analysis and commentary from the Legislation Review Committee.",
+            "url": "https://www.parliament.nsw.gov.au/parliamentary-business/committees/legislation-review-digest"
+          },
+          {
+            "record_id": "0a5e85fefc835298a183",
+            "title": "Bills glossary Learn key terms used in the legislative process",
+            "url": "https://www.parliament.nsw.gov.au/parliamentary-business/bills/bills-glossary"
+          },
+          {
+            "record_id": "11faba10f15ed633b972",
+            "title": "Government 24-Hour Economy Legislation Amendment (Vibrancy Reforms) Bill 2024 Origin: Legislative Council Status: Assented on Thu 31 October 2024",
+            "url": "https://search.parliament.nsw.gov.au/s/redirect?collection=pon1~sp-bills&url=https%3A%2F%2Fwww.parliament.nsw.gov.au%2Fparliamentary-business%2Fbills%2Fbill-details%3FbillId%3D18665%26ref%3D3287&index_url=https%3A%2F%2Fponsw%2Fbill%2F18665&auth=D2LYyvFAW%2FFnhpsq7ACAwA&profile=bills-current&rank=3&query=%21FunDoesNotExist%3Apadrenull"
+          },
+          {
+            "record_id": "1cb00147849cc0665edd",
+            "title": "Government 24-Hour Economy Commissioner Bill 2023 Origin: Legislative Council Status: Assented on Tue 12 December 2023 Cognate bill",
+            "url": "https://search.parliament.nsw.gov.au/s/redirect?collection=pon1~sp-bills&url=https%3A%2F%2Fwww.parliament.nsw.gov.au%2Fparliamentary-business%2Fbills%2Fbill-details%3FbillId%3D18524%26ref%3D3287&index_url=https%3A%2F%2Fponsw%2Fbill%2F18524&auth=%2BVArZywimtv7VAvH1emusg&profile=bills-current&rank=1&query=%21FunDoesNotExist%3Apadrenull"
+          },
+          {
+            "record_id": "3a8e66be42cce26bb4c1",
+            "title": "See Bills glossary",
+            "url": "https://www.parliament.nsw.gov.au/parliamentary-business/bills/bills-glossary"
+          },
+          {
+            "record_id": "3b8e9013c8b87d9b0678",
+            "title": "Government 24-Hour Economy Legislation Amendment (Vibrancy Reforms) Bill 2023 Origin: Legislative Council Status: Assented on Tue 12 December 2023 Cognate bill",
+            "url": "https://search.parliament.nsw.gov.au/s/redirect?collection=pon1~sp-bills&url=https%3A%2F%2Fwww.parliament.nsw.gov.au%2Fparliamentary-business%2Fbills%2Fbill-details%3FbillId%3D18523%26ref%3D3287&index_url=https%3A%2F%2Fponsw%2Fbill%2F18523&auth=ApMzqGUesWdSNRkQ7ANIyA&profile=bills-current&rank=2&query=%21FunDoesNotExist%3Apadrenull"
+          },
+          {
+            "record_id": "51afcfe38c020d6d1d51",
+            "title": "Government Ageing and Disability Commissioner Amendment Bill 2023 Origin: Legislative Assembly Status: Assented on Wed 03 April 2024",
+            "url": "https://search.parliament.nsw.gov.au/s/redirect?collection=pon1~sp-bills&url=https%3A%2F%2Fwww.parliament.nsw.gov.au%2Fparliamentary-business%2Fbills%2Fbill-details%3FbillId%3D18527%26ref%3D3287&index_url=https%3A%2F%2Fponsw%2Fbill%2F18527&auth=JR4R3yb%2FOinmWLj%2BrGzb6g&profile=bills-current&rank=7&query=%21FunDoesNotExist%3Apadrenull"
+          },
+          {
+            "record_id": "6888238bee1cac74a559",
+            "title": "Private Alcohol Consumption in Public Places (Liberalisation) Bill 2024 Origin: Legislative Council Location: Legislative Council Status: Second Reading negatived on division in the LC, Wed 23 October 2024",
+            "url": "https://search.parliament.nsw.gov.au/s/redirect?collection=pon1~sp-bills&url=https%3A%2F%2Fwww.parliament.nsw.gov.au%2Fparliamentary-business%2Fbills%2Fbill-details%3FbillId%3D18608%26ref%3D3287&index_url=https%3A%2F%2Fponsw%2Fbill%2F18608&auth=cb%2B33BL%2BNnBCEurc%2FAHdag&profile=bills-current&rank=9&query=%21FunDoesNotExist%3Apadrenull"
+          },
+          {
+            "record_id": "7360a48420f91b4257a5",
+            "title": "Back to top",
+            "url": "https://www.parliament.nsw.gov.au/parliamentary-business/bills/current-session-bills"
+          },
+          {
+            "record_id": "781f2069c52033adc95c",
+            "title": "Private Alcohol Consumption in Public Places Legislation Amendment (Liberalisation) Bill 2024 Origin: Legislative Council Status: Withdrawn, Tue 04 June 2024",
+            "url": "https://search.parliament.nsw.gov.au/s/redirect?collection=pon1~sp-bills&url=https%3A%2F%2Fwww.parliament.nsw.gov.au%2Fparliamentary-business%2Fbills%2Fbill-details%3FbillId%3D18553%26ref%3D3287&index_url=https%3A%2F%2Fponsw%2Fbill%2F18553&auth=nH%2FF%2F5vsNeCzXBlEFIrKzw&profile=bills-current&rank=10&query=%21FunDoesNotExist%3Apadrenull"
+          },
+          {
+            "record_id": "8fa912ebde44831c736d",
+            "title": "Government 24-Hour Economy Legislation Amendment (Vibrancy Reforms) Bill 2025 Origin: Legislative Council Status: Assented on Mon 24 November 2025",
+            "url": "https://search.parliament.nsw.gov.au/s/redirect?collection=pon1~sp-bills&url=https%3A%2F%2Fwww.parliament.nsw.gov.au%2Fparliamentary-business%2Fbills%2Fbill-details%3FbillId%3D18813%26ref%3D3287&index_url=https%3A%2F%2Fponsw%2Fbill%2F18813&auth=oDyBZTPLUm8UNrsHJBjIyQ&profile=bills-current&rank=4&query=%21FunDoesNotExist%3Apadrenull"
+          },
+          {
+            "record_id": "9f873b946f460cddc20d",
+            "title": "Government Agriculture Commissioner Bill 2024 Origin: Legislative Council Status: Assented on Thu 31 October 2024",
+            "url": "https://search.parliament.nsw.gov.au/s/redirect?collection=pon1~sp-bills&url=https%3A%2F%2Fwww.parliament.nsw.gov.au%2Fparliamentary-business%2Fbills%2Fbill-details%3FbillId%3D18643%26ref%3D3287&index_url=https%3A%2F%2Fponsw%2Fbill%2F18643&auth=EqP2IzWtqj6MNnIFxMOR%2Fg&profile=bills-current&rank=8&query=%21FunDoesNotExist%3Apadrenull"
+          },
+          {
+            "record_id": "dec84de9d236b60d5aee",
+            "title": "Private Abortion Law Reform Amendment (Health Care Access) Bill 2025 Origin: Legislative Council Status: Assented on Wed 11 June 2025",
+            "url": "https://search.parliament.nsw.gov.au/s/redirect?collection=pon1~sp-bills&url=https%3A%2F%2Fwww.parliament.nsw.gov.au%2Fparliamentary-business%2Fbills%2Fbill-details%3FbillId%3D18697%26ref%3D3287&index_url=https%3A%2F%2Fponsw%2Fbill%2F18697&auth=l%2BuL7dT8rojkUa9bj3kPkg&profile=bills-current&rank=5&query=%21FunDoesNotExist%3Apadrenull"
+          },
+          {
+            "record_id": "df38f587f7a19e496499",
+            "title": "Hansard by bill Read parliamentary debates related to a specific bill.",
+            "url": "https://www.parliament.nsw.gov.au/parliamentary-business/hansard/hansard-by-bill"
+          },
+          {
+            "record_id": "fe327f0e75b23e8d5bc4",
+            "title": "Private Abortion Law Reform Amendment (Sex Selection Prohibition) Bill 2025 Origin: Legislative Council Location: Legislative Council Status: Second Reading, Debate adjourned, Wed 24 June 2026",
+            "url": "https://search.parliament.nsw.gov.au/s/redirect?collection=pon1~sp-bills&url=https%3A%2F%2Fwww.parliament.nsw.gov.au%2Fparliamentary-business%2Fbills%2Fbill-details%3FbillId%3D18794%26ref%3D3287&index_url=https%3A%2F%2Fponsw%2Fbill%2F18794&auth=ibVfKPg09mrG0xUv0VrDGA&profile=bills-current&rank=6&query=%21FunDoesNotExist%3Apadrenull"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "0337bb201e62822f717a",
+            "title": "Current session bills A list of bills proposed or introduced in the current session of Parliament.",
+            "url": "https://www.parliament.nsw.gov.au/parliamentary-business/bills/current-session-bills"
+          },
+          {
+            "record_id": "2b09da27105926e885fb",
+            "title": "Learn more about the legislative process",
+            "url": "https://www.parliament.nsw.gov.au/parliamentary-business/bills/legislative-process-explained"
+          },
+          {
+            "record_id": "35541eeb64be58ec76e9",
+            "title": "Back to top",
+            "url": "https://www.parliament.nsw.gov.au/parliamentary-business/bills"
+          },
+          {
+            "record_id": "3c46828591be187fb7c3",
+            "title": "Bills glossary Commonly used terms in the legislative process.",
+            "url": "https://www.parliament.nsw.gov.au/parliamentary-business/bills/bills-glossary"
+          },
+          {
+            "record_id": "3d8bbd5a81beb3402380",
+            "title": "Assented bills Bills that have passed both Houses and haves been signed by the Governor to become law.",
+            "url": "https://www.parliament.nsw.gov.au/parliamentary-business/bills/assented-bills"
+          },
+          {
+            "record_id": "68ef3b16937186041b3f",
+            "title": "All bills All bills proposed or introduced in NSW Parliament since 1856.",
+            "url": "https://www.parliament.nsw.gov.au/parliamentary-business/bills/all-bills"
+          },
+          {
+            "record_id": "6bbb1c067670897d50f6",
+            "title": "Delegated Legislation Committee The Delegated Legislation Committee scrutinises all instruments of a legislative nature that are subject to disallowance.",
+            "url": "https://www.parliament.nsw.gov.au/parliamentary-business/committees/committee-details?committeeId=252"
+          },
+          {
+            "record_id": "8c454c777fddf1090640",
+            "title": "Hansard by bill Access to bill speeches and debates made by members through their passage in the Houses of Parliament.",
+            "url": "https://www.parliament.nsw.gov.au/parliamentary-business/hansard/hansard-by-bill"
+          },
+          {
+            "record_id": "fcd536cf34af5f9bfb56",
+            "title": "Legislation Review Committee The Legislation Review Committee reviews Bills and regulations and reports on them in the Legislation Review Digest.",
+            "url": "https://www.parliament.nsw.gov.au/parliamentary-business/committees/committee-details?committeeId=245"
+          }
+        ],
+        "delta_hash": "75d37301dee79a4d69ee4ada37884825c035fc8d77c4301cdff8a8f0dfe41b20"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-TAS-PREMIER-NEWS-20260909024114",
+      "source_change_event_id": "CHG-WATCH-TAS-PREMIER-NEWS-20260909024114",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-TAS-PREMIER-NEWS-20260909024114",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Premier of Tasmania — latest news added 5 structured publication records to its forward-captured official index: 2030 Strong Plan for Tasmania’s Future; Contact your Premier; Budget 2026-27; 300 days of delivering for Tasmania; Labor’s ‘anonymous’ website claims don’t pass basic scrutiny 9 September 2026 Labor claimed information could be submitted &lsquo;completely anonymously&rsquo;.This could not be more wrong.Just by opening the website, ...",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-09-09T02:42:08.208Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "5503ad540fbf99bf866e",
+            "title": "2030 Strong Plan for Tasmania’s Future",
+            "url": "https://www.premier.tas.gov.au/our-plan"
+          },
+          {
+            "record_id": "5c58e4f76fec3a1ce5fe",
+            "title": "Contact your Premier",
+            "url": "https://www.premier.tas.gov.au/contact"
+          },
+          {
+            "record_id": "7984975787b4ef2c7007",
+            "title": "Budget 2026-27",
+            "url": "https://www.premier.tas.gov.au/budget-2026"
+          },
+          {
+            "record_id": "bff1215bcb385f2f222a",
+            "title": "300 days of delivering for Tasmania",
+            "url": "https://www.premier.tas.gov.au/__data/assets/pdf_file/0027/517923/2026-Third-100-Days-of-Delivery_Digital.pdf"
+          },
+          {
+            "record_id": "ee48f8ffbcd93a3fba0a",
+            "title": "Labor’s ‘anonymous’ website claims don’t pass basic scrutiny 9 September 2026 Labor claimed information could be submitted &lsquo;completely anonymously&rsquo;.This could not be more wrong.Just by opening the website, ...",
+            "url": "https://www.premier.tas.gov.au/latest-news/2026/september/labors-anonymous-website-claims-dont-pass-basic-scrutiny"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "1380674db0bf814247ef",
+            "title": "Working together to help protect our threatened species 7 September 2026 Tasmanians are being encouraged to work together to protect our unique flora and fauna this Threatened Species Day, with a new round of cons...",
+            "url": "https://www.premier.tas.gov.au/latest-news/2026/september/working-together-to-help-protect-our-threatened-species"
+          },
+          {
+            "record_id": "26966632f7c5572725d3",
+            "title": "Paper titles cut from property transactions 7 September 2026 The Tasmanian Government has made it faster, simpler and safer to make property transactions, with paper certificates of title removed from ...",
+            "url": "https://www.premier.tas.gov.au/latest-news/2026/september/paper-titles-cut-from-property-transactions"
+          },
+          {
+            "record_id": "5c3dcf15929652ba0c21",
+            "title": "New bulk-billing GP clinic locked in for Risdon Vale 6 September 2026 The Tasmanian Government has today announced Risdon Vale as the location of its newest TassieDoc clinic, significantly increasing access to ...",
+            "url": "https://www.premier.tas.gov.au/latest-news/2026/september/new-bulk-billing-gp-clinic-locked-in-for-risdon-vale"
+          },
+          {
+            "record_id": "9187be13c3c0412ea6bb",
+            "title": "Tasmania’s tourism industry full steam ahead for Spirit’s inaugural sailing 7 September 2026 Preparations are being finalised for the launch of Spirit of Tasmania&rsquo;s new vessels, with Tourism Tasmania working with industry to bu...",
+            "url": "https://www.premier.tas.gov.au/latest-news/2026/september/tasmanias-tourism-industry-full-steam-ahead-for-spirits-inaugural-sailing"
+          },
+          {
+            "record_id": "9a575440a98cf4041fd6",
+            "title": "Clear expectations for data centres and AI infrastructure 7 September 2026 The Tasmanian Government has released its draft Expectations for Data Centres and AI Infrastructure.Minister for Business, Industry and Reso...",
+            "url": "https://www.premier.tas.gov.au/latest-news/2026/september/clear-expectations-for-data-centres-and-ai-infrastructure"
+          },
+          {
+            "record_id": "d7a1477e0a98625953b3",
+            "title": "Skip to content",
+            "url": "https://www.premier.tas.gov.au/latest-news"
+          }
+        ],
+        "delta_hash": "81707e5783c59091f216de4779a96dece1333d3b321769eac681b0d23d63d9b6"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-NTEC-MEDIA-20260909024114",
+      "source_change_event_id": "CHG-WATCH-NTEC-MEDIA-20260909024114",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-NTEC-MEDIA-20260909024114",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Northern Territory Electoral Commission — media releases added 1 structured publication record to its forward-captured official index: 2025-2026 annual returns",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-09-09T02:42:08.208Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "4301e712e91d500c7fa3",
+            "title": "2025-2026 annual returns",
+            "url": "https://ntec.nt.gov.au/financial-disclosure/published-annual-returns/2025-2026-annual-returns"
+          }
+        ],
+        "removed_records": [],
+        "delta_hash": "1f304dd0759a8399d42052cf45bf72e9ac48993046c2194e9ae3549da03e04ae"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-NT-GOV-NEWSROOM-20260909024114",
+      "source_change_event_id": "CHG-WATCH-NT-GOV-NEWSROOM-20260909024114",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-NT-GOV-NEWSROOM-20260909024114",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Northern Territory Government — Newsroom added 3 structured publication records to its forward-captured official index: Feedback; Northern Territory Government Newsroom; privacy statement.",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-09-09T02:42:08.208Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "5c1a650394b91a675891",
+            "title": "Feedback",
+            "url": "https://newsroom.nt.gov.au/feedback"
+          },
+          {
+            "record_id": "69d715cbea9855bce96b",
+            "title": "Northern Territory Government Newsroom",
+            "url": "https://newsroom.nt.gov.au/home"
+          },
+          {
+            "record_id": "757f3831ee515a040b13",
+            "title": "privacy statement.",
+            "url": "https://newsroom.nt.gov.au/privacy/office-of-chief-ministers-newsroom-privacy-statement"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "1cac3c4bcc674c7bcd99",
+            "title": "Feedback",
+            "url": "https://mediareleases.nt.gov.au/feedback"
+          },
+          {
+            "record_id": "1d8953240f426684a961",
+            "title": "Privacy statement.",
+            "url": "https://mediareleases.nt.gov.au/privacy/icac-newsroom-privacy-statement"
+          },
+          {
+            "record_id": "3b1545c66c4762484ec7",
+            "title": "privacy statement.",
+            "url": "https://mediareleases.nt.gov.au/privacy/newsroom-privacy-statement"
+          },
+          {
+            "record_id": "9cded320b098e78d653c",
+            "title": "Departmental and agency media releases",
+            "url": "https://mediareleases.nt.gov.au/home"
+          },
+          {
+            "record_id": "a701b839bc09de66ebd0",
+            "title": "privacy statement.",
+            "url": "https://mediareleases.nt.gov.au/privacy/icac-newsroom-privacy-statement"
+          }
+        ],
+        "delta_hash": "e7991d6f5f5406db40299894dfa2632cb7ab9829ed75c2b2c76b1debd5c55d17"
       },
       "integrity": {
         "source_change_unchanged": true,

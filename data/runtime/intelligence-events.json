@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-INTELLIGENCE-EVENTS-001",
   "scope": "Australia — multi-jurisdiction",
-  "captured_at": "2026-09-09T03:50:15.156Z",
+  "captured_at": "2026-09-09T03:54:28.137Z",
   "mode": "FORWARD_ONLY",
   "rules": {
     "observation_distinct_from_inference": true,
@@ -42181,6 +42181,1069 @@
       "opposing_entities": [],
       "registration_action": "NO_AUTOMATIC_REGISTRATION",
       "intelligence_signature": "a2395882a16fda49d3a6aeb260be300926b3b813c5201957bd1b98f489944a73",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "substantive_detail_lineage_required": true,
+        "active_contest_fact_lineage_required": true,
+        "threshold_evaluation_lineage_required": true,
+        "routing_does_not_register_match": true,
+        "threshold_eligibility_does_not_register_match": true,
+        "entity_mentions_do_not_establish_positions": true,
+        "retracted_facts_excluded": true,
+        "no_projection_effect_without_registered_target": true
+      }
+    },
+    {
+      "event_id": "CHG-WATCH-NTEC-MEDIA-20260909035335",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-NT",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-NTEC-MEDIA-20260909035335",
+      "captured_at": "2026-09-09T03:53:35.722Z",
+      "event_date": "2026-09-09",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_ELECTORAL_AUTHORITY",
+      "source_id": "SRC-NTEC-MEDIA",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "review_policy": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-NTEC-MEDIA-20260909034114",
+        "content_hash": "d532efcb49c91a86b7f127743a6a3263afc6ecbd2be5d25d95636cba75d189c9",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-NTEC-MEDIA-20260909035335",
+        "content_hash": "f4d890d24ceee433bd09c60848b7c003c6f19c5bd08e71bac4641cda2747bc31",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "STRUCTURED_RECORD_SET",
+        "records_added": [
+          {
+            "record_id": "4297265d1134b8543a56",
+            "title": "Timetable",
+            "url": "https://ntec.nt.gov.au/elections/current-elections/2026-mulka-by-election/Mulka-timetable"
+          },
+          {
+            "record_id": "e1c8d06d96c0dff73984",
+            "title": "List of candidate",
+            "url": "https://ntec.nt.gov.au/elections/current-elections/2026-mulka-by-election/list-of-candidates"
+          }
+        ],
+        "records_removed": [
+          {
+            "record_id": "18db2e364ec543aa2917",
+            "title": "2022 (12)",
+            "url": "https://ntec.nt.gov.au/about-us/media-and-publications/media-releases/2022"
+          },
+          {
+            "record_id": "248ec28e5c87e1848da0",
+            "title": "Skip to main navigation",
+            "url": "https://ntec.nt.gov.au/about-us/media-and-publications/media-releases"
+          },
+          {
+            "record_id": "50aefaff7f3642161412",
+            "title": "2024 (45)",
+            "url": "https://ntec.nt.gov.au/about-us/media-and-publications/media-releases/2024"
+          },
+          {
+            "record_id": "6747a7644bfac85ebf91",
+            "title": "2021 (22)",
+            "url": "https://ntec.nt.gov.au/about-us/media-and-publications/media-releases/2021"
+          },
+          {
+            "record_id": "914da1d68b1c54b2691f",
+            "title": "2025 (31)",
+            "url": "https://ntec.nt.gov.au/about-us/media-and-publications/media-releases/2025"
+          },
+          {
+            "record_id": "abda225ae92bab593eb9",
+            "title": "2026 (31)",
+            "url": "https://ntec.nt.gov.au/about-us/media-and-publications/media-releases/2026"
+          },
+          {
+            "record_id": "cf2caaf0bb64d2b93508",
+            "title": "2020 (30)",
+            "url": "https://ntec.nt.gov.au/about-us/media-and-publications/media-releases/2020"
+          },
+          {
+            "record_id": "dc477118fd386d837561",
+            "title": "Skip to main content",
+            "url": "https://ntec.nt.gov.au/about-us/media-and-publications/media-releases"
+          },
+          {
+            "record_id": "dd2388691b8bf63b647b",
+            "title": "2023 (63)",
+            "url": "https://ntec.nt.gov.au/about-us/media-and-publications/media-releases/2023"
+          },
+          {
+            "record_id": "eea3e6c860ab9b6be80b",
+            "title": "Print this page",
+            "url": "https://ntec.nt.gov.au/about-us/media-and-publications/media-releases"
+          }
+        ],
+        "added_count": 2,
+        "removed_count": 10,
+        "before_count": 139,
+        "after_count": 131,
+        "delta_hash": "f0229d292ab32f218558c1908f94fc59ab5a3859e110845a9cd7834fc3adf906"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-NT-GOV-NEWSROOM-20260909035335",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-NT",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-NT-GOV-NEWSROOM-20260909035335",
+      "captured_at": "2026-09-09T03:53:35.722Z",
+      "event_date": "2026-09-09",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-NT-GOV-NEWSROOM",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "review_policy": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-NT-GOV-NEWSROOM-20260909034114",
+        "content_hash": "7087b6ada870cc1c3260f79b4cd6755a7aafe681c3cd231945dba682620e8a0e",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-NT-GOV-NEWSROOM-20260909035335",
+        "content_hash": "13904482ae17d57dc89cdb9e883613c802d2eee7a86e93875b94a52612bc64ee",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "STRUCTURED_RECORD_SET",
+        "records_added": [
+          {
+            "record_id": "1cac3c4bcc674c7bcd99",
+            "title": "Feedback",
+            "url": "https://mediareleases.nt.gov.au/feedback"
+          },
+          {
+            "record_id": "1d8953240f426684a961",
+            "title": "Privacy statement.",
+            "url": "https://mediareleases.nt.gov.au/privacy/icac-newsroom-privacy-statement"
+          },
+          {
+            "record_id": "3b1545c66c4762484ec7",
+            "title": "privacy statement.",
+            "url": "https://mediareleases.nt.gov.au/privacy/newsroom-privacy-statement"
+          },
+          {
+            "record_id": "9cded320b098e78d653c",
+            "title": "Departmental and agency media releases",
+            "url": "https://mediareleases.nt.gov.au/home"
+          },
+          {
+            "record_id": "a701b839bc09de66ebd0",
+            "title": "privacy statement.",
+            "url": "https://mediareleases.nt.gov.au/privacy/icac-newsroom-privacy-statement"
+          }
+        ],
+        "records_removed": [
+          {
+            "record_id": "5c1a650394b91a675891",
+            "title": "Feedback",
+            "url": "https://newsroom.nt.gov.au/feedback"
+          },
+          {
+            "record_id": "69d715cbea9855bce96b",
+            "title": "Northern Territory Government Newsroom",
+            "url": "https://newsroom.nt.gov.au/home"
+          },
+          {
+            "record_id": "757f3831ee515a040b13",
+            "title": "privacy statement.",
+            "url": "https://newsroom.nt.gov.au/privacy/office-of-chief-ministers-newsroom-privacy-statement"
+          }
+        ],
+        "added_count": 5,
+        "removed_count": 3,
+        "before_count": 6,
+        "after_count": 8,
+        "delta_hash": "941dedfafea8981c5112a5436f80b2185d9b2e131ae8f2a0045f18303820e4ed"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "SIG-REV-CHG-WATCH-NTEC-MEDIA-20260909035335",
+      "parent_event_id": "CHG-WATCH-NTEC-MEDIA-20260909035335",
+      "review_id": "REV-CHG-WATCH-NTEC-MEDIA-20260909035335",
+      "jurisdiction_id": "AUS-NT",
+      "party_id": null,
+      "actor_id": null,
+      "contest_id": null,
+      "cycle_id": null,
+      "source_snapshot_id": "AUTO-WATCH-NTEC-MEDIA-20260909035335",
+      "record_id": null,
+      "captured_at": "2026-09-09T03:54:17.899Z",
+      "event_date": "2026-09-09",
+      "checkpoint": "CONTINUOUS_FORWARD_SIGNAL_REVIEW",
+      "event_type": "SIGNAL_CREATED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_ELECTORAL_AUTHORITY",
+      "source_id": "SRC-NTEC-MEDIA",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "claim": "Northern Territory Electoral Commission — media releases added 2 structured publication records to its forward-captured official index: Timetable; List of candidate",
+      "observed_behaviour": "One or more structured publication records appeared in the monitored official source index after the preceding forward snapshot.",
+      "publication_records_added": [
+        {
+          "record_id": "4297265d1134b8543a56",
+          "title": "Timetable",
+          "url": "https://ntec.nt.gov.au/elections/current-elections/2026-mulka-by-election/Mulka-timetable"
+        },
+        {
+          "record_id": "e1c8d06d96c0dff73984",
+          "title": "List of candidate",
+          "url": "https://ntec.nt.gov.au/elections/current-elections/2026-mulka-by-election/list-of-candidates"
+        }
+      ],
+      "publication_records_removed": [
+        {
+          "record_id": "18db2e364ec543aa2917",
+          "title": "2022 (12)",
+          "url": "https://ntec.nt.gov.au/about-us/media-and-publications/media-releases/2022"
+        },
+        {
+          "record_id": "248ec28e5c87e1848da0",
+          "title": "Skip to main navigation",
+          "url": "https://ntec.nt.gov.au/about-us/media-and-publications/media-releases"
+        },
+        {
+          "record_id": "50aefaff7f3642161412",
+          "title": "2024 (45)",
+          "url": "https://ntec.nt.gov.au/about-us/media-and-publications/media-releases/2024"
+        },
+        {
+          "record_id": "6747a7644bfac85ebf91",
+          "title": "2021 (22)",
+          "url": "https://ntec.nt.gov.au/about-us/media-and-publications/media-releases/2021"
+        },
+        {
+          "record_id": "914da1d68b1c54b2691f",
+          "title": "2025 (31)",
+          "url": "https://ntec.nt.gov.au/about-us/media-and-publications/media-releases/2025"
+        },
+        {
+          "record_id": "abda225ae92bab593eb9",
+          "title": "2026 (31)",
+          "url": "https://ntec.nt.gov.au/about-us/media-and-publications/media-releases/2026"
+        },
+        {
+          "record_id": "cf2caaf0bb64d2b93508",
+          "title": "2020 (30)",
+          "url": "https://ntec.nt.gov.au/about-us/media-and-publications/media-releases/2020"
+        },
+        {
+          "record_id": "dc477118fd386d837561",
+          "title": "Skip to main content",
+          "url": "https://ntec.nt.gov.au/about-us/media-and-publications/media-releases"
+        },
+        {
+          "record_id": "dd2388691b8bf63b647b",
+          "title": "2023 (63)",
+          "url": "https://ntec.nt.gov.au/about-us/media-and-publications/media-releases/2023"
+        },
+        {
+          "record_id": "eea3e6c860ab9b6be80b",
+          "title": "Print this page",
+          "url": "https://ntec.nt.gov.au/about-us/media-and-publications/media-releases"
+        }
+      ],
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "underlying_publication_claims_not_promoted_to_verified_fact": true,
+        "source_change_parent_retained": true,
+        "deterministic_review": true
+      }
+    },
+    {
+      "event_id": "SIG-REV-CHG-WATCH-NT-GOV-NEWSROOM-20260909035335",
+      "parent_event_id": "CHG-WATCH-NT-GOV-NEWSROOM-20260909035335",
+      "review_id": "REV-CHG-WATCH-NT-GOV-NEWSROOM-20260909035335",
+      "jurisdiction_id": "AUS-NT",
+      "party_id": null,
+      "actor_id": null,
+      "contest_id": null,
+      "cycle_id": null,
+      "source_snapshot_id": "AUTO-WATCH-NT-GOV-NEWSROOM-20260909035335",
+      "record_id": null,
+      "captured_at": "2026-09-09T03:54:17.899Z",
+      "event_date": "2026-09-09",
+      "checkpoint": "CONTINUOUS_FORWARD_SIGNAL_REVIEW",
+      "event_type": "SIGNAL_CREATED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-NT-GOV-NEWSROOM",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "claim": "Northern Territory Government — Newsroom added 5 structured publication records to its forward-captured official index: Feedback; Privacy statement.; privacy statement.; Departmental and agency media releases; privacy statement.",
+      "observed_behaviour": "One or more structured publication records appeared in the monitored official source index after the preceding forward snapshot.",
+      "publication_records_added": [
+        {
+          "record_id": "1cac3c4bcc674c7bcd99",
+          "title": "Feedback",
+          "url": "https://mediareleases.nt.gov.au/feedback"
+        },
+        {
+          "record_id": "1d8953240f426684a961",
+          "title": "Privacy statement.",
+          "url": "https://mediareleases.nt.gov.au/privacy/icac-newsroom-privacy-statement"
+        },
+        {
+          "record_id": "3b1545c66c4762484ec7",
+          "title": "privacy statement.",
+          "url": "https://mediareleases.nt.gov.au/privacy/newsroom-privacy-statement"
+        },
+        {
+          "record_id": "9cded320b098e78d653c",
+          "title": "Departmental and agency media releases",
+          "url": "https://mediareleases.nt.gov.au/home"
+        },
+        {
+          "record_id": "a701b839bc09de66ebd0",
+          "title": "privacy statement.",
+          "url": "https://mediareleases.nt.gov.au/privacy/icac-newsroom-privacy-statement"
+        }
+      ],
+      "publication_records_removed": [
+        {
+          "record_id": "5c1a650394b91a675891",
+          "title": "Feedback",
+          "url": "https://newsroom.nt.gov.au/feedback"
+        },
+        {
+          "record_id": "69d715cbea9855bce96b",
+          "title": "Northern Territory Government Newsroom",
+          "url": "https://newsroom.nt.gov.au/home"
+        },
+        {
+          "record_id": "757f3831ee515a040b13",
+          "title": "privacy statement.",
+          "url": "https://newsroom.nt.gov.au/privacy/office-of-chief-ministers-newsroom-privacy-statement"
+        }
+      ],
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "underlying_publication_claims_not_promoted_to_verified_fact": true,
+        "source_change_parent_retained": true,
+        "deterministic_review": true
+      }
+    },
+    {
+      "event_id": "INTEL-AREA-21d24e4d228ba61ec07ed08e",
+      "parent_event_id": "SIG-REV-CHG-WATCH-NSW-MINISTERIAL-RELEASES-20260908215043",
+      "jurisdiction_id": "AUS-NSW",
+      "party_id": null,
+      "actor_id": null,
+      "party_ids": [
+        "AUS-NSW-ALP",
+        "AUS-NSW-LIB"
+      ],
+      "actor_ids": [
+        "NSW-JENNY-AITCHISON",
+        "NSW-PRUE-CAR",
+        "NSW-SALLY-QUINNELL",
+        "NSW-GREG-WARREN"
+      ],
+      "contest_id": null,
+      "cycle_id": null,
+      "competition_class": "BUDGET",
+      "area_evidence_id": "AREA-21d24e4d228ba61ec07ed08e",
+      "detail_record_id": "DETAIL-fe4478ba0cb186958f660bff",
+      "detail_version_id": "DETAIL-fe4478ba0cb186958f660bff-V1",
+      "source_snapshot_id": "AUTO-WATCH-NSW-MINISTERIAL-RELEASES-20260908215043",
+      "record_url": "https://www.nsw.gov.au/ministerial-releases/spring-farm-parkway-extension-design-released",
+      "captured_at": "2026-09-09T03:54:28.137Z",
+      "evidence_captured_at": "2026-09-09T03:54:18.017Z",
+      "event_date": "2026-09-09",
+      "checkpoint": "SUBSTANTIVE_INFORMATION_INGESTION",
+      "event_type": "AREA_EVIDENCE_INGESTED",
+      "area_routing_state": "SUBSTANTIVE_CONTENT_ROUTED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-NSW-MINISTERIAL-RELEASES",
+      "claim": "Ingested substantive budget evidence from Design released for long-awaited Spring Farm Parkway extension. Captured content includes outcome language: abandoned. Registration threshold state: evidence gap. Missing requirements: missing fact type objective, missing fact type stage, missing fact type material resistance, missing fact type explicit support position, missing fact type explicit opposition position, missing condition distinct supporting and opposing sides.",
+      "observed_behaviour": "Design released for long-awaited Spring Farm Parkway extension | NSW Government menu Open Menu MyServiceNSW Logged in MyServiceNSW Manage account Logout of MyServiceNSW Ministerial media release Design released for long-awaited Spring Farm Parkway extension Published: 7 September 2026 Released by: Deputy Premier, Minister for Roads, Minister for Western Sydney Listen The Minns and Albanese Labor Governments are today unveiling the proposed design for Spring Farm Parkway Stage 2, a three-kilometre, four-lane road that would complete the east-west link between Menangle Park and Spring Farm. The community are now able to have their say on the proposed design and Review of Environmental Factors (REF) for the project, which is in response to longstanding calls from the local community for a direct connection between the Camden area and the Hume Motorway. Currently, Spring Farm Parkway has no direct road connection through to the suburb of Spring Farm – as originally intended. This has meant motorists are forced to travel via Narellan Road, adding unnecessary time and distance to their journeys and putting additional pressure on this key road corridor as Camden continues to grow. The former New South Wales Liberal-National Government split the project in two and progressed only Stage 1 of the project, which opened to traffic in August 2024, but failed to fund or progress Stage 2 – leaving the critical connection through to Spring Farm unfinished. Stage 2 would complete the final section of the corridor, allowing motorists to drive on a continuous east-west connection from Menangle Road and the Hume Motorway through Spring Farm to the Camden Bypass. The Albanese and Minns Labor Governments have committed $15 million to progress the planning for Stage 2. The public can now view",
+      "extracted_cues": {
+        "resistance_terms": [],
+        "stage_terms": [],
+        "outcome_terms": [
+          "abandoned"
+        ],
+        "pressure_terms": []
+      },
+      "entity_mentions": {
+        "actors": [
+          {
+            "actor_id": "NSW-JENNY-AITCHISON",
+            "name": "Jenny Aitchison",
+            "match_variant": "jenny aitchison",
+            "party_id_at_resolution": "AUS-NSW-ALP"
+          },
+          {
+            "actor_id": "NSW-PRUE-CAR",
+            "name": "Prue Car",
+            "match_variant": "prue car",
+            "party_id_at_resolution": "AUS-NSW-ALP"
+          },
+          {
+            "actor_id": "NSW-SALLY-QUINNELL",
+            "name": "Sally Quinnell",
+            "match_variant": "sally quinnell",
+            "party_id_at_resolution": "AUS-NSW-ALP"
+          },
+          {
+            "actor_id": "NSW-GREG-WARREN",
+            "name": "Greg Warren",
+            "match_variant": "greg warren",
+            "party_id_at_resolution": "AUS-NSW-ALP"
+          }
+        ],
+        "teams": [
+          {
+            "party_id": "AUS-NSW-ALP",
+            "name": "Australian Labor Party",
+            "match_alias": "Labor"
+          },
+          {
+            "party_id": "AUS-NSW-LIB",
+            "name": "Liberal Party of Australia",
+            "match_alias": "Liberal"
+          }
+        ]
+      },
+      "position_state": "UNRESOLVED",
+      "resistance_state": "UNRESOLVED",
+      "outcome_state": "OUTCOME_LANGUAGE_PRESENT",
+      "contest_fact_ids": [
+        "FACT-069b045dd6673a2376263326",
+        "FACT-0d61ec0755cf9277a7dfcc7e",
+        "FACT-2c2e54c213bb184f8ee7e812",
+        "FACT-77ad1fd85047c78cd2adc2df",
+        "FACT-f5380c921357c16fecca84c2"
+      ],
+      "contest_fact_types": [
+        "CONTEST_OBJECT",
+        "PARTICIPANT"
+      ],
+      "threshold_evaluation_id": "THRESH-d49a0986433eb7d05a731c42",
+      "threshold_state": "EVIDENCE_GAP",
+      "threshold_blockers": [
+        "MISSING_CONDITION_DISTINCT_SUPPORTING_AND_OPPOSING_SIDES",
+        "MISSING_FACT_TYPE_EXPLICIT_OPPOSITION_POSITION",
+        "MISSING_FACT_TYPE_EXPLICIT_SUPPORT_POSITION",
+        "MISSING_FACT_TYPE_MATERIAL_RESISTANCE",
+        "MISSING_FACT_TYPE_OBJECTIVE",
+        "MISSING_FACT_TYPE_STAGE"
+      ],
+      "supporting_entities": [],
+      "opposing_entities": [],
+      "registration_action": "NO_AUTOMATIC_REGISTRATION",
+      "intelligence_signature": "7c607106a9a1c63d72c147db0957e73c1b72ff5ec622bf172de3b16e29f9b0ca",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "substantive_detail_lineage_required": true,
+        "active_contest_fact_lineage_required": true,
+        "threshold_evaluation_lineage_required": true,
+        "routing_does_not_register_match": true,
+        "threshold_eligibility_does_not_register_match": true,
+        "entity_mentions_do_not_establish_positions": true,
+        "retracted_facts_excluded": true,
+        "no_projection_effect_without_registered_target": true
+      }
+    },
+    {
+      "event_id": "INTEL-AREA-72df5dc9016cdbc9bc91c88f",
+      "parent_event_id": "SIG-REV-CHG-WATCH-PM-MEDIA-20260909004900",
+      "jurisdiction_id": "AUS-FED",
+      "party_id": null,
+      "actor_id": null,
+      "party_ids": [],
+      "actor_ids": [
+        "ACT-ANIKA-WELLS",
+        "ACT-ANTHONY-ALBANESE"
+      ],
+      "contest_id": null,
+      "cycle_id": null,
+      "competition_class": "LEGISLATIVE",
+      "area_evidence_id": "AREA-72df5dc9016cdbc9bc91c88f",
+      "detail_record_id": "DETAIL-02038302db5d1edac5fd9913",
+      "detail_version_id": "DETAIL-02038302db5d1edac5fd9913-V1",
+      "source_snapshot_id": "AUTO-WATCH-PM-MEDIA-20260909004900",
+      "record_url": "https://www.pm.gov.au/media/my-feed-my-way",
+      "captured_at": "2026-09-09T03:54:28.137Z",
+      "evidence_captured_at": "2026-09-09T03:54:25.179Z",
+      "event_date": "2026-09-09",
+      "checkpoint": "SUBSTANTIVE_INFORMATION_INGESTION",
+      "event_type": "AREA_EVIDENCE_INGESTED",
+      "area_routing_state": "SUBSTANTIVE_CONTENT_ROUTED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-PM-MEDIA",
+      "claim": "Ingested substantive legislative evidence from My Feed, My Way. Captured content includes stage: consultation. Registration threshold state: evidence gap. Missing requirements: missing fact type contest object, missing fact type stage, missing fact type material resistance, missing fact type explicit opposition position, missing condition distinct supporting and opposing sides.",
+      "observed_behaviour": "My Feed, My Way | Prime Minister of Australia Skip to main content My Feed, My Way Media release Tuesday 8 September 2026 The Hon Anthony Albanese MP Prime Minister of Australia The Hon Anika Wells MP Minister for Communications Minister for Sport Listen The Albanese Government is taking the next step following its world leading social media age ban to ensure Australians have more choice online, with draft legislation for the Digital Duty of Care released today for targeted consultation. These new laws will put the onus on digital service providers to provide a safe online environment, setting minimum standards for the features and tools they use. This will include an Australian first, “My Feed, My Way,” initiative which will give Australians control over their social media algorithms. Social media platforms will be required to send a notification to new and existing users offering them a choice over their default feed. Users can choose to opt in to having their default feed include personalised content recommended by the algorithm. Alternatively, users can opt out of personally recommended content in their default feed and see the friends and creators they choose to follow. This will give Australians greater choice over their platforms and what they see. Further, digital services like online games, apps and AI chatbots will be required to protect under 18s from design features that have negative behavioural impacts, like addictive features or those that can have an effect on a young person’s self-esteem. They will also be required to protect under 18s from harmful content like: content that promotes, encourages or accelerates eating disorders content that promotes hostile ideas about women and gender equality pornography content that glorifies crime or life endangering",
+      "extracted_cues": {
+        "resistance_terms": [],
+        "stage_terms": [
+          "consultation"
+        ],
+        "outcome_terms": [],
+        "pressure_terms": []
+      },
+      "entity_mentions": {
+        "actors": [
+          {
+            "actor_id": "ACT-ANIKA-WELLS",
+            "name": "Anika Wells",
+            "match_variant": "anika wells",
+            "party_id_at_resolution": "AUS-FED-ALP"
+          },
+          {
+            "actor_id": "ACT-ANTHONY-ALBANESE",
+            "name": "Anthony Albanese",
+            "match_variant": "anthony albanese",
+            "party_id_at_resolution": "AUS-FED-ALP"
+          }
+        ],
+        "teams": []
+      },
+      "position_state": "UNRESOLVED",
+      "resistance_state": "UNRESOLVED",
+      "outcome_state": "UNRESOLVED",
+      "contest_fact_ids": [
+        "FACT-160f647fb655a415d5617092",
+        "FACT-b90e4231ae38b247b3c5995e",
+        "FACT-e78ebcd61e82302dabe737f8"
+      ],
+      "contest_fact_types": [
+        "EXPLICIT_SUPPORT_POSITION",
+        "PARTICIPANT"
+      ],
+      "threshold_evaluation_id": "THRESH-77b39a0b6ebd99a0546eb017",
+      "threshold_state": "EVIDENCE_GAP",
+      "threshold_blockers": [
+        "MISSING_CONDITION_DISTINCT_SUPPORTING_AND_OPPOSING_SIDES",
+        "MISSING_FACT_TYPE_CONTEST_OBJECT",
+        "MISSING_FACT_TYPE_EXPLICIT_OPPOSITION_POSITION",
+        "MISSING_FACT_TYPE_MATERIAL_RESISTANCE",
+        "MISSING_FACT_TYPE_STAGE"
+      ],
+      "supporting_entities": [
+        "ACTOR:ACT-ANIKA-WELLS"
+      ],
+      "opposing_entities": [],
+      "registration_action": "NO_AUTOMATIC_REGISTRATION",
+      "intelligence_signature": "7910ffebb4a2e9fe0752ad0aae9d87fc96f05b65cbe8df6a0d391e1970a6d89c",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "substantive_detail_lineage_required": true,
+        "active_contest_fact_lineage_required": true,
+        "threshold_evaluation_lineage_required": true,
+        "routing_does_not_register_match": true,
+        "threshold_eligibility_does_not_register_match": true,
+        "entity_mentions_do_not_establish_positions": true,
+        "retracted_facts_excluded": true,
+        "no_projection_effect_without_registered_target": true
+      }
+    },
+    {
+      "event_id": "INTEL-AREA-32c01893e29a41ab0de1147e",
+      "parent_event_id": "SIG-REV-CHG-WATCH-PM-MEDIA-20260909022740",
+      "jurisdiction_id": "AUS-FED",
+      "party_id": "AUS-FED-ALP",
+      "actor_id": null,
+      "party_ids": [
+        "AUS-FED-ALP"
+      ],
+      "actor_ids": [
+        "ACT-ANTHONY-ALBANESE",
+        "ACT-CATHERINE-KING",
+        "ACT-MERYL-SWANSON",
+        "ACT-SHARON-CLAYDON"
+      ],
+      "contest_id": null,
+      "cycle_id": null,
+      "competition_class": "BUDGET",
+      "area_evidence_id": "AREA-32c01893e29a41ab0de1147e",
+      "detail_record_id": "DETAIL-bd92f3bf4fa54219095eb12d",
+      "detail_version_id": "DETAIL-bd92f3bf4fa54219095eb12d-V1",
+      "source_snapshot_id": "AUTO-WATCH-PM-MEDIA-20260909022740",
+      "record_url": "https://www.pm.gov.au/media/press-conference-tarro-nsw",
+      "captured_at": "2026-09-09T03:54:28.137Z",
+      "evidence_captured_at": "2026-09-09T03:54:25.461Z",
+      "event_date": "2026-09-09",
+      "checkpoint": "SUBSTANTIVE_INFORMATION_INGESTION",
+      "event_type": "AREA_EVIDENCE_INGESTED",
+      "area_routing_state": "SUBSTANTIVE_CONTENT_ROUTED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-PM-MEDIA",
+      "claim": "Ingested substantive budget evidence from Press conference - Tarro, NSW. Registration threshold state: evidence gap. Missing requirements: missing fact type objective, missing fact type stage, missing fact type material resistance, missing fact type explicit opposition position, missing condition distinct supporting and opposing sides.",
+      "observed_behaviour": "Press conference - Tarro, NSW | Prime Minister of Australia Skip to main content Press conference - Tarro, NSW Transcript Wednesday 9 September 2026 The Hon Anthony Albanese MP Prime Minister of Australia Listen MERYL SWANSON, MEMBER FOR PATERSON : Well, good morning everyone and welcome to the M1 here at – well, we’re kind of at Tarro at the moment, but it’s on its way to Raymond Terrace. But what is most exciting is that the people of the Hunter and the people of New South Wales and the Eastern Seaboard of Australia are going to be on their way within 48 hours on this magnificent piece of road infrastructure. Success has many parents, but let me tell you, Labor has delivered this road. And I cannot wait for the people of Australia to be driving on it in less than 48 hours. It’s been coming for around 20 years, and we’ve all been working towards this day to have it officially opened. It’s opened under Prime Minister Anthony Albanese, and we were just reflecting – I’ve been in this job ten years, and I think I’ve spoken in Parliament about this officially about 40 times, and I’ve mentioned it many more times. And I remember saying when I first got the job, I said 'the M1 is terrible. It's terrible at Hexham. It's just a choke point between Sydney and Brisbane. It needs to be fixed.' And he has backed this project in every step of the way. And I want to also mention Minister Catherine King. She came here and said 'we're going to fast track it.' It’s one thing to make a promise, it's another thing to deliver it. And that big group of people behind us, those workers, 70 per cent of them are from the Hunter. They've delivered this project not only on budget, but over 12 months early. When do you hear that? Especially in construction in the last few years. We've done it. The",
+      "extracted_cues": {
+        "resistance_terms": [],
+        "stage_terms": [],
+        "outcome_terms": [],
+        "pressure_terms": []
+      },
+      "entity_mentions": {
+        "actors": [
+          {
+            "actor_id": "ACT-ANTHONY-ALBANESE",
+            "name": "Anthony Albanese",
+            "match_variant": "anthony albanese",
+            "party_id_at_resolution": "AUS-FED-ALP"
+          },
+          {
+            "actor_id": "ACT-CATHERINE-KING",
+            "name": "Catherine King",
+            "match_variant": "catherine king",
+            "party_id_at_resolution": "AUS-FED-ALP"
+          },
+          {
+            "actor_id": "ACT-MERYL-SWANSON",
+            "name": "Meryl Swanson",
+            "match_variant": "meryl swanson",
+            "party_id_at_resolution": "AUS-FED-ALP"
+          },
+          {
+            "actor_id": "ACT-SHARON-CLAYDON",
+            "name": "Sharon Claydon",
+            "match_variant": "sharon claydon",
+            "party_id_at_resolution": "AUS-FED-ALP"
+          }
+        ],
+        "teams": [
+          {
+            "party_id": "AUS-FED-ALP",
+            "name": "Australian Labor Party",
+            "match_alias": "Labor"
+          }
+        ]
+      },
+      "position_state": "UNRESOLVED",
+      "resistance_state": "UNRESOLVED",
+      "outcome_state": "UNRESOLVED",
+      "contest_fact_ids": [
+        "FACT-05e02a98d95c16fa78d10da4",
+        "FACT-0bd2a854d13fa17201a16d8d",
+        "FACT-38c13377b477494b63713b57",
+        "FACT-55eced04bb2c90e6a99bc52c",
+        "FACT-624442a82e9532afc08821c8",
+        "FACT-935ca8012de31184b6d22de2",
+        "FACT-ddb5b31869568645c06e88bd",
+        "FACT-e108cfd61d2d1c79ca5c8c33",
+        "FACT-e28fe7daecd2dfbddd6db2db",
+        "FACT-fa8c528a1c08e80f26936707",
+        "FACT-fef8a7fcbb6d2302f0fda2bf"
+      ],
+      "contest_fact_types": [
+        "CONTEST_OBJECT",
+        "EXPLICIT_SUPPORT_POSITION",
+        "PARTICIPANT"
+      ],
+      "threshold_evaluation_id": "THRESH-5b09e089b57b565e323c7cca",
+      "threshold_state": "EVIDENCE_GAP",
+      "threshold_blockers": [
+        "MISSING_CONDITION_DISTINCT_SUPPORTING_AND_OPPOSING_SIDES",
+        "MISSING_FACT_TYPE_EXPLICIT_OPPOSITION_POSITION",
+        "MISSING_FACT_TYPE_MATERIAL_RESISTANCE",
+        "MISSING_FACT_TYPE_OBJECTIVE",
+        "MISSING_FACT_TYPE_STAGE"
+      ],
+      "supporting_entities": [
+        "ACTOR:ACT-CATHERINE-KING"
+      ],
+      "opposing_entities": [],
+      "registration_action": "NO_AUTOMATIC_REGISTRATION",
+      "intelligence_signature": "e81b31e1a8efd23788d5cab43f5009c7019d107885887acb794aa41ad0f81469",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "substantive_detail_lineage_required": true,
+        "active_contest_fact_lineage_required": true,
+        "threshold_evaluation_lineage_required": true,
+        "routing_does_not_register_match": true,
+        "threshold_eligibility_does_not_register_match": true,
+        "entity_mentions_do_not_establish_positions": true,
+        "retracted_facts_excluded": true,
+        "no_projection_effect_without_registered_target": true
+      }
+    },
+    {
+      "event_id": "INTEL-AREA-496d2dd738d0137ef312cf3b",
+      "parent_event_id": "SIG-REV-CHG-WATCH-PM-MEDIA-20260908233843",
+      "jurisdiction_id": "AUS-FED",
+      "party_id": "AUS-FED-LIB",
+      "actor_id": "ACT-ANTHONY-ALBANESE",
+      "party_ids": [
+        "AUS-FED-LIB"
+      ],
+      "actor_ids": [
+        "ACT-ANTHONY-ALBANESE"
+      ],
+      "contest_id": null,
+      "cycle_id": null,
+      "competition_class": "LEGISLATIVE",
+      "area_evidence_id": "AREA-496d2dd738d0137ef312cf3b",
+      "detail_record_id": "DETAIL-e8eb5ede7efb9a843c92aa93",
+      "detail_version_id": "DETAIL-e8eb5ede7efb9a843c92aa93-V1",
+      "source_snapshot_id": "AUTO-WATCH-PM-MEDIA-20260908233843",
+      "record_url": "https://www.pm.gov.au/media/television-interview-abc-news-breakfast-42",
+      "captured_at": "2026-09-09T03:54:28.137Z",
+      "evidence_captured_at": "2026-09-09T03:54:25.733Z",
+      "event_date": "2026-09-09",
+      "checkpoint": "SUBSTANTIVE_INFORMATION_INGESTION",
+      "event_type": "AREA_EVIDENCE_INGESTED",
+      "area_routing_state": "SUBSTANTIVE_CONTENT_ROUTED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-PM-MEDIA",
+      "claim": "Ingested substantive legislative evidence from Television interview - ABC news breakfast. Registration threshold state: evidence gap. Missing requirements: missing fact type contest object, missing fact type stage.",
+      "observed_behaviour": "Television interview - ABC news breakfast | Prime Minister of Australia Skip to main content Television interview - ABC news breakfast Transcript Wednesday 9 September 2026 The Hon Anthony Albanese MP Prime Minister of Australia Listen JAMES GLENDAY, HOST : Well, the Prime Minister Anthony Albanese is out and about this morning and he's happy to say that he's joining us live from north of Newcastle on a road. Prime Minister, welcome back to the program. It's a Sitting Week in Canberra but you've skipped town. Why are you up near Newcastle? ANTHONY ALBANESE, PRIME MINISTER : Because this piece of highway that I'm on that'll open on Friday, just north of Newcastle, travelling 15 kilometres to Raymond Terrace – everyone who's ever driven from Sydney to Brisbane or in this region knows that when you hit areas like Hexham and Heatherbrae, you hit a traffic jam. Now this will mean that there are no traffic lights all the way there from Melbourne till you get to Coffs Harbour. And when the Coffs Harbour Bypass opens later this year, it'll be all the way through to the Queensland border. This road we'll open today, but traffic starts in two days’ time, and it's going to make such a difference for productivity, for road safety, for everyone who travels on this road, but importantly as well for locals because it'll take a lot of the traffic off those local roads. So, great for road safety as well. GLENDAY : You do love infrastructure. I appreciate you joining us this morning – PRIME MINISTER : I do. GLENDAY : Now we've been getting plenty of questions about your social media plans. Do you know what percentage of people are actually likely to choose to opt out of a default algorithm on a social media app? PRIME MINISTER : Well, it's up to them. This is going to be world first. So,",
+      "extracted_cues": {
+        "resistance_terms": [],
+        "stage_terms": [],
+        "outcome_terms": [],
+        "pressure_terms": []
+      },
+      "entity_mentions": {
+        "actors": [
+          {
+            "actor_id": "ACT-ANTHONY-ALBANESE",
+            "name": "Anthony Albanese",
+            "match_variant": "anthony albanese",
+            "party_id_at_resolution": "AUS-FED-ALP"
+          }
+        ],
+        "teams": [
+          {
+            "party_id": "AUS-FED-LIB",
+            "name": "Liberal Party of Australia",
+            "match_alias": "Liberal"
+          }
+        ]
+      },
+      "position_state": "UNRESOLVED",
+      "resistance_state": "UNRESOLVED",
+      "outcome_state": "UNRESOLVED",
+      "contest_fact_ids": [
+        "FACT-33010b5b44031f2890767090",
+        "FACT-400cc6931b742829a3d87467",
+        "FACT-a9e6e75020e78bc1a3034446",
+        "FACT-d5071733d93d15b1900ce084",
+        "FACT-e8056cc5ad74f465b54e2f84"
+      ],
+      "contest_fact_types": [
+        "EXPLICIT_OPPOSITION_POSITION",
+        "EXPLICIT_SUPPORT_POSITION",
+        "MATERIAL_RESISTANCE",
+        "PARTICIPANT"
+      ],
+      "threshold_evaluation_id": "THRESH-2407d551e8fc92d0a791807f",
+      "threshold_state": "EVIDENCE_GAP",
+      "threshold_blockers": [
+        "MISSING_FACT_TYPE_CONTEST_OBJECT",
+        "MISSING_FACT_TYPE_STAGE"
+      ],
+      "supporting_entities": [
+        "ACTOR:ACT-ANTHONY-ALBANESE"
+      ],
+      "opposing_entities": [
+        "TEAM:AUS-FED-LIB"
+      ],
+      "registration_action": "NO_AUTOMATIC_REGISTRATION",
+      "intelligence_signature": "11d10221baf42b95742db0e7820fe80a6b9e703caebd3e717ea66cc6e9a154dc",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "substantive_detail_lineage_required": true,
+        "active_contest_fact_lineage_required": true,
+        "threshold_evaluation_lineage_required": true,
+        "routing_does_not_register_match": true,
+        "threshold_eligibility_does_not_register_match": true,
+        "entity_mentions_do_not_establish_positions": true,
+        "retracted_facts_excluded": true,
+        "no_projection_effect_without_registered_target": true
+      }
+    },
+    {
+      "event_id": "INTEL-AREA-c15d5b20112c5d7b03aaf9b7",
+      "parent_event_id": "SIG-REV-CHG-WATCH-PM-MEDIA-20260908234539",
+      "jurisdiction_id": "AUS-FED",
+      "party_id": null,
+      "actor_id": "ACT-ANTHONY-ALBANESE",
+      "party_ids": [],
+      "actor_ids": [
+        "ACT-ANTHONY-ALBANESE"
+      ],
+      "contest_id": null,
+      "cycle_id": null,
+      "competition_class": "LEGISLATIVE",
+      "area_evidence_id": "AREA-c15d5b20112c5d7b03aaf9b7",
+      "detail_record_id": "DETAIL-595c696e2bca8b730cfc1435",
+      "detail_version_id": "DETAIL-595c696e2bca8b730cfc1435-V1",
+      "source_snapshot_id": "AUTO-WATCH-PM-MEDIA-20260908234539",
+      "record_url": "https://www.pm.gov.au/media/television-interview-sunrise-44",
+      "captured_at": "2026-09-09T03:54:28.137Z",
+      "evidence_captured_at": "2026-09-09T03:54:26.005Z",
+      "event_date": "2026-09-09",
+      "checkpoint": "SUBSTANTIVE_INFORMATION_INGESTION",
+      "event_type": "AREA_EVIDENCE_INGESTED",
+      "area_routing_state": "SUBSTANTIVE_CONTENT_ROUTED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-PM-MEDIA",
+      "claim": "Ingested substantive legislative evidence from Television interview - Sunrise. Captured content includes stage: before the Senate; outcome language: passed. Registration threshold state: evidence gap. Missing requirements: missing fact type contest object, missing fact type stage, missing fact type material resistance, missing fact type explicit support position, missing fact type explicit opposition position, missing condition distinct supporting and opposing sides.",
+      "observed_behaviour": "Television interview - Sunrise | Prime Minister of Australia Skip to main content Television interview - Sunrise Transcript Wednesday 9 September 2026 The Hon Anthony Albanese MP Prime Minister of Australia Listen MATT SHIRVINGTON, HOST : Well, the way that each and every Australian uses social media could be about to change forever. Every Aussie may soon have the power to opt out of algorithms online. There are the systems that analyse massive amounts of online data to feed you the posts that will be keeping you scrolling. NAT BARR, HOST : Under the proposed new laws, social media companies would have to give users a choice over whether they want to be shown that recommended content or just posts from people they follow. For more, Prime Minister Anthony Albanese joins us now. Tell us, how will you force the tech giants to do this and do it properly? Because I guess we're still seeing 80 per cent or so of teens still on social media despite the under-16s ban. How will this be different? ANTHONY ALBANESE, PRIME MINISTER : We want to make sure we get the legislation right. We've got further strengthening of our social media laws going through Parliament, hopefully today through the Senate. But when it comes to My Feed, My Way , this is about putting the power back in the hands of your listeners so that they get to decide what they see. So, a pop up that will say you want to continue to receive the algorithms or you want to opt out and receive the feed from people who you follow or people who you want to see it from. This is about putting the power back in Australians’ hands and away from the tech giants who of course we know that this is causing massive issues and many of your listeners will be concerned about what people have access to. We know that within a period of ju",
+      "extracted_cues": {
+        "resistance_terms": [],
+        "stage_terms": [
+          "before the Senate"
+        ],
+        "outcome_terms": [
+          "passed"
+        ],
+        "pressure_terms": []
+      },
+      "entity_mentions": {
+        "actors": [
+          {
+            "actor_id": "ACT-ANTHONY-ALBANESE",
+            "name": "Anthony Albanese",
+            "match_variant": "anthony albanese",
+            "party_id_at_resolution": "AUS-FED-ALP"
+          }
+        ],
+        "teams": []
+      },
+      "position_state": "UNRESOLVED",
+      "resistance_state": "UNRESOLVED",
+      "outcome_state": "OUTCOME_LANGUAGE_PRESENT",
+      "contest_fact_ids": [
+        "FACT-2d60831d1ca0ff7aa5a9e6ed"
+      ],
+      "contest_fact_types": [
+        "PARTICIPANT"
+      ],
+      "threshold_evaluation_id": "THRESH-8e8370670e6f51e023d9d0c6",
+      "threshold_state": "EVIDENCE_GAP",
+      "threshold_blockers": [
+        "MISSING_CONDITION_DISTINCT_SUPPORTING_AND_OPPOSING_SIDES",
+        "MISSING_FACT_TYPE_CONTEST_OBJECT",
+        "MISSING_FACT_TYPE_EXPLICIT_OPPOSITION_POSITION",
+        "MISSING_FACT_TYPE_EXPLICIT_SUPPORT_POSITION",
+        "MISSING_FACT_TYPE_MATERIAL_RESISTANCE",
+        "MISSING_FACT_TYPE_STAGE"
+      ],
+      "supporting_entities": [],
+      "opposing_entities": [],
+      "registration_action": "NO_AUTOMATIC_REGISTRATION",
+      "intelligence_signature": "52a0a15c17348703b21745baa5746c5df8a10aab4e852a55e9fa6ce80b289d9e",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "substantive_detail_lineage_required": true,
+        "active_contest_fact_lineage_required": true,
+        "threshold_evaluation_lineage_required": true,
+        "routing_does_not_register_match": true,
+        "threshold_eligibility_does_not_register_match": true,
+        "entity_mentions_do_not_establish_positions": true,
+        "retracted_facts_excluded": true,
+        "no_projection_effect_without_registered_target": true
+      }
+    },
+    {
+      "event_id": "INTEL-AREA-9e43d313c7571dcd88402aba",
+      "parent_event_id": "SIG-REV-CHG-WATCH-PM-MEDIA-20260908230751",
+      "jurisdiction_id": "AUS-FED",
+      "party_id": null,
+      "actor_id": null,
+      "party_ids": [
+        "AUS-FED-ALP",
+        "AUS-FED-LIB",
+        "AUS-FED-ONP"
+      ],
+      "actor_ids": [
+        "ACT-ANIKA-WELLS",
+        "ACT-ANTHONY-ALBANESE",
+        "ACT-MATT-CANAVAN"
+      ],
+      "contest_id": null,
+      "cycle_id": null,
+      "competition_class": "LEGISLATIVE",
+      "area_evidence_id": "AREA-9e43d313c7571dcd88402aba",
+      "detail_record_id": "DETAIL-94ab0097a6f73a25e60df0cd",
+      "detail_version_id": "DETAIL-94ab0097a6f73a25e60df0cd-V1",
+      "source_snapshot_id": "AUTO-WATCH-PM-MEDIA-20260908230751",
+      "record_url": "https://www.pm.gov.au/media/television-interview-today-13",
+      "captured_at": "2026-09-09T03:54:28.137Z",
+      "evidence_captured_at": "2026-09-09T03:54:26.270Z",
+      "event_date": "2026-09-09",
+      "checkpoint": "SUBSTANTIVE_INFORMATION_INGESTION",
+      "event_type": "AREA_EVIDENCE_INGESTED",
+      "area_routing_state": "SUBSTANTIVE_CONTENT_ROUTED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-PM-MEDIA",
+      "claim": "Ingested substantive legislative evidence from Television interview - Today. Registration threshold state: evidence gap. Missing requirements: missing fact type contest object, missing fact type stage, missing fact type material resistance, missing fact type explicit opposition position, missing condition distinct supporting and opposing sides.",
+      "observed_behaviour": "Television interview - Today | Prime Minister of Australia Skip to main content Television interview - Today Transcript Wednesday 9 September 2026 The Hon Anthony Albanese MP Prime Minister of Australia Listen TOM STEINFORT, HOST: Well, the Labor Government is once again waging war on tech giants, releasing a draft Digital Duty of Care bill that allows Australians to opt out of addictive algorithms. SYLVIA JEFFREYS, HOST: To discuss, Prime Minister Anthony Albanese joins us now from New South Wales. Good morning to you, PM, and thank you for your time. ANTHONY ALBANESE, PRIME MINISTER: Good morning, great to be with you. JEFFREYS: Look, no doubt a lot of parents will be happy about some of these changes. But how can you guarantee the tech giants will comply? PRIME MINISTER: What we can do is make sure that we pass laws that ensure that the tech giants do have to comply. This is about putting the power back in the hands of consumers. And with the My Feed, My Way plan, what it's aimed at is if you want to go and continue to scroll and use the algorithms, you can do so. But if you want to opt out, you can certainly do so as well. This is about putting power back in the hands of Australians because we know that these big tech giants are having an impact. So, just one example is that you can have chatbots advising young girls and women on how to live on 600 calories a day. We know that that is just unhealthy, it's dangerous and it leads to eating disorders. And we want to make sure that that sort of behaviour doesn't occur. So, the government is prepared to pass this law. We've released an exposure draft just yesterday, and I think this is something the whole world is grappling with, frankly. But families watching this program are certainly grappling with it as well. STEINFO",
+      "extracted_cues": {
+        "resistance_terms": [],
+        "stage_terms": [],
+        "outcome_terms": [],
+        "pressure_terms": []
+      },
+      "entity_mentions": {
+        "actors": [
+          {
+            "actor_id": "ACT-ANIKA-WELLS",
+            "name": "Anika Wells",
+            "match_variant": "anika wells",
+            "party_id_at_resolution": "AUS-FED-ALP"
+          },
+          {
+            "actor_id": "ACT-ANTHONY-ALBANESE",
+            "name": "Anthony Albanese",
+            "match_variant": "anthony albanese",
+            "party_id_at_resolution": "AUS-FED-ALP"
+          },
+          {
+            "actor_id": "ACT-MATT-CANAVAN",
+            "name": "Matt Canavan",
+            "match_variant": "matt canavan",
+            "party_id_at_resolution": "AUS-FED-NAT"
+          }
+        ],
+        "teams": [
+          {
+            "party_id": "AUS-FED-ALP",
+            "name": "Australian Labor Party",
+            "match_alias": "Labor"
+          },
+          {
+            "party_id": "AUS-FED-LIB",
+            "name": "Liberal Party of Australia",
+            "match_alias": "Liberal"
+          },
+          {
+            "party_id": "AUS-FED-ONP",
+            "name": "Pauline Hanson's One Nation",
+            "match_alias": "One Nation"
+          }
+        ]
+      },
+      "position_state": "UNRESOLVED",
+      "resistance_state": "UNRESOLVED",
+      "outcome_state": "UNRESOLVED",
+      "contest_fact_ids": [
+        "FACT-0a9d36d83543e459a2bd8644",
+        "FACT-3d1c0e6c4cb6fcbef1f110e5",
+        "FACT-7e2c0a638c29fe44ff4dfd8e",
+        "FACT-8bc0c0f6571ea0affb68e8d7",
+        "FACT-8fe2b46ad36dbc9fa1609817",
+        "FACT-f684aa3c1db5e6fbc4bbfc7d"
+      ],
+      "contest_fact_types": [
+        "EXPLICIT_SUPPORT_POSITION",
+        "PARTICIPANT"
+      ],
+      "threshold_evaluation_id": "THRESH-ce97b91669550280c7d30d12",
+      "threshold_state": "EVIDENCE_GAP",
+      "threshold_blockers": [
+        "MISSING_CONDITION_DISTINCT_SUPPORTING_AND_OPPOSING_SIDES",
+        "MISSING_FACT_TYPE_CONTEST_OBJECT",
+        "MISSING_FACT_TYPE_EXPLICIT_OPPOSITION_POSITION",
+        "MISSING_FACT_TYPE_MATERIAL_RESISTANCE",
+        "MISSING_FACT_TYPE_STAGE"
+      ],
+      "supporting_entities": [
+        "ACTOR:ACT-MATT-CANAVAN",
+        "TEAM:AUS-FED-LIB",
+        "TEAM:AUS-FED-ONP"
+      ],
+      "opposing_entities": [],
+      "registration_action": "NO_AUTOMATIC_REGISTRATION",
+      "intelligence_signature": "5d5f1131d00f7efa689f69e06e249faf2c6bcf958f60fc1746535e1cf3ef4ab5",
       "inference": null,
       "inference_class": "NONE",
       "projection_effect": "NO_EFFECT",

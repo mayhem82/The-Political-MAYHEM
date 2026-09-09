@@ -26,20 +26,21 @@ for(const rule of [
   'later_extraction_preserves_original_evidence_capture_time','facts_are_append_only_by_fact_id'
 ]) assert(ledger.rules?.[rule]===true,`contest fact rule missing: ${rule}`);
 
-const activeAreas=(areas.records||[]).filter(x=>x.routing_state==='SUBSTANTIVE_CONTENT_ROUTED');
-const activeById=new Map(activeAreas.map(x=>[x.area_evidence_id,x]));
+const allAreas=areas.records||[];
+const areaById=new Map(allAreas.map(x=>[x.area_evidence_id,x]));
+const activeAreas=allAreas.filter(x=>x.routing_state==='SUBSTANTIVE_CONTENT_ROUTED');
 const detailByVersion=new Map((details.records||[]).map(x=>[x.detail_version_id,x]));
 const allowedTypes=new Set(ledger.fact_types||[]);
 const facts=ledger.facts||[];
 assert(uniq(facts.map(x=>x.fact_id)),'contest fact IDs are not unique');
 
 for(const fact of facts){
-  const area=activeById.get(fact.area_evidence_id);
-  assert(Boolean(area),`${fact.fact_id}: fact does not reference active area evidence`);
+  const area=areaById.get(fact.area_evidence_id);
+  assert(Boolean(area),`${fact.fact_id}: parent area evidence missing`);
   const detail=detailByVersion.get(fact.detail_version_id);
   assert(Boolean(detail),`${fact.fact_id}: detail version missing`);
   assert(allowedTypes.has(fact.fact_type),`${fact.fact_id}: invalid fact type ${fact.fact_type}`);
-  assert(fact.fact_state==='OBSERVED_SOURCE_TEXT',`${fact.fact_id}: fact state is not observed source text`);
+  assert(['OBSERVED_SOURCE_TEXT','RETRACTED_EXTRACTION_NOISE'].includes(fact.fact_state),`${fact.fact_id}: invalid fact state ${fact.fact_state}`);
   assert(typeof fact.evidence_text==='string'&&fact.evidence_text.length>0,`${fact.fact_id}: evidence text missing`);
   assert(typeof fact.evidence_match==='string'&&fact.evidence_match.length>0,`${fact.fact_id}: evidence match missing`);
   assert(validTime(fact.evidence_captured_at),`${fact.fact_id}: evidence capture time invalid`);
@@ -56,9 +57,16 @@ for(const fact of facts){
     for(const actorId of fact.actor_ids||[]) assert((area.actor_ids||[]).includes(actorId),`${fact.fact_id}: actor ${actorId} was not resolved in parent area evidence`);
     for(const partyId of fact.party_ids||[]) assert((area.party_ids||[]).includes(partyId),`${fact.fact_id}: team ${partyId} was not resolved in parent area evidence`);
   }
-  if(detail){
-    assert(compact(detail.body_text).includes(compact(fact.evidence_text)),`${fact.fact_id}: preserved evidence text not found in substantive source body`);
+  if(detail) assert(compact(detail.body_text).includes(compact(fact.evidence_text)),`${fact.fact_id}: preserved evidence text not found in substantive source body`);
+
+  if(fact.fact_state==='OBSERVED_SOURCE_TEXT'){
+    assert(area?.routing_state==='SUBSTANTIVE_CONTENT_ROUTED',`${fact.fact_id}: active fact references inactive area evidence`);
+  }else{
+    assert(validTime(fact.retracted_at),`${fact.fact_id}: retracted fact missing retracted_at`);
+    assert(Boolean(fact.retraction_reason),`${fact.fact_id}: retracted fact missing reason`);
+    assert(Array.isArray(fact.fact_state_history)&&fact.fact_state_history.some(x=>x.to==='RETRACTED_EXTRACTION_NOISE'),`${fact.fact_id}: retracted fact lacks append-only state history`);
   }
+
   if(['EXPLICIT_SUPPORT_POSITION','EXPLICIT_OPPOSITION_POSITION'].includes(fact.fact_type)){
     assert((fact.actor_ids||[]).length+(fact.party_ids||[]).length>0,`${fact.fact_id}: explicit position lacks resolved entity`);
     assert(fact.position_state===(fact.fact_type==='EXPLICIT_SUPPORT_POSITION'?'SUPPORTING':'OPPOSING'),`${fact.fact_id}: explicit position state mismatch`);
@@ -70,10 +78,10 @@ for(const fact of facts){
   if(fact.fact_type==='POSSIBLE_OUTCOME_STATE') assert(fact.outcome_verification_state==='REQUIRES_SEPARATE_VERIFICATION',`${fact.fact_id}: possible outcome bypassed verification`);
 }
 
-if(facts.length>0){
-  for(const area of activeAreas){
-    assert(facts.some(x=>x.area_evidence_id===area.area_evidence_id),`${area.area_evidence_id}: active area evidence produced no contest facts`);
-  }
+const activeFacts=facts.filter(x=>x.fact_state==='OBSERVED_SOURCE_TEXT');
+const retractedFacts=facts.filter(x=>x.fact_state==='RETRACTED_EXTRACTION_NOISE');
+if(activeFacts.length>0){
+  for(const area of activeAreas) assert(activeFacts.some(x=>x.area_evidence_id===area.area_evidence_id),`${area.area_evidence_id}: active area evidence produced no active contest facts`);
 }
 
 if(fail.length){
@@ -81,4 +89,4 @@ if(fail.length){
   for(const msg of fail) console.error('- '+msg);
   process.exit(1);
 }
-console.log('POLITICAL_MAYHEM_CONTEST_FACT_INTEGRITY_PASS',`areas=${activeAreas.length}`,`facts=${facts.length}`,`classes=${supported.length}`);
+console.log('POLITICAL_MAYHEM_CONTEST_FACT_INTEGRITY_PASS',`areas=${activeAreas.length}`,`activeFacts=${activeFacts.length}`,`retractedFacts=${retractedFacts.length}`,`classes=${supported.length}`);

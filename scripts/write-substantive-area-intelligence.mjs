@@ -55,7 +55,7 @@ for(const event of ledger.events.filter(x=>x.area_evidence_id)){
 }
 
 const now=new Date().toISOString();
-let ingested=0,retracted=0,reactivated=0,enriched=0;
+let ingested=0,retracted=0,reactivated=0,enriched=0,retractionEnriched=0;
 for(const row of areas.records||[]){
   const prior=latestStateByArea.get(row.area_evidence_id);
   if(row.routing_state==='SUBSTANTIVE_CONTENT_ROUTED'){
@@ -155,10 +155,35 @@ for(const row of areas.records||[]){
     ledger.events.push(event);eventIds.add(eventId);latestStateByArea.set(row.area_evidence_id,event);
     if(isReactivation) reactivated++; else if(needsEnrichment) enriched++; else ingested++;
   }else if(row.routing_state==='RETRACTED_ROUTING_NOISE'){
-    if(!prior||prior.area_routing_state==='RETRACTED_ROUTING_NOISE') continue;
+    if(!prior) continue;
+    const facts=activeFactsByArea.get(row.area_evidence_id)||[];
+    const evaluation=thresholdByArea.get(row.area_evidence_id)||null;
+    const contestFactIds=facts.map(x=>x.fact_id);
+    const contestFactTypes=uniq(facts.map(x=>x.fact_type)).sort();
+    const thresholdBlockers=[...(evaluation?.blockers||[])].sort();
+    const supportingEntities=[...(evaluation?.supporting_entities||[])].sort();
+    const opposingEntities=[...(evaluation?.opposing_entities||[])].sort();
+    const signature=sha(JSON.stringify({
+      routing_state:'RETRACTED_ROUTING_NOISE',
+      contest_fact_ids:contestFactIds,
+      threshold_evaluation_id:evaluation?.evaluation_id||null,
+      threshold_state:evaluation?.evaluation_state||null,
+      threshold_blockers:thresholdBlockers,
+      supporting_entities:supportingEntities,
+      opposing_entities:opposingEntities
+    }));
+    const needsRetractionEnrichment=prior.area_routing_state==='RETRACTED_ROUTING_NOISE'&&prior.intelligence_signature!==signature;
+    if(prior.area_routing_state==='RETRACTED_ROUTING_NOISE'&&!needsRetractionEnrichment) continue;
+
     const retractionKey=String(row.retracted_at||now).replace(/[^0-9]/g,'').slice(0,14);
-    const eventId=`INTEL-RETRACT-${row.area_evidence_id}-${retractionKey}`;
+    const eventType=needsRetractionEnrichment?'AREA_EVIDENCE_RETRACTION_ENRICHED':'AREA_EVIDENCE_RETRACTED';
+    const eventId=needsRetractionEnrichment
+      ?`INTEL-RETRACT-ENRICH-${row.area_evidence_id}-${signature.slice(0,16)}`
+      :`INTEL-RETRACT-${row.area_evidence_id}-${retractionKey}`;
     if(eventIds.has(eventId)) continue;
+    const claim=needsRetractionEnrichment
+      ?`Enriched retracted ${human(row.competition_class)} evidence lineage for ${row.record_title||row.record_url}. ${thresholdText(evaluation)}`
+      :`Retracted prior ${human(row.competition_class)} routing for ${row.record_title||row.record_url}: ${row.retraction_reason||'routing no longer satisfies bounded substantive-content rules'}. ${thresholdText(evaluation)}`;
     const event={
       event_id:eventId,
       parent_event_id:prior.event_id,
@@ -178,8 +203,8 @@ for(const row of areas.records||[]){
       captured_at:now,
       evidence_captured_at:row.evidence_captured_at,
       event_date:String(now).slice(0,10),
-      checkpoint:'SUBSTANTIVE_INFORMATION_INGESTION',
-      event_type:'AREA_EVIDENCE_RETRACTED',
+      checkpoint:needsRetractionEnrichment?'SUBSTANTIVE_INTELLIGENCE_ENRICHMENT':'SUBSTANTIVE_INFORMATION_INGESTION',
+      event_type:eventType,
       area_routing_state:'RETRACTED_ROUTING_NOISE',
       evidence_state:'VERIFIED',
       signal_state:'OBSERVED',
@@ -187,19 +212,36 @@ for(const row of areas.records||[]){
       materiality_state:'IMMATERIAL',
       source_class:row.source_class,
       source_id:row.source_id,
-      claim:`Retracted prior ${human(row.competition_class)} routing for ${row.record_title||row.record_url}: ${row.retraction_reason||'routing no longer satisfies bounded substantive-content rules'}`,
+      claim,
       observed_behaviour:null,
+      contest_fact_ids:contestFactIds,
+      contest_fact_types:contestFactTypes,
+      threshold_evaluation_id:evaluation?.evaluation_id||null,
+      threshold_state:evaluation?.evaluation_state||null,
+      threshold_blockers:thresholdBlockers,
+      supporting_entities:supportingEntities,
+      opposing_entities:opposingEntities,
+      registration_action:'NO_AUTOMATIC_REGISTRATION',
+      intelligence_signature:signature,
       inference:null,
       inference_class:'NONE',
       projection_effect:'NO_EFFECT',
       information_advantage:'NONE',
       frozen:false,
-      integrity:{prior_event_retained:true,routing_correction_append_only:true,no_projection_effect:true}
+      integrity:{
+        prior_event_retained:true,
+        routing_correction_append_only:true,
+        threshold_evaluation_lineage_required:true,
+        retraction_propagates_not_a_match:true,
+        retracted_facts_excluded:true,
+        no_projection_effect:true
+      }
     };
-    ledger.events.push(event);eventIds.add(eventId);latestStateByArea.set(row.area_evidence_id,event);retracted++;
+    ledger.events.push(event);eventIds.add(eventId);latestStateByArea.set(row.area_evidence_id,event);
+    if(needsRetractionEnrichment) retractionEnriched++; else retracted++;
   }
 }
 
 ledger.captured_at=now;
 write(EVENTS,ledger);
-console.log('POLITICAL_MAYHEM_SUBSTANTIVE_INTELLIGENCE_OK',`ingested=${ingested}`,`enriched=${enriched}`,`retracted=${retracted}`,`reactivated=${reactivated}`,`events=${ledger.events.length}`);
+console.log('POLITICAL_MAYHEM_SUBSTANTIVE_INTELLIGENCE_OK',`ingested=${ingested}`,`enriched=${enriched}`,`retracted=${retracted}`,`retractionEnriched=${retractionEnriched}`,`reactivated=${reactivated}`,`events=${ledger.events.length}`);

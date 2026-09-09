@@ -3,7 +3,7 @@
   "mode": "FORWARD_ONLY",
   "scope": "Australia — Federal, States and Territories",
   "created_at": "2026-09-08T00:00:00+10:00",
-  "updated_at": "2026-09-09T01:06:46.779Z",
+  "updated_at": "2026-09-09T01:08:11.082Z",
   "rules": {
     "evidence_must_be_knowable_at_capture_time": true,
     "captured_at_required": true,
@@ -30,30 +30,30 @@
   },
   "live_evidence_ingestion": {
     "running": true,
-    "source_snapshots_ingested": 166,
-    "intelligence_events_ingested": 165,
+    "source_snapshots_ingested": 168,
+    "intelligence_events_ingested": 169,
     "contradictions_ingested": 0,
     "party_state_updates_ingested": 8,
     "actor_state_updates_ingested": 2,
     "field_state_updates_ingested": 1,
     "contest_state_updates_ingested": 0,
-    "signals_ingested": 76,
+    "signals_ingested": 78,
     "raw_source_changes_ingested": 0,
-    "signal_reviews_ingested": 61,
+    "signal_reviews_ingested": 63,
     "post_separation_promoted_signals_ingested": 0,
-    "last_capture_at": "2026-09-09T01:05:43.917Z",
+    "last_capture_at": "2026-09-09T01:07:31.840Z",
     "jurisdiction_coverage": {
       "federal": "CAPTURE_ACTIVE_DEGRADED_CURRENT_RUN",
-      "new_south_wales": "CAPTURE_ACTIVE_FULL_CONFIGURED_BASELINE",
+      "new_south_wales": "CAPTURE_ACTIVE_DEGRADED_CURRENT_RUN",
       "victoria": "CAPTURE_ACTIVE_FULL_CONFIGURED_BASELINE",
-      "queensland": "CAPTURE_ACTIVE_FULL_CONFIGURED_BASELINE",
+      "queensland": "CAPTURE_ACTIVE_DEGRADED_CURRENT_RUN",
       "western_australia": "CAPTURE_ACTIVE_FULL_CONFIGURED_BASELINE",
       "south_australia": "CAPTURE_ACTIVE_FULL_CONFIGURED_BASELINE",
       "tasmania": "CAPTURE_ACTIVE_FULL_CONFIGURED_BASELINE",
       "australian_capital_territory": "CAPTURE_ACTIVE_DEGRADED_CURRENT_RUN",
       "northern_territory": "CAPTURE_ACTIVE_DEGRADED_CURRENT_RUN"
     },
-    "source_changes_ingested": 70,
+    "source_changes_ingested": 72,
     "watched_sources": 36,
     "capture_baselines": 35,
     "capture_failures_last_run": 5,
@@ -73,13 +73,13 @@
       "AUS-NSW": {
         "configured_sources": 4,
         "baseline_sources": 4,
-        "current_run_failures": 0,
+        "current_run_failures": 1,
         "source_classes": [
           "PRIMARY_ELECTORAL_AUTHORITY",
           "PRIMARY_GOVERNMENT",
           "PRIMARY_PARLIAMENT"
         ],
-        "status": "CAPTURE_ACTIVE_FULL_CONFIGURED_BASELINE"
+        "status": "CAPTURE_ACTIVE_DEGRADED_CURRENT_RUN"
       },
       "AUS-VIC": {
         "configured_sources": 4,
@@ -95,13 +95,13 @@
       "AUS-QLD": {
         "configured_sources": 3,
         "baseline_sources": 3,
-        "current_run_failures": 0,
+        "current_run_failures": 1,
         "source_classes": [
           "PRIMARY_ELECTORAL_AUTHORITY",
           "PRIMARY_GOVERNMENT",
           "PRIMARY_PARLIAMENT"
         ],
-        "status": "CAPTURE_ACTIVE_FULL_CONFIGURED_BASELINE"
+        "status": "CAPTURE_ACTIVE_DEGRADED_CURRENT_RUN"
       },
       "AUS-WA": {
         "configured_sources": 3,
@@ -139,7 +139,7 @@
       "AUS-ACT": {
         "configured_sources": 3,
         "baseline_sources": 3,
-        "current_run_failures": 3,
+        "current_run_failures": 1,
         "source_classes": [
           "PRIMARY_ELECTORAL_AUTHORITY",
           "PRIMARY_GOVERNMENT",
@@ -160,7 +160,7 @@
       }
     },
     "pending_signal_reviews": 9,
-    "deterministic_publication_signals": 61
+    "deterministic_publication_signals": 63
   },
   "queues": {
     "sources": [],

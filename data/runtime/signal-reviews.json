@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-SIGNAL-REVIEWS-001",
   "created_at": "2026-09-09T05:05:00+10:00",
-  "updated_at": "2026-09-09T03:34:58.450Z",
+  "updated_at": "2026-09-09T03:37:27.243Z",
   "rules": {
     "append_only": true,
     "raw_source_change_is_immutable": true,
@@ -15716,6 +15716,151 @@
           }
         ],
         "delta_hash": "941dedfafea8981c5112a5436f80b2185d9b2e131ae8f2a0045f18303820e4ed"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-ELECTIONS-ACT-NEWS-20260909033646",
+      "source_change_event_id": "CHG-WATCH-ELECTIONS-ACT-NEWS-20260909033646",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-ELECTIONS-ACT-NEWS-20260909033646",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Elections ACT — news archive added 4 structured publication records to its forward-captured official index: Click to find out more; Financial disclosure; Electoral integrity; Click to find out more",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-09-09T03:37:27.243Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "25cfb46c829c7f3d2385",
+            "title": "Click to find out more",
+            "url": "https://www.elections.act.gov.au/for-political-participants"
+          },
+          {
+            "record_id": "484cb2dc13de8d0ed7db",
+            "title": "Financial disclosure",
+            "url": "https://www.elections.act.gov.au/funding-disclosures-and-registers"
+          },
+          {
+            "record_id": "7e311b4010f8537cefc1",
+            "title": "Electoral integrity",
+            "url": "https://www.elections.act.gov.au/integrity"
+          },
+          {
+            "record_id": "a0936318fd8395c13134",
+            "title": "Click to find out more",
+            "url": "https://www.elections.act.gov.au/elections"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "053b49a631200edf8447",
+            "title": "Funding, disclosures and registers",
+            "url": "https://www.elections.act.gov.au/about-the-commission/publications/news-archives"
+          },
+          {
+            "record_id": "06aae5f67ba2e86ab363",
+            "title": "For voters",
+            "url": "https://www.elections.act.gov.au/about-the-commission/publications/news-archives"
+          },
+          {
+            "record_id": "0e0fa4dc365fda2be96d",
+            "title": "Skip to content",
+            "url": "https://www.elections.act.gov.au/about-the-commission/publications/news-archives"
+          },
+          {
+            "record_id": "192c6342a93df6d97001",
+            "title": "14 June 2024 Canberra Progressives apply to change the registered officer of the party",
+            "url": "https://www.elections.act.gov.au/about-the-commission/publications/news-archives/canberra-progressives-apply-to-change-the-registered-officer-of-the-party"
+          },
+          {
+            "record_id": "1b4347faab034b6357a9",
+            "title": "15 May 2024 Strong Independents apply to register as a political party for ACT Legislative Assembly elections",
+            "url": "https://www.elections.act.gov.au/about-the-commission/publications/news-archives/strong-independents-apply-to-register-as-a-political-party-for-act-legislative-assembly-elections"
+          },
+          {
+            "record_id": "1e642febde88f0395a01",
+            "title": "12 June 2024 Elections ACT's Service Delivery Plan for the 2024 ACT Legislative Assembly election is now available for viewing",
+            "url": "https://www.elections.act.gov.au/about-the-commission/publications/news-archives/elections-acts-service-delivery-plan-for-the-2024-act-legislative-assembly-election-is-now-available-for-viewing"
+          },
+          {
+            "record_id": "32d7fc3a07106583ce0b",
+            "title": "4 June 2024 Strong Independents officially registered for the 2024 ACT Legislative Assembly election",
+            "url": "https://www.elections.act.gov.au/about-the-commission/publications/news-archives/strong-independents-officially-registered-for-the-2024-act-legislative-assembly-election"
+          },
+          {
+            "record_id": "449c9fd5617e5ffe88cb",
+            "title": "For political participants",
+            "url": "https://www.elections.act.gov.au/about-the-commission/publications/news-archives"
+          },
+          {
+            "record_id": "655ef8f5e703018bf8f4",
+            "title": "12 June 2024 Elections ACT has re-released the source code for the electronic voting and counting system",
+            "url": "https://www.elections.act.gov.au/about-the-commission/publications/news-archives/elections-act-has-re-released-the-source-code-for-the-electronic-voting-and-counting-system"
+          },
+          {
+            "record_id": "a3857c658c21c7698da7",
+            "title": "News archives",
+            "url": "https://www.elections.act.gov.au/about-the-commission/publications/news-archives"
+          },
+          {
+            "record_id": "a5f53957f9b327858628",
+            "title": "17 May 2024 Independents for Canberra apply to change party abbreviation, Registered Officer and Secretary of the party",
+            "url": "https://www.elections.act.gov.au/about-the-commission/publications/news-archives/independents-for-canberra-apply-to-change-party-abbreviation,-registered-officer-and-secretary-of-the-party"
+          },
+          {
+            "record_id": "ae0fa7e29ce939d7c2db",
+            "title": "About the Commission",
+            "url": "https://www.elections.act.gov.au/about-the-commission"
+          },
+          {
+            "record_id": "b27b0bfd1a431fc4d7c6",
+            "title": "17 May 2024 Nominations for the ACT Aboriginal and Torres Strait Islander Elected Body (ATSIEB) 2024 are now open",
+            "url": "https://www.elections.act.gov.au/about-the-commission/publications/news-archives/nominations-for-the-act-aboriginal-and-torres-strait-islander-elected-body-atsieb-2024-are-now-open"
+          },
+          {
+            "record_id": "b4e14e76407a5ca368ce",
+            "title": "See all news",
+            "url": "https://www.elections.act.gov.au/about-the-commission/publications/news-archives"
+          },
+          {
+            "record_id": "d06265aff89799bf6987",
+            "title": "Translate",
+            "url": "https://www.elections.act.gov.au/about-the-commission/publications/news-archives"
+          },
+          {
+            "record_id": "e5d8cb2f4379903e4e65",
+            "title": "7 June 2024 Fiona Carrick Independent apply to register as a political party for ACT Legislative Assembly elections",
+            "url": "https://www.elections.act.gov.au/about-the-commission/publications/news-archives/fiona-carrick-independent-apply-to-register-as-a-political-party-for-act-legislative-assembly-elections"
+          },
+          {
+            "record_id": "ed2d080d80f5578b604f",
+            "title": "Elections",
+            "url": "https://www.elections.act.gov.au/about-the-commission/publications/news-archives"
+          },
+          {
+            "record_id": "ee901265f22dcecc014f",
+            "title": "24 May 2024 Reminder for new political parties intending to register for the 2024 ACT election",
+            "url": "https://www.elections.act.gov.au/about-the-commission/publications/news-archives/reminder-for-new-political-parties-intending-to-register-for-the-2024-act-election"
+          },
+          {
+            "record_id": "fdb43d4a34aaeb422813",
+            "title": "Integrity",
+            "url": "https://www.elections.act.gov.au/about-the-commission/publications/news-archives"
+          }
+        ],
+        "delta_hash": "011eb92e616814309dc9d1e9f95c879b8d984c440a3b2134af60cc03fbed3efb"
       },
       "integrity": {
         "source_change_unchanged": true,

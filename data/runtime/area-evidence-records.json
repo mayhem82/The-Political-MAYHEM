@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-MAYHEM-AREA-EVIDENCE-001",
   "status": "ACTIVE",
-  "updated_at": "2026-09-09T00:50:10.584Z",
+  "updated_at": "2026-09-09T00:51:57.825Z",
   "rules": {
     "record_requires_substantive_detail_lineage": true,
     "one_detail_record_may_route_to_multiple_areas": true,
@@ -13,19 +13,359 @@
     "later_discovered_evidence_preserves_discovery_time": true,
     "area_record_is_append_only_by_evidence_version": true
   },
-  "records": [],
+  "records": [
+    {
+      "area_evidence_id": "AREA-d8e9f3b79351de1667b5245c",
+      "competition_class": "LEGISLATIVE",
+      "jurisdiction_id": "AUS-FED",
+      "party_id": null,
+      "source_id": "SRC-APH-BILLS",
+      "source_class": "PRIMARY_PARLIAMENT",
+      "detail_record_id": "DETAIL-aa5e47fab5f5e3c67f0dbee8",
+      "detail_version_id": "DETAIL-aa5e47fab5f5e3c67f0dbee8-V1",
+      "source_snapshot_id": "AUTO-WATCH-APH-BILLS-20260908234539",
+      "review_id": "REV-CHG-WATCH-APH-BILLS-20260908234539",
+      "signal_event_id": "SIG-REV-CHG-WATCH-APH-BILLS-20260908234539",
+      "record_title": "Telecommunications Legislation Amendment (Universal Outdoor Mobile Obligation) Bill 2025 &ndash; Parliament of Australia",
+      "record_url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7414",
+      "evidence_captured_at": "2026-09-09T00:51:55.056Z",
+      "routed_at": "2026-09-09T00:51:57.825Z",
+      "routing_state": "SUBSTANTIVE_CONTENT_ROUTED",
+      "routing_hits": [
+        "Telecommunications Legislation Amendment (Universal Outdoor Mobile Obligation) Bill 2025",
+        "Legislation"
+      ],
+      "extracted_cues": {
+        "resistance_terms": [
+          "Amendment"
+        ],
+        "stage_terms": [
+          "Introduced"
+        ],
+        "outcome_terms": [
+          "passed"
+        ],
+        "pressure_terms": []
+      },
+      "substantive_excerpt": "Telecommunications Legislation Amendment (Universal Outdoor Mobile Obligation) Bill 2025 &ndash; Parliament of Australia Skip to navigation Skip to content Telecommunications Legislation Amendment (Universal Outdoor Mobile Obligation) Bill 2025 Type Government Portfolio Infrastructure, Transport, Regional Development, Communications, Sport and the Arts Originating house House of Representatives Status Before Reps Parliament no 48 Track (What's this?) Permalink Summary Amends the: Telecommunications (Consumer Protection and Service Standards) Act 1999 to establish a regulatory framework for a Universal Outdoor Mobile Obligation to ensure that baseline mobile coverage is reasonably available outdoors to all people in Australia on an equitable basis; and Competition and Consumer Act 2010 and Telecommunications Act 1997 to make consequential amendments. Progress House of Representatives Introduced and read a first time 27 Nov 2025 Second reading moved 27 Nov 2025 Second reading debate 02 Mar 2026 Second reading debate 11 Mar 2026 Second reading debate 28 May 2026 Referred to Federation Chamber 11 Aug 2026 Second reading debate 11 Aug 2026 Reported from Federation Chamber 09 Sep 2026 Second reading agreed to 09 Sep 2026 Consideration in detail debate Amendment details : 1 Crossbench agreed to 09 Sep 2026 Third reading agreed to 09 Sep 2026 Documents and transcripts Text of bill First reading Explanatory memoranda Explanatory memorandum Transcript of speeches All second reading speeches Minister's second reading speech Proposed amendments House of representatives 2nd reading amendment MCINTOSH, Melissa, MP Detail - Crossbench HAINES, Helen, MP Schedules of amendments Schedule of unresolved question in the Federation Chamber Bills digest Bills Digest Notes Considered by scrutiny committee (04/02/2026): Senate Standing Committee for the Scrutiny of Bills; Scrutiny Digest 2 of 2026 Referred to Committee (05/03/2026): Senate Environment and Communications Legislation Committee; Committee report (14/05/2026) Helpful information Text of bill First reading: Text of the bill as introduced into the Parliament Third reading: Prepared if the bill is amended by the house in which it was introduced. This version of the bill is then considered by the second house. As passed by both houses: Final text of bill agreed to by both the House of Representatives and the Senate which is",
+      "actor_ids": [],
+      "party_ids": [],
+      "institution_ids": [],
+      "public_actor_ids": [],
+      "position_state": "UNRESOLVED",
+      "resistance_state": "RESISTANCE_LANGUAGE_PRESENT",
+      "outcome_state": "OUTCOME_LANGUAGE_PRESENT",
+      "inference": null,
+      "inference_class": "NONE",
+      "integrity": {
+        "routing_does_not_register_match": true,
+        "entity_mentions_not_yet_resolved": true,
+        "positions_not_inferred_from_routing": true
+      }
+    },
+    {
+      "area_evidence_id": "AREA-9debb72df0172c0900771d30",
+      "competition_class": "BUDGET",
+      "jurisdiction_id": "AUS-FED",
+      "party_id": null,
+      "source_id": "SRC-APH-BILLS",
+      "source_class": "PRIMARY_PARLIAMENT",
+      "detail_record_id": "DETAIL-aa5e47fab5f5e3c67f0dbee8",
+      "detail_version_id": "DETAIL-aa5e47fab5f5e3c67f0dbee8-V1",
+      "source_snapshot_id": "AUTO-WATCH-APH-BILLS-20260908234539",
+      "review_id": "REV-CHG-WATCH-APH-BILLS-20260908234539",
+      "signal_event_id": "SIG-REV-CHG-WATCH-APH-BILLS-20260908234539",
+      "record_title": "Telecommunications Legislation Amendment (Universal Outdoor Mobile Obligation) Bill 2025 &ndash; Parliament of Australia",
+      "record_url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7414",
+      "evidence_captured_at": "2026-09-09T00:51:55.056Z",
+      "routed_at": "2026-09-09T00:51:57.825Z",
+      "routing_state": "SUBSTANTIVE_CONTENT_ROUTED",
+      "routing_hits": [
+        "Budget"
+      ],
+      "extracted_cues": {
+        "resistance_terms": [
+          "Amendment"
+        ],
+        "stage_terms": [
+          "Introduced"
+        ],
+        "outcome_terms": [
+          "passed"
+        ],
+        "pressure_terms": []
+      },
+      "substantive_excerpt": "Telecommunications Legislation Amendment (Universal Outdoor Mobile Obligation) Bill 2025 &ndash; Parliament of Australia Skip to navigation Skip to content Telecommunications Legislation Amendment (Universal Outdoor Mobile Obligation) Bill 2025 Type Government Portfolio Infrastructure, Transport, Regional Development, Communications, Sport and the Arts Originating house House of Representatives Status Before Reps Parliament no 48 Track (What's this?) Permalink Summary Amends the: Telecommunications (Consumer Protection and Service Standards) Act 1999 to establish a regulatory framework for a Universal Outdoor Mobile Obligation to ensure that baseline mobile coverage is reasonably available outdoors to all people in Australia on an equitable basis; and Competition and Consumer Act 2010 and Telecommunications Act 1997 to make consequential amendments. Progress House of Representatives Introduced and read a first time 27 Nov 2025 Second reading moved 27 Nov 2025 Second reading debate 02 Mar 2026 Second reading debate 11 Mar 2026 Second reading debate 28 May 2026 Referred to Federation Chamber 11 Aug 2026 Second reading debate 11 Aug 2026 Reported from Federation Chamber 09 Sep 2026 Second reading agreed to 09 Sep 2026 Consideration in detail debate Amendment details : 1 Crossbench agreed to 09 Sep 2026 Third reading agreed to 09 Sep 2026 Documents and transcripts Text of bill First reading Explanatory memoranda Explanatory memorandum Transcript of speeches All second reading speeches Minister's second reading speech Proposed amendments House of representatives 2nd reading amendment MCINTOSH, Melissa, MP Detail - Crossbench HAINES, Helen, MP Schedules of amendments Schedule of unresolved question in the Federation Chamber Bills digest Bills Digest Notes Considered by scrutiny committee (04/02/2026): Senate Standing Committee for the Scrutiny of Bills; Scrutiny Digest 2 of 2026 Referred to Committee (05/03/2026): Senate Environment and Communications Legislation Committee; Committee report (14/05/2026) Helpful information Text of bill First reading: Text of the bill as introduced into the Parliament Third reading: Prepared if the bill is amended by the house in which it was introduced. This version of the bill is then considered by the second house. As passed by both houses: Final text of bill agreed to by both the House of Representatives and the Senate which is",
+      "actor_ids": [],
+      "party_ids": [],
+      "institution_ids": [],
+      "public_actor_ids": [],
+      "position_state": "UNRESOLVED",
+      "resistance_state": "RESISTANCE_LANGUAGE_PRESENT",
+      "outcome_state": "OUTCOME_LANGUAGE_PRESENT",
+      "inference": null,
+      "inference_class": "NONE",
+      "integrity": {
+        "routing_does_not_register_match": true,
+        "entity_mentions_not_yet_resolved": true,
+        "positions_not_inferred_from_routing": true
+      }
+    },
+    {
+      "area_evidence_id": "AREA-cc7601e0425abc6917d5af2f",
+      "competition_class": "LEGISLATIVE",
+      "jurisdiction_id": "AUS-FED",
+      "party_id": null,
+      "source_id": "SRC-APH-BILLS",
+      "source_class": "PRIMARY_PARLIAMENT",
+      "detail_record_id": "DETAIL-c11cd7280aa77a1bded387eb",
+      "detail_version_id": "DETAIL-c11cd7280aa77a1bded387eb-V1",
+      "source_snapshot_id": "AUTO-WATCH-APH-BILLS-20260908230751",
+      "review_id": "REV-CHG-WATCH-APH-BILLS-20260908230751",
+      "signal_event_id": "SIG-REV-CHG-WATCH-APH-BILLS-20260908230751",
+      "record_title": "Criminal Code Amendment (Flag Protection) Bill 2026 &ndash; Parliament of Australia",
+      "record_url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7432",
+      "evidence_captured_at": "2026-09-09T00:51:56.356Z",
+      "routed_at": "2026-09-09T00:51:57.825Z",
+      "routing_state": "SUBSTANTIVE_CONTENT_ROUTED",
+      "routing_hits": [
+        "Criminal Code Amendment (Flag Protection) Bill 2026",
+        "Bill"
+      ],
+      "extracted_cues": {
+        "resistance_terms": [
+          "Amendment"
+        ],
+        "stage_terms": [
+          "Introduced"
+        ],
+        "outcome_terms": [
+          "passed"
+        ],
+        "pressure_terms": []
+      },
+      "substantive_excerpt": "Criminal Code Amendment (Flag Protection) Bill 2026 &ndash; Parliament of Australia Skip to navigation Skip to content Criminal Code Amendment (Flag Protection) Bill 2026 Type Private Sponsor(s) SHARKIE, Rebekha, MP Originating house House of Representatives Status Not Proceeding Parliament no 48 Track (What's this?) Permalink Summary Amends the Criminal Code Act 1995 to create a criminal offence of intentionally or recklessly burning or desecrating the Australian National Flag, the Australian Aboriginal Flag or the Torres Strait Islander Flag. Progress House of Representatives Introduced and read a first time 09 Feb 2026 Second reading moved 09 Feb 2026 Removed from the Notice Paper in accordance with (SO 42) 08 Sep 2026 Documents and transcripts Text of bill First reading Explanatory memoranda Explanatory memorandum Transcript of speeches All second reading speeches Private Member's introductory speech Proposed amendments No proposed amendments have been circulated. Schedules of amendments No documents at present Helpful information Text of bill First reading: Text of the bill as introduced into the Parliament Third reading: Prepared if the bill is amended by the house in which it was introduced. This version of the bill is then considered by the second house. As passed by both houses: Final text of bill agreed to by both the House of Representatives and the Senate which is presented to the Governor-General for assent. Explanatory memoranda Explanatory memorandum: Accompanies and provides an explanation of the content of the introduced version (first reading) of the bill. Supplementary explanatory memorandum: Accompanies and explains amendments proposed by the government to the bill. Revised explanatory memorandum: Accompanies and explains the amended version (third reading) of the bill. It supersedes the explanatory memorandum. Proposed amendments Circulated by members and senators when they propose to make changes to the bill. For details about the outcome of proposed amendments please refer to either the Votes and Proceedings (House of Representatives) or the Journals (Senate). Schedules of amendments Schedules of amendments list amendments agreed to by the second house are communicated to the first house for consideration. Subsequent action by either house may also be included in a schedule. Senate Senate Work of the Senate Dynamic Red Senators Seating",
+      "actor_ids": [],
+      "party_ids": [],
+      "institution_ids": [],
+      "public_actor_ids": [],
+      "position_state": "UNRESOLVED",
+      "resistance_state": "RESISTANCE_LANGUAGE_PRESENT",
+      "outcome_state": "OUTCOME_LANGUAGE_PRESENT",
+      "inference": null,
+      "inference_class": "NONE",
+      "integrity": {
+        "routing_does_not_register_match": true,
+        "entity_mentions_not_yet_resolved": true,
+        "positions_not_inferred_from_routing": true
+      }
+    },
+    {
+      "area_evidence_id": "AREA-db17ac27db16c5714ea22951",
+      "competition_class": "BUDGET",
+      "jurisdiction_id": "AUS-FED",
+      "party_id": null,
+      "source_id": "SRC-APH-BILLS",
+      "source_class": "PRIMARY_PARLIAMENT",
+      "detail_record_id": "DETAIL-c11cd7280aa77a1bded387eb",
+      "detail_version_id": "DETAIL-c11cd7280aa77a1bded387eb-V1",
+      "source_snapshot_id": "AUTO-WATCH-APH-BILLS-20260908230751",
+      "review_id": "REV-CHG-WATCH-APH-BILLS-20260908230751",
+      "signal_event_id": "SIG-REV-CHG-WATCH-APH-BILLS-20260908230751",
+      "record_title": "Criminal Code Amendment (Flag Protection) Bill 2026 &ndash; Parliament of Australia",
+      "record_url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7432",
+      "evidence_captured_at": "2026-09-09T00:51:56.356Z",
+      "routed_at": "2026-09-09T00:51:57.825Z",
+      "routing_state": "SUBSTANTIVE_CONTENT_ROUTED",
+      "routing_hits": [
+        "Budget"
+      ],
+      "extracted_cues": {
+        "resistance_terms": [
+          "Amendment"
+        ],
+        "stage_terms": [
+          "Introduced"
+        ],
+        "outcome_terms": [
+          "passed"
+        ],
+        "pressure_terms": []
+      },
+      "substantive_excerpt": "Criminal Code Amendment (Flag Protection) Bill 2026 &ndash; Parliament of Australia Skip to navigation Skip to content Criminal Code Amendment (Flag Protection) Bill 2026 Type Private Sponsor(s) SHARKIE, Rebekha, MP Originating house House of Representatives Status Not Proceeding Parliament no 48 Track (What's this?) Permalink Summary Amends the Criminal Code Act 1995 to create a criminal offence of intentionally or recklessly burning or desecrating the Australian National Flag, the Australian Aboriginal Flag or the Torres Strait Islander Flag. Progress House of Representatives Introduced and read a first time 09 Feb 2026 Second reading moved 09 Feb 2026 Removed from the Notice Paper in accordance with (SO 42) 08 Sep 2026 Documents and transcripts Text of bill First reading Explanatory memoranda Explanatory memorandum Transcript of speeches All second reading speeches Private Member's introductory speech Proposed amendments No proposed amendments have been circulated. Schedules of amendments No documents at present Helpful information Text of bill First reading: Text of the bill as introduced into the Parliament Third reading: Prepared if the bill is amended by the house in which it was introduced. This version of the bill is then considered by the second house. As passed by both houses: Final text of bill agreed to by both the House of Representatives and the Senate which is presented to the Governor-General for assent. Explanatory memoranda Explanatory memorandum: Accompanies and provides an explanation of the content of the introduced version (first reading) of the bill. Supplementary explanatory memorandum: Accompanies and explains amendments proposed by the government to the bill. Revised explanatory memorandum: Accompanies and explains the amended version (third reading) of the bill. It supersedes the explanatory memorandum. Proposed amendments Circulated by members and senators when they propose to make changes to the bill. For details about the outcome of proposed amendments please refer to either the Votes and Proceedings (House of Representatives) or the Journals (Senate). Schedules of amendments Schedules of amendments list amendments agreed to by the second house are communicated to the first house for consideration. Subsequent action by either house may also be included in a schedule. Senate Senate Work of the Senate Dynamic Red Senators Seating",
+      "actor_ids": [],
+      "party_ids": [],
+      "institution_ids": [],
+      "public_actor_ids": [],
+      "position_state": "UNRESOLVED",
+      "resistance_state": "RESISTANCE_LANGUAGE_PRESENT",
+      "outcome_state": "OUTCOME_LANGUAGE_PRESENT",
+      "inference": null,
+      "inference_class": "NONE",
+      "integrity": {
+        "routing_does_not_register_match": true,
+        "entity_mentions_not_yet_resolved": true,
+        "positions_not_inferred_from_routing": true
+      }
+    },
+    {
+      "area_evidence_id": "AREA-4174c8f7d7dd32e0571fcf72",
+      "competition_class": "LEGISLATIVE",
+      "jurisdiction_id": "AUS-FED",
+      "party_id": null,
+      "source_id": "SRC-APH-BILLS",
+      "source_class": "PRIMARY_PARLIAMENT",
+      "detail_record_id": "DETAIL-debd4166aa251b215296d4a6",
+      "detail_version_id": "DETAIL-debd4166aa251b215296d4a6-V1",
+      "source_snapshot_id": "AUTO-WATCH-APH-BILLS-20260908233843",
+      "review_id": "REV-CHG-WATCH-APH-BILLS-20260908233843",
+      "signal_event_id": "SIG-REV-CHG-WATCH-APH-BILLS-20260908233843",
+      "record_title": "Fair Work Amendment (Disqualified Officers) Bill 2026 &ndash; Parliament of Australia",
+      "record_url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=s1510",
+      "evidence_captured_at": "2026-09-09T00:51:56.961Z",
+      "routed_at": "2026-09-09T00:51:57.825Z",
+      "routing_state": "SUBSTANTIVE_CONTENT_ROUTED",
+      "routing_hits": [
+        "Fair Work Amendment (Disqualified Officers) Bill 2026",
+        "Bill"
+      ],
+      "extracted_cues": {
+        "resistance_terms": [
+          "Amendment"
+        ],
+        "stage_terms": [
+          "Division"
+        ],
+        "outcome_terms": [
+          "passed"
+        ],
+        "pressure_terms": []
+      },
+      "substantive_excerpt": "Fair Work Amendment (Disqualified Officers) Bill 2026 &ndash; Parliament of Australia Skip to navigation Skip to content Fair Work Amendment (Disqualified Officers) Bill 2026 Type Private Sponsor(s) HUME, Sen Jane Originating house Senate Status Before Senate Parliament no 48 Track (What's this?) Permalink Summary Amends the: Fair Work (Registered Organisations) Act 2009 to enable the administrator of a registered organisation to permanently expel members and disqualify officers in certain circumstances, removing the current five-year limit on periods of expulsion and disqualification; and Fair Work (Registered Organisations) (CFMEU Construction and General Division Administration) Determination 2024 to make a consequential amendment. Progress Senate Introduced and read a first time 19 Aug 2026 Second reading moved 19 Aug 2026 Second reading debate 09 Sep 2026 Documents and transcripts Text of bill First reading Explanatory memoranda Explanatory memorandum Transcript of speeches All second reading speeches Private Senator's introductory speech Proposed amendments No proposed amendments have been circulated. Schedules of amendments No documents at present Helpful information Text of bill First reading: Text of the bill as introduced into the Parliament Third reading: Prepared if the bill is amended by the house in which it was introduced. This version of the bill is then considered by the second house. As passed by both houses: Final text of bill agreed to by both the House of Representatives and the Senate which is presented to the Governor-General for assent. Explanatory memoranda Explanatory memorandum: Accompanies and provides an explanation of the content of the introduced version (first reading) of the bill. Supplementary explanatory memorandum: Accompanies and explains amendments proposed by the government to the bill. Revised explanatory memorandum: Accompanies and explains the amended version (third reading) of the bill. It supersedes the explanatory memorandum. Proposed amendments Circulated by members and senators when they propose to make changes to the bill. For details about the outcome of proposed amendments please refer to either the Votes and Proceedings (House of Representatives) or the Journals (Senate). Schedules of amendments Schedules of amendments list amendments agreed to by the second house are communicated to the first house for cons",
+      "actor_ids": [],
+      "party_ids": [],
+      "institution_ids": [],
+      "public_actor_ids": [],
+      "position_state": "UNRESOLVED",
+      "resistance_state": "RESISTANCE_LANGUAGE_PRESENT",
+      "outcome_state": "OUTCOME_LANGUAGE_PRESENT",
+      "inference": null,
+      "inference_class": "NONE",
+      "integrity": {
+        "routing_does_not_register_match": true,
+        "entity_mentions_not_yet_resolved": true,
+        "positions_not_inferred_from_routing": true
+      }
+    },
+    {
+      "area_evidence_id": "AREA-cca48e1a7c4bb6ae2fdf89f4",
+      "competition_class": "BUDGET",
+      "jurisdiction_id": "AUS-FED",
+      "party_id": null,
+      "source_id": "SRC-APH-BILLS",
+      "source_class": "PRIMARY_PARLIAMENT",
+      "detail_record_id": "DETAIL-debd4166aa251b215296d4a6",
+      "detail_version_id": "DETAIL-debd4166aa251b215296d4a6-V1",
+      "source_snapshot_id": "AUTO-WATCH-APH-BILLS-20260908233843",
+      "review_id": "REV-CHG-WATCH-APH-BILLS-20260908233843",
+      "signal_event_id": "SIG-REV-CHG-WATCH-APH-BILLS-20260908233843",
+      "record_title": "Fair Work Amendment (Disqualified Officers) Bill 2026 &ndash; Parliament of Australia",
+      "record_url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=s1510",
+      "evidence_captured_at": "2026-09-09T00:51:56.961Z",
+      "routed_at": "2026-09-09T00:51:57.825Z",
+      "routing_state": "SUBSTANTIVE_CONTENT_ROUTED",
+      "routing_hits": [
+        "Budget"
+      ],
+      "extracted_cues": {
+        "resistance_terms": [
+          "Amendment"
+        ],
+        "stage_terms": [
+          "Division"
+        ],
+        "outcome_terms": [
+          "passed"
+        ],
+        "pressure_terms": []
+      },
+      "substantive_excerpt": "Fair Work Amendment (Disqualified Officers) Bill 2026 &ndash; Parliament of Australia Skip to navigation Skip to content Fair Work Amendment (Disqualified Officers) Bill 2026 Type Private Sponsor(s) HUME, Sen Jane Originating house Senate Status Before Senate Parliament no 48 Track (What's this?) Permalink Summary Amends the: Fair Work (Registered Organisations) Act 2009 to enable the administrator of a registered organisation to permanently expel members and disqualify officers in certain circumstances, removing the current five-year limit on periods of expulsion and disqualification; and Fair Work (Registered Organisations) (CFMEU Construction and General Division Administration) Determination 2024 to make a consequential amendment. Progress Senate Introduced and read a first time 19 Aug 2026 Second reading moved 19 Aug 2026 Second reading debate 09 Sep 2026 Documents and transcripts Text of bill First reading Explanatory memoranda Explanatory memorandum Transcript of speeches All second reading speeches Private Senator's introductory speech Proposed amendments No proposed amendments have been circulated. Schedules of amendments No documents at present Helpful information Text of bill First reading: Text of the bill as introduced into the Parliament Third reading: Prepared if the bill is amended by the house in which it was introduced. This version of the bill is then considered by the second house. As passed by both houses: Final text of bill agreed to by both the House of Representatives and the Senate which is presented to the Governor-General for assent. Explanatory memoranda Explanatory memorandum: Accompanies and provides an explanation of the content of the introduced version (first reading) of the bill. Supplementary explanatory memorandum: Accompanies and explains amendments proposed by the government to the bill. Revised explanatory memorandum: Accompanies and explains the amended version (third reading) of the bill. It supersedes the explanatory memorandum. Proposed amendments Circulated by members and senators when they propose to make changes to the bill. For details about the outcome of proposed amendments please refer to either the Votes and Proceedings (House of Representatives) or the Journals (Senate). Schedules of amendments Schedules of amendments list amendments agreed to by the second house are communicated to the first house for cons",
+      "actor_ids": [],
+      "party_ids": [],
+      "institution_ids": [],
+      "public_actor_ids": [],
+      "position_state": "UNRESOLVED",
+      "resistance_state": "RESISTANCE_LANGUAGE_PRESENT",
+      "outcome_state": "OUTCOME_LANGUAGE_PRESENT",
+      "inference": null,
+      "inference_class": "NONE",
+      "integrity": {
+        "routing_does_not_register_match": true,
+        "entity_mentions_not_yet_resolved": true,
+        "positions_not_inferred_from_routing": true
+      }
+    },
+    {
+      "area_evidence_id": "AREA-43e33a1e6f80db4427eebc9b",
+      "competition_class": "PARLIAMENTARY_PROCEDURE",
+      "jurisdiction_id": "AUS-FED",
+      "party_id": null,
+      "source_id": "SRC-APH-BILLS",
+      "source_class": "PRIMARY_PARLIAMENT",
+      "detail_record_id": "DETAIL-debd4166aa251b215296d4a6",
+      "detail_version_id": "DETAIL-debd4166aa251b215296d4a6-V1",
+      "source_snapshot_id": "AUTO-WATCH-APH-BILLS-20260908233843",
+      "review_id": "REV-CHG-WATCH-APH-BILLS-20260908233843",
+      "signal_event_id": "SIG-REV-CHG-WATCH-APH-BILLS-20260908233843",
+      "record_title": "Fair Work Amendment (Disqualified Officers) Bill 2026 &ndash; Parliament of Australia",
+      "record_url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=s1510",
+      "evidence_captured_at": "2026-09-09T00:51:56.961Z",
+      "routed_at": "2026-09-09T00:51:57.825Z",
+      "routing_state": "SUBSTANTIVE_CONTENT_ROUTED",
+      "routing_hits": [
+        "Division"
+      ],
+      "extracted_cues": {
+        "resistance_terms": [
+          "Amendment"
+        ],
+        "stage_terms": [
+          "Division"
+        ],
+        "outcome_terms": [
+          "passed"
+        ],
+        "pressure_terms": []
+      },
+      "substantive_excerpt": "Fair Work Amendment (Disqualified Officers) Bill 2026 &ndash; Parliament of Australia Skip to navigation Skip to content Fair Work Amendment (Disqualified Officers) Bill 2026 Type Private Sponsor(s) HUME, Sen Jane Originating house Senate Status Before Senate Parliament no 48 Track (What's this?) Permalink Summary Amends the: Fair Work (Registered Organisations) Act 2009 to enable the administrator of a registered organisation to permanently expel members and disqualify officers in certain circumstances, removing the current five-year limit on periods of expulsion and disqualification; and Fair Work (Registered Organisations) (CFMEU Construction and General Division Administration) Determination 2024 to make a consequential amendment. Progress Senate Introduced and read a first time 19 Aug 2026 Second reading moved 19 Aug 2026 Second reading debate 09 Sep 2026 Documents and transcripts Text of bill First reading Explanatory memoranda Explanatory memorandum Transcript of speeches All second reading speeches Private Senator's introductory speech Proposed amendments No proposed amendments have been circulated. Schedules of amendments No documents at present Helpful information Text of bill First reading: Text of the bill as introduced into the Parliament Third reading: Prepared if the bill is amended by the house in which it was introduced. This version of the bill is then considered by the second house. As passed by both houses: Final text of bill agreed to by both the House of Representatives and the Senate which is presented to the Governor-General for assent. Explanatory memoranda Explanatory memorandum: Accompanies and provides an explanation of the content of the introduced version (first reading) of the bill. Supplementary explanatory memorandum: Accompanies and explains amendments proposed by the government to the bill. Revised explanatory memorandum: Accompanies and explains the amended version (third reading) of the bill. It supersedes the explanatory memorandum. Proposed amendments Circulated by members and senators when they propose to make changes to the bill. For details about the outcome of proposed amendments please refer to either the Votes and Proceedings (House of Representatives) or the Journals (Senate). Schedules of amendments Schedules of amendments list amendments agreed to by the second house are communicated to the first house for cons",
+      "actor_ids": [],
+      "party_ids": [],
+      "institution_ids": [],
+      "public_actor_ids": [],
+      "position_state": "UNRESOLVED",
+      "resistance_state": "RESISTANCE_LANGUAGE_PRESENT",
+      "outcome_state": "OUTCOME_LANGUAGE_PRESENT",
+      "inference": null,
+      "inference_class": "NONE",
+      "integrity": {
+        "routing_does_not_register_match": true,
+        "entity_mentions_not_yet_resolved": true,
+        "positions_not_inferred_from_routing": true
+      }
+    }
+  ],
   "summary": {
-    "substantive_detail_records": 0,
-    "area_evidence_records": 0,
-    "added_this_run": 0,
+    "substantive_detail_records": 3,
+    "area_evidence_records": 7,
+    "added_this_run": 7,
     "by_area": {
       "ELECTORAL": 0,
-      "LEGISLATIVE": 0,
+      "LEGISLATIVE": 3,
       "LEADERSHIP": 0,
       "CONFIDENCE_SUPPLY": 0,
-      "BUDGET": 0,
+      "BUDGET": 3,
       "POLICY_ENACTMENT": 0,
-      "PARLIAMENTARY_PROCEDURE": 0,
+      "PARLIAMENTARY_PROCEDURE": 1,
       "PUBLIC_PRESSURE": 0
     }
   }

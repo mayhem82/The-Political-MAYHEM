@@ -69,64 +69,64 @@
     {
       "jurisdiction_id": "AUS-FED",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-09T00:50:10.709Z",
-      "signals_examined": 22,
+      "last_screened_at": "2026-09-09T00:51:57.960Z",
+      "signals_examined": 23,
       "candidates_detected": 5
     },
     {
       "jurisdiction_id": "AUS-NSW",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-09T00:50:10.709Z",
-      "signals_examined": 11,
+      "last_screened_at": "2026-09-09T00:51:57.960Z",
+      "signals_examined": 12,
       "candidates_detected": 1
     },
     {
       "jurisdiction_id": "AUS-VIC",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-09T00:50:10.709Z",
+      "last_screened_at": "2026-09-09T00:51:57.960Z",
       "signals_examined": 0,
       "candidates_detected": 0
     },
     {
       "jurisdiction_id": "AUS-QLD",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-09T00:50:10.709Z",
-      "signals_examined": 1,
-      "candidates_detected": 0
+      "last_screened_at": "2026-09-09T00:51:57.960Z",
+      "signals_examined": 2,
+      "candidates_detected": 42
     },
     {
       "jurisdiction_id": "AUS-WA",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-09T00:50:10.709Z",
+      "last_screened_at": "2026-09-09T00:51:57.960Z",
       "signals_examined": 0,
       "candidates_detected": 0
     },
     {
       "jurisdiction_id": "AUS-SA",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-09T00:50:10.709Z",
+      "last_screened_at": "2026-09-09T00:51:57.960Z",
       "signals_examined": 0,
       "candidates_detected": 0
     },
     {
       "jurisdiction_id": "AUS-TAS",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-09T00:50:10.709Z",
+      "last_screened_at": "2026-09-09T00:51:57.960Z",
       "signals_examined": 5,
       "candidates_detected": 0
     },
     {
       "jurisdiction_id": "AUS-ACT",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-09T00:50:10.709Z",
-      "signals_examined": 14,
+      "last_screened_at": "2026-09-09T00:51:57.960Z",
+      "signals_examined": 15,
       "candidates_detected": 0
     },
     {
       "jurisdiction_id": "AUS-NT",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-09T00:50:10.709Z",
-      "signals_examined": 11,
+      "last_screened_at": "2026-09-09T00:51:57.960Z",
+      "signals_examined": 12,
       "candidates_detected": 0
     }
   ],
@@ -338,14 +338,1400 @@
           "reason": "DETERMINISTIC_COMPETITION_FAMILY_SCREEN"
         }
       ]
+    },
+    {
+      "candidate_id": "DISC-QLD-ELECTION-cd9181a646394c97",
+      "jurisdiction_id": "AUS-QLD",
+      "competition_family": "ELECTION",
+      "proposed_competition_class": "ELECTORAL",
+      "proposed_cycle_id": null,
+      "subject": "Stretton By-election",
+      "candidate_state": "REVIEW_REQUIRED",
+      "detected_at": "2026-09-09T00:51:52.319Z",
+      "source_snapshot_ids": [
+        "AUTO-WATCH-ECQ-MEDIA-20260909005045"
+      ],
+      "signal_event_ids": [
+        "SIG-REV-CHG-WATCH-ECQ-MEDIA-20260909005045"
+      ],
+      "review_ids": [
+        "REV-CHG-WATCH-ECQ-MEDIA-20260909005045"
+      ],
+      "evidence_summary": "Screened PRIMARY_ELECTORAL_AUTHORITY evidence contains language consistent with a election competition candidate. This is a discovery observation, not a registered contest or outcome inference.",
+      "registration_blockers": [
+        "DISTINCT_ELECTORAL_CONTEST_SCOPE_REQUIRES_REVIEW",
+        "REGISTERED_COMPATIBLE_CYCLE_REQUIRED"
+      ],
+      "linked_contest_id": null,
+      "state_history": [
+        {
+          "from": null,
+          "to": "REVIEW_REQUIRED",
+          "at": "2026-09-09T00:51:52.319Z",
+          "reason": "DETERMINISTIC_COMPETITION_FAMILY_SCREEN"
+        }
+      ]
+    },
+    {
+      "candidate_id": "DISC-QLD-ELECTION-1ad3f0dd71f0949d",
+      "jurisdiction_id": "AUS-QLD",
+      "competition_family": "ELECTION",
+      "proposed_competition_class": "ELECTORAL",
+      "proposed_cycle_id": null,
+      "subject": "Richmond Shire Council Councillor By-election",
+      "candidate_state": "REVIEW_REQUIRED",
+      "detected_at": "2026-09-09T00:51:52.319Z",
+      "source_snapshot_ids": [
+        "AUTO-WATCH-ECQ-MEDIA-20260909005045"
+      ],
+      "signal_event_ids": [
+        "SIG-REV-CHG-WATCH-ECQ-MEDIA-20260909005045"
+      ],
+      "review_ids": [
+        "REV-CHG-WATCH-ECQ-MEDIA-20260909005045"
+      ],
+      "evidence_summary": "Screened PRIMARY_ELECTORAL_AUTHORITY evidence contains language consistent with a election competition candidate. This is a discovery observation, not a registered contest or outcome inference.",
+      "registration_blockers": [
+        "DISTINCT_ELECTORAL_CONTEST_SCOPE_REQUIRES_REVIEW",
+        "REGISTERED_COMPATIBLE_CYCLE_REQUIRED"
+      ],
+      "linked_contest_id": null,
+      "state_history": [
+        {
+          "from": null,
+          "to": "REVIEW_REQUIRED",
+          "at": "2026-09-09T00:51:52.319Z",
+          "reason": "DETERMINISTIC_COMPETITION_FAMILY_SCREEN"
+        }
+      ]
+    },
+    {
+      "candidate_id": "DISC-QLD-ELECTION-0b1a6c349c314cf6",
+      "jurisdiction_id": "AUS-QLD",
+      "competition_family": "ELECTION",
+      "proposed_competition_class": "ELECTORAL",
+      "proposed_cycle_id": null,
+      "subject": "Cassowary Coast Regional Council Councillor By-election",
+      "candidate_state": "REVIEW_REQUIRED",
+      "detected_at": "2026-09-09T00:51:52.319Z",
+      "source_snapshot_ids": [
+        "AUTO-WATCH-ECQ-MEDIA-20260909005045"
+      ],
+      "signal_event_ids": [
+        "SIG-REV-CHG-WATCH-ECQ-MEDIA-20260909005045"
+      ],
+      "review_ids": [
+        "REV-CHG-WATCH-ECQ-MEDIA-20260909005045"
+      ],
+      "evidence_summary": "Screened PRIMARY_ELECTORAL_AUTHORITY evidence contains language consistent with a election competition candidate. This is a discovery observation, not a registered contest or outcome inference.",
+      "registration_blockers": [
+        "DISTINCT_ELECTORAL_CONTEST_SCOPE_REQUIRES_REVIEW",
+        "REGISTERED_COMPATIBLE_CYCLE_REQUIRED"
+      ],
+      "linked_contest_id": null,
+      "state_history": [
+        {
+          "from": null,
+          "to": "REVIEW_REQUIRED",
+          "at": "2026-09-09T00:51:52.319Z",
+          "reason": "DETERMINISTIC_COMPETITION_FAMILY_SCREEN"
+        }
+      ]
+    },
+    {
+      "candidate_id": "DISC-QLD-ELECTION-4e52e699d26de251",
+      "jurisdiction_id": "AUS-QLD",
+      "competition_family": "ELECTION",
+      "proposed_competition_class": "ELECTORAL",
+      "proposed_cycle_id": null,
+      "subject": "Diamantina Shire Council Councillor by-election",
+      "candidate_state": "REVIEW_REQUIRED",
+      "detected_at": "2026-09-09T00:51:52.319Z",
+      "source_snapshot_ids": [
+        "AUTO-WATCH-ECQ-MEDIA-20260909005045"
+      ],
+      "signal_event_ids": [
+        "SIG-REV-CHG-WATCH-ECQ-MEDIA-20260909005045"
+      ],
+      "review_ids": [
+        "REV-CHG-WATCH-ECQ-MEDIA-20260909005045"
+      ],
+      "evidence_summary": "Screened PRIMARY_ELECTORAL_AUTHORITY evidence contains language consistent with a election competition candidate. This is a discovery observation, not a registered contest or outcome inference.",
+      "registration_blockers": [
+        "DISTINCT_ELECTORAL_CONTEST_SCOPE_REQUIRES_REVIEW",
+        "REGISTERED_COMPATIBLE_CYCLE_REQUIRED"
+      ],
+      "linked_contest_id": null,
+      "state_history": [
+        {
+          "from": null,
+          "to": "REVIEW_REQUIRED",
+          "at": "2026-09-09T00:51:52.319Z",
+          "reason": "DETERMINISTIC_COMPETITION_FAMILY_SCREEN"
+        }
+      ]
+    },
+    {
+      "candidate_id": "DISC-QLD-ELECTION-80044c088cf49e9f",
+      "jurisdiction_id": "AUS-QLD",
+      "competition_family": "ELECTION",
+      "proposed_competition_class": "ELECTORAL",
+      "proposed_cycle_id": null,
+      "subject": "Callide by-election",
+      "candidate_state": "REVIEW_REQUIRED",
+      "detected_at": "2026-09-09T00:51:52.319Z",
+      "source_snapshot_ids": [
+        "AUTO-WATCH-ECQ-MEDIA-20260909005045"
+      ],
+      "signal_event_ids": [
+        "SIG-REV-CHG-WATCH-ECQ-MEDIA-20260909005045"
+      ],
+      "review_ids": [
+        "REV-CHG-WATCH-ECQ-MEDIA-20260909005045"
+      ],
+      "evidence_summary": "Screened PRIMARY_ELECTORAL_AUTHORITY evidence contains language consistent with a election competition candidate. This is a discovery observation, not a registered contest or outcome inference.",
+      "registration_blockers": [
+        "DISTINCT_ELECTORAL_CONTEST_SCOPE_REQUIRES_REVIEW",
+        "REGISTERED_COMPATIBLE_CYCLE_REQUIRED"
+      ],
+      "linked_contest_id": null,
+      "state_history": [
+        {
+          "from": null,
+          "to": "REVIEW_REQUIRED",
+          "at": "2026-09-09T00:51:52.319Z",
+          "reason": "DETERMINISTIC_COMPETITION_FAMILY_SCREEN"
+        }
+      ]
+    },
+    {
+      "candidate_id": "DISC-QLD-ELECTION-f557178a19d1b3cf",
+      "jurisdiction_id": "AUS-QLD",
+      "competition_family": "ELECTION",
+      "proposed_competition_class": "ELECTORAL",
+      "proposed_cycle_id": null,
+      "subject": "Townsville City Council By-election",
+      "candidate_state": "REVIEW_REQUIRED",
+      "detected_at": "2026-09-09T00:51:52.319Z",
+      "source_snapshot_ids": [
+        "AUTO-WATCH-ECQ-MEDIA-20260909005045"
+      ],
+      "signal_event_ids": [
+        "SIG-REV-CHG-WATCH-ECQ-MEDIA-20260909005045"
+      ],
+      "review_ids": [
+        "REV-CHG-WATCH-ECQ-MEDIA-20260909005045"
+      ],
+      "evidence_summary": "Screened PRIMARY_ELECTORAL_AUTHORITY evidence contains language consistent with a election competition candidate. This is a discovery observation, not a registered contest or outcome inference.",
+      "registration_blockers": [
+        "DISTINCT_ELECTORAL_CONTEST_SCOPE_REQUIRES_REVIEW",
+        "REGISTERED_COMPATIBLE_CYCLE_REQUIRED"
+      ],
+      "linked_contest_id": null,
+      "state_history": [
+        {
+          "from": null,
+          "to": "REVIEW_REQUIRED",
+          "at": "2026-09-09T00:51:52.319Z",
+          "reason": "DETERMINISTIC_COMPETITION_FAMILY_SCREEN"
+        }
+      ]
+    },
+    {
+      "candidate_id": "DISC-QLD-ELECTION-495e2c93deac5559",
+      "jurisdiction_id": "AUS-QLD",
+      "competition_family": "ELECTION",
+      "proposed_competition_class": "ELECTORAL",
+      "proposed_cycle_id": null,
+      "subject": "Aurukun by-election",
+      "candidate_state": "REVIEW_REQUIRED",
+      "detected_at": "2026-09-09T00:51:52.319Z",
+      "source_snapshot_ids": [
+        "AUTO-WATCH-ECQ-MEDIA-20260909005045"
+      ],
+      "signal_event_ids": [
+        "SIG-REV-CHG-WATCH-ECQ-MEDIA-20260909005045"
+      ],
+      "review_ids": [
+        "REV-CHG-WATCH-ECQ-MEDIA-20260909005045"
+      ],
+      "evidence_summary": "Screened PRIMARY_ELECTORAL_AUTHORITY evidence contains language consistent with a election competition candidate. This is a discovery observation, not a registered contest or outcome inference.",
+      "registration_blockers": [
+        "DISTINCT_ELECTORAL_CONTEST_SCOPE_REQUIRES_REVIEW",
+        "REGISTERED_COMPATIBLE_CYCLE_REQUIRED"
+      ],
+      "linked_contest_id": null,
+      "state_history": [
+        {
+          "from": null,
+          "to": "REVIEW_REQUIRED",
+          "at": "2026-09-09T00:51:52.319Z",
+          "reason": "DETERMINISTIC_COMPETITION_FAMILY_SCREEN"
+        }
+      ]
+    },
+    {
+      "candidate_id": "DISC-QLD-ELECTION-be0e0f3e79ff121f",
+      "jurisdiction_id": "AUS-QLD",
+      "competition_family": "ELECTION",
+      "proposed_competition_class": "ELECTORAL",
+      "proposed_cycle_id": null,
+      "subject": "Mapoon Aboriginal Shire Council Councillor By-election",
+      "candidate_state": "REVIEW_REQUIRED",
+      "detected_at": "2026-09-09T00:51:52.319Z",
+      "source_snapshot_ids": [
+        "AUTO-WATCH-ECQ-MEDIA-20260909005045"
+      ],
+      "signal_event_ids": [
+        "SIG-REV-CHG-WATCH-ECQ-MEDIA-20260909005045"
+      ],
+      "review_ids": [
+        "REV-CHG-WATCH-ECQ-MEDIA-20260909005045"
+      ],
+      "evidence_summary": "Screened PRIMARY_ELECTORAL_AUTHORITY evidence contains language consistent with a election competition candidate. This is a discovery observation, not a registered contest or outcome inference.",
+      "registration_blockers": [
+        "DISTINCT_ELECTORAL_CONTEST_SCOPE_REQUIRES_REVIEW",
+        "REGISTERED_COMPATIBLE_CYCLE_REQUIRED"
+      ],
+      "linked_contest_id": null,
+      "state_history": [
+        {
+          "from": null,
+          "to": "REVIEW_REQUIRED",
+          "at": "2026-09-09T00:51:52.319Z",
+          "reason": "DETERMINISTIC_COMPETITION_FAMILY_SCREEN"
+        }
+      ]
+    },
+    {
+      "candidate_id": "DISC-QLD-ELECTION-9518f629f4778e54",
+      "jurisdiction_id": "AUS-QLD",
+      "competition_family": "ELECTION",
+      "proposed_competition_class": "ELECTORAL",
+      "proposed_cycle_id": null,
+      "subject": "Queensland State General Election",
+      "candidate_state": "REVIEW_REQUIRED",
+      "detected_at": "2026-09-09T00:51:52.319Z",
+      "source_snapshot_ids": [
+        "AUTO-WATCH-ECQ-MEDIA-20260909005045"
+      ],
+      "signal_event_ids": [
+        "SIG-REV-CHG-WATCH-ECQ-MEDIA-20260909005045"
+      ],
+      "review_ids": [
+        "REV-CHG-WATCH-ECQ-MEDIA-20260909005045"
+      ],
+      "evidence_summary": "Screened PRIMARY_ELECTORAL_AUTHORITY evidence contains language consistent with a election competition candidate. This is a discovery observation, not a registered contest or outcome inference.",
+      "registration_blockers": [
+        "DISTINCT_ELECTORAL_CONTEST_SCOPE_REQUIRES_REVIEW",
+        "REGISTERED_COMPATIBLE_CYCLE_REQUIRED"
+      ],
+      "linked_contest_id": null,
+      "state_history": [
+        {
+          "from": null,
+          "to": "REVIEW_REQUIRED",
+          "at": "2026-09-09T00:51:52.319Z",
+          "reason": "DETERMINISTIC_COMPETITION_FAMILY_SCREEN"
+        }
+      ]
+    },
+    {
+      "candidate_id": "DISC-QLD-ELECTION-05be61834d83ba7b",
+      "jurisdiction_id": "AUS-QLD",
+      "competition_family": "ELECTION",
+      "proposed_competition_class": "ELECTORAL",
+      "proposed_cycle_id": null,
+      "subject": "2026 Pormpuraaw Aboriginal Shire Council by-election",
+      "candidate_state": "REVIEW_REQUIRED",
+      "detected_at": "2026-09-09T00:51:52.319Z",
+      "source_snapshot_ids": [
+        "AUTO-WATCH-ECQ-MEDIA-20260909005045"
+      ],
+      "signal_event_ids": [
+        "SIG-REV-CHG-WATCH-ECQ-MEDIA-20260909005045"
+      ],
+      "review_ids": [
+        "REV-CHG-WATCH-ECQ-MEDIA-20260909005045"
+      ],
+      "evidence_summary": "Screened PRIMARY_ELECTORAL_AUTHORITY evidence contains language consistent with a election competition candidate. This is a discovery observation, not a registered contest or outcome inference.",
+      "registration_blockers": [
+        "DISTINCT_ELECTORAL_CONTEST_SCOPE_REQUIRES_REVIEW",
+        "REGISTERED_COMPATIBLE_CYCLE_REQUIRED"
+      ],
+      "linked_contest_id": null,
+      "state_history": [
+        {
+          "from": null,
+          "to": "REVIEW_REQUIRED",
+          "at": "2026-09-09T00:51:52.319Z",
+          "reason": "DETERMINISTIC_COMPETITION_FAMILY_SCREEN"
+        }
+      ]
+    },
+    {
+      "candidate_id": "DISC-QLD-ELECTION-bbe1f608422eaf35",
+      "jurisdiction_id": "AUS-QLD",
+      "competition_family": "ELECTION",
+      "proposed_competition_class": "ELECTORAL",
+      "proposed_cycle_id": null,
+      "subject": "2026 Winton Shire Council by-election",
+      "candidate_state": "REVIEW_REQUIRED",
+      "detected_at": "2026-09-09T00:51:52.319Z",
+      "source_snapshot_ids": [
+        "AUTO-WATCH-ECQ-MEDIA-20260909005045"
+      ],
+      "signal_event_ids": [
+        "SIG-REV-CHG-WATCH-ECQ-MEDIA-20260909005045"
+      ],
+      "review_ids": [
+        "REV-CHG-WATCH-ECQ-MEDIA-20260909005045"
+      ],
+      "evidence_summary": "Screened PRIMARY_ELECTORAL_AUTHORITY evidence contains language consistent with a election competition candidate. This is a discovery observation, not a registered contest or outcome inference.",
+      "registration_blockers": [
+        "DISTINCT_ELECTORAL_CONTEST_SCOPE_REQUIRES_REVIEW",
+        "REGISTERED_COMPATIBLE_CYCLE_REQUIRED"
+      ],
+      "linked_contest_id": null,
+      "state_history": [
+        {
+          "from": null,
+          "to": "REVIEW_REQUIRED",
+          "at": "2026-09-09T00:51:52.319Z",
+          "reason": "DETERMINISTIC_COMPETITION_FAMILY_SCREEN"
+        }
+      ]
+    },
+    {
+      "candidate_id": "DISC-QLD-ELECTION-4ff164c6a4212161",
+      "jurisdiction_id": "AUS-QLD",
+      "competition_family": "ELECTION",
+      "proposed_competition_class": "ELECTORAL",
+      "proposed_cycle_id": null,
+      "subject": "Whitsunday Regional Council Division 2 Councillor by-election",
+      "candidate_state": "REVIEW_REQUIRED",
+      "detected_at": "2026-09-09T00:51:52.319Z",
+      "source_snapshot_ids": [
+        "AUTO-WATCH-ECQ-MEDIA-20260909005045"
+      ],
+      "signal_event_ids": [
+        "SIG-REV-CHG-WATCH-ECQ-MEDIA-20260909005045"
+      ],
+      "review_ids": [
+        "REV-CHG-WATCH-ECQ-MEDIA-20260909005045"
+      ],
+      "evidence_summary": "Screened PRIMARY_ELECTORAL_AUTHORITY evidence contains language consistent with a election competition candidate. This is a discovery observation, not a registered contest or outcome inference.",
+      "registration_blockers": [
+        "DISTINCT_ELECTORAL_CONTEST_SCOPE_REQUIRES_REVIEW",
+        "REGISTERED_COMPATIBLE_CYCLE_REQUIRED"
+      ],
+      "linked_contest_id": null,
+      "state_history": [
+        {
+          "from": null,
+          "to": "REVIEW_REQUIRED",
+          "at": "2026-09-09T00:51:52.319Z",
+          "reason": "DETERMINISTIC_COMPETITION_FAMILY_SCREEN"
+        }
+      ]
+    },
+    {
+      "candidate_id": "DISC-QLD-ELECTION-6167fc1524892fa6",
+      "jurisdiction_id": "AUS-QLD",
+      "competition_family": "ELECTION",
+      "proposed_competition_class": "ELECTORAL",
+      "proposed_cycle_id": null,
+      "subject": "Carpentaria Shire Council Councillor By-election",
+      "candidate_state": "REVIEW_REQUIRED",
+      "detected_at": "2026-09-09T00:51:52.319Z",
+      "source_snapshot_ids": [
+        "AUTO-WATCH-ECQ-MEDIA-20260909005045"
+      ],
+      "signal_event_ids": [
+        "SIG-REV-CHG-WATCH-ECQ-MEDIA-20260909005045"
+      ],
+      "review_ids": [
+        "REV-CHG-WATCH-ECQ-MEDIA-20260909005045"
+      ],
+      "evidence_summary": "Screened PRIMARY_ELECTORAL_AUTHORITY evidence contains language consistent with a election competition candidate. This is a discovery observation, not a registered contest or outcome inference.",
+      "registration_blockers": [
+        "DISTINCT_ELECTORAL_CONTEST_SCOPE_REQUIRES_REVIEW",
+        "REGISTERED_COMPATIBLE_CYCLE_REQUIRED"
+      ],
+      "linked_contest_id": null,
+      "state_history": [
+        {
+          "from": null,
+          "to": "REVIEW_REQUIRED",
+          "at": "2026-09-09T00:51:52.319Z",
+          "reason": "DETERMINISTIC_COMPETITION_FAMILY_SCREEN"
+        }
+      ]
+    },
+    {
+      "candidate_id": "DISC-QLD-ELECTION-96c7e452a9f18a4c",
+      "jurisdiction_id": "AUS-QLD",
+      "competition_family": "ELECTION",
+      "proposed_competition_class": "ELECTORAL",
+      "proposed_cycle_id": null,
+      "subject": "Torres Strait Island Regional Council By-election",
+      "candidate_state": "REVIEW_REQUIRED",
+      "detected_at": "2026-09-09T00:51:52.319Z",
+      "source_snapshot_ids": [
+        "AUTO-WATCH-ECQ-MEDIA-20260909005045"
+      ],
+      "signal_event_ids": [
+        "SIG-REV-CHG-WATCH-ECQ-MEDIA-20260909005045"
+      ],
+      "review_ids": [
+        "REV-CHG-WATCH-ECQ-MEDIA-20260909005045"
+      ],
+      "evidence_summary": "Screened PRIMARY_ELECTORAL_AUTHORITY evidence contains language consistent with a election competition candidate. This is a discovery observation, not a registered contest or outcome inference.",
+      "registration_blockers": [
+        "DISTINCT_ELECTORAL_CONTEST_SCOPE_REQUIRES_REVIEW",
+        "REGISTERED_COMPATIBLE_CYCLE_REQUIRED"
+      ],
+      "linked_contest_id": null,
+      "state_history": [
+        {
+          "from": null,
+          "to": "REVIEW_REQUIRED",
+          "at": "2026-09-09T00:51:52.319Z",
+          "reason": "DETERMINISTIC_COMPETITION_FAMILY_SCREEN"
+        }
+      ]
+    },
+    {
+      "candidate_id": "DISC-QLD-ELECTION-adb2726942bc7b48",
+      "jurisdiction_id": "AUS-QLD",
+      "competition_family": "ELECTION",
+      "proposed_competition_class": "ELECTORAL",
+      "proposed_cycle_id": null,
+      "subject": "North Burnett Regional Council Division 2 by-election",
+      "candidate_state": "REVIEW_REQUIRED",
+      "detected_at": "2026-09-09T00:51:52.319Z",
+      "source_snapshot_ids": [
+        "AUTO-WATCH-ECQ-MEDIA-20260909005045"
+      ],
+      "signal_event_ids": [
+        "SIG-REV-CHG-WATCH-ECQ-MEDIA-20260909005045"
+      ],
+      "review_ids": [
+        "REV-CHG-WATCH-ECQ-MEDIA-20260909005045"
+      ],
+      "evidence_summary": "Screened PRIMARY_ELECTORAL_AUTHORITY evidence contains language consistent with a election competition candidate. This is a discovery observation, not a registered contest or outcome inference.",
+      "registration_blockers": [
+        "DISTINCT_ELECTORAL_CONTEST_SCOPE_REQUIRES_REVIEW",
+        "REGISTERED_COMPATIBLE_CYCLE_REQUIRED"
+      ],
+      "linked_contest_id": null,
+      "state_history": [
+        {
+          "from": null,
+          "to": "REVIEW_REQUIRED",
+          "at": "2026-09-09T00:51:52.319Z",
+          "reason": "DETERMINISTIC_COMPETITION_FAMILY_SCREEN"
+        }
+      ]
+    },
+    {
+      "candidate_id": "DISC-QLD-ELECTION-2a9360b5d81e0be2",
+      "jurisdiction_id": "AUS-QLD",
+      "competition_family": "ELECTION",
+      "proposed_competition_class": "ELECTORAL",
+      "proposed_cycle_id": null,
+      "subject": "Whitsunday Regional Council Mayoral by-election",
+      "candidate_state": "REVIEW_REQUIRED",
+      "detected_at": "2026-09-09T00:51:52.319Z",
+      "source_snapshot_ids": [
+        "AUTO-WATCH-ECQ-MEDIA-20260909005045"
+      ],
+      "signal_event_ids": [
+        "SIG-REV-CHG-WATCH-ECQ-MEDIA-20260909005045"
+      ],
+      "review_ids": [
+        "REV-CHG-WATCH-ECQ-MEDIA-20260909005045"
+      ],
+      "evidence_summary": "Screened PRIMARY_ELECTORAL_AUTHORITY evidence contains language consistent with a election competition candidate. This is a discovery observation, not a registered contest or outcome inference.",
+      "registration_blockers": [
+        "DISTINCT_ELECTORAL_CONTEST_SCOPE_REQUIRES_REVIEW",
+        "REGISTERED_COMPATIBLE_CYCLE_REQUIRED"
+      ],
+      "linked_contest_id": null,
+      "state_history": [
+        {
+          "from": null,
+          "to": "REVIEW_REQUIRED",
+          "at": "2026-09-09T00:51:52.319Z",
+          "reason": "DETERMINISTIC_COMPETITION_FAMILY_SCREEN"
+        }
+      ]
+    },
+    {
+      "candidate_id": "DISC-QLD-ELECTION-aeb7536d483c1938",
+      "jurisdiction_id": "AUS-QLD",
+      "competition_family": "ELECTION",
+      "proposed_competition_class": "ELECTORAL",
+      "proposed_cycle_id": null,
+      "subject": "Yarrabah Aboriginal Shire Council Councillor by-election",
+      "candidate_state": "REVIEW_REQUIRED",
+      "detected_at": "2026-09-09T00:51:52.319Z",
+      "source_snapshot_ids": [
+        "AUTO-WATCH-ECQ-MEDIA-20260909005045"
+      ],
+      "signal_event_ids": [
+        "SIG-REV-CHG-WATCH-ECQ-MEDIA-20260909005045"
+      ],
+      "review_ids": [
+        "REV-CHG-WATCH-ECQ-MEDIA-20260909005045"
+      ],
+      "evidence_summary": "Screened PRIMARY_ELECTORAL_AUTHORITY evidence contains language consistent with a election competition candidate. This is a discovery observation, not a registered contest or outcome inference.",
+      "registration_blockers": [
+        "DISTINCT_ELECTORAL_CONTEST_SCOPE_REQUIRES_REVIEW",
+        "REGISTERED_COMPATIBLE_CYCLE_REQUIRED"
+      ],
+      "linked_contest_id": null,
+      "state_history": [
+        {
+          "from": null,
+          "to": "REVIEW_REQUIRED",
+          "at": "2026-09-09T00:51:52.319Z",
+          "reason": "DETERMINISTIC_COMPETITION_FAMILY_SCREEN"
+        }
+      ]
+    },
+    {
+      "candidate_id": "DISC-QLD-ELECTION-74448331414bf83b",
+      "jurisdiction_id": "AUS-QLD",
+      "competition_family": "ELECTION",
+      "proposed_competition_class": "ELECTORAL",
+      "proposed_cycle_id": null,
+      "subject": "Moreton Bay Regional Council Division 7 By-election",
+      "candidate_state": "REVIEW_REQUIRED",
+      "detected_at": "2026-09-09T00:51:52.319Z",
+      "source_snapshot_ids": [
+        "AUTO-WATCH-ECQ-MEDIA-20260909005045"
+      ],
+      "signal_event_ids": [
+        "SIG-REV-CHG-WATCH-ECQ-MEDIA-20260909005045"
+      ],
+      "review_ids": [
+        "REV-CHG-WATCH-ECQ-MEDIA-20260909005045"
+      ],
+      "evidence_summary": "Screened PRIMARY_ELECTORAL_AUTHORITY evidence contains language consistent with a election competition candidate. This is a discovery observation, not a registered contest or outcome inference.",
+      "registration_blockers": [
+        "DISTINCT_ELECTORAL_CONTEST_SCOPE_REQUIRES_REVIEW",
+        "REGISTERED_COMPATIBLE_CYCLE_REQUIRED"
+      ],
+      "linked_contest_id": null,
+      "state_history": [
+        {
+          "from": null,
+          "to": "REVIEW_REQUIRED",
+          "at": "2026-09-09T00:51:52.319Z",
+          "reason": "DETERMINISTIC_COMPETITION_FAMILY_SCREEN"
+        }
+      ]
+    },
+    {
+      "candidate_id": "DISC-QLD-ELECTION-37d2f55a28b46673",
+      "jurisdiction_id": "AUS-QLD",
+      "competition_family": "ELECTION",
+      "proposed_competition_class": "ELECTORAL",
+      "proposed_cycle_id": null,
+      "subject": "State General Election",
+      "candidate_state": "REVIEW_REQUIRED",
+      "detected_at": "2026-09-09T00:51:52.319Z",
+      "source_snapshot_ids": [
+        "AUTO-WATCH-ECQ-MEDIA-20260909005045"
+      ],
+      "signal_event_ids": [
+        "SIG-REV-CHG-WATCH-ECQ-MEDIA-20260909005045"
+      ],
+      "review_ids": [
+        "REV-CHG-WATCH-ECQ-MEDIA-20260909005045"
+      ],
+      "evidence_summary": "Screened PRIMARY_ELECTORAL_AUTHORITY evidence contains language consistent with a election competition candidate. This is a discovery observation, not a registered contest or outcome inference.",
+      "registration_blockers": [
+        "DISTINCT_ELECTORAL_CONTEST_SCOPE_REQUIRES_REVIEW",
+        "REGISTERED_COMPATIBLE_CYCLE_REQUIRED"
+      ],
+      "linked_contest_id": null,
+      "state_history": [
+        {
+          "from": null,
+          "to": "REVIEW_REQUIRED",
+          "at": "2026-09-09T00:51:52.319Z",
+          "reason": "DETERMINISTIC_COMPETITION_FAMILY_SCREEN"
+        }
+      ]
+    },
+    {
+      "candidate_id": "DISC-QLD-ELECTION-ebaa4215b8f61bc7",
+      "jurisdiction_id": "AUS-QLD",
+      "competition_family": "ELECTION",
+      "proposed_competition_class": "ELECTORAL",
+      "proposed_cycle_id": null,
+      "subject": "Napranum Aboriginal Shire Council Councillor by-election",
+      "candidate_state": "REVIEW_REQUIRED",
+      "detected_at": "2026-09-09T00:51:52.319Z",
+      "source_snapshot_ids": [
+        "AUTO-WATCH-ECQ-MEDIA-20260909005045"
+      ],
+      "signal_event_ids": [
+        "SIG-REV-CHG-WATCH-ECQ-MEDIA-20260909005045"
+      ],
+      "review_ids": [
+        "REV-CHG-WATCH-ECQ-MEDIA-20260909005045"
+      ],
+      "evidence_summary": "Screened PRIMARY_ELECTORAL_AUTHORITY evidence contains language consistent with a election competition candidate. This is a discovery observation, not a registered contest or outcome inference.",
+      "registration_blockers": [
+        "DISTINCT_ELECTORAL_CONTEST_SCOPE_REQUIRES_REVIEW",
+        "REGISTERED_COMPATIBLE_CYCLE_REQUIRED"
+      ],
+      "linked_contest_id": null,
+      "state_history": [
+        {
+          "from": null,
+          "to": "REVIEW_REQUIRED",
+          "at": "2026-09-09T00:51:52.319Z",
+          "reason": "DETERMINISTIC_COMPETITION_FAMILY_SCREEN"
+        }
+      ]
+    },
+    {
+      "candidate_id": "DISC-QLD-ELECTION-ad88e9dc0ab3ce4d",
+      "jurisdiction_id": "AUS-QLD",
+      "competition_family": "ELECTION",
+      "proposed_competition_class": "ELECTORAL",
+      "proposed_cycle_id": null,
+      "subject": "Mornington Shire Council by-election",
+      "candidate_state": "REVIEW_REQUIRED",
+      "detected_at": "2026-09-09T00:51:52.319Z",
+      "source_snapshot_ids": [
+        "AUTO-WATCH-ECQ-MEDIA-20260909005045"
+      ],
+      "signal_event_ids": [
+        "SIG-REV-CHG-WATCH-ECQ-MEDIA-20260909005045"
+      ],
+      "review_ids": [
+        "REV-CHG-WATCH-ECQ-MEDIA-20260909005045"
+      ],
+      "evidence_summary": "Screened PRIMARY_ELECTORAL_AUTHORITY evidence contains language consistent with a election competition candidate. This is a discovery observation, not a registered contest or outcome inference.",
+      "registration_blockers": [
+        "DISTINCT_ELECTORAL_CONTEST_SCOPE_REQUIRES_REVIEW",
+        "REGISTERED_COMPATIBLE_CYCLE_REQUIRED"
+      ],
+      "linked_contest_id": null,
+      "state_history": [
+        {
+          "from": null,
+          "to": "REVIEW_REQUIRED",
+          "at": "2026-09-09T00:51:52.319Z",
+          "reason": "DETERMINISTIC_COMPETITION_FAMILY_SCREEN"
+        }
+      ]
+    },
+    {
+      "candidate_id": "DISC-QLD-ELECTION-4cbf27b6a9ba990d",
+      "jurisdiction_id": "AUS-QLD",
+      "competition_family": "ELECTION",
+      "proposed_competition_class": "ELECTORAL",
+      "proposed_cycle_id": null,
+      "subject": "Find out more about the Mornington Shire Council by-election here.",
+      "candidate_state": "REVIEW_REQUIRED",
+      "detected_at": "2026-09-09T00:51:52.319Z",
+      "source_snapshot_ids": [
+        "AUTO-WATCH-ECQ-MEDIA-20260909005045"
+      ],
+      "signal_event_ids": [
+        "SIG-REV-CHG-WATCH-ECQ-MEDIA-20260909005045"
+      ],
+      "review_ids": [
+        "REV-CHG-WATCH-ECQ-MEDIA-20260909005045"
+      ],
+      "evidence_summary": "Screened PRIMARY_ELECTORAL_AUTHORITY evidence contains language consistent with a election competition candidate. This is a discovery observation, not a registered contest or outcome inference.",
+      "registration_blockers": [
+        "DISTINCT_ELECTORAL_CONTEST_SCOPE_REQUIRES_REVIEW",
+        "REGISTERED_COMPATIBLE_CYCLE_REQUIRED"
+      ],
+      "linked_contest_id": null,
+      "state_history": [
+        {
+          "from": null,
+          "to": "REVIEW_REQUIRED",
+          "at": "2026-09-09T00:51:52.319Z",
+          "reason": "DETERMINISTIC_COMPETITION_FAMILY_SCREEN"
+        }
+      ]
+    },
+    {
+      "candidate_id": "DISC-QLD-ELECTION-25e14acdb9745364",
+      "jurisdiction_id": "AUS-QLD",
+      "competition_family": "ELECTION",
+      "proposed_competition_class": "ELECTORAL",
+      "proposed_cycle_id": null,
+      "subject": "Scenic Rim Regional Council Division 1 by-election",
+      "candidate_state": "REVIEW_REQUIRED",
+      "detected_at": "2026-09-09T00:51:52.319Z",
+      "source_snapshot_ids": [
+        "AUTO-WATCH-ECQ-MEDIA-20260909005045"
+      ],
+      "signal_event_ids": [
+        "SIG-REV-CHG-WATCH-ECQ-MEDIA-20260909005045"
+      ],
+      "review_ids": [
+        "REV-CHG-WATCH-ECQ-MEDIA-20260909005045"
+      ],
+      "evidence_summary": "Screened PRIMARY_ELECTORAL_AUTHORITY evidence contains language consistent with a election competition candidate. This is a discovery observation, not a registered contest or outcome inference.",
+      "registration_blockers": [
+        "DISTINCT_ELECTORAL_CONTEST_SCOPE_REQUIRES_REVIEW",
+        "REGISTERED_COMPATIBLE_CYCLE_REQUIRED"
+      ],
+      "linked_contest_id": null,
+      "state_history": [
+        {
+          "from": null,
+          "to": "REVIEW_REQUIRED",
+          "at": "2026-09-09T00:51:52.319Z",
+          "reason": "DETERMINISTIC_COMPETITION_FAMILY_SCREEN"
+        }
+      ]
+    },
+    {
+      "candidate_id": "DISC-QLD-ELECTION-3fb7a88536535da7",
+      "jurisdiction_id": "AUS-QLD",
+      "competition_family": "ELECTION",
+      "proposed_competition_class": "ELECTORAL",
+      "proposed_cycle_id": null,
+      "subject": "Kowanyama Aboriginal Shire Council Councillor by-election",
+      "candidate_state": "REVIEW_REQUIRED",
+      "detected_at": "2026-09-09T00:51:52.319Z",
+      "source_snapshot_ids": [
+        "AUTO-WATCH-ECQ-MEDIA-20260909005045"
+      ],
+      "signal_event_ids": [
+        "SIG-REV-CHG-WATCH-ECQ-MEDIA-20260909005045"
+      ],
+      "review_ids": [
+        "REV-CHG-WATCH-ECQ-MEDIA-20260909005045"
+      ],
+      "evidence_summary": "Screened PRIMARY_ELECTORAL_AUTHORITY evidence contains language consistent with a election competition candidate. This is a discovery observation, not a registered contest or outcome inference.",
+      "registration_blockers": [
+        "DISTINCT_ELECTORAL_CONTEST_SCOPE_REQUIRES_REVIEW",
+        "REGISTERED_COMPATIBLE_CYCLE_REQUIRED"
+      ],
+      "linked_contest_id": null,
+      "state_history": [
+        {
+          "from": null,
+          "to": "REVIEW_REQUIRED",
+          "at": "2026-09-09T00:51:52.319Z",
+          "reason": "DETERMINISTIC_COMPETITION_FAMILY_SCREEN"
+        }
+      ]
+    },
+    {
+      "candidate_id": "DISC-QLD-ELECTION-f335f911ebce0bf8",
+      "jurisdiction_id": "AUS-QLD",
+      "competition_family": "ELECTION",
+      "proposed_competition_class": "ELECTORAL",
+      "proposed_cycle_id": null,
+      "subject": "2026 Tablelands Regional Council by-election",
+      "candidate_state": "REVIEW_REQUIRED",
+      "detected_at": "2026-09-09T00:51:52.319Z",
+      "source_snapshot_ids": [
+        "AUTO-WATCH-ECQ-MEDIA-20260909005045"
+      ],
+      "signal_event_ids": [
+        "SIG-REV-CHG-WATCH-ECQ-MEDIA-20260909005045"
+      ],
+      "review_ids": [
+        "REV-CHG-WATCH-ECQ-MEDIA-20260909005045"
+      ],
+      "evidence_summary": "Screened PRIMARY_ELECTORAL_AUTHORITY evidence contains language consistent with a election competition candidate. This is a discovery observation, not a registered contest or outcome inference.",
+      "registration_blockers": [
+        "DISTINCT_ELECTORAL_CONTEST_SCOPE_REQUIRES_REVIEW",
+        "REGISTERED_COMPATIBLE_CYCLE_REQUIRED"
+      ],
+      "linked_contest_id": null,
+      "state_history": [
+        {
+          "from": null,
+          "to": "REVIEW_REQUIRED",
+          "at": "2026-09-09T00:51:52.319Z",
+          "reason": "DETERMINISTIC_COMPETITION_FAMILY_SCREEN"
+        }
+      ]
+    },
+    {
+      "candidate_id": "DISC-QLD-ELECTION-2be368641807bc91",
+      "jurisdiction_id": "AUS-QLD",
+      "competition_family": "ELECTION",
+      "proposed_competition_class": "ELECTORAL",
+      "proposed_cycle_id": null,
+      "subject": "2026 Central Highlands Regional Council by-election",
+      "candidate_state": "REVIEW_REQUIRED",
+      "detected_at": "2026-09-09T00:51:52.319Z",
+      "source_snapshot_ids": [
+        "AUTO-WATCH-ECQ-MEDIA-20260909005045"
+      ],
+      "signal_event_ids": [
+        "SIG-REV-CHG-WATCH-ECQ-MEDIA-20260909005045"
+      ],
+      "review_ids": [
+        "REV-CHG-WATCH-ECQ-MEDIA-20260909005045"
+      ],
+      "evidence_summary": "Screened PRIMARY_ELECTORAL_AUTHORITY evidence contains language consistent with a election competition candidate. This is a discovery observation, not a registered contest or outcome inference.",
+      "registration_blockers": [
+        "DISTINCT_ELECTORAL_CONTEST_SCOPE_REQUIRES_REVIEW",
+        "REGISTERED_COMPATIBLE_CYCLE_REQUIRED"
+      ],
+      "linked_contest_id": null,
+      "state_history": [
+        {
+          "from": null,
+          "to": "REVIEW_REQUIRED",
+          "at": "2026-09-09T00:51:52.319Z",
+          "reason": "DETERMINISTIC_COMPETITION_FAMILY_SCREEN"
+        }
+      ]
+    },
+    {
+      "candidate_id": "DISC-QLD-ELECTION-176b0f188de705a2",
+      "jurisdiction_id": "AUS-QLD",
+      "competition_family": "ELECTION",
+      "proposed_competition_class": "ELECTORAL",
+      "proposed_cycle_id": null,
+      "subject": "Longreach Regional Council Councillor by-election",
+      "candidate_state": "REVIEW_REQUIRED",
+      "detected_at": "2026-09-09T00:51:52.319Z",
+      "source_snapshot_ids": [
+        "AUTO-WATCH-ECQ-MEDIA-20260909005045"
+      ],
+      "signal_event_ids": [
+        "SIG-REV-CHG-WATCH-ECQ-MEDIA-20260909005045"
+      ],
+      "review_ids": [
+        "REV-CHG-WATCH-ECQ-MEDIA-20260909005045"
+      ],
+      "evidence_summary": "Screened PRIMARY_ELECTORAL_AUTHORITY evidence contains language consistent with a election competition candidate. This is a discovery observation, not a registered contest or outcome inference.",
+      "registration_blockers": [
+        "DISTINCT_ELECTORAL_CONTEST_SCOPE_REQUIRES_REVIEW",
+        "REGISTERED_COMPATIBLE_CYCLE_REQUIRED"
+      ],
+      "linked_contest_id": null,
+      "state_history": [
+        {
+          "from": null,
+          "to": "REVIEW_REQUIRED",
+          "at": "2026-09-09T00:51:52.319Z",
+          "reason": "DETERMINISTIC_COMPETITION_FAMILY_SCREEN"
+        }
+      ]
+    },
+    {
+      "candidate_id": "DISC-QLD-ELECTION-ed372d963e378603",
+      "jurisdiction_id": "AUS-QLD",
+      "competition_family": "ELECTION",
+      "proposed_competition_class": "ELECTORAL",
+      "proposed_cycle_id": null,
+      "subject": "Barcoo Shire Council By-election",
+      "candidate_state": "REVIEW_REQUIRED",
+      "detected_at": "2026-09-09T00:51:52.319Z",
+      "source_snapshot_ids": [
+        "AUTO-WATCH-ECQ-MEDIA-20260909005045"
+      ],
+      "signal_event_ids": [
+        "SIG-REV-CHG-WATCH-ECQ-MEDIA-20260909005045"
+      ],
+      "review_ids": [
+        "REV-CHG-WATCH-ECQ-MEDIA-20260909005045"
+      ],
+      "evidence_summary": "Screened PRIMARY_ELECTORAL_AUTHORITY evidence contains language consistent with a election competition candidate. This is a discovery observation, not a registered contest or outcome inference.",
+      "registration_blockers": [
+        "DISTINCT_ELECTORAL_CONTEST_SCOPE_REQUIRES_REVIEW",
+        "REGISTERED_COMPATIBLE_CYCLE_REQUIRED"
+      ],
+      "linked_contest_id": null,
+      "state_history": [
+        {
+          "from": null,
+          "to": "REVIEW_REQUIRED",
+          "at": "2026-09-09T00:51:52.319Z",
+          "reason": "DETERMINISTIC_COMPETITION_FAMILY_SCREEN"
+        }
+      ]
+    },
+    {
+      "candidate_id": "DISC-QLD-ELECTION-7e9f1c264f4ebaee",
+      "jurisdiction_id": "AUS-QLD",
+      "competition_family": "ELECTION",
+      "proposed_competition_class": "ELECTORAL",
+      "proposed_cycle_id": null,
+      "subject": "Currumbin by-election",
+      "candidate_state": "REVIEW_REQUIRED",
+      "detected_at": "2026-09-09T00:51:52.319Z",
+      "source_snapshot_ids": [
+        "AUTO-WATCH-ECQ-MEDIA-20260909005045"
+      ],
+      "signal_event_ids": [
+        "SIG-REV-CHG-WATCH-ECQ-MEDIA-20260909005045"
+      ],
+      "review_ids": [
+        "REV-CHG-WATCH-ECQ-MEDIA-20260909005045"
+      ],
+      "evidence_summary": "Screened PRIMARY_ELECTORAL_AUTHORITY evidence contains language consistent with a election competition candidate. This is a discovery observation, not a registered contest or outcome inference.",
+      "registration_blockers": [
+        "DISTINCT_ELECTORAL_CONTEST_SCOPE_REQUIRES_REVIEW",
+        "REGISTERED_COMPATIBLE_CYCLE_REQUIRED"
+      ],
+      "linked_contest_id": null,
+      "state_history": [
+        {
+          "from": null,
+          "to": "REVIEW_REQUIRED",
+          "at": "2026-09-09T00:51:52.319Z",
+          "reason": "DETERMINISTIC_COMPETITION_FAMILY_SCREEN"
+        }
+      ]
+    },
+    {
+      "candidate_id": "DISC-QLD-ELECTION-47bedf156c7d42a7",
+      "jurisdiction_id": "AUS-QLD",
+      "competition_family": "ELECTION",
+      "proposed_competition_class": "ELECTORAL",
+      "proposed_cycle_id": null,
+      "subject": "2026 Mapoon Aboriginal Shire Council by-election",
+      "candidate_state": "REVIEW_REQUIRED",
+      "detected_at": "2026-09-09T00:51:52.319Z",
+      "source_snapshot_ids": [
+        "AUTO-WATCH-ECQ-MEDIA-20260909005045"
+      ],
+      "signal_event_ids": [
+        "SIG-REV-CHG-WATCH-ECQ-MEDIA-20260909005045"
+      ],
+      "review_ids": [
+        "REV-CHG-WATCH-ECQ-MEDIA-20260909005045"
+      ],
+      "evidence_summary": "Screened PRIMARY_ELECTORAL_AUTHORITY evidence contains language consistent with a election competition candidate. This is a discovery observation, not a registered contest or outcome inference.",
+      "registration_blockers": [
+        "DISTINCT_ELECTORAL_CONTEST_SCOPE_REQUIRES_REVIEW",
+        "REGISTERED_COMPATIBLE_CYCLE_REQUIRED"
+      ],
+      "linked_contest_id": null,
+      "state_history": [
+        {
+          "from": null,
+          "to": "REVIEW_REQUIRED",
+          "at": "2026-09-09T00:51:52.319Z",
+          "reason": "DETERMINISTIC_COMPETITION_FAMILY_SCREEN"
+        }
+      ]
+    },
+    {
+      "candidate_id": "DISC-QLD-ELECTION-59c6730a5cc1673b",
+      "jurisdiction_id": "AUS-QLD",
+      "competition_family": "ELECTION",
+      "proposed_competition_class": "ELECTORAL",
+      "proposed_cycle_id": null,
+      "subject": "Isaac Regional Council Division 6 By-election",
+      "candidate_state": "REVIEW_REQUIRED",
+      "detected_at": "2026-09-09T00:51:52.319Z",
+      "source_snapshot_ids": [
+        "AUTO-WATCH-ECQ-MEDIA-20260909005045"
+      ],
+      "signal_event_ids": [
+        "SIG-REV-CHG-WATCH-ECQ-MEDIA-20260909005045"
+      ],
+      "review_ids": [
+        "REV-CHG-WATCH-ECQ-MEDIA-20260909005045"
+      ],
+      "evidence_summary": "Screened PRIMARY_ELECTORAL_AUTHORITY evidence contains language consistent with a election competition candidate. This is a discovery observation, not a registered contest or outcome inference.",
+      "registration_blockers": [
+        "DISTINCT_ELECTORAL_CONTEST_SCOPE_REQUIRES_REVIEW",
+        "REGISTERED_COMPATIBLE_CYCLE_REQUIRED"
+      ],
+      "linked_contest_id": null,
+      "state_history": [
+        {
+          "from": null,
+          "to": "REVIEW_REQUIRED",
+          "at": "2026-09-09T00:51:52.319Z",
+          "reason": "DETERMINISTIC_COMPETITION_FAMILY_SCREEN"
+        }
+      ]
+    },
+    {
+      "candidate_id": "DISC-QLD-ELECTION-133cfea1626a6d15",
+      "jurisdiction_id": "AUS-QLD",
+      "competition_family": "ELECTION",
+      "proposed_competition_class": "ELECTORAL",
+      "proposed_cycle_id": null,
+      "subject": "Northern Peninsula Area Regional Council Division 5 By-election",
+      "candidate_state": "REVIEW_REQUIRED",
+      "detected_at": "2026-09-09T00:51:52.319Z",
+      "source_snapshot_ids": [
+        "AUTO-WATCH-ECQ-MEDIA-20260909005045"
+      ],
+      "signal_event_ids": [
+        "SIG-REV-CHG-WATCH-ECQ-MEDIA-20260909005045"
+      ],
+      "review_ids": [
+        "REV-CHG-WATCH-ECQ-MEDIA-20260909005045"
+      ],
+      "evidence_summary": "Screened PRIMARY_ELECTORAL_AUTHORITY evidence contains language consistent with a election competition candidate. This is a discovery observation, not a registered contest or outcome inference.",
+      "registration_blockers": [
+        "DISTINCT_ELECTORAL_CONTEST_SCOPE_REQUIRES_REVIEW",
+        "REGISTERED_COMPATIBLE_CYCLE_REQUIRED"
+      ],
+      "linked_contest_id": null,
+      "state_history": [
+        {
+          "from": null,
+          "to": "REVIEW_REQUIRED",
+          "at": "2026-09-09T00:51:52.319Z",
+          "reason": "DETERMINISTIC_COMPETITION_FAMILY_SCREEN"
+        }
+      ]
+    },
+    {
+      "candidate_id": "DISC-QLD-ELECTION-ec491da5e1b409b9",
+      "jurisdiction_id": "AUS-QLD",
+      "competition_family": "ELECTION",
+      "proposed_competition_class": "ELECTORAL",
+      "proposed_cycle_id": null,
+      "subject": "Balonne Shire Council Councillor by-election",
+      "candidate_state": "REVIEW_REQUIRED",
+      "detected_at": "2026-09-09T00:51:52.319Z",
+      "source_snapshot_ids": [
+        "AUTO-WATCH-ECQ-MEDIA-20260909005045"
+      ],
+      "signal_event_ids": [
+        "SIG-REV-CHG-WATCH-ECQ-MEDIA-20260909005045"
+      ],
+      "review_ids": [
+        "REV-CHG-WATCH-ECQ-MEDIA-20260909005045"
+      ],
+      "evidence_summary": "Screened PRIMARY_ELECTORAL_AUTHORITY evidence contains language consistent with a election competition candidate. This is a discovery observation, not a registered contest or outcome inference.",
+      "registration_blockers": [
+        "DISTINCT_ELECTORAL_CONTEST_SCOPE_REQUIRES_REVIEW",
+        "REGISTERED_COMPATIBLE_CYCLE_REQUIRED"
+      ],
+      "linked_contest_id": null,
+      "state_history": [
+        {
+          "from": null,
+          "to": "REVIEW_REQUIRED",
+          "at": "2026-09-09T00:51:52.319Z",
+          "reason": "DETERMINISTIC_COMPETITION_FAMILY_SCREEN"
+        }
+      ]
+    },
+    {
+      "candidate_id": "DISC-QLD-ELECTION-c4df04af3fd5ba28",
+      "jurisdiction_id": "AUS-QLD",
+      "competition_family": "ELECTION",
+      "proposed_competition_class": "ELECTORAL",
+      "proposed_cycle_id": null,
+      "subject": "North Burnett Regional Council Mayoral by-election",
+      "candidate_state": "REVIEW_REQUIRED",
+      "detected_at": "2026-09-09T00:51:52.319Z",
+      "source_snapshot_ids": [
+        "AUTO-WATCH-ECQ-MEDIA-20260909005045"
+      ],
+      "signal_event_ids": [
+        "SIG-REV-CHG-WATCH-ECQ-MEDIA-20260909005045"
+      ],
+      "review_ids": [
+        "REV-CHG-WATCH-ECQ-MEDIA-20260909005045"
+      ],
+      "evidence_summary": "Screened PRIMARY_ELECTORAL_AUTHORITY evidence contains language consistent with a election competition candidate. This is a discovery observation, not a registered contest or outcome inference.",
+      "registration_blockers": [
+        "DISTINCT_ELECTORAL_CONTEST_SCOPE_REQUIRES_REVIEW",
+        "REGISTERED_COMPATIBLE_CYCLE_REQUIRED"
+      ],
+      "linked_contest_id": null,
+      "state_history": [
+        {
+          "from": null,
+          "to": "REVIEW_REQUIRED",
+          "at": "2026-09-09T00:51:52.319Z",
+          "reason": "DETERMINISTIC_COMPETITION_FAMILY_SCREEN"
+        }
+      ]
+    },
+    {
+      "candidate_id": "DISC-QLD-ELECTION-05a1ec9ae38c991f",
+      "jurisdiction_id": "AUS-QLD",
+      "competition_family": "ELECTION",
+      "proposed_competition_class": "ELECTORAL",
+      "proposed_cycle_id": null,
+      "subject": "Torres Shire Council Mayoral by-election",
+      "candidate_state": "REVIEW_REQUIRED",
+      "detected_at": "2026-09-09T00:51:52.319Z",
+      "source_snapshot_ids": [
+        "AUTO-WATCH-ECQ-MEDIA-20260909005045"
+      ],
+      "signal_event_ids": [
+        "SIG-REV-CHG-WATCH-ECQ-MEDIA-20260909005045"
+      ],
+      "review_ids": [
+        "REV-CHG-WATCH-ECQ-MEDIA-20260909005045"
+      ],
+      "evidence_summary": "Screened PRIMARY_ELECTORAL_AUTHORITY evidence contains language consistent with a election competition candidate. This is a discovery observation, not a registered contest or outcome inference.",
+      "registration_blockers": [
+        "DISTINCT_ELECTORAL_CONTEST_SCOPE_REQUIRES_REVIEW",
+        "REGISTERED_COMPATIBLE_CYCLE_REQUIRED"
+      ],
+      "linked_contest_id": null,
+      "state_history": [
+        {
+          "from": null,
+          "to": "REVIEW_REQUIRED",
+          "at": "2026-09-09T00:51:52.319Z",
+          "reason": "DETERMINISTIC_COMPETITION_FAMILY_SCREEN"
+        }
+      ]
+    },
+    {
+      "candidate_id": "DISC-QLD-ELECTION-0e8e634a6df9cc2b",
+      "jurisdiction_id": "AUS-QLD",
+      "competition_family": "ELECTION",
+      "proposed_competition_class": "ELECTORAL",
+      "proposed_cycle_id": null,
+      "subject": "Find out more about the State General Election.",
+      "candidate_state": "REVIEW_REQUIRED",
+      "detected_at": "2026-09-09T00:51:52.319Z",
+      "source_snapshot_ids": [
+        "AUTO-WATCH-ECQ-MEDIA-20260909005045"
+      ],
+      "signal_event_ids": [
+        "SIG-REV-CHG-WATCH-ECQ-MEDIA-20260909005045"
+      ],
+      "review_ids": [
+        "REV-CHG-WATCH-ECQ-MEDIA-20260909005045"
+      ],
+      "evidence_summary": "Screened PRIMARY_ELECTORAL_AUTHORITY evidence contains language consistent with a election competition candidate. This is a discovery observation, not a registered contest or outcome inference.",
+      "registration_blockers": [
+        "DISTINCT_ELECTORAL_CONTEST_SCOPE_REQUIRES_REVIEW",
+        "REGISTERED_COMPATIBLE_CYCLE_REQUIRED"
+      ],
+      "linked_contest_id": null,
+      "state_history": [
+        {
+          "from": null,
+          "to": "REVIEW_REQUIRED",
+          "at": "2026-09-09T00:51:52.319Z",
+          "reason": "DETERMINISTIC_COMPETITION_FAMILY_SCREEN"
+        }
+      ]
+    },
+    {
+      "candidate_id": "DISC-QLD-ELECTION-39b4e707297587d2",
+      "jurisdiction_id": "AUS-QLD",
+      "competition_family": "ELECTION",
+      "proposed_competition_class": "ELECTORAL",
+      "proposed_cycle_id": null,
+      "subject": "Rockhampton Regional Council Division 3 By-election",
+      "candidate_state": "REVIEW_REQUIRED",
+      "detected_at": "2026-09-09T00:51:52.319Z",
+      "source_snapshot_ids": [
+        "AUTO-WATCH-ECQ-MEDIA-20260909005045"
+      ],
+      "signal_event_ids": [
+        "SIG-REV-CHG-WATCH-ECQ-MEDIA-20260909005045"
+      ],
+      "review_ids": [
+        "REV-CHG-WATCH-ECQ-MEDIA-20260909005045"
+      ],
+      "evidence_summary": "Screened PRIMARY_ELECTORAL_AUTHORITY evidence contains language consistent with a election competition candidate. This is a discovery observation, not a registered contest or outcome inference.",
+      "registration_blockers": [
+        "DISTINCT_ELECTORAL_CONTEST_SCOPE_REQUIRES_REVIEW",
+        "REGISTERED_COMPATIBLE_CYCLE_REQUIRED"
+      ],
+      "linked_contest_id": null,
+      "state_history": [
+        {
+          "from": null,
+          "to": "REVIEW_REQUIRED",
+          "at": "2026-09-09T00:51:52.319Z",
+          "reason": "DETERMINISTIC_COMPETITION_FAMILY_SCREEN"
+        }
+      ]
+    },
+    {
+      "candidate_id": "DISC-QLD-ELECTION-9f9acd5b97db499b",
+      "jurisdiction_id": "AUS-QLD",
+      "competition_family": "ELECTION",
+      "proposed_competition_class": "ELECTORAL",
+      "proposed_cycle_id": null,
+      "subject": "South Burnett Regional Council Division 1 by-election",
+      "candidate_state": "REVIEW_REQUIRED",
+      "detected_at": "2026-09-09T00:51:52.319Z",
+      "source_snapshot_ids": [
+        "AUTO-WATCH-ECQ-MEDIA-20260909005045"
+      ],
+      "signal_event_ids": [
+        "SIG-REV-CHG-WATCH-ECQ-MEDIA-20260909005045"
+      ],
+      "review_ids": [
+        "REV-CHG-WATCH-ECQ-MEDIA-20260909005045"
+      ],
+      "evidence_summary": "Screened PRIMARY_ELECTORAL_AUTHORITY evidence contains language consistent with a election competition candidate. This is a discovery observation, not a registered contest or outcome inference.",
+      "registration_blockers": [
+        "DISTINCT_ELECTORAL_CONTEST_SCOPE_REQUIRES_REVIEW",
+        "REGISTERED_COMPATIBLE_CYCLE_REQUIRED"
+      ],
+      "linked_contest_id": null,
+      "state_history": [
+        {
+          "from": null,
+          "to": "REVIEW_REQUIRED",
+          "at": "2026-09-09T00:51:52.319Z",
+          "reason": "DETERMINISTIC_COMPETITION_FAMILY_SCREEN"
+        }
+      ]
+    },
+    {
+      "candidate_id": "DISC-QLD-ELECTION-8a7ccd213368e8c4",
+      "jurisdiction_id": "AUS-QLD",
+      "competition_family": "ELECTION",
+      "proposed_competition_class": "ELECTORAL",
+      "proposed_cycle_id": null,
+      "subject": "2026 Stafford State by-election",
+      "candidate_state": "REVIEW_REQUIRED",
+      "detected_at": "2026-09-09T00:51:52.319Z",
+      "source_snapshot_ids": [
+        "AUTO-WATCH-ECQ-MEDIA-20260909005045"
+      ],
+      "signal_event_ids": [
+        "SIG-REV-CHG-WATCH-ECQ-MEDIA-20260909005045"
+      ],
+      "review_ids": [
+        "REV-CHG-WATCH-ECQ-MEDIA-20260909005045"
+      ],
+      "evidence_summary": "Screened PRIMARY_ELECTORAL_AUTHORITY evidence contains language consistent with a election competition candidate. This is a discovery observation, not a registered contest or outcome inference.",
+      "registration_blockers": [
+        "DISTINCT_ELECTORAL_CONTEST_SCOPE_REQUIRES_REVIEW",
+        "REGISTERED_COMPATIBLE_CYCLE_REQUIRED"
+      ],
+      "linked_contest_id": null,
+      "state_history": [
+        {
+          "from": null,
+          "to": "REVIEW_REQUIRED",
+          "at": "2026-09-09T00:51:52.319Z",
+          "reason": "DETERMINISTIC_COMPETITION_FAMILY_SCREEN"
+        }
+      ]
+    },
+    {
+      "candidate_id": "DISC-QLD-ELECTION-5b3ab9eb3476de53",
+      "jurisdiction_id": "AUS-QLD",
+      "competition_family": "ELECTION",
+      "proposed_competition_class": "ELECTORAL",
+      "proposed_cycle_id": null,
+      "subject": "Winton Shire Council By-election",
+      "candidate_state": "REVIEW_REQUIRED",
+      "detected_at": "2026-09-09T00:51:52.319Z",
+      "source_snapshot_ids": [
+        "AUTO-WATCH-ECQ-MEDIA-20260909005045"
+      ],
+      "signal_event_ids": [
+        "SIG-REV-CHG-WATCH-ECQ-MEDIA-20260909005045"
+      ],
+      "review_ids": [
+        "REV-CHG-WATCH-ECQ-MEDIA-20260909005045"
+      ],
+      "evidence_summary": "Screened PRIMARY_ELECTORAL_AUTHORITY evidence contains language consistent with a election competition candidate. This is a discovery observation, not a registered contest or outcome inference.",
+      "registration_blockers": [
+        "DISTINCT_ELECTORAL_CONTEST_SCOPE_REQUIRES_REVIEW",
+        "REGISTERED_COMPATIBLE_CYCLE_REQUIRED"
+      ],
+      "linked_contest_id": null,
+      "state_history": [
+        {
+          "from": null,
+          "to": "REVIEW_REQUIRED",
+          "at": "2026-09-09T00:51:52.319Z",
+          "reason": "DETERMINISTIC_COMPETITION_FAMILY_SCREEN"
+        }
+      ]
+    },
+    {
+      "candidate_id": "DISC-QLD-ELECTION-eda0368ef0299231",
+      "jurisdiction_id": "AUS-QLD",
+      "competition_family": "ELECTION",
+      "proposed_competition_class": "ELECTORAL",
+      "proposed_cycle_id": null,
+      "subject": "Woorabinda Aboriginal Shire Council Councillor by-election",
+      "candidate_state": "REVIEW_REQUIRED",
+      "detected_at": "2026-09-09T00:51:52.319Z",
+      "source_snapshot_ids": [
+        "AUTO-WATCH-ECQ-MEDIA-20260909005045"
+      ],
+      "signal_event_ids": [
+        "SIG-REV-CHG-WATCH-ECQ-MEDIA-20260909005045"
+      ],
+      "review_ids": [
+        "REV-CHG-WATCH-ECQ-MEDIA-20260909005045"
+      ],
+      "evidence_summary": "Screened PRIMARY_ELECTORAL_AUTHORITY evidence contains language consistent with a election competition candidate. This is a discovery observation, not a registered contest or outcome inference.",
+      "registration_blockers": [
+        "DISTINCT_ELECTORAL_CONTEST_SCOPE_REQUIRES_REVIEW",
+        "REGISTERED_COMPATIBLE_CYCLE_REQUIRED"
+      ],
+      "linked_contest_id": null,
+      "state_history": [
+        {
+          "from": null,
+          "to": "REVIEW_REQUIRED",
+          "at": "2026-09-09T00:51:52.319Z",
+          "reason": "DETERMINISTIC_COMPETITION_FAMILY_SCREEN"
+        }
+      ]
+    },
+    {
+      "candidate_id": "DISC-QLD-ELECTION-c0d86b92de279c91",
+      "jurisdiction_id": "AUS-QLD",
+      "competition_family": "ELECTION",
+      "proposed_competition_class": "ELECTORAL",
+      "proposed_cycle_id": null,
+      "subject": "Rockhampton Regional Council By-election",
+      "candidate_state": "REVIEW_REQUIRED",
+      "detected_at": "2026-09-09T00:51:52.319Z",
+      "source_snapshot_ids": [
+        "AUTO-WATCH-ECQ-MEDIA-20260909005045"
+      ],
+      "signal_event_ids": [
+        "SIG-REV-CHG-WATCH-ECQ-MEDIA-20260909005045"
+      ],
+      "review_ids": [
+        "REV-CHG-WATCH-ECQ-MEDIA-20260909005045"
+      ],
+      "evidence_summary": "Screened PRIMARY_ELECTORAL_AUTHORITY evidence contains language consistent with a election competition candidate. This is a discovery observation, not a registered contest or outcome inference.",
+      "registration_blockers": [
+        "DISTINCT_ELECTORAL_CONTEST_SCOPE_REQUIRES_REVIEW",
+        "REGISTERED_COMPATIBLE_CYCLE_REQUIRED"
+      ],
+      "linked_contest_id": null,
+      "state_history": [
+        {
+          "from": null,
+          "to": "REVIEW_REQUIRED",
+          "at": "2026-09-09T00:51:52.319Z",
+          "reason": "DETERMINISTIC_COMPETITION_FAMILY_SCREEN"
+        }
+      ]
     }
   ],
-  "last_screened_at": "2026-09-09T00:50:10.709Z",
+  "last_screened_at": "2026-09-09T00:51:57.960Z",
   "last_screen_summary": {
-    "signals_examined": 64,
-    "candidates_total": 6,
-    "candidates_added": 0,
-    "candidate_lineage_merges": 7,
+    "signals_examined": 69,
+    "candidates_total": 48,
+    "candidates_added": 42,
+    "candidate_lineage_merges": 10,
     "registered_contests_unchanged": true
   }
 }

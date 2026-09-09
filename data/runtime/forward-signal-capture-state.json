@@ -63,9 +63,9 @@
       "source_id": "SRC-APH-LIVE-MINUTES",
       "jurisdiction_id": "AUS-FED",
       "party_id": null,
-      "content_hash": "ba16ea05913622ec9b4e8d5145d80d680db17ffe8219b12ec9cc14edcde7ae1b",
-      "snapshot_id": "AUTO-WATCH-APH-LIVE-MINUTES-20260909061548",
-      "captured_at": "2026-09-09T06:15:48.787Z",
+      "content_hash": "50d39d8e3d334febaaad6d9a03bff91e63da38c08706dc5076e4b1e2c1c10db2",
+      "snapshot_id": "AUTO-WATCH-APH-LIVE-MINUTES-20260909062336",
+      "captured_at": "2026-09-09T06:23:36.807Z",
       "acquisition_url": "https://www.aph.gov.au/LiveMinutes",
       "requested_url": "https://www.aph.gov.au/LiveMinutes",
       "header_profile": "BROWSER_COMPATIBILITY",
@@ -184,13 +184,14 @@
       "source_id": "SRC-TAS-HANSARD",
       "jurisdiction_id": "AUS-TAS",
       "party_id": null,
-      "content_hash": "3161fe28a999920dec4fb4bfd0a219f826636886c4dab6a00b0593ed493f9110",
-      "snapshot_id": "AUTO-WATCH-TAS-HANSARD-20260908093210",
-      "captured_at": "2026-09-08T09:32:10.059Z",
-      "acquisition_url": "https://www.parliament.tas.gov.au/hansard",
-      "requested_url": "https://www.parliament.tas.gov.au/hansard",
+      "content_hash": "7ae65ddf2209f1533e7680e4d929e8f588ad3f984029d55761edbe91f4f9ac59",
+      "snapshot_id": "AUTO-WATCH-TAS-HANSARD-20260909062336",
+      "captured_at": "2026-09-09T06:23:36.807Z",
+      "acquisition_url": "https://search.parliament.tas.gov.au/Search/search/search?IW_FIELD_ADVANCE_PHRASE=2026%20IN%20TITLE&IW_DATABASE=Hansard&IW_SORT=-9&IW_SEARCH_SCOPE=meta",
+      "requested_url": "https://search.parliament.tas.gov.au/Search/search/search?IW_FIELD_ADVANCE_PHRASE=2026%20IN%20TITLE&IW_DATABASE=Hansard&IW_SORT=-9&IW_SEARCH_SCOPE=meta",
       "header_profile": "BROWSER_COMPATIBILITY",
-      "content_type": "text/html; charset=utf-8",
+      "content_type": "text/html",
+      "capture_mode": "NORMALISED_PAGE_HASH",
       "captured_representation_complete": true
     },
     "WATCH-ACT-PARLIAMENT": {
@@ -391,11 +392,11 @@
       "source_id": "SRC-TAS-PREMIER-NEWS",
       "jurisdiction_id": "AUS-TAS",
       "party_id": null,
-      "content_hash": "7d083e78ce737f5365dd48d6d00e5bb987f226857aadc359974ebdb635a6abb2",
-      "snapshot_id": "AUTO-WATCH-TAS-PREMIER-NEWS-20260909061548",
-      "captured_at": "2026-09-09T06:15:48.787Z",
-      "acquisition_url": "https://www.premier.tas.gov.au/",
-      "requested_url": "https://www.premier.tas.gov.au/",
+      "content_hash": "99e8faeb7079d8ca557096ad297bf472fd40f684a14221a5d21cba8bc24c6442",
+      "snapshot_id": "AUTO-WATCH-TAS-PREMIER-NEWS-20260909062336",
+      "captured_at": "2026-09-09T06:23:36.807Z",
+      "acquisition_url": "https://www.premier.tas.gov.au/latest-news",
+      "requested_url": "https://www.premier.tas.gov.au/latest-news",
       "header_profile": "BROWSER_COMPATIBILITY",
       "content_type": "text/html; charset=utf-8",
       "capture_mode": "PUBLICATION_FEED_HASH",
@@ -500,33 +501,20 @@
       "captured_representation_complete": true
     }
   },
-  "updated_at": "2026-09-09T06:15:48.787Z",
+  "updated_at": "2026-09-09T06:23:36.807Z",
   "last_run": {
-    "captured_at": "2026-09-09T06:15:48.787Z",
+    "captured_at": "2026-09-09T06:23:36.807Z",
     "baselines_created": 0,
-    "source_changes_created": 4,
+    "source_changes_created": 3,
     "semantic_signals_created": 0,
     "representation_upgrades": 0,
-    "failures": [
-      {
-        "watch_id": "WATCH-NSW-HANSARD",
-        "error": "https://www.parliament.nsw.gov.au/parliamentary-business/hansard [IDENTIFIED_AUTOMATION] 403 Forbidden | https://www.parliament.nsw.gov.au/parliamentary-business/hansard [BROWSER_COMPATIBILITY] 403 Forbidden | https://www.parliament.nsw.gov.au/hansard/Pages/home.aspx [IDENTIFIED_AUTOMATION] 403 Forbidden | https://www.parliament.nsw.gov.au/hansard/Pages/home.aspx [BROWSER_COMPATIBILITY] 403 Forbidden"
-      },
-      {
-        "watch_id": "WATCH-ECQ-MEDIA",
-        "error": "https://www.ecq.qld.gov.au/media/2026-media-statements [IDENTIFIED_AUTOMATION] 403 Forbidden | https://www.ecq.qld.gov.au/media/2026-media-statements [BROWSER_COMPATIBILITY] 403 Forbidden | https://www.ecq.qld.gov.au/home [IDENTIFIED_AUTOMATION] 403 Forbidden | https://www.ecq.qld.gov.au/home [BROWSER_COMPATIBILITY] 403 Forbidden"
-      },
-      {
-        "watch_id": "WATCH-TAS-HANSARD",
-        "error": "https://www.parliament.tas.gov.au/ [IDENTIFIED_AUTOMATION] 403 Forbidden | https://www.parliament.tas.gov.au/ [BROWSER_COMPATIBILITY] 403 Forbidden"
-      }
-    ]
+    "failures": []
   },
   "registry_id": "FORWARD-SIGNAL-SOURCE-REGISTRY-008",
   "coverage": {
     "active_sources": 36,
     "baselines_captured": 36,
-    "current_run_failures": 3,
+    "current_run_failures": 0,
     "jurisdictions": {
       "AUS-FED": {
         "configured_sources": 10,
@@ -543,13 +531,13 @@
       "AUS-NSW": {
         "configured_sources": 4,
         "baseline_sources": 4,
-        "current_run_failures": 1,
+        "current_run_failures": 0,
         "source_classes": [
           "PRIMARY_ELECTORAL_AUTHORITY",
           "PRIMARY_GOVERNMENT",
           "PRIMARY_PARLIAMENT"
         ],
-        "status": "CAPTURE_ACTIVE_DEGRADED_CURRENT_RUN"
+        "status": "CAPTURE_ACTIVE_FULL_CONFIGURED_BASELINE"
       },
       "AUS-VIC": {
         "configured_sources": 4,
@@ -565,13 +553,13 @@
       "AUS-QLD": {
         "configured_sources": 3,
         "baseline_sources": 3,
-        "current_run_failures": 1,
+        "current_run_failures": 0,
         "source_classes": [
           "PRIMARY_ELECTORAL_AUTHORITY",
           "PRIMARY_GOVERNMENT",
           "PRIMARY_PARLIAMENT"
         ],
-        "status": "CAPTURE_ACTIVE_DEGRADED_CURRENT_RUN"
+        "status": "CAPTURE_ACTIVE_FULL_CONFIGURED_BASELINE"
       },
       "AUS-WA": {
         "configured_sources": 3,
@@ -598,13 +586,13 @@
       "AUS-TAS": {
         "configured_sources": 3,
         "baseline_sources": 3,
-        "current_run_failures": 1,
+        "current_run_failures": 0,
         "source_classes": [
           "PRIMARY_ELECTORAL_AUTHORITY",
           "PRIMARY_GOVERNMENT",
           "PRIMARY_PARLIAMENT"
         ],
-        "status": "CAPTURE_ACTIVE_DEGRADED_CURRENT_RUN"
+        "status": "CAPTURE_ACTIVE_FULL_CONFIGURED_BASELINE"
       },
       "AUS-ACT": {
         "configured_sources": 3,

@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-INTELLIGENCE-EVENTS-001",
   "scope": "Australia — multi-jurisdiction",
-  "captured_at": "2026-09-09T06:16:45.658Z",
+  "captured_at": "2026-09-09T06:24:32.493Z",
   "mode": "FORWARD_ONLY",
   "rules": {
     "observation_distinct_from_inference": true,
@@ -56528,6 +56528,276 @@
         "entity_mentions_do_not_establish_positions": true,
         "retracted_facts_excluded": true,
         "no_projection_effect_without_registered_target": true
+      }
+    },
+    {
+      "event_id": "CHG-WATCH-APH-LIVE-MINUTES-20260909062336",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-FED",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-APH-LIVE-MINUTES-20260909062336",
+      "captured_at": "2026-09-09T06:23:36.807Z",
+      "event_date": "2026-09-09",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_PARLIAMENT",
+      "source_id": "SRC-APH-LIVE-MINUTES",
+      "capture_mode": "NORMALISED_PAGE_HASH",
+      "review_policy": "REVIEW_UNSTRUCTURED_CHANGE",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-APH-LIVE-MINUTES-20260909061548",
+        "content_hash": "ba16ea05913622ec9b4e8d5145d80d680db17ffe8219b12ec9cc14edcde7ae1b",
+        "capture_mode": "NORMALISED_PAGE_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-APH-LIVE-MINUTES-20260909062336",
+        "content_hash": "50d39d8e3d334febaaad6d9a03bff91e63da38c08706dc5076e4b1e2c1c10db2",
+        "capture_mode": "NORMALISED_PAGE_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "TEXT_REPRESENTATION",
+        "first_difference_offset": 18400,
+        "before_length": 20160,
+        "after_length": 20475,
+        "before_excerpt": "rt was made a Parliamentary Paper. - <TIME> Ms Mascarenhas , by leave, made a statement in connection with the report . In this section Bills and Legislation Tabled documents Chamber documents Work of the Senate House of Representatives cha",
+        "after_excerpt": "rt was made a Parliamentary Paper. - <TIME> Ms Mascarenhas , by leave, made a statement in connection with the report . - <TIME> 17 Wage Justice for Early Childhood Education and Care Workers (Special Account) (Extending Support and Strengthening Safety) Bill 2026 The order of the day having been read for the resumption of the debate on the question—That the bill be now read a second time— Debate resumed. Ms Miller-Frost , <TIME>. In this section Bills and Legislation Tabled documents Chamber documents Work of the Senate House of Representatives cha",
+        "delta_hash": "36bb63b741a65f0282e0a7c4296f69530f5b0dac821517b2c2dac67098220940"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-TAS-HANSARD-20260909062336",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-TAS",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-TAS-HANSARD-20260909062336",
+      "captured_at": "2026-09-09T06:23:36.807Z",
+      "event_date": "2026-09-09",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_PARLIAMENT",
+      "source_id": "SRC-TAS-HANSARD",
+      "capture_mode": "NORMALISED_PAGE_HASH",
+      "review_policy": "REVIEW_UNSTRUCTURED_CHANGE",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-TAS-HANSARD-20260908093210",
+        "content_hash": "3161fe28a999920dec4fb4bfd0a219f826636886c4dab6a00b0593ed493f9110",
+        "capture_mode": "NORMALISED_PAGE_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-TAS-HANSARD-20260909062336",
+        "content_hash": "7ae65ddf2209f1533e7680e4d929e8f588ad3f984029d55761edbe91f4f9ac59",
+        "capture_mode": "NORMALISED_PAGE_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "TEXT_REPRESENTATION",
+        "first_difference_offset": 0,
+        "before_length": 15133,
+        "after_length": 3207,
+        "before_excerpt": "Hansard | Parliament of Tasmania Skip to main content Home Legislative Council Show submenu for Legislative Council Legislative Council Standing and Sessional Orders About Tabling of Papers Legislative Council Tabled Papers Council Members Legislative Council Chamber Chamber Proceedings Register of Members' Interests Tasmanian Industrial Commission: Parliamentary Salaries & Allowances Code of Conduct for Members Brief Tour of the Legislative Council Legislative Council Official Chamber Photographs Annual Reports Council Administration Historical Sitting Schedules Bicentenary of the Legislative Council House of Assembly Show submenu for House of Assembly House of Assembly Role of the Speaker About the House of Assembly Official Chamber Photographs Annual Reports Standing Orders Members Code of Conduct Register of Members Interests Tasmanian Industrial Commission: Parliamentary Salaries & Allowances House Members Cabinet Labor Shadow Ministry Tasmanian Greens Spokespersons Chamber Proceedings House of Assembly Seating Plan House of Assembly Tabled Papers Constituency Questions House Administration About Tabling of Papers Historical Sitting Schedules Live Votes and Proceedings Bills Committees Show submenu for Committees Parliamentary Committees About Committees A Brief History of Committees Historical Committees 1997 - 2013 Current Legislative Council Committees Current House of Assembly Committees Current Joint Committees Current Committees Hansard Show submenu for Hansard ISYS Search Instructions Petitions Visit and Learn Show submenu for Visit and Learn Members of Parliament from 1856 How Parliament works Education Glossary History Joint Services Engage with your Parliament Use of Parliamentary Gardens Use of Function Rooms Toggle submenu Legislative Council Legislative Council overview Standing and Sessional Orders Toggle submenu About Tabling of Papers About Tabling of Papers overview Tabling Papers Requirements LC Tabling Papers Folder - Template Tabling of Papers Toggle submenu Legislative Council Tabled Papers Legislative Council Tabled Papers overview Legislative Council - Tabled Papers 1998 Legislative Council - Tabled Papers 1999 Legislative Council - Tabled Papers 2000 Legislative Council - Tabled Papers 2001 Legislative Council - Tabled Papers 2002 Legislative Council - Tabled Papers 2003 Legislative Council - Tabled Papers 2004 Legislative Council - Tabled Papers 2005 Legislative Council - Tabled Papers 2006 Legislative Council - Tabled Papers 2007 Legislative Council - Tabled Papers 2008 Legislative Council - Tabled Papers 2009 Legislative Council - Tabled Papers 2010 Legislative Council - Tabled Papers 2011 Legislative Council - Tabled Papers 2012 Legislative Council - Tabled Papers 2013 Legislative Council - Tabled Papers 2014 Legislative Council - Tabled Papers 2015 Legislative Council - Tabled Papers 2016 Legislative Council - Tabled Papers 2017 Legislative Council - Tabled Papers 2018 Legislative Council - Tabled Papers 2019 Legislative Council - Tabled Papers 2020 Legislative Council - Tabled Papers 2021 49th Parliament Legislative Council - Tabled Papers 2021 50th Parliament Legislative Council - Tabled Papers 2022 Legislative Council - Tabled Papers 2023 Legislative Council - Tabled Papers 2024 Legislative Council - Tabled Papers 2025 Legislative Council - Tabled Papers 2026 Toggle submenu Council Members Council Members overview The Honourable Rosemary Armitage The Honourable Nick Duigan The Honourable Luke Edmunds The Honourable Craig Farrell The Honourable Ruth Forrest The Honourable Michael Gaffney The Honourable Clare Glade-Wright The Honourable Casey Hiscutt The Honourable Sarah Lovell The Honourable Cassy O'Connor The Honourable Jo Palmer The Honourable Tania Rattray The Honourable Rebecca Thomas The Honourable Kerry John Vincent The Honourable Meg Webb Legislative Council Chamber Toggle submenu Chamber Proceedings Chamber Proceedings overview Sitting Calendar 2026 Sitting Calendar 2025 Sitting Calendar 2024 Calendar 2023 Chamber proceedings 2018-2022 Proceedings Toggle submenu Register of Members' Interests Register of Members' Interests overview 2025 - 2026 Legislative Council Register of Members Interests 2024 - 2025 Legislative Council Register of Members Interests 2023 - 2024 Legislative Council Register of Members Interests 2022 - 2023 Legislative Council Register of Members Interests 2021 - 2022 Legislative Council Register of Members Interests 2020 - 2021 Legislative Council Register of Members Interests 2019 - 2020 Legislative Council Register of Members Interests 2018 - 2019 Legislative Council Register of Members Interests Tasmanian Industrial Commission: Parliamentary Salaries & Allowances Code of Conduct for Members Brief Tour of the Legislative Council Legislative Council Official Chamber Photographs Annual Reports Council Administration Toggle submenu Historical Sitting Schedules Historical Sitting Schedules overview documents LCCHamberLow.png Toggle submenu Bicentenary of the Legislative Council Bicentenary of the Legislative Council overview State Library Records Images First Members of the LC Earlyfloorplan_-LegislativeCouncilchamber.png Toggle submenu House of Assembly House of Assembly overview Role of the Speaker Toggle submenu About the House of Assembly About the House of Assembly overview Business of the House of Assembly Members and Officers of the House Parliament: Structure and Privilege History Engaging with the House Learn More Official Chamber Photographs Annual Reports Standing Orders Members Code of Conduct Toggle submenu Register of Members Interests Register of Members Interests overview House of Assembly - Register of Members Interests 2024 - 2025 House of Assembly - Register of Members Interests 2023 - 2024 House of Assembly - Register of Members Interests 2022 - 2023 House of Assembly - Register of Members Interests 2021 - 2022 House of Assembly - Register of Members Interests 2020 - 2021 House of Assembly - Register of Members Interests 2019 - 2020 House of Assembly - Register of Members Interests 2018 - 2019 House of Assembly - Register of Members Interests 2017 - 2018 Tasmanian Industrial Commission: Parliamentary Salaries & Allowances Toggle submenu House Members House Members overview The Honourable Eric Abetz The Honourable Bridget Archer Tabatha Badger The Honourable Guy Barnett Vica Bayley Shane Broad Meg Brown Helen Burnet Jen Butler Carlo Di Falco Anita Dow The Honourable Felix Ellis Rob Fairs Michael Ferguson Janie Finlay Craig Garland Peter George Jess Greene Ella Haddad Jane Howlett The Honourable Roger Jaensch Kristie Johnston Brian Mitchell David O’Byrne Madeleine Ogilvie The Honourable Gavin Pearce The Honourable Jacquie Petrusma George Razay The Honourable Jeremy Rockliff Cecily Rosol Mark Shelton Marcus Vermey The Honourable Josh Willie Dean Winter Rosalie Woodruff Cabinet Labor Shadow Ministry Tasmanian Greens Spokespersons Toggle submenu Chamber Proceedings Chamber Proceedings overview Sitting Calendar 2026 Sitting Calendar 2025 Sitting Calendar 2024 Sitting Calendar 2023 Chamber proceedings 2018-2022 Proceedings Toggle submenu House of Assembly Seating Plan House of Assembly Seating Plan overview Seating-Plan-4.8.26.pdf Toggle submenu House of Assembly Tabled Papers House of Assembly Tabled Papers overview House of Assembly - Tabled Papers 2015 House of Assembly - Tabled Papers 2016 House of Assembly - Tabled Papers 2017 House of Assembly - Tabled Papers 2018 House of Assembly - Tabled Papers 2019 House of Assembly - Tabled Papers 2020 House of Assembly - Tabled Papers 2021 House of Assembly - Tabled Papers 2022 House of Assembly - Tabled Papers 2023 House of Assembly - Tabled Papers 2024 House of Assembly - Tabled Papers 2025 House of Assembly - Tabled Papers 2026 TP52-1-419.pdf Toggle submenu Constituency Questions Constituency Questions overview House of Assembly - Constituency Questions 2026 House of Assembly - Constituency Questions 2025 House of Assembly - Constituency Questions 2024 House Administration About Tabling of Papers Toggle submenu Historical Sitting Schedules Historical Sitting Schedules overview documents Live Votes and Proceedings Bills Toggle submenu Committees Committees overview About Committees A Brief History of Committees Toggle submenu Historical Committees 1997 - 2013 Historical Committees 1997 - 2013 overview LC archived old webpages HA archived old webpages Legislative Council Estimates Committees 2013 Legislative Council Estimates Committees 2012 Legislative Council Government Businesses Scrutiny Committees 2012 Legislative Council Select Committee on the Tasmanian Forests Agreement Bill 2012 Legislative Council Government Businesses Scrutiny Committees 2011 Legislative Council Estimates Committees 2011 Legislative Council Select Committee Public Sector Executive Appointments Legislative Council Select Committee Tourism In Tasmania Legislative Council Select Committee Island Transport Services Legislative Council Estimates Committees 2010 Legislative Council Government Businesses Scrutiny Committees 2010 Joint Standing Committee, Environment, Resources and Development Legislative Council Select Committee Road Safety Legislative Council Select Committee Accreditation of Building Practitioners and Administration of the Building Act 2000 Legislative Council Government Businesses Scrutiny Committees 2009 Legislative Council Select Committee Management of Tamar and Esk Rivers Legislative Council Select Committee Mental Health Legislative Measures Legislative Council Select Committee Mining Industry Regulation Legislative Council Select Committee Public Hospital System Legislative Council Select Committee Rural Road Speed Limits Joint Select Committee on Ethical Conduct Historical Committee Example Test Committee - To be Deleted House of Assembly Select Committee on Child Protection House of Assembly Estimates Committees 2012 House of Assembly Government Businesses Scrutiny Committees 2012 House of Assembly Government Businesses Scrutiny Committees 2011 House of Assembly Estimates Committees 2011 House of Assembly Estimates Committees 2010 House of Assembly Government Businesses Scrutiny Committee 2010 House of Assembly Estimates Committees 2009 House of Assembly Select Committee on Work Choices Legislation Legislative Council Select Committee Housing Affordability Legislative Council Select Committee Organ Donation Legislative Council Select Committee Planning Schemes Joint Standing Committee Environment Resources and Development 2007 Joint Standing Committee - Working Arrangements of Parliament Joint Select Committee on Gene Technology Public Works Committee - Don College Multi Purpose Facility Joint Select Committee on Public Sector Superannuation in Tasmania House of Assembly Select Committee on Grocery Markets and Prices HA SC on Community Development Joint Standing Committee on Community Development Joint Select Committee - Gene Technology in Primary Industries Legislative Council Estimates Committees 2009 Legislative Council Select Committee Ashley Youth Justice and Detention Legislative Council Estimates Committees 2008 Legislative Council Select Committee Clyde River Water Legislative Council Select Committee Surrogacy Legislative Council Government Businesses Scrutiny Committees 2008 Legislative Council Select Committee International Students Legislative Council Select Committee Bass Strait Air Transport Legislative Council Select Committee Impact of Gaming Machines Legislative Council Estimates Committees 2007 Legislative Council Select Committee Registration of overseas-trained medical practitioners Joint Select Committee Workers' Compensation Schemes Legislative Council Government Businesses Scrutiny Committees 2007 Legislative Council Government Businesses Scrutiny Committees 2006 Legislative Council Select Committee Post School Options for Young Adults with Disabilities Legislative Council Select Committee Aboriginal Lands Joint Select Committee Adoption and Related Services 1950-1988 Legislative Council Government Business Enterprises and Government Corporations 2001 Legislative Council Select Committee into Industrial Relations Legislative Council Select Committee Correctional Services and Sentencing in Tasmania Joint Select Committee on Ethical Conduct Current Legislative Council Committees Current House of Assembly Committees Current Joint Committees Current Committees Toggle submenu Hansard Hansard overview ISYS Search Instructions Petitions Toggle submenu Visit and Learn Visit and Learn overview Members of Parliament from 1856 How Parliament works Toggle submenu Education Education overview Engage with the Education Office Learn Teach Watch, Listen and Read Visit Visit: Observe Contact Book a Visit Plan a visit forms Glossary Toggle submenu History History overview Early records of the Tasmanian Parliament Evolution of the Parliament of Tasmania Members of the Legislative Council of Van Diemen's Land 1825-1856 Toggle submenu Joint Services Joint Services overview Use of Parliamentary Gardens Use of Function Rooms Legislature-General (Joint Services) - Annual Reports Toggle submenu Engage with your Parliament Engage with your Parliament overview Family Fun Day Legislation Video Use of Parliamentary Gardens Use of Function Rooms Hansard Hansard Enterprise Search Query Builder Quick Links 2026 Sittings Days Bills debated by the Parliament More Quick Links Entire Document Search House of Assembly Chamber Proceedings Legislative Council Chamber Proceedings Search By: House of Assembly Member: Select a member ABETZ, Eric BADGER, Tabatha BARNETT, Guy BAYLEY, Vica BROAD, Shane BROWN, Meg BURNET, Helen BUTLER, Jen Di Falco, Carlo DOW, Anita ELLIS, Felix FAIRS, Rob FERGUSON, Michael FINLAY, Janie GARLAND, Craig GEORGE, Peter GREENE, Jess HADDAD, Ella HOWLETT, Jane JAENSCH, Roger JENNER, Andrew JOHNSTON, Kristie MITCHELL, Brian O'BYRNE, David OGILVIE, Madeleine PETRUSMA, Jacquie RAZAY, George ROCKLIFF, Jeremy ROSOL, Cecily SHELTON, Mark WILLIE, Josh WINTER, Dean WOOD, Simon WOODRUFF, Rosalie Go Legislative Council Member: Select a member ARMITAGE, Rosemary DUIGAN, Nick EDMUNDS, Luke FARRELL, Craig FORREST, Ruth GAFFNEY, Mike GLADE-WRIGHT, Clare HARRISS, Dean HISCUTT, Casey LOVELL, Sarah O'CONNOR, Cassy PALMER, Jo RATTRAY, Tania THOMAS, Bec VINCENT, Kerry WEBB, Meg Go Search Instructions Chamber Documents House of Assembly Hansard Notice Papers Votes and Proceedings Legislative Council Hansard Notice Papers Votes and Proceedings Quick Search Search by Name, Date and More: Search Search Instructions Close This site uses cookies to analyse traffic, remember your preferences, and optimise your experience. Parliament of Tasmania Parliament House Hobart, Tasmania, 7000 Navigate Legislative Council House of Assembly Petitions Bills Parliamentary Committees Hansard Contacts Quick Links Recruitment Education Engage with your Parliament Joint Services Use of Parliamentary Gardens Staff Mail Broadcast House of Assembly Legislative Council Committee Room One Committee Room Two Copyright © 2026 Parliament of Tasmania Home Accessibility",
+        "after_excerpt": "Document Search | Parliament of Tasmania X Close > Next Document < Previous Document / Next Hit D Download D Original Original As Text As HTML5 As PDF As TIFF Hansard Hansard HistoricalHansard Notice Papers ParliamentaryPapers Votes and Proceedings Entire Site Current Results Search Home Parliament Website Flickr People 853 Mr ROCKLIFF 724 Mr ABETZ 474 Mr BARNETT 444 Ms Rattray 394 Mr WILLIE 384 Dr Woodruff 344 Ms Finlay 305 MR PRESIDENT 278 Mr ELLIS 269 Mr Willie 230 Ms Haddad 194 Mr Mitchell 190 Ms FORREST 186 Mr George 185 Mr Bayley 180 Mr Abetz 168 Ms RATTRAY 159 Ms Armitage 152 Ms JOHNSTON 150 Ms Forrest 148 Ms BURNET 138 Ms PALMER 130 Deputy Speaker 122 Ms WEBB 116 Ms Ogilvie 20 more... top 5 Organizations 275 Legislative Council 91 Department Of Justice 87 Department Of Health 61 Microsoft 48 AI Company 31 Department Of Premier 29 UNIVERSITY OF TASMANIA 27 CurrentSession Council 27 OF POLICE 26 KPMG 22 Department Of Police 19 DEPARTMENT OF STATE 17 BY POLICE 17 LK Group 15 Gap 15 Gateway 14 MyState Bank 13 LK GROUP 11 Google 11 Telstra 11 Whole Council 10 HERITAGE COUNCIL 9 UNIVERSITY OF TASMANIA ACT 8 Department Of Defence 8 Invasive Species Council 20 more... top 5 Locations 5,855 Tasmania 1,933 TASMANIA 1,075 Hobart 1,007 Australia 215 Victoria 198 Wales 192 Mersey 144 Canberra 128 Queensland 109 Montgomery 73 Kingston 64 Vietnam 57 Dorset 53 Sydney 42 Melbourne 41 Midlands 35 Stillwater 34 Iran 30 Singapore 30 Wellington 28 France 24 America 23 SCOTLAND 22 Cambridge 20 Canada 20 more... top 5 Clusters Council Thursday 12 Sort by Best Match Date Size Date Filter by date Last 7 days Last Month Last 3 Months Last 6 Months Last 12 Months Showing 1 to 10 of 60 ( 120 hits) (2026 \"IN\" TITLE) House of Assembly Tuesday 8 September 2026 from f House of Assembly &bull; ...House of Assembly Tuesday 8 September 2026 ... Download Document House of Assembly Thursday 3 September 2026 from f House of Assembly &bull; ...House of Assembly Thursday 3 September 2026 ... Download Document Legislative Council Thursday 20 August 2026 from f Legislative Council &bull; ...Legislative Council Thursday 20 August 2026 ... Download Document House of Assembly Thursday 20 August 2026 from f House of Assembly &bull; ...House of Assembly Thursday 20 August 2026 ... Download Document House of Assembly Thursday 20 August 2026 from f House of Assembly &bull; ...House of Assembly Thursday 20 August 2026 ... Download Document Legislative Council Thursday 20 August 2026 from f Legislative Council &bull; ...Legislative Council Thursday 20 August 2026 ... Download Document House of Assembly Wednesday 19 August 2026 from f House of Assembly &bull; ...House of Assembly Wednesday 19 August 2026 ... Download Document House of Assembly Wednesday 19 August 2026 from f House of Assembly &bull; ...House of Assembly Wednesday 19 August 2026 ... Download Document House of Assembly Tuesday 18 August 2026 from f House of Assembly &bull; ...House of Assembly Tuesday 18 August 2026 ... Download Document Legislative Council Tuesday 18 August 2026 from f Legislative Council &bull; ...Legislative Council Tuesday 18 August 2026 ... Download Document 1 2 3 4 5 6 Next > &copy; Parliament of Tasmania",
+        "delta_hash": "2f7a5ae5cc88e35b868e5f76709425eaf5614607cdef28189ec70b6ee6ffc8f5"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-TAS-PREMIER-NEWS-20260909062336",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-TAS",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-TAS-PREMIER-NEWS-20260909062336",
+      "captured_at": "2026-09-09T06:23:36.807Z",
+      "event_date": "2026-09-09",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-TAS-PREMIER-NEWS",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "review_policy": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-TAS-PREMIER-NEWS-20260909061548",
+        "content_hash": "7d083e78ce737f5365dd48d6d00e5bb987f226857aadc359974ebdb635a6abb2",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-TAS-PREMIER-NEWS-20260909062336",
+        "content_hash": "99e8faeb7079d8ca557096ad297bf472fd40f684a14221a5d21cba8bc24c6442",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "STRUCTURED_RECORD_SET",
+        "records_added": [
+          {
+            "record_id": "1380674db0bf814247ef",
+            "title": "Working together to help protect our threatened species 7 September 2026 Tasmanians are being encouraged to work together to protect our unique flora and fauna this Threatened Species Day, with a new round of cons...",
+            "url": "https://www.premier.tas.gov.au/latest-news/2026/september/working-together-to-help-protect-our-threatened-species"
+          },
+          {
+            "record_id": "26966632f7c5572725d3",
+            "title": "Paper titles cut from property transactions 7 September 2026 The Tasmanian Government has made it faster, simpler and safer to make property transactions, with paper certificates of title removed from ...",
+            "url": "https://www.premier.tas.gov.au/latest-news/2026/september/paper-titles-cut-from-property-transactions"
+          },
+          {
+            "record_id": "9187be13c3c0412ea6bb",
+            "title": "Tasmania’s tourism industry full steam ahead for Spirit’s inaugural sailing 7 September 2026 Preparations are being finalised for the launch of Spirit of Tasmania&rsquo;s new vessels, with Tourism Tasmania working with industry to bu...",
+            "url": "https://www.premier.tas.gov.au/latest-news/2026/september/tasmanias-tourism-industry-full-steam-ahead-for-spirits-inaugural-sailing"
+          },
+          {
+            "record_id": "9a575440a98cf4041fd6",
+            "title": "Clear expectations for data centres and AI infrastructure 7 September 2026 The Tasmanian Government has released its draft Expectations for Data Centres and AI Infrastructure.Minister for Business, Industry and Reso...",
+            "url": "https://www.premier.tas.gov.au/latest-news/2026/september/clear-expectations-for-data-centres-and-ai-infrastructure"
+          },
+          {
+            "record_id": "d7a1477e0a98625953b3",
+            "title": "Skip to content",
+            "url": "https://www.premier.tas.gov.au/latest-news"
+          }
+        ],
+        "records_removed": [
+          {
+            "record_id": "5503ad540fbf99bf866e",
+            "title": "2030 Strong Plan for Tasmania’s Future",
+            "url": "https://www.premier.tas.gov.au/our-plan"
+          },
+          {
+            "record_id": "5c58e4f76fec3a1ce5fe",
+            "title": "Contact your Premier",
+            "url": "https://www.premier.tas.gov.au/contact"
+          },
+          {
+            "record_id": "7984975787b4ef2c7007",
+            "title": "Budget 2026-27",
+            "url": "https://www.premier.tas.gov.au/budget-2026"
+          },
+          {
+            "record_id": "bff1215bcb385f2f222a",
+            "title": "300 days of delivering for Tasmania",
+            "url": "https://www.premier.tas.gov.au/__data/assets/pdf_file/0027/517923/2026-Third-100-Days-of-Delivery_Digital.pdf"
+          }
+        ],
+        "added_count": 5,
+        "removed_count": 4,
+        "before_count": 140,
+        "after_count": 141,
+        "delta_hash": "4c2582dad3c0d1e3c0e9fda9896e36d183c1739bbd1f72c0463c304156c419f8"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "SIG-REV-CHG-WATCH-TAS-PREMIER-NEWS-20260909062336",
+      "parent_event_id": "CHG-WATCH-TAS-PREMIER-NEWS-20260909062336",
+      "review_id": "REV-CHG-WATCH-TAS-PREMIER-NEWS-20260909062336",
+      "jurisdiction_id": "AUS-TAS",
+      "party_id": null,
+      "actor_id": null,
+      "contest_id": null,
+      "cycle_id": null,
+      "source_snapshot_id": "AUTO-WATCH-TAS-PREMIER-NEWS-20260909062336",
+      "record_id": null,
+      "captured_at": "2026-09-09T06:24:31.397Z",
+      "event_date": "2026-09-09",
+      "checkpoint": "CONTINUOUS_FORWARD_SIGNAL_REVIEW",
+      "event_type": "SIGNAL_CREATED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-TAS-PREMIER-NEWS",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "claim": "Premier of Tasmania — latest news added 5 structured publication records to its forward-captured official index: Working together to help protect our threatened species 7 September 2026 Tasmanians are being encouraged to work together to protect our unique flora and fauna this Threatened Species Day, with a new round of cons...; Paper titles cut from property transactions 7 September 2026 The Tasmanian Government has made it faster, simpler and safer to make property transactions, with paper certificates of title removed from ...; Tasmania’s tourism industry full steam ahead for Spirit’s inaugural sailing 7 September 2026 Preparations are being finalised for the launch of Spirit of Tasmania&rsquo;s new vessels, with Tourism Tasmania working with industry to bu...; Clear expectations for data centres and AI infrastructure 7 September 2026 The Tasmanian Government has released its draft Expectations for Data Centres and AI Infrastructure.Minister for Business, Industry and Reso...; Skip to content",
+      "observed_behaviour": "One or more structured publication records appeared in the monitored official source index after the preceding forward snapshot.",
+      "publication_records_added": [
+        {
+          "record_id": "1380674db0bf814247ef",
+          "title": "Working together to help protect our threatened species 7 September 2026 Tasmanians are being encouraged to work together to protect our unique flora and fauna this Threatened Species Day, with a new round of cons...",
+          "url": "https://www.premier.tas.gov.au/latest-news/2026/september/working-together-to-help-protect-our-threatened-species"
+        },
+        {
+          "record_id": "26966632f7c5572725d3",
+          "title": "Paper titles cut from property transactions 7 September 2026 The Tasmanian Government has made it faster, simpler and safer to make property transactions, with paper certificates of title removed from ...",
+          "url": "https://www.premier.tas.gov.au/latest-news/2026/september/paper-titles-cut-from-property-transactions"
+        },
+        {
+          "record_id": "9187be13c3c0412ea6bb",
+          "title": "Tasmania’s tourism industry full steam ahead for Spirit’s inaugural sailing 7 September 2026 Preparations are being finalised for the launch of Spirit of Tasmania&rsquo;s new vessels, with Tourism Tasmania working with industry to bu...",
+          "url": "https://www.premier.tas.gov.au/latest-news/2026/september/tasmanias-tourism-industry-full-steam-ahead-for-spirits-inaugural-sailing"
+        },
+        {
+          "record_id": "9a575440a98cf4041fd6",
+          "title": "Clear expectations for data centres and AI infrastructure 7 September 2026 The Tasmanian Government has released its draft Expectations for Data Centres and AI Infrastructure.Minister for Business, Industry and Reso...",
+          "url": "https://www.premier.tas.gov.au/latest-news/2026/september/clear-expectations-for-data-centres-and-ai-infrastructure"
+        },
+        {
+          "record_id": "d7a1477e0a98625953b3",
+          "title": "Skip to content",
+          "url": "https://www.premier.tas.gov.au/latest-news"
+        }
+      ],
+      "publication_records_removed": [
+        {
+          "record_id": "5503ad540fbf99bf866e",
+          "title": "2030 Strong Plan for Tasmania’s Future",
+          "url": "https://www.premier.tas.gov.au/our-plan"
+        },
+        {
+          "record_id": "5c58e4f76fec3a1ce5fe",
+          "title": "Contact your Premier",
+          "url": "https://www.premier.tas.gov.au/contact"
+        },
+        {
+          "record_id": "7984975787b4ef2c7007",
+          "title": "Budget 2026-27",
+          "url": "https://www.premier.tas.gov.au/budget-2026"
+        },
+        {
+          "record_id": "bff1215bcb385f2f222a",
+          "title": "300 days of delivering for Tasmania",
+          "url": "https://www.premier.tas.gov.au/__data/assets/pdf_file/0027/517923/2026-Third-100-Days-of-Delivery_Digital.pdf"
+        }
+      ],
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "underlying_publication_claims_not_promoted_to_verified_fact": true,
+        "source_change_parent_retained": true,
+        "deterministic_review": true
       }
     }
   ]

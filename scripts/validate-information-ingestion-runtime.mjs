@@ -1,0 +1,77 @@
+import fs from 'node:fs';
+
+const read=p=>JSON.parse(fs.readFileSync(p,'utf8'));
+const fail=[];
+const assert=(condition,message)=>{if(!condition) fail.push(message)};
+const unique=xs=>new Set(xs).size===xs.length;
+const validTime=v=>Number.isFinite(Date.parse(v));
+
+const pipeline=read('data/political-information-ingestion-pipeline.json');
+const details=read('data/runtime/source-detail-snapshots.json');
+const areas=read('data/runtime/area-evidence-records.json');
+const reviews=read('data/runtime/signal-reviews.json');
+const events=read('data/runtime/intelligence-events.json');
+
+assert(details.status==='ACTIVE','source detail ledger is not ACTIVE');
+assert(areas.status==='ACTIVE','area evidence ledger is not ACTIVE');
+const validAreas=new Set((pipeline.areas||[]).map(x=>x.competition_class));
+const reviewIds=new Set((reviews.reviews||[]).map(x=>x.review_id));
+const eventIds=new Set((events.events||[]).map(x=>x.event_id));
+
+const detailRows=details.records||[];
+assert(unique(detailRows.map(x=>x.detail_version_id)),'detail version IDs are not unique');
+assert(unique(detailRows.map(x=>x.detail_record_id)),'detail record IDs are duplicated before versioning support exists');
+const detailByVersion=new Map(detailRows.map(x=>[x.detail_version_id,x]));
+for(const row of detailRows){
+  assert(Boolean(row.detail_record_id),`${row.detail_version_id}: detail_record_id missing`);
+  assert(row.version===1,`${row.detail_version_id}: unsupported detail version`);
+  assert(/^https?:\/\//.test(row.record_url||''),`${row.detail_version_id}: record_url invalid`);
+  assert(validTime(row.captured_at),`${row.detail_version_id}: captured_at invalid`);
+  assert(typeof row.content_hash==='string'&&row.content_hash.length===64,`${row.detail_version_id}: content_hash invalid`);
+  assert(typeof row.body_text==='string'&&row.body_text.length>=40,`${row.detail_version_id}: substantive body missing`);
+  assert(Number.isInteger(row.body_length)&&row.body_length>=row.body_text.length,`${row.detail_version_id}: body_length invalid`);
+  assert(typeof row.body_complete==='boolean',`${row.detail_version_id}: body_complete missing`);
+  if(!row.body_complete) assert(Boolean(row.truncation_reason),`${row.detail_version_id}: truncation reason missing`);
+  assert(reviewIds.has(row.review_id),`${row.detail_version_id}: unknown review ${row.review_id}`);
+  if(row.source_change_event_id) assert(eventIds.has(row.source_change_event_id),`${row.detail_version_id}: unknown source-change event ${row.source_change_event_id}`);
+  if(row.signal_event_id) assert(eventIds.has(row.signal_event_id),`${row.detail_version_id}: unknown signal event ${row.signal_event_id}`);
+  assert(row.inference===null&&row.inference_class==='NONE',`${row.detail_version_id}: detail capture contains inference`);
+}
+
+const attempts=details.attempts||[];
+for(const attempt of attempts){
+  assert(Boolean(attempt.detail_record_id),'detail acquisition attempt missing detail_record_id');
+  assert(validTime(attempt.attempted_at),`${attempt.detail_record_id}: attempted_at invalid`);
+  assert(['SUCCESS','FAILED'].includes(attempt.state),`${attempt.detail_record_id}: invalid attempt state ${attempt.state}`);
+  if(attempt.state==='FAILED') assert(Boolean(attempt.error),`${attempt.detail_record_id}: failed attempt missing error`);
+}
+
+const areaRows=areas.records||[];
+assert(unique(areaRows.map(x=>x.area_evidence_id)),'area evidence IDs are not unique');
+for(const row of areaRows){
+  assert(validAreas.has(row.competition_class),`${row.area_evidence_id}: unknown competition class ${row.competition_class}`);
+  const detail=detailByVersion.get(row.detail_version_id);
+  assert(Boolean(detail),`${row.area_evidence_id}: missing substantive detail ${row.detail_version_id}`);
+  if(detail){
+    assert(row.detail_record_id===detail.detail_record_id,`${row.area_evidence_id}: detail record lineage mismatch`);
+    assert(row.record_url===detail.record_url,`${row.area_evidence_id}: record URL lineage mismatch`);
+    assert(row.jurisdiction_id===detail.jurisdiction_id,`${row.area_evidence_id}: jurisdiction lineage mismatch`);
+  }
+  assert(validTime(row.evidence_captured_at),`${row.area_evidence_id}: evidence_captured_at invalid`);
+  assert(validTime(row.routed_at),`${row.area_evidence_id}: routed_at invalid`);
+  assert(row.routing_state==='SUBSTANTIVE_CONTENT_ROUTED',`${row.area_evidence_id}: invalid routing state`);
+  assert(Array.isArray(row.routing_hits)&&row.routing_hits.length>0,`${row.area_evidence_id}: routing hits missing`);
+  assert(Array.isArray(row.actor_ids)&&Array.isArray(row.party_ids),`${row.area_evidence_id}: entity arrays missing`);
+  assert(row.position_state==='UNRESOLVED',`${row.area_evidence_id}: router must not infer position`);
+  assert(row.inference===null&&row.inference_class==='NONE',`${row.area_evidence_id}: routing contains inference`);
+  if(row.competition_class==='PUBLIC_PRESSURE'){
+    assert((row.extracted_cues?.pressure_terms||[]).length>0,`${row.area_evidence_id}: PUBLIC_PRESSURE route lacks pressure cues`);
+  }
+}
+
+if(fail.length){
+  console.error('POLITICAL_MAYHEM_INFORMATION_INGESTION_RUNTIME_FAILED');
+  for(const message of fail) console.error('- '+message);
+  process.exit(1);
+}
+console.log('POLITICAL_MAYHEM_INFORMATION_INGESTION_RUNTIME_PASS',`details=${detailRows.length}`,`area_records=${areaRows.length}`,`attempts=${attempts.length}`);

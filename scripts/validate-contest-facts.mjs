@@ -6,6 +6,8 @@ const assert=(ok,msg)=>{if(!ok) fail.push(msg)};
 const uniq=xs=>new Set(xs).size===xs.length;
 const validTime=v=>Number.isFinite(Date.parse(v));
 const compact=s=>String(s??'').replace(/\s+/g,' ').trim();
+const sorted=xs=>[...(xs||[])].sort();
+const sameIds=(a,b)=>JSON.stringify(sorted(a))===JSON.stringify(sorted(b));
 
 const pipeline=read('data/political-information-ingestion-pipeline.json');
 const ledger=read('data/runtime/contest-facts.json');
@@ -31,6 +33,7 @@ const areaById=new Map(allAreas.map(x=>[x.area_evidence_id,x]));
 const activeAreas=allAreas.filter(x=>x.routing_state==='SUBSTANTIVE_CONTENT_ROUTED');
 const detailByVersion=new Map((details.records||[]).map(x=>[x.detail_version_id,x]));
 const allowedTypes=new Set(ledger.fact_types||[]);
+const positionTypes=new Set(['EXPLICIT_SUPPORT_POSITION','EXPLICIT_OPPOSITION_POSITION']);
 const facts=ledger.facts||[];
 assert(uniq(facts.map(x=>x.fact_id)),'contest fact IDs are not unique');
 
@@ -67,9 +70,19 @@ for(const fact of facts){
     assert(Array.isArray(fact.fact_state_history)&&fact.fact_state_history.some(x=>x.to==='RETRACTED_EXTRACTION_NOISE'),`${fact.fact_id}: retracted fact lacks append-only state history`);
   }
 
-  if(['EXPLICIT_SUPPORT_POSITION','EXPLICIT_OPPOSITION_POSITION'].includes(fact.fact_type)){
+  if(positionTypes.has(fact.fact_type)){
     assert((fact.actor_ids||[]).length+(fact.party_ids||[]).length>0,`${fact.fact_id}: explicit position lacks resolved entity`);
     assert(fact.position_state===(fact.fact_type==='EXPLICIT_SUPPORT_POSITION'?'SUPPORTING':'OPPOSING'),`${fact.fact_id}: explicit position state mismatch`);
+    if(fact.fact_state==='OBSERVED_SOURCE_TEXT'){
+      const binding=fact.position_binding;
+      const boundActors=binding?.actor_ids||[];
+      const boundParties=binding?.party_ids||[];
+      assert(binding?.relation==='ENTITY_PRECEDES_EXPLICIT_POSITION_LANGUAGE',`${fact.fact_id}: active explicit position lacks entity-bound language proof`);
+      assert(boundActors.length+boundParties.length>0,`${fact.fact_id}: active explicit position binding has no entity`);
+      assert(sameIds(boundActors,fact.actor_ids),`${fact.fact_id}: bound actor IDs differ from fact actor IDs`);
+      assert(sameIds(boundParties,fact.party_ids),`${fact.fact_id}: bound team IDs differ from fact team IDs`);
+      assert(fact.integrity?.position_entity_binding_required===true,`${fact.fact_id}: active explicit position does not declare binding integrity`);
+    }
   }else assert(fact.position_state==='UNRESOLVED',`${fact.fact_id}: non-position fact inferred a position`);
   if(fact.fact_type==='MATERIAL_RESISTANCE'){
     assert(fact.resistance_state==='EXPLICIT_RESISTANCE_LANGUAGE',`${fact.fact_id}: material resistance not explicitly marked`);
@@ -80,6 +93,7 @@ for(const fact of facts){
 
 const activeFacts=facts.filter(x=>x.fact_state==='OBSERVED_SOURCE_TEXT');
 const retractedFacts=facts.filter(x=>x.fact_state==='RETRACTED_EXTRACTION_NOISE');
+const activePositionFacts=activeFacts.filter(x=>positionTypes.has(x.fact_type));
 if(activeFacts.length>0){
   for(const area of activeAreas) assert(activeFacts.some(x=>x.area_evidence_id===area.area_evidence_id),`${area.area_evidence_id}: active area evidence produced no active contest facts`);
 }
@@ -89,4 +103,4 @@ if(fail.length){
   for(const msg of fail) console.error('- '+msg);
   process.exit(1);
 }
-console.log('POLITICAL_MAYHEM_CONTEST_FACT_INTEGRITY_PASS',`areas=${activeAreas.length}`,`activeFacts=${activeFacts.length}`,`retractedFacts=${retractedFacts.length}`,`classes=${supported.length}`);
+console.log('POLITICAL_MAYHEM_CONTEST_FACT_INTEGRITY_PASS',`areas=${activeAreas.length}`,`activeFacts=${activeFacts.length}`,`retractedFacts=${retractedFacts.length}`,`boundPositionFacts=${activePositionFacts.length}`,`classes=${supported.length}`);

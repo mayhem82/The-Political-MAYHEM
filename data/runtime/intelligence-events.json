@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-INTELLIGENCE-EVENTS-001",
   "scope": "Australia — multi-jurisdiction",
-  "captured_at": "2026-09-09T18:38:16.840Z",
+  "captured_at": "2026-09-09T21:43:10.539Z",
   "mode": "FORWARD_ONLY",
   "rules": {
     "observation_distinct_from_inference": true,
@@ -60099,6 +60099,242 @@
           "record_id": "5965c705a3f269591b38",
           "title": "Current House bills list",
           "url": "https://www.aph.gov.au/layouts/DPS/Bills/?blsId=legislation%2fbillslst%2fbillslst_c203aa1c-1876-41a8-bc76-1de328bdb726"
+        }
+      ],
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "underlying_publication_claims_not_promoted_to_verified_fact": true,
+        "source_change_parent_retained": true,
+        "deterministic_review": true
+      }
+    },
+    {
+      "event_id": "CHG-WATCH-APH-BILLS-20260909214236",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-FED",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-APH-BILLS-20260909214236",
+      "captured_at": "2026-09-09T21:42:36.725Z",
+      "event_date": "2026-09-10",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_PARLIAMENT",
+      "source_id": "SRC-APH-BILLS",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "review_policy": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-APH-BILLS-20260909183729",
+        "content_hash": "dcedd91ab44ba199e259ef460a39af430c2b089cfa39291a7e5f24fe535a27c5",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-APH-BILLS-20260909214236",
+        "content_hash": "c90756618613c2f76854146e3bb918f207465eccd8d68cbf6cad052dade36f04",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "STRUCTURED_RECORD_SET",
+        "records_added": [
+          {
+            "record_id": "29a68e1255907793c887",
+            "title": "Current Senate bills list",
+            "url": "https://www.aph.gov.au/layouts/DPS/Bills/?blsId=legislation%2fbillslst%2fbillslst_8100fb48-0592-488b-828b-d017b24562d4"
+          },
+          {
+            "record_id": "5965c705a3f269591b38",
+            "title": "Current House bills list",
+            "url": "https://www.aph.gov.au/layouts/DPS/Bills/?blsId=legislation%2fbillslst%2fbillslst_c203aa1c-1876-41a8-bc76-1de328bdb726"
+          }
+        ],
+        "records_removed": [
+          {
+            "record_id": "0c02f85eb762e1f64212",
+            "title": "Current House bills list",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/layouts/DPS/Bills/?blsId=legislation%2fbillslst%2fbillslst_c203aa1c-1876-41a8-bc76-1de328bdb726"
+          },
+          {
+            "record_id": "a9d593cfe442932eabeb",
+            "title": "Current Senate bills list",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/layouts/DPS/Bills/?blsId=legislation%2fbillslst%2fbillslst_8100fb48-0592-488b-828b-d017b24562d4"
+          }
+        ],
+        "added_count": 2,
+        "removed_count": 2,
+        "before_count": 96,
+        "after_count": 96,
+        "delta_hash": "ae77352edd3f794d48b6e319265a2b7c71b0e19c6183fe740c05730e845e3cf3"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-NSW-MINISTERIAL-RELEASES-20260909214236",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-NSW",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-NSW-MINISTERIAL-RELEASES-20260909214236",
+      "captured_at": "2026-09-09T21:42:36.725Z",
+      "event_date": "2026-09-10",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-NSW-MINISTERIAL-RELEASES",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "review_policy": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-NSW-MINISTERIAL-RELEASES-20260909143658",
+        "content_hash": "9b76472a698643dd021c937162ee9472c1c42e049517234d6d0cebea9880139b",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-NSW-MINISTERIAL-RELEASES-20260909214236",
+        "content_hash": "7ed27f8f9315172f7521cff825e49db32a79ddff9c3d7c8984d55fe60dc3b6b6",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "STRUCTURED_RECORD_SET",
+        "records_added": [
+          {
+            "record_id": "0ae3813245809f9b148e",
+            "title": "Fitch affirms NSW Triple-A credit rating",
+            "url": "https://www.nsw.gov.au/ministerial-releases/fitch-affirms-nsw-triple-a-credit-rating-0"
+          }
+        ],
+        "records_removed": [
+          {
+            "record_id": "b870c729d8555dacdef1",
+            "title": "Long Jetty Urgent Care Service continues to support Central Coast community",
+            "url": "https://www.nsw.gov.au/ministerial-releases/long-jetty-urgent-care-service-continues-to-support-central-coast-community"
+          }
+        ],
+        "added_count": 1,
+        "removed_count": 1,
+        "before_count": 88,
+        "after_count": 88,
+        "delta_hash": "a343d9520e8d2b00f46dbc47123536c6f3b73f6da43b83277557c418dbd449fd"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "SIG-REV-CHG-WATCH-APH-BILLS-20260909214236",
+      "parent_event_id": "CHG-WATCH-APH-BILLS-20260909214236",
+      "review_id": "REV-CHG-WATCH-APH-BILLS-20260909214236",
+      "jurisdiction_id": "AUS-FED",
+      "party_id": null,
+      "actor_id": null,
+      "contest_id": null,
+      "cycle_id": null,
+      "source_snapshot_id": "AUTO-WATCH-APH-BILLS-20260909214236",
+      "record_id": null,
+      "captured_at": "2026-09-09T21:43:06.052Z",
+      "event_date": "2026-09-10",
+      "checkpoint": "CONTINUOUS_FORWARD_SIGNAL_REVIEW",
+      "event_type": "SIGNAL_CREATED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_PARLIAMENT",
+      "source_id": "SRC-APH-BILLS",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "claim": "Parliament of Australia — Bills and Legislation added 2 structured publication records to its forward-captured official index: Current Senate bills list; Current House bills list",
+      "observed_behaviour": "One or more structured publication records appeared in the monitored official source index after the preceding forward snapshot.",
+      "publication_records_added": [
+        {
+          "record_id": "29a68e1255907793c887",
+          "title": "Current Senate bills list",
+          "url": "https://www.aph.gov.au/layouts/DPS/Bills/?blsId=legislation%2fbillslst%2fbillslst_8100fb48-0592-488b-828b-d017b24562d4"
+        },
+        {
+          "record_id": "5965c705a3f269591b38",
+          "title": "Current House bills list",
+          "url": "https://www.aph.gov.au/layouts/DPS/Bills/?blsId=legislation%2fbillslst%2fbillslst_c203aa1c-1876-41a8-bc76-1de328bdb726"
+        }
+      ],
+      "publication_records_removed": [
+        {
+          "record_id": "0c02f85eb762e1f64212",
+          "title": "Current House bills list",
+          "url": "https://www.aph.gov.au/Parliamentary_Business/layouts/DPS/Bills/?blsId=legislation%2fbillslst%2fbillslst_c203aa1c-1876-41a8-bc76-1de328bdb726"
+        },
+        {
+          "record_id": "a9d593cfe442932eabeb",
+          "title": "Current Senate bills list",
+          "url": "https://www.aph.gov.au/Parliamentary_Business/layouts/DPS/Bills/?blsId=legislation%2fbillslst%2fbillslst_8100fb48-0592-488b-828b-d017b24562d4"
+        }
+      ],
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "underlying_publication_claims_not_promoted_to_verified_fact": true,
+        "source_change_parent_retained": true,
+        "deterministic_review": true
+      }
+    },
+    {
+      "event_id": "SIG-REV-CHG-WATCH-NSW-MINISTERIAL-RELEASES-20260909214236",
+      "parent_event_id": "CHG-WATCH-NSW-MINISTERIAL-RELEASES-20260909214236",
+      "review_id": "REV-CHG-WATCH-NSW-MINISTERIAL-RELEASES-20260909214236",
+      "jurisdiction_id": "AUS-NSW",
+      "party_id": null,
+      "actor_id": null,
+      "contest_id": null,
+      "cycle_id": null,
+      "source_snapshot_id": "AUTO-WATCH-NSW-MINISTERIAL-RELEASES-20260909214236",
+      "record_id": "0ae3813245809f9b148e",
+      "captured_at": "2026-09-09T21:43:06.052Z",
+      "event_date": "2026-09-10",
+      "checkpoint": "CONTINUOUS_FORWARD_SIGNAL_REVIEW",
+      "event_type": "SIGNAL_CREATED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-NSW-MINISTERIAL-RELEASES",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "claim": "NSW Government — Ministerial releases added 1 structured publication record to its forward-captured official index: Fitch affirms NSW Triple-A credit rating",
+      "observed_behaviour": "One or more structured publication records appeared in the monitored official source index after the preceding forward snapshot.",
+      "publication_records_added": [
+        {
+          "record_id": "0ae3813245809f9b148e",
+          "title": "Fitch affirms NSW Triple-A credit rating",
+          "url": "https://www.nsw.gov.au/ministerial-releases/fitch-affirms-nsw-triple-a-credit-rating-0"
+        }
+      ],
+      "publication_records_removed": [
+        {
+          "record_id": "b870c729d8555dacdef1",
+          "title": "Long Jetty Urgent Care Service continues to support Central Coast community",
+          "url": "https://www.nsw.gov.au/ministerial-releases/long-jetty-urgent-care-service-continues-to-support-central-coast-community"
         }
       ],
       "inference": null,

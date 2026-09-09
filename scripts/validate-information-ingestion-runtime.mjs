@@ -1,19 +1,26 @@
 import fs from 'node:fs';
+import crypto from 'node:crypto';
 
 const read=p=>JSON.parse(fs.readFileSync(p,'utf8'));
 const fail=[];
 const assert=(condition,message)=>{if(!condition) fail.push(message)};
 const unique=xs=>new Set(xs).size===xs.length;
 const validTime=v=>Number.isFinite(Date.parse(v));
+const sha=s=>crypto.createHash('sha256').update(String(s)).digest('hex');
+const sorted=xs=>[...(xs||[])].sort();
 
 const pipeline=read('data/political-information-ingestion-pipeline.json');
 const details=read('data/runtime/source-detail-snapshots.json');
 const areas=read('data/runtime/area-evidence-records.json');
+const facts=read('data/runtime/contest-facts.json');
+const thresholds=read('data/runtime/competition-threshold-evaluations.json');
 const reviews=read('data/runtime/signal-reviews.json');
 const events=read('data/runtime/intelligence-events.json');
 
 assert(details.status==='ACTIVE','source detail ledger is not ACTIVE');
 assert(areas.status==='ACTIVE','area evidence ledger is not ACTIVE');
+assert(facts.status==='ACTIVE','contest fact ledger is not ACTIVE');
+assert(thresholds.status==='ACTIVE','competition threshold ledger is not ACTIVE');
 const validAreas=new Set((pipeline.areas||[]).map(x=>x.competition_class));
 const reviewIds=new Set((reviews.reviews||[]).map(x=>x.review_id));
 const eventIds=new Set((events.events||[]).map(x=>x.event_id));
@@ -45,6 +52,15 @@ for(const attempt of attempts){
   assert(['SUCCESS','FAILED'].includes(attempt.state),`${attempt.detail_record_id}: invalid attempt state ${attempt.state}`);
   if(attempt.state==='FAILED') assert(Boolean(attempt.error),`${attempt.detail_record_id}: failed attempt missing error`);
 }
+
+const activeFactsByArea=new Map();
+for(const fact of facts.facts||[]){
+  if(fact.fact_state!=='OBSERVED_SOURCE_TEXT') continue;
+  if(!activeFactsByArea.has(fact.area_evidence_id)) activeFactsByArea.set(fact.area_evidence_id,[]);
+  activeFactsByArea.get(fact.area_evidence_id).push(fact);
+}
+for(const rows of activeFactsByArea.values()) rows.sort((a,b)=>a.fact_id.localeCompare(b.fact_id));
+const thresholdByArea=new Map((thresholds.evaluations||[]).map(x=>[x.area_evidence_id,x]));
 
 const intelligenceByArea=new Map();
 for(const event of events.events||[]){
@@ -83,16 +99,48 @@ for(const row of areaRows){
     assert(row.integrity?.actor_affiliation_not_treated_as_explicit_team_mention===true,`${row.area_evidence_id}: actor-affiliation/team boundary missing`);
     assert(row.integrity?.entity_mention_does_not_establish_position===true,`${row.area_evidence_id}: entity/position boundary missing`);
     assert(row.entity_mentions&&Array.isArray(row.entity_mentions.actors)&&Array.isArray(row.entity_mentions.teams),`${row.area_evidence_id}: entity_mentions structure missing`);
-    const handoff=(intelligenceByArea.get(row.area_evidence_id)||[]).filter(event=>['AREA_EVIDENCE_INGESTED','AREA_EVIDENCE_REACTIVATED'].includes(event.event_type)&&event.area_routing_state==='SUBSTANTIVE_CONTENT_ROUTED');
+
+    const activeFacts=activeFactsByArea.get(row.area_evidence_id)||[];
+    const activeFactIds=activeFacts.map(x=>x.fact_id);
+    const activeFactTypes=[...new Set(activeFacts.map(x=>x.fact_type))].sort();
+    const evaluation=thresholdByArea.get(row.area_evidence_id);
+    assert(Boolean(evaluation),`${row.area_evidence_id}: competition threshold evaluation missing`);
+
+    const handoff=(intelligenceByArea.get(row.area_evidence_id)||[]).filter(event=>
+      ['AREA_EVIDENCE_INGESTED','AREA_EVIDENCE_REACTIVATED','AREA_EVIDENCE_INTELLIGENCE_ENRICHED'].includes(event.event_type)&&
+      event.area_routing_state==='SUBSTANTIVE_CONTENT_ROUTED'
+    );
     assert(handoff.length>0,`${row.area_evidence_id}: no substantive Intelligence handoff event`);
     const latest=handoff.sort((a,b)=>Date.parse(b.captured_at)-Date.parse(a.captured_at))[0];
-    if(latest){
+    if(latest&&evaluation){
+      const thresholdBlockers=sorted(evaluation.blockers);
+      const supportingEntities=sorted(evaluation.supporting_entities);
+      const opposingEntities=sorted(evaluation.opposing_entities);
+      const expectedSignature=sha(JSON.stringify({
+        contest_fact_ids:activeFactIds,
+        threshold_evaluation_id:evaluation.evaluation_id,
+        threshold_state:evaluation.evaluation_state,
+        threshold_blockers:thresholdBlockers,
+        supporting_entities:supportingEntities,
+        opposing_entities:opposingEntities
+      }));
       assert(latest.competition_class===row.competition_class,`${row.area_evidence_id}: Intelligence competition class mismatch`);
       assert(latest.detail_version_id===row.detail_version_id,`${row.area_evidence_id}: Intelligence detail lineage mismatch`);
       assert(latest.source_snapshot_id===row.source_snapshot_id,`${row.area_evidence_id}: Intelligence source-snapshot lineage mismatch`);
       assert(latest.evidence_state==='VERIFIED',`${row.area_evidence_id}: substantive Intelligence event not VERIFIED`);
       assert(latest.projection_effect==='NO_EFFECT',`${row.area_evidence_id}: substantive ingestion must not move projection directly`);
       assert(latest.inference===null&&latest.inference_class==='NONE',`${row.area_evidence_id}: substantive Intelligence handoff contains inference`);
+      assert(JSON.stringify(sorted(latest.contest_fact_ids))===JSON.stringify(activeFactIds),`${row.area_evidence_id}: Intelligence active fact lineage mismatch`);
+      assert(JSON.stringify(sorted(latest.contest_fact_types))===JSON.stringify(activeFactTypes),`${row.area_evidence_id}: Intelligence fact-type summary mismatch`);
+      assert(latest.threshold_evaluation_id===evaluation.evaluation_id,`${row.area_evidence_id}: Intelligence threshold evaluation lineage mismatch`);
+      assert(latest.threshold_state===evaluation.evaluation_state,`${row.area_evidence_id}: Intelligence threshold state mismatch`);
+      assert(JSON.stringify(sorted(latest.threshold_blockers))===JSON.stringify(thresholdBlockers),`${row.area_evidence_id}: Intelligence threshold blockers mismatch`);
+      assert(JSON.stringify(sorted(latest.supporting_entities))===JSON.stringify(supportingEntities),`${row.area_evidence_id}: Intelligence supporting-side lineage mismatch`);
+      assert(JSON.stringify(sorted(latest.opposing_entities))===JSON.stringify(opposingEntities),`${row.area_evidence_id}: Intelligence opposing-side lineage mismatch`);
+      assert(latest.registration_action==='NO_AUTOMATIC_REGISTRATION',`${row.area_evidence_id}: Intelligence attempted automatic registration`);
+      assert(latest.intelligence_signature===expectedSignature,`${row.area_evidence_id}: Intelligence signature mismatch`);
+      assert(latest.integrity?.retracted_facts_excluded===true,`${row.area_evidence_id}: Intelligence does not certify retracted-fact exclusion`);
+      assert(latest.integrity?.threshold_eligibility_does_not_register_match===true,`${row.area_evidence_id}: Intelligence threshold/registration firewall missing`);
     }
     if(row.competition_class==='PUBLIC_PRESSURE') assert((row.extracted_cues?.pressure_terms||[]).length>0,`${row.area_evidence_id}: active PUBLIC_PRESSURE route lacks pressure cues`);
   }
@@ -105,4 +153,4 @@ if(fail.length){
 }
 const active=areaRows.filter(x=>x.routing_state==='SUBSTANTIVE_CONTENT_ROUTED');
 const retracted=areaRows.filter(x=>x.routing_state==='RETRACTED_ROUTING_NOISE');
-console.log('POLITICAL_MAYHEM_INFORMATION_INGESTION_RUNTIME_PASS',`details=${detailRows.length}`,`active_area_records=${active.length}`,`retracted=${retracted.length}`,`intelligence_handoffs=${active.filter(row=>(intelligenceByArea.get(row.area_evidence_id)||[]).some(e=>['AREA_EVIDENCE_INGESTED','AREA_EVIDENCE_REACTIVATED'].includes(e.event_type))).length}`,`attempts=${attempts.length}`);
+console.log('POLITICAL_MAYHEM_INFORMATION_INGESTION_RUNTIME_PASS',`details=${detailRows.length}`,`active_area_records=${active.length}`,`retracted=${retracted.length}`,`intelligence_handoffs=${active.filter(row=>(intelligenceByArea.get(row.area_evidence_id)||[]).some(e=>['AREA_EVIDENCE_INGESTED','AREA_EVIDENCE_REACTIVATED','AREA_EVIDENCE_INTELLIGENCE_ENRICHED'].includes(e.event_type))).length}`,`attempts=${attempts.length}`);

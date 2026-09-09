@@ -1,0 +1,14 @@
+{
+  "ledger_id": "POLITICAL-MAYHEM-INFORMATION-SOURCE-QUEUE-001",
+  "status": "ACTIVE",
+  "updated_at": null,
+  "rules": {
+    "queue_is_derived_from_area_coverage": true,
+    "source_path_gap_has_highest_priority": true,
+    "detail_path_gap_has_second_priority": true,
+    "ready_without_evidence_is_not_called_quiet": true,
+    "active_evidence_cells_are_not_queued": true,
+    "one_queue_item_represents_one_jurisdiction_area_gap": true
+  },
+  "items": []
+}

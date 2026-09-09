@@ -12,6 +12,7 @@ on:
       - 'scripts/review-forward-signals.mjs'
       - 'scripts/ingest-source-record-details.mjs'
       - 'scripts/route-area-evidence.mjs'
+      - 'scripts/build-information-ingestion-coverage.mjs'
       - 'scripts/reconcile-political-lifecycle.mjs'
       - 'scripts/discover-political-competitions.mjs'
       - 'scripts/validate-information-ingestion-pipeline.mjs'
@@ -26,6 +27,7 @@ on:
       - 'data/political-cycle-class-registry.json'
       - 'data/runtime/source-detail-snapshots.json'
       - 'data/runtime/area-evidence-records.json'
+      - 'data/runtime/information-ingestion-coverage.json'
       - 'data/runtime/political-cycles.json'
       - 'data/runtime/political-contests.json'
       - 'data/runtime/contest-checkpoints.json'
@@ -60,6 +62,8 @@ jobs:
         run: node scripts/ingest-source-record-details.mjs
       - name: Route substantive evidence into competition areas
         run: node scripts/route-area-evidence.mjs
+      - name: Build jurisdiction by competition-area ingestion coverage
+        run: node scripts/build-information-ingestion-coverage.mjs
       - name: Reconcile political lifecycle
         run: node scripts/reconcile-political-lifecycle.mjs
       - name: Discover Political MAYHEM competition candidates
@@ -86,13 +90,13 @@ jobs:
           node scripts/validate-federal-senate-electoral-integrity.mjs
       - name: Commit captured, reviewed, ingested, screened and reconciled state
         run: |
-          if git diff --quiet -- data/runtime/forward-signal-capture-state.json data/runtime/source-snapshots.json data/runtime/intelligence-events.json data/runtime/signal-reviews.json data/runtime/source-detail-snapshots.json data/runtime/area-evidence-records.json data/runtime/forward-ingestion-manifest.json data/runtime/political-cycles.json data/runtime/political-contests.json data/runtime/contest-checkpoints.json data/runtime/competition-discovery-candidates.json; then
-            echo 'No new capture, substantive ingestion, lifecycle or competition-discovery state.'
+          if git diff --quiet -- data/runtime/forward-signal-capture-state.json data/runtime/source-snapshots.json data/runtime/intelligence-events.json data/runtime/signal-reviews.json data/runtime/source-detail-snapshots.json data/runtime/area-evidence-records.json data/runtime/information-ingestion-coverage.json data/runtime/forward-ingestion-manifest.json data/runtime/political-cycles.json data/runtime/political-contests.json data/runtime/contest-checkpoints.json data/runtime/competition-discovery-candidates.json; then
+            echo 'No new capture, substantive ingestion, coverage, lifecycle or competition-discovery state.'
             exit 0
           fi
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add data/runtime/forward-signal-capture-state.json data/runtime/source-snapshots.json data/runtime/intelligence-events.json data/runtime/signal-reviews.json data/runtime/source-detail-snapshots.json data/runtime/area-evidence-records.json data/runtime/forward-ingestion-manifest.json data/runtime/political-cycles.json data/runtime/political-contests.json data/runtime/contest-checkpoints.json data/runtime/competition-discovery-candidates.json
-          git commit -m 'Capture review ingest and screen political state'
+          git add data/runtime/forward-signal-capture-state.json data/runtime/source-snapshots.json data/runtime/intelligence-events.json data/runtime/signal-reviews.json data/runtime/source-detail-snapshots.json data/runtime/area-evidence-records.json data/runtime/information-ingestion-coverage.json data/runtime/forward-ingestion-manifest.json data/runtime/political-cycles.json data/runtime/political-contests.json data/runtime/contest-checkpoints.json data/runtime/competition-discovery-candidates.json
+          git commit -m 'Capture review ingest cover and screen political state'
           git pull --rebase origin main
           git push origin main

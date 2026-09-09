@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-MAYHEM-COMPETITION-THRESHOLD-EVALUATIONS-001",
   "status": "ACTIVE",
-  "updated_at": null,
+  "updated_at": "2026-09-09T02:54:33.171Z",
   "states": [
     "NOT_A_MATCH",
     "EVIDENCE_GAP",
@@ -25,53 +25,557 @@
   "thresholds": {
     "ELECTORAL": {
       "threshold_id": "SPECIFIC_ELECTORAL_CONTEST_WITH_PARTICIPATION_EVIDENCED",
-      "required_fact_types": ["CONTEST_OBJECT", "STAGE"],
-      "required_conditions": ["RESOLVED_PARTICIPANT_OR_TEAM"]
+      "required_fact_types": [
+        "CONTEST_OBJECT",
+        "STAGE"
+      ],
+      "required_conditions": [
+        "RESOLVED_PARTICIPANT_OR_TEAM"
+      ]
     },
     "LEGISLATIVE": {
       "threshold_id": "MATERIAL_RESISTANCE_EVIDENCED",
-      "required_fact_types": ["CONTEST_OBJECT", "STAGE", "MATERIAL_RESISTANCE", "EXPLICIT_SUPPORT_POSITION", "EXPLICIT_OPPOSITION_POSITION"],
-      "required_conditions": ["DISTINCT_SUPPORTING_AND_OPPOSING_SIDES"]
+      "required_fact_types": [
+        "CONTEST_OBJECT",
+        "STAGE",
+        "MATERIAL_RESISTANCE",
+        "EXPLICIT_SUPPORT_POSITION",
+        "EXPLICIT_OPPOSITION_POSITION"
+      ],
+      "required_conditions": [
+        "DISTINCT_SUPPORTING_AND_OPPOSING_SIDES"
+      ]
     },
     "LEADERSHIP": {
       "threshold_id": "RIVAL_CLAIM_OR_ORGANISED_RESISTANCE_EVIDENCED",
-      "required_fact_types": ["CONTEST_OBJECT", "STAGE", "MATERIAL_RESISTANCE"],
-      "required_conditions": ["AT_LEAST_TWO_RESOLVED_PARTICIPANTS_OR_TEAMS"]
+      "required_fact_types": [
+        "CONTEST_OBJECT",
+        "STAGE",
+        "MATERIAL_RESISTANCE"
+      ],
+      "required_conditions": [
+        "AT_LEAST_TWO_RESOLVED_PARTICIPANTS_OR_TEAMS"
+      ]
     },
     "CONFIDENCE_SUPPLY": {
       "threshold_id": "MATERIAL_CONFIDENCE_OR_SUPPLY_RISK_EVIDENCED",
-      "required_fact_types": ["CONTEST_OBJECT", "STAGE", "MATERIAL_RESISTANCE", "EXPLICIT_SUPPORT_POSITION", "EXPLICIT_OPPOSITION_POSITION"],
-      "required_conditions": ["DISTINCT_SUPPORTING_AND_OPPOSING_SIDES"]
+      "required_fact_types": [
+        "CONTEST_OBJECT",
+        "STAGE",
+        "MATERIAL_RESISTANCE",
+        "EXPLICIT_SUPPORT_POSITION",
+        "EXPLICIT_OPPOSITION_POSITION"
+      ],
+      "required_conditions": [
+        "DISTINCT_SUPPORTING_AND_OPPOSING_SIDES"
+      ]
     },
     "BUDGET": {
       "threshold_id": "MATERIAL_FISCAL_RESISTANCE_EVIDENCED",
-      "required_fact_types": ["CONTEST_OBJECT", "OBJECTIVE", "STAGE", "MATERIAL_RESISTANCE", "EXPLICIT_SUPPORT_POSITION", "EXPLICIT_OPPOSITION_POSITION"],
-      "required_conditions": ["DISTINCT_SUPPORTING_AND_OPPOSING_SIDES"]
+      "required_fact_types": [
+        "CONTEST_OBJECT",
+        "OBJECTIVE",
+        "STAGE",
+        "MATERIAL_RESISTANCE",
+        "EXPLICIT_SUPPORT_POSITION",
+        "EXPLICIT_OPPOSITION_POSITION"
+      ],
+      "required_conditions": [
+        "DISTINCT_SUPPORTING_AND_OPPOSING_SIDES"
+      ]
     },
     "POLICY_ENACTMENT": {
       "threshold_id": "DEFINED_POLICY_OBJECTIVE_AND_MATERIAL_RESISTANCE_EVIDENCED",
-      "required_fact_types": ["CONTEST_OBJECT", "OBJECTIVE", "IMPLEMENTATION_ACTION", "MATERIAL_RESISTANCE", "EXPLICIT_SUPPORT_POSITION", "EXPLICIT_OPPOSITION_POSITION"],
-      "required_conditions": ["DISTINCT_SUPPORTING_AND_OPPOSING_SIDES"]
+      "required_fact_types": [
+        "CONTEST_OBJECT",
+        "OBJECTIVE",
+        "IMPLEMENTATION_ACTION",
+        "MATERIAL_RESISTANCE",
+        "EXPLICIT_SUPPORT_POSITION",
+        "EXPLICIT_OPPOSITION_POSITION"
+      ],
+      "required_conditions": [
+        "DISTINCT_SUPPORTING_AND_OPPOSING_SIDES"
+      ]
     },
     "PARLIAMENTARY_PROCEDURE": {
       "threshold_id": "CONTESTED_PROCEDURAL_OBJECTIVE_EVIDENCED",
-      "required_fact_types": ["CONTEST_OBJECT", "PROCEDURAL_ACTION", "MATERIAL_RESISTANCE", "EXPLICIT_SUPPORT_POSITION", "EXPLICIT_OPPOSITION_POSITION"],
-      "required_conditions": ["DISTINCT_SUPPORTING_AND_OPPOSING_SIDES"]
+      "required_fact_types": [
+        "CONTEST_OBJECT",
+        "PROCEDURAL_ACTION",
+        "MATERIAL_RESISTANCE",
+        "EXPLICIT_SUPPORT_POSITION",
+        "EXPLICIT_OPPOSITION_POSITION"
+      ],
+      "required_conditions": [
+        "DISTINCT_SUPPORTING_AND_OPPOSING_SIDES"
+      ]
     },
     "PUBLIC_PRESSURE": {
       "threshold_id": "DEFINED_PUBLIC_DEMAND_AND_EVIDENCED_INSTITUTIONAL_RESISTANCE_OR_INERTIA",
-      "required_fact_types": ["PUBLIC_DEMAND", "PRESSURE_ACTION", "MATERIAL_RESISTANCE"],
-      "required_conditions": ["IDENTIFIABLE_PUBLIC_ACTOR"]
+      "required_fact_types": [
+        "PUBLIC_DEMAND",
+        "PRESSURE_ACTION",
+        "MATERIAL_RESISTANCE"
+      ],
+      "required_conditions": [
+        "IDENTIFIABLE_PUBLIC_ACTOR"
+      ]
     }
   },
-  "evaluations": [],
+  "evaluations": [
+    {
+      "evaluation_id": "THRESH-ac3a0caecc9bb501b8e6656c",
+      "area_evidence_id": "AREA-d8e9f3b79351de1667b5245c",
+      "detail_record_id": "DETAIL-aa5e47fab5f5e3c67f0dbee8",
+      "detail_version_id": "DETAIL-aa5e47fab5f5e3c67f0dbee8-V1",
+      "source_snapshot_id": "AUTO-WATCH-APH-BILLS-20260908234539",
+      "jurisdiction_id": "AUS-FED",
+      "competition_class": "LEGISLATIVE",
+      "threshold_id": "MATERIAL_RESISTANCE_EVIDENCED",
+      "canonical_registration_threshold": "MATERIAL_RESISTANCE_EVIDENCED",
+      "evaluation_state": "EVIDENCE_GAP",
+      "evaluated_at": "2026-09-09T02:54:33.171Z",
+      "active_fact_ids": [
+        "FACT-2544a26f9878ae870c418182",
+        "FACT-f9487bc881606e0078258804",
+        "FACT-342b0d0eb6d79eda65d5a239",
+        "FACT-2fb9a70381ad64f37c368c8f",
+        "FACT-eb1a46f69acbe68851e5863c",
+        "FACT-6cea9948c24bec4a6e0d3cf8",
+        "FACT-fa75f9da4d491ac009dd65c3",
+        "FACT-358c4725f19730257873ea1b",
+        "FACT-887d3d5f29020c40f8720738",
+        "FACT-244a898460698f4053b84cbe",
+        "FACT-44688f8187a4fbf2df0527a4",
+        "FACT-2462d8270e1e4d240fe9a963",
+        "FACT-4f805a3224dfa02d06792413",
+        "FACT-191892e151120fced7702258",
+        "FACT-30eb20556b95874de6401127",
+        "FACT-84990e4849d6971caeb73d8e"
+      ],
+      "active_fact_types": [
+        "AMENDMENT",
+        "CONTEST_OBJECT",
+        "MATERIAL_RESISTANCE",
+        "OBJECTIVE",
+        "POSSIBLE_OUTCOME_STATE",
+        "PROCEDURAL_ACTION",
+        "STAGE",
+        "VOTE_OR_DIVISION"
+      ],
+      "satisfied_fact_types": [
+        "CONTEST_OBJECT",
+        "STAGE",
+        "MATERIAL_RESISTANCE"
+      ],
+      "missing_fact_types": [
+        "EXPLICIT_SUPPORT_POSITION",
+        "EXPLICIT_OPPOSITION_POSITION"
+      ],
+      "condition_results": [
+        {
+          "condition": "DISTINCT_SUPPORTING_AND_OPPOSING_SIDES",
+          "state": "MISSING",
+          "overlap": []
+        }
+      ],
+      "supporting_entities": [],
+      "opposing_entities": [],
+      "blockers": [
+        "MISSING_FACT_TYPE_EXPLICIT_SUPPORT_POSITION",
+        "MISSING_FACT_TYPE_EXPLICIT_OPPOSITION_POSITION",
+        "MISSING_CONDITION_DISTINCT_SUPPORTING_AND_OPPOSING_SIDES"
+      ],
+      "registration_action": "NO_AUTOMATIC_REGISTRATION",
+      "projection_effect": "NO_EFFECT",
+      "inference": null,
+      "inference_class": "NONE",
+      "integrity": {
+        "active_facts_only": true,
+        "retracted_facts_excluded": true,
+        "eligibility_does_not_register_competition": true,
+        "possible_outcome_not_verified_here": true
+      },
+      "state_history": [
+        {
+          "from": null,
+          "to": "EVIDENCE_GAP",
+          "at": "2026-09-09T02:54:33.171Z",
+          "reason": "INITIAL_THRESHOLD_EVALUATION"
+        }
+      ]
+    },
+    {
+      "evaluation_id": "THRESH-d050a82bd9bcfd1d6ce42008",
+      "area_evidence_id": "AREA-9debb72df0172c0900771d30",
+      "detail_record_id": "DETAIL-aa5e47fab5f5e3c67f0dbee8",
+      "detail_version_id": "DETAIL-aa5e47fab5f5e3c67f0dbee8-V1",
+      "source_snapshot_id": "AUTO-WATCH-APH-BILLS-20260908234539",
+      "jurisdiction_id": "AUS-FED",
+      "competition_class": "BUDGET",
+      "threshold_id": "MATERIAL_FISCAL_RESISTANCE_EVIDENCED",
+      "canonical_registration_threshold": "MATERIAL_FISCAL_RESISTANCE_EVIDENCED",
+      "evaluation_state": "NOT_A_MATCH",
+      "evaluated_at": "2026-09-09T02:54:33.171Z",
+      "active_fact_ids": [],
+      "active_fact_types": [],
+      "satisfied_fact_types": [],
+      "missing_fact_types": [
+        "CONTEST_OBJECT",
+        "OBJECTIVE",
+        "STAGE",
+        "MATERIAL_RESISTANCE",
+        "EXPLICIT_SUPPORT_POSITION",
+        "EXPLICIT_OPPOSITION_POSITION"
+      ],
+      "condition_results": [
+        {
+          "condition": "DISTINCT_SUPPORTING_AND_OPPOSING_SIDES",
+          "state": "MISSING",
+          "overlap": []
+        }
+      ],
+      "supporting_entities": [],
+      "opposing_entities": [],
+      "blockers": [
+        "AREA_ROUTING_RETRACTED_AS_NOISE"
+      ],
+      "registration_action": "NO_AUTOMATIC_REGISTRATION",
+      "projection_effect": "NO_EFFECT",
+      "inference": null,
+      "inference_class": "NONE",
+      "integrity": {
+        "active_facts_only": true,
+        "retracted_facts_excluded": true,
+        "eligibility_does_not_register_competition": true,
+        "possible_outcome_not_verified_here": true
+      },
+      "state_history": [
+        {
+          "from": null,
+          "to": "NOT_A_MATCH",
+          "at": "2026-09-09T02:54:33.171Z",
+          "reason": "INITIAL_THRESHOLD_EVALUATION"
+        }
+      ]
+    },
+    {
+      "evaluation_id": "THRESH-5a5f54de2864946b1053855d",
+      "area_evidence_id": "AREA-cc7601e0425abc6917d5af2f",
+      "detail_record_id": "DETAIL-c11cd7280aa77a1bded387eb",
+      "detail_version_id": "DETAIL-c11cd7280aa77a1bded387eb-V1",
+      "source_snapshot_id": "AUTO-WATCH-APH-BILLS-20260908230751",
+      "jurisdiction_id": "AUS-FED",
+      "competition_class": "LEGISLATIVE",
+      "threshold_id": "MATERIAL_RESISTANCE_EVIDENCED",
+      "canonical_registration_threshold": "MATERIAL_RESISTANCE_EVIDENCED",
+      "evaluation_state": "EVIDENCE_GAP",
+      "evaluated_at": "2026-09-09T02:54:33.171Z",
+      "active_fact_ids": [
+        "FACT-ee4956ca7f15b64c4056df06",
+        "FACT-9a3431d436ea3947f9587f46",
+        "FACT-089284e89f9f4a477281cf13",
+        "FACT-a4ebd91f25d120bc220a5f6a",
+        "FACT-667ec4a02e3e88f78f54a8ba",
+        "FACT-833394265ac69b8950ab09a6",
+        "FACT-320912f683f771e6349f049d",
+        "FACT-1d7ba6d776023172f7cdc675",
+        "FACT-5a4679abdf1ade15a551f6df"
+      ],
+      "active_fact_types": [
+        "AMENDMENT",
+        "CONTEST_OBJECT",
+        "OBJECTIVE",
+        "POSSIBLE_OUTCOME_STATE",
+        "PROCEDURAL_ACTION",
+        "STAGE"
+      ],
+      "satisfied_fact_types": [
+        "CONTEST_OBJECT",
+        "STAGE"
+      ],
+      "missing_fact_types": [
+        "MATERIAL_RESISTANCE",
+        "EXPLICIT_SUPPORT_POSITION",
+        "EXPLICIT_OPPOSITION_POSITION"
+      ],
+      "condition_results": [
+        {
+          "condition": "DISTINCT_SUPPORTING_AND_OPPOSING_SIDES",
+          "state": "MISSING",
+          "overlap": []
+        }
+      ],
+      "supporting_entities": [],
+      "opposing_entities": [],
+      "blockers": [
+        "MISSING_FACT_TYPE_MATERIAL_RESISTANCE",
+        "MISSING_FACT_TYPE_EXPLICIT_SUPPORT_POSITION",
+        "MISSING_FACT_TYPE_EXPLICIT_OPPOSITION_POSITION",
+        "MISSING_CONDITION_DISTINCT_SUPPORTING_AND_OPPOSING_SIDES"
+      ],
+      "registration_action": "NO_AUTOMATIC_REGISTRATION",
+      "projection_effect": "NO_EFFECT",
+      "inference": null,
+      "inference_class": "NONE",
+      "integrity": {
+        "active_facts_only": true,
+        "retracted_facts_excluded": true,
+        "eligibility_does_not_register_competition": true,
+        "possible_outcome_not_verified_here": true
+      },
+      "state_history": [
+        {
+          "from": null,
+          "to": "EVIDENCE_GAP",
+          "at": "2026-09-09T02:54:33.171Z",
+          "reason": "INITIAL_THRESHOLD_EVALUATION"
+        }
+      ]
+    },
+    {
+      "evaluation_id": "THRESH-cc5c7c36bf60232cae539c48",
+      "area_evidence_id": "AREA-db17ac27db16c5714ea22951",
+      "detail_record_id": "DETAIL-c11cd7280aa77a1bded387eb",
+      "detail_version_id": "DETAIL-c11cd7280aa77a1bded387eb-V1",
+      "source_snapshot_id": "AUTO-WATCH-APH-BILLS-20260908230751",
+      "jurisdiction_id": "AUS-FED",
+      "competition_class": "BUDGET",
+      "threshold_id": "MATERIAL_FISCAL_RESISTANCE_EVIDENCED",
+      "canonical_registration_threshold": "MATERIAL_FISCAL_RESISTANCE_EVIDENCED",
+      "evaluation_state": "NOT_A_MATCH",
+      "evaluated_at": "2026-09-09T02:54:33.171Z",
+      "active_fact_ids": [],
+      "active_fact_types": [],
+      "satisfied_fact_types": [],
+      "missing_fact_types": [
+        "CONTEST_OBJECT",
+        "OBJECTIVE",
+        "STAGE",
+        "MATERIAL_RESISTANCE",
+        "EXPLICIT_SUPPORT_POSITION",
+        "EXPLICIT_OPPOSITION_POSITION"
+      ],
+      "condition_results": [
+        {
+          "condition": "DISTINCT_SUPPORTING_AND_OPPOSING_SIDES",
+          "state": "MISSING",
+          "overlap": []
+        }
+      ],
+      "supporting_entities": [],
+      "opposing_entities": [],
+      "blockers": [
+        "AREA_ROUTING_RETRACTED_AS_NOISE"
+      ],
+      "registration_action": "NO_AUTOMATIC_REGISTRATION",
+      "projection_effect": "NO_EFFECT",
+      "inference": null,
+      "inference_class": "NONE",
+      "integrity": {
+        "active_facts_only": true,
+        "retracted_facts_excluded": true,
+        "eligibility_does_not_register_competition": true,
+        "possible_outcome_not_verified_here": true
+      },
+      "state_history": [
+        {
+          "from": null,
+          "to": "NOT_A_MATCH",
+          "at": "2026-09-09T02:54:33.171Z",
+          "reason": "INITIAL_THRESHOLD_EVALUATION"
+        }
+      ]
+    },
+    {
+      "evaluation_id": "THRESH-904008a0d0dd3c215904bf9e",
+      "area_evidence_id": "AREA-4174c8f7d7dd32e0571fcf72",
+      "detail_record_id": "DETAIL-debd4166aa251b215296d4a6",
+      "detail_version_id": "DETAIL-debd4166aa251b215296d4a6-V1",
+      "source_snapshot_id": "AUTO-WATCH-APH-BILLS-20260908233843",
+      "jurisdiction_id": "AUS-FED",
+      "competition_class": "LEGISLATIVE",
+      "threshold_id": "MATERIAL_RESISTANCE_EVIDENCED",
+      "canonical_registration_threshold": "MATERIAL_RESISTANCE_EVIDENCED",
+      "evaluation_state": "EVIDENCE_GAP",
+      "evaluated_at": "2026-09-09T02:54:33.171Z",
+      "active_fact_ids": [
+        "FACT-3f7080457d570cf1863a94fa",
+        "FACT-53fd91ed3b684bbd15657925",
+        "FACT-052d65b60a64b4a95d29ebef",
+        "FACT-46932a0c6c0748e71fb7930f",
+        "FACT-3c47e76de780c3d1ac8734b6",
+        "FACT-79a3b91f8702dd735356f7fb",
+        "FACT-aab60105402c36b3e7796404"
+      ],
+      "active_fact_types": [
+        "AMENDMENT",
+        "CONTEST_OBJECT",
+        "OBJECTIVE",
+        "STAGE"
+      ],
+      "satisfied_fact_types": [
+        "CONTEST_OBJECT",
+        "STAGE"
+      ],
+      "missing_fact_types": [
+        "MATERIAL_RESISTANCE",
+        "EXPLICIT_SUPPORT_POSITION",
+        "EXPLICIT_OPPOSITION_POSITION"
+      ],
+      "condition_results": [
+        {
+          "condition": "DISTINCT_SUPPORTING_AND_OPPOSING_SIDES",
+          "state": "MISSING",
+          "overlap": []
+        }
+      ],
+      "supporting_entities": [],
+      "opposing_entities": [],
+      "blockers": [
+        "MISSING_FACT_TYPE_MATERIAL_RESISTANCE",
+        "MISSING_FACT_TYPE_EXPLICIT_SUPPORT_POSITION",
+        "MISSING_FACT_TYPE_EXPLICIT_OPPOSITION_POSITION",
+        "MISSING_CONDITION_DISTINCT_SUPPORTING_AND_OPPOSING_SIDES"
+      ],
+      "registration_action": "NO_AUTOMATIC_REGISTRATION",
+      "projection_effect": "NO_EFFECT",
+      "inference": null,
+      "inference_class": "NONE",
+      "integrity": {
+        "active_facts_only": true,
+        "retracted_facts_excluded": true,
+        "eligibility_does_not_register_competition": true,
+        "possible_outcome_not_verified_here": true
+      },
+      "state_history": [
+        {
+          "from": null,
+          "to": "EVIDENCE_GAP",
+          "at": "2026-09-09T02:54:33.171Z",
+          "reason": "INITIAL_THRESHOLD_EVALUATION"
+        }
+      ]
+    },
+    {
+      "evaluation_id": "THRESH-52f6c223cbd4dbe7cf925d50",
+      "area_evidence_id": "AREA-cca48e1a7c4bb6ae2fdf89f4",
+      "detail_record_id": "DETAIL-debd4166aa251b215296d4a6",
+      "detail_version_id": "DETAIL-debd4166aa251b215296d4a6-V1",
+      "source_snapshot_id": "AUTO-WATCH-APH-BILLS-20260908233843",
+      "jurisdiction_id": "AUS-FED",
+      "competition_class": "BUDGET",
+      "threshold_id": "MATERIAL_FISCAL_RESISTANCE_EVIDENCED",
+      "canonical_registration_threshold": "MATERIAL_FISCAL_RESISTANCE_EVIDENCED",
+      "evaluation_state": "NOT_A_MATCH",
+      "evaluated_at": "2026-09-09T02:54:33.171Z",
+      "active_fact_ids": [],
+      "active_fact_types": [],
+      "satisfied_fact_types": [],
+      "missing_fact_types": [
+        "CONTEST_OBJECT",
+        "OBJECTIVE",
+        "STAGE",
+        "MATERIAL_RESISTANCE",
+        "EXPLICIT_SUPPORT_POSITION",
+        "EXPLICIT_OPPOSITION_POSITION"
+      ],
+      "condition_results": [
+        {
+          "condition": "DISTINCT_SUPPORTING_AND_OPPOSING_SIDES",
+          "state": "MISSING",
+          "overlap": []
+        }
+      ],
+      "supporting_entities": [],
+      "opposing_entities": [],
+      "blockers": [
+        "AREA_ROUTING_RETRACTED_AS_NOISE"
+      ],
+      "registration_action": "NO_AUTOMATIC_REGISTRATION",
+      "projection_effect": "NO_EFFECT",
+      "inference": null,
+      "inference_class": "NONE",
+      "integrity": {
+        "active_facts_only": true,
+        "retracted_facts_excluded": true,
+        "eligibility_does_not_register_competition": true,
+        "possible_outcome_not_verified_here": true
+      },
+      "state_history": [
+        {
+          "from": null,
+          "to": "NOT_A_MATCH",
+          "at": "2026-09-09T02:54:33.171Z",
+          "reason": "INITIAL_THRESHOLD_EVALUATION"
+        }
+      ]
+    },
+    {
+      "evaluation_id": "THRESH-a317699ca8298bd26f11cc61",
+      "area_evidence_id": "AREA-43e33a1e6f80db4427eebc9b",
+      "detail_record_id": "DETAIL-debd4166aa251b215296d4a6",
+      "detail_version_id": "DETAIL-debd4166aa251b215296d4a6-V1",
+      "source_snapshot_id": "AUTO-WATCH-APH-BILLS-20260908233843",
+      "jurisdiction_id": "AUS-FED",
+      "competition_class": "PARLIAMENTARY_PROCEDURE",
+      "threshold_id": "CONTESTED_PROCEDURAL_OBJECTIVE_EVIDENCED",
+      "canonical_registration_threshold": "CONTESTED_PROCEDURAL_OBJECTIVE_EVIDENCED",
+      "evaluation_state": "NOT_A_MATCH",
+      "evaluated_at": "2026-09-09T02:54:33.171Z",
+      "active_fact_ids": [],
+      "active_fact_types": [],
+      "satisfied_fact_types": [],
+      "missing_fact_types": [
+        "CONTEST_OBJECT",
+        "PROCEDURAL_ACTION",
+        "MATERIAL_RESISTANCE",
+        "EXPLICIT_SUPPORT_POSITION",
+        "EXPLICIT_OPPOSITION_POSITION"
+      ],
+      "condition_results": [
+        {
+          "condition": "DISTINCT_SUPPORTING_AND_OPPOSING_SIDES",
+          "state": "MISSING",
+          "overlap": []
+        }
+      ],
+      "supporting_entities": [],
+      "opposing_entities": [],
+      "blockers": [
+        "AREA_ROUTING_RETRACTED_AS_NOISE"
+      ],
+      "registration_action": "NO_AUTOMATIC_REGISTRATION",
+      "projection_effect": "NO_EFFECT",
+      "inference": null,
+      "inference_class": "NONE",
+      "integrity": {
+        "active_facts_only": true,
+        "retracted_facts_excluded": true,
+        "eligibility_does_not_register_competition": true,
+        "possible_outcome_not_verified_here": true
+      },
+      "state_history": [
+        {
+          "from": null,
+          "to": "NOT_A_MATCH",
+          "at": "2026-09-09T02:54:33.171Z",
+          "reason": "INITIAL_THRESHOLD_EVALUATION"
+        }
+      ]
+    }
+  ],
   "summary": {
-    "evaluations_total": 0,
+    "evaluations_total": 7,
     "by_state": {
-      "NOT_A_MATCH": 0,
-      "EVIDENCE_GAP": 0,
+      "NOT_A_MATCH": 4,
+      "EVIDENCE_GAP": 3,
       "REVIEW_REQUIRED": 0,
       "ELIGIBLE_FOR_REGISTRATION": 0
-    }
+    },
+    "created_this_run": 7,
+    "state_changes_this_run": 0,
+    "eligible_evaluation_ids": []
   }
 }

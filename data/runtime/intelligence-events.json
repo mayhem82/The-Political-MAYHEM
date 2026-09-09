@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-INTELLIGENCE-EVENTS-001",
   "scope": "Australia — multi-jurisdiction",
-  "captured_at": "2026-09-09T02:48:53.769Z",
+  "captured_at": "2026-09-09T02:54:33.206Z",
   "mode": "FORWARD_ONLY",
   "rules": {
     "observation_distinct_from_inference": true,
@@ -32285,6 +32285,52 @@
         "routing_correction_append_only": true,
         "no_projection_effect": true
       }
+    },
+    {
+      "event_id": "CHG-WATCH-APH-LIVE-MINUTES-20260909025328",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-FED",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-APH-LIVE-MINUTES-20260909025328",
+      "captured_at": "2026-09-09T02:53:28.233Z",
+      "event_date": "2026-09-09",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_PARLIAMENT",
+      "source_id": "SRC-APH-LIVE-MINUTES",
+      "capture_mode": "NORMALISED_PAGE_HASH",
+      "review_policy": "REVIEW_UNSTRUCTURED_CHANGE",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-APH-LIVE-MINUTES-20260909024755",
+        "content_hash": "6d3fe9f186ef74221ca87310ec6a8e1deef1ed9ddd1b7b763373c676caa865d6",
+        "capture_mode": "NORMALISED_PAGE_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-APH-LIVE-MINUTES-20260909025328",
+        "content_hash": "421e98c60b91ae0d096d2f22566d493e5dbe771c761c8c6fc41a1ad7c843ece0",
+        "capture_mode": "NORMALISED_PAGE_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "TEXT_REPRESENTATION",
+        "first_difference_offset": 11116,
+        "before_length": 14918,
+        "after_length": 14902,
+        "before_excerpt": "this day. - <TIME> 8 Domestic, Family and Sexual Violence Commission Yearly Report to Parliament —MINISTERIAL STATEMENT Ms Plibersek ( Minister for Social Services ), by leave, made a ministerial statement relating to the Domestic, Family and Sexual Violence Commission yearly report to Parliament , and presented the following document s : - <TIME> Domestic, Family and Sexual Violence Commission—Yearly report to Parliament— Report, September 2026 . Statement by the Minister for Social Services, Tanya Plibersek MP, 9 September 2026. - <TIME> Mrs McIntosh addressed the House in reply. - <TIME> Ms Plibersek moved—That the House take note of the following document: Domestic, Family and Sexual Violence Commission—Yearly report to Parliament—Statement by the Minister for Social Services, Tanya Plibersek MP, 9 September 2026 . - <TIME> Debate adjourned and the resumption of the debate made an order of the day for the next sitting . - <TIME> Mr Albanese ( Prime Minister ) , by indulgence, made a statement on the death of Blanche d'Alpuget . - <TIME> 10 Wage Justice for Early Childhood Education and Care Workers (Special Account) (Extending Support and Strengthening Safety) Bill 2026 The order of the day having been read for the resumption of the debate on the question—That the bill be now read a second time— Debate resumed. Ms Kearney , <TIME>. - <TIME> Debate adjourned ( Mrs McIntosh ), and the resumption of the debate made an order of the day for a later hour this day. - <TIME> 10 matter DECLARED REFERRED TO FEDERATION CHAMBER Ms J Ryan ( Chief Government Whip ) declared that, unless otherwise ordered, the following order of the day, government business, is referred to the Federation Chamber for debate : Domestic, Family and Sexual Violence Commission—Ministerial statement—Motion to take note of document: Resumption of debate. - <TIME> 11 Wage Justice for Early Childhood Education and Care Workers (Special Account) (Extending Support and Stren",
+        "after_excerpt": "this day. - <TIME> 8 Domestic, Family and Sexual Violence Commission Yearly Report to Parliament —MINISTERIAL STATEMENT — MOTION TO TAKE NOTE OF DOCUMENT Ms Plibersek ( Minister for Social Services ), by leave, made a ministerial statement relating to the Domestic, Family and Sexual Violence Commission yearly report to Parliament , and presented the following document s : - <TIME> Domestic, Family and Sexual Violence Commission—Yearly report to Parliament— Report, September 2026 . Statement by the Minister for Social Services, Tanya Plibersek MP, 9 September 2026. - <TIME> Mrs McIntosh addressed the House in reply. - <TIME> Ms Plibersek moved—That the House take note of the following document: Domestic, Family and Sexual Violence Commission—Yearly report to Parliament—Statement by the Minister for Social Services, Tanya Plibersek MP, 9 September 2026 . - <TIME> Debate adjourned and the resumption of the debate made an order of the day for the next sitting . - <TIME> Mr Albanese ( Prime Minister ) , by indulgence, made a statement on the death of Blanche d'Alpuget . - <TIME> 10 Wage Justice for Early Childhood Education and Care Workers (Special Account) (Extending Support and Strengthening Safety) Bill 2026 The order of the day having been read for the resumption of the debate on the question—That the bill be now read a second time— Debate resumed. Ms Kearney , <TIME>. - <TIME> Debate adjourned ( Mrs McIntosh ), and the resumption of the debate made an order of the day for a later hour this day. - <TIME> 10 MATTER DECLARED REFERRED TO FEDERATION CHAMBER Ms J Ryan ( Chief Government Whip ) declared that the resumption of debate on the motion to take note of the Minister’s statement on the Domestic, Family and Sexual Violence Commission yearly report to Parliament stands referred to the Federation Chamber. - <TIME> 11 Wage Justice for Early Childhood Education and Care Workers (Special Account) (Extending Support and Stren",
+        "delta_hash": "713c6ab7134210eef1baa0569ae62a5864816db2dc778bdabbbf2e6311a12391"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
     }
   ]
 }

@@ -23,6 +23,7 @@ on:
       - 'scripts/build-information-ingestion-source-queue.mjs'
       - 'scripts/reconcile-political-lifecycle.mjs'
       - 'scripts/discover-political-competitions.mjs'
+      - 'scripts/reconcile-competition-discovery-duplicates.mjs'
       - 'scripts/validate-information-ingestion-pipeline.mjs'
       - 'scripts/validate-information-ingestion-runtime.mjs'
       - 'scripts/validate-contest-facts.mjs'
@@ -100,6 +101,8 @@ jobs:
         run: node scripts/reconcile-political-lifecycle.mjs
       - name: Discover Political MAYHEM competition candidates
         run: node scripts/discover-political-competitions.mjs
+      - name: Reconcile duplicate competition candidate representations
+        run: node scripts/reconcile-competition-discovery-duplicates.mjs
       - name: Validate complete Political MAYHEM state
         run: |
           node scripts/validate-information-ingestion-pipeline.mjs

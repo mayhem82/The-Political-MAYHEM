@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-MAYHEM-INFORMATION-SOURCE-QUEUE-001",
   "status": "ACTIVE",
-  "updated_at": "2026-09-09T03:45:47.416Z",
+  "updated_at": "2026-09-09T03:50:15.278Z",
   "rules": {
     "queue_is_derived_from_area_coverage": true,
     "source_path_gap_has_highest_priority": true,
@@ -160,7 +160,7 @@
         "WATCH-NSW-CURRENT-BILLS",
         "WATCH-NSW-MINISTERIAL-RELEASES"
       ],
-      "substantive_area_evidence_count": 0,
+      "substantive_area_evidence_count": 1,
       "completion_condition": "Coverage cell reaches SUBSTANTIVE_EVIDENCE_ACTIVE with retained substantive-detail lineage.",
       "state": "OPEN"
     },
@@ -1284,28 +1284,6 @@
       "state": "OPEN"
     },
     {
-      "queue_id": "INGEST-AUS-NSW-POLICY_ENACTMENT",
-      "priority": 3,
-      "jurisdiction_id": "AUS-NSW",
-      "competition_class": "POLICY_ENACTMENT",
-      "coverage_state": "INGESTION_PATH_READY_NO_SUBSTANTIVE_EVIDENCE",
-      "action": "BACKFILL_AVAILABLE_RECORDS_OR_WAIT_FOR_NEW_SUBSTANTIVE_RECORD",
-      "reason": "Source path and detail path exist, but no active substantive area evidence has yet been ingested.",
-      "missing_source_groups": [],
-      "existing_relevant_watch_ids": [
-        "WATCH-NSW-HANSARD",
-        "WATCH-NSW-CURRENT-BILLS",
-        "WATCH-NSW-MINISTERIAL-RELEASES"
-      ],
-      "existing_detail_capable_watch_ids": [
-        "WATCH-NSW-CURRENT-BILLS",
-        "WATCH-NSW-MINISTERIAL-RELEASES"
-      ],
-      "substantive_area_evidence_count": 0,
-      "completion_condition": "Coverage cell reaches SUBSTANTIVE_EVIDENCE_ACTIVE with retained substantive-detail lineage.",
-      "state": "OPEN"
-    },
-    {
       "queue_id": "INGEST-AUS-NT-ELECTORAL",
       "priority": 3,
       "jurisdiction_id": "AUS-NT",
@@ -1548,10 +1526,10 @@
     }
   ],
   "summary": {
-    "open_items": 69,
+    "open_items": 68,
     "add_missing_source_class_watch": 33,
     "add_or_upgrade_detail_capable_source": 14,
-    "backfill_or_wait": 22,
-    "active_cells_not_queued": 3
+    "backfill_or_wait": 21,
+    "active_cells_not_queued": 4
   }
 }

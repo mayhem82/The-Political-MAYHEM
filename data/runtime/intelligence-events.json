@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-INTELLIGENCE-EVENTS-001",
   "scope": "Australia — multi-jurisdiction",
-  "captured_at": "2026-09-09T03:45:47.305Z",
+  "captured_at": "2026-09-09T03:50:15.156Z",
   "mode": "FORWARD_ONLY",
   "rules": {
     "observation_distinct_from_inference": true,
@@ -41765,6 +41765,437 @@
       "projection_effect": "NO_EFFECT",
       "information_advantage": "NONE",
       "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-APH-LIVE-MINUTES-20260909034850",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-FED",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-APH-LIVE-MINUTES-20260909034850",
+      "captured_at": "2026-09-09T03:48:50.451Z",
+      "event_date": "2026-09-09",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_PARLIAMENT",
+      "source_id": "SRC-APH-LIVE-MINUTES",
+      "capture_mode": "NORMALISED_PAGE_HASH",
+      "review_policy": "REVIEW_UNSTRUCTURED_CHANGE",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-APH-LIVE-MINUTES-20260909034446",
+        "content_hash": "f0eec4b79031e7eb4a86d8007a2b582849b2f8aa8e39157cf86496b43137b3ec",
+        "capture_mode": "NORMALISED_PAGE_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-APH-LIVE-MINUTES-20260909034850",
+        "content_hash": "28b588963cead4cc8ae18e40a3b5bd78329ec1dcda54dd0ed968f0ce34768191",
+        "capture_mode": "NORMALISED_PAGE_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "TEXT_REPRESENTATION",
+        "first_difference_offset": 13777,
+        "before_length": 15537,
+        "after_length": 15600,
+        "before_excerpt": " <TIME>. Mr Gosling , <TIME>. Ms Price , <TIME>. Ms Clutterham , <TIME>. Mr L O’Brien , <TIME>. Mr Holzberger , <TIME>. In this section Bills and Legislation Tabled documents Chamber documents Work of the Senate House of Representatives cha",
+        "after_excerpt": " <TIME>. Mr Gosling , <TIME>. Ms Price , <TIME>. Ms Clutterham , <TIME>. Mr L O’Brien , <TIME>. Mr Holzberger , <TIME>. Mr R Wilson , <TIME>. Ms Belyea , <TIME>. Mr Wallace , <TIME>. In this section Bills and Legislation Tabled documents Chamber documents Work of the Senate House of Representatives cha",
+        "delta_hash": "5cd999d251f32dbe7b05592d0272cde3c70842508c0f3fa9fcbe81461eafebe4"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "INTEL-RETRACT-ENRICH-AREA-43e33a1e6f80db4427eebc9b-e0f34782196fdf6e",
+      "parent_event_id": "INTEL-RETRACT-AREA-43e33a1e6f80db4427eebc9b",
+      "jurisdiction_id": "AUS-FED",
+      "party_id": null,
+      "actor_id": null,
+      "party_ids": [],
+      "actor_ids": [],
+      "contest_id": null,
+      "cycle_id": null,
+      "competition_class": "PARLIAMENTARY_PROCEDURE",
+      "area_evidence_id": "AREA-43e33a1e6f80db4427eebc9b",
+      "detail_record_id": "DETAIL-debd4166aa251b215296d4a6",
+      "detail_version_id": "DETAIL-debd4166aa251b215296d4a6-V1",
+      "source_snapshot_id": "AUTO-WATCH-APH-BILLS-20260908233843",
+      "record_url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=s1510",
+      "captured_at": "2026-09-09T03:50:15.156Z",
+      "evidence_captured_at": "2026-09-09T00:51:56.961Z",
+      "event_date": "2026-09-09",
+      "checkpoint": "SUBSTANTIVE_INTELLIGENCE_ENRICHMENT",
+      "event_type": "AREA_EVIDENCE_RETRACTION_ENRICHED",
+      "area_routing_state": "RETRACTED_ROUTING_NOISE",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "CORRECTED",
+      "materiality_state": "IMMATERIAL",
+      "source_class": "PRIMARY_PARLIAMENT",
+      "source_id": "SRC-APH-BILLS",
+      "claim": "Enriched retracted parliamentary procedure evidence lineage for Fair Work Amendment (Disqualified Officers) Bill 2026 &ndash; Parliament of Australia. Registration threshold state: not a match because the parent area routing is retracted.",
+      "observed_behaviour": null,
+      "contest_fact_ids": [],
+      "contest_fact_types": [],
+      "threshold_evaluation_id": "THRESH-a317699ca8298bd26f11cc61",
+      "threshold_state": "NOT_A_MATCH",
+      "threshold_blockers": [
+        "AREA_ROUTING_RETRACTED_AS_NOISE"
+      ],
+      "supporting_entities": [],
+      "opposing_entities": [],
+      "registration_action": "NO_AUTOMATIC_REGISTRATION",
+      "intelligence_signature": "e0f34782196fdf6eaab8e051f04d5c9b8b6d5895a9be44a8df2b1f33e14ca80c",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "prior_event_retained": true,
+        "routing_correction_append_only": true,
+        "threshold_evaluation_lineage_required": true,
+        "retraction_propagates_not_a_match": true,
+        "retracted_facts_excluded": true,
+        "no_projection_effect": true
+      }
+    },
+    {
+      "event_id": "INTEL-AREA-bd26ad38f3081548dd7db4c0",
+      "parent_event_id": "SIG-REV-CHG-WATCH-NSW-MINISTERIAL-RELEASES-20260908215043",
+      "jurisdiction_id": "AUS-NSW",
+      "party_id": null,
+      "actor_id": null,
+      "party_ids": [],
+      "actor_ids": [
+        "NSW-YASMIN-CATLEY",
+        "NSW-RYAN-PARK",
+        "NSW-GREG-PIPER"
+      ],
+      "contest_id": null,
+      "cycle_id": null,
+      "competition_class": "BUDGET",
+      "area_evidence_id": "AREA-bd26ad38f3081548dd7db4c0",
+      "detail_record_id": "DETAIL-9a7061640e7d041f5ac31366",
+      "detail_version_id": "DETAIL-9a7061640e7d041f5ac31366-V1",
+      "source_snapshot_id": "AUTO-WATCH-NSW-MINISTERIAL-RELEASES-20260908215043",
+      "record_url": "https://www.nsw.gov.au/ministerial-releases/minns-government-delivers-350000-boost-for-rehab-home-southern-lake-macquarie",
+      "captured_at": "2026-09-09T03:50:15.156Z",
+      "evidence_captured_at": "2026-09-09T03:50:01.988Z",
+      "event_date": "2026-09-09",
+      "checkpoint": "SUBSTANTIVE_INFORMATION_INGESTION",
+      "event_type": "AREA_EVIDENCE_INGESTED",
+      "area_routing_state": "SUBSTANTIVE_CONTENT_ROUTED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-NSW-MINISTERIAL-RELEASES",
+      "claim": "Ingested substantive budget evidence from Minns Government delivers $350,000 boost for Rehab In The Home in southern Lake Macquarie. Registration threshold state: evidence gap. Missing requirements: missing fact type stage, missing fact type material resistance, missing fact type explicit opposition position, missing condition distinct supporting and opposing sides.",
+      "observed_behaviour": "Minns Government delivers $350,000 boost for Rehab In The Home in southern Lake Macquarie | NSW Government menu Open Menu MyServiceNSW Logged in MyServiceNSW Manage account Logout of MyServiceNSW Ministerial media release Minns Government delivers $350,000 boost for Rehab In The Home in southern Lake Macquarie Published: 7 September 2026 Released by: Minister for Health, Minister for Regional Health Listen The Minns Government is investing $350,000 to expand Rehab In The Home services across southern Lake Macquarie, helping more people access rehabilitation and recovery services closer to home. Rehab In The Home enables eligible patients to receive rehabilitation care in their own homes, supporting recovery while reducing the need to travel for appointments. Funded as part of the 2026-27 State Budget, the investment will support allied health professionals from Hunter New England Local Health District to deliver the expanded community-based services to the southern Lake Macquarie region. The services will include community orthopaedic rehabilitation as well as discharge supports for patients returning home from Central Coast hospitals. The expansion builds on the successful rollout of nurse practitioner-led wound care, continence and aged care outreach clinics in early 2025, which have experienced increasing demand. As one of the fastest-growing areas in the region, southern Lake Macquarie continues to see increasing demand for local health services. The expanded outreach and rehabilitation services will make it easier for older people, people living with disability or mobility challenges, and families to access the care they need closer to home. This investment reflects the NSW Government's commitment to ensuring people living in growing communities can access high-qua",
+      "extracted_cues": {
+        "resistance_terms": [],
+        "stage_terms": [],
+        "outcome_terms": [],
+        "pressure_terms": []
+      },
+      "entity_mentions": {
+        "actors": [
+          {
+            "actor_id": "NSW-YASMIN-CATLEY",
+            "name": "Yasmin Catley",
+            "match_variant": "yasmin catley",
+            "party_id_at_resolution": "AUS-NSW-ALP"
+          },
+          {
+            "actor_id": "NSW-RYAN-PARK",
+            "name": "Ryan Park",
+            "match_variant": "ryan park",
+            "party_id_at_resolution": "AUS-NSW-ALP"
+          },
+          {
+            "actor_id": "NSW-GREG-PIPER",
+            "name": "Greg Piper",
+            "match_variant": "greg piper",
+            "party_id_at_resolution": null
+          }
+        ],
+        "teams": []
+      },
+      "position_state": "UNRESOLVED",
+      "resistance_state": "UNRESOLVED",
+      "outcome_state": "UNRESOLVED",
+      "contest_fact_ids": [
+        "FACT-0a0e40b1b897e9a010ca726c",
+        "FACT-221a638b6e1f34e978f1e4a1",
+        "FACT-3708aa4d951fa55221aa2547",
+        "FACT-399e70407b3417cc59f30b7a",
+        "FACT-76794f37e35ae9d8427a0fd4",
+        "FACT-c1715911fe9da4ce5a98bb8b",
+        "FACT-c3494aec85844431299299ae",
+        "FACT-de35e7f5255d0989dd0e31b4"
+      ],
+      "contest_fact_types": [
+        "CONTEST_OBJECT",
+        "EXPLICIT_SUPPORT_POSITION",
+        "OBJECTIVE",
+        "PARTICIPANT"
+      ],
+      "threshold_evaluation_id": "THRESH-77d20e52e2a8748d87a2bfab",
+      "threshold_state": "EVIDENCE_GAP",
+      "threshold_blockers": [
+        "MISSING_CONDITION_DISTINCT_SUPPORTING_AND_OPPOSING_SIDES",
+        "MISSING_FACT_TYPE_EXPLICIT_OPPOSITION_POSITION",
+        "MISSING_FACT_TYPE_MATERIAL_RESISTANCE",
+        "MISSING_FACT_TYPE_STAGE"
+      ],
+      "supporting_entities": [
+        "ACTOR:NSW-GREG-PIPER"
+      ],
+      "opposing_entities": [],
+      "registration_action": "NO_AUTOMATIC_REGISTRATION",
+      "intelligence_signature": "c9c42b3c4d264bed36c2b0bce5252f05fd290e85c37ade9e1dc4ba440112e5be",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "substantive_detail_lineage_required": true,
+        "active_contest_fact_lineage_required": true,
+        "threshold_evaluation_lineage_required": true,
+        "routing_does_not_register_match": true,
+        "threshold_eligibility_does_not_register_match": true,
+        "entity_mentions_do_not_establish_positions": true,
+        "retracted_facts_excluded": true,
+        "no_projection_effect_without_registered_target": true
+      }
+    },
+    {
+      "event_id": "INTEL-AREA-ef5ed4fbb67c5213c3214919",
+      "parent_event_id": "SIG-REV-CHG-WATCH-NSW-MINISTERIAL-RELEASES-20260908215043",
+      "jurisdiction_id": "AUS-NSW",
+      "party_id": null,
+      "actor_id": null,
+      "party_ids": [],
+      "actor_ids": [
+        "NSW-YASMIN-CATLEY",
+        "NSW-RYAN-PARK",
+        "NSW-GREG-PIPER"
+      ],
+      "contest_id": null,
+      "cycle_id": null,
+      "competition_class": "POLICY_ENACTMENT",
+      "area_evidence_id": "AREA-ef5ed4fbb67c5213c3214919",
+      "detail_record_id": "DETAIL-9a7061640e7d041f5ac31366",
+      "detail_version_id": "DETAIL-9a7061640e7d041f5ac31366-V1",
+      "source_snapshot_id": "AUTO-WATCH-NSW-MINISTERIAL-RELEASES-20260908215043",
+      "record_url": "https://www.nsw.gov.au/ministerial-releases/minns-government-delivers-350000-boost-for-rehab-home-southern-lake-macquarie",
+      "captured_at": "2026-09-09T03:50:15.156Z",
+      "evidence_captured_at": "2026-09-09T03:50:01.988Z",
+      "event_date": "2026-09-09",
+      "checkpoint": "SUBSTANTIVE_INFORMATION_INGESTION",
+      "event_type": "AREA_EVIDENCE_INGESTED",
+      "area_routing_state": "SUBSTANTIVE_CONTENT_ROUTED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-NSW-MINISTERIAL-RELEASES",
+      "claim": "Ingested substantive policy enactment evidence from Minns Government delivers $350,000 boost for Rehab In The Home in southern Lake Macquarie. Registration threshold state: evidence gap. Missing requirements: missing fact type contest object, missing fact type objective, missing fact type material resistance, missing fact type explicit opposition position, missing condition distinct supporting and opposing sides.",
+      "observed_behaviour": "Minns Government delivers $350,000 boost for Rehab In The Home in southern Lake Macquarie | NSW Government menu Open Menu MyServiceNSW Logged in MyServiceNSW Manage account Logout of MyServiceNSW Ministerial media release Minns Government delivers $350,000 boost for Rehab In The Home in southern Lake Macquarie Published: 7 September 2026 Released by: Minister for Health, Minister for Regional Health Listen The Minns Government is investing $350,000 to expand Rehab In The Home services across southern Lake Macquarie, helping more people access rehabilitation and recovery services closer to home. Rehab In The Home enables eligible patients to receive rehabilitation care in their own homes, supporting recovery while reducing the need to travel for appointments. Funded as part of the 2026-27 State Budget, the investment will support allied health professionals from Hunter New England Local Health District to deliver the expanded community-based services to the southern Lake Macquarie region. The services will include community orthopaedic rehabilitation as well as discharge supports for patients returning home from Central Coast hospitals. The expansion builds on the successful rollout of nurse practitioner-led wound care, continence and aged care outreach clinics in early 2025, which have experienced increasing demand. As one of the fastest-growing areas in the region, southern Lake Macquarie continues to see increasing demand for local health services. The expanded outreach and rehabilitation services will make it easier for older people, people living with disability or mobility challenges, and families to access the care they need closer to home. This investment reflects the NSW Government's commitment to ensuring people living in growing communities can access high-qua",
+      "extracted_cues": {
+        "resistance_terms": [],
+        "stage_terms": [],
+        "outcome_terms": [],
+        "pressure_terms": []
+      },
+      "entity_mentions": {
+        "actors": [
+          {
+            "actor_id": "NSW-YASMIN-CATLEY",
+            "name": "Yasmin Catley",
+            "match_variant": "yasmin catley",
+            "party_id_at_resolution": "AUS-NSW-ALP"
+          },
+          {
+            "actor_id": "NSW-RYAN-PARK",
+            "name": "Ryan Park",
+            "match_variant": "ryan park",
+            "party_id_at_resolution": "AUS-NSW-ALP"
+          },
+          {
+            "actor_id": "NSW-GREG-PIPER",
+            "name": "Greg Piper",
+            "match_variant": "greg piper",
+            "party_id_at_resolution": null
+          }
+        ],
+        "teams": []
+      },
+      "position_state": "UNRESOLVED",
+      "resistance_state": "UNRESOLVED",
+      "outcome_state": "UNRESOLVED",
+      "contest_fact_ids": [
+        "FACT-02ffe9173babd16c9bcd4a79",
+        "FACT-044aa61bce4b724884fef639",
+        "FACT-0fb1ef43794ac6aeca03f561",
+        "FACT-1e36c04cfe43c636dda51bf7",
+        "FACT-b0effebd281776104d6cfd10",
+        "FACT-c9c4d1425e831413e1f64ada",
+        "FACT-e928ed2802c1acd503463188"
+      ],
+      "contest_fact_types": [
+        "EXPLICIT_SUPPORT_POSITION",
+        "IMPLEMENTATION_ACTION",
+        "PARTICIPANT",
+        "STAGE"
+      ],
+      "threshold_evaluation_id": "THRESH-3a129523041377a64806eef6",
+      "threshold_state": "EVIDENCE_GAP",
+      "threshold_blockers": [
+        "MISSING_CONDITION_DISTINCT_SUPPORTING_AND_OPPOSING_SIDES",
+        "MISSING_FACT_TYPE_CONTEST_OBJECT",
+        "MISSING_FACT_TYPE_EXPLICIT_OPPOSITION_POSITION",
+        "MISSING_FACT_TYPE_MATERIAL_RESISTANCE",
+        "MISSING_FACT_TYPE_OBJECTIVE"
+      ],
+      "supporting_entities": [
+        "ACTOR:NSW-GREG-PIPER"
+      ],
+      "opposing_entities": [],
+      "registration_action": "NO_AUTOMATIC_REGISTRATION",
+      "intelligence_signature": "7d89b14fbfdf1379542f37d30880519de29b86c7d61da47bc1626d5eed44d34f",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "substantive_detail_lineage_required": true,
+        "active_contest_fact_lineage_required": true,
+        "threshold_evaluation_lineage_required": true,
+        "routing_does_not_register_match": true,
+        "threshold_eligibility_does_not_register_match": true,
+        "entity_mentions_do_not_establish_positions": true,
+        "retracted_facts_excluded": true,
+        "no_projection_effect_without_registered_target": true
+      }
+    },
+    {
+      "event_id": "INTEL-AREA-dcb24763ba19e699a99ac762",
+      "parent_event_id": "SIG-REV-CHG-WATCH-NSW-MINISTERIAL-RELEASES-20260909033402",
+      "jurisdiction_id": "AUS-NSW",
+      "party_id": "AUS-NSW-ALP",
+      "actor_id": "NSW-TARA-MORIARTY",
+      "party_ids": [
+        "AUS-NSW-ALP"
+      ],
+      "actor_ids": [
+        "NSW-TARA-MORIARTY"
+      ],
+      "contest_id": null,
+      "cycle_id": null,
+      "competition_class": "POLICY_ENACTMENT",
+      "area_evidence_id": "AREA-dcb24763ba19e699a99ac762",
+      "detail_record_id": "DETAIL-ae744d8e6c8278f581b8e955",
+      "detail_version_id": "DETAIL-ae744d8e6c8278f581b8e955-V1",
+      "source_snapshot_id": "AUTO-WATCH-NSW-MINISTERIAL-RELEASES-20260909033402",
+      "record_url": "https://www.nsw.gov.au/ministerial-releases/next-stage-of-hume-highway-upgrade-at-table-top-to-start",
+      "captured_at": "2026-09-09T03:50:15.156Z",
+      "evidence_captured_at": "2026-09-09T03:50:08.646Z",
+      "event_date": "2026-09-09",
+      "checkpoint": "SUBSTANTIVE_INFORMATION_INGESTION",
+      "event_type": "AREA_EVIDENCE_INGESTED",
+      "area_routing_state": "SUBSTANTIVE_CONTENT_ROUTED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-NSW-MINISTERIAL-RELEASES",
+      "claim": "Ingested substantive policy enactment evidence from Next Stage of Hume Highway Upgrade at Table Top to start. Captured content includes outcome language: carried. Registration threshold state: evidence gap. Missing requirements: missing fact type contest object, missing fact type objective, missing fact type material resistance, missing fact type explicit support position, missing fact type explicit opposition position, missing condition distinct supporting and opposing sides.",
+      "observed_behaviour": "Next Stage of Hume Highway Upgrade at Table Top to start | NSW Government menu Open Menu MyServiceNSW Logged in MyServiceNSW Manage account Logout of MyServiceNSW Ministerial media release Next Stage of Hume Highway Upgrade at Table Top to start Published: 9 September 2026 Released by: Minister for Regional NSW Listen The Minns Labor Government is continuing work to improve one of Australia’s busiest freight and transport corridors, with the next stage of a major upgrade to the Hume Highway at Table Top to begin later this month. Transport for NSW is upgrading a 3.3 kilometre section of the northbound lanes and a 3.15 kilometre section of the southbound lanes, delivering a smoother, safer and more durable road surface while reducing the need for ongoing maintenance. Work includes road reconstruction and resurfacing, drainage improvements, new safety barriers, updated signs and line marking. The first stage of the project, covering the southern 1.65 kilometres of the northbound lanes and upgrades to two crossovers, was completed in June 2026. The next stage will upgrade the remaining 1.65 kilometres of the northbound lanes, with work planned to start on Friday 18 September and take around 12 weeks to complete, weather permitting. Stage three, covering the southbound lanes, will be carried out next financial year. During stage two, the Tynan Road intersection with the Hume Highway will close from Friday 25 September, with changed traffic conditions also in place at the Burma Road intersection. Traffic controls and temporary safety measures will be in place throughout the work to safely manage vehicles through the area and minimise risks while crews are working near the intersections. Motorists will use the same detours and traffic arrangements that were successfully imple",
+      "extracted_cues": {
+        "resistance_terms": [],
+        "stage_terms": [],
+        "outcome_terms": [
+          "carried"
+        ],
+        "pressure_terms": []
+      },
+      "entity_mentions": {
+        "actors": [
+          {
+            "actor_id": "NSW-TARA-MORIARTY",
+            "name": "Tara Moriarty",
+            "match_variant": "tara moriarty",
+            "party_id_at_resolution": "AUS-NSW-ALP"
+          }
+        ],
+        "teams": [
+          {
+            "party_id": "AUS-NSW-ALP",
+            "name": "Australian Labor Party",
+            "match_alias": "Labor"
+          }
+        ]
+      },
+      "position_state": "UNRESOLVED",
+      "resistance_state": "UNRESOLVED",
+      "outcome_state": "OUTCOME_LANGUAGE_PRESENT",
+      "contest_fact_ids": [
+        "FACT-8820a593eed72280e8051177",
+        "FACT-91e4a0dfa76a9050391a9e7e",
+        "FACT-c38fdac070008c6a771a8f73",
+        "FACT-d652f88ed8d055cb0353e5d3",
+        "FACT-e92ba1151ccede9e174a1605",
+        "FACT-f65dd7039bdd50a0bc08ea5f"
+      ],
+      "contest_fact_types": [
+        "IMPLEMENTATION_ACTION",
+        "PARTICIPANT",
+        "POSSIBLE_OUTCOME_STATE",
+        "STAGE"
+      ],
+      "threshold_evaluation_id": "THRESH-293da373b441818937f35e8f",
+      "threshold_state": "EVIDENCE_GAP",
+      "threshold_blockers": [
+        "MISSING_CONDITION_DISTINCT_SUPPORTING_AND_OPPOSING_SIDES",
+        "MISSING_FACT_TYPE_CONTEST_OBJECT",
+        "MISSING_FACT_TYPE_EXPLICIT_OPPOSITION_POSITION",
+        "MISSING_FACT_TYPE_EXPLICIT_SUPPORT_POSITION",
+        "MISSING_FACT_TYPE_MATERIAL_RESISTANCE",
+        "MISSING_FACT_TYPE_OBJECTIVE"
+      ],
+      "supporting_entities": [],
+      "opposing_entities": [],
+      "registration_action": "NO_AUTOMATIC_REGISTRATION",
+      "intelligence_signature": "a2395882a16fda49d3a6aeb260be300926b3b813c5201957bd1b98f489944a73",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "substantive_detail_lineage_required": true,
+        "active_contest_fact_lineage_required": true,
+        "threshold_evaluation_lineage_required": true,
+        "routing_does_not_register_match": true,
+        "threshold_eligibility_does_not_register_match": true,
+        "entity_mentions_do_not_establish_positions": true,
+        "retracted_facts_excluded": true,
+        "no_projection_effect_without_registered_target": true
+      }
     }
   ]
 }

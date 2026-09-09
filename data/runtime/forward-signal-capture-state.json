@@ -63,9 +63,9 @@
       "source_id": "SRC-APH-LIVE-MINUTES",
       "jurisdiction_id": "AUS-FED",
       "party_id": null,
-      "content_hash": "f0eec4b79031e7eb4a86d8007a2b582849b2f8aa8e39157cf86496b43137b3ec",
-      "snapshot_id": "AUTO-WATCH-APH-LIVE-MINUTES-20260909034446",
-      "captured_at": "2026-09-09T03:44:46.350Z",
+      "content_hash": "28b588963cead4cc8ae18e40a3b5bd78329ec1dcda54dd0ed968f0ce34768191",
+      "snapshot_id": "AUTO-WATCH-APH-LIVE-MINUTES-20260909034850",
+      "captured_at": "2026-09-09T03:48:50.451Z",
       "acquisition_url": "https://www.aph.gov.au/LiveMinutes",
       "requested_url": "https://www.aph.gov.au/LiveMinutes",
       "header_profile": "BROWSER_COMPATIBILITY",
@@ -486,9 +486,9 @@
       "captured_representation_complete": true
     }
   },
-  "updated_at": "2026-09-09T03:44:46.350Z",
+  "updated_at": "2026-09-09T03:48:50.451Z",
   "last_run": {
-    "captured_at": "2026-09-09T03:44:46.350Z",
+    "captured_at": "2026-09-09T03:48:50.451Z",
     "baselines_created": 0,
     "source_changes_created": 1,
     "semantic_signals_created": 0,
@@ -497,10 +497,6 @@
       {
         "watch_id": "WATCH-ALP-NEWS",
         "error": "https://www.alp.org.au/news/ [IDENTIFIED_AUTOMATION] 404 Not Found | https://www.alp.org.au/news/ [BROWSER_COMPATIBILITY] 404 Not Found | https://www.alp.org.au/news [IDENTIFIED_AUTOMATION] 404 Not Found | https://www.alp.org.au/news [BROWSER_COMPATIBILITY] 404 Not Found"
-      },
-      {
-        "watch_id": "WATCH-TAS-HANSARD",
-        "error": "https://www.parliament.tas.gov.au/hansard [IDENTIFIED_AUTOMATION] 403 Forbidden | https://www.parliament.tas.gov.au/hansard [BROWSER_COMPATIBILITY] 403 Forbidden"
       }
     ]
   },
@@ -508,7 +504,7 @@
   "coverage": {
     "active_sources": 36,
     "baselines_captured": 35,
-    "current_run_failures": 2,
+    "current_run_failures": 1,
     "jurisdictions": {
       "AUS-FED": {
         "configured_sources": 10,
@@ -580,13 +576,13 @@
       "AUS-TAS": {
         "configured_sources": 3,
         "baseline_sources": 3,
-        "current_run_failures": 1,
+        "current_run_failures": 0,
         "source_classes": [
           "PRIMARY_ELECTORAL_AUTHORITY",
           "PRIMARY_GOVERNMENT",
           "PRIMARY_PARLIAMENT"
         ],
-        "status": "CAPTURE_ACTIVE_DEGRADED_CURRENT_RUN"
+        "status": "CAPTURE_ACTIVE_FULL_CONFIGURED_BASELINE"
       },
       "AUS-ACT": {
         "configured_sources": 3,

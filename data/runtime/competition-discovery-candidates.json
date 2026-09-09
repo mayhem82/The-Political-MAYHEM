@@ -69,63 +69,63 @@
     {
       "jurisdiction_id": "AUS-FED",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-09T03:45:47.549Z",
-      "signals_examined": 66,
-      "candidates_detected": 17
+      "last_screened_at": "2026-09-09T03:50:15.440Z",
+      "signals_examined": 67,
+      "candidates_detected": 18
     },
     {
       "jurisdiction_id": "AUS-NSW",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-09T03:45:47.549Z",
-      "signals_examined": 20,
-      "candidates_detected": 1
+      "last_screened_at": "2026-09-09T03:50:15.440Z",
+      "signals_examined": 23,
+      "candidates_detected": 4
     },
     {
       "jurisdiction_id": "AUS-VIC",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-09T03:45:47.549Z",
+      "last_screened_at": "2026-09-09T03:50:15.440Z",
       "signals_examined": 0,
       "candidates_detected": 0
     },
     {
       "jurisdiction_id": "AUS-QLD",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-09T03:45:47.549Z",
+      "last_screened_at": "2026-09-09T03:50:15.440Z",
       "signals_examined": 6,
       "candidates_detected": 43
     },
     {
       "jurisdiction_id": "AUS-WA",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-09T03:45:47.549Z",
+      "last_screened_at": "2026-09-09T03:50:15.440Z",
       "signals_examined": 0,
       "candidates_detected": 0
     },
     {
       "jurisdiction_id": "AUS-SA",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-09T03:45:47.549Z",
+      "last_screened_at": "2026-09-09T03:50:15.440Z",
       "signals_examined": 0,
       "candidates_detected": 0
     },
     {
       "jurisdiction_id": "AUS-TAS",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-09T03:45:47.549Z",
+      "last_screened_at": "2026-09-09T03:50:15.440Z",
       "signals_examined": 14,
       "candidates_detected": 0
     },
     {
       "jurisdiction_id": "AUS-ACT",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-09T03:45:47.549Z",
+      "last_screened_at": "2026-09-09T03:50:15.440Z",
       "signals_examined": 18,
       "candidates_detected": 0
     },
     {
       "jurisdiction_id": "AUS-NT",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-09T03:45:47.549Z",
+      "last_screened_at": "2026-09-09T03:50:15.440Z",
       "signals_examined": 24,
       "candidates_detected": 0
     }
@@ -2505,21 +2505,177 @@
           "reason": "SUBSTANTIVE_AREA_EVIDENCE_DISCOVERY"
         }
       ]
+    },
+    {
+      "candidate_id": "DISC-FED-LEGISLATION-e25aa988dc936e38",
+      "jurisdiction_id": "AUS-FED",
+      "competition_family": "LEGISLATION",
+      "proposed_competition_class": "LEGISLATIVE",
+      "proposed_cycle_id": "AUS-FED-48TH-PARLIAMENT",
+      "subject": "Enriched retracted parliamentary procedure evidence lineage for Fair Work Amendment (Disqualified Officers) Bill 2026 &ndash; Parliament of Australia. Registration threshold state: not a match because the parent area routing is retracted.",
+      "candidate_state": "REJECTED_NOT_COMPETITION",
+      "detected_at": "2026-09-09T03:50:15.156Z",
+      "source_snapshot_ids": [
+        "AUTO-WATCH-APH-BILLS-20260908233843"
+      ],
+      "signal_event_ids": [
+        "INTEL-RETRACT-ENRICH-AREA-43e33a1e6f80db4427eebc9b-e0f34782196fdf6e"
+      ],
+      "review_ids": [],
+      "area_evidence_ids": [
+        "AREA-43e33a1e6f80db4427eebc9b"
+      ],
+      "detail_version_ids": [
+        "DETAIL-debd4166aa251b215296d4a6-V1"
+      ],
+      "evidence_summary": "Substantive source record body was acquired, routed to LEGISLATIVE, and written into intelligence with retained detail, source-snapshot and stage-10 threshold lineage. Match registration remains a separate action.",
+      "registration_blockers": [
+        "AREA_ROUTING_RETRACTED_AS_NOISE"
+      ],
+      "linked_contest_id": null,
+      "state_history": [
+        {
+          "from": null,
+          "to": "REJECTED_NOT_COMPETITION",
+          "at": "2026-09-09T03:50:15.156Z",
+          "reason": "SUBSTANTIVE_THRESHOLD_EVALUATION_PROPAGATED"
+        }
+      ]
+    },
+    {
+      "candidate_id": "DISC-NSW-BUDGET-88bce0cec18a6b8c",
+      "jurisdiction_id": "AUS-NSW",
+      "competition_family": "BUDGET",
+      "proposed_competition_class": "BUDGET",
+      "proposed_cycle_id": "AUS-NSW-58TH-PARLIAMENT",
+      "subject": "Ingested substantive budget evidence from Minns Government delivers $350,000 boost for Rehab In The Home in southern Lake Macquarie. Registration threshold state: evidence gap. Missing requirements: missing fact type stage, missing fact type material resistance, missing fact type explicit opposition",
+      "candidate_state": "EVIDENCE_GAP",
+      "detected_at": "2026-09-09T03:50:15.156Z",
+      "source_snapshot_ids": [
+        "AUTO-WATCH-NSW-MINISTERIAL-RELEASES-20260908215043"
+      ],
+      "signal_event_ids": [
+        "INTEL-AREA-bd26ad38f3081548dd7db4c0"
+      ],
+      "review_ids": [],
+      "area_evidence_ids": [
+        "AREA-bd26ad38f3081548dd7db4c0"
+      ],
+      "detail_version_ids": [
+        "DETAIL-9a7061640e7d041f5ac31366-V1"
+      ],
+      "evidence_summary": "Substantive source record body was acquired, routed to BUDGET, and written into intelligence with retained detail, source-snapshot and stage-10 threshold lineage. Match registration remains a separate action.",
+      "registration_blockers": [
+        "MISSING_CONDITION_DISTINCT_SUPPORTING_AND_OPPOSING_SIDES",
+        "MISSING_FACT_TYPE_EXPLICIT_OPPOSITION_POSITION",
+        "MISSING_FACT_TYPE_MATERIAL_RESISTANCE",
+        "MISSING_FACT_TYPE_STAGE"
+      ],
+      "linked_contest_id": null,
+      "state_history": [
+        {
+          "from": null,
+          "to": "EVIDENCE_GAP",
+          "at": "2026-09-09T03:50:15.156Z",
+          "reason": "SUBSTANTIVE_THRESHOLD_EVALUATION_PROPAGATED"
+        }
+      ]
+    },
+    {
+      "candidate_id": "DISC-NSW-POLICY_ENACTMENT-942b86e67446c034",
+      "jurisdiction_id": "AUS-NSW",
+      "competition_family": "POLICY_ENACTMENT",
+      "proposed_competition_class": "POLICY_ENACTMENT",
+      "proposed_cycle_id": "AUS-NSW-58TH-PARLIAMENT",
+      "subject": "Ingested substantive policy enactment evidence from Minns Government delivers $350,000 boost for Rehab In The Home in southern Lake Macquarie. Registration threshold state: evidence gap. Missing requirements: missing fact type contest object, missing fact type objective, missing fact type material r",
+      "candidate_state": "EVIDENCE_GAP",
+      "detected_at": "2026-09-09T03:50:15.156Z",
+      "source_snapshot_ids": [
+        "AUTO-WATCH-NSW-MINISTERIAL-RELEASES-20260908215043"
+      ],
+      "signal_event_ids": [
+        "INTEL-AREA-ef5ed4fbb67c5213c3214919"
+      ],
+      "review_ids": [],
+      "area_evidence_ids": [
+        "AREA-ef5ed4fbb67c5213c3214919"
+      ],
+      "detail_version_ids": [
+        "DETAIL-9a7061640e7d041f5ac31366-V1"
+      ],
+      "evidence_summary": "Substantive source record body was acquired, routed to POLICY_ENACTMENT, and written into intelligence with retained detail, source-snapshot and stage-10 threshold lineage. Match registration remains a separate action.",
+      "registration_blockers": [
+        "MISSING_CONDITION_DISTINCT_SUPPORTING_AND_OPPOSING_SIDES",
+        "MISSING_FACT_TYPE_CONTEST_OBJECT",
+        "MISSING_FACT_TYPE_EXPLICIT_OPPOSITION_POSITION",
+        "MISSING_FACT_TYPE_MATERIAL_RESISTANCE",
+        "MISSING_FACT_TYPE_OBJECTIVE"
+      ],
+      "linked_contest_id": null,
+      "state_history": [
+        {
+          "from": null,
+          "to": "EVIDENCE_GAP",
+          "at": "2026-09-09T03:50:15.156Z",
+          "reason": "SUBSTANTIVE_THRESHOLD_EVALUATION_PROPAGATED"
+        }
+      ]
+    },
+    {
+      "candidate_id": "DISC-NSW-POLICY_ENACTMENT-8677c01a02b0f938",
+      "jurisdiction_id": "AUS-NSW",
+      "competition_family": "POLICY_ENACTMENT",
+      "proposed_competition_class": "POLICY_ENACTMENT",
+      "proposed_cycle_id": "AUS-NSW-58TH-PARLIAMENT",
+      "subject": "Ingested substantive policy enactment evidence from Next Stage of Hume Highway Upgrade at Table Top to start. Captured content includes outcome language: carried. Registration threshold state: evidence gap. Missing requirements: missing fact type contest object, missing fact type objective, missing ",
+      "candidate_state": "EVIDENCE_GAP",
+      "detected_at": "2026-09-09T03:50:15.156Z",
+      "source_snapshot_ids": [
+        "AUTO-WATCH-NSW-MINISTERIAL-RELEASES-20260909033402"
+      ],
+      "signal_event_ids": [
+        "INTEL-AREA-dcb24763ba19e699a99ac762"
+      ],
+      "review_ids": [],
+      "area_evidence_ids": [
+        "AREA-dcb24763ba19e699a99ac762"
+      ],
+      "detail_version_ids": [
+        "DETAIL-ae744d8e6c8278f581b8e955-V1"
+      ],
+      "evidence_summary": "Substantive source record body was acquired, routed to POLICY_ENACTMENT, and written into intelligence with retained detail, source-snapshot and stage-10 threshold lineage. Match registration remains a separate action.",
+      "registration_blockers": [
+        "MISSING_CONDITION_DISTINCT_SUPPORTING_AND_OPPOSING_SIDES",
+        "MISSING_FACT_TYPE_CONTEST_OBJECT",
+        "MISSING_FACT_TYPE_EXPLICIT_OPPOSITION_POSITION",
+        "MISSING_FACT_TYPE_EXPLICIT_SUPPORT_POSITION",
+        "MISSING_FACT_TYPE_MATERIAL_RESISTANCE",
+        "MISSING_FACT_TYPE_OBJECTIVE"
+      ],
+      "linked_contest_id": null,
+      "state_history": [
+        {
+          "from": null,
+          "to": "EVIDENCE_GAP",
+          "at": "2026-09-09T03:50:15.156Z",
+          "reason": "SUBSTANTIVE_THRESHOLD_EVALUATION_PROPAGATED"
+        }
+      ]
     }
   ],
-  "last_screened_at": "2026-09-09T03:45:47.549Z",
+  "last_screened_at": "2026-09-09T03:50:15.440Z",
   "last_screen_summary": {
-    "signals_examined": 148,
-    "candidates_total": 61,
-    "candidates_added": 0,
+    "signals_examined": 152,
+    "candidates_total": 65,
+    "candidates_added": 4,
     "candidate_lineage_merges": 136,
-    "substantive_area_events_examined": 35,
+    "substantive_area_events_examined": 38,
     "threshold_state_transitions": 0,
     "registered_contests_unchanged": true
   },
-  "last_duplicate_reconciliation_at": "2026-09-09T03:45:47.609Z",
+  "last_duplicate_reconciliation_at": "2026-09-09T03:50:15.516Z",
   "last_duplicate_reconciliation": {
     "rejected": 0,
-    "active_area_family_keys": 35
+    "active_area_family_keys": 38
   }
 }

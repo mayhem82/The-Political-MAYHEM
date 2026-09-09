@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-MAYHEM-SOURCE-DETAIL-SNAPSHOTS-001",
   "status": "ACTIVE",
-  "updated_at": "2026-09-09T05:33:43.568Z",
+  "updated_at": "2026-09-09T05:42:22.680Z",
   "rules": {
     "detail_id_is_stable_per_source_record": true,
     "underlying_record_url_required": true,
@@ -6602,18 +6602,42 @@
       "error": null,
       "record_url": "https://yoursayconversations.act.gov.au/public-space-improvements-local-shops",
       "temporal_lane": "CURRENT_OR_UNDATED"
+    },
+    {
+      "detail_record_id": "DETAIL-2af176a74a7bfbc1abe9e2ea",
+      "attempted_at": "2026-09-09T05:42:22.680Z",
+      "state": "FAILED",
+      "error": "IDENTIFIED_AUTOMATION: 403 Forbidden | BROWSER_COMPATIBILITY: 403 Forbidden",
+      "record_url": "https://www.act.gov.au/our-canberra/latest-news/2026/september/activities-for-toddlers-in-canberra",
+      "original_record_url": "https://www.act.gov.au/our-canberra/latest-news/2026/september/activities-for-toddlers-in-canberra",
+      "record_title": "Recreation All Canberra Activities for toddlers in the ACT",
+      "source_id": "SRC-ACT-GOV-MEDIA",
+      "jurisdiction_id": "AUS-ACT",
+      "temporal_lane": "CURRENT"
+    },
+    {
+      "detail_record_id": "DETAIL-7c321d85402498913a01a53f",
+      "attempted_at": "2026-09-09T05:42:23.212Z",
+      "state": "FAILED",
+      "error": "IDENTIFIED_AUTOMATION: 403 Forbidden | BROWSER_COMPATIBILITY: 403 Forbidden",
+      "record_url": "https://www.act.gov.au/our-canberra/latest-news/2026/september/canberras-best-gluten-free-eats",
+      "original_record_url": "https://www.act.gov.au/our-canberra/latest-news/2026/september/canberras-best-gluten-free-eats",
+      "record_title": "Recreation All Canberra Canberra’s best gluten-free eats",
+      "source_id": "SRC-ACT-GOV-MEDIA",
+      "jurisdiction_id": "AUS-ACT",
+      "temporal_lane": "CURRENT"
     }
   ],
   "queue_state": {
-    "discovered_detail_records": 42,
-    "queued_before_batch": 0,
-    "current_or_undated_queued": 0,
+    "discovered_detail_records": 44,
+    "queued_before_batch": 2,
+    "current_or_undated_queued": 2,
     "retrospective_queued": 0,
-    "attempted_this_run": 0,
-    "current_or_undated_attempted": 0,
+    "attempted_this_run": 2,
+    "current_or_undated_attempted": 2,
     "retrospective_attempted": 0,
     "successful_this_run": 0,
-    "failed_this_run": 0,
+    "failed_this_run": 2,
     "remaining_after_batch": 0
   }
 }

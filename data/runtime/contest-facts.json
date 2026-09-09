@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-MAYHEM-CONTEST-FACTS-001",
   "status": "ACTIVE",
-  "updated_at": "2026-09-09T05:33:44.241Z",
+  "updated_at": "2026-09-09T05:42:24.139Z",
   "supported_competition_classes": [
     "ELECTORAL",
     "LEGISLATIVE",
@@ -21490,15 +21490,61 @@
         "competition_not_registered_by_fact": true
       },
       "fact_state_history": []
+    },
+    {
+      "fact_id": "FACT-e0c026eec63a27101c50319e",
+      "competition_class": "LEGISLATIVE",
+      "jurisdiction_id": "AUS-FED",
+      "area_evidence_id": "AREA-9e43d313c7571dcd88402aba",
+      "detail_record_id": "DETAIL-94ab0097a6f73a25e60df0cd",
+      "detail_version_id": "DETAIL-94ab0097a6f73a25e60df0cd-V1",
+      "source_snapshot_id": "AUTO-WATCH-PM-MEDIA-20260908230751",
+      "source_id": "SRC-PM-MEDIA",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "record_url": "https://www.pm.gov.au/media/television-interview-today-13",
+      "record_title": "Television interview - Today",
+      "fact_type": "EXPLICIT_SUPPORT_POSITION",
+      "fact_state": "OBSERVED_SOURCE_TEXT",
+      "evidence_match": "Liberal Party members, have supported",
+      "evidence_text": "er. This is about giving your listeners power and people on their devices having the power themselves to either opt in or opt out. It's that simple. And the Coalition, a number of Liberal Party members, have supported this already. And Matt Canavan's in a position, competing with One Nation, as they do, of saying no to everything at the moment. But we're hoping that there be constructive engage",
+      "evidence_captured_at": "2026-09-09T03:54:26.270Z",
+      "extracted_at": "2026-09-09T05:42:24.033Z",
+      "actor_ids": [],
+      "party_ids": [
+        "AUS-FED-LIB"
+      ],
+      "position_state": "SUPPORTING",
+      "resistance_state": "UNRESOLVED",
+      "outcome_verification_state": "NOT_APPLICABLE",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "integrity": {
+        "source_text_preserved": true,
+        "area_lineage_preserved": true,
+        "entity_identity_limited_to_resolved_mentions": true,
+        "position_requires_explicit_language": true,
+        "position_entity_binding_required": true,
+        "competition_not_registered_by_fact": true
+      },
+      "position_binding": {
+        "relation": "ENTITY_PRECEDES_EXPLICIT_POSITION_LANGUAGE",
+        "phrase": "have supported",
+        "actor_ids": [],
+        "party_ids": [
+          "AUS-FED-LIB"
+        ]
+      },
+      "fact_state_history": []
     }
   ],
   "summary": {
     "active_area_evidence_examined": 44,
-    "facts_total": 601,
-    "facts_added_this_run": 0,
+    "facts_total": 602,
+    "facts_added_this_run": 1,
     "by_competition_class": {
       "BUDGET": 125,
-      "LEGISLATIVE": 267,
+      "LEGISLATIVE": 268,
       "PARLIAMENTARY_PROCEDURE": 160,
       "POLICY_ENACTMENT": 13
     },
@@ -21506,7 +21552,7 @@
       "CONTEST_OBJECT": 97,
       "OBJECTIVE": 5,
       "PARTICIPANT": 22,
-      "EXPLICIT_SUPPORT_POSITION": 9,
+      "EXPLICIT_SUPPORT_POSITION": 10,
       "EXPLICIT_OPPOSITION_POSITION": 1,
       "MATERIAL_RESISTANCE": 3,
       "STAGE": 138,
@@ -21519,7 +21565,7 @@
       "IMPLEMENTATION_ACTION": 3,
       "POSSIBLE_OUTCOME_STATE": 123
     },
-    "active_facts": 565,
+    "active_facts": 566,
     "retracted_facts": 36,
     "facts_retracted_this_run": 0,
     "facts_reactivated_this_run": 0

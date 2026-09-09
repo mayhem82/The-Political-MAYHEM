@@ -39,8 +39,21 @@ for(const required of [
   'INTELLIGENCE_WRITE','MATCH_DISCOVERY_OR_UPDATE','OUTCOME_VERIFICATION'
 ]) assert(stages.some(x=>x.stage_id===required),`ingestion stage missing: ${required}`);
 
-for(const output of ['detail_snapshots','area_evidence','intelligence_events','competition_discovery','registered_matches','verified_outcomes','coverage']){
-  assert(Boolean(pipeline.runtime_outputs?.[output]),`runtime output missing: ${output}`);
+const requiredRuntimeOutputs={
+  detail_snapshots:'data/runtime/source-detail-snapshots.json',
+  area_evidence:'data/runtime/area-evidence-records.json',
+  contest_facts:'data/runtime/contest-facts.json',
+  competition_threshold_evaluations:'data/runtime/competition-threshold-evaluations.json',
+  intelligence_events:'data/runtime/intelligence-events.json',
+  competition_discovery:'data/runtime/competition-discovery-candidates.json',
+  registered_matches:'data/runtime/political-contests.json',
+  verified_outcomes:'data/runtime/verified-outcomes.json',
+  coverage:'data/runtime/information-ingestion-coverage.json',
+  source_queue:'data/runtime/information-ingestion-source-queue.json'
+};
+for(const [output,path] of Object.entries(requiredRuntimeOutputs)){
+  assert(pipeline.runtime_outputs?.[output]===path,`runtime output ${output} must be ${path}`);
+  assert(fs.existsSync(path),`runtime output file missing: ${path}`);
 }
 
 const classIds=new Set((classes.classes||[]).map(x=>x.competition_class));
@@ -73,4 +86,4 @@ if(fail.length){
   for(const message of fail) console.error('- '+message);
   process.exit(1);
 }
-console.log('POLITICAL_MAYHEM_INFORMATION_INGESTION_PIPELINE_PASS',`stages=${stages.length}`,`areas=${areas.length}`);
+console.log('POLITICAL_MAYHEM_INFORMATION_INGESTION_PIPELINE_PASS',`stages=${stages.length}`,`areas=${areas.length}`,`runtimeOutputs=${Object.keys(requiredRuntimeOutputs).length}`);

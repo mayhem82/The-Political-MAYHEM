@@ -147,7 +147,10 @@ const addCandidate=({jurisdictionId,family,subject,event,reviewId=null})=>{
   const summary=isSubstantive
     ? `Substantive source record body was acquired, routed to ${proposedClass}, and written into intelligence with retained detail and source-snapshot lineage. Match registration still requires the class-specific threshold and resolved contest facts.`
     : `Screened ${event.source_class||'political'} evidence contains language consistent with a ${family.toLowerCase().replaceAll('_',' ')} competition candidate. This is a discovery observation, not a registered contest or outcome inference.`;
-  const existing=existingById.get(id);
+  const areaExisting=isSubstantive
+    ?discovery.candidates.find(candidate=>candidate.candidate_state!=='REJECTED_NOT_COMPETITION'&&candidate.competition_family===family&&(candidate.area_evidence_ids||[]).includes(event.area_evidence_id))
+    :null;
+  const existing=areaExisting||existingById.get(id);
   if(existing){
     existing.source_snapshot_ids=uniq([...(existing.source_snapshot_ids||[]),event.source_snapshot_id]);
     existing.signal_event_ids=uniq([...(existing.signal_event_ids||[]),event.event_id]);
@@ -159,6 +162,7 @@ const addCandidate=({jurisdictionId,family,subject,event,reviewId=null})=>{
       existing.detail_version_ids=uniq([...(existing.detail_version_ids||[]),event.detail_version_id]);
       existing.evidence_summary=summary;
     }
+    existingById.set(id,existing);
     merged++;return;
   }
   const detectedAt=event.captured_at||now;
@@ -192,7 +196,7 @@ for(const event of events.events||[]){
   const trusted=event.evidence_state==='VERIFIED'||event.semantic_review_state==='PROMOTED'||event.signal_state==='CONFIRMED_FACT';
   if(!trusted) continue;
   examined.get(event.jurisdiction_id).add(event.event_id);
-  if(['AREA_EVIDENCE_INGESTED','AREA_EVIDENCE_REACTIVATED'].includes(event.event_type)&&event.competition_class){
+  if(['AREA_EVIDENCE_INGESTED','AREA_EVIDENCE_REACTIVATED','AREA_EVIDENCE_INTELLIGENCE_ENRICHED'].includes(event.event_type)&&event.competition_class){
     const family=familyForClass(event.competition_class);
     const subject=compact(event.record_title||event.claim||event.record_url||'');
     if(family&&subject){addCandidate({jurisdictionId:event.jurisdiction_id,family,subject,event});substantive++;}

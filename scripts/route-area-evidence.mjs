@@ -4,6 +4,7 @@ import crypto from 'node:crypto';
 const DETAILS='data/runtime/source-detail-snapshots.json';
 const AREAS='data/runtime/area-evidence-records.json';
 const PIPELINE='data/political-information-ingestion-pipeline.json';
+const ROUTING_WINDOW_CHARS=3200;
 
 const read=p=>JSON.parse(fs.readFileSync(p,'utf8'));
 const write=(p,v)=>fs.writeFileSync(p,JSON.stringify(v,null,2)+'\n');
@@ -81,19 +82,43 @@ const ledger=read(AREAS);
 const pipeline=read(PIPELINE);
 ledger.records ||= [];
 const validAreas=new Set((pipeline.areas||[]).map(x=>x.competition_class));
-const existing=new Set(ledger.records.map(x=>x.area_evidence_id));
-let added=0;
+const existingById=new Map(ledger.records.map(x=>[x.area_evidence_id,x]));
+let added=0,retracted=0;
 const routedAt=new Date().toISOString();
 
 for(const detail of details.records||[]){
-  const text=compact(`${detail.resolved_title||detail.record_title||''} ${detail.body_text||''}`);
+  const bodyWindow=String(detail.body_text||'').slice(0,ROUTING_WINDOW_CHARS);
+  const text=compact(`${detail.resolved_title||detail.record_title||''} ${bodyWindow}`);
   if(!text) continue;
-  for(const routed of route(text)){
-    if(!validAreas.has(routed.competition_class)) continue;
+  const routedRows=route(text).filter(x=>validAreas.has(x.competition_class));
+  const activeClasses=new Set(routedRows.map(x=>x.competition_class));
+
+  for(const existing of ledger.records.filter(x=>x.detail_version_id===detail.detail_version_id&&x.routing_state==='SUBSTANTIVE_CONTENT_ROUTED')){
+    if(activeClasses.has(existing.competition_class)) continue;
+    existing.routing_state='RETRACTED_ROUTING_NOISE';
+    existing.retracted_at=routedAt;
+    existing.retraction_reason=`Competition-class cue was outside the bounded ${ROUTING_WINDOW_CHARS}-character substantive routing window or no longer satisfied routing rules.`;
+    existing.routing_history=Array.isArray(existing.routing_history)?existing.routing_history:[];
+    existing.routing_history.push({from:'SUBSTANTIVE_CONTENT_ROUTED',to:'RETRACTED_ROUTING_NOISE',at:routedAt,reason:'ROUTING_NOISE_CORRECTION'});
+    retracted++;
+  }
+
+  for(const routed of routedRows){
     const id=`AREA-${sha(`${detail.detail_version_id}|${routed.competition_class}`).slice(0,24)}`;
-    if(existing.has(id)) continue;
+    const prior=existingById.get(id);
+    if(prior){
+      if(prior.routing_state==='RETRACTED_ROUTING_NOISE'){
+        prior.routing_state='SUBSTANTIVE_CONTENT_ROUTED';
+        prior.retracted_at=null;
+        prior.retraction_reason=null;
+        prior.routing_hits=routed.routing_hits;
+        prior.routing_history=Array.isArray(prior.routing_history)?prior.routing_history:[];
+        prior.routing_history.push({from:'RETRACTED_ROUTING_NOISE',to:'SUBSTANTIVE_CONTENT_ROUTED',at:routedAt,reason:'ROUTING_RULE_MATCH_RESTORED'});
+      }
+      continue;
+    }
     const facts=extractFacts(text);
-    ledger.records.push({
+    const row={
       area_evidence_id:id,
       competition_class:routed.competition_class,
       jurisdiction_id:detail.jurisdiction_id,
@@ -110,6 +135,7 @@ for(const detail of details.records||[]){
       evidence_captured_at:detail.captured_at,
       routed_at:routedAt,
       routing_state:'SUBSTANTIVE_CONTENT_ROUTED',
+      routing_window_chars:ROUTING_WINDOW_CHARS,
       routing_hits:routed.routing_hits,
       extracted_cues:facts,
       substantive_excerpt:String(detail.body_text||'').slice(0,2400),
@@ -122,19 +148,24 @@ for(const detail of details.records||[]){
       outcome_state:facts.outcome_terms.length?'OUTCOME_LANGUAGE_PRESENT':'UNRESOLVED',
       inference:null,
       inference_class:'NONE',
+      routing_history:[{from:null,to:'SUBSTANTIVE_CONTENT_ROUTED',at:routedAt,reason:'BOUNDED_SUBSTANTIVE_CONTENT_ROUTING'}],
       integrity:{routing_does_not_register_match:true,entity_mentions_not_yet_resolved:true,positions_not_inferred_from_routing:true}
-    });
-    existing.add(id);
+    };
+    ledger.records.push(row);
+    existingById.set(id,row);
     added++;
   }
 }
 
+const active=ledger.records.filter(x=>x.routing_state==='SUBSTANTIVE_CONTENT_ROUTED');
 ledger.updated_at=routedAt;
 ledger.summary={
   substantive_detail_records:(details.records||[]).length,
-  area_evidence_records:ledger.records.length,
+  area_evidence_records_total:ledger.records.length,
+  active_area_evidence_records:active.length,
   added_this_run:added,
-  by_area:Object.fromEntries([...validAreas].map(area=>[area,ledger.records.filter(x=>x.competition_class===area).length]))
+  retracted_this_run:retracted,
+  by_area:Object.fromEntries([...validAreas].map(area=>[area,active.filter(x=>x.competition_class===area).length]))
 };
 write(AREAS,ledger);
-console.log('POLITICAL_MAYHEM_AREA_ROUTING_OK',`details=${details.records?.length||0}`,`area_records=${ledger.records.length}`,`added=${added}`);
+console.log('POLITICAL_MAYHEM_AREA_ROUTING_OK',`details=${details.records?.length||0}`,`active=${active.length}`,`added=${added}`,`retracted=${retracted}`);

@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-MAYHEM-AREA-EVIDENCE-001",
   "status": "ACTIVE",
-  "updated_at": null,
+  "updated_at": "2026-09-09T00:50:10.584Z",
   "rules": {
     "record_requires_substantive_detail_lineage": true,
     "one_detail_record_may_route_to_multiple_areas": true,
@@ -13,5 +13,20 @@
     "later_discovered_evidence_preserves_discovery_time": true,
     "area_record_is_append_only_by_evidence_version": true
   },
-  "records": []
+  "records": [],
+  "summary": {
+    "substantive_detail_records": 0,
+    "area_evidence_records": 0,
+    "added_this_run": 0,
+    "by_area": {
+      "ELECTORAL": 0,
+      "LEGISLATIVE": 0,
+      "LEADERSHIP": 0,
+      "CONFIDENCE_SUPPLY": 0,
+      "BUDGET": 0,
+      "POLICY_ENACTMENT": 0,
+      "PARLIAMENTARY_PROCEDURE": 0,
+      "PUBLIC_PRESSURE": 0
+    }
+  }
 }

@@ -16,6 +16,7 @@ on:
       - 'scripts/route-area-evidence.mjs'
       - 'scripts/resolve-area-evidence-entities.mjs'
       - 'scripts/extract-contest-facts.mjs'
+      - 'scripts/reconcile-contest-facts.mjs'
       - 'scripts/write-substantive-area-intelligence.mjs'
       - 'scripts/build-information-ingestion-coverage.mjs'
       - 'scripts/build-information-ingestion-source-queue.mjs'
@@ -82,6 +83,8 @@ jobs:
         run: node scripts/resolve-area-evidence-entities.mjs
       - name: Extract source-backed contest facts
         run: node scripts/extract-contest-facts.mjs
+      - name: Reconcile contest fact extraction noise
+        run: node scripts/reconcile-contest-facts.mjs
       - name: Write substantive area evidence into intelligence
         run: node scripts/write-substantive-area-intelligence.mjs
       - name: Build jurisdiction by competition-area ingestion coverage

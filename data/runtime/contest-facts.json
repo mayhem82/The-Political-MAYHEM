@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-MAYHEM-CONTEST-FACTS-001",
   "status": "ACTIVE",
-  "updated_at": "2026-09-09T03:54:27.974Z",
+  "updated_at": "2026-09-09T03:57:55.443Z",
   "supported_competition_classes": [
     "ELECTORAL",
     "LEGISLATIVE",
@@ -21455,20 +21455,55 @@
         "competition_not_registered_by_fact": true
       },
       "fact_state_history": []
+    },
+    {
+      "fact_id": "FACT-cc23e070e625e153d9ffb450",
+      "competition_class": "BUDGET",
+      "jurisdiction_id": "AUS-ACT",
+      "area_evidence_id": "AREA-11d558779d1efa5268cd5eb3",
+      "detail_record_id": "DETAIL-0f8994d109d4ef4ec0b49426",
+      "detail_version_id": "DETAIL-0f8994d109d4ef4ec0b49426-V1",
+      "source_snapshot_id": "AUTO-WATCH-ACT-GOV-MEDIA-20260908201930",
+      "source_id": "SRC-ACT-GOV-MEDIA",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "record_url": "https://yoursayconversations.act.gov.au/public-space-improvements-local-shops",
+      "record_title": "Public space improvements at Group Centres | YourSay ACT",
+      "fact_type": "CONTEST_OBJECT",
+      "fact_state": "OBSERVED_SOURCE_TEXT",
+      "evidence_match": "Budget, the ACT Government committed to improving shops across Canberra",
+      "evidence_text": "survey Background information As Canberra grows, the ACT Government is supporting sustainable urban renewal that enhances the qualities we value in our capital. In the 2025-26 ACT Budget, the ACT Government committed to improving shops across Canberra. This includes public space improvements at the Charnwood, Erindale and Mawson shops. The improvements aim to increase access, connectivity, safety, function, attractiveness and a",
+      "evidence_captured_at": "2026-09-09T03:57:53.276Z",
+      "extracted_at": "2026-09-09T03:57:55.337Z",
+      "actor_ids": [],
+      "party_ids": [],
+      "position_state": "UNRESOLVED",
+      "resistance_state": "UNRESOLVED",
+      "outcome_verification_state": "NOT_APPLICABLE",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "integrity": {
+        "source_text_preserved": true,
+        "area_lineage_preserved": true,
+        "entity_identity_limited_to_resolved_mentions": true,
+        "position_requires_explicit_language": true,
+        "competition_not_registered_by_fact": true
+      },
+      "fact_state_history": []
     }
   ],
   "summary": {
-    "active_area_evidence_examined": 43,
-    "facts_total": 600,
-    "facts_added_this_run": 31,
+    "active_area_evidence_examined": 44,
+    "facts_total": 601,
+    "facts_added_this_run": 1,
     "by_competition_class": {
-      "BUDGET": 124,
+      "BUDGET": 125,
       "LEGISLATIVE": 267,
       "PARLIAMENTARY_PROCEDURE": 160,
       "POLICY_ENACTMENT": 13
     },
     "by_fact_type": {
-      "CONTEST_OBJECT": 96,
+      "CONTEST_OBJECT": 97,
       "OBJECTIVE": 5,
       "PARTICIPANT": 22,
       "EXPLICIT_SUPPORT_POSITION": 9,
@@ -21484,7 +21519,7 @@
       "IMPLEMENTATION_ACTION": 3,
       "POSSIBLE_OUTCOME_STATE": 123
     },
-    "active_facts": 564,
+    "active_facts": 565,
     "retracted_facts": 36,
     "facts_retracted_this_run": 0,
     "facts_reactivated_this_run": 0

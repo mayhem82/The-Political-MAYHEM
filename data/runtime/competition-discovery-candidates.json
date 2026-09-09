@@ -69,64 +69,64 @@
     {
       "jurisdiction_id": "AUS-FED",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-09T03:54:28.417Z",
+      "last_screened_at": "2026-09-09T03:57:55.883Z",
       "signals_examined": 73,
       "candidates_detected": 23
     },
     {
       "jurisdiction_id": "AUS-NSW",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-09T03:54:28.417Z",
+      "last_screened_at": "2026-09-09T03:57:55.883Z",
       "signals_examined": 24,
       "candidates_detected": 5
     },
     {
       "jurisdiction_id": "AUS-VIC",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-09T03:54:28.417Z",
+      "last_screened_at": "2026-09-09T03:57:55.883Z",
       "signals_examined": 0,
       "candidates_detected": 0
     },
     {
       "jurisdiction_id": "AUS-QLD",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-09T03:54:28.417Z",
+      "last_screened_at": "2026-09-09T03:57:55.883Z",
       "signals_examined": 6,
       "candidates_detected": 43
     },
     {
       "jurisdiction_id": "AUS-WA",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-09T03:54:28.417Z",
+      "last_screened_at": "2026-09-09T03:57:55.883Z",
       "signals_examined": 0,
       "candidates_detected": 0
     },
     {
       "jurisdiction_id": "AUS-SA",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-09T03:54:28.417Z",
+      "last_screened_at": "2026-09-09T03:57:55.883Z",
       "signals_examined": 0,
       "candidates_detected": 0
     },
     {
       "jurisdiction_id": "AUS-TAS",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-09T03:54:28.417Z",
+      "last_screened_at": "2026-09-09T03:57:55.883Z",
       "signals_examined": 14,
       "candidates_detected": 0
     },
     {
       "jurisdiction_id": "AUS-ACT",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-09T03:54:28.417Z",
-      "signals_examined": 18,
-      "candidates_detected": 0
+      "last_screened_at": "2026-09-09T03:57:55.883Z",
+      "signals_examined": 19,
+      "candidates_detected": 1
     },
     {
       "jurisdiction_id": "AUS-NT",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-09T03:54:28.417Z",
-      "signals_examined": 26,
+      "last_screened_at": "2026-09-09T03:57:55.883Z",
+      "signals_examined": 28,
       "candidates_detected": 0
     }
   ],
@@ -2907,21 +2907,62 @@
           "reason": "SUBSTANTIVE_THRESHOLD_EVALUATION_PROPAGATED"
         }
       ]
+    },
+    {
+      "candidate_id": "DISC-ACT-BUDGET-92f83f1c7ec2b596",
+      "jurisdiction_id": "AUS-ACT",
+      "competition_family": "BUDGET",
+      "proposed_competition_class": "BUDGET",
+      "proposed_cycle_id": null,
+      "subject": "Ingested substantive budget evidence from Public space improvements at Group Centres | YourSay ACT. Registration threshold state: evidence gap. Missing requirements: missing fact type objective, missing fact type stage, missing fact type material resistance, missing fact type explicit support positi",
+      "candidate_state": "EVIDENCE_GAP",
+      "detected_at": "2026-09-09T03:57:55.611Z",
+      "source_snapshot_ids": [
+        "AUTO-WATCH-ACT-GOV-MEDIA-20260908201930"
+      ],
+      "signal_event_ids": [
+        "INTEL-AREA-11d558779d1efa5268cd5eb3"
+      ],
+      "review_ids": [],
+      "area_evidence_ids": [
+        "AREA-11d558779d1efa5268cd5eb3"
+      ],
+      "detail_version_ids": [
+        "DETAIL-0f8994d109d4ef4ec0b49426-V1"
+      ],
+      "evidence_summary": "Substantive source record body was acquired, routed to BUDGET, and written into intelligence with retained detail, source-snapshot and stage-10 threshold lineage. Match registration remains a separate action.",
+      "registration_blockers": [
+        "MISSING_CONDITION_DISTINCT_SUPPORTING_AND_OPPOSING_SIDES",
+        "MISSING_FACT_TYPE_EXPLICIT_OPPOSITION_POSITION",
+        "MISSING_FACT_TYPE_EXPLICIT_SUPPORT_POSITION",
+        "MISSING_FACT_TYPE_MATERIAL_RESISTANCE",
+        "MISSING_FACT_TYPE_OBJECTIVE",
+        "MISSING_FACT_TYPE_STAGE"
+      ],
+      "linked_contest_id": null,
+      "state_history": [
+        {
+          "from": null,
+          "to": "EVIDENCE_GAP",
+          "at": "2026-09-09T03:57:55.611Z",
+          "reason": "SUBSTANTIVE_THRESHOLD_EVALUATION_PROPAGATED"
+        }
+      ]
     }
   ],
-  "last_screened_at": "2026-09-09T03:54:28.417Z",
+  "last_screened_at": "2026-09-09T03:57:55.883Z",
   "last_screen_summary": {
-    "signals_examined": 161,
-    "candidates_total": 71,
-    "candidates_added": 6,
-    "candidate_lineage_merges": 139,
-    "substantive_area_events_examined": 44,
-    "threshold_state_transitions": 1,
+    "signals_examined": 164,
+    "candidates_total": 72,
+    "candidates_added": 1,
+    "candidate_lineage_merges": 145,
+    "substantive_area_events_examined": 45,
+    "threshold_state_transitions": 0,
     "registered_contests_unchanged": true
   },
-  "last_duplicate_reconciliation_at": "2026-09-09T03:54:28.491Z",
+  "last_duplicate_reconciliation_at": "2026-09-09T03:57:55.954Z",
   "last_duplicate_reconciliation": {
     "rejected": 0,
-    "active_area_family_keys": 43
+    "active_area_family_keys": 44
   }
 }

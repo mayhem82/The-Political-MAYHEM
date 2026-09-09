@@ -5,6 +5,8 @@ const fail=[];
 const assert=(condition,message)=>{if(!condition)fail.push(message)};
 const unique=values=>new Set(values).size===values.length;
 const validTime=value=>Number.isFinite(Date.parse(value));
+const normalized=values=>[...new Set((values||[]).filter(Boolean))].sort();
+const sameValues=(a,b)=>JSON.stringify(normalized(a))===JSON.stringify(normalized(b));
 
 const ledger=read('data/runtime/competition-discovery-candidates.json');
 const classes=read('data/political-competition-class-registry.json');
@@ -84,6 +86,20 @@ const familyClassExpectation={
   POLICY_ENACTMENT:'POLICY_ENACTMENT',
   PUBLIC_PRESSURE:'PUBLIC_PRESSURE'
 };
+const familyForClass=Object.fromEntries(Object.entries(familyClassExpectation).map(([family,competitionClass])=>[competitionClass,family]));
+const thresholdCandidateState={
+  EVIDENCE_GAP:'EVIDENCE_GAP',
+  REVIEW_REQUIRED:'REVIEW_REQUIRED',
+  ELIGIBLE_FOR_REGISTRATION:'ELIGIBLE_FOR_REGISTRATION',
+  NOT_A_MATCH:'REJECTED_NOT_COMPETITION'
+};
+const substantiveEventTypes=new Set(['AREA_EVIDENCE_INGESTED','AREA_EVIDENCE_REACTIVATED','AREA_EVIDENCE_INTELLIGENCE_ENRICHED','AREA_EVIDENCE_RETRACTED','AREA_EVIDENCE_RETRACTION_ENRICHED']);
+const latestSubstantiveByArea=new Map();
+for(const event of events.events||[]){
+  if(!event.area_evidence_id||!event.competition_class||!substantiveEventTypes.has(event.event_type)) continue;
+  const prior=latestSubstantiveByArea.get(event.area_evidence_id);
+  if(!prior||Date.parse(event.captured_at||0)>=Date.parse(prior.captured_at||0)) latestSubstantiveByArea.set(event.area_evidence_id,event);
+}
 
 for(const candidate of candidates){
   assert(Boolean(candidate.candidate_id),'competition discovery candidate missing candidate_id');
@@ -146,7 +162,7 @@ for(const candidate of candidates){
   for(const reviewId of reviewIds){
     const review=reviewById.get(reviewId);
     assert(Boolean(review),`${candidate.candidate_id}: unknown review ${reviewId}`);
-    if(review?.signal_event_id) assert(signalIds.includes(review.signal_event_id),`${candidate.candidate_id}: review ${reviewId} signal not in candidate signal_event_ids`);
+    if(review?.signal_event_id) assert(signalIds.includes(review.signal_event_id),`${candidate.candidate_id}: review ${reviewId} signal not in candidate.signal_event_ids`);
   }
 
   assert(typeof candidate.evidence_summary==='string'&&candidate.evidence_summary.trim().length>0,`${candidate.candidate_id}: evidence_summary missing`);
@@ -193,6 +209,40 @@ for(const candidate of candidates){
   if(['REVIEW_REQUIRED','EVIDENCE_GAP','REJECTED_NOT_COMPETITION'].includes(candidate.candidate_state)) assert(blockers.length>0,`${candidate.candidate_id}: ${candidate.candidate_state} requires a recorded blocker or reason`);
 }
 
+let thresholdPropagationChecks=0;
+for(const [areaId,event] of latestSubstantiveByArea){
+  const family=familyForClass[event.competition_class];
+  assert(Boolean(family),`${areaId}: latest substantive Intelligence event has unmapped competition class ${event.competition_class}`);
+  if(!family) continue;
+  const expectedState=thresholdCandidateState[event.threshold_state];
+  assert(Boolean(expectedState),`${areaId}: latest substantive Intelligence event lacks valid threshold_state ${event.threshold_state||'MISSING'}`);
+  if(!expectedState) continue;
+
+  const areaMatches=candidates.filter(candidate=>candidate.competition_family===family&&(candidate.area_evidence_ids||[]).includes(areaId));
+  const canonicalMatches=areaMatches.filter(candidate=>!candidate.duplicate_of_candidate_id&&!((candidate.registration_blockers||[]).includes('DUPLICATE_SUBSTANTIVE_CANDIDATE_REPRESENTATION')));
+  const canonical=canonicalMatches.find(candidate=>candidate.candidate_state==='REGISTERED')||canonicalMatches.find(candidate=>candidate.candidate_state!=='REJECTED_NOT_COMPETITION')||canonicalMatches[0]||null;
+
+  if(!canonical){
+    assert(expectedState==='REJECTED_NOT_COMPETITION',`${areaId}: active substantive threshold state ${event.threshold_state} has no canonical discovery candidate`);
+    continue;
+  }
+
+  thresholdPropagationChecks++;
+  assert(canonical.jurisdiction_id===event.jurisdiction_id,`${canonical.candidate_id}: latest substantive Intelligence jurisdiction mismatch for ${areaId}`);
+  assert(canonical.proposed_competition_class===event.competition_class,`${canonical.candidate_id}: latest substantive Intelligence class mismatch for ${areaId}`);
+  assert((canonical.signal_event_ids||[]).includes(event.event_id),`${canonical.candidate_id}: latest substantive Intelligence event ${event.event_id} missing from candidate lineage`);
+
+  if(canonical.candidate_state!=='REGISTERED'){
+    assert(canonical.candidate_state===expectedState,`${canonical.candidate_id}: candidate state ${canonical.candidate_state} does not match latest threshold ${event.threshold_state} for ${areaId}`);
+    assert(sameValues(canonical.registration_blockers,event.threshold_blockers),`${canonical.candidate_id}: registration blockers do not match latest threshold blockers for ${areaId}`);
+  }
+
+  if(event.threshold_state==='NOT_A_MATCH'||event.area_routing_state==='RETRACTED_ROUTING_NOISE'){
+    if(canonical.candidate_state!=='REGISTERED') assert(canonical.candidate_state==='REJECTED_NOT_COMPETITION',`${canonical.candidate_id}: retracted area ${areaId} remains an active competition candidate`);
+    assert(!activeAreaFamilyOwner.has(`${family}|${areaId}`),`${canonical.candidate_id}: retracted area ${areaId} remains in active substantive candidate index`);
+  }
+}
+
 for(const row of screening){
   const actual=candidates.filter(x=>x.jurisdiction_id===row.jurisdiction_id).length;
   assert(row.candidates_detected===actual,`${row.jurisdiction_id}: candidates_detected=${row.candidates_detected} but ledger contains ${actual}`);
@@ -203,4 +253,4 @@ if(fail.length){
   for(const message of fail) console.error('- '+message);
   process.exit(1);
 }
-console.log('POLITICAL_MAYHEM_COMPETITION_DISCOVERY_INTEGRITY_PASS',`candidates=${candidates.length}`,`screened=${screening.filter(x=>x.screening_state==='SCREENED').length}/9`,`registered=${candidates.filter(x=>x.candidate_state==='REGISTERED').length}`,`activeSubstantiveKeys=${activeAreaFamilyOwner.size}`,'temporalProvenance=ENFORCED','families=8');
+console.log('POLITICAL_MAYHEM_COMPETITION_DISCOVERY_INTEGRITY_PASS',`candidates=${candidates.length}`,`screened=${screening.filter(x=>x.screening_state==='SCREENED').length}/9`,`registered=${candidates.filter(x=>x.candidate_state==='REGISTERED').length}`,`activeSubstantiveKeys=${activeAreaFamilyOwner.size}`,`thresholdPropagationChecks=${thresholdPropagationChecks}`,'temporalProvenance=ENFORCED','families=8');

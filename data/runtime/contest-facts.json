@@ -1,0 +1,46 @@
+{
+  "ledger_id": "POLITICAL-MAYHEM-CONTEST-FACTS-001",
+  "status": "ACTIVE",
+  "updated_at": null,
+  "rules": {
+    "fact_requires_active_area_evidence": true,
+    "fact_requires_substantive_detail_lineage": true,
+    "fact_is_observation_not_inference": true,
+    "fact_must_preserve_source_text": true,
+    "one_source_passage_may_support_multiple_fact_types": true,
+    "entity_identity_requires_resolved_area_entity": true,
+    "entity_mention_does_not_establish_position": true,
+    "support_or_opposition_requires_explicit_source_language": true,
+    "resistance_cannot_be_inferred_from_generic_amendment_language": true,
+    "possible_outcome_language_is_not_verified_outcome": true,
+    "fact_does_not_register_competition": true,
+    "fact_does_not_change_projection": true,
+    "later_extraction_preserves_original_evidence_capture_time": true,
+    "facts_are_append_only_by_fact_id": true
+  },
+  "fact_types": [
+    "CONTEST_OBJECT",
+    "OBJECTIVE",
+    "PARTICIPANT",
+    "EXPLICIT_SUPPORT_POSITION",
+    "EXPLICIT_OPPOSITION_POSITION",
+    "MATERIAL_RESISTANCE",
+    "STAGE",
+    "AMENDMENT",
+    "PROCEDURAL_ACTION",
+    "VOTE_OR_DIVISION",
+    "PUBLIC_DEMAND",
+    "PRESSURE_ACTION",
+    "INSTITUTIONAL_RESPONSE",
+    "IMPLEMENTATION_ACTION",
+    "POSSIBLE_OUTCOME_STATE"
+  ],
+  "facts": [],
+  "summary": {
+    "active_area_evidence_examined": 0,
+    "facts_total": 0,
+    "facts_added_this_run": 0,
+    "by_competition_class": {},
+    "by_fact_type": {}
+  }
+}

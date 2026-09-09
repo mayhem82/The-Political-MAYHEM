@@ -1,0 +1,78 @@
+{
+  "system": "The Political MAYHEM",
+  "snapshot": "FIRST-TEAM-CLAIM-CONTROL-SNAP-001",
+  "captured_at": "2026-09-09T12:20:00+10:00",
+  "subject_entity_id": "AUS-PEOPLE",
+  "purpose": "Prevent political actors, parties, media or MAYHEM itself from converting claims about the Australian public into established First Team state without proportionate evidence.",
+  "claim_classes": [
+    {
+      "class": "DIRECT_PUBLIC_DECISION",
+      "examples": ["election result", "referendum result"],
+      "default_state": "FACT_WHEN_AUTHORITATIVELY_VERIFIED",
+      "may_move_first_team_form": true,
+      "rule": "Record the verified result and its defined scope. Do not infer a broader mandate than the question actually decided."
+    },
+    {
+      "class": "SAMPLED_PUBLIC_OPINION",
+      "examples": ["poll", "survey"],
+      "default_state": "EVIDENCE_FOR_NARROW_SAMPLED_PROPOSITION",
+      "may_move_first_team_form": false,
+      "rule": "Preserve question wording, population, sample, fieldwork dates, method and uncertainty. Never substitute sampled opinion for a direct public decision."
+    },
+    {
+      "class": "POLITICAL_REPRESENTATION_CLAIM",
+      "examples": ["Australians want", "ordinary Australians believe", "the people have spoken", "public interest", "we have a mandate"],
+      "default_state": "TEAM_OR_PLAYER_POSITIONING",
+      "may_move_first_team_form": false,
+      "rule": "Treat as a claim about the First Team until independently evidenced. Separate the underlying election or polling evidence from the actor's interpretation of it."
+    },
+    {
+      "class": "PUBLIC_MOBILISATION",
+      "examples": ["petition", "protest", "campaign", "community mobilisation"],
+      "default_state": "VERIFIABLE_PARTICIPATION_EVENT",
+      "may_move_first_team_form": false,
+      "rule": "Participation can be recorded as fact. Ground gained or lost requires a measurable institutional, legal, policy or electoral outcome linked by evidence."
+    },
+    {
+      "class": "INSTITUTIONAL_RESPONSE_TO_PUBLIC_PRESSURE",
+      "examples": ["policy reversal after mobilisation", "inquiry triggered after sustained public campaign", "formal concession"],
+      "default_state": "OUTCOME_REQUIRES_CAUSAL_LINEAGE",
+      "may_move_first_team_form": true,
+      "rule": "Record movement only when the institutional change is verified and the public-pressure causal link is sufficiently evidenced. Mere temporal sequence is insufficient."
+    },
+    {
+      "class": "PUBLIC_SILENCE_OR_ABSENCE",
+      "examples": ["no protest", "no referendum", "no election since policy change"],
+      "default_state": "NO_INFERENCE",
+      "may_move_first_team_form": false,
+      "rule": "Absence of an observed public decision or mobilisation is not evidence of approval, consent, opposition or indifference."
+    }
+  ],
+  "required_fields_for_claim_records": [
+    "claim_id",
+    "claim_text",
+    "speaker_or_source",
+    "claim_time",
+    "claim_class",
+    "jurisdiction",
+    "population_scope",
+    "evidence_state",
+    "source_lineage",
+    "first_team_effect"
+  ],
+  "first_team_effect_values": [
+    "NONE",
+    "NARROW_OPINION_EVIDENCE_ONLY",
+    "DIRECT_DECISION_RECORDED",
+    "MEASURABLE_PUBLIC_OUTCOME_RECORDED",
+    "UNKNOWN_PENDING_EVIDENCE"
+  ],
+  "hard_controls": [
+    "No mandate claim may inherit the full electorate as its population scope unless the evidence supports that scope.",
+    "No election result may be translated into support for policies or propositions that were not actually decided by that election without separate evidence.",
+    "No poll may be labelled as the voice, will or decision of the First Team.",
+    "No public mobilisation may be treated as representative of the whole First Team without evidence of representativeness.",
+    "No institutional response may be attributed to public pressure solely because it occurred afterward.",
+    "UNKNOWN is mandatory where the available evidence does not establish the First Team's position."
+  ]
+}

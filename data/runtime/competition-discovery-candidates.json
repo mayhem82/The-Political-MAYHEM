@@ -69,63 +69,63 @@
     {
       "jurisdiction_id": "AUS-FED",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-09T06:08:57.080Z",
-      "signals_examined": 78,
-      "candidates_detected": 23
+      "last_screened_at": "2026-09-09T06:16:45.886Z",
+      "signals_examined": 80,
+      "candidates_detected": 25
     },
     {
       "jurisdiction_id": "AUS-NSW",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-09T06:08:57.080Z",
+      "last_screened_at": "2026-09-09T06:16:45.886Z",
       "signals_examined": 26,
       "candidates_detected": 5
     },
     {
       "jurisdiction_id": "AUS-VIC",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-09T06:08:57.080Z",
+      "last_screened_at": "2026-09-09T06:16:45.886Z",
       "signals_examined": 0,
       "candidates_detected": 0
     },
     {
       "jurisdiction_id": "AUS-QLD",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-09T06:08:57.080Z",
+      "last_screened_at": "2026-09-09T06:16:45.886Z",
       "signals_examined": 10,
       "candidates_detected": 43
     },
     {
       "jurisdiction_id": "AUS-WA",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-09T06:08:57.080Z",
+      "last_screened_at": "2026-09-09T06:16:45.886Z",
       "signals_examined": 2,
       "candidates_detected": 2
     },
     {
       "jurisdiction_id": "AUS-SA",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-09T06:08:57.080Z",
+      "last_screened_at": "2026-09-09T06:16:45.886Z",
       "signals_examined": 0,
       "candidates_detected": 0
     },
     {
       "jurisdiction_id": "AUS-TAS",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-09T06:08:57.080Z",
-      "signals_examined": 18,
+      "last_screened_at": "2026-09-09T06:16:45.886Z",
+      "signals_examined": 19,
       "candidates_detected": 0
     },
     {
       "jurisdiction_id": "AUS-ACT",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-09T06:08:57.080Z",
-      "signals_examined": 22,
+      "last_screened_at": "2026-09-09T06:16:45.886Z",
+      "signals_examined": 23,
       "candidates_detected": 1
     },
     {
       "jurisdiction_id": "AUS-NT",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-09T06:08:57.080Z",
+      "last_screened_at": "2026-09-09T06:16:45.886Z",
       "signals_examined": 30,
       "candidates_detected": 0
     }
@@ -3292,21 +3292,94 @@
           "reason": "SUBSTANTIVE_THRESHOLD_EVALUATION_PROPAGATED"
         }
       ]
+    },
+    {
+      "candidate_id": "DISC-FED-PROCEDURAL-437d8f356b63e7e6",
+      "jurisdiction_id": "AUS-FED",
+      "competition_family": "PROCEDURAL",
+      "proposed_competition_class": "PARLIAMENTARY_PROCEDURE",
+      "proposed_cycle_id": "AUS-FED-48TH-PARLIAMENT",
+      "subject": "Aged Care Legislation Amendment (Aboriginal and To...",
+      "candidate_state": "REVIEW_REQUIRED",
+      "detected_at": "2026-09-09T06:16:43.243Z",
+      "source_snapshot_ids": [
+        "AUTO-WATCH-APH-BILLS-20260909061548"
+      ],
+      "signal_event_ids": [
+        "SIG-REV-CHG-WATCH-APH-BILLS-20260909061548"
+      ],
+      "review_ids": [
+        "REV-CHG-WATCH-APH-BILLS-20260909061548"
+      ],
+      "area_evidence_ids": [],
+      "detail_version_ids": [],
+      "evidence_summary": "Screened PRIMARY_PARLIAMENT evidence contains language consistent with a procedural competition candidate. This is a discovery observation, not a registered contest or outcome inference.",
+      "registration_blockers": [
+        "MATERIAL_PROCEDURAL_OPPOSITION_REQUIRES_REVIEW"
+      ],
+      "linked_contest_id": null,
+      "state_history": [
+        {
+          "from": null,
+          "to": "REVIEW_REQUIRED",
+          "at": "2026-09-09T06:16:43.243Z",
+          "reason": "DETERMINISTIC_COMPETITION_FAMILY_SCREEN"
+        }
+      ]
+    },
+    {
+      "candidate_id": "DISC-FED-LEGISLATION-cd90b3c039965722",
+      "jurisdiction_id": "AUS-FED",
+      "competition_family": "LEGISLATION",
+      "proposed_competition_class": "LEGISLATIVE",
+      "proposed_cycle_id": "AUS-FED-48TH-PARLIAMENT",
+      "subject": "Ingested substantive legislative evidence from Aged Care Legislation Amendment (Aboriginal and Torres Strait Islander Aged Care Commissioner and Other Measures) Bill 2026 &ndash; Parliament of Australia. Captured content includes stage: Introduced; resistance language: Amendment; outcome language: p",
+      "candidate_state": "EVIDENCE_GAP",
+      "detected_at": "2026-09-09T06:16:45.658Z",
+      "source_snapshot_ids": [
+        "AUTO-WATCH-APH-BILLS-20260909061548"
+      ],
+      "signal_event_ids": [
+        "INTEL-AREA-5c768b3c5dec22f0432b8e44"
+      ],
+      "review_ids": [],
+      "area_evidence_ids": [
+        "AREA-5c768b3c5dec22f0432b8e44"
+      ],
+      "detail_version_ids": [
+        "DETAIL-9bfd4cc7a4c31a31135fc88a-V1"
+      ],
+      "evidence_summary": "Substantive source record body was acquired, routed to LEGISLATIVE, and written into intelligence with retained detail, source-snapshot and stage-10 threshold lineage. Match registration remains a separate action.",
+      "registration_blockers": [
+        "MISSING_CONDITION_DISTINCT_SUPPORTING_AND_OPPOSING_SIDES",
+        "MISSING_FACT_TYPE_EXPLICIT_OPPOSITION_POSITION",
+        "MISSING_FACT_TYPE_EXPLICIT_SUPPORT_POSITION",
+        "MISSING_FACT_TYPE_MATERIAL_RESISTANCE"
+      ],
+      "linked_contest_id": null,
+      "state_history": [
+        {
+          "from": null,
+          "to": "EVIDENCE_GAP",
+          "at": "2026-09-09T06:16:45.658Z",
+          "reason": "SUBSTANTIVE_THRESHOLD_EVALUATION_PROPAGATED"
+        }
+      ]
     }
   ],
-  "last_screened_at": "2026-09-09T06:08:57.080Z",
+  "last_screened_at": "2026-09-09T06:16:45.886Z",
   "last_screen_summary": {
-    "signals_examined": 186,
-    "candidates_total": 74,
+    "signals_examined": 190,
+    "candidates_total": 76,
     "candidates_added": 2,
-    "candidate_lineage_merges": 238,
-    "substantive_area_events_examined": 46,
+    "candidate_lineage_merges": 240,
+    "substantive_area_events_examined": 47,
     "threshold_state_transitions": 0,
     "registered_contests_unchanged": true
   },
-  "last_duplicate_reconciliation_at": "2026-09-09T06:08:57.155Z",
+  "last_duplicate_reconciliation_at": "2026-09-09T06:16:45.948Z",
   "last_duplicate_reconciliation": {
     "rejected": 0,
-    "active_area_family_keys": 45
+    "active_area_family_keys": 46
   }
 }

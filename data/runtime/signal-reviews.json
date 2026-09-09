@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-SIGNAL-REVIEWS-001",
   "created_at": "2026-09-09T05:05:00+10:00",
-  "updated_at": "2026-09-09T06:08:53.625Z",
+  "updated_at": "2026-09-09T06:16:43.243Z",
   "rules": {
     "append_only": true,
     "raw_source_change_is_immutable": true,
@@ -22391,6 +22391,266 @@
           }
         ],
         "delta_hash": "011eb92e616814309dc9d1e9f95c879b8d984c440a3b2134af60cc03fbed3efb"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-APH-BILLS-20260909061548",
+      "source_change_event_id": "CHG-WATCH-APH-BILLS-20260909061548",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-APH-BILLS-20260909061548",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Parliament of Australia — Bills and Legislation added 1 structured publication record to its forward-captured official index: Aged Care Legislation Amendment (Aboriginal and To...",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-09-09T06:16:43.243Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "732221c68c87c7b3aff7",
+            "title": "Aged Care Legislation Amendment (Aboriginal and To...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7517"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "9a464308b729d7d70d55",
+            "title": "Fair Work Amendment (Disqualified Officers) Bill 2...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=s1510"
+          }
+        ],
+        "delta_hash": "fd3a62db55a5ba19cb1ceb0357838bd659b6d1b9d37a2e9be7c1cc6211b0420d"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-TAS-PREMIER-NEWS-20260909061548",
+      "source_change_event_id": "CHG-WATCH-TAS-PREMIER-NEWS-20260909061548",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-TAS-PREMIER-NEWS-20260909061548",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Premier of Tasmania — latest news added 4 structured publication records to its forward-captured official index: 2030 Strong Plan for Tasmania’s Future; Contact your Premier; Budget 2026-27; 300 days of delivering for Tasmania",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-09-09T06:16:43.243Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "5503ad540fbf99bf866e",
+            "title": "2030 Strong Plan for Tasmania’s Future",
+            "url": "https://www.premier.tas.gov.au/our-plan"
+          },
+          {
+            "record_id": "5c58e4f76fec3a1ce5fe",
+            "title": "Contact your Premier",
+            "url": "https://www.premier.tas.gov.au/contact"
+          },
+          {
+            "record_id": "7984975787b4ef2c7007",
+            "title": "Budget 2026-27",
+            "url": "https://www.premier.tas.gov.au/budget-2026"
+          },
+          {
+            "record_id": "bff1215bcb385f2f222a",
+            "title": "300 days of delivering for Tasmania",
+            "url": "https://www.premier.tas.gov.au/__data/assets/pdf_file/0027/517923/2026-Third-100-Days-of-Delivery_Digital.pdf"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "1380674db0bf814247ef",
+            "title": "Working together to help protect our threatened species 7 September 2026 Tasmanians are being encouraged to work together to protect our unique flora and fauna this Threatened Species Day, with a new round of cons...",
+            "url": "https://www.premier.tas.gov.au/latest-news/2026/september/working-together-to-help-protect-our-threatened-species"
+          },
+          {
+            "record_id": "26966632f7c5572725d3",
+            "title": "Paper titles cut from property transactions 7 September 2026 The Tasmanian Government has made it faster, simpler and safer to make property transactions, with paper certificates of title removed from ...",
+            "url": "https://www.premier.tas.gov.au/latest-news/2026/september/paper-titles-cut-from-property-transactions"
+          },
+          {
+            "record_id": "9187be13c3c0412ea6bb",
+            "title": "Tasmania’s tourism industry full steam ahead for Spirit’s inaugural sailing 7 September 2026 Preparations are being finalised for the launch of Spirit of Tasmania&rsquo;s new vessels, with Tourism Tasmania working with industry to bu...",
+            "url": "https://www.premier.tas.gov.au/latest-news/2026/september/tasmanias-tourism-industry-full-steam-ahead-for-spirits-inaugural-sailing"
+          },
+          {
+            "record_id": "9a575440a98cf4041fd6",
+            "title": "Clear expectations for data centres and AI infrastructure 7 September 2026 The Tasmanian Government has released its draft Expectations for Data Centres and AI Infrastructure.Minister for Business, Industry and Reso...",
+            "url": "https://www.premier.tas.gov.au/latest-news/2026/september/clear-expectations-for-data-centres-and-ai-infrastructure"
+          },
+          {
+            "record_id": "d7a1477e0a98625953b3",
+            "title": "Skip to content",
+            "url": "https://www.premier.tas.gov.au/latest-news"
+          }
+        ],
+        "delta_hash": "f7a904ab4a5efe92842937fd6a7a2894c8d3f502cc9db6a8f3038ee84e8940be"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-ELECTIONS-ACT-NEWS-20260909061548",
+      "source_change_event_id": "CHG-WATCH-ELECTIONS-ACT-NEWS-20260909061548",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-ELECTIONS-ACT-NEWS-20260909061548",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Elections ACT — news archive added 19 structured publication records to its forward-captured official index: Funding, disclosures and registers; For voters; Skip to content; 14 June 2024 Canberra Progressives apply to change the registered officer of the party; 15 May 2024 Strong Independents apply to register as a political party for ACT Legislative Assembly elections; +14 more",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-09-09T06:16:43.243Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "053b49a631200edf8447",
+            "title": "Funding, disclosures and registers",
+            "url": "https://www.elections.act.gov.au/about-the-commission/publications/news-archives"
+          },
+          {
+            "record_id": "06aae5f67ba2e86ab363",
+            "title": "For voters",
+            "url": "https://www.elections.act.gov.au/about-the-commission/publications/news-archives"
+          },
+          {
+            "record_id": "0e0fa4dc365fda2be96d",
+            "title": "Skip to content",
+            "url": "https://www.elections.act.gov.au/about-the-commission/publications/news-archives"
+          },
+          {
+            "record_id": "192c6342a93df6d97001",
+            "title": "14 June 2024 Canberra Progressives apply to change the registered officer of the party",
+            "url": "https://www.elections.act.gov.au/about-the-commission/publications/news-archives/canberra-progressives-apply-to-change-the-registered-officer-of-the-party"
+          },
+          {
+            "record_id": "1b4347faab034b6357a9",
+            "title": "15 May 2024 Strong Independents apply to register as a political party for ACT Legislative Assembly elections",
+            "url": "https://www.elections.act.gov.au/about-the-commission/publications/news-archives/strong-independents-apply-to-register-as-a-political-party-for-act-legislative-assembly-elections"
+          },
+          {
+            "record_id": "1e642febde88f0395a01",
+            "title": "12 June 2024 Elections ACT's Service Delivery Plan for the 2024 ACT Legislative Assembly election is now available for viewing",
+            "url": "https://www.elections.act.gov.au/about-the-commission/publications/news-archives/elections-acts-service-delivery-plan-for-the-2024-act-legislative-assembly-election-is-now-available-for-viewing"
+          },
+          {
+            "record_id": "32d7fc3a07106583ce0b",
+            "title": "4 June 2024 Strong Independents officially registered for the 2024 ACT Legislative Assembly election",
+            "url": "https://www.elections.act.gov.au/about-the-commission/publications/news-archives/strong-independents-officially-registered-for-the-2024-act-legislative-assembly-election"
+          },
+          {
+            "record_id": "449c9fd5617e5ffe88cb",
+            "title": "For political participants",
+            "url": "https://www.elections.act.gov.au/about-the-commission/publications/news-archives"
+          },
+          {
+            "record_id": "655ef8f5e703018bf8f4",
+            "title": "12 June 2024 Elections ACT has re-released the source code for the electronic voting and counting system",
+            "url": "https://www.elections.act.gov.au/about-the-commission/publications/news-archives/elections-act-has-re-released-the-source-code-for-the-electronic-voting-and-counting-system"
+          },
+          {
+            "record_id": "a3857c658c21c7698da7",
+            "title": "News archives",
+            "url": "https://www.elections.act.gov.au/about-the-commission/publications/news-archives"
+          },
+          {
+            "record_id": "a5f53957f9b327858628",
+            "title": "17 May 2024 Independents for Canberra apply to change party abbreviation, Registered Officer and Secretary of the party",
+            "url": "https://www.elections.act.gov.au/about-the-commission/publications/news-archives/independents-for-canberra-apply-to-change-party-abbreviation,-registered-officer-and-secretary-of-the-party"
+          },
+          {
+            "record_id": "ae0fa7e29ce939d7c2db",
+            "title": "About the Commission",
+            "url": "https://www.elections.act.gov.au/about-the-commission"
+          },
+          {
+            "record_id": "b27b0bfd1a431fc4d7c6",
+            "title": "17 May 2024 Nominations for the ACT Aboriginal and Torres Strait Islander Elected Body (ATSIEB) 2024 are now open",
+            "url": "https://www.elections.act.gov.au/about-the-commission/publications/news-archives/nominations-for-the-act-aboriginal-and-torres-strait-islander-elected-body-atsieb-2024-are-now-open"
+          },
+          {
+            "record_id": "b4e14e76407a5ca368ce",
+            "title": "See all news",
+            "url": "https://www.elections.act.gov.au/about-the-commission/publications/news-archives"
+          },
+          {
+            "record_id": "d06265aff89799bf6987",
+            "title": "Translate",
+            "url": "https://www.elections.act.gov.au/about-the-commission/publications/news-archives"
+          },
+          {
+            "record_id": "e5d8cb2f4379903e4e65",
+            "title": "7 June 2024 Fiona Carrick Independent apply to register as a political party for ACT Legislative Assembly elections",
+            "url": "https://www.elections.act.gov.au/about-the-commission/publications/news-archives/fiona-carrick-independent-apply-to-register-as-a-political-party-for-act-legislative-assembly-elections"
+          },
+          {
+            "record_id": "ed2d080d80f5578b604f",
+            "title": "Elections",
+            "url": "https://www.elections.act.gov.au/about-the-commission/publications/news-archives"
+          },
+          {
+            "record_id": "ee901265f22dcecc014f",
+            "title": "24 May 2024 Reminder for new political parties intending to register for the 2024 ACT election",
+            "url": "https://www.elections.act.gov.au/about-the-commission/publications/news-archives/reminder-for-new-political-parties-intending-to-register-for-the-2024-act-election"
+          },
+          {
+            "record_id": "fdb43d4a34aaeb422813",
+            "title": "Integrity",
+            "url": "https://www.elections.act.gov.au/about-the-commission/publications/news-archives"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "25cfb46c829c7f3d2385",
+            "title": "Click to find out more",
+            "url": "https://www.elections.act.gov.au/for-political-participants"
+          },
+          {
+            "record_id": "484cb2dc13de8d0ed7db",
+            "title": "Financial disclosure",
+            "url": "https://www.elections.act.gov.au/funding-disclosures-and-registers"
+          },
+          {
+            "record_id": "7e311b4010f8537cefc1",
+            "title": "Electoral integrity",
+            "url": "https://www.elections.act.gov.au/integrity"
+          },
+          {
+            "record_id": "a0936318fd8395c13134",
+            "title": "Click to find out more",
+            "url": "https://www.elections.act.gov.au/elections"
+          }
+        ],
+        "delta_hash": "83205a93f203e8a05cbb6fc4c8b3afbea402f4530ecdce75e9fabc446b493179"
       },
       "integrity": {
         "source_change_unchanged": true,

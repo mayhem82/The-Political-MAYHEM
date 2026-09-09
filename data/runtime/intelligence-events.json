@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-INTELLIGENCE-EVENTS-001",
   "scope": "Australia — multi-jurisdiction",
-  "captured_at": "2026-09-09T03:42:17.427Z",
+  "captured_at": "2026-09-09T03:45:47.305Z",
   "mode": "FORWARD_ONLY",
   "rules": {
     "observation_distinct_from_inference": true,
@@ -41719,6 +41719,52 @@
         "source_change_parent_retained": true,
         "deterministic_review": true
       }
+    },
+    {
+      "event_id": "CHG-WATCH-APH-LIVE-MINUTES-20260909034446",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-FED",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-APH-LIVE-MINUTES-20260909034446",
+      "captured_at": "2026-09-09T03:44:46.350Z",
+      "event_date": "2026-09-09",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_PARLIAMENT",
+      "source_id": "SRC-APH-LIVE-MINUTES",
+      "capture_mode": "NORMALISED_PAGE_HASH",
+      "review_policy": "REVIEW_UNSTRUCTURED_CHANGE",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-APH-LIVE-MINUTES-20260909034114",
+        "content_hash": "eeafa622be8a167caa4733337ccb77e412c043b067be403df7af12cb836b4f29",
+        "capture_mode": "NORMALISED_PAGE_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-APH-LIVE-MINUTES-20260909034446",
+        "content_hash": "f0eec4b79031e7eb4a86d8007a2b582849b2f8aa8e39157cf86496b43137b3ec",
+        "capture_mode": "NORMALISED_PAGE_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "TEXT_REPRESENTATION",
+        "first_difference_offset": 13730,
+        "before_length": 15490,
+        "after_length": 15537,
+        "before_excerpt": "Wilkie , <TIME>. Ms Coffey , <TIME>. Ms Boele , <TIME>. Mr Gosling , <TIME>. Ms Price , <TIME>. Ms Clutterham , <TIME>. In this section Bills and Legislation Tabled documents Chamber documents Work of the Senate House of Representatives cha",
+        "after_excerpt": "Wilkie , <TIME>. Ms Coffey , <TIME>. Ms Boele , <TIME>. Mr Gosling , <TIME>. Ms Price , <TIME>. Ms Clutterham , <TIME>. Mr L O’Brien , <TIME>. Mr Holzberger , <TIME>. In this section Bills and Legislation Tabled documents Chamber documents Work of the Senate House of Representatives cha",
+        "delta_hash": "469c000f49f77c5ce72f47570d9b85f9d7dc809580f8530f813f718fdab43dc3"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
     }
   ]
 }

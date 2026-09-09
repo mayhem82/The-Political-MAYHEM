@@ -3,7 +3,7 @@
   "mode": "FORWARD_ONLY",
   "scope": "Australia — Federal, States and Territories",
   "created_at": "2026-09-08T00:00:00+10:00",
-  "updated_at": "2026-09-09T03:42:10.287Z",
+  "updated_at": "2026-09-09T03:45:42.271Z",
   "rules": {
     "evidence_must_be_knowable_at_capture_time": true,
     "captured_at_required": true,
@@ -30,8 +30,8 @@
   },
   "live_evidence_ingestion": {
     "running": true,
-    "source_snapshots_ingested": 209,
-    "intelligence_events_ingested": 277,
+    "source_snapshots_ingested": 210,
+    "intelligence_events_ingested": 278,
     "contradictions_ingested": 0,
     "party_state_updates_ingested": 8,
     "actor_state_updates_ingested": 2,
@@ -41,7 +41,7 @@
     "raw_source_changes_ingested": 0,
     "signal_reviews_ingested": 95,
     "post_separation_promoted_signals_ingested": 0,
-    "last_capture_at": "2026-09-09T03:41:14.997Z",
+    "last_capture_at": "2026-09-09T03:44:46.350Z",
     "jurisdiction_coverage": {
       "federal": "CAPTURE_ACTIVE_DEGRADED_CURRENT_RUN",
       "new_south_wales": "CAPTURE_ACTIVE_FULL_CONFIGURED_BASELINE",
@@ -49,14 +49,14 @@
       "queensland": "CAPTURE_ACTIVE_FULL_CONFIGURED_BASELINE",
       "western_australia": "CAPTURE_ACTIVE_FULL_CONFIGURED_BASELINE",
       "south_australia": "CAPTURE_ACTIVE_FULL_CONFIGURED_BASELINE",
-      "tasmania": "CAPTURE_ACTIVE_FULL_CONFIGURED_BASELINE",
+      "tasmania": "CAPTURE_ACTIVE_DEGRADED_CURRENT_RUN",
       "australian_capital_territory": "CAPTURE_ACTIVE_FULL_CONFIGURED_BASELINE",
       "northern_territory": "CAPTURE_ACTIVE_FULL_CONFIGURED_BASELINE"
     },
-    "source_changes_ingested": 113,
+    "source_changes_ingested": 114,
     "watched_sources": 36,
     "capture_baselines": 35,
-    "capture_failures_last_run": 1,
+    "capture_failures_last_run": 2,
     "jurisdiction_capture": {
       "AUS-FED": {
         "configured_sources": 10,
@@ -128,13 +128,13 @@
       "AUS-TAS": {
         "configured_sources": 3,
         "baseline_sources": 3,
-        "current_run_failures": 0,
+        "current_run_failures": 1,
         "source_classes": [
           "PRIMARY_ELECTORAL_AUTHORITY",
           "PRIMARY_GOVERNMENT",
           "PRIMARY_PARLIAMENT"
         ],
-        "status": "CAPTURE_ACTIVE_FULL_CONFIGURED_BASELINE"
+        "status": "CAPTURE_ACTIVE_DEGRADED_CURRENT_RUN"
       },
       "AUS-ACT": {
         "configured_sources": 3,
@@ -159,7 +159,7 @@
         "status": "CAPTURE_ACTIVE_FULL_CONFIGURED_BASELINE"
       }
     },
-    "pending_signal_reviews": 18,
+    "pending_signal_reviews": 19,
     "deterministic_publication_signals": 95
   },
   "queues": {

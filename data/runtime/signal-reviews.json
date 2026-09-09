@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-SIGNAL-REVIEWS-001",
   "created_at": "2026-09-09T05:05:00+10:00",
-  "updated_at": "2026-09-09T04:44:19.847Z",
+  "updated_at": "2026-09-09T05:31:59.762Z",
   "rules": {
     "append_only": true,
     "raw_source_change_is_immutable": true,
@@ -17951,6 +17951,751 @@
           }
         ],
         "delta_hash": "f7a904ab4a5efe92842937fd6a7a2894c8d3f502cc9db6a8f3038ee84e8940be"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-ECQ-MEDIA-20260909053055",
+      "source_change_event_id": "CHG-WATCH-ECQ-MEDIA-20260909053055",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-ECQ-MEDIA-20260909053055",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Electoral Commission of Queensland — 2026 media statements added 30 structured publication records to its forward-captured official index: Queensland Redistribution Commission; Proposed State electoral redistribution; fact sheets; Find My Polling Booth website; ECQ&rsquo;s website; +25 more",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-09-09T05:31:59.762Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "016fe23365e625038faa",
+            "title": "Queensland Redistribution Commission",
+            "url": "https://www.ecq.qld.gov.au/media/?a&equals;88259"
+          },
+          {
+            "record_id": "0318446148f2b4ef3402",
+            "title": "Proposed State electoral redistribution",
+            "url": "https://www.ecq.qld.gov.au/media/?a&equals;100215"
+          },
+          {
+            "record_id": "098e958ba727b2df95e3",
+            "title": "fact sheets",
+            "url": "https://www.ecq.qld.gov.au/election-participants/handbooks,-fact-sheets-and-forms"
+          },
+          {
+            "record_id": "0bb1d34a71d09a16ef5c",
+            "title": "Find My Polling Booth website",
+            "url": "https://ecq.qld.gov.au/StaffordVoting"
+          },
+          {
+            "record_id": "0f412e0b3002fa5a3425",
+            "title": "ECQ&rsquo;s website",
+            "url": "https://www.ecq.qld.gov.au/elections/election-events/pormpuraaw-aboriginal-shire-council-by-election"
+          },
+          {
+            "record_id": "2039d463f9e67dab844e",
+            "title": "ECQ website.",
+            "url": "https://www.ecq.qld.gov.au/elections/election-events/stafford-state-by-election"
+          },
+          {
+            "record_id": "2682ad1e2059eacbe901",
+            "title": "Election Participants",
+            "url": "https://www.ecq.qld.gov.au/election-participants/local-election-participants"
+          },
+          {
+            "record_id": "274979ed6064706f7d40",
+            "title": "ecq.qld.gov.au/QRCconsultation",
+            "url": "https://comms.ecq.qld.gov.au/ch/110299/1h9n5/1020/d_oAvWVxwW1_ZJbxo22AA7.oPI7WRdU_B4YHIOtw.html"
+          },
+          {
+            "record_id": "2a1bcd19feb04c4e51e8",
+            "title": "Watch this video",
+            "url": "https://comms.ecq.qld.gov.au/ch/110299/1hd1c/1030/STXIcQSfYjutxl7_4VEuJ3NJ6iOJzmlCBRdbn6Ti.html"
+          },
+          {
+            "record_id": "33575a39f085c55911ef",
+            "title": "Watch this video",
+            "url": "https://comms.ecq.qld.gov.au/ch/110299/1hd1c/1029/STXIcQSfYjutxl7_4VEuECuC98aBHTGt.4sgnKml.html"
+          },
+          {
+            "record_id": "3562bb83aa838b989a3c",
+            "title": "redistribution.ecq.qld.gov.au",
+            "url": "https://comms.ecq.qld.gov.au/ch/110299/1h9n5/813/d_oAvWVxwW1_ZJbxo22AhMTRsaonAZQYjkAZ_iBL.html"
+          },
+          {
+            "record_id": "4abacf64593a4735abe2",
+            "title": "local government election participants",
+            "url": "https://www.ecq.qld.gov.au/election-participants/local-election-participants"
+          },
+          {
+            "record_id": "4b460a8e8c546d24f028",
+            "title": "Stafford by-election infographic",
+            "url": "https://www.ecq.qld.gov.au/__data/assets/pdf_file/0019/103951/20260514-Stafford-infographic.pdf"
+          },
+          {
+            "record_id": "4f4e67a2d8952a5c75fe",
+            "title": "ecq.qld.gov.au/Stafford",
+            "url": "https://ecq.qld.gov.au/Stafford"
+          },
+          {
+            "record_id": "4f7ab6545fcdd46a402f",
+            "title": "ECQ&rsquo;s website",
+            "url": "https://www.ecq.qld.gov.au/elections/election-events/winton-shire-council-by-election"
+          },
+          {
+            "record_id": "4fdb4686d1225fec7d3f",
+            "title": "Watch this video",
+            "url": "https://comms.ecq.qld.gov.au/ch/110299/1hd1c/1050/STXIcQSfYjutxl7_4VEugwzR1JLBq__g24ELx_OG.html"
+          },
+          {
+            "record_id": "54d56b83b62130edc10f",
+            "title": "ECQ&rsquo;s website",
+            "url": "https://ecq.qld.gov.au/Townsville"
+          },
+          {
+            "record_id": "57d08e6a8401cf33d127",
+            "title": "ECQ&rsquo;s website",
+            "url": "https://www.ecq.qld.gov.au/elections/election-events/tablelands-regional-council-by-election"
+          },
+          {
+            "record_id": "75259ac6a5188de3d932",
+            "title": "ECQ website",
+            "url": "https://ecq.qld.gov.au/Tablelands"
+          },
+          {
+            "record_id": "76367ce1e7ccca76b438",
+            "title": "ecq.qld.gov.au/pormpuraaw",
+            "url": "https://www.ecq.qld.gov.au/elections/election-events/pormpuraaw-aboriginal-shire-council-by-election"
+          },
+          {
+            "record_id": "77899a99461cd49bd749",
+            "title": "Skip to main content",
+            "url": "https://www.ecq.qld.gov.au/media/2026-media-statements"
+          },
+          {
+            "record_id": "8f846d026d7992f74ad9",
+            "title": "media@ecq.qld.gov.au",
+            "url": "https://comms.ecq.qld.gov.au/ch/110299/1h9n5/1019/d_oAvWVxwW1_ZJbxo22ArhmL1YhRUqOi226qrogy.html"
+          },
+          {
+            "record_id": "9c7437758d9024821613",
+            "title": "http://www.ecq.qld.gov.au/mapoon",
+            "url": "https://www.ecq.qld.gov.au/mapoon"
+          },
+          {
+            "record_id": "9ff68c41aea5ce5656b4",
+            "title": "ECQ&rsquo;s Where is my electorate?",
+            "url": "https://www.ecq.qld.gov.au/electoral-boundaries/where-is-my-electorate"
+          },
+          {
+            "record_id": "abd523512e56bf347947",
+            "title": "ECQ website",
+            "url": "https://www.ecq.qld.gov.au/elections/election-events/stafford-state-by-election"
+          },
+          {
+            "record_id": "ae282fc62f0e68b3ef13",
+            "title": "Current state electorate maps",
+            "url": "https://www.ecq.qld.gov.au/media/?a&equals;90319"
+          },
+          {
+            "record_id": "cd436c1ccfdd637b9f52",
+            "title": "ECQ&rsquo;s website",
+            "url": "https://ecq.qld.gov.au/Winton"
+          },
+          {
+            "record_id": "d4d3802fa1a03ab9d7aa",
+            "title": "ECQ website",
+            "url": "https://www.ecq.qld.gov.au/elections/election-events/winton-shire-council-by-election"
+          },
+          {
+            "record_id": "d97e6ae51d692ccac92b",
+            "title": "Guidelines for public submissions",
+            "url": "https://www.ecq.qld.gov.au/media/?a&equals;91910"
+          },
+          {
+            "record_id": "efebabc13b7a08c57df7",
+            "title": "ecq.qld.gov.au/Stafford",
+            "url": "https://www.ecq.qld.gov.au/elections/election-events/stafford-state-by-election"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "01f8ec7099d6c76b608f",
+            "title": "Stretton By-election",
+            "url": "https://www.ecq.qld.gov.au/elections/election-events/2021-election-events/stretton-by-election"
+          },
+          {
+            "record_id": "0517532ad84f3f3cb3d0",
+            "title": "2024 Ipswich City Council Division 4 by-election",
+            "url": "https://www.ecq.qld.gov.au/?a&equals;81157"
+          },
+          {
+            "record_id": "0867003593536d776e24",
+            "title": "Richmond Shire Council Councillor By-election",
+            "url": "https://www.ecq.qld.gov.au/elections/election-events/2021-election-events/richmond-shire-council-by-election"
+          },
+          {
+            "record_id": "0f3172a1d30314fc10c5",
+            "title": "Cassowary Coast Regional Council Councillor By-election",
+            "url": "https://www.ecq.qld.gov.au/elections/election-events/2021-election-events/cassowary-coast-shire-council-by-election"
+          },
+          {
+            "record_id": "1046790050ff97a9f437",
+            "title": "Richmond Shire Council Councillor by-election",
+            "url": "https://www.ecq.qld.gov.au/elections/election-events/2022-election-events/richmond-shire-council-councillor-by-election"
+          },
+          {
+            "record_id": "1141d4155cb122cde6a1",
+            "title": "Division 4 of the Ipswich City Council",
+            "url": "https://www.ecq.qld.gov.au/?a&equals;81157"
+          },
+          {
+            "record_id": "1227ed06001862b79367",
+            "title": "Find a polling booth",
+            "url": "https://www.ecq.qld.gov.au/?a&equals;17375"
+          },
+          {
+            "record_id": "1248fcb80f73e0e0daee",
+            "title": "Early voting",
+            "url": "https://www.ecq.qld.gov.au/&"
+          },
+          {
+            "record_id": "156bf87c13f2da94f0c5",
+            "title": "2025 Townsville City Council by-election",
+            "url": "https://www.ecq.qld.gov.au/elections/election-events/2025-election-events/townsville-city-council-mayoral-by-election"
+          },
+          {
+            "record_id": "16b340bf05a38db3bd02",
+            "title": "Diamantina Shire Council Councillor by-election",
+            "url": "https://www.ecq.qld.gov.au/elections/election-events/2022-election-events/diamantina-shire-council-councillor-by-election"
+          },
+          {
+            "record_id": "18dff8a69cbdb69d218c",
+            "title": "Callide by-election",
+            "url": "https://www.ecq.qld.gov.au/elections/election-events/2022-election-events/callide-by-election2"
+          },
+          {
+            "record_id": "193bb75844b0b7521e40",
+            "title": "Get ready to vote local",
+            "url": "https://www.ecq.qld.gov.au/?a&equals;59332"
+          },
+          {
+            "record_id": "1a79e3874842c0a49e72",
+            "title": "2024 local government elections",
+            "url": "https://www.ecq.qld.gov.au/?a&equals;59332"
+          },
+          {
+            "record_id": "1b0f935cfd715eebf3e1",
+            "title": "View the results",
+            "url": "https://www.ecq.qld.gov.au/&"
+          },
+          {
+            "record_id": "1f226fa773c0828af4ef",
+            "title": "Townsville City Council By-election",
+            "url": "https://www.ecq.qld.gov.au/elections/election-events/2021-election-events/townsville-city-council-by-election"
+          },
+          {
+            "record_id": "1f886829c1ed120602db",
+            "title": "Aurukun by-election",
+            "url": "https://www.ecq.qld.gov.au/elections/election-events/2020-election-events2/aurukun-by-election"
+          },
+          {
+            "record_id": "280ac8d584cf21f9e79b",
+            "title": "Click here to read the 2026 media statements.",
+            "url": "https://www.ecq.qld.gov.au/media/2026-media-statements"
+          },
+          {
+            "record_id": "281dc9ea800456c7875a",
+            "title": "Information for election participants",
+            "url": "https://www.ecq.qld.gov.au/?a&equals;12060"
+          },
+          {
+            "record_id": "30012b6f5fc079ac0472",
+            "title": "Mapoon Aboriginal Shire Council Councillor By-election",
+            "url": "https://www.ecq.qld.gov.au/elections/election-events/2021-election-events/mapoon-aboriginal-shire-council-by-election"
+          },
+          {
+            "record_id": "33585b6da3da64c6ada7",
+            "title": "2025 Hinchinbrook State by-election",
+            "url": "https://www.ecq.qld.gov.au/elections/election-events/2025-election-events/hinchinbrook-by-election"
+          },
+          {
+            "record_id": "345e7828e447f5cb4673",
+            "title": "2024 Local government elections",
+            "url": "https://www.ecq.qld.gov.au/elections/election-events/2024-election-events/2024-local-government-elections"
+          },
+          {
+            "record_id": "363e2e5f6c3c0737ffe3",
+            "title": "Queensland State General Election",
+            "url": "https://www.ecq.qld.gov.au/elections/election-events/2024-state-general-election"
+          },
+          {
+            "record_id": "399406ea24674d10368a",
+            "title": "Electronic Disclosure System (EDS)",
+            "url": "https://www.ecq.qld.gov.au/_resource/resource-links/external-links/httpsdisclosures.ecq.qld.gov.au"
+          },
+          {
+            "record_id": "3bdfe36316391edd401b",
+            "title": "2026 Pormpuraaw Aboriginal Shire Council by-election",
+            "url": "https://www.ecq.qld.gov.au/elections/election-events/pormpuraaw-aboriginal-shire-council-by-election"
+          },
+          {
+            "record_id": "3cdea4e5a84ba3d9d926",
+            "title": "2026 Winton Shire Council by-election",
+            "url": "https://www.ecq.qld.gov.au/elections/election-events/winton-shire-council-by-election"
+          },
+          {
+            "record_id": "3f3d4b9123f38ea2230f",
+            "title": "Whitsunday Regional Council Division 2 Councillor by-election",
+            "url": "https://www.ecq.qld.gov.au/elections/election-events/2022-election-events/whitsunday-regional-council-division-2-councillor-by-election"
+          },
+          {
+            "record_id": "4781f33a6eaee540b41d",
+            "title": "Carpentaria Shire Council Councillor By-election",
+            "url": "https://www.ecq.qld.gov.au/elections/election-events/2021-election-events/carpentaria-shire-council-by-election"
+          },
+          {
+            "record_id": "4e463ff276f7f1289089",
+            "title": "Visit the Election Events page to find out more.",
+            "url": "https://www.ecq.qld.gov.au/?a&equals;1143"
+          },
+          {
+            "record_id": "544b966e05fee35bb421",
+            "title": "Torres Strait Island Regional Council By-election",
+            "url": "https://www.ecq.qld.gov.au/elections/election-events/2020-election-events2/torres-strait-island-by-election"
+          },
+          {
+            "record_id": "5752ec4e1c1307d3b3f9",
+            "title": "North Burnett Regional Council Division 2 by-election",
+            "url": "https://www.ecq.qld.gov.au/elections/election-events/2022-election-events/north-burnett-regional-council-division-2-by-election"
+          },
+          {
+            "record_id": "579f400bd0b3c2c925d9",
+            "title": "Need to contact us?",
+            "url": "https://www.ecq.qld.gov.au/about-us/contact-us"
+          },
+          {
+            "record_id": "5b80bd34fb2a449428b1",
+            "title": "Whitsunday Regional Council Mayoral by-election",
+            "url": "https://www.ecq.qld.gov.au/elections/election-events/2022-election-events/whitsunday-regional-council-mayoral-by-election"
+          },
+          {
+            "record_id": "5d598137ef89f1f9a3ff",
+            "title": "Find out more about the Queensland Redistribution Commission",
+            "url": "https://redistribution.ecq.qld.gov.au/home"
+          },
+          {
+            "record_id": "60a1d9917744182208bd",
+            "title": "2025 Somerset Regional Council by-election",
+            "url": "https://www.ecq.qld.gov.au/elections/election-events/2025-election-events/somerset-regional-council-by-election"
+          },
+          {
+            "record_id": "60bf88986350696e049e",
+            "title": "View the Writ",
+            "url": "https://www.ecq.qld.gov.au/?a&equals;81906"
+          },
+          {
+            "record_id": "617a6a4d36d5bf6352c6",
+            "title": "Yarrabah Aboriginal Shire Council Councillor by-election",
+            "url": "https://www.ecq.qld.gov.au/elections/election-events/2022-election-events/yarrabah-aboriginal-shire-council-councillor-by-election"
+          },
+          {
+            "record_id": "65c7b45670a7ded171a6",
+            "title": "2024 State General Election",
+            "url": "https://www.ecq.qld.gov.au/elections/election-events/2024-election-events/2024-state-general-election"
+          },
+          {
+            "record_id": "6ad82632f52484a207d0",
+            "title": "Moreton Bay Regional Council Division 7 By-election",
+            "url": "https://www.ecq.qld.gov.au/elections/election-events/2021-election-events/moreton-bay-regional-council-division-7-by-election"
+          },
+          {
+            "record_id": "6c66193632b93210628c",
+            "title": "Find out more about the local government elections.",
+            "url": "https://www.ecq.qld.gov.au/?a&equals;59332"
+          },
+          {
+            "record_id": "70c4a7c68f9f40b88253",
+            "title": "State General Election",
+            "url": "https://www.ecq.qld.gov.au/?a&equals;77056"
+          },
+          {
+            "record_id": "70f336899c29caa14fc1",
+            "title": "Voting locations will be open between 8am and 6pm.",
+            "url": "https://www.ecq.qld.gov.au/&"
+          },
+          {
+            "record_id": "72cea9a2bc5e18eee53a",
+            "title": "2024 State General Election",
+            "url": "https://www.ecq.qld.gov.au/elections/election-events/2024-state-general-election"
+          },
+          {
+            "record_id": "739cdb990a70831b1554",
+            "title": "2025 Balonne Shire Council Councillor by-election",
+            "url": "https://www.ecq.qld.gov.au/elections/election-events/2025-election-events/balonne-shirecouncil"
+          },
+          {
+            "record_id": "79a2e30ff2c792cfbf53",
+            "title": "Napranum Aboriginal Shire Council Councillor by-election",
+            "url": "https://www.ecq.qld.gov.au/elections/election-events/2022-election-events/napranum-aboriginal-shire-council-councillor-by-election"
+          },
+          {
+            "record_id": "7bc204e751cadf3babd2",
+            "title": "Mornington Shire Council by-election",
+            "url": "https://www.ecq.qld.gov.au/elections/election-events/2024-election-events/mornington-shire-council-by-election"
+          },
+          {
+            "record_id": "7ec83423ee7befd1cc5b",
+            "title": "Try a job with us on for size!",
+            "url": "https://www.ecq.qld.gov.au/?a&equals;958"
+          },
+          {
+            "record_id": "7ee0ace5d9c0f2438ea5",
+            "title": "Find out more about the Mornington Shire Council by-election here.",
+            "url": "https://www.ecq.qld.gov.au/?a&equals;77021"
+          },
+          {
+            "record_id": "7fe7c14db249ce2fe180",
+            "title": "Scenic Rim Regional Council Division 1 by-election",
+            "url": "https://www.ecq.qld.gov.au/elections/election-events/2023-election-events/scenic-rim-regional-council-division-1-by-election"
+          },
+          {
+            "record_id": "836e576287100ed1836c",
+            "title": "Townsville City Council Division 1 by‑election",
+            "url": "https://www.ecq.qld.gov.au/elections/election-events/townsville-city-council-division-1-by-election"
+          },
+          {
+            "record_id": "8716e00f483325af7b02",
+            "title": "Kowanyama Aboriginal Shire Council Councillor by-election",
+            "url": "https://www.ecq.qld.gov.au/elections/election-events/2022-election-events/kowanyama-aboriginal-shire-council-councillor-by-election"
+          },
+          {
+            "record_id": "88b737d57511ddba3459",
+            "title": "View results.",
+            "url": "https://www.ecq.qld.gov.au/&"
+          },
+          {
+            "record_id": "8eba6d9a64cc4635eb24",
+            "title": "2026 Tablelands Regional Council by-election",
+            "url": "https://www.ecq.qld.gov.au/elections/election-events/tablelands-regional-council-by-election"
+          },
+          {
+            "record_id": "9314acd6f4dbfcdb8bae",
+            "title": "Skip to main content",
+            "url": "https://www.ecq.qld.gov.au/home"
+          },
+          {
+            "record_id": "963abecfaeab1d68bfce",
+            "title": "2026 Central Highlands Regional Council by-election",
+            "url": "https://www.ecq.qld.gov.au/elections/election-events/central-highlands-regional-council-by-election"
+          },
+          {
+            "record_id": "975a5f917271dae088f3",
+            "title": "Longreach Regional Council Councillor by-election",
+            "url": "https://www.ecq.qld.gov.au/elections/election-events/2023-election-events/longreach-regional-council-councillor-by-election"
+          },
+          {
+            "record_id": "9902dfda77336511012d",
+            "title": "Read the election report",
+            "url": "https://www.ecq.qld.gov.au/?a&equals;91626"
+          },
+          {
+            "record_id": "9c1ba941183854637b0b",
+            "title": "Barcoo Shire Council By-election",
+            "url": "https://www.ecq.qld.gov.au/elections/election-events/2021-election-events/bsc"
+          },
+          {
+            "record_id": "9c600b1969235c285ce5",
+            "title": "Currumbin by-election",
+            "url": "https://www.ecq.qld.gov.au/elections/election-events/2020-election-events2/currumbin-by-election"
+          },
+          {
+            "record_id": "a0031406de881156d663",
+            "title": "2026 Mapoon Aboriginal Shire Council by-election",
+            "url": "https://www.ecq.qld.gov.au/elections/election-events/mapoon-aboriginal-shire-council-by-election"
+          },
+          {
+            "record_id": "a06162228b6c953b7f81",
+            "title": "Isaac Regional Council Division 6 By-election",
+            "url": "https://www.ecq.qld.gov.au/elections/election-events/2021-election-events/isaac-regional-council-by-election"
+          },
+          {
+            "record_id": "a27b28e2b978643cb230",
+            "title": "Northern Peninsula Area Regional Council Division 5 By-election",
+            "url": "https://www.ecq.qld.gov.au/elections/election-events/2021-election-events/northern-peninsula-area-regional-council-division-5-by-election"
+          },
+          {
+            "record_id": "a304aa26cbcc3063a559",
+            "title": "Balonne Shire Council Councillor by-election",
+            "url": "https://www.ecq.qld.gov.au/?external-uuid=8487ae65-77f1-4c34-b198-c93a7911617d"
+          },
+          {
+            "record_id": "a89f52760faca53b8038",
+            "title": "2025 Mackay Regional Council Councillor by-election",
+            "url": "https://www.ecq.qld.gov.au/elections/election-events/2025-election-events/mackay-regional-council-by-election"
+          },
+          {
+            "record_id": "aa7f800dddcc3a2758cc",
+            "title": "View election results",
+            "url": "https://www.ecq.qld.gov.au/&"
+          },
+          {
+            "record_id": "aa8cf6f8b089077b2ab7",
+            "title": "Election participants",
+            "url": "https://www.ecq.qld.gov.au/?a&equals;11601"
+          },
+          {
+            "record_id": "af2bd5379c6cde75a169",
+            "title": "Find your nearest polling booth here.",
+            "url": "https://www.ecq.qld.gov.au/2024sge_booths"
+          },
+          {
+            "record_id": "b1b560fc5729bd63cd33",
+            "title": "North Burnett Regional Council Mayoral by-election",
+            "url": "https://www.ecq.qld.gov.au/elections/election-events/2022-election-events/north-burnett-regional-council-mayoral-by-election"
+          },
+          {
+            "record_id": "b3838aaddd53d0ec5083",
+            "title": "State General Election",
+            "url": "https://www.ecq.qld.gov.au/elections/election-events/2024-state-general-election"
+          },
+          {
+            "record_id": "b7c22e9701b849403c46",
+            "title": "Inala and Ipswich West State by&#8209;elections",
+            "url": "https://www.ecq.qld.gov.au/elections/election-events/2024-election-events/inala-and-ipswich-west-by-elections"
+          },
+          {
+            "record_id": "b81bd71c1d25dac58f9a",
+            "title": "Tablelands Regional Council mayoral by‑election",
+            "url": "https://www.ecq.qld.gov.au/elections/election-events/tablelands-regional-council-by-election"
+          },
+          {
+            "record_id": "bd86e72a82a24c73c0de",
+            "title": "Check your enrolment",
+            "url": "https://www.ecq.qld.gov.au/aec"
+          },
+          {
+            "record_id": "c0a4b2de329aacd13453",
+            "title": "2025 Moreton Bay City Council by-election",
+            "url": "https://www.ecq.qld.gov.au/elections/election-events/2025-election-events/moreton-bay-city-council-division-11-by-election"
+          },
+          {
+            "record_id": "c43dbc048c44433a63e3",
+            "title": "Find an early voting centre",
+            "url": "https://www.ecq.qld.gov.au/?a&equals;71448"
+          },
+          {
+            "record_id": "c686d0bf7d9ac84a14b0",
+            "title": "Check out the election daily summaries.",
+            "url": "https://www.ecq.qld.gov.au/media/2024-state-general-election-daily-updates"
+          },
+          {
+            "record_id": "cbe5161d1d483d17416b",
+            "title": "Check out the election daily summaries",
+            "url": "https://www.ecq.qld.gov.au/?a&equals;84619"
+          },
+          {
+            "record_id": "d1f4ab495be48006d090",
+            "title": "Torres Shire Council Mayoral by-election",
+            "url": "https://www.ecq.qld.gov.au/elections/election-events/2022-election-events/torres-shire-council-mayoral-by-election"
+          },
+          {
+            "record_id": "d356b2a1f9b3893806ae",
+            "title": "Find out more about the State General Election.",
+            "url": "https://www.ecq.qld.gov.au/?a&equals;77056"
+          },
+          {
+            "record_id": "d79c1da68f75a0d313f2",
+            "title": "Check out the election daily summaries.",
+            "url": "https://www.ecq.qld.gov.au/?a&equals;84619"
+          },
+          {
+            "record_id": "d8038a2b4ec7b82cd8e5",
+            "title": "2026 Townsville City Council by&#8209;election",
+            "url": "https://www.ecq.qld.gov.au/elections/election-events/townsville-city-council-division-1-by-election"
+          },
+          {
+            "record_id": "db9eb25a14ebd111175a",
+            "title": "Rockhampton Regional Council Division 3 By-election",
+            "url": "https://www.ecq.qld.gov.au/elections/election-events/2021-election-events/rockhampton-regional-council-division-3-by-election"
+          },
+          {
+            "record_id": "dd0f5749ca4a219558b2",
+            "title": "2024 Ipswich City Council Division 4 by-election",
+            "url": "https://www.ecq.qld.gov.au/elections/election-events/2024-election-events/ipswich-city-council-division-4-by-election"
+          },
+          {
+            "record_id": "ddcf7dac0983c210b819",
+            "title": "Polling Day - Torres Strait Island Regional Council",
+            "url": "https://www.ecq.qld.gov.au/_resource/documents/pdf/elections/election-events/lge/2024/2024-lge/TSIRC-Mobile-polling-and-voting-schedule_03042024.pdf"
+          },
+          {
+            "record_id": "de7540f2d9fd1f7c8a7c",
+            "title": "South Burnett Regional Council Division 1 by-election",
+            "url": "https://www.ecq.qld.gov.au/elections/election-events/2022-election-events/south-burnett-regional-council-division-1-by-election"
+          },
+          {
+            "record_id": "e0b1829099aef0ccfcf1",
+            "title": "2025 Mareeba Shire Council Councillor by-election",
+            "url": "https://www.ecq.qld.gov.au/elections/election-events/2025-election-events/mareeba-shire-council-by-election"
+          },
+          {
+            "record_id": "e2494bcc2b27f0d9add0",
+            "title": "Do I have to vote?",
+            "url": "https://www.ecq.qld.gov.au/?a&equals;57150"
+          },
+          {
+            "record_id": "e91c9722fa0d13222492",
+            "title": "Read the election daily summaries",
+            "url": "https://www.ecq.qld.gov.au/?a&equals;84619"
+          },
+          {
+            "record_id": "e9bd6512ae759c22c5b1",
+            "title": "Read the 2024 State General Election Service Plan here.",
+            "url": "https://www.ecq.qld.gov.au/?a&equals;78670"
+          },
+          {
+            "record_id": "eb3d794b8261ab19d433",
+            "title": "Mapoon Aboriginal Shire Council Councillor by-election",
+            "url": "https://www.ecq.qld.gov.au/elections/election-events/2023-election-events/mapoon-aboriginal-shire-council-councillor-by-election"
+          },
+          {
+            "record_id": "ec265e7381cfe1a73bef",
+            "title": "Election results",
+            "url": "https://www.ecq.qld.gov.au/results"
+          },
+          {
+            "record_id": "ef0d2ce959188d27c279",
+            "title": "Did I have to vote?",
+            "url": "https://www.ecq.qld.gov.au/how-to-vote/do-i-have-to-vote"
+          },
+          {
+            "record_id": "f023e6d2ec711393006a",
+            "title": "Check or update your details",
+            "url": "https://www.ecq.qld.gov.au/enrolment/enrol-or-update-your-enrolment"
+          },
+          {
+            "record_id": "f0d12957267fda85737a",
+            "title": "View the Writ.",
+            "url": "https://www.ecq.qld.gov.au/?a&equals;81906"
+          },
+          {
+            "record_id": "f60a1ad1d7c2bba4e8f0",
+            "title": "2026 Stafford State by-election",
+            "url": "https://www.ecq.qld.gov.au/elections/election-events/stafford-state-by-election"
+          },
+          {
+            "record_id": "fb01b1c42a726be8a80a",
+            "title": "Winton Shire Council By-election",
+            "url": "https://www.ecq.qld.gov.au/elections/election-events/2021-election-events/winton-shire-council-by-election"
+          },
+          {
+            "record_id": "fc99bf0154d876b0ae54",
+            "title": "Election Facts",
+            "url": "https://www.ecq.qld.gov.au/tools-and-resources/electionfacts"
+          },
+          {
+            "record_id": "fd896e4547f51ac6a66e",
+            "title": "Woorabinda Aboriginal Shire Council Councillor by-election",
+            "url": "https://www.ecq.qld.gov.au/elections/election-events/2023-election-events/woorabinda-aboriginal-shire-council-councillor-by-election"
+          },
+          {
+            "record_id": "fe3b5f02f2ea380b430e",
+            "title": "Rockhampton Regional Council By-election",
+            "url": "https://www.ecq.qld.gov.au/elections/election-events/2021-election-events/rockhampton-regional-council-by-election"
+          },
+          {
+            "record_id": "fff6bd617262eecf117a",
+            "title": "2020 State General Election",
+            "url": "https://www.ecq.qld.gov.au/elections/election-events/2020-election-events2/2020-state-general-election"
+          }
+        ],
+        "delta_hash": "2794a2a12406bf7432e143fe8fc440b665444eab44e3a0f9cc093663edf2d6dc"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-TAS-PREMIER-NEWS-20260909053055",
+      "source_change_event_id": "CHG-WATCH-TAS-PREMIER-NEWS-20260909053055",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-TAS-PREMIER-NEWS-20260909053055",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Premier of Tasmania — latest news added 5 structured publication records to its forward-captured official index: Working together to help protect our threatened species 7 September 2026 Tasmanians are being encouraged to work together to protect our unique flora and fauna this Threatened Species Day, with a new round of cons...; Paper titles cut from property transactions 7 September 2026 The Tasmanian Government has made it faster, simpler and safer to make property transactions, with paper certificates of title removed from ...; Tasmania’s tourism industry full steam ahead for Spirit’s inaugural sailing 7 September 2026 Preparations are being finalised for the launch of Spirit of Tasmania&rsquo;s new vessels, with Tourism Tasmania working with industry to bu...; Clear expectations for data centres and AI infrastructure 7 September 2026 The Tasmanian Government has released its draft Expectations for Data Centres and AI Infrastructure.Minister for Business, Industry and Reso...; Skip to content",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-09-09T05:31:59.762Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "1380674db0bf814247ef",
+            "title": "Working together to help protect our threatened species 7 September 2026 Tasmanians are being encouraged to work together to protect our unique flora and fauna this Threatened Species Day, with a new round of cons...",
+            "url": "https://www.premier.tas.gov.au/latest-news/2026/september/working-together-to-help-protect-our-threatened-species"
+          },
+          {
+            "record_id": "26966632f7c5572725d3",
+            "title": "Paper titles cut from property transactions 7 September 2026 The Tasmanian Government has made it faster, simpler and safer to make property transactions, with paper certificates of title removed from ...",
+            "url": "https://www.premier.tas.gov.au/latest-news/2026/september/paper-titles-cut-from-property-transactions"
+          },
+          {
+            "record_id": "9187be13c3c0412ea6bb",
+            "title": "Tasmania’s tourism industry full steam ahead for Spirit’s inaugural sailing 7 September 2026 Preparations are being finalised for the launch of Spirit of Tasmania&rsquo;s new vessels, with Tourism Tasmania working with industry to bu...",
+            "url": "https://www.premier.tas.gov.au/latest-news/2026/september/tasmanias-tourism-industry-full-steam-ahead-for-spirits-inaugural-sailing"
+          },
+          {
+            "record_id": "9a575440a98cf4041fd6",
+            "title": "Clear expectations for data centres and AI infrastructure 7 September 2026 The Tasmanian Government has released its draft Expectations for Data Centres and AI Infrastructure.Minister for Business, Industry and Reso...",
+            "url": "https://www.premier.tas.gov.au/latest-news/2026/september/clear-expectations-for-data-centres-and-ai-infrastructure"
+          },
+          {
+            "record_id": "d7a1477e0a98625953b3",
+            "title": "Skip to content",
+            "url": "https://www.premier.tas.gov.au/latest-news"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "5503ad540fbf99bf866e",
+            "title": "2030 Strong Plan for Tasmania’s Future",
+            "url": "https://www.premier.tas.gov.au/our-plan"
+          },
+          {
+            "record_id": "5c58e4f76fec3a1ce5fe",
+            "title": "Contact your Premier",
+            "url": "https://www.premier.tas.gov.au/contact"
+          },
+          {
+            "record_id": "7984975787b4ef2c7007",
+            "title": "Budget 2026-27",
+            "url": "https://www.premier.tas.gov.au/budget-2026"
+          },
+          {
+            "record_id": "bff1215bcb385f2f222a",
+            "title": "300 days of delivering for Tasmania",
+            "url": "https://www.premier.tas.gov.au/__data/assets/pdf_file/0027/517923/2026-Third-100-Days-of-Delivery_Digital.pdf"
+          }
+        ],
+        "delta_hash": "4c2582dad3c0d1e3c0e9fda9896e36d183c1739bbd1f72c0463c304156c419f8"
       },
       "integrity": {
         "source_change_unchanged": true,

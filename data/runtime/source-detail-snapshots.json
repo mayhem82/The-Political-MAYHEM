@@ -1,0 +1,19 @@
+{
+  "ledger_id": "POLITICAL-MAYHEM-SOURCE-DETAIL-SNAPSHOTS-001",
+  "status": "ACTIVE",
+  "updated_at": null,
+  "rules": {
+    "detail_id_is_stable_per_source_record": true,
+    "underlying_record_url_required": true,
+    "captured_at_required": true,
+    "content_hash_required_for_success": true,
+    "source_change_and_review_lineage_retained": true,
+    "record_body_preserved_when_publicly_accessible": true,
+    "record_body_may_be_bounded_but_truncation_must_be_explicit": true,
+    "failed_acquisition_is_not_silently_dropped": true,
+    "later_success_does_not_erase_prior_failure_attempts": true,
+    "detail_capture_does_not_by_itself_establish_political_significance": true
+  },
+  "records": [],
+  "attempts": []
+}

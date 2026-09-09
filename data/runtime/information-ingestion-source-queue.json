@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-MAYHEM-INFORMATION-SOURCE-QUEUE-001",
   "status": "ACTIVE",
-  "updated_at": null,
+  "updated_at": "2026-09-09T01:06:57.779Z",
   "rules": {
     "queue_is_derived_from_area_coverage": true,
     "source_path_gap_has_highest_priority": true,
@@ -10,5 +10,1580 @@
     "active_evidence_cells_are_not_queued": true,
     "one_queue_item_represents_one_jurisdiction_area_gap": true
   },
-  "items": []
+  "items": [
+    {
+      "queue_id": "INGEST-AUS-ACT-BUDGET",
+      "priority": 1,
+      "jurisdiction_id": "AUS-ACT",
+      "competition_class": "BUDGET",
+      "coverage_state": "SOURCE_PATH_GAP",
+      "action": "ADD_MISSING_SOURCE_CLASS_WATCH",
+      "reason": "Missing required source group(s): PRIMARY_PARTY OR PRIMARY_ACTOR",
+      "missing_source_groups": [
+        [
+          "PRIMARY_PARTY",
+          "PRIMARY_ACTOR"
+        ]
+      ],
+      "existing_relevant_watch_ids": [
+        "WATCH-ACT-PARLIAMENT",
+        "WATCH-ACT-GOV-MEDIA"
+      ],
+      "existing_detail_capable_watch_ids": [
+        "WATCH-ACT-GOV-MEDIA"
+      ],
+      "substantive_area_evidence_count": 0,
+      "completion_condition": "Coverage cell reaches SUBSTANTIVE_EVIDENCE_ACTIVE with retained substantive-detail lineage.",
+      "state": "OPEN"
+    },
+    {
+      "queue_id": "INGEST-AUS-ACT-CONFIDENCE_SUPPLY",
+      "priority": 1,
+      "jurisdiction_id": "AUS-ACT",
+      "competition_class": "CONFIDENCE_SUPPLY",
+      "coverage_state": "SOURCE_PATH_GAP",
+      "action": "ADD_MISSING_SOURCE_CLASS_WATCH",
+      "reason": "Missing required source group(s): PRIMARY_PARTY OR PRIMARY_ACTOR",
+      "missing_source_groups": [
+        [
+          "PRIMARY_PARTY",
+          "PRIMARY_ACTOR"
+        ]
+      ],
+      "existing_relevant_watch_ids": [
+        "WATCH-ACT-PARLIAMENT"
+      ],
+      "existing_detail_capable_watch_ids": [],
+      "substantive_area_evidence_count": 0,
+      "completion_condition": "Coverage cell reaches SUBSTANTIVE_EVIDENCE_ACTIVE with retained substantive-detail lineage.",
+      "state": "OPEN"
+    },
+    {
+      "queue_id": "INGEST-AUS-ACT-LEADERSHIP",
+      "priority": 1,
+      "jurisdiction_id": "AUS-ACT",
+      "competition_class": "LEADERSHIP",
+      "coverage_state": "SOURCE_PATH_GAP",
+      "action": "ADD_MISSING_SOURCE_CLASS_WATCH",
+      "reason": "Missing required source group(s): PRIMARY_PARTY OR PRIMARY_ACTOR",
+      "missing_source_groups": [
+        [
+          "PRIMARY_PARTY",
+          "PRIMARY_ACTOR"
+        ]
+      ],
+      "existing_relevant_watch_ids": [
+        "WATCH-ACT-PARLIAMENT"
+      ],
+      "existing_detail_capable_watch_ids": [],
+      "substantive_area_evidence_count": 0,
+      "completion_condition": "Coverage cell reaches SUBSTANTIVE_EVIDENCE_ACTIVE with retained substantive-detail lineage.",
+      "state": "OPEN"
+    },
+    {
+      "queue_id": "INGEST-AUS-ACT-PUBLIC_PRESSURE",
+      "priority": 1,
+      "jurisdiction_id": "AUS-ACT",
+      "competition_class": "PUBLIC_PRESSURE",
+      "coverage_state": "SOURCE_PATH_GAP",
+      "action": "ADD_MISSING_SOURCE_CLASS_WATCH",
+      "reason": "Missing required source group(s): PRIMARY_PUBLIC_ACTOR OR PRIMARY_COMMUNITY OR PRIMARY_CAMPAIGN OR PRIMARY_PETITION",
+      "missing_source_groups": [
+        [
+          "PRIMARY_PUBLIC_ACTOR",
+          "PRIMARY_COMMUNITY",
+          "PRIMARY_CAMPAIGN",
+          "PRIMARY_PETITION"
+        ]
+      ],
+      "existing_relevant_watch_ids": [
+        "WATCH-ACT-PARLIAMENT",
+        "WATCH-ACT-GOV-MEDIA"
+      ],
+      "existing_detail_capable_watch_ids": [
+        "WATCH-ACT-GOV-MEDIA"
+      ],
+      "substantive_area_evidence_count": 0,
+      "completion_condition": "Coverage cell reaches SUBSTANTIVE_EVIDENCE_ACTIVE with retained substantive-detail lineage.",
+      "state": "OPEN"
+    },
+    {
+      "queue_id": "INGEST-AUS-FED-PUBLIC_PRESSURE",
+      "priority": 1,
+      "jurisdiction_id": "AUS-FED",
+      "competition_class": "PUBLIC_PRESSURE",
+      "coverage_state": "SOURCE_PATH_GAP",
+      "action": "ADD_MISSING_SOURCE_CLASS_WATCH",
+      "reason": "Missing required source group(s): PRIMARY_PUBLIC_ACTOR OR PRIMARY_COMMUNITY OR PRIMARY_CAMPAIGN OR PRIMARY_PETITION",
+      "missing_source_groups": [
+        [
+          "PRIMARY_PUBLIC_ACTOR",
+          "PRIMARY_COMMUNITY",
+          "PRIMARY_CAMPAIGN",
+          "PRIMARY_PETITION"
+        ]
+      ],
+      "existing_relevant_watch_ids": [
+        "WATCH-APH-LIVE-MINUTES",
+        "WATCH-APH-WEEK-AHEAD",
+        "WATCH-APH-BILLS",
+        "WATCH-PM-MEDIA"
+      ],
+      "existing_detail_capable_watch_ids": [
+        "WATCH-APH-BILLS",
+        "WATCH-PM-MEDIA"
+      ],
+      "substantive_area_evidence_count": 0,
+      "completion_condition": "Coverage cell reaches SUBSTANTIVE_EVIDENCE_ACTIVE with retained substantive-detail lineage.",
+      "state": "OPEN"
+    },
+    {
+      "queue_id": "INGEST-AUS-NSW-BUDGET",
+      "priority": 1,
+      "jurisdiction_id": "AUS-NSW",
+      "competition_class": "BUDGET",
+      "coverage_state": "SOURCE_PATH_GAP",
+      "action": "ADD_MISSING_SOURCE_CLASS_WATCH",
+      "reason": "Missing required source group(s): PRIMARY_PARTY OR PRIMARY_ACTOR",
+      "missing_source_groups": [
+        [
+          "PRIMARY_PARTY",
+          "PRIMARY_ACTOR"
+        ]
+      ],
+      "existing_relevant_watch_ids": [
+        "WATCH-NSW-HANSARD",
+        "WATCH-NSW-CURRENT-BILLS",
+        "WATCH-NSW-MINISTERIAL-RELEASES"
+      ],
+      "existing_detail_capable_watch_ids": [
+        "WATCH-NSW-CURRENT-BILLS",
+        "WATCH-NSW-MINISTERIAL-RELEASES"
+      ],
+      "substantive_area_evidence_count": 0,
+      "completion_condition": "Coverage cell reaches SUBSTANTIVE_EVIDENCE_ACTIVE with retained substantive-detail lineage.",
+      "state": "OPEN"
+    },
+    {
+      "queue_id": "INGEST-AUS-NSW-CONFIDENCE_SUPPLY",
+      "priority": 1,
+      "jurisdiction_id": "AUS-NSW",
+      "competition_class": "CONFIDENCE_SUPPLY",
+      "coverage_state": "SOURCE_PATH_GAP",
+      "action": "ADD_MISSING_SOURCE_CLASS_WATCH",
+      "reason": "Missing required source group(s): PRIMARY_PARTY OR PRIMARY_ACTOR",
+      "missing_source_groups": [
+        [
+          "PRIMARY_PARTY",
+          "PRIMARY_ACTOR"
+        ]
+      ],
+      "existing_relevant_watch_ids": [
+        "WATCH-NSW-HANSARD",
+        "WATCH-NSW-CURRENT-BILLS"
+      ],
+      "existing_detail_capable_watch_ids": [
+        "WATCH-NSW-CURRENT-BILLS"
+      ],
+      "substantive_area_evidence_count": 0,
+      "completion_condition": "Coverage cell reaches SUBSTANTIVE_EVIDENCE_ACTIVE with retained substantive-detail lineage.",
+      "state": "OPEN"
+    },
+    {
+      "queue_id": "INGEST-AUS-NSW-LEADERSHIP",
+      "priority": 1,
+      "jurisdiction_id": "AUS-NSW",
+      "competition_class": "LEADERSHIP",
+      "coverage_state": "SOURCE_PATH_GAP",
+      "action": "ADD_MISSING_SOURCE_CLASS_WATCH",
+      "reason": "Missing required source group(s): PRIMARY_PARTY OR PRIMARY_ACTOR",
+      "missing_source_groups": [
+        [
+          "PRIMARY_PARTY",
+          "PRIMARY_ACTOR"
+        ]
+      ],
+      "existing_relevant_watch_ids": [
+        "WATCH-NSW-HANSARD",
+        "WATCH-NSW-CURRENT-BILLS"
+      ],
+      "existing_detail_capable_watch_ids": [
+        "WATCH-NSW-CURRENT-BILLS"
+      ],
+      "substantive_area_evidence_count": 0,
+      "completion_condition": "Coverage cell reaches SUBSTANTIVE_EVIDENCE_ACTIVE with retained substantive-detail lineage.",
+      "state": "OPEN"
+    },
+    {
+      "queue_id": "INGEST-AUS-NSW-PUBLIC_PRESSURE",
+      "priority": 1,
+      "jurisdiction_id": "AUS-NSW",
+      "competition_class": "PUBLIC_PRESSURE",
+      "coverage_state": "SOURCE_PATH_GAP",
+      "action": "ADD_MISSING_SOURCE_CLASS_WATCH",
+      "reason": "Missing required source group(s): PRIMARY_PUBLIC_ACTOR OR PRIMARY_COMMUNITY OR PRIMARY_CAMPAIGN OR PRIMARY_PETITION",
+      "missing_source_groups": [
+        [
+          "PRIMARY_PUBLIC_ACTOR",
+          "PRIMARY_COMMUNITY",
+          "PRIMARY_CAMPAIGN",
+          "PRIMARY_PETITION"
+        ]
+      ],
+      "existing_relevant_watch_ids": [
+        "WATCH-NSW-HANSARD",
+        "WATCH-NSW-CURRENT-BILLS",
+        "WATCH-NSW-MINISTERIAL-RELEASES"
+      ],
+      "existing_detail_capable_watch_ids": [
+        "WATCH-NSW-CURRENT-BILLS",
+        "WATCH-NSW-MINISTERIAL-RELEASES"
+      ],
+      "substantive_area_evidence_count": 0,
+      "completion_condition": "Coverage cell reaches SUBSTANTIVE_EVIDENCE_ACTIVE with retained substantive-detail lineage.",
+      "state": "OPEN"
+    },
+    {
+      "queue_id": "INGEST-AUS-NT-BUDGET",
+      "priority": 1,
+      "jurisdiction_id": "AUS-NT",
+      "competition_class": "BUDGET",
+      "coverage_state": "SOURCE_PATH_GAP",
+      "action": "ADD_MISSING_SOURCE_CLASS_WATCH",
+      "reason": "Missing required source group(s): PRIMARY_PARTY OR PRIMARY_ACTOR",
+      "missing_source_groups": [
+        [
+          "PRIMARY_PARTY",
+          "PRIMARY_ACTOR"
+        ]
+      ],
+      "existing_relevant_watch_ids": [
+        "WATCH-NT-PARLIAMENT",
+        "WATCH-NT-GOV-NEWSROOM"
+      ],
+      "existing_detail_capable_watch_ids": [
+        "WATCH-NT-GOV-NEWSROOM"
+      ],
+      "substantive_area_evidence_count": 0,
+      "completion_condition": "Coverage cell reaches SUBSTANTIVE_EVIDENCE_ACTIVE with retained substantive-detail lineage.",
+      "state": "OPEN"
+    },
+    {
+      "queue_id": "INGEST-AUS-NT-CONFIDENCE_SUPPLY",
+      "priority": 1,
+      "jurisdiction_id": "AUS-NT",
+      "competition_class": "CONFIDENCE_SUPPLY",
+      "coverage_state": "SOURCE_PATH_GAP",
+      "action": "ADD_MISSING_SOURCE_CLASS_WATCH",
+      "reason": "Missing required source group(s): PRIMARY_PARTY OR PRIMARY_ACTOR",
+      "missing_source_groups": [
+        [
+          "PRIMARY_PARTY",
+          "PRIMARY_ACTOR"
+        ]
+      ],
+      "existing_relevant_watch_ids": [
+        "WATCH-NT-PARLIAMENT"
+      ],
+      "existing_detail_capable_watch_ids": [],
+      "substantive_area_evidence_count": 0,
+      "completion_condition": "Coverage cell reaches SUBSTANTIVE_EVIDENCE_ACTIVE with retained substantive-detail lineage.",
+      "state": "OPEN"
+    },
+    {
+      "queue_id": "INGEST-AUS-NT-LEADERSHIP",
+      "priority": 1,
+      "jurisdiction_id": "AUS-NT",
+      "competition_class": "LEADERSHIP",
+      "coverage_state": "SOURCE_PATH_GAP",
+      "action": "ADD_MISSING_SOURCE_CLASS_WATCH",
+      "reason": "Missing required source group(s): PRIMARY_PARTY OR PRIMARY_ACTOR",
+      "missing_source_groups": [
+        [
+          "PRIMARY_PARTY",
+          "PRIMARY_ACTOR"
+        ]
+      ],
+      "existing_relevant_watch_ids": [
+        "WATCH-NT-PARLIAMENT"
+      ],
+      "existing_detail_capable_watch_ids": [],
+      "substantive_area_evidence_count": 0,
+      "completion_condition": "Coverage cell reaches SUBSTANTIVE_EVIDENCE_ACTIVE with retained substantive-detail lineage.",
+      "state": "OPEN"
+    },
+    {
+      "queue_id": "INGEST-AUS-NT-PUBLIC_PRESSURE",
+      "priority": 1,
+      "jurisdiction_id": "AUS-NT",
+      "competition_class": "PUBLIC_PRESSURE",
+      "coverage_state": "SOURCE_PATH_GAP",
+      "action": "ADD_MISSING_SOURCE_CLASS_WATCH",
+      "reason": "Missing required source group(s): PRIMARY_PUBLIC_ACTOR OR PRIMARY_COMMUNITY OR PRIMARY_CAMPAIGN OR PRIMARY_PETITION",
+      "missing_source_groups": [
+        [
+          "PRIMARY_PUBLIC_ACTOR",
+          "PRIMARY_COMMUNITY",
+          "PRIMARY_CAMPAIGN",
+          "PRIMARY_PETITION"
+        ]
+      ],
+      "existing_relevant_watch_ids": [
+        "WATCH-NT-PARLIAMENT",
+        "WATCH-NT-GOV-NEWSROOM"
+      ],
+      "existing_detail_capable_watch_ids": [
+        "WATCH-NT-GOV-NEWSROOM"
+      ],
+      "substantive_area_evidence_count": 0,
+      "completion_condition": "Coverage cell reaches SUBSTANTIVE_EVIDENCE_ACTIVE with retained substantive-detail lineage.",
+      "state": "OPEN"
+    },
+    {
+      "queue_id": "INGEST-AUS-QLD-BUDGET",
+      "priority": 1,
+      "jurisdiction_id": "AUS-QLD",
+      "competition_class": "BUDGET",
+      "coverage_state": "SOURCE_PATH_GAP",
+      "action": "ADD_MISSING_SOURCE_CLASS_WATCH",
+      "reason": "Missing required source group(s): PRIMARY_PARTY OR PRIMARY_ACTOR",
+      "missing_source_groups": [
+        [
+          "PRIMARY_PARTY",
+          "PRIMARY_ACTOR"
+        ]
+      ],
+      "existing_relevant_watch_ids": [
+        "WATCH-QLD-HANSARD",
+        "WATCH-QLD-MINISTERIAL-STATEMENTS"
+      ],
+      "existing_detail_capable_watch_ids": [
+        "WATCH-QLD-MINISTERIAL-STATEMENTS"
+      ],
+      "substantive_area_evidence_count": 0,
+      "completion_condition": "Coverage cell reaches SUBSTANTIVE_EVIDENCE_ACTIVE with retained substantive-detail lineage.",
+      "state": "OPEN"
+    },
+    {
+      "queue_id": "INGEST-AUS-QLD-CONFIDENCE_SUPPLY",
+      "priority": 1,
+      "jurisdiction_id": "AUS-QLD",
+      "competition_class": "CONFIDENCE_SUPPLY",
+      "coverage_state": "SOURCE_PATH_GAP",
+      "action": "ADD_MISSING_SOURCE_CLASS_WATCH",
+      "reason": "Missing required source group(s): PRIMARY_PARTY OR PRIMARY_ACTOR",
+      "missing_source_groups": [
+        [
+          "PRIMARY_PARTY",
+          "PRIMARY_ACTOR"
+        ]
+      ],
+      "existing_relevant_watch_ids": [
+        "WATCH-QLD-HANSARD"
+      ],
+      "existing_detail_capable_watch_ids": [],
+      "substantive_area_evidence_count": 0,
+      "completion_condition": "Coverage cell reaches SUBSTANTIVE_EVIDENCE_ACTIVE with retained substantive-detail lineage.",
+      "state": "OPEN"
+    },
+    {
+      "queue_id": "INGEST-AUS-QLD-LEADERSHIP",
+      "priority": 1,
+      "jurisdiction_id": "AUS-QLD",
+      "competition_class": "LEADERSHIP",
+      "coverage_state": "SOURCE_PATH_GAP",
+      "action": "ADD_MISSING_SOURCE_CLASS_WATCH",
+      "reason": "Missing required source group(s): PRIMARY_PARTY OR PRIMARY_ACTOR",
+      "missing_source_groups": [
+        [
+          "PRIMARY_PARTY",
+          "PRIMARY_ACTOR"
+        ]
+      ],
+      "existing_relevant_watch_ids": [
+        "WATCH-QLD-HANSARD"
+      ],
+      "existing_detail_capable_watch_ids": [],
+      "substantive_area_evidence_count": 0,
+      "completion_condition": "Coverage cell reaches SUBSTANTIVE_EVIDENCE_ACTIVE with retained substantive-detail lineage.",
+      "state": "OPEN"
+    },
+    {
+      "queue_id": "INGEST-AUS-QLD-PUBLIC_PRESSURE",
+      "priority": 1,
+      "jurisdiction_id": "AUS-QLD",
+      "competition_class": "PUBLIC_PRESSURE",
+      "coverage_state": "SOURCE_PATH_GAP",
+      "action": "ADD_MISSING_SOURCE_CLASS_WATCH",
+      "reason": "Missing required source group(s): PRIMARY_PUBLIC_ACTOR OR PRIMARY_COMMUNITY OR PRIMARY_CAMPAIGN OR PRIMARY_PETITION",
+      "missing_source_groups": [
+        [
+          "PRIMARY_PUBLIC_ACTOR",
+          "PRIMARY_COMMUNITY",
+          "PRIMARY_CAMPAIGN",
+          "PRIMARY_PETITION"
+        ]
+      ],
+      "existing_relevant_watch_ids": [
+        "WATCH-QLD-HANSARD",
+        "WATCH-QLD-MINISTERIAL-STATEMENTS"
+      ],
+      "existing_detail_capable_watch_ids": [
+        "WATCH-QLD-MINISTERIAL-STATEMENTS"
+      ],
+      "substantive_area_evidence_count": 0,
+      "completion_condition": "Coverage cell reaches SUBSTANTIVE_EVIDENCE_ACTIVE with retained substantive-detail lineage.",
+      "state": "OPEN"
+    },
+    {
+      "queue_id": "INGEST-AUS-SA-BUDGET",
+      "priority": 1,
+      "jurisdiction_id": "AUS-SA",
+      "competition_class": "BUDGET",
+      "coverage_state": "SOURCE_PATH_GAP",
+      "action": "ADD_MISSING_SOURCE_CLASS_WATCH",
+      "reason": "Missing required source group(s): PRIMARY_PARTY OR PRIMARY_ACTOR",
+      "missing_source_groups": [
+        [
+          "PRIMARY_PARTY",
+          "PRIMARY_ACTOR"
+        ]
+      ],
+      "existing_relevant_watch_ids": [
+        "WATCH-SA-PARLIAMENT",
+        "WATCH-SA-PREMIER-MEDIA"
+      ],
+      "existing_detail_capable_watch_ids": [
+        "WATCH-SA-PREMIER-MEDIA"
+      ],
+      "substantive_area_evidence_count": 0,
+      "completion_condition": "Coverage cell reaches SUBSTANTIVE_EVIDENCE_ACTIVE with retained substantive-detail lineage.",
+      "state": "OPEN"
+    },
+    {
+      "queue_id": "INGEST-AUS-SA-CONFIDENCE_SUPPLY",
+      "priority": 1,
+      "jurisdiction_id": "AUS-SA",
+      "competition_class": "CONFIDENCE_SUPPLY",
+      "coverage_state": "SOURCE_PATH_GAP",
+      "action": "ADD_MISSING_SOURCE_CLASS_WATCH",
+      "reason": "Missing required source group(s): PRIMARY_PARTY OR PRIMARY_ACTOR",
+      "missing_source_groups": [
+        [
+          "PRIMARY_PARTY",
+          "PRIMARY_ACTOR"
+        ]
+      ],
+      "existing_relevant_watch_ids": [
+        "WATCH-SA-PARLIAMENT"
+      ],
+      "existing_detail_capable_watch_ids": [],
+      "substantive_area_evidence_count": 0,
+      "completion_condition": "Coverage cell reaches SUBSTANTIVE_EVIDENCE_ACTIVE with retained substantive-detail lineage.",
+      "state": "OPEN"
+    },
+    {
+      "queue_id": "INGEST-AUS-SA-LEADERSHIP",
+      "priority": 1,
+      "jurisdiction_id": "AUS-SA",
+      "competition_class": "LEADERSHIP",
+      "coverage_state": "SOURCE_PATH_GAP",
+      "action": "ADD_MISSING_SOURCE_CLASS_WATCH",
+      "reason": "Missing required source group(s): PRIMARY_PARTY OR PRIMARY_ACTOR",
+      "missing_source_groups": [
+        [
+          "PRIMARY_PARTY",
+          "PRIMARY_ACTOR"
+        ]
+      ],
+      "existing_relevant_watch_ids": [
+        "WATCH-SA-PARLIAMENT"
+      ],
+      "existing_detail_capable_watch_ids": [],
+      "substantive_area_evidence_count": 0,
+      "completion_condition": "Coverage cell reaches SUBSTANTIVE_EVIDENCE_ACTIVE with retained substantive-detail lineage.",
+      "state": "OPEN"
+    },
+    {
+      "queue_id": "INGEST-AUS-SA-PUBLIC_PRESSURE",
+      "priority": 1,
+      "jurisdiction_id": "AUS-SA",
+      "competition_class": "PUBLIC_PRESSURE",
+      "coverage_state": "SOURCE_PATH_GAP",
+      "action": "ADD_MISSING_SOURCE_CLASS_WATCH",
+      "reason": "Missing required source group(s): PRIMARY_PUBLIC_ACTOR OR PRIMARY_COMMUNITY OR PRIMARY_CAMPAIGN OR PRIMARY_PETITION",
+      "missing_source_groups": [
+        [
+          "PRIMARY_PUBLIC_ACTOR",
+          "PRIMARY_COMMUNITY",
+          "PRIMARY_CAMPAIGN",
+          "PRIMARY_PETITION"
+        ]
+      ],
+      "existing_relevant_watch_ids": [
+        "WATCH-SA-PARLIAMENT",
+        "WATCH-SA-PREMIER-MEDIA"
+      ],
+      "existing_detail_capable_watch_ids": [
+        "WATCH-SA-PREMIER-MEDIA"
+      ],
+      "substantive_area_evidence_count": 0,
+      "completion_condition": "Coverage cell reaches SUBSTANTIVE_EVIDENCE_ACTIVE with retained substantive-detail lineage.",
+      "state": "OPEN"
+    },
+    {
+      "queue_id": "INGEST-AUS-TAS-BUDGET",
+      "priority": 1,
+      "jurisdiction_id": "AUS-TAS",
+      "competition_class": "BUDGET",
+      "coverage_state": "SOURCE_PATH_GAP",
+      "action": "ADD_MISSING_SOURCE_CLASS_WATCH",
+      "reason": "Missing required source group(s): PRIMARY_PARTY OR PRIMARY_ACTOR",
+      "missing_source_groups": [
+        [
+          "PRIMARY_PARTY",
+          "PRIMARY_ACTOR"
+        ]
+      ],
+      "existing_relevant_watch_ids": [
+        "WATCH-TAS-HANSARD",
+        "WATCH-TAS-PREMIER-NEWS"
+      ],
+      "existing_detail_capable_watch_ids": [
+        "WATCH-TAS-PREMIER-NEWS"
+      ],
+      "substantive_area_evidence_count": 0,
+      "completion_condition": "Coverage cell reaches SUBSTANTIVE_EVIDENCE_ACTIVE with retained substantive-detail lineage.",
+      "state": "OPEN"
+    },
+    {
+      "queue_id": "INGEST-AUS-TAS-CONFIDENCE_SUPPLY",
+      "priority": 1,
+      "jurisdiction_id": "AUS-TAS",
+      "competition_class": "CONFIDENCE_SUPPLY",
+      "coverage_state": "SOURCE_PATH_GAP",
+      "action": "ADD_MISSING_SOURCE_CLASS_WATCH",
+      "reason": "Missing required source group(s): PRIMARY_PARTY OR PRIMARY_ACTOR",
+      "missing_source_groups": [
+        [
+          "PRIMARY_PARTY",
+          "PRIMARY_ACTOR"
+        ]
+      ],
+      "existing_relevant_watch_ids": [
+        "WATCH-TAS-HANSARD"
+      ],
+      "existing_detail_capable_watch_ids": [],
+      "substantive_area_evidence_count": 0,
+      "completion_condition": "Coverage cell reaches SUBSTANTIVE_EVIDENCE_ACTIVE with retained substantive-detail lineage.",
+      "state": "OPEN"
+    },
+    {
+      "queue_id": "INGEST-AUS-TAS-LEADERSHIP",
+      "priority": 1,
+      "jurisdiction_id": "AUS-TAS",
+      "competition_class": "LEADERSHIP",
+      "coverage_state": "SOURCE_PATH_GAP",
+      "action": "ADD_MISSING_SOURCE_CLASS_WATCH",
+      "reason": "Missing required source group(s): PRIMARY_PARTY OR PRIMARY_ACTOR",
+      "missing_source_groups": [
+        [
+          "PRIMARY_PARTY",
+          "PRIMARY_ACTOR"
+        ]
+      ],
+      "existing_relevant_watch_ids": [
+        "WATCH-TAS-HANSARD"
+      ],
+      "existing_detail_capable_watch_ids": [],
+      "substantive_area_evidence_count": 0,
+      "completion_condition": "Coverage cell reaches SUBSTANTIVE_EVIDENCE_ACTIVE with retained substantive-detail lineage.",
+      "state": "OPEN"
+    },
+    {
+      "queue_id": "INGEST-AUS-TAS-PUBLIC_PRESSURE",
+      "priority": 1,
+      "jurisdiction_id": "AUS-TAS",
+      "competition_class": "PUBLIC_PRESSURE",
+      "coverage_state": "SOURCE_PATH_GAP",
+      "action": "ADD_MISSING_SOURCE_CLASS_WATCH",
+      "reason": "Missing required source group(s): PRIMARY_PUBLIC_ACTOR OR PRIMARY_COMMUNITY OR PRIMARY_CAMPAIGN OR PRIMARY_PETITION",
+      "missing_source_groups": [
+        [
+          "PRIMARY_PUBLIC_ACTOR",
+          "PRIMARY_COMMUNITY",
+          "PRIMARY_CAMPAIGN",
+          "PRIMARY_PETITION"
+        ]
+      ],
+      "existing_relevant_watch_ids": [
+        "WATCH-TAS-HANSARD",
+        "WATCH-TAS-PREMIER-NEWS"
+      ],
+      "existing_detail_capable_watch_ids": [
+        "WATCH-TAS-PREMIER-NEWS"
+      ],
+      "substantive_area_evidence_count": 0,
+      "completion_condition": "Coverage cell reaches SUBSTANTIVE_EVIDENCE_ACTIVE with retained substantive-detail lineage.",
+      "state": "OPEN"
+    },
+    {
+      "queue_id": "INGEST-AUS-VIC-BUDGET",
+      "priority": 1,
+      "jurisdiction_id": "AUS-VIC",
+      "competition_class": "BUDGET",
+      "coverage_state": "SOURCE_PATH_GAP",
+      "action": "ADD_MISSING_SOURCE_CLASS_WATCH",
+      "reason": "Missing required source group(s): PRIMARY_PARTY OR PRIMARY_ACTOR",
+      "missing_source_groups": [
+        [
+          "PRIMARY_PARTY",
+          "PRIMARY_ACTOR"
+        ]
+      ],
+      "existing_relevant_watch_ids": [
+        "WATCH-VIC-HANSARD",
+        "WATCH-VIC-PREMIER-MEDIA"
+      ],
+      "existing_detail_capable_watch_ids": [
+        "WATCH-VIC-PREMIER-MEDIA"
+      ],
+      "substantive_area_evidence_count": 0,
+      "completion_condition": "Coverage cell reaches SUBSTANTIVE_EVIDENCE_ACTIVE with retained substantive-detail lineage.",
+      "state": "OPEN"
+    },
+    {
+      "queue_id": "INGEST-AUS-VIC-CONFIDENCE_SUPPLY",
+      "priority": 1,
+      "jurisdiction_id": "AUS-VIC",
+      "competition_class": "CONFIDENCE_SUPPLY",
+      "coverage_state": "SOURCE_PATH_GAP",
+      "action": "ADD_MISSING_SOURCE_CLASS_WATCH",
+      "reason": "Missing required source group(s): PRIMARY_PARTY OR PRIMARY_ACTOR",
+      "missing_source_groups": [
+        [
+          "PRIMARY_PARTY",
+          "PRIMARY_ACTOR"
+        ]
+      ],
+      "existing_relevant_watch_ids": [
+        "WATCH-VIC-HANSARD"
+      ],
+      "existing_detail_capable_watch_ids": [],
+      "substantive_area_evidence_count": 0,
+      "completion_condition": "Coverage cell reaches SUBSTANTIVE_EVIDENCE_ACTIVE with retained substantive-detail lineage.",
+      "state": "OPEN"
+    },
+    {
+      "queue_id": "INGEST-AUS-VIC-LEADERSHIP",
+      "priority": 1,
+      "jurisdiction_id": "AUS-VIC",
+      "competition_class": "LEADERSHIP",
+      "coverage_state": "SOURCE_PATH_GAP",
+      "action": "ADD_MISSING_SOURCE_CLASS_WATCH",
+      "reason": "Missing required source group(s): PRIMARY_PARTY OR PRIMARY_ACTOR",
+      "missing_source_groups": [
+        [
+          "PRIMARY_PARTY",
+          "PRIMARY_ACTOR"
+        ]
+      ],
+      "existing_relevant_watch_ids": [
+        "WATCH-VIC-HANSARD"
+      ],
+      "existing_detail_capable_watch_ids": [],
+      "substantive_area_evidence_count": 0,
+      "completion_condition": "Coverage cell reaches SUBSTANTIVE_EVIDENCE_ACTIVE with retained substantive-detail lineage.",
+      "state": "OPEN"
+    },
+    {
+      "queue_id": "INGEST-AUS-VIC-PUBLIC_PRESSURE",
+      "priority": 1,
+      "jurisdiction_id": "AUS-VIC",
+      "competition_class": "PUBLIC_PRESSURE",
+      "coverage_state": "SOURCE_PATH_GAP",
+      "action": "ADD_MISSING_SOURCE_CLASS_WATCH",
+      "reason": "Missing required source group(s): PRIMARY_PUBLIC_ACTOR OR PRIMARY_COMMUNITY OR PRIMARY_CAMPAIGN OR PRIMARY_PETITION",
+      "missing_source_groups": [
+        [
+          "PRIMARY_PUBLIC_ACTOR",
+          "PRIMARY_COMMUNITY",
+          "PRIMARY_CAMPAIGN",
+          "PRIMARY_PETITION"
+        ]
+      ],
+      "existing_relevant_watch_ids": [
+        "WATCH-VIC-HANSARD",
+        "WATCH-VIC-PREMIER-MEDIA"
+      ],
+      "existing_detail_capable_watch_ids": [
+        "WATCH-VIC-PREMIER-MEDIA"
+      ],
+      "substantive_area_evidence_count": 0,
+      "completion_condition": "Coverage cell reaches SUBSTANTIVE_EVIDENCE_ACTIVE with retained substantive-detail lineage.",
+      "state": "OPEN"
+    },
+    {
+      "queue_id": "INGEST-AUS-WA-BUDGET",
+      "priority": 1,
+      "jurisdiction_id": "AUS-WA",
+      "competition_class": "BUDGET",
+      "coverage_state": "SOURCE_PATH_GAP",
+      "action": "ADD_MISSING_SOURCE_CLASS_WATCH",
+      "reason": "Missing required source group(s): PRIMARY_PARTY OR PRIMARY_ACTOR",
+      "missing_source_groups": [
+        [
+          "PRIMARY_PARTY",
+          "PRIMARY_ACTOR"
+        ]
+      ],
+      "existing_relevant_watch_ids": [
+        "WATCH-WA-HANSARD",
+        "WATCH-WA-GOV-MEDIA"
+      ],
+      "existing_detail_capable_watch_ids": [
+        "WATCH-WA-GOV-MEDIA"
+      ],
+      "substantive_area_evidence_count": 0,
+      "completion_condition": "Coverage cell reaches SUBSTANTIVE_EVIDENCE_ACTIVE with retained substantive-detail lineage.",
+      "state": "OPEN"
+    },
+    {
+      "queue_id": "INGEST-AUS-WA-CONFIDENCE_SUPPLY",
+      "priority": 1,
+      "jurisdiction_id": "AUS-WA",
+      "competition_class": "CONFIDENCE_SUPPLY",
+      "coverage_state": "SOURCE_PATH_GAP",
+      "action": "ADD_MISSING_SOURCE_CLASS_WATCH",
+      "reason": "Missing required source group(s): PRIMARY_PARTY OR PRIMARY_ACTOR",
+      "missing_source_groups": [
+        [
+          "PRIMARY_PARTY",
+          "PRIMARY_ACTOR"
+        ]
+      ],
+      "existing_relevant_watch_ids": [
+        "WATCH-WA-HANSARD"
+      ],
+      "existing_detail_capable_watch_ids": [],
+      "substantive_area_evidence_count": 0,
+      "completion_condition": "Coverage cell reaches SUBSTANTIVE_EVIDENCE_ACTIVE with retained substantive-detail lineage.",
+      "state": "OPEN"
+    },
+    {
+      "queue_id": "INGEST-AUS-WA-LEADERSHIP",
+      "priority": 1,
+      "jurisdiction_id": "AUS-WA",
+      "competition_class": "LEADERSHIP",
+      "coverage_state": "SOURCE_PATH_GAP",
+      "action": "ADD_MISSING_SOURCE_CLASS_WATCH",
+      "reason": "Missing required source group(s): PRIMARY_PARTY OR PRIMARY_ACTOR",
+      "missing_source_groups": [
+        [
+          "PRIMARY_PARTY",
+          "PRIMARY_ACTOR"
+        ]
+      ],
+      "existing_relevant_watch_ids": [
+        "WATCH-WA-HANSARD"
+      ],
+      "existing_detail_capable_watch_ids": [],
+      "substantive_area_evidence_count": 0,
+      "completion_condition": "Coverage cell reaches SUBSTANTIVE_EVIDENCE_ACTIVE with retained substantive-detail lineage.",
+      "state": "OPEN"
+    },
+    {
+      "queue_id": "INGEST-AUS-WA-PUBLIC_PRESSURE",
+      "priority": 1,
+      "jurisdiction_id": "AUS-WA",
+      "competition_class": "PUBLIC_PRESSURE",
+      "coverage_state": "SOURCE_PATH_GAP",
+      "action": "ADD_MISSING_SOURCE_CLASS_WATCH",
+      "reason": "Missing required source group(s): PRIMARY_PUBLIC_ACTOR OR PRIMARY_COMMUNITY OR PRIMARY_CAMPAIGN OR PRIMARY_PETITION",
+      "missing_source_groups": [
+        [
+          "PRIMARY_PUBLIC_ACTOR",
+          "PRIMARY_COMMUNITY",
+          "PRIMARY_CAMPAIGN",
+          "PRIMARY_PETITION"
+        ]
+      ],
+      "existing_relevant_watch_ids": [
+        "WATCH-WA-HANSARD",
+        "WATCH-WA-GOV-MEDIA"
+      ],
+      "existing_detail_capable_watch_ids": [
+        "WATCH-WA-GOV-MEDIA"
+      ],
+      "substantive_area_evidence_count": 0,
+      "completion_condition": "Coverage cell reaches SUBSTANTIVE_EVIDENCE_ACTIVE with retained substantive-detail lineage.",
+      "state": "OPEN"
+    },
+    {
+      "queue_id": "INGEST-AUS-ACT-LEGISLATIVE",
+      "priority": 2,
+      "jurisdiction_id": "AUS-ACT",
+      "competition_class": "LEGISLATIVE",
+      "coverage_state": "NO_AUTOMATED_DETAIL_PATH",
+      "action": "ADD_OR_UPGRADE_DETAIL_CAPABLE_SOURCE",
+      "reason": "Required source classes exist, but none exposes an automated record-detail path.",
+      "missing_source_groups": [],
+      "existing_relevant_watch_ids": [
+        "WATCH-ACT-PARLIAMENT"
+      ],
+      "existing_detail_capable_watch_ids": [],
+      "substantive_area_evidence_count": 0,
+      "completion_condition": "Coverage cell reaches SUBSTANTIVE_EVIDENCE_ACTIVE with retained substantive-detail lineage.",
+      "state": "OPEN"
+    },
+    {
+      "queue_id": "INGEST-AUS-ACT-PARLIAMENTARY_PROCEDURE",
+      "priority": 2,
+      "jurisdiction_id": "AUS-ACT",
+      "competition_class": "PARLIAMENTARY_PROCEDURE",
+      "coverage_state": "NO_AUTOMATED_DETAIL_PATH",
+      "action": "ADD_OR_UPGRADE_DETAIL_CAPABLE_SOURCE",
+      "reason": "Required source classes exist, but none exposes an automated record-detail path.",
+      "missing_source_groups": [],
+      "existing_relevant_watch_ids": [
+        "WATCH-ACT-PARLIAMENT"
+      ],
+      "existing_detail_capable_watch_ids": [],
+      "substantive_area_evidence_count": 0,
+      "completion_condition": "Coverage cell reaches SUBSTANTIVE_EVIDENCE_ACTIVE with retained substantive-detail lineage.",
+      "state": "OPEN"
+    },
+    {
+      "queue_id": "INGEST-AUS-NT-LEGISLATIVE",
+      "priority": 2,
+      "jurisdiction_id": "AUS-NT",
+      "competition_class": "LEGISLATIVE",
+      "coverage_state": "NO_AUTOMATED_DETAIL_PATH",
+      "action": "ADD_OR_UPGRADE_DETAIL_CAPABLE_SOURCE",
+      "reason": "Required source classes exist, but none exposes an automated record-detail path.",
+      "missing_source_groups": [],
+      "existing_relevant_watch_ids": [
+        "WATCH-NT-PARLIAMENT"
+      ],
+      "existing_detail_capable_watch_ids": [],
+      "substantive_area_evidence_count": 0,
+      "completion_condition": "Coverage cell reaches SUBSTANTIVE_EVIDENCE_ACTIVE with retained substantive-detail lineage.",
+      "state": "OPEN"
+    },
+    {
+      "queue_id": "INGEST-AUS-NT-PARLIAMENTARY_PROCEDURE",
+      "priority": 2,
+      "jurisdiction_id": "AUS-NT",
+      "competition_class": "PARLIAMENTARY_PROCEDURE",
+      "coverage_state": "NO_AUTOMATED_DETAIL_PATH",
+      "action": "ADD_OR_UPGRADE_DETAIL_CAPABLE_SOURCE",
+      "reason": "Required source classes exist, but none exposes an automated record-detail path.",
+      "missing_source_groups": [],
+      "existing_relevant_watch_ids": [
+        "WATCH-NT-PARLIAMENT"
+      ],
+      "existing_detail_capable_watch_ids": [],
+      "substantive_area_evidence_count": 0,
+      "completion_condition": "Coverage cell reaches SUBSTANTIVE_EVIDENCE_ACTIVE with retained substantive-detail lineage.",
+      "state": "OPEN"
+    },
+    {
+      "queue_id": "INGEST-AUS-QLD-LEGISLATIVE",
+      "priority": 2,
+      "jurisdiction_id": "AUS-QLD",
+      "competition_class": "LEGISLATIVE",
+      "coverage_state": "NO_AUTOMATED_DETAIL_PATH",
+      "action": "ADD_OR_UPGRADE_DETAIL_CAPABLE_SOURCE",
+      "reason": "Required source classes exist, but none exposes an automated record-detail path.",
+      "missing_source_groups": [],
+      "existing_relevant_watch_ids": [
+        "WATCH-QLD-HANSARD"
+      ],
+      "existing_detail_capable_watch_ids": [],
+      "substantive_area_evidence_count": 0,
+      "completion_condition": "Coverage cell reaches SUBSTANTIVE_EVIDENCE_ACTIVE with retained substantive-detail lineage.",
+      "state": "OPEN"
+    },
+    {
+      "queue_id": "INGEST-AUS-QLD-PARLIAMENTARY_PROCEDURE",
+      "priority": 2,
+      "jurisdiction_id": "AUS-QLD",
+      "competition_class": "PARLIAMENTARY_PROCEDURE",
+      "coverage_state": "NO_AUTOMATED_DETAIL_PATH",
+      "action": "ADD_OR_UPGRADE_DETAIL_CAPABLE_SOURCE",
+      "reason": "Required source classes exist, but none exposes an automated record-detail path.",
+      "missing_source_groups": [],
+      "existing_relevant_watch_ids": [
+        "WATCH-QLD-HANSARD"
+      ],
+      "existing_detail_capable_watch_ids": [],
+      "substantive_area_evidence_count": 0,
+      "completion_condition": "Coverage cell reaches SUBSTANTIVE_EVIDENCE_ACTIVE with retained substantive-detail lineage.",
+      "state": "OPEN"
+    },
+    {
+      "queue_id": "INGEST-AUS-SA-LEGISLATIVE",
+      "priority": 2,
+      "jurisdiction_id": "AUS-SA",
+      "competition_class": "LEGISLATIVE",
+      "coverage_state": "NO_AUTOMATED_DETAIL_PATH",
+      "action": "ADD_OR_UPGRADE_DETAIL_CAPABLE_SOURCE",
+      "reason": "Required source classes exist, but none exposes an automated record-detail path.",
+      "missing_source_groups": [],
+      "existing_relevant_watch_ids": [
+        "WATCH-SA-PARLIAMENT"
+      ],
+      "existing_detail_capable_watch_ids": [],
+      "substantive_area_evidence_count": 0,
+      "completion_condition": "Coverage cell reaches SUBSTANTIVE_EVIDENCE_ACTIVE with retained substantive-detail lineage.",
+      "state": "OPEN"
+    },
+    {
+      "queue_id": "INGEST-AUS-SA-PARLIAMENTARY_PROCEDURE",
+      "priority": 2,
+      "jurisdiction_id": "AUS-SA",
+      "competition_class": "PARLIAMENTARY_PROCEDURE",
+      "coverage_state": "NO_AUTOMATED_DETAIL_PATH",
+      "action": "ADD_OR_UPGRADE_DETAIL_CAPABLE_SOURCE",
+      "reason": "Required source classes exist, but none exposes an automated record-detail path.",
+      "missing_source_groups": [],
+      "existing_relevant_watch_ids": [
+        "WATCH-SA-PARLIAMENT"
+      ],
+      "existing_detail_capable_watch_ids": [],
+      "substantive_area_evidence_count": 0,
+      "completion_condition": "Coverage cell reaches SUBSTANTIVE_EVIDENCE_ACTIVE with retained substantive-detail lineage.",
+      "state": "OPEN"
+    },
+    {
+      "queue_id": "INGEST-AUS-TAS-LEGISLATIVE",
+      "priority": 2,
+      "jurisdiction_id": "AUS-TAS",
+      "competition_class": "LEGISLATIVE",
+      "coverage_state": "NO_AUTOMATED_DETAIL_PATH",
+      "action": "ADD_OR_UPGRADE_DETAIL_CAPABLE_SOURCE",
+      "reason": "Required source classes exist, but none exposes an automated record-detail path.",
+      "missing_source_groups": [],
+      "existing_relevant_watch_ids": [
+        "WATCH-TAS-HANSARD"
+      ],
+      "existing_detail_capable_watch_ids": [],
+      "substantive_area_evidence_count": 0,
+      "completion_condition": "Coverage cell reaches SUBSTANTIVE_EVIDENCE_ACTIVE with retained substantive-detail lineage.",
+      "state": "OPEN"
+    },
+    {
+      "queue_id": "INGEST-AUS-TAS-PARLIAMENTARY_PROCEDURE",
+      "priority": 2,
+      "jurisdiction_id": "AUS-TAS",
+      "competition_class": "PARLIAMENTARY_PROCEDURE",
+      "coverage_state": "NO_AUTOMATED_DETAIL_PATH",
+      "action": "ADD_OR_UPGRADE_DETAIL_CAPABLE_SOURCE",
+      "reason": "Required source classes exist, but none exposes an automated record-detail path.",
+      "missing_source_groups": [],
+      "existing_relevant_watch_ids": [
+        "WATCH-TAS-HANSARD"
+      ],
+      "existing_detail_capable_watch_ids": [],
+      "substantive_area_evidence_count": 0,
+      "completion_condition": "Coverage cell reaches SUBSTANTIVE_EVIDENCE_ACTIVE with retained substantive-detail lineage.",
+      "state": "OPEN"
+    },
+    {
+      "queue_id": "INGEST-AUS-VIC-LEGISLATIVE",
+      "priority": 2,
+      "jurisdiction_id": "AUS-VIC",
+      "competition_class": "LEGISLATIVE",
+      "coverage_state": "NO_AUTOMATED_DETAIL_PATH",
+      "action": "ADD_OR_UPGRADE_DETAIL_CAPABLE_SOURCE",
+      "reason": "Required source classes exist, but none exposes an automated record-detail path.",
+      "missing_source_groups": [],
+      "existing_relevant_watch_ids": [
+        "WATCH-VIC-HANSARD"
+      ],
+      "existing_detail_capable_watch_ids": [],
+      "substantive_area_evidence_count": 0,
+      "completion_condition": "Coverage cell reaches SUBSTANTIVE_EVIDENCE_ACTIVE with retained substantive-detail lineage.",
+      "state": "OPEN"
+    },
+    {
+      "queue_id": "INGEST-AUS-VIC-PARLIAMENTARY_PROCEDURE",
+      "priority": 2,
+      "jurisdiction_id": "AUS-VIC",
+      "competition_class": "PARLIAMENTARY_PROCEDURE",
+      "coverage_state": "NO_AUTOMATED_DETAIL_PATH",
+      "action": "ADD_OR_UPGRADE_DETAIL_CAPABLE_SOURCE",
+      "reason": "Required source classes exist, but none exposes an automated record-detail path.",
+      "missing_source_groups": [],
+      "existing_relevant_watch_ids": [
+        "WATCH-VIC-HANSARD"
+      ],
+      "existing_detail_capable_watch_ids": [],
+      "substantive_area_evidence_count": 0,
+      "completion_condition": "Coverage cell reaches SUBSTANTIVE_EVIDENCE_ACTIVE with retained substantive-detail lineage.",
+      "state": "OPEN"
+    },
+    {
+      "queue_id": "INGEST-AUS-WA-LEGISLATIVE",
+      "priority": 2,
+      "jurisdiction_id": "AUS-WA",
+      "competition_class": "LEGISLATIVE",
+      "coverage_state": "NO_AUTOMATED_DETAIL_PATH",
+      "action": "ADD_OR_UPGRADE_DETAIL_CAPABLE_SOURCE",
+      "reason": "Required source classes exist, but none exposes an automated record-detail path.",
+      "missing_source_groups": [],
+      "existing_relevant_watch_ids": [
+        "WATCH-WA-HANSARD"
+      ],
+      "existing_detail_capable_watch_ids": [],
+      "substantive_area_evidence_count": 0,
+      "completion_condition": "Coverage cell reaches SUBSTANTIVE_EVIDENCE_ACTIVE with retained substantive-detail lineage.",
+      "state": "OPEN"
+    },
+    {
+      "queue_id": "INGEST-AUS-WA-PARLIAMENTARY_PROCEDURE",
+      "priority": 2,
+      "jurisdiction_id": "AUS-WA",
+      "competition_class": "PARLIAMENTARY_PROCEDURE",
+      "coverage_state": "NO_AUTOMATED_DETAIL_PATH",
+      "action": "ADD_OR_UPGRADE_DETAIL_CAPABLE_SOURCE",
+      "reason": "Required source classes exist, but none exposes an automated record-detail path.",
+      "missing_source_groups": [],
+      "existing_relevant_watch_ids": [
+        "WATCH-WA-HANSARD"
+      ],
+      "existing_detail_capable_watch_ids": [],
+      "substantive_area_evidence_count": 0,
+      "completion_condition": "Coverage cell reaches SUBSTANTIVE_EVIDENCE_ACTIVE with retained substantive-detail lineage.",
+      "state": "OPEN"
+    },
+    {
+      "queue_id": "INGEST-AUS-ACT-ELECTORAL",
+      "priority": 3,
+      "jurisdiction_id": "AUS-ACT",
+      "competition_class": "ELECTORAL",
+      "coverage_state": "INGESTION_PATH_READY_NO_SUBSTANTIVE_EVIDENCE",
+      "action": "BACKFILL_AVAILABLE_RECORDS_OR_WAIT_FOR_NEW_SUBSTANTIVE_RECORD",
+      "reason": "Source path and detail path exist, but no active substantive area evidence has yet been ingested.",
+      "missing_source_groups": [],
+      "existing_relevant_watch_ids": [
+        "WATCH-ACT-PARLIAMENT",
+        "WATCH-ELECTIONS-ACT-NEWS"
+      ],
+      "existing_detail_capable_watch_ids": [
+        "WATCH-ELECTIONS-ACT-NEWS"
+      ],
+      "substantive_area_evidence_count": 0,
+      "completion_condition": "Coverage cell reaches SUBSTANTIVE_EVIDENCE_ACTIVE with retained substantive-detail lineage.",
+      "state": "OPEN"
+    },
+    {
+      "queue_id": "INGEST-AUS-ACT-POLICY_ENACTMENT",
+      "priority": 3,
+      "jurisdiction_id": "AUS-ACT",
+      "competition_class": "POLICY_ENACTMENT",
+      "coverage_state": "INGESTION_PATH_READY_NO_SUBSTANTIVE_EVIDENCE",
+      "action": "BACKFILL_AVAILABLE_RECORDS_OR_WAIT_FOR_NEW_SUBSTANTIVE_RECORD",
+      "reason": "Source path and detail path exist, but no active substantive area evidence has yet been ingested.",
+      "missing_source_groups": [],
+      "existing_relevant_watch_ids": [
+        "WATCH-ACT-PARLIAMENT",
+        "WATCH-ACT-GOV-MEDIA"
+      ],
+      "existing_detail_capable_watch_ids": [
+        "WATCH-ACT-GOV-MEDIA"
+      ],
+      "substantive_area_evidence_count": 0,
+      "completion_condition": "Coverage cell reaches SUBSTANTIVE_EVIDENCE_ACTIVE with retained substantive-detail lineage.",
+      "state": "OPEN"
+    },
+    {
+      "queue_id": "INGEST-AUS-FED-BUDGET",
+      "priority": 3,
+      "jurisdiction_id": "AUS-FED",
+      "competition_class": "BUDGET",
+      "coverage_state": "INGESTION_PATH_READY_NO_SUBSTANTIVE_EVIDENCE",
+      "action": "BACKFILL_AVAILABLE_RECORDS_OR_WAIT_FOR_NEW_SUBSTANTIVE_RECORD",
+      "reason": "Source path and detail path exist, but no active substantive area evidence has yet been ingested.",
+      "missing_source_groups": [],
+      "existing_relevant_watch_ids": [
+        "WATCH-APH-LIVE-MINUTES",
+        "WATCH-APH-WEEK-AHEAD",
+        "WATCH-APH-BILLS",
+        "WATCH-PM-MEDIA",
+        "WATCH-ALP-NEWS",
+        "WATCH-LIBERAL-HOME",
+        "WATCH-GREENS-FEDERAL-MEDIA",
+        "WATCH-NATIONALS-NEWS",
+        "WATCH-ONENATION-NEWS"
+      ],
+      "existing_detail_capable_watch_ids": [
+        "WATCH-APH-BILLS",
+        "WATCH-PM-MEDIA",
+        "WATCH-ALP-NEWS",
+        "WATCH-GREENS-FEDERAL-MEDIA",
+        "WATCH-NATIONALS-NEWS",
+        "WATCH-ONENATION-NEWS"
+      ],
+      "substantive_area_evidence_count": 0,
+      "completion_condition": "Coverage cell reaches SUBSTANTIVE_EVIDENCE_ACTIVE with retained substantive-detail lineage.",
+      "state": "OPEN"
+    },
+    {
+      "queue_id": "INGEST-AUS-FED-CONFIDENCE_SUPPLY",
+      "priority": 3,
+      "jurisdiction_id": "AUS-FED",
+      "competition_class": "CONFIDENCE_SUPPLY",
+      "coverage_state": "INGESTION_PATH_READY_NO_SUBSTANTIVE_EVIDENCE",
+      "action": "BACKFILL_AVAILABLE_RECORDS_OR_WAIT_FOR_NEW_SUBSTANTIVE_RECORD",
+      "reason": "Source path and detail path exist, but no active substantive area evidence has yet been ingested.",
+      "missing_source_groups": [],
+      "existing_relevant_watch_ids": [
+        "WATCH-APH-LIVE-MINUTES",
+        "WATCH-APH-WEEK-AHEAD",
+        "WATCH-APH-BILLS",
+        "WATCH-ALP-NEWS",
+        "WATCH-LIBERAL-HOME",
+        "WATCH-GREENS-FEDERAL-MEDIA",
+        "WATCH-NATIONALS-NEWS",
+        "WATCH-ONENATION-NEWS"
+      ],
+      "existing_detail_capable_watch_ids": [
+        "WATCH-APH-BILLS",
+        "WATCH-ALP-NEWS",
+        "WATCH-GREENS-FEDERAL-MEDIA",
+        "WATCH-NATIONALS-NEWS",
+        "WATCH-ONENATION-NEWS"
+      ],
+      "substantive_area_evidence_count": 0,
+      "completion_condition": "Coverage cell reaches SUBSTANTIVE_EVIDENCE_ACTIVE with retained substantive-detail lineage.",
+      "state": "OPEN"
+    },
+    {
+      "queue_id": "INGEST-AUS-FED-ELECTORAL",
+      "priority": 3,
+      "jurisdiction_id": "AUS-FED",
+      "competition_class": "ELECTORAL",
+      "coverage_state": "INGESTION_PATH_READY_NO_SUBSTANTIVE_EVIDENCE",
+      "action": "BACKFILL_AVAILABLE_RECORDS_OR_WAIT_FOR_NEW_SUBSTANTIVE_RECORD",
+      "reason": "Source path and detail path exist, but no active substantive area evidence has yet been ingested.",
+      "missing_source_groups": [],
+      "existing_relevant_watch_ids": [
+        "WATCH-APH-LIVE-MINUTES",
+        "WATCH-APH-WEEK-AHEAD",
+        "WATCH-APH-BILLS",
+        "WATCH-AEC-MEDIA",
+        "WATCH-ALP-NEWS",
+        "WATCH-LIBERAL-HOME",
+        "WATCH-GREENS-FEDERAL-MEDIA",
+        "WATCH-NATIONALS-NEWS",
+        "WATCH-ONENATION-NEWS"
+      ],
+      "existing_detail_capable_watch_ids": [
+        "WATCH-APH-BILLS",
+        "WATCH-AEC-MEDIA",
+        "WATCH-ALP-NEWS",
+        "WATCH-GREENS-FEDERAL-MEDIA",
+        "WATCH-NATIONALS-NEWS",
+        "WATCH-ONENATION-NEWS"
+      ],
+      "substantive_area_evidence_count": 0,
+      "completion_condition": "Coverage cell reaches SUBSTANTIVE_EVIDENCE_ACTIVE with retained substantive-detail lineage.",
+      "state": "OPEN"
+    },
+    {
+      "queue_id": "INGEST-AUS-FED-LEADERSHIP",
+      "priority": 3,
+      "jurisdiction_id": "AUS-FED",
+      "competition_class": "LEADERSHIP",
+      "coverage_state": "INGESTION_PATH_READY_NO_SUBSTANTIVE_EVIDENCE",
+      "action": "BACKFILL_AVAILABLE_RECORDS_OR_WAIT_FOR_NEW_SUBSTANTIVE_RECORD",
+      "reason": "Source path and detail path exist, but no active substantive area evidence has yet been ingested.",
+      "missing_source_groups": [],
+      "existing_relevant_watch_ids": [
+        "WATCH-APH-LIVE-MINUTES",
+        "WATCH-APH-WEEK-AHEAD",
+        "WATCH-APH-BILLS",
+        "WATCH-ALP-NEWS",
+        "WATCH-LIBERAL-HOME",
+        "WATCH-GREENS-FEDERAL-MEDIA",
+        "WATCH-NATIONALS-NEWS",
+        "WATCH-ONENATION-NEWS"
+      ],
+      "existing_detail_capable_watch_ids": [
+        "WATCH-APH-BILLS",
+        "WATCH-ALP-NEWS",
+        "WATCH-GREENS-FEDERAL-MEDIA",
+        "WATCH-NATIONALS-NEWS",
+        "WATCH-ONENATION-NEWS"
+      ],
+      "substantive_area_evidence_count": 0,
+      "completion_condition": "Coverage cell reaches SUBSTANTIVE_EVIDENCE_ACTIVE with retained substantive-detail lineage.",
+      "state": "OPEN"
+    },
+    {
+      "queue_id": "INGEST-AUS-FED-POLICY_ENACTMENT",
+      "priority": 3,
+      "jurisdiction_id": "AUS-FED",
+      "competition_class": "POLICY_ENACTMENT",
+      "coverage_state": "INGESTION_PATH_READY_NO_SUBSTANTIVE_EVIDENCE",
+      "action": "BACKFILL_AVAILABLE_RECORDS_OR_WAIT_FOR_NEW_SUBSTANTIVE_RECORD",
+      "reason": "Source path and detail path exist, but no active substantive area evidence has yet been ingested.",
+      "missing_source_groups": [],
+      "existing_relevant_watch_ids": [
+        "WATCH-APH-LIVE-MINUTES",
+        "WATCH-APH-WEEK-AHEAD",
+        "WATCH-APH-BILLS",
+        "WATCH-PM-MEDIA",
+        "WATCH-ALP-NEWS",
+        "WATCH-LIBERAL-HOME",
+        "WATCH-GREENS-FEDERAL-MEDIA",
+        "WATCH-NATIONALS-NEWS",
+        "WATCH-ONENATION-NEWS"
+      ],
+      "existing_detail_capable_watch_ids": [
+        "WATCH-APH-BILLS",
+        "WATCH-PM-MEDIA",
+        "WATCH-ALP-NEWS",
+        "WATCH-GREENS-FEDERAL-MEDIA",
+        "WATCH-NATIONALS-NEWS",
+        "WATCH-ONENATION-NEWS"
+      ],
+      "substantive_area_evidence_count": 0,
+      "completion_condition": "Coverage cell reaches SUBSTANTIVE_EVIDENCE_ACTIVE with retained substantive-detail lineage.",
+      "state": "OPEN"
+    },
+    {
+      "queue_id": "INGEST-AUS-NSW-ELECTORAL",
+      "priority": 3,
+      "jurisdiction_id": "AUS-NSW",
+      "competition_class": "ELECTORAL",
+      "coverage_state": "INGESTION_PATH_READY_NO_SUBSTANTIVE_EVIDENCE",
+      "action": "BACKFILL_AVAILABLE_RECORDS_OR_WAIT_FOR_NEW_SUBSTANTIVE_RECORD",
+      "reason": "Source path and detail path exist, but no active substantive area evidence has yet been ingested.",
+      "missing_source_groups": [],
+      "existing_relevant_watch_ids": [
+        "WATCH-NSW-HANSARD",
+        "WATCH-NSW-CURRENT-BILLS",
+        "WATCH-NSWEC-MEDIA"
+      ],
+      "existing_detail_capable_watch_ids": [
+        "WATCH-NSW-CURRENT-BILLS",
+        "WATCH-NSWEC-MEDIA"
+      ],
+      "substantive_area_evidence_count": 0,
+      "completion_condition": "Coverage cell reaches SUBSTANTIVE_EVIDENCE_ACTIVE with retained substantive-detail lineage.",
+      "state": "OPEN"
+    },
+    {
+      "queue_id": "INGEST-AUS-NSW-LEGISLATIVE",
+      "priority": 3,
+      "jurisdiction_id": "AUS-NSW",
+      "competition_class": "LEGISLATIVE",
+      "coverage_state": "INGESTION_PATH_READY_NO_SUBSTANTIVE_EVIDENCE",
+      "action": "BACKFILL_AVAILABLE_RECORDS_OR_WAIT_FOR_NEW_SUBSTANTIVE_RECORD",
+      "reason": "Source path and detail path exist, but no active substantive area evidence has yet been ingested.",
+      "missing_source_groups": [],
+      "existing_relevant_watch_ids": [
+        "WATCH-NSW-HANSARD",
+        "WATCH-NSW-CURRENT-BILLS"
+      ],
+      "existing_detail_capable_watch_ids": [
+        "WATCH-NSW-CURRENT-BILLS"
+      ],
+      "substantive_area_evidence_count": 0,
+      "completion_condition": "Coverage cell reaches SUBSTANTIVE_EVIDENCE_ACTIVE with retained substantive-detail lineage.",
+      "state": "OPEN"
+    },
+    {
+      "queue_id": "INGEST-AUS-NSW-PARLIAMENTARY_PROCEDURE",
+      "priority": 3,
+      "jurisdiction_id": "AUS-NSW",
+      "competition_class": "PARLIAMENTARY_PROCEDURE",
+      "coverage_state": "INGESTION_PATH_READY_NO_SUBSTANTIVE_EVIDENCE",
+      "action": "BACKFILL_AVAILABLE_RECORDS_OR_WAIT_FOR_NEW_SUBSTANTIVE_RECORD",
+      "reason": "Source path and detail path exist, but no active substantive area evidence has yet been ingested.",
+      "missing_source_groups": [],
+      "existing_relevant_watch_ids": [
+        "WATCH-NSW-HANSARD",
+        "WATCH-NSW-CURRENT-BILLS"
+      ],
+      "existing_detail_capable_watch_ids": [
+        "WATCH-NSW-CURRENT-BILLS"
+      ],
+      "substantive_area_evidence_count": 0,
+      "completion_condition": "Coverage cell reaches SUBSTANTIVE_EVIDENCE_ACTIVE with retained substantive-detail lineage.",
+      "state": "OPEN"
+    },
+    {
+      "queue_id": "INGEST-AUS-NSW-POLICY_ENACTMENT",
+      "priority": 3,
+      "jurisdiction_id": "AUS-NSW",
+      "competition_class": "POLICY_ENACTMENT",
+      "coverage_state": "INGESTION_PATH_READY_NO_SUBSTANTIVE_EVIDENCE",
+      "action": "BACKFILL_AVAILABLE_RECORDS_OR_WAIT_FOR_NEW_SUBSTANTIVE_RECORD",
+      "reason": "Source path and detail path exist, but no active substantive area evidence has yet been ingested.",
+      "missing_source_groups": [],
+      "existing_relevant_watch_ids": [
+        "WATCH-NSW-HANSARD",
+        "WATCH-NSW-CURRENT-BILLS",
+        "WATCH-NSW-MINISTERIAL-RELEASES"
+      ],
+      "existing_detail_capable_watch_ids": [
+        "WATCH-NSW-CURRENT-BILLS",
+        "WATCH-NSW-MINISTERIAL-RELEASES"
+      ],
+      "substantive_area_evidence_count": 0,
+      "completion_condition": "Coverage cell reaches SUBSTANTIVE_EVIDENCE_ACTIVE with retained substantive-detail lineage.",
+      "state": "OPEN"
+    },
+    {
+      "queue_id": "INGEST-AUS-NT-ELECTORAL",
+      "priority": 3,
+      "jurisdiction_id": "AUS-NT",
+      "competition_class": "ELECTORAL",
+      "coverage_state": "INGESTION_PATH_READY_NO_SUBSTANTIVE_EVIDENCE",
+      "action": "BACKFILL_AVAILABLE_RECORDS_OR_WAIT_FOR_NEW_SUBSTANTIVE_RECORD",
+      "reason": "Source path and detail path exist, but no active substantive area evidence has yet been ingested.",
+      "missing_source_groups": [],
+      "existing_relevant_watch_ids": [
+        "WATCH-NT-PARLIAMENT",
+        "WATCH-NTEC-MEDIA"
+      ],
+      "existing_detail_capable_watch_ids": [
+        "WATCH-NTEC-MEDIA"
+      ],
+      "substantive_area_evidence_count": 0,
+      "completion_condition": "Coverage cell reaches SUBSTANTIVE_EVIDENCE_ACTIVE with retained substantive-detail lineage.",
+      "state": "OPEN"
+    },
+    {
+      "queue_id": "INGEST-AUS-NT-POLICY_ENACTMENT",
+      "priority": 3,
+      "jurisdiction_id": "AUS-NT",
+      "competition_class": "POLICY_ENACTMENT",
+      "coverage_state": "INGESTION_PATH_READY_NO_SUBSTANTIVE_EVIDENCE",
+      "action": "BACKFILL_AVAILABLE_RECORDS_OR_WAIT_FOR_NEW_SUBSTANTIVE_RECORD",
+      "reason": "Source path and detail path exist, but no active substantive area evidence has yet been ingested.",
+      "missing_source_groups": [],
+      "existing_relevant_watch_ids": [
+        "WATCH-NT-PARLIAMENT",
+        "WATCH-NT-GOV-NEWSROOM"
+      ],
+      "existing_detail_capable_watch_ids": [
+        "WATCH-NT-GOV-NEWSROOM"
+      ],
+      "substantive_area_evidence_count": 0,
+      "completion_condition": "Coverage cell reaches SUBSTANTIVE_EVIDENCE_ACTIVE with retained substantive-detail lineage.",
+      "state": "OPEN"
+    },
+    {
+      "queue_id": "INGEST-AUS-QLD-ELECTORAL",
+      "priority": 3,
+      "jurisdiction_id": "AUS-QLD",
+      "competition_class": "ELECTORAL",
+      "coverage_state": "INGESTION_PATH_READY_NO_SUBSTANTIVE_EVIDENCE",
+      "action": "BACKFILL_AVAILABLE_RECORDS_OR_WAIT_FOR_NEW_SUBSTANTIVE_RECORD",
+      "reason": "Source path and detail path exist, but no active substantive area evidence has yet been ingested.",
+      "missing_source_groups": [],
+      "existing_relevant_watch_ids": [
+        "WATCH-QLD-HANSARD",
+        "WATCH-ECQ-MEDIA"
+      ],
+      "existing_detail_capable_watch_ids": [
+        "WATCH-ECQ-MEDIA"
+      ],
+      "substantive_area_evidence_count": 0,
+      "completion_condition": "Coverage cell reaches SUBSTANTIVE_EVIDENCE_ACTIVE with retained substantive-detail lineage.",
+      "state": "OPEN"
+    },
+    {
+      "queue_id": "INGEST-AUS-QLD-POLICY_ENACTMENT",
+      "priority": 3,
+      "jurisdiction_id": "AUS-QLD",
+      "competition_class": "POLICY_ENACTMENT",
+      "coverage_state": "INGESTION_PATH_READY_NO_SUBSTANTIVE_EVIDENCE",
+      "action": "BACKFILL_AVAILABLE_RECORDS_OR_WAIT_FOR_NEW_SUBSTANTIVE_RECORD",
+      "reason": "Source path and detail path exist, but no active substantive area evidence has yet been ingested.",
+      "missing_source_groups": [],
+      "existing_relevant_watch_ids": [
+        "WATCH-QLD-HANSARD",
+        "WATCH-QLD-MINISTERIAL-STATEMENTS"
+      ],
+      "existing_detail_capable_watch_ids": [
+        "WATCH-QLD-MINISTERIAL-STATEMENTS"
+      ],
+      "substantive_area_evidence_count": 0,
+      "completion_condition": "Coverage cell reaches SUBSTANTIVE_EVIDENCE_ACTIVE with retained substantive-detail lineage.",
+      "state": "OPEN"
+    },
+    {
+      "queue_id": "INGEST-AUS-SA-ELECTORAL",
+      "priority": 3,
+      "jurisdiction_id": "AUS-SA",
+      "competition_class": "ELECTORAL",
+      "coverage_state": "INGESTION_PATH_READY_NO_SUBSTANTIVE_EVIDENCE",
+      "action": "BACKFILL_AVAILABLE_RECORDS_OR_WAIT_FOR_NEW_SUBSTANTIVE_RECORD",
+      "reason": "Source path and detail path exist, but no active substantive area evidence has yet been ingested.",
+      "missing_source_groups": [],
+      "existing_relevant_watch_ids": [
+        "WATCH-SA-PARLIAMENT",
+        "WATCH-ECSA-NEWS"
+      ],
+      "existing_detail_capable_watch_ids": [
+        "WATCH-ECSA-NEWS"
+      ],
+      "substantive_area_evidence_count": 0,
+      "completion_condition": "Coverage cell reaches SUBSTANTIVE_EVIDENCE_ACTIVE with retained substantive-detail lineage.",
+      "state": "OPEN"
+    },
+    {
+      "queue_id": "INGEST-AUS-SA-POLICY_ENACTMENT",
+      "priority": 3,
+      "jurisdiction_id": "AUS-SA",
+      "competition_class": "POLICY_ENACTMENT",
+      "coverage_state": "INGESTION_PATH_READY_NO_SUBSTANTIVE_EVIDENCE",
+      "action": "BACKFILL_AVAILABLE_RECORDS_OR_WAIT_FOR_NEW_SUBSTANTIVE_RECORD",
+      "reason": "Source path and detail path exist, but no active substantive area evidence has yet been ingested.",
+      "missing_source_groups": [],
+      "existing_relevant_watch_ids": [
+        "WATCH-SA-PARLIAMENT",
+        "WATCH-SA-PREMIER-MEDIA"
+      ],
+      "existing_detail_capable_watch_ids": [
+        "WATCH-SA-PREMIER-MEDIA"
+      ],
+      "substantive_area_evidence_count": 0,
+      "completion_condition": "Coverage cell reaches SUBSTANTIVE_EVIDENCE_ACTIVE with retained substantive-detail lineage.",
+      "state": "OPEN"
+    },
+    {
+      "queue_id": "INGEST-AUS-TAS-ELECTORAL",
+      "priority": 3,
+      "jurisdiction_id": "AUS-TAS",
+      "competition_class": "ELECTORAL",
+      "coverage_state": "INGESTION_PATH_READY_NO_SUBSTANTIVE_EVIDENCE",
+      "action": "BACKFILL_AVAILABLE_RECORDS_OR_WAIT_FOR_NEW_SUBSTANTIVE_RECORD",
+      "reason": "Source path and detail path exist, but no active substantive area evidence has yet been ingested.",
+      "missing_source_groups": [],
+      "existing_relevant_watch_ids": [
+        "WATCH-TAS-HANSARD",
+        "WATCH-TEC-MEDIA"
+      ],
+      "existing_detail_capable_watch_ids": [
+        "WATCH-TEC-MEDIA"
+      ],
+      "substantive_area_evidence_count": 0,
+      "completion_condition": "Coverage cell reaches SUBSTANTIVE_EVIDENCE_ACTIVE with retained substantive-detail lineage.",
+      "state": "OPEN"
+    },
+    {
+      "queue_id": "INGEST-AUS-TAS-POLICY_ENACTMENT",
+      "priority": 3,
+      "jurisdiction_id": "AUS-TAS",
+      "competition_class": "POLICY_ENACTMENT",
+      "coverage_state": "INGESTION_PATH_READY_NO_SUBSTANTIVE_EVIDENCE",
+      "action": "BACKFILL_AVAILABLE_RECORDS_OR_WAIT_FOR_NEW_SUBSTANTIVE_RECORD",
+      "reason": "Source path and detail path exist, but no active substantive area evidence has yet been ingested.",
+      "missing_source_groups": [],
+      "existing_relevant_watch_ids": [
+        "WATCH-TAS-HANSARD",
+        "WATCH-TAS-PREMIER-NEWS"
+      ],
+      "existing_detail_capable_watch_ids": [
+        "WATCH-TAS-PREMIER-NEWS"
+      ],
+      "substantive_area_evidence_count": 0,
+      "completion_condition": "Coverage cell reaches SUBSTANTIVE_EVIDENCE_ACTIVE with retained substantive-detail lineage.",
+      "state": "OPEN"
+    },
+    {
+      "queue_id": "INGEST-AUS-VIC-ELECTORAL",
+      "priority": 3,
+      "jurisdiction_id": "AUS-VIC",
+      "competition_class": "ELECTORAL",
+      "coverage_state": "INGESTION_PATH_READY_NO_SUBSTANTIVE_EVIDENCE",
+      "action": "BACKFILL_AVAILABLE_RECORDS_OR_WAIT_FOR_NEW_SUBSTANTIVE_RECORD",
+      "reason": "Source path and detail path exist, but no active substantive area evidence has yet been ingested.",
+      "missing_source_groups": [],
+      "existing_relevant_watch_ids": [
+        "WATCH-VIC-HANSARD",
+        "WATCH-VEC-2026-STATE-ELECTION",
+        "WATCH-VEC-MEDIA"
+      ],
+      "existing_detail_capable_watch_ids": [
+        "WATCH-VEC-MEDIA"
+      ],
+      "substantive_area_evidence_count": 0,
+      "completion_condition": "Coverage cell reaches SUBSTANTIVE_EVIDENCE_ACTIVE with retained substantive-detail lineage.",
+      "state": "OPEN"
+    },
+    {
+      "queue_id": "INGEST-AUS-VIC-POLICY_ENACTMENT",
+      "priority": 3,
+      "jurisdiction_id": "AUS-VIC",
+      "competition_class": "POLICY_ENACTMENT",
+      "coverage_state": "INGESTION_PATH_READY_NO_SUBSTANTIVE_EVIDENCE",
+      "action": "BACKFILL_AVAILABLE_RECORDS_OR_WAIT_FOR_NEW_SUBSTANTIVE_RECORD",
+      "reason": "Source path and detail path exist, but no active substantive area evidence has yet been ingested.",
+      "missing_source_groups": [],
+      "existing_relevant_watch_ids": [
+        "WATCH-VIC-HANSARD",
+        "WATCH-VIC-PREMIER-MEDIA"
+      ],
+      "existing_detail_capable_watch_ids": [
+        "WATCH-VIC-PREMIER-MEDIA"
+      ],
+      "substantive_area_evidence_count": 0,
+      "completion_condition": "Coverage cell reaches SUBSTANTIVE_EVIDENCE_ACTIVE with retained substantive-detail lineage.",
+      "state": "OPEN"
+    },
+    {
+      "queue_id": "INGEST-AUS-WA-ELECTORAL",
+      "priority": 3,
+      "jurisdiction_id": "AUS-WA",
+      "competition_class": "ELECTORAL",
+      "coverage_state": "INGESTION_PATH_READY_NO_SUBSTANTIVE_EVIDENCE",
+      "action": "BACKFILL_AVAILABLE_RECORDS_OR_WAIT_FOR_NEW_SUBSTANTIVE_RECORD",
+      "reason": "Source path and detail path exist, but no active substantive area evidence has yet been ingested.",
+      "missing_source_groups": [],
+      "existing_relevant_watch_ids": [
+        "WATCH-WA-HANSARD",
+        "WATCH-WAEC-MEDIA"
+      ],
+      "existing_detail_capable_watch_ids": [
+        "WATCH-WAEC-MEDIA"
+      ],
+      "substantive_area_evidence_count": 0,
+      "completion_condition": "Coverage cell reaches SUBSTANTIVE_EVIDENCE_ACTIVE with retained substantive-detail lineage.",
+      "state": "OPEN"
+    },
+    {
+      "queue_id": "INGEST-AUS-WA-POLICY_ENACTMENT",
+      "priority": 3,
+      "jurisdiction_id": "AUS-WA",
+      "competition_class": "POLICY_ENACTMENT",
+      "coverage_state": "INGESTION_PATH_READY_NO_SUBSTANTIVE_EVIDENCE",
+      "action": "BACKFILL_AVAILABLE_RECORDS_OR_WAIT_FOR_NEW_SUBSTANTIVE_RECORD",
+      "reason": "Source path and detail path exist, but no active substantive area evidence has yet been ingested.",
+      "missing_source_groups": [],
+      "existing_relevant_watch_ids": [
+        "WATCH-WA-HANSARD",
+        "WATCH-WA-GOV-MEDIA"
+      ],
+      "existing_detail_capable_watch_ids": [
+        "WATCH-WA-GOV-MEDIA"
+      ],
+      "substantive_area_evidence_count": 0,
+      "completion_condition": "Coverage cell reaches SUBSTANTIVE_EVIDENCE_ACTIVE with retained substantive-detail lineage.",
+      "state": "OPEN"
+    }
+  ],
+  "summary": {
+    "open_items": 70,
+    "add_missing_source_class_watch": 33,
+    "add_or_upgrade_detail_capable_source": 14,
+    "backfill_or_wait": 23,
+    "active_cells_not_queued": 2
+  }
 }

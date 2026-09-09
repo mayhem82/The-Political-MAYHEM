@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-INTELLIGENCE-EVENTS-001",
   "scope": "Australia — multi-jurisdiction",
-  "captured_at": "2026-09-09T01:05:11.952Z",
+  "captured_at": "2026-09-09T01:06:57.683Z",
   "mode": "FORWARD_ONLY",
   "rules": {
     "observation_distinct_from_inference": true,
@@ -29294,6 +29294,52 @@
         "entity_mentions_do_not_establish_positions": true,
         "no_projection_effect_without_registered_target": true
       }
+    },
+    {
+      "event_id": "CHG-WATCH-APH-LIVE-MINUTES-20260909010543",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-FED",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-APH-LIVE-MINUTES-20260909010543",
+      "captured_at": "2026-09-09T01:05:43.917Z",
+      "event_date": "2026-09-09",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_PARLIAMENT",
+      "source_id": "SRC-APH-LIVE-MINUTES",
+      "capture_mode": "NORMALISED_PAGE_HASH",
+      "review_policy": "REVIEW_UNSTRUCTURED_CHANGE",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-APH-LIVE-MINUTES-20260909004900",
+        "content_hash": "fcbb771763c0f3abfb375826c37916adcdcb0d3b73fbed2215fd9fcccc69e5c6",
+        "capture_mode": "NORMALISED_PAGE_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-APH-LIVE-MINUTES-20260909010543",
+        "content_hash": "1dae02c4017c0a24b01aceb9cee568927ad2b9a2de307e47a712255cea5a9900",
+        "capture_mode": "NORMALISED_PAGE_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "TEXT_REPRESENTATION",
+        "first_difference_offset": 10731,
+        "before_length": 12491,
+        "after_length": 12513,
+        "before_excerpt": " resumed. Dr Garland , <TIME>. Mr McCormack , <TIME>. Ms Chesters , <TIME>. Ms Steggall , <TIME>. Ms Teesdale , <TIME>. In this section Bills and Legislation Tabled documents Chamber documents Work of the Senate House of Representatives cha",
+        "after_excerpt": " resumed. Dr Garland , <TIME>. Mr McCormack , <TIME>. Ms Chesters , <TIME>. Ms Steggall , <TIME>. Ms Teesdale , <TIME>. Mr Mitchell , <TIME>. In this section Bills and Legislation Tabled documents Chamber documents Work of the Senate House of Representatives cha",
+        "delta_hash": "74c1209ec3c6a47c2abab0cb2df8230269fee6fd6f29056c0247f3a127f8fbdb"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
     }
   ]
 }

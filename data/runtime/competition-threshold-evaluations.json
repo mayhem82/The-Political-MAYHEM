@@ -1,0 +1,77 @@
+{
+  "ledger_id": "POLITICAL-MAYHEM-COMPETITION-THRESHOLD-EVALUATIONS-001",
+  "status": "ACTIVE",
+  "updated_at": null,
+  "states": [
+    "NOT_A_MATCH",
+    "EVIDENCE_GAP",
+    "REVIEW_REQUIRED",
+    "ELIGIBLE_FOR_REGISTRATION"
+  ],
+  "rules": {
+    "evaluation_requires_area_evidence_lineage": true,
+    "only_active_contest_facts_can_satisfy_threshold": true,
+    "retracted_area_routes_evaluate_as_not_a_match": true,
+    "absence_of_fact_is_a_blocker_not_negative_evidence": true,
+    "material_resistance_requires_active_material_resistance_fact": true,
+    "supporting_side_requires_explicit_position_evidence": true,
+    "opposing_side_requires_explicit_position_evidence": true,
+    "same_entity_on_both_sides_requires_review": true,
+    "possible_outcome_state_does_not_verify_outcome": true,
+    "eligibility_does_not_register_a_competition": true,
+    "evaluation_does_not_change_projection": true,
+    "evaluation_state_changes_are_append_only": true
+  },
+  "thresholds": {
+    "ELECTORAL": {
+      "threshold_id": "SPECIFIC_ELECTORAL_CONTEST_WITH_PARTICIPATION_EVIDENCED",
+      "required_fact_types": ["CONTEST_OBJECT", "STAGE"],
+      "required_conditions": ["RESOLVED_PARTICIPANT_OR_TEAM"]
+    },
+    "LEGISLATIVE": {
+      "threshold_id": "MATERIAL_RESISTANCE_EVIDENCED",
+      "required_fact_types": ["CONTEST_OBJECT", "STAGE", "MATERIAL_RESISTANCE", "EXPLICIT_SUPPORT_POSITION", "EXPLICIT_OPPOSITION_POSITION"],
+      "required_conditions": ["DISTINCT_SUPPORTING_AND_OPPOSING_SIDES"]
+    },
+    "LEADERSHIP": {
+      "threshold_id": "RIVAL_CLAIM_OR_ORGANISED_RESISTANCE_EVIDENCED",
+      "required_fact_types": ["CONTEST_OBJECT", "STAGE", "MATERIAL_RESISTANCE"],
+      "required_conditions": ["AT_LEAST_TWO_RESOLVED_PARTICIPANTS_OR_TEAMS"]
+    },
+    "CONFIDENCE_SUPPLY": {
+      "threshold_id": "MATERIAL_CONFIDENCE_OR_SUPPLY_RISK_EVIDENCED",
+      "required_fact_types": ["CONTEST_OBJECT", "STAGE", "MATERIAL_RESISTANCE", "EXPLICIT_SUPPORT_POSITION", "EXPLICIT_OPPOSITION_POSITION"],
+      "required_conditions": ["DISTINCT_SUPPORTING_AND_OPPOSING_SIDES"]
+    },
+    "BUDGET": {
+      "threshold_id": "MATERIAL_FISCAL_RESISTANCE_EVIDENCED",
+      "required_fact_types": ["CONTEST_OBJECT", "OBJECTIVE", "STAGE", "MATERIAL_RESISTANCE", "EXPLICIT_SUPPORT_POSITION", "EXPLICIT_OPPOSITION_POSITION"],
+      "required_conditions": ["DISTINCT_SUPPORTING_AND_OPPOSING_SIDES"]
+    },
+    "POLICY_ENACTMENT": {
+      "threshold_id": "DEFINED_POLICY_OBJECTIVE_AND_MATERIAL_RESISTANCE_EVIDENCED",
+      "required_fact_types": ["CONTEST_OBJECT", "OBJECTIVE", "IMPLEMENTATION_ACTION", "MATERIAL_RESISTANCE", "EXPLICIT_SUPPORT_POSITION", "EXPLICIT_OPPOSITION_POSITION"],
+      "required_conditions": ["DISTINCT_SUPPORTING_AND_OPPOSING_SIDES"]
+    },
+    "PARLIAMENTARY_PROCEDURE": {
+      "threshold_id": "CONTESTED_PROCEDURAL_OBJECTIVE_EVIDENCED",
+      "required_fact_types": ["CONTEST_OBJECT", "PROCEDURAL_ACTION", "MATERIAL_RESISTANCE", "EXPLICIT_SUPPORT_POSITION", "EXPLICIT_OPPOSITION_POSITION"],
+      "required_conditions": ["DISTINCT_SUPPORTING_AND_OPPOSING_SIDES"]
+    },
+    "PUBLIC_PRESSURE": {
+      "threshold_id": "DEFINED_PUBLIC_DEMAND_AND_EVIDENCED_INSTITUTIONAL_RESISTANCE_OR_INERTIA",
+      "required_fact_types": ["PUBLIC_DEMAND", "PRESSURE_ACTION", "MATERIAL_RESISTANCE"],
+      "required_conditions": ["IDENTIFIABLE_PUBLIC_ACTOR"]
+    }
+  },
+  "evaluations": [],
+  "summary": {
+    "evaluations_total": 0,
+    "by_state": {
+      "NOT_A_MATCH": 0,
+      "EVIDENCE_GAP": 0,
+      "REVIEW_REQUIRED": 0,
+      "ELIGIBLE_FOR_REGISTRATION": 0
+    }
+  }
+}

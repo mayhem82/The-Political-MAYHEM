@@ -21,8 +21,12 @@ for(const rule of [
   'entity_resolution_must_not_invent_identity',
   'competition_threshold_evaluation_occurs_after_substantive_ingestion',
   'failed_detail_acquisition_remains_explicit',
-  'institutional_self_reporting_alone_does_not_prove_public_gain'
+  'institutional_self_reporting_alone_does_not_prove_public_gain',
+  'jurisdiction_source_count_is_not_area_coverage',
+  'each_area_requires_an_explicit_source_path'
 ]) assert(pipeline.rules?.[rule]===true,`missing pipeline rule: ${rule}`);
+
+assert(Array.isArray(pipeline.detail_capable_capture_modes)&&pipeline.detail_capable_capture_modes.length>0,'detail-capable capture modes missing');
 
 const stages=pipeline.stages||[];
 assert(stages.length===13,`expected 13 ingestion stages, found ${stages.length}`);
@@ -35,7 +39,7 @@ for(const required of [
   'INTELLIGENCE_WRITE','MATCH_DISCOVERY_OR_UPDATE','OUTCOME_VERIFICATION'
 ]) assert(stages.some(x=>x.stage_id===required),`ingestion stage missing: ${required}`);
 
-for(const output of ['detail_snapshots','area_evidence','intelligence_events','competition_discovery','registered_matches','verified_outcomes']){
+for(const output of ['detail_snapshots','area_evidence','intelligence_events','competition_discovery','registered_matches','verified_outcomes','coverage']){
   assert(Boolean(pipeline.runtime_outputs?.[output]),`runtime output missing: ${output}`);
 }
 
@@ -50,12 +54,19 @@ for(const area of areas){
   assert(Array.isArray(area.required_information)&&area.required_information.length>=3,`${area.competition_class}: required_information incomplete`);
   assert(Array.isArray(area.high_value_sources)&&area.high_value_sources.length>=2,`${area.competition_class}: high_value_sources incomplete`);
   assert(Array.isArray(area.substantive_record_types)&&area.substantive_record_types.length>=3,`${area.competition_class}: substantive_record_types incomplete`);
+  const sourcePath=area.source_path_requirements;
+  assert(Boolean(sourcePath),`${area.competition_class}: source_path_requirements missing`);
+  assert(Array.isArray(sourcePath?.required_source_groups)&&sourcePath.required_source_groups.length>0,`${area.competition_class}: required_source_groups missing`);
+  for(const group of sourcePath?.required_source_groups||[]) assert(Array.isArray(group)&&group.length>0,`${area.competition_class}: empty required source group`);
+  assert(sourcePath?.automated_record_detail_path_required===true,`${area.competition_class}: automated detail path must be required`);
 }
 
 const publicPressure=areas.find(x=>x.competition_class==='PUBLIC_PRESSURE');
 assert(publicPressure?.required_information?.includes('defined public demand'),'PUBLIC_PRESSURE must ingest a defined public demand');
 assert(publicPressure?.required_information?.includes('measurable concession/reversal/outcome'),'PUBLIC_PRESSURE must ingest measurable public outcome evidence');
 assert(publicPressure?.required_information?.includes('causal evidence before claiming pressure forced the outcome'),'PUBLIC_PRESSURE must preserve causation boundary');
+const publicOriginGroup=publicPressure?.source_path_requirements?.required_source_groups?.[0]||[];
+assert(publicOriginGroup.some(x=>['PRIMARY_PUBLIC_ACTOR','PRIMARY_COMMUNITY','PRIMARY_CAMPAIGN','PRIMARY_PETITION'].includes(x)),'PUBLIC_PRESSURE requires a public-origin source path');
 
 if(fail.length){
   console.error('POLITICAL_MAYHEM_INFORMATION_INGESTION_PIPELINE_FAILED');

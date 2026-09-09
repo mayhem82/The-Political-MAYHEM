@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-INTELLIGENCE-EVENTS-001",
   "scope": "Australia — multi-jurisdiction",
-  "captured_at": "2026-09-09T05:32:00.458Z",
+  "captured_at": "2026-09-09T05:33:44.404Z",
   "mode": "FORWARD_ONLY",
   "rules": {
     "observation_distinct_from_inference": true,
@@ -46990,6 +46990,52 @@
         "source_change_parent_retained": true,
         "deterministic_review": true
       }
+    },
+    {
+      "event_id": "CHG-WATCH-APH-LIVE-MINUTES-20260909053258",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-FED",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-APH-LIVE-MINUTES-20260909053258",
+      "captured_at": "2026-09-09T05:32:58.730Z",
+      "event_date": "2026-09-09",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_PARLIAMENT",
+      "source_id": "SRC-APH-LIVE-MINUTES",
+      "capture_mode": "NORMALISED_PAGE_HASH",
+      "review_policy": "REVIEW_UNSTRUCTURED_CHANGE",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-APH-LIVE-MINUTES-20260909053055",
+        "content_hash": "fd6a93dee3d8867389003f65348efceeecbe07f733ceed39eb380c4432ac64a4",
+        "capture_mode": "NORMALISED_PAGE_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-APH-LIVE-MINUTES-20260909053258",
+        "content_hash": "1f0a6a87c61f6d5c7832483bbcf09bb609b88fb316ee6ee94c8538ba1b1feea8",
+        "capture_mode": "NORMALISED_PAGE_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "TEXT_REPRESENTATION",
+        "first_difference_offset": 17766,
+        "before_length": 19526,
+        "after_length": 19546,
+        "before_excerpt": "y support— - <TIME> Mr Wilkie addressed the House. - <TIME> Discussion ensued. Ms Kearney , <TIME>. Dr M Ryan , <TIME>. In this section Bills and Legislation Tabled documents Chamber documents Work of the Senate House of Representatives cha",
+        "after_excerpt": "y support— - <TIME> Mr Wilkie addressed the House. - <TIME> Discussion ensued. Ms Kearney , <TIME>. Dr M Ryan , <TIME>. Ms K Cook , <TIME>. In this section Bills and Legislation Tabled documents Chamber documents Work of the Senate House of Representatives cha",
+        "delta_hash": "754dcd0854dcc1a974c9ed17015f879e4d53c4e89f0de0c5e5cea35b0f5e4754"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
     }
   ]
 }

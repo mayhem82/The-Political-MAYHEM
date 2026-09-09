@@ -35,7 +35,7 @@ const eventById=new Map((events.events||[]).map(x=>[x.event_id,x]));
 const existingById=new Map(discovery.candidates.map(x=>[x.candidate_id,x]));
 const examined=new Map(jurisdictions.map(j=>[j,new Set()]));
 const snapshotIds=new Set((snapshots.snapshots||[]).map(x=>x.snapshot_id));
-const substantiveEventTypes=new Set(['AREA_EVIDENCE_INGESTED','AREA_EVIDENCE_REACTIVATED','AREA_EVIDENCE_INTELLIGENCE_ENRICHED']);
+const substantiveEventTypes=new Set(['AREA_EVIDENCE_INGESTED','AREA_EVIDENCE_REACTIVATED','AREA_EVIDENCE_INTELLIGENCE_ENRICHED','AREA_EVIDENCE_RETRACTED','AREA_EVIDENCE_RETRACTION_ENRICHED']);
 const latestSubstantiveByArea=new Map();
 for(const event of events.events||[]){
   if(!event.area_evidence_id||!event.competition_class||!substantiveEventTypes.has(event.event_type)) continue;
@@ -165,8 +165,11 @@ const addCandidate=({jurisdictionId,family,subject,event,reviewId=null})=>{
   const summary=isSubstantive
     ? `Substantive source record body was acquired, routed to ${proposedClass}, and written into intelligence with retained detail, source-snapshot and stage-10 threshold lineage. Match registration remains a separate action.`
     : `Screened ${event.source_class||'political'} evidence contains language consistent with a ${family.toLowerCase().replaceAll('_',' ')} competition candidate. This is a discovery observation, not a registered contest or outcome inference.`;
+  const areaMatches=isSubstantive
+    ?discovery.candidates.filter(candidate=>candidate.competition_family===family&&(candidate.area_evidence_ids||[]).includes(event.area_evidence_id))
+    :[];
   const areaExisting=isSubstantive
-    ?discovery.candidates.find(candidate=>candidate.candidate_state!=='REJECTED_NOT_COMPETITION'&&candidate.competition_family===family&&(candidate.area_evidence_ids||[]).includes(event.area_evidence_id))
+    ?areaMatches.find(candidate=>candidate.candidate_state==='REGISTERED')||areaMatches.find(candidate=>candidate.candidate_state!=='REJECTED_NOT_COMPETITION')||areaMatches.find(candidate=>!candidate.duplicate_of_candidate_id)||areaMatches[0]||null
     :null;
   const existing=areaExisting||existingById.get(id);
   if(existing){
@@ -219,7 +222,7 @@ for(const review of reviews.reviews||[]){
 
 for(const event of events.events||[]){
   if(!jurisdictions.includes(event.jurisdiction_id)) continue;
-  if(event.event_type==='SOURCE_CHANGED'||event.review_id||event.event_type==='AREA_EVIDENCE_RETRACTED') continue;
+  if(event.event_type==='SOURCE_CHANGED'||event.review_id) continue;
   const trusted=event.evidence_state==='VERIFIED'||event.semantic_review_state==='PROMOTED'||event.signal_state==='CONFIRMED_FACT';
   if(!trusted) continue;
   examined.get(event.jurisdiction_id).add(event.event_id);

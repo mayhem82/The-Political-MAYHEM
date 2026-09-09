@@ -1,10 +1,41 @@
 {
   "system": "The Political MAYHEM",
   "snapshot_id": "FIRST-TEAM-OUTCOME-LEDGER-001",
-  "generated_at": "2026-09-09T12:25:00+10:00",
+  "generated_at": "2026-09-09T12:40:00+10:00",
   "subject_entity_id": "AUS-PEOPLE",
-  "status": "ACTIVE_APPEND_ONLY_EMPTY",
-  "outcomes": [],
+  "status": "ACTIVE_APPEND_ONLY",
+  "outcomes": [
+    {
+      "outcome_id": "FTOUTCOME-2025-FED-HOUSE-001",
+      "outcome_class": "ELECTION_RESULT",
+      "jurisdiction": "AUS-FED",
+      "decision_or_event_date": "2025-05-03",
+      "verified_result": "The 2025 federal election directly selected members for all 150 House of Representatives divisions. This record does not infer endorsement of any policy proposition beyond the electoral choices actually made.",
+      "population_scope": "Australian electors participating in the 2025 House of Representatives election, division by division",
+      "authoritative_source": true,
+      "authoritative_source_detail": [
+        {
+          "publisher": "Australian Electoral Commission",
+          "source_url": "https://results.aec.gov.au/31496/Website/Downloads/HouseFirstPrefsByCandidateByVoteTypeDownload-31496.csv",
+          "source_state": "PRIMARY_FINAL_RESULTS",
+          "purpose": "2025 House candidate first-preference totals and swing"
+        },
+        {
+          "publisher": "Australian Electoral Commission",
+          "source_url": "https://results.aec.gov.au/31496/Website/HouseSeatSummary-31496.htm",
+          "source_state": "PRIMARY_FINAL_RESULTS",
+          "purpose": "Final winning TCP percentage, margin and swing by division"
+        }
+      ],
+      "source_lineage": {
+        "snapshot_id": "FEDERAL-HOUSE-ELECTORAL-PERFORMANCE-002",
+        "captured_at": "2026-09-08T02:55:37.099Z",
+        "source_file": "data/runtime/federal-house-electoral-performance-v2.json"
+      },
+      "first_team_form_effect": "DIRECT_REPRESENTATIVE_SELECTION_RECORDED",
+      "mandate_expansion_prohibited": true
+    }
+  ],
   "allowed_outcome_classes": [
     "ELECTION_RESULT",
     "REFERENDUM_RESULT",

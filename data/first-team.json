@@ -1,0 +1,80 @@
+{
+  "system": "The Political MAYHEM",
+  "snapshot": "FIRST-TEAM-SNAP-001",
+  "captured_at": "2026-09-09T11:54:00+10:00",
+  "entity_id": "AUS-PEOPLE",
+  "public_label": "The People",
+  "sport_label": "First Team",
+  "entity_type": "FOUNDATIONAL_NON_PARLIAMENTARY_PUBLIC",
+  "classification": "CONSTITUTIONALLY_GROUNDED_TRANSLATION",
+  "status": "ACTIVE_CONTINUOUS_STANDING_INTERMITTENT_FORM",
+  "constitutional_grounding": [
+    {
+      "section": "7",
+      "fact": "The Senate is composed of senators for each State directly chosen by the people of the State.",
+      "classification": "FACT",
+      "source": "Commonwealth of Australia Constitution Act",
+      "url": "https://www.legislation.gov.au/C2004Q00685/latest/text"
+    },
+    {
+      "section": "24",
+      "fact": "The House of Representatives is composed of members directly chosen by the people of the Commonwealth.",
+      "classification": "FACT",
+      "source": "Commonwealth of Australia Constitution Act",
+      "url": "https://www.legislation.gov.au/C2004Q00685/latest/text"
+    },
+    {
+      "section": "128",
+      "fact": "A proposed constitutional alteration must be submitted to electors and satisfy the constitutional referendum requirements before becoming law.",
+      "classification": "FACT",
+      "source": "Commonwealth of Australia Constitution Act",
+      "url": "https://www.legislation.gov.au/C2004Q00685/latest/text"
+    }
+  ],
+  "interpretive_boundary": {
+    "proposition": "The people are the ultimate sovereign or principal in the Australian constitutional-democratic system.",
+    "classification": "INTERPRETATION",
+    "rule": "Do not present this formulation as literal constitutional text. The First Team translation is grounded in constitutional electoral and referendum powers but remains a site translation layer."
+  },
+  "translation": {
+    "political_reality": "The people as the represented public and constitutional electorate",
+    "sport_legibility": "First Team",
+    "principal_relationship": "Parliamentary parties and parliamentarians compete to represent, persuade or govern on behalf of the public; claims to speak for the public remain claims unless independently evidenced.",
+    "parliamentary_roster": false,
+    "synthetic_players": false,
+    "continuous_standing": true,
+    "continuous_form": false
+  },
+  "decision_points": [
+    {
+      "type": "ELECTION",
+      "sport_translation": "Fixture / direct selection point",
+      "form_rule": "Record only verified electoral outcomes and evidence-supported participation metrics."
+    },
+    {
+      "type": "REFERENDUM",
+      "sport_translation": "Special structural fixture",
+      "form_rule": "Record the verified referendum result and constitutional threshold outcome."
+    },
+    {
+      "type": "PUBLIC_MOBILISATION",
+      "sport_translation": "Public-pressure event",
+      "form_rule": "Do not assign First Team ground gained or lost unless a measurable institutional or policy outcome is evidenced."
+    }
+  ],
+  "evidence_rules": [
+    "Never infer public approval from the absence of an election, referendum, poll or mobilisation event.",
+    "Claims such as Australians want, the people have spoken, ordinary Australians support, or public interest are team or actor positioning unless independently evidenced.",
+    "Do not create individual citizen player cards or synthetic public rosters.",
+    "Do not place the First Team in the federal primary-vote party ladder.",
+    "First Team form is event-driven and remains UNKNOWN between decision points unless suitable evidence supports a narrower proposition.",
+    "Ground gained or lost requires a verifiable public outcome and traceable evidence lineage.",
+    "Polling may evidence sampled opinion for a defined question and population; it does not become a direct public decision point."
+  ],
+  "site_placement": {
+    "teams": "Foundational entry displayed before parliamentary teams.",
+    "ladder": "Excluded from primary-vote party ladder; displayed in a separate sovereign/electoral form panel.",
+    "political_glossary": ["the people", "popular sovereignty", "will of the people"],
+    "site_glossary": ["First Team", "Foundational Team", "Sovereign / Electoral Form"]
+  }
+}

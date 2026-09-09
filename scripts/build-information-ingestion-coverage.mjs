@@ -16,6 +16,7 @@ const coverage=read(COVERAGE);
 const jurisdictions=['AUS-FED','AUS-NSW','AUS-VIC','AUS-QLD','AUS-WA','AUS-SA','AUS-TAS','AUS-ACT','AUS-NT'];
 const detailModes=new Set(pipeline.detail_capable_capture_modes||[]);
 const activeSources=(registry.sources||[]).filter(x=>x.active);
+const activeAreaEvidence=(areaEvidence.records||[]).filter(x=>x.routing_state==='SUBSTANTIVE_CONTENT_ROUTED');
 const cells=[];
 const gaps=[];
 const now=new Date().toISOString();
@@ -33,7 +34,7 @@ for(const jurisdictionId of jurisdictions){
     const relevantClasses=new Set([...(area.high_value_sources||[]),...groups.flat()]);
     const relevantSources=jurisdictionSources.filter(x=>relevantClasses.has(x.source_class));
     const detailCapable=relevantSources.filter(x=>detailModes.has(x.capture_mode));
-    const evidenceRows=(areaEvidence.records||[]).filter(x=>x.jurisdiction_id===jurisdictionId&&x.competition_class===area.competition_class);
+    const evidenceRows=activeAreaEvidence.filter(x=>x.jurisdiction_id===jurisdictionId&&x.competition_class===area.competition_class);
     const detailRows=(details.records||[]).filter(x=>x.jurisdiction_id===jurisdictionId);
     const missingGroups=groupStates.filter(x=>!x.satisfied).map(x=>x.options);
     let state='SUBSTANTIVE_EVIDENCE_ACTIVE';
@@ -78,7 +79,8 @@ coverage.summary={
   substantive_evidence_active:cells.filter(x=>x.state==='SUBSTANTIVE_EVIDENCE_ACTIVE').length,
   ingestion_path_ready_no_substantive_evidence:cells.filter(x=>x.state==='INGESTION_PATH_READY_NO_SUBSTANTIVE_EVIDENCE').length,
   no_automated_detail_path:cells.filter(x=>x.state==='NO_AUTOMATED_DETAIL_PATH').length,
-  source_path_gaps:cells.filter(x=>x.state==='SOURCE_PATH_GAP').length
+  source_path_gaps:cells.filter(x=>x.state==='SOURCE_PATH_GAP').length,
+  retracted_routing_records_excluded:(areaEvidence.records||[]).filter(x=>x.routing_state==='RETRACTED_ROUTING_NOISE').length
 };
 write(COVERAGE,coverage);
 console.log('POLITICAL_MAYHEM_INFORMATION_INGESTION_COVERAGE_OK',JSON.stringify(coverage.summary));

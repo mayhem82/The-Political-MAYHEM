@@ -70,6 +70,8 @@ const snapshotIds=new Set((snapshots.snapshots||[]).map(x=>x.snapshot_id));
 const eventById=new Map((events.events||[]).map(x=>[x.event_id,x]));
 const reviewById=new Map((reviews.reviews||[]).map(x=>[x.review_id,x]));
 const candidates=ledger.candidates||[];
+const candidateById=new Map(candidates.map(x=>[x.candidate_id,x]));
+const activeAreaFamilyOwner=new Map();
 assert(unique(candidates.map(x=>x.candidate_id)),'competition discovery candidate IDs are not unique');
 
 const familyClassExpectation={
@@ -90,6 +92,18 @@ for(const candidate of candidates){
   assert(typeof candidate.subject==='string'&&candidate.subject.trim().length>0,`${candidate.candidate_id}: subject missing`);
   assert(candidateStates.has(candidate.candidate_state),`${candidate.candidate_id}: invalid candidate_state`);
   assert(validTime(candidate.detected_at),`${candidate.candidate_id}: detected_at invalid`);
+
+  const areaIds=Array.isArray(candidate.area_evidence_ids)?candidate.area_evidence_ids:[];
+  assert(unique(areaIds),`${candidate.candidate_id}: duplicate area_evidence_ids`);
+  for(const areaId of areaIds) assert(typeof areaId==='string'&&areaId.length>0,`${candidate.candidate_id}: invalid area_evidence_id`);
+  if(candidate.candidate_state!=='REJECTED_NOT_COMPETITION'){
+    for(const areaId of areaIds){
+      const key=`${candidate.competition_family}|${areaId}`;
+      const prior=activeAreaFamilyOwner.get(key);
+      assert(!prior,`${candidate.candidate_id}: substantive area ${areaId} already has active ${candidate.competition_family} candidate ${prior}`);
+      if(!prior) activeAreaFamilyOwner.set(key,candidate.candidate_id);
+    }
+  }
 
   const proposedClass=candidate.proposed_competition_class;
   if(proposedClass!==null){
@@ -140,6 +154,22 @@ for(const candidate of candidates){
   assert(unique(blockers),`${candidate.candidate_id}: duplicate registration blockers`);
   assert(Array.isArray(candidate.state_history)&&candidate.state_history.length>0,`${candidate.candidate_id}: state_history required`);
 
+  const duplicateRepresentation=blockers.includes('DUPLICATE_SUBSTANTIVE_CANDIDATE_REPRESENTATION');
+  if(duplicateRepresentation){
+    assert(candidate.candidate_state==='REJECTED_NOT_COMPETITION',`${candidate.candidate_id}: duplicate representation must be rejected`);
+    const canonical=candidateById.get(candidate.duplicate_of_candidate_id);
+    assert(Boolean(canonical),`${candidate.candidate_id}: duplicate representation lacks valid canonical candidate`);
+    if(canonical){
+      assert(canonical.candidate_id!==candidate.candidate_id,`${candidate.candidate_id}: duplicate cannot point to itself`);
+      assert(canonical.candidate_state!=='REJECTED_NOT_COMPETITION',`${candidate.candidate_id}: canonical duplicate target is rejected`);
+      assert(canonical.jurisdiction_id===candidate.jurisdiction_id,`${candidate.candidate_id}: canonical duplicate target jurisdiction mismatch`);
+      assert(canonical.competition_family===candidate.competition_family,`${candidate.candidate_id}: canonical duplicate target family mismatch`);
+      const canonicalAreas=new Set(canonical.area_evidence_ids||[]);
+      assert(areaIds.length>0&&areaIds.every(areaId=>canonicalAreas.has(areaId)),`${candidate.candidate_id}: duplicate area lineage is not contained by canonical candidate`);
+    }
+    assert(candidate.state_history.some(x=>x.to==='REJECTED_NOT_COMPETITION'&&x.reason==='DUPLICATE_SUBSTANTIVE_CANDIDATE_REPRESENTATION_RECONCILED'),`${candidate.candidate_id}: duplicate rejection transition missing`);
+  }
+
   if(candidate.candidate_state==='ELIGIBLE_FOR_REGISTRATION'){
     assert(Boolean(proposedClass),`${candidate.candidate_id}: eligible candidate lacks proposed competition class`);
     assert(Boolean(proposedCycle),`${candidate.candidate_id}: eligible candidate lacks proposed cycle`);
@@ -173,4 +203,4 @@ if(fail.length){
   for(const message of fail) console.error('- '+message);
   process.exit(1);
 }
-console.log('POLITICAL_MAYHEM_COMPETITION_DISCOVERY_INTEGRITY_PASS',`candidates=${candidates.length}`,`screened=${screening.filter(x=>x.screening_state==='SCREENED').length}/9`,`registered=${candidates.filter(x=>x.candidate_state==='REGISTERED').length}`,'temporalProvenance=ENFORCED','families=8');
+console.log('POLITICAL_MAYHEM_COMPETITION_DISCOVERY_INTEGRITY_PASS',`candidates=${candidates.length}`,`screened=${screening.filter(x=>x.screening_state==='SCREENED').length}/9`,`registered=${candidates.filter(x=>x.candidate_state==='REGISTERED').length}`,`activeSubstantiveKeys=${activeAreaFamilyOwner.size}`,'temporalProvenance=ENFORCED','families=8');

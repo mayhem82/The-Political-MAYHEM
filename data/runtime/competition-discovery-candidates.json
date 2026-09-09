@@ -69,64 +69,64 @@
     {
       "jurisdiction_id": "AUS-FED",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-09T00:53:28.240Z",
+      "last_screened_at": "2026-09-09T00:57:52.717Z",
       "signals_examined": 23,
       "candidates_detected": 5
     },
     {
       "jurisdiction_id": "AUS-NSW",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-09T00:53:28.240Z",
+      "last_screened_at": "2026-09-09T00:57:52.717Z",
       "signals_examined": 13,
       "candidates_detected": 1
     },
     {
       "jurisdiction_id": "AUS-VIC",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-09T00:53:28.240Z",
+      "last_screened_at": "2026-09-09T00:57:52.717Z",
       "signals_examined": 0,
       "candidates_detected": 0
     },
     {
       "jurisdiction_id": "AUS-QLD",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-09T00:53:28.240Z",
-      "signals_examined": 2,
-      "candidates_detected": 42
+      "last_screened_at": "2026-09-09T00:57:52.717Z",
+      "signals_examined": 3,
+      "candidates_detected": 43
     },
     {
       "jurisdiction_id": "AUS-WA",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-09T00:53:28.240Z",
+      "last_screened_at": "2026-09-09T00:57:52.717Z",
       "signals_examined": 0,
       "candidates_detected": 0
     },
     {
       "jurisdiction_id": "AUS-SA",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-09T00:53:28.240Z",
+      "last_screened_at": "2026-09-09T00:57:52.717Z",
       "signals_examined": 0,
       "candidates_detected": 0
     },
     {
       "jurisdiction_id": "AUS-TAS",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-09T00:53:28.240Z",
-      "signals_examined": 5,
+      "last_screened_at": "2026-09-09T00:57:52.717Z",
+      "signals_examined": 6,
       "candidates_detected": 0
     },
     {
       "jurisdiction_id": "AUS-ACT",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-09T00:53:28.240Z",
+      "last_screened_at": "2026-09-09T00:57:52.717Z",
       "signals_examined": 16,
       "candidates_detected": 0
     },
     {
       "jurisdiction_id": "AUS-NT",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-09T00:53:28.240Z",
-      "signals_examined": 12,
+      "last_screened_at": "2026-09-09T00:57:52.717Z",
+      "signals_examined": 13,
       "candidates_detected": 0
     }
   ],
@@ -1724,13 +1724,46 @@
           "reason": "DETERMINISTIC_COMPETITION_FAMILY_SCREEN"
         }
       ]
+    },
+    {
+      "candidate_id": "DISC-QLD-ELECTION-3f66e0a00df616f1",
+      "jurisdiction_id": "AUS-QLD",
+      "competition_family": "ELECTION",
+      "proposed_competition_class": "ELECTORAL",
+      "proposed_cycle_id": null,
+      "subject": "Stafford by-election infographic",
+      "candidate_state": "REVIEW_REQUIRED",
+      "detected_at": "2026-09-09T00:57:49.450Z",
+      "source_snapshot_ids": [
+        "AUTO-WATCH-ECQ-MEDIA-20260909005639"
+      ],
+      "signal_event_ids": [
+        "SIG-REV-CHG-WATCH-ECQ-MEDIA-20260909005639"
+      ],
+      "review_ids": [
+        "REV-CHG-WATCH-ECQ-MEDIA-20260909005639"
+      ],
+      "evidence_summary": "Screened PRIMARY_ELECTORAL_AUTHORITY evidence contains language consistent with a election competition candidate. This is a discovery observation, not a registered contest or outcome inference.",
+      "registration_blockers": [
+        "DISTINCT_ELECTORAL_CONTEST_SCOPE_REQUIRES_REVIEW",
+        "REGISTERED_COMPATIBLE_CYCLE_REQUIRED"
+      ],
+      "linked_contest_id": null,
+      "state_history": [
+        {
+          "from": null,
+          "to": "REVIEW_REQUIRED",
+          "at": "2026-09-09T00:57:49.450Z",
+          "reason": "DETERMINISTIC_COMPETITION_FAMILY_SCREEN"
+        }
+      ]
     }
   ],
-  "last_screened_at": "2026-09-09T00:53:28.240Z",
+  "last_screened_at": "2026-09-09T00:57:52.717Z",
   "last_screen_summary": {
-    "signals_examined": 71,
-    "candidates_total": 48,
-    "candidates_added": 0,
+    "signals_examined": 74,
+    "candidates_total": 49,
+    "candidates_added": 1,
     "candidate_lineage_merges": 52,
     "registered_contests_unchanged": true
   }

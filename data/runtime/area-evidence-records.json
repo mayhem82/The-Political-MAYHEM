@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-MAYHEM-AREA-EVIDENCE-001",
   "status": "ACTIVE",
-  "updated_at": "2026-09-09T00:53:28.119Z",
+  "updated_at": "2026-09-09T00:57:52.530Z",
   "rules": {
     "record_requires_substantive_detail_lineage": true,
     "one_detail_record_may_route_to_multiple_areas": true,
@@ -79,7 +79,7 @@
       "record_url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7414",
       "evidence_captured_at": "2026-09-09T00:51:55.056Z",
       "routed_at": "2026-09-09T00:51:57.825Z",
-      "routing_state": "SUBSTANTIVE_CONTENT_ROUTED",
+      "routing_state": "RETRACTED_ROUTING_NOISE",
       "routing_hits": [
         "Budget"
       ],
@@ -109,7 +109,17 @@
         "routing_does_not_register_match": true,
         "entity_mentions_not_yet_resolved": true,
         "positions_not_inferred_from_routing": true
-      }
+      },
+      "retracted_at": "2026-09-09T00:57:52.530Z",
+      "retraction_reason": "Competition-class cue was outside the bounded 3200-character substantive routing window or no longer satisfied routing rules.",
+      "routing_history": [
+        {
+          "from": "SUBSTANTIVE_CONTENT_ROUTED",
+          "to": "RETRACTED_ROUTING_NOISE",
+          "at": "2026-09-09T00:57:52.530Z",
+          "reason": "ROUTING_NOISE_CORRECTION"
+        }
+      ]
     },
     {
       "area_evidence_id": "AREA-cc7601e0425abc6917d5af2f",
@@ -176,7 +186,7 @@
       "record_url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7432",
       "evidence_captured_at": "2026-09-09T00:51:56.356Z",
       "routed_at": "2026-09-09T00:51:57.825Z",
-      "routing_state": "SUBSTANTIVE_CONTENT_ROUTED",
+      "routing_state": "RETRACTED_ROUTING_NOISE",
       "routing_hits": [
         "Budget"
       ],
@@ -206,7 +216,17 @@
         "routing_does_not_register_match": true,
         "entity_mentions_not_yet_resolved": true,
         "positions_not_inferred_from_routing": true
-      }
+      },
+      "retracted_at": "2026-09-09T00:57:52.530Z",
+      "retraction_reason": "Competition-class cue was outside the bounded 3200-character substantive routing window or no longer satisfied routing rules.",
+      "routing_history": [
+        {
+          "from": "SUBSTANTIVE_CONTENT_ROUTED",
+          "to": "RETRACTED_ROUTING_NOISE",
+          "at": "2026-09-09T00:57:52.530Z",
+          "reason": "ROUTING_NOISE_CORRECTION"
+        }
+      ]
     },
     {
       "area_evidence_id": "AREA-4174c8f7d7dd32e0571fcf72",
@@ -273,7 +293,7 @@
       "record_url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=s1510",
       "evidence_captured_at": "2026-09-09T00:51:56.961Z",
       "routed_at": "2026-09-09T00:51:57.825Z",
-      "routing_state": "SUBSTANTIVE_CONTENT_ROUTED",
+      "routing_state": "RETRACTED_ROUTING_NOISE",
       "routing_hits": [
         "Budget"
       ],
@@ -303,7 +323,17 @@
         "routing_does_not_register_match": true,
         "entity_mentions_not_yet_resolved": true,
         "positions_not_inferred_from_routing": true
-      }
+      },
+      "retracted_at": "2026-09-09T00:57:52.530Z",
+      "retraction_reason": "Competition-class cue was outside the bounded 3200-character substantive routing window or no longer satisfied routing rules.",
+      "routing_history": [
+        {
+          "from": "SUBSTANTIVE_CONTENT_ROUTED",
+          "to": "RETRACTED_ROUTING_NOISE",
+          "at": "2026-09-09T00:57:52.530Z",
+          "reason": "ROUTING_NOISE_CORRECTION"
+        }
+      ]
     },
     {
       "area_evidence_id": "AREA-43e33a1e6f80db4427eebc9b",
@@ -356,14 +386,16 @@
   ],
   "summary": {
     "substantive_detail_records": 3,
-    "area_evidence_records": 7,
+    "area_evidence_records_total": 7,
+    "active_area_evidence_records": 4,
     "added_this_run": 0,
+    "retracted_this_run": 3,
     "by_area": {
       "ELECTORAL": 0,
       "LEGISLATIVE": 3,
       "LEADERSHIP": 0,
       "CONFIDENCE_SUPPLY": 0,
-      "BUDGET": 3,
+      "BUDGET": 0,
       "POLICY_ENACTMENT": 0,
       "PARLIAMENTARY_PROCEDURE": 1,
       "PUBLIC_PRESSURE": 0

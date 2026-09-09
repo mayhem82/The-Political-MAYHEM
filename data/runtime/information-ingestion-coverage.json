@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-MAYHEM-INFORMATION-INGESTION-COVERAGE-001",
   "status": "ACTIVE",
-  "updated_at": null,
+  "updated_at": "2026-09-09T00:57:52.582Z",
   "rules": {
     "coverage_is_jurisdiction_by_competition_area": true,
     "generic_jurisdiction_source_count_does_not_equal_area_coverage": true,
@@ -10,6 +10,3519 @@
     "substantive_evidence_count_is_measured_separately": true,
     "source_gap_is_not_interpreted_as_no_competition": true
   },
-  "cells": [],
-  "gaps": []
+  "cells": [
+    {
+      "jurisdiction_id": "AUS-FED",
+      "competition_class": "ELECTORAL",
+      "state": "INGESTION_PATH_READY_NO_SUBSTANTIVE_EVIDENCE",
+      "configured_source_count": 10,
+      "relevant_source_count": 9,
+      "detail_capable_source_count": 6,
+      "detail_records_in_jurisdiction": 3,
+      "substantive_area_evidence_count": 0,
+      "required_source_groups": [
+        {
+          "options": [
+            "PRIMARY_ELECTORAL_AUTHORITY"
+          ],
+          "matches": [
+            "WATCH-AEC-MEDIA"
+          ],
+          "satisfied": true
+        }
+      ],
+      "missing_source_groups": [],
+      "relevant_watch_ids": [
+        "WATCH-APH-LIVE-MINUTES",
+        "WATCH-APH-WEEK-AHEAD",
+        "WATCH-APH-BILLS",
+        "WATCH-AEC-MEDIA",
+        "WATCH-ALP-NEWS",
+        "WATCH-LIBERAL-HOME",
+        "WATCH-GREENS-FEDERAL-MEDIA",
+        "WATCH-NATIONALS-NEWS",
+        "WATCH-ONENATION-NEWS"
+      ],
+      "detail_capable_watch_ids": [
+        "WATCH-APH-BILLS",
+        "WATCH-AEC-MEDIA",
+        "WATCH-ALP-NEWS",
+        "WATCH-GREENS-FEDERAL-MEDIA",
+        "WATCH-NATIONALS-NEWS",
+        "WATCH-ONENATION-NEWS"
+      ]
+    },
+    {
+      "jurisdiction_id": "AUS-FED",
+      "competition_class": "LEGISLATIVE",
+      "state": "SUBSTANTIVE_EVIDENCE_ACTIVE",
+      "configured_source_count": 10,
+      "relevant_source_count": 8,
+      "detail_capable_source_count": 5,
+      "detail_records_in_jurisdiction": 3,
+      "substantive_area_evidence_count": 3,
+      "required_source_groups": [
+        {
+          "options": [
+            "PRIMARY_PARLIAMENT"
+          ],
+          "matches": [
+            "WATCH-APH-LIVE-MINUTES",
+            "WATCH-APH-WEEK-AHEAD",
+            "WATCH-APH-BILLS"
+          ],
+          "satisfied": true
+        }
+      ],
+      "missing_source_groups": [],
+      "relevant_watch_ids": [
+        "WATCH-APH-LIVE-MINUTES",
+        "WATCH-APH-WEEK-AHEAD",
+        "WATCH-APH-BILLS",
+        "WATCH-ALP-NEWS",
+        "WATCH-LIBERAL-HOME",
+        "WATCH-GREENS-FEDERAL-MEDIA",
+        "WATCH-NATIONALS-NEWS",
+        "WATCH-ONENATION-NEWS"
+      ],
+      "detail_capable_watch_ids": [
+        "WATCH-APH-BILLS",
+        "WATCH-ALP-NEWS",
+        "WATCH-GREENS-FEDERAL-MEDIA",
+        "WATCH-NATIONALS-NEWS",
+        "WATCH-ONENATION-NEWS"
+      ]
+    },
+    {
+      "jurisdiction_id": "AUS-FED",
+      "competition_class": "LEADERSHIP",
+      "state": "INGESTION_PATH_READY_NO_SUBSTANTIVE_EVIDENCE",
+      "configured_source_count": 10,
+      "relevant_source_count": 8,
+      "detail_capable_source_count": 5,
+      "detail_records_in_jurisdiction": 3,
+      "substantive_area_evidence_count": 0,
+      "required_source_groups": [
+        {
+          "options": [
+            "PRIMARY_PARTY",
+            "PRIMARY_ACTOR"
+          ],
+          "matches": [
+            "WATCH-ALP-NEWS",
+            "WATCH-LIBERAL-HOME",
+            "WATCH-GREENS-FEDERAL-MEDIA",
+            "WATCH-NATIONALS-NEWS",
+            "WATCH-ONENATION-NEWS"
+          ],
+          "satisfied": true
+        }
+      ],
+      "missing_source_groups": [],
+      "relevant_watch_ids": [
+        "WATCH-APH-LIVE-MINUTES",
+        "WATCH-APH-WEEK-AHEAD",
+        "WATCH-APH-BILLS",
+        "WATCH-ALP-NEWS",
+        "WATCH-LIBERAL-HOME",
+        "WATCH-GREENS-FEDERAL-MEDIA",
+        "WATCH-NATIONALS-NEWS",
+        "WATCH-ONENATION-NEWS"
+      ],
+      "detail_capable_watch_ids": [
+        "WATCH-APH-BILLS",
+        "WATCH-ALP-NEWS",
+        "WATCH-GREENS-FEDERAL-MEDIA",
+        "WATCH-NATIONALS-NEWS",
+        "WATCH-ONENATION-NEWS"
+      ]
+    },
+    {
+      "jurisdiction_id": "AUS-FED",
+      "competition_class": "CONFIDENCE_SUPPLY",
+      "state": "INGESTION_PATH_READY_NO_SUBSTANTIVE_EVIDENCE",
+      "configured_source_count": 10,
+      "relevant_source_count": 8,
+      "detail_capable_source_count": 5,
+      "detail_records_in_jurisdiction": 3,
+      "substantive_area_evidence_count": 0,
+      "required_source_groups": [
+        {
+          "options": [
+            "PRIMARY_PARLIAMENT"
+          ],
+          "matches": [
+            "WATCH-APH-LIVE-MINUTES",
+            "WATCH-APH-WEEK-AHEAD",
+            "WATCH-APH-BILLS"
+          ],
+          "satisfied": true
+        },
+        {
+          "options": [
+            "PRIMARY_PARTY",
+            "PRIMARY_ACTOR"
+          ],
+          "matches": [
+            "WATCH-ALP-NEWS",
+            "WATCH-LIBERAL-HOME",
+            "WATCH-GREENS-FEDERAL-MEDIA",
+            "WATCH-NATIONALS-NEWS",
+            "WATCH-ONENATION-NEWS"
+          ],
+          "satisfied": true
+        }
+      ],
+      "missing_source_groups": [],
+      "relevant_watch_ids": [
+        "WATCH-APH-LIVE-MINUTES",
+        "WATCH-APH-WEEK-AHEAD",
+        "WATCH-APH-BILLS",
+        "WATCH-ALP-NEWS",
+        "WATCH-LIBERAL-HOME",
+        "WATCH-GREENS-FEDERAL-MEDIA",
+        "WATCH-NATIONALS-NEWS",
+        "WATCH-ONENATION-NEWS"
+      ],
+      "detail_capable_watch_ids": [
+        "WATCH-APH-BILLS",
+        "WATCH-ALP-NEWS",
+        "WATCH-GREENS-FEDERAL-MEDIA",
+        "WATCH-NATIONALS-NEWS",
+        "WATCH-ONENATION-NEWS"
+      ]
+    },
+    {
+      "jurisdiction_id": "AUS-FED",
+      "competition_class": "BUDGET",
+      "state": "SUBSTANTIVE_EVIDENCE_ACTIVE",
+      "configured_source_count": 10,
+      "relevant_source_count": 9,
+      "detail_capable_source_count": 6,
+      "detail_records_in_jurisdiction": 3,
+      "substantive_area_evidence_count": 3,
+      "required_source_groups": [
+        {
+          "options": [
+            "PRIMARY_GOVERNMENT"
+          ],
+          "matches": [
+            "WATCH-PM-MEDIA"
+          ],
+          "satisfied": true
+        },
+        {
+          "options": [
+            "PRIMARY_PARLIAMENT"
+          ],
+          "matches": [
+            "WATCH-APH-LIVE-MINUTES",
+            "WATCH-APH-WEEK-AHEAD",
+            "WATCH-APH-BILLS"
+          ],
+          "satisfied": true
+        },
+        {
+          "options": [
+            "PRIMARY_PARTY",
+            "PRIMARY_ACTOR"
+          ],
+          "matches": [
+            "WATCH-ALP-NEWS",
+            "WATCH-LIBERAL-HOME",
+            "WATCH-GREENS-FEDERAL-MEDIA",
+            "WATCH-NATIONALS-NEWS",
+            "WATCH-ONENATION-NEWS"
+          ],
+          "satisfied": true
+        }
+      ],
+      "missing_source_groups": [],
+      "relevant_watch_ids": [
+        "WATCH-APH-LIVE-MINUTES",
+        "WATCH-APH-WEEK-AHEAD",
+        "WATCH-APH-BILLS",
+        "WATCH-PM-MEDIA",
+        "WATCH-ALP-NEWS",
+        "WATCH-LIBERAL-HOME",
+        "WATCH-GREENS-FEDERAL-MEDIA",
+        "WATCH-NATIONALS-NEWS",
+        "WATCH-ONENATION-NEWS"
+      ],
+      "detail_capable_watch_ids": [
+        "WATCH-APH-BILLS",
+        "WATCH-PM-MEDIA",
+        "WATCH-ALP-NEWS",
+        "WATCH-GREENS-FEDERAL-MEDIA",
+        "WATCH-NATIONALS-NEWS",
+        "WATCH-ONENATION-NEWS"
+      ]
+    },
+    {
+      "jurisdiction_id": "AUS-FED",
+      "competition_class": "POLICY_ENACTMENT",
+      "state": "INGESTION_PATH_READY_NO_SUBSTANTIVE_EVIDENCE",
+      "configured_source_count": 10,
+      "relevant_source_count": 9,
+      "detail_capable_source_count": 6,
+      "detail_records_in_jurisdiction": 3,
+      "substantive_area_evidence_count": 0,
+      "required_source_groups": [
+        {
+          "options": [
+            "PRIMARY_GOVERNMENT",
+            "PRIMARY_REGULATOR"
+          ],
+          "matches": [
+            "WATCH-PM-MEDIA"
+          ],
+          "satisfied": true
+        },
+        {
+          "options": [
+            "PRIMARY_PARLIAMENT",
+            "PRIMARY_PARTY",
+            "PRIMARY_ACTOR",
+            "PRIMARY_REGULATOR"
+          ],
+          "matches": [
+            "WATCH-APH-LIVE-MINUTES",
+            "WATCH-APH-WEEK-AHEAD",
+            "WATCH-APH-BILLS",
+            "WATCH-ALP-NEWS",
+            "WATCH-LIBERAL-HOME",
+            "WATCH-GREENS-FEDERAL-MEDIA",
+            "WATCH-NATIONALS-NEWS",
+            "WATCH-ONENATION-NEWS"
+          ],
+          "satisfied": true
+        }
+      ],
+      "missing_source_groups": [],
+      "relevant_watch_ids": [
+        "WATCH-APH-LIVE-MINUTES",
+        "WATCH-APH-WEEK-AHEAD",
+        "WATCH-APH-BILLS",
+        "WATCH-PM-MEDIA",
+        "WATCH-ALP-NEWS",
+        "WATCH-LIBERAL-HOME",
+        "WATCH-GREENS-FEDERAL-MEDIA",
+        "WATCH-NATIONALS-NEWS",
+        "WATCH-ONENATION-NEWS"
+      ],
+      "detail_capable_watch_ids": [
+        "WATCH-APH-BILLS",
+        "WATCH-PM-MEDIA",
+        "WATCH-ALP-NEWS",
+        "WATCH-GREENS-FEDERAL-MEDIA",
+        "WATCH-NATIONALS-NEWS",
+        "WATCH-ONENATION-NEWS"
+      ]
+    },
+    {
+      "jurisdiction_id": "AUS-FED",
+      "competition_class": "PARLIAMENTARY_PROCEDURE",
+      "state": "SUBSTANTIVE_EVIDENCE_ACTIVE",
+      "configured_source_count": 10,
+      "relevant_source_count": 8,
+      "detail_capable_source_count": 5,
+      "detail_records_in_jurisdiction": 3,
+      "substantive_area_evidence_count": 1,
+      "required_source_groups": [
+        {
+          "options": [
+            "PRIMARY_PARLIAMENT"
+          ],
+          "matches": [
+            "WATCH-APH-LIVE-MINUTES",
+            "WATCH-APH-WEEK-AHEAD",
+            "WATCH-APH-BILLS"
+          ],
+          "satisfied": true
+        }
+      ],
+      "missing_source_groups": [],
+      "relevant_watch_ids": [
+        "WATCH-APH-LIVE-MINUTES",
+        "WATCH-APH-WEEK-AHEAD",
+        "WATCH-APH-BILLS",
+        "WATCH-ALP-NEWS",
+        "WATCH-LIBERAL-HOME",
+        "WATCH-GREENS-FEDERAL-MEDIA",
+        "WATCH-NATIONALS-NEWS",
+        "WATCH-ONENATION-NEWS"
+      ],
+      "detail_capable_watch_ids": [
+        "WATCH-APH-BILLS",
+        "WATCH-ALP-NEWS",
+        "WATCH-GREENS-FEDERAL-MEDIA",
+        "WATCH-NATIONALS-NEWS",
+        "WATCH-ONENATION-NEWS"
+      ]
+    },
+    {
+      "jurisdiction_id": "AUS-FED",
+      "competition_class": "PUBLIC_PRESSURE",
+      "state": "SOURCE_PATH_GAP",
+      "configured_source_count": 10,
+      "relevant_source_count": 4,
+      "detail_capable_source_count": 2,
+      "detail_records_in_jurisdiction": 3,
+      "substantive_area_evidence_count": 0,
+      "required_source_groups": [
+        {
+          "options": [
+            "PRIMARY_PUBLIC_ACTOR",
+            "PRIMARY_COMMUNITY",
+            "PRIMARY_CAMPAIGN",
+            "PRIMARY_PETITION"
+          ],
+          "matches": [],
+          "satisfied": false
+        },
+        {
+          "options": [
+            "PRIMARY_PARLIAMENT",
+            "PRIMARY_GOVERNMENT",
+            "PRIMARY_REGULATOR"
+          ],
+          "matches": [
+            "WATCH-APH-LIVE-MINUTES",
+            "WATCH-APH-WEEK-AHEAD",
+            "WATCH-APH-BILLS",
+            "WATCH-PM-MEDIA"
+          ],
+          "satisfied": true
+        }
+      ],
+      "missing_source_groups": [
+        [
+          "PRIMARY_PUBLIC_ACTOR",
+          "PRIMARY_COMMUNITY",
+          "PRIMARY_CAMPAIGN",
+          "PRIMARY_PETITION"
+        ]
+      ],
+      "relevant_watch_ids": [
+        "WATCH-APH-LIVE-MINUTES",
+        "WATCH-APH-WEEK-AHEAD",
+        "WATCH-APH-BILLS",
+        "WATCH-PM-MEDIA"
+      ],
+      "detail_capable_watch_ids": [
+        "WATCH-APH-BILLS",
+        "WATCH-PM-MEDIA"
+      ]
+    },
+    {
+      "jurisdiction_id": "AUS-NSW",
+      "competition_class": "ELECTORAL",
+      "state": "INGESTION_PATH_READY_NO_SUBSTANTIVE_EVIDENCE",
+      "configured_source_count": 4,
+      "relevant_source_count": 3,
+      "detail_capable_source_count": 2,
+      "detail_records_in_jurisdiction": 0,
+      "substantive_area_evidence_count": 0,
+      "required_source_groups": [
+        {
+          "options": [
+            "PRIMARY_ELECTORAL_AUTHORITY"
+          ],
+          "matches": [
+            "WATCH-NSWEC-MEDIA"
+          ],
+          "satisfied": true
+        }
+      ],
+      "missing_source_groups": [],
+      "relevant_watch_ids": [
+        "WATCH-NSW-HANSARD",
+        "WATCH-NSW-CURRENT-BILLS",
+        "WATCH-NSWEC-MEDIA"
+      ],
+      "detail_capable_watch_ids": [
+        "WATCH-NSW-CURRENT-BILLS",
+        "WATCH-NSWEC-MEDIA"
+      ]
+    },
+    {
+      "jurisdiction_id": "AUS-NSW",
+      "competition_class": "LEGISLATIVE",
+      "state": "INGESTION_PATH_READY_NO_SUBSTANTIVE_EVIDENCE",
+      "configured_source_count": 4,
+      "relevant_source_count": 2,
+      "detail_capable_source_count": 1,
+      "detail_records_in_jurisdiction": 0,
+      "substantive_area_evidence_count": 0,
+      "required_source_groups": [
+        {
+          "options": [
+            "PRIMARY_PARLIAMENT"
+          ],
+          "matches": [
+            "WATCH-NSW-HANSARD",
+            "WATCH-NSW-CURRENT-BILLS"
+          ],
+          "satisfied": true
+        }
+      ],
+      "missing_source_groups": [],
+      "relevant_watch_ids": [
+        "WATCH-NSW-HANSARD",
+        "WATCH-NSW-CURRENT-BILLS"
+      ],
+      "detail_capable_watch_ids": [
+        "WATCH-NSW-CURRENT-BILLS"
+      ]
+    },
+    {
+      "jurisdiction_id": "AUS-NSW",
+      "competition_class": "LEADERSHIP",
+      "state": "SOURCE_PATH_GAP",
+      "configured_source_count": 4,
+      "relevant_source_count": 2,
+      "detail_capable_source_count": 1,
+      "detail_records_in_jurisdiction": 0,
+      "substantive_area_evidence_count": 0,
+      "required_source_groups": [
+        {
+          "options": [
+            "PRIMARY_PARTY",
+            "PRIMARY_ACTOR"
+          ],
+          "matches": [],
+          "satisfied": false
+        }
+      ],
+      "missing_source_groups": [
+        [
+          "PRIMARY_PARTY",
+          "PRIMARY_ACTOR"
+        ]
+      ],
+      "relevant_watch_ids": [
+        "WATCH-NSW-HANSARD",
+        "WATCH-NSW-CURRENT-BILLS"
+      ],
+      "detail_capable_watch_ids": [
+        "WATCH-NSW-CURRENT-BILLS"
+      ]
+    },
+    {
+      "jurisdiction_id": "AUS-NSW",
+      "competition_class": "CONFIDENCE_SUPPLY",
+      "state": "SOURCE_PATH_GAP",
+      "configured_source_count": 4,
+      "relevant_source_count": 2,
+      "detail_capable_source_count": 1,
+      "detail_records_in_jurisdiction": 0,
+      "substantive_area_evidence_count": 0,
+      "required_source_groups": [
+        {
+          "options": [
+            "PRIMARY_PARLIAMENT"
+          ],
+          "matches": [
+            "WATCH-NSW-HANSARD",
+            "WATCH-NSW-CURRENT-BILLS"
+          ],
+          "satisfied": true
+        },
+        {
+          "options": [
+            "PRIMARY_PARTY",
+            "PRIMARY_ACTOR"
+          ],
+          "matches": [],
+          "satisfied": false
+        }
+      ],
+      "missing_source_groups": [
+        [
+          "PRIMARY_PARTY",
+          "PRIMARY_ACTOR"
+        ]
+      ],
+      "relevant_watch_ids": [
+        "WATCH-NSW-HANSARD",
+        "WATCH-NSW-CURRENT-BILLS"
+      ],
+      "detail_capable_watch_ids": [
+        "WATCH-NSW-CURRENT-BILLS"
+      ]
+    },
+    {
+      "jurisdiction_id": "AUS-NSW",
+      "competition_class": "BUDGET",
+      "state": "SOURCE_PATH_GAP",
+      "configured_source_count": 4,
+      "relevant_source_count": 3,
+      "detail_capable_source_count": 2,
+      "detail_records_in_jurisdiction": 0,
+      "substantive_area_evidence_count": 0,
+      "required_source_groups": [
+        {
+          "options": [
+            "PRIMARY_GOVERNMENT"
+          ],
+          "matches": [
+            "WATCH-NSW-MINISTERIAL-RELEASES"
+          ],
+          "satisfied": true
+        },
+        {
+          "options": [
+            "PRIMARY_PARLIAMENT"
+          ],
+          "matches": [
+            "WATCH-NSW-HANSARD",
+            "WATCH-NSW-CURRENT-BILLS"
+          ],
+          "satisfied": true
+        },
+        {
+          "options": [
+            "PRIMARY_PARTY",
+            "PRIMARY_ACTOR"
+          ],
+          "matches": [],
+          "satisfied": false
+        }
+      ],
+      "missing_source_groups": [
+        [
+          "PRIMARY_PARTY",
+          "PRIMARY_ACTOR"
+        ]
+      ],
+      "relevant_watch_ids": [
+        "WATCH-NSW-HANSARD",
+        "WATCH-NSW-CURRENT-BILLS",
+        "WATCH-NSW-MINISTERIAL-RELEASES"
+      ],
+      "detail_capable_watch_ids": [
+        "WATCH-NSW-CURRENT-BILLS",
+        "WATCH-NSW-MINISTERIAL-RELEASES"
+      ]
+    },
+    {
+      "jurisdiction_id": "AUS-NSW",
+      "competition_class": "POLICY_ENACTMENT",
+      "state": "INGESTION_PATH_READY_NO_SUBSTANTIVE_EVIDENCE",
+      "configured_source_count": 4,
+      "relevant_source_count": 3,
+      "detail_capable_source_count": 2,
+      "detail_records_in_jurisdiction": 0,
+      "substantive_area_evidence_count": 0,
+      "required_source_groups": [
+        {
+          "options": [
+            "PRIMARY_GOVERNMENT",
+            "PRIMARY_REGULATOR"
+          ],
+          "matches": [
+            "WATCH-NSW-MINISTERIAL-RELEASES"
+          ],
+          "satisfied": true
+        },
+        {
+          "options": [
+            "PRIMARY_PARLIAMENT",
+            "PRIMARY_PARTY",
+            "PRIMARY_ACTOR",
+            "PRIMARY_REGULATOR"
+          ],
+          "matches": [
+            "WATCH-NSW-HANSARD",
+            "WATCH-NSW-CURRENT-BILLS"
+          ],
+          "satisfied": true
+        }
+      ],
+      "missing_source_groups": [],
+      "relevant_watch_ids": [
+        "WATCH-NSW-HANSARD",
+        "WATCH-NSW-CURRENT-BILLS",
+        "WATCH-NSW-MINISTERIAL-RELEASES"
+      ],
+      "detail_capable_watch_ids": [
+        "WATCH-NSW-CURRENT-BILLS",
+        "WATCH-NSW-MINISTERIAL-RELEASES"
+      ]
+    },
+    {
+      "jurisdiction_id": "AUS-NSW",
+      "competition_class": "PARLIAMENTARY_PROCEDURE",
+      "state": "INGESTION_PATH_READY_NO_SUBSTANTIVE_EVIDENCE",
+      "configured_source_count": 4,
+      "relevant_source_count": 2,
+      "detail_capable_source_count": 1,
+      "detail_records_in_jurisdiction": 0,
+      "substantive_area_evidence_count": 0,
+      "required_source_groups": [
+        {
+          "options": [
+            "PRIMARY_PARLIAMENT"
+          ],
+          "matches": [
+            "WATCH-NSW-HANSARD",
+            "WATCH-NSW-CURRENT-BILLS"
+          ],
+          "satisfied": true
+        }
+      ],
+      "missing_source_groups": [],
+      "relevant_watch_ids": [
+        "WATCH-NSW-HANSARD",
+        "WATCH-NSW-CURRENT-BILLS"
+      ],
+      "detail_capable_watch_ids": [
+        "WATCH-NSW-CURRENT-BILLS"
+      ]
+    },
+    {
+      "jurisdiction_id": "AUS-NSW",
+      "competition_class": "PUBLIC_PRESSURE",
+      "state": "SOURCE_PATH_GAP",
+      "configured_source_count": 4,
+      "relevant_source_count": 3,
+      "detail_capable_source_count": 2,
+      "detail_records_in_jurisdiction": 0,
+      "substantive_area_evidence_count": 0,
+      "required_source_groups": [
+        {
+          "options": [
+            "PRIMARY_PUBLIC_ACTOR",
+            "PRIMARY_COMMUNITY",
+            "PRIMARY_CAMPAIGN",
+            "PRIMARY_PETITION"
+          ],
+          "matches": [],
+          "satisfied": false
+        },
+        {
+          "options": [
+            "PRIMARY_PARLIAMENT",
+            "PRIMARY_GOVERNMENT",
+            "PRIMARY_REGULATOR"
+          ],
+          "matches": [
+            "WATCH-NSW-HANSARD",
+            "WATCH-NSW-CURRENT-BILLS",
+            "WATCH-NSW-MINISTERIAL-RELEASES"
+          ],
+          "satisfied": true
+        }
+      ],
+      "missing_source_groups": [
+        [
+          "PRIMARY_PUBLIC_ACTOR",
+          "PRIMARY_COMMUNITY",
+          "PRIMARY_CAMPAIGN",
+          "PRIMARY_PETITION"
+        ]
+      ],
+      "relevant_watch_ids": [
+        "WATCH-NSW-HANSARD",
+        "WATCH-NSW-CURRENT-BILLS",
+        "WATCH-NSW-MINISTERIAL-RELEASES"
+      ],
+      "detail_capable_watch_ids": [
+        "WATCH-NSW-CURRENT-BILLS",
+        "WATCH-NSW-MINISTERIAL-RELEASES"
+      ]
+    },
+    {
+      "jurisdiction_id": "AUS-VIC",
+      "competition_class": "ELECTORAL",
+      "state": "INGESTION_PATH_READY_NO_SUBSTANTIVE_EVIDENCE",
+      "configured_source_count": 4,
+      "relevant_source_count": 3,
+      "detail_capable_source_count": 1,
+      "detail_records_in_jurisdiction": 0,
+      "substantive_area_evidence_count": 0,
+      "required_source_groups": [
+        {
+          "options": [
+            "PRIMARY_ELECTORAL_AUTHORITY"
+          ],
+          "matches": [
+            "WATCH-VEC-2026-STATE-ELECTION",
+            "WATCH-VEC-MEDIA"
+          ],
+          "satisfied": true
+        }
+      ],
+      "missing_source_groups": [],
+      "relevant_watch_ids": [
+        "WATCH-VIC-HANSARD",
+        "WATCH-VEC-2026-STATE-ELECTION",
+        "WATCH-VEC-MEDIA"
+      ],
+      "detail_capable_watch_ids": [
+        "WATCH-VEC-MEDIA"
+      ]
+    },
+    {
+      "jurisdiction_id": "AUS-VIC",
+      "competition_class": "LEGISLATIVE",
+      "state": "NO_AUTOMATED_DETAIL_PATH",
+      "configured_source_count": 4,
+      "relevant_source_count": 1,
+      "detail_capable_source_count": 0,
+      "detail_records_in_jurisdiction": 0,
+      "substantive_area_evidence_count": 0,
+      "required_source_groups": [
+        {
+          "options": [
+            "PRIMARY_PARLIAMENT"
+          ],
+          "matches": [
+            "WATCH-VIC-HANSARD"
+          ],
+          "satisfied": true
+        }
+      ],
+      "missing_source_groups": [],
+      "relevant_watch_ids": [
+        "WATCH-VIC-HANSARD"
+      ],
+      "detail_capable_watch_ids": []
+    },
+    {
+      "jurisdiction_id": "AUS-VIC",
+      "competition_class": "LEADERSHIP",
+      "state": "SOURCE_PATH_GAP",
+      "configured_source_count": 4,
+      "relevant_source_count": 1,
+      "detail_capable_source_count": 0,
+      "detail_records_in_jurisdiction": 0,
+      "substantive_area_evidence_count": 0,
+      "required_source_groups": [
+        {
+          "options": [
+            "PRIMARY_PARTY",
+            "PRIMARY_ACTOR"
+          ],
+          "matches": [],
+          "satisfied": false
+        }
+      ],
+      "missing_source_groups": [
+        [
+          "PRIMARY_PARTY",
+          "PRIMARY_ACTOR"
+        ]
+      ],
+      "relevant_watch_ids": [
+        "WATCH-VIC-HANSARD"
+      ],
+      "detail_capable_watch_ids": []
+    },
+    {
+      "jurisdiction_id": "AUS-VIC",
+      "competition_class": "CONFIDENCE_SUPPLY",
+      "state": "SOURCE_PATH_GAP",
+      "configured_source_count": 4,
+      "relevant_source_count": 1,
+      "detail_capable_source_count": 0,
+      "detail_records_in_jurisdiction": 0,
+      "substantive_area_evidence_count": 0,
+      "required_source_groups": [
+        {
+          "options": [
+            "PRIMARY_PARLIAMENT"
+          ],
+          "matches": [
+            "WATCH-VIC-HANSARD"
+          ],
+          "satisfied": true
+        },
+        {
+          "options": [
+            "PRIMARY_PARTY",
+            "PRIMARY_ACTOR"
+          ],
+          "matches": [],
+          "satisfied": false
+        }
+      ],
+      "missing_source_groups": [
+        [
+          "PRIMARY_PARTY",
+          "PRIMARY_ACTOR"
+        ]
+      ],
+      "relevant_watch_ids": [
+        "WATCH-VIC-HANSARD"
+      ],
+      "detail_capable_watch_ids": []
+    },
+    {
+      "jurisdiction_id": "AUS-VIC",
+      "competition_class": "BUDGET",
+      "state": "SOURCE_PATH_GAP",
+      "configured_source_count": 4,
+      "relevant_source_count": 2,
+      "detail_capable_source_count": 1,
+      "detail_records_in_jurisdiction": 0,
+      "substantive_area_evidence_count": 0,
+      "required_source_groups": [
+        {
+          "options": [
+            "PRIMARY_GOVERNMENT"
+          ],
+          "matches": [
+            "WATCH-VIC-PREMIER-MEDIA"
+          ],
+          "satisfied": true
+        },
+        {
+          "options": [
+            "PRIMARY_PARLIAMENT"
+          ],
+          "matches": [
+            "WATCH-VIC-HANSARD"
+          ],
+          "satisfied": true
+        },
+        {
+          "options": [
+            "PRIMARY_PARTY",
+            "PRIMARY_ACTOR"
+          ],
+          "matches": [],
+          "satisfied": false
+        }
+      ],
+      "missing_source_groups": [
+        [
+          "PRIMARY_PARTY",
+          "PRIMARY_ACTOR"
+        ]
+      ],
+      "relevant_watch_ids": [
+        "WATCH-VIC-HANSARD",
+        "WATCH-VIC-PREMIER-MEDIA"
+      ],
+      "detail_capable_watch_ids": [
+        "WATCH-VIC-PREMIER-MEDIA"
+      ]
+    },
+    {
+      "jurisdiction_id": "AUS-VIC",
+      "competition_class": "POLICY_ENACTMENT",
+      "state": "INGESTION_PATH_READY_NO_SUBSTANTIVE_EVIDENCE",
+      "configured_source_count": 4,
+      "relevant_source_count": 2,
+      "detail_capable_source_count": 1,
+      "detail_records_in_jurisdiction": 0,
+      "substantive_area_evidence_count": 0,
+      "required_source_groups": [
+        {
+          "options": [
+            "PRIMARY_GOVERNMENT",
+            "PRIMARY_REGULATOR"
+          ],
+          "matches": [
+            "WATCH-VIC-PREMIER-MEDIA"
+          ],
+          "satisfied": true
+        },
+        {
+          "options": [
+            "PRIMARY_PARLIAMENT",
+            "PRIMARY_PARTY",
+            "PRIMARY_ACTOR",
+            "PRIMARY_REGULATOR"
+          ],
+          "matches": [
+            "WATCH-VIC-HANSARD"
+          ],
+          "satisfied": true
+        }
+      ],
+      "missing_source_groups": [],
+      "relevant_watch_ids": [
+        "WATCH-VIC-HANSARD",
+        "WATCH-VIC-PREMIER-MEDIA"
+      ],
+      "detail_capable_watch_ids": [
+        "WATCH-VIC-PREMIER-MEDIA"
+      ]
+    },
+    {
+      "jurisdiction_id": "AUS-VIC",
+      "competition_class": "PARLIAMENTARY_PROCEDURE",
+      "state": "NO_AUTOMATED_DETAIL_PATH",
+      "configured_source_count": 4,
+      "relevant_source_count": 1,
+      "detail_capable_source_count": 0,
+      "detail_records_in_jurisdiction": 0,
+      "substantive_area_evidence_count": 0,
+      "required_source_groups": [
+        {
+          "options": [
+            "PRIMARY_PARLIAMENT"
+          ],
+          "matches": [
+            "WATCH-VIC-HANSARD"
+          ],
+          "satisfied": true
+        }
+      ],
+      "missing_source_groups": [],
+      "relevant_watch_ids": [
+        "WATCH-VIC-HANSARD"
+      ],
+      "detail_capable_watch_ids": []
+    },
+    {
+      "jurisdiction_id": "AUS-VIC",
+      "competition_class": "PUBLIC_PRESSURE",
+      "state": "SOURCE_PATH_GAP",
+      "configured_source_count": 4,
+      "relevant_source_count": 2,
+      "detail_capable_source_count": 1,
+      "detail_records_in_jurisdiction": 0,
+      "substantive_area_evidence_count": 0,
+      "required_source_groups": [
+        {
+          "options": [
+            "PRIMARY_PUBLIC_ACTOR",
+            "PRIMARY_COMMUNITY",
+            "PRIMARY_CAMPAIGN",
+            "PRIMARY_PETITION"
+          ],
+          "matches": [],
+          "satisfied": false
+        },
+        {
+          "options": [
+            "PRIMARY_PARLIAMENT",
+            "PRIMARY_GOVERNMENT",
+            "PRIMARY_REGULATOR"
+          ],
+          "matches": [
+            "WATCH-VIC-HANSARD",
+            "WATCH-VIC-PREMIER-MEDIA"
+          ],
+          "satisfied": true
+        }
+      ],
+      "missing_source_groups": [
+        [
+          "PRIMARY_PUBLIC_ACTOR",
+          "PRIMARY_COMMUNITY",
+          "PRIMARY_CAMPAIGN",
+          "PRIMARY_PETITION"
+        ]
+      ],
+      "relevant_watch_ids": [
+        "WATCH-VIC-HANSARD",
+        "WATCH-VIC-PREMIER-MEDIA"
+      ],
+      "detail_capable_watch_ids": [
+        "WATCH-VIC-PREMIER-MEDIA"
+      ]
+    },
+    {
+      "jurisdiction_id": "AUS-QLD",
+      "competition_class": "ELECTORAL",
+      "state": "INGESTION_PATH_READY_NO_SUBSTANTIVE_EVIDENCE",
+      "configured_source_count": 3,
+      "relevant_source_count": 2,
+      "detail_capable_source_count": 1,
+      "detail_records_in_jurisdiction": 0,
+      "substantive_area_evidence_count": 0,
+      "required_source_groups": [
+        {
+          "options": [
+            "PRIMARY_ELECTORAL_AUTHORITY"
+          ],
+          "matches": [
+            "WATCH-ECQ-MEDIA"
+          ],
+          "satisfied": true
+        }
+      ],
+      "missing_source_groups": [],
+      "relevant_watch_ids": [
+        "WATCH-QLD-HANSARD",
+        "WATCH-ECQ-MEDIA"
+      ],
+      "detail_capable_watch_ids": [
+        "WATCH-ECQ-MEDIA"
+      ]
+    },
+    {
+      "jurisdiction_id": "AUS-QLD",
+      "competition_class": "LEGISLATIVE",
+      "state": "NO_AUTOMATED_DETAIL_PATH",
+      "configured_source_count": 3,
+      "relevant_source_count": 1,
+      "detail_capable_source_count": 0,
+      "detail_records_in_jurisdiction": 0,
+      "substantive_area_evidence_count": 0,
+      "required_source_groups": [
+        {
+          "options": [
+            "PRIMARY_PARLIAMENT"
+          ],
+          "matches": [
+            "WATCH-QLD-HANSARD"
+          ],
+          "satisfied": true
+        }
+      ],
+      "missing_source_groups": [],
+      "relevant_watch_ids": [
+        "WATCH-QLD-HANSARD"
+      ],
+      "detail_capable_watch_ids": []
+    },
+    {
+      "jurisdiction_id": "AUS-QLD",
+      "competition_class": "LEADERSHIP",
+      "state": "SOURCE_PATH_GAP",
+      "configured_source_count": 3,
+      "relevant_source_count": 1,
+      "detail_capable_source_count": 0,
+      "detail_records_in_jurisdiction": 0,
+      "substantive_area_evidence_count": 0,
+      "required_source_groups": [
+        {
+          "options": [
+            "PRIMARY_PARTY",
+            "PRIMARY_ACTOR"
+          ],
+          "matches": [],
+          "satisfied": false
+        }
+      ],
+      "missing_source_groups": [
+        [
+          "PRIMARY_PARTY",
+          "PRIMARY_ACTOR"
+        ]
+      ],
+      "relevant_watch_ids": [
+        "WATCH-QLD-HANSARD"
+      ],
+      "detail_capable_watch_ids": []
+    },
+    {
+      "jurisdiction_id": "AUS-QLD",
+      "competition_class": "CONFIDENCE_SUPPLY",
+      "state": "SOURCE_PATH_GAP",
+      "configured_source_count": 3,
+      "relevant_source_count": 1,
+      "detail_capable_source_count": 0,
+      "detail_records_in_jurisdiction": 0,
+      "substantive_area_evidence_count": 0,
+      "required_source_groups": [
+        {
+          "options": [
+            "PRIMARY_PARLIAMENT"
+          ],
+          "matches": [
+            "WATCH-QLD-HANSARD"
+          ],
+          "satisfied": true
+        },
+        {
+          "options": [
+            "PRIMARY_PARTY",
+            "PRIMARY_ACTOR"
+          ],
+          "matches": [],
+          "satisfied": false
+        }
+      ],
+      "missing_source_groups": [
+        [
+          "PRIMARY_PARTY",
+          "PRIMARY_ACTOR"
+        ]
+      ],
+      "relevant_watch_ids": [
+        "WATCH-QLD-HANSARD"
+      ],
+      "detail_capable_watch_ids": []
+    },
+    {
+      "jurisdiction_id": "AUS-QLD",
+      "competition_class": "BUDGET",
+      "state": "SOURCE_PATH_GAP",
+      "configured_source_count": 3,
+      "relevant_source_count": 2,
+      "detail_capable_source_count": 1,
+      "detail_records_in_jurisdiction": 0,
+      "substantive_area_evidence_count": 0,
+      "required_source_groups": [
+        {
+          "options": [
+            "PRIMARY_GOVERNMENT"
+          ],
+          "matches": [
+            "WATCH-QLD-MINISTERIAL-STATEMENTS"
+          ],
+          "satisfied": true
+        },
+        {
+          "options": [
+            "PRIMARY_PARLIAMENT"
+          ],
+          "matches": [
+            "WATCH-QLD-HANSARD"
+          ],
+          "satisfied": true
+        },
+        {
+          "options": [
+            "PRIMARY_PARTY",
+            "PRIMARY_ACTOR"
+          ],
+          "matches": [],
+          "satisfied": false
+        }
+      ],
+      "missing_source_groups": [
+        [
+          "PRIMARY_PARTY",
+          "PRIMARY_ACTOR"
+        ]
+      ],
+      "relevant_watch_ids": [
+        "WATCH-QLD-HANSARD",
+        "WATCH-QLD-MINISTERIAL-STATEMENTS"
+      ],
+      "detail_capable_watch_ids": [
+        "WATCH-QLD-MINISTERIAL-STATEMENTS"
+      ]
+    },
+    {
+      "jurisdiction_id": "AUS-QLD",
+      "competition_class": "POLICY_ENACTMENT",
+      "state": "INGESTION_PATH_READY_NO_SUBSTANTIVE_EVIDENCE",
+      "configured_source_count": 3,
+      "relevant_source_count": 2,
+      "detail_capable_source_count": 1,
+      "detail_records_in_jurisdiction": 0,
+      "substantive_area_evidence_count": 0,
+      "required_source_groups": [
+        {
+          "options": [
+            "PRIMARY_GOVERNMENT",
+            "PRIMARY_REGULATOR"
+          ],
+          "matches": [
+            "WATCH-QLD-MINISTERIAL-STATEMENTS"
+          ],
+          "satisfied": true
+        },
+        {
+          "options": [
+            "PRIMARY_PARLIAMENT",
+            "PRIMARY_PARTY",
+            "PRIMARY_ACTOR",
+            "PRIMARY_REGULATOR"
+          ],
+          "matches": [
+            "WATCH-QLD-HANSARD"
+          ],
+          "satisfied": true
+        }
+      ],
+      "missing_source_groups": [],
+      "relevant_watch_ids": [
+        "WATCH-QLD-HANSARD",
+        "WATCH-QLD-MINISTERIAL-STATEMENTS"
+      ],
+      "detail_capable_watch_ids": [
+        "WATCH-QLD-MINISTERIAL-STATEMENTS"
+      ]
+    },
+    {
+      "jurisdiction_id": "AUS-QLD",
+      "competition_class": "PARLIAMENTARY_PROCEDURE",
+      "state": "NO_AUTOMATED_DETAIL_PATH",
+      "configured_source_count": 3,
+      "relevant_source_count": 1,
+      "detail_capable_source_count": 0,
+      "detail_records_in_jurisdiction": 0,
+      "substantive_area_evidence_count": 0,
+      "required_source_groups": [
+        {
+          "options": [
+            "PRIMARY_PARLIAMENT"
+          ],
+          "matches": [
+            "WATCH-QLD-HANSARD"
+          ],
+          "satisfied": true
+        }
+      ],
+      "missing_source_groups": [],
+      "relevant_watch_ids": [
+        "WATCH-QLD-HANSARD"
+      ],
+      "detail_capable_watch_ids": []
+    },
+    {
+      "jurisdiction_id": "AUS-QLD",
+      "competition_class": "PUBLIC_PRESSURE",
+      "state": "SOURCE_PATH_GAP",
+      "configured_source_count": 3,
+      "relevant_source_count": 2,
+      "detail_capable_source_count": 1,
+      "detail_records_in_jurisdiction": 0,
+      "substantive_area_evidence_count": 0,
+      "required_source_groups": [
+        {
+          "options": [
+            "PRIMARY_PUBLIC_ACTOR",
+            "PRIMARY_COMMUNITY",
+            "PRIMARY_CAMPAIGN",
+            "PRIMARY_PETITION"
+          ],
+          "matches": [],
+          "satisfied": false
+        },
+        {
+          "options": [
+            "PRIMARY_PARLIAMENT",
+            "PRIMARY_GOVERNMENT",
+            "PRIMARY_REGULATOR"
+          ],
+          "matches": [
+            "WATCH-QLD-HANSARD",
+            "WATCH-QLD-MINISTERIAL-STATEMENTS"
+          ],
+          "satisfied": true
+        }
+      ],
+      "missing_source_groups": [
+        [
+          "PRIMARY_PUBLIC_ACTOR",
+          "PRIMARY_COMMUNITY",
+          "PRIMARY_CAMPAIGN",
+          "PRIMARY_PETITION"
+        ]
+      ],
+      "relevant_watch_ids": [
+        "WATCH-QLD-HANSARD",
+        "WATCH-QLD-MINISTERIAL-STATEMENTS"
+      ],
+      "detail_capable_watch_ids": [
+        "WATCH-QLD-MINISTERIAL-STATEMENTS"
+      ]
+    },
+    {
+      "jurisdiction_id": "AUS-WA",
+      "competition_class": "ELECTORAL",
+      "state": "INGESTION_PATH_READY_NO_SUBSTANTIVE_EVIDENCE",
+      "configured_source_count": 3,
+      "relevant_source_count": 2,
+      "detail_capable_source_count": 1,
+      "detail_records_in_jurisdiction": 0,
+      "substantive_area_evidence_count": 0,
+      "required_source_groups": [
+        {
+          "options": [
+            "PRIMARY_ELECTORAL_AUTHORITY"
+          ],
+          "matches": [
+            "WATCH-WAEC-MEDIA"
+          ],
+          "satisfied": true
+        }
+      ],
+      "missing_source_groups": [],
+      "relevant_watch_ids": [
+        "WATCH-WA-HANSARD",
+        "WATCH-WAEC-MEDIA"
+      ],
+      "detail_capable_watch_ids": [
+        "WATCH-WAEC-MEDIA"
+      ]
+    },
+    {
+      "jurisdiction_id": "AUS-WA",
+      "competition_class": "LEGISLATIVE",
+      "state": "NO_AUTOMATED_DETAIL_PATH",
+      "configured_source_count": 3,
+      "relevant_source_count": 1,
+      "detail_capable_source_count": 0,
+      "detail_records_in_jurisdiction": 0,
+      "substantive_area_evidence_count": 0,
+      "required_source_groups": [
+        {
+          "options": [
+            "PRIMARY_PARLIAMENT"
+          ],
+          "matches": [
+            "WATCH-WA-HANSARD"
+          ],
+          "satisfied": true
+        }
+      ],
+      "missing_source_groups": [],
+      "relevant_watch_ids": [
+        "WATCH-WA-HANSARD"
+      ],
+      "detail_capable_watch_ids": []
+    },
+    {
+      "jurisdiction_id": "AUS-WA",
+      "competition_class": "LEADERSHIP",
+      "state": "SOURCE_PATH_GAP",
+      "configured_source_count": 3,
+      "relevant_source_count": 1,
+      "detail_capable_source_count": 0,
+      "detail_records_in_jurisdiction": 0,
+      "substantive_area_evidence_count": 0,
+      "required_source_groups": [
+        {
+          "options": [
+            "PRIMARY_PARTY",
+            "PRIMARY_ACTOR"
+          ],
+          "matches": [],
+          "satisfied": false
+        }
+      ],
+      "missing_source_groups": [
+        [
+          "PRIMARY_PARTY",
+          "PRIMARY_ACTOR"
+        ]
+      ],
+      "relevant_watch_ids": [
+        "WATCH-WA-HANSARD"
+      ],
+      "detail_capable_watch_ids": []
+    },
+    {
+      "jurisdiction_id": "AUS-WA",
+      "competition_class": "CONFIDENCE_SUPPLY",
+      "state": "SOURCE_PATH_GAP",
+      "configured_source_count": 3,
+      "relevant_source_count": 1,
+      "detail_capable_source_count": 0,
+      "detail_records_in_jurisdiction": 0,
+      "substantive_area_evidence_count": 0,
+      "required_source_groups": [
+        {
+          "options": [
+            "PRIMARY_PARLIAMENT"
+          ],
+          "matches": [
+            "WATCH-WA-HANSARD"
+          ],
+          "satisfied": true
+        },
+        {
+          "options": [
+            "PRIMARY_PARTY",
+            "PRIMARY_ACTOR"
+          ],
+          "matches": [],
+          "satisfied": false
+        }
+      ],
+      "missing_source_groups": [
+        [
+          "PRIMARY_PARTY",
+          "PRIMARY_ACTOR"
+        ]
+      ],
+      "relevant_watch_ids": [
+        "WATCH-WA-HANSARD"
+      ],
+      "detail_capable_watch_ids": []
+    },
+    {
+      "jurisdiction_id": "AUS-WA",
+      "competition_class": "BUDGET",
+      "state": "SOURCE_PATH_GAP",
+      "configured_source_count": 3,
+      "relevant_source_count": 2,
+      "detail_capable_source_count": 1,
+      "detail_records_in_jurisdiction": 0,
+      "substantive_area_evidence_count": 0,
+      "required_source_groups": [
+        {
+          "options": [
+            "PRIMARY_GOVERNMENT"
+          ],
+          "matches": [
+            "WATCH-WA-GOV-MEDIA"
+          ],
+          "satisfied": true
+        },
+        {
+          "options": [
+            "PRIMARY_PARLIAMENT"
+          ],
+          "matches": [
+            "WATCH-WA-HANSARD"
+          ],
+          "satisfied": true
+        },
+        {
+          "options": [
+            "PRIMARY_PARTY",
+            "PRIMARY_ACTOR"
+          ],
+          "matches": [],
+          "satisfied": false
+        }
+      ],
+      "missing_source_groups": [
+        [
+          "PRIMARY_PARTY",
+          "PRIMARY_ACTOR"
+        ]
+      ],
+      "relevant_watch_ids": [
+        "WATCH-WA-HANSARD",
+        "WATCH-WA-GOV-MEDIA"
+      ],
+      "detail_capable_watch_ids": [
+        "WATCH-WA-GOV-MEDIA"
+      ]
+    },
+    {
+      "jurisdiction_id": "AUS-WA",
+      "competition_class": "POLICY_ENACTMENT",
+      "state": "INGESTION_PATH_READY_NO_SUBSTANTIVE_EVIDENCE",
+      "configured_source_count": 3,
+      "relevant_source_count": 2,
+      "detail_capable_source_count": 1,
+      "detail_records_in_jurisdiction": 0,
+      "substantive_area_evidence_count": 0,
+      "required_source_groups": [
+        {
+          "options": [
+            "PRIMARY_GOVERNMENT",
+            "PRIMARY_REGULATOR"
+          ],
+          "matches": [
+            "WATCH-WA-GOV-MEDIA"
+          ],
+          "satisfied": true
+        },
+        {
+          "options": [
+            "PRIMARY_PARLIAMENT",
+            "PRIMARY_PARTY",
+            "PRIMARY_ACTOR",
+            "PRIMARY_REGULATOR"
+          ],
+          "matches": [
+            "WATCH-WA-HANSARD"
+          ],
+          "satisfied": true
+        }
+      ],
+      "missing_source_groups": [],
+      "relevant_watch_ids": [
+        "WATCH-WA-HANSARD",
+        "WATCH-WA-GOV-MEDIA"
+      ],
+      "detail_capable_watch_ids": [
+        "WATCH-WA-GOV-MEDIA"
+      ]
+    },
+    {
+      "jurisdiction_id": "AUS-WA",
+      "competition_class": "PARLIAMENTARY_PROCEDURE",
+      "state": "NO_AUTOMATED_DETAIL_PATH",
+      "configured_source_count": 3,
+      "relevant_source_count": 1,
+      "detail_capable_source_count": 0,
+      "detail_records_in_jurisdiction": 0,
+      "substantive_area_evidence_count": 0,
+      "required_source_groups": [
+        {
+          "options": [
+            "PRIMARY_PARLIAMENT"
+          ],
+          "matches": [
+            "WATCH-WA-HANSARD"
+          ],
+          "satisfied": true
+        }
+      ],
+      "missing_source_groups": [],
+      "relevant_watch_ids": [
+        "WATCH-WA-HANSARD"
+      ],
+      "detail_capable_watch_ids": []
+    },
+    {
+      "jurisdiction_id": "AUS-WA",
+      "competition_class": "PUBLIC_PRESSURE",
+      "state": "SOURCE_PATH_GAP",
+      "configured_source_count": 3,
+      "relevant_source_count": 2,
+      "detail_capable_source_count": 1,
+      "detail_records_in_jurisdiction": 0,
+      "substantive_area_evidence_count": 0,
+      "required_source_groups": [
+        {
+          "options": [
+            "PRIMARY_PUBLIC_ACTOR",
+            "PRIMARY_COMMUNITY",
+            "PRIMARY_CAMPAIGN",
+            "PRIMARY_PETITION"
+          ],
+          "matches": [],
+          "satisfied": false
+        },
+        {
+          "options": [
+            "PRIMARY_PARLIAMENT",
+            "PRIMARY_GOVERNMENT",
+            "PRIMARY_REGULATOR"
+          ],
+          "matches": [
+            "WATCH-WA-HANSARD",
+            "WATCH-WA-GOV-MEDIA"
+          ],
+          "satisfied": true
+        }
+      ],
+      "missing_source_groups": [
+        [
+          "PRIMARY_PUBLIC_ACTOR",
+          "PRIMARY_COMMUNITY",
+          "PRIMARY_CAMPAIGN",
+          "PRIMARY_PETITION"
+        ]
+      ],
+      "relevant_watch_ids": [
+        "WATCH-WA-HANSARD",
+        "WATCH-WA-GOV-MEDIA"
+      ],
+      "detail_capable_watch_ids": [
+        "WATCH-WA-GOV-MEDIA"
+      ]
+    },
+    {
+      "jurisdiction_id": "AUS-SA",
+      "competition_class": "ELECTORAL",
+      "state": "INGESTION_PATH_READY_NO_SUBSTANTIVE_EVIDENCE",
+      "configured_source_count": 3,
+      "relevant_source_count": 2,
+      "detail_capable_source_count": 1,
+      "detail_records_in_jurisdiction": 0,
+      "substantive_area_evidence_count": 0,
+      "required_source_groups": [
+        {
+          "options": [
+            "PRIMARY_ELECTORAL_AUTHORITY"
+          ],
+          "matches": [
+            "WATCH-ECSA-NEWS"
+          ],
+          "satisfied": true
+        }
+      ],
+      "missing_source_groups": [],
+      "relevant_watch_ids": [
+        "WATCH-SA-PARLIAMENT",
+        "WATCH-ECSA-NEWS"
+      ],
+      "detail_capable_watch_ids": [
+        "WATCH-ECSA-NEWS"
+      ]
+    },
+    {
+      "jurisdiction_id": "AUS-SA",
+      "competition_class": "LEGISLATIVE",
+      "state": "NO_AUTOMATED_DETAIL_PATH",
+      "configured_source_count": 3,
+      "relevant_source_count": 1,
+      "detail_capable_source_count": 0,
+      "detail_records_in_jurisdiction": 0,
+      "substantive_area_evidence_count": 0,
+      "required_source_groups": [
+        {
+          "options": [
+            "PRIMARY_PARLIAMENT"
+          ],
+          "matches": [
+            "WATCH-SA-PARLIAMENT"
+          ],
+          "satisfied": true
+        }
+      ],
+      "missing_source_groups": [],
+      "relevant_watch_ids": [
+        "WATCH-SA-PARLIAMENT"
+      ],
+      "detail_capable_watch_ids": []
+    },
+    {
+      "jurisdiction_id": "AUS-SA",
+      "competition_class": "LEADERSHIP",
+      "state": "SOURCE_PATH_GAP",
+      "configured_source_count": 3,
+      "relevant_source_count": 1,
+      "detail_capable_source_count": 0,
+      "detail_records_in_jurisdiction": 0,
+      "substantive_area_evidence_count": 0,
+      "required_source_groups": [
+        {
+          "options": [
+            "PRIMARY_PARTY",
+            "PRIMARY_ACTOR"
+          ],
+          "matches": [],
+          "satisfied": false
+        }
+      ],
+      "missing_source_groups": [
+        [
+          "PRIMARY_PARTY",
+          "PRIMARY_ACTOR"
+        ]
+      ],
+      "relevant_watch_ids": [
+        "WATCH-SA-PARLIAMENT"
+      ],
+      "detail_capable_watch_ids": []
+    },
+    {
+      "jurisdiction_id": "AUS-SA",
+      "competition_class": "CONFIDENCE_SUPPLY",
+      "state": "SOURCE_PATH_GAP",
+      "configured_source_count": 3,
+      "relevant_source_count": 1,
+      "detail_capable_source_count": 0,
+      "detail_records_in_jurisdiction": 0,
+      "substantive_area_evidence_count": 0,
+      "required_source_groups": [
+        {
+          "options": [
+            "PRIMARY_PARLIAMENT"
+          ],
+          "matches": [
+            "WATCH-SA-PARLIAMENT"
+          ],
+          "satisfied": true
+        },
+        {
+          "options": [
+            "PRIMARY_PARTY",
+            "PRIMARY_ACTOR"
+          ],
+          "matches": [],
+          "satisfied": false
+        }
+      ],
+      "missing_source_groups": [
+        [
+          "PRIMARY_PARTY",
+          "PRIMARY_ACTOR"
+        ]
+      ],
+      "relevant_watch_ids": [
+        "WATCH-SA-PARLIAMENT"
+      ],
+      "detail_capable_watch_ids": []
+    },
+    {
+      "jurisdiction_id": "AUS-SA",
+      "competition_class": "BUDGET",
+      "state": "SOURCE_PATH_GAP",
+      "configured_source_count": 3,
+      "relevant_source_count": 2,
+      "detail_capable_source_count": 1,
+      "detail_records_in_jurisdiction": 0,
+      "substantive_area_evidence_count": 0,
+      "required_source_groups": [
+        {
+          "options": [
+            "PRIMARY_GOVERNMENT"
+          ],
+          "matches": [
+            "WATCH-SA-PREMIER-MEDIA"
+          ],
+          "satisfied": true
+        },
+        {
+          "options": [
+            "PRIMARY_PARLIAMENT"
+          ],
+          "matches": [
+            "WATCH-SA-PARLIAMENT"
+          ],
+          "satisfied": true
+        },
+        {
+          "options": [
+            "PRIMARY_PARTY",
+            "PRIMARY_ACTOR"
+          ],
+          "matches": [],
+          "satisfied": false
+        }
+      ],
+      "missing_source_groups": [
+        [
+          "PRIMARY_PARTY",
+          "PRIMARY_ACTOR"
+        ]
+      ],
+      "relevant_watch_ids": [
+        "WATCH-SA-PARLIAMENT",
+        "WATCH-SA-PREMIER-MEDIA"
+      ],
+      "detail_capable_watch_ids": [
+        "WATCH-SA-PREMIER-MEDIA"
+      ]
+    },
+    {
+      "jurisdiction_id": "AUS-SA",
+      "competition_class": "POLICY_ENACTMENT",
+      "state": "INGESTION_PATH_READY_NO_SUBSTANTIVE_EVIDENCE",
+      "configured_source_count": 3,
+      "relevant_source_count": 2,
+      "detail_capable_source_count": 1,
+      "detail_records_in_jurisdiction": 0,
+      "substantive_area_evidence_count": 0,
+      "required_source_groups": [
+        {
+          "options": [
+            "PRIMARY_GOVERNMENT",
+            "PRIMARY_REGULATOR"
+          ],
+          "matches": [
+            "WATCH-SA-PREMIER-MEDIA"
+          ],
+          "satisfied": true
+        },
+        {
+          "options": [
+            "PRIMARY_PARLIAMENT",
+            "PRIMARY_PARTY",
+            "PRIMARY_ACTOR",
+            "PRIMARY_REGULATOR"
+          ],
+          "matches": [
+            "WATCH-SA-PARLIAMENT"
+          ],
+          "satisfied": true
+        }
+      ],
+      "missing_source_groups": [],
+      "relevant_watch_ids": [
+        "WATCH-SA-PARLIAMENT",
+        "WATCH-SA-PREMIER-MEDIA"
+      ],
+      "detail_capable_watch_ids": [
+        "WATCH-SA-PREMIER-MEDIA"
+      ]
+    },
+    {
+      "jurisdiction_id": "AUS-SA",
+      "competition_class": "PARLIAMENTARY_PROCEDURE",
+      "state": "NO_AUTOMATED_DETAIL_PATH",
+      "configured_source_count": 3,
+      "relevant_source_count": 1,
+      "detail_capable_source_count": 0,
+      "detail_records_in_jurisdiction": 0,
+      "substantive_area_evidence_count": 0,
+      "required_source_groups": [
+        {
+          "options": [
+            "PRIMARY_PARLIAMENT"
+          ],
+          "matches": [
+            "WATCH-SA-PARLIAMENT"
+          ],
+          "satisfied": true
+        }
+      ],
+      "missing_source_groups": [],
+      "relevant_watch_ids": [
+        "WATCH-SA-PARLIAMENT"
+      ],
+      "detail_capable_watch_ids": []
+    },
+    {
+      "jurisdiction_id": "AUS-SA",
+      "competition_class": "PUBLIC_PRESSURE",
+      "state": "SOURCE_PATH_GAP",
+      "configured_source_count": 3,
+      "relevant_source_count": 2,
+      "detail_capable_source_count": 1,
+      "detail_records_in_jurisdiction": 0,
+      "substantive_area_evidence_count": 0,
+      "required_source_groups": [
+        {
+          "options": [
+            "PRIMARY_PUBLIC_ACTOR",
+            "PRIMARY_COMMUNITY",
+            "PRIMARY_CAMPAIGN",
+            "PRIMARY_PETITION"
+          ],
+          "matches": [],
+          "satisfied": false
+        },
+        {
+          "options": [
+            "PRIMARY_PARLIAMENT",
+            "PRIMARY_GOVERNMENT",
+            "PRIMARY_REGULATOR"
+          ],
+          "matches": [
+            "WATCH-SA-PARLIAMENT",
+            "WATCH-SA-PREMIER-MEDIA"
+          ],
+          "satisfied": true
+        }
+      ],
+      "missing_source_groups": [
+        [
+          "PRIMARY_PUBLIC_ACTOR",
+          "PRIMARY_COMMUNITY",
+          "PRIMARY_CAMPAIGN",
+          "PRIMARY_PETITION"
+        ]
+      ],
+      "relevant_watch_ids": [
+        "WATCH-SA-PARLIAMENT",
+        "WATCH-SA-PREMIER-MEDIA"
+      ],
+      "detail_capable_watch_ids": [
+        "WATCH-SA-PREMIER-MEDIA"
+      ]
+    },
+    {
+      "jurisdiction_id": "AUS-TAS",
+      "competition_class": "ELECTORAL",
+      "state": "INGESTION_PATH_READY_NO_SUBSTANTIVE_EVIDENCE",
+      "configured_source_count": 3,
+      "relevant_source_count": 2,
+      "detail_capable_source_count": 1,
+      "detail_records_in_jurisdiction": 0,
+      "substantive_area_evidence_count": 0,
+      "required_source_groups": [
+        {
+          "options": [
+            "PRIMARY_ELECTORAL_AUTHORITY"
+          ],
+          "matches": [
+            "WATCH-TEC-MEDIA"
+          ],
+          "satisfied": true
+        }
+      ],
+      "missing_source_groups": [],
+      "relevant_watch_ids": [
+        "WATCH-TAS-HANSARD",
+        "WATCH-TEC-MEDIA"
+      ],
+      "detail_capable_watch_ids": [
+        "WATCH-TEC-MEDIA"
+      ]
+    },
+    {
+      "jurisdiction_id": "AUS-TAS",
+      "competition_class": "LEGISLATIVE",
+      "state": "NO_AUTOMATED_DETAIL_PATH",
+      "configured_source_count": 3,
+      "relevant_source_count": 1,
+      "detail_capable_source_count": 0,
+      "detail_records_in_jurisdiction": 0,
+      "substantive_area_evidence_count": 0,
+      "required_source_groups": [
+        {
+          "options": [
+            "PRIMARY_PARLIAMENT"
+          ],
+          "matches": [
+            "WATCH-TAS-HANSARD"
+          ],
+          "satisfied": true
+        }
+      ],
+      "missing_source_groups": [],
+      "relevant_watch_ids": [
+        "WATCH-TAS-HANSARD"
+      ],
+      "detail_capable_watch_ids": []
+    },
+    {
+      "jurisdiction_id": "AUS-TAS",
+      "competition_class": "LEADERSHIP",
+      "state": "SOURCE_PATH_GAP",
+      "configured_source_count": 3,
+      "relevant_source_count": 1,
+      "detail_capable_source_count": 0,
+      "detail_records_in_jurisdiction": 0,
+      "substantive_area_evidence_count": 0,
+      "required_source_groups": [
+        {
+          "options": [
+            "PRIMARY_PARTY",
+            "PRIMARY_ACTOR"
+          ],
+          "matches": [],
+          "satisfied": false
+        }
+      ],
+      "missing_source_groups": [
+        [
+          "PRIMARY_PARTY",
+          "PRIMARY_ACTOR"
+        ]
+      ],
+      "relevant_watch_ids": [
+        "WATCH-TAS-HANSARD"
+      ],
+      "detail_capable_watch_ids": []
+    },
+    {
+      "jurisdiction_id": "AUS-TAS",
+      "competition_class": "CONFIDENCE_SUPPLY",
+      "state": "SOURCE_PATH_GAP",
+      "configured_source_count": 3,
+      "relevant_source_count": 1,
+      "detail_capable_source_count": 0,
+      "detail_records_in_jurisdiction": 0,
+      "substantive_area_evidence_count": 0,
+      "required_source_groups": [
+        {
+          "options": [
+            "PRIMARY_PARLIAMENT"
+          ],
+          "matches": [
+            "WATCH-TAS-HANSARD"
+          ],
+          "satisfied": true
+        },
+        {
+          "options": [
+            "PRIMARY_PARTY",
+            "PRIMARY_ACTOR"
+          ],
+          "matches": [],
+          "satisfied": false
+        }
+      ],
+      "missing_source_groups": [
+        [
+          "PRIMARY_PARTY",
+          "PRIMARY_ACTOR"
+        ]
+      ],
+      "relevant_watch_ids": [
+        "WATCH-TAS-HANSARD"
+      ],
+      "detail_capable_watch_ids": []
+    },
+    {
+      "jurisdiction_id": "AUS-TAS",
+      "competition_class": "BUDGET",
+      "state": "SOURCE_PATH_GAP",
+      "configured_source_count": 3,
+      "relevant_source_count": 2,
+      "detail_capable_source_count": 1,
+      "detail_records_in_jurisdiction": 0,
+      "substantive_area_evidence_count": 0,
+      "required_source_groups": [
+        {
+          "options": [
+            "PRIMARY_GOVERNMENT"
+          ],
+          "matches": [
+            "WATCH-TAS-PREMIER-NEWS"
+          ],
+          "satisfied": true
+        },
+        {
+          "options": [
+            "PRIMARY_PARLIAMENT"
+          ],
+          "matches": [
+            "WATCH-TAS-HANSARD"
+          ],
+          "satisfied": true
+        },
+        {
+          "options": [
+            "PRIMARY_PARTY",
+            "PRIMARY_ACTOR"
+          ],
+          "matches": [],
+          "satisfied": false
+        }
+      ],
+      "missing_source_groups": [
+        [
+          "PRIMARY_PARTY",
+          "PRIMARY_ACTOR"
+        ]
+      ],
+      "relevant_watch_ids": [
+        "WATCH-TAS-HANSARD",
+        "WATCH-TAS-PREMIER-NEWS"
+      ],
+      "detail_capable_watch_ids": [
+        "WATCH-TAS-PREMIER-NEWS"
+      ]
+    },
+    {
+      "jurisdiction_id": "AUS-TAS",
+      "competition_class": "POLICY_ENACTMENT",
+      "state": "INGESTION_PATH_READY_NO_SUBSTANTIVE_EVIDENCE",
+      "configured_source_count": 3,
+      "relevant_source_count": 2,
+      "detail_capable_source_count": 1,
+      "detail_records_in_jurisdiction": 0,
+      "substantive_area_evidence_count": 0,
+      "required_source_groups": [
+        {
+          "options": [
+            "PRIMARY_GOVERNMENT",
+            "PRIMARY_REGULATOR"
+          ],
+          "matches": [
+            "WATCH-TAS-PREMIER-NEWS"
+          ],
+          "satisfied": true
+        },
+        {
+          "options": [
+            "PRIMARY_PARLIAMENT",
+            "PRIMARY_PARTY",
+            "PRIMARY_ACTOR",
+            "PRIMARY_REGULATOR"
+          ],
+          "matches": [
+            "WATCH-TAS-HANSARD"
+          ],
+          "satisfied": true
+        }
+      ],
+      "missing_source_groups": [],
+      "relevant_watch_ids": [
+        "WATCH-TAS-HANSARD",
+        "WATCH-TAS-PREMIER-NEWS"
+      ],
+      "detail_capable_watch_ids": [
+        "WATCH-TAS-PREMIER-NEWS"
+      ]
+    },
+    {
+      "jurisdiction_id": "AUS-TAS",
+      "competition_class": "PARLIAMENTARY_PROCEDURE",
+      "state": "NO_AUTOMATED_DETAIL_PATH",
+      "configured_source_count": 3,
+      "relevant_source_count": 1,
+      "detail_capable_source_count": 0,
+      "detail_records_in_jurisdiction": 0,
+      "substantive_area_evidence_count": 0,
+      "required_source_groups": [
+        {
+          "options": [
+            "PRIMARY_PARLIAMENT"
+          ],
+          "matches": [
+            "WATCH-TAS-HANSARD"
+          ],
+          "satisfied": true
+        }
+      ],
+      "missing_source_groups": [],
+      "relevant_watch_ids": [
+        "WATCH-TAS-HANSARD"
+      ],
+      "detail_capable_watch_ids": []
+    },
+    {
+      "jurisdiction_id": "AUS-TAS",
+      "competition_class": "PUBLIC_PRESSURE",
+      "state": "SOURCE_PATH_GAP",
+      "configured_source_count": 3,
+      "relevant_source_count": 2,
+      "detail_capable_source_count": 1,
+      "detail_records_in_jurisdiction": 0,
+      "substantive_area_evidence_count": 0,
+      "required_source_groups": [
+        {
+          "options": [
+            "PRIMARY_PUBLIC_ACTOR",
+            "PRIMARY_COMMUNITY",
+            "PRIMARY_CAMPAIGN",
+            "PRIMARY_PETITION"
+          ],
+          "matches": [],
+          "satisfied": false
+        },
+        {
+          "options": [
+            "PRIMARY_PARLIAMENT",
+            "PRIMARY_GOVERNMENT",
+            "PRIMARY_REGULATOR"
+          ],
+          "matches": [
+            "WATCH-TAS-HANSARD",
+            "WATCH-TAS-PREMIER-NEWS"
+          ],
+          "satisfied": true
+        }
+      ],
+      "missing_source_groups": [
+        [
+          "PRIMARY_PUBLIC_ACTOR",
+          "PRIMARY_COMMUNITY",
+          "PRIMARY_CAMPAIGN",
+          "PRIMARY_PETITION"
+        ]
+      ],
+      "relevant_watch_ids": [
+        "WATCH-TAS-HANSARD",
+        "WATCH-TAS-PREMIER-NEWS"
+      ],
+      "detail_capable_watch_ids": [
+        "WATCH-TAS-PREMIER-NEWS"
+      ]
+    },
+    {
+      "jurisdiction_id": "AUS-ACT",
+      "competition_class": "ELECTORAL",
+      "state": "INGESTION_PATH_READY_NO_SUBSTANTIVE_EVIDENCE",
+      "configured_source_count": 3,
+      "relevant_source_count": 2,
+      "detail_capable_source_count": 1,
+      "detail_records_in_jurisdiction": 0,
+      "substantive_area_evidence_count": 0,
+      "required_source_groups": [
+        {
+          "options": [
+            "PRIMARY_ELECTORAL_AUTHORITY"
+          ],
+          "matches": [
+            "WATCH-ELECTIONS-ACT-NEWS"
+          ],
+          "satisfied": true
+        }
+      ],
+      "missing_source_groups": [],
+      "relevant_watch_ids": [
+        "WATCH-ACT-PARLIAMENT",
+        "WATCH-ELECTIONS-ACT-NEWS"
+      ],
+      "detail_capable_watch_ids": [
+        "WATCH-ELECTIONS-ACT-NEWS"
+      ]
+    },
+    {
+      "jurisdiction_id": "AUS-ACT",
+      "competition_class": "LEGISLATIVE",
+      "state": "NO_AUTOMATED_DETAIL_PATH",
+      "configured_source_count": 3,
+      "relevant_source_count": 1,
+      "detail_capable_source_count": 0,
+      "detail_records_in_jurisdiction": 0,
+      "substantive_area_evidence_count": 0,
+      "required_source_groups": [
+        {
+          "options": [
+            "PRIMARY_PARLIAMENT"
+          ],
+          "matches": [
+            "WATCH-ACT-PARLIAMENT"
+          ],
+          "satisfied": true
+        }
+      ],
+      "missing_source_groups": [],
+      "relevant_watch_ids": [
+        "WATCH-ACT-PARLIAMENT"
+      ],
+      "detail_capable_watch_ids": []
+    },
+    {
+      "jurisdiction_id": "AUS-ACT",
+      "competition_class": "LEADERSHIP",
+      "state": "SOURCE_PATH_GAP",
+      "configured_source_count": 3,
+      "relevant_source_count": 1,
+      "detail_capable_source_count": 0,
+      "detail_records_in_jurisdiction": 0,
+      "substantive_area_evidence_count": 0,
+      "required_source_groups": [
+        {
+          "options": [
+            "PRIMARY_PARTY",
+            "PRIMARY_ACTOR"
+          ],
+          "matches": [],
+          "satisfied": false
+        }
+      ],
+      "missing_source_groups": [
+        [
+          "PRIMARY_PARTY",
+          "PRIMARY_ACTOR"
+        ]
+      ],
+      "relevant_watch_ids": [
+        "WATCH-ACT-PARLIAMENT"
+      ],
+      "detail_capable_watch_ids": []
+    },
+    {
+      "jurisdiction_id": "AUS-ACT",
+      "competition_class": "CONFIDENCE_SUPPLY",
+      "state": "SOURCE_PATH_GAP",
+      "configured_source_count": 3,
+      "relevant_source_count": 1,
+      "detail_capable_source_count": 0,
+      "detail_records_in_jurisdiction": 0,
+      "substantive_area_evidence_count": 0,
+      "required_source_groups": [
+        {
+          "options": [
+            "PRIMARY_PARLIAMENT"
+          ],
+          "matches": [
+            "WATCH-ACT-PARLIAMENT"
+          ],
+          "satisfied": true
+        },
+        {
+          "options": [
+            "PRIMARY_PARTY",
+            "PRIMARY_ACTOR"
+          ],
+          "matches": [],
+          "satisfied": false
+        }
+      ],
+      "missing_source_groups": [
+        [
+          "PRIMARY_PARTY",
+          "PRIMARY_ACTOR"
+        ]
+      ],
+      "relevant_watch_ids": [
+        "WATCH-ACT-PARLIAMENT"
+      ],
+      "detail_capable_watch_ids": []
+    },
+    {
+      "jurisdiction_id": "AUS-ACT",
+      "competition_class": "BUDGET",
+      "state": "SOURCE_PATH_GAP",
+      "configured_source_count": 3,
+      "relevant_source_count": 2,
+      "detail_capable_source_count": 1,
+      "detail_records_in_jurisdiction": 0,
+      "substantive_area_evidence_count": 0,
+      "required_source_groups": [
+        {
+          "options": [
+            "PRIMARY_GOVERNMENT"
+          ],
+          "matches": [
+            "WATCH-ACT-GOV-MEDIA"
+          ],
+          "satisfied": true
+        },
+        {
+          "options": [
+            "PRIMARY_PARLIAMENT"
+          ],
+          "matches": [
+            "WATCH-ACT-PARLIAMENT"
+          ],
+          "satisfied": true
+        },
+        {
+          "options": [
+            "PRIMARY_PARTY",
+            "PRIMARY_ACTOR"
+          ],
+          "matches": [],
+          "satisfied": false
+        }
+      ],
+      "missing_source_groups": [
+        [
+          "PRIMARY_PARTY",
+          "PRIMARY_ACTOR"
+        ]
+      ],
+      "relevant_watch_ids": [
+        "WATCH-ACT-PARLIAMENT",
+        "WATCH-ACT-GOV-MEDIA"
+      ],
+      "detail_capable_watch_ids": [
+        "WATCH-ACT-GOV-MEDIA"
+      ]
+    },
+    {
+      "jurisdiction_id": "AUS-ACT",
+      "competition_class": "POLICY_ENACTMENT",
+      "state": "INGESTION_PATH_READY_NO_SUBSTANTIVE_EVIDENCE",
+      "configured_source_count": 3,
+      "relevant_source_count": 2,
+      "detail_capable_source_count": 1,
+      "detail_records_in_jurisdiction": 0,
+      "substantive_area_evidence_count": 0,
+      "required_source_groups": [
+        {
+          "options": [
+            "PRIMARY_GOVERNMENT",
+            "PRIMARY_REGULATOR"
+          ],
+          "matches": [
+            "WATCH-ACT-GOV-MEDIA"
+          ],
+          "satisfied": true
+        },
+        {
+          "options": [
+            "PRIMARY_PARLIAMENT",
+            "PRIMARY_PARTY",
+            "PRIMARY_ACTOR",
+            "PRIMARY_REGULATOR"
+          ],
+          "matches": [
+            "WATCH-ACT-PARLIAMENT"
+          ],
+          "satisfied": true
+        }
+      ],
+      "missing_source_groups": [],
+      "relevant_watch_ids": [
+        "WATCH-ACT-PARLIAMENT",
+        "WATCH-ACT-GOV-MEDIA"
+      ],
+      "detail_capable_watch_ids": [
+        "WATCH-ACT-GOV-MEDIA"
+      ]
+    },
+    {
+      "jurisdiction_id": "AUS-ACT",
+      "competition_class": "PARLIAMENTARY_PROCEDURE",
+      "state": "NO_AUTOMATED_DETAIL_PATH",
+      "configured_source_count": 3,
+      "relevant_source_count": 1,
+      "detail_capable_source_count": 0,
+      "detail_records_in_jurisdiction": 0,
+      "substantive_area_evidence_count": 0,
+      "required_source_groups": [
+        {
+          "options": [
+            "PRIMARY_PARLIAMENT"
+          ],
+          "matches": [
+            "WATCH-ACT-PARLIAMENT"
+          ],
+          "satisfied": true
+        }
+      ],
+      "missing_source_groups": [],
+      "relevant_watch_ids": [
+        "WATCH-ACT-PARLIAMENT"
+      ],
+      "detail_capable_watch_ids": []
+    },
+    {
+      "jurisdiction_id": "AUS-ACT",
+      "competition_class": "PUBLIC_PRESSURE",
+      "state": "SOURCE_PATH_GAP",
+      "configured_source_count": 3,
+      "relevant_source_count": 2,
+      "detail_capable_source_count": 1,
+      "detail_records_in_jurisdiction": 0,
+      "substantive_area_evidence_count": 0,
+      "required_source_groups": [
+        {
+          "options": [
+            "PRIMARY_PUBLIC_ACTOR",
+            "PRIMARY_COMMUNITY",
+            "PRIMARY_CAMPAIGN",
+            "PRIMARY_PETITION"
+          ],
+          "matches": [],
+          "satisfied": false
+        },
+        {
+          "options": [
+            "PRIMARY_PARLIAMENT",
+            "PRIMARY_GOVERNMENT",
+            "PRIMARY_REGULATOR"
+          ],
+          "matches": [
+            "WATCH-ACT-PARLIAMENT",
+            "WATCH-ACT-GOV-MEDIA"
+          ],
+          "satisfied": true
+        }
+      ],
+      "missing_source_groups": [
+        [
+          "PRIMARY_PUBLIC_ACTOR",
+          "PRIMARY_COMMUNITY",
+          "PRIMARY_CAMPAIGN",
+          "PRIMARY_PETITION"
+        ]
+      ],
+      "relevant_watch_ids": [
+        "WATCH-ACT-PARLIAMENT",
+        "WATCH-ACT-GOV-MEDIA"
+      ],
+      "detail_capable_watch_ids": [
+        "WATCH-ACT-GOV-MEDIA"
+      ]
+    },
+    {
+      "jurisdiction_id": "AUS-NT",
+      "competition_class": "ELECTORAL",
+      "state": "INGESTION_PATH_READY_NO_SUBSTANTIVE_EVIDENCE",
+      "configured_source_count": 3,
+      "relevant_source_count": 2,
+      "detail_capable_source_count": 1,
+      "detail_records_in_jurisdiction": 0,
+      "substantive_area_evidence_count": 0,
+      "required_source_groups": [
+        {
+          "options": [
+            "PRIMARY_ELECTORAL_AUTHORITY"
+          ],
+          "matches": [
+            "WATCH-NTEC-MEDIA"
+          ],
+          "satisfied": true
+        }
+      ],
+      "missing_source_groups": [],
+      "relevant_watch_ids": [
+        "WATCH-NT-PARLIAMENT",
+        "WATCH-NTEC-MEDIA"
+      ],
+      "detail_capable_watch_ids": [
+        "WATCH-NTEC-MEDIA"
+      ]
+    },
+    {
+      "jurisdiction_id": "AUS-NT",
+      "competition_class": "LEGISLATIVE",
+      "state": "NO_AUTOMATED_DETAIL_PATH",
+      "configured_source_count": 3,
+      "relevant_source_count": 1,
+      "detail_capable_source_count": 0,
+      "detail_records_in_jurisdiction": 0,
+      "substantive_area_evidence_count": 0,
+      "required_source_groups": [
+        {
+          "options": [
+            "PRIMARY_PARLIAMENT"
+          ],
+          "matches": [
+            "WATCH-NT-PARLIAMENT"
+          ],
+          "satisfied": true
+        }
+      ],
+      "missing_source_groups": [],
+      "relevant_watch_ids": [
+        "WATCH-NT-PARLIAMENT"
+      ],
+      "detail_capable_watch_ids": []
+    },
+    {
+      "jurisdiction_id": "AUS-NT",
+      "competition_class": "LEADERSHIP",
+      "state": "SOURCE_PATH_GAP",
+      "configured_source_count": 3,
+      "relevant_source_count": 1,
+      "detail_capable_source_count": 0,
+      "detail_records_in_jurisdiction": 0,
+      "substantive_area_evidence_count": 0,
+      "required_source_groups": [
+        {
+          "options": [
+            "PRIMARY_PARTY",
+            "PRIMARY_ACTOR"
+          ],
+          "matches": [],
+          "satisfied": false
+        }
+      ],
+      "missing_source_groups": [
+        [
+          "PRIMARY_PARTY",
+          "PRIMARY_ACTOR"
+        ]
+      ],
+      "relevant_watch_ids": [
+        "WATCH-NT-PARLIAMENT"
+      ],
+      "detail_capable_watch_ids": []
+    },
+    {
+      "jurisdiction_id": "AUS-NT",
+      "competition_class": "CONFIDENCE_SUPPLY",
+      "state": "SOURCE_PATH_GAP",
+      "configured_source_count": 3,
+      "relevant_source_count": 1,
+      "detail_capable_source_count": 0,
+      "detail_records_in_jurisdiction": 0,
+      "substantive_area_evidence_count": 0,
+      "required_source_groups": [
+        {
+          "options": [
+            "PRIMARY_PARLIAMENT"
+          ],
+          "matches": [
+            "WATCH-NT-PARLIAMENT"
+          ],
+          "satisfied": true
+        },
+        {
+          "options": [
+            "PRIMARY_PARTY",
+            "PRIMARY_ACTOR"
+          ],
+          "matches": [],
+          "satisfied": false
+        }
+      ],
+      "missing_source_groups": [
+        [
+          "PRIMARY_PARTY",
+          "PRIMARY_ACTOR"
+        ]
+      ],
+      "relevant_watch_ids": [
+        "WATCH-NT-PARLIAMENT"
+      ],
+      "detail_capable_watch_ids": []
+    },
+    {
+      "jurisdiction_id": "AUS-NT",
+      "competition_class": "BUDGET",
+      "state": "SOURCE_PATH_GAP",
+      "configured_source_count": 3,
+      "relevant_source_count": 2,
+      "detail_capable_source_count": 1,
+      "detail_records_in_jurisdiction": 0,
+      "substantive_area_evidence_count": 0,
+      "required_source_groups": [
+        {
+          "options": [
+            "PRIMARY_GOVERNMENT"
+          ],
+          "matches": [
+            "WATCH-NT-GOV-NEWSROOM"
+          ],
+          "satisfied": true
+        },
+        {
+          "options": [
+            "PRIMARY_PARLIAMENT"
+          ],
+          "matches": [
+            "WATCH-NT-PARLIAMENT"
+          ],
+          "satisfied": true
+        },
+        {
+          "options": [
+            "PRIMARY_PARTY",
+            "PRIMARY_ACTOR"
+          ],
+          "matches": [],
+          "satisfied": false
+        }
+      ],
+      "missing_source_groups": [
+        [
+          "PRIMARY_PARTY",
+          "PRIMARY_ACTOR"
+        ]
+      ],
+      "relevant_watch_ids": [
+        "WATCH-NT-PARLIAMENT",
+        "WATCH-NT-GOV-NEWSROOM"
+      ],
+      "detail_capable_watch_ids": [
+        "WATCH-NT-GOV-NEWSROOM"
+      ]
+    },
+    {
+      "jurisdiction_id": "AUS-NT",
+      "competition_class": "POLICY_ENACTMENT",
+      "state": "INGESTION_PATH_READY_NO_SUBSTANTIVE_EVIDENCE",
+      "configured_source_count": 3,
+      "relevant_source_count": 2,
+      "detail_capable_source_count": 1,
+      "detail_records_in_jurisdiction": 0,
+      "substantive_area_evidence_count": 0,
+      "required_source_groups": [
+        {
+          "options": [
+            "PRIMARY_GOVERNMENT",
+            "PRIMARY_REGULATOR"
+          ],
+          "matches": [
+            "WATCH-NT-GOV-NEWSROOM"
+          ],
+          "satisfied": true
+        },
+        {
+          "options": [
+            "PRIMARY_PARLIAMENT",
+            "PRIMARY_PARTY",
+            "PRIMARY_ACTOR",
+            "PRIMARY_REGULATOR"
+          ],
+          "matches": [
+            "WATCH-NT-PARLIAMENT"
+          ],
+          "satisfied": true
+        }
+      ],
+      "missing_source_groups": [],
+      "relevant_watch_ids": [
+        "WATCH-NT-PARLIAMENT",
+        "WATCH-NT-GOV-NEWSROOM"
+      ],
+      "detail_capable_watch_ids": [
+        "WATCH-NT-GOV-NEWSROOM"
+      ]
+    },
+    {
+      "jurisdiction_id": "AUS-NT",
+      "competition_class": "PARLIAMENTARY_PROCEDURE",
+      "state": "NO_AUTOMATED_DETAIL_PATH",
+      "configured_source_count": 3,
+      "relevant_source_count": 1,
+      "detail_capable_source_count": 0,
+      "detail_records_in_jurisdiction": 0,
+      "substantive_area_evidence_count": 0,
+      "required_source_groups": [
+        {
+          "options": [
+            "PRIMARY_PARLIAMENT"
+          ],
+          "matches": [
+            "WATCH-NT-PARLIAMENT"
+          ],
+          "satisfied": true
+        }
+      ],
+      "missing_source_groups": [],
+      "relevant_watch_ids": [
+        "WATCH-NT-PARLIAMENT"
+      ],
+      "detail_capable_watch_ids": []
+    },
+    {
+      "jurisdiction_id": "AUS-NT",
+      "competition_class": "PUBLIC_PRESSURE",
+      "state": "SOURCE_PATH_GAP",
+      "configured_source_count": 3,
+      "relevant_source_count": 2,
+      "detail_capable_source_count": 1,
+      "detail_records_in_jurisdiction": 0,
+      "substantive_area_evidence_count": 0,
+      "required_source_groups": [
+        {
+          "options": [
+            "PRIMARY_PUBLIC_ACTOR",
+            "PRIMARY_COMMUNITY",
+            "PRIMARY_CAMPAIGN",
+            "PRIMARY_PETITION"
+          ],
+          "matches": [],
+          "satisfied": false
+        },
+        {
+          "options": [
+            "PRIMARY_PARLIAMENT",
+            "PRIMARY_GOVERNMENT",
+            "PRIMARY_REGULATOR"
+          ],
+          "matches": [
+            "WATCH-NT-PARLIAMENT",
+            "WATCH-NT-GOV-NEWSROOM"
+          ],
+          "satisfied": true
+        }
+      ],
+      "missing_source_groups": [
+        [
+          "PRIMARY_PUBLIC_ACTOR",
+          "PRIMARY_COMMUNITY",
+          "PRIMARY_CAMPAIGN",
+          "PRIMARY_PETITION"
+        ]
+      ],
+      "relevant_watch_ids": [
+        "WATCH-NT-PARLIAMENT",
+        "WATCH-NT-GOV-NEWSROOM"
+      ],
+      "detail_capable_watch_ids": [
+        "WATCH-NT-GOV-NEWSROOM"
+      ]
+    }
+  ],
+  "gaps": [
+    {
+      "jurisdiction_id": "AUS-FED",
+      "competition_class": "ELECTORAL",
+      "state": "INGESTION_PATH_READY_NO_SUBSTANTIVE_EVIDENCE",
+      "missing_source_groups": [],
+      "detail_capable_source_count": 6,
+      "substantive_area_evidence_count": 0
+    },
+    {
+      "jurisdiction_id": "AUS-FED",
+      "competition_class": "LEADERSHIP",
+      "state": "INGESTION_PATH_READY_NO_SUBSTANTIVE_EVIDENCE",
+      "missing_source_groups": [],
+      "detail_capable_source_count": 5,
+      "substantive_area_evidence_count": 0
+    },
+    {
+      "jurisdiction_id": "AUS-FED",
+      "competition_class": "CONFIDENCE_SUPPLY",
+      "state": "INGESTION_PATH_READY_NO_SUBSTANTIVE_EVIDENCE",
+      "missing_source_groups": [],
+      "detail_capable_source_count": 5,
+      "substantive_area_evidence_count": 0
+    },
+    {
+      "jurisdiction_id": "AUS-FED",
+      "competition_class": "POLICY_ENACTMENT",
+      "state": "INGESTION_PATH_READY_NO_SUBSTANTIVE_EVIDENCE",
+      "missing_source_groups": [],
+      "detail_capable_source_count": 6,
+      "substantive_area_evidence_count": 0
+    },
+    {
+      "jurisdiction_id": "AUS-FED",
+      "competition_class": "PUBLIC_PRESSURE",
+      "state": "SOURCE_PATH_GAP",
+      "missing_source_groups": [
+        [
+          "PRIMARY_PUBLIC_ACTOR",
+          "PRIMARY_COMMUNITY",
+          "PRIMARY_CAMPAIGN",
+          "PRIMARY_PETITION"
+        ]
+      ],
+      "detail_capable_source_count": 2,
+      "substantive_area_evidence_count": 0
+    },
+    {
+      "jurisdiction_id": "AUS-NSW",
+      "competition_class": "ELECTORAL",
+      "state": "INGESTION_PATH_READY_NO_SUBSTANTIVE_EVIDENCE",
+      "missing_source_groups": [],
+      "detail_capable_source_count": 2,
+      "substantive_area_evidence_count": 0
+    },
+    {
+      "jurisdiction_id": "AUS-NSW",
+      "competition_class": "LEGISLATIVE",
+      "state": "INGESTION_PATH_READY_NO_SUBSTANTIVE_EVIDENCE",
+      "missing_source_groups": [],
+      "detail_capable_source_count": 1,
+      "substantive_area_evidence_count": 0
+    },
+    {
+      "jurisdiction_id": "AUS-NSW",
+      "competition_class": "LEADERSHIP",
+      "state": "SOURCE_PATH_GAP",
+      "missing_source_groups": [
+        [
+          "PRIMARY_PARTY",
+          "PRIMARY_ACTOR"
+        ]
+      ],
+      "detail_capable_source_count": 1,
+      "substantive_area_evidence_count": 0
+    },
+    {
+      "jurisdiction_id": "AUS-NSW",
+      "competition_class": "CONFIDENCE_SUPPLY",
+      "state": "SOURCE_PATH_GAP",
+      "missing_source_groups": [
+        [
+          "PRIMARY_PARTY",
+          "PRIMARY_ACTOR"
+        ]
+      ],
+      "detail_capable_source_count": 1,
+      "substantive_area_evidence_count": 0
+    },
+    {
+      "jurisdiction_id": "AUS-NSW",
+      "competition_class": "BUDGET",
+      "state": "SOURCE_PATH_GAP",
+      "missing_source_groups": [
+        [
+          "PRIMARY_PARTY",
+          "PRIMARY_ACTOR"
+        ]
+      ],
+      "detail_capable_source_count": 2,
+      "substantive_area_evidence_count": 0
+    },
+    {
+      "jurisdiction_id": "AUS-NSW",
+      "competition_class": "POLICY_ENACTMENT",
+      "state": "INGESTION_PATH_READY_NO_SUBSTANTIVE_EVIDENCE",
+      "missing_source_groups": [],
+      "detail_capable_source_count": 2,
+      "substantive_area_evidence_count": 0
+    },
+    {
+      "jurisdiction_id": "AUS-NSW",
+      "competition_class": "PARLIAMENTARY_PROCEDURE",
+      "state": "INGESTION_PATH_READY_NO_SUBSTANTIVE_EVIDENCE",
+      "missing_source_groups": [],
+      "detail_capable_source_count": 1,
+      "substantive_area_evidence_count": 0
+    },
+    {
+      "jurisdiction_id": "AUS-NSW",
+      "competition_class": "PUBLIC_PRESSURE",
+      "state": "SOURCE_PATH_GAP",
+      "missing_source_groups": [
+        [
+          "PRIMARY_PUBLIC_ACTOR",
+          "PRIMARY_COMMUNITY",
+          "PRIMARY_CAMPAIGN",
+          "PRIMARY_PETITION"
+        ]
+      ],
+      "detail_capable_source_count": 2,
+      "substantive_area_evidence_count": 0
+    },
+    {
+      "jurisdiction_id": "AUS-VIC",
+      "competition_class": "ELECTORAL",
+      "state": "INGESTION_PATH_READY_NO_SUBSTANTIVE_EVIDENCE",
+      "missing_source_groups": [],
+      "detail_capable_source_count": 1,
+      "substantive_area_evidence_count": 0
+    },
+    {
+      "jurisdiction_id": "AUS-VIC",
+      "competition_class": "LEGISLATIVE",
+      "state": "NO_AUTOMATED_DETAIL_PATH",
+      "missing_source_groups": [],
+      "detail_capable_source_count": 0,
+      "substantive_area_evidence_count": 0
+    },
+    {
+      "jurisdiction_id": "AUS-VIC",
+      "competition_class": "LEADERSHIP",
+      "state": "SOURCE_PATH_GAP",
+      "missing_source_groups": [
+        [
+          "PRIMARY_PARTY",
+          "PRIMARY_ACTOR"
+        ]
+      ],
+      "detail_capable_source_count": 0,
+      "substantive_area_evidence_count": 0
+    },
+    {
+      "jurisdiction_id": "AUS-VIC",
+      "competition_class": "CONFIDENCE_SUPPLY",
+      "state": "SOURCE_PATH_GAP",
+      "missing_source_groups": [
+        [
+          "PRIMARY_PARTY",
+          "PRIMARY_ACTOR"
+        ]
+      ],
+      "detail_capable_source_count": 0,
+      "substantive_area_evidence_count": 0
+    },
+    {
+      "jurisdiction_id": "AUS-VIC",
+      "competition_class": "BUDGET",
+      "state": "SOURCE_PATH_GAP",
+      "missing_source_groups": [
+        [
+          "PRIMARY_PARTY",
+          "PRIMARY_ACTOR"
+        ]
+      ],
+      "detail_capable_source_count": 1,
+      "substantive_area_evidence_count": 0
+    },
+    {
+      "jurisdiction_id": "AUS-VIC",
+      "competition_class": "POLICY_ENACTMENT",
+      "state": "INGESTION_PATH_READY_NO_SUBSTANTIVE_EVIDENCE",
+      "missing_source_groups": [],
+      "detail_capable_source_count": 1,
+      "substantive_area_evidence_count": 0
+    },
+    {
+      "jurisdiction_id": "AUS-VIC",
+      "competition_class": "PARLIAMENTARY_PROCEDURE",
+      "state": "NO_AUTOMATED_DETAIL_PATH",
+      "missing_source_groups": [],
+      "detail_capable_source_count": 0,
+      "substantive_area_evidence_count": 0
+    },
+    {
+      "jurisdiction_id": "AUS-VIC",
+      "competition_class": "PUBLIC_PRESSURE",
+      "state": "SOURCE_PATH_GAP",
+      "missing_source_groups": [
+        [
+          "PRIMARY_PUBLIC_ACTOR",
+          "PRIMARY_COMMUNITY",
+          "PRIMARY_CAMPAIGN",
+          "PRIMARY_PETITION"
+        ]
+      ],
+      "detail_capable_source_count": 1,
+      "substantive_area_evidence_count": 0
+    },
+    {
+      "jurisdiction_id": "AUS-QLD",
+      "competition_class": "ELECTORAL",
+      "state": "INGESTION_PATH_READY_NO_SUBSTANTIVE_EVIDENCE",
+      "missing_source_groups": [],
+      "detail_capable_source_count": 1,
+      "substantive_area_evidence_count": 0
+    },
+    {
+      "jurisdiction_id": "AUS-QLD",
+      "competition_class": "LEGISLATIVE",
+      "state": "NO_AUTOMATED_DETAIL_PATH",
+      "missing_source_groups": [],
+      "detail_capable_source_count": 0,
+      "substantive_area_evidence_count": 0
+    },
+    {
+      "jurisdiction_id": "AUS-QLD",
+      "competition_class": "LEADERSHIP",
+      "state": "SOURCE_PATH_GAP",
+      "missing_source_groups": [
+        [
+          "PRIMARY_PARTY",
+          "PRIMARY_ACTOR"
+        ]
+      ],
+      "detail_capable_source_count": 0,
+      "substantive_area_evidence_count": 0
+    },
+    {
+      "jurisdiction_id": "AUS-QLD",
+      "competition_class": "CONFIDENCE_SUPPLY",
+      "state": "SOURCE_PATH_GAP",
+      "missing_source_groups": [
+        [
+          "PRIMARY_PARTY",
+          "PRIMARY_ACTOR"
+        ]
+      ],
+      "detail_capable_source_count": 0,
+      "substantive_area_evidence_count": 0
+    },
+    {
+      "jurisdiction_id": "AUS-QLD",
+      "competition_class": "BUDGET",
+      "state": "SOURCE_PATH_GAP",
+      "missing_source_groups": [
+        [
+          "PRIMARY_PARTY",
+          "PRIMARY_ACTOR"
+        ]
+      ],
+      "detail_capable_source_count": 1,
+      "substantive_area_evidence_count": 0
+    },
+    {
+      "jurisdiction_id": "AUS-QLD",
+      "competition_class": "POLICY_ENACTMENT",
+      "state": "INGESTION_PATH_READY_NO_SUBSTANTIVE_EVIDENCE",
+      "missing_source_groups": [],
+      "detail_capable_source_count": 1,
+      "substantive_area_evidence_count": 0
+    },
+    {
+      "jurisdiction_id": "AUS-QLD",
+      "competition_class": "PARLIAMENTARY_PROCEDURE",
+      "state": "NO_AUTOMATED_DETAIL_PATH",
+      "missing_source_groups": [],
+      "detail_capable_source_count": 0,
+      "substantive_area_evidence_count": 0
+    },
+    {
+      "jurisdiction_id": "AUS-QLD",
+      "competition_class": "PUBLIC_PRESSURE",
+      "state": "SOURCE_PATH_GAP",
+      "missing_source_groups": [
+        [
+          "PRIMARY_PUBLIC_ACTOR",
+          "PRIMARY_COMMUNITY",
+          "PRIMARY_CAMPAIGN",
+          "PRIMARY_PETITION"
+        ]
+      ],
+      "detail_capable_source_count": 1,
+      "substantive_area_evidence_count": 0
+    },
+    {
+      "jurisdiction_id": "AUS-WA",
+      "competition_class": "ELECTORAL",
+      "state": "INGESTION_PATH_READY_NO_SUBSTANTIVE_EVIDENCE",
+      "missing_source_groups": [],
+      "detail_capable_source_count": 1,
+      "substantive_area_evidence_count": 0
+    },
+    {
+      "jurisdiction_id": "AUS-WA",
+      "competition_class": "LEGISLATIVE",
+      "state": "NO_AUTOMATED_DETAIL_PATH",
+      "missing_source_groups": [],
+      "detail_capable_source_count": 0,
+      "substantive_area_evidence_count": 0
+    },
+    {
+      "jurisdiction_id": "AUS-WA",
+      "competition_class": "LEADERSHIP",
+      "state": "SOURCE_PATH_GAP",
+      "missing_source_groups": [
+        [
+          "PRIMARY_PARTY",
+          "PRIMARY_ACTOR"
+        ]
+      ],
+      "detail_capable_source_count": 0,
+      "substantive_area_evidence_count": 0
+    },
+    {
+      "jurisdiction_id": "AUS-WA",
+      "competition_class": "CONFIDENCE_SUPPLY",
+      "state": "SOURCE_PATH_GAP",
+      "missing_source_groups": [
+        [
+          "PRIMARY_PARTY",
+          "PRIMARY_ACTOR"
+        ]
+      ],
+      "detail_capable_source_count": 0,
+      "substantive_area_evidence_count": 0
+    },
+    {
+      "jurisdiction_id": "AUS-WA",
+      "competition_class": "BUDGET",
+      "state": "SOURCE_PATH_GAP",
+      "missing_source_groups": [
+        [
+          "PRIMARY_PARTY",
+          "PRIMARY_ACTOR"
+        ]
+      ],
+      "detail_capable_source_count": 1,
+      "substantive_area_evidence_count": 0
+    },
+    {
+      "jurisdiction_id": "AUS-WA",
+      "competition_class": "POLICY_ENACTMENT",
+      "state": "INGESTION_PATH_READY_NO_SUBSTANTIVE_EVIDENCE",
+      "missing_source_groups": [],
+      "detail_capable_source_count": 1,
+      "substantive_area_evidence_count": 0
+    },
+    {
+      "jurisdiction_id": "AUS-WA",
+      "competition_class": "PARLIAMENTARY_PROCEDURE",
+      "state": "NO_AUTOMATED_DETAIL_PATH",
+      "missing_source_groups": [],
+      "detail_capable_source_count": 0,
+      "substantive_area_evidence_count": 0
+    },
+    {
+      "jurisdiction_id": "AUS-WA",
+      "competition_class": "PUBLIC_PRESSURE",
+      "state": "SOURCE_PATH_GAP",
+      "missing_source_groups": [
+        [
+          "PRIMARY_PUBLIC_ACTOR",
+          "PRIMARY_COMMUNITY",
+          "PRIMARY_CAMPAIGN",
+          "PRIMARY_PETITION"
+        ]
+      ],
+      "detail_capable_source_count": 1,
+      "substantive_area_evidence_count": 0
+    },
+    {
+      "jurisdiction_id": "AUS-SA",
+      "competition_class": "ELECTORAL",
+      "state": "INGESTION_PATH_READY_NO_SUBSTANTIVE_EVIDENCE",
+      "missing_source_groups": [],
+      "detail_capable_source_count": 1,
+      "substantive_area_evidence_count": 0
+    },
+    {
+      "jurisdiction_id": "AUS-SA",
+      "competition_class": "LEGISLATIVE",
+      "state": "NO_AUTOMATED_DETAIL_PATH",
+      "missing_source_groups": [],
+      "detail_capable_source_count": 0,
+      "substantive_area_evidence_count": 0
+    },
+    {
+      "jurisdiction_id": "AUS-SA",
+      "competition_class": "LEADERSHIP",
+      "state": "SOURCE_PATH_GAP",
+      "missing_source_groups": [
+        [
+          "PRIMARY_PARTY",
+          "PRIMARY_ACTOR"
+        ]
+      ],
+      "detail_capable_source_count": 0,
+      "substantive_area_evidence_count": 0
+    },
+    {
+      "jurisdiction_id": "AUS-SA",
+      "competition_class": "CONFIDENCE_SUPPLY",
+      "state": "SOURCE_PATH_GAP",
+      "missing_source_groups": [
+        [
+          "PRIMARY_PARTY",
+          "PRIMARY_ACTOR"
+        ]
+      ],
+      "detail_capable_source_count": 0,
+      "substantive_area_evidence_count": 0
+    },
+    {
+      "jurisdiction_id": "AUS-SA",
+      "competition_class": "BUDGET",
+      "state": "SOURCE_PATH_GAP",
+      "missing_source_groups": [
+        [
+          "PRIMARY_PARTY",
+          "PRIMARY_ACTOR"
+        ]
+      ],
+      "detail_capable_source_count": 1,
+      "substantive_area_evidence_count": 0
+    },
+    {
+      "jurisdiction_id": "AUS-SA",
+      "competition_class": "POLICY_ENACTMENT",
+      "state": "INGESTION_PATH_READY_NO_SUBSTANTIVE_EVIDENCE",
+      "missing_source_groups": [],
+      "detail_capable_source_count": 1,
+      "substantive_area_evidence_count": 0
+    },
+    {
+      "jurisdiction_id": "AUS-SA",
+      "competition_class": "PARLIAMENTARY_PROCEDURE",
+      "state": "NO_AUTOMATED_DETAIL_PATH",
+      "missing_source_groups": [],
+      "detail_capable_source_count": 0,
+      "substantive_area_evidence_count": 0
+    },
+    {
+      "jurisdiction_id": "AUS-SA",
+      "competition_class": "PUBLIC_PRESSURE",
+      "state": "SOURCE_PATH_GAP",
+      "missing_source_groups": [
+        [
+          "PRIMARY_PUBLIC_ACTOR",
+          "PRIMARY_COMMUNITY",
+          "PRIMARY_CAMPAIGN",
+          "PRIMARY_PETITION"
+        ]
+      ],
+      "detail_capable_source_count": 1,
+      "substantive_area_evidence_count": 0
+    },
+    {
+      "jurisdiction_id": "AUS-TAS",
+      "competition_class": "ELECTORAL",
+      "state": "INGESTION_PATH_READY_NO_SUBSTANTIVE_EVIDENCE",
+      "missing_source_groups": [],
+      "detail_capable_source_count": 1,
+      "substantive_area_evidence_count": 0
+    },
+    {
+      "jurisdiction_id": "AUS-TAS",
+      "competition_class": "LEGISLATIVE",
+      "state": "NO_AUTOMATED_DETAIL_PATH",
+      "missing_source_groups": [],
+      "detail_capable_source_count": 0,
+      "substantive_area_evidence_count": 0
+    },
+    {
+      "jurisdiction_id": "AUS-TAS",
+      "competition_class": "LEADERSHIP",
+      "state": "SOURCE_PATH_GAP",
+      "missing_source_groups": [
+        [
+          "PRIMARY_PARTY",
+          "PRIMARY_ACTOR"
+        ]
+      ],
+      "detail_capable_source_count": 0,
+      "substantive_area_evidence_count": 0
+    },
+    {
+      "jurisdiction_id": "AUS-TAS",
+      "competition_class": "CONFIDENCE_SUPPLY",
+      "state": "SOURCE_PATH_GAP",
+      "missing_source_groups": [
+        [
+          "PRIMARY_PARTY",
+          "PRIMARY_ACTOR"
+        ]
+      ],
+      "detail_capable_source_count": 0,
+      "substantive_area_evidence_count": 0
+    },
+    {
+      "jurisdiction_id": "AUS-TAS",
+      "competition_class": "BUDGET",
+      "state": "SOURCE_PATH_GAP",
+      "missing_source_groups": [
+        [
+          "PRIMARY_PARTY",
+          "PRIMARY_ACTOR"
+        ]
+      ],
+      "detail_capable_source_count": 1,
+      "substantive_area_evidence_count": 0
+    },
+    {
+      "jurisdiction_id": "AUS-TAS",
+      "competition_class": "POLICY_ENACTMENT",
+      "state": "INGESTION_PATH_READY_NO_SUBSTANTIVE_EVIDENCE",
+      "missing_source_groups": [],
+      "detail_capable_source_count": 1,
+      "substantive_area_evidence_count": 0
+    },
+    {
+      "jurisdiction_id": "AUS-TAS",
+      "competition_class": "PARLIAMENTARY_PROCEDURE",
+      "state": "NO_AUTOMATED_DETAIL_PATH",
+      "missing_source_groups": [],
+      "detail_capable_source_count": 0,
+      "substantive_area_evidence_count": 0
+    },
+    {
+      "jurisdiction_id": "AUS-TAS",
+      "competition_class": "PUBLIC_PRESSURE",
+      "state": "SOURCE_PATH_GAP",
+      "missing_source_groups": [
+        [
+          "PRIMARY_PUBLIC_ACTOR",
+          "PRIMARY_COMMUNITY",
+          "PRIMARY_CAMPAIGN",
+          "PRIMARY_PETITION"
+        ]
+      ],
+      "detail_capable_source_count": 1,
+      "substantive_area_evidence_count": 0
+    },
+    {
+      "jurisdiction_id": "AUS-ACT",
+      "competition_class": "ELECTORAL",
+      "state": "INGESTION_PATH_READY_NO_SUBSTANTIVE_EVIDENCE",
+      "missing_source_groups": [],
+      "detail_capable_source_count": 1,
+      "substantive_area_evidence_count": 0
+    },
+    {
+      "jurisdiction_id": "AUS-ACT",
+      "competition_class": "LEGISLATIVE",
+      "state": "NO_AUTOMATED_DETAIL_PATH",
+      "missing_source_groups": [],
+      "detail_capable_source_count": 0,
+      "substantive_area_evidence_count": 0
+    },
+    {
+      "jurisdiction_id": "AUS-ACT",
+      "competition_class": "LEADERSHIP",
+      "state": "SOURCE_PATH_GAP",
+      "missing_source_groups": [
+        [
+          "PRIMARY_PARTY",
+          "PRIMARY_ACTOR"
+        ]
+      ],
+      "detail_capable_source_count": 0,
+      "substantive_area_evidence_count": 0
+    },
+    {
+      "jurisdiction_id": "AUS-ACT",
+      "competition_class": "CONFIDENCE_SUPPLY",
+      "state": "SOURCE_PATH_GAP",
+      "missing_source_groups": [
+        [
+          "PRIMARY_PARTY",
+          "PRIMARY_ACTOR"
+        ]
+      ],
+      "detail_capable_source_count": 0,
+      "substantive_area_evidence_count": 0
+    },
+    {
+      "jurisdiction_id": "AUS-ACT",
+      "competition_class": "BUDGET",
+      "state": "SOURCE_PATH_GAP",
+      "missing_source_groups": [
+        [
+          "PRIMARY_PARTY",
+          "PRIMARY_ACTOR"
+        ]
+      ],
+      "detail_capable_source_count": 1,
+      "substantive_area_evidence_count": 0
+    },
+    {
+      "jurisdiction_id": "AUS-ACT",
+      "competition_class": "POLICY_ENACTMENT",
+      "state": "INGESTION_PATH_READY_NO_SUBSTANTIVE_EVIDENCE",
+      "missing_source_groups": [],
+      "detail_capable_source_count": 1,
+      "substantive_area_evidence_count": 0
+    },
+    {
+      "jurisdiction_id": "AUS-ACT",
+      "competition_class": "PARLIAMENTARY_PROCEDURE",
+      "state": "NO_AUTOMATED_DETAIL_PATH",
+      "missing_source_groups": [],
+      "detail_capable_source_count": 0,
+      "substantive_area_evidence_count": 0
+    },
+    {
+      "jurisdiction_id": "AUS-ACT",
+      "competition_class": "PUBLIC_PRESSURE",
+      "state": "SOURCE_PATH_GAP",
+      "missing_source_groups": [
+        [
+          "PRIMARY_PUBLIC_ACTOR",
+          "PRIMARY_COMMUNITY",
+          "PRIMARY_CAMPAIGN",
+          "PRIMARY_PETITION"
+        ]
+      ],
+      "detail_capable_source_count": 1,
+      "substantive_area_evidence_count": 0
+    },
+    {
+      "jurisdiction_id": "AUS-NT",
+      "competition_class": "ELECTORAL",
+      "state": "INGESTION_PATH_READY_NO_SUBSTANTIVE_EVIDENCE",
+      "missing_source_groups": [],
+      "detail_capable_source_count": 1,
+      "substantive_area_evidence_count": 0
+    },
+    {
+      "jurisdiction_id": "AUS-NT",
+      "competition_class": "LEGISLATIVE",
+      "state": "NO_AUTOMATED_DETAIL_PATH",
+      "missing_source_groups": [],
+      "detail_capable_source_count": 0,
+      "substantive_area_evidence_count": 0
+    },
+    {
+      "jurisdiction_id": "AUS-NT",
+      "competition_class": "LEADERSHIP",
+      "state": "SOURCE_PATH_GAP",
+      "missing_source_groups": [
+        [
+          "PRIMARY_PARTY",
+          "PRIMARY_ACTOR"
+        ]
+      ],
+      "detail_capable_source_count": 0,
+      "substantive_area_evidence_count": 0
+    },
+    {
+      "jurisdiction_id": "AUS-NT",
+      "competition_class": "CONFIDENCE_SUPPLY",
+      "state": "SOURCE_PATH_GAP",
+      "missing_source_groups": [
+        [
+          "PRIMARY_PARTY",
+          "PRIMARY_ACTOR"
+        ]
+      ],
+      "detail_capable_source_count": 0,
+      "substantive_area_evidence_count": 0
+    },
+    {
+      "jurisdiction_id": "AUS-NT",
+      "competition_class": "BUDGET",
+      "state": "SOURCE_PATH_GAP",
+      "missing_source_groups": [
+        [
+          "PRIMARY_PARTY",
+          "PRIMARY_ACTOR"
+        ]
+      ],
+      "detail_capable_source_count": 1,
+      "substantive_area_evidence_count": 0
+    },
+    {
+      "jurisdiction_id": "AUS-NT",
+      "competition_class": "POLICY_ENACTMENT",
+      "state": "INGESTION_PATH_READY_NO_SUBSTANTIVE_EVIDENCE",
+      "missing_source_groups": [],
+      "detail_capable_source_count": 1,
+      "substantive_area_evidence_count": 0
+    },
+    {
+      "jurisdiction_id": "AUS-NT",
+      "competition_class": "PARLIAMENTARY_PROCEDURE",
+      "state": "NO_AUTOMATED_DETAIL_PATH",
+      "missing_source_groups": [],
+      "detail_capable_source_count": 0,
+      "substantive_area_evidence_count": 0
+    },
+    {
+      "jurisdiction_id": "AUS-NT",
+      "competition_class": "PUBLIC_PRESSURE",
+      "state": "SOURCE_PATH_GAP",
+      "missing_source_groups": [
+        [
+          "PRIMARY_PUBLIC_ACTOR",
+          "PRIMARY_COMMUNITY",
+          "PRIMARY_CAMPAIGN",
+          "PRIMARY_PETITION"
+        ]
+      ],
+      "detail_capable_source_count": 1,
+      "substantive_area_evidence_count": 0
+    }
+  ],
+  "summary": {
+    "jurisdictions": 9,
+    "competition_areas": 8,
+    "total_cells": 72,
+    "substantive_evidence_active": 3,
+    "ingestion_path_ready_no_substantive_evidence": 22,
+    "no_automated_detail_path": 14,
+    "source_path_gaps": 33
+  }
 }

@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-INTELLIGENCE-EVENTS-001",
   "scope": "Australia — multi-jurisdiction",
-  "captured_at": "2026-09-09T05:48:25.868Z",
+  "captured_at": "2026-09-09T06:08:56.800Z",
   "mode": "FORWARD_ONLY",
   "rules": {
     "observation_distinct_from_inference": true,
@@ -55216,6 +55216,567 @@
         "underlying_publication_claims_not_promoted_to_verified_fact": true,
         "source_change_parent_retained": true,
         "deterministic_review": true
+      }
+    },
+    {
+      "event_id": "CHG-WATCH-APH-LIVE-MINUTES-20260909060802",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-FED",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-APH-LIVE-MINUTES-20260909060802",
+      "captured_at": "2026-09-09T06:08:02.648Z",
+      "event_date": "2026-09-09",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_PARLIAMENT",
+      "source_id": "SRC-APH-LIVE-MINUTES",
+      "capture_mode": "NORMALISED_PAGE_HASH",
+      "review_policy": "REVIEW_UNSTRUCTURED_CHANGE",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-APH-LIVE-MINUTES-20260909054739",
+        "content_hash": "c4395a8505c00a6719ccc02ad2cc0963f24f0d4b0eb18c80a318b97a205ea64a",
+        "capture_mode": "NORMALISED_PAGE_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-APH-LIVE-MINUTES-20260909060802",
+        "content_hash": "77ff0abf7f7977293811f2d83fde24f32023a51fd0a79d450b789cbe11abc541",
+        "capture_mode": "NORMALISED_PAGE_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "TEXT_REPRESENTATION",
+        "first_difference_offset": 17846,
+        "before_length": 19606,
+        "after_length": 19695,
+        "before_excerpt": "s Kearney , <TIME>. Dr M Ryan , <TIME>. Ms K Cook , <TIME>. Ms Sharkie , <TIME>. Ms Sitou , <TIME>. Dr Scamps , <TIME>. In this section Bills and Legislation Tabled documents Chamber documents Work of the Senate House of Representatives cha",
+        "after_excerpt": "s Kearney , <TIME>. Dr M Ryan , <TIME>. Ms K Cook , <TIME>. Ms Sharkie , <TIME>. Ms Sitou , <TIME>. Dr Scamps , <TIME>. Ms Ambihaipahar , <TIME>. Ms Spender , <TIME>. Dr T Cook , <TIME>. Ms Steggall , <TIME>. In this section Bills and Legislation Tabled documents Chamber documents Work of the Senate House of Representatives cha",
+        "delta_hash": "efe65c78d895cff174cbc9b6b0cef2a3e57d09590e4e24cfe5e92aa9e4ac0409"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-WAEC-MEDIA-20260909060802",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-WA",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-WAEC-MEDIA-20260909060802",
+      "captured_at": "2026-09-09T06:08:02.648Z",
+      "event_date": "2026-09-09",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_ELECTORAL_AUTHORITY",
+      "source_id": "SRC-WAEC-MEDIA",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "review_policy": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-WAEC-MEDIA-20260908195628",
+        "content_hash": "7bf7c2da8c5bf4e4659d0229275122266689fea4797266f746e8b90fc53f569f",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-WAEC-MEDIA-20260909060802",
+        "content_hash": "b48ad46b64abfaef065832e3a57e661f5369cf31108b336fa50d550246483b9e",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "STRUCTURED_RECORD_SET",
+        "records_added": [
+          {
+            "record_id": "18a0a1f36bf3008ca551",
+            "title": "Results Declared and Writ Returned for the Secret Harbour By-election",
+            "url": "https://www.elections.wa.gov.au/about-us/media/releases/2627"
+          }
+        ],
+        "records_removed": [
+          {
+            "record_id": "2355d208a764e461c390",
+            "title": "Late postal vote? Port Hedland voters can hand deliver up until 6pm Saturday 28 March 2026",
+            "url": "https://www.elections.wa.gov.au/about-us/media/releases/2580"
+          }
+        ],
+        "added_count": 1,
+        "removed_count": 1,
+        "before_count": 96,
+        "after_count": 96,
+        "delta_hash": "66accc36ea8a6d8760241496ece1b747de9aad7f9c49fb92c356cd3f1dd2d7a8"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-ELECTIONS-ACT-NEWS-20260909060802",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-ACT",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-ELECTIONS-ACT-NEWS-20260909060802",
+      "captured_at": "2026-09-09T06:08:02.648Z",
+      "event_date": "2026-09-09",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_ELECTORAL_AUTHORITY",
+      "source_id": "SRC-ELECTIONS-ACT-NEWS",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "review_policy": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-ELECTIONS-ACT-NEWS-20260909034114",
+        "content_hash": "65eba258524e03b3994d6ae1f2370dca84b2fd23c112893e7f853ec12494d4ea",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-ELECTIONS-ACT-NEWS-20260909060802",
+        "content_hash": "d0279b3fef85831e6d13287f26550fd5e08e883bb61a0ea46d8b59a15233eafa",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "STRUCTURED_RECORD_SET",
+        "records_added": [
+          {
+            "record_id": "25cfb46c829c7f3d2385",
+            "title": "Click to find out more",
+            "url": "https://www.elections.act.gov.au/for-political-participants"
+          },
+          {
+            "record_id": "484cb2dc13de8d0ed7db",
+            "title": "Financial disclosure",
+            "url": "https://www.elections.act.gov.au/funding-disclosures-and-registers"
+          },
+          {
+            "record_id": "7e311b4010f8537cefc1",
+            "title": "Electoral integrity",
+            "url": "https://www.elections.act.gov.au/integrity"
+          },
+          {
+            "record_id": "a0936318fd8395c13134",
+            "title": "Click to find out more",
+            "url": "https://www.elections.act.gov.au/elections"
+          }
+        ],
+        "records_removed": [
+          {
+            "record_id": "053b49a631200edf8447",
+            "title": "Funding, disclosures and registers",
+            "url": "https://www.elections.act.gov.au/about-the-commission/publications/news-archives"
+          },
+          {
+            "record_id": "06aae5f67ba2e86ab363",
+            "title": "For voters",
+            "url": "https://www.elections.act.gov.au/about-the-commission/publications/news-archives"
+          },
+          {
+            "record_id": "0e0fa4dc365fda2be96d",
+            "title": "Skip to content",
+            "url": "https://www.elections.act.gov.au/about-the-commission/publications/news-archives"
+          },
+          {
+            "record_id": "192c6342a93df6d97001",
+            "title": "14 June 2024 Canberra Progressives apply to change the registered officer of the party",
+            "url": "https://www.elections.act.gov.au/about-the-commission/publications/news-archives/canberra-progressives-apply-to-change-the-registered-officer-of-the-party"
+          },
+          {
+            "record_id": "1b4347faab034b6357a9",
+            "title": "15 May 2024 Strong Independents apply to register as a political party for ACT Legislative Assembly elections",
+            "url": "https://www.elections.act.gov.au/about-the-commission/publications/news-archives/strong-independents-apply-to-register-as-a-political-party-for-act-legislative-assembly-elections"
+          },
+          {
+            "record_id": "1e642febde88f0395a01",
+            "title": "12 June 2024 Elections ACT's Service Delivery Plan for the 2024 ACT Legislative Assembly election is now available for viewing",
+            "url": "https://www.elections.act.gov.au/about-the-commission/publications/news-archives/elections-acts-service-delivery-plan-for-the-2024-act-legislative-assembly-election-is-now-available-for-viewing"
+          },
+          {
+            "record_id": "32d7fc3a07106583ce0b",
+            "title": "4 June 2024 Strong Independents officially registered for the 2024 ACT Legislative Assembly election",
+            "url": "https://www.elections.act.gov.au/about-the-commission/publications/news-archives/strong-independents-officially-registered-for-the-2024-act-legislative-assembly-election"
+          },
+          {
+            "record_id": "449c9fd5617e5ffe88cb",
+            "title": "For political participants",
+            "url": "https://www.elections.act.gov.au/about-the-commission/publications/news-archives"
+          },
+          {
+            "record_id": "655ef8f5e703018bf8f4",
+            "title": "12 June 2024 Elections ACT has re-released the source code for the electronic voting and counting system",
+            "url": "https://www.elections.act.gov.au/about-the-commission/publications/news-archives/elections-act-has-re-released-the-source-code-for-the-electronic-voting-and-counting-system"
+          },
+          {
+            "record_id": "a3857c658c21c7698da7",
+            "title": "News archives",
+            "url": "https://www.elections.act.gov.au/about-the-commission/publications/news-archives"
+          },
+          {
+            "record_id": "a5f53957f9b327858628",
+            "title": "17 May 2024 Independents for Canberra apply to change party abbreviation, Registered Officer and Secretary of the party",
+            "url": "https://www.elections.act.gov.au/about-the-commission/publications/news-archives/independents-for-canberra-apply-to-change-party-abbreviation,-registered-officer-and-secretary-of-the-party"
+          },
+          {
+            "record_id": "ae0fa7e29ce939d7c2db",
+            "title": "About the Commission",
+            "url": "https://www.elections.act.gov.au/about-the-commission"
+          },
+          {
+            "record_id": "b27b0bfd1a431fc4d7c6",
+            "title": "17 May 2024 Nominations for the ACT Aboriginal and Torres Strait Islander Elected Body (ATSIEB) 2024 are now open",
+            "url": "https://www.elections.act.gov.au/about-the-commission/publications/news-archives/nominations-for-the-act-aboriginal-and-torres-strait-islander-elected-body-atsieb-2024-are-now-open"
+          },
+          {
+            "record_id": "b4e14e76407a5ca368ce",
+            "title": "See all news",
+            "url": "https://www.elections.act.gov.au/about-the-commission/publications/news-archives"
+          },
+          {
+            "record_id": "d06265aff89799bf6987",
+            "title": "Translate",
+            "url": "https://www.elections.act.gov.au/about-the-commission/publications/news-archives"
+          },
+          {
+            "record_id": "e5d8cb2f4379903e4e65",
+            "title": "7 June 2024 Fiona Carrick Independent apply to register as a political party for ACT Legislative Assembly elections",
+            "url": "https://www.elections.act.gov.au/about-the-commission/publications/news-archives/fiona-carrick-independent-apply-to-register-as-a-political-party-for-act-legislative-assembly-elections"
+          },
+          {
+            "record_id": "ed2d080d80f5578b604f",
+            "title": "Elections",
+            "url": "https://www.elections.act.gov.au/about-the-commission/publications/news-archives"
+          },
+          {
+            "record_id": "ee901265f22dcecc014f",
+            "title": "24 May 2024 Reminder for new political parties intending to register for the 2024 ACT election",
+            "url": "https://www.elections.act.gov.au/about-the-commission/publications/news-archives/reminder-for-new-political-parties-intending-to-register-for-the-2024-act-election"
+          },
+          {
+            "record_id": "fdb43d4a34aaeb422813",
+            "title": "Integrity",
+            "url": "https://www.elections.act.gov.au/about-the-commission/publications/news-archives"
+          }
+        ],
+        "added_count": 4,
+        "removed_count": 19,
+        "before_count": 63,
+        "after_count": 48,
+        "delta_hash": "011eb92e616814309dc9d1e9f95c879b8d984c440a3b2134af60cc03fbed3efb"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "SIG-REV-CHG-WATCH-WAEC-MEDIA-20260909060802",
+      "parent_event_id": "CHG-WATCH-WAEC-MEDIA-20260909060802",
+      "review_id": "REV-CHG-WATCH-WAEC-MEDIA-20260909060802",
+      "jurisdiction_id": "AUS-WA",
+      "party_id": null,
+      "actor_id": null,
+      "contest_id": null,
+      "cycle_id": null,
+      "source_snapshot_id": "AUTO-WATCH-WAEC-MEDIA-20260909060802",
+      "record_id": "18a0a1f36bf3008ca551",
+      "captured_at": "2026-09-09T06:08:53.625Z",
+      "event_date": "2026-09-09",
+      "checkpoint": "CONTINUOUS_FORWARD_SIGNAL_REVIEW",
+      "event_type": "SIGNAL_CREATED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_ELECTORAL_AUTHORITY",
+      "source_id": "SRC-WAEC-MEDIA",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "claim": "Western Australian Electoral Commission — media releases added 1 structured publication record to its forward-captured official index: Results Declared and Writ Returned for the Secret Harbour By-election",
+      "observed_behaviour": "One or more structured publication records appeared in the monitored official source index after the preceding forward snapshot.",
+      "publication_records_added": [
+        {
+          "record_id": "18a0a1f36bf3008ca551",
+          "title": "Results Declared and Writ Returned for the Secret Harbour By-election",
+          "url": "https://www.elections.wa.gov.au/about-us/media/releases/2627"
+        }
+      ],
+      "publication_records_removed": [
+        {
+          "record_id": "2355d208a764e461c390",
+          "title": "Late postal vote? Port Hedland voters can hand deliver up until 6pm Saturday 28 March 2026",
+          "url": "https://www.elections.wa.gov.au/about-us/media/releases/2580"
+        }
+      ],
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "underlying_publication_claims_not_promoted_to_verified_fact": true,
+        "source_change_parent_retained": true,
+        "deterministic_review": true
+      }
+    },
+    {
+      "event_id": "SIG-REV-CHG-WATCH-ELECTIONS-ACT-NEWS-20260909060802",
+      "parent_event_id": "CHG-WATCH-ELECTIONS-ACT-NEWS-20260909060802",
+      "review_id": "REV-CHG-WATCH-ELECTIONS-ACT-NEWS-20260909060802",
+      "jurisdiction_id": "AUS-ACT",
+      "party_id": null,
+      "actor_id": null,
+      "contest_id": null,
+      "cycle_id": null,
+      "source_snapshot_id": "AUTO-WATCH-ELECTIONS-ACT-NEWS-20260909060802",
+      "record_id": null,
+      "captured_at": "2026-09-09T06:08:53.625Z",
+      "event_date": "2026-09-09",
+      "checkpoint": "CONTINUOUS_FORWARD_SIGNAL_REVIEW",
+      "event_type": "SIGNAL_CREATED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_ELECTORAL_AUTHORITY",
+      "source_id": "SRC-ELECTIONS-ACT-NEWS",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "claim": "Elections ACT — news archive added 4 structured publication records to its forward-captured official index: Click to find out more; Financial disclosure; Electoral integrity; Click to find out more",
+      "observed_behaviour": "One or more structured publication records appeared in the monitored official source index after the preceding forward snapshot.",
+      "publication_records_added": [
+        {
+          "record_id": "25cfb46c829c7f3d2385",
+          "title": "Click to find out more",
+          "url": "https://www.elections.act.gov.au/for-political-participants"
+        },
+        {
+          "record_id": "484cb2dc13de8d0ed7db",
+          "title": "Financial disclosure",
+          "url": "https://www.elections.act.gov.au/funding-disclosures-and-registers"
+        },
+        {
+          "record_id": "7e311b4010f8537cefc1",
+          "title": "Electoral integrity",
+          "url": "https://www.elections.act.gov.au/integrity"
+        },
+        {
+          "record_id": "a0936318fd8395c13134",
+          "title": "Click to find out more",
+          "url": "https://www.elections.act.gov.au/elections"
+        }
+      ],
+      "publication_records_removed": [
+        {
+          "record_id": "053b49a631200edf8447",
+          "title": "Funding, disclosures and registers",
+          "url": "https://www.elections.act.gov.au/about-the-commission/publications/news-archives"
+        },
+        {
+          "record_id": "06aae5f67ba2e86ab363",
+          "title": "For voters",
+          "url": "https://www.elections.act.gov.au/about-the-commission/publications/news-archives"
+        },
+        {
+          "record_id": "0e0fa4dc365fda2be96d",
+          "title": "Skip to content",
+          "url": "https://www.elections.act.gov.au/about-the-commission/publications/news-archives"
+        },
+        {
+          "record_id": "192c6342a93df6d97001",
+          "title": "14 June 2024 Canberra Progressives apply to change the registered officer of the party",
+          "url": "https://www.elections.act.gov.au/about-the-commission/publications/news-archives/canberra-progressives-apply-to-change-the-registered-officer-of-the-party"
+        },
+        {
+          "record_id": "1b4347faab034b6357a9",
+          "title": "15 May 2024 Strong Independents apply to register as a political party for ACT Legislative Assembly elections",
+          "url": "https://www.elections.act.gov.au/about-the-commission/publications/news-archives/strong-independents-apply-to-register-as-a-political-party-for-act-legislative-assembly-elections"
+        },
+        {
+          "record_id": "1e642febde88f0395a01",
+          "title": "12 June 2024 Elections ACT's Service Delivery Plan for the 2024 ACT Legislative Assembly election is now available for viewing",
+          "url": "https://www.elections.act.gov.au/about-the-commission/publications/news-archives/elections-acts-service-delivery-plan-for-the-2024-act-legislative-assembly-election-is-now-available-for-viewing"
+        },
+        {
+          "record_id": "32d7fc3a07106583ce0b",
+          "title": "4 June 2024 Strong Independents officially registered for the 2024 ACT Legislative Assembly election",
+          "url": "https://www.elections.act.gov.au/about-the-commission/publications/news-archives/strong-independents-officially-registered-for-the-2024-act-legislative-assembly-election"
+        },
+        {
+          "record_id": "449c9fd5617e5ffe88cb",
+          "title": "For political participants",
+          "url": "https://www.elections.act.gov.au/about-the-commission/publications/news-archives"
+        },
+        {
+          "record_id": "655ef8f5e703018bf8f4",
+          "title": "12 June 2024 Elections ACT has re-released the source code for the electronic voting and counting system",
+          "url": "https://www.elections.act.gov.au/about-the-commission/publications/news-archives/elections-act-has-re-released-the-source-code-for-the-electronic-voting-and-counting-system"
+        },
+        {
+          "record_id": "a3857c658c21c7698da7",
+          "title": "News archives",
+          "url": "https://www.elections.act.gov.au/about-the-commission/publications/news-archives"
+        },
+        {
+          "record_id": "a5f53957f9b327858628",
+          "title": "17 May 2024 Independents for Canberra apply to change party abbreviation, Registered Officer and Secretary of the party",
+          "url": "https://www.elections.act.gov.au/about-the-commission/publications/news-archives/independents-for-canberra-apply-to-change-party-abbreviation,-registered-officer-and-secretary-of-the-party"
+        },
+        {
+          "record_id": "ae0fa7e29ce939d7c2db",
+          "title": "About the Commission",
+          "url": "https://www.elections.act.gov.au/about-the-commission"
+        },
+        {
+          "record_id": "b27b0bfd1a431fc4d7c6",
+          "title": "17 May 2024 Nominations for the ACT Aboriginal and Torres Strait Islander Elected Body (ATSIEB) 2024 are now open",
+          "url": "https://www.elections.act.gov.au/about-the-commission/publications/news-archives/nominations-for-the-act-aboriginal-and-torres-strait-islander-elected-body-atsieb-2024-are-now-open"
+        },
+        {
+          "record_id": "b4e14e76407a5ca368ce",
+          "title": "See all news",
+          "url": "https://www.elections.act.gov.au/about-the-commission/publications/news-archives"
+        },
+        {
+          "record_id": "d06265aff89799bf6987",
+          "title": "Translate",
+          "url": "https://www.elections.act.gov.au/about-the-commission/publications/news-archives"
+        },
+        {
+          "record_id": "e5d8cb2f4379903e4e65",
+          "title": "7 June 2024 Fiona Carrick Independent apply to register as a political party for ACT Legislative Assembly elections",
+          "url": "https://www.elections.act.gov.au/about-the-commission/publications/news-archives/fiona-carrick-independent-apply-to-register-as-a-political-party-for-act-legislative-assembly-elections"
+        },
+        {
+          "record_id": "ed2d080d80f5578b604f",
+          "title": "Elections",
+          "url": "https://www.elections.act.gov.au/about-the-commission/publications/news-archives"
+        },
+        {
+          "record_id": "ee901265f22dcecc014f",
+          "title": "24 May 2024 Reminder for new political parties intending to register for the 2024 ACT election",
+          "url": "https://www.elections.act.gov.au/about-the-commission/publications/news-archives/reminder-for-new-political-parties-intending-to-register-for-the-2024-act-election"
+        },
+        {
+          "record_id": "fdb43d4a34aaeb422813",
+          "title": "Integrity",
+          "url": "https://www.elections.act.gov.au/about-the-commission/publications/news-archives"
+        }
+      ],
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "underlying_publication_claims_not_promoted_to_verified_fact": true,
+        "source_change_parent_retained": true,
+        "deterministic_review": true
+      }
+    },
+    {
+      "event_id": "INTEL-AREA-4855f1a9ba8d0713d12003d2",
+      "parent_event_id": "SIG-REV-CHG-WATCH-WAEC-MEDIA-20260909060802",
+      "jurisdiction_id": "AUS-WA",
+      "party_id": null,
+      "actor_id": null,
+      "party_ids": [],
+      "actor_ids": [],
+      "contest_id": null,
+      "cycle_id": null,
+      "competition_class": "ELECTORAL",
+      "area_evidence_id": "AREA-4855f1a9ba8d0713d12003d2",
+      "detail_record_id": "DETAIL-ab7876915658725274402afa",
+      "detail_version_id": "DETAIL-ab7876915658725274402afa-V1",
+      "source_snapshot_id": "AUTO-WATCH-WAEC-MEDIA-20260909060802",
+      "record_url": "https://www.elections.wa.gov.au/about-us/media/releases/2627",
+      "captured_at": "2026-09-09T06:08:56.800Z",
+      "evidence_captured_at": "2026-09-09T06:08:53.746Z",
+      "event_date": "2026-09-09",
+      "checkpoint": "SUBSTANTIVE_INFORMATION_INGESTION",
+      "event_type": "AREA_EVIDENCE_INGESTED",
+      "area_routing_state": "SUBSTANTIVE_CONTENT_ROUTED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_ELECTORAL_AUTHORITY",
+      "source_id": "SRC-WAEC-MEDIA",
+      "claim": "Ingested substantive electoral evidence from Results Declared and Writ Returned for the Secret Harbour By-election. Captured content includes outcome language: elected. Registration threshold state: evidence gap. Missing requirements: missing fact type stage, missing condition resolved participant or team.",
+      "observed_behaviour": "Results Declared and Writ Returned for the Secret Harbour By-election | Western Australian Electoral Commission Skip to main content Search Search Home About Us Media Media Releases Results Declared and Writ Returned for the Secret Harbour By-election Results Declared and Writ Returned for the Secret Harbour By-election Media Release Date Wednesday, 9 September, 2026 The Western Australian Electoral Commission (WAEC) has officially declared the results of the Secret Harbour By-election held on 29 August 2026. Mr Luke Herdegen was declared as the elected candidate by the Returning Officer on Wednesday, 9 September. This declaration finalises the by-election result and supersedes the indicative result reported on polling night. Following the full distribution of preferences, Mr Herdegen secured 57.19% of the valid votes cast in the two-candidate preferred count, while Ms Georgia Tree received the remaining 42.81%. Details of the final distribution of preferences are available at the website State By-elections | Western Australian Electoral Commission. “The WA Electoral Commission is committed to delivering elections that are fair, impartial and transparent. I thank everyone involved in this by-election, including voters in the Secret Harbour district, the record number of candidates who put themselves forward to represent their community, the dedicated election officials, and our team of election workers,” said Dennis O’Reilly, WA Electoral Commissioner. The legal instruments (writ and certificate) directing the Electoral Commissioner to conduct the Secret Harbour By-election have been returned to the Speaker today, Wednesday 9 September. Quick Stats: Secret Harbour By-election 2026 Voter Turnout: 78.98% (Rockingham By-election 2023 was 74.48%) Postal Votes Received: 6,10",
+      "extracted_cues": {
+        "resistance_terms": [],
+        "stage_terms": [],
+        "outcome_terms": [
+          "elected"
+        ],
+        "pressure_terms": []
+      },
+      "entity_mentions": {
+        "actors": [],
+        "teams": []
+      },
+      "position_state": "UNRESOLVED",
+      "resistance_state": "UNRESOLVED",
+      "outcome_state": "OUTCOME_LANGUAGE_PRESENT",
+      "contest_fact_ids": [
+        "FACT-0b34d1abb6f8bd77355d6edd",
+        "FACT-2a63078ba9c2d3c8a7facbe7",
+        "FACT-5863942b4ec685eb3011705b",
+        "FACT-70b9d6cbb214c024631f8600",
+        "FACT-731e19fa322be1317ff0f324",
+        "FACT-7f4a72c8d68a1b4e37c70c1e",
+        "FACT-864d8ad7188f4f204ec3f377",
+        "FACT-9d275fc0a3d81f98ae3f34a3",
+        "FACT-9ec0aba307ca6520999d05ac",
+        "FACT-adc51801d95b95808e83f79a",
+        "FACT-c6115d6c3da553e56758a73d",
+        "FACT-e5be934f9f26f996b4bd2074"
+      ],
+      "contest_fact_types": [
+        "CONTEST_OBJECT",
+        "POSSIBLE_OUTCOME_STATE"
+      ],
+      "threshold_evaluation_id": "THRESH-b7874a85b17f0f7f6b9745df",
+      "threshold_state": "EVIDENCE_GAP",
+      "threshold_blockers": [
+        "MISSING_CONDITION_RESOLVED_PARTICIPANT_OR_TEAM",
+        "MISSING_FACT_TYPE_STAGE"
+      ],
+      "supporting_entities": [],
+      "opposing_entities": [],
+      "registration_action": "NO_AUTOMATIC_REGISTRATION",
+      "intelligence_signature": "7867fb3b8208362470a3a231280ba209f7eea70427cb2a3c2bfddad22153a54b",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "substantive_detail_lineage_required": true,
+        "active_contest_fact_lineage_required": true,
+        "threshold_evaluation_lineage_required": true,
+        "routing_does_not_register_match": true,
+        "threshold_eligibility_does_not_register_match": true,
+        "entity_mentions_do_not_establish_positions": true,
+        "retracted_facts_excluded": true,
+        "no_projection_effect_without_registered_target": true
       }
     }
   ]

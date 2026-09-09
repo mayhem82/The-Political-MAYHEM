@@ -69,63 +69,63 @@
     {
       "jurisdiction_id": "AUS-FED",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-09T05:48:26.146Z",
+      "last_screened_at": "2026-09-09T06:08:57.080Z",
       "signals_examined": 78,
       "candidates_detected": 23
     },
     {
       "jurisdiction_id": "AUS-NSW",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-09T05:48:26.146Z",
+      "last_screened_at": "2026-09-09T06:08:57.080Z",
       "signals_examined": 26,
       "candidates_detected": 5
     },
     {
       "jurisdiction_id": "AUS-VIC",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-09T05:48:26.146Z",
+      "last_screened_at": "2026-09-09T06:08:57.080Z",
       "signals_examined": 0,
       "candidates_detected": 0
     },
     {
       "jurisdiction_id": "AUS-QLD",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-09T05:48:26.146Z",
+      "last_screened_at": "2026-09-09T06:08:57.080Z",
       "signals_examined": 10,
       "candidates_detected": 43
     },
     {
       "jurisdiction_id": "AUS-WA",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-09T05:48:26.146Z",
-      "signals_examined": 0,
-      "candidates_detected": 0
+      "last_screened_at": "2026-09-09T06:08:57.080Z",
+      "signals_examined": 2,
+      "candidates_detected": 2
     },
     {
       "jurisdiction_id": "AUS-SA",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-09T05:48:26.146Z",
+      "last_screened_at": "2026-09-09T06:08:57.080Z",
       "signals_examined": 0,
       "candidates_detected": 0
     },
     {
       "jurisdiction_id": "AUS-TAS",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-09T05:48:26.146Z",
+      "last_screened_at": "2026-09-09T06:08:57.080Z",
       "signals_examined": 18,
       "candidates_detected": 0
     },
     {
       "jurisdiction_id": "AUS-ACT",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-09T05:48:26.146Z",
-      "signals_examined": 21,
+      "last_screened_at": "2026-09-09T06:08:57.080Z",
+      "signals_examined": 22,
       "candidates_detected": 1
     },
     {
       "jurisdiction_id": "AUS-NT",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-09T05:48:26.146Z",
+      "last_screened_at": "2026-09-09T06:08:57.080Z",
       "signals_examined": 30,
       "candidates_detected": 0
     }
@@ -3220,21 +3220,93 @@
           "reason": "SUBSTANTIVE_THRESHOLD_EVALUATION_PROPAGATED"
         }
       ]
+    },
+    {
+      "candidate_id": "DISC-WA-ELECTION-6fc57c37716f8226",
+      "jurisdiction_id": "AUS-WA",
+      "competition_family": "ELECTION",
+      "proposed_competition_class": "ELECTORAL",
+      "proposed_cycle_id": null,
+      "subject": "Results Declared and Writ Returned for the Secret Harbour By-election",
+      "candidate_state": "REVIEW_REQUIRED",
+      "detected_at": "2026-09-09T06:08:53.625Z",
+      "source_snapshot_ids": [
+        "AUTO-WATCH-WAEC-MEDIA-20260909060802"
+      ],
+      "signal_event_ids": [
+        "SIG-REV-CHG-WATCH-WAEC-MEDIA-20260909060802"
+      ],
+      "review_ids": [
+        "REV-CHG-WATCH-WAEC-MEDIA-20260909060802"
+      ],
+      "area_evidence_ids": [],
+      "detail_version_ids": [],
+      "evidence_summary": "Screened PRIMARY_ELECTORAL_AUTHORITY evidence contains language consistent with a election competition candidate. This is a discovery observation, not a registered contest or outcome inference.",
+      "registration_blockers": [
+        "DISTINCT_ELECTORAL_CONTEST_SCOPE_REQUIRES_REVIEW",
+        "REGISTERED_COMPATIBLE_CYCLE_REQUIRED"
+      ],
+      "linked_contest_id": null,
+      "state_history": [
+        {
+          "from": null,
+          "to": "REVIEW_REQUIRED",
+          "at": "2026-09-09T06:08:53.625Z",
+          "reason": "DETERMINISTIC_COMPETITION_FAMILY_SCREEN"
+        }
+      ]
+    },
+    {
+      "candidate_id": "DISC-WA-ELECTION-d231672a0522d506",
+      "jurisdiction_id": "AUS-WA",
+      "competition_family": "ELECTION",
+      "proposed_competition_class": "ELECTORAL",
+      "proposed_cycle_id": null,
+      "subject": "Ingested substantive electoral evidence from Results Declared and Writ Returned for the Secret Harbour By-election. Captured content includes outcome language: elected. Registration threshold state: evidence gap. Missing requirements: missing fact type stage, missing condition resolved participant o",
+      "candidate_state": "EVIDENCE_GAP",
+      "detected_at": "2026-09-09T06:08:56.800Z",
+      "source_snapshot_ids": [
+        "AUTO-WATCH-WAEC-MEDIA-20260909060802"
+      ],
+      "signal_event_ids": [
+        "INTEL-AREA-4855f1a9ba8d0713d12003d2"
+      ],
+      "review_ids": [],
+      "area_evidence_ids": [
+        "AREA-4855f1a9ba8d0713d12003d2"
+      ],
+      "detail_version_ids": [
+        "DETAIL-ab7876915658725274402afa-V1"
+      ],
+      "evidence_summary": "Substantive source record body was acquired, routed to ELECTORAL, and written into intelligence with retained detail, source-snapshot and stage-10 threshold lineage. Match registration remains a separate action.",
+      "registration_blockers": [
+        "MISSING_CONDITION_RESOLVED_PARTICIPANT_OR_TEAM",
+        "MISSING_FACT_TYPE_STAGE"
+      ],
+      "linked_contest_id": null,
+      "state_history": [
+        {
+          "from": null,
+          "to": "EVIDENCE_GAP",
+          "at": "2026-09-09T06:08:56.800Z",
+          "reason": "SUBSTANTIVE_THRESHOLD_EVALUATION_PROPAGATED"
+        }
+      ]
     }
   ],
-  "last_screened_at": "2026-09-09T05:48:26.146Z",
+  "last_screened_at": "2026-09-09T06:08:57.080Z",
   "last_screen_summary": {
-    "signals_examined": 183,
-    "candidates_total": 72,
-    "candidates_added": 0,
+    "signals_examined": 186,
+    "candidates_total": 74,
+    "candidates_added": 2,
     "candidate_lineage_merges": 238,
-    "substantive_area_events_examined": 45,
+    "substantive_area_events_examined": 46,
     "threshold_state_transitions": 0,
     "registered_contests_unchanged": true
   },
-  "last_duplicate_reconciliation_at": "2026-09-09T05:48:26.228Z",
+  "last_duplicate_reconciliation_at": "2026-09-09T06:08:57.155Z",
   "last_duplicate_reconciliation": {
     "rejected": 0,
-    "active_area_family_keys": 44
+    "active_area_family_keys": 45
   }
 }

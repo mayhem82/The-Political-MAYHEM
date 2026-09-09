@@ -35,6 +35,13 @@ const eventById=new Map((events.events||[]).map(x=>[x.event_id,x]));
 const existingById=new Map(discovery.candidates.map(x=>[x.candidate_id,x]));
 const examined=new Map(jurisdictions.map(j=>[j,new Set()]));
 const snapshotIds=new Set((snapshots.snapshots||[]).map(x=>x.snapshot_id));
+const substantiveEventTypes=new Set(['AREA_EVIDENCE_INGESTED','AREA_EVIDENCE_REACTIVATED','AREA_EVIDENCE_INTELLIGENCE_ENRICHED']);
+const latestSubstantiveByArea=new Map();
+for(const event of events.events||[]){
+  if(!event.area_evidence_id||!event.competition_class||!substantiveEventTypes.has(event.event_type)) continue;
+  const prior=latestSubstantiveByArea.get(event.area_evidence_id);
+  if(!prior||Date.parse(event.captured_at||0)>=Date.parse(prior.captured_at||0)) latestSubstantiveByArea.set(event.area_evidence_id,event);
+}
 
 const cycleClassById=new Map((cycleClasses.classes||[]).map(x=>[x.cycle_class,x]));
 const cycleJurisdictionId=cycle=>cycle.jurisdiction_id||labelToJurisdiction[cycle.jurisdiction]||null;
@@ -216,7 +223,8 @@ for(const event of events.events||[]){
   const trusted=event.evidence_state==='VERIFIED'||event.semantic_review_state==='PROMOTED'||event.signal_state==='CONFIRMED_FACT';
   if(!trusted) continue;
   examined.get(event.jurisdiction_id).add(event.event_id);
-  if(['AREA_EVIDENCE_INGESTED','AREA_EVIDENCE_REACTIVATED','AREA_EVIDENCE_INTELLIGENCE_ENRICHED'].includes(event.event_type)&&event.competition_class){
+  if(substantiveEventTypes.has(event.event_type)&&event.competition_class){
+    if(latestSubstantiveByArea.get(event.area_evidence_id)?.event_id!==event.event_id) continue;
     const family=familyForClass(event.competition_class);
     const subject=compact(event.record_title||event.claim||event.record_url||'');
     if(family&&subject){addCandidate({jurisdictionId:event.jurisdiction_id,family,subject,event});substantive++;}

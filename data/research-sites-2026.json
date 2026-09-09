@@ -1,7 +1,7 @@
 {
   "system": "The Political MAYHEM",
   "year": 2026,
-  "snapshot": "POLITICAL-RESEARCH-SITES-SNAP-003",
+  "snapshot": "POLITICAL-RESEARCH-SITES-SNAP-004",
   "purpose": "Source-location registry for systematic Australian political evidence acquisition. A listed site or endpoint is a research location, not evidence by itself.",
   "rules": [
     "Prefer parliament, electoral authority, government and official party sources for primary political facts and attributed claims.",
@@ -11,7 +11,7 @@
     "Party and government claims remain attributed to their publisher unless independently verified.",
     "Observation remains distinct from inference and no projection effect occurs without registered evidence lineage.",
     "Jurisdictions remain distinct; cross-jurisdiction effects require explicit evidence rather than assumed transfer.",
-    "Current parliamentary, electoral, government and party publication surfaces change on different clocks and remain separate research targets.",
+    "Current parliamentary, electoral, government, party and public-origin publication surfaces change on different clocks and remain separate research targets.",
     "Structured publication additions may enter deterministic review, but publication does not verify the underlying claim content.",
     "Contradictions remain visible until evidence resolves them; resolution must preserve the original claims and identify the resolving evidence.",
     "Historical material may support context and reconstruction, but forward-state claims require contemporaneous forward capture.",
@@ -23,6 +23,7 @@
     {"name":"Parliament of Australia — Bills and Legislation","url":"https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation","class":"PRIMARY_PARLIAMENT","source_id":"SRC-APH-BILLS","jurisdiction":"AUS-FED","research_use":"Structured forward capture of federal bills, bill-homepage updates and current parliamentary legislative activity for competition discovery."},
     {"name":"Australian Electoral Commission — media","url":"https://www.aec.gov.au/media/","class":"PRIMARY_ELECTORAL_AUTHORITY","source_id":"SRC-AEC-MEDIA","jurisdiction":"AUS-FED","research_use":"Federal electoral administration, notices, election operations and official media releases."},
     {"name":"Prime Minister of Australia — media","url":"https://www.pm.gov.au/media","class":"PRIMARY_GOVERNMENT","source_id":"SRC-PM-MEDIA","jurisdiction":"AUS-FED","research_use":"Official Prime Minister media releases, speeches, transcripts and government political communications."},
+    {"name":"Parliament of Australia — House e-petitions","url":"https://www.aph.gov.au/e-petitions/","class":"PRIMARY_PETITION","source_id":"SRC-APH-EPETITIONS","jurisdiction":"AUS-FED","research_use":"Citizen-origin requests for action presented through the House e-petitions system, for Public Pressure evidence and subsequent response/outcome tracking."},
     {"name":"Australian Labor Party — news","url":"https://www.alp.org.au/news/all-news/","class":"PRIMARY_PARTY","source_id":"SRC-ALP-FEDERAL-NEWS","jurisdiction":"AUS-FED","research_use":"Attributed federal Labor announcements, campaign communication and party-position changes."},
     {"name":"Liberal Party of Australia — official site","url":"https://www.liberal.org.au/","class":"PRIMARY_PARTY","source_id":"SRC-LIBERAL-FEDERAL-HOME","jurisdiction":"AUS-FED","research_use":"Attributed federal Liberal announcements, campaign communication and party-position changes."},
     {"name":"Australian Greens — Federal MPs media releases","url":"https://greens.org.au/news/media-releases","class":"PRIMARY_PARTY","source_id":"SRC-GREENS-FEDERAL-RELEASE-INDEX","jurisdiction":"AUS-FED","research_use":"Attributed Greens federal media releases, policy communication and spokesperson activity."},

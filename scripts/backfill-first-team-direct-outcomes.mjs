@@ -1,5 +1,4 @@
 import fs from 'node:fs';
-import crypto from 'node:crypto';
 import {createRequire} from 'node:module';
 
 const require=createRequire(import.meta.url);
@@ -9,21 +8,25 @@ const HOUSE='data/runtime/federal-house-electoral-performance-v2.json';
 const OUTCOMES='data/runtime/first-team-outcome-ledger.json';
 const read=p=>JSON.parse(fs.readFileSync(p,'utf8'));
 const write=(p,v)=>fs.writeFileSync(p,JSON.stringify(v,null,2)+'\n');
-const sha=s=>crypto.createHash('sha256').update(String(s)).digest('hex');
 
 const house=read(HOUSE);
 const ledger=read(OUTCOMES);
 ledger.outcomes ||= [];
-const existing=new Set(ledger.outcomes.map(x=>x.outcome_id));
 
 const authoritative=(house.sources||[]).filter(x=>x.publisher==='Australian Electoral Commission'&&x.source_state==='PRIMARY_FINAL_RESULTS');
 if(authoritative.length<2) throw new Error('FIRST_TEAM_BACKFILL_REQUIRES_AEC_FINAL_RESULTS');
 if(!String(house.status||'').startsWith('COMPLETE_150_DIVISION_CONTEXT')) throw new Error('FIRST_TEAM_BACKFILL_REQUIRES_COMPLETE_150_DIVISION_CONTEXT');
 if(!Array.isArray(house.division_results)||house.division_results.length!==150) throw new Error('FIRST_TEAM_BACKFILL_REQUIRES_150_DIVISIONS');
 
-const outcomeId=`FTOUTCOME-${sha(`${house.snapshot_id}|2025 Federal Election|HOUSE`).slice(0,24)}`;
+const outcomeId='FTOUTCOME-2025-FED-HOUSE-001';
+const alreadyPresent=ledger.outcomes.some(x=>x.outcome_id===outcomeId||(
+  x.outcome_class==='ELECTION_RESULT'&&
+  x.jurisdiction==='AUS-FED'&&
+  x.decision_or_event_date==='2025-05-03'&&
+  x.source_lineage?.snapshot_id===house.snapshot_id
+));
 let added=0;
-if(!existing.has(outcomeId)){
+if(!alreadyPresent){
   const row={
     outcome_id:outcomeId,
     outcome_class:'ELECTION_RESULT',

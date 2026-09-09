@@ -1,0 +1,31 @@
+{
+  "system": "The Political MAYHEM",
+  "snapshot_id": "FIRST-TEAM-OUTCOME-LEDGER-001",
+  "generated_at": "2026-09-09T12:25:00+10:00",
+  "subject_entity_id": "AUS-PEOPLE",
+  "status": "ACTIVE_APPEND_ONLY_EMPTY",
+  "outcomes": [],
+  "allowed_outcome_classes": [
+    "ELECTION_RESULT",
+    "REFERENDUM_RESULT",
+    "MEASURABLE_PUBLIC_DRIVEN_INSTITUTIONAL_OUTCOME"
+  ],
+  "required_fields": [
+    "outcome_id",
+    "outcome_class",
+    "jurisdiction",
+    "decision_or_event_date",
+    "verified_result",
+    "population_scope",
+    "authoritative_source",
+    "source_lineage",
+    "first_team_form_effect"
+  ],
+  "integrity_rules": [
+    "Only authoritative verified results may enter as direct electoral or referendum outcomes.",
+    "Record the scope of the decision actually made; do not expand an outcome into a broader mandate by inference.",
+    "A measurable public-driven institutional outcome requires evidence both of the institutional change and of the causal contribution of public pressure.",
+    "Polling, rhetoric, media sentiment and absence of protest cannot enter this ledger as outcomes.",
+    "Corrections are append-only and retain superseded records for audit."
+  ]
+}

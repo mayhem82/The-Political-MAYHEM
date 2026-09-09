@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-INTELLIGENCE-EVENTS-001",
   "scope": "Australia — multi-jurisdiction",
-  "captured_at": "2026-09-09T00:57:49.450Z",
+  "captured_at": "2026-09-09T01:01:12.445Z",
   "mode": "FORWARD_ONLY",
   "rules": {
     "observation_distinct_from_inference": true,
@@ -28667,6 +28667,352 @@
           "record_id": "757f3831ee515a040b13",
           "title": "privacy statement.",
           "url": "https://newsroom.nt.gov.au/privacy/office-of-chief-ministers-newsroom-privacy-statement"
+        }
+      ],
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "underlying_publication_claims_not_promoted_to_verified_fact": true,
+        "source_change_parent_retained": true,
+        "deterministic_review": true
+      }
+    },
+    {
+      "event_id": "CHG-WATCH-TAS-PREMIER-NEWS-20260909005912",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-TAS",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-TAS-PREMIER-NEWS-20260909005912",
+      "captured_at": "2026-09-09T00:59:12.058Z",
+      "event_date": "2026-09-09",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-TAS-PREMIER-NEWS",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "review_policy": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-TAS-PREMIER-NEWS-20260909005639",
+        "content_hash": "c8cdc9fd2a33568755fa77750a527bc514f0ae655867b2977ac0003cd09a9156",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-TAS-PREMIER-NEWS-20260909005912",
+        "content_hash": "86c146280546ba3886706118d771be8d60afb95f5bb0b9bb0d91e772dfeb5729",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "STRUCTURED_RECORD_SET",
+        "records_added": [
+          {
+            "record_id": "2bcce0ac785aed0142b0",
+            "title": "LGH heating and cooling upgrades near completion 6 September 2026 Another important milestone has been reached for the major upgrades to the heating, ventilation and air conditioning system at the Launcesto...",
+            "url": "https://www.premier.tas.gov.au/latest-news/2026/september/lgh-heating-and-cooling-upgrades-near-completion"
+          },
+          {
+            "record_id": "4895ffb37dd4cdf684df",
+            "title": "Federal Labor must deliver more aged care places for Tasmanians 5 September 2026 The Tasmanian Government is backing calls from peak health organisations for action on aged care. Liberal Member for Lyons, Jane Howlett, sa...",
+            "url": "https://www.premier.tas.gov.au/latest-news/2026/september/federal-labor-must-deliver-more-aged-care-places-for-tasmanians"
+          },
+          {
+            "record_id": "5c3dcf15929652ba0c21",
+            "title": "New bulk-billing GP clinic locked in for Risdon Vale 6 September 2026 The Tasmanian Government has today announced Risdon Vale as the location of its newest TassieDoc clinic, significantly increasing access to ...",
+            "url": "https://www.premier.tas.gov.au/latest-news/2026/september/new-bulk-billing-gp-clinic-locked-in-for-risdon-vale"
+          },
+          {
+            "record_id": "9187be13c3c0412ea6bb",
+            "title": "Tasmania’s tourism industry full steam ahead for Spirit’s inaugural sailing 7 September 2026 Preparations are being finalised for the launch of Spirit of Tasmania&rsquo;s new vessels, with Tourism Tasmania working with industry to bu...",
+            "url": "https://www.premier.tas.gov.au/latest-news/2026/september/tasmanias-tourism-industry-full-steam-ahead-for-spirits-inaugural-sailing"
+          },
+          {
+            "record_id": "d7a1477e0a98625953b3",
+            "title": "Skip to content",
+            "url": "https://www.premier.tas.gov.au/latest-news"
+          }
+        ],
+        "records_removed": [
+          {
+            "record_id": "5503ad540fbf99bf866e",
+            "title": "2030 Strong Plan for Tasmania’s Future",
+            "url": "https://www.premier.tas.gov.au/our-plan"
+          },
+          {
+            "record_id": "5c58e4f76fec3a1ce5fe",
+            "title": "Contact your Premier",
+            "url": "https://www.premier.tas.gov.au/contact"
+          },
+          {
+            "record_id": "7984975787b4ef2c7007",
+            "title": "Budget 2026-27",
+            "url": "https://www.premier.tas.gov.au/budget-2026"
+          },
+          {
+            "record_id": "bff1215bcb385f2f222a",
+            "title": "300 days of delivering for Tasmania",
+            "url": "https://www.premier.tas.gov.au/__data/assets/pdf_file/0027/517923/2026-Third-100-Days-of-Delivery_Digital.pdf"
+          }
+        ],
+        "added_count": 5,
+        "removed_count": 4,
+        "before_count": 140,
+        "after_count": 141,
+        "delta_hash": "d85fdbd060b3f2be1876fbf491d39b682b34129c0312d5af11b239fea6fadf7a"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-NT-GOV-NEWSROOM-20260909005912",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-NT",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-NT-GOV-NEWSROOM-20260909005912",
+      "captured_at": "2026-09-09T00:59:12.058Z",
+      "event_date": "2026-09-09",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-NT-GOV-NEWSROOM",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "review_policy": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-NT-GOV-NEWSROOM-20260909005639",
+        "content_hash": "13904482ae17d57dc89cdb9e883613c802d2eee7a86e93875b94a52612bc64ee",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-NT-GOV-NEWSROOM-20260909005912",
+        "content_hash": "7087b6ada870cc1c3260f79b4cd6755a7aafe681c3cd231945dba682620e8a0e",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "STRUCTURED_RECORD_SET",
+        "records_added": [
+          {
+            "record_id": "5c1a650394b91a675891",
+            "title": "Feedback",
+            "url": "https://newsroom.nt.gov.au/feedback"
+          },
+          {
+            "record_id": "69d715cbea9855bce96b",
+            "title": "Northern Territory Government Newsroom",
+            "url": "https://newsroom.nt.gov.au/home"
+          },
+          {
+            "record_id": "757f3831ee515a040b13",
+            "title": "privacy statement.",
+            "url": "https://newsroom.nt.gov.au/privacy/office-of-chief-ministers-newsroom-privacy-statement"
+          }
+        ],
+        "records_removed": [
+          {
+            "record_id": "1cac3c4bcc674c7bcd99",
+            "title": "Feedback",
+            "url": "https://mediareleases.nt.gov.au/feedback"
+          },
+          {
+            "record_id": "1d8953240f426684a961",
+            "title": "Privacy statement.",
+            "url": "https://mediareleases.nt.gov.au/privacy/icac-newsroom-privacy-statement"
+          },
+          {
+            "record_id": "3b1545c66c4762484ec7",
+            "title": "privacy statement.",
+            "url": "https://mediareleases.nt.gov.au/privacy/newsroom-privacy-statement"
+          },
+          {
+            "record_id": "9cded320b098e78d653c",
+            "title": "Departmental and agency media releases",
+            "url": "https://mediareleases.nt.gov.au/home"
+          },
+          {
+            "record_id": "a701b839bc09de66ebd0",
+            "title": "privacy statement.",
+            "url": "https://mediareleases.nt.gov.au/privacy/icac-newsroom-privacy-statement"
+          }
+        ],
+        "added_count": 3,
+        "removed_count": 5,
+        "before_count": 8,
+        "after_count": 6,
+        "delta_hash": "e7991d6f5f5406db40299894dfa2632cb7ab9829ed75c2b2c76b1debd5c55d17"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "SIG-REV-CHG-WATCH-TAS-PREMIER-NEWS-20260909005912",
+      "parent_event_id": "CHG-WATCH-TAS-PREMIER-NEWS-20260909005912",
+      "review_id": "REV-CHG-WATCH-TAS-PREMIER-NEWS-20260909005912",
+      "jurisdiction_id": "AUS-TAS",
+      "party_id": null,
+      "actor_id": null,
+      "contest_id": null,
+      "cycle_id": null,
+      "source_snapshot_id": "AUTO-WATCH-TAS-PREMIER-NEWS-20260909005912",
+      "record_id": null,
+      "captured_at": "2026-09-09T01:01:12.445Z",
+      "event_date": "2026-09-09",
+      "checkpoint": "CONTINUOUS_FORWARD_SIGNAL_REVIEW",
+      "event_type": "SIGNAL_CREATED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-TAS-PREMIER-NEWS",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "claim": "Premier of Tasmania — latest news added 5 structured publication records to its forward-captured official index: LGH heating and cooling upgrades near completion 6 September 2026 Another important milestone has been reached for the major upgrades to the heating, ventilation and air conditioning system at the Launcesto...; Federal Labor must deliver more aged care places for Tasmanians 5 September 2026 The Tasmanian Government is backing calls from peak health organisations for action on aged care. Liberal Member for Lyons, Jane Howlett, sa...; New bulk-billing GP clinic locked in for Risdon Vale 6 September 2026 The Tasmanian Government has today announced Risdon Vale as the location of its newest TassieDoc clinic, significantly increasing access to ...; Tasmania’s tourism industry full steam ahead for Spirit’s inaugural sailing 7 September 2026 Preparations are being finalised for the launch of Spirit of Tasmania&rsquo;s new vessels, with Tourism Tasmania working with industry to bu...; Skip to content",
+      "observed_behaviour": "One or more structured publication records appeared in the monitored official source index after the preceding forward snapshot.",
+      "publication_records_added": [
+        {
+          "record_id": "2bcce0ac785aed0142b0",
+          "title": "LGH heating and cooling upgrades near completion 6 September 2026 Another important milestone has been reached for the major upgrades to the heating, ventilation and air conditioning system at the Launcesto...",
+          "url": "https://www.premier.tas.gov.au/latest-news/2026/september/lgh-heating-and-cooling-upgrades-near-completion"
+        },
+        {
+          "record_id": "4895ffb37dd4cdf684df",
+          "title": "Federal Labor must deliver more aged care places for Tasmanians 5 September 2026 The Tasmanian Government is backing calls from peak health organisations for action on aged care. Liberal Member for Lyons, Jane Howlett, sa...",
+          "url": "https://www.premier.tas.gov.au/latest-news/2026/september/federal-labor-must-deliver-more-aged-care-places-for-tasmanians"
+        },
+        {
+          "record_id": "5c3dcf15929652ba0c21",
+          "title": "New bulk-billing GP clinic locked in for Risdon Vale 6 September 2026 The Tasmanian Government has today announced Risdon Vale as the location of its newest TassieDoc clinic, significantly increasing access to ...",
+          "url": "https://www.premier.tas.gov.au/latest-news/2026/september/new-bulk-billing-gp-clinic-locked-in-for-risdon-vale"
+        },
+        {
+          "record_id": "9187be13c3c0412ea6bb",
+          "title": "Tasmania’s tourism industry full steam ahead for Spirit’s inaugural sailing 7 September 2026 Preparations are being finalised for the launch of Spirit of Tasmania&rsquo;s new vessels, with Tourism Tasmania working with industry to bu...",
+          "url": "https://www.premier.tas.gov.au/latest-news/2026/september/tasmanias-tourism-industry-full-steam-ahead-for-spirits-inaugural-sailing"
+        },
+        {
+          "record_id": "d7a1477e0a98625953b3",
+          "title": "Skip to content",
+          "url": "https://www.premier.tas.gov.au/latest-news"
+        }
+      ],
+      "publication_records_removed": [
+        {
+          "record_id": "5503ad540fbf99bf866e",
+          "title": "2030 Strong Plan for Tasmania’s Future",
+          "url": "https://www.premier.tas.gov.au/our-plan"
+        },
+        {
+          "record_id": "5c58e4f76fec3a1ce5fe",
+          "title": "Contact your Premier",
+          "url": "https://www.premier.tas.gov.au/contact"
+        },
+        {
+          "record_id": "7984975787b4ef2c7007",
+          "title": "Budget 2026-27",
+          "url": "https://www.premier.tas.gov.au/budget-2026"
+        },
+        {
+          "record_id": "bff1215bcb385f2f222a",
+          "title": "300 days of delivering for Tasmania",
+          "url": "https://www.premier.tas.gov.au/__data/assets/pdf_file/0027/517923/2026-Third-100-Days-of-Delivery_Digital.pdf"
+        }
+      ],
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "underlying_publication_claims_not_promoted_to_verified_fact": true,
+        "source_change_parent_retained": true,
+        "deterministic_review": true
+      }
+    },
+    {
+      "event_id": "SIG-REV-CHG-WATCH-NT-GOV-NEWSROOM-20260909005912",
+      "parent_event_id": "CHG-WATCH-NT-GOV-NEWSROOM-20260909005912",
+      "review_id": "REV-CHG-WATCH-NT-GOV-NEWSROOM-20260909005912",
+      "jurisdiction_id": "AUS-NT",
+      "party_id": null,
+      "actor_id": null,
+      "contest_id": null,
+      "cycle_id": null,
+      "source_snapshot_id": "AUTO-WATCH-NT-GOV-NEWSROOM-20260909005912",
+      "record_id": null,
+      "captured_at": "2026-09-09T01:01:12.445Z",
+      "event_date": "2026-09-09",
+      "checkpoint": "CONTINUOUS_FORWARD_SIGNAL_REVIEW",
+      "event_type": "SIGNAL_CREATED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-NT-GOV-NEWSROOM",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "claim": "Northern Territory Government — Newsroom added 3 structured publication records to its forward-captured official index: Feedback; Northern Territory Government Newsroom; privacy statement.",
+      "observed_behaviour": "One or more structured publication records appeared in the monitored official source index after the preceding forward snapshot.",
+      "publication_records_added": [
+        {
+          "record_id": "5c1a650394b91a675891",
+          "title": "Feedback",
+          "url": "https://newsroom.nt.gov.au/feedback"
+        },
+        {
+          "record_id": "69d715cbea9855bce96b",
+          "title": "Northern Territory Government Newsroom",
+          "url": "https://newsroom.nt.gov.au/home"
+        },
+        {
+          "record_id": "757f3831ee515a040b13",
+          "title": "privacy statement.",
+          "url": "https://newsroom.nt.gov.au/privacy/office-of-chief-ministers-newsroom-privacy-statement"
+        }
+      ],
+      "publication_records_removed": [
+        {
+          "record_id": "1cac3c4bcc674c7bcd99",
+          "title": "Feedback",
+          "url": "https://mediareleases.nt.gov.au/feedback"
+        },
+        {
+          "record_id": "1d8953240f426684a961",
+          "title": "Privacy statement.",
+          "url": "https://mediareleases.nt.gov.au/privacy/icac-newsroom-privacy-statement"
+        },
+        {
+          "record_id": "3b1545c66c4762484ec7",
+          "title": "privacy statement.",
+          "url": "https://mediareleases.nt.gov.au/privacy/newsroom-privacy-statement"
+        },
+        {
+          "record_id": "9cded320b098e78d653c",
+          "title": "Departmental and agency media releases",
+          "url": "https://mediareleases.nt.gov.au/home"
+        },
+        {
+          "record_id": "a701b839bc09de66ebd0",
+          "title": "privacy statement.",
+          "url": "https://mediareleases.nt.gov.au/privacy/icac-newsroom-privacy-statement"
         }
       ],
       "inference": null,

@@ -5,6 +5,8 @@ const AREAS='data/runtime/area-evidence-records.json';
 const read=p=>JSON.parse(fs.readFileSync(p,'utf8'));
 const write=(p,v)=>fs.writeFileSync(p,JSON.stringify(v,null,2)+'\n');
 const compact=s=>String(s??'').replace(/\s+/g,' ').trim();
+const sorted=xs=>[...(xs||[])].sort();
+const sameIds=(a,b)=>JSON.stringify(sorted(a))===JSON.stringify(sorted(b));
 
 const ledger=read(FACTS);
 const areas=read(AREAS);
@@ -14,6 +16,7 @@ const now=new Date().toISOString();
 
 const explicitVote=/(?:negatived on division|carried on division|resolved on division|division result|division was called|division was required|\bvote(?:d|s|ing)?\b|\bagreed to\b|\bnegatived\b|\bcarried\b|\bdefeated\b)/i;
 const explicitProcedure=/(?:notice of motion|disallowance|motion to disallow|standing orders|suspension of standing orders|censure motion|referr(?:al|ed) to committee|procedural motion|closure motion|guillotine|removed from the notice paper|negatived on division|carried on division|resolved on division|division result|division was called|division was required)/i;
+const positionTypes=new Set(['EXPLICIT_SUPPORT_POSITION','EXPLICIT_OPPOSITION_POSITION']);
 
 let retracted=0,reactivated=0;
 for(const fact of ledger.facts){
@@ -22,6 +25,20 @@ for(const fact of ledger.facts){
   let valid=parentActive;
   let reason=parentActive?null:'PARENT_AREA_RETRACTED';
 
+  if(valid&&positionTypes.has(fact.fact_type)){
+    const binding=fact.position_binding;
+    const boundActors=binding?.actor_ids||[];
+    const boundParties=binding?.party_ids||[];
+    const bindingValid=
+      binding?.relation==='ENTITY_PRECEDES_EXPLICIT_POSITION_LANGUAGE'&&
+      boundActors.length+boundParties.length>0&&
+      sameIds(boundActors,fact.actor_ids)&&
+      sameIds(boundParties,fact.party_ids);
+    if(!bindingValid){
+      valid=false;
+      reason='EXPLICIT_POSITION_REQUIRES_ENTITY_BOUND_LANGUAGE';
+    }
+  }
   if(valid&&fact.fact_type==='VOTE_OR_DIVISION'&&!explicitVote.test(text)){
     valid=false;
     reason='VOTE_OR_DIVISION_REQUIRES_EXPLICIT_PARLIAMENTARY_VOTE_CONTEXT';

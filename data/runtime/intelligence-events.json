@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-INTELLIGENCE-EVENTS-001",
   "scope": "Australia — multi-jurisdiction",
-  "captured_at": "2026-09-09T09:47:59.068Z",
+  "captured_at": "2026-09-09T14:37:48.860Z",
   "mode": "FORWARD_ONLY",
   "rules": {
     "observation_distinct_from_inference": true,
@@ -59403,6 +59403,574 @@
           "record_id": "eea3e6c860ab9b6be80b",
           "title": "Print this page",
           "url": "https://ntec.nt.gov.au/about-us/media-and-publications/media-releases"
+        }
+      ],
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "underlying_publication_claims_not_promoted_to_verified_fact": true,
+        "source_change_parent_retained": true,
+        "deterministic_review": true
+      }
+    },
+    {
+      "event_id": "CHG-WATCH-APH-LIVE-MINUTES-20260909143658",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-FED",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-APH-LIVE-MINUTES-20260909143658",
+      "captured_at": "2026-09-09T14:36:58.358Z",
+      "event_date": "2026-09-10",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_PARLIAMENT",
+      "source_id": "SRC-APH-LIVE-MINUTES",
+      "capture_mode": "NORMALISED_PAGE_HASH",
+      "review_policy": "REVIEW_UNSTRUCTURED_CHANGE",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-APH-LIVE-MINUTES-20260909094659",
+        "content_hash": "18a48ca18aaf0db274f0d5f7a52deb7fe96add6763f85258bf6180bb59bcabc7",
+        "capture_mode": "NORMALISED_PAGE_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-APH-LIVE-MINUTES-20260909143658",
+        "content_hash": "12ff0b1d0a7d50edc62224ed58abc6df4650c424441eb784bec318eb1f2ecd73",
+        "capture_mode": "NORMALISED_PAGE_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "TEXT_REPRESENTATION",
+        "first_difference_offset": 19649,
+        "before_length": 21409,
+        "after_length": 22558,
+        "before_excerpt": "e do now adjourn. Debate ensued. Ms Landry , <TIME>. Mr Georganas , <TIME>. Ms McKenzie , <TIME>. Ms Lawrence , <TIME>. In this section Bills and Legislation Tabled documents Chamber documents Work of the Senate House of Representatives cha",
+        "after_excerpt": "e do now adjourn. Debate ensued. Ms Landry , <TIME>. Mr Georganas , <TIME>. Ms McKenzie , <TIME>. Ms Lawrence , <TIME>. Mr Joyce , <TIME>. Mr Neumann , <TIME>. - <TIME> The House continuing to sit until 8 pm —The Speaker adjourned the House until 9 am tomorrow. - <TIME> DOCUMENT S The following document s were deemed to have been presented on 9 September 2026 (An explanatory statement has been presented with each instrument unless otherwise indicated by an asterisk) : Acts Interpretation Act 1901— Statement relating to extension of time for presentation of periodic report—National Transport Commission—Corporate Plan for 2026-30. Family Law Act 1975— Family Law Amendment (2026 Measures No. 1) Regulations 2026 [F2026L01170]. Migration Act 1958— Notice under section 501C—4 September 2026. National Health Act 1953— National Health Regulations 2026 [F2026L01168]. Social Security (International Agreements) Act 1999— Social Security (International Agreements) Amendment (Oriental Republic of Uruguay and Other Measures) Regulations 2026 [F2026L01173]. - <TIME> ATTENDANCE All Members attended (at some time during the sitting) except Mr Conaghan , * Ms Doyle , Ms C King , Mr Lim , Mr Ted O’Brien , Ms O’Neil , * Ms Swanson , Mr Wood and * Mr Young . * On leave In this section Bills and Legislation Tabled documents Chamber documents Work of the Senate House of Representatives cha",
+        "delta_hash": "84242e0d6af7d767643d0396ae2f02ba38676a39b3d0d5d71a7ce18b11f11fe1"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-NSW-CURRENT-BILLS-20260909143658",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-NSW",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-NSW-CURRENT-BILLS-20260909143658",
+      "captured_at": "2026-09-09T14:36:58.358Z",
+      "event_date": "2026-09-10",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_PARLIAMENT",
+      "source_id": "SRC-NSW-CURRENT-BILLS",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "review_policy": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-NSW-CURRENT-BILLS-20260909024114",
+        "content_hash": "3c3757a9a75d918eb5aa205b1a9fe33c2dd15a49661683b78a117e362edcfda0",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-NSW-CURRENT-BILLS-20260909143658",
+        "content_hash": "72b79d9f4eff6fd2c721094f68bda225d78ae08f71c8d41885efdeed0f29ba0f",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "STRUCTURED_RECORD_SET",
+        "records_added": [
+          {
+            "record_id": "0337bb201e62822f717a",
+            "title": "Current session bills A list of bills proposed or introduced in the current session of Parliament.",
+            "url": "https://www.parliament.nsw.gov.au/parliamentary-business/bills/current-session-bills"
+          },
+          {
+            "record_id": "2542cff0364e95f41bdd",
+            "title": "Public hearing - Unsolved murders and long-term missing persons cases in New South Wales between 1965 and 2010",
+            "url": "https://www.parliament.nsw.gov.au/parliamentary-business/committees/inquiry-details?committeeInquiryId=3148"
+          },
+          {
+            "record_id": "2b09da27105926e885fb",
+            "title": "Learn more about the legislative process",
+            "url": "https://www.parliament.nsw.gov.au/parliamentary-business/bills/legislative-process-explained"
+          },
+          {
+            "record_id": "35541eeb64be58ec76e9",
+            "title": "Back to top",
+            "url": "https://www.parliament.nsw.gov.au/parliamentary-business/bills"
+          },
+          {
+            "record_id": "3c46828591be187fb7c3",
+            "title": "Bills glossary Commonly used terms in the legislative process.",
+            "url": "https://www.parliament.nsw.gov.au/parliamentary-business/bills/bills-glossary"
+          },
+          {
+            "record_id": "3d8bbd5a81beb3402380",
+            "title": "Assented bills Bills that have passed both Houses and haves been signed by the Governor to become law.",
+            "url": "https://www.parliament.nsw.gov.au/parliamentary-business/bills/assented-bills"
+          },
+          {
+            "record_id": "68ef3b16937186041b3f",
+            "title": "All bills All bills proposed or introduced in NSW Parliament since 1856.",
+            "url": "https://www.parliament.nsw.gov.au/parliamentary-business/bills/all-bills"
+          },
+          {
+            "record_id": "6bbb1c067670897d50f6",
+            "title": "Delegated Legislation Committee The Delegated Legislation Committee scrutinises all instruments of a legislative nature that are subject to disallowance.",
+            "url": "https://www.parliament.nsw.gov.au/parliamentary-business/committees/committee-details?committeeId=252"
+          },
+          {
+            "record_id": "8c454c777fddf1090640",
+            "title": "Hansard by bill Access to bill speeches and debates made by members through their passage in the Houses of Parliament.",
+            "url": "https://www.parliament.nsw.gov.au/parliamentary-business/hansard/hansard-by-bill"
+          },
+          {
+            "record_id": "fcd536cf34af5f9bfb56",
+            "title": "Legislation Review Committee The Legislation Review Committee reviews Bills and regulations and reports on them in the Legislation Review Digest.",
+            "url": "https://www.parliament.nsw.gov.au/parliamentary-business/committees/committee-details?committeeId=245"
+          }
+        ],
+        "records_removed": [
+          {
+            "record_id": "00c83a8591b98a680667",
+            "title": "Legislative process explained Learn how bills progress through Parliament, the different types of laws and how to understand an Act",
+            "url": "https://www.parliament.nsw.gov.au/parliamentary-business/bills/legislative-process-explained"
+          },
+          {
+            "record_id": "06653687166a39a65a50",
+            "title": "Legislation Review Digests Find analysis and commentary from the Legislation Review Committee.",
+            "url": "https://www.parliament.nsw.gov.au/parliamentary-business/committees/legislation-review-digest"
+          },
+          {
+            "record_id": "0a5e85fefc835298a183",
+            "title": "Bills glossary Learn key terms used in the legislative process",
+            "url": "https://www.parliament.nsw.gov.au/parliamentary-business/bills/bills-glossary"
+          },
+          {
+            "record_id": "11faba10f15ed633b972",
+            "title": "Government 24-Hour Economy Legislation Amendment (Vibrancy Reforms) Bill 2024 Origin: Legislative Council Status: Assented on Thu 31 October 2024",
+            "url": "https://search.parliament.nsw.gov.au/s/redirect?collection=pon1~sp-bills&url=https%3A%2F%2Fwww.parliament.nsw.gov.au%2Fparliamentary-business%2Fbills%2Fbill-details%3FbillId%3D18665%26ref%3D3287&index_url=https%3A%2F%2Fponsw%2Fbill%2F18665&auth=D2LYyvFAW%2FFnhpsq7ACAwA&profile=bills-current&rank=3&query=%21FunDoesNotExist%3Apadrenull"
+          },
+          {
+            "record_id": "1cb00147849cc0665edd",
+            "title": "Government 24-Hour Economy Commissioner Bill 2023 Origin: Legislative Council Status: Assented on Tue 12 December 2023 Cognate bill",
+            "url": "https://search.parliament.nsw.gov.au/s/redirect?collection=pon1~sp-bills&url=https%3A%2F%2Fwww.parliament.nsw.gov.au%2Fparliamentary-business%2Fbills%2Fbill-details%3FbillId%3D18524%26ref%3D3287&index_url=https%3A%2F%2Fponsw%2Fbill%2F18524&auth=%2BVArZywimtv7VAvH1emusg&profile=bills-current&rank=1&query=%21FunDoesNotExist%3Apadrenull"
+          },
+          {
+            "record_id": "3a8e66be42cce26bb4c1",
+            "title": "See Bills glossary",
+            "url": "https://www.parliament.nsw.gov.au/parliamentary-business/bills/bills-glossary"
+          },
+          {
+            "record_id": "3b8e9013c8b87d9b0678",
+            "title": "Government 24-Hour Economy Legislation Amendment (Vibrancy Reforms) Bill 2023 Origin: Legislative Council Status: Assented on Tue 12 December 2023 Cognate bill",
+            "url": "https://search.parliament.nsw.gov.au/s/redirect?collection=pon1~sp-bills&url=https%3A%2F%2Fwww.parliament.nsw.gov.au%2Fparliamentary-business%2Fbills%2Fbill-details%3FbillId%3D18523%26ref%3D3287&index_url=https%3A%2F%2Fponsw%2Fbill%2F18523&auth=ApMzqGUesWdSNRkQ7ANIyA&profile=bills-current&rank=2&query=%21FunDoesNotExist%3Apadrenull"
+          },
+          {
+            "record_id": "51afcfe38c020d6d1d51",
+            "title": "Government Ageing and Disability Commissioner Amendment Bill 2023 Origin: Legislative Assembly Status: Assented on Wed 03 April 2024",
+            "url": "https://search.parliament.nsw.gov.au/s/redirect?collection=pon1~sp-bills&url=https%3A%2F%2Fwww.parliament.nsw.gov.au%2Fparliamentary-business%2Fbills%2Fbill-details%3FbillId%3D18527%26ref%3D3287&index_url=https%3A%2F%2Fponsw%2Fbill%2F18527&auth=JR4R3yb%2FOinmWLj%2BrGzb6g&profile=bills-current&rank=7&query=%21FunDoesNotExist%3Apadrenull"
+          },
+          {
+            "record_id": "6888238bee1cac74a559",
+            "title": "Private Alcohol Consumption in Public Places (Liberalisation) Bill 2024 Origin: Legislative Council Location: Legislative Council Status: Second Reading negatived on division in the LC, Wed 23 October 2024",
+            "url": "https://search.parliament.nsw.gov.au/s/redirect?collection=pon1~sp-bills&url=https%3A%2F%2Fwww.parliament.nsw.gov.au%2Fparliamentary-business%2Fbills%2Fbill-details%3FbillId%3D18608%26ref%3D3287&index_url=https%3A%2F%2Fponsw%2Fbill%2F18608&auth=cb%2B33BL%2BNnBCEurc%2FAHdag&profile=bills-current&rank=9&query=%21FunDoesNotExist%3Apadrenull"
+          },
+          {
+            "record_id": "7360a48420f91b4257a5",
+            "title": "Back to top",
+            "url": "https://www.parliament.nsw.gov.au/parliamentary-business/bills/current-session-bills"
+          },
+          {
+            "record_id": "781f2069c52033adc95c",
+            "title": "Private Alcohol Consumption in Public Places Legislation Amendment (Liberalisation) Bill 2024 Origin: Legislative Council Status: Withdrawn, Tue 04 June 2024",
+            "url": "https://search.parliament.nsw.gov.au/s/redirect?collection=pon1~sp-bills&url=https%3A%2F%2Fwww.parliament.nsw.gov.au%2Fparliamentary-business%2Fbills%2Fbill-details%3FbillId%3D18553%26ref%3D3287&index_url=https%3A%2F%2Fponsw%2Fbill%2F18553&auth=nH%2FF%2F5vsNeCzXBlEFIrKzw&profile=bills-current&rank=10&query=%21FunDoesNotExist%3Apadrenull"
+          },
+          {
+            "record_id": "8fa912ebde44831c736d",
+            "title": "Government 24-Hour Economy Legislation Amendment (Vibrancy Reforms) Bill 2025 Origin: Legislative Council Status: Assented on Mon 24 November 2025",
+            "url": "https://search.parliament.nsw.gov.au/s/redirect?collection=pon1~sp-bills&url=https%3A%2F%2Fwww.parliament.nsw.gov.au%2Fparliamentary-business%2Fbills%2Fbill-details%3FbillId%3D18813%26ref%3D3287&index_url=https%3A%2F%2Fponsw%2Fbill%2F18813&auth=oDyBZTPLUm8UNrsHJBjIyQ&profile=bills-current&rank=4&query=%21FunDoesNotExist%3Apadrenull"
+          },
+          {
+            "record_id": "9f873b946f460cddc20d",
+            "title": "Government Agriculture Commissioner Bill 2024 Origin: Legislative Council Status: Assented on Thu 31 October 2024",
+            "url": "https://search.parliament.nsw.gov.au/s/redirect?collection=pon1~sp-bills&url=https%3A%2F%2Fwww.parliament.nsw.gov.au%2Fparliamentary-business%2Fbills%2Fbill-details%3FbillId%3D18643%26ref%3D3287&index_url=https%3A%2F%2Fponsw%2Fbill%2F18643&auth=EqP2IzWtqj6MNnIFxMOR%2Fg&profile=bills-current&rank=8&query=%21FunDoesNotExist%3Apadrenull"
+          },
+          {
+            "record_id": "bc0bfac46e141ac2e13b",
+            "title": "Public hearing - Emergency Services Funding Reform",
+            "url": "https://www.parliament.nsw.gov.au/parliamentary-business/committees/inquiry-details?committeeInquiryId=3182"
+          },
+          {
+            "record_id": "dec84de9d236b60d5aee",
+            "title": "Private Abortion Law Reform Amendment (Health Care Access) Bill 2025 Origin: Legislative Council Status: Assented on Wed 11 June 2025",
+            "url": "https://search.parliament.nsw.gov.au/s/redirect?collection=pon1~sp-bills&url=https%3A%2F%2Fwww.parliament.nsw.gov.au%2Fparliamentary-business%2Fbills%2Fbill-details%3FbillId%3D18697%26ref%3D3287&index_url=https%3A%2F%2Fponsw%2Fbill%2F18697&auth=l%2BuL7dT8rojkUa9bj3kPkg&profile=bills-current&rank=5&query=%21FunDoesNotExist%3Apadrenull"
+          },
+          {
+            "record_id": "df38f587f7a19e496499",
+            "title": "Hansard by bill Read parliamentary debates related to a specific bill.",
+            "url": "https://www.parliament.nsw.gov.au/parliamentary-business/hansard/hansard-by-bill"
+          },
+          {
+            "record_id": "f0820c55216ddf57ba22",
+            "title": "Public hearing - Football in Schools program",
+            "url": "https://www.parliament.nsw.gov.au/parliamentary-business/committees/inquiry-details?committeeInquiryId=3191"
+          },
+          {
+            "record_id": "fe327f0e75b23e8d5bc4",
+            "title": "Private Abortion Law Reform Amendment (Sex Selection Prohibition) Bill 2025 Origin: Legislative Council Location: Legislative Council Status: Second Reading, Debate adjourned, Wed 24 June 2026",
+            "url": "https://search.parliament.nsw.gov.au/s/redirect?collection=pon1~sp-bills&url=https%3A%2F%2Fwww.parliament.nsw.gov.au%2Fparliamentary-business%2Fbills%2Fbill-details%3FbillId%3D18794%26ref%3D3287&index_url=https%3A%2F%2Fponsw%2Fbill%2F18794&auth=ibVfKPg09mrG0xUv0VrDGA&profile=bills-current&rank=6&query=%21FunDoesNotExist%3Apadrenull"
+          }
+        ],
+        "added_count": 10,
+        "removed_count": 18,
+        "before_count": 75,
+        "after_count": 67,
+        "delta_hash": "5f5dd1a245ee3e864b574fb5c1999c926cd9af1868a1f23eb736dd8237fbb27b"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-NSW-MINISTERIAL-RELEASES-20260909143658",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-NSW",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-NSW-MINISTERIAL-RELEASES-20260909143658",
+      "captured_at": "2026-09-09T14:36:58.358Z",
+      "event_date": "2026-09-10",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-NSW-MINISTERIAL-RELEASES",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "review_policy": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-NSW-MINISTERIAL-RELEASES-20260909094659",
+        "content_hash": "7ed27f8f9315172f7521cff825e49db32a79ddff9c3d7c8984d55fe60dc3b6b6",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-NSW-MINISTERIAL-RELEASES-20260909143658",
+        "content_hash": "9b76472a698643dd021c937162ee9472c1c42e049517234d6d0cebea9880139b",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "STRUCTURED_RECORD_SET",
+        "records_added": [
+          {
+            "record_id": "b870c729d8555dacdef1",
+            "title": "Long Jetty Urgent Care Service continues to support Central Coast community",
+            "url": "https://www.nsw.gov.au/ministerial-releases/long-jetty-urgent-care-service-continues-to-support-central-coast-community"
+          }
+        ],
+        "records_removed": [
+          {
+            "record_id": "0ae3813245809f9b148e",
+            "title": "Fitch affirms NSW Triple-A credit rating",
+            "url": "https://www.nsw.gov.au/ministerial-releases/fitch-affirms-nsw-triple-a-credit-rating-0"
+          }
+        ],
+        "added_count": 1,
+        "removed_count": 1,
+        "before_count": 88,
+        "after_count": 88,
+        "delta_hash": "f5e0f28ce91932c94137718f387ef23763ebf99e28e3725dd7cfaa20715c4f0e"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-WA-HANSARD-20260909143658",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-WA",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-WA-HANSARD-20260909143658",
+      "captured_at": "2026-09-09T14:36:58.358Z",
+      "event_date": "2026-09-10",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_PARLIAMENT",
+      "source_id": "SRC-WA-HANSARD",
+      "capture_mode": "NORMALISED_PAGE_HASH",
+      "review_policy": "REVIEW_UNSTRUCTURED_CHANGE",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-WA-HANSARD-20260908175555",
+        "content_hash": "00a33ddd56f92bad50f4b7a2dc37da8ea67cd87d15b29b950b0c95e3046fcf9d",
+        "capture_mode": "NORMALISED_PAGE_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-WA-HANSARD-20260909143658",
+        "content_hash": "c7a51747ba06bf608f150625630d055439a0c797f89089d7e95f8760f8e704ca",
+        "capture_mode": "NORMALISED_PAGE_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "TEXT_REPRESENTATION",
+        "first_difference_offset": 319,
+        "before_length": 10742,
+        "after_length": 10663,
+        "before_excerpt": "oday (<TIME>) Watch live Watch Assembly live The Legislative Council meets today (<TIME>) Watch live Watch Council live The Community Development meets today (<TIME>) Watch live Watch Committee live Search this website Advanced Search Search Parliamentary Business Bills (proposed laws) WA Acts and Regulations (current",
+        "after_excerpt": "oday (<TIME>) Watch live Watch Assembly live The Legislative Council meets today (<TIME>) Watch live Watch Council live Search this website Advanced Search Search Parliamentary Business Bills (proposed laws) WA Acts and Regulations (current",
+        "delta_hash": "3c08125b8bca5eefdb6e24e53666dcad295744bf37628d915a84aba074587741"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "SIG-REV-CHG-WATCH-NSW-CURRENT-BILLS-20260909143658",
+      "parent_event_id": "CHG-WATCH-NSW-CURRENT-BILLS-20260909143658",
+      "review_id": "REV-CHG-WATCH-NSW-CURRENT-BILLS-20260909143658",
+      "jurisdiction_id": "AUS-NSW",
+      "party_id": null,
+      "actor_id": null,
+      "contest_id": null,
+      "cycle_id": null,
+      "source_snapshot_id": "AUTO-WATCH-NSW-CURRENT-BILLS-20260909143658",
+      "record_id": null,
+      "captured_at": "2026-09-09T14:37:45.626Z",
+      "event_date": "2026-09-10",
+      "checkpoint": "CONTINUOUS_FORWARD_SIGNAL_REVIEW",
+      "event_type": "SIGNAL_CREATED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_PARLIAMENT",
+      "source_id": "SRC-NSW-CURRENT-BILLS",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "claim": "Parliament of NSW — Current session bills added 10 structured publication records to its forward-captured official index: Current session bills A list of bills proposed or introduced in the current session of Parliament.; Public hearing - Unsolved murders and long-term missing persons cases in New South Wales between 1965 and 2010; Learn more about the legislative process; Back to top; Bills glossary Commonly used terms in the legislative process.; +5 more",
+      "observed_behaviour": "One or more structured publication records appeared in the monitored official source index after the preceding forward snapshot.",
+      "publication_records_added": [
+        {
+          "record_id": "0337bb201e62822f717a",
+          "title": "Current session bills A list of bills proposed or introduced in the current session of Parliament.",
+          "url": "https://www.parliament.nsw.gov.au/parliamentary-business/bills/current-session-bills"
+        },
+        {
+          "record_id": "2542cff0364e95f41bdd",
+          "title": "Public hearing - Unsolved murders and long-term missing persons cases in New South Wales between 1965 and 2010",
+          "url": "https://www.parliament.nsw.gov.au/parliamentary-business/committees/inquiry-details?committeeInquiryId=3148"
+        },
+        {
+          "record_id": "2b09da27105926e885fb",
+          "title": "Learn more about the legislative process",
+          "url": "https://www.parliament.nsw.gov.au/parliamentary-business/bills/legislative-process-explained"
+        },
+        {
+          "record_id": "35541eeb64be58ec76e9",
+          "title": "Back to top",
+          "url": "https://www.parliament.nsw.gov.au/parliamentary-business/bills"
+        },
+        {
+          "record_id": "3c46828591be187fb7c3",
+          "title": "Bills glossary Commonly used terms in the legislative process.",
+          "url": "https://www.parliament.nsw.gov.au/parliamentary-business/bills/bills-glossary"
+        },
+        {
+          "record_id": "3d8bbd5a81beb3402380",
+          "title": "Assented bills Bills that have passed both Houses and haves been signed by the Governor to become law.",
+          "url": "https://www.parliament.nsw.gov.au/parliamentary-business/bills/assented-bills"
+        },
+        {
+          "record_id": "68ef3b16937186041b3f",
+          "title": "All bills All bills proposed or introduced in NSW Parliament since 1856.",
+          "url": "https://www.parliament.nsw.gov.au/parliamentary-business/bills/all-bills"
+        },
+        {
+          "record_id": "6bbb1c067670897d50f6",
+          "title": "Delegated Legislation Committee The Delegated Legislation Committee scrutinises all instruments of a legislative nature that are subject to disallowance.",
+          "url": "https://www.parliament.nsw.gov.au/parliamentary-business/committees/committee-details?committeeId=252"
+        },
+        {
+          "record_id": "8c454c777fddf1090640",
+          "title": "Hansard by bill Access to bill speeches and debates made by members through their passage in the Houses of Parliament.",
+          "url": "https://www.parliament.nsw.gov.au/parliamentary-business/hansard/hansard-by-bill"
+        },
+        {
+          "record_id": "fcd536cf34af5f9bfb56",
+          "title": "Legislation Review Committee The Legislation Review Committee reviews Bills and regulations and reports on them in the Legislation Review Digest.",
+          "url": "https://www.parliament.nsw.gov.au/parliamentary-business/committees/committee-details?committeeId=245"
+        }
+      ],
+      "publication_records_removed": [
+        {
+          "record_id": "00c83a8591b98a680667",
+          "title": "Legislative process explained Learn how bills progress through Parliament, the different types of laws and how to understand an Act",
+          "url": "https://www.parliament.nsw.gov.au/parliamentary-business/bills/legislative-process-explained"
+        },
+        {
+          "record_id": "06653687166a39a65a50",
+          "title": "Legislation Review Digests Find analysis and commentary from the Legislation Review Committee.",
+          "url": "https://www.parliament.nsw.gov.au/parliamentary-business/committees/legislation-review-digest"
+        },
+        {
+          "record_id": "0a5e85fefc835298a183",
+          "title": "Bills glossary Learn key terms used in the legislative process",
+          "url": "https://www.parliament.nsw.gov.au/parliamentary-business/bills/bills-glossary"
+        },
+        {
+          "record_id": "11faba10f15ed633b972",
+          "title": "Government 24-Hour Economy Legislation Amendment (Vibrancy Reforms) Bill 2024 Origin: Legislative Council Status: Assented on Thu 31 October 2024",
+          "url": "https://search.parliament.nsw.gov.au/s/redirect?collection=pon1~sp-bills&url=https%3A%2F%2Fwww.parliament.nsw.gov.au%2Fparliamentary-business%2Fbills%2Fbill-details%3FbillId%3D18665%26ref%3D3287&index_url=https%3A%2F%2Fponsw%2Fbill%2F18665&auth=D2LYyvFAW%2FFnhpsq7ACAwA&profile=bills-current&rank=3&query=%21FunDoesNotExist%3Apadrenull"
+        },
+        {
+          "record_id": "1cb00147849cc0665edd",
+          "title": "Government 24-Hour Economy Commissioner Bill 2023 Origin: Legislative Council Status: Assented on Tue 12 December 2023 Cognate bill",
+          "url": "https://search.parliament.nsw.gov.au/s/redirect?collection=pon1~sp-bills&url=https%3A%2F%2Fwww.parliament.nsw.gov.au%2Fparliamentary-business%2Fbills%2Fbill-details%3FbillId%3D18524%26ref%3D3287&index_url=https%3A%2F%2Fponsw%2Fbill%2F18524&auth=%2BVArZywimtv7VAvH1emusg&profile=bills-current&rank=1&query=%21FunDoesNotExist%3Apadrenull"
+        },
+        {
+          "record_id": "3a8e66be42cce26bb4c1",
+          "title": "See Bills glossary",
+          "url": "https://www.parliament.nsw.gov.au/parliamentary-business/bills/bills-glossary"
+        },
+        {
+          "record_id": "3b8e9013c8b87d9b0678",
+          "title": "Government 24-Hour Economy Legislation Amendment (Vibrancy Reforms) Bill 2023 Origin: Legislative Council Status: Assented on Tue 12 December 2023 Cognate bill",
+          "url": "https://search.parliament.nsw.gov.au/s/redirect?collection=pon1~sp-bills&url=https%3A%2F%2Fwww.parliament.nsw.gov.au%2Fparliamentary-business%2Fbills%2Fbill-details%3FbillId%3D18523%26ref%3D3287&index_url=https%3A%2F%2Fponsw%2Fbill%2F18523&auth=ApMzqGUesWdSNRkQ7ANIyA&profile=bills-current&rank=2&query=%21FunDoesNotExist%3Apadrenull"
+        },
+        {
+          "record_id": "51afcfe38c020d6d1d51",
+          "title": "Government Ageing and Disability Commissioner Amendment Bill 2023 Origin: Legislative Assembly Status: Assented on Wed 03 April 2024",
+          "url": "https://search.parliament.nsw.gov.au/s/redirect?collection=pon1~sp-bills&url=https%3A%2F%2Fwww.parliament.nsw.gov.au%2Fparliamentary-business%2Fbills%2Fbill-details%3FbillId%3D18527%26ref%3D3287&index_url=https%3A%2F%2Fponsw%2Fbill%2F18527&auth=JR4R3yb%2FOinmWLj%2BrGzb6g&profile=bills-current&rank=7&query=%21FunDoesNotExist%3Apadrenull"
+        },
+        {
+          "record_id": "6888238bee1cac74a559",
+          "title": "Private Alcohol Consumption in Public Places (Liberalisation) Bill 2024 Origin: Legislative Council Location: Legislative Council Status: Second Reading negatived on division in the LC, Wed 23 October 2024",
+          "url": "https://search.parliament.nsw.gov.au/s/redirect?collection=pon1~sp-bills&url=https%3A%2F%2Fwww.parliament.nsw.gov.au%2Fparliamentary-business%2Fbills%2Fbill-details%3FbillId%3D18608%26ref%3D3287&index_url=https%3A%2F%2Fponsw%2Fbill%2F18608&auth=cb%2B33BL%2BNnBCEurc%2FAHdag&profile=bills-current&rank=9&query=%21FunDoesNotExist%3Apadrenull"
+        },
+        {
+          "record_id": "7360a48420f91b4257a5",
+          "title": "Back to top",
+          "url": "https://www.parliament.nsw.gov.au/parliamentary-business/bills/current-session-bills"
+        },
+        {
+          "record_id": "781f2069c52033adc95c",
+          "title": "Private Alcohol Consumption in Public Places Legislation Amendment (Liberalisation) Bill 2024 Origin: Legislative Council Status: Withdrawn, Tue 04 June 2024",
+          "url": "https://search.parliament.nsw.gov.au/s/redirect?collection=pon1~sp-bills&url=https%3A%2F%2Fwww.parliament.nsw.gov.au%2Fparliamentary-business%2Fbills%2Fbill-details%3FbillId%3D18553%26ref%3D3287&index_url=https%3A%2F%2Fponsw%2Fbill%2F18553&auth=nH%2FF%2F5vsNeCzXBlEFIrKzw&profile=bills-current&rank=10&query=%21FunDoesNotExist%3Apadrenull"
+        },
+        {
+          "record_id": "8fa912ebde44831c736d",
+          "title": "Government 24-Hour Economy Legislation Amendment (Vibrancy Reforms) Bill 2025 Origin: Legislative Council Status: Assented on Mon 24 November 2025",
+          "url": "https://search.parliament.nsw.gov.au/s/redirect?collection=pon1~sp-bills&url=https%3A%2F%2Fwww.parliament.nsw.gov.au%2Fparliamentary-business%2Fbills%2Fbill-details%3FbillId%3D18813%26ref%3D3287&index_url=https%3A%2F%2Fponsw%2Fbill%2F18813&auth=oDyBZTPLUm8UNrsHJBjIyQ&profile=bills-current&rank=4&query=%21FunDoesNotExist%3Apadrenull"
+        },
+        {
+          "record_id": "9f873b946f460cddc20d",
+          "title": "Government Agriculture Commissioner Bill 2024 Origin: Legislative Council Status: Assented on Thu 31 October 2024",
+          "url": "https://search.parliament.nsw.gov.au/s/redirect?collection=pon1~sp-bills&url=https%3A%2F%2Fwww.parliament.nsw.gov.au%2Fparliamentary-business%2Fbills%2Fbill-details%3FbillId%3D18643%26ref%3D3287&index_url=https%3A%2F%2Fponsw%2Fbill%2F18643&auth=EqP2IzWtqj6MNnIFxMOR%2Fg&profile=bills-current&rank=8&query=%21FunDoesNotExist%3Apadrenull"
+        },
+        {
+          "record_id": "bc0bfac46e141ac2e13b",
+          "title": "Public hearing - Emergency Services Funding Reform",
+          "url": "https://www.parliament.nsw.gov.au/parliamentary-business/committees/inquiry-details?committeeInquiryId=3182"
+        },
+        {
+          "record_id": "dec84de9d236b60d5aee",
+          "title": "Private Abortion Law Reform Amendment (Health Care Access) Bill 2025 Origin: Legislative Council Status: Assented on Wed 11 June 2025",
+          "url": "https://search.parliament.nsw.gov.au/s/redirect?collection=pon1~sp-bills&url=https%3A%2F%2Fwww.parliament.nsw.gov.au%2Fparliamentary-business%2Fbills%2Fbill-details%3FbillId%3D18697%26ref%3D3287&index_url=https%3A%2F%2Fponsw%2Fbill%2F18697&auth=l%2BuL7dT8rojkUa9bj3kPkg&profile=bills-current&rank=5&query=%21FunDoesNotExist%3Apadrenull"
+        },
+        {
+          "record_id": "df38f587f7a19e496499",
+          "title": "Hansard by bill Read parliamentary debates related to a specific bill.",
+          "url": "https://www.parliament.nsw.gov.au/parliamentary-business/hansard/hansard-by-bill"
+        },
+        {
+          "record_id": "f0820c55216ddf57ba22",
+          "title": "Public hearing - Football in Schools program",
+          "url": "https://www.parliament.nsw.gov.au/parliamentary-business/committees/inquiry-details?committeeInquiryId=3191"
+        },
+        {
+          "record_id": "fe327f0e75b23e8d5bc4",
+          "title": "Private Abortion Law Reform Amendment (Sex Selection Prohibition) Bill 2025 Origin: Legislative Council Location: Legislative Council Status: Second Reading, Debate adjourned, Wed 24 June 2026",
+          "url": "https://search.parliament.nsw.gov.au/s/redirect?collection=pon1~sp-bills&url=https%3A%2F%2Fwww.parliament.nsw.gov.au%2Fparliamentary-business%2Fbills%2Fbill-details%3FbillId%3D18794%26ref%3D3287&index_url=https%3A%2F%2Fponsw%2Fbill%2F18794&auth=ibVfKPg09mrG0xUv0VrDGA&profile=bills-current&rank=6&query=%21FunDoesNotExist%3Apadrenull"
+        }
+      ],
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "underlying_publication_claims_not_promoted_to_verified_fact": true,
+        "source_change_parent_retained": true,
+        "deterministic_review": true
+      }
+    },
+    {
+      "event_id": "SIG-REV-CHG-WATCH-NSW-MINISTERIAL-RELEASES-20260909143658",
+      "parent_event_id": "CHG-WATCH-NSW-MINISTERIAL-RELEASES-20260909143658",
+      "review_id": "REV-CHG-WATCH-NSW-MINISTERIAL-RELEASES-20260909143658",
+      "jurisdiction_id": "AUS-NSW",
+      "party_id": null,
+      "actor_id": null,
+      "contest_id": null,
+      "cycle_id": null,
+      "source_snapshot_id": "AUTO-WATCH-NSW-MINISTERIAL-RELEASES-20260909143658",
+      "record_id": "b870c729d8555dacdef1",
+      "captured_at": "2026-09-09T14:37:45.626Z",
+      "event_date": "2026-09-10",
+      "checkpoint": "CONTINUOUS_FORWARD_SIGNAL_REVIEW",
+      "event_type": "SIGNAL_CREATED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-NSW-MINISTERIAL-RELEASES",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "claim": "NSW Government — Ministerial releases added 1 structured publication record to its forward-captured official index: Long Jetty Urgent Care Service continues to support Central Coast community",
+      "observed_behaviour": "One or more structured publication records appeared in the monitored official source index after the preceding forward snapshot.",
+      "publication_records_added": [
+        {
+          "record_id": "b870c729d8555dacdef1",
+          "title": "Long Jetty Urgent Care Service continues to support Central Coast community",
+          "url": "https://www.nsw.gov.au/ministerial-releases/long-jetty-urgent-care-service-continues-to-support-central-coast-community"
+        }
+      ],
+      "publication_records_removed": [
+        {
+          "record_id": "0ae3813245809f9b148e",
+          "title": "Fitch affirms NSW Triple-A credit rating",
+          "url": "https://www.nsw.gov.au/ministerial-releases/fitch-affirms-nsw-triple-a-credit-rating-0"
         }
       ],
       "inference": null,

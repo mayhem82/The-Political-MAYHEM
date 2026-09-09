@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-MAYHEM-AREA-EVIDENCE-001",
   "status": "ACTIVE",
-  "updated_at": "2026-09-09T02:58:10.516Z",
+  "updated_at": "2026-09-09T03:02:45.470Z",
   "rules": {
     "record_requires_substantive_detail_lineage": true,
     "one_detail_record_may_route_to_multiple_areas": true,
@@ -88,7 +88,7 @@
         "teams": []
       },
       "entity_resolution_state": "RESOLVED_EXPLICIT_CANONICAL_MENTIONS",
-      "entity_resolved_at": "2026-09-09T02:58:10.516Z",
+      "entity_resolved_at": "2026-09-09T03:02:45.470Z",
       "entity_resolution_history": [
         {
           "at": "2026-09-09T01:05:11.884Z",
@@ -227,7 +227,7 @@
         "teams": []
       },
       "entity_resolution_state": "RESOLVED_EXPLICIT_CANONICAL_MENTIONS",
-      "entity_resolved_at": "2026-09-09T02:58:10.516Z",
+      "entity_resolved_at": "2026-09-09T03:02:45.470Z",
       "entity_resolution_history": [
         {
           "at": "2026-09-09T01:05:11.884Z",
@@ -356,7 +356,7 @@
         "teams": []
       },
       "entity_resolution_state": "NO_CANONICAL_ENTITY_MENTION_RESOLVED",
-      "entity_resolved_at": "2026-09-09T02:58:10.516Z",
+      "entity_resolved_at": "2026-09-09T03:02:45.470Z",
       "entity_resolution_history": [
         {
           "at": "2026-09-09T01:05:11.884Z",
@@ -502,27 +502,491 @@
           "reason": "ROUTING_NOISE_CORRECTION"
         }
       ]
+    },
+    {
+      "area_evidence_id": "AREA-556f7db3ae0906d29462c101",
+      "competition_class": "LEGISLATIVE",
+      "jurisdiction_id": "AUS-FED",
+      "party_id": null,
+      "source_id": "SRC-APH-BILLS",
+      "source_class": "PRIMARY_PARLIAMENT",
+      "detail_record_id": "DETAIL-664e0c4f3e7f1f13baef88dd",
+      "detail_version_id": "DETAIL-664e0c4f3e7f1f13baef88dd-V1",
+      "source_snapshot_id": "AUTO-WATCH-APH-BILLS-20260909004900",
+      "review_id": "REV-CHG-WATCH-APH-BILLS-20260909004900",
+      "signal_event_id": "SIG-REV-CHG-WATCH-APH-BILLS-20260909004900",
+      "record_title": "Bills and Legislation &ndash; Parliament of Australia",
+      "record_url": "https://www.aph.gov.au/Parliamentary_Business/Bills_and_Legislation",
+      "evidence_captured_at": "2026-09-09T03:02:43.202Z",
+      "routed_at": "2026-09-09T03:02:45.413Z",
+      "routing_state": "SUBSTANTIVE_CONTENT_ROUTED",
+      "routing_window_chars": 3200,
+      "routing_hits": [
+        "Last Parliament Current Parliament Parliament no -All- 48 47 46 45 44 43 42 41 40 39 38 37 36 35 34 33 32 31 30 29 28 Bill",
+        "Legislation"
+      ],
+      "extracted_cues": {
+        "resistance_terms": [
+          "Amendment"
+        ],
+        "stage_terms": [
+          "introduced"
+        ],
+        "outcome_terms": [
+          "Passed"
+        ],
+        "pressure_terms": []
+      },
+      "substantive_excerpt": "Bills and Legislation &ndash; Parliament of Australia Skip to navigation Skip to content Bills and Legislation In this section Bills and Legislation Legislative Instruments Disallowance Alert 2026 Tariff proposals Bills currently referred to Senate committees Legislative Analysis Budget and Financial Legislation Tabled documents Chamber documents Hansard Senate estimates Committees Statistics Petitions A bill is a proposal for a law or a change to an existing law. A bill becomes law (an Act) when agreed to in identical form by both houses of Parliament and assented to by the Governor-General. Bills introduced to Parliament are scrutinised to make sure they meet certain standards and to consider whether they should be referred to a committee for further investigation. This can include feedback from stakeholders and the general public, and a report recommending potential improvements to the bill. Current Parliament 128 Bills before Parliament 132 Bills assented to 21 Bills not proceeding Search for bills Keyword(s) Bills title only Period Date range None Yesterday Today Current Year Last Year Current Session Last Parliament Current Parliament Parliament no -All- 48 47 46 45 44 43 42 41 40 39 38 37 36 35 34 33 32 31 30 29 28 Bill Introduced (From) Bill Introduced (To) Using the Bill Introduced date fields will allow you to search bills by the date they were introduced into Parliament. Clicking the 'Bill Introduced (From)' and 'Bill Introduced (To)' fields displays a calendar. Alternatively select date by typing into these fields in the format 'dd/mm/yyyy'. Bill Progressed (From) Bill Progressed (To) Using the Bill Progress date fields will allow you to search bills by the dates they progressed through Parliament. Clicking the 'Bill Progress (From)' and 'Bill Progress (To)' fields displays a calendar. Alternatively select date by typing into these fields in the format 'dd/mm/yyyy'. Status Current Bills Before Senate Passed both houses Before House of Representatives Previous Bills Royal Assent Not passed Type Private Member's/Senator's Government Browse bills Browse all bills by title A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Updated on Title 09 September 26 Online Safety Amendment (Strengthening Enforcement... 09 September 26 Wage Justice for Early Childhood Education and Car... 09 September 26 Social Security and Other Legislation Amendment (T... 09 ",
+      "actor_ids": [],
+      "party_ids": [],
+      "institution_ids": [],
+      "public_actor_ids": [],
+      "position_state": "UNRESOLVED",
+      "resistance_state": "RESISTANCE_LANGUAGE_PRESENT",
+      "outcome_state": "OUTCOME_LANGUAGE_PRESENT",
+      "inference": null,
+      "inference_class": "NONE",
+      "routing_history": [
+        {
+          "from": null,
+          "to": "SUBSTANTIVE_CONTENT_ROUTED",
+          "at": "2026-09-09T03:02:45.413Z",
+          "reason": "BOUNDED_SUBSTANTIVE_CONTENT_ROUTING"
+        }
+      ],
+      "integrity": {
+        "routing_does_not_register_match": true,
+        "entity_mentions_not_yet_resolved": false,
+        "positions_not_inferred_from_routing": true,
+        "entity_resolution_completed": true,
+        "entity_resolution_exact_jurisdiction_roster_only": true,
+        "actor_affiliation_not_treated_as_explicit_team_mention": true,
+        "entity_mention_does_not_establish_position": true
+      },
+      "source_party_id": null,
+      "entity_mentions": {
+        "actors": [],
+        "teams": []
+      },
+      "entity_resolution_state": "NO_CANONICAL_ENTITY_MENTION_RESOLVED",
+      "entity_resolved_at": "2026-09-09T03:02:45.470Z",
+      "entity_resolution_history": [
+        {
+          "at": "2026-09-09T03:02:45.470Z",
+          "signature": "{\"actors\":[],\"teams\":[],\"state\":\"NO_CANONICAL_ENTITY_MENTION_RESOLVED\"}",
+          "state": "NO_CANONICAL_ENTITY_MENTION_RESOLVED",
+          "actor_ids": [],
+          "party_ids": []
+        }
+      ]
+    },
+    {
+      "area_evidence_id": "AREA-2faeba5f5ddd885952f119cd",
+      "competition_class": "BUDGET",
+      "jurisdiction_id": "AUS-FED",
+      "party_id": null,
+      "source_id": "SRC-APH-BILLS",
+      "source_class": "PRIMARY_PARLIAMENT",
+      "detail_record_id": "DETAIL-664e0c4f3e7f1f13baef88dd",
+      "detail_version_id": "DETAIL-664e0c4f3e7f1f13baef88dd-V1",
+      "source_snapshot_id": "AUTO-WATCH-APH-BILLS-20260909004900",
+      "review_id": "REV-CHG-WATCH-APH-BILLS-20260909004900",
+      "signal_event_id": "SIG-REV-CHG-WATCH-APH-BILLS-20260909004900",
+      "record_title": "Bills and Legislation &ndash; Parliament of Australia",
+      "record_url": "https://www.aph.gov.au/Parliamentary_Business/Bills_and_Legislation",
+      "evidence_captured_at": "2026-09-09T03:02:43.202Z",
+      "routed_at": "2026-09-09T03:02:45.413Z",
+      "routing_state": "SUBSTANTIVE_CONTENT_ROUTED",
+      "routing_window_chars": 3200,
+      "routing_hits": [
+        "Budget"
+      ],
+      "extracted_cues": {
+        "resistance_terms": [
+          "Amendment"
+        ],
+        "stage_terms": [
+          "introduced"
+        ],
+        "outcome_terms": [
+          "Passed"
+        ],
+        "pressure_terms": []
+      },
+      "substantive_excerpt": "Bills and Legislation &ndash; Parliament of Australia Skip to navigation Skip to content Bills and Legislation In this section Bills and Legislation Legislative Instruments Disallowance Alert 2026 Tariff proposals Bills currently referred to Senate committees Legislative Analysis Budget and Financial Legislation Tabled documents Chamber documents Hansard Senate estimates Committees Statistics Petitions A bill is a proposal for a law or a change to an existing law. A bill becomes law (an Act) when agreed to in identical form by both houses of Parliament and assented to by the Governor-General. Bills introduced to Parliament are scrutinised to make sure they meet certain standards and to consider whether they should be referred to a committee for further investigation. This can include feedback from stakeholders and the general public, and a report recommending potential improvements to the bill. Current Parliament 128 Bills before Parliament 132 Bills assented to 21 Bills not proceeding Search for bills Keyword(s) Bills title only Period Date range None Yesterday Today Current Year Last Year Current Session Last Parliament Current Parliament Parliament no -All- 48 47 46 45 44 43 42 41 40 39 38 37 36 35 34 33 32 31 30 29 28 Bill Introduced (From) Bill Introduced (To) Using the Bill Introduced date fields will allow you to search bills by the date they were introduced into Parliament. Clicking the 'Bill Introduced (From)' and 'Bill Introduced (To)' fields displays a calendar. Alternatively select date by typing into these fields in the format 'dd/mm/yyyy'. Bill Progressed (From) Bill Progressed (To) Using the Bill Progress date fields will allow you to search bills by the dates they progressed through Parliament. Clicking the 'Bill Progress (From)' and 'Bill Progress (To)' fields displays a calendar. Alternatively select date by typing into these fields in the format 'dd/mm/yyyy'. Status Current Bills Before Senate Passed both houses Before House of Representatives Previous Bills Royal Assent Not passed Type Private Member's/Senator's Government Browse bills Browse all bills by title A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Updated on Title 09 September 26 Online Safety Amendment (Strengthening Enforcement... 09 September 26 Wage Justice for Early Childhood Education and Car... 09 September 26 Social Security and Other Legislation Amendment (T... 09 ",
+      "actor_ids": [],
+      "party_ids": [],
+      "institution_ids": [],
+      "public_actor_ids": [],
+      "position_state": "UNRESOLVED",
+      "resistance_state": "RESISTANCE_LANGUAGE_PRESENT",
+      "outcome_state": "OUTCOME_LANGUAGE_PRESENT",
+      "inference": null,
+      "inference_class": "NONE",
+      "routing_history": [
+        {
+          "from": null,
+          "to": "SUBSTANTIVE_CONTENT_ROUTED",
+          "at": "2026-09-09T03:02:45.413Z",
+          "reason": "BOUNDED_SUBSTANTIVE_CONTENT_ROUTING"
+        }
+      ],
+      "integrity": {
+        "routing_does_not_register_match": true,
+        "entity_mentions_not_yet_resolved": false,
+        "positions_not_inferred_from_routing": true,
+        "entity_resolution_completed": true,
+        "entity_resolution_exact_jurisdiction_roster_only": true,
+        "actor_affiliation_not_treated_as_explicit_team_mention": true,
+        "entity_mention_does_not_establish_position": true
+      },
+      "source_party_id": null,
+      "entity_mentions": {
+        "actors": [],
+        "teams": []
+      },
+      "entity_resolution_state": "NO_CANONICAL_ENTITY_MENTION_RESOLVED",
+      "entity_resolved_at": "2026-09-09T03:02:45.470Z",
+      "entity_resolution_history": [
+        {
+          "at": "2026-09-09T03:02:45.470Z",
+          "signature": "{\"actors\":[],\"teams\":[],\"state\":\"NO_CANONICAL_ENTITY_MENTION_RESOLVED\"}",
+          "state": "NO_CANONICAL_ENTITY_MENTION_RESOLVED",
+          "actor_ids": [],
+          "party_ids": []
+        }
+      ]
+    },
+    {
+      "area_evidence_id": "AREA-9741e6ad78c87bce2b248d22",
+      "competition_class": "PARLIAMENTARY_PROCEDURE",
+      "jurisdiction_id": "AUS-FED",
+      "party_id": null,
+      "source_id": "SRC-APH-BILLS",
+      "source_class": "PRIMARY_PARLIAMENT",
+      "detail_record_id": "DETAIL-664e0c4f3e7f1f13baef88dd",
+      "detail_version_id": "DETAIL-664e0c4f3e7f1f13baef88dd-V1",
+      "source_snapshot_id": "AUTO-WATCH-APH-BILLS-20260909004900",
+      "review_id": "REV-CHG-WATCH-APH-BILLS-20260909004900",
+      "signal_event_id": "SIG-REV-CHG-WATCH-APH-BILLS-20260909004900",
+      "record_title": "Bills and Legislation &ndash; Parliament of Australia",
+      "record_url": "https://www.aph.gov.au/Parliamentary_Business/Bills_and_Legislation",
+      "evidence_captured_at": "2026-09-09T03:02:43.202Z",
+      "routed_at": "2026-09-09T03:02:45.413Z",
+      "routing_state": "SUBSTANTIVE_CONTENT_ROUTED",
+      "routing_window_chars": 3200,
+      "routing_hits": [
+        "Disallowance"
+      ],
+      "extracted_cues": {
+        "resistance_terms": [
+          "Amendment"
+        ],
+        "stage_terms": [
+          "introduced"
+        ],
+        "outcome_terms": [
+          "Passed"
+        ],
+        "pressure_terms": []
+      },
+      "substantive_excerpt": "Bills and Legislation &ndash; Parliament of Australia Skip to navigation Skip to content Bills and Legislation In this section Bills and Legislation Legislative Instruments Disallowance Alert 2026 Tariff proposals Bills currently referred to Senate committees Legislative Analysis Budget and Financial Legislation Tabled documents Chamber documents Hansard Senate estimates Committees Statistics Petitions A bill is a proposal for a law or a change to an existing law. A bill becomes law (an Act) when agreed to in identical form by both houses of Parliament and assented to by the Governor-General. Bills introduced to Parliament are scrutinised to make sure they meet certain standards and to consider whether they should be referred to a committee for further investigation. This can include feedback from stakeholders and the general public, and a report recommending potential improvements to the bill. Current Parliament 128 Bills before Parliament 132 Bills assented to 21 Bills not proceeding Search for bills Keyword(s) Bills title only Period Date range None Yesterday Today Current Year Last Year Current Session Last Parliament Current Parliament Parliament no -All- 48 47 46 45 44 43 42 41 40 39 38 37 36 35 34 33 32 31 30 29 28 Bill Introduced (From) Bill Introduced (To) Using the Bill Introduced date fields will allow you to search bills by the date they were introduced into Parliament. Clicking the 'Bill Introduced (From)' and 'Bill Introduced (To)' fields displays a calendar. Alternatively select date by typing into these fields in the format 'dd/mm/yyyy'. Bill Progressed (From) Bill Progressed (To) Using the Bill Progress date fields will allow you to search bills by the dates they progressed through Parliament. Clicking the 'Bill Progress (From)' and 'Bill Progress (To)' fields displays a calendar. Alternatively select date by typing into these fields in the format 'dd/mm/yyyy'. Status Current Bills Before Senate Passed both houses Before House of Representatives Previous Bills Royal Assent Not passed Type Private Member's/Senator's Government Browse bills Browse all bills by title A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Updated on Title 09 September 26 Online Safety Amendment (Strengthening Enforcement... 09 September 26 Wage Justice for Early Childhood Education and Car... 09 September 26 Social Security and Other Legislation Amendment (T... 09 ",
+      "actor_ids": [],
+      "party_ids": [],
+      "institution_ids": [],
+      "public_actor_ids": [],
+      "position_state": "UNRESOLVED",
+      "resistance_state": "RESISTANCE_LANGUAGE_PRESENT",
+      "outcome_state": "OUTCOME_LANGUAGE_PRESENT",
+      "inference": null,
+      "inference_class": "NONE",
+      "routing_history": [
+        {
+          "from": null,
+          "to": "SUBSTANTIVE_CONTENT_ROUTED",
+          "at": "2026-09-09T03:02:45.413Z",
+          "reason": "BOUNDED_SUBSTANTIVE_CONTENT_ROUTING"
+        }
+      ],
+      "integrity": {
+        "routing_does_not_register_match": true,
+        "entity_mentions_not_yet_resolved": false,
+        "positions_not_inferred_from_routing": true,
+        "entity_resolution_completed": true,
+        "entity_resolution_exact_jurisdiction_roster_only": true,
+        "actor_affiliation_not_treated_as_explicit_team_mention": true,
+        "entity_mention_does_not_establish_position": true
+      },
+      "source_party_id": null,
+      "entity_mentions": {
+        "actors": [],
+        "teams": []
+      },
+      "entity_resolution_state": "NO_CANONICAL_ENTITY_MENTION_RESOLVED",
+      "entity_resolved_at": "2026-09-09T03:02:45.470Z",
+      "entity_resolution_history": [
+        {
+          "at": "2026-09-09T03:02:45.470Z",
+          "signature": "{\"actors\":[],\"teams\":[],\"state\":\"NO_CANONICAL_ENTITY_MENTION_RESOLVED\"}",
+          "state": "NO_CANONICAL_ENTITY_MENTION_RESOLVED",
+          "actor_ids": [],
+          "party_ids": []
+        }
+      ]
+    },
+    {
+      "area_evidence_id": "AREA-eeb83e75e7871eaca8ebe5d5",
+      "competition_class": "LEGISLATIVE",
+      "jurisdiction_id": "AUS-FED",
+      "party_id": null,
+      "source_id": "SRC-APH-BILLS",
+      "source_class": "PRIMARY_PARLIAMENT",
+      "detail_record_id": "DETAIL-28a150c4324c859c122b1349",
+      "detail_version_id": "DETAIL-28a150c4324c859c122b1349-V1",
+      "source_snapshot_id": "AUTO-WATCH-APH-BILLS-20260909004900",
+      "review_id": "REV-CHG-WATCH-APH-BILLS-20260909004900",
+      "signal_event_id": "SIG-REV-CHG-WATCH-APH-BILLS-20260909004900",
+      "record_title": "Bills and Legislation &ndash; Parliament of Australia",
+      "record_url": "https://www.aph.gov.au/Parliamentary_Business/Bills_and_Legislation",
+      "evidence_captured_at": "2026-09-09T03:02:44.918Z",
+      "routed_at": "2026-09-09T03:02:45.413Z",
+      "routing_state": "SUBSTANTIVE_CONTENT_ROUTED",
+      "routing_window_chars": 3200,
+      "routing_hits": [
+        "Last Parliament Current Parliament Parliament no -All- 48 47 46 45 44 43 42 41 40 39 38 37 36 35 34 33 32 31 30 29 28 Bill",
+        "Legislation"
+      ],
+      "extracted_cues": {
+        "resistance_terms": [
+          "Amendment"
+        ],
+        "stage_terms": [
+          "introduced"
+        ],
+        "outcome_terms": [
+          "Passed"
+        ],
+        "pressure_terms": []
+      },
+      "substantive_excerpt": "Bills and Legislation &ndash; Parliament of Australia Skip to navigation Skip to content Bills and Legislation In this section Bills and Legislation Legislative Instruments Disallowance Alert 2026 Tariff proposals Bills currently referred to Senate committees Legislative Analysis Budget and Financial Legislation Tabled documents Chamber documents Hansard Senate estimates Committees Statistics Petitions A bill is a proposal for a law or a change to an existing law. A bill becomes law (an Act) when agreed to in identical form by both houses of Parliament and assented to by the Governor-General. Bills introduced to Parliament are scrutinised to make sure they meet certain standards and to consider whether they should be referred to a committee for further investigation. This can include feedback from stakeholders and the general public, and a report recommending potential improvements to the bill. Current Parliament 128 Bills before Parliament 132 Bills assented to 21 Bills not proceeding Search for bills Keyword(s) Bills title only Period Date range None Yesterday Today Current Year Last Year Current Session Last Parliament Current Parliament Parliament no -All- 48 47 46 45 44 43 42 41 40 39 38 37 36 35 34 33 32 31 30 29 28 Bill Introduced (From) Bill Introduced (To) Using the Bill Introduced date fields will allow you to search bills by the date they were introduced into Parliament. Clicking the 'Bill Introduced (From)' and 'Bill Introduced (To)' fields displays a calendar. Alternatively select date by typing into these fields in the format 'dd/mm/yyyy'. Bill Progressed (From) Bill Progressed (To) Using the Bill Progress date fields will allow you to search bills by the dates they progressed through Parliament. Clicking the 'Bill Progress (From)' and 'Bill Progress (To)' fields displays a calendar. Alternatively select date by typing into these fields in the format 'dd/mm/yyyy'. Status Current Bills Before Senate Passed both houses Before House of Representatives Previous Bills Royal Assent Not passed Type Private Member's/Senator's Government Browse bills Browse all bills by title A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Updated on Title 09 September 26 Online Safety Amendment (Strengthening Enforcement... 09 September 26 Wage Justice for Early Childhood Education and Car... 09 September 26 Social Security and Other Legislation Amendment (T... 09 ",
+      "actor_ids": [],
+      "party_ids": [],
+      "institution_ids": [],
+      "public_actor_ids": [],
+      "position_state": "UNRESOLVED",
+      "resistance_state": "RESISTANCE_LANGUAGE_PRESENT",
+      "outcome_state": "OUTCOME_LANGUAGE_PRESENT",
+      "inference": null,
+      "inference_class": "NONE",
+      "routing_history": [
+        {
+          "from": null,
+          "to": "SUBSTANTIVE_CONTENT_ROUTED",
+          "at": "2026-09-09T03:02:45.413Z",
+          "reason": "BOUNDED_SUBSTANTIVE_CONTENT_ROUTING"
+        }
+      ],
+      "integrity": {
+        "routing_does_not_register_match": true,
+        "entity_mentions_not_yet_resolved": false,
+        "positions_not_inferred_from_routing": true,
+        "entity_resolution_completed": true,
+        "entity_resolution_exact_jurisdiction_roster_only": true,
+        "actor_affiliation_not_treated_as_explicit_team_mention": true,
+        "entity_mention_does_not_establish_position": true
+      },
+      "source_party_id": null,
+      "entity_mentions": {
+        "actors": [],
+        "teams": []
+      },
+      "entity_resolution_state": "NO_CANONICAL_ENTITY_MENTION_RESOLVED",
+      "entity_resolved_at": "2026-09-09T03:02:45.470Z",
+      "entity_resolution_history": [
+        {
+          "at": "2026-09-09T03:02:45.470Z",
+          "signature": "{\"actors\":[],\"teams\":[],\"state\":\"NO_CANONICAL_ENTITY_MENTION_RESOLVED\"}",
+          "state": "NO_CANONICAL_ENTITY_MENTION_RESOLVED",
+          "actor_ids": [],
+          "party_ids": []
+        }
+      ]
+    },
+    {
+      "area_evidence_id": "AREA-e25efa6047a8e2fec27768a0",
+      "competition_class": "BUDGET",
+      "jurisdiction_id": "AUS-FED",
+      "party_id": null,
+      "source_id": "SRC-APH-BILLS",
+      "source_class": "PRIMARY_PARLIAMENT",
+      "detail_record_id": "DETAIL-28a150c4324c859c122b1349",
+      "detail_version_id": "DETAIL-28a150c4324c859c122b1349-V1",
+      "source_snapshot_id": "AUTO-WATCH-APH-BILLS-20260909004900",
+      "review_id": "REV-CHG-WATCH-APH-BILLS-20260909004900",
+      "signal_event_id": "SIG-REV-CHG-WATCH-APH-BILLS-20260909004900",
+      "record_title": "Bills and Legislation &ndash; Parliament of Australia",
+      "record_url": "https://www.aph.gov.au/Parliamentary_Business/Bills_and_Legislation",
+      "evidence_captured_at": "2026-09-09T03:02:44.918Z",
+      "routed_at": "2026-09-09T03:02:45.413Z",
+      "routing_state": "SUBSTANTIVE_CONTENT_ROUTED",
+      "routing_window_chars": 3200,
+      "routing_hits": [
+        "Budget"
+      ],
+      "extracted_cues": {
+        "resistance_terms": [
+          "Amendment"
+        ],
+        "stage_terms": [
+          "introduced"
+        ],
+        "outcome_terms": [
+          "Passed"
+        ],
+        "pressure_terms": []
+      },
+      "substantive_excerpt": "Bills and Legislation &ndash; Parliament of Australia Skip to navigation Skip to content Bills and Legislation In this section Bills and Legislation Legislative Instruments Disallowance Alert 2026 Tariff proposals Bills currently referred to Senate committees Legislative Analysis Budget and Financial Legislation Tabled documents Chamber documents Hansard Senate estimates Committees Statistics Petitions A bill is a proposal for a law or a change to an existing law. A bill becomes law (an Act) when agreed to in identical form by both houses of Parliament and assented to by the Governor-General. Bills introduced to Parliament are scrutinised to make sure they meet certain standards and to consider whether they should be referred to a committee for further investigation. This can include feedback from stakeholders and the general public, and a report recommending potential improvements to the bill. Current Parliament 128 Bills before Parliament 132 Bills assented to 21 Bills not proceeding Search for bills Keyword(s) Bills title only Period Date range None Yesterday Today Current Year Last Year Current Session Last Parliament Current Parliament Parliament no -All- 48 47 46 45 44 43 42 41 40 39 38 37 36 35 34 33 32 31 30 29 28 Bill Introduced (From) Bill Introduced (To) Using the Bill Introduced date fields will allow you to search bills by the date they were introduced into Parliament. Clicking the 'Bill Introduced (From)' and 'Bill Introduced (To)' fields displays a calendar. Alternatively select date by typing into these fields in the format 'dd/mm/yyyy'. Bill Progressed (From) Bill Progressed (To) Using the Bill Progress date fields will allow you to search bills by the dates they progressed through Parliament. Clicking the 'Bill Progress (From)' and 'Bill Progress (To)' fields displays a calendar. Alternatively select date by typing into these fields in the format 'dd/mm/yyyy'. Status Current Bills Before Senate Passed both houses Before House of Representatives Previous Bills Royal Assent Not passed Type Private Member's/Senator's Government Browse bills Browse all bills by title A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Updated on Title 09 September 26 Online Safety Amendment (Strengthening Enforcement... 09 September 26 Wage Justice for Early Childhood Education and Car... 09 September 26 Social Security and Other Legislation Amendment (T... 09 ",
+      "actor_ids": [],
+      "party_ids": [],
+      "institution_ids": [],
+      "public_actor_ids": [],
+      "position_state": "UNRESOLVED",
+      "resistance_state": "RESISTANCE_LANGUAGE_PRESENT",
+      "outcome_state": "OUTCOME_LANGUAGE_PRESENT",
+      "inference": null,
+      "inference_class": "NONE",
+      "routing_history": [
+        {
+          "from": null,
+          "to": "SUBSTANTIVE_CONTENT_ROUTED",
+          "at": "2026-09-09T03:02:45.413Z",
+          "reason": "BOUNDED_SUBSTANTIVE_CONTENT_ROUTING"
+        }
+      ],
+      "integrity": {
+        "routing_does_not_register_match": true,
+        "entity_mentions_not_yet_resolved": false,
+        "positions_not_inferred_from_routing": true,
+        "entity_resolution_completed": true,
+        "entity_resolution_exact_jurisdiction_roster_only": true,
+        "actor_affiliation_not_treated_as_explicit_team_mention": true,
+        "entity_mention_does_not_establish_position": true
+      },
+      "source_party_id": null,
+      "entity_mentions": {
+        "actors": [],
+        "teams": []
+      },
+      "entity_resolution_state": "NO_CANONICAL_ENTITY_MENTION_RESOLVED",
+      "entity_resolved_at": "2026-09-09T03:02:45.470Z",
+      "entity_resolution_history": [
+        {
+          "at": "2026-09-09T03:02:45.470Z",
+          "signature": "{\"actors\":[],\"teams\":[],\"state\":\"NO_CANONICAL_ENTITY_MENTION_RESOLVED\"}",
+          "state": "NO_CANONICAL_ENTITY_MENTION_RESOLVED",
+          "actor_ids": [],
+          "party_ids": []
+        }
+      ]
+    },
+    {
+      "area_evidence_id": "AREA-7c36d46d365a17de46fee2eb",
+      "competition_class": "PARLIAMENTARY_PROCEDURE",
+      "jurisdiction_id": "AUS-FED",
+      "party_id": null,
+      "source_id": "SRC-APH-BILLS",
+      "source_class": "PRIMARY_PARLIAMENT",
+      "detail_record_id": "DETAIL-28a150c4324c859c122b1349",
+      "detail_version_id": "DETAIL-28a150c4324c859c122b1349-V1",
+      "source_snapshot_id": "AUTO-WATCH-APH-BILLS-20260909004900",
+      "review_id": "REV-CHG-WATCH-APH-BILLS-20260909004900",
+      "signal_event_id": "SIG-REV-CHG-WATCH-APH-BILLS-20260909004900",
+      "record_title": "Bills and Legislation &ndash; Parliament of Australia",
+      "record_url": "https://www.aph.gov.au/Parliamentary_Business/Bills_and_Legislation",
+      "evidence_captured_at": "2026-09-09T03:02:44.918Z",
+      "routed_at": "2026-09-09T03:02:45.413Z",
+      "routing_state": "SUBSTANTIVE_CONTENT_ROUTED",
+      "routing_window_chars": 3200,
+      "routing_hits": [
+        "Disallowance"
+      ],
+      "extracted_cues": {
+        "resistance_terms": [
+          "Amendment"
+        ],
+        "stage_terms": [
+          "introduced"
+        ],
+        "outcome_terms": [
+          "Passed"
+        ],
+        "pressure_terms": []
+      },
+      "substantive_excerpt": "Bills and Legislation &ndash; Parliament of Australia Skip to navigation Skip to content Bills and Legislation In this section Bills and Legislation Legislative Instruments Disallowance Alert 2026 Tariff proposals Bills currently referred to Senate committees Legislative Analysis Budget and Financial Legislation Tabled documents Chamber documents Hansard Senate estimates Committees Statistics Petitions A bill is a proposal for a law or a change to an existing law. A bill becomes law (an Act) when agreed to in identical form by both houses of Parliament and assented to by the Governor-General. Bills introduced to Parliament are scrutinised to make sure they meet certain standards and to consider whether they should be referred to a committee for further investigation. This can include feedback from stakeholders and the general public, and a report recommending potential improvements to the bill. Current Parliament 128 Bills before Parliament 132 Bills assented to 21 Bills not proceeding Search for bills Keyword(s) Bills title only Period Date range None Yesterday Today Current Year Last Year Current Session Last Parliament Current Parliament Parliament no -All- 48 47 46 45 44 43 42 41 40 39 38 37 36 35 34 33 32 31 30 29 28 Bill Introduced (From) Bill Introduced (To) Using the Bill Introduced date fields will allow you to search bills by the date they were introduced into Parliament. Clicking the 'Bill Introduced (From)' and 'Bill Introduced (To)' fields displays a calendar. Alternatively select date by typing into these fields in the format 'dd/mm/yyyy'. Bill Progressed (From) Bill Progressed (To) Using the Bill Progress date fields will allow you to search bills by the dates they progressed through Parliament. Clicking the 'Bill Progress (From)' and 'Bill Progress (To)' fields displays a calendar. Alternatively select date by typing into these fields in the format 'dd/mm/yyyy'. Status Current Bills Before Senate Passed both houses Before House of Representatives Previous Bills Royal Assent Not passed Type Private Member's/Senator's Government Browse bills Browse all bills by title A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Updated on Title 09 September 26 Online Safety Amendment (Strengthening Enforcement... 09 September 26 Wage Justice for Early Childhood Education and Car... 09 September 26 Social Security and Other Legislation Amendment (T... 09 ",
+      "actor_ids": [],
+      "party_ids": [],
+      "institution_ids": [],
+      "public_actor_ids": [],
+      "position_state": "UNRESOLVED",
+      "resistance_state": "RESISTANCE_LANGUAGE_PRESENT",
+      "outcome_state": "OUTCOME_LANGUAGE_PRESENT",
+      "inference": null,
+      "inference_class": "NONE",
+      "routing_history": [
+        {
+          "from": null,
+          "to": "SUBSTANTIVE_CONTENT_ROUTED",
+          "at": "2026-09-09T03:02:45.413Z",
+          "reason": "BOUNDED_SUBSTANTIVE_CONTENT_ROUTING"
+        }
+      ],
+      "integrity": {
+        "routing_does_not_register_match": true,
+        "entity_mentions_not_yet_resolved": false,
+        "positions_not_inferred_from_routing": true,
+        "entity_resolution_completed": true,
+        "entity_resolution_exact_jurisdiction_roster_only": true,
+        "actor_affiliation_not_treated_as_explicit_team_mention": true,
+        "entity_mention_does_not_establish_position": true
+      },
+      "source_party_id": null,
+      "entity_mentions": {
+        "actors": [],
+        "teams": []
+      },
+      "entity_resolution_state": "NO_CANONICAL_ENTITY_MENTION_RESOLVED",
+      "entity_resolved_at": "2026-09-09T03:02:45.470Z",
+      "entity_resolution_history": [
+        {
+          "at": "2026-09-09T03:02:45.470Z",
+          "signature": "{\"actors\":[],\"teams\":[],\"state\":\"NO_CANONICAL_ENTITY_MENTION_RESOLVED\"}",
+          "state": "NO_CANONICAL_ENTITY_MENTION_RESOLVED",
+          "actor_ids": [],
+          "party_ids": []
+        }
+      ]
     }
   ],
   "summary": {
-    "substantive_detail_records": 9,
-    "area_evidence_records_total": 7,
-    "active_area_evidence_records": 3,
-    "added_this_run": 0,
+    "substantive_detail_records": 11,
+    "area_evidence_records_total": 13,
+    "active_area_evidence_records": 9,
+    "added_this_run": 6,
     "retracted_this_run": 0,
     "by_area": {
       "ELECTORAL": 0,
-      "LEGISLATIVE": 3,
+      "LEGISLATIVE": 5,
       "LEADERSHIP": 0,
       "CONFIDENCE_SUPPLY": 0,
-      "BUDGET": 0,
+      "BUDGET": 2,
       "POLICY_ENACTMENT": 0,
-      "PARLIAMENTARY_PROCEDURE": 0,
+      "PARLIAMENTARY_PROCEDURE": 2,
       "PUBLIC_PRESSURE": 0
     }
   },
   "entity_resolution_summary": {
-    "active_rows_examined": 3,
+    "active_rows_examined": 9,
     "actor_mentions_resolved": 3,
     "team_mentions_resolved": 0,
     "jurisdictions_with_rosters": [

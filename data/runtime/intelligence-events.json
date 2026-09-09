@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-INTELLIGENCE-EVENTS-001",
   "scope": "Australia — multi-jurisdiction",
-  "captured_at": "2026-09-09T02:58:10.770Z",
+  "captured_at": "2026-09-09T03:02:45.747Z",
   "mode": "FORWARD_ONLY",
   "rules": {
     "observation_distinct_from_inference": true,
@@ -33223,6 +33223,1362 @@
       "opposing_entities": [],
       "registration_action": "NO_AUTOMATIC_REGISTRATION",
       "intelligence_signature": "ea3cdd1bde195e1c540f7b344f7566894014ce5f0e2ef75c08e43485282b344a",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "substantive_detail_lineage_required": true,
+        "active_contest_fact_lineage_required": true,
+        "threshold_evaluation_lineage_required": true,
+        "routing_does_not_register_match": true,
+        "threshold_eligibility_does_not_register_match": true,
+        "entity_mentions_do_not_establish_positions": true,
+        "retracted_facts_excluded": true,
+        "no_projection_effect_without_registered_target": true
+      }
+    },
+    {
+      "event_id": "CHG-WATCH-APH-LIVE-MINUTES-20260909030154",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-FED",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-APH-LIVE-MINUTES-20260909030154",
+      "captured_at": "2026-09-09T03:01:54.861Z",
+      "event_date": "2026-09-09",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_PARLIAMENT",
+      "source_id": "SRC-APH-LIVE-MINUTES",
+      "capture_mode": "NORMALISED_PAGE_HASH",
+      "review_policy": "REVIEW_UNSTRUCTURED_CHANGE",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-APH-LIVE-MINUTES-20260909025328",
+        "content_hash": "421e98c60b91ae0d096d2f22566d493e5dbe771c761c8c6fc41a1ad7c843ece0",
+        "capture_mode": "NORMALISED_PAGE_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-APH-LIVE-MINUTES-20260909030154",
+        "content_hash": "095ff252596b1785efa43bfa7d3de83ebb64367941fc2e5965601c17ffd70ee7",
+        "capture_mode": "NORMALISED_PAGE_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "TEXT_REPRESENTATION",
+        "first_difference_offset": 12685,
+        "before_length": 14902,
+        "after_length": 14924,
+        "before_excerpt": "ON CHAMBER Ms J Ryan ( Chief Government Whip ) declared that the resumption of debate on the motion to take note of the Minister’s statement on the Domestic, Family and Sexual Violence Commission yearly report to Parliament stands referred to the Federation Chamber. - <TIME> 11 Wage Justice for Early Childhood Education and Care Workers (Special Account) (Extending Support and Strengthening Safety) Bill 2026 The order of the day having been read for the resumption of the debate on the question—That the bill be now read a second time— Debate resumed. Mr Burnell , <TIME>. In this section Bills and Legislation Tabled documents Chamber documents Work of the Senate House of Represen",
+        "after_excerpt": "ON CHAMBER Ms J Ryan ( Chief Government Whip ) declared that the resumption of debate on the motion to take note of the m inister ial statement on the Domestic, Family and Sexual Violence Commission yearly report to Parliament stands referred to the Federation Chamber. - <TIME> 11 Wage Justice for Early Childhood Education and Care Workers (Special Account) (Extending Support and Strengthening Safety) Bill 2026 The order of the day having been read for the resumption of the debate on the question—That the bill be now read a second time— Debate resumed. Mr Burnell , <TIME>. Mr Burns , <TIME>. In this section Bills and Legislation Tabled documents Chamber documents Work of the Senate House of Represen",
+        "delta_hash": "b7166e40d91f77b8bcebe3e983c2bd9f8905873afe130818edf7db43f39e27bb"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-NSW-MINISTERIAL-RELEASES-20260909030154",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-NSW",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-NSW-MINISTERIAL-RELEASES-20260909030154",
+      "captured_at": "2026-09-09T03:01:54.861Z",
+      "event_date": "2026-09-09",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-NSW-MINISTERIAL-RELEASES",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "review_policy": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-NSW-MINISTERIAL-RELEASES-20260909025709",
+        "content_hash": "c543a759a25f88a87c7a724af584a2dbdc8a4a448d4bb0660cb6a958961beea0",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-NSW-MINISTERIAL-RELEASES-20260909030154",
+        "content_hash": "fb79e1145aecf30a27793564c3c4f198b3256bb1ef88ddbec7286dbc5fa2d43d",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "STRUCTURED_RECORD_SET",
+        "records_added": [
+          {
+            "record_id": "0ae2c7788622eac28253",
+            "title": "Minns Government delivers $350,000 boost for Rehab In The Home in southern Lake Macquarie",
+            "url": "https://www.nsw.gov.au/ministerial-releases/minns-government-delivers-350000-boost-for-rehab-home-southern-lake-macquarie"
+          },
+          {
+            "record_id": "16c933c27d72be1d77a8",
+            "title": "NSW Government backs councils to host major multicultural festivals",
+            "url": "https://www.nsw.gov.au/ministerial-releases/local-council-grants-multicultural-festivals"
+          },
+          {
+            "record_id": "8c5128c98bb5d029de57",
+            "title": "Design released for long-awaited Spring Farm Parkway extension",
+            "url": "https://www.nsw.gov.au/ministerial-releases/spring-farm-parkway-extension-design-released"
+          }
+        ],
+        "records_removed": [
+          {
+            "record_id": "307f88855e03fd6352e6",
+            "title": "Designs unveiled for Wyong’s new Key Health Worker Accommodation",
+            "url": "https://www.nsw.gov.au/ministerial-releases/designs-unveiled-for-wyongs-new-key-health-worker-accommodation"
+          },
+          {
+            "record_id": "4ac628e4cc49a4c73f23",
+            "title": "New Wyong Hospital Palliative Care Unit officially open",
+            "url": "https://www.nsw.gov.au/ministerial-releases/new-wyong-hospital-palliative-care-unit-officially-open"
+          },
+          {
+            "record_id": "8968225a2991a3c91655",
+            "title": "Plans for 300+ homes at Haberfield dive site revealed",
+            "url": "https://www.nsw.gov.au/ministerial-releases/plans-new-homes-haberfield"
+          }
+        ],
+        "added_count": 3,
+        "removed_count": 3,
+        "before_count": 88,
+        "after_count": 88,
+        "delta_hash": "a44660937cad93d8ae6b8f382d7c73e2f9e7c7e3a4ddc3d1ee01fbe361c5bbe3"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-TAS-PREMIER-NEWS-20260909030154",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-TAS",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-TAS-PREMIER-NEWS-20260909030154",
+      "captured_at": "2026-09-09T03:01:54.861Z",
+      "event_date": "2026-09-09",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-TAS-PREMIER-NEWS",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "review_policy": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-TAS-PREMIER-NEWS-20260909025709",
+        "content_hash": "7d083e78ce737f5365dd48d6d00e5bb987f226857aadc359974ebdb635a6abb2",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-TAS-PREMIER-NEWS-20260909030154",
+        "content_hash": "99e8faeb7079d8ca557096ad297bf472fd40f684a14221a5d21cba8bc24c6442",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "STRUCTURED_RECORD_SET",
+        "records_added": [
+          {
+            "record_id": "1380674db0bf814247ef",
+            "title": "Working together to help protect our threatened species 7 September 2026 Tasmanians are being encouraged to work together to protect our unique flora and fauna this Threatened Species Day, with a new round of cons...",
+            "url": "https://www.premier.tas.gov.au/latest-news/2026/september/working-together-to-help-protect-our-threatened-species"
+          },
+          {
+            "record_id": "26966632f7c5572725d3",
+            "title": "Paper titles cut from property transactions 7 September 2026 The Tasmanian Government has made it faster, simpler and safer to make property transactions, with paper certificates of title removed from ...",
+            "url": "https://www.premier.tas.gov.au/latest-news/2026/september/paper-titles-cut-from-property-transactions"
+          },
+          {
+            "record_id": "9187be13c3c0412ea6bb",
+            "title": "Tasmania’s tourism industry full steam ahead for Spirit’s inaugural sailing 7 September 2026 Preparations are being finalised for the launch of Spirit of Tasmania&rsquo;s new vessels, with Tourism Tasmania working with industry to bu...",
+            "url": "https://www.premier.tas.gov.au/latest-news/2026/september/tasmanias-tourism-industry-full-steam-ahead-for-spirits-inaugural-sailing"
+          },
+          {
+            "record_id": "9a575440a98cf4041fd6",
+            "title": "Clear expectations for data centres and AI infrastructure 7 September 2026 The Tasmanian Government has released its draft Expectations for Data Centres and AI Infrastructure.Minister for Business, Industry and Reso...",
+            "url": "https://www.premier.tas.gov.au/latest-news/2026/september/clear-expectations-for-data-centres-and-ai-infrastructure"
+          },
+          {
+            "record_id": "d7a1477e0a98625953b3",
+            "title": "Skip to content",
+            "url": "https://www.premier.tas.gov.au/latest-news"
+          }
+        ],
+        "records_removed": [
+          {
+            "record_id": "5503ad540fbf99bf866e",
+            "title": "2030 Strong Plan for Tasmania’s Future",
+            "url": "https://www.premier.tas.gov.au/our-plan"
+          },
+          {
+            "record_id": "5c58e4f76fec3a1ce5fe",
+            "title": "Contact your Premier",
+            "url": "https://www.premier.tas.gov.au/contact"
+          },
+          {
+            "record_id": "7984975787b4ef2c7007",
+            "title": "Budget 2026-27",
+            "url": "https://www.premier.tas.gov.au/budget-2026"
+          },
+          {
+            "record_id": "bff1215bcb385f2f222a",
+            "title": "300 days of delivering for Tasmania",
+            "url": "https://www.premier.tas.gov.au/__data/assets/pdf_file/0027/517923/2026-Third-100-Days-of-Delivery_Digital.pdf"
+          }
+        ],
+        "added_count": 5,
+        "removed_count": 4,
+        "before_count": 140,
+        "after_count": 141,
+        "delta_hash": "4c2582dad3c0d1e3c0e9fda9896e36d183c1739bbd1f72c0463c304156c419f8"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-NTEC-MEDIA-20260909030154",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-NT",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-NTEC-MEDIA-20260909030154",
+      "captured_at": "2026-09-09T03:01:54.861Z",
+      "event_date": "2026-09-09",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_ELECTORAL_AUTHORITY",
+      "source_id": "SRC-NTEC-MEDIA",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "review_policy": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-NTEC-MEDIA-20260909025709",
+        "content_hash": "d532efcb49c91a86b7f127743a6a3263afc6ecbd2be5d25d95636cba75d189c9",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-NTEC-MEDIA-20260909030154",
+        "content_hash": "f4d890d24ceee433bd09c60848b7c003c6f19c5bd08e71bac4641cda2747bc31",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "STRUCTURED_RECORD_SET",
+        "records_added": [
+          {
+            "record_id": "4297265d1134b8543a56",
+            "title": "Timetable",
+            "url": "https://ntec.nt.gov.au/elections/current-elections/2026-mulka-by-election/Mulka-timetable"
+          },
+          {
+            "record_id": "e1c8d06d96c0dff73984",
+            "title": "List of candidate",
+            "url": "https://ntec.nt.gov.au/elections/current-elections/2026-mulka-by-election/list-of-candidates"
+          }
+        ],
+        "records_removed": [
+          {
+            "record_id": "18db2e364ec543aa2917",
+            "title": "2022 (12)",
+            "url": "https://ntec.nt.gov.au/about-us/media-and-publications/media-releases/2022"
+          },
+          {
+            "record_id": "248ec28e5c87e1848da0",
+            "title": "Skip to main navigation",
+            "url": "https://ntec.nt.gov.au/about-us/media-and-publications/media-releases"
+          },
+          {
+            "record_id": "50aefaff7f3642161412",
+            "title": "2024 (45)",
+            "url": "https://ntec.nt.gov.au/about-us/media-and-publications/media-releases/2024"
+          },
+          {
+            "record_id": "6747a7644bfac85ebf91",
+            "title": "2021 (22)",
+            "url": "https://ntec.nt.gov.au/about-us/media-and-publications/media-releases/2021"
+          },
+          {
+            "record_id": "914da1d68b1c54b2691f",
+            "title": "2025 (31)",
+            "url": "https://ntec.nt.gov.au/about-us/media-and-publications/media-releases/2025"
+          },
+          {
+            "record_id": "abda225ae92bab593eb9",
+            "title": "2026 (31)",
+            "url": "https://ntec.nt.gov.au/about-us/media-and-publications/media-releases/2026"
+          },
+          {
+            "record_id": "cf2caaf0bb64d2b93508",
+            "title": "2020 (30)",
+            "url": "https://ntec.nt.gov.au/about-us/media-and-publications/media-releases/2020"
+          },
+          {
+            "record_id": "dc477118fd386d837561",
+            "title": "Skip to main content",
+            "url": "https://ntec.nt.gov.au/about-us/media-and-publications/media-releases"
+          },
+          {
+            "record_id": "dd2388691b8bf63b647b",
+            "title": "2023 (63)",
+            "url": "https://ntec.nt.gov.au/about-us/media-and-publications/media-releases/2023"
+          },
+          {
+            "record_id": "eea3e6c860ab9b6be80b",
+            "title": "Print this page",
+            "url": "https://ntec.nt.gov.au/about-us/media-and-publications/media-releases"
+          }
+        ],
+        "added_count": 2,
+        "removed_count": 10,
+        "before_count": 139,
+        "after_count": 131,
+        "delta_hash": "f0229d292ab32f218558c1908f94fc59ab5a3859e110845a9cd7834fc3adf906"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-NT-GOV-NEWSROOM-20260909030154",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-NT",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-NT-GOV-NEWSROOM-20260909030154",
+      "captured_at": "2026-09-09T03:01:54.861Z",
+      "event_date": "2026-09-09",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-NT-GOV-NEWSROOM",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "review_policy": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-NT-GOV-NEWSROOM-20260909025709",
+        "content_hash": "13904482ae17d57dc89cdb9e883613c802d2eee7a86e93875b94a52612bc64ee",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-NT-GOV-NEWSROOM-20260909030154",
+        "content_hash": "7087b6ada870cc1c3260f79b4cd6755a7aafe681c3cd231945dba682620e8a0e",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "STRUCTURED_RECORD_SET",
+        "records_added": [
+          {
+            "record_id": "5c1a650394b91a675891",
+            "title": "Feedback",
+            "url": "https://newsroom.nt.gov.au/feedback"
+          },
+          {
+            "record_id": "69d715cbea9855bce96b",
+            "title": "Northern Territory Government Newsroom",
+            "url": "https://newsroom.nt.gov.au/home"
+          },
+          {
+            "record_id": "757f3831ee515a040b13",
+            "title": "privacy statement.",
+            "url": "https://newsroom.nt.gov.au/privacy/office-of-chief-ministers-newsroom-privacy-statement"
+          }
+        ],
+        "records_removed": [
+          {
+            "record_id": "1cac3c4bcc674c7bcd99",
+            "title": "Feedback",
+            "url": "https://mediareleases.nt.gov.au/feedback"
+          },
+          {
+            "record_id": "1d8953240f426684a961",
+            "title": "Privacy statement.",
+            "url": "https://mediareleases.nt.gov.au/privacy/icac-newsroom-privacy-statement"
+          },
+          {
+            "record_id": "3b1545c66c4762484ec7",
+            "title": "privacy statement.",
+            "url": "https://mediareleases.nt.gov.au/privacy/newsroom-privacy-statement"
+          },
+          {
+            "record_id": "9cded320b098e78d653c",
+            "title": "Departmental and agency media releases",
+            "url": "https://mediareleases.nt.gov.au/home"
+          },
+          {
+            "record_id": "a701b839bc09de66ebd0",
+            "title": "privacy statement.",
+            "url": "https://mediareleases.nt.gov.au/privacy/icac-newsroom-privacy-statement"
+          }
+        ],
+        "added_count": 3,
+        "removed_count": 5,
+        "before_count": 8,
+        "after_count": 6,
+        "delta_hash": "e7991d6f5f5406db40299894dfa2632cb7ab9829ed75c2b2c76b1debd5c55d17"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "SIG-REV-CHG-WATCH-NSW-MINISTERIAL-RELEASES-20260909030154",
+      "parent_event_id": "CHG-WATCH-NSW-MINISTERIAL-RELEASES-20260909030154",
+      "review_id": "REV-CHG-WATCH-NSW-MINISTERIAL-RELEASES-20260909030154",
+      "jurisdiction_id": "AUS-NSW",
+      "party_id": null,
+      "actor_id": null,
+      "contest_id": null,
+      "cycle_id": null,
+      "source_snapshot_id": "AUTO-WATCH-NSW-MINISTERIAL-RELEASES-20260909030154",
+      "record_id": null,
+      "captured_at": "2026-09-09T03:02:38.159Z",
+      "event_date": "2026-09-09",
+      "checkpoint": "CONTINUOUS_FORWARD_SIGNAL_REVIEW",
+      "event_type": "SIGNAL_CREATED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-NSW-MINISTERIAL-RELEASES",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "claim": "NSW Government — Ministerial releases added 3 structured publication records to its forward-captured official index: Minns Government delivers $350,000 boost for Rehab In The Home in southern Lake Macquarie; NSW Government backs councils to host major multicultural festivals; Design released for long-awaited Spring Farm Parkway extension",
+      "observed_behaviour": "One or more structured publication records appeared in the monitored official source index after the preceding forward snapshot.",
+      "publication_records_added": [
+        {
+          "record_id": "0ae2c7788622eac28253",
+          "title": "Minns Government delivers $350,000 boost for Rehab In The Home in southern Lake Macquarie",
+          "url": "https://www.nsw.gov.au/ministerial-releases/minns-government-delivers-350000-boost-for-rehab-home-southern-lake-macquarie"
+        },
+        {
+          "record_id": "16c933c27d72be1d77a8",
+          "title": "NSW Government backs councils to host major multicultural festivals",
+          "url": "https://www.nsw.gov.au/ministerial-releases/local-council-grants-multicultural-festivals"
+        },
+        {
+          "record_id": "8c5128c98bb5d029de57",
+          "title": "Design released for long-awaited Spring Farm Parkway extension",
+          "url": "https://www.nsw.gov.au/ministerial-releases/spring-farm-parkway-extension-design-released"
+        }
+      ],
+      "publication_records_removed": [
+        {
+          "record_id": "307f88855e03fd6352e6",
+          "title": "Designs unveiled for Wyong’s new Key Health Worker Accommodation",
+          "url": "https://www.nsw.gov.au/ministerial-releases/designs-unveiled-for-wyongs-new-key-health-worker-accommodation"
+        },
+        {
+          "record_id": "4ac628e4cc49a4c73f23",
+          "title": "New Wyong Hospital Palliative Care Unit officially open",
+          "url": "https://www.nsw.gov.au/ministerial-releases/new-wyong-hospital-palliative-care-unit-officially-open"
+        },
+        {
+          "record_id": "8968225a2991a3c91655",
+          "title": "Plans for 300+ homes at Haberfield dive site revealed",
+          "url": "https://www.nsw.gov.au/ministerial-releases/plans-new-homes-haberfield"
+        }
+      ],
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "underlying_publication_claims_not_promoted_to_verified_fact": true,
+        "source_change_parent_retained": true,
+        "deterministic_review": true
+      }
+    },
+    {
+      "event_id": "SIG-REV-CHG-WATCH-TAS-PREMIER-NEWS-20260909030154",
+      "parent_event_id": "CHG-WATCH-TAS-PREMIER-NEWS-20260909030154",
+      "review_id": "REV-CHG-WATCH-TAS-PREMIER-NEWS-20260909030154",
+      "jurisdiction_id": "AUS-TAS",
+      "party_id": null,
+      "actor_id": null,
+      "contest_id": null,
+      "cycle_id": null,
+      "source_snapshot_id": "AUTO-WATCH-TAS-PREMIER-NEWS-20260909030154",
+      "record_id": null,
+      "captured_at": "2026-09-09T03:02:38.159Z",
+      "event_date": "2026-09-09",
+      "checkpoint": "CONTINUOUS_FORWARD_SIGNAL_REVIEW",
+      "event_type": "SIGNAL_CREATED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-TAS-PREMIER-NEWS",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "claim": "Premier of Tasmania — latest news added 5 structured publication records to its forward-captured official index: Working together to help protect our threatened species 7 September 2026 Tasmanians are being encouraged to work together to protect our unique flora and fauna this Threatened Species Day, with a new round of cons...; Paper titles cut from property transactions 7 September 2026 The Tasmanian Government has made it faster, simpler and safer to make property transactions, with paper certificates of title removed from ...; Tasmania’s tourism industry full steam ahead for Spirit’s inaugural sailing 7 September 2026 Preparations are being finalised for the launch of Spirit of Tasmania&rsquo;s new vessels, with Tourism Tasmania working with industry to bu...; Clear expectations for data centres and AI infrastructure 7 September 2026 The Tasmanian Government has released its draft Expectations for Data Centres and AI Infrastructure.Minister for Business, Industry and Reso...; Skip to content",
+      "observed_behaviour": "One or more structured publication records appeared in the monitored official source index after the preceding forward snapshot.",
+      "publication_records_added": [
+        {
+          "record_id": "1380674db0bf814247ef",
+          "title": "Working together to help protect our threatened species 7 September 2026 Tasmanians are being encouraged to work together to protect our unique flora and fauna this Threatened Species Day, with a new round of cons...",
+          "url": "https://www.premier.tas.gov.au/latest-news/2026/september/working-together-to-help-protect-our-threatened-species"
+        },
+        {
+          "record_id": "26966632f7c5572725d3",
+          "title": "Paper titles cut from property transactions 7 September 2026 The Tasmanian Government has made it faster, simpler and safer to make property transactions, with paper certificates of title removed from ...",
+          "url": "https://www.premier.tas.gov.au/latest-news/2026/september/paper-titles-cut-from-property-transactions"
+        },
+        {
+          "record_id": "9187be13c3c0412ea6bb",
+          "title": "Tasmania’s tourism industry full steam ahead for Spirit’s inaugural sailing 7 September 2026 Preparations are being finalised for the launch of Spirit of Tasmania&rsquo;s new vessels, with Tourism Tasmania working with industry to bu...",
+          "url": "https://www.premier.tas.gov.au/latest-news/2026/september/tasmanias-tourism-industry-full-steam-ahead-for-spirits-inaugural-sailing"
+        },
+        {
+          "record_id": "9a575440a98cf4041fd6",
+          "title": "Clear expectations for data centres and AI infrastructure 7 September 2026 The Tasmanian Government has released its draft Expectations for Data Centres and AI Infrastructure.Minister for Business, Industry and Reso...",
+          "url": "https://www.premier.tas.gov.au/latest-news/2026/september/clear-expectations-for-data-centres-and-ai-infrastructure"
+        },
+        {
+          "record_id": "d7a1477e0a98625953b3",
+          "title": "Skip to content",
+          "url": "https://www.premier.tas.gov.au/latest-news"
+        }
+      ],
+      "publication_records_removed": [
+        {
+          "record_id": "5503ad540fbf99bf866e",
+          "title": "2030 Strong Plan for Tasmania’s Future",
+          "url": "https://www.premier.tas.gov.au/our-plan"
+        },
+        {
+          "record_id": "5c58e4f76fec3a1ce5fe",
+          "title": "Contact your Premier",
+          "url": "https://www.premier.tas.gov.au/contact"
+        },
+        {
+          "record_id": "7984975787b4ef2c7007",
+          "title": "Budget 2026-27",
+          "url": "https://www.premier.tas.gov.au/budget-2026"
+        },
+        {
+          "record_id": "bff1215bcb385f2f222a",
+          "title": "300 days of delivering for Tasmania",
+          "url": "https://www.premier.tas.gov.au/__data/assets/pdf_file/0027/517923/2026-Third-100-Days-of-Delivery_Digital.pdf"
+        }
+      ],
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "underlying_publication_claims_not_promoted_to_verified_fact": true,
+        "source_change_parent_retained": true,
+        "deterministic_review": true
+      }
+    },
+    {
+      "event_id": "SIG-REV-CHG-WATCH-NTEC-MEDIA-20260909030154",
+      "parent_event_id": "CHG-WATCH-NTEC-MEDIA-20260909030154",
+      "review_id": "REV-CHG-WATCH-NTEC-MEDIA-20260909030154",
+      "jurisdiction_id": "AUS-NT",
+      "party_id": null,
+      "actor_id": null,
+      "contest_id": null,
+      "cycle_id": null,
+      "source_snapshot_id": "AUTO-WATCH-NTEC-MEDIA-20260909030154",
+      "record_id": null,
+      "captured_at": "2026-09-09T03:02:38.159Z",
+      "event_date": "2026-09-09",
+      "checkpoint": "CONTINUOUS_FORWARD_SIGNAL_REVIEW",
+      "event_type": "SIGNAL_CREATED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_ELECTORAL_AUTHORITY",
+      "source_id": "SRC-NTEC-MEDIA",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "claim": "Northern Territory Electoral Commission — media releases added 2 structured publication records to its forward-captured official index: Timetable; List of candidate",
+      "observed_behaviour": "One or more structured publication records appeared in the monitored official source index after the preceding forward snapshot.",
+      "publication_records_added": [
+        {
+          "record_id": "4297265d1134b8543a56",
+          "title": "Timetable",
+          "url": "https://ntec.nt.gov.au/elections/current-elections/2026-mulka-by-election/Mulka-timetable"
+        },
+        {
+          "record_id": "e1c8d06d96c0dff73984",
+          "title": "List of candidate",
+          "url": "https://ntec.nt.gov.au/elections/current-elections/2026-mulka-by-election/list-of-candidates"
+        }
+      ],
+      "publication_records_removed": [
+        {
+          "record_id": "18db2e364ec543aa2917",
+          "title": "2022 (12)",
+          "url": "https://ntec.nt.gov.au/about-us/media-and-publications/media-releases/2022"
+        },
+        {
+          "record_id": "248ec28e5c87e1848da0",
+          "title": "Skip to main navigation",
+          "url": "https://ntec.nt.gov.au/about-us/media-and-publications/media-releases"
+        },
+        {
+          "record_id": "50aefaff7f3642161412",
+          "title": "2024 (45)",
+          "url": "https://ntec.nt.gov.au/about-us/media-and-publications/media-releases/2024"
+        },
+        {
+          "record_id": "6747a7644bfac85ebf91",
+          "title": "2021 (22)",
+          "url": "https://ntec.nt.gov.au/about-us/media-and-publications/media-releases/2021"
+        },
+        {
+          "record_id": "914da1d68b1c54b2691f",
+          "title": "2025 (31)",
+          "url": "https://ntec.nt.gov.au/about-us/media-and-publications/media-releases/2025"
+        },
+        {
+          "record_id": "abda225ae92bab593eb9",
+          "title": "2026 (31)",
+          "url": "https://ntec.nt.gov.au/about-us/media-and-publications/media-releases/2026"
+        },
+        {
+          "record_id": "cf2caaf0bb64d2b93508",
+          "title": "2020 (30)",
+          "url": "https://ntec.nt.gov.au/about-us/media-and-publications/media-releases/2020"
+        },
+        {
+          "record_id": "dc477118fd386d837561",
+          "title": "Skip to main content",
+          "url": "https://ntec.nt.gov.au/about-us/media-and-publications/media-releases"
+        },
+        {
+          "record_id": "dd2388691b8bf63b647b",
+          "title": "2023 (63)",
+          "url": "https://ntec.nt.gov.au/about-us/media-and-publications/media-releases/2023"
+        },
+        {
+          "record_id": "eea3e6c860ab9b6be80b",
+          "title": "Print this page",
+          "url": "https://ntec.nt.gov.au/about-us/media-and-publications/media-releases"
+        }
+      ],
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "underlying_publication_claims_not_promoted_to_verified_fact": true,
+        "source_change_parent_retained": true,
+        "deterministic_review": true
+      }
+    },
+    {
+      "event_id": "SIG-REV-CHG-WATCH-NT-GOV-NEWSROOM-20260909030154",
+      "parent_event_id": "CHG-WATCH-NT-GOV-NEWSROOM-20260909030154",
+      "review_id": "REV-CHG-WATCH-NT-GOV-NEWSROOM-20260909030154",
+      "jurisdiction_id": "AUS-NT",
+      "party_id": null,
+      "actor_id": null,
+      "contest_id": null,
+      "cycle_id": null,
+      "source_snapshot_id": "AUTO-WATCH-NT-GOV-NEWSROOM-20260909030154",
+      "record_id": null,
+      "captured_at": "2026-09-09T03:02:38.159Z",
+      "event_date": "2026-09-09",
+      "checkpoint": "CONTINUOUS_FORWARD_SIGNAL_REVIEW",
+      "event_type": "SIGNAL_CREATED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-NT-GOV-NEWSROOM",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "claim": "Northern Territory Government — Newsroom added 3 structured publication records to its forward-captured official index: Feedback; Northern Territory Government Newsroom; privacy statement.",
+      "observed_behaviour": "One or more structured publication records appeared in the monitored official source index after the preceding forward snapshot.",
+      "publication_records_added": [
+        {
+          "record_id": "5c1a650394b91a675891",
+          "title": "Feedback",
+          "url": "https://newsroom.nt.gov.au/feedback"
+        },
+        {
+          "record_id": "69d715cbea9855bce96b",
+          "title": "Northern Territory Government Newsroom",
+          "url": "https://newsroom.nt.gov.au/home"
+        },
+        {
+          "record_id": "757f3831ee515a040b13",
+          "title": "privacy statement.",
+          "url": "https://newsroom.nt.gov.au/privacy/office-of-chief-ministers-newsroom-privacy-statement"
+        }
+      ],
+      "publication_records_removed": [
+        {
+          "record_id": "1cac3c4bcc674c7bcd99",
+          "title": "Feedback",
+          "url": "https://mediareleases.nt.gov.au/feedback"
+        },
+        {
+          "record_id": "1d8953240f426684a961",
+          "title": "Privacy statement.",
+          "url": "https://mediareleases.nt.gov.au/privacy/icac-newsroom-privacy-statement"
+        },
+        {
+          "record_id": "3b1545c66c4762484ec7",
+          "title": "privacy statement.",
+          "url": "https://mediareleases.nt.gov.au/privacy/newsroom-privacy-statement"
+        },
+        {
+          "record_id": "9cded320b098e78d653c",
+          "title": "Departmental and agency media releases",
+          "url": "https://mediareleases.nt.gov.au/home"
+        },
+        {
+          "record_id": "a701b839bc09de66ebd0",
+          "title": "privacy statement.",
+          "url": "https://mediareleases.nt.gov.au/privacy/icac-newsroom-privacy-statement"
+        }
+      ],
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "underlying_publication_claims_not_promoted_to_verified_fact": true,
+        "source_change_parent_retained": true,
+        "deterministic_review": true
+      }
+    },
+    {
+      "event_id": "INTEL-AREA-556f7db3ae0906d29462c101",
+      "parent_event_id": "SIG-REV-CHG-WATCH-APH-BILLS-20260909004900",
+      "jurisdiction_id": "AUS-FED",
+      "party_id": null,
+      "actor_id": null,
+      "party_ids": [],
+      "actor_ids": [],
+      "contest_id": null,
+      "cycle_id": null,
+      "competition_class": "LEGISLATIVE",
+      "area_evidence_id": "AREA-556f7db3ae0906d29462c101",
+      "detail_record_id": "DETAIL-664e0c4f3e7f1f13baef88dd",
+      "detail_version_id": "DETAIL-664e0c4f3e7f1f13baef88dd-V1",
+      "source_snapshot_id": "AUTO-WATCH-APH-BILLS-20260909004900",
+      "record_url": "https://www.aph.gov.au/Parliamentary_Business/Bills_and_Legislation",
+      "captured_at": "2026-09-09T03:02:45.747Z",
+      "evidence_captured_at": "2026-09-09T03:02:43.202Z",
+      "event_date": "2026-09-09",
+      "checkpoint": "SUBSTANTIVE_INFORMATION_INGESTION",
+      "event_type": "AREA_EVIDENCE_INGESTED",
+      "area_routing_state": "SUBSTANTIVE_CONTENT_ROUTED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_PARLIAMENT",
+      "source_id": "SRC-APH-BILLS",
+      "claim": "Ingested substantive legislative evidence from Bills and Legislation &ndash; Parliament of Australia. Captured content includes stage: introduced; resistance language: Amendment; outcome language: Passed. Registration threshold state: evidence gap. Missing requirements: missing fact type material resistance, missing fact type explicit support position, missing fact type explicit opposition position, missing condition distinct supporting and opposing sides.",
+      "observed_behaviour": "Bills and Legislation &ndash; Parliament of Australia Skip to navigation Skip to content Bills and Legislation In this section Bills and Legislation Legislative Instruments Disallowance Alert 2026 Tariff proposals Bills currently referred to Senate committees Legislative Analysis Budget and Financial Legislation Tabled documents Chamber documents Hansard Senate estimates Committees Statistics Petitions A bill is a proposal for a law or a change to an existing law. A bill becomes law (an Act) when agreed to in identical form by both houses of Parliament and assented to by the Governor-General. Bills introduced to Parliament are scrutinised to make sure they meet certain standards and to consider whether they should be referred to a committee for further investigation. This can include feedback from stakeholders and the general public, and a report recommending potential improvements to the bill. Current Parliament 128 Bills before Parliament 132 Bills assented to 21 Bills not proceeding Search for bills Keyword(s) Bills title only Period Date range None Yesterday Today Current Year Last Year Current Session Last Parliament Current Parliament Parliament no -All- 48 47 46 45 44 43 42 41 40 39 38 37 36 35 34 33 32 31 30 29 28 Bill Introduced (From) Bill Introduced (To) Using the Bill Introduced date fields will allow you to search bills by the date they were introduced into Parliament. Clicking the 'Bill Introduced (From)' and 'Bill Introduced (To)' fields displays a calendar. Alternatively select date by typing into these fields in the format 'dd/mm/yyyy'. Bill Progressed (From) Bill Progressed (To) Using the Bill Progress date fields will allow you to search bills by the dates they progressed through Parliament. Clicking the 'Bill Progress (From)' and 'Bill Progress (To)'",
+      "extracted_cues": {
+        "resistance_terms": [
+          "Amendment"
+        ],
+        "stage_terms": [
+          "introduced"
+        ],
+        "outcome_terms": [
+          "Passed"
+        ],
+        "pressure_terms": []
+      },
+      "entity_mentions": {
+        "actors": [],
+        "teams": []
+      },
+      "position_state": "UNRESOLVED",
+      "resistance_state": "RESISTANCE_LANGUAGE_PRESENT",
+      "outcome_state": "OUTCOME_LANGUAGE_PRESENT",
+      "contest_fact_ids": [
+        "FACT-06fcd3578896efd01025af18",
+        "FACT-10cb8cb97d156f198b9c8a40",
+        "FACT-19e1d399583017bc7cfdd61f",
+        "FACT-29a39352535d2bd7e3724f36",
+        "FACT-30e2fba76de837e0ad43831b",
+        "FACT-3d6e90f6ac51ae659529a5b4",
+        "FACT-436349c31eebbb669e18fe42",
+        "FACT-8b233c9a81ea98a6ddc06be5",
+        "FACT-902defc0c4aead60338a5bc7",
+        "FACT-9c8bf9ed0d26b9cdc0dd5bf5",
+        "FACT-a26c5baceccf96a291c61bc2",
+        "FACT-a9594164b7167edbc8d16ae5",
+        "FACT-c0edc0a99a9ae843df492011",
+        "FACT-c712c2e68b0e08b0288b5309",
+        "FACT-d67f5678c8e431a90fe6d227",
+        "FACT-e15bf7c2ca18704b3188a9ca",
+        "FACT-e35aa553d7cb896e1a40078f",
+        "FACT-e3ed0a68879d0e4bae98e046",
+        "FACT-e958e76504f8b041d5bae023",
+        "FACT-fa97c75da8e48efc10f96a35",
+        "FACT-fb528e7191ce01b84699df01"
+      ],
+      "contest_fact_types": [
+        "CONTEST_OBJECT",
+        "POSSIBLE_OUTCOME_STATE",
+        "PROCEDURAL_ACTION",
+        "STAGE",
+        "VOTE_OR_DIVISION"
+      ],
+      "threshold_evaluation_id": "THRESH-c8c9460b180ece8bd3ac43e1",
+      "threshold_state": "EVIDENCE_GAP",
+      "threshold_blockers": [
+        "MISSING_CONDITION_DISTINCT_SUPPORTING_AND_OPPOSING_SIDES",
+        "MISSING_FACT_TYPE_EXPLICIT_OPPOSITION_POSITION",
+        "MISSING_FACT_TYPE_EXPLICIT_SUPPORT_POSITION",
+        "MISSING_FACT_TYPE_MATERIAL_RESISTANCE"
+      ],
+      "supporting_entities": [],
+      "opposing_entities": [],
+      "registration_action": "NO_AUTOMATIC_REGISTRATION",
+      "intelligence_signature": "2c228d3ef94c7fa8d30e5170afb466ef3d657c630bef17e539b59045886d4899",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "substantive_detail_lineage_required": true,
+        "active_contest_fact_lineage_required": true,
+        "threshold_evaluation_lineage_required": true,
+        "routing_does_not_register_match": true,
+        "threshold_eligibility_does_not_register_match": true,
+        "entity_mentions_do_not_establish_positions": true,
+        "retracted_facts_excluded": true,
+        "no_projection_effect_without_registered_target": true
+      }
+    },
+    {
+      "event_id": "INTEL-AREA-2faeba5f5ddd885952f119cd",
+      "parent_event_id": "SIG-REV-CHG-WATCH-APH-BILLS-20260909004900",
+      "jurisdiction_id": "AUS-FED",
+      "party_id": null,
+      "actor_id": null,
+      "party_ids": [],
+      "actor_ids": [],
+      "contest_id": null,
+      "cycle_id": null,
+      "competition_class": "BUDGET",
+      "area_evidence_id": "AREA-2faeba5f5ddd885952f119cd",
+      "detail_record_id": "DETAIL-664e0c4f3e7f1f13baef88dd",
+      "detail_version_id": "DETAIL-664e0c4f3e7f1f13baef88dd-V1",
+      "source_snapshot_id": "AUTO-WATCH-APH-BILLS-20260909004900",
+      "record_url": "https://www.aph.gov.au/Parliamentary_Business/Bills_and_Legislation",
+      "captured_at": "2026-09-09T03:02:45.747Z",
+      "evidence_captured_at": "2026-09-09T03:02:43.202Z",
+      "event_date": "2026-09-09",
+      "checkpoint": "SUBSTANTIVE_INFORMATION_INGESTION",
+      "event_type": "AREA_EVIDENCE_INGESTED",
+      "area_routing_state": "SUBSTANTIVE_CONTENT_ROUTED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_PARLIAMENT",
+      "source_id": "SRC-APH-BILLS",
+      "claim": "Ingested substantive budget evidence from Bills and Legislation &ndash; Parliament of Australia. Captured content includes stage: introduced; resistance language: Amendment; outcome language: Passed. Registration threshold state: evidence gap. Missing requirements: missing fact type objective, missing fact type material resistance, missing fact type explicit support position, missing fact type explicit opposition position, missing condition distinct supporting and opposing sides.",
+      "observed_behaviour": "Bills and Legislation &ndash; Parliament of Australia Skip to navigation Skip to content Bills and Legislation In this section Bills and Legislation Legislative Instruments Disallowance Alert 2026 Tariff proposals Bills currently referred to Senate committees Legislative Analysis Budget and Financial Legislation Tabled documents Chamber documents Hansard Senate estimates Committees Statistics Petitions A bill is a proposal for a law or a change to an existing law. A bill becomes law (an Act) when agreed to in identical form by both houses of Parliament and assented to by the Governor-General. Bills introduced to Parliament are scrutinised to make sure they meet certain standards and to consider whether they should be referred to a committee for further investigation. This can include feedback from stakeholders and the general public, and a report recommending potential improvements to the bill. Current Parliament 128 Bills before Parliament 132 Bills assented to 21 Bills not proceeding Search for bills Keyword(s) Bills title only Period Date range None Yesterday Today Current Year Last Year Current Session Last Parliament Current Parliament Parliament no -All- 48 47 46 45 44 43 42 41 40 39 38 37 36 35 34 33 32 31 30 29 28 Bill Introduced (From) Bill Introduced (To) Using the Bill Introduced date fields will allow you to search bills by the date they were introduced into Parliament. Clicking the 'Bill Introduced (From)' and 'Bill Introduced (To)' fields displays a calendar. Alternatively select date by typing into these fields in the format 'dd/mm/yyyy'. Bill Progressed (From) Bill Progressed (To) Using the Bill Progress date fields will allow you to search bills by the dates they progressed through Parliament. Clicking the 'Bill Progress (From)' and 'Bill Progress (To)'",
+      "extracted_cues": {
+        "resistance_terms": [
+          "Amendment"
+        ],
+        "stage_terms": [
+          "introduced"
+        ],
+        "outcome_terms": [
+          "Passed"
+        ],
+        "pressure_terms": []
+      },
+      "entity_mentions": {
+        "actors": [],
+        "teams": []
+      },
+      "position_state": "UNRESOLVED",
+      "resistance_state": "RESISTANCE_LANGUAGE_PRESENT",
+      "outcome_state": "OUTCOME_LANGUAGE_PRESENT",
+      "contest_fact_ids": [
+        "FACT-18f0ea86d8726a78c2386b2c",
+        "FACT-254a1d2e37b84bfbb928dfab",
+        "FACT-37a14b0eb69f51f0bbb4a1c4",
+        "FACT-4cce5751cff6c9e5cff4115c",
+        "FACT-562782798536a23879873b9c",
+        "FACT-7198dcf4830f905ad20a30af",
+        "FACT-868b1c173618cbf770a34be9",
+        "FACT-92a5e3aaebb13469ff94d7ea",
+        "FACT-c4909e41cdb99283ca173910",
+        "FACT-fced379dfecfca3a116f072a"
+      ],
+      "contest_fact_types": [
+        "CONTEST_OBJECT",
+        "POSSIBLE_OUTCOME_STATE",
+        "STAGE",
+        "VOTE_OR_DIVISION"
+      ],
+      "threshold_evaluation_id": "THRESH-efaf982693f44558bb657db1",
+      "threshold_state": "EVIDENCE_GAP",
+      "threshold_blockers": [
+        "MISSING_CONDITION_DISTINCT_SUPPORTING_AND_OPPOSING_SIDES",
+        "MISSING_FACT_TYPE_EXPLICIT_OPPOSITION_POSITION",
+        "MISSING_FACT_TYPE_EXPLICIT_SUPPORT_POSITION",
+        "MISSING_FACT_TYPE_MATERIAL_RESISTANCE",
+        "MISSING_FACT_TYPE_OBJECTIVE"
+      ],
+      "supporting_entities": [],
+      "opposing_entities": [],
+      "registration_action": "NO_AUTOMATIC_REGISTRATION",
+      "intelligence_signature": "0732fd74e5e53342adf4960fde31e17f2035b8d1220bd19301c10832a4d694a3",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "substantive_detail_lineage_required": true,
+        "active_contest_fact_lineage_required": true,
+        "threshold_evaluation_lineage_required": true,
+        "routing_does_not_register_match": true,
+        "threshold_eligibility_does_not_register_match": true,
+        "entity_mentions_do_not_establish_positions": true,
+        "retracted_facts_excluded": true,
+        "no_projection_effect_without_registered_target": true
+      }
+    },
+    {
+      "event_id": "INTEL-AREA-9741e6ad78c87bce2b248d22",
+      "parent_event_id": "SIG-REV-CHG-WATCH-APH-BILLS-20260909004900",
+      "jurisdiction_id": "AUS-FED",
+      "party_id": null,
+      "actor_id": null,
+      "party_ids": [],
+      "actor_ids": [],
+      "contest_id": null,
+      "cycle_id": null,
+      "competition_class": "PARLIAMENTARY_PROCEDURE",
+      "area_evidence_id": "AREA-9741e6ad78c87bce2b248d22",
+      "detail_record_id": "DETAIL-664e0c4f3e7f1f13baef88dd",
+      "detail_version_id": "DETAIL-664e0c4f3e7f1f13baef88dd-V1",
+      "source_snapshot_id": "AUTO-WATCH-APH-BILLS-20260909004900",
+      "record_url": "https://www.aph.gov.au/Parliamentary_Business/Bills_and_Legislation",
+      "captured_at": "2026-09-09T03:02:45.747Z",
+      "evidence_captured_at": "2026-09-09T03:02:43.202Z",
+      "event_date": "2026-09-09",
+      "checkpoint": "SUBSTANTIVE_INFORMATION_INGESTION",
+      "event_type": "AREA_EVIDENCE_INGESTED",
+      "area_routing_state": "SUBSTANTIVE_CONTENT_ROUTED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_PARLIAMENT",
+      "source_id": "SRC-APH-BILLS",
+      "claim": "Ingested substantive parliamentary procedure evidence from Bills and Legislation &ndash; Parliament of Australia. Captured content includes stage: introduced; resistance language: Amendment; outcome language: Passed. Registration threshold state: evidence gap. Missing requirements: missing fact type material resistance, missing fact type explicit support position, missing fact type explicit opposition position, missing condition distinct supporting and opposing sides.",
+      "observed_behaviour": "Bills and Legislation &ndash; Parliament of Australia Skip to navigation Skip to content Bills and Legislation In this section Bills and Legislation Legislative Instruments Disallowance Alert 2026 Tariff proposals Bills currently referred to Senate committees Legislative Analysis Budget and Financial Legislation Tabled documents Chamber documents Hansard Senate estimates Committees Statistics Petitions A bill is a proposal for a law or a change to an existing law. A bill becomes law (an Act) when agreed to in identical form by both houses of Parliament and assented to by the Governor-General. Bills introduced to Parliament are scrutinised to make sure they meet certain standards and to consider whether they should be referred to a committee for further investigation. This can include feedback from stakeholders and the general public, and a report recommending potential improvements to the bill. Current Parliament 128 Bills before Parliament 132 Bills assented to 21 Bills not proceeding Search for bills Keyword(s) Bills title only Period Date range None Yesterday Today Current Year Last Year Current Session Last Parliament Current Parliament Parliament no -All- 48 47 46 45 44 43 42 41 40 39 38 37 36 35 34 33 32 31 30 29 28 Bill Introduced (From) Bill Introduced (To) Using the Bill Introduced date fields will allow you to search bills by the date they were introduced into Parliament. Clicking the 'Bill Introduced (From)' and 'Bill Introduced (To)' fields displays a calendar. Alternatively select date by typing into these fields in the format 'dd/mm/yyyy'. Bill Progressed (From) Bill Progressed (To) Using the Bill Progress date fields will allow you to search bills by the dates they progressed through Parliament. Clicking the 'Bill Progress (From)' and 'Bill Progress (To)'",
+      "extracted_cues": {
+        "resistance_terms": [
+          "Amendment"
+        ],
+        "stage_terms": [
+          "introduced"
+        ],
+        "outcome_terms": [
+          "Passed"
+        ],
+        "pressure_terms": []
+      },
+      "entity_mentions": {
+        "actors": [],
+        "teams": []
+      },
+      "position_state": "UNRESOLVED",
+      "resistance_state": "RESISTANCE_LANGUAGE_PRESENT",
+      "outcome_state": "OUTCOME_LANGUAGE_PRESENT",
+      "contest_fact_ids": [
+        "FACT-0e54a6bf116c5f7f91a7f598",
+        "FACT-2a76b687ee7bb7e9a7d76dab",
+        "FACT-585e1b6316f7502395602efb",
+        "FACT-66169dd4995136200e163a10",
+        "FACT-80d017ddf00ab41e136362c3",
+        "FACT-872ef5c4ca909736190dc3df",
+        "FACT-9678a04dcb1aab83eccc560a",
+        "FACT-968e4947ecca94d1c1f5daff",
+        "FACT-9859f4ed066a3e69dfef9c3e",
+        "FACT-994aaf8dbd9a4ff2ec0d7497",
+        "FACT-9cfd6b163fbbe391040725e4",
+        "FACT-9fcc726f22cd144241f898b3",
+        "FACT-a13f433da82d738350a8d87a",
+        "FACT-bd91a23433fb698fde7022ce",
+        "FACT-dae78a72bd0bb59faa3e202f",
+        "FACT-e40a9a8ff5ee6932500f71df"
+      ],
+      "contest_fact_types": [
+        "CONTEST_OBJECT",
+        "POSSIBLE_OUTCOME_STATE",
+        "PROCEDURAL_ACTION",
+        "STAGE"
+      ],
+      "threshold_evaluation_id": "THRESH-f6e30a2f7b0da6fa2bb5d337",
+      "threshold_state": "EVIDENCE_GAP",
+      "threshold_blockers": [
+        "MISSING_CONDITION_DISTINCT_SUPPORTING_AND_OPPOSING_SIDES",
+        "MISSING_FACT_TYPE_EXPLICIT_OPPOSITION_POSITION",
+        "MISSING_FACT_TYPE_EXPLICIT_SUPPORT_POSITION",
+        "MISSING_FACT_TYPE_MATERIAL_RESISTANCE"
+      ],
+      "supporting_entities": [],
+      "opposing_entities": [],
+      "registration_action": "NO_AUTOMATIC_REGISTRATION",
+      "intelligence_signature": "11b757453201f26842321387fa31a30a565277825578e083208c4cd67296ea60",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "substantive_detail_lineage_required": true,
+        "active_contest_fact_lineage_required": true,
+        "threshold_evaluation_lineage_required": true,
+        "routing_does_not_register_match": true,
+        "threshold_eligibility_does_not_register_match": true,
+        "entity_mentions_do_not_establish_positions": true,
+        "retracted_facts_excluded": true,
+        "no_projection_effect_without_registered_target": true
+      }
+    },
+    {
+      "event_id": "INTEL-AREA-eeb83e75e7871eaca8ebe5d5",
+      "parent_event_id": "SIG-REV-CHG-WATCH-APH-BILLS-20260909004900",
+      "jurisdiction_id": "AUS-FED",
+      "party_id": null,
+      "actor_id": null,
+      "party_ids": [],
+      "actor_ids": [],
+      "contest_id": null,
+      "cycle_id": null,
+      "competition_class": "LEGISLATIVE",
+      "area_evidence_id": "AREA-eeb83e75e7871eaca8ebe5d5",
+      "detail_record_id": "DETAIL-28a150c4324c859c122b1349",
+      "detail_version_id": "DETAIL-28a150c4324c859c122b1349-V1",
+      "source_snapshot_id": "AUTO-WATCH-APH-BILLS-20260909004900",
+      "record_url": "https://www.aph.gov.au/Parliamentary_Business/Bills_and_Legislation",
+      "captured_at": "2026-09-09T03:02:45.747Z",
+      "evidence_captured_at": "2026-09-09T03:02:44.918Z",
+      "event_date": "2026-09-09",
+      "checkpoint": "SUBSTANTIVE_INFORMATION_INGESTION",
+      "event_type": "AREA_EVIDENCE_INGESTED",
+      "area_routing_state": "SUBSTANTIVE_CONTENT_ROUTED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_PARLIAMENT",
+      "source_id": "SRC-APH-BILLS",
+      "claim": "Ingested substantive legislative evidence from Bills and Legislation &ndash; Parliament of Australia. Captured content includes stage: introduced; resistance language: Amendment; outcome language: Passed. Registration threshold state: evidence gap. Missing requirements: missing fact type material resistance, missing fact type explicit support position, missing fact type explicit opposition position, missing condition distinct supporting and opposing sides.",
+      "observed_behaviour": "Bills and Legislation &ndash; Parliament of Australia Skip to navigation Skip to content Bills and Legislation In this section Bills and Legislation Legislative Instruments Disallowance Alert 2026 Tariff proposals Bills currently referred to Senate committees Legislative Analysis Budget and Financial Legislation Tabled documents Chamber documents Hansard Senate estimates Committees Statistics Petitions A bill is a proposal for a law or a change to an existing law. A bill becomes law (an Act) when agreed to in identical form by both houses of Parliament and assented to by the Governor-General. Bills introduced to Parliament are scrutinised to make sure they meet certain standards and to consider whether they should be referred to a committee for further investigation. This can include feedback from stakeholders and the general public, and a report recommending potential improvements to the bill. Current Parliament 128 Bills before Parliament 132 Bills assented to 21 Bills not proceeding Search for bills Keyword(s) Bills title only Period Date range None Yesterday Today Current Year Last Year Current Session Last Parliament Current Parliament Parliament no -All- 48 47 46 45 44 43 42 41 40 39 38 37 36 35 34 33 32 31 30 29 28 Bill Introduced (From) Bill Introduced (To) Using the Bill Introduced date fields will allow you to search bills by the date they were introduced into Parliament. Clicking the 'Bill Introduced (From)' and 'Bill Introduced (To)' fields displays a calendar. Alternatively select date by typing into these fields in the format 'dd/mm/yyyy'. Bill Progressed (From) Bill Progressed (To) Using the Bill Progress date fields will allow you to search bills by the dates they progressed through Parliament. Clicking the 'Bill Progress (From)' and 'Bill Progress (To)'",
+      "extracted_cues": {
+        "resistance_terms": [
+          "Amendment"
+        ],
+        "stage_terms": [
+          "introduced"
+        ],
+        "outcome_terms": [
+          "Passed"
+        ],
+        "pressure_terms": []
+      },
+      "entity_mentions": {
+        "actors": [],
+        "teams": []
+      },
+      "position_state": "UNRESOLVED",
+      "resistance_state": "RESISTANCE_LANGUAGE_PRESENT",
+      "outcome_state": "OUTCOME_LANGUAGE_PRESENT",
+      "contest_fact_ids": [
+        "FACT-1b903f079a9d10cb26b17df6",
+        "FACT-29c6c4df3283c3ce3cf745df",
+        "FACT-2b63dbc587174e1909ff8b62",
+        "FACT-30038f7e117731a3d315eebb",
+        "FACT-370645769a14c8ffad151722",
+        "FACT-47e23eeb7e93d5815c6ca159",
+        "FACT-4a478ab91566901af710e1e6",
+        "FACT-6e665f87e587ee2779fb2442",
+        "FACT-813c68b4b7683b06e30063d1",
+        "FACT-97577cdd18592dc5bd8e8824",
+        "FACT-9d68150c69b6288077273cce",
+        "FACT-acb8bcaee825d51c498a0549",
+        "FACT-bbdac3b6dff84fceb535bb96",
+        "FACT-cc6c60d85bcb4d5e1ae42f38",
+        "FACT-ccdf43f9d5b2e91aa8b58f9d",
+        "FACT-d40205ee8dc6afaffcd51dd5",
+        "FACT-d8250cb3cf1533adc3fb2ef5",
+        "FACT-df62e036a6f8c709856ffaea",
+        "FACT-e6ee4c50614b88ce95aa9b1f",
+        "FACT-ee719d926d9dce129625a448",
+        "FACT-f4aaca7e14a93bd6f10ca943"
+      ],
+      "contest_fact_types": [
+        "CONTEST_OBJECT",
+        "POSSIBLE_OUTCOME_STATE",
+        "PROCEDURAL_ACTION",
+        "STAGE",
+        "VOTE_OR_DIVISION"
+      ],
+      "threshold_evaluation_id": "THRESH-1d9e9f202060c4e46469abe4",
+      "threshold_state": "EVIDENCE_GAP",
+      "threshold_blockers": [
+        "MISSING_CONDITION_DISTINCT_SUPPORTING_AND_OPPOSING_SIDES",
+        "MISSING_FACT_TYPE_EXPLICIT_OPPOSITION_POSITION",
+        "MISSING_FACT_TYPE_EXPLICIT_SUPPORT_POSITION",
+        "MISSING_FACT_TYPE_MATERIAL_RESISTANCE"
+      ],
+      "supporting_entities": [],
+      "opposing_entities": [],
+      "registration_action": "NO_AUTOMATIC_REGISTRATION",
+      "intelligence_signature": "5629b5e1a7ca69bb96578d0085db5b3727c51abd67f1387a6e7c9dad9ca87aad",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "substantive_detail_lineage_required": true,
+        "active_contest_fact_lineage_required": true,
+        "threshold_evaluation_lineage_required": true,
+        "routing_does_not_register_match": true,
+        "threshold_eligibility_does_not_register_match": true,
+        "entity_mentions_do_not_establish_positions": true,
+        "retracted_facts_excluded": true,
+        "no_projection_effect_without_registered_target": true
+      }
+    },
+    {
+      "event_id": "INTEL-AREA-e25efa6047a8e2fec27768a0",
+      "parent_event_id": "SIG-REV-CHG-WATCH-APH-BILLS-20260909004900",
+      "jurisdiction_id": "AUS-FED",
+      "party_id": null,
+      "actor_id": null,
+      "party_ids": [],
+      "actor_ids": [],
+      "contest_id": null,
+      "cycle_id": null,
+      "competition_class": "BUDGET",
+      "area_evidence_id": "AREA-e25efa6047a8e2fec27768a0",
+      "detail_record_id": "DETAIL-28a150c4324c859c122b1349",
+      "detail_version_id": "DETAIL-28a150c4324c859c122b1349-V1",
+      "source_snapshot_id": "AUTO-WATCH-APH-BILLS-20260909004900",
+      "record_url": "https://www.aph.gov.au/Parliamentary_Business/Bills_and_Legislation",
+      "captured_at": "2026-09-09T03:02:45.747Z",
+      "evidence_captured_at": "2026-09-09T03:02:44.918Z",
+      "event_date": "2026-09-09",
+      "checkpoint": "SUBSTANTIVE_INFORMATION_INGESTION",
+      "event_type": "AREA_EVIDENCE_INGESTED",
+      "area_routing_state": "SUBSTANTIVE_CONTENT_ROUTED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_PARLIAMENT",
+      "source_id": "SRC-APH-BILLS",
+      "claim": "Ingested substantive budget evidence from Bills and Legislation &ndash; Parliament of Australia. Captured content includes stage: introduced; resistance language: Amendment; outcome language: Passed. Registration threshold state: evidence gap. Missing requirements: missing fact type objective, missing fact type material resistance, missing fact type explicit support position, missing fact type explicit opposition position, missing condition distinct supporting and opposing sides.",
+      "observed_behaviour": "Bills and Legislation &ndash; Parliament of Australia Skip to navigation Skip to content Bills and Legislation In this section Bills and Legislation Legislative Instruments Disallowance Alert 2026 Tariff proposals Bills currently referred to Senate committees Legislative Analysis Budget and Financial Legislation Tabled documents Chamber documents Hansard Senate estimates Committees Statistics Petitions A bill is a proposal for a law or a change to an existing law. A bill becomes law (an Act) when agreed to in identical form by both houses of Parliament and assented to by the Governor-General. Bills introduced to Parliament are scrutinised to make sure they meet certain standards and to consider whether they should be referred to a committee for further investigation. This can include feedback from stakeholders and the general public, and a report recommending potential improvements to the bill. Current Parliament 128 Bills before Parliament 132 Bills assented to 21 Bills not proceeding Search for bills Keyword(s) Bills title only Period Date range None Yesterday Today Current Year Last Year Current Session Last Parliament Current Parliament Parliament no -All- 48 47 46 45 44 43 42 41 40 39 38 37 36 35 34 33 32 31 30 29 28 Bill Introduced (From) Bill Introduced (To) Using the Bill Introduced date fields will allow you to search bills by the date they were introduced into Parliament. Clicking the 'Bill Introduced (From)' and 'Bill Introduced (To)' fields displays a calendar. Alternatively select date by typing into these fields in the format 'dd/mm/yyyy'. Bill Progressed (From) Bill Progressed (To) Using the Bill Progress date fields will allow you to search bills by the dates they progressed through Parliament. Clicking the 'Bill Progress (From)' and 'Bill Progress (To)'",
+      "extracted_cues": {
+        "resistance_terms": [
+          "Amendment"
+        ],
+        "stage_terms": [
+          "introduced"
+        ],
+        "outcome_terms": [
+          "Passed"
+        ],
+        "pressure_terms": []
+      },
+      "entity_mentions": {
+        "actors": [],
+        "teams": []
+      },
+      "position_state": "UNRESOLVED",
+      "resistance_state": "RESISTANCE_LANGUAGE_PRESENT",
+      "outcome_state": "OUTCOME_LANGUAGE_PRESENT",
+      "contest_fact_ids": [
+        "FACT-26fff4d9ba79c0f506d23666",
+        "FACT-446de54e1bf605da5adf6bce",
+        "FACT-47e77b0a75475f5ae704372a",
+        "FACT-74781aa3703d78601b519f6c",
+        "FACT-a05d40c6a8d8129464f138ea",
+        "FACT-a71a594925a6ea6325220575",
+        "FACT-da77b1e5ed5dc5d40dc9761f",
+        "FACT-dd6daaa78d3ef627c334e4a1",
+        "FACT-ee5468af408035746ae6bea2",
+        "FACT-fdc6d25f94f1323f189ca7b0"
+      ],
+      "contest_fact_types": [
+        "CONTEST_OBJECT",
+        "POSSIBLE_OUTCOME_STATE",
+        "STAGE",
+        "VOTE_OR_DIVISION"
+      ],
+      "threshold_evaluation_id": "THRESH-93001fa9f22341da9085ba6a",
+      "threshold_state": "EVIDENCE_GAP",
+      "threshold_blockers": [
+        "MISSING_CONDITION_DISTINCT_SUPPORTING_AND_OPPOSING_SIDES",
+        "MISSING_FACT_TYPE_EXPLICIT_OPPOSITION_POSITION",
+        "MISSING_FACT_TYPE_EXPLICIT_SUPPORT_POSITION",
+        "MISSING_FACT_TYPE_MATERIAL_RESISTANCE",
+        "MISSING_FACT_TYPE_OBJECTIVE"
+      ],
+      "supporting_entities": [],
+      "opposing_entities": [],
+      "registration_action": "NO_AUTOMATIC_REGISTRATION",
+      "intelligence_signature": "381a25ace227626d8d7d0df4a1363e8d7eb9e1e2c124380665f2d4d1d2392965",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "substantive_detail_lineage_required": true,
+        "active_contest_fact_lineage_required": true,
+        "threshold_evaluation_lineage_required": true,
+        "routing_does_not_register_match": true,
+        "threshold_eligibility_does_not_register_match": true,
+        "entity_mentions_do_not_establish_positions": true,
+        "retracted_facts_excluded": true,
+        "no_projection_effect_without_registered_target": true
+      }
+    },
+    {
+      "event_id": "INTEL-AREA-7c36d46d365a17de46fee2eb",
+      "parent_event_id": "SIG-REV-CHG-WATCH-APH-BILLS-20260909004900",
+      "jurisdiction_id": "AUS-FED",
+      "party_id": null,
+      "actor_id": null,
+      "party_ids": [],
+      "actor_ids": [],
+      "contest_id": null,
+      "cycle_id": null,
+      "competition_class": "PARLIAMENTARY_PROCEDURE",
+      "area_evidence_id": "AREA-7c36d46d365a17de46fee2eb",
+      "detail_record_id": "DETAIL-28a150c4324c859c122b1349",
+      "detail_version_id": "DETAIL-28a150c4324c859c122b1349-V1",
+      "source_snapshot_id": "AUTO-WATCH-APH-BILLS-20260909004900",
+      "record_url": "https://www.aph.gov.au/Parliamentary_Business/Bills_and_Legislation",
+      "captured_at": "2026-09-09T03:02:45.747Z",
+      "evidence_captured_at": "2026-09-09T03:02:44.918Z",
+      "event_date": "2026-09-09",
+      "checkpoint": "SUBSTANTIVE_INFORMATION_INGESTION",
+      "event_type": "AREA_EVIDENCE_INGESTED",
+      "area_routing_state": "SUBSTANTIVE_CONTENT_ROUTED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_PARLIAMENT",
+      "source_id": "SRC-APH-BILLS",
+      "claim": "Ingested substantive parliamentary procedure evidence from Bills and Legislation &ndash; Parliament of Australia. Captured content includes stage: introduced; resistance language: Amendment; outcome language: Passed. Registration threshold state: evidence gap. Missing requirements: missing fact type material resistance, missing fact type explicit support position, missing fact type explicit opposition position, missing condition distinct supporting and opposing sides.",
+      "observed_behaviour": "Bills and Legislation &ndash; Parliament of Australia Skip to navigation Skip to content Bills and Legislation In this section Bills and Legislation Legislative Instruments Disallowance Alert 2026 Tariff proposals Bills currently referred to Senate committees Legislative Analysis Budget and Financial Legislation Tabled documents Chamber documents Hansard Senate estimates Committees Statistics Petitions A bill is a proposal for a law or a change to an existing law. A bill becomes law (an Act) when agreed to in identical form by both houses of Parliament and assented to by the Governor-General. Bills introduced to Parliament are scrutinised to make sure they meet certain standards and to consider whether they should be referred to a committee for further investigation. This can include feedback from stakeholders and the general public, and a report recommending potential improvements to the bill. Current Parliament 128 Bills before Parliament 132 Bills assented to 21 Bills not proceeding Search for bills Keyword(s) Bills title only Period Date range None Yesterday Today Current Year Last Year Current Session Last Parliament Current Parliament Parliament no -All- 48 47 46 45 44 43 42 41 40 39 38 37 36 35 34 33 32 31 30 29 28 Bill Introduced (From) Bill Introduced (To) Using the Bill Introduced date fields will allow you to search bills by the date they were introduced into Parliament. Clicking the 'Bill Introduced (From)' and 'Bill Introduced (To)' fields displays a calendar. Alternatively select date by typing into these fields in the format 'dd/mm/yyyy'. Bill Progressed (From) Bill Progressed (To) Using the Bill Progress date fields will allow you to search bills by the dates they progressed through Parliament. Clicking the 'Bill Progress (From)' and 'Bill Progress (To)'",
+      "extracted_cues": {
+        "resistance_terms": [
+          "Amendment"
+        ],
+        "stage_terms": [
+          "introduced"
+        ],
+        "outcome_terms": [
+          "Passed"
+        ],
+        "pressure_terms": []
+      },
+      "entity_mentions": {
+        "actors": [],
+        "teams": []
+      },
+      "position_state": "UNRESOLVED",
+      "resistance_state": "RESISTANCE_LANGUAGE_PRESENT",
+      "outcome_state": "OUTCOME_LANGUAGE_PRESENT",
+      "contest_fact_ids": [
+        "FACT-1f35e916ff9628d647068109",
+        "FACT-2fe2131be1d012fee5f7795f",
+        "FACT-3e24a1a9db73fcfc0be2d7be",
+        "FACT-4f8cf9fefd31e7f4fd3ce88b",
+        "FACT-5133af2e91bad9fdf39f9382",
+        "FACT-52ab042b0bbded889b8be273",
+        "FACT-6279349c41327981361ea29a",
+        "FACT-6ab1629b0fa9f8127a92cc7e",
+        "FACT-6c9acf11877ee9ada46f46ac",
+        "FACT-9c5fbdf486c878f3a266d29d",
+        "FACT-b7b08809dd3f1d644fb73da9",
+        "FACT-bc94b0b67c6011e694387ef8",
+        "FACT-c3bb3f84dd50d8fb3def429e",
+        "FACT-d3f7b23d6f83fc58e1bbd1bf",
+        "FACT-da236dda1c833e9432787023",
+        "FACT-f6e1774f05fe6a693e56573d"
+      ],
+      "contest_fact_types": [
+        "CONTEST_OBJECT",
+        "POSSIBLE_OUTCOME_STATE",
+        "PROCEDURAL_ACTION",
+        "STAGE"
+      ],
+      "threshold_evaluation_id": "THRESH-4906e542062c7df727da909e",
+      "threshold_state": "EVIDENCE_GAP",
+      "threshold_blockers": [
+        "MISSING_CONDITION_DISTINCT_SUPPORTING_AND_OPPOSING_SIDES",
+        "MISSING_FACT_TYPE_EXPLICIT_OPPOSITION_POSITION",
+        "MISSING_FACT_TYPE_EXPLICIT_SUPPORT_POSITION",
+        "MISSING_FACT_TYPE_MATERIAL_RESISTANCE"
+      ],
+      "supporting_entities": [],
+      "opposing_entities": [],
+      "registration_action": "NO_AUTOMATIC_REGISTRATION",
+      "intelligence_signature": "e82dc09431b6860744f76106a575d8136962938e1d8ce5755c7e4cddb77e62bc",
       "inference": null,
       "inference_class": "NONE",
       "projection_effect": "NO_EFFECT",

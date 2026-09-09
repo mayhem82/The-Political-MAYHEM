@@ -69,64 +69,64 @@
     {
       "jurisdiction_id": "AUS-FED",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-09T02:58:11.032Z",
-      "signals_examined": 33,
-      "candidates_detected": 12
+      "last_screened_at": "2026-09-09T03:02:45.996Z",
+      "signals_examined": 39,
+      "candidates_detected": 15
     },
     {
       "jurisdiction_id": "AUS-NSW",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-09T02:58:11.032Z",
-      "signals_examined": 18,
+      "last_screened_at": "2026-09-09T03:02:45.996Z",
+      "signals_examined": 19,
       "candidates_detected": 1
     },
     {
       "jurisdiction_id": "AUS-VIC",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-09T02:58:11.032Z",
+      "last_screened_at": "2026-09-09T03:02:45.996Z",
       "signals_examined": 0,
       "candidates_detected": 0
     },
     {
       "jurisdiction_id": "AUS-QLD",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-09T02:58:11.032Z",
+      "last_screened_at": "2026-09-09T03:02:45.996Z",
       "signals_examined": 4,
       "candidates_detected": 43
     },
     {
       "jurisdiction_id": "AUS-WA",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-09T02:58:11.032Z",
+      "last_screened_at": "2026-09-09T03:02:45.996Z",
       "signals_examined": 0,
       "candidates_detected": 0
     },
     {
       "jurisdiction_id": "AUS-SA",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-09T02:58:11.032Z",
+      "last_screened_at": "2026-09-09T03:02:45.996Z",
       "signals_examined": 0,
       "candidates_detected": 0
     },
     {
       "jurisdiction_id": "AUS-TAS",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-09T02:58:11.032Z",
-      "signals_examined": 13,
+      "last_screened_at": "2026-09-09T03:02:45.996Z",
+      "signals_examined": 14,
       "candidates_detected": 0
     },
     {
       "jurisdiction_id": "AUS-ACT",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-09T02:58:11.032Z",
+      "last_screened_at": "2026-09-09T03:02:45.996Z",
       "signals_examined": 16,
       "candidates_detected": 0
     },
     {
       "jurisdiction_id": "AUS-NT",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-09T02:58:11.032Z",
-      "signals_examined": 19,
+      "last_screened_at": "2026-09-09T03:02:45.996Z",
+      "signals_examined": 21,
       "candidates_detected": 0
     }
   ],
@@ -1774,7 +1774,8 @@
         "AUTO-WATCH-APH-BILLS-20260908234539"
       ],
       "signal_event_ids": [
-        "INTEL-AREA-d8e9f3b79351de1667b5245c"
+        "INTEL-AREA-d8e9f3b79351de1667b5245c",
+        "INTEL-ENRICH-AREA-d8e9f3b79351de1667b5245c-53321eb85ae720a8"
       ],
       "review_ids": [],
       "area_evidence_ids": [
@@ -1812,7 +1813,8 @@
         "AUTO-WATCH-APH-BILLS-20260908230751"
       ],
       "signal_event_ids": [
-        "INTEL-AREA-cc7601e0425abc6917d5af2f"
+        "INTEL-AREA-cc7601e0425abc6917d5af2f",
+        "INTEL-ENRICH-AREA-cc7601e0425abc6917d5af2f-6236eb0ce974d6d8"
       ],
       "review_ids": [],
       "area_evidence_ids": [
@@ -1850,7 +1852,8 @@
         "AUTO-WATCH-APH-BILLS-20260908233843"
       ],
       "signal_event_ids": [
-        "INTEL-AREA-4174c8f7d7dd32e0571fcf72"
+        "INTEL-AREA-4174c8f7d7dd32e0571fcf72",
+        "INTEL-ENRICH-AREA-4174c8f7d7dd32e0571fcf72-ea3cdd1bde195e1c"
       ],
       "review_ids": [],
       "area_evidence_ids": [
@@ -2024,15 +2027,134 @@
           "reason": "SUBSTANTIVE_AREA_EVIDENCE_DISCOVERY"
         }
       ]
+    },
+    {
+      "candidate_id": "DISC-FED-LEGISLATION-fe3cbcb82baa0497",
+      "jurisdiction_id": "AUS-FED",
+      "competition_family": "LEGISLATION",
+      "proposed_competition_class": "LEGISLATIVE",
+      "proposed_cycle_id": "AUS-FED-48TH-PARLIAMENT",
+      "subject": "Ingested substantive legislative evidence from Bills and Legislation &ndash; Parliament of Australia. Captured content includes stage: introduced; resistance language: Amendment; outcome language: Passed. Registration threshold state: evidence gap. Missing requirements: missing fact type material re",
+      "candidate_state": "EVIDENCE_GAP",
+      "detected_at": "2026-09-09T03:02:45.747Z",
+      "source_snapshot_ids": [
+        "AUTO-WATCH-APH-BILLS-20260909004900"
+      ],
+      "signal_event_ids": [
+        "INTEL-AREA-556f7db3ae0906d29462c101",
+        "INTEL-AREA-eeb83e75e7871eaca8ebe5d5"
+      ],
+      "review_ids": [],
+      "area_evidence_ids": [
+        "AREA-556f7db3ae0906d29462c101",
+        "AREA-eeb83e75e7871eaca8ebe5d5"
+      ],
+      "detail_version_ids": [
+        "DETAIL-664e0c4f3e7f1f13baef88dd-V1",
+        "DETAIL-28a150c4324c859c122b1349-V1"
+      ],
+      "evidence_summary": "Substantive source record body was acquired, routed to LEGISLATIVE, and written into intelligence with retained detail and source-snapshot lineage. Match registration still requires the class-specific threshold and resolved contest facts.",
+      "registration_blockers": [
+        "MATERIAL_RESISTANCE_NOT_YET_EVIDENCED",
+        "SUPPORTING_SIDE_NOT_YET_RESOLVED",
+        "OPPOSING_SIDE_NOT_YET_RESOLVED"
+      ],
+      "linked_contest_id": null,
+      "state_history": [
+        {
+          "from": null,
+          "to": "EVIDENCE_GAP",
+          "at": "2026-09-09T03:02:45.747Z",
+          "reason": "SUBSTANTIVE_AREA_EVIDENCE_DISCOVERY"
+        }
+      ]
+    },
+    {
+      "candidate_id": "DISC-FED-BUDGET-cb6a7c9484ecdbaa",
+      "jurisdiction_id": "AUS-FED",
+      "competition_family": "BUDGET",
+      "proposed_competition_class": "BUDGET",
+      "proposed_cycle_id": "AUS-FED-48TH-PARLIAMENT",
+      "subject": "Ingested substantive budget evidence from Bills and Legislation &ndash; Parliament of Australia. Captured content includes stage: introduced; resistance language: Amendment; outcome language: Passed. Registration threshold state: evidence gap. Missing requirements: missing fact type objective, missi",
+      "candidate_state": "REVIEW_REQUIRED",
+      "detected_at": "2026-09-09T03:02:45.747Z",
+      "source_snapshot_ids": [
+        "AUTO-WATCH-APH-BILLS-20260909004900"
+      ],
+      "signal_event_ids": [
+        "INTEL-AREA-2faeba5f5ddd885952f119cd",
+        "INTEL-AREA-e25efa6047a8e2fec27768a0"
+      ],
+      "review_ids": [],
+      "area_evidence_ids": [
+        "AREA-2faeba5f5ddd885952f119cd",
+        "AREA-e25efa6047a8e2fec27768a0"
+      ],
+      "detail_version_ids": [
+        "DETAIL-664e0c4f3e7f1f13baef88dd-V1",
+        "DETAIL-28a150c4324c859c122b1349-V1"
+      ],
+      "evidence_summary": "Substantive source record body was acquired, routed to BUDGET, and written into intelligence with retained detail and source-snapshot lineage. Match registration still requires the class-specific threshold and resolved contest facts.",
+      "registration_blockers": [
+        "MATERIAL_BUDGET_RESISTANCE_REQUIRES_REVIEW"
+      ],
+      "linked_contest_id": null,
+      "state_history": [
+        {
+          "from": null,
+          "to": "REVIEW_REQUIRED",
+          "at": "2026-09-09T03:02:45.747Z",
+          "reason": "SUBSTANTIVE_AREA_EVIDENCE_DISCOVERY"
+        }
+      ]
+    },
+    {
+      "candidate_id": "DISC-FED-PROCEDURAL-b63b4de795d99881",
+      "jurisdiction_id": "AUS-FED",
+      "competition_family": "PROCEDURAL",
+      "proposed_competition_class": "PARLIAMENTARY_PROCEDURE",
+      "proposed_cycle_id": "AUS-FED-48TH-PARLIAMENT",
+      "subject": "Ingested substantive parliamentary procedure evidence from Bills and Legislation &ndash; Parliament of Australia. Captured content includes stage: introduced; resistance language: Amendment; outcome language: Passed. Registration threshold state: evidence gap. Missing requirements: missing fact type",
+      "candidate_state": "REVIEW_REQUIRED",
+      "detected_at": "2026-09-09T03:02:45.747Z",
+      "source_snapshot_ids": [
+        "AUTO-WATCH-APH-BILLS-20260909004900"
+      ],
+      "signal_event_ids": [
+        "INTEL-AREA-9741e6ad78c87bce2b248d22",
+        "INTEL-AREA-7c36d46d365a17de46fee2eb"
+      ],
+      "review_ids": [],
+      "area_evidence_ids": [
+        "AREA-9741e6ad78c87bce2b248d22",
+        "AREA-7c36d46d365a17de46fee2eb"
+      ],
+      "detail_version_ids": [
+        "DETAIL-664e0c4f3e7f1f13baef88dd-V1",
+        "DETAIL-28a150c4324c859c122b1349-V1"
+      ],
+      "evidence_summary": "Substantive source record body was acquired, routed to PARLIAMENTARY_PROCEDURE, and written into intelligence with retained detail and source-snapshot lineage. Match registration still requires the class-specific threshold and resolved contest facts.",
+      "registration_blockers": [
+        "MATERIAL_PROCEDURAL_OPPOSITION_REQUIRES_REVIEW"
+      ],
+      "linked_contest_id": null,
+      "state_history": [
+        {
+          "from": null,
+          "to": "REVIEW_REQUIRED",
+          "at": "2026-09-09T03:02:45.747Z",
+          "reason": "SUBSTANTIVE_AREA_EVIDENCE_DISCOVERY"
+        }
+      ]
     }
   ],
-  "last_screened_at": "2026-09-09T02:58:11.032Z",
+  "last_screened_at": "2026-09-09T03:02:45.996Z",
   "last_screen_summary": {
-    "signals_examined": 103,
-    "candidates_total": 56,
+    "signals_examined": 113,
+    "candidates_total": 59,
     "candidates_added": 3,
-    "candidate_lineage_merges": 58,
-    "substantive_area_events_examined": 4,
+    "candidate_lineage_merges": 64,
+    "substantive_area_events_examined": 13,
     "registered_contests_unchanged": true
   }
 }

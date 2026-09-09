@@ -130,22 +130,33 @@ const stateAndBlockers=(family,cycle)=>{
   return {state,blockers};
 };
 
+const substantiveStateAndBlockers=event=>{
+  const state=({
+    EVIDENCE_GAP:'EVIDENCE_GAP',
+    REVIEW_REQUIRED:'REVIEW_REQUIRED',
+    ELIGIBLE_FOR_REGISTRATION:'ELIGIBLE_FOR_REGISTRATION',
+    NOT_A_MATCH:'REJECTED_NOT_COMPETITION'
+  })[event.threshold_state]||null;
+  if(!state) return {state:'REVIEW_REQUIRED',blockers:['THRESHOLD_EVALUATION_REQUIRED']};
+  return {state,blockers:uniq(event.threshold_blockers||[])};
+};
+
 const candidateId=(jurisdictionId,family,subject)=>{
   const hash=crypto.createHash('sha256').update(`${jurisdictionId}|${family}|${norm(subject)}`).digest('hex').slice(0,16);
   return `DISC-${jurisdictionId.replace('AUS-','')}-${family}-${hash}`;
 };
 
-let added=0,merged=0,substantive=0;
+let added=0,merged=0,substantive=0,thresholdTransitions=0;
 const addCandidate=({jurisdictionId,family,subject,event,reviewId=null})=>{
   if(!jurisdictions.includes(jurisdictionId)||!event?.source_snapshot_id||!snapshotIds.has(event.source_snapshot_id)) return;
   if(likelyCoveredByRegisteredContest(jurisdictionId,family,subject)) return;
   const proposedClass=classForFamily(family);
   const cycle=compatibleCycle(jurisdictionId,proposedClass);
-  const {state,blockers}=stateAndBlockers(family,cycle);
-  const id=candidateId(jurisdictionId,family,subject);
   const isSubstantive=Boolean(event.area_evidence_id);
+  const {state,blockers}=isSubstantive?substantiveStateAndBlockers(event):stateAndBlockers(family,cycle);
+  const id=candidateId(jurisdictionId,family,subject);
   const summary=isSubstantive
-    ? `Substantive source record body was acquired, routed to ${proposedClass}, and written into intelligence with retained detail and source-snapshot lineage. Match registration still requires the class-specific threshold and resolved contest facts.`
+    ? `Substantive source record body was acquired, routed to ${proposedClass}, and written into intelligence with retained detail, source-snapshot and stage-10 threshold lineage. Match registration remains a separate action.`
     : `Screened ${event.source_class||'political'} evidence contains language consistent with a ${family.toLowerCase().replaceAll('_',' ')} competition candidate. This is a discovery observation, not a registered contest or outcome inference.`;
   const areaExisting=isSubstantive
     ?discovery.candidates.find(candidate=>candidate.candidate_state!=='REJECTED_NOT_COMPETITION'&&candidate.competition_family===family&&(candidate.area_evidence_ids||[]).includes(event.area_evidence_id))
@@ -161,6 +172,15 @@ const addCandidate=({jurisdictionId,family,subject,event,reviewId=null})=>{
       existing.area_evidence_ids=uniq([...(existing.area_evidence_ids||[]),event.area_evidence_id]);
       existing.detail_version_ids=uniq([...(existing.detail_version_ids||[]),event.detail_version_id]);
       existing.evidence_summary=summary;
+      if(existing.candidate_state!=='REGISTERED'){
+        if(existing.candidate_state!==state){
+          existing.state_history ||= [];
+          existing.state_history.push({from:existing.candidate_state,to:state,at:event.captured_at||now,reason:'SUBSTANTIVE_THRESHOLD_EVALUATION_PROPAGATED'});
+          existing.candidate_state=state;
+          thresholdTransitions++;
+        }
+        existing.registration_blockers=[...blockers];
+      }
     }
     existingById.set(id,existing);
     merged++;return;
@@ -171,8 +191,8 @@ const addCandidate=({jurisdictionId,family,subject,event,reviewId=null})=>{
     subject:compact(subject).slice(0,300),candidate_state:state,detected_at:detectedAt,
     source_snapshot_ids:[event.source_snapshot_id],signal_event_ids:[event.event_id],review_ids:reviewId?[reviewId]:[],
     area_evidence_ids:isSubstantive?[event.area_evidence_id]:[],detail_version_ids:isSubstantive?[event.detail_version_id]:[],
-    evidence_summary:summary,registration_blockers:blockers,linked_contest_id:null,
-    state_history:[{from:null,to:state,at:detectedAt,reason:isSubstantive?'SUBSTANTIVE_AREA_EVIDENCE_DISCOVERY':'DETERMINISTIC_COMPETITION_FAMILY_SCREEN'}]
+    evidence_summary:summary,registration_blockers:[...blockers],linked_contest_id:null,
+    state_history:[{from:null,to:state,at:detectedAt,reason:isSubstantive?'SUBSTANTIVE_THRESHOLD_EVALUATION_PROPAGATED':'DETERMINISTIC_COMPETITION_FAMILY_SCREEN'}]
   };
   discovery.candidates.push(candidate);existingById.set(id,candidate);added++;
 };
@@ -214,6 +234,6 @@ for(const jurisdictionId of jurisdictions){
 }
 
 discovery.last_screened_at=now;
-discovery.last_screen_summary={signals_examined:[...examined.values()].reduce((n,set)=>n+set.size,0),candidates_total:discovery.candidates.length,candidates_added:added,candidate_lineage_merges:merged,substantive_area_events_examined:substantive,registered_contests_unchanged:true};
+discovery.last_screen_summary={signals_examined:[...examined.values()].reduce((n,set)=>n+set.size,0),candidates_total:discovery.candidates.length,candidates_added:added,candidate_lineage_merges:merged,substantive_area_events_examined:substantive,threshold_state_transitions:thresholdTransitions,registered_contests_unchanged:true};
 write(DISCOVERY,discovery);
-console.log('POLITICAL_MAYHEM_COMPETITION_DISCOVERY_OK',`signals=${discovery.last_screen_summary.signals_examined}`,`candidates=${discovery.candidates.length}`,`added=${added}`,`merged=${merged}`,`substantive=${substantive}`,'registeredContestsChanged=0');
+console.log('POLITICAL_MAYHEM_COMPETITION_DISCOVERY_OK',`signals=${discovery.last_screen_summary.signals_examined}`,`candidates=${discovery.candidates.length}`,`added=${added}`,`merged=${merged}`,`substantive=${substantive}`,`thresholdTransitions=${thresholdTransitions}`,'registeredContestsChanged=0');

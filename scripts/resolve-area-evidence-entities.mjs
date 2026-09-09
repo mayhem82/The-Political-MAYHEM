@@ -149,7 +149,14 @@ for(const row of ledger.records){
   const last=row.entity_resolution_history[row.entity_resolution_history.length-1];
   const signature=JSON.stringify({actors:row.actor_ids,teams:row.party_ids,state:row.entity_resolution_state});
   if(last?.signature!==signature) row.entity_resolution_history.push({at:resolvedAt,signature,state:row.entity_resolution_state,actor_ids:row.actor_ids,party_ids:row.party_ids});
-  row.integrity={...(row.integrity||{}),entity_resolution_exact_jurisdiction_roster_only:true,actor_affiliation_not_treated_as_explicit_team_mention:true,entity_mention_does_not_establish_position:true};
+  row.integrity={
+    ...(row.integrity||{}),
+    entity_mentions_not_yet_resolved:false,
+    entity_resolution_completed:true,
+    entity_resolution_exact_jurisdiction_roster_only:true,
+    actor_affiliation_not_treated_as_explicit_team_mention:true,
+    entity_mention_does_not_establish_position:true
+  };
   resolvedRows++;actorsResolved+=actors.length;teamsResolved+=teams.length;
 }
 

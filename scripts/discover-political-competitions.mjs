@@ -86,6 +86,17 @@ const screen=(text,sourceClass='')=>{
   return null;
 };
 
+const familyForClass=competitionClass=>({
+  ELECTORAL:'ELECTION',
+  LEGISLATIVE:'LEGISLATION',
+  LEADERSHIP:'LEADERSHIP',
+  CONFIDENCE_SUPPLY:'CONFIDENCE_SUPPLY',
+  BUDGET:'BUDGET',
+  POLICY_ENACTMENT:'POLICY_ENACTMENT',
+  PARLIAMENTARY_PROCEDURE:'PROCEDURAL',
+  PUBLIC_PRESSURE:'PUBLIC_PRESSURE'
+})[competitionClass]||null;
+
 const likelyCoveredByRegisteredContest=(jurisdictionId,family,subject)=>{
   if(family!=='ELECTION') return false;
   const s=norm(subject);
@@ -101,14 +112,7 @@ const likelyCoveredByRegisteredContest=(jurisdictionId,family,subject)=>{
 };
 
 const classForFamily=family=>({
-  ELECTION:'ELECTORAL',
-  LEGISLATION:'LEGISLATIVE',
-  LEADERSHIP:'LEADERSHIP',
-  CONFIDENCE_SUPPLY:'CONFIDENCE_SUPPLY',
-  BUDGET:'BUDGET',
-  PROCEDURAL:'PARLIAMENTARY_PROCEDURE',
-  POLICY_ENACTMENT:'POLICY_ENACTMENT',
-  PUBLIC_PRESSURE:'PUBLIC_PRESSURE'
+  ELECTION:'ELECTORAL',LEGISLATION:'LEGISLATIVE',LEADERSHIP:'LEADERSHIP',CONFIDENCE_SUPPLY:'CONFIDENCE_SUPPLY',BUDGET:'BUDGET',PROCEDURAL:'PARLIAMENTARY_PROCEDURE',POLICY_ENACTMENT:'POLICY_ENACTMENT',PUBLIC_PRESSURE:'PUBLIC_PRESSURE'
 })[family]||null;
 
 const stateAndBlockers=(family,cycle)=>{
@@ -120,14 +124,7 @@ const stateAndBlockers=(family,cycle)=>{
   }else if(family==='ELECTION'){
     blockers=['DISTINCT_ELECTORAL_CONTEST_SCOPE_REQUIRES_REVIEW'];
   }else{
-    blockers=[({
-      LEADERSHIP:'MATERIAL_OPPOSITION_OR_BALLOT_NOT_YET_RESOLVED',
-      CONFIDENCE_SUPPLY:'CONFIDENCE_OR_SUPPLY_THRESHOLD_REQUIRES_REVIEW',
-      BUDGET:'MATERIAL_BUDGET_RESISTANCE_REQUIRES_REVIEW',
-      PROCEDURAL:'MATERIAL_PROCEDURAL_OPPOSITION_REQUIRES_REVIEW',
-      POLICY_ENACTMENT:'MATERIAL_POLICY_RESISTANCE_REQUIRES_REVIEW',
-      PUBLIC_PRESSURE:'DEFINED_PUBLIC_DEMAND_AND_INSTITUTIONAL_RESISTANCE_REQUIRE_REVIEW'
-    })[family]||'COMPETITION_THRESHOLD_REQUIRES_REVIEW'];
+    blockers=[({LEADERSHIP:'MATERIAL_OPPOSITION_OR_BALLOT_NOT_YET_RESOLVED',CONFIDENCE_SUPPLY:'CONFIDENCE_OR_SUPPLY_THRESHOLD_REQUIRES_REVIEW',BUDGET:'MATERIAL_BUDGET_RESISTANCE_REQUIRES_REVIEW',PROCEDURAL:'MATERIAL_PROCEDURAL_OPPOSITION_REQUIRES_REVIEW',POLICY_ENACTMENT:'MATERIAL_POLICY_RESISTANCE_REQUIRES_REVIEW',PUBLIC_PRESSURE:'DEFINED_PUBLIC_DEMAND_AND_INSTITUTIONAL_RESISTANCE_REQUIRE_REVIEW'})[family]||'COMPETITION_THRESHOLD_REQUIRES_REVIEW'];
   }
   if(!cycle) blockers.push('REGISTERED_COMPATIBLE_CYCLE_REQUIRED');
   return {state,blockers};
@@ -138,8 +135,7 @@ const candidateId=(jurisdictionId,family,subject)=>{
   return `DISC-${jurisdictionId.replace('AUS-','')}-${family}-${hash}`;
 };
 
-let added=0;
-let merged=0;
+let added=0,merged=0,substantive=0;
 const addCandidate=({jurisdictionId,family,subject,event,reviewId=null})=>{
   if(!jurisdictions.includes(jurisdictionId)||!event?.source_snapshot_id||!snapshotIds.has(event.source_snapshot_id)) return;
   if(likelyCoveredByRegisteredContest(jurisdictionId,family,subject)) return;
@@ -147,6 +143,10 @@ const addCandidate=({jurisdictionId,family,subject,event,reviewId=null})=>{
   const cycle=compatibleCycle(jurisdictionId,proposedClass);
   const {state,blockers}=stateAndBlockers(family,cycle);
   const id=candidateId(jurisdictionId,family,subject);
+  const isSubstantive=Boolean(event.area_evidence_id);
+  const summary=isSubstantive
+    ? `Substantive source record body was acquired, routed to ${proposedClass}, and written into intelligence with retained detail and source-snapshot lineage. Match registration still requires the class-specific threshold and resolved contest facts.`
+    : `Screened ${event.source_class||'political'} evidence contains language consistent with a ${family.toLowerCase().replaceAll('_',' ')} competition candidate. This is a discovery observation, not a registered contest or outcome inference.`;
   const existing=existingById.get(id);
   if(existing){
     existing.source_snapshot_ids=uniq([...(existing.source_snapshot_ids||[]),event.source_snapshot_id]);
@@ -154,30 +154,23 @@ const addCandidate=({jurisdictionId,family,subject,event,reviewId=null})=>{
     existing.review_ids=uniq([...(existing.review_ids||[]),reviewId]);
     if(!existing.proposed_competition_class&&proposedClass) existing.proposed_competition_class=proposedClass;
     if(!existing.proposed_cycle_id&&cycle) existing.proposed_cycle_id=cycle.cycle_id;
-    merged++;
-    return;
+    if(isSubstantive){
+      existing.area_evidence_ids=uniq([...(existing.area_evidence_ids||[]),event.area_evidence_id]);
+      existing.detail_version_ids=uniq([...(existing.detail_version_ids||[]),event.detail_version_id]);
+      existing.evidence_summary=summary;
+    }
+    merged++;return;
   }
   const detectedAt=event.captured_at||now;
   const candidate={
-    candidate_id:id,
-    jurisdiction_id:jurisdictionId,
-    competition_family:family,
-    proposed_competition_class:proposedClass,
-    proposed_cycle_id:cycle?.cycle_id||null,
-    subject:compact(subject).slice(0,300),
-    candidate_state:state,
-    detected_at:detectedAt,
-    source_snapshot_ids:[event.source_snapshot_id],
-    signal_event_ids:[event.event_id],
-    review_ids:reviewId?[reviewId]:[],
-    evidence_summary:`Screened ${event.source_class||'political'} evidence contains language consistent with a ${family.toLowerCase().replaceAll('_',' ')} competition candidate. This is a discovery observation, not a registered contest or outcome inference.`,
-    registration_blockers:blockers,
-    linked_contest_id:null,
-    state_history:[{from:null,to:state,at:detectedAt,reason:'DETERMINISTIC_COMPETITION_FAMILY_SCREEN'}]
+    candidate_id:id,jurisdiction_id:jurisdictionId,competition_family:family,proposed_competition_class:proposedClass,proposed_cycle_id:cycle?.cycle_id||null,
+    subject:compact(subject).slice(0,300),candidate_state:state,detected_at:detectedAt,
+    source_snapshot_ids:[event.source_snapshot_id],signal_event_ids:[event.event_id],review_ids:reviewId?[reviewId]:[],
+    area_evidence_ids:isSubstantive?[event.area_evidence_id]:[],detail_version_ids:isSubstantive?[event.detail_version_id]:[],
+    evidence_summary:summary,registration_blockers:blockers,linked_contest_id:null,
+    state_history:[{from:null,to:state,at:detectedAt,reason:isSubstantive?'SUBSTANTIVE_AREA_EVIDENCE_DISCOVERY':'DETERMINISTIC_COMPETITION_FAMILY_SCREEN'}]
   };
-  discovery.candidates.push(candidate);
-  existingById.set(id,candidate);
-  added++;
+  discovery.candidates.push(candidate);existingById.set(id,candidate);added++;
 };
 
 for(const review of reviews.reviews||[]){
@@ -195,10 +188,16 @@ for(const review of reviews.reviews||[]){
 
 for(const event of events.events||[]){
   if(!jurisdictions.includes(event.jurisdiction_id)) continue;
-  if(event.event_type==='SOURCE_CHANGED'||event.review_id) continue;
+  if(event.event_type==='SOURCE_CHANGED'||event.review_id||event.event_type==='AREA_EVIDENCE_RETRACTED') continue;
   const trusted=event.evidence_state==='VERIFIED'||event.semantic_review_state==='PROMOTED'||event.signal_state==='CONFIRMED_FACT';
   if(!trusted) continue;
   examined.get(event.jurisdiction_id).add(event.event_id);
+  if(['AREA_EVIDENCE_INGESTED','AREA_EVIDENCE_REACTIVATED'].includes(event.event_type)&&event.competition_class){
+    const family=familyForClass(event.competition_class);
+    const subject=compact(event.record_title||event.claim||event.record_url||'');
+    if(family&&subject){addCandidate({jurisdictionId:event.jurisdiction_id,family,subject,event});substantive++;}
+    continue;
+  }
   const subject=compact(event.claim||event.observed_behaviour||'');
   const family=screen(subject,event.source_class);
   if(family) addCandidate({jurisdictionId:event.jurisdiction_id,family,subject,event});
@@ -206,23 +205,11 @@ for(const event of events.events||[]){
 
 for(const jurisdictionId of jurisdictions){
   let row=discovery.jurisdiction_screening.find(x=>x.jurisdiction_id===jurisdictionId);
-  if(!row){
-    row={jurisdiction_id:jurisdictionId,screening_state:'NOT_YET_SCREENED',last_screened_at:null,signals_examined:0,candidates_detected:0};
-    discovery.jurisdiction_screening.push(row);
-  }
-  row.screening_state='SCREENED';
-  row.last_screened_at=now;
-  row.signals_examined=examined.get(jurisdictionId).size;
-  row.candidates_detected=discovery.candidates.filter(x=>x.jurisdiction_id===jurisdictionId).length;
+  if(!row){row={jurisdiction_id:jurisdictionId,screening_state:'NOT_YET_SCREENED',last_screened_at:null,signals_examined:0,candidates_detected:0};discovery.jurisdiction_screening.push(row);}
+  row.screening_state='SCREENED';row.last_screened_at=now;row.signals_examined=examined.get(jurisdictionId).size;row.candidates_detected=discovery.candidates.filter(x=>x.jurisdiction_id===jurisdictionId).length;
 }
 
 discovery.last_screened_at=now;
-discovery.last_screen_summary={
-  signals_examined:[...examined.values()].reduce((n,set)=>n+set.size,0),
-  candidates_total:discovery.candidates.length,
-  candidates_added:added,
-  candidate_lineage_merges:merged,
-  registered_contests_unchanged:true
-};
+discovery.last_screen_summary={signals_examined:[...examined.values()].reduce((n,set)=>n+set.size,0),candidates_total:discovery.candidates.length,candidates_added:added,candidate_lineage_merges:merged,substantive_area_events_examined:substantive,registered_contests_unchanged:true};
 write(DISCOVERY,discovery);
-console.log('POLITICAL_MAYHEM_COMPETITION_DISCOVERY_OK',`signals=${discovery.last_screen_summary.signals_examined}`,`candidates=${discovery.candidates.length}`,`added=${added}`,`merged=${merged}`,'registeredContestsChanged=0');
+console.log('POLITICAL_MAYHEM_COMPETITION_DISCOVERY_OK',`signals=${discovery.last_screen_summary.signals_examined}`,`candidates=${discovery.candidates.length}`,`added=${added}`,`merged=${merged}`,`substantive=${substantive}`,'registeredContestsChanged=0');

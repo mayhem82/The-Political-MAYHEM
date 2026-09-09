@@ -1,11 +1,15 @@
 {
-  "snapshot": "POLITICAL-SOURCE-CLASS-REGISTRY-001",
+  "snapshot": "POLITICAL-SOURCE-CLASS-REGISTRY-002",
   "canonical_classes": [
     {"id": "PRIMARY_ELECTORAL_AUTHORITY", "description": "Official electoral commission or election administration source"},
     {"id": "PRIMARY_PARLIAMENT", "description": "Official parliament, legislature, chamber, committee or parliamentary record"},
     {"id": "PRIMARY_GOVERNMENT", "description": "Official government department, agency, ministerial or statutory authority source"},
     {"id": "PRIMARY_PARTY", "description": "Official political party source"},
     {"id": "PRIMARY_ACTOR", "description": "Direct statement or publication by the political actor"},
+    {"id": "PRIMARY_PUBLIC_ACTOR", "description": "Direct publication or statement by a non-institutional public actor engaged in a political demand or pressure action"},
+    {"id": "PRIMARY_COMMUNITY", "description": "Direct publication, submission or record from an identifiable community or community organisation"},
+    {"id": "PRIMARY_CAMPAIGN", "description": "Direct publication or record from an organised public campaign pursuing a defined political objective"},
+    {"id": "PRIMARY_PETITION", "description": "Official petition record preserving a citizen or public request for action presented to or accepted by an institution"},
     {"id": "PRIMARY_COURT_TRIBUNAL", "description": "Official court, tribunal or judicial source"},
     {"id": "PRIMARY_REGULATOR", "description": "Official regulator, integrity body, commission or watchdog source"},
     {"id": "PRIMARY_DISCLOSURE", "description": "Official donations, funding, lobbying, interests or disclosure register"},
@@ -25,6 +29,10 @@
     "PARLIAMENTARY": "PRIMARY_PARLIAMENT",
     "PARTY": "PRIMARY_PARTY",
     "ACTOR_DIRECT": "PRIMARY_ACTOR",
+    "PUBLIC_ACTOR_DIRECT": "PRIMARY_PUBLIC_ACTOR",
+    "COMMUNITY_DIRECT": "PRIMARY_COMMUNITY",
+    "CAMPAIGN_DIRECT": "PRIMARY_CAMPAIGN",
+    "PETITION": "PRIMARY_PETITION",
     "POLL": "PRIMARY_POLL",
     "JOURNALISM": "SECONDARY_ANALYSIS",
     "HISTORICAL": "SECONDARY_HISTORICAL"

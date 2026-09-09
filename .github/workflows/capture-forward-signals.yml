@@ -15,6 +15,7 @@ on:
       - 'scripts/backfill-first-team-direct-outcomes.mjs'
       - 'scripts/route-area-evidence.mjs'
       - 'scripts/resolve-area-evidence-entities.mjs'
+      - 'scripts/extract-contest-facts.mjs'
       - 'scripts/write-substantive-area-intelligence.mjs'
       - 'scripts/build-information-ingestion-coverage.mjs'
       - 'scripts/build-information-ingestion-source-queue.mjs'
@@ -22,6 +23,7 @@ on:
       - 'scripts/discover-political-competitions.mjs'
       - 'scripts/validate-information-ingestion-pipeline.mjs'
       - 'scripts/validate-information-ingestion-runtime.mjs'
+      - 'scripts/validate-contest-facts.mjs'
       - 'scripts/validate-forward-signal-integrity-v2.mjs'
       - 'scripts/validate-competition-discovery.mjs'
       - 'scripts/validate-first-team-integrity.mjs'
@@ -35,6 +37,7 @@ on:
       - 'data/runtime/first-team-claim-register.json'
       - 'data/runtime/first-team-outcome-ledger.json'
       - 'data/runtime/area-evidence-records.json'
+      - 'data/runtime/contest-facts.json'
       - 'data/runtime/information-ingestion-coverage.json'
       - 'data/runtime/information-ingestion-source-queue.json'
       - 'data/runtime/political-cycles.json'
@@ -77,6 +80,8 @@ jobs:
         run: node scripts/route-area-evidence.mjs
       - name: Resolve canonical players and teams in substantive evidence
         run: node scripts/resolve-area-evidence-entities.mjs
+      - name: Extract source-backed contest facts
+        run: node scripts/extract-contest-facts.mjs
       - name: Write substantive area evidence into intelligence
         run: node scripts/write-substantive-area-intelligence.mjs
       - name: Build jurisdiction by competition-area ingestion coverage
@@ -91,6 +96,7 @@ jobs:
         run: |
           node scripts/validate-information-ingestion-pipeline.mjs
           node scripts/validate-information-ingestion-runtime.mjs
+          node scripts/validate-contest-facts.mjs
           node scripts/validate-forward-integrity.mjs
           node scripts/validate-forward-signal-integrity-v2.mjs
           node scripts/validate-projection-integrity.mjs
@@ -110,13 +116,13 @@ jobs:
           node scripts/validate-federal-senate-electoral-integrity.mjs
       - name: Commit captured, reviewed, ingested, screened and reconciled state
         run: |
-          if git diff --quiet -- data/runtime/forward-signal-capture-state.json data/runtime/source-snapshots.json data/runtime/intelligence-events.json data/runtime/signal-reviews.json data/runtime/source-detail-snapshots.json data/runtime/first-team-claim-register.json data/runtime/first-team-outcome-ledger.json data/runtime/area-evidence-records.json data/runtime/information-ingestion-coverage.json data/runtime/information-ingestion-source-queue.json data/runtime/forward-ingestion-manifest.json data/runtime/political-cycles.json data/runtime/political-contests.json data/runtime/contest-checkpoints.json data/runtime/competition-discovery-candidates.json; then
-            echo 'No new capture, First Team, substantive ingestion, coverage, queue, lifecycle or competition-discovery state.'
+          if git diff --quiet -- data/runtime/forward-signal-capture-state.json data/runtime/source-snapshots.json data/runtime/intelligence-events.json data/runtime/signal-reviews.json data/runtime/source-detail-snapshots.json data/runtime/first-team-claim-register.json data/runtime/first-team-outcome-ledger.json data/runtime/area-evidence-records.json data/runtime/contest-facts.json data/runtime/information-ingestion-coverage.json data/runtime/information-ingestion-source-queue.json data/runtime/forward-ingestion-manifest.json data/runtime/political-cycles.json data/runtime/political-contests.json data/runtime/contest-checkpoints.json data/runtime/competition-discovery-candidates.json; then
+            echo 'No new capture, First Team, substantive ingestion, contest facts, coverage, queue, lifecycle or competition-discovery state.'
             exit 0
           fi
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add data/runtime/forward-signal-capture-state.json data/runtime/source-snapshots.json data/runtime/intelligence-events.json data/runtime/signal-reviews.json data/runtime/source-detail-snapshots.json data/runtime/first-team-claim-register.json data/runtime/first-team-outcome-ledger.json data/runtime/area-evidence-records.json data/runtime/information-ingestion-coverage.json data/runtime/information-ingestion-source-queue.json data/runtime/forward-ingestion-manifest.json data/runtime/political-cycles.json data/runtime/political-contests.json data/runtime/contest-checkpoints.json data/runtime/competition-discovery-candidates.json
-          git commit -m 'Capture review ingest First Team resolve cover queue and screen political state'
+          git add data/runtime/forward-signal-capture-state.json data/runtime/source-snapshots.json data/runtime/intelligence-events.json data/runtime/signal-reviews.json data/runtime/source-detail-snapshots.json data/runtime/first-team-claim-register.json data/runtime/first-team-outcome-ledger.json data/runtime/area-evidence-records.json data/runtime/contest-facts.json data/runtime/information-ingestion-coverage.json data/runtime/information-ingestion-source-queue.json data/runtime/forward-ingestion-manifest.json data/runtime/political-cycles.json data/runtime/political-contests.json data/runtime/contest-checkpoints.json data/runtime/competition-discovery-candidates.json
+          git commit -m 'Capture review ingest First Team facts resolve cover queue and screen political state'
           git pull --rebase origin main
           git push origin main

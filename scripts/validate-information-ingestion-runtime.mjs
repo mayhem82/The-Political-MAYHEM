@@ -46,6 +46,13 @@ for(const attempt of attempts){
   if(attempt.state==='FAILED') assert(Boolean(attempt.error),`${attempt.detail_record_id}: failed attempt missing error`);
 }
 
+const intelligenceByArea=new Map();
+for(const event of events.events||[]){
+  if(!event.area_evidence_id) continue;
+  if(!intelligenceByArea.has(event.area_evidence_id)) intelligenceByArea.set(event.area_evidence_id,[]);
+  intelligenceByArea.get(event.area_evidence_id).push(event);
+}
+
 const areaRows=areas.records||[];
 assert(unique(areaRows.map(x=>x.area_evidence_id)),'area evidence IDs are not unique');
 for(const row of areaRows){
@@ -62,14 +69,32 @@ for(const row of areaRows){
   assert(['SUBSTANTIVE_CONTENT_ROUTED','RETRACTED_ROUTING_NOISE'].includes(row.routing_state),`${row.area_evidence_id}: invalid routing state ${row.routing_state}`);
   assert(Array.isArray(row.routing_hits)&&row.routing_hits.length>0,`${row.area_evidence_id}: routing hits missing`);
   assert(Array.isArray(row.actor_ids)&&Array.isArray(row.party_ids),`${row.area_evidence_id}: entity arrays missing`);
-  assert(row.position_state==='UNRESOLVED',`${row.area_evidence_id}: router must not infer position`);
+  assert(row.position_state==='UNRESOLVED',`${row.area_evidence_id}: ingestion must not infer a position`);
   assert(row.inference===null&&row.inference_class==='NONE',`${row.area_evidence_id}: routing contains inference`);
   if(row.routing_state==='RETRACTED_ROUTING_NOISE'){
     assert(validTime(row.retracted_at),`${row.area_evidence_id}: retracted route missing retracted_at`);
     assert(Boolean(row.retraction_reason),`${row.area_evidence_id}: retracted route missing reason`);
   }
-  if(row.routing_state==='SUBSTANTIVE_CONTENT_ROUTED'&&row.competition_class==='PUBLIC_PRESSURE'){
-    assert((row.extracted_cues?.pressure_terms||[]).length>0,`${row.area_evidence_id}: active PUBLIC_PRESSURE route lacks pressure cues`);
+  if(row.routing_state==='SUBSTANTIVE_CONTENT_ROUTED'){
+    assert(['RESOLVED_EXPLICIT_CANONICAL_MENTIONS','NO_CANONICAL_ENTITY_MENTION_RESOLVED'].includes(row.entity_resolution_state),`${row.area_evidence_id}: entity resolution not completed`);
+    assert(validTime(row.entity_resolved_at),`${row.area_evidence_id}: entity_resolved_at invalid`);
+    assert(row.integrity?.entity_resolution_completed===true,`${row.area_evidence_id}: entity_resolution_completed integrity flag missing`);
+    assert(row.integrity?.entity_mentions_not_yet_resolved===false,`${row.area_evidence_id}: stale unresolved entity flag remains`);
+    assert(row.integrity?.actor_affiliation_not_treated_as_explicit_team_mention===true,`${row.area_evidence_id}: actor-affiliation/team boundary missing`);
+    assert(row.integrity?.entity_mention_does_not_establish_position===true,`${row.area_evidence_id}: entity/position boundary missing`);
+    assert(row.entity_mentions&&Array.isArray(row.entity_mentions.actors)&&Array.isArray(row.entity_mentions.teams),`${row.area_evidence_id}: entity_mentions structure missing`);
+    const handoff=(intelligenceByArea.get(row.area_evidence_id)||[]).filter(event=>['AREA_EVIDENCE_INGESTED','AREA_EVIDENCE_REACTIVATED'].includes(event.event_type)&&event.area_routing_state==='SUBSTANTIVE_CONTENT_ROUTED');
+    assert(handoff.length>0,`${row.area_evidence_id}: no substantive Intelligence handoff event`);
+    const latest=handoff.sort((a,b)=>Date.parse(b.captured_at)-Date.parse(a.captured_at))[0];
+    if(latest){
+      assert(latest.competition_class===row.competition_class,`${row.area_evidence_id}: Intelligence competition class mismatch`);
+      assert(latest.detail_version_id===row.detail_version_id,`${row.area_evidence_id}: Intelligence detail lineage mismatch`);
+      assert(latest.source_snapshot_id===row.source_snapshot_id,`${row.area_evidence_id}: Intelligence source-snapshot lineage mismatch`);
+      assert(latest.evidence_state==='VERIFIED',`${row.area_evidence_id}: substantive Intelligence event not VERIFIED`);
+      assert(latest.projection_effect==='NO_EFFECT',`${row.area_evidence_id}: substantive ingestion must not move projection directly`);
+      assert(latest.inference===null&&latest.inference_class==='NONE',`${row.area_evidence_id}: substantive Intelligence handoff contains inference`);
+    }
+    if(row.competition_class==='PUBLIC_PRESSURE') assert((row.extracted_cues?.pressure_terms||[]).length>0,`${row.area_evidence_id}: active PUBLIC_PRESSURE route lacks pressure cues`);
   }
 }
 
@@ -80,4 +105,4 @@ if(fail.length){
 }
 const active=areaRows.filter(x=>x.routing_state==='SUBSTANTIVE_CONTENT_ROUTED');
 const retracted=areaRows.filter(x=>x.routing_state==='RETRACTED_ROUTING_NOISE');
-console.log('POLITICAL_MAYHEM_INFORMATION_INGESTION_RUNTIME_PASS',`details=${detailRows.length}`,`active_area_records=${active.length}`,`retracted=${retracted.length}`,`attempts=${attempts.length}`);
+console.log('POLITICAL_MAYHEM_INFORMATION_INGESTION_RUNTIME_PASS',`details=${detailRows.length}`,`active_area_records=${active.length}`,`retracted=${retracted.length}`,`intelligence_handoffs=${active.filter(row=>(intelligenceByArea.get(row.area_evidence_id)||[]).some(e=>['AREA_EVIDENCE_INGESTED','AREA_EVIDENCE_REACTIVATED'].includes(e.event_type))).length}`,`attempts=${attempts.length}`);

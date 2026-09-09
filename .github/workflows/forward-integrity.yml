@@ -51,6 +51,8 @@ jobs:
         run: node scripts/validate-political-normalize-engine.mjs
       - name: Validate political contradiction engine
         run: node scripts/validate-political-conflict-engine.mjs
+      - name: Validate First Team evidence separation
+        run: node scripts/validate-first-team-integrity.mjs
       - name: Validate political abstention integrity
         run: node scripts/validate-political-abstention-integrity.mjs
       - name: Validate Political Research Sites parity

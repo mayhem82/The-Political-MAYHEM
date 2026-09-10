@@ -49,9 +49,9 @@
       "source_id": "SRC-NSW-MINISTERIAL-RELEASES",
       "jurisdiction_id": "AUS-NSW",
       "party_id": null,
-      "content_hash": "a8b4a247384a6813cac2495dd794bf204b12de42b0506793c198c9f75d3914d5",
-      "snapshot_id": "AUTO-WATCH-NSW-MINISTERIAL-RELEASES-20260910045050",
-      "captured_at": "2026-09-10T04:50:50.468Z",
+      "content_hash": "638cdb35fcac34a138d1af94aa154dc372e7b7bcee89cb3880b0cae05c31866f",
+      "snapshot_id": "AUTO-WATCH-NSW-MINISTERIAL-RELEASES-20260910094520",
+      "captured_at": "2026-09-10T09:45:20.888Z",
       "acquisition_url": "https://www.nsw.gov.au/ministerial-releases",
       "requested_url": "https://www.nsw.gov.au/ministerial-releases",
       "header_profile": "IDENTIFIED_AUTOMATION",
@@ -63,9 +63,9 @@
       "source_id": "SRC-APH-LIVE-MINUTES",
       "jurisdiction_id": "AUS-FED",
       "party_id": null,
-      "content_hash": "f8b7ae44f1bc87ba76fce2ebc9d879bb0f54a43913182e07e5911f537b967bdd",
-      "snapshot_id": "AUTO-WATCH-APH-LIVE-MINUTES-20260910045050",
-      "captured_at": "2026-09-10T04:50:50.468Z",
+      "content_hash": "a8eefd4cc563732fa65623a3222f9389269f7df6fd2bb9d500c326f2fafce78e",
+      "snapshot_id": "AUTO-WATCH-APH-LIVE-MINUTES-20260910094520",
+      "captured_at": "2026-09-10T09:45:20.888Z",
       "acquisition_url": "https://www.aph.gov.au/LiveMinutes",
       "requested_url": "https://www.aph.gov.au/LiveMinutes",
       "header_profile": "BROWSER_COMPATIBILITY",
@@ -463,9 +463,9 @@
       "source_id": "SRC-APH-BILLS",
       "jurisdiction_id": "AUS-FED",
       "party_id": null,
-      "content_hash": "e59c72fcf17c596e417ad615edfa87777fb0e94400d4f003247e8160a6198c71",
-      "snapshot_id": "AUTO-WATCH-APH-BILLS-20260910045050",
-      "captured_at": "2026-09-10T04:50:50.468Z",
+      "content_hash": "4fa04cbce840b00fa7a958f25d2271bd81c9c7447095114a36261d95632569b1",
+      "snapshot_id": "AUTO-WATCH-APH-BILLS-20260910094520",
+      "captured_at": "2026-09-10T09:45:20.888Z",
       "acquisition_url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation",
       "requested_url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation",
       "header_profile": "BROWSER_COMPATIBILITY",
@@ -502,11 +502,11 @@
       "captured_representation_complete": true
     }
   },
-  "updated_at": "2026-09-10T04:50:50.468Z",
+  "updated_at": "2026-09-10T09:45:20.888Z",
   "last_run": {
-    "captured_at": "2026-09-10T04:50:50.468Z",
+    "captured_at": "2026-09-10T09:45:20.888Z",
     "baselines_created": 0,
-    "source_changes_created": 8,
+    "source_changes_created": 3,
     "semantic_signals_created": 0,
     "representation_upgrades": 0,
     "failures": [
@@ -521,10 +521,6 @@
       {
         "watch_id": "WATCH-ECQ-MEDIA",
         "error": "https://www.ecq.qld.gov.au/media/2026-media-statements [IDENTIFIED_AUTOMATION] 403 Forbidden | https://www.ecq.qld.gov.au/media/2026-media-statements [BROWSER_COMPATIBILITY] 403 Forbidden | https://www.ecq.qld.gov.au/home [IDENTIFIED_AUTOMATION] 403 Forbidden | https://www.ecq.qld.gov.au/home [BROWSER_COMPATIBILITY] 403 Forbidden"
-      },
-      {
-        "watch_id": "WATCH-TAS-HANSARD",
-        "error": "https://search.parliament.tas.gov.au/Search/search/search?IW_FIELD_ADVANCE_PHRASE=2026%20IN%20TITLE&IW_DATABASE=Hansard&IW_SORT=-9&IW_SEARCH_SCOPE=meta [IDENTIFIED_AUTOMATION] timeout>15000ms | https://search.parliament.tas.gov.au/Search/search/search?IW_FIELD_ADVANCE_PHRASE=2026%20IN%20TITLE&IW_DATABASE=Hansard&IW_SORT=-9&IW_SEARCH_SCOPE=meta [BROWSER_COMPATIBILITY] timeout>15000ms"
       },
       {
         "watch_id": "WATCH-TAS-PREMIER-NEWS",
@@ -560,7 +556,7 @@
   "coverage": {
     "active_sources": 36,
     "baselines_captured": 36,
-    "current_run_failures": 11,
+    "current_run_failures": 10,
     "jurisdictions": {
       "AUS-FED": {
         "configured_sources": 10,
@@ -632,7 +628,7 @@
       "AUS-TAS": {
         "configured_sources": 3,
         "baseline_sources": 3,
-        "current_run_failures": 2,
+        "current_run_failures": 1,
         "source_classes": [
           "PRIMARY_ELECTORAL_AUTHORITY",
           "PRIMARY_GOVERNMENT",

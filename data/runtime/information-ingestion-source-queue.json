@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-MAYHEM-INFORMATION-SOURCE-QUEUE-001",
   "status": "ACTIVE",
-  "updated_at": "2026-09-10T04:52:02.428Z",
+  "updated_at": "2026-09-10T09:46:09.295Z",
   "rules": {
     "queue_is_derived_from_area_coverage": true,
     "source_path_gap_has_highest_priority": true,
@@ -1128,38 +1128,6 @@
       "state": "OPEN"
     },
     {
-      "queue_id": "INGEST-AUS-FED-ELECTORAL",
-      "priority": 3,
-      "jurisdiction_id": "AUS-FED",
-      "competition_class": "ELECTORAL",
-      "coverage_state": "INGESTION_PATH_READY_NO_SUBSTANTIVE_EVIDENCE",
-      "action": "BACKFILL_AVAILABLE_RECORDS_OR_WAIT_FOR_NEW_SUBSTANTIVE_RECORD",
-      "reason": "Source path and detail path exist, but no active substantive area evidence has yet been ingested.",
-      "missing_source_groups": [],
-      "existing_relevant_watch_ids": [
-        "WATCH-APH-LIVE-MINUTES",
-        "WATCH-APH-WEEK-AHEAD",
-        "WATCH-APH-BILLS",
-        "WATCH-AEC-MEDIA",
-        "WATCH-ALP-NEWS",
-        "WATCH-LIBERAL-HOME",
-        "WATCH-GREENS-FEDERAL-MEDIA",
-        "WATCH-NATIONALS-NEWS",
-        "WATCH-ONENATION-NEWS"
-      ],
-      "existing_detail_capable_watch_ids": [
-        "WATCH-APH-BILLS",
-        "WATCH-AEC-MEDIA",
-        "WATCH-ALP-NEWS",
-        "WATCH-GREENS-FEDERAL-MEDIA",
-        "WATCH-NATIONALS-NEWS",
-        "WATCH-ONENATION-NEWS"
-      ],
-      "substantive_area_evidence_count": 0,
-      "completion_condition": "Coverage cell reaches SUBSTANTIVE_EVIDENCE_ACTIVE with retained substantive-detail lineage.",
-      "state": "OPEN"
-    },
-    {
       "queue_id": "INGEST-AUS-FED-LEADERSHIP",
       "priority": 3,
       "jurisdiction_id": "AUS-FED",
@@ -1506,10 +1474,10 @@
     }
   ],
   "summary": {
-    "open_items": 67,
+    "open_items": 66,
     "add_missing_source_class_watch": 33,
     "add_or_upgrade_detail_capable_source": 14,
-    "backfill_or_wait": 20,
-    "active_cells_not_queued": 5
+    "backfill_or_wait": 19,
+    "active_cells_not_queued": 6
   }
 }

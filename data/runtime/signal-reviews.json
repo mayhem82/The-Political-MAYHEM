@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-SIGNAL-REVIEWS-001",
   "created_at": "2026-09-09T05:05:00+10:00",
-  "updated_at": "2026-09-10T04:51:45.344Z",
+  "updated_at": "2026-09-10T09:45:58.219Z",
   "rules": {
     "append_only": true,
     "raw_source_change_is_immutable": true,
@@ -24869,6 +24869,126 @@
           }
         ],
         "delta_hash": "5d70d15c8c4d2bbecd1a36f3244e19699cd58751937decf1719b5be257135b20"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-APH-BILLS-20260910094520",
+      "source_change_event_id": "CHG-WATCH-APH-BILLS-20260910094520",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-APH-BILLS-20260910094520",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Parliament of Australia — Bills and Legislation added 2 structured publication records to its forward-captured official index: Statute Update Bill 2026; Online Safety Amendment (Strengthening Enforcement...",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-09-10T09:45:58.219Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "7af106db09df9446f1cc",
+            "title": "Statute Update Bill 2026",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7500"
+          },
+          {
+            "record_id": "826617a8fec415f6ffb1",
+            "title": "Online Safety Amendment (Strengthening Enforcement...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7512"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "2df4c182076dedc8d5d6",
+            "title": "Wage Justice for Early Childhood Education and Car...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7529"
+          },
+          {
+            "record_id": "eb8ff799ba2da88b25af",
+            "title": "Private Health Insurance Amendment (Modernising th...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7497"
+          }
+        ],
+        "delta_hash": "902f487c228e553a4cbad7d77e8530f0629ebd3c3d71aa82147aacc0563659b7"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-NSW-MINISTERIAL-RELEASES-20260910094520",
+      "source_change_event_id": "CHG-WATCH-NSW-MINISTERIAL-RELEASES-20260910094520",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-NSW-MINISTERIAL-RELEASES-20260910094520",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "NSW Government — Ministerial releases added 4 structured publication records to its forward-captured official index: New Chief Executive to lead Sydney Metro; Progress underway on Dubbo PCYC upgrade and regional youth programs; Minns Labor Government to invest in NSW science, technology and innovation; Regional NSW Ambulance staff and community recognised for outstanding service and courage",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-09-10T09:45:58.219Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "09eeb8e844876d0bf843",
+            "title": "New Chief Executive to lead Sydney Metro",
+            "url": "https://www.nsw.gov.au/ministerial-releases/new-chief-executive-sydney-metro"
+          },
+          {
+            "record_id": "37092edb3917a2432bfa",
+            "title": "Progress underway on Dubbo PCYC upgrade and regional youth programs",
+            "url": "https://www.nsw.gov.au/ministerial-releases/dubbo-sports-world-upgrade-underway"
+          },
+          {
+            "record_id": "e36530be48cec42cb92a",
+            "title": "Minns Labor Government to invest in NSW science, technology and innovation",
+            "url": "https://www.nsw.gov.au/ministerial-releases/minns-labor-government-to-invest-nsw-science-technology-and-innovation"
+          },
+          {
+            "record_id": "e681485354e37678e421",
+            "title": "Regional NSW Ambulance staff and community recognised for outstanding service and courage",
+            "url": "https://www.nsw.gov.au/ministerial-releases/regional-nsw-ambulance-staff-and-community-recognised-for-outstanding-service-and-courage"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "0a5ee5664f528043992f",
+            "title": "Western NSW on the cutting edge with latest radiation therapy technology",
+            "url": "https://www.nsw.gov.au/ministerial-releases/western-nsw-on-cutting-edge-latest-radiation-therapy-technology"
+          },
+          {
+            "record_id": "382873e328671298d9d5",
+            "title": "226 new social homes for Western Sydney families",
+            "url": "https://www.nsw.gov.au/ministerial-releases/226-new-social-homes-for-western-sydney-families"
+          },
+          {
+            "record_id": "725ec623e454d2f678de",
+            "title": "Major upgrade underway at Orange Grove Public School",
+            "url": "https://www.nsw.gov.au/ministerial-releases/major-upgrade-underway-at-orange-grove-public-school"
+          },
+          {
+            "record_id": "cc82ca882fe4e1f9afd1",
+            "title": "Next Stage of Hume Highway Upgrade at Table Top to start",
+            "url": "https://www.nsw.gov.au/ministerial-releases/next-stage-of-hume-highway-upgrade-at-table-top-to-start"
+          }
+        ],
+        "delta_hash": "3c7b213a703928283f68b91648b8d445dc1d93e18807f0f7e4459602108eb386"
       },
       "integrity": {
         "source_change_unchanged": true,

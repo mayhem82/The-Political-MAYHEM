@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-SIGNAL-REVIEWS-001",
   "created_at": "2026-09-09T05:05:00+10:00",
-  "updated_at": "2026-09-10T00:17:30.959Z",
+  "updated_at": "2026-09-10T04:51:45.344Z",
   "rules": {
     "append_only": true,
     "raw_source_change_is_immutable": true,
@@ -24389,6 +24389,486 @@
           }
         ],
         "delta_hash": "aa6ad343c502c41f77e1a8f05fbbad96d39d906c572e94e197fed7d99e0cf70e"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-APH-BILLS-20260910045050",
+      "source_change_event_id": "CHG-WATCH-APH-BILLS-20260910045050",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-APH-BILLS-20260910045050",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Parliament of Australia — Bills and Legislation added 5 structured publication records to its forward-captured official index: Regulatory Reform Omnibus Bill 2026; Treasury Laws Amendment (Strengthening Accountabil...; Biosecurity Amendment (Improving Operational Effic...; Wine and Other Legislation Amendment Bill 2026; Private Health Insurance Amendment (Modernising th...",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-09-10T04:51:45.344Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "2a2a745834efd2cdb892",
+            "title": "Regulatory Reform Omnibus Bill 2026",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7481"
+          },
+          {
+            "record_id": "38f0990bef01dea1467e",
+            "title": "Treasury Laws Amendment (Strengthening Accountabil...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7514"
+          },
+          {
+            "record_id": "8ee0c4aab8a905eab9ff",
+            "title": "Biosecurity Amendment (Improving Operational Effic...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7518"
+          },
+          {
+            "record_id": "de07ab2c12b603353677",
+            "title": "Wine and Other Legislation Amendment Bill 2026",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7519"
+          },
+          {
+            "record_id": "eb8ff799ba2da88b25af",
+            "title": "Private Health Insurance Amendment (Modernising th...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7497"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "4c7a76b5989435c30a70",
+            "title": "Criminal Code Amendment (National Sport Integrity ...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7531"
+          },
+          {
+            "record_id": "5dfdb0f54589f88ce831",
+            "title": "Social Security and Other Legislation Amendment (T...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7515"
+          },
+          {
+            "record_id": "6a8c24adf037db28b31b",
+            "title": "Anti-Money Laundering and Counter-Terrorism Financ...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7448"
+          },
+          {
+            "record_id": "732221c68c87c7b3aff7",
+            "title": "Aged Care Legislation Amendment (Aboriginal and To...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7517"
+          },
+          {
+            "record_id": "826617a8fec415f6ffb1",
+            "title": "Online Safety Amendment (Strengthening Enforcement...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7512"
+          }
+        ],
+        "delta_hash": "f305a9333354ae2c6934cba6e76b8aa0a8e8a76bd1e70c4ed924a54d563acfcb"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-GREENS-FEDERAL-MEDIA-20260910045050",
+      "source_change_event_id": "CHG-WATCH-GREENS-FEDERAL-MEDIA-20260910045050",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-GREENS-FEDERAL-MEDIA-20260910045050",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": "AUS-FED-GRN",
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Australian Greens — Federal MPs media releases added 11 structured publication records to its forward-captured official index: Read more about Statement on the Improved Native Forest Management Instrument from Senators McKim, Bleyer, Steele-John; Statement on the Improved Native Forest Management Instrument from Senators McKim, Bleyer, Steele-John; Read more about “You cannot make this shit up”: Albanese talks climate leadership in the Pacific while Madeleine King cuts ribbon on new climate bomb gas project back home; “You cannot make this shit up”: Albanese talks climate leadership in the Pacific while Madeleine King cuts ribbon on new climate bomb gas project back home; Read more about Labor must ditch gas reservation and finally make gas industry pay up; +6 more",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-09-10T04:51:45.344Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "317bc71971f4590cb1b8",
+            "title": "Read more about Statement on the Improved Native Forest Management Instrument from Senators McKim, Bleyer, Steele-John",
+            "url": "https://greens.org.au/news/media-release/statement-improved-native-forest-management-instrument-senators-mckim-bleyer"
+          },
+          {
+            "record_id": "417e5d69ffb2f390b290",
+            "title": "Statement on the Improved Native Forest Management Instrument from Senators McKim, Bleyer, Steele-John",
+            "url": "https://greens.org.au/news/media-release/statement-improved-native-forest-management-instrument-senators-mckim-bleyer"
+          },
+          {
+            "record_id": "57f692b2ba67ba5c4993",
+            "title": "Read more about “You cannot make this shit up”: Albanese talks climate leadership in the Pacific while Madeleine King cuts ribbon on new climate bomb gas project back home",
+            "url": "https://greens.org.au/news/media-release/you-cannot-make-shit-albanese-talks-climate-leadership-pacific-while-madeleine"
+          },
+          {
+            "record_id": "631a3166705d5a6b0f18",
+            "title": "“You cannot make this shit up”: Albanese talks climate leadership in the Pacific while Madeleine King cuts ribbon on new climate bomb gas project back home",
+            "url": "https://greens.org.au/news/media-release/you-cannot-make-shit-albanese-talks-climate-leadership-pacific-while-madeleine"
+          },
+          {
+            "record_id": "77d7602bc49dfcc2a912",
+            "title": "Read more about Labor must ditch gas reservation and finally make gas industry pay up",
+            "url": "https://greens.org.au/news/media-release/labor-must-ditch-gas-reservation-and-finally-make-gas-industry-pay"
+          },
+          {
+            "record_id": "86094de7f53b0f21d144",
+            "title": "Labor must ditch gas reservation and finally make gas industry pay up",
+            "url": "https://greens.org.au/news/media-release/labor-must-ditch-gas-reservation-and-finally-make-gas-industry-pay"
+          },
+          {
+            "record_id": "8debf7bc167cae6c29fd",
+            "title": "Real pollution cuts, not accounting tricks: Greens announce support for improved INFM, oppose Labor&#039;s greenwashing carbon bill and IFLM",
+            "url": "https://greens.org.au/news/media-release/real-pollution-cuts-not-accounting-tricks-greens-announce-support-improved-infm"
+          },
+          {
+            "record_id": "b3a256f4cb0ad099ad3a",
+            "title": "Read more about Real pollution cuts, not accounting tricks: Greens announce support for improved INFM, oppose Labor&#039;s greenwashing carbon bill and IFLM",
+            "url": "https://greens.org.au/news/media-release/real-pollution-cuts-not-accounting-tricks-greens-announce-support-improved-infm"
+          },
+          {
+            "record_id": "b4ee04c1a2fa00a0674a",
+            "title": "Last page Last »",
+            "url": "https://greens.org.au/news/media-releases?page=296"
+          },
+          {
+            "record_id": "c1e162b2fabe09935b49",
+            "title": "Greens say Albanese must explain pork-barrelling claims at election inquiry",
+            "url": "https://greens.org.au/news/media-release/greens-say-albanese-must-explain-pork-barrelling-claims-election-inquiry"
+          },
+          {
+            "record_id": "d696226f3cd5a9e5ea2e",
+            "title": "Read more about Greens say Albanese must explain pork-barrelling claims at election inquiry",
+            "url": "https://greens.org.au/news/media-release/greens-say-albanese-must-explain-pork-barrelling-claims-election-inquiry"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "1c239473fd60be60daf1",
+            "title": "Labor siding with One Nation against refugees, again",
+            "url": "https://greens.org.au/news/media-release/labor-siding-one-nation-against-refugees-again"
+          },
+          {
+            "record_id": "27da509a0786a10208ed",
+            "title": "Read more about PM’s data centre backflip is a climate and energy disaster",
+            "url": "https://greens.org.au/news/media-release/pms-data-centre-backflip-climate-and-energy-disaster"
+          },
+          {
+            "record_id": "2b140384afb0451be1e4",
+            "title": "Last page Last »",
+            "url": "https://greens.org.au/news/media-releases?page=295"
+          },
+          {
+            "record_id": "375c60317e4e35ba777e",
+            "title": "PM’s data centre capitulation will push Queensland power bills up",
+            "url": "https://greens.org.au/news/media-release/pms-data-centre-capitulation-will-push-queensland-power-bills"
+          },
+          {
+            "record_id": "4554595ffbe8f4282b5d",
+            "title": "National Cabinet cannot keep ignoring women’s safety",
+            "url": "https://greens.org.au/news/media-release/national-cabinet-cannot-keep-ignoring-womens-safety"
+          },
+          {
+            "record_id": "46a06afb998ecb34641e",
+            "title": "Read more about Labor siding with One Nation against refugees, again",
+            "url": "https://greens.org.au/news/media-release/labor-siding-one-nation-against-refugees-again"
+          },
+          {
+            "record_id": "9c3cff9dfa39036301a0",
+            "title": "Read more about National Cabinet cannot keep ignoring women’s safety",
+            "url": "https://greens.org.au/news/media-release/national-cabinet-cannot-keep-ignoring-womens-safety"
+          },
+          {
+            "record_id": "a1cbfda5d4e242521d1d",
+            "title": "PM’s data centre backflip is a climate and energy disaster",
+            "url": "https://greens.org.au/news/media-release/pms-data-centre-backflip-climate-and-energy-disaster"
+          },
+          {
+            "record_id": "adb31230c3ef206685a0",
+            "title": "Media Release: Greens to Introduce Law Targeting Law Targeting Covert Smart Glasses",
+            "url": "https://greens.org.au/news/media-release/media-release-greens-introduce-law-targeting-law-targeting-covert-smart-glasses"
+          },
+          {
+            "record_id": "b8ae749dfa1ae9589918",
+            "title": "Read more about Media Release: Greens to Introduce Law Targeting Law Targeting Covert Smart Glasses",
+            "url": "https://greens.org.au/news/media-release/media-release-greens-introduce-law-targeting-law-targeting-covert-smart-glasses"
+          },
+          {
+            "record_id": "cc9def89502c8762b3ee",
+            "title": "Read more about PM’s data centre capitulation will push Queensland power bills up",
+            "url": "https://greens.org.au/news/media-release/pms-data-centre-capitulation-will-push-queensland-power-bills"
+          }
+        ],
+        "delta_hash": "3a044da9a54f79135cae8525c713c460a5e29de8e04dcb5e368d9415e04fb96a"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-ONENATION-NEWS-20260910045050",
+      "source_change_event_id": "CHG-WATCH-ONENATION-NEWS-20260910045050",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-ONENATION-NEWS-20260910045050",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": "AUS-FED-ONP",
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Pauline Hanson's One Nation — Latest News added 3 structured publication records to its forward-captured official index: Mark Nicholson: Victoria’s Pothole Problem Is Really a Government Spending Problem; Warren Pickering: A Story of Service, Accountability and Second Chances; Colleen Harkin Calls for Gender Ideology to Be Removed from Australian Schools",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-09-10T04:51:45.344Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "8d0bc4f2017863674ec4",
+            "title": "Mark Nicholson: Victoria’s Pothole Problem Is Really a Government Spending Problem",
+            "url": "http://www.onenation.org.au/victoria-pothole-spending",
+            "published": "Thu, 10 Sep 2026 10:32:00 +1000"
+          },
+          {
+            "record_id": "b2466f1f2cab247b4f99",
+            "title": "Warren Pickering: A Story of Service, Accountability and Second Chances",
+            "url": "http://www.onenation.org.au/warren-pickering-story",
+            "published": "Thu, 10 Sep 2026 12:52:08 +1000"
+          },
+          {
+            "record_id": "d6288fd76f56d39b9bfe",
+            "title": "Colleen Harkin Calls for Gender Ideology to Be Removed from Australian Schools",
+            "url": "http://www.onenation.org.au/gender-ideology-schools",
+            "published": "Thu, 10 Sep 2026 10:19:00 +1000"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "9b3b71ade844bfa0edcf",
+            "title": "One Nation Tasmania Officially Registered as a State Political Party",
+            "url": "http://www.onenation.org.au/one-nation-tasmania-registered",
+            "published": "Fri, 28 Aug 2026 18:24:23 +1000"
+          },
+          {
+            "record_id": "c4d1747599c9c5304fa1",
+            "title": "Mike Newman Steps Up as One Nation’s NSW Leader",
+            "url": "http://www.onenation.org.au/mike-newman-nsw-leader",
+            "published": "Mon, 31 Aug 2026 16:26:00 +1000"
+          },
+          {
+            "record_id": "dd10fd86c5d3a17558ee",
+            "title": "One Nation Celebrates Landslide Victory in Secret Harbour",
+            "url": "http://www.onenation.org.au/secret-harbour-landslide",
+            "published": "Tue, 01 Sep 2026 11:52:00 +1000"
+          }
+        ],
+        "delta_hash": "3c15934ca6cc915c6b044ba46859bdc8e1c92dc8291bcbd5ea1fcaf6fb3e79bd"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-NSW-MINISTERIAL-RELEASES-20260910045050",
+      "source_change_event_id": "CHG-WATCH-NSW-MINISTERIAL-RELEASES-20260910045050",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-NSW-MINISTERIAL-RELEASES-20260910045050",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "NSW Government — Ministerial releases added 5 structured publication records to its forward-captured official index: Western NSW on the cutting edge with latest radiation therapy technology; New strategy to drive growth and innovation for Aboriginal businesses in NSW; Virtual fencing trial shows gains in farm productivity and animal welfare; Minns Labor Government supports fertility literacy program for young women; NSW pharmacists to treat more conditions: ear infections, wound care & chronic illness",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-09-10T04:51:45.344Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "0a5ee5664f528043992f",
+            "title": "Western NSW on the cutting edge with latest radiation therapy technology",
+            "url": "https://www.nsw.gov.au/ministerial-releases/western-nsw-on-cutting-edge-latest-radiation-therapy-technology"
+          },
+          {
+            "record_id": "2cd9990b57b25c3eb1a0",
+            "title": "New strategy to drive growth and innovation for Aboriginal businesses in NSW",
+            "url": "https://www.nsw.gov.au/ministerial-releases/aboriginal-business-strategy-launched"
+          },
+          {
+            "record_id": "83a98a1d362fb08bcddf",
+            "title": "Virtual fencing trial shows gains in farm productivity and animal welfare",
+            "url": "https://www.nsw.gov.au/ministerial-releases/virtual-fencing-trial-shows-gains-farm-productivity-and-animal-welfare"
+          },
+          {
+            "record_id": "86d22d345c97946dd167",
+            "title": "Minns Labor Government supports fertility literacy program for young women",
+            "url": "https://www.nsw.gov.au/ministerial-releases/fertility-program-funded-young-women"
+          },
+          {
+            "record_id": "8724ceea07bb0855a281",
+            "title": "NSW pharmacists to treat more conditions: ear infections, wound care & chronic illness",
+            "url": "https://www.nsw.gov.au/ministerial-releases/nsw-pharmacists-to-treat-more-conditions-ear-infections-wound-care-chronic-illness"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "12939fb39cba0bae3d22",
+            "title": "Major milestone reached for Lismore Build to Rent homes",
+            "url": "https://www.nsw.gov.au/ministerial-releases/major-milestone-reached-for-lismore-build-to-rent-homes"
+          },
+          {
+            "record_id": "a0a4e9445f2e3941842a",
+            "title": "Stranded aged care and NDIS patients predicted to reach 1,700 in 2027",
+            "url": "https://www.nsw.gov.au/ministerial-releases/stranded-aged-care-and-ndis-patients-predicted-to-reach-1700-2027"
+          },
+          {
+            "record_id": "abecde10f4ce3e6ca645",
+            "title": "Avoca Drive upgrade powering ahead with shovels to hit the ground 18 months ahead of schedule",
+            "url": "https://www.nsw.gov.au/ministerial-releases/avoca-drive-upgrade-begins-early"
+          },
+          {
+            "record_id": "bba0a257d805f4eace21",
+            "title": "Lasting legacy: a new era for the Hunter as M1 extension opens",
+            "url": "https://www.nsw.gov.au/ministerial-releases/m1-extension-opens-hunter"
+          },
+          {
+            "record_id": "fbb4dbcee836b5447c7c",
+            "title": "Summit capitalises on NSW investment strength",
+            "url": "https://www.nsw.gov.au/ministerial-releases/summit-capitalises-on-nsw-investment-strength"
+          }
+        ],
+        "delta_hash": "c049e451990b87dfe06509eea7382bc29d9e1fd38a16a2e6097cd8672d709538"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-NSWEC-MEDIA-20260910045050",
+      "source_change_event_id": "CHG-WATCH-NSWEC-MEDIA-20260910045050",
+      "decision": "EXCLUDED_AS_NON_SIGNAL",
+      "signal_event_id": null,
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": null,
+      "materiality_state": "IMMATERIAL",
+      "claim": "Structured publication-index change contained removals only. It is retained as a raw source change but is not automatically promoted into a political signal.",
+      "review_basis": "Deterministic review policy excludes removal-only index changes because disappearance from an index does not establish a political event, reversal or substantive fact.",
+      "reviewed_at": "2026-09-10T04:51:45.344Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [],
+        "removed_records": [
+          {
+            "record_id": "9fddb4c9796e20137d5d",
+            "title": "'6-metre rules’ guideline",
+            "url": "https://elections.nsw.gov.au/integrity-and-regulation/consultation/have-your-say-on-the-6-metre-rules-guideline"
+          }
+        ],
+        "delta_hash": "11aec679ba30dc41d66f66406f8e78a563bfc15f0e21d6d2757ed077fa8a63e9"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20260910045050",
+      "source_change_event_id": "CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20260910045050",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20260910045050",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Queensland Government — Ministerial Media Statements added 5 structured publication records to its forward-captured official index: Record-breaking hazard reduction burns prepare protected areas for bushfire season; Three new dams join Queensland's fish stocking scheme; Insurance data confirms positive impact of Adult Crime Adult Time; Major upgrades to staff accommodation for Goondiwindi’s health workers; Everyday Foundation upgrades open to serve Sunshine Coast",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-09-10T04:51:45.344Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "2d3159f6864c3157a9d8",
+            "title": "Record-breaking hazard reduction burns prepare protected areas for bushfire season",
+            "url": "https://statements.qld.gov.au/statements/106031"
+          },
+          {
+            "record_id": "5c3b8eab8f33cfae7e9f",
+            "title": "Three new dams join Queensland's fish stocking scheme",
+            "url": "https://statements.qld.gov.au/statements/106032"
+          },
+          {
+            "record_id": "8b248df41cab1b4e2d06",
+            "title": "Insurance data confirms positive impact of Adult Crime Adult Time",
+            "url": "https://statements.qld.gov.au/statements/106033"
+          },
+          {
+            "record_id": "9fd4e5c28d6d648e0d2e",
+            "title": "Major upgrades to staff accommodation for Goondiwindi’s health workers",
+            "url": "https://statements.qld.gov.au/statements/106027"
+          },
+          {
+            "record_id": "c78a582a1fbab21b8b04",
+            "title": "Everyday Foundation upgrades open to serve Sunshine Coast",
+            "url": "https://statements.qld.gov.au/statements/106028"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "0ac5851acf4fd42e5766",
+            "title": "Direct bus link coming to Moggill Sports Park",
+            "url": "https://statements.qld.gov.au/statements/106011"
+          },
+          {
+            "record_id": "2c6623b211f050cb9850",
+            "title": "Tourism and Events Queensland Board to drive Destination 2045",
+            "url": "https://statements.qld.gov.au/statements/106000"
+          },
+          {
+            "record_id": "4cd876600612ae352d4d",
+            "title": "Statement from the Premier of Queensland and the Minister for Police",
+            "url": "https://statements.qld.gov.au/statements/106007"
+          },
+          {
+            "record_id": "5583e24ec167b6f8dd8c",
+            "title": "Riverfront transformation to unlock 2,200 homes for Queenslanders",
+            "url": "https://statements.qld.gov.au/statements/106012"
+          },
+          {
+            "record_id": "c4f6f965c667d745adbd",
+            "title": "Manufacturing grants growing Queensland industry",
+            "url": "https://statements.qld.gov.au/statements/106004"
+          }
+        ],
+        "delta_hash": "5d70d15c8c4d2bbecd1a36f3244e19699cd58751937decf1719b5be257135b20"
       },
       "integrity": {
         "source_change_unchanged": true,

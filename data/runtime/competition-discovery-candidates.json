@@ -69,63 +69,63 @@
     {
       "jurisdiction_id": "AUS-FED",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-10T00:17:39.787Z",
-      "signals_examined": 85,
-      "candidates_detected": 25
+      "last_screened_at": "2026-09-10T04:52:02.584Z",
+      "signals_examined": 90,
+      "candidates_detected": 32
     },
     {
       "jurisdiction_id": "AUS-NSW",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-10T00:17:39.787Z",
-      "signals_examined": 31,
+      "last_screened_at": "2026-09-10T04:52:02.584Z",
+      "signals_examined": 32,
       "candidates_detected": 5
     },
     {
       "jurisdiction_id": "AUS-VIC",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-10T00:17:39.787Z",
+      "last_screened_at": "2026-09-10T04:52:02.584Z",
       "signals_examined": 1,
       "candidates_detected": 0
     },
     {
       "jurisdiction_id": "AUS-QLD",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-10T00:17:39.787Z",
-      "signals_examined": 10,
+      "last_screened_at": "2026-09-10T04:52:02.584Z",
+      "signals_examined": 11,
       "candidates_detected": 43
     },
     {
       "jurisdiction_id": "AUS-WA",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-10T00:17:39.787Z",
+      "last_screened_at": "2026-09-10T04:52:02.584Z",
       "signals_examined": 2,
       "candidates_detected": 2
     },
     {
       "jurisdiction_id": "AUS-SA",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-10T00:17:39.787Z",
+      "last_screened_at": "2026-09-10T04:52:02.584Z",
       "signals_examined": 0,
       "candidates_detected": 0
     },
     {
       "jurisdiction_id": "AUS-TAS",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-10T00:17:39.787Z",
+      "last_screened_at": "2026-09-10T04:52:02.584Z",
       "signals_examined": 20,
       "candidates_detected": 0
     },
     {
       "jurisdiction_id": "AUS-ACT",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-10T00:17:39.787Z",
+      "last_screened_at": "2026-09-10T04:52:02.584Z",
       "signals_examined": 24,
       "candidates_detected": 1
     },
     {
       "jurisdiction_id": "AUS-NT",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-10T00:17:39.787Z",
+      "last_screened_at": "2026-09-10T04:52:02.584Z",
       "signals_examined": 31,
       "candidates_detected": 0
     }
@@ -3365,21 +3365,272 @@
           "reason": "SUBSTANTIVE_THRESHOLD_EVALUATION_PROPAGATED"
         }
       ]
+    },
+    {
+      "candidate_id": "DISC-FED-LEGISLATION-16472f354f5358a9",
+      "jurisdiction_id": "AUS-FED",
+      "competition_family": "LEGISLATION",
+      "proposed_competition_class": "LEGISLATIVE",
+      "proposed_cycle_id": "AUS-FED-48TH-PARLIAMENT",
+      "subject": "Regulatory Reform Omnibus Bill 2026",
+      "candidate_state": "EVIDENCE_GAP",
+      "detected_at": "2026-09-10T04:51:45.344Z",
+      "source_snapshot_ids": [
+        "AUTO-WATCH-APH-BILLS-20260910045050"
+      ],
+      "signal_event_ids": [
+        "SIG-REV-CHG-WATCH-APH-BILLS-20260910045050"
+      ],
+      "review_ids": [
+        "REV-CHG-WATCH-APH-BILLS-20260910045050"
+      ],
+      "area_evidence_ids": [],
+      "detail_version_ids": [],
+      "evidence_summary": "Screened PRIMARY_PARLIAMENT evidence contains language consistent with a legislation competition candidate. This is a discovery observation, not a registered contest or outcome inference.",
+      "registration_blockers": [
+        "MATERIAL_RESISTANCE_NOT_YET_EVIDENCED",
+        "SUPPORTING_SIDE_NOT_YET_RESOLVED",
+        "OPPOSING_SIDE_NOT_YET_RESOLVED"
+      ],
+      "linked_contest_id": null,
+      "state_history": [
+        {
+          "from": null,
+          "to": "EVIDENCE_GAP",
+          "at": "2026-09-10T04:51:45.344Z",
+          "reason": "DETERMINISTIC_COMPETITION_FAMILY_SCREEN"
+        }
+      ]
+    },
+    {
+      "candidate_id": "DISC-FED-PROCEDURAL-800939fecf61cd4d",
+      "jurisdiction_id": "AUS-FED",
+      "competition_family": "PROCEDURAL",
+      "proposed_competition_class": "PARLIAMENTARY_PROCEDURE",
+      "proposed_cycle_id": "AUS-FED-48TH-PARLIAMENT",
+      "subject": "Treasury Laws Amendment (Strengthening Accountabil...",
+      "candidate_state": "REVIEW_REQUIRED",
+      "detected_at": "2026-09-10T04:51:45.344Z",
+      "source_snapshot_ids": [
+        "AUTO-WATCH-APH-BILLS-20260910045050"
+      ],
+      "signal_event_ids": [
+        "SIG-REV-CHG-WATCH-APH-BILLS-20260910045050"
+      ],
+      "review_ids": [
+        "REV-CHG-WATCH-APH-BILLS-20260910045050"
+      ],
+      "area_evidence_ids": [],
+      "detail_version_ids": [],
+      "evidence_summary": "Screened PRIMARY_PARLIAMENT evidence contains language consistent with a procedural competition candidate. This is a discovery observation, not a registered contest or outcome inference.",
+      "registration_blockers": [
+        "MATERIAL_PROCEDURAL_OPPOSITION_REQUIRES_REVIEW"
+      ],
+      "linked_contest_id": null,
+      "state_history": [
+        {
+          "from": null,
+          "to": "REVIEW_REQUIRED",
+          "at": "2026-09-10T04:51:45.344Z",
+          "reason": "DETERMINISTIC_COMPETITION_FAMILY_SCREEN"
+        }
+      ]
+    },
+    {
+      "candidate_id": "DISC-FED-PROCEDURAL-a13b99ea65b42931",
+      "jurisdiction_id": "AUS-FED",
+      "competition_family": "PROCEDURAL",
+      "proposed_competition_class": "PARLIAMENTARY_PROCEDURE",
+      "proposed_cycle_id": "AUS-FED-48TH-PARLIAMENT",
+      "subject": "Biosecurity Amendment (Improving Operational Effic...",
+      "candidate_state": "REVIEW_REQUIRED",
+      "detected_at": "2026-09-10T04:51:45.344Z",
+      "source_snapshot_ids": [
+        "AUTO-WATCH-APH-BILLS-20260910045050"
+      ],
+      "signal_event_ids": [
+        "SIG-REV-CHG-WATCH-APH-BILLS-20260910045050"
+      ],
+      "review_ids": [
+        "REV-CHG-WATCH-APH-BILLS-20260910045050"
+      ],
+      "area_evidence_ids": [],
+      "detail_version_ids": [],
+      "evidence_summary": "Screened PRIMARY_PARLIAMENT evidence contains language consistent with a procedural competition candidate. This is a discovery observation, not a registered contest or outcome inference.",
+      "registration_blockers": [
+        "MATERIAL_PROCEDURAL_OPPOSITION_REQUIRES_REVIEW"
+      ],
+      "linked_contest_id": null,
+      "state_history": [
+        {
+          "from": null,
+          "to": "REVIEW_REQUIRED",
+          "at": "2026-09-10T04:51:45.344Z",
+          "reason": "DETERMINISTIC_COMPETITION_FAMILY_SCREEN"
+        }
+      ]
+    },
+    {
+      "candidate_id": "DISC-FED-LEGISLATION-9dfb2acec049003e",
+      "jurisdiction_id": "AUS-FED",
+      "competition_family": "LEGISLATION",
+      "proposed_competition_class": "LEGISLATIVE",
+      "proposed_cycle_id": "AUS-FED-48TH-PARLIAMENT",
+      "subject": "Wine and Other Legislation Amendment Bill 2026",
+      "candidate_state": "EVIDENCE_GAP",
+      "detected_at": "2026-09-10T04:51:45.344Z",
+      "source_snapshot_ids": [
+        "AUTO-WATCH-APH-BILLS-20260910045050"
+      ],
+      "signal_event_ids": [
+        "SIG-REV-CHG-WATCH-APH-BILLS-20260910045050"
+      ],
+      "review_ids": [
+        "REV-CHG-WATCH-APH-BILLS-20260910045050"
+      ],
+      "area_evidence_ids": [],
+      "detail_version_ids": [],
+      "evidence_summary": "Screened PRIMARY_PARLIAMENT evidence contains language consistent with a legislation competition candidate. This is a discovery observation, not a registered contest or outcome inference.",
+      "registration_blockers": [
+        "MATERIAL_RESISTANCE_NOT_YET_EVIDENCED",
+        "SUPPORTING_SIDE_NOT_YET_RESOLVED",
+        "OPPOSING_SIDE_NOT_YET_RESOLVED"
+      ],
+      "linked_contest_id": null,
+      "state_history": [
+        {
+          "from": null,
+          "to": "EVIDENCE_GAP",
+          "at": "2026-09-10T04:51:45.344Z",
+          "reason": "DETERMINISTIC_COMPETITION_FAMILY_SCREEN"
+        }
+      ]
+    },
+    {
+      "candidate_id": "DISC-FED-PROCEDURAL-0f8c94d7295e156f",
+      "jurisdiction_id": "AUS-FED",
+      "competition_family": "PROCEDURAL",
+      "proposed_competition_class": "PARLIAMENTARY_PROCEDURE",
+      "proposed_cycle_id": "AUS-FED-48TH-PARLIAMENT",
+      "subject": "Private Health Insurance Amendment (Modernising th...",
+      "candidate_state": "REVIEW_REQUIRED",
+      "detected_at": "2026-09-10T04:51:45.344Z",
+      "source_snapshot_ids": [
+        "AUTO-WATCH-APH-BILLS-20260910045050"
+      ],
+      "signal_event_ids": [
+        "SIG-REV-CHG-WATCH-APH-BILLS-20260910045050"
+      ],
+      "review_ids": [
+        "REV-CHG-WATCH-APH-BILLS-20260910045050"
+      ],
+      "area_evidence_ids": [],
+      "detail_version_ids": [],
+      "evidence_summary": "Screened PRIMARY_PARLIAMENT evidence contains language consistent with a procedural competition candidate. This is a discovery observation, not a registered contest or outcome inference.",
+      "registration_blockers": [
+        "MATERIAL_PROCEDURAL_OPPOSITION_REQUIRES_REVIEW"
+      ],
+      "linked_contest_id": null,
+      "state_history": [
+        {
+          "from": null,
+          "to": "REVIEW_REQUIRED",
+          "at": "2026-09-10T04:51:45.344Z",
+          "reason": "DETERMINISTIC_COMPETITION_FAMILY_SCREEN"
+        }
+      ]
+    },
+    {
+      "candidate_id": "DISC-FED-LEGISLATION-6f026add7c9e1a7d",
+      "jurisdiction_id": "AUS-FED",
+      "competition_family": "LEGISLATION",
+      "proposed_competition_class": "LEGISLATIVE",
+      "proposed_cycle_id": "AUS-FED-48TH-PARLIAMENT",
+      "subject": "Ingested substantive legislative evidence from Regulatory Reform Omnibus Bill 2026 &ndash; Parliament of Australia. Captured content includes stage: Introduced; resistance language: Amendment; outcome language: passed. Registration threshold state: evidence gap. Missing requirements: missing fact ty",
+      "candidate_state": "EVIDENCE_GAP",
+      "detected_at": "2026-09-10T04:52:02.291Z",
+      "source_snapshot_ids": [
+        "AUTO-WATCH-APH-BILLS-20260910045050"
+      ],
+      "signal_event_ids": [
+        "INTEL-AREA-55cb6e73cbab7c1f5366182a"
+      ],
+      "review_ids": [],
+      "area_evidence_ids": [
+        "AREA-55cb6e73cbab7c1f5366182a"
+      ],
+      "detail_version_ids": [
+        "DETAIL-432ba36ac9a18918ed3b6f9f-V1"
+      ],
+      "evidence_summary": "Substantive source record body was acquired, routed to LEGISLATIVE, and written into intelligence with retained detail, source-snapshot and stage-10 threshold lineage. Match registration remains a separate action.",
+      "registration_blockers": [
+        "MISSING_CONDITION_DISTINCT_SUPPORTING_AND_OPPOSING_SIDES",
+        "MISSING_FACT_TYPE_EXPLICIT_OPPOSITION_POSITION",
+        "MISSING_FACT_TYPE_EXPLICIT_SUPPORT_POSITION"
+      ],
+      "linked_contest_id": null,
+      "state_history": [
+        {
+          "from": null,
+          "to": "EVIDENCE_GAP",
+          "at": "2026-09-10T04:52:02.291Z",
+          "reason": "SUBSTANTIVE_THRESHOLD_EVALUATION_PROPAGATED"
+        }
+      ]
+    },
+    {
+      "candidate_id": "DISC-FED-LEGISLATION-cbb538af6a0ae055",
+      "jurisdiction_id": "AUS-FED",
+      "competition_family": "LEGISLATION",
+      "proposed_competition_class": "LEGISLATIVE",
+      "proposed_cycle_id": "AUS-FED-48TH-PARLIAMENT",
+      "subject": "Ingested substantive legislative evidence from Wine and Other Legislation Amendment Bill 2026 &ndash; Parliament of Australia. Captured content includes stage: Introduced; resistance language: Amendment; outcome language: Passed. Registration threshold state: evidence gap. Missing requirements: miss",
+      "candidate_state": "EVIDENCE_GAP",
+      "detected_at": "2026-09-10T04:52:02.291Z",
+      "source_snapshot_ids": [
+        "AUTO-WATCH-APH-BILLS-20260910045050"
+      ],
+      "signal_event_ids": [
+        "INTEL-AREA-6d9cf93d217ab1fb2274a4aa"
+      ],
+      "review_ids": [],
+      "area_evidence_ids": [
+        "AREA-6d9cf93d217ab1fb2274a4aa"
+      ],
+      "detail_version_ids": [
+        "DETAIL-c66286010677e7ab598c244b-V1"
+      ],
+      "evidence_summary": "Substantive source record body was acquired, routed to LEGISLATIVE, and written into intelligence with retained detail, source-snapshot and stage-10 threshold lineage. Match registration remains a separate action.",
+      "registration_blockers": [
+        "MISSING_CONDITION_DISTINCT_SUPPORTING_AND_OPPOSING_SIDES",
+        "MISSING_FACT_TYPE_EXPLICIT_OPPOSITION_POSITION",
+        "MISSING_FACT_TYPE_EXPLICIT_SUPPORT_POSITION",
+        "MISSING_FACT_TYPE_MATERIAL_RESISTANCE"
+      ],
+      "linked_contest_id": null,
+      "state_history": [
+        {
+          "from": null,
+          "to": "EVIDENCE_GAP",
+          "at": "2026-09-10T04:52:02.291Z",
+          "reason": "SUBSTANTIVE_THRESHOLD_EVALUATION_PROPAGATED"
+        }
+      ]
     }
   ],
-  "last_screened_at": "2026-09-10T00:17:39.787Z",
+  "last_screened_at": "2026-09-10T04:52:02.584Z",
   "last_screen_summary": {
-    "signals_examined": 204,
-    "candidates_total": 76,
-    "candidates_added": 0,
+    "signals_examined": 211,
+    "candidates_total": 83,
+    "candidates_added": 7,
     "candidate_lineage_merges": 242,
-    "substantive_area_events_examined": 47,
+    "substantive_area_events_examined": 49,
     "threshold_state_transitions": 0,
     "registered_contests_unchanged": true
   },
-  "last_duplicate_reconciliation_at": "2026-09-10T00:17:39.874Z",
+  "last_duplicate_reconciliation_at": "2026-09-10T04:52:02.677Z",
   "last_duplicate_reconciliation": {
     "rejected": 0,
-    "active_area_family_keys": 46
+    "active_area_family_keys": 48
   }
 }

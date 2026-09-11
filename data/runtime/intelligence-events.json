@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-INTELLIGENCE-EVENTS-001",
   "scope": "Australia — multi-jurisdiction",
-  "captured_at": "2026-09-10T21:39:25.505Z",
+  "captured_at": "2026-09-11T00:11:57.399Z",
   "mode": "FORWARD_ONLY",
   "rules": {
     "observation_distinct_from_inference": true,
@@ -63959,6 +63959,496 @@
       "projection_effect": "NO_EFFECT",
       "information_advantage": "NONE",
       "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-PM-MEDIA-20260911001120",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-FED",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-PM-MEDIA-20260911001120",
+      "captured_at": "2026-09-11T00:11:20.621Z",
+      "event_date": "2026-09-11",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-PM-MEDIA",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "review_policy": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-PM-MEDIA-20260909022740",
+        "content_hash": "43ae2dcc56cfdf3ece2a2c4af12e2eb9c61e3463cceef80f3e9355e7cec9d993",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-PM-MEDIA-20260911001120",
+        "content_hash": "6e23cef81fdeb00d33f3e03ca988f9fba9452efb3add3e5e7162c591e4cba85c",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "STRUCTURED_RECORD_SET",
+        "records_added": [
+          {
+            "record_id": "b37c56c1d19894956f67",
+            "title": "25th commemoration of September 11",
+            "url": "https://www.pm.gov.au/media/25th-commemoration-september-11"
+          }
+        ],
+        "records_removed": [
+          {
+            "record_id": "1177bc30d14c3f13c213",
+            "title": "Combatting transnational crime in the Pacific",
+            "url": "https://www.pm.gov.au/media/combatting-transnational-crime-pacific"
+          }
+        ],
+        "added_count": 1,
+        "removed_count": 1,
+        "before_count": 27,
+        "after_count": 27,
+        "delta_hash": "6b25c3df3d77a7c9febe903a0bb6397aed416f1f1ad13ca28b1cdb1df666908c"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-LIBERAL-HOME-20260911001120",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-FED",
+      "party_id": "AUS-FED-LIB",
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-LIBERAL-HOME-20260911001120",
+      "captured_at": "2026-09-11T00:11:20.621Z",
+      "event_date": "2026-09-11",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_PARTY",
+      "source_id": "SRC-LIBERAL-FEDERAL-HOME",
+      "capture_mode": "NORMALISED_PAGE_HASH",
+      "review_policy": "REVIEW_UNSTRUCTURED_CHANGE",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-LIBERAL-HOME-20260910045050",
+        "content_hash": "1c8f480caa93b2cf5858fd381bbb8d891d8136090bdaaa0fb4cff48e06a9dca6",
+        "capture_mode": "NORMALISED_PAGE_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-LIBERAL-HOME-20260911001120",
+        "content_hash": "bf060473248d5b0c03b62941c544d2ccf9a90408bfd54093dbed81785720c602",
+        "capture_mode": "NORMALISED_PAGE_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "TEXT_REPRESENTATION",
+        "first_difference_offset": 1431,
+        "before_length": 7390,
+        "after_length": 7138,
+        "before_excerpt": "pposition in the Senate Meet the Liberal Team The Latest Stay up to date with the Liberal Party of Australia liberalaus Anthony Albanese can`t lie straight in bed. It`s now up to Labor to take responsibility for his actions. How many times will they stand by him lying to the Australian people? From power prices, to tax increases, even falling off a stage and now supporting a golf club, he has a massive problem with the truth. So how much longer will Labor stand by his lies? Sep 10 Open post by liberalaus with ID 18135900565617509 angustaylormp Birth, life and death taxes. There’s nothing this Treasurer won’t tax. Today we uncovered Labor’s latest tax trap: adding a newborn to a trust structure could trigger a 47% tax on its entire income. That’s big for small and family businesses. Each one of Labor’s new taxes is toxic — and we’ll scrap the lot. Sep 9 Open post by angustaylormp with ID 17933696928382306 senatorhume Labor’s attempt to clean up the CFMEU is far from done. The CFMEU Administrator needs the powers necessary to stamp out corruption and misconduct. The Parliament must act and change this law. Sep 9 Open post by senatorhume with ID 18095816369572499 angustaylormp They served our country but Labor is capping their healthcare. Our veterans deserve better. We’ll scrap the cap. Sep 9 Open post by angustaylormp with ID 18016941893928995 liberalaus Australia needs an honest conversation about illicit tobacco. This is no longer only a question of tax settings or smoking rates &#8211; it is an organised crime problem operating in suburbs across the country. The Liberals and Nationals have a plan to smash that business model: cut tobacco excise by 80 per cent, strengthen law enforcement, and drive consumers away from the black market. Sep 9 Open post by liberalaus with ID 18114913064086106 angustaylormp Congratulations to Narelle Zanker on being named Agrifuture’s 2026 Rural Woman of the Year! Narelle has combined her two passions &#8211; farming and education &#8211; to create Dairy Adventures, opening up her family’s working dairy farm near Mannum and giving thousands of Australians the chance to see where their food comes from. From bottle-feeding calves to learning about dairy farming, animal care and food production, Narelle is doing an incredible job of bringing the city and country closer together. It’s a fantastic recognition of an inspiring South Australian, a brilliant family business and the women who are helping shape the future of Australian agriculture. Sep 9 Open post by angustaylormp with ID 18106604660137572 liberalaus Albanese must immediately scrap this damaging policy &#8211; it hurts older Australians, increases pressure on taxpayers and further strains our public health system. Sep 9 Open post by liberalaus with ID 18016126871947242 liberalaus Only the Liberals and Nationals have the right leadership, strong team, and a realistic plan to restore Australians’ standard of living and protect our way of life. Sep 9 Open post by liberalaus with ID 17980943553089395 liberalaus Labor has managed to design a birth tax that punishes family businesses for having a baby. The Liberals and Nationals will axe Labor`s toxic taxes. Sep 9 Open post by liberalaus with ID 18019688309713095 senatorhume I know what I stand against. Can Labor say the same? Sep 8 Open post by senatorhume with ID 18029195333893411 angustaylormp A Labor Premier is now telling the Prime Minister that his tobacco tax isn’t working. If Chris Minns gets it, why doesn’t the Prime Minister? Sep 8 Open post by angustaylormp with ID 17983549512071400 senatorhume Australians deserve answers about exactly what the Albanese government knew about corruption and criminal activity on Victorian construction sites. Sep 8 Open post by senatorhume with ID 18115408204998078 liberalaus To free-up housing stock and to begin to restore the dream of home ownership, we will cap immigration numbers based on available housing. This will close Labor’s housing shortage. Sep 8 Open post by liberalaus with ID 18462133693189272 liberalaus Labor`s latest \"truth\" is that the algorithm makes Albanese lie.. Sep 8 Open post by liberalaus with ID 18018384224869322 angustaylormp Protect our children. Smash the gangs. Take back control. Sep 8 Open post by angustaylormp with ID 18123502024850035 liberalaus Anthony Albanese needs to get his head out of the sand on tobacco policy. Labor has allowed the illegal tobacco trade to flourish, funnelling billions of dollars into organised crime and fuelling violence in our communities. The Liberals and Nationals have a plan to smash that business model: cut tobacco excise by 80 per cent, strengthen law enforcement, and drive consumers away from the black market. Sep 8 Open post by liberalaus with ID 18091198148538917 liberalaus Bracket creep is a tax rise nobody voted for. Every year you work harder, get a pay rise, and the tax system quietly takes a bigger share. Labor calls it a pay rise. Your bank account knows better. The Liberals and Nationals will end bracket creep. From 2028-29, 85% of taxpayers will be fully protected, with tax cuts that grow every single year. And if inflation goes up, the tax cuts get bigger. Sep 7 Open post by liberalaus with ID 18096246017651530 angustaylormp 🇦🇺🇦🇺🇦🇺 Sep 7 Open post by angustaylormp with ID 17945016426294834 We need your support to win! Help us by making a donation today. 🙏🏼 $30 👏🏼 $60 😃 $120 😁 $500 😲 $1,000 🥹 $2,000 ",
+        "after_excerpt": "pposition in the Senate Meet the Liberal Team The Latest Stay up to date with the Liberal Party of Australia liberalaus We will never forget. Sep 10 Open post by liberalaus with ID 18097008290336492 liberalaus Organised crime is making billions from Australia’s illegal tobacco market. The Liberals and Nationals will cut the tobacco excise by 80 per cent to destroy the black market’s price advantage, invest $200 million in stronger law enforcement, and regulate vapes and nicotine pouches for adults. The goal is simple: take away the gangs’ customers, take away their profits, protect children, and put organised crime out of business. Sep 10 Open post by liberalaus with ID 18089383766673543 liberalaus Hey Labor! How much longer are you going to stand by Albo`s weird lies? But don`t get Anika Wells to tell us&#8230; Sep 10 Open post by liberalaus with ID 18627348874036015 liberalaus Anthony Albanese can`t lie straight in bed. It`s now up to Labor to take responsibility for his actions. How many times will they stand by him lying to the Australian people? From power prices, to tax increases, even falling off a stage and now supporting a golf club, he has a massive problem with the truth. So how much longer will Labor stand by his lies? Sep 10 Open post by liberalaus with ID 18135900565617509 angustaylormp Birth, life and death taxes. There’s nothing this Treasurer won’t tax. Today we uncovered Labor’s latest tax trap: adding a newborn to a trust structure could trigger a 47% tax on its entire income. That’s big for small and family businesses. Each one of Labor’s new taxes is toxic — and we’ll scrap the lot. Sep 9 Open post by angustaylormp with ID 17933696928382306 senatorhume Labor’s attempt to clean up the CFMEU is far from done. The CFMEU Administrator needs the powers necessary to stamp out corruption and misconduct. The Parliament must act and change this law. Sep 9 Open post by senatorhume with ID 18095816369572499 angustaylormp They served our country but Labor is capping their healthcare. Our veterans deserve better. We’ll scrap the cap. Sep 9 Open post by angustaylormp with ID 18016941893928995 liberalaus Australia needs an honest conversation about illicit tobacco. This is no longer only a question of tax settings or smoking rates &#8211; it is an organised crime problem operating in suburbs across the country. The Liberals and Nationals have a plan to smash that business model: cut tobacco excise by 80 per cent, strengthen law enforcement, and drive consumers away from the black market. Sep 9 Open post by liberalaus with ID 18114913064086106 angustaylormp Congratulations to Narelle Zanker on being named Agrifuture’s 2026 Rural Woman of the Year! Narelle has combined her two passions &#8211; farming and education &#8211; to create Dairy Adventures, opening up her family’s working dairy farm near Mannum and giving thousands of Australians the chance to see where their food comes from. From bottle-feeding calves to learning about dairy farming, animal care and food production, Narelle is doing an incredible job of bringing the city and country closer together. It’s a fantastic recognition of an inspiring South Australian, a brilliant family business and the women who are helping shape the future of Australian agriculture. Sep 9 Open post by angustaylormp with ID 18106604660137572 liberalaus Albanese must immediately scrap this damaging policy &#8211; it hurts older Australians, increases pressure on taxpayers and further strains our public health system. Sep 9 Open post by liberalaus with ID 18016126871947242 liberalaus Only the Liberals and Nationals have the right leadership, strong team, and a realistic plan to restore Australians’ standard of living and protect our way of life. Sep 9 Open post by liberalaus with ID 17980943553089395 liberalaus Labor has managed to design a birth tax that punishes family businesses for having a baby. The Liberals and Nationals will axe Labor`s toxic taxes. Sep 9 Open post by liberalaus with ID 18019688309713095 senatorhume I know what I stand against. Can Labor say the same? Sep 8 Open post by senatorhume with ID 18029195333893411 angustaylormp A Labor Premier is now telling the Prime Minister that his tobacco tax isn’t working. If Chris Minns gets it, why doesn’t the Prime Minister? Sep 8 Open post by angustaylormp with ID 17983549512071400 senatorhume Australians deserve answers about exactly what the Albanese government knew about corruption and criminal activity on Victorian construction sites. Sep 8 Open post by senatorhume with ID 18115408204998078 liberalaus To free-up housing stock and to begin to restore the dream of home ownership, we will cap immigration numbers based on available housing. This will close Labor’s housing shortage. Sep 8 Open post by liberalaus with ID 18462133693189272 liberalaus Labor`s latest \"truth\" is that the algorithm makes Albanese lie.. Sep 8 Open post by liberalaus with ID 18018384224869322 angustaylormp Protect our children. Smash the gangs. Take back control. Sep 8 Open post by angustaylormp with ID 18123502024850035 We need your support to win! Help us by making a donation today. 🙏🏼 $30 👏🏼 $60 😃 $120 😁 $500 😲 $1,000 🥹 $2,000 ",
+        "delta_hash": "ea43f74ff0e72715fbd1ef14328e3ac2e59e1838cae5d0c229d0174ed23912c4"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-NSW-MINISTERIAL-RELEASES-20260911001120",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-NSW",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-NSW-MINISTERIAL-RELEASES-20260911001120",
+      "captured_at": "2026-09-11T00:11:20.621Z",
+      "event_date": "2026-09-11",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-NSW-MINISTERIAL-RELEASES",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "review_policy": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-NSW-MINISTERIAL-RELEASES-20260910094520",
+        "content_hash": "638cdb35fcac34a138d1af94aa154dc372e7b7bcee89cb3880b0cae05c31866f",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-NSW-MINISTERIAL-RELEASES-20260911001120",
+        "content_hash": "e9442987994144cdb05cafa5c058fe711507e7636fd33010a987ba4a8017de89",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "STRUCTURED_RECORD_SET",
+        "records_added": [
+          {
+            "record_id": "08afa8f23244401f4a11",
+            "title": "Bomaderry among 25 new public preschools now accepting enrolment expressions of interest",
+            "url": "https://www.nsw.gov.au/ministerial-releases/bomaderry-among-25-new-public-preschools-now-accepting-enrolment-expressions-of-interest"
+          },
+          {
+            "record_id": "62b8e62216f64fe29bf9",
+            "title": "DA approval paves the way for more homes in Bega",
+            "url": "https://www.nsw.gov.au/ministerial-releases/da-approval-paves-way-for-more-homes-bega"
+          },
+          {
+            "record_id": "6790f91a67db69f47238",
+            "title": "Gold medal metro station to boost Sydney Olympic Park",
+            "url": "https://www.nsw.gov.au/ministerial-releases/gold-medal-metro-station-to-boost-sydney-olympic-park"
+          },
+          {
+            "record_id": "95e9a5586b4edaffd946",
+            "title": "$150 million investment strengthens Eurobodalla&#x27;s water security",
+            "url": "https://www.nsw.gov.au/ministerial-releases/150-million-investment-strengthens-eurobodallas-water-security"
+          },
+          {
+            "record_id": "9ee8ac5478065a77a76f",
+            "title": "Building back stronger: $17.4 million to harden Ballina Shire roads against future floods",
+            "url": "https://www.nsw.gov.au/ministerial-releases/building-back-stronger-174-million-to-harden-ballina-shire-roads-against-future-floods"
+          },
+          {
+            "record_id": "ae8fb582c7f9df67c261",
+            "title": "Works get underway on Gosford Waterfront revitalisation",
+            "url": "https://www.nsw.gov.au/ministerial-releases/works-get-underway-on-gosford-waterfront-revitalisation"
+          }
+        ],
+        "records_removed": [
+          {
+            "record_id": "2cd9990b57b25c3eb1a0",
+            "title": "New strategy to drive growth and innovation for Aboriginal businesses in NSW",
+            "url": "https://www.nsw.gov.au/ministerial-releases/aboriginal-business-strategy-launched"
+          },
+          {
+            "record_id": "83a98a1d362fb08bcddf",
+            "title": "Virtual fencing trial shows gains in farm productivity and animal welfare",
+            "url": "https://www.nsw.gov.au/ministerial-releases/virtual-fencing-trial-shows-gains-farm-productivity-and-animal-welfare"
+          },
+          {
+            "record_id": "86d22d345c97946dd167",
+            "title": "Minns Labor Government supports fertility literacy program for young women",
+            "url": "https://www.nsw.gov.au/ministerial-releases/fertility-program-funded-young-women"
+          },
+          {
+            "record_id": "947c2b193a3e03771ea0",
+            "title": "$37 million upgraded advisory service for small business in NSW",
+            "url": "https://www.nsw.gov.au/ministerial-releases/small-business-advisory-service-upgraded"
+          },
+          {
+            "record_id": "d3b3c06fc1c8570ec89e",
+            "title": "Clarkes Beach protected as erosion works complete",
+            "url": "https://www.nsw.gov.au/ministerial-releases/clarkes-beach-erosion-works-complete"
+          },
+          {
+            "record_id": "e36530be48cec42cb92a",
+            "title": "Minns Labor Government to invest in NSW science, technology and innovation",
+            "url": "https://www.nsw.gov.au/ministerial-releases/minns-labor-government-to-invest-nsw-science-technology-and-innovation"
+          }
+        ],
+        "added_count": 6,
+        "removed_count": 6,
+        "before_count": 88,
+        "after_count": 88,
+        "delta_hash": "22b3089900028726565cbed2eb50b956099a4c32f01f94e1efd5da8e956fecc0"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20260911001120",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-QLD",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-QLD-MINISTERIAL-STATEMENTS-20260911001120",
+      "captured_at": "2026-09-11T00:11:20.621Z",
+      "event_date": "2026-09-11",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-QLD-MINISTERIAL-STATEMENTS",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "review_policy": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-QLD-MINISTERIAL-STATEMENTS-20260910045050",
+        "content_hash": "7df2299817b5a2143979881adfc8e12ee97b3f6b7c0d4da321c67ef615ab8afb",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-QLD-MINISTERIAL-STATEMENTS-20260911001120",
+        "content_hash": "ea43371355b4ed102ede560335a9871d6481dc1ee98a382ebc2ad5da2b9810dc",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "STRUCTURED_RECORD_SET",
+        "records_added": [
+          {
+            "record_id": "256afabe219c58cbf86b",
+            "title": "New technology and safer conditions for Queensland swimmers and whales",
+            "url": "https://statements.qld.gov.au/statements/106038"
+          },
+          {
+            "record_id": "c67afc2505a00568dfac",
+            "title": "Kolonga Bruce Highway intersection upgrades to get the Wide Bay home sooner and safer",
+            "url": "https://statements.qld.gov.au/statements/106037"
+          }
+        ],
+        "records_removed": [
+          {
+            "record_id": "0136fc67fc1732b5b200",
+            "title": "Threatened species get a boost with bilbies and wombats on the move",
+            "url": "https://statements.qld.gov.au/statements/106010"
+          },
+          {
+            "record_id": "7039b60e1c724d5588ea",
+            "title": "Child protection reforms delivering immediate impact",
+            "url": "https://statements.qld.gov.au/statements/106015"
+          }
+        ],
+        "added_count": 2,
+        "removed_count": 2,
+        "before_count": 16,
+        "after_count": 16,
+        "delta_hash": "b53f8b5710434f7326d1e6a539135fabaf663d661a9febc6a349c10644b816b4"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "SIG-REV-CHG-WATCH-PM-MEDIA-20260911001120",
+      "parent_event_id": "CHG-WATCH-PM-MEDIA-20260911001120",
+      "review_id": "REV-CHG-WATCH-PM-MEDIA-20260911001120",
+      "jurisdiction_id": "AUS-FED",
+      "party_id": null,
+      "actor_id": null,
+      "contest_id": null,
+      "cycle_id": null,
+      "source_snapshot_id": "AUTO-WATCH-PM-MEDIA-20260911001120",
+      "record_id": "b37c56c1d19894956f67",
+      "captured_at": "2026-09-11T00:11:52.953Z",
+      "event_date": "2026-09-11",
+      "checkpoint": "CONTINUOUS_FORWARD_SIGNAL_REVIEW",
+      "event_type": "SIGNAL_CREATED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-PM-MEDIA",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "claim": "Prime Minister of Australia — media added 1 structured publication record to its forward-captured official index: 25th commemoration of September 11",
+      "observed_behaviour": "One or more structured publication records appeared in the monitored official source index after the preceding forward snapshot.",
+      "publication_records_added": [
+        {
+          "record_id": "b37c56c1d19894956f67",
+          "title": "25th commemoration of September 11",
+          "url": "https://www.pm.gov.au/media/25th-commemoration-september-11"
+        }
+      ],
+      "publication_records_removed": [
+        {
+          "record_id": "1177bc30d14c3f13c213",
+          "title": "Combatting transnational crime in the Pacific",
+          "url": "https://www.pm.gov.au/media/combatting-transnational-crime-pacific"
+        }
+      ],
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "underlying_publication_claims_not_promoted_to_verified_fact": true,
+        "source_change_parent_retained": true,
+        "deterministic_review": true
+      }
+    },
+    {
+      "event_id": "SIG-REV-CHG-WATCH-NSW-MINISTERIAL-RELEASES-20260911001120",
+      "parent_event_id": "CHG-WATCH-NSW-MINISTERIAL-RELEASES-20260911001120",
+      "review_id": "REV-CHG-WATCH-NSW-MINISTERIAL-RELEASES-20260911001120",
+      "jurisdiction_id": "AUS-NSW",
+      "party_id": null,
+      "actor_id": null,
+      "contest_id": null,
+      "cycle_id": null,
+      "source_snapshot_id": "AUTO-WATCH-NSW-MINISTERIAL-RELEASES-20260911001120",
+      "record_id": null,
+      "captured_at": "2026-09-11T00:11:52.953Z",
+      "event_date": "2026-09-11",
+      "checkpoint": "CONTINUOUS_FORWARD_SIGNAL_REVIEW",
+      "event_type": "SIGNAL_CREATED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-NSW-MINISTERIAL-RELEASES",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "claim": "NSW Government — Ministerial releases added 6 structured publication records to its forward-captured official index: Bomaderry among 25 new public preschools now accepting enrolment expressions of interest; DA approval paves the way for more homes in Bega; Gold medal metro station to boost Sydney Olympic Park; $150 million investment strengthens Eurobodalla&#x27;s water security; Building back stronger: $17.4 million to harden Ballina Shire roads against future floods; +1 more",
+      "observed_behaviour": "One or more structured publication records appeared in the monitored official source index after the preceding forward snapshot.",
+      "publication_records_added": [
+        {
+          "record_id": "08afa8f23244401f4a11",
+          "title": "Bomaderry among 25 new public preschools now accepting enrolment expressions of interest",
+          "url": "https://www.nsw.gov.au/ministerial-releases/bomaderry-among-25-new-public-preschools-now-accepting-enrolment-expressions-of-interest"
+        },
+        {
+          "record_id": "62b8e62216f64fe29bf9",
+          "title": "DA approval paves the way for more homes in Bega",
+          "url": "https://www.nsw.gov.au/ministerial-releases/da-approval-paves-way-for-more-homes-bega"
+        },
+        {
+          "record_id": "6790f91a67db69f47238",
+          "title": "Gold medal metro station to boost Sydney Olympic Park",
+          "url": "https://www.nsw.gov.au/ministerial-releases/gold-medal-metro-station-to-boost-sydney-olympic-park"
+        },
+        {
+          "record_id": "95e9a5586b4edaffd946",
+          "title": "$150 million investment strengthens Eurobodalla&#x27;s water security",
+          "url": "https://www.nsw.gov.au/ministerial-releases/150-million-investment-strengthens-eurobodallas-water-security"
+        },
+        {
+          "record_id": "9ee8ac5478065a77a76f",
+          "title": "Building back stronger: $17.4 million to harden Ballina Shire roads against future floods",
+          "url": "https://www.nsw.gov.au/ministerial-releases/building-back-stronger-174-million-to-harden-ballina-shire-roads-against-future-floods"
+        },
+        {
+          "record_id": "ae8fb582c7f9df67c261",
+          "title": "Works get underway on Gosford Waterfront revitalisation",
+          "url": "https://www.nsw.gov.au/ministerial-releases/works-get-underway-on-gosford-waterfront-revitalisation"
+        }
+      ],
+      "publication_records_removed": [
+        {
+          "record_id": "2cd9990b57b25c3eb1a0",
+          "title": "New strategy to drive growth and innovation for Aboriginal businesses in NSW",
+          "url": "https://www.nsw.gov.au/ministerial-releases/aboriginal-business-strategy-launched"
+        },
+        {
+          "record_id": "83a98a1d362fb08bcddf",
+          "title": "Virtual fencing trial shows gains in farm productivity and animal welfare",
+          "url": "https://www.nsw.gov.au/ministerial-releases/virtual-fencing-trial-shows-gains-farm-productivity-and-animal-welfare"
+        },
+        {
+          "record_id": "86d22d345c97946dd167",
+          "title": "Minns Labor Government supports fertility literacy program for young women",
+          "url": "https://www.nsw.gov.au/ministerial-releases/fertility-program-funded-young-women"
+        },
+        {
+          "record_id": "947c2b193a3e03771ea0",
+          "title": "$37 million upgraded advisory service for small business in NSW",
+          "url": "https://www.nsw.gov.au/ministerial-releases/small-business-advisory-service-upgraded"
+        },
+        {
+          "record_id": "d3b3c06fc1c8570ec89e",
+          "title": "Clarkes Beach protected as erosion works complete",
+          "url": "https://www.nsw.gov.au/ministerial-releases/clarkes-beach-erosion-works-complete"
+        },
+        {
+          "record_id": "e36530be48cec42cb92a",
+          "title": "Minns Labor Government to invest in NSW science, technology and innovation",
+          "url": "https://www.nsw.gov.au/ministerial-releases/minns-labor-government-to-invest-nsw-science-technology-and-innovation"
+        }
+      ],
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "underlying_publication_claims_not_promoted_to_verified_fact": true,
+        "source_change_parent_retained": true,
+        "deterministic_review": true
+      }
+    },
+    {
+      "event_id": "SIG-REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20260911001120",
+      "parent_event_id": "CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20260911001120",
+      "review_id": "REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20260911001120",
+      "jurisdiction_id": "AUS-QLD",
+      "party_id": null,
+      "actor_id": null,
+      "contest_id": null,
+      "cycle_id": null,
+      "source_snapshot_id": "AUTO-WATCH-QLD-MINISTERIAL-STATEMENTS-20260911001120",
+      "record_id": null,
+      "captured_at": "2026-09-11T00:11:52.953Z",
+      "event_date": "2026-09-11",
+      "checkpoint": "CONTINUOUS_FORWARD_SIGNAL_REVIEW",
+      "event_type": "SIGNAL_CREATED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-QLD-MINISTERIAL-STATEMENTS",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "claim": "Queensland Government — Ministerial Media Statements added 2 structured publication records to its forward-captured official index: New technology and safer conditions for Queensland swimmers and whales; Kolonga Bruce Highway intersection upgrades to get the Wide Bay home sooner and safer",
+      "observed_behaviour": "One or more structured publication records appeared in the monitored official source index after the preceding forward snapshot.",
+      "publication_records_added": [
+        {
+          "record_id": "256afabe219c58cbf86b",
+          "title": "New technology and safer conditions for Queensland swimmers and whales",
+          "url": "https://statements.qld.gov.au/statements/106038"
+        },
+        {
+          "record_id": "c67afc2505a00568dfac",
+          "title": "Kolonga Bruce Highway intersection upgrades to get the Wide Bay home sooner and safer",
+          "url": "https://statements.qld.gov.au/statements/106037"
+        }
+      ],
+      "publication_records_removed": [
+        {
+          "record_id": "0136fc67fc1732b5b200",
+          "title": "Threatened species get a boost with bilbies and wombats on the move",
+          "url": "https://statements.qld.gov.au/statements/106010"
+        },
+        {
+          "record_id": "7039b60e1c724d5588ea",
+          "title": "Child protection reforms delivering immediate impact",
+          "url": "https://statements.qld.gov.au/statements/106015"
+        }
+      ],
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "underlying_publication_claims_not_promoted_to_verified_fact": true,
+        "source_change_parent_retained": true,
+        "deterministic_review": true
+      }
     }
   ]
 }

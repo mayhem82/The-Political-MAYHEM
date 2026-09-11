@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-SIGNAL-REVIEWS-001",
   "created_at": "2026-09-09T05:05:00+10:00",
-  "updated_at": "2026-09-10T21:39:15.964Z",
+  "updated_at": "2026-09-11T00:11:52.953Z",
   "rules": {
     "append_only": true,
     "raw_source_change_is_immutable": true,
@@ -24989,6 +24989,186 @@
           }
         ],
         "delta_hash": "3c7b213a703928283f68b91648b8d445dc1d93e18807f0f7e4459602108eb386"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-PM-MEDIA-20260911001120",
+      "source_change_event_id": "CHG-WATCH-PM-MEDIA-20260911001120",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-PM-MEDIA-20260911001120",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Prime Minister of Australia — media added 1 structured publication record to its forward-captured official index: 25th commemoration of September 11",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-09-11T00:11:52.953Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "b37c56c1d19894956f67",
+            "title": "25th commemoration of September 11",
+            "url": "https://www.pm.gov.au/media/25th-commemoration-september-11"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "1177bc30d14c3f13c213",
+            "title": "Combatting transnational crime in the Pacific",
+            "url": "https://www.pm.gov.au/media/combatting-transnational-crime-pacific"
+          }
+        ],
+        "delta_hash": "6b25c3df3d77a7c9febe903a0bb6397aed416f1f1ad13ca28b1cdb1df666908c"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-NSW-MINISTERIAL-RELEASES-20260911001120",
+      "source_change_event_id": "CHG-WATCH-NSW-MINISTERIAL-RELEASES-20260911001120",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-NSW-MINISTERIAL-RELEASES-20260911001120",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "NSW Government — Ministerial releases added 6 structured publication records to its forward-captured official index: Bomaderry among 25 new public preschools now accepting enrolment expressions of interest; DA approval paves the way for more homes in Bega; Gold medal metro station to boost Sydney Olympic Park; $150 million investment strengthens Eurobodalla&#x27;s water security; Building back stronger: $17.4 million to harden Ballina Shire roads against future floods; +1 more",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-09-11T00:11:52.953Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "08afa8f23244401f4a11",
+            "title": "Bomaderry among 25 new public preschools now accepting enrolment expressions of interest",
+            "url": "https://www.nsw.gov.au/ministerial-releases/bomaderry-among-25-new-public-preschools-now-accepting-enrolment-expressions-of-interest"
+          },
+          {
+            "record_id": "62b8e62216f64fe29bf9",
+            "title": "DA approval paves the way for more homes in Bega",
+            "url": "https://www.nsw.gov.au/ministerial-releases/da-approval-paves-way-for-more-homes-bega"
+          },
+          {
+            "record_id": "6790f91a67db69f47238",
+            "title": "Gold medal metro station to boost Sydney Olympic Park",
+            "url": "https://www.nsw.gov.au/ministerial-releases/gold-medal-metro-station-to-boost-sydney-olympic-park"
+          },
+          {
+            "record_id": "95e9a5586b4edaffd946",
+            "title": "$150 million investment strengthens Eurobodalla&#x27;s water security",
+            "url": "https://www.nsw.gov.au/ministerial-releases/150-million-investment-strengthens-eurobodallas-water-security"
+          },
+          {
+            "record_id": "9ee8ac5478065a77a76f",
+            "title": "Building back stronger: $17.4 million to harden Ballina Shire roads against future floods",
+            "url": "https://www.nsw.gov.au/ministerial-releases/building-back-stronger-174-million-to-harden-ballina-shire-roads-against-future-floods"
+          },
+          {
+            "record_id": "ae8fb582c7f9df67c261",
+            "title": "Works get underway on Gosford Waterfront revitalisation",
+            "url": "https://www.nsw.gov.au/ministerial-releases/works-get-underway-on-gosford-waterfront-revitalisation"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "2cd9990b57b25c3eb1a0",
+            "title": "New strategy to drive growth and innovation for Aboriginal businesses in NSW",
+            "url": "https://www.nsw.gov.au/ministerial-releases/aboriginal-business-strategy-launched"
+          },
+          {
+            "record_id": "83a98a1d362fb08bcddf",
+            "title": "Virtual fencing trial shows gains in farm productivity and animal welfare",
+            "url": "https://www.nsw.gov.au/ministerial-releases/virtual-fencing-trial-shows-gains-farm-productivity-and-animal-welfare"
+          },
+          {
+            "record_id": "86d22d345c97946dd167",
+            "title": "Minns Labor Government supports fertility literacy program for young women",
+            "url": "https://www.nsw.gov.au/ministerial-releases/fertility-program-funded-young-women"
+          },
+          {
+            "record_id": "947c2b193a3e03771ea0",
+            "title": "$37 million upgraded advisory service for small business in NSW",
+            "url": "https://www.nsw.gov.au/ministerial-releases/small-business-advisory-service-upgraded"
+          },
+          {
+            "record_id": "d3b3c06fc1c8570ec89e",
+            "title": "Clarkes Beach protected as erosion works complete",
+            "url": "https://www.nsw.gov.au/ministerial-releases/clarkes-beach-erosion-works-complete"
+          },
+          {
+            "record_id": "e36530be48cec42cb92a",
+            "title": "Minns Labor Government to invest in NSW science, technology and innovation",
+            "url": "https://www.nsw.gov.au/ministerial-releases/minns-labor-government-to-invest-nsw-science-technology-and-innovation"
+          }
+        ],
+        "delta_hash": "22b3089900028726565cbed2eb50b956099a4c32f01f94e1efd5da8e956fecc0"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20260911001120",
+      "source_change_event_id": "CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20260911001120",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20260911001120",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Queensland Government — Ministerial Media Statements added 2 structured publication records to its forward-captured official index: New technology and safer conditions for Queensland swimmers and whales; Kolonga Bruce Highway intersection upgrades to get the Wide Bay home sooner and safer",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-09-11T00:11:52.953Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "256afabe219c58cbf86b",
+            "title": "New technology and safer conditions for Queensland swimmers and whales",
+            "url": "https://statements.qld.gov.au/statements/106038"
+          },
+          {
+            "record_id": "c67afc2505a00568dfac",
+            "title": "Kolonga Bruce Highway intersection upgrades to get the Wide Bay home sooner and safer",
+            "url": "https://statements.qld.gov.au/statements/106037"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "0136fc67fc1732b5b200",
+            "title": "Threatened species get a boost with bilbies and wombats on the move",
+            "url": "https://statements.qld.gov.au/statements/106010"
+          },
+          {
+            "record_id": "7039b60e1c724d5588ea",
+            "title": "Child protection reforms delivering immediate impact",
+            "url": "https://statements.qld.gov.au/statements/106015"
+          }
+        ],
+        "delta_hash": "b53f8b5710434f7326d1e6a539135fabaf663d661a9febc6a349c10644b816b4"
       },
       "integrity": {
         "source_change_unchanged": true,

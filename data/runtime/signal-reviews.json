@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-SIGNAL-REVIEWS-001",
   "created_at": "2026-09-09T05:05:00+10:00",
-  "updated_at": "2026-09-11T04:42:36.770Z",
+  "updated_at": "2026-09-11T09:43:31.436Z",
   "rules": {
     "append_only": true,
     "raw_source_change_is_immutable": true,
@@ -25279,6 +25279,148 @@
           }
         ],
         "delta_hash": "ef19945ec10f500768a69772f3a35c0dcc0adba1978b7531be0e1b65c84833d9"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-ONENATION-NEWS-20260911094229",
+      "source_change_event_id": "CHG-WATCH-ONENATION-NEWS-20260911094229",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-ONENATION-NEWS-20260911094229",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": "AUS-FED-ONP",
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Pauline Hanson's One Nation — Latest News added 1 structured publication record to its forward-captured official index: One Year Without Charlie Kirk: His Voice Still Lives On",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-09-11T09:43:31.436Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "d219f33a7270b149f4e5",
+            "title": "One Year Without Charlie Kirk: His Voice Still Lives On",
+            "url": "http://www.onenation.org.au/remembering-charlie-kirk",
+            "published": "Fri, 11 Sep 2026 16:34:26 +1000"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "4402d0e9748173fa88a6",
+            "title": "Bush Summit: One Nation Says Food Security Is National Security",
+            "url": "http://www.onenation.org.au/bush-summit",
+            "published": "Tue, 01 Sep 2026 12:24:14 +1000"
+          }
+        ],
+        "delta_hash": "a7b93016f782e368174e95fdc046f97108a18641dd47dda292f751b7649a3e35"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-NSW-MINISTERIAL-RELEASES-20260911094229",
+      "source_change_event_id": "CHG-WATCH-NSW-MINISTERIAL-RELEASES-20260911094229",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-NSW-MINISTERIAL-RELEASES-20260911094229",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "NSW Government — Ministerial releases added 3 structured publication records to its forward-captured official index: Ministerial travel audit; S&P Global upgrades New South Wales Outlook; Five additional H5 bird flu events in NSW",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-09-11T09:43:31.436Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "248ab7ccb78fbad9e998",
+            "title": "Ministerial travel audit",
+            "url": "https://www.nsw.gov.au/ministerial-releases/ministerial-travel-audit"
+          },
+          {
+            "record_id": "38a2169dd79afd0d562f",
+            "title": "S&P Global upgrades New South Wales Outlook",
+            "url": "https://www.nsw.gov.au/ministerial-releases/sp-global-upgrades-new-south-wales-outlook"
+          },
+          {
+            "record_id": "87d5e959bf4836d8c4e2",
+            "title": "Five additional H5 bird flu events in NSW",
+            "url": "https://www.nsw.gov.au/ministerial-releases/five-additional-h5-bird-flu-events-nsw"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "09eeb8e844876d0bf843",
+            "title": "New Chief Executive to lead Sydney Metro",
+            "url": "https://www.nsw.gov.au/ministerial-releases/new-chief-executive-sydney-metro"
+          },
+          {
+            "record_id": "37092edb3917a2432bfa",
+            "title": "Progress underway on Dubbo PCYC upgrade and regional youth programs",
+            "url": "https://www.nsw.gov.au/ministerial-releases/dubbo-sports-world-upgrade-underway"
+          },
+          {
+            "record_id": "e681485354e37678e421",
+            "title": "Regional NSW Ambulance staff and community recognised for outstanding service and courage",
+            "url": "https://www.nsw.gov.au/ministerial-releases/regional-nsw-ambulance-staff-and-community-recognised-for-outstanding-service-and-courage"
+          }
+        ],
+        "delta_hash": "0aaa0624e83b3e295d7e3d184b7f5c150cabd1f4456c93dd3575012e74ebdc42"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20260911094229",
+      "source_change_event_id": "CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20260911094229",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20260911094229",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Queensland Government — Ministerial Media Statements added 1 structured publication record to its forward-captured official index: Statement from the Treasurer regarding S&P Global Ratings",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-09-11T09:43:31.436Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "d1faa9dfd93cef5b8a72",
+            "title": "Statement from the Treasurer regarding S&P Global Ratings",
+            "url": "https://statements.qld.gov.au/statements/106043"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "fad6d752f5f6989841ab",
+            "title": "Contractor appointed to deliver 600-bed Coomera Hospital",
+            "url": "https://statements.qld.gov.au/statements/106024"
+          }
+        ],
+        "delta_hash": "f6cdad7edbbf417acef3aafdf15471839f15d8f0d32aeedcd80daf7c6f62e5c3"
       },
       "integrity": {
         "source_change_unchanged": true,

@@ -49,9 +49,9 @@
       "source_id": "SRC-NSW-MINISTERIAL-RELEASES",
       "jurisdiction_id": "AUS-NSW",
       "party_id": null,
-      "content_hash": "8024b6f5f3b3a807e22a796a460afb0d3a0efa328839c4f20cfc3f6ae03e285c",
-      "snapshot_id": "AUTO-WATCH-NSW-MINISTERIAL-RELEASES-20260911044201",
-      "captured_at": "2026-09-11T04:42:01.915Z",
+      "content_hash": "a4da2fee9f16a16dd4b1c0d6b707afc52fe7b83ee24b38a3741f1afa160424c3",
+      "snapshot_id": "AUTO-WATCH-NSW-MINISTERIAL-RELEASES-20260911094229",
+      "captured_at": "2026-09-11T09:42:29.259Z",
       "acquisition_url": "https://www.nsw.gov.au/ministerial-releases",
       "requested_url": "https://www.nsw.gov.au/ministerial-releases",
       "header_profile": "IDENTIFIED_AUTOMATION",
@@ -77,9 +77,9 @@
       "source_id": "SRC-APH-WEEK-AHEAD",
       "jurisdiction_id": "AUS-FED",
       "party_id": null,
-      "content_hash": "c852a3bad0f7e9d47fcb791d196034f28113dab4b9761fb95dc13a366e25c334",
-      "snapshot_id": "AUTO-WATCH-APH-WEEK-AHEAD-20260911044201",
-      "captured_at": "2026-09-11T04:42:01.915Z",
+      "content_hash": "0c5228941a0c80a7f9eaf54e87e1a45b2d8cec20c56a31aba76f9385625b659a",
+      "snapshot_id": "AUTO-WATCH-APH-WEEK-AHEAD-20260911094229",
+      "captured_at": "2026-09-11T09:42:29.259Z",
       "acquisition_url": "https://www.aph.gov.au/Parliamentary_Business/Chamber_documents/Senate_chamber_documents/The_Week_Ahead",
       "requested_url": "https://www.aph.gov.au/Parliamentary_Business/Chamber_documents/Senate_chamber_documents/The_Week_Ahead",
       "header_profile": "BROWSER_COMPATIBILITY",
@@ -91,9 +91,9 @@
       "source_id": "SRC-ONENATION-FEDERAL-NEWS",
       "jurisdiction_id": "AUS-FED",
       "party_id": "AUS-FED-ONP",
-      "content_hash": "d634d38598634bc2cff5325b67645c6ff5036053a247078732e30210b35172e6",
-      "snapshot_id": "AUTO-WATCH-ONENATION-NEWS-20260910045050",
-      "captured_at": "2026-09-10T04:50:50.468Z",
+      "content_hash": "40d70b3eda45dcd7814b2702ff6ddc0582aa9500cccf466bf41f285abab672d9",
+      "snapshot_id": "AUTO-WATCH-ONENATION-NEWS-20260911094229",
+      "captured_at": "2026-09-11T09:42:29.259Z",
       "acquisition_url": "https://www.onenation.org.au/news.rss",
       "requested_url": "https://www.onenation.org.au/news.rss",
       "header_profile": "IDENTIFIED_AUTOMATION",
@@ -310,9 +310,9 @@
       "source_id": "SRC-QLD-MINISTERIAL-STATEMENTS",
       "jurisdiction_id": "AUS-QLD",
       "party_id": null,
-      "content_hash": "2105f85db1772e32eefce782c5afa14984d6d32efc812f89c475c5e2b3dc3892",
-      "snapshot_id": "AUTO-WATCH-QLD-MINISTERIAL-STATEMENTS-20260911044201",
-      "captured_at": "2026-09-11T04:42:01.915Z",
+      "content_hash": "fbb5d52ea41ab4c725940d43839e4743970577a9c98982795a513d7039515408",
+      "snapshot_id": "AUTO-WATCH-QLD-MINISTERIAL-STATEMENTS-20260911094229",
+      "captured_at": "2026-09-11T09:42:29.259Z",
       "acquisition_url": "https://statements.qld.gov.au/",
       "requested_url": "https://statements.qld.gov.au/",
       "header_profile": "IDENTIFIED_AUTOMATION",
@@ -503,9 +503,9 @@
       "captured_representation_complete": true
     }
   },
-  "updated_at": "2026-09-11T04:42:01.915Z",
+  "updated_at": "2026-09-11T09:42:29.259Z",
   "last_run": {
-    "captured_at": "2026-09-11T04:42:01.915Z",
+    "captured_at": "2026-09-11T09:42:29.259Z",
     "baselines_created": 0,
     "source_changes_created": 4,
     "semantic_signals_created": 0,
@@ -522,6 +522,10 @@
       {
         "watch_id": "WATCH-ECQ-MEDIA",
         "error": "https://www.ecq.qld.gov.au/media/2026-media-statements [IDENTIFIED_AUTOMATION] 403 Forbidden | https://www.ecq.qld.gov.au/media/2026-media-statements [BROWSER_COMPATIBILITY] 403 Forbidden | https://www.ecq.qld.gov.au/home [IDENTIFIED_AUTOMATION] 403 Forbidden | https://www.ecq.qld.gov.au/home [BROWSER_COMPATIBILITY] 403 Forbidden"
+      },
+      {
+        "watch_id": "WATCH-TAS-HANSARD",
+        "error": "https://search.parliament.tas.gov.au/Search/search/search?IW_FIELD_ADVANCE_PHRASE=2026%20IN%20TITLE&IW_DATABASE=Hansard&IW_SORT=-9&IW_SEARCH_SCOPE=meta [IDENTIFIED_AUTOMATION] timeout>15000ms | https://search.parliament.tas.gov.au/Search/search/search?IW_FIELD_ADVANCE_PHRASE=2026%20IN%20TITLE&IW_DATABASE=Hansard&IW_SORT=-9&IW_SEARCH_SCOPE=meta [BROWSER_COMPATIBILITY] timeout>15000ms"
       },
       {
         "watch_id": "WATCH-TAS-PREMIER-NEWS",
@@ -557,7 +561,7 @@
   "coverage": {
     "active_sources": 36,
     "baselines_captured": 36,
-    "current_run_failures": 10,
+    "current_run_failures": 11,
     "jurisdictions": {
       "AUS-FED": {
         "configured_sources": 10,
@@ -629,7 +633,7 @@
       "AUS-TAS": {
         "configured_sources": 3,
         "baseline_sources": 3,
-        "current_run_failures": 1,
+        "current_run_failures": 2,
         "source_classes": [
           "PRIMARY_ELECTORAL_AUTHORITY",
           "PRIMARY_GOVERNMENT",

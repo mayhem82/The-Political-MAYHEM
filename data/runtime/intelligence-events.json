@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-INTELLIGENCE-EVENTS-001",
   "scope": "Australia — multi-jurisdiction",
-  "captured_at": "2026-09-11T04:42:44.669Z",
+  "captured_at": "2026-09-11T09:43:35.150Z",
   "mode": "FORWARD_ONLY",
   "rules": {
     "observation_distinct_from_inference": true,
@@ -64805,6 +64805,420 @@
           "record_id": "feb46caef2715c851433",
           "title": "Daniel's Law making Queensland children safer",
           "url": "https://statements.qld.gov.au/statements/106017"
+        }
+      ],
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "underlying_publication_claims_not_promoted_to_verified_fact": true,
+        "source_change_parent_retained": true,
+        "deterministic_review": true
+      }
+    },
+    {
+      "event_id": "CHG-WATCH-APH-WEEK-AHEAD-20260911094229",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-FED",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-APH-WEEK-AHEAD-20260911094229",
+      "captured_at": "2026-09-11T09:42:29.259Z",
+      "event_date": "2026-09-11",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_PARLIAMENT",
+      "source_id": "SRC-APH-WEEK-AHEAD",
+      "capture_mode": "NORMALISED_PAGE_HASH",
+      "review_policy": "REVIEW_UNSTRUCTURED_CHANGE",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-APH-WEEK-AHEAD-20260911044201",
+        "content_hash": "c852a3bad0f7e9d47fcb791d196034f28113dab4b9761fb95dc13a366e25c334",
+        "capture_mode": "NORMALISED_PAGE_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-APH-WEEK-AHEAD-20260911094229",
+        "content_hash": "0c5228941a0c80a7f9eaf54e87e1a45b2d8cec20c56a31aba76f9385625b659a",
+        "capture_mode": "NORMALISED_PAGE_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "TEXT_REPRESENTATION",
+        "first_difference_offset": 1438,
+        "before_length": 9759,
+        "after_length": 9760,
+        "before_excerpt": "nts Live Minutes Live Federation Chamber Minutes Tabled Papers Hansard Senate estimates Committees Statistics Petitions 7 to 10 September 2026 Download PDF version (PDF 201KB) Wednesday, 16 September Senator Gatenby is expected to give his first s",
+        "after_excerpt": "nts Live Minutes Live Federation Chamber Minutes Tabled Papers Hansard Senate estimates Committees Statistics Petitions 14 to 17 September 2026 Download PDF version (PDF 201KB) Wednesday, 16 September Senator Gatenby is expected to give his first s",
+        "delta_hash": "45bc024014a7f2b30bc4516712f5b74811526d0cba7dc0dc58a4993881db9957"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-ONENATION-NEWS-20260911094229",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-FED",
+      "party_id": "AUS-FED-ONP",
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-ONENATION-NEWS-20260911094229",
+      "captured_at": "2026-09-11T09:42:29.259Z",
+      "event_date": "2026-09-11",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_PARTY",
+      "source_id": "SRC-ONENATION-FEDERAL-NEWS",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "review_policy": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-ONENATION-NEWS-20260910045050",
+        "content_hash": "d634d38598634bc2cff5325b67645c6ff5036053a247078732e30210b35172e6",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-ONENATION-NEWS-20260911094229",
+        "content_hash": "40d70b3eda45dcd7814b2702ff6ddc0582aa9500cccf466bf41f285abab672d9",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "STRUCTURED_RECORD_SET",
+        "records_added": [
+          {
+            "record_id": "d219f33a7270b149f4e5",
+            "title": "One Year Without Charlie Kirk: His Voice Still Lives On",
+            "url": "http://www.onenation.org.au/remembering-charlie-kirk",
+            "published": "Fri, 11 Sep 2026 16:34:26 +1000"
+          }
+        ],
+        "records_removed": [
+          {
+            "record_id": "4402d0e9748173fa88a6",
+            "title": "Bush Summit: One Nation Says Food Security Is National Security",
+            "url": "http://www.onenation.org.au/bush-summit",
+            "published": "Tue, 01 Sep 2026 12:24:14 +1000"
+          }
+        ],
+        "added_count": 1,
+        "removed_count": 1,
+        "before_count": 20,
+        "after_count": 20,
+        "delta_hash": "a7b93016f782e368174e95fdc046f97108a18641dd47dda292f751b7649a3e35"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-NSW-MINISTERIAL-RELEASES-20260911094229",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-NSW",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-NSW-MINISTERIAL-RELEASES-20260911094229",
+      "captured_at": "2026-09-11T09:42:29.259Z",
+      "event_date": "2026-09-11",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-NSW-MINISTERIAL-RELEASES",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "review_policy": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-NSW-MINISTERIAL-RELEASES-20260911044201",
+        "content_hash": "8024b6f5f3b3a807e22a796a460afb0d3a0efa328839c4f20cfc3f6ae03e285c",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-NSW-MINISTERIAL-RELEASES-20260911094229",
+        "content_hash": "a4da2fee9f16a16dd4b1c0d6b707afc52fe7b83ee24b38a3741f1afa160424c3",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "STRUCTURED_RECORD_SET",
+        "records_added": [
+          {
+            "record_id": "248ab7ccb78fbad9e998",
+            "title": "Ministerial travel audit",
+            "url": "https://www.nsw.gov.au/ministerial-releases/ministerial-travel-audit"
+          },
+          {
+            "record_id": "38a2169dd79afd0d562f",
+            "title": "S&P Global upgrades New South Wales Outlook",
+            "url": "https://www.nsw.gov.au/ministerial-releases/sp-global-upgrades-new-south-wales-outlook"
+          },
+          {
+            "record_id": "87d5e959bf4836d8c4e2",
+            "title": "Five additional H5 bird flu events in NSW",
+            "url": "https://www.nsw.gov.au/ministerial-releases/five-additional-h5-bird-flu-events-nsw"
+          }
+        ],
+        "records_removed": [
+          {
+            "record_id": "09eeb8e844876d0bf843",
+            "title": "New Chief Executive to lead Sydney Metro",
+            "url": "https://www.nsw.gov.au/ministerial-releases/new-chief-executive-sydney-metro"
+          },
+          {
+            "record_id": "37092edb3917a2432bfa",
+            "title": "Progress underway on Dubbo PCYC upgrade and regional youth programs",
+            "url": "https://www.nsw.gov.au/ministerial-releases/dubbo-sports-world-upgrade-underway"
+          },
+          {
+            "record_id": "e681485354e37678e421",
+            "title": "Regional NSW Ambulance staff and community recognised for outstanding service and courage",
+            "url": "https://www.nsw.gov.au/ministerial-releases/regional-nsw-ambulance-staff-and-community-recognised-for-outstanding-service-and-courage"
+          }
+        ],
+        "added_count": 3,
+        "removed_count": 3,
+        "before_count": 88,
+        "after_count": 88,
+        "delta_hash": "0aaa0624e83b3e295d7e3d184b7f5c150cabd1f4456c93dd3575012e74ebdc42"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20260911094229",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-QLD",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-QLD-MINISTERIAL-STATEMENTS-20260911094229",
+      "captured_at": "2026-09-11T09:42:29.259Z",
+      "event_date": "2026-09-11",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-QLD-MINISTERIAL-STATEMENTS",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "review_policy": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-QLD-MINISTERIAL-STATEMENTS-20260911044201",
+        "content_hash": "2105f85db1772e32eefce782c5afa14984d6d32efc812f89c475c5e2b3dc3892",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-QLD-MINISTERIAL-STATEMENTS-20260911094229",
+        "content_hash": "fbb5d52ea41ab4c725940d43839e4743970577a9c98982795a513d7039515408",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "STRUCTURED_RECORD_SET",
+        "records_added": [
+          {
+            "record_id": "d1faa9dfd93cef5b8a72",
+            "title": "Statement from the Treasurer regarding S&P Global Ratings",
+            "url": "https://statements.qld.gov.au/statements/106043"
+          }
+        ],
+        "records_removed": [
+          {
+            "record_id": "fad6d752f5f6989841ab",
+            "title": "Contractor appointed to deliver 600-bed Coomera Hospital",
+            "url": "https://statements.qld.gov.au/statements/106024"
+          }
+        ],
+        "added_count": 1,
+        "removed_count": 1,
+        "before_count": 16,
+        "after_count": 16,
+        "delta_hash": "f6cdad7edbbf417acef3aafdf15471839f15d8f0d32aeedcd80daf7c6f62e5c3"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "SIG-REV-CHG-WATCH-ONENATION-NEWS-20260911094229",
+      "parent_event_id": "CHG-WATCH-ONENATION-NEWS-20260911094229",
+      "review_id": "REV-CHG-WATCH-ONENATION-NEWS-20260911094229",
+      "jurisdiction_id": "AUS-FED",
+      "party_id": "AUS-FED-ONP",
+      "actor_id": null,
+      "contest_id": null,
+      "cycle_id": null,
+      "source_snapshot_id": "AUTO-WATCH-ONENATION-NEWS-20260911094229",
+      "record_id": "d219f33a7270b149f4e5",
+      "captured_at": "2026-09-11T09:43:31.436Z",
+      "event_date": "2026-09-11",
+      "checkpoint": "CONTINUOUS_FORWARD_SIGNAL_REVIEW",
+      "event_type": "SIGNAL_CREATED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_PARTY",
+      "source_id": "SRC-ONENATION-FEDERAL-NEWS",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "claim": "Pauline Hanson's One Nation — Latest News added 1 structured publication record to its forward-captured official index: One Year Without Charlie Kirk: His Voice Still Lives On",
+      "observed_behaviour": "One or more structured publication records appeared in the monitored official source index after the preceding forward snapshot.",
+      "publication_records_added": [
+        {
+          "record_id": "d219f33a7270b149f4e5",
+          "title": "One Year Without Charlie Kirk: His Voice Still Lives On",
+          "url": "http://www.onenation.org.au/remembering-charlie-kirk",
+          "published": "Fri, 11 Sep 2026 16:34:26 +1000"
+        }
+      ],
+      "publication_records_removed": [
+        {
+          "record_id": "4402d0e9748173fa88a6",
+          "title": "Bush Summit: One Nation Says Food Security Is National Security",
+          "url": "http://www.onenation.org.au/bush-summit",
+          "published": "Tue, 01 Sep 2026 12:24:14 +1000"
+        }
+      ],
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "underlying_publication_claims_not_promoted_to_verified_fact": true,
+        "source_change_parent_retained": true,
+        "deterministic_review": true
+      }
+    },
+    {
+      "event_id": "SIG-REV-CHG-WATCH-NSW-MINISTERIAL-RELEASES-20260911094229",
+      "parent_event_id": "CHG-WATCH-NSW-MINISTERIAL-RELEASES-20260911094229",
+      "review_id": "REV-CHG-WATCH-NSW-MINISTERIAL-RELEASES-20260911094229",
+      "jurisdiction_id": "AUS-NSW",
+      "party_id": null,
+      "actor_id": null,
+      "contest_id": null,
+      "cycle_id": null,
+      "source_snapshot_id": "AUTO-WATCH-NSW-MINISTERIAL-RELEASES-20260911094229",
+      "record_id": null,
+      "captured_at": "2026-09-11T09:43:31.436Z",
+      "event_date": "2026-09-11",
+      "checkpoint": "CONTINUOUS_FORWARD_SIGNAL_REVIEW",
+      "event_type": "SIGNAL_CREATED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-NSW-MINISTERIAL-RELEASES",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "claim": "NSW Government — Ministerial releases added 3 structured publication records to its forward-captured official index: Ministerial travel audit; S&P Global upgrades New South Wales Outlook; Five additional H5 bird flu events in NSW",
+      "observed_behaviour": "One or more structured publication records appeared in the monitored official source index after the preceding forward snapshot.",
+      "publication_records_added": [
+        {
+          "record_id": "248ab7ccb78fbad9e998",
+          "title": "Ministerial travel audit",
+          "url": "https://www.nsw.gov.au/ministerial-releases/ministerial-travel-audit"
+        },
+        {
+          "record_id": "38a2169dd79afd0d562f",
+          "title": "S&P Global upgrades New South Wales Outlook",
+          "url": "https://www.nsw.gov.au/ministerial-releases/sp-global-upgrades-new-south-wales-outlook"
+        },
+        {
+          "record_id": "87d5e959bf4836d8c4e2",
+          "title": "Five additional H5 bird flu events in NSW",
+          "url": "https://www.nsw.gov.au/ministerial-releases/five-additional-h5-bird-flu-events-nsw"
+        }
+      ],
+      "publication_records_removed": [
+        {
+          "record_id": "09eeb8e844876d0bf843",
+          "title": "New Chief Executive to lead Sydney Metro",
+          "url": "https://www.nsw.gov.au/ministerial-releases/new-chief-executive-sydney-metro"
+        },
+        {
+          "record_id": "37092edb3917a2432bfa",
+          "title": "Progress underway on Dubbo PCYC upgrade and regional youth programs",
+          "url": "https://www.nsw.gov.au/ministerial-releases/dubbo-sports-world-upgrade-underway"
+        },
+        {
+          "record_id": "e681485354e37678e421",
+          "title": "Regional NSW Ambulance staff and community recognised for outstanding service and courage",
+          "url": "https://www.nsw.gov.au/ministerial-releases/regional-nsw-ambulance-staff-and-community-recognised-for-outstanding-service-and-courage"
+        }
+      ],
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "underlying_publication_claims_not_promoted_to_verified_fact": true,
+        "source_change_parent_retained": true,
+        "deterministic_review": true
+      }
+    },
+    {
+      "event_id": "SIG-REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20260911094229",
+      "parent_event_id": "CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20260911094229",
+      "review_id": "REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20260911094229",
+      "jurisdiction_id": "AUS-QLD",
+      "party_id": null,
+      "actor_id": null,
+      "contest_id": null,
+      "cycle_id": null,
+      "source_snapshot_id": "AUTO-WATCH-QLD-MINISTERIAL-STATEMENTS-20260911094229",
+      "record_id": "d1faa9dfd93cef5b8a72",
+      "captured_at": "2026-09-11T09:43:31.436Z",
+      "event_date": "2026-09-11",
+      "checkpoint": "CONTINUOUS_FORWARD_SIGNAL_REVIEW",
+      "event_type": "SIGNAL_CREATED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-QLD-MINISTERIAL-STATEMENTS",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "claim": "Queensland Government — Ministerial Media Statements added 1 structured publication record to its forward-captured official index: Statement from the Treasurer regarding S&P Global Ratings",
+      "observed_behaviour": "One or more structured publication records appeared in the monitored official source index after the preceding forward snapshot.",
+      "publication_records_added": [
+        {
+          "record_id": "d1faa9dfd93cef5b8a72",
+          "title": "Statement from the Treasurer regarding S&P Global Ratings",
+          "url": "https://statements.qld.gov.au/statements/106043"
+        }
+      ],
+      "publication_records_removed": [
+        {
+          "record_id": "fad6d752f5f6989841ab",
+          "title": "Contractor appointed to deliver 600-bed Coomera Hospital",
+          "url": "https://statements.qld.gov.au/statements/106024"
         }
       ],
       "inference": null,

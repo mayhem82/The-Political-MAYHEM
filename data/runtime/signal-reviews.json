@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-SIGNAL-REVIEWS-001",
   "created_at": "2026-09-09T05:05:00+10:00",
-  "updated_at": "2026-09-11T00:11:52.953Z",
+  "updated_at": "2026-09-11T04:42:36.770Z",
   "rules": {
     "append_only": true,
     "raw_source_change_is_immutable": true,
@@ -25169,6 +25169,116 @@
           }
         ],
         "delta_hash": "b53f8b5710434f7326d1e6a539135fabaf663d661a9febc6a349c10644b816b4"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-NSW-MINISTERIAL-RELEASES-20260911044201",
+      "source_change_event_id": "CHG-WATCH-NSW-MINISTERIAL-RELEASES-20260911044201",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-NSW-MINISTERIAL-RELEASES-20260911044201",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "NSW Government — Ministerial releases added 1 structured publication record to its forward-captured official index: New MRI machine and CT scanner delivered to Eurobodalla Regional Hospital",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-09-11T04:42:36.770Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "4b612ba679d0499d22fb",
+            "title": "New MRI machine and CT scanner delivered to Eurobodalla Regional Hospital",
+            "url": "https://www.nsw.gov.au/ministerial-releases/new-mri-machine-and-ct-scanner-delivered-to-eurobodalla-regional-hospital"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "8724ceea07bb0855a281",
+            "title": "NSW pharmacists to treat more conditions: ear infections, wound care & chronic illness",
+            "url": "https://www.nsw.gov.au/ministerial-releases/nsw-pharmacists-to-treat-more-conditions-ear-infections-wound-care-chronic-illness"
+          }
+        ],
+        "delta_hash": "525708589648775b3d93aaadfd39be03d978d682dcdb5f4631dd53dca904237b"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20260911044201",
+      "source_change_event_id": "CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20260911044201",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20260911044201",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Queensland Government — Ministerial Media Statements added 4 structured publication records to its forward-captured official index: New roadmap to drive freight, jobs and growth across Queensland; Construction underway on Cressbrook Dam commitment; G’day to Ipswich’s Little Queenslanders; 167 new homes fast tracked across North West Queensland",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-09-11T04:42:36.770Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "002891c8b7b19390b874",
+            "title": "New roadmap to drive freight, jobs and growth across Queensland",
+            "url": "https://statements.qld.gov.au/statements/106039"
+          },
+          {
+            "record_id": "0c12a86f614d395b610e",
+            "title": "Construction underway on Cressbrook Dam commitment",
+            "url": "https://statements.qld.gov.au/statements/106036"
+          },
+          {
+            "record_id": "3de5639b7c65ad57099a",
+            "title": "G’day to Ipswich’s Little Queenslanders",
+            "url": "https://statements.qld.gov.au/statements/106042"
+          },
+          {
+            "record_id": "cc3d0c641e667e4ff1d0",
+            "title": "167 new homes fast tracked across North West Queensland",
+            "url": "https://statements.qld.gov.au/statements/106040"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "72ecd8406aacd21c8e1a",
+            "title": "Statewide crackdown targets illegal dumping",
+            "url": "https://statements.qld.gov.au/statements/106019"
+          },
+          {
+            "record_id": "7c2c1c7aadd0dddd3346",
+            "title": "Safer overtaking and stronger flood resilience for the Bruce at Goorganga",
+            "url": "https://statements.qld.gov.au/statements/106021"
+          },
+          {
+            "record_id": "fbd4889f3e0377df1d31",
+            "title": "Cleveland-Redland Bay Road upgrades to get locals home sooner and safer",
+            "url": "https://statements.qld.gov.au/statements/106020"
+          },
+          {
+            "record_id": "feb46caef2715c851433",
+            "title": "Daniel's Law making Queensland children safer",
+            "url": "https://statements.qld.gov.au/statements/106017"
+          }
+        ],
+        "delta_hash": "ef19945ec10f500768a69772f3a35c0dcc0adba1978b7531be0e1b65c84833d9"
       },
       "integrity": {
         "source_change_unchanged": true,

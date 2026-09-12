@@ -1,7 +1,7 @@
 {
   "snapshot_register_id": "POLITICAL-SOURCE-SNAPSHOTS-001",
   "scope": "Australia — multi-jurisdiction",
-  "captured_at": "2026-09-11T21:43:45.038Z",
+  "captured_at": "2026-09-12T00:18:54.848Z",
   "mode": "FORWARD_ONLY",
   "hash_method": "SHA-256",
   "hash_basis": "captured_representation",
@@ -85599,6 +85599,60 @@
       "captured_representation_complete": true,
       "captured_representation_length": 3207,
       "structured_records": null,
+      "notes": "Automated forward capture after source representation changed. Raw source change is preserved separately from semantic signal promotion."
+    },
+    {
+      "snapshot_id": "AUTO-WATCH-SA-PREMIER-MEDIA-20260912001854",
+      "contest_id": null,
+      "cycle_id": null,
+      "source_id": "SRC-SA-PREMIER-MEDIA",
+      "source_registry_snapshot": "FORWARD-SIGNAL-SOURCE-REGISTRY-008",
+      "source_url": "https://www.premier.sa.gov.au/config/funnelback-config/premiermediareleases-funnelback-connector",
+      "acquisition_url": "https://www.premier.sa.gov.au/",
+      "requested_acquisition_url": "https://www.premier.sa.gov.au/",
+      "acquisition_header_profile": "IDENTIFIED_AUTOMATION",
+      "acquisition_content_type": "text/html; charset=utf-8",
+      "source_name": "Premier of South Australia — media releases",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "original_source_class": null,
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "published_at": null,
+      "published_date": null,
+      "captured_at": "2026-09-12T00:18:54.848Z",
+      "content_hash": "350da75690b230680ab32f677ddd7c08801f31065a3a1b9b627aa53ac7cc8409",
+      "hash_basis": "COMPLETE_STRUCTURED_PUBLICATION_RECORD_SET",
+      "previous_snapshot_id": "AUTO-WATCH-SA-PREMIER-MEDIA-20260908195628",
+      "public_access": "OPEN",
+      "captured_representation": "[{\"record_id\":\"0835e2ecdc16fcff6c3f\",\"title\":\"Message from the Premier\",\"url\":\"https://www.premier.sa.gov.au/message-from-the-premier\"},{\"record_id\":\"23505c715abd3d83846c\",\"title\":\"The team\",\"url\":\"https://www.premier.sa.gov.au/the-team\"},{\"record_id\":\"2edfc75613d257f4dfea\",\"title\":\"South Australian Economic Statement\",\"url\":\"https://www.premier.sa.gov.au/south-australian-economic-statement\"},{\"record_id\":\"ec76f980c058e0995a05\",\"title\":\"Your government\",\"url\":\"https://www.premier.sa.gov.au/the-team\"},{\"record_id\":\"ef89e0156b49667ab4ed\",\"title\":\"Your Premier\",\"url\":\"https://www.premier.sa.gov.au/message-from-the-premier\"}]",
+      "captured_representation_complete": true,
+      "captured_representation_length": 629,
+      "structured_records": [
+        {
+          "record_id": "0835e2ecdc16fcff6c3f",
+          "title": "Message from the Premier",
+          "url": "https://www.premier.sa.gov.au/message-from-the-premier"
+        },
+        {
+          "record_id": "23505c715abd3d83846c",
+          "title": "The team",
+          "url": "https://www.premier.sa.gov.au/the-team"
+        },
+        {
+          "record_id": "2edfc75613d257f4dfea",
+          "title": "South Australian Economic Statement",
+          "url": "https://www.premier.sa.gov.au/south-australian-economic-statement"
+        },
+        {
+          "record_id": "ec76f980c058e0995a05",
+          "title": "Your government",
+          "url": "https://www.premier.sa.gov.au/the-team"
+        },
+        {
+          "record_id": "ef89e0156b49667ab4ed",
+          "title": "Your Premier",
+          "url": "https://www.premier.sa.gov.au/message-from-the-premier"
+        }
+      ],
       "notes": "Automated forward capture after source representation changed. Raw source change is preserved separately from semantic signal promotion."
     }
   ]

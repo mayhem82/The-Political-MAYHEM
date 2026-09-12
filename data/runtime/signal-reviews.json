@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-SIGNAL-REVIEWS-001",
   "created_at": "2026-09-09T05:05:00+10:00",
-  "updated_at": "2026-09-12T00:20:55.463Z",
+  "updated_at": "2026-09-12T05:49:16.191Z",
   "rules": {
     "append_only": true,
     "raw_source_change_is_immutable": true,
@@ -25525,6 +25525,160 @@
           }
         ],
         "delta_hash": "365145c5427f1b342e9882004f020ec1c532485584b8a91bca8fb254588be9da"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-APH-BILLS-20260912054807",
+      "source_change_event_id": "CHG-WATCH-APH-BILLS-20260912054807",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-APH-BILLS-20260912054807",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Parliament of Australia — Bills and Legislation added 2 structured publication records to its forward-captured official index: Current House bills list; Current Senate bills list",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-09-12T05:49:16.191Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "0c02f85eb762e1f64212",
+            "title": "Current House bills list",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/layouts/DPS/Bills/?blsId=legislation%2fbillslst%2fbillslst_c203aa1c-1876-41a8-bc76-1de328bdb726"
+          },
+          {
+            "record_id": "a9d593cfe442932eabeb",
+            "title": "Current Senate bills list",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/layouts/DPS/Bills/?blsId=legislation%2fbillslst%2fbillslst_8100fb48-0592-488b-828b-d017b24562d4"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "29a68e1255907793c887",
+            "title": "Current Senate bills list",
+            "url": "https://www.aph.gov.au/layouts/DPS/Bills/?blsId=legislation%2fbillslst%2fbillslst_8100fb48-0592-488b-828b-d017b24562d4"
+          },
+          {
+            "record_id": "5965c705a3f269591b38",
+            "title": "Current House bills list",
+            "url": "https://www.aph.gov.au/layouts/DPS/Bills/?blsId=legislation%2fbillslst%2fbillslst_c203aa1c-1876-41a8-bc76-1de328bdb726"
+          }
+        ],
+        "delta_hash": "ae8cb0e8dd22608ac58458e493e583cf381bbd5446989da87c826d1f7821f692"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-SA-PREMIER-MEDIA-20260912054807",
+      "source_change_event_id": "CHG-WATCH-SA-PREMIER-MEDIA-20260912054807",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-SA-PREMIER-MEDIA-20260912054807",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Premier of South Australia — media releases added 15 structured publication records to its forward-captured official index: Media Release $32m a day: ‘Splash Cash’ Ashton’s plan for deficit and red tape 16/06/2026; Media Release Key aviation connections resume 17/06/2026; Media Release New high school and upgrades underway across Adelaide’s north 14/06/2026; Media Release New appointments to the Adelaide Festival Board 12/06/2026; Media Release Business events return record economic boost 16/06/2026; +10 more",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-09-12T05:49:16.191Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "03edcc795d19c500e113",
+            "title": "Media Release $32m a day: ‘Splash Cash’ Ashton’s plan for deficit and red tape 16/06/2026",
+            "url": "https://www.premier.sa.gov.au/media-releases/news-items/$32m-a-day-splash-cash-ashtons-plan-for-deficit-and-red-tape"
+          },
+          {
+            "record_id": "0bb52bdd43ada33652e2",
+            "title": "Media Release Key aviation connections resume 17/06/2026",
+            "url": "https://www.premier.sa.gov.au/media-releases/news-items/key-aviation-connections-resume"
+          },
+          {
+            "record_id": "24b9416b2df25b11c032",
+            "title": "Media Release New high school and upgrades underway across Adelaide’s north 14/06/2026",
+            "url": "https://www.premier.sa.gov.au/media-releases/news-items/new-high-school-and-upgrades-underway-across-adelaides-north"
+          },
+          {
+            "record_id": "27eaae4e761555f9f915",
+            "title": "Media Release New appointments to the Adelaide Festival Board 12/06/2026",
+            "url": "https://www.premier.sa.gov.au/media-releases/news-items/new-appointments-to-the-adelaide-festival-board"
+          },
+          {
+            "record_id": "3101d96f833109570cb5",
+            "title": "Media Release Business events return record economic boost 16/06/2026",
+            "url": "https://www.premier.sa.gov.au/media-releases/news-items/business-events-return-record-economic-boost"
+          },
+          {
+            "record_id": "38b59bf956e944838e61",
+            "title": "Skip to content",
+            "url": "https://www.premier.sa.gov.au/config/funnelback-config/premiermediareleases-funnelback-connector"
+          },
+          {
+            "record_id": "44c36a10e27c79b7d104",
+            "title": "Clear Search",
+            "url": "https://www.premier.sa.gov.au/config/funnelback-config/premiermediareleases-funnelback-connector"
+          },
+          {
+            "record_id": "47a332477660d1323ebb",
+            "title": "Media Release Ensuring the integrity of council elections 16/06/2026",
+            "url": "https://www.premier.sa.gov.au/media-releases/news-items/ensuring-the-integrity-of-council-elections"
+          },
+          {
+            "record_id": "5769d3a1bd503eb10e90",
+            "title": "Media Release Works to continue at North Adelaide Public Golf Course 12/06/2026",
+            "url": "https://www.premier.sa.gov.au/media-releases/news-items/works-to-continue-at-north-adelaide-public-golf-course"
+          },
+          {
+            "record_id": "723a559353e1f54939d2",
+            "title": "Skip to navigation",
+            "url": "https://www.premier.sa.gov.au/config/funnelback-config/premiermediareleases-funnelback-connector"
+          },
+          {
+            "record_id": "793f24fd9cabd7f75fef",
+            "title": "Media Release New data shows mobile phone ban driving dramatic change in schools 15/06/2026",
+            "url": "https://www.premier.sa.gov.au/media-releases/news-items/new-data-shows-mobile-phone-ban-driving-dramatic-change-in-schools"
+          },
+          {
+            "record_id": "a07f7303b3ee8ecb7536",
+            "title": "Media Release Search begins for new Inspector 16/06/2026",
+            "url": "https://www.premier.sa.gov.au/media-releases/news-items/search-begins-for-new-inspector"
+          },
+          {
+            "record_id": "bb22f3e4a54eb66f56fe",
+            "title": "Media Release Get live and loud to support the Commbank Socceroos 13/06/2026",
+            "url": "https://www.premier.sa.gov.au/media-releases/news-items/get-live-and-loud-to-support-the-commbank-socceroos"
+          },
+          {
+            "record_id": "d40ce650e42538f9c525",
+            "title": "Media Release National Office for Algal Bloom Research opens in Adelaide 17/06/2026",
+            "url": "https://www.premier.sa.gov.au/media-releases/news-items/national-office-for-algal-bloom-research-opens-in-adelaide"
+          },
+          {
+            "record_id": "dc903e0d5773afd5de95",
+            "title": "Media Release More records fall as SA’s copper bonanza powers on 17/06/2026",
+            "url": "https://www.premier.sa.gov.au/media-releases/news-items/more-records-fall-as-sas-copper-bonanza-powers-on"
+          }
+        ],
+        "removed_records": [],
+        "delta_hash": "20a66d8ceaa3997b1cea18ac74db8e18ba266ebb66cc9d87cf5ce5ed4bc23d87"
       },
       "integrity": {
         "source_change_unchanged": true,

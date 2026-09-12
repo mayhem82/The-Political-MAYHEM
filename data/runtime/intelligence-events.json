@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-INTELLIGENCE-EVENTS-001",
   "scope": "Australia — multi-jurisdiction",
-  "captured_at": "2026-09-12T00:21:01.596Z",
+  "captured_at": "2026-09-12T05:49:26.194Z",
   "mode": "FORWARD_ONLY",
   "rules": {
     "observation_distinct_from_inference": true,
@@ -65446,6 +65446,416 @@
       "projection_effect": "NO_EFFECT",
       "information_advantage": "NONE",
       "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-APH-BILLS-20260912054807",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-FED",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-APH-BILLS-20260912054807",
+      "captured_at": "2026-09-12T05:48:07.417Z",
+      "event_date": "2026-09-12",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_PARLIAMENT",
+      "source_id": "SRC-APH-BILLS",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "review_policy": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-APH-BILLS-20260910094520",
+        "content_hash": "4fa04cbce840b00fa7a958f25d2271bd81c9c7447095114a36261d95632569b1",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-APH-BILLS-20260912054807",
+        "content_hash": "c42639fcb99f6f245d481a33d7a1e48e6055980b8127db24e3ba70564dde2fbe",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "STRUCTURED_RECORD_SET",
+        "records_added": [
+          {
+            "record_id": "0c02f85eb762e1f64212",
+            "title": "Current House bills list",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/layouts/DPS/Bills/?blsId=legislation%2fbillslst%2fbillslst_c203aa1c-1876-41a8-bc76-1de328bdb726"
+          },
+          {
+            "record_id": "a9d593cfe442932eabeb",
+            "title": "Current Senate bills list",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/layouts/DPS/Bills/?blsId=legislation%2fbillslst%2fbillslst_8100fb48-0592-488b-828b-d017b24562d4"
+          }
+        ],
+        "records_removed": [
+          {
+            "record_id": "29a68e1255907793c887",
+            "title": "Current Senate bills list",
+            "url": "https://www.aph.gov.au/layouts/DPS/Bills/?blsId=legislation%2fbillslst%2fbillslst_8100fb48-0592-488b-828b-d017b24562d4"
+          },
+          {
+            "record_id": "5965c705a3f269591b38",
+            "title": "Current House bills list",
+            "url": "https://www.aph.gov.au/layouts/DPS/Bills/?blsId=legislation%2fbillslst%2fbillslst_c203aa1c-1876-41a8-bc76-1de328bdb726"
+          }
+        ],
+        "added_count": 2,
+        "removed_count": 2,
+        "before_count": 96,
+        "after_count": 96,
+        "delta_hash": "ae8cb0e8dd22608ac58458e493e583cf381bbd5446989da87c826d1f7821f692"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-LIBERAL-HOME-20260912054807",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-FED",
+      "party_id": "AUS-FED-LIB",
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-LIBERAL-HOME-20260912054807",
+      "captured_at": "2026-09-12T05:48:07.417Z",
+      "event_date": "2026-09-12",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_PARTY",
+      "source_id": "SRC-LIBERAL-FEDERAL-HOME",
+      "capture_mode": "NORMALISED_PAGE_HASH",
+      "review_policy": "REVIEW_UNSTRUCTURED_CHANGE",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-LIBERAL-HOME-20260911044201",
+        "content_hash": "d1f604ade446b18685c22e928e8df95453cc80719310838069899a226dcb2dd8",
+        "capture_mode": "NORMALISED_PAGE_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-LIBERAL-HOME-20260912054807",
+        "content_hash": "beb65b0903e363a4bb9a8579c38aa739943f3819ddf8e349eb53b04eaf559741",
+        "capture_mode": "NORMALISED_PAGE_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "TEXT_REPRESENTATION",
+        "first_difference_offset": 1434,
+        "before_length": 7454,
+        "after_length": 7298,
+        "before_excerpt": "sition in the Senate Meet the Liberal Team The Latest Stay up to date with the Liberal Party of Australia angustaylormp As we mark the 25th anniversary of the 9/11 terrorist attacks, we remember the almost 3,000 people killed including the 10 Australians, we think of their families, and we face the fact that Islamist extremism remains a significant threat. My commitment to Australians is to keep out, and root out Islamist extremism. We will protect our way of life. Sep 10 Open post by angustaylormp with ID 18409364269084925 liberalaus Prime Minister John Howard`s message to President George W. Bush on September 11, 2001. Sep 10 Open post by liberalaus with ID 18018091391930719 liberalaus We will never forget. Sep 10 Open post by liberalaus with ID 18097008290336492 liberalaus Organised crime is making billions from Australia’s illegal tobacco market. The Liberals and Nationals will cut the tobacco excise by 80 per cent to destroy the black market’s price advantage, invest $200 million in stronger law enforcement, and regulate vapes and nicotine pouches for adults. The goal is simple: take away the gangs’ customers, take away their profits, protect children, and put organised crime out of business. Sep 10 Open post by liberalaus with ID 18089383766673543 liberalaus Hey Labor! How much longer are you going to stand by Albo`s weird lies? But don`t get Anika Wells to tell us&#8230; Sep 10 Open post by liberalaus with ID 18627348874036015 liberalaus Anthony Albanese can`t lie straight in bed. It`s now up to Labor to take responsibility for his actions. How many times will they stand by him lying to the Australian people? From power prices, to tax increases, even falling off a stage and now supporting a golf club, he has a massive problem with the truth. So how much longer will Labor stand by his lies? Sep 10 Open post by liberalaus with ID 18135900565617509 angustaylormp Birth, life and death taxes. There’s nothing this Treasurer won’t tax. Today we uncovered Labor’s latest tax trap: adding a newborn to a trust structure could trigger a 47% tax on its entire income. That’s big for small and family businesses. Each one of Labor’s new taxes is toxic — and we’ll scrap the lot. Sep 9 Open post by angustaylormp with ID 17933696928382306 senatorhume Labor’s attempt to clean up the CFMEU is far from done. The CFMEU Administrator needs the powers necessary to stamp out corruption and misconduct. The Parliament must act and change this law. Sep 9 Open post by senatorhume with ID 18095816369572499 angustaylormp They served our country but Labor is capping their healthcare. Our veterans deserve better. We’ll scrap the cap. Sep 9 Open post by angustaylormp with ID 18016941893928995 liberalaus Australia needs an honest conversation about illicit tobacco. This is no longer only a question of tax settings or smoking rates &#8211; it is an organised crime problem operating in suburbs across the country. The Liberals and Nationals have a plan to smash that business model: cut tobacco excise by 80 per cent, strengthen law enforcement, and drive consumers away from the black market. Sep 9 Open post by liberalaus with ID 18114913064086106 angustaylormp Congratulations to Narelle Zanker on being named Agrifuture’s 2026 Rural Woman of the Year! Narelle has combined her two passions &#8211; farming and education &#8211; to create Dairy Adventures, opening up her family’s working dairy farm near Mannum and giving thousands of Australians the chance to see where their food comes from. From bottle-feeding calves to learning about dairy farming, animal care and food production, Narelle is doing an incredible job of bringing the city and country closer together. It’s a fantastic recognition of an inspiring South Australian, a brilliant family business and the women who are helping shape the future of Australian agriculture. Sep 9 Open post by angustaylormp with ID 18106604660137572 liberalaus Albanese must immediately scrap this damaging policy &#8211; it hurts older Australians, increases pressure on taxpayers and further strains our public health system. Sep 9 Open post by liberalaus with ID 18016126871947242 liberalaus Only the Liberals and Nationals have the right leadership, strong team, and a realistic plan to restore Australians’ standard of living and protect our way of life. Sep 9 Open post by liberalaus with ID 17980943553089395 liberalaus Labor has managed to design a birth tax that punishes family businesses for having a baby. The Liberals and Nationals will axe Labor`s toxic taxes. Sep 9 Open post by liberalaus with ID 18019688309713095 senatorhume I know what I stand against. Can Labor say the same? Sep 8 Open post by senatorhume with ID 18029195333893411 angustaylormp A Labor Premier is now telling the Prime Minister that his tobacco tax isn’t working. If Chris Minns gets it, why doesn’t the Prime Minister? Sep 8 Open post by angustaylormp with ID 17983549512071400 senatorhume Australians deserve answers about exactly what the Albanese government knew about corruption and criminal activity on Victorian construction sites. Sep 8 Open post by senatorhume with ID 18115408204998078 liberalaus To free-up housing stock and to begin to restore the dream of home ownership, we will cap immigration numbers based on available housing. This will close Labor’s housing shortage. Sep 8 Open post by liberalaus with ID 18462133693189272 We need your support to win! Help us by making a donation today. 🙏🏼 $30 👏🏼 $60 😃 $120 😁 $500 😲 $1,000 🥹 $2,000 ",
+        "after_excerpt": "sition in the Senate Meet the Liberal Team The Latest Stay up to date with the Liberal Party of Australia angustaylormp Have you seen this? Sep 11 Open post by angustaylormp with ID 17995052918825730 angustaylormp Shana Tova to all those celebrating Rosh Hashanah! Sep 11 Open post by angustaylormp with ID 18114172045801966 senatorhume Australians deserve answers on why alleged corruption and criminal activity in the construction industry isn’t being properly investigated. Labor promised to clean up the CFMEU. Two years on, the corruption is still making headlines. Sep 11 Open post by senatorhume with ID 18127482637786725 angustaylormp As we mark the 25th anniversary of the 9/11 terrorist attacks, we remember the almost 3,000 people killed including the 10 Australians, we think of their families, and we face the fact that Islamist extremism remains a significant threat. My commitment to Australians is to keep out, and root out Islamist extremism. We will protect our way of life. Sep 10 Open post by angustaylormp with ID 18409364269084925 liberalaus Prime Minister John Howard`s message to President George W. Bush on September 11, 2001. Sep 10 Open post by liberalaus with ID 18018091391930719 liberalaus We will never forget. Sep 10 Open post by liberalaus with ID 18097008290336492 liberalaus Organised crime is making billions from Australia’s illegal tobacco market. The Liberals and Nationals will cut the tobacco excise by 80 per cent to destroy the black market’s price advantage, invest $200 million in stronger law enforcement, and regulate vapes and nicotine pouches for adults. The goal is simple: take away the gangs’ customers, take away their profits, protect children, and put organised crime out of business. Sep 10 Open post by liberalaus with ID 18089383766673543 liberalaus Hey Labor! How much longer are you going to stand by Albo`s weird lies? But don`t get Anika Wells to tell us&#8230; Sep 10 Open post by liberalaus with ID 18627348874036015 liberalaus Anthony Albanese can`t lie straight in bed. It`s now up to Labor to take responsibility for his actions. How many times will they stand by him lying to the Australian people? From power prices, to tax increases, even falling off a stage and now supporting a golf club, he has a massive problem with the truth. So how much longer will Labor stand by his lies? Sep 10 Open post by liberalaus with ID 18135900565617509 angustaylormp Birth, life and death taxes. There’s nothing this Treasurer won’t tax. Today we uncovered Labor’s latest tax trap: adding a newborn to a trust structure could trigger a 47% tax on its entire income. That’s big for small and family businesses. Each one of Labor’s new taxes is toxic — and we’ll scrap the lot. Sep 9 Open post by angustaylormp with ID 17933696928382306 senatorhume Labor’s attempt to clean up the CFMEU is far from done. The CFMEU Administrator needs the powers necessary to stamp out corruption and misconduct. The Parliament must act and change this law. Sep 9 Open post by senatorhume with ID 18095816369572499 angustaylormp They served our country but Labor is capping their healthcare. Our veterans deserve better. We’ll scrap the cap. Sep 9 Open post by angustaylormp with ID 18016941893928995 liberalaus Australia needs an honest conversation about illicit tobacco. This is no longer only a question of tax settings or smoking rates &#8211; it is an organised crime problem operating in suburbs across the country. The Liberals and Nationals have a plan to smash that business model: cut tobacco excise by 80 per cent, strengthen law enforcement, and drive consumers away from the black market. Sep 9 Open post by liberalaus with ID 18114913064086106 angustaylormp Congratulations to Narelle Zanker on being named Agrifuture’s 2026 Rural Woman of the Year! Narelle has combined her two passions &#8211; farming and education &#8211; to create Dairy Adventures, opening up her family’s working dairy farm near Mannum and giving thousands of Australians the chance to see where their food comes from. From bottle-feeding calves to learning about dairy farming, animal care and food production, Narelle is doing an incredible job of bringing the city and country closer together. It’s a fantastic recognition of an inspiring South Australian, a brilliant family business and the women who are helping shape the future of Australian agriculture. Sep 9 Open post by angustaylormp with ID 18106604660137572 liberalaus Albanese must immediately scrap this damaging policy &#8211; it hurts older Australians, increases pressure on taxpayers and further strains our public health system. Sep 9 Open post by liberalaus with ID 18016126871947242 liberalaus Only the Liberals and Nationals have the right leadership, strong team, and a realistic plan to restore Australians’ standard of living and protect our way of life. Sep 9 Open post by liberalaus with ID 17980943553089395 liberalaus Labor has managed to design a birth tax that punishes family businesses for having a baby. The Liberals and Nationals will axe Labor`s toxic taxes. Sep 9 Open post by liberalaus with ID 18019688309713095 senatorhume I know what I stand against. Can Labor say the same? Sep 8 Open post by senatorhume with ID 18029195333893411 We need your support to win! Help us by making a donation today. 🙏🏼 $30 👏🏼 $60 😃 $120 😁 $500 😲 $1,000 🥹 $2,000 ",
+        "delta_hash": "c3c598602ce57240743daea1f76ad043a0e7829608aa8141df6861a7fafcabc9"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-SA-PREMIER-MEDIA-20260912054807",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-SA",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-SA-PREMIER-MEDIA-20260912054807",
+      "captured_at": "2026-09-12T05:48:07.417Z",
+      "event_date": "2026-09-12",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-SA-PREMIER-MEDIA",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "review_policy": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-SA-PREMIER-MEDIA-20260912001854",
+        "content_hash": "350da75690b230680ab32f677ddd7c08801f31065a3a1b9b627aa53ac7cc8409",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-SA-PREMIER-MEDIA-20260912054807",
+        "content_hash": "6e3466ce4b10a1a1b36862a0a81822cf198d9c7cd65bb9cec002d4716ab7ef00",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "STRUCTURED_RECORD_SET",
+        "records_added": [
+          {
+            "record_id": "03edcc795d19c500e113",
+            "title": "Media Release $32m a day: ‘Splash Cash’ Ashton’s plan for deficit and red tape 16/06/2026",
+            "url": "https://www.premier.sa.gov.au/media-releases/news-items/$32m-a-day-splash-cash-ashtons-plan-for-deficit-and-red-tape"
+          },
+          {
+            "record_id": "0bb52bdd43ada33652e2",
+            "title": "Media Release Key aviation connections resume 17/06/2026",
+            "url": "https://www.premier.sa.gov.au/media-releases/news-items/key-aviation-connections-resume"
+          },
+          {
+            "record_id": "24b9416b2df25b11c032",
+            "title": "Media Release New high school and upgrades underway across Adelaide’s north 14/06/2026",
+            "url": "https://www.premier.sa.gov.au/media-releases/news-items/new-high-school-and-upgrades-underway-across-adelaides-north"
+          },
+          {
+            "record_id": "27eaae4e761555f9f915",
+            "title": "Media Release New appointments to the Adelaide Festival Board 12/06/2026",
+            "url": "https://www.premier.sa.gov.au/media-releases/news-items/new-appointments-to-the-adelaide-festival-board"
+          },
+          {
+            "record_id": "3101d96f833109570cb5",
+            "title": "Media Release Business events return record economic boost 16/06/2026",
+            "url": "https://www.premier.sa.gov.au/media-releases/news-items/business-events-return-record-economic-boost"
+          },
+          {
+            "record_id": "38b59bf956e944838e61",
+            "title": "Skip to content",
+            "url": "https://www.premier.sa.gov.au/config/funnelback-config/premiermediareleases-funnelback-connector"
+          },
+          {
+            "record_id": "44c36a10e27c79b7d104",
+            "title": "Clear Search",
+            "url": "https://www.premier.sa.gov.au/config/funnelback-config/premiermediareleases-funnelback-connector"
+          },
+          {
+            "record_id": "47a332477660d1323ebb",
+            "title": "Media Release Ensuring the integrity of council elections 16/06/2026",
+            "url": "https://www.premier.sa.gov.au/media-releases/news-items/ensuring-the-integrity-of-council-elections"
+          },
+          {
+            "record_id": "5769d3a1bd503eb10e90",
+            "title": "Media Release Works to continue at North Adelaide Public Golf Course 12/06/2026",
+            "url": "https://www.premier.sa.gov.au/media-releases/news-items/works-to-continue-at-north-adelaide-public-golf-course"
+          },
+          {
+            "record_id": "723a559353e1f54939d2",
+            "title": "Skip to navigation",
+            "url": "https://www.premier.sa.gov.au/config/funnelback-config/premiermediareleases-funnelback-connector"
+          },
+          {
+            "record_id": "793f24fd9cabd7f75fef",
+            "title": "Media Release New data shows mobile phone ban driving dramatic change in schools 15/06/2026",
+            "url": "https://www.premier.sa.gov.au/media-releases/news-items/new-data-shows-mobile-phone-ban-driving-dramatic-change-in-schools"
+          },
+          {
+            "record_id": "a07f7303b3ee8ecb7536",
+            "title": "Media Release Search begins for new Inspector 16/06/2026",
+            "url": "https://www.premier.sa.gov.au/media-releases/news-items/search-begins-for-new-inspector"
+          },
+          {
+            "record_id": "bb22f3e4a54eb66f56fe",
+            "title": "Media Release Get live and loud to support the Commbank Socceroos 13/06/2026",
+            "url": "https://www.premier.sa.gov.au/media-releases/news-items/get-live-and-loud-to-support-the-commbank-socceroos"
+          },
+          {
+            "record_id": "d40ce650e42538f9c525",
+            "title": "Media Release National Office for Algal Bloom Research opens in Adelaide 17/06/2026",
+            "url": "https://www.premier.sa.gov.au/media-releases/news-items/national-office-for-algal-bloom-research-opens-in-adelaide"
+          },
+          {
+            "record_id": "dc903e0d5773afd5de95",
+            "title": "Media Release More records fall as SA’s copper bonanza powers on 17/06/2026",
+            "url": "https://www.premier.sa.gov.au/media-releases/news-items/more-records-fall-as-sas-copper-bonanza-powers-on"
+          }
+        ],
+        "records_removed": [],
+        "added_count": 15,
+        "removed_count": 0,
+        "before_count": 5,
+        "after_count": 20,
+        "delta_hash": "20a66d8ceaa3997b1cea18ac74db8e18ba266ebb66cc9d87cf5ce5ed4bc23d87"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "SIG-REV-CHG-WATCH-APH-BILLS-20260912054807",
+      "parent_event_id": "CHG-WATCH-APH-BILLS-20260912054807",
+      "review_id": "REV-CHG-WATCH-APH-BILLS-20260912054807",
+      "jurisdiction_id": "AUS-FED",
+      "party_id": null,
+      "actor_id": null,
+      "contest_id": null,
+      "cycle_id": null,
+      "source_snapshot_id": "AUTO-WATCH-APH-BILLS-20260912054807",
+      "record_id": null,
+      "captured_at": "2026-09-12T05:49:16.191Z",
+      "event_date": "2026-09-12",
+      "checkpoint": "CONTINUOUS_FORWARD_SIGNAL_REVIEW",
+      "event_type": "SIGNAL_CREATED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_PARLIAMENT",
+      "source_id": "SRC-APH-BILLS",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "claim": "Parliament of Australia — Bills and Legislation added 2 structured publication records to its forward-captured official index: Current House bills list; Current Senate bills list",
+      "observed_behaviour": "One or more structured publication records appeared in the monitored official source index after the preceding forward snapshot.",
+      "publication_records_added": [
+        {
+          "record_id": "0c02f85eb762e1f64212",
+          "title": "Current House bills list",
+          "url": "https://www.aph.gov.au/Parliamentary_Business/layouts/DPS/Bills/?blsId=legislation%2fbillslst%2fbillslst_c203aa1c-1876-41a8-bc76-1de328bdb726"
+        },
+        {
+          "record_id": "a9d593cfe442932eabeb",
+          "title": "Current Senate bills list",
+          "url": "https://www.aph.gov.au/Parliamentary_Business/layouts/DPS/Bills/?blsId=legislation%2fbillslst%2fbillslst_8100fb48-0592-488b-828b-d017b24562d4"
+        }
+      ],
+      "publication_records_removed": [
+        {
+          "record_id": "29a68e1255907793c887",
+          "title": "Current Senate bills list",
+          "url": "https://www.aph.gov.au/layouts/DPS/Bills/?blsId=legislation%2fbillslst%2fbillslst_8100fb48-0592-488b-828b-d017b24562d4"
+        },
+        {
+          "record_id": "5965c705a3f269591b38",
+          "title": "Current House bills list",
+          "url": "https://www.aph.gov.au/layouts/DPS/Bills/?blsId=legislation%2fbillslst%2fbillslst_c203aa1c-1876-41a8-bc76-1de328bdb726"
+        }
+      ],
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "underlying_publication_claims_not_promoted_to_verified_fact": true,
+        "source_change_parent_retained": true,
+        "deterministic_review": true
+      }
+    },
+    {
+      "event_id": "SIG-REV-CHG-WATCH-SA-PREMIER-MEDIA-20260912054807",
+      "parent_event_id": "CHG-WATCH-SA-PREMIER-MEDIA-20260912054807",
+      "review_id": "REV-CHG-WATCH-SA-PREMIER-MEDIA-20260912054807",
+      "jurisdiction_id": "AUS-SA",
+      "party_id": null,
+      "actor_id": null,
+      "contest_id": null,
+      "cycle_id": null,
+      "source_snapshot_id": "AUTO-WATCH-SA-PREMIER-MEDIA-20260912054807",
+      "record_id": null,
+      "captured_at": "2026-09-12T05:49:16.191Z",
+      "event_date": "2026-09-12",
+      "checkpoint": "CONTINUOUS_FORWARD_SIGNAL_REVIEW",
+      "event_type": "SIGNAL_CREATED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-SA-PREMIER-MEDIA",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "claim": "Premier of South Australia — media releases added 15 structured publication records to its forward-captured official index: Media Release $32m a day: ‘Splash Cash’ Ashton’s plan for deficit and red tape 16/06/2026; Media Release Key aviation connections resume 17/06/2026; Media Release New high school and upgrades underway across Adelaide’s north 14/06/2026; Media Release New appointments to the Adelaide Festival Board 12/06/2026; Media Release Business events return record economic boost 16/06/2026; +10 more",
+      "observed_behaviour": "One or more structured publication records appeared in the monitored official source index after the preceding forward snapshot.",
+      "publication_records_added": [
+        {
+          "record_id": "03edcc795d19c500e113",
+          "title": "Media Release $32m a day: ‘Splash Cash’ Ashton’s plan for deficit and red tape 16/06/2026",
+          "url": "https://www.premier.sa.gov.au/media-releases/news-items/$32m-a-day-splash-cash-ashtons-plan-for-deficit-and-red-tape"
+        },
+        {
+          "record_id": "0bb52bdd43ada33652e2",
+          "title": "Media Release Key aviation connections resume 17/06/2026",
+          "url": "https://www.premier.sa.gov.au/media-releases/news-items/key-aviation-connections-resume"
+        },
+        {
+          "record_id": "24b9416b2df25b11c032",
+          "title": "Media Release New high school and upgrades underway across Adelaide’s north 14/06/2026",
+          "url": "https://www.premier.sa.gov.au/media-releases/news-items/new-high-school-and-upgrades-underway-across-adelaides-north"
+        },
+        {
+          "record_id": "27eaae4e761555f9f915",
+          "title": "Media Release New appointments to the Adelaide Festival Board 12/06/2026",
+          "url": "https://www.premier.sa.gov.au/media-releases/news-items/new-appointments-to-the-adelaide-festival-board"
+        },
+        {
+          "record_id": "3101d96f833109570cb5",
+          "title": "Media Release Business events return record economic boost 16/06/2026",
+          "url": "https://www.premier.sa.gov.au/media-releases/news-items/business-events-return-record-economic-boost"
+        },
+        {
+          "record_id": "38b59bf956e944838e61",
+          "title": "Skip to content",
+          "url": "https://www.premier.sa.gov.au/config/funnelback-config/premiermediareleases-funnelback-connector"
+        },
+        {
+          "record_id": "44c36a10e27c79b7d104",
+          "title": "Clear Search",
+          "url": "https://www.premier.sa.gov.au/config/funnelback-config/premiermediareleases-funnelback-connector"
+        },
+        {
+          "record_id": "47a332477660d1323ebb",
+          "title": "Media Release Ensuring the integrity of council elections 16/06/2026",
+          "url": "https://www.premier.sa.gov.au/media-releases/news-items/ensuring-the-integrity-of-council-elections"
+        },
+        {
+          "record_id": "5769d3a1bd503eb10e90",
+          "title": "Media Release Works to continue at North Adelaide Public Golf Course 12/06/2026",
+          "url": "https://www.premier.sa.gov.au/media-releases/news-items/works-to-continue-at-north-adelaide-public-golf-course"
+        },
+        {
+          "record_id": "723a559353e1f54939d2",
+          "title": "Skip to navigation",
+          "url": "https://www.premier.sa.gov.au/config/funnelback-config/premiermediareleases-funnelback-connector"
+        },
+        {
+          "record_id": "793f24fd9cabd7f75fef",
+          "title": "Media Release New data shows mobile phone ban driving dramatic change in schools 15/06/2026",
+          "url": "https://www.premier.sa.gov.au/media-releases/news-items/new-data-shows-mobile-phone-ban-driving-dramatic-change-in-schools"
+        },
+        {
+          "record_id": "a07f7303b3ee8ecb7536",
+          "title": "Media Release Search begins for new Inspector 16/06/2026",
+          "url": "https://www.premier.sa.gov.au/media-releases/news-items/search-begins-for-new-inspector"
+        },
+        {
+          "record_id": "bb22f3e4a54eb66f56fe",
+          "title": "Media Release Get live and loud to support the Commbank Socceroos 13/06/2026",
+          "url": "https://www.premier.sa.gov.au/media-releases/news-items/get-live-and-loud-to-support-the-commbank-socceroos"
+        },
+        {
+          "record_id": "d40ce650e42538f9c525",
+          "title": "Media Release National Office for Algal Bloom Research opens in Adelaide 17/06/2026",
+          "url": "https://www.premier.sa.gov.au/media-releases/news-items/national-office-for-algal-bloom-research-opens-in-adelaide"
+        },
+        {
+          "record_id": "dc903e0d5773afd5de95",
+          "title": "Media Release More records fall as SA’s copper bonanza powers on 17/06/2026",
+          "url": "https://www.premier.sa.gov.au/media-releases/news-items/more-records-fall-as-sas-copper-bonanza-powers-on"
+        }
+      ],
+      "publication_records_removed": [],
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "underlying_publication_claims_not_promoted_to_verified_fact": true,
+        "source_change_parent_retained": true,
+        "deterministic_review": true
+      }
     }
   ]
 }

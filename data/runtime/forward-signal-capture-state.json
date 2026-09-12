@@ -7,9 +7,9 @@
       "source_id": "SRC-LIBERAL-FEDERAL-HOME",
       "jurisdiction_id": "AUS-FED",
       "party_id": "AUS-FED-LIB",
-      "content_hash": "d1f604ade446b18685c22e928e8df95453cc80719310838069899a226dcb2dd8",
-      "snapshot_id": "AUTO-WATCH-LIBERAL-HOME-20260911044201",
-      "captured_at": "2026-09-11T04:42:01.915Z",
+      "content_hash": "beb65b0903e363a4bb9a8579c38aa739943f3819ddf8e349eb53b04eaf559741",
+      "snapshot_id": "AUTO-WATCH-LIBERAL-HOME-20260912054807",
+      "captured_at": "2026-09-12T05:48:07.417Z",
       "acquisition_url": "https://www.liberal.org.au/",
       "requested_url": "https://www.liberal.org.au/",
       "header_profile": "IDENTIFIED_AUTOMATION",
@@ -366,11 +366,11 @@
       "source_id": "SRC-SA-PREMIER-MEDIA",
       "jurisdiction_id": "AUS-SA",
       "party_id": null,
-      "content_hash": "350da75690b230680ab32f677ddd7c08801f31065a3a1b9b627aa53ac7cc8409",
-      "snapshot_id": "AUTO-WATCH-SA-PREMIER-MEDIA-20260912001854",
-      "captured_at": "2026-09-12T00:18:54.848Z",
-      "acquisition_url": "https://www.premier.sa.gov.au/",
-      "requested_url": "https://www.premier.sa.gov.au/",
+      "content_hash": "6e3466ce4b10a1a1b36862a0a81822cf198d9c7cd65bb9cec002d4716ab7ef00",
+      "snapshot_id": "AUTO-WATCH-SA-PREMIER-MEDIA-20260912054807",
+      "captured_at": "2026-09-12T05:48:07.417Z",
+      "acquisition_url": "https://www.premier.sa.gov.au/config/funnelback-config/premiermediareleases-funnelback-connector",
+      "requested_url": "https://www.premier.sa.gov.au/config/funnelback-config/premiermediareleases-funnelback-connector",
       "header_profile": "IDENTIFIED_AUTOMATION",
       "content_type": "text/html; charset=utf-8",
       "capture_mode": "PUBLICATION_FEED_HASH",
@@ -464,9 +464,9 @@
       "source_id": "SRC-APH-BILLS",
       "jurisdiction_id": "AUS-FED",
       "party_id": null,
-      "content_hash": "4fa04cbce840b00fa7a958f25d2271bd81c9c7447095114a36261d95632569b1",
-      "snapshot_id": "AUTO-WATCH-APH-BILLS-20260910094520",
-      "captured_at": "2026-09-10T09:45:20.888Z",
+      "content_hash": "c42639fcb99f6f245d481a33d7a1e48e6055980b8127db24e3ba70564dde2fbe",
+      "snapshot_id": "AUTO-WATCH-APH-BILLS-20260912054807",
+      "captured_at": "2026-09-12T05:48:07.417Z",
       "acquisition_url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation",
       "requested_url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation",
       "header_profile": "BROWSER_COMPATIBILITY",
@@ -503,11 +503,11 @@
       "captured_representation_complete": true
     }
   },
-  "updated_at": "2026-09-12T00:18:54.848Z",
+  "updated_at": "2026-09-12T05:48:07.417Z",
   "last_run": {
-    "captured_at": "2026-09-12T00:18:54.848Z",
+    "captured_at": "2026-09-12T05:48:07.417Z",
     "baselines_created": 0,
-    "source_changes_created": 1,
+    "source_changes_created": 3,
     "semantic_signals_created": 0,
     "representation_upgrades": 0,
     "failures": [
@@ -526,10 +526,6 @@
       {
         "watch_id": "WATCH-SA-PARLIAMENT",
         "error": "https://www.parliament.sa.gov.au/ [IDENTIFIED_AUTOMATION] timeout>15000ms | https://www.parliament.sa.gov.au/ [BROWSER_COMPATIBILITY] timeout>15000ms"
-      },
-      {
-        "watch_id": "WATCH-TAS-HANSARD",
-        "error": "https://search.parliament.tas.gov.au/Search/search/search?IW_FIELD_ADVANCE_PHRASE=2026%20IN%20TITLE&IW_DATABASE=Hansard&IW_SORT=-9&IW_SEARCH_SCOPE=meta [IDENTIFIED_AUTOMATION] timeout>15000ms | https://search.parliament.tas.gov.au/Search/search/search?IW_FIELD_ADVANCE_PHRASE=2026%20IN%20TITLE&IW_DATABASE=Hansard&IW_SORT=-9&IW_SEARCH_SCOPE=meta [BROWSER_COMPATIBILITY] timeout>15000ms"
       },
       {
         "watch_id": "WATCH-TAS-PREMIER-NEWS",
@@ -565,7 +561,7 @@
   "coverage": {
     "active_sources": 36,
     "baselines_captured": 36,
-    "current_run_failures": 12,
+    "current_run_failures": 11,
     "jurisdictions": {
       "AUS-FED": {
         "configured_sources": 10,
@@ -637,7 +633,7 @@
       "AUS-TAS": {
         "configured_sources": 3,
         "baseline_sources": 3,
-        "current_run_failures": 2,
+        "current_run_failures": 1,
         "source_classes": [
           "PRIMARY_ELECTORAL_AUTHORITY",
           "PRIMARY_GOVERNMENT",

@@ -503,11 +503,11 @@
       "captured_representation_complete": true
     }
   },
-  "updated_at": "2026-09-12T14:08:43.618Z",
+  "updated_at": "2026-09-12T17:11:16.922Z",
   "last_run": {
-    "captured_at": "2026-09-12T14:08:43.618Z",
+    "captured_at": "2026-09-12T17:11:16.922Z",
     "baselines_created": 0,
-    "source_changes_created": 1,
+    "source_changes_created": 0,
     "semantic_signals_created": 0,
     "representation_upgrades": 0,
     "failures": [
@@ -522,6 +522,10 @@
       {
         "watch_id": "WATCH-ECQ-MEDIA",
         "error": "https://www.ecq.qld.gov.au/media/2026-media-statements [IDENTIFIED_AUTOMATION] 403 Forbidden | https://www.ecq.qld.gov.au/media/2026-media-statements [BROWSER_COMPATIBILITY] 403 Forbidden | https://www.ecq.qld.gov.au/home [IDENTIFIED_AUTOMATION] 403 Forbidden | https://www.ecq.qld.gov.au/home [BROWSER_COMPATIBILITY] 403 Forbidden"
+      },
+      {
+        "watch_id": "WATCH-TAS-HANSARD",
+        "error": "https://search.parliament.tas.gov.au/Search/search/search?IW_FIELD_ADVANCE_PHRASE=2026%20IN%20TITLE&IW_DATABASE=Hansard&IW_SORT=-9&IW_SEARCH_SCOPE=meta [IDENTIFIED_AUTOMATION] empty response | https://search.parliament.tas.gov.au/Search/search/search?IW_FIELD_ADVANCE_PHRASE=2026%20IN%20TITLE&IW_DATABASE=Hansard&IW_SORT=-9&IW_SEARCH_SCOPE=meta [BROWSER_COMPATIBILITY] timeout>15000ms"
       },
       {
         "watch_id": "WATCH-TAS-PREMIER-NEWS",
@@ -557,7 +561,7 @@
   "coverage": {
     "active_sources": 36,
     "baselines_captured": 36,
-    "current_run_failures": 10,
+    "current_run_failures": 11,
     "jurisdictions": {
       "AUS-FED": {
         "configured_sources": 10,
@@ -629,7 +633,7 @@
       "AUS-TAS": {
         "configured_sources": 3,
         "baseline_sources": 3,
-        "current_run_failures": 1,
+        "current_run_failures": 2,
         "source_classes": [
           "PRIMARY_ELECTORAL_AUTHORITY",
           "PRIMARY_GOVERNMENT",

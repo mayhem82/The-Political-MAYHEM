@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-INTELLIGENCE-EVENTS-001",
   "scope": "Australia — multi-jurisdiction",
-  "captured_at": "2026-09-12T10:48:42.419Z",
+  "captured_at": "2026-09-12T14:09:31.649Z",
   "mode": "FORWARD_ONLY",
   "rules": {
     "observation_distinct_from_inference": true,
@@ -65984,6 +65984,52 @@
         "source_change_parent_retained": true,
         "deterministic_review": true
       }
+    },
+    {
+      "event_id": "CHG-WATCH-TAS-HANSARD-20260912140843",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-TAS",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-TAS-HANSARD-20260912140843",
+      "captured_at": "2026-09-12T14:08:43.618Z",
+      "event_date": "2026-09-13",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_PARLIAMENT",
+      "source_id": "SRC-TAS-HANSARD",
+      "capture_mode": "NORMALISED_PAGE_HASH",
+      "review_policy": "REVIEW_UNSTRUCTURED_CHANGE",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-TAS-HANSARD-20260911183421",
+        "content_hash": "7ae65ddf2209f1533e7680e4d929e8f588ad3f984029d55761edbe91f4f9ac59",
+        "capture_mode": "NORMALISED_PAGE_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-TAS-HANSARD-20260912140843",
+        "content_hash": "f114eede910a05688fd952fe0bca4bb6c0530c4a5d16db4c4f75441abc2349a9",
+        "capture_mode": "NORMALISED_PAGE_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "TEXT_REPRESENTATION",
+        "first_difference_offset": 1529,
+        "before_length": 3207,
+        "after_length": 3178,
+        "before_excerpt": " Stillwater 34 Iran 30 Singapore 30 Wellington 28 France 24 America 23 SCOTLAND 22 Cambridge 20 Canada 20 more... top 5 Clusters Council Thursday 12 Sort by Best Match Date Size Date Filter by date Last 7 days Last Month Last 3 Months Last 6 Months Last 12 Months Showi",
+        "after_excerpt": " Stillwater 34 Iran 30 Singapore 30 Wellington 28 France 24 America 23 SCOTLAND 22 Cambridge 20 Canada 20 more... top 5 Sort by Best Match Date Size Date Filter by date Last 7 days Last Month Last 3 Months Last 6 Months Last 12 Months Showi",
+        "delta_hash": "fe2fdd5efc3c7478bbb910c80295440ddfd9cf11fab16847ed2a362ad3864268"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
     }
   ]
 }

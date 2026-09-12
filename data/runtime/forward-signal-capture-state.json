@@ -186,9 +186,9 @@
       "source_id": "SRC-TAS-HANSARD",
       "jurisdiction_id": "AUS-TAS",
       "party_id": null,
-      "content_hash": "7ae65ddf2209f1533e7680e4d929e8f588ad3f984029d55761edbe91f4f9ac59",
-      "snapshot_id": "AUTO-WATCH-TAS-HANSARD-20260911183421",
-      "captured_at": "2026-09-11T18:34:21.231Z",
+      "content_hash": "f114eede910a05688fd952fe0bca4bb6c0530c4a5d16db4c4f75441abc2349a9",
+      "snapshot_id": "AUTO-WATCH-TAS-HANSARD-20260912140843",
+      "captured_at": "2026-09-12T14:08:43.618Z",
       "acquisition_url": "https://search.parliament.tas.gov.au/Search/search/search?IW_FIELD_ADVANCE_PHRASE=2026%20IN%20TITLE&IW_DATABASE=Hansard&IW_SORT=-9&IW_SEARCH_SCOPE=meta",
       "requested_url": "https://search.parliament.tas.gov.au/Search/search/search?IW_FIELD_ADVANCE_PHRASE=2026%20IN%20TITLE&IW_DATABASE=Hansard&IW_SORT=-9&IW_SEARCH_SCOPE=meta",
       "header_profile": "BROWSER_COMPATIBILITY",
@@ -503,9 +503,9 @@
       "captured_representation_complete": true
     }
   },
-  "updated_at": "2026-09-12T10:48:00.875Z",
+  "updated_at": "2026-09-12T14:08:43.618Z",
   "last_run": {
-    "captured_at": "2026-09-12T10:48:00.875Z",
+    "captured_at": "2026-09-12T14:08:43.618Z",
     "baselines_created": 0,
     "source_changes_created": 1,
     "semantic_signals_created": 0,
@@ -522,10 +522,6 @@
       {
         "watch_id": "WATCH-ECQ-MEDIA",
         "error": "https://www.ecq.qld.gov.au/media/2026-media-statements [IDENTIFIED_AUTOMATION] 403 Forbidden | https://www.ecq.qld.gov.au/media/2026-media-statements [BROWSER_COMPATIBILITY] 403 Forbidden | https://www.ecq.qld.gov.au/home [IDENTIFIED_AUTOMATION] 403 Forbidden | https://www.ecq.qld.gov.au/home [BROWSER_COMPATIBILITY] 403 Forbidden"
-      },
-      {
-        "watch_id": "WATCH-TAS-HANSARD",
-        "error": "https://search.parliament.tas.gov.au/Search/search/search?IW_FIELD_ADVANCE_PHRASE=2026%20IN%20TITLE&IW_DATABASE=Hansard&IW_SORT=-9&IW_SEARCH_SCOPE=meta [IDENTIFIED_AUTOMATION] empty response | https://search.parliament.tas.gov.au/Search/search/search?IW_FIELD_ADVANCE_PHRASE=2026%20IN%20TITLE&IW_DATABASE=Hansard&IW_SORT=-9&IW_SEARCH_SCOPE=meta [BROWSER_COMPATIBILITY] timeout>15000ms"
       },
       {
         "watch_id": "WATCH-TAS-PREMIER-NEWS",
@@ -561,7 +557,7 @@
   "coverage": {
     "active_sources": 36,
     "baselines_captured": 36,
-    "current_run_failures": 11,
+    "current_run_failures": 10,
     "jurisdictions": {
       "AUS-FED": {
         "configured_sources": 10,
@@ -633,7 +629,7 @@
       "AUS-TAS": {
         "configured_sources": 3,
         "baseline_sources": 3,
-        "current_run_failures": 2,
+        "current_run_failures": 1,
         "source_classes": [
           "PRIMARY_ELECTORAL_AUTHORITY",
           "PRIMARY_GOVERNMENT",

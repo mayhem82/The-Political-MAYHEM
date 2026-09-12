@@ -464,9 +464,9 @@
       "source_id": "SRC-APH-BILLS",
       "jurisdiction_id": "AUS-FED",
       "party_id": null,
-      "content_hash": "c42639fcb99f6f245d481a33d7a1e48e6055980b8127db24e3ba70564dde2fbe",
-      "snapshot_id": "AUTO-WATCH-APH-BILLS-20260912054807",
-      "captured_at": "2026-09-12T05:48:07.417Z",
+      "content_hash": "4fa04cbce840b00fa7a958f25d2271bd81c9c7447095114a36261d95632569b1",
+      "snapshot_id": "AUTO-WATCH-APH-BILLS-20260912104800",
+      "captured_at": "2026-09-12T10:48:00.875Z",
       "acquisition_url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation",
       "requested_url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation",
       "header_profile": "BROWSER_COMPATIBILITY",
@@ -503,11 +503,11 @@
       "captured_representation_complete": true
     }
   },
-  "updated_at": "2026-09-12T05:48:07.417Z",
+  "updated_at": "2026-09-12T10:48:00.875Z",
   "last_run": {
-    "captured_at": "2026-09-12T05:48:07.417Z",
+    "captured_at": "2026-09-12T10:48:00.875Z",
     "baselines_created": 0,
-    "source_changes_created": 3,
+    "source_changes_created": 1,
     "semantic_signals_created": 0,
     "representation_upgrades": 0,
     "failures": [
@@ -524,8 +524,8 @@
         "error": "https://www.ecq.qld.gov.au/media/2026-media-statements [IDENTIFIED_AUTOMATION] 403 Forbidden | https://www.ecq.qld.gov.au/media/2026-media-statements [BROWSER_COMPATIBILITY] 403 Forbidden | https://www.ecq.qld.gov.au/home [IDENTIFIED_AUTOMATION] 403 Forbidden | https://www.ecq.qld.gov.au/home [BROWSER_COMPATIBILITY] 403 Forbidden"
       },
       {
-        "watch_id": "WATCH-SA-PARLIAMENT",
-        "error": "https://www.parliament.sa.gov.au/ [IDENTIFIED_AUTOMATION] timeout>15000ms | https://www.parliament.sa.gov.au/ [BROWSER_COMPATIBILITY] timeout>15000ms"
+        "watch_id": "WATCH-TAS-HANSARD",
+        "error": "https://search.parliament.tas.gov.au/Search/search/search?IW_FIELD_ADVANCE_PHRASE=2026%20IN%20TITLE&IW_DATABASE=Hansard&IW_SORT=-9&IW_SEARCH_SCOPE=meta [IDENTIFIED_AUTOMATION] empty response | https://search.parliament.tas.gov.au/Search/search/search?IW_FIELD_ADVANCE_PHRASE=2026%20IN%20TITLE&IW_DATABASE=Hansard&IW_SORT=-9&IW_SEARCH_SCOPE=meta [BROWSER_COMPATIBILITY] timeout>15000ms"
       },
       {
         "watch_id": "WATCH-TAS-PREMIER-NEWS",
@@ -622,18 +622,18 @@
       "AUS-SA": {
         "configured_sources": 3,
         "baseline_sources": 3,
-        "current_run_failures": 1,
+        "current_run_failures": 0,
         "source_classes": [
           "PRIMARY_ELECTORAL_AUTHORITY",
           "PRIMARY_GOVERNMENT",
           "PRIMARY_PARLIAMENT"
         ],
-        "status": "CAPTURE_ACTIVE_DEGRADED_CURRENT_RUN"
+        "status": "CAPTURE_ACTIVE_FULL_CONFIGURED_BASELINE"
       },
       "AUS-TAS": {
         "configured_sources": 3,
         "baseline_sources": 3,
-        "current_run_failures": 1,
+        "current_run_failures": 2,
         "source_classes": [
           "PRIMARY_ELECTORAL_AUTHORITY",
           "PRIMARY_GOVERNMENT",

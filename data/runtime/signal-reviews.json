@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-SIGNAL-REVIEWS-001",
   "created_at": "2026-09-09T05:05:00+10:00",
-  "updated_at": "2026-09-12T05:49:16.191Z",
+  "updated_at": "2026-09-12T10:48:39.854Z",
   "rules": {
     "append_only": true,
     "raw_source_change_is_immutable": true,
@@ -25679,6 +25679,56 @@
         ],
         "removed_records": [],
         "delta_hash": "20a66d8ceaa3997b1cea18ac74db8e18ba266ebb66cc9d87cf5ce5ed4bc23d87"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-APH-BILLS-20260912104800",
+      "source_change_event_id": "CHG-WATCH-APH-BILLS-20260912104800",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-APH-BILLS-20260912104800",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Parliament of Australia — Bills and Legislation added 2 structured publication records to its forward-captured official index: Current Senate bills list; Current House bills list",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-09-12T10:48:39.854Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "29a68e1255907793c887",
+            "title": "Current Senate bills list",
+            "url": "https://www.aph.gov.au/layouts/DPS/Bills/?blsId=legislation%2fbillslst%2fbillslst_8100fb48-0592-488b-828b-d017b24562d4"
+          },
+          {
+            "record_id": "5965c705a3f269591b38",
+            "title": "Current House bills list",
+            "url": "https://www.aph.gov.au/layouts/DPS/Bills/?blsId=legislation%2fbillslst%2fbillslst_c203aa1c-1876-41a8-bc76-1de328bdb726"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "0c02f85eb762e1f64212",
+            "title": "Current House bills list",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/layouts/DPS/Bills/?blsId=legislation%2fbillslst%2fbillslst_c203aa1c-1876-41a8-bc76-1de328bdb726"
+          },
+          {
+            "record_id": "a9d593cfe442932eabeb",
+            "title": "Current Senate bills list",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/layouts/DPS/Bills/?blsId=legislation%2fbillslst%2fbillslst_8100fb48-0592-488b-828b-d017b24562d4"
+          }
+        ],
+        "delta_hash": "ae77352edd3f794d48b6e319265a2b7c71b0e19c6183fe740c05730e845e3cf3"
       },
       "integrity": {
         "source_change_unchanged": true,

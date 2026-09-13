@@ -310,9 +310,9 @@
       "source_id": "SRC-QLD-MINISTERIAL-STATEMENTS",
       "jurisdiction_id": "AUS-QLD",
       "party_id": null,
-      "content_hash": "fbb5d52ea41ab4c725940d43839e4743970577a9c98982795a513d7039515408",
-      "snapshot_id": "AUTO-WATCH-QLD-MINISTERIAL-STATEMENTS-20260911094229",
-      "captured_at": "2026-09-11T09:42:29.259Z",
+      "content_hash": "aa4350c30940657f56c920b6e60a7b8733414fd28997395ff1a5091fbb86bdcd",
+      "snapshot_id": "AUTO-WATCH-QLD-MINISTERIAL-STATEMENTS-20260913010135",
+      "captured_at": "2026-09-13T01:01:35.376Z",
       "acquisition_url": "https://statements.qld.gov.au/",
       "requested_url": "https://statements.qld.gov.au/",
       "header_profile": "IDENTIFIED_AUTOMATION",
@@ -503,11 +503,11 @@
       "captured_representation_complete": true
     }
   },
-  "updated_at": "2026-09-12T22:18:51.207Z",
+  "updated_at": "2026-09-13T01:01:35.376Z",
   "last_run": {
-    "captured_at": "2026-09-12T22:18:51.207Z",
+    "captured_at": "2026-09-13T01:01:35.376Z",
     "baselines_created": 0,
-    "source_changes_created": 0,
+    "source_changes_created": 1,
     "semantic_signals_created": 0,
     "representation_upgrades": 0,
     "failures": [
@@ -525,7 +525,7 @@
       },
       {
         "watch_id": "WATCH-TAS-HANSARD",
-        "error": "https://search.parliament.tas.gov.au/Search/search/search?IW_FIELD_ADVANCE_PHRASE=2026%20IN%20TITLE&IW_DATABASE=Hansard&IW_SORT=-9&IW_SEARCH_SCOPE=meta [IDENTIFIED_AUTOMATION] timeout>15000ms | https://search.parliament.tas.gov.au/Search/search/search?IW_FIELD_ADVANCE_PHRASE=2026%20IN%20TITLE&IW_DATABASE=Hansard&IW_SORT=-9&IW_SEARCH_SCOPE=meta [BROWSER_COMPATIBILITY] timeout>15000ms"
+        "error": "https://search.parliament.tas.gov.au/Search/search/search?IW_FIELD_ADVANCE_PHRASE=2026%20IN%20TITLE&IW_DATABASE=Hansard&IW_SORT=-9&IW_SEARCH_SCOPE=meta [IDENTIFIED_AUTOMATION] 503 Service Unavailable | https://search.parliament.tas.gov.au/Search/search/search?IW_FIELD_ADVANCE_PHRASE=2026%20IN%20TITLE&IW_DATABASE=Hansard&IW_SORT=-9&IW_SEARCH_SCOPE=meta [BROWSER_COMPATIBILITY] 503 Service Unavailable"
       },
       {
         "watch_id": "WATCH-TAS-PREMIER-NEWS",

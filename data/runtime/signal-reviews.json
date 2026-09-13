@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-SIGNAL-REVIEWS-001",
   "created_at": "2026-09-09T05:05:00+10:00",
-  "updated_at": "2026-09-12T22:19:52.000Z",
+  "updated_at": "2026-09-13T01:02:15.507Z",
   "rules": {
     "append_only": true,
     "raw_source_change_is_immutable": true,
@@ -25729,6 +25729,46 @@
           }
         ],
         "delta_hash": "ae77352edd3f794d48b6e319265a2b7c71b0e19c6183fe740c05730e845e3cf3"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20260913010135",
+      "source_change_event_id": "CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20260913010135",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20260913010135",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Queensland Government — Ministerial Media Statements added 1 structured publication record to its forward-captured official index: Birthing services returning to Cooktown and Biloela",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-09-13T01:02:15.507Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "8c681c82cc2dc61d4efb",
+            "title": "Birthing services returning to Cooktown and Biloela",
+            "url": "https://statements.qld.gov.au/statements/106046"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "9fd4e5c28d6d648e0d2e",
+            "title": "Major upgrades to staff accommodation for Goondiwindi’s health workers",
+            "url": "https://statements.qld.gov.au/statements/106027"
+          }
+        ],
+        "delta_hash": "b468e34ebd407962987098500df573bcb2e23d2a2173f5165acff4db545eb0cb"
       },
       "integrity": {
         "source_change_unchanged": true,

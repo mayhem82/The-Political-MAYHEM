@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-SIGNAL-REVIEWS-001",
   "created_at": "2026-09-09T05:05:00+10:00",
-  "updated_at": "2026-09-13T06:12:24.155Z",
+  "updated_at": "2026-09-13T11:54:39.990Z",
   "rules": {
     "append_only": true,
     "raw_source_change_is_immutable": true,
@@ -25769,6 +25769,56 @@
           }
         ],
         "delta_hash": "b468e34ebd407962987098500df573bcb2e23d2a2173f5165acff4db545eb0cb"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-PM-MEDIA-20260913115333",
+      "source_change_event_id": "CHG-WATCH-PM-MEDIA-20260913115333",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-PM-MEDIA-20260913115333",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Prime Minister of Australia — media added 2 structured publication records to its forward-captured official index: Appointment of new Chair for National Australia Day Council Board; Press conference - Admiralty House",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-09-13T11:54:39.990Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "98d2337afae5be99b25e",
+            "title": "Appointment of new Chair for National Australia Day Council Board",
+            "url": "https://www.pm.gov.au/media/appointment-new-chair-national-australia-day-council-board"
+          },
+          {
+            "record_id": "b76395c8374cc5e0854b",
+            "title": "Press conference - Admiralty House",
+            "url": "https://www.pm.gov.au/media/press-conference-admiralty-house"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "39c26dbb0b53060e0721",
+            "title": "Press conference - Palau",
+            "url": "https://www.pm.gov.au/media/press-conference-palau-0"
+          },
+          {
+            "record_id": "af49153fd66335202cfd",
+            "title": "Pacific collaboration on climate and renewable energy powers ahead",
+            "url": "https://www.pm.gov.au/media/pacific-collaboration-climate-and-renewable-energy-powers-ahead"
+          }
+        ],
+        "delta_hash": "39962eee9827f0186b72e0c55e3a70d097c367d552ffd47dadc1efd2d51e76fe"
       },
       "integrity": {
         "source_change_unchanged": true,

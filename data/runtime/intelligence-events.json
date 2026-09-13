@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-INTELLIGENCE-EVENTS-001",
   "scope": "Australia — multi-jurisdiction",
-  "captured_at": "2026-09-13T06:12:35.039Z",
+  "captured_at": "2026-09-13T11:54:43.435Z",
   "mode": "FORWARD_ONLY",
   "rules": {
     "observation_distinct_from_inference": true,
@@ -66184,6 +66184,134 @@
       "projection_effect": "NO_EFFECT",
       "information_advantage": "NONE",
       "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-PM-MEDIA-20260913115333",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-FED",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-PM-MEDIA-20260913115333",
+      "captured_at": "2026-09-13T11:53:33.331Z",
+      "event_date": "2026-09-13",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-PM-MEDIA",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "review_policy": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-PM-MEDIA-20260911001120",
+        "content_hash": "6e23cef81fdeb00d33f3e03ca988f9fba9452efb3add3e5e7162c591e4cba85c",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-PM-MEDIA-20260913115333",
+        "content_hash": "825422d8367981a8f316d04c07fcc405380972bf42af738e5d7257898ee83ffe",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "STRUCTURED_RECORD_SET",
+        "records_added": [
+          {
+            "record_id": "98d2337afae5be99b25e",
+            "title": "Appointment of new Chair for National Australia Day Council Board",
+            "url": "https://www.pm.gov.au/media/appointment-new-chair-national-australia-day-council-board"
+          },
+          {
+            "record_id": "b76395c8374cc5e0854b",
+            "title": "Press conference - Admiralty House",
+            "url": "https://www.pm.gov.au/media/press-conference-admiralty-house"
+          }
+        ],
+        "records_removed": [
+          {
+            "record_id": "39c26dbb0b53060e0721",
+            "title": "Press conference - Palau",
+            "url": "https://www.pm.gov.au/media/press-conference-palau-0"
+          },
+          {
+            "record_id": "af49153fd66335202cfd",
+            "title": "Pacific collaboration on climate and renewable energy powers ahead",
+            "url": "https://www.pm.gov.au/media/pacific-collaboration-climate-and-renewable-energy-powers-ahead"
+          }
+        ],
+        "added_count": 2,
+        "removed_count": 2,
+        "before_count": 27,
+        "after_count": 27,
+        "delta_hash": "39962eee9827f0186b72e0c55e3a70d097c367d552ffd47dadc1efd2d51e76fe"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "SIG-REV-CHG-WATCH-PM-MEDIA-20260913115333",
+      "parent_event_id": "CHG-WATCH-PM-MEDIA-20260913115333",
+      "review_id": "REV-CHG-WATCH-PM-MEDIA-20260913115333",
+      "jurisdiction_id": "AUS-FED",
+      "party_id": null,
+      "actor_id": null,
+      "contest_id": null,
+      "cycle_id": null,
+      "source_snapshot_id": "AUTO-WATCH-PM-MEDIA-20260913115333",
+      "record_id": null,
+      "captured_at": "2026-09-13T11:54:39.990Z",
+      "event_date": "2026-09-13",
+      "checkpoint": "CONTINUOUS_FORWARD_SIGNAL_REVIEW",
+      "event_type": "SIGNAL_CREATED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-PM-MEDIA",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "claim": "Prime Minister of Australia — media added 2 structured publication records to its forward-captured official index: Appointment of new Chair for National Australia Day Council Board; Press conference - Admiralty House",
+      "observed_behaviour": "One or more structured publication records appeared in the monitored official source index after the preceding forward snapshot.",
+      "publication_records_added": [
+        {
+          "record_id": "98d2337afae5be99b25e",
+          "title": "Appointment of new Chair for National Australia Day Council Board",
+          "url": "https://www.pm.gov.au/media/appointment-new-chair-national-australia-day-council-board"
+        },
+        {
+          "record_id": "b76395c8374cc5e0854b",
+          "title": "Press conference - Admiralty House",
+          "url": "https://www.pm.gov.au/media/press-conference-admiralty-house"
+        }
+      ],
+      "publication_records_removed": [
+        {
+          "record_id": "39c26dbb0b53060e0721",
+          "title": "Press conference - Palau",
+          "url": "https://www.pm.gov.au/media/press-conference-palau-0"
+        },
+        {
+          "record_id": "af49153fd66335202cfd",
+          "title": "Pacific collaboration on climate and renewable energy powers ahead",
+          "url": "https://www.pm.gov.au/media/pacific-collaboration-climate-and-renewable-energy-powers-ahead"
+        }
+      ],
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "underlying_publication_claims_not_promoted_to_verified_fact": true,
+        "source_change_parent_retained": true,
+        "deterministic_review": true
+      }
     }
   ]
 }

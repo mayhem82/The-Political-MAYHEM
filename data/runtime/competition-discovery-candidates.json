@@ -69,63 +69,63 @@
     {
       "jurisdiction_id": "AUS-FED",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-14T14:04:43.446Z",
+      "last_screened_at": "2026-09-14T19:23:27.392Z",
       "signals_examined": 120,
       "candidates_detected": 56
     },
     {
       "jurisdiction_id": "AUS-NSW",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-14T14:04:43.446Z",
-      "signals_examined": 38,
-      "candidates_detected": 5
+      "last_screened_at": "2026-09-14T19:23:27.392Z",
+      "signals_examined": 41,
+      "candidates_detected": 8
     },
     {
       "jurisdiction_id": "AUS-VIC",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-14T14:04:43.446Z",
+      "last_screened_at": "2026-09-14T19:23:27.392Z",
       "signals_examined": 8,
       "candidates_detected": 3
     },
     {
       "jurisdiction_id": "AUS-QLD",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-14T14:04:43.446Z",
+      "last_screened_at": "2026-09-14T19:23:27.392Z",
       "signals_examined": 17,
       "candidates_detected": 43
     },
     {
       "jurisdiction_id": "AUS-WA",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-14T14:04:43.446Z",
+      "last_screened_at": "2026-09-14T19:23:27.392Z",
       "signals_examined": 3,
       "candidates_detected": 2
     },
     {
       "jurisdiction_id": "AUS-SA",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-14T14:04:43.446Z",
+      "last_screened_at": "2026-09-14T19:23:27.392Z",
       "signals_examined": 1,
       "candidates_detected": 0
     },
     {
       "jurisdiction_id": "AUS-TAS",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-14T14:04:43.446Z",
+      "last_screened_at": "2026-09-14T19:23:27.392Z",
       "signals_examined": 20,
       "candidates_detected": 0
     },
     {
       "jurisdiction_id": "AUS-ACT",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-14T14:04:43.446Z",
+      "last_screened_at": "2026-09-14T19:23:27.392Z",
       "signals_examined": 24,
       "candidates_detected": 1
     },
     {
       "jurisdiction_id": "AUS-NT",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-14T14:04:43.446Z",
+      "last_screened_at": "2026-09-14T19:23:27.392Z",
       "signals_examined": 31,
       "candidates_detected": 0
     }
@@ -4651,21 +4651,141 @@
           "reason": "SUBSTANTIVE_THRESHOLD_EVALUATION_PROPAGATED"
         }
       ]
+    },
+    {
+      "candidate_id": "DISC-NSW-LEGISLATION-03e4225403c5732f",
+      "jurisdiction_id": "AUS-NSW",
+      "competition_family": "LEGISLATION",
+      "proposed_competition_class": "LEGISLATIVE",
+      "proposed_cycle_id": "AUS-NSW-58TH-PARLIAMENT",
+      "subject": "Ingested substantive legislative evidence from Legislation Review Committee. Registration threshold state: evidence gap. Missing requirements: missing fact type stage, missing fact type material resistance, missing fact type explicit support position, missing fact type explicit opposition position, ",
+      "candidate_state": "EVIDENCE_GAP",
+      "detected_at": "2026-09-14T19:23:27.176Z",
+      "source_snapshot_ids": [
+        "AUTO-WATCH-NSW-CURRENT-BILLS-20260908231158"
+      ],
+      "signal_event_ids": [
+        "INTEL-AREA-0131e8502209f0b63979875d"
+      ],
+      "review_ids": [],
+      "area_evidence_ids": [
+        "AREA-0131e8502209f0b63979875d"
+      ],
+      "detail_version_ids": [
+        "DETAIL-3e76e666d1bcd2154445b09e-V1"
+      ],
+      "evidence_summary": "Substantive source record body was acquired, routed to LEGISLATIVE, and written into intelligence with retained detail, source-snapshot and stage-10 threshold lineage. Match registration remains a separate action.",
+      "registration_blockers": [
+        "MISSING_CONDITION_DISTINCT_SUPPORTING_AND_OPPOSING_SIDES",
+        "MISSING_FACT_TYPE_EXPLICIT_OPPOSITION_POSITION",
+        "MISSING_FACT_TYPE_EXPLICIT_SUPPORT_POSITION",
+        "MISSING_FACT_TYPE_MATERIAL_RESISTANCE",
+        "MISSING_FACT_TYPE_STAGE"
+      ],
+      "linked_contest_id": null,
+      "state_history": [
+        {
+          "from": null,
+          "to": "EVIDENCE_GAP",
+          "at": "2026-09-14T19:23:27.176Z",
+          "reason": "SUBSTANTIVE_THRESHOLD_EVALUATION_PROPAGATED"
+        }
+      ]
+    },
+    {
+      "candidate_id": "DISC-NSW-BUDGET-0d69675c8ade71ff",
+      "jurisdiction_id": "AUS-NSW",
+      "competition_family": "BUDGET",
+      "proposed_competition_class": "BUDGET",
+      "proposed_cycle_id": "AUS-NSW-58TH-PARLIAMENT",
+      "subject": "Ingested substantive budget evidence from Legislation Review Committee. Registration threshold state: evidence gap. Missing requirements: missing fact type objective, missing fact type material resistance, missing fact type explicit support position, missing fact type explicit opposition position, m",
+      "candidate_state": "EVIDENCE_GAP",
+      "detected_at": "2026-09-14T19:23:27.176Z",
+      "source_snapshot_ids": [
+        "AUTO-WATCH-NSW-CURRENT-BILLS-20260908231158"
+      ],
+      "signal_event_ids": [
+        "INTEL-AREA-a64e269c4aea99737651ff2b"
+      ],
+      "review_ids": [],
+      "area_evidence_ids": [
+        "AREA-a64e269c4aea99737651ff2b"
+      ],
+      "detail_version_ids": [
+        "DETAIL-3e76e666d1bcd2154445b09e-V1"
+      ],
+      "evidence_summary": "Substantive source record body was acquired, routed to BUDGET, and written into intelligence with retained detail, source-snapshot and stage-10 threshold lineage. Match registration remains a separate action.",
+      "registration_blockers": [
+        "MISSING_CONDITION_DISTINCT_SUPPORTING_AND_OPPOSING_SIDES",
+        "MISSING_FACT_TYPE_EXPLICIT_OPPOSITION_POSITION",
+        "MISSING_FACT_TYPE_EXPLICIT_SUPPORT_POSITION",
+        "MISSING_FACT_TYPE_MATERIAL_RESISTANCE",
+        "MISSING_FACT_TYPE_OBJECTIVE"
+      ],
+      "linked_contest_id": null,
+      "state_history": [
+        {
+          "from": null,
+          "to": "EVIDENCE_GAP",
+          "at": "2026-09-14T19:23:27.176Z",
+          "reason": "SUBSTANTIVE_THRESHOLD_EVALUATION_PROPAGATED"
+        }
+      ]
+    },
+    {
+      "candidate_id": "DISC-NSW-POLICY_ENACTMENT-2231d8600888eb7e",
+      "jurisdiction_id": "AUS-NSW",
+      "competition_family": "POLICY_ENACTMENT",
+      "proposed_competition_class": "POLICY_ENACTMENT",
+      "proposed_cycle_id": "AUS-NSW-58TH-PARLIAMENT",
+      "subject": "Ingested substantive policy enactment evidence from Legislation Review Committee. Registration threshold state: evidence gap. Missing requirements: missing fact type objective, missing fact type material resistance, missing fact type explicit support position, missing fact type explicit opposition p",
+      "candidate_state": "EVIDENCE_GAP",
+      "detected_at": "2026-09-14T19:23:27.176Z",
+      "source_snapshot_ids": [
+        "AUTO-WATCH-NSW-CURRENT-BILLS-20260908231158"
+      ],
+      "signal_event_ids": [
+        "INTEL-AREA-0f786f1f8f6c817029a1b550"
+      ],
+      "review_ids": [],
+      "area_evidence_ids": [
+        "AREA-0f786f1f8f6c817029a1b550"
+      ],
+      "detail_version_ids": [
+        "DETAIL-3e76e666d1bcd2154445b09e-V1"
+      ],
+      "evidence_summary": "Substantive source record body was acquired, routed to POLICY_ENACTMENT, and written into intelligence with retained detail, source-snapshot and stage-10 threshold lineage. Match registration remains a separate action.",
+      "registration_blockers": [
+        "MISSING_CONDITION_DISTINCT_SUPPORTING_AND_OPPOSING_SIDES",
+        "MISSING_FACT_TYPE_EXPLICIT_OPPOSITION_POSITION",
+        "MISSING_FACT_TYPE_EXPLICIT_SUPPORT_POSITION",
+        "MISSING_FACT_TYPE_MATERIAL_RESISTANCE",
+        "MISSING_FACT_TYPE_OBJECTIVE"
+      ],
+      "linked_contest_id": null,
+      "state_history": [
+        {
+          "from": null,
+          "to": "EVIDENCE_GAP",
+          "at": "2026-09-14T19:23:27.176Z",
+          "reason": "SUBSTANTIVE_THRESHOLD_EVALUATION_PROPAGATED"
+        }
+      ]
     }
   ],
-  "last_screened_at": "2026-09-14T14:04:43.446Z",
+  "last_screened_at": "2026-09-14T19:23:27.392Z",
   "last_screen_summary": {
-    "signals_examined": 262,
-    "candidates_total": 110,
-    "candidates_added": 8,
-    "candidate_lineage_merges": 277,
-    "substantive_area_events_examined": 73,
+    "signals_examined": 265,
+    "candidates_total": 113,
+    "candidates_added": 3,
+    "candidate_lineage_merges": 285,
+    "substantive_area_events_examined": 76,
     "threshold_state_transitions": 0,
     "registered_contests_unchanged": true
   },
-  "last_duplicate_reconciliation_at": "2026-09-14T14:04:43.547Z",
+  "last_duplicate_reconciliation_at": "2026-09-14T19:23:27.454Z",
   "last_duplicate_reconciliation": {
     "rejected": 0,
-    "active_area_family_keys": 72
+    "active_area_family_keys": 75
   }
 }

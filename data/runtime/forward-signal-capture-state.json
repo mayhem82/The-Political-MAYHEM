@@ -503,14 +503,26 @@
       "captured_representation_complete": true
     }
   },
-  "updated_at": "2026-09-14T14:03:50.748Z",
+  "updated_at": "2026-09-14T19:22:36.421Z",
   "last_run": {
-    "captured_at": "2026-09-14T14:03:50.748Z",
+    "captured_at": "2026-09-14T19:22:36.421Z",
     "baselines_created": 0,
-    "source_changes_created": 5,
+    "source_changes_created": 0,
     "semantic_signals_created": 0,
     "representation_upgrades": 0,
     "failures": [
+      {
+        "watch_id": "WATCH-APH-LIVE-MINUTES",
+        "error": "https://www.aph.gov.au/LiveMinutes [IDENTIFIED_AUTOMATION] 403 Forbidden | https://www.aph.gov.au/LiveMinutes [BROWSER_COMPATIBILITY] 403 Forbidden | https://www.aph.gov.au/Parliamentary_Business/Chamber_documents/Live_Minutes [IDENTIFIED_AUTOMATION] 403 Forbidden | https://www.aph.gov.au/Parliamentary_Business/Chamber_documents/Live_Minutes [BROWSER_COMPATIBILITY] 403 Forbidden"
+      },
+      {
+        "watch_id": "WATCH-APH-WEEK-AHEAD",
+        "error": "https://www.aph.gov.au/Parliamentary_Business/Chamber_documents/Senate_chamber_documents/The_Week_Ahead [IDENTIFIED_AUTOMATION] 403 Forbidden | https://www.aph.gov.au/Parliamentary_Business/Chamber_documents/Senate_chamber_documents/The_Week_Ahead [BROWSER_COMPATIBILITY] 403 Forbidden"
+      },
+      {
+        "watch_id": "WATCH-APH-BILLS",
+        "error": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation [IDENTIFIED_AUTOMATION] 403 Forbidden | https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation [BROWSER_COMPATIBILITY] 403 Forbidden | https://www.aph.gov.au/Parliamentary_Business/Bills_and_Legislation [IDENTIFIED_AUTOMATION] 403 Forbidden | https://www.aph.gov.au/Parliamentary_Business/Bills_and_Legislation [BROWSER_COMPATIBILITY] 403 Forbidden"
+      },
       {
         "watch_id": "WATCH-NSW-HANSARD",
         "error": "https://www.parliament.nsw.gov.au/parliamentary-business/hansard [IDENTIFIED_AUTOMATION] 403 Forbidden | https://www.parliament.nsw.gov.au/parliamentary-business/hansard [BROWSER_COMPATIBILITY] 403 Forbidden | https://www.parliament.nsw.gov.au/hansard/Pages/home.aspx [IDENTIFIED_AUTOMATION] 403 Forbidden | https://www.parliament.nsw.gov.au/hansard/Pages/home.aspx [BROWSER_COMPATIBILITY] 403 Forbidden"
@@ -520,8 +532,16 @@
         "error": "https://www.parliament.nsw.gov.au/parliamentary-business/bills/current-session-bills [IDENTIFIED_AUTOMATION] 403 Forbidden | https://www.parliament.nsw.gov.au/parliamentary-business/bills/current-session-bills [BROWSER_COMPATIBILITY] 403 Forbidden | https://www.parliament.nsw.gov.au/parliamentary-business/bills [IDENTIFIED_AUTOMATION] 403 Forbidden | https://www.parliament.nsw.gov.au/parliamentary-business/bills [BROWSER_COMPATIBILITY] 403 Forbidden"
       },
       {
+        "watch_id": "WATCH-QLD-HANSARD",
+        "error": "https://www.parliament.qld.gov.au/Work-of-the-Assembly/Record-of-Proceedings/Latest-Record-of-Proceedings [IDENTIFIED_AUTOMATION] 403 Forbidden | https://www.parliament.qld.gov.au/Work-of-the-Assembly/Record-of-Proceedings/Latest-Record-of-Proceedings [BROWSER_COMPATIBILITY] 403 Forbidden | https://www.parliament.qld.gov.au/Work-of-the-Assembly/Record-of-Proceedings [IDENTIFIED_AUTOMATION] 403 Forbidden | https://www.parliament.qld.gov.au/Work-of-the-Assembly/Record-of-Proceedings [BROWSER_COMPATIBILITY] 403 Forbidden"
+      },
+      {
         "watch_id": "WATCH-ECQ-MEDIA",
         "error": "https://www.ecq.qld.gov.au/media/2026-media-statements [IDENTIFIED_AUTOMATION] 403 Forbidden | https://www.ecq.qld.gov.au/media/2026-media-statements [BROWSER_COMPATIBILITY] 403 Forbidden | https://www.ecq.qld.gov.au/home [IDENTIFIED_AUTOMATION] 403 Forbidden | https://www.ecq.qld.gov.au/home [BROWSER_COMPATIBILITY] 403 Forbidden"
+      },
+      {
+        "watch_id": "WATCH-WA-HANSARD",
+        "error": "https://www.parliament.wa.gov.au/hansard/search/results [IDENTIFIED_AUTOMATION] 403 Forbidden | https://www.parliament.wa.gov.au/hansard/search/results [BROWSER_COMPATIBILITY] 403 Forbidden | https://www.parliament.wa.gov.au/4825795E0000B647/content/hansard-how-to-search-and-use-hansard [IDENTIFIED_AUTOMATION] 403 Forbidden | https://www.parliament.wa.gov.au/4825795E0000B647/content/hansard-how-to-search-and-use-hansard [BROWSER_COMPATIBILITY] 403 Forbidden"
       },
       {
         "watch_id": "WATCH-TAS-PREMIER-NEWS",
@@ -557,19 +577,19 @@
   "coverage": {
     "active_sources": 36,
     "baselines_captured": 36,
-    "current_run_failures": 10,
+    "current_run_failures": 15,
     "jurisdictions": {
       "AUS-FED": {
         "configured_sources": 10,
         "baseline_sources": 10,
-        "current_run_failures": 0,
+        "current_run_failures": 3,
         "source_classes": [
           "PRIMARY_ELECTORAL_AUTHORITY",
           "PRIMARY_GOVERNMENT",
           "PRIMARY_PARLIAMENT",
           "PRIMARY_PARTY"
         ],
-        "status": "CAPTURE_ACTIVE_FULL_CONFIGURED_BASELINE"
+        "status": "CAPTURE_ACTIVE_DEGRADED_CURRENT_RUN"
       },
       "AUS-NSW": {
         "configured_sources": 4,
@@ -596,7 +616,7 @@
       "AUS-QLD": {
         "configured_sources": 3,
         "baseline_sources": 3,
-        "current_run_failures": 1,
+        "current_run_failures": 2,
         "source_classes": [
           "PRIMARY_ELECTORAL_AUTHORITY",
           "PRIMARY_GOVERNMENT",
@@ -607,13 +627,13 @@
       "AUS-WA": {
         "configured_sources": 3,
         "baseline_sources": 3,
-        "current_run_failures": 0,
+        "current_run_failures": 1,
         "source_classes": [
           "PRIMARY_ELECTORAL_AUTHORITY",
           "PRIMARY_GOVERNMENT",
           "PRIMARY_PARLIAMENT"
         ],
-        "status": "CAPTURE_ACTIVE_FULL_CONFIGURED_BASELINE"
+        "status": "CAPTURE_ACTIVE_DEGRADED_CURRENT_RUN"
       },
       "AUS-SA": {
         "configured_sources": 3,

@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-SIGNAL-REVIEWS-001",
   "created_at": "2026-09-09T05:05:00+10:00",
-  "updated_at": "2026-09-14T19:23:17.345Z",
+  "updated_at": "2026-09-14T23:09:23.134Z",
   "rules": {
     "append_only": true,
     "raw_source_change_is_immutable": true,
@@ -26486,6 +26486,46 @@
           }
         ],
         "delta_hash": "b75be881bc2732e7e495bdef20174e678dd8f56d1557610ad9a9549eaab5edf3"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20260914230815",
+      "source_change_event_id": "CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20260914230815",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20260914230815",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Queensland Government — Ministerial Media Statements added 1 structured publication record to its forward-captured official index: Major milestone as Cairns Hospital Expansion builds momentum",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-09-14T23:09:23.134Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "fc29221a5bb9f34eb284",
+            "title": "Major milestone as Cairns Hospital Expansion builds momentum",
+            "url": "https://statements.qld.gov.au/statements/106051"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "c78a582a1fbab21b8b04",
+            "title": "Everyday Foundation upgrades open to serve Sunshine Coast",
+            "url": "https://statements.qld.gov.au/statements/106028"
+          }
+        ],
+        "delta_hash": "f1261269292d1facd226b1868b37a7080cec7f7824fc3fb6112ffd9b198ce6b6"
       },
       "integrity": {
         "source_change_unchanged": true,

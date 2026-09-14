@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-SIGNAL-REVIEWS-001",
   "created_at": "2026-09-09T05:05:00+10:00",
-  "updated_at": "2026-09-14T01:06:42.321Z",
+  "updated_at": "2026-09-14T06:18:59.172Z",
   "rules": {
     "append_only": true,
     "raw_source_change_is_immutable": true,
@@ -26049,6 +26049,188 @@
           }
         ],
         "delta_hash": "e592e6cadf230c0b512f03cd28c555c31c0cce332a0ffe9a7989e0b33a214c18"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-APH-BILLS-20260914061817",
+      "source_change_event_id": "CHG-WATCH-APH-BILLS-20260914061817",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-APH-BILLS-20260914061817",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Parliament of Australia — Bills and Legislation added 3 structured publication records to its forward-captured official index: Wage Justice for Early Childhood Education and Car...; Private Health Insurance Amendment (Modernising th...; Major Sporting Events (Indicia and Images) Protect...",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-09-14T06:18:59.172Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "2df4c182076dedc8d5d6",
+            "title": "Wage Justice for Early Childhood Education and Car...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7529"
+          },
+          {
+            "record_id": "eb8ff799ba2da88b25af",
+            "title": "Private Health Insurance Amendment (Modernising th...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7497"
+          },
+          {
+            "record_id": "fd455d4e5c31a39837e2",
+            "title": "Major Sporting Events (Indicia and Images) Protect...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7499"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "28ca97e984eb9d5e9072",
+            "title": "Housing Legislation Amendment (National Definition...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7543"
+          },
+          {
+            "record_id": "38c17bf25228582887e2",
+            "title": "Red Lines Package Omnibus Bill 2026",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7545"
+          },
+          {
+            "record_id": "826617a8fec415f6ffb1",
+            "title": "Online Safety Amendment (Strengthening Enforcement...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7512"
+          }
+        ],
+        "delta_hash": "291a21dfcf678b411ce949ea1653c9018a50f91a88d2bead68d31f39b3e8ddb7"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-ONENATION-NEWS-20260914061817",
+      "source_change_event_id": "CHG-WATCH-ONENATION-NEWS-20260914061817",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-ONENATION-NEWS-20260914061817",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": "AUS-FED-ONP",
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Pauline Hanson's One Nation — Latest News added 1 structured publication record to its forward-captured official index: One Nation Commits to Net-Negative Migration and Cutting 750,000 Temporary Visas",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-09-14T06:18:59.172Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "9892b5ea0a1c38d68e54",
+            "title": "One Nation Commits to Net-Negative Migration and Cutting 750,000 Temporary Visas",
+            "url": "http://www.onenation.org.au/net-negative-migration-plan",
+            "published": "Mon, 14 Sep 2026 13:50:16 +1000"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "a08357cfa4774a6711f3",
+            "title": "One Nation Tobacco Policy Targets Illegal Trade and Organised Crime",
+            "url": "http://www.onenation.org.au/illegal-tobacco-crime",
+            "published": "Tue, 01 Sep 2026 13:52:00 +1000"
+          }
+        ],
+        "delta_hash": "c4d3856ef971787ee9ccb55f6e407a751ec296881b83bd3b70d2e73988a6a982"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-NSW-MINISTERIAL-RELEASES-20260914061817",
+      "source_change_event_id": "CHG-WATCH-NSW-MINISTERIAL-RELEASES-20260914061817",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-NSW-MINISTERIAL-RELEASES-20260914061817",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "NSW Government — Ministerial releases added 1 structured publication record to its forward-captured official index: Spring bursts into bloom at Parramatta Park’s iconic flower festival",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-09-14T06:18:59.172Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "90c54d31050a326370c5",
+            "title": "Spring bursts into bloom at Parramatta Park’s iconic flower festival",
+            "url": "https://www.nsw.gov.au/ministerial-releases/spring-bursts-into-bloom-at-parramatta-parks-iconic-flower-festival"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "95e9a5586b4edaffd946",
+            "title": "$150 million investment strengthens Eurobodalla&#x27;s water security",
+            "url": "https://www.nsw.gov.au/ministerial-releases/150-million-investment-strengthens-eurobodallas-water-security"
+          }
+        ],
+        "delta_hash": "42193b3068945e424341dbdd13988af5f76d9d1962be5cdb191d0b85722e66f9"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20260914061817",
+      "source_change_event_id": "CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20260914061817",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20260914061817",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Queensland Government — Ministerial Media Statements added 1 structured publication record to its forward-captured official index: Dangerous illegal e-bikes destroyed under tough new laws",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-09-14T06:18:59.172Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "e772fb61b3a6a10c2df5",
+            "title": "Dangerous illegal e-bikes destroyed under tough new laws",
+            "url": "https://statements.qld.gov.au/statements/106048"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "8b248df41cab1b4e2d06",
+            "title": "Insurance data confirms positive impact of Adult Crime Adult Time",
+            "url": "https://statements.qld.gov.au/statements/106033"
+          }
+        ],
+        "delta_hash": "364fb4d5fb3b2c38680f6a35ca2e0e16b1d4b08109c38734533419c5e2d04d5c"
       },
       "integrity": {
         "source_change_unchanged": true,

@@ -69,63 +69,63 @@
     {
       "jurisdiction_id": "AUS-FED",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-14T06:19:07.548Z",
-      "signals_examined": 117,
-      "candidates_detected": 51
+      "last_screened_at": "2026-09-14T14:04:43.446Z",
+      "signals_examined": 120,
+      "candidates_detected": 56
     },
     {
       "jurisdiction_id": "AUS-NSW",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-14T06:19:07.548Z",
+      "last_screened_at": "2026-09-14T14:04:43.446Z",
       "signals_examined": 38,
       "candidates_detected": 5
     },
     {
       "jurisdiction_id": "AUS-VIC",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-14T06:19:07.548Z",
-      "signals_examined": 1,
-      "candidates_detected": 0
+      "last_screened_at": "2026-09-14T14:04:43.446Z",
+      "signals_examined": 8,
+      "candidates_detected": 3
     },
     {
       "jurisdiction_id": "AUS-QLD",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-14T06:19:07.548Z",
+      "last_screened_at": "2026-09-14T14:04:43.446Z",
       "signals_examined": 17,
       "candidates_detected": 43
     },
     {
       "jurisdiction_id": "AUS-WA",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-14T06:19:07.548Z",
-      "signals_examined": 2,
+      "last_screened_at": "2026-09-14T14:04:43.446Z",
+      "signals_examined": 3,
       "candidates_detected": 2
     },
     {
       "jurisdiction_id": "AUS-SA",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-14T06:19:07.548Z",
+      "last_screened_at": "2026-09-14T14:04:43.446Z",
       "signals_examined": 1,
       "candidates_detected": 0
     },
     {
       "jurisdiction_id": "AUS-TAS",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-14T06:19:07.548Z",
+      "last_screened_at": "2026-09-14T14:04:43.446Z",
       "signals_examined": 20,
       "candidates_detected": 0
     },
     {
       "jurisdiction_id": "AUS-ACT",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-14T06:19:07.548Z",
+      "last_screened_at": "2026-09-14T14:04:43.446Z",
       "signals_examined": 24,
       "candidates_detected": 1
     },
     {
       "jurisdiction_id": "AUS-NT",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-14T06:19:07.548Z",
+      "last_screened_at": "2026-09-14T14:04:43.446Z",
       "signals_examined": 31,
       "candidates_detected": 0
     }
@@ -320,13 +320,16 @@
       "candidate_state": "REVIEW_REQUIRED",
       "detected_at": "2026-09-08T23:46:29.410Z",
       "source_snapshot_ids": [
-        "AUTO-WATCH-APH-BILLS-20260908234539"
+        "AUTO-WATCH-APH-BILLS-20260908234539",
+        "AUTO-WATCH-APH-BILLS-20260914140350"
       ],
       "signal_event_ids": [
-        "SIG-REV-CHG-WATCH-APH-BILLS-20260908234539"
+        "SIG-REV-CHG-WATCH-APH-BILLS-20260908234539",
+        "SIG-REV-CHG-WATCH-APH-BILLS-20260914140350"
       ],
       "review_ids": [
-        "REV-CHG-WATCH-APH-BILLS-20260908234539"
+        "REV-CHG-WATCH-APH-BILLS-20260908234539",
+        "REV-CHG-WATCH-APH-BILLS-20260914140350"
       ],
       "evidence_summary": "Screened PRIMARY_PARLIAMENT evidence contains language consistent with a procedural competition candidate. This is a discovery observation, not a registered contest or outcome inference.",
       "registration_blockers": [
@@ -2708,13 +2711,16 @@
       "candidate_state": "REVIEW_REQUIRED",
       "detected_at": "2026-09-09T03:34:58.450Z",
       "source_snapshot_ids": [
-        "AUTO-WATCH-APH-BILLS-20260909033402"
+        "AUTO-WATCH-APH-BILLS-20260909033402",
+        "AUTO-WATCH-APH-BILLS-20260914140350"
       ],
       "signal_event_ids": [
-        "SIG-REV-CHG-WATCH-APH-BILLS-20260909033402"
+        "SIG-REV-CHG-WATCH-APH-BILLS-20260909033402",
+        "SIG-REV-CHG-WATCH-APH-BILLS-20260914140350"
       ],
       "review_ids": [
-        "REV-CHG-WATCH-APH-BILLS-20260909033402"
+        "REV-CHG-WATCH-APH-BILLS-20260909033402",
+        "REV-CHG-WATCH-APH-BILLS-20260914140350"
       ],
       "area_evidence_ids": [],
       "detail_version_ids": [],
@@ -4348,21 +4354,318 @@
           "reason": "SUBSTANTIVE_THRESHOLD_EVALUATION_PROPAGATED"
         }
       ]
+    },
+    {
+      "candidate_id": "DISC-FED-PROCEDURAL-24f647f4cb1159cc",
+      "jurisdiction_id": "AUS-FED",
+      "competition_family": "PROCEDURAL",
+      "proposed_competition_class": "PARLIAMENTARY_PROCEDURE",
+      "proposed_cycle_id": "AUS-FED-48TH-PARLIAMENT",
+      "subject": "Environment and Other Legislation Amendment (Fast ...",
+      "candidate_state": "REVIEW_REQUIRED",
+      "detected_at": "2026-09-14T14:04:32.317Z",
+      "source_snapshot_ids": [
+        "AUTO-WATCH-APH-BILLS-20260914140350"
+      ],
+      "signal_event_ids": [
+        "SIG-REV-CHG-WATCH-APH-BILLS-20260914140350"
+      ],
+      "review_ids": [
+        "REV-CHG-WATCH-APH-BILLS-20260914140350"
+      ],
+      "area_evidence_ids": [],
+      "detail_version_ids": [],
+      "evidence_summary": "Screened PRIMARY_PARLIAMENT evidence contains language consistent with a procedural competition candidate. This is a discovery observation, not a registered contest or outcome inference.",
+      "registration_blockers": [
+        "MATERIAL_PROCEDURAL_OPPOSITION_REQUIRES_REVIEW"
+      ],
+      "linked_contest_id": null,
+      "state_history": [
+        {
+          "from": null,
+          "to": "REVIEW_REQUIRED",
+          "at": "2026-09-14T14:04:32.317Z",
+          "reason": "DETERMINISTIC_COMPETITION_FAMILY_SCREEN"
+        }
+      ]
+    },
+    {
+      "candidate_id": "DISC-FED-PROCEDURAL-42a7f51806de5482",
+      "jurisdiction_id": "AUS-FED",
+      "competition_family": "PROCEDURAL",
+      "proposed_competition_class": "PARLIAMENTARY_PROCEDURE",
+      "proposed_cycle_id": "AUS-FED-48TH-PARLIAMENT",
+      "subject": "Social Security and Other Legislation Amendment (T...",
+      "candidate_state": "REVIEW_REQUIRED",
+      "detected_at": "2026-09-14T14:04:32.317Z",
+      "source_snapshot_ids": [
+        "AUTO-WATCH-APH-BILLS-20260914140350"
+      ],
+      "signal_event_ids": [
+        "SIG-REV-CHG-WATCH-APH-BILLS-20260914140350"
+      ],
+      "review_ids": [
+        "REV-CHG-WATCH-APH-BILLS-20260914140350"
+      ],
+      "area_evidence_ids": [],
+      "detail_version_ids": [],
+      "evidence_summary": "Screened PRIMARY_PARLIAMENT evidence contains language consistent with a procedural competition candidate. This is a discovery observation, not a registered contest or outcome inference.",
+      "registration_blockers": [
+        "MATERIAL_PROCEDURAL_OPPOSITION_REQUIRES_REVIEW"
+      ],
+      "linked_contest_id": null,
+      "state_history": [
+        {
+          "from": null,
+          "to": "REVIEW_REQUIRED",
+          "at": "2026-09-14T14:04:32.317Z",
+          "reason": "DETERMINISTIC_COMPETITION_FAMILY_SCREEN"
+        }
+      ]
+    },
+    {
+      "candidate_id": "DISC-FED-PROCEDURAL-7c0cba9e46c31068",
+      "jurisdiction_id": "AUS-FED",
+      "competition_family": "PROCEDURAL",
+      "proposed_competition_class": "PARLIAMENTARY_PROCEDURE",
+      "proposed_cycle_id": "AUS-FED-48TH-PARLIAMENT",
+      "subject": "Health Legislation Amendment (Improving Choice and...",
+      "candidate_state": "REVIEW_REQUIRED",
+      "detected_at": "2026-09-14T14:04:32.317Z",
+      "source_snapshot_ids": [
+        "AUTO-WATCH-APH-BILLS-20260914140350"
+      ],
+      "signal_event_ids": [
+        "SIG-REV-CHG-WATCH-APH-BILLS-20260914140350"
+      ],
+      "review_ids": [
+        "REV-CHG-WATCH-APH-BILLS-20260914140350"
+      ],
+      "area_evidence_ids": [],
+      "detail_version_ids": [],
+      "evidence_summary": "Screened PRIMARY_PARLIAMENT evidence contains language consistent with a procedural competition candidate. This is a discovery observation, not a registered contest or outcome inference.",
+      "registration_blockers": [
+        "MATERIAL_PROCEDURAL_OPPOSITION_REQUIRES_REVIEW"
+      ],
+      "linked_contest_id": null,
+      "state_history": [
+        {
+          "from": null,
+          "to": "REVIEW_REQUIRED",
+          "at": "2026-09-14T14:04:32.317Z",
+          "reason": "DETERMINISTIC_COMPETITION_FAMILY_SCREEN"
+        }
+      ]
+    },
+    {
+      "candidate_id": "DISC-FED-LEGISLATION-356cf4fc4dfacd6a",
+      "jurisdiction_id": "AUS-FED",
+      "competition_family": "LEGISLATION",
+      "proposed_competition_class": "LEGISLATIVE",
+      "proposed_cycle_id": "AUS-FED-48TH-PARLIAMENT",
+      "subject": "Customs Amendment (Safeguard Inquiries) Bill 2026",
+      "candidate_state": "EVIDENCE_GAP",
+      "detected_at": "2026-09-14T14:04:32.317Z",
+      "source_snapshot_ids": [
+        "AUTO-WATCH-APH-BILLS-20260914140350"
+      ],
+      "signal_event_ids": [
+        "SIG-REV-CHG-WATCH-APH-BILLS-20260914140350"
+      ],
+      "review_ids": [
+        "REV-CHG-WATCH-APH-BILLS-20260914140350"
+      ],
+      "area_evidence_ids": [],
+      "detail_version_ids": [],
+      "evidence_summary": "Screened PRIMARY_PARLIAMENT evidence contains language consistent with a legislation competition candidate. This is a discovery observation, not a registered contest or outcome inference.",
+      "registration_blockers": [
+        "MATERIAL_RESISTANCE_NOT_YET_EVIDENCED",
+        "SUPPORTING_SIDE_NOT_YET_RESOLVED",
+        "OPPOSING_SIDE_NOT_YET_RESOLVED"
+      ],
+      "linked_contest_id": null,
+      "state_history": [
+        {
+          "from": null,
+          "to": "EVIDENCE_GAP",
+          "at": "2026-09-14T14:04:32.317Z",
+          "reason": "DETERMINISTIC_COMPETITION_FAMILY_SCREEN"
+        }
+      ]
+    },
+    {
+      "candidate_id": "DISC-FED-LEGISLATION-682f43d33afac0e4",
+      "jurisdiction_id": "AUS-FED",
+      "competition_family": "LEGISLATION",
+      "proposed_competition_class": "LEGISLATIVE",
+      "proposed_cycle_id": "AUS-FED-48TH-PARLIAMENT",
+      "subject": "Ingested substantive legislative evidence from Customs Amendment (Safeguard Inquiries) Bill 2026 &ndash; Parliament of Australia. Captured content includes stage: Introduced; resistance language: Amendment; outcome language: passed. Registration threshold state: evidence gap. Missing requirements: m",
+      "candidate_state": "EVIDENCE_GAP",
+      "detected_at": "2026-09-14T14:04:43.126Z",
+      "source_snapshot_ids": [
+        "AUTO-WATCH-APH-BILLS-20260914140350"
+      ],
+      "signal_event_ids": [
+        "INTEL-AREA-14575c99aad47c2396abffce"
+      ],
+      "review_ids": [],
+      "area_evidence_ids": [
+        "AREA-14575c99aad47c2396abffce"
+      ],
+      "detail_version_ids": [
+        "DETAIL-ffef361f1228e904416bb8fc-V1"
+      ],
+      "evidence_summary": "Substantive source record body was acquired, routed to LEGISLATIVE, and written into intelligence with retained detail, source-snapshot and stage-10 threshold lineage. Match registration remains a separate action.",
+      "registration_blockers": [
+        "MISSING_CONDITION_DISTINCT_SUPPORTING_AND_OPPOSING_SIDES",
+        "MISSING_FACT_TYPE_EXPLICIT_OPPOSITION_POSITION",
+        "MISSING_FACT_TYPE_EXPLICIT_SUPPORT_POSITION",
+        "MISSING_FACT_TYPE_MATERIAL_RESISTANCE"
+      ],
+      "linked_contest_id": null,
+      "state_history": [
+        {
+          "from": null,
+          "to": "EVIDENCE_GAP",
+          "at": "2026-09-14T14:04:43.126Z",
+          "reason": "SUBSTANTIVE_THRESHOLD_EVALUATION_PROPAGATED"
+        }
+      ]
+    },
+    {
+      "candidate_id": "DISC-VIC-ELECTION-668ffec53cec4c1a",
+      "jurisdiction_id": "AUS-VIC",
+      "competition_family": "ELECTION",
+      "proposed_competition_class": "ELECTORAL",
+      "proposed_cycle_id": "AUS-VIC-SE2026",
+      "subject": "Ingested substantive electoral evidence from Ballot packs mailed for Banyule City Council by-election. Captured content includes stage: Ballot. Registration threshold state: evidence gap. Missing requirements: missing fact type stage, missing condition resolved participant or team.",
+      "candidate_state": "EVIDENCE_GAP",
+      "detected_at": "2026-09-14T14:04:43.126Z",
+      "source_snapshot_ids": [
+        "AUTO-WATCH-VEC-MEDIA-20260914140350"
+      ],
+      "signal_event_ids": [
+        "INTEL-AREA-b7527bd215b689dd2270e367",
+        "INTEL-AREA-a9f465a01beaa7a8c814bfe3"
+      ],
+      "review_ids": [],
+      "area_evidence_ids": [
+        "AREA-b7527bd215b689dd2270e367",
+        "AREA-a9f465a01beaa7a8c814bfe3"
+      ],
+      "detail_version_ids": [
+        "DETAIL-1993860e9f8908dff57b7abc-V1",
+        "DETAIL-8ca8060823f716775a4aa177-V1"
+      ],
+      "evidence_summary": "Substantive source record body was acquired, routed to ELECTORAL, and written into intelligence with retained detail, source-snapshot and stage-10 threshold lineage. Match registration remains a separate action.",
+      "registration_blockers": [
+        "MISSING_CONDITION_RESOLVED_PARTICIPANT_OR_TEAM",
+        "MISSING_FACT_TYPE_STAGE"
+      ],
+      "linked_contest_id": null,
+      "state_history": [
+        {
+          "from": null,
+          "to": "EVIDENCE_GAP",
+          "at": "2026-09-14T14:04:43.126Z",
+          "reason": "SUBSTANTIVE_THRESHOLD_EVALUATION_PROPAGATED"
+        }
+      ]
+    },
+    {
+      "candidate_id": "DISC-VIC-ELECTION-6612c44c844e5964",
+      "jurisdiction_id": "AUS-VIC",
+      "competition_family": "ELECTION",
+      "proposed_competition_class": "ELECTORAL",
+      "proposed_cycle_id": "AUS-VIC-SE2026",
+      "subject": "Ingested substantive electoral evidence from Ballot packs mailed for Greater Bendigo City Council by-election. Captured content includes stage: Ballot. Registration threshold state: evidence gap. Missing requirements: missing fact type stage, missing condition resolved participant or team.",
+      "candidate_state": "EVIDENCE_GAP",
+      "detected_at": "2026-09-14T14:04:43.126Z",
+      "source_snapshot_ids": [
+        "AUTO-WATCH-VEC-MEDIA-20260914140350"
+      ],
+      "signal_event_ids": [
+        "INTEL-AREA-f8636b558f040f3a528aa308",
+        "INTEL-AREA-23307ab5cdf49265fe0189a7"
+      ],
+      "review_ids": [],
+      "area_evidence_ids": [
+        "AREA-f8636b558f040f3a528aa308",
+        "AREA-23307ab5cdf49265fe0189a7"
+      ],
+      "detail_version_ids": [
+        "DETAIL-349a24c9abfbc72a9aded442-V1",
+        "DETAIL-30d8fe7360aab70109a50257-V1"
+      ],
+      "evidence_summary": "Substantive source record body was acquired, routed to ELECTORAL, and written into intelligence with retained detail, source-snapshot and stage-10 threshold lineage. Match registration remains a separate action.",
+      "registration_blockers": [
+        "MISSING_CONDITION_RESOLVED_PARTICIPANT_OR_TEAM",
+        "MISSING_FACT_TYPE_STAGE"
+      ],
+      "linked_contest_id": null,
+      "state_history": [
+        {
+          "from": null,
+          "to": "EVIDENCE_GAP",
+          "at": "2026-09-14T14:04:43.126Z",
+          "reason": "SUBSTANTIVE_THRESHOLD_EVALUATION_PROPAGATED"
+        }
+      ]
+    },
+    {
+      "candidate_id": "DISC-VIC-ELECTION-b2f3f90f6eb1b77a",
+      "jurisdiction_id": "AUS-VIC",
+      "competition_family": "ELECTION",
+      "proposed_competition_class": "ELECTORAL",
+      "proposed_cycle_id": "AUS-VIC-SE2026",
+      "subject": "Ingested substantive electoral evidence from Ballot packs mailed for Mornington Peninsula Shire by-election. Captured content includes stage: Ballot. Registration threshold state: evidence gap. Missing requirements: missing fact type stage, missing condition resolved participant or team.",
+      "candidate_state": "EVIDENCE_GAP",
+      "detected_at": "2026-09-14T14:04:43.126Z",
+      "source_snapshot_ids": [
+        "AUTO-WATCH-VEC-MEDIA-20260914140350"
+      ],
+      "signal_event_ids": [
+        "INTEL-AREA-da990af98a69bbdf611238af",
+        "INTEL-AREA-26ec99364c5efcc547dda917"
+      ],
+      "review_ids": [],
+      "area_evidence_ids": [
+        "AREA-da990af98a69bbdf611238af",
+        "AREA-26ec99364c5efcc547dda917"
+      ],
+      "detail_version_ids": [
+        "DETAIL-9c9498050d4ca7514b1cff8e-V1",
+        "DETAIL-761a448515805e75e91cc827-V1"
+      ],
+      "evidence_summary": "Substantive source record body was acquired, routed to ELECTORAL, and written into intelligence with retained detail, source-snapshot and stage-10 threshold lineage. Match registration remains a separate action.",
+      "registration_blockers": [
+        "MISSING_CONDITION_RESOLVED_PARTICIPANT_OR_TEAM",
+        "MISSING_FACT_TYPE_STAGE"
+      ],
+      "linked_contest_id": null,
+      "state_history": [
+        {
+          "from": null,
+          "to": "EVIDENCE_GAP",
+          "at": "2026-09-14T14:04:43.126Z",
+          "reason": "SUBSTANTIVE_THRESHOLD_EVALUATION_PROPAGATED"
+        }
+      ]
     }
   ],
-  "last_screened_at": "2026-09-14T06:19:07.548Z",
+  "last_screened_at": "2026-09-14T14:04:43.446Z",
   "last_screen_summary": {
-    "signals_examined": 251,
-    "candidates_total": 102,
-    "candidates_added": 0,
-    "candidate_lineage_merges": 272,
-    "substantive_area_events_examined": 66,
+    "signals_examined": 262,
+    "candidates_total": 110,
+    "candidates_added": 8,
+    "candidate_lineage_merges": 277,
+    "substantive_area_events_examined": 73,
     "threshold_state_transitions": 0,
     "registered_contests_unchanged": true
   },
-  "last_duplicate_reconciliation_at": "2026-09-14T06:19:07.622Z",
+  "last_duplicate_reconciliation_at": "2026-09-14T14:04:43.547Z",
   "last_duplicate_reconciliation": {
     "rejected": 0,
-    "active_area_family_keys": 65
+    "active_area_family_keys": 72
   }
 }

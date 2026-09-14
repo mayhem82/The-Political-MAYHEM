@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-SIGNAL-REVIEWS-001",
   "created_at": "2026-09-09T05:05:00+10:00",
-  "updated_at": "2026-09-14T06:18:59.172Z",
+  "updated_at": "2026-09-14T14:04:32.317Z",
   "rules": {
     "append_only": true,
     "raw_source_change_is_immutable": true,
@@ -26231,6 +26231,261 @@
           }
         ],
         "delta_hash": "364fb4d5fb3b2c38680f6a35ca2e0e16b1d4b08109c38734533419c5e2d04d5c"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-APH-BILLS-20260914140350",
+      "source_change_event_id": "CHG-WATCH-APH-BILLS-20260914140350",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-APH-BILLS-20260914140350",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Parliament of Australia — Bills and Legislation added 6 structured publication records to its forward-captured official index: Environment and Other Legislation Amendment (Fast ...; Telecommunications Legislation Amendment (Universa...; Criminal Code Amendment (National Sport Integrity ...; Social Security and Other Legislation Amendment (T...; Health Legislation Amendment (Improving Choice and...; +1 more",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-09-14T14:04:32.317Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "1850aa885a7edcd4691b",
+            "title": "Environment and Other Legislation Amendment (Fast ...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=s1516"
+          },
+          {
+            "record_id": "482c4b90b9cd4fe2c84a",
+            "title": "Telecommunications Legislation Amendment (Universa...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7414"
+          },
+          {
+            "record_id": "4c7a76b5989435c30a70",
+            "title": "Criminal Code Amendment (National Sport Integrity ...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7531"
+          },
+          {
+            "record_id": "5dfdb0f54589f88ce831",
+            "title": "Social Security and Other Legislation Amendment (T...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7515"
+          },
+          {
+            "record_id": "7b152d4caa880327da7c",
+            "title": "Health Legislation Amendment (Improving Choice and...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7434"
+          },
+          {
+            "record_id": "b483e0ab98aaa9be7511",
+            "title": "Customs Amendment (Safeguard Inquiries) Bill 2026",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=s1495"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "2a2a745834efd2cdb892",
+            "title": "Regulatory Reform Omnibus Bill 2026",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7481"
+          },
+          {
+            "record_id": "2df4c182076dedc8d5d6",
+            "title": "Wage Justice for Early Childhood Education and Car...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7529"
+          },
+          {
+            "record_id": "7af106db09df9446f1cc",
+            "title": "Statute Update Bill 2026",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7500"
+          },
+          {
+            "record_id": "a174a9cf907314004075",
+            "title": "Clean Energy Finance Corporation Amendment (Protec...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7546"
+          },
+          {
+            "record_id": "eb8ff799ba2da88b25af",
+            "title": "Private Health Insurance Amendment (Modernising th...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7497"
+          },
+          {
+            "record_id": "fd455d4e5c31a39837e2",
+            "title": "Major Sporting Events (Indicia and Images) Protect...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7499"
+          }
+        ],
+        "delta_hash": "bbf7fcc5dcae98f6acff882596dc8a8640070be4437226d8c538d6a67caab5b0"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-GREENS-FEDERAL-MEDIA-20260914140350",
+      "source_change_event_id": "CHG-WATCH-GREENS-FEDERAL-MEDIA-20260914140350",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-GREENS-FEDERAL-MEDIA-20260914140350",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": "AUS-FED-GRN",
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Australian Greens — Federal MPs media releases added 2 structured publication records to its forward-captured official index: Read more about Sad day for Whyalla workers, 600 jobs cut; Sad day for Whyalla workers, 600 jobs cut",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-09-14T14:04:32.317Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "d6176f65c13c8c6581e5",
+            "title": "Read more about Sad day for Whyalla workers, 600 jobs cut",
+            "url": "https://greens.org.au/news/media-release/sad-day-whyalla-workers-600-jobs-cut"
+          },
+          {
+            "record_id": "e9c6da2e6ba78710c02f",
+            "title": "Sad day for Whyalla workers, 600 jobs cut",
+            "url": "https://greens.org.au/news/media-release/sad-day-whyalla-workers-600-jobs-cut"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "25c03f82fe6f51fe8c0a",
+            "title": "Greens urge Government to move quickly and pass serious algorithm regulation with a strong Opt-in system that protects all users",
+            "url": "https://greens.org.au/news/media-release/greens-urge-government-move-quickly-and-pass-serious-algorithm-regulation-strong"
+          },
+          {
+            "record_id": "2c7ed24f84b5ee150337",
+            "title": "Read more about Greens urge Government to move quickly and pass serious algorithm regulation with a strong Opt-in system that protects all users",
+            "url": "https://greens.org.au/news/media-release/greens-urge-government-move-quickly-and-pass-serious-algorithm-regulation-strong"
+          }
+        ],
+        "delta_hash": "56bcc7093aaea5960173f5c913ca51aa09de0709bed6e6d066563fdf89c5d18b"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-VEC-MEDIA-20260914140350",
+      "source_change_event_id": "CHG-WATCH-VEC-MEDIA-20260914140350",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-VEC-MEDIA-20260914140350",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Victorian Electoral Commission — media centre added 6 structured publication records to its forward-captured official index: 14 September 2026 Ballot packs mailed for Banyule City Council by-election Media release details; 14 September 2026 Ballot packs mailed for Mornington Peninsula Shire by-election Media release details; 14 September 2026 - Ballot packs mailed for Greater Bendigo City Council by-election; 14 September 2026 Ballot packs mailed for Greater Bendigo City Council by-election Media release details; 14 September 2026 - Ballot packs mailed for Mornington Peninsula Shire by-election; +1 more",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-09-14T14:04:32.317Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "131723c219e222f250ab",
+            "title": "14 September 2026 Ballot packs mailed for Banyule City Council by-election Media release details",
+            "url": "https://www.vec.vic.gov.au/about-us/media/ballot-packs-mailed-for-banyule-city-council-by-election"
+          },
+          {
+            "record_id": "17b0e8596839c78120f3",
+            "title": "14 September 2026 Ballot packs mailed for Mornington Peninsula Shire by-election Media release details",
+            "url": "https://www.vec.vic.gov.au/about-us/media/ballot-packs-mailed-for-mornington-peninsula-shire-by-election"
+          },
+          {
+            "record_id": "21f46b4b09495ab405fc",
+            "title": "14 September 2026 - Ballot packs mailed for Greater Bendigo City Council by-election",
+            "url": "https://www.vec.vic.gov.au/about-us/media/ballot-packs-mailed-for-greater-bendigo-city-council-by-election"
+          },
+          {
+            "record_id": "5c09cebc1e6fd0655af5",
+            "title": "14 September 2026 Ballot packs mailed for Greater Bendigo City Council by-election Media release details",
+            "url": "https://www.vec.vic.gov.au/about-us/media/ballot-packs-mailed-for-greater-bendigo-city-council-by-election"
+          },
+          {
+            "record_id": "bc33970f1d9d1520dda9",
+            "title": "14 September 2026 - Ballot packs mailed for Mornington Peninsula Shire by-election",
+            "url": "https://www.vec.vic.gov.au/about-us/media/ballot-packs-mailed-for-mornington-peninsula-shire-by-election"
+          },
+          {
+            "record_id": "fd779cfd00316087c274",
+            "title": "14 September 2026 - Ballot packs mailed for Banyule City Council by-election",
+            "url": "https://www.vec.vic.gov.au/about-us/media/ballot-packs-mailed-for-banyule-city-council-by-election"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "255fff24af17c52eccdb",
+            "title": "31 August 2026 New authorisation requirements for electoral material Media release details",
+            "url": "https://www.vec.vic.gov.au/about-us/media/new-authorisation-requirements-to-strengthen-transparency-of-electoral-material"
+          },
+          {
+            "record_id": "3a351e19637f4011c6a3",
+            "title": "9 September 2026 VEC welcomes accessible voting focus Media release details",
+            "url": "https://www.vec.vic.gov.au/about-us/media/vec-welcomes-accessible-voting-focus"
+          },
+          {
+            "record_id": "b9efdc1e2a7683384fe5",
+            "title": "21 August 2026 Murrindindi Shire Council by-election set for December Media release details",
+            "url": "https://www.vec.vic.gov.au/about-us/media/murrindindi-shire-council-by-election-set-for-december"
+          }
+        ],
+        "delta_hash": "cf63f58655e875b287b330cd02073f0230aeacf5041eeab074b69b77fe757195"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-WAEC-MEDIA-20260914140350",
+      "source_change_event_id": "CHG-WATCH-WAEC-MEDIA-20260914140350",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-WAEC-MEDIA-20260914140350",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Western Australian Electoral Commission — media releases added 1 structured publication record to its forward-captured official index: Postal Vote Deadline Fast Approaching for September Local Government Extraordinary Elections",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-09-14T14:04:32.317Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "07bc3d4d301ecc4ffb2b",
+            "title": "Postal Vote Deadline Fast Approaching for September Local Government Extraordinary Elections",
+            "url": "https://www.elections.wa.gov.au/about-us/media/releases/2629"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "b78ee0e61a86501dd034",
+            "title": "WA local government extraordinary elections: all March 2026 results now declared",
+            "url": "https://www.elections.wa.gov.au/about-us/media/releases/2585"
+          }
+        ],
+        "delta_hash": "b75be881bc2732e7e495bdef20174e678dd8f56d1557610ad9a9549eaab5edf3"
       },
       "integrity": {
         "source_change_unchanged": true,

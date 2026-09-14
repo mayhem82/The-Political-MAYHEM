@@ -69,63 +69,63 @@
     {
       "jurisdiction_id": "AUS-FED",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-13T22:26:20.733Z",
-      "signals_examined": 107,
-      "candidates_detected": 42
+      "last_screened_at": "2026-09-14T01:06:49.157Z",
+      "signals_examined": 115,
+      "candidates_detected": 51
     },
     {
       "jurisdiction_id": "AUS-NSW",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-13T22:26:20.733Z",
-      "signals_examined": 36,
+      "last_screened_at": "2026-09-14T01:06:49.157Z",
+      "signals_examined": 37,
       "candidates_detected": 5
     },
     {
       "jurisdiction_id": "AUS-VIC",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-13T22:26:20.733Z",
+      "last_screened_at": "2026-09-14T01:06:49.157Z",
       "signals_examined": 1,
       "candidates_detected": 0
     },
     {
       "jurisdiction_id": "AUS-QLD",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-13T22:26:20.733Z",
-      "signals_examined": 15,
+      "last_screened_at": "2026-09-14T01:06:49.157Z",
+      "signals_examined": 16,
       "candidates_detected": 43
     },
     {
       "jurisdiction_id": "AUS-WA",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-13T22:26:20.733Z",
+      "last_screened_at": "2026-09-14T01:06:49.157Z",
       "signals_examined": 2,
       "candidates_detected": 2
     },
     {
       "jurisdiction_id": "AUS-SA",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-13T22:26:20.733Z",
+      "last_screened_at": "2026-09-14T01:06:49.157Z",
       "signals_examined": 1,
       "candidates_detected": 0
     },
     {
       "jurisdiction_id": "AUS-TAS",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-13T22:26:20.733Z",
+      "last_screened_at": "2026-09-14T01:06:49.157Z",
       "signals_examined": 20,
       "candidates_detected": 0
     },
     {
       "jurisdiction_id": "AUS-ACT",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-13T22:26:20.733Z",
+      "last_screened_at": "2026-09-14T01:06:49.157Z",
       "signals_examined": 24,
       "candidates_detected": 1
     },
     {
       "jurisdiction_id": "AUS-NT",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-13T22:26:20.733Z",
+      "last_screened_at": "2026-09-14T01:06:49.157Z",
       "signals_examined": 31,
       "candidates_detected": 0
     }
@@ -4001,21 +4001,365 @@
           "reason": "SUBSTANTIVE_THRESHOLD_EVALUATION_PROPAGATED"
         }
       ]
+    },
+    {
+      "candidate_id": "DISC-FED-PROCEDURAL-6ef72a8e95124cd0",
+      "jurisdiction_id": "AUS-FED",
+      "competition_family": "PROCEDURAL",
+      "proposed_competition_class": "PARLIAMENTARY_PROCEDURE",
+      "proposed_cycle_id": "AUS-FED-48TH-PARLIAMENT",
+      "subject": "Housing Legislation Amendment (National Definition...",
+      "candidate_state": "REVIEW_REQUIRED",
+      "detected_at": "2026-09-14T01:06:42.321Z",
+      "source_snapshot_ids": [
+        "AUTO-WATCH-APH-BILLS-20260914010538"
+      ],
+      "signal_event_ids": [
+        "SIG-REV-CHG-WATCH-APH-BILLS-20260914010538"
+      ],
+      "review_ids": [
+        "REV-CHG-WATCH-APH-BILLS-20260914010538"
+      ],
+      "area_evidence_ids": [],
+      "detail_version_ids": [],
+      "evidence_summary": "Screened PRIMARY_PARLIAMENT evidence contains language consistent with a procedural competition candidate. This is a discovery observation, not a registered contest or outcome inference.",
+      "registration_blockers": [
+        "MATERIAL_PROCEDURAL_OPPOSITION_REQUIRES_REVIEW"
+      ],
+      "linked_contest_id": null,
+      "state_history": [
+        {
+          "from": null,
+          "to": "REVIEW_REQUIRED",
+          "at": "2026-09-14T01:06:42.321Z",
+          "reason": "DETERMINISTIC_COMPETITION_FAMILY_SCREEN"
+        }
+      ]
+    },
+    {
+      "candidate_id": "DISC-FED-LEGISLATION-6592350b129dcc29",
+      "jurisdiction_id": "AUS-FED",
+      "competition_family": "LEGISLATION",
+      "proposed_competition_class": "LEGISLATIVE",
+      "proposed_cycle_id": "AUS-FED-48TH-PARLIAMENT",
+      "subject": "Red Lines Package Omnibus Bill 2026",
+      "candidate_state": "EVIDENCE_GAP",
+      "detected_at": "2026-09-14T01:06:42.321Z",
+      "source_snapshot_ids": [
+        "AUTO-WATCH-APH-BILLS-20260914010538"
+      ],
+      "signal_event_ids": [
+        "SIG-REV-CHG-WATCH-APH-BILLS-20260914010538"
+      ],
+      "review_ids": [
+        "REV-CHG-WATCH-APH-BILLS-20260914010538"
+      ],
+      "area_evidence_ids": [],
+      "detail_version_ids": [],
+      "evidence_summary": "Screened PRIMARY_PARLIAMENT evidence contains language consistent with a legislation competition candidate. This is a discovery observation, not a registered contest or outcome inference.",
+      "registration_blockers": [
+        "MATERIAL_RESISTANCE_NOT_YET_EVIDENCED",
+        "SUPPORTING_SIDE_NOT_YET_RESOLVED",
+        "OPPOSING_SIDE_NOT_YET_RESOLVED"
+      ],
+      "linked_contest_id": null,
+      "state_history": [
+        {
+          "from": null,
+          "to": "EVIDENCE_GAP",
+          "at": "2026-09-14T01:06:42.321Z",
+          "reason": "DETERMINISTIC_COMPETITION_FAMILY_SCREEN"
+        }
+      ]
+    },
+    {
+      "candidate_id": "DISC-FED-PROCEDURAL-0f541eae1846c349",
+      "jurisdiction_id": "AUS-FED",
+      "competition_family": "PROCEDURAL",
+      "proposed_competition_class": "PARLIAMENTARY_PROCEDURE",
+      "proposed_cycle_id": "AUS-FED-48TH-PARLIAMENT",
+      "subject": "Clean Energy Finance Corporation Amendment (Protec...",
+      "candidate_state": "REVIEW_REQUIRED",
+      "detected_at": "2026-09-14T01:06:42.321Z",
+      "source_snapshot_ids": [
+        "AUTO-WATCH-APH-BILLS-20260914010538"
+      ],
+      "signal_event_ids": [
+        "SIG-REV-CHG-WATCH-APH-BILLS-20260914010538"
+      ],
+      "review_ids": [
+        "REV-CHG-WATCH-APH-BILLS-20260914010538"
+      ],
+      "area_evidence_ids": [],
+      "detail_version_ids": [],
+      "evidence_summary": "Screened PRIMARY_PARLIAMENT evidence contains language consistent with a procedural competition candidate. This is a discovery observation, not a registered contest or outcome inference.",
+      "registration_blockers": [
+        "MATERIAL_PROCEDURAL_OPPOSITION_REQUIRES_REVIEW"
+      ],
+      "linked_contest_id": null,
+      "state_history": [
+        {
+          "from": null,
+          "to": "REVIEW_REQUIRED",
+          "at": "2026-09-14T01:06:42.321Z",
+          "reason": "DETERMINISTIC_COMPETITION_FAMILY_SCREEN"
+        }
+      ]
+    },
+    {
+      "candidate_id": "DISC-FED-LEGISLATION-4d2eabc4328d2138",
+      "jurisdiction_id": "AUS-FED",
+      "competition_family": "LEGISLATION",
+      "proposed_competition_class": "LEGISLATIVE",
+      "proposed_cycle_id": "AUS-FED-48TH-PARLIAMENT",
+      "subject": "Ingested substantive legislative evidence from Red Lines Package Omnibus Bill 2026 &ndash; Parliament of Australia. Captured content includes stage: Introduced; outcome language: passed. Registration threshold state: evidence gap. Missing requirements: missing fact type material resistance, missing ",
+      "candidate_state": "EVIDENCE_GAP",
+      "detected_at": "2026-09-14T01:06:48.852Z",
+      "source_snapshot_ids": [
+        "AUTO-WATCH-APH-BILLS-20260914010538"
+      ],
+      "signal_event_ids": [
+        "INTEL-AREA-18a7d7270bf92260507a3adb"
+      ],
+      "review_ids": [],
+      "area_evidence_ids": [
+        "AREA-18a7d7270bf92260507a3adb"
+      ],
+      "detail_version_ids": [
+        "DETAIL-a2835e80eec2730d12268244-V1"
+      ],
+      "evidence_summary": "Substantive source record body was acquired, routed to LEGISLATIVE, and written into intelligence with retained detail, source-snapshot and stage-10 threshold lineage. Match registration remains a separate action.",
+      "registration_blockers": [
+        "MISSING_CONDITION_DISTINCT_SUPPORTING_AND_OPPOSING_SIDES",
+        "MISSING_FACT_TYPE_EXPLICIT_OPPOSITION_POSITION",
+        "MISSING_FACT_TYPE_EXPLICIT_SUPPORT_POSITION",
+        "MISSING_FACT_TYPE_MATERIAL_RESISTANCE"
+      ],
+      "linked_contest_id": null,
+      "state_history": [
+        {
+          "from": null,
+          "to": "EVIDENCE_GAP",
+          "at": "2026-09-14T01:06:48.852Z",
+          "reason": "SUBSTANTIVE_THRESHOLD_EVALUATION_PROPAGATED"
+        }
+      ]
+    },
+    {
+      "candidate_id": "DISC-FED-BUDGET-3095a799db6a4ffb",
+      "jurisdiction_id": "AUS-FED",
+      "competition_family": "BUDGET",
+      "proposed_competition_class": "BUDGET",
+      "proposed_cycle_id": "AUS-FED-48TH-PARLIAMENT",
+      "subject": "Ingested substantive budget evidence from Red Lines Package Omnibus Bill 2026 &ndash; Parliament of Australia. Captured content includes stage: Introduced; outcome language: passed. Registration threshold state: evidence gap. Missing requirements: missing fact type contest object, missing fact type ",
+      "candidate_state": "EVIDENCE_GAP",
+      "detected_at": "2026-09-14T01:06:48.852Z",
+      "source_snapshot_ids": [
+        "AUTO-WATCH-APH-BILLS-20260914010538"
+      ],
+      "signal_event_ids": [
+        "INTEL-AREA-25f7bc709fc5b04295be9b52"
+      ],
+      "review_ids": [],
+      "area_evidence_ids": [
+        "AREA-25f7bc709fc5b04295be9b52"
+      ],
+      "detail_version_ids": [
+        "DETAIL-a2835e80eec2730d12268244-V1"
+      ],
+      "evidence_summary": "Substantive source record body was acquired, routed to BUDGET, and written into intelligence with retained detail, source-snapshot and stage-10 threshold lineage. Match registration remains a separate action.",
+      "registration_blockers": [
+        "MISSING_CONDITION_DISTINCT_SUPPORTING_AND_OPPOSING_SIDES",
+        "MISSING_FACT_TYPE_CONTEST_OBJECT",
+        "MISSING_FACT_TYPE_EXPLICIT_OPPOSITION_POSITION",
+        "MISSING_FACT_TYPE_EXPLICIT_SUPPORT_POSITION",
+        "MISSING_FACT_TYPE_MATERIAL_RESISTANCE",
+        "MISSING_FACT_TYPE_OBJECTIVE"
+      ],
+      "linked_contest_id": null,
+      "state_history": [
+        {
+          "from": null,
+          "to": "EVIDENCE_GAP",
+          "at": "2026-09-14T01:06:48.852Z",
+          "reason": "SUBSTANTIVE_THRESHOLD_EVALUATION_PROPAGATED"
+        }
+      ]
+    },
+    {
+      "candidate_id": "DISC-FED-LEGISLATION-2373434b004e3593",
+      "jurisdiction_id": "AUS-FED",
+      "competition_family": "LEGISLATION",
+      "proposed_competition_class": "LEGISLATIVE",
+      "proposed_cycle_id": "AUS-FED-48TH-PARLIAMENT",
+      "subject": "Ingested substantive legislative evidence from Housing Legislation Amendment (National Definition of Affordable Housing) Bill 2026 &ndash; Parliament of Australia. Captured content includes stage: Introduced; resistance language: Amendment; outcome language: passed. Registration threshold state: evi",
+      "candidate_state": "EVIDENCE_GAP",
+      "detected_at": "2026-09-14T01:06:48.852Z",
+      "source_snapshot_ids": [
+        "AUTO-WATCH-APH-BILLS-20260914010538"
+      ],
+      "signal_event_ids": [
+        "INTEL-AREA-b1f4c66d74c9d8d7045a5c6d"
+      ],
+      "review_ids": [],
+      "area_evidence_ids": [
+        "AREA-b1f4c66d74c9d8d7045a5c6d"
+      ],
+      "detail_version_ids": [
+        "DETAIL-8833546c13ce256c7594fb38-V1"
+      ],
+      "evidence_summary": "Substantive source record body was acquired, routed to LEGISLATIVE, and written into intelligence with retained detail, source-snapshot and stage-10 threshold lineage. Match registration remains a separate action.",
+      "registration_blockers": [
+        "MISSING_CONDITION_DISTINCT_SUPPORTING_AND_OPPOSING_SIDES",
+        "MISSING_FACT_TYPE_EXPLICIT_OPPOSITION_POSITION",
+        "MISSING_FACT_TYPE_EXPLICIT_SUPPORT_POSITION",
+        "MISSING_FACT_TYPE_MATERIAL_RESISTANCE"
+      ],
+      "linked_contest_id": null,
+      "state_history": [
+        {
+          "from": null,
+          "to": "EVIDENCE_GAP",
+          "at": "2026-09-14T01:06:48.852Z",
+          "reason": "SUBSTANTIVE_THRESHOLD_EVALUATION_PROPAGATED"
+        }
+      ]
+    },
+    {
+      "candidate_id": "DISC-FED-BUDGET-5b288162b709d759",
+      "jurisdiction_id": "AUS-FED",
+      "competition_family": "BUDGET",
+      "proposed_competition_class": "BUDGET",
+      "proposed_cycle_id": "AUS-FED-48TH-PARLIAMENT",
+      "subject": "Ingested substantive budget evidence from Housing Legislation Amendment (National Definition of Affordable Housing) Bill 2026 &ndash; Parliament of Australia. Captured content includes stage: Introduced; resistance language: Amendment; outcome language: passed. Registration threshold state: evidence",
+      "candidate_state": "EVIDENCE_GAP",
+      "detected_at": "2026-09-14T01:06:48.852Z",
+      "source_snapshot_ids": [
+        "AUTO-WATCH-APH-BILLS-20260914010538"
+      ],
+      "signal_event_ids": [
+        "INTEL-AREA-56204e0dd98eaf1f0eb6342e"
+      ],
+      "review_ids": [],
+      "area_evidence_ids": [
+        "AREA-56204e0dd98eaf1f0eb6342e"
+      ],
+      "detail_version_ids": [
+        "DETAIL-8833546c13ce256c7594fb38-V1"
+      ],
+      "evidence_summary": "Substantive source record body was acquired, routed to BUDGET, and written into intelligence with retained detail, source-snapshot and stage-10 threshold lineage. Match registration remains a separate action.",
+      "registration_blockers": [
+        "MISSING_CONDITION_DISTINCT_SUPPORTING_AND_OPPOSING_SIDES",
+        "MISSING_FACT_TYPE_CONTEST_OBJECT",
+        "MISSING_FACT_TYPE_EXPLICIT_OPPOSITION_POSITION",
+        "MISSING_FACT_TYPE_EXPLICIT_SUPPORT_POSITION",
+        "MISSING_FACT_TYPE_MATERIAL_RESISTANCE",
+        "MISSING_FACT_TYPE_OBJECTIVE"
+      ],
+      "linked_contest_id": null,
+      "state_history": [
+        {
+          "from": null,
+          "to": "EVIDENCE_GAP",
+          "at": "2026-09-14T01:06:48.852Z",
+          "reason": "SUBSTANTIVE_THRESHOLD_EVALUATION_PROPAGATED"
+        }
+      ]
+    },
+    {
+      "candidate_id": "DISC-FED-LEGISLATION-a0ac4337627eb0e4",
+      "jurisdiction_id": "AUS-FED",
+      "competition_family": "LEGISLATION",
+      "proposed_competition_class": "LEGISLATIVE",
+      "proposed_cycle_id": "AUS-FED-48TH-PARLIAMENT",
+      "subject": "Ingested substantive legislative evidence from Clean Energy Finance Corporation Amendment (Protecting Australian Farmland) Bill 2026 &ndash; Parliament of Australia. Captured content includes stage: Introduced; resistance language: Amendment; outcome language: passed. Registration threshold state: e",
+      "candidate_state": "EVIDENCE_GAP",
+      "detected_at": "2026-09-14T01:06:48.852Z",
+      "source_snapshot_ids": [
+        "AUTO-WATCH-APH-BILLS-20260914010538"
+      ],
+      "signal_event_ids": [
+        "INTEL-AREA-9a0cea5dba84025d6abe3de2"
+      ],
+      "review_ids": [],
+      "area_evidence_ids": [
+        "AREA-9a0cea5dba84025d6abe3de2"
+      ],
+      "detail_version_ids": [
+        "DETAIL-32832ce32c1ee8a4a2b8f6df-V1"
+      ],
+      "evidence_summary": "Substantive source record body was acquired, routed to LEGISLATIVE, and written into intelligence with retained detail, source-snapshot and stage-10 threshold lineage. Match registration remains a separate action.",
+      "registration_blockers": [
+        "MISSING_CONDITION_DISTINCT_SUPPORTING_AND_OPPOSING_SIDES",
+        "MISSING_FACT_TYPE_EXPLICIT_OPPOSITION_POSITION",
+        "MISSING_FACT_TYPE_EXPLICIT_SUPPORT_POSITION",
+        "MISSING_FACT_TYPE_MATERIAL_RESISTANCE"
+      ],
+      "linked_contest_id": null,
+      "state_history": [
+        {
+          "from": null,
+          "to": "EVIDENCE_GAP",
+          "at": "2026-09-14T01:06:48.852Z",
+          "reason": "SUBSTANTIVE_THRESHOLD_EVALUATION_PROPAGATED"
+        }
+      ]
+    },
+    {
+      "candidate_id": "DISC-FED-BUDGET-03de1338dedea592",
+      "jurisdiction_id": "AUS-FED",
+      "competition_family": "BUDGET",
+      "proposed_competition_class": "BUDGET",
+      "proposed_cycle_id": "AUS-FED-48TH-PARLIAMENT",
+      "subject": "Ingested substantive budget evidence from Clean Energy Finance Corporation Amendment (Protecting Australian Farmland) Bill 2026 &ndash; Parliament of Australia. Captured content includes stage: Introduced; resistance language: Amendment; outcome language: passed. Registration threshold state: eviden",
+      "candidate_state": "EVIDENCE_GAP",
+      "detected_at": "2026-09-14T01:06:48.852Z",
+      "source_snapshot_ids": [
+        "AUTO-WATCH-APH-BILLS-20260914010538"
+      ],
+      "signal_event_ids": [
+        "INTEL-AREA-4b21d83bab155e68ea4654bb"
+      ],
+      "review_ids": [],
+      "area_evidence_ids": [
+        "AREA-4b21d83bab155e68ea4654bb"
+      ],
+      "detail_version_ids": [
+        "DETAIL-32832ce32c1ee8a4a2b8f6df-V1"
+      ],
+      "evidence_summary": "Substantive source record body was acquired, routed to BUDGET, and written into intelligence with retained detail, source-snapshot and stage-10 threshold lineage. Match registration remains a separate action.",
+      "registration_blockers": [
+        "MISSING_CONDITION_DISTINCT_SUPPORTING_AND_OPPOSING_SIDES",
+        "MISSING_FACT_TYPE_CONTEST_OBJECT",
+        "MISSING_FACT_TYPE_EXPLICIT_OPPOSITION_POSITION",
+        "MISSING_FACT_TYPE_EXPLICIT_SUPPORT_POSITION",
+        "MISSING_FACT_TYPE_MATERIAL_RESISTANCE",
+        "MISSING_FACT_TYPE_OBJECTIVE"
+      ],
+      "linked_contest_id": null,
+      "state_history": [
+        {
+          "from": null,
+          "to": "EVIDENCE_GAP",
+          "at": "2026-09-14T01:06:48.852Z",
+          "reason": "SUBSTANTIVE_THRESHOLD_EVALUATION_PROPAGATED"
+        }
+      ]
     }
   ],
-  "last_screened_at": "2026-09-13T22:26:20.733Z",
+  "last_screened_at": "2026-09-14T01:06:49.157Z",
   "last_screen_summary": {
-    "signals_examined": 237,
-    "candidates_total": 93,
-    "candidates_added": 0,
+    "signals_examined": 247,
+    "candidates_total": 102,
+    "candidates_added": 9,
     "candidate_lineage_merges": 262,
-    "substantive_area_events_examined": 60,
+    "substantive_area_events_examined": 66,
     "threshold_state_transitions": 0,
     "registered_contests_unchanged": true
   },
-  "last_duplicate_reconciliation_at": "2026-09-13T22:26:20.804Z",
+  "last_duplicate_reconciliation_at": "2026-09-14T01:06:49.246Z",
   "last_duplicate_reconciliation": {
     "rejected": 0,
-    "active_area_family_keys": 59
+    "active_area_family_keys": 65
   }
 }

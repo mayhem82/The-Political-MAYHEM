@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-SIGNAL-REVIEWS-001",
   "created_at": "2026-09-09T05:05:00+10:00",
-  "updated_at": "2026-09-13T22:25:47.992Z",
+  "updated_at": "2026-09-14T01:06:42.321Z",
   "rules": {
     "append_only": true,
     "raw_source_change_is_immutable": true,
@@ -25819,6 +25819,236 @@
           }
         ],
         "delta_hash": "39962eee9827f0186b72e0c55e3a70d097c367d552ffd47dadc1efd2d51e76fe"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-APH-BILLS-20260914010538",
+      "source_change_event_id": "CHG-WATCH-APH-BILLS-20260914010538",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-APH-BILLS-20260914010538",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Parliament of Australia — Bills and Legislation added 3 structured publication records to its forward-captured official index: Housing Legislation Amendment (National Definition...; Red Lines Package Omnibus Bill 2026; Clean Energy Finance Corporation Amendment (Protec...",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-09-14T01:06:42.321Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "28ca97e984eb9d5e9072",
+            "title": "Housing Legislation Amendment (National Definition...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7543"
+          },
+          {
+            "record_id": "38c17bf25228582887e2",
+            "title": "Red Lines Package Omnibus Bill 2026",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7545"
+          },
+          {
+            "record_id": "a174a9cf907314004075",
+            "title": "Clean Energy Finance Corporation Amendment (Protec...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7546"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "38f0990bef01dea1467e",
+            "title": "Treasury Laws Amendment (Strengthening Accountabil...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7514"
+          },
+          {
+            "record_id": "8ee0c4aab8a905eab9ff",
+            "title": "Biosecurity Amendment (Improving Operational Effic...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7518"
+          },
+          {
+            "record_id": "de07ab2c12b603353677",
+            "title": "Wine and Other Legislation Amendment Bill 2026",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7519"
+          }
+        ],
+        "delta_hash": "3a28dfec5287b767b70266ec85f2a2ba280f96d27f6ada9d3f662156b3debd92"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-GREENS-FEDERAL-MEDIA-20260914010538",
+      "source_change_event_id": "CHG-WATCH-GREENS-FEDERAL-MEDIA-20260914010538",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-GREENS-FEDERAL-MEDIA-20260914010538",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": "AUS-FED-GRN",
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Australian Greens — Federal MPs media releases added 2 structured publication records to its forward-captured official index: Read more about KPMG raking in $437m in govt contracts, $303m in defence; KPMG raking in $437m in govt contracts, $303m in defence",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-09-14T01:06:42.321Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "38ca2a4898a31d904b8e",
+            "title": "Read more about KPMG raking in $437m in govt contracts, $303m in defence",
+            "url": "https://greens.org.au/news/media-release/kpmg-raking-437m-govt-contracts-303m-defence"
+          },
+          {
+            "record_id": "98576fe5476552536dba",
+            "title": "KPMG raking in $437m in govt contracts, $303m in defence",
+            "url": "https://greens.org.au/news/media-release/kpmg-raking-437m-govt-contracts-303m-defence"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "8e11fe651a16067e14b8",
+            "title": "Read more about Bird Flu Funding Must Support Vets",
+            "url": "https://greens.org.au/news/media-release/bird-flu-funding-must-support-vets"
+          },
+          {
+            "record_id": "920c81e58e2970961dca",
+            "title": "Bird Flu Funding Must Support Vets",
+            "url": "https://greens.org.au/news/media-release/bird-flu-funding-must-support-vets"
+          }
+        ],
+        "delta_hash": "acbd34b04d05162629fb08dffe0f92f0ef5fec3eef2f819625954734e01bb7ae"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-NSW-MINISTERIAL-RELEASES-20260914010538",
+      "source_change_event_id": "CHG-WATCH-NSW-MINISTERIAL-RELEASES-20260914010538",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-NSW-MINISTERIAL-RELEASES-20260914010538",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "NSW Government — Ministerial releases added 5 structured publication records to its forward-captured official index: New $14 million partnership to boost drought resilience in Australian cropping systems; Screentime limits in all public schools to lift our game in the classroom; All Australians deserve a fair share of the GST; All new public schools to share facilities with community as Share Our Space program expands; World Sepsis Day highlights new AI tool identifying sepsis quicker than before",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-09-14T01:06:42.321Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "8fb60018f68695c9bb16",
+            "title": "New $14 million partnership to boost drought resilience in Australian cropping systems",
+            "url": "https://www.nsw.gov.au/ministerial-releases/new-14-million-partnership-to-boost-drought-resilience-australian-cropping-systems"
+          },
+          {
+            "record_id": "aa1dbc0b8c5a993cfbea",
+            "title": "Screentime limits in all public schools to lift our game in the classroom",
+            "url": "https://www.nsw.gov.au/ministerial-releases/screentime-limited-from-next-year"
+          },
+          {
+            "record_id": "c18b71401d5be00be6fc",
+            "title": "All Australians deserve a fair share of the GST",
+            "url": "https://www.nsw.gov.au/ministerial-releases/all-australians-deserve-a-fair-share-of-gst"
+          },
+          {
+            "record_id": "c88a00a367b80a692d39",
+            "title": "All new public schools to share facilities with community as Share Our Space program expands",
+            "url": "https://www.nsw.gov.au/ministerial-releases/all-new-public-schools-to-share-facilities-community-as-share-our-space-program-expands"
+          },
+          {
+            "record_id": "db50842f5c842bf73a14",
+            "title": "World Sepsis Day highlights new AI tool identifying sepsis quicker than before",
+            "url": "https://www.nsw.gov.au/ministerial-releases/new-ai-tool-identifying-sepsis"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "248ab7ccb78fbad9e998",
+            "title": "Ministerial travel audit",
+            "url": "https://www.nsw.gov.au/ministerial-releases/ministerial-travel-audit"
+          },
+          {
+            "record_id": "38a2169dd79afd0d562f",
+            "title": "S&P Global upgrades New South Wales Outlook",
+            "url": "https://www.nsw.gov.au/ministerial-releases/sp-global-upgrades-new-south-wales-outlook"
+          },
+          {
+            "record_id": "62b8e62216f64fe29bf9",
+            "title": "DA approval paves the way for more homes in Bega",
+            "url": "https://www.nsw.gov.au/ministerial-releases/da-approval-paves-way-for-more-homes-bega"
+          },
+          {
+            "record_id": "87d5e959bf4836d8c4e2",
+            "title": "Five additional H5 bird flu events in NSW",
+            "url": "https://www.nsw.gov.au/ministerial-releases/five-additional-h5-bird-flu-events-nsw"
+          },
+          {
+            "record_id": "ae8fb582c7f9df67c261",
+            "title": "Works get underway on Gosford Waterfront revitalisation",
+            "url": "https://www.nsw.gov.au/ministerial-releases/works-get-underway-on-gosford-waterfront-revitalisation"
+          }
+        ],
+        "delta_hash": "a03f11f7c53a51b2dcab9694186e886650c4769cdf612407a37393c1cb066b23"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20260914010538",
+      "source_change_event_id": "CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20260914010538",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20260914010538",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Queensland Government — Ministerial Media Statements added 1 structured publication record to its forward-captured official index: 710 new homes fast tracked across South Burnett and Somerset regions",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-09-14T01:06:42.321Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "97d5dff4fba7b53d10f2",
+            "title": "710 new homes fast tracked across South Burnett and Somerset regions",
+            "url": "https://statements.qld.gov.au/statements/106047"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "2d3159f6864c3157a9d8",
+            "title": "Record-breaking hazard reduction burns prepare protected areas for bushfire season",
+            "url": "https://statements.qld.gov.au/statements/106031"
+          }
+        ],
+        "delta_hash": "e592e6cadf230c0b512f03cd28c555c31c0cce332a0ffe9a7989e0b33a214c18"
       },
       "integrity": {
         "source_change_unchanged": true,

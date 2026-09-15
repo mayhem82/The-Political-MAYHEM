@@ -69,63 +69,63 @@
     {
       "jurisdiction_id": "AUS-FED",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-15T01:29:39.591Z",
-      "signals_examined": 127,
-      "candidates_detected": 60
+      "last_screened_at": "2026-09-15T07:46:39.006Z",
+      "signals_examined": 136,
+      "candidates_detected": 70
     },
     {
       "jurisdiction_id": "AUS-NSW",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-15T01:29:39.591Z",
-      "signals_examined": 42,
+      "last_screened_at": "2026-09-15T07:46:39.006Z",
+      "signals_examined": 44,
       "candidates_detected": 8
     },
     {
       "jurisdiction_id": "AUS-VIC",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-15T01:29:39.591Z",
-      "signals_examined": 8,
-      "candidates_detected": 3
+      "last_screened_at": "2026-09-15T07:46:39.006Z",
+      "signals_examined": 11,
+      "candidates_detected": 4
     },
     {
       "jurisdiction_id": "AUS-QLD",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-15T01:29:39.591Z",
-      "signals_examined": 19,
+      "last_screened_at": "2026-09-15T07:46:39.006Z",
+      "signals_examined": 20,
       "candidates_detected": 43
     },
     {
       "jurisdiction_id": "AUS-WA",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-15T01:29:39.591Z",
+      "last_screened_at": "2026-09-15T07:46:39.006Z",
       "signals_examined": 3,
       "candidates_detected": 2
     },
     {
       "jurisdiction_id": "AUS-SA",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-15T01:29:39.591Z",
+      "last_screened_at": "2026-09-15T07:46:39.006Z",
       "signals_examined": 1,
       "candidates_detected": 0
     },
     {
       "jurisdiction_id": "AUS-TAS",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-15T01:29:39.591Z",
+      "last_screened_at": "2026-09-15T07:46:39.006Z",
       "signals_examined": 20,
       "candidates_detected": 0
     },
     {
       "jurisdiction_id": "AUS-ACT",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-15T01:29:39.591Z",
+      "last_screened_at": "2026-09-15T07:46:39.006Z",
       "signals_examined": 24,
       "candidates_detected": 1
     },
     {
       "jurisdiction_id": "AUS-NT",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-15T01:29:39.591Z",
+      "last_screened_at": "2026-09-15T07:46:39.006Z",
       "signals_examined": 31,
       "candidates_detected": 0
     }
@@ -4929,21 +4929,443 @@
           "reason": "SUBSTANTIVE_THRESHOLD_EVALUATION_PROPAGATED"
         }
       ]
+    },
+    {
+      "candidate_id": "DISC-FED-PROCEDURAL-814fed502a0e464f",
+      "jurisdiction_id": "AUS-FED",
+      "competition_family": "PROCEDURAL",
+      "proposed_competition_class": "PARLIAMENTARY_PROCEDURE",
+      "proposed_cycle_id": "AUS-FED-48TH-PARLIAMENT",
+      "subject": "Military Rehabilitation and Compensation Amendment...",
+      "candidate_state": "REVIEW_REQUIRED",
+      "detected_at": "2026-09-15T07:46:25.531Z",
+      "source_snapshot_ids": [
+        "AUTO-WATCH-APH-BILLS-20260915074540"
+      ],
+      "signal_event_ids": [
+        "SIG-REV-CHG-WATCH-APH-BILLS-20260915074540"
+      ],
+      "review_ids": [
+        "REV-CHG-WATCH-APH-BILLS-20260915074540"
+      ],
+      "area_evidence_ids": [],
+      "detail_version_ids": [],
+      "evidence_summary": "Screened PRIMARY_PARLIAMENT evidence contains language consistent with a procedural competition candidate. This is a discovery observation, not a registered contest or outcome inference.",
+      "registration_blockers": [
+        "MATERIAL_PROCEDURAL_OPPOSITION_REQUIRES_REVIEW"
+      ],
+      "linked_contest_id": null,
+      "state_history": [
+        {
+          "from": null,
+          "to": "REVIEW_REQUIRED",
+          "at": "2026-09-15T07:46:25.531Z",
+          "reason": "DETERMINISTIC_COMPETITION_FAMILY_SCREEN"
+        }
+      ]
+    },
+    {
+      "candidate_id": "DISC-FED-LEGISLATION-fcea7b8a3edb21c4",
+      "jurisdiction_id": "AUS-FED",
+      "competition_family": "LEGISLATION",
+      "proposed_competition_class": "LEGISLATIVE",
+      "proposed_cycle_id": "AUS-FED-48TH-PARLIAMENT",
+      "subject": "Knox Class Action (Facilitation) Bill 2026",
+      "candidate_state": "EVIDENCE_GAP",
+      "detected_at": "2026-09-15T07:46:25.531Z",
+      "source_snapshot_ids": [
+        "AUTO-WATCH-APH-BILLS-20260915074540"
+      ],
+      "signal_event_ids": [
+        "SIG-REV-CHG-WATCH-APH-BILLS-20260915074540"
+      ],
+      "review_ids": [
+        "REV-CHG-WATCH-APH-BILLS-20260915074540"
+      ],
+      "area_evidence_ids": [],
+      "detail_version_ids": [],
+      "evidence_summary": "Screened PRIMARY_PARLIAMENT evidence contains language consistent with a legislation competition candidate. This is a discovery observation, not a registered contest or outcome inference.",
+      "registration_blockers": [
+        "MATERIAL_RESISTANCE_NOT_YET_EVIDENCED",
+        "SUPPORTING_SIDE_NOT_YET_RESOLVED",
+        "OPPOSING_SIDE_NOT_YET_RESOLVED"
+      ],
+      "linked_contest_id": null,
+      "state_history": [
+        {
+          "from": null,
+          "to": "EVIDENCE_GAP",
+          "at": "2026-09-15T07:46:25.531Z",
+          "reason": "DETERMINISTIC_COMPETITION_FAMILY_SCREEN"
+        }
+      ]
+    },
+    {
+      "candidate_id": "DISC-FED-LEGISLATION-e727a38eb13c5cdb",
+      "jurisdiction_id": "AUS-FED",
+      "competition_family": "LEGISLATION",
+      "proposed_competition_class": "LEGISLATIVE",
+      "proposed_cycle_id": "AUS-FED-48TH-PARLIAMENT",
+      "subject": "Red Lines Package Omnibus Bill 2026 [No. 2]",
+      "candidate_state": "EVIDENCE_GAP",
+      "detected_at": "2026-09-15T07:46:25.531Z",
+      "source_snapshot_ids": [
+        "AUTO-WATCH-APH-BILLS-20260915074540"
+      ],
+      "signal_event_ids": [
+        "SIG-REV-CHG-WATCH-APH-BILLS-20260915074540"
+      ],
+      "review_ids": [
+        "REV-CHG-WATCH-APH-BILLS-20260915074540"
+      ],
+      "area_evidence_ids": [],
+      "detail_version_ids": [],
+      "evidence_summary": "Screened PRIMARY_PARLIAMENT evidence contains language consistent with a legislation competition candidate. This is a discovery observation, not a registered contest or outcome inference.",
+      "registration_blockers": [
+        "MATERIAL_RESISTANCE_NOT_YET_EVIDENCED",
+        "SUPPORTING_SIDE_NOT_YET_RESOLVED",
+        "OPPOSING_SIDE_NOT_YET_RESOLVED"
+      ],
+      "linked_contest_id": null,
+      "state_history": [
+        {
+          "from": null,
+          "to": "EVIDENCE_GAP",
+          "at": "2026-09-15T07:46:25.531Z",
+          "reason": "DETERMINISTIC_COMPETITION_FAMILY_SCREEN"
+        }
+      ]
+    },
+    {
+      "candidate_id": "DISC-FED-LEGISLATION-8cd667d0f3e12161",
+      "jurisdiction_id": "AUS-FED",
+      "competition_family": "LEGISLATION",
+      "proposed_competition_class": "LEGISLATIVE",
+      "proposed_cycle_id": "AUS-FED-48TH-PARLIAMENT",
+      "subject": "National Student Ombudsman Levy Bill 2026",
+      "candidate_state": "EVIDENCE_GAP",
+      "detected_at": "2026-09-15T07:46:25.531Z",
+      "source_snapshot_ids": [
+        "AUTO-WATCH-APH-BILLS-20260915074540"
+      ],
+      "signal_event_ids": [
+        "SIG-REV-CHG-WATCH-APH-BILLS-20260915074540"
+      ],
+      "review_ids": [
+        "REV-CHG-WATCH-APH-BILLS-20260915074540"
+      ],
+      "area_evidence_ids": [],
+      "detail_version_ids": [],
+      "evidence_summary": "Screened PRIMARY_PARLIAMENT evidence contains language consistent with a legislation competition candidate. This is a discovery observation, not a registered contest or outcome inference.",
+      "registration_blockers": [
+        "MATERIAL_RESISTANCE_NOT_YET_EVIDENCED",
+        "SUPPORTING_SIDE_NOT_YET_RESOLVED",
+        "OPPOSING_SIDE_NOT_YET_RESOLVED"
+      ],
+      "linked_contest_id": null,
+      "state_history": [
+        {
+          "from": null,
+          "to": "EVIDENCE_GAP",
+          "at": "2026-09-15T07:46:25.531Z",
+          "reason": "DETERMINISTIC_COMPETITION_FAMILY_SCREEN"
+        }
+      ]
+    },
+    {
+      "candidate_id": "DISC-FED-LEGISLATION-a87ee42f785b6ad9",
+      "jurisdiction_id": "AUS-FED",
+      "competition_family": "LEGISLATION",
+      "proposed_competition_class": "LEGISLATIVE",
+      "proposed_cycle_id": "AUS-FED-48TH-PARLIAMENT",
+      "subject": "Ingested substantive legislative evidence from Knox Class Action (Facilitation) Bill 2026 &ndash; Parliament of Australia. Captured content includes stage: Introduced; outcome language: passed. Registration threshold state: evidence gap. Missing requirements: missing fact type material resistance, m",
+      "candidate_state": "EVIDENCE_GAP",
+      "detected_at": "2026-09-15T07:46:38.705Z",
+      "source_snapshot_ids": [
+        "AUTO-WATCH-APH-BILLS-20260915074540"
+      ],
+      "signal_event_ids": [
+        "INTEL-AREA-6fa9a8cef0385c223d597328"
+      ],
+      "review_ids": [],
+      "area_evidence_ids": [
+        "AREA-6fa9a8cef0385c223d597328"
+      ],
+      "detail_version_ids": [
+        "DETAIL-8775b6055e96056de0b37d57-V1"
+      ],
+      "evidence_summary": "Substantive source record body was acquired, routed to LEGISLATIVE, and written into intelligence with retained detail, source-snapshot and stage-10 threshold lineage. Match registration remains a separate action.",
+      "registration_blockers": [
+        "MISSING_CONDITION_DISTINCT_SUPPORTING_AND_OPPOSING_SIDES",
+        "MISSING_FACT_TYPE_EXPLICIT_OPPOSITION_POSITION",
+        "MISSING_FACT_TYPE_EXPLICIT_SUPPORT_POSITION",
+        "MISSING_FACT_TYPE_MATERIAL_RESISTANCE"
+      ],
+      "linked_contest_id": null,
+      "state_history": [
+        {
+          "from": null,
+          "to": "EVIDENCE_GAP",
+          "at": "2026-09-15T07:46:38.705Z",
+          "reason": "SUBSTANTIVE_THRESHOLD_EVALUATION_PROPAGATED"
+        }
+      ]
+    },
+    {
+      "candidate_id": "DISC-FED-BUDGET-529e91c0137206a7",
+      "jurisdiction_id": "AUS-FED",
+      "competition_family": "BUDGET",
+      "proposed_competition_class": "BUDGET",
+      "proposed_cycle_id": "AUS-FED-48TH-PARLIAMENT",
+      "subject": "Ingested substantive budget evidence from Knox Class Action (Facilitation) Bill 2026 &ndash; Parliament of Australia. Captured content includes stage: Introduced; outcome language: passed. Registration threshold state: evidence gap. Missing requirements: missing fact type contest object, missing fac",
+      "candidate_state": "EVIDENCE_GAP",
+      "detected_at": "2026-09-15T07:46:38.705Z",
+      "source_snapshot_ids": [
+        "AUTO-WATCH-APH-BILLS-20260915074540"
+      ],
+      "signal_event_ids": [
+        "INTEL-AREA-512e141c5f5be8ecbd5c9311"
+      ],
+      "review_ids": [],
+      "area_evidence_ids": [
+        "AREA-512e141c5f5be8ecbd5c9311"
+      ],
+      "detail_version_ids": [
+        "DETAIL-8775b6055e96056de0b37d57-V1"
+      ],
+      "evidence_summary": "Substantive source record body was acquired, routed to BUDGET, and written into intelligence with retained detail, source-snapshot and stage-10 threshold lineage. Match registration remains a separate action.",
+      "registration_blockers": [
+        "MISSING_CONDITION_DISTINCT_SUPPORTING_AND_OPPOSING_SIDES",
+        "MISSING_FACT_TYPE_CONTEST_OBJECT",
+        "MISSING_FACT_TYPE_EXPLICIT_OPPOSITION_POSITION",
+        "MISSING_FACT_TYPE_EXPLICIT_SUPPORT_POSITION",
+        "MISSING_FACT_TYPE_MATERIAL_RESISTANCE",
+        "MISSING_FACT_TYPE_OBJECTIVE"
+      ],
+      "linked_contest_id": null,
+      "state_history": [
+        {
+          "from": null,
+          "to": "EVIDENCE_GAP",
+          "at": "2026-09-15T07:46:38.705Z",
+          "reason": "SUBSTANTIVE_THRESHOLD_EVALUATION_PROPAGATED"
+        }
+      ]
+    },
+    {
+      "candidate_id": "DISC-FED-LEGISLATION-5c41b72d8fdbde49",
+      "jurisdiction_id": "AUS-FED",
+      "competition_family": "LEGISLATION",
+      "proposed_competition_class": "LEGISLATIVE",
+      "proposed_cycle_id": "AUS-FED-48TH-PARLIAMENT",
+      "subject": "Ingested substantive legislative evidence from National Student Ombudsman Levy Bill 2026 &ndash; Parliament of Australia. Captured content includes stage: Introduced; outcome language: passed. Registration threshold state: evidence gap. Missing requirements: missing fact type material resistance, mi",
+      "candidate_state": "EVIDENCE_GAP",
+      "detected_at": "2026-09-15T07:46:38.705Z",
+      "source_snapshot_ids": [
+        "AUTO-WATCH-APH-BILLS-20260915074540"
+      ],
+      "signal_event_ids": [
+        "INTEL-AREA-15e880daf7ed781c579d0f35"
+      ],
+      "review_ids": [],
+      "area_evidence_ids": [
+        "AREA-15e880daf7ed781c579d0f35"
+      ],
+      "detail_version_ids": [
+        "DETAIL-f1a11a7ecc7fd7d7547169ed-V1"
+      ],
+      "evidence_summary": "Substantive source record body was acquired, routed to LEGISLATIVE, and written into intelligence with retained detail, source-snapshot and stage-10 threshold lineage. Match registration remains a separate action.",
+      "registration_blockers": [
+        "MISSING_CONDITION_DISTINCT_SUPPORTING_AND_OPPOSING_SIDES",
+        "MISSING_FACT_TYPE_EXPLICIT_OPPOSITION_POSITION",
+        "MISSING_FACT_TYPE_EXPLICIT_SUPPORT_POSITION",
+        "MISSING_FACT_TYPE_MATERIAL_RESISTANCE"
+      ],
+      "linked_contest_id": null,
+      "state_history": [
+        {
+          "from": null,
+          "to": "EVIDENCE_GAP",
+          "at": "2026-09-15T07:46:38.705Z",
+          "reason": "SUBSTANTIVE_THRESHOLD_EVALUATION_PROPAGATED"
+        }
+      ]
+    },
+    {
+      "candidate_id": "DISC-FED-BUDGET-1609b20a8b15341e",
+      "jurisdiction_id": "AUS-FED",
+      "competition_family": "BUDGET",
+      "proposed_competition_class": "BUDGET",
+      "proposed_cycle_id": "AUS-FED-48TH-PARLIAMENT",
+      "subject": "Ingested substantive budget evidence from National Student Ombudsman Levy Bill 2026 &ndash; Parliament of Australia. Captured content includes stage: Introduced; outcome language: passed. Registration threshold state: evidence gap. Missing requirements: missing fact type contest object, missing fact",
+      "candidate_state": "EVIDENCE_GAP",
+      "detected_at": "2026-09-15T07:46:38.705Z",
+      "source_snapshot_ids": [
+        "AUTO-WATCH-APH-BILLS-20260915074540"
+      ],
+      "signal_event_ids": [
+        "INTEL-AREA-0dbf1d82235b429b89afb746"
+      ],
+      "review_ids": [],
+      "area_evidence_ids": [
+        "AREA-0dbf1d82235b429b89afb746"
+      ],
+      "detail_version_ids": [
+        "DETAIL-f1a11a7ecc7fd7d7547169ed-V1"
+      ],
+      "evidence_summary": "Substantive source record body was acquired, routed to BUDGET, and written into intelligence with retained detail, source-snapshot and stage-10 threshold lineage. Match registration remains a separate action.",
+      "registration_blockers": [
+        "MISSING_CONDITION_DISTINCT_SUPPORTING_AND_OPPOSING_SIDES",
+        "MISSING_FACT_TYPE_CONTEST_OBJECT",
+        "MISSING_FACT_TYPE_EXPLICIT_OPPOSITION_POSITION",
+        "MISSING_FACT_TYPE_EXPLICIT_SUPPORT_POSITION",
+        "MISSING_FACT_TYPE_MATERIAL_RESISTANCE",
+        "MISSING_FACT_TYPE_OBJECTIVE"
+      ],
+      "linked_contest_id": null,
+      "state_history": [
+        {
+          "from": null,
+          "to": "EVIDENCE_GAP",
+          "at": "2026-09-15T07:46:38.705Z",
+          "reason": "SUBSTANTIVE_THRESHOLD_EVALUATION_PROPAGATED"
+        }
+      ]
+    },
+    {
+      "candidate_id": "DISC-FED-LEGISLATION-415114391dd99625",
+      "jurisdiction_id": "AUS-FED",
+      "competition_family": "LEGISLATION",
+      "proposed_competition_class": "LEGISLATIVE",
+      "proposed_cycle_id": "AUS-FED-48TH-PARLIAMENT",
+      "subject": "Ingested substantive legislative evidence from Red Lines Package Omnibus Bill 2026 [No. 2] &ndash; Parliament of Australia. Captured content includes stage: Introduced; outcome language: passed. Registration threshold state: evidence gap. Missing requirements: missing fact type material resistance, ",
+      "candidate_state": "EVIDENCE_GAP",
+      "detected_at": "2026-09-15T07:46:38.705Z",
+      "source_snapshot_ids": [
+        "AUTO-WATCH-APH-BILLS-20260915074540"
+      ],
+      "signal_event_ids": [
+        "INTEL-AREA-830e18e2c0005cc944cb0f7c"
+      ],
+      "review_ids": [],
+      "area_evidence_ids": [
+        "AREA-830e18e2c0005cc944cb0f7c"
+      ],
+      "detail_version_ids": [
+        "DETAIL-e6eca27e2f3e9ad1713f3132-V1"
+      ],
+      "evidence_summary": "Substantive source record body was acquired, routed to LEGISLATIVE, and written into intelligence with retained detail, source-snapshot and stage-10 threshold lineage. Match registration remains a separate action.",
+      "registration_blockers": [
+        "MISSING_CONDITION_DISTINCT_SUPPORTING_AND_OPPOSING_SIDES",
+        "MISSING_FACT_TYPE_EXPLICIT_OPPOSITION_POSITION",
+        "MISSING_FACT_TYPE_EXPLICIT_SUPPORT_POSITION",
+        "MISSING_FACT_TYPE_MATERIAL_RESISTANCE"
+      ],
+      "linked_contest_id": null,
+      "state_history": [
+        {
+          "from": null,
+          "to": "EVIDENCE_GAP",
+          "at": "2026-09-15T07:46:38.705Z",
+          "reason": "SUBSTANTIVE_THRESHOLD_EVALUATION_PROPAGATED"
+        }
+      ]
+    },
+    {
+      "candidate_id": "DISC-FED-BUDGET-3653b5d4a089bda6",
+      "jurisdiction_id": "AUS-FED",
+      "competition_family": "BUDGET",
+      "proposed_competition_class": "BUDGET",
+      "proposed_cycle_id": "AUS-FED-48TH-PARLIAMENT",
+      "subject": "Ingested substantive budget evidence from Red Lines Package Omnibus Bill 2026 [No. 2] &ndash; Parliament of Australia. Captured content includes stage: Introduced; outcome language: passed. Registration threshold state: evidence gap. Missing requirements: missing fact type contest object, missing fa",
+      "candidate_state": "EVIDENCE_GAP",
+      "detected_at": "2026-09-15T07:46:38.705Z",
+      "source_snapshot_ids": [
+        "AUTO-WATCH-APH-BILLS-20260915074540"
+      ],
+      "signal_event_ids": [
+        "INTEL-AREA-0812db8c65c38ec7c8d88bb3"
+      ],
+      "review_ids": [],
+      "area_evidence_ids": [
+        "AREA-0812db8c65c38ec7c8d88bb3"
+      ],
+      "detail_version_ids": [
+        "DETAIL-e6eca27e2f3e9ad1713f3132-V1"
+      ],
+      "evidence_summary": "Substantive source record body was acquired, routed to BUDGET, and written into intelligence with retained detail, source-snapshot and stage-10 threshold lineage. Match registration remains a separate action.",
+      "registration_blockers": [
+        "MISSING_CONDITION_DISTINCT_SUPPORTING_AND_OPPOSING_SIDES",
+        "MISSING_FACT_TYPE_CONTEST_OBJECT",
+        "MISSING_FACT_TYPE_EXPLICIT_OPPOSITION_POSITION",
+        "MISSING_FACT_TYPE_EXPLICIT_SUPPORT_POSITION",
+        "MISSING_FACT_TYPE_MATERIAL_RESISTANCE",
+        "MISSING_FACT_TYPE_OBJECTIVE"
+      ],
+      "linked_contest_id": null,
+      "state_history": [
+        {
+          "from": null,
+          "to": "EVIDENCE_GAP",
+          "at": "2026-09-15T07:46:38.705Z",
+          "reason": "SUBSTANTIVE_THRESHOLD_EVALUATION_PROPAGATED"
+        }
+      ]
+    },
+    {
+      "candidate_id": "DISC-VIC-ELECTION-69efcd2b34c15847",
+      "jurisdiction_id": "AUS-VIC",
+      "competition_family": "ELECTION",
+      "proposed_competition_class": "ELECTORAL",
+      "proposed_cycle_id": "AUS-VIC-SE2026",
+      "subject": "Ingested substantive electoral evidence from Last chance to enrol for Murrindindi Shire Council by-election. Captured content includes public-pressure language: citizen. Registration threshold state: evidence gap. Missing requirements: missing fact type stage, missing condition resolved participant ",
+      "candidate_state": "EVIDENCE_GAP",
+      "detected_at": "2026-09-15T07:46:38.705Z",
+      "source_snapshot_ids": [
+        "AUTO-WATCH-VEC-MEDIA-20260915074540"
+      ],
+      "signal_event_ids": [
+        "INTEL-AREA-720ac255530e105c50325e7f",
+        "INTEL-AREA-1965ec7e65200e18ea61cc6b"
+      ],
+      "review_ids": [],
+      "area_evidence_ids": [
+        "AREA-720ac255530e105c50325e7f",
+        "AREA-1965ec7e65200e18ea61cc6b"
+      ],
+      "detail_version_ids": [
+        "DETAIL-5aefaa08316fb31a14cb5359-V1",
+        "DETAIL-1b56529c6c515753fef76459-V1"
+      ],
+      "evidence_summary": "Substantive source record body was acquired, routed to ELECTORAL, and written into intelligence with retained detail, source-snapshot and stage-10 threshold lineage. Match registration remains a separate action.",
+      "registration_blockers": [
+        "MISSING_CONDITION_RESOLVED_PARTICIPANT_OR_TEAM",
+        "MISSING_FACT_TYPE_STAGE"
+      ],
+      "linked_contest_id": null,
+      "state_history": [
+        {
+          "from": null,
+          "to": "EVIDENCE_GAP",
+          "at": "2026-09-15T07:46:38.705Z",
+          "reason": "SUBSTANTIVE_THRESHOLD_EVALUATION_PROPAGATED"
+        }
+      ]
     }
   ],
-  "last_screened_at": "2026-09-15T01:29:39.591Z",
+  "last_screened_at": "2026-09-15T07:46:39.006Z",
   "last_screen_summary": {
-    "signals_examined": 275,
-    "candidates_total": 117,
-    "candidates_added": 4,
-    "candidate_lineage_merges": 288,
-    "substantive_area_events_examined": 80,
+    "signals_examined": 290,
+    "candidates_total": 128,
+    "candidates_added": 11,
+    "candidate_lineage_merges": 294,
+    "substantive_area_events_examined": 88,
     "threshold_state_transitions": 0,
     "registered_contests_unchanged": true
   },
-  "last_duplicate_reconciliation_at": "2026-09-15T01:29:39.675Z",
+  "last_duplicate_reconciliation_at": "2026-09-15T07:46:39.092Z",
   "last_duplicate_reconciliation": {
     "rejected": 0,
-    "active_area_family_keys": 79
+    "active_area_family_keys": 87
   }
 }

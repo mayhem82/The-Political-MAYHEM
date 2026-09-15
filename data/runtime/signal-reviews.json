@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-SIGNAL-REVIEWS-001",
   "created_at": "2026-09-09T05:05:00+10:00",
-  "updated_at": "2026-09-15T01:29:18.801Z",
+  "updated_at": "2026-09-15T07:46:25.531Z",
   "rules": {
     "append_only": true,
     "raw_source_change_is_immutable": true,
@@ -26788,6 +26788,501 @@
           }
         ],
         "delta_hash": "6fbf860ff35b5bf0bc25ffbd65b9116f06239dc81a54242567c4839ef171af6e"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-APH-BILLS-20260915074540",
+      "source_change_event_id": "CHG-WATCH-APH-BILLS-20260915074540",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-APH-BILLS-20260915074540",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Parliament of Australia — Bills and Legislation added 6 structured publication records to its forward-captured official index: Military Rehabilitation and Compensation Amendment...; Military Rehabilitation and Compensation Amendment...; Knox Class Action (Facilitation) Bill 2026; Red Lines Package Omnibus Bill 2026 [No. 2]; Tertiary Education Quality and Standards Agency Am...; +1 more",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-09-15T07:46:25.531Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "096ce2ee4da01b7fc07c",
+            "title": "Military Rehabilitation and Compensation Amendment...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=s1518"
+          },
+          {
+            "record_id": "184b23d4f60096991092",
+            "title": "Military Rehabilitation and Compensation Amendment...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=s1515"
+          },
+          {
+            "record_id": "2a6999b453936296e183",
+            "title": "Knox Class Action (Facilitation) Bill 2026",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7539"
+          },
+          {
+            "record_id": "8e3a5485213b1e13fb36",
+            "title": "Red Lines Package Omnibus Bill 2026 [No. 2]",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=s1517"
+          },
+          {
+            "record_id": "b1a378be24b357fbca5d",
+            "title": "Tertiary Education Quality and Standards Agency Am...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7542"
+          },
+          {
+            "record_id": "edeff7d63c0136e7de5d",
+            "title": "National Student Ombudsman Levy Bill 2026",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7541"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "1850aa885a7edcd4691b",
+            "title": "Environment and Other Legislation Amendment (Fast ...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=s1516"
+          },
+          {
+            "record_id": "482c4b90b9cd4fe2c84a",
+            "title": "Telecommunications Legislation Amendment (Universa...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7414"
+          },
+          {
+            "record_id": "4c7a76b5989435c30a70",
+            "title": "Criminal Code Amendment (National Sport Integrity ...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7531"
+          },
+          {
+            "record_id": "5dfdb0f54589f88ce831",
+            "title": "Social Security and Other Legislation Amendment (T...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7515"
+          },
+          {
+            "record_id": "7b152d4caa880327da7c",
+            "title": "Health Legislation Amendment (Improving Choice and...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7434"
+          },
+          {
+            "record_id": "b483e0ab98aaa9be7511",
+            "title": "Customs Amendment (Safeguard Inquiries) Bill 2026",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=s1495"
+          }
+        ],
+        "delta_hash": "04efb6edbc01f185a6315ee15f7f5701f7755886e720888beb69e77cab3f093d"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-ALP-NEWS-20260915074540",
+      "source_change_event_id": "CHG-WATCH-ALP-NEWS-20260915074540",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-ALP-NEWS-20260915074540",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": "AUS-FED-ALP",
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Australian Labor Party — news added 3 structured publication records to its forward-captured official index: More choice, lower costs for one million women 7 September 2026; TAFE at the heart of Australia's future 9 September 2026; Crisis housing for Australians that need it most 4 September 2026",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-09-15T07:46:25.531Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "11a56f0e18a0fd9d8dfa",
+            "title": "More choice, lower costs for one million women 7 September 2026",
+            "url": "https://www.alp.org.au/news/all-news/more-choice-lower-costs-for-one-million-women/"
+          },
+          {
+            "record_id": "12fb1a6a18ea0e8ee833",
+            "title": "TAFE at the heart of Australia's future 9 September 2026",
+            "url": "https://www.alp.org.au/news/all-news/recognising-tafe-at-the-heart-of-australias-future/"
+          },
+          {
+            "record_id": "3431c4f37f7cd72ee3e3",
+            "title": "Crisis housing for Australians that need it most 4 September 2026",
+            "url": "https://www.alp.org.au/news/all-news/crisis-housing-for-australians-that-need-it-most/"
+          }
+        ],
+        "removed_records": [],
+        "delta_hash": "129f5d7a90768abb9c99a478ca82ec23241a1f4d619f223173c03390bb913b3e"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-ONENATION-NEWS-20260915074540",
+      "source_change_event_id": "CHG-WATCH-ONENATION-NEWS-20260915074540",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-ONENATION-NEWS-20260915074540",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": "AUS-FED-ONP",
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Pauline Hanson's One Nation — Latest News added 3 structured publication records to its forward-captured official index: One Nation’s Immigration Plan: Cut 750,000 Temporary Visas and Cap Migration; Pauline Hanson on Indigenous History: Watch the Full Video and Decide for Yourself; NFL Melbourne Welcome to Country Sparks Debate Over ‘Naarm’",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-09-15T07:46:25.531Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "6f2d7017a88759de1052",
+            "title": "One Nation’s Immigration Plan: Cut 750,000 Temporary Visas and Cap Migration",
+            "url": "http://www.onenation.org.au/immigration-radical-reset",
+            "published": "Tue, 15 Sep 2026 15:16:12 +1000"
+          },
+          {
+            "record_id": "9e46665b6c678bf490fb",
+            "title": "Pauline Hanson on Indigenous History: Watch the Full Video and Decide for Yourself",
+            "url": "http://www.onenation.org.au/pauline-history-full-context",
+            "published": "Tue, 15 Sep 2026 13:07:10 +1000"
+          },
+          {
+            "record_id": "d0ba33d256a617ee1873",
+            "title": "NFL Melbourne Welcome to Country Sparks Debate Over ‘Naarm’",
+            "url": "http://www.onenation.org.au/nfl-melbourne-welcome",
+            "published": "Tue, 15 Sep 2026 15:15:00 +1000"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "65f09761e989a3d96099",
+            "title": "One Nation Victoria gets tough on crime",
+            "url": "http://www.onenation.org.au/one-nation-victoria-gets-tough-on-crime",
+            "published": "Thu, 03 Sep 2026 13:52:00 +1000"
+          },
+          {
+            "record_id": "b6475488c9c539858c9f",
+            "title": "Mike Newman Outlines One Nation’s Tough Approach to Crime in NSW",
+            "url": "http://www.onenation.org.au/newman-nsw-crime-plan",
+            "published": "Mon, 07 Sep 2026 10:40:00 +1000"
+          },
+          {
+            "record_id": "f2c09d766dbefc6a2e1c",
+            "title": "One Nation Calls for Bondi Icebergs to Be Protected Amid Land Claim Uncertainty",
+            "url": "http://www.onenation.org.au/bondi-icebergs-land-claim",
+            "published": "Mon, 07 Sep 2026 10:33:00 +1000"
+          }
+        ],
+        "delta_hash": "09fdca4542e4e12f78254d17c7963b36f13a451284aee3e302b020b09b451253"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-NSW-MINISTERIAL-RELEASES-20260915074540",
+      "source_change_event_id": "CHG-WATCH-NSW-MINISTERIAL-RELEASES-20260915074540",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-NSW-MINISTERIAL-RELEASES-20260915074540",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "NSW Government — Ministerial releases added 5 structured publication records to its forward-captured official index: NSW government to double length of aquaculture leases - driving regional growth; NSW leads the nation on accessible government information; Foundations laid for Finley Hospital Redevelopment; Boost to water allocations for farmers in the Murray; Minns Labor Government introducing reforms to strengthen justice system",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-09-15T07:46:25.531Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "34ebd4406f2163e4180b",
+            "title": "NSW government to double length of aquaculture leases - driving regional growth",
+            "url": "https://www.nsw.gov.au/ministerial-releases/nsw-government-to-double-length-of-aquaculture-leases-driving-regional-growth"
+          },
+          {
+            "record_id": "475acf8e76d093acb587",
+            "title": "NSW leads the nation on accessible government information",
+            "url": "https://www.nsw.gov.au/ministerial-releases/nsw-leads-nation-on-accessible-government-information"
+          },
+          {
+            "record_id": "a15bb5de28576017260f",
+            "title": "Foundations laid for Finley Hospital Redevelopment",
+            "url": "https://www.nsw.gov.au/ministerial-releases/foundations-laid-finley-hospital-redevelopment"
+          },
+          {
+            "record_id": "c3b8b41f20a861fffc0f",
+            "title": "Boost to water allocations for farmers in the Murray",
+            "url": "https://www.nsw.gov.au/ministerial-releases/boosted-water-allocations-murray"
+          },
+          {
+            "record_id": "da7fc3f885d2b86d50dc",
+            "title": "Minns Labor Government introducing reforms to strengthen justice system",
+            "url": "https://www.nsw.gov.au/ministerial-releases/minns-labor-government-introducing-reforms-to-strengthen-justice-system"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "08afa8f23244401f4a11",
+            "title": "Bomaderry among 25 new public preschools now accepting enrolment expressions of interest",
+            "url": "https://www.nsw.gov.au/ministerial-releases/bomaderry-among-25-new-public-preschools-now-accepting-enrolment-expressions-of-interest"
+          },
+          {
+            "record_id": "4b612ba679d0499d22fb",
+            "title": "New MRI machine and CT scanner delivered to Eurobodalla Regional Hospital",
+            "url": "https://www.nsw.gov.au/ministerial-releases/new-mri-machine-and-ct-scanner-delivered-to-eurobodalla-regional-hospital"
+          },
+          {
+            "record_id": "90c54d31050a326370c5",
+            "title": "Spring bursts into bloom at Parramatta Park’s iconic flower festival",
+            "url": "https://www.nsw.gov.au/ministerial-releases/spring-bursts-into-bloom-at-parramatta-parks-iconic-flower-festival"
+          },
+          {
+            "record_id": "aa1dbc0b8c5a993cfbea",
+            "title": "Screentime limits in all public schools to lift our game in the classroom",
+            "url": "https://www.nsw.gov.au/ministerial-releases/screentime-limited-from-next-year"
+          },
+          {
+            "record_id": "db50842f5c842bf73a14",
+            "title": "World Sepsis Day highlights new AI tool identifying sepsis quicker than before",
+            "url": "https://www.nsw.gov.au/ministerial-releases/new-ai-tool-identifying-sepsis"
+          }
+        ],
+        "delta_hash": "9964063b4c2187bf2b8c7c017a0f5a2a916e525b80f753623d56691df92630df"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-NSWEC-MEDIA-20260915074540",
+      "source_change_event_id": "CHG-WATCH-NSWEC-MEDIA-20260915074540",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-NSWEC-MEDIA-20260915074540",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "NSW Electoral Commission — news and media releases added 6 structured publication records to its forward-captured official index: The Joint Standing Committee on Electoral Matters; Governance and strategy; Strategy and initiatives; Regulatory priorities; Three-member Electoral Commission; +1 more",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-09-15T07:46:25.531Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "12e59491f5530331ff3b",
+            "title": "The Joint Standing Committee on Electoral Matters",
+            "url": "https://elections.nsw.gov.au/about-us/governance-and-strategy/the-joint-standing-committee-on-electoral-matters"
+          },
+          {
+            "record_id": "b707d5c0e950a220afae",
+            "title": "Governance and strategy",
+            "url": "https://elections.nsw.gov.au/about-us/governance-and-strategy"
+          },
+          {
+            "record_id": "c71e603e1726f225457d",
+            "title": "Strategy and initiatives",
+            "url": "https://elections.nsw.gov.au/about-us/governance-and-strategy/strategy-and-initiatives"
+          },
+          {
+            "record_id": "f3a9600e6a016a20c24f",
+            "title": "Regulatory priorities",
+            "url": "https://elections.nsw.gov.au/about-us/governance-and-strategy/regulatory-priorities"
+          },
+          {
+            "record_id": "f7a1af76135be60ebcd6",
+            "title": "Three-member Electoral Commission",
+            "url": "https://elections.nsw.gov.au/about-us/governance-and-strategy/three-member-electoral-commission"
+          },
+          {
+            "record_id": "f9cee4735c618b36c41f",
+            "title": "Organisational structure",
+            "url": "https://elections.nsw.gov.au/about-us/governance-and-strategy/organisational-structure"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "011770292ffec8326141",
+            "title": "Strategy and initiatives",
+            "url": "https://elections.nsw.gov.au/about-us/governance/strategy-and-initiatives"
+          },
+          {
+            "record_id": "2bf284dbca50b9a54ba5",
+            "title": "Organisational structure",
+            "url": "https://elections.nsw.gov.au/about-us/governance/organisational-structure"
+          },
+          {
+            "record_id": "4e308df819601b76b1ca",
+            "title": "The Joint Standing Committee on Electoral Matters",
+            "url": "https://elections.nsw.gov.au/about-us/governance/the-joint-standing-committee-on-electoral-matters"
+          },
+          {
+            "record_id": "870c11e88ae5537aaad9",
+            "title": "Regulatory priorities",
+            "url": "https://elections.nsw.gov.au/about-us/governance/regulatory-priorities"
+          },
+          {
+            "record_id": "a496b8f10cf4413fcf4b",
+            "title": "Three-member Electoral Commission",
+            "url": "https://elections.nsw.gov.au/about-us/governance/three-member-electoral-commission"
+          },
+          {
+            "record_id": "d667b46149e513028d5a",
+            "title": "Governance",
+            "url": "https://elections.nsw.gov.au/about-us/governance"
+          }
+        ],
+        "delta_hash": "a7ed94991fda7d21335ec3f53a463745d1f4fe745ef41a7dd8b4422aaa47e732"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-VEC-MEDIA-20260915074540",
+      "source_change_event_id": "CHG-WATCH-VEC-MEDIA-20260915074540",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-VEC-MEDIA-20260915074540",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Victorian Electoral Commission — media centre added 2 structured publication records to its forward-captured official index: 15 September 2026 Last chance to enrol for Murrindindi Shire Council by-election Media release details; 15 September 2026 - Last chance to enrol for Murrindindi Shire Council by-election",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-09-15T07:46:25.531Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "74f0175ae0ac8fd63183",
+            "title": "15 September 2026 Last chance to enrol for Murrindindi Shire Council by-election Media release details",
+            "url": "https://www.vec.vic.gov.au/about-us/media/last-chance-to-enrol-for-murrindindi-shire-council-by-election"
+          },
+          {
+            "record_id": "e12d7e6bc8ce451e9662",
+            "title": "15 September 2026 - Last chance to enrol for Murrindindi Shire Council by-election",
+            "url": "https://www.vec.vic.gov.au/about-us/media/last-chance-to-enrol-for-murrindindi-shire-council-by-election"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "17b0e8596839c78120f3",
+            "title": "14 September 2026 Ballot packs mailed for Mornington Peninsula Shire by-election Media release details",
+            "url": "https://www.vec.vic.gov.au/about-us/media/ballot-packs-mailed-for-mornington-peninsula-shire-by-election"
+          }
+        ],
+        "delta_hash": "b7c5bd60505c3aa659def7543635a1713cfa4bb3b5ab222f44a812b41ba102b4"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20260915074540",
+      "source_change_event_id": "CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20260915074540",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20260915074540",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Queensland Government — Ministerial Media Statements added 5 structured publication records to its forward-captured official index: Strongest parole laws in the nation to keep dangerous prisoners behind bars; First of 22 new schools officially named ahead of 2027 school year; Pathway forward delivered for central Queensland town; Thousands more Queenslanders getting skilled for work; Mining lease reforms to streamline approvals and stamp out lawfare",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-09-15T07:46:25.531Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "020a4a088e28cd6b3c2e",
+            "title": "Strongest parole laws in the nation to keep dangerous prisoners behind bars",
+            "url": "https://statements.qld.gov.au/statements/106058"
+          },
+          {
+            "record_id": "14ac196848c8529d89b7",
+            "title": "First of 22 new schools officially named ahead of 2027 school year",
+            "url": "https://statements.qld.gov.au/statements/106054"
+          },
+          {
+            "record_id": "54698c7c52f5f6effd97",
+            "title": "Pathway forward delivered for central Queensland town",
+            "url": "https://statements.qld.gov.au/statements/106053"
+          },
+          {
+            "record_id": "b33556b7155f2d5d81c4",
+            "title": "Thousands more Queenslanders getting skilled for work",
+            "url": "https://statements.qld.gov.au/statements/106057"
+          },
+          {
+            "record_id": "d3736d81b0a3fa81340f",
+            "title": "Mining lease reforms to streamline approvals and stamp out lawfare",
+            "url": "https://statements.qld.gov.au/statements/106056"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "002891c8b7b19390b874",
+            "title": "New roadmap to drive freight, jobs and growth across Queensland",
+            "url": "https://statements.qld.gov.au/statements/106039"
+          },
+          {
+            "record_id": "0c12a86f614d395b610e",
+            "title": "Construction underway on Cressbrook Dam commitment",
+            "url": "https://statements.qld.gov.au/statements/106036"
+          },
+          {
+            "record_id": "256afabe219c58cbf86b",
+            "title": "New technology and safer conditions for Queensland swimmers and whales",
+            "url": "https://statements.qld.gov.au/statements/106038"
+          },
+          {
+            "record_id": "c67afc2505a00568dfac",
+            "title": "Kolonga Bruce Highway intersection upgrades to get the Wide Bay home sooner and safer",
+            "url": "https://statements.qld.gov.au/statements/106037"
+          },
+          {
+            "record_id": "cc3d0c641e667e4ff1d0",
+            "title": "167 new homes fast tracked across North West Queensland",
+            "url": "https://statements.qld.gov.au/statements/106040"
+          }
+        ],
+        "delta_hash": "640c794b793cc41fd38d6c57970e19a5cbd54ce213ff78cc38f88f815633b364"
       },
       "integrity": {
         "source_change_unchanged": true,

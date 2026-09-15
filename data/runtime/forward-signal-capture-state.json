@@ -177,7 +177,7 @@
       "captured_at": "2026-09-10T00:15:42.389Z",
       "acquisition_url": "https://www.parliament.sa.gov.au/",
       "requested_url": "https://www.parliament.sa.gov.au/",
-      "header_profile": "BROWSER_COMPATIBILITY",
+      "header_profile": "IDENTIFIED_AUTOMATION",
       "content_type": "text/html; charset=utf-8",
       "capture_mode": "NORMALISED_PAGE_HASH",
       "captured_representation_complete": true
@@ -478,12 +478,12 @@
       "source_id": "SRC-NSW-CURRENT-BILLS",
       "jurisdiction_id": "AUS-NSW",
       "party_id": null,
-      "content_hash": "72b79d9f4eff6fd2c721094f68bda225d78ae08f71c8d41885efdeed0f29ba0f",
-      "snapshot_id": "AUTO-WATCH-NSW-CURRENT-BILLS-20260909143658",
-      "captured_at": "2026-09-09T14:36:58.358Z",
-      "acquisition_url": "https://www.parliament.nsw.gov.au/parliamentary-business/bills",
-      "requested_url": "https://www.parliament.nsw.gov.au/parliamentary-business/bills",
-      "header_profile": "BROWSER_COMPATIBILITY",
+      "content_hash": "6f4cfcd4d42451c271c9f765a4b3f6480364ac0e45e419b398e0857bc83781bd",
+      "snapshot_id": "AUTO-WATCH-NSW-CURRENT-BILLS-20260915181239",
+      "captured_at": "2026-09-15T18:12:39.472Z",
+      "acquisition_url": "https://www.parliament.nsw.gov.au/parliamentary-business/bills/current-session-bills",
+      "requested_url": "https://www.parliament.nsw.gov.au/parliamentary-business/bills/current-session-bills",
+      "header_profile": "IDENTIFIED_AUTOMATION",
       "content_type": "text/html; charset=utf-8",
       "capture_mode": "PUBLICATION_FEED_HASH",
       "captured_representation_complete": true
@@ -503,21 +503,17 @@
       "captured_representation_complete": true
     }
   },
-  "updated_at": "2026-09-15T13:33:58.279Z",
+  "updated_at": "2026-09-15T18:12:39.472Z",
   "last_run": {
-    "captured_at": "2026-09-15T13:33:58.279Z",
+    "captured_at": "2026-09-15T18:12:39.472Z",
     "baselines_created": 0,
-    "source_changes_created": 3,
+    "source_changes_created": 1,
     "semantic_signals_created": 0,
     "representation_upgrades": 0,
     "failures": [
       {
         "watch_id": "WATCH-NSW-HANSARD",
         "error": "https://www.parliament.nsw.gov.au/parliamentary-business/hansard [IDENTIFIED_AUTOMATION] 403 Forbidden | https://www.parliament.nsw.gov.au/parliamentary-business/hansard [BROWSER_COMPATIBILITY] 403 Forbidden | https://www.parliament.nsw.gov.au/hansard/Pages/home.aspx [IDENTIFIED_AUTOMATION] 403 Forbidden | https://www.parliament.nsw.gov.au/hansard/Pages/home.aspx [BROWSER_COMPATIBILITY] 403 Forbidden"
-      },
-      {
-        "watch_id": "WATCH-NSW-CURRENT-BILLS",
-        "error": "https://www.parliament.nsw.gov.au/parliamentary-business/bills/current-session-bills [IDENTIFIED_AUTOMATION] 403 Forbidden | https://www.parliament.nsw.gov.au/parliamentary-business/bills/current-session-bills [BROWSER_COMPATIBILITY] 403 Forbidden | https://www.parliament.nsw.gov.au/parliamentary-business/bills [IDENTIFIED_AUTOMATION] 403 Forbidden | https://www.parliament.nsw.gov.au/parliamentary-business/bills [BROWSER_COMPATIBILITY] 403 Forbidden"
       },
       {
         "watch_id": "WATCH-ECQ-MEDIA",
@@ -561,7 +557,7 @@
   "coverage": {
     "active_sources": 36,
     "baselines_captured": 36,
-    "current_run_failures": 11,
+    "current_run_failures": 10,
     "jurisdictions": {
       "AUS-FED": {
         "configured_sources": 10,
@@ -578,7 +574,7 @@
       "AUS-NSW": {
         "configured_sources": 4,
         "baseline_sources": 4,
-        "current_run_failures": 2,
+        "current_run_failures": 1,
         "source_classes": [
           "PRIMARY_ELECTORAL_AUTHORITY",
           "PRIMARY_GOVERNMENT",

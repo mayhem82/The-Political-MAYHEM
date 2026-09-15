@@ -49,9 +49,9 @@
       "source_id": "SRC-NSW-MINISTERIAL-RELEASES",
       "jurisdiction_id": "AUS-NSW",
       "party_id": null,
-      "content_hash": "52de3865eec9584443d7703a35d115fe244454f12bd33e2fd50f6dce37dc73d5",
-      "snapshot_id": "AUTO-WATCH-NSW-MINISTERIAL-RELEASES-20260915074540",
-      "captured_at": "2026-09-15T07:45:40.695Z",
+      "content_hash": "182317a34a7b2c88f2904ceaf86db40fd63cbb7dc3dad9caae338c37d3e8620d",
+      "snapshot_id": "AUTO-WATCH-NSW-MINISTERIAL-RELEASES-20260915133358",
+      "captured_at": "2026-09-15T13:33:58.279Z",
       "acquisition_url": "https://www.nsw.gov.au/ministerial-releases",
       "requested_url": "https://www.nsw.gov.au/ministerial-releases",
       "header_profile": "IDENTIFIED_AUTOMATION",
@@ -63,9 +63,9 @@
       "source_id": "SRC-APH-LIVE-MINUTES",
       "jurisdiction_id": "AUS-FED",
       "party_id": null,
-      "content_hash": "ee833ac3d499729422fd2465ee172d329b483c0930fdeaa1754ba76454bf151e",
-      "snapshot_id": "AUTO-WATCH-APH-LIVE-MINUTES-20260915074540",
-      "captured_at": "2026-09-15T07:45:40.695Z",
+      "content_hash": "5b2e88b64cd2bb66c0b8d8569c7f787275aa0367df177bcacd5510676cde4e49",
+      "snapshot_id": "AUTO-WATCH-APH-LIVE-MINUTES-20260915133358",
+      "captured_at": "2026-09-15T13:33:58.279Z",
       "acquisition_url": "https://www.aph.gov.au/LiveMinutes",
       "requested_url": "https://www.aph.gov.au/LiveMinutes",
       "header_profile": "BROWSER_COMPATIBILITY",
@@ -177,7 +177,7 @@
       "captured_at": "2026-09-10T00:15:42.389Z",
       "acquisition_url": "https://www.parliament.sa.gov.au/",
       "requested_url": "https://www.parliament.sa.gov.au/",
-      "header_profile": "IDENTIFIED_AUTOMATION",
+      "header_profile": "BROWSER_COMPATIBILITY",
       "content_type": "text/html; charset=utf-8",
       "capture_mode": "NORMALISED_PAGE_HASH",
       "captured_representation_complete": true
@@ -464,9 +464,9 @@
       "source_id": "SRC-APH-BILLS",
       "jurisdiction_id": "AUS-FED",
       "party_id": null,
-      "content_hash": "d7de7e9db87c61a07a2c4bf2fc53048b600a9d7d209423f4bf7715b360c7e75d",
-      "snapshot_id": "AUTO-WATCH-APH-BILLS-20260915074540",
-      "captured_at": "2026-09-15T07:45:40.695Z",
+      "content_hash": "34dfb8b4f3f41d0e8d64c8d8a1a177ce0387b3e7807f7ce046861faa6acc031d",
+      "snapshot_id": "AUTO-WATCH-APH-BILLS-20260915133358",
+      "captured_at": "2026-09-15T13:33:58.279Z",
       "acquisition_url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation",
       "requested_url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation",
       "header_profile": "BROWSER_COMPATIBILITY",
@@ -503,11 +503,11 @@
       "captured_representation_complete": true
     }
   },
-  "updated_at": "2026-09-15T07:45:40.695Z",
+  "updated_at": "2026-09-15T13:33:58.279Z",
   "last_run": {
-    "captured_at": "2026-09-15T07:45:40.695Z",
+    "captured_at": "2026-09-15T13:33:58.279Z",
     "baselines_created": 0,
-    "source_changes_created": 9,
+    "source_changes_created": 3,
     "semantic_signals_created": 0,
     "representation_upgrades": 0,
     "failures": [
@@ -522,6 +522,10 @@
       {
         "watch_id": "WATCH-ECQ-MEDIA",
         "error": "https://www.ecq.qld.gov.au/media/2026-media-statements [IDENTIFIED_AUTOMATION] 403 Forbidden | https://www.ecq.qld.gov.au/media/2026-media-statements [BROWSER_COMPATIBILITY] 403 Forbidden | https://www.ecq.qld.gov.au/home [IDENTIFIED_AUTOMATION] 403 Forbidden | https://www.ecq.qld.gov.au/home [BROWSER_COMPATIBILITY] 403 Forbidden"
+      },
+      {
+        "watch_id": "WATCH-TAS-HANSARD",
+        "error": "https://search.parliament.tas.gov.au/Search/search/search?IW_FIELD_ADVANCE_PHRASE=2026%20IN%20TITLE&IW_DATABASE=Hansard&IW_SORT=-9&IW_SEARCH_SCOPE=meta [IDENTIFIED_AUTOMATION] 503 Service Unavailable | https://search.parliament.tas.gov.au/Search/search/search?IW_FIELD_ADVANCE_PHRASE=2026%20IN%20TITLE&IW_DATABASE=Hansard&IW_SORT=-9&IW_SEARCH_SCOPE=meta [BROWSER_COMPATIBILITY] 503 Service Unavailable"
       },
       {
         "watch_id": "WATCH-TAS-PREMIER-NEWS",
@@ -557,7 +561,7 @@
   "coverage": {
     "active_sources": 36,
     "baselines_captured": 36,
-    "current_run_failures": 10,
+    "current_run_failures": 11,
     "jurisdictions": {
       "AUS-FED": {
         "configured_sources": 10,
@@ -629,7 +633,7 @@
       "AUS-TAS": {
         "configured_sources": 3,
         "baseline_sources": 3,
-        "current_run_failures": 1,
+        "current_run_failures": 2,
         "source_classes": [
           "PRIMARY_ELECTORAL_AUTHORITY",
           "PRIMARY_GOVERNMENT",

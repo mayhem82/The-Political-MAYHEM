@@ -69,63 +69,63 @@
     {
       "jurisdiction_id": "AUS-FED",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-15T07:46:39.006Z",
-      "signals_examined": 136,
-      "candidates_detected": 70
+      "last_screened_at": "2026-09-15T13:35:17.725Z",
+      "signals_examined": 141,
+      "candidates_detected": 74
     },
     {
       "jurisdiction_id": "AUS-NSW",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-15T07:46:39.006Z",
-      "signals_examined": 44,
+      "last_screened_at": "2026-09-15T13:35:17.725Z",
+      "signals_examined": 45,
       "candidates_detected": 8
     },
     {
       "jurisdiction_id": "AUS-VIC",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-15T07:46:39.006Z",
+      "last_screened_at": "2026-09-15T13:35:17.725Z",
       "signals_examined": 11,
       "candidates_detected": 4
     },
     {
       "jurisdiction_id": "AUS-QLD",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-15T07:46:39.006Z",
+      "last_screened_at": "2026-09-15T13:35:17.725Z",
       "signals_examined": 20,
       "candidates_detected": 43
     },
     {
       "jurisdiction_id": "AUS-WA",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-15T07:46:39.006Z",
+      "last_screened_at": "2026-09-15T13:35:17.725Z",
       "signals_examined": 3,
       "candidates_detected": 2
     },
     {
       "jurisdiction_id": "AUS-SA",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-15T07:46:39.006Z",
+      "last_screened_at": "2026-09-15T13:35:17.725Z",
       "signals_examined": 1,
       "candidates_detected": 0
     },
     {
       "jurisdiction_id": "AUS-TAS",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-15T07:46:39.006Z",
+      "last_screened_at": "2026-09-15T13:35:17.725Z",
       "signals_examined": 20,
       "candidates_detected": 0
     },
     {
       "jurisdiction_id": "AUS-ACT",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-15T07:46:39.006Z",
+      "last_screened_at": "2026-09-15T13:35:17.725Z",
       "signals_examined": 24,
       "candidates_detected": 1
     },
     {
       "jurisdiction_id": "AUS-NT",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-15T07:46:39.006Z",
+      "last_screened_at": "2026-09-15T13:35:17.725Z",
       "signals_examined": 31,
       "candidates_detected": 0
     }
@@ -3523,15 +3523,18 @@
       "detected_at": "2026-09-10T04:51:45.344Z",
       "source_snapshot_ids": [
         "AUTO-WATCH-APH-BILLS-20260910045050",
-        "AUTO-WATCH-APH-BILLS-20260914061817"
+        "AUTO-WATCH-APH-BILLS-20260914061817",
+        "AUTO-WATCH-APH-BILLS-20260915133358"
       ],
       "signal_event_ids": [
         "SIG-REV-CHG-WATCH-APH-BILLS-20260910045050",
-        "SIG-REV-CHG-WATCH-APH-BILLS-20260914061817"
+        "SIG-REV-CHG-WATCH-APH-BILLS-20260914061817",
+        "SIG-REV-CHG-WATCH-APH-BILLS-20260915133358"
       ],
       "review_ids": [
         "REV-CHG-WATCH-APH-BILLS-20260910045050",
-        "REV-CHG-WATCH-APH-BILLS-20260914061817"
+        "REV-CHG-WATCH-APH-BILLS-20260914061817",
+        "REV-CHG-WATCH-APH-BILLS-20260915133358"
       ],
       "area_evidence_ids": [],
       "detail_version_ids": [],
@@ -4433,13 +4436,16 @@
       "candidate_state": "REVIEW_REQUIRED",
       "detected_at": "2026-09-14T14:04:32.317Z",
       "source_snapshot_ids": [
-        "AUTO-WATCH-APH-BILLS-20260914140350"
+        "AUTO-WATCH-APH-BILLS-20260914140350",
+        "AUTO-WATCH-APH-BILLS-20260915133358"
       ],
       "signal_event_ids": [
-        "SIG-REV-CHG-WATCH-APH-BILLS-20260914140350"
+        "SIG-REV-CHG-WATCH-APH-BILLS-20260914140350",
+        "SIG-REV-CHG-WATCH-APH-BILLS-20260915133358"
       ],
       "review_ids": [
-        "REV-CHG-WATCH-APH-BILLS-20260914140350"
+        "REV-CHG-WATCH-APH-BILLS-20260914140350",
+        "REV-CHG-WATCH-APH-BILLS-20260915133358"
       ],
       "area_evidence_ids": [],
       "detail_version_ids": [],
@@ -5351,21 +5357,181 @@
           "reason": "SUBSTANTIVE_THRESHOLD_EVALUATION_PROPAGATED"
         }
       ]
+    },
+    {
+      "candidate_id": "DISC-FED-LEGISLATION-b3d6c9b108ab89a8",
+      "jurisdiction_id": "AUS-FED",
+      "competition_family": "LEGISLATION",
+      "proposed_competition_class": "LEGISLATIVE",
+      "proposed_cycle_id": "AUS-FED-48TH-PARLIAMENT",
+      "subject": "Ingested substantive legislative evidence from Military Rehabilitation and Compensation Amendment (Veterans&rsquo; Allied Health Care) Bill 2026 &ndash; Parliament of Australia. Captured content includes stage: Introduced; resistance language: Amendment; outcome language: passed. Registration thresh",
+      "candidate_state": "EVIDENCE_GAP",
+      "detected_at": "2026-09-15T13:35:17.417Z",
+      "source_snapshot_ids": [
+        "AUTO-WATCH-APH-BILLS-20260915074540"
+      ],
+      "signal_event_ids": [
+        "INTEL-AREA-42ed4b0979d1e08e428db98b"
+      ],
+      "review_ids": [],
+      "area_evidence_ids": [
+        "AREA-42ed4b0979d1e08e428db98b"
+      ],
+      "detail_version_ids": [
+        "DETAIL-79b8927229ede5a8d55682d6-V1"
+      ],
+      "evidence_summary": "Substantive source record body was acquired, routed to LEGISLATIVE, and written into intelligence with retained detail, source-snapshot and stage-10 threshold lineage. Match registration remains a separate action.",
+      "registration_blockers": [
+        "MISSING_CONDITION_DISTINCT_SUPPORTING_AND_OPPOSING_SIDES",
+        "MISSING_FACT_TYPE_EXPLICIT_OPPOSITION_POSITION",
+        "MISSING_FACT_TYPE_EXPLICIT_SUPPORT_POSITION",
+        "MISSING_FACT_TYPE_MATERIAL_RESISTANCE"
+      ],
+      "linked_contest_id": null,
+      "state_history": [
+        {
+          "from": null,
+          "to": "EVIDENCE_GAP",
+          "at": "2026-09-15T13:35:17.417Z",
+          "reason": "SUBSTANTIVE_THRESHOLD_EVALUATION_PROPAGATED"
+        }
+      ]
+    },
+    {
+      "candidate_id": "DISC-FED-BUDGET-d3b2943609dd29f5",
+      "jurisdiction_id": "AUS-FED",
+      "competition_family": "BUDGET",
+      "proposed_competition_class": "BUDGET",
+      "proposed_cycle_id": "AUS-FED-48TH-PARLIAMENT",
+      "subject": "Ingested substantive budget evidence from Military Rehabilitation and Compensation Amendment (Veterans&rsquo; Allied Health Care) Bill 2026 &ndash; Parliament of Australia. Captured content includes stage: Introduced; resistance language: Amendment; outcome language: passed. Registration threshold s",
+      "candidate_state": "EVIDENCE_GAP",
+      "detected_at": "2026-09-15T13:35:17.417Z",
+      "source_snapshot_ids": [
+        "AUTO-WATCH-APH-BILLS-20260915074540"
+      ],
+      "signal_event_ids": [
+        "INTEL-AREA-95f7715fe24fb4ee0a00b146"
+      ],
+      "review_ids": [],
+      "area_evidence_ids": [
+        "AREA-95f7715fe24fb4ee0a00b146"
+      ],
+      "detail_version_ids": [
+        "DETAIL-79b8927229ede5a8d55682d6-V1"
+      ],
+      "evidence_summary": "Substantive source record body was acquired, routed to BUDGET, and written into intelligence with retained detail, source-snapshot and stage-10 threshold lineage. Match registration remains a separate action.",
+      "registration_blockers": [
+        "MISSING_CONDITION_DISTINCT_SUPPORTING_AND_OPPOSING_SIDES",
+        "MISSING_FACT_TYPE_CONTEST_OBJECT",
+        "MISSING_FACT_TYPE_EXPLICIT_OPPOSITION_POSITION",
+        "MISSING_FACT_TYPE_EXPLICIT_SUPPORT_POSITION",
+        "MISSING_FACT_TYPE_MATERIAL_RESISTANCE",
+        "MISSING_FACT_TYPE_OBJECTIVE"
+      ],
+      "linked_contest_id": null,
+      "state_history": [
+        {
+          "from": null,
+          "to": "EVIDENCE_GAP",
+          "at": "2026-09-15T13:35:17.417Z",
+          "reason": "SUBSTANTIVE_THRESHOLD_EVALUATION_PROPAGATED"
+        }
+      ]
+    },
+    {
+      "candidate_id": "DISC-FED-LEGISLATION-56898696241c106c",
+      "jurisdiction_id": "AUS-FED",
+      "competition_family": "LEGISLATION",
+      "proposed_competition_class": "LEGISLATIVE",
+      "proposed_cycle_id": "AUS-FED-48TH-PARLIAMENT",
+      "subject": "Ingested substantive legislative evidence from Military Rehabilitation and Compensation Amendment (Veterans&rsquo; Healthcare Without Caps) Bill 2026 &ndash; Parliament of Australia. Captured content includes stage: Introduced; resistance language: Amendment; outcome language: passed. Registration t",
+      "candidate_state": "EVIDENCE_GAP",
+      "detected_at": "2026-09-15T13:35:17.417Z",
+      "source_snapshot_ids": [
+        "AUTO-WATCH-APH-BILLS-20260915074540"
+      ],
+      "signal_event_ids": [
+        "INTEL-AREA-cccb18baca6d0b83e462e4c9"
+      ],
+      "review_ids": [],
+      "area_evidence_ids": [
+        "AREA-cccb18baca6d0b83e462e4c9"
+      ],
+      "detail_version_ids": [
+        "DETAIL-49bbc0677b96f0be004f1262-V1"
+      ],
+      "evidence_summary": "Substantive source record body was acquired, routed to LEGISLATIVE, and written into intelligence with retained detail, source-snapshot and stage-10 threshold lineage. Match registration remains a separate action.",
+      "registration_blockers": [
+        "MISSING_CONDITION_DISTINCT_SUPPORTING_AND_OPPOSING_SIDES",
+        "MISSING_FACT_TYPE_EXPLICIT_OPPOSITION_POSITION",
+        "MISSING_FACT_TYPE_EXPLICIT_SUPPORT_POSITION",
+        "MISSING_FACT_TYPE_MATERIAL_RESISTANCE"
+      ],
+      "linked_contest_id": null,
+      "state_history": [
+        {
+          "from": null,
+          "to": "EVIDENCE_GAP",
+          "at": "2026-09-15T13:35:17.417Z",
+          "reason": "SUBSTANTIVE_THRESHOLD_EVALUATION_PROPAGATED"
+        }
+      ]
+    },
+    {
+      "candidate_id": "DISC-FED-BUDGET-a9e4566faa8f95bb",
+      "jurisdiction_id": "AUS-FED",
+      "competition_family": "BUDGET",
+      "proposed_competition_class": "BUDGET",
+      "proposed_cycle_id": "AUS-FED-48TH-PARLIAMENT",
+      "subject": "Ingested substantive budget evidence from Military Rehabilitation and Compensation Amendment (Veterans&rsquo; Healthcare Without Caps) Bill 2026 &ndash; Parliament of Australia. Captured content includes stage: Introduced; resistance language: Amendment; outcome language: passed. Registration thresh",
+      "candidate_state": "EVIDENCE_GAP",
+      "detected_at": "2026-09-15T13:35:17.417Z",
+      "source_snapshot_ids": [
+        "AUTO-WATCH-APH-BILLS-20260915074540"
+      ],
+      "signal_event_ids": [
+        "INTEL-AREA-ca3b95d606ba303aaf08f442"
+      ],
+      "review_ids": [],
+      "area_evidence_ids": [
+        "AREA-ca3b95d606ba303aaf08f442"
+      ],
+      "detail_version_ids": [
+        "DETAIL-49bbc0677b96f0be004f1262-V1"
+      ],
+      "evidence_summary": "Substantive source record body was acquired, routed to BUDGET, and written into intelligence with retained detail, source-snapshot and stage-10 threshold lineage. Match registration remains a separate action.",
+      "registration_blockers": [
+        "MISSING_CONDITION_DISTINCT_SUPPORTING_AND_OPPOSING_SIDES",
+        "MISSING_FACT_TYPE_CONTEST_OBJECT",
+        "MISSING_FACT_TYPE_EXPLICIT_OPPOSITION_POSITION",
+        "MISSING_FACT_TYPE_EXPLICIT_SUPPORT_POSITION",
+        "MISSING_FACT_TYPE_MATERIAL_RESISTANCE",
+        "MISSING_FACT_TYPE_OBJECTIVE"
+      ],
+      "linked_contest_id": null,
+      "state_history": [
+        {
+          "from": null,
+          "to": "EVIDENCE_GAP",
+          "at": "2026-09-15T13:35:17.417Z",
+          "reason": "SUBSTANTIVE_THRESHOLD_EVALUATION_PROPAGATED"
+        }
+      ]
     }
   ],
-  "last_screened_at": "2026-09-15T07:46:39.006Z",
+  "last_screened_at": "2026-09-15T13:35:17.725Z",
   "last_screen_summary": {
-    "signals_examined": 290,
-    "candidates_total": 128,
-    "candidates_added": 11,
-    "candidate_lineage_merges": 294,
-    "substantive_area_events_examined": 88,
+    "signals_examined": 296,
+    "candidates_total": 132,
+    "candidates_added": 4,
+    "candidate_lineage_merges": 307,
+    "substantive_area_events_examined": 92,
     "threshold_state_transitions": 0,
     "registered_contests_unchanged": true
   },
-  "last_duplicate_reconciliation_at": "2026-09-15T07:46:39.092Z",
+  "last_duplicate_reconciliation_at": "2026-09-15T13:35:17.819Z",
   "last_duplicate_reconciliation": {
     "rejected": 0,
-    "active_area_family_keys": 87
+    "active_area_family_keys": 91
   }
 }

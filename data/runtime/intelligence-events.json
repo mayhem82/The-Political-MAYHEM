@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-INTELLIGENCE-EVENTS-001",
   "scope": "Australia — multi-jurisdiction",
-  "captured_at": "2026-09-15T07:46:38.705Z",
+  "captured_at": "2026-09-15T13:35:17.417Z",
   "mode": "FORWARD_ONLY",
   "rules": {
     "observation_distinct_from_inference": true,
@@ -73225,6 +73225,660 @@
       "opposing_entities": [],
       "registration_action": "NO_AUTOMATIC_REGISTRATION",
       "intelligence_signature": "fce14d63b64bf62ef4cc4fe86f2b32527c7f96fb5a7dd00e7451d0fa381491c2",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "substantive_detail_lineage_required": true,
+        "active_contest_fact_lineage_required": true,
+        "threshold_evaluation_lineage_required": true,
+        "routing_does_not_register_match": true,
+        "threshold_eligibility_does_not_register_match": true,
+        "entity_mentions_do_not_establish_positions": true,
+        "retracted_facts_excluded": true,
+        "no_projection_effect_without_registered_target": true
+      }
+    },
+    {
+      "event_id": "CHG-WATCH-APH-LIVE-MINUTES-20260915133358",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-FED",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-APH-LIVE-MINUTES-20260915133358",
+      "captured_at": "2026-09-15T13:33:58.279Z",
+      "event_date": "2026-09-15",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_PARLIAMENT",
+      "source_id": "SRC-APH-LIVE-MINUTES",
+      "capture_mode": "NORMALISED_PAGE_HASH",
+      "review_policy": "REVIEW_UNSTRUCTURED_CHANGE",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-APH-LIVE-MINUTES-20260915074540",
+        "content_hash": "ee833ac3d499729422fd2465ee172d329b483c0930fdeaa1754ba76454bf151e",
+        "capture_mode": "NORMALISED_PAGE_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-APH-LIVE-MINUTES-20260915133358",
+        "content_hash": "5b2e88b64cd2bb66c0b8d8569c7f787275aa0367df177bcacd5510676cde4e49",
+        "capture_mode": "NORMALISED_PAGE_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "TEXT_REPRESENTATION",
+        "first_difference_offset": 10954,
+        "before_length": 14876,
+        "after_length": 18716,
+        "before_excerpt": "of managed deliveries by the Australian Border Force under section 233 — Report for 2025-26. Migration Act 1958— Report on r egional processing arrangements in Nao e ro under section 198AJ — Report for 2025-26. - <TIME> 11 DISCUSSION OF MATTER OF PUBLIC IMPORTANCE— Energy policy The House was informed that Mr Tehan ( Manager of Opposition Business ) had proposed that a definite matter of public importance be submitted to the House for discussion, namely, “ The Government’s failing energy policies crippling industry and households ”. - <TIME> The proposed discussion having received the necessary support— - <TIME> Mr Tehan addressed the House. - <TIME> Discussion ensued. Ms Thwaites , <TIME>. Mr Venning , <TIME>. Point of order, Mr Gregg . <TIME>. Mr Venning , <TIME>. Mr Gosling , <TIME>. Dr Webster , <TIME>. Ms Coffey , <TIME>. Mr Pasin , <TIME>. Ms Witty , <TIME>. Mr Birrell , <TIME>. Mr French , <TIME>. - <TIME> Discussion concluded. - <TIME> 12 MESSAGE FROM THE SENATE Message No. 177 , 15 September 2026 , from the Senate was reported returning the Wage Justice for Early Childhood Education and Care Workers (Special Account) (Extending Support and Strengthening Safety) Bill 2026 without amendment. - <TIME> 13 MESSAGE FROM THE GOVERNOR-GENERAL—ASSENT TO BILLS A message from H er Excellency the Governor-General was announced informing the House that H er Excellency, in the name of H is Majesty, had assented to the following bills: 15 September 2026 —Message No. 95 — - <TIME> Biosecurity Amendment (Improving Operational Efficiency) 2026 . - <TIME> Wine and Other Legislation Amendment 2026 . - <TIME> Treasury Laws Amendment (Strengthening Accountability for Tax Adviser Misconduct and Other Measures) 2026 . - <TIME> 14 Knox Class Action (Facilitation) Bill 2026 The order of the day having been read for the resumption of the debate on the question—That the bill be now read a second time— Debate resumed. Mrs McIntosh , <TIME>. Mr Dreyfus , <TIME>. Dr M Ryan , <TIME>. Ms Ambihaipahar , <TIME>. Ms Clutterham , <TIME>. Ms Witty , <TIME>. Mr Holzberger , <TIME>. - <TIME> Ms Roberts presented a copy of her speech for incorporation in Hansard, in accordance with the resolution agreed to on 6 November 2025 . - <TIME> Debate continued. Ms Coffey , <TIME>. In this section Bills and Legislation Tabled documents Chamber documents Work of the Senate House of Representatives ch",
+        "after_excerpt": "of managed deliveries by the Australian Border Force under section 233 — Report for 2025-26. Migration Act 1958— Report about r egional processing arrangements in Nao e ro under section 198AJ — Report for 2025-26. - <TIME> 11 DISCUSSION OF MATTER OF PUBLIC IMPORTANCE— Energy policy The House was informed that Mr Tehan ( Manager of Opposition Business ) had proposed that a definite matter of public importance be submitted to the House for discussion, namely, “ The Government’s failing energy policies crippling industry and households ”. - <TIME> The proposed discussion having received the necessary support— - <TIME> Mr Tehan addressed the House. - <TIME> Discussion ensued. Ms Thwaites , <TIME>. Mr Venning , <TIME>. Point of order, Mr Gregg . <TIME>. Mr Venning , <TIME>. Mr Gosling , <TIME>. Dr Webster , <TIME>. Ms Coffey , <TIME>. Mr Pasin , <TIME>. Ms Witty , <TIME>. Mr Birrell , <TIME>. Mr French , <TIME>. - <TIME> Discussion concluded. - <TIME> 12 MESSAGE FROM THE SENATE Message No. 177 , 15 September 2026 , from the Senate was reported returning the Wage Justice for Early Childhood Education and Care Workers (Special Account) (Extending Support and Strengthening Safety) Bill 2026 without amendment. - <TIME> 13 MESSAGE FROM THE GOVERNOR-GENERAL—ASSENT TO BILLS A message from H er Excellency the Governor-General was announced informing the House that H er Excellency, in the name of H is Majesty, had assented to the following bills: 15 September 2026 —Message No. 95 — - <TIME> Biosecurity Amendment (Improving Operational Efficiency) 2026 . - <TIME> Wine and Other Legislation Amendment 2026 . - <TIME> Treasury Laws Amendment (Strengthening Accountability for Tax Adviser Misconduct and Other Measures) 2026 . - <TIME> 14 Knox Class Action (Facilitation) Bill 2026 The order of the day having been read for the resumption of the debate on the question—That the bill be now read a second time— Debate resumed. Mrs McIntosh , <TIME>. Mr Dreyfus , <TIME>. Dr M Ryan , <TIME>. Ms Ambihaipahar , <TIME>. Ms Clutterham , <TIME>. Ms Witty , <TIME>. Mr Holzberger , <TIME>. - <TIME> Ms Roberts presented a copy of her speech for incorporation in Hansard, in accordance with the resolution agreed to on 6 November 2025 . - <TIME> Debate continued. Ms Coffey , <TIME>. Ms Plibersek , <TIME>. - <TIME> Question—put and passed—bill read a second time. - <TIME> Message from the Governor-General Message No. 96 , 6 September 2026 , from Her Excellency the Governor-General was announced recommending an appropriation for the purposes of the bill. - <TIME> Leave granted for third reading to be moved immediately. On the motion of Ms Plibersek ( Minister for Social Services ) , the bill was read a third time. - <TIME> 15 Private Health Insurance Amendment (Modernising the Private Health Insurance Rebate) Bill 2026 The order of the day having been read for the resumption of the debate on the question—That the bill be now read a second time— - <TIME> Debate resumed by Dr M Ryan who moved, as an amendment— That all words after “That” be omitted with a view to substituting the following words: “the House declines to give the bill a second reading and: (1) notes that the Government developed this reform without adequate consultation with industry or state and territory governments and has failed to publish its full net fiscal impact, including the cost of increased demand on public hospitals and the potential impact of downgrades to private health insurance cover; and (2) calls on the Government to: (a) publish the net fiscal impact of this measure, including forgone Medicare Levy Surcharge revenue and the projected cost shift to state and territory public hospital systems, rather than relying solely on the gross $2.994 billion rebate headline saving; and (b) exempt Age Pension recipients from the removal of the age-based rebate uplift, noting the Parliamentary Budget Office’s budget analysis that Age Pension recipients will account for $1.563 billion, or around half, of the $2.994 billion in projected savings to 2029-30”. Debate ensued. Ms McKenzie , <TIME>. Mr Rebello , <TIME>. Point of order, Mr Pasin . <TIME>. Mr Rebello , <TIME>. Point of order, Mr Hill . <TIME>. Mr Rebello , <TIME>. Mr T Wilson , <TIME>. Mr R Wilson , <TIME>. Mr Tehan , <TIME>. Mr Pasin , <TIME>. - <TIME> Ms Price addressing the House— - <TIME> 16 ADJOURNMENT It being 7.30 pm —The question was proposed—That the House do now adjourn. Debate ensued. Mr Gee , <TIME>. Dr Freelander , <TIME>. Mr Rebello , <TIME>. Ms France , <TIME>. Mr Small , <TIME>. Ms Fernando , <TIME>. - <TIME> The House continuing to sit until 8 pm —The Speaker adjourned the House until 9 am tomorrow. - <TIME> DOCUMENT S The following document s were deemed to have been presented on 15 September 2026 (An explanatory statement has been presented with each instrument unless otherwise indicated by an asterisk) : Australian Securities and Investments Commission Act 2001, Corporations Act 2001, National Consumer Credit Protection Act 2009 and National Consumer Credit Protection (Transitional and Consequential Provisions) Act 2009— ASIC Corporations (Repeal) Instrument 2026/329 [F2026L01210]. Biosecurity Act 2015— Biosecurity (Suspended Goods—Pomelos from Vietnam) Determination 2026 [F2026L01219]. Corporations Act 2001— ASIC Corporations (Amendment) Instrument 2026/685 [F2026L01207]. ASIC Corporations (Exchange-Traded Derivatives: Multiple Issuers) Instrument 2026/682 [F2026L01204]. ASIC Corporations (Securities: NZCDC Legal Title Transfer System) Instrument 2026/683 [F2026L01205]. ASIC Corporations (Transfer of Division 3 Securities) Instrument 2026/684 [F2026L01206]. Offshore Petroleum and Greenhouse Gas Storage Act 2006— Offshore Petroleum and Greenhouse Gas Storage (Resource Management and Administration) Amendment (Release of Documentary Information) Regulations 2025 [F2025L01449]—Replacement explanatory statement. - <TIME> ATTENDANCE All Members attended (at some time during the sitting) except Ms Boele , Mr Conaghan , * Ms Doyle , Mr Joyce , * Ms Swanson , Mr Watts , Mr J Wilson and * Mr Young . * On leave In this section Bills and Legislation Tabled documents Chamber documents Work of the Senate House of Representatives ch",
+        "delta_hash": "bdb82a2a19d5607b80f8ec92ce5f12d91d1d70ba4248784d0b720434ca0025e0"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-APH-BILLS-20260915133358",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-FED",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-APH-BILLS-20260915133358",
+      "captured_at": "2026-09-15T13:33:58.279Z",
+      "event_date": "2026-09-15",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_PARLIAMENT",
+      "source_id": "SRC-APH-BILLS",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "review_policy": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-APH-BILLS-20260915074540",
+        "content_hash": "d7de7e9db87c61a07a2c4bf2fc53048b600a9d7d209423f4bf7715b360c7e75d",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-APH-BILLS-20260915133358",
+        "content_hash": "34dfb8b4f3f41d0e8d64c8d8a1a177ce0387b3e7807f7ce046861faa6acc031d",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "STRUCTURED_RECORD_SET",
+        "records_added": [
+          {
+            "record_id": "7b152d4caa880327da7c",
+            "title": "Health Legislation Amendment (Improving Choice and...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7434"
+          },
+          {
+            "record_id": "ba16f1a261ed547f15f0",
+            "title": "Universities Accord (Opening the Doors of Opportun...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7501"
+          },
+          {
+            "record_id": "eb8ff799ba2da88b25af",
+            "title": "Private Health Insurance Amendment (Modernising th...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7497"
+          }
+        ],
+        "records_removed": [
+          {
+            "record_id": "096ce2ee4da01b7fc07c",
+            "title": "Military Rehabilitation and Compensation Amendment...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=s1518"
+          },
+          {
+            "record_id": "184b23d4f60096991092",
+            "title": "Military Rehabilitation and Compensation Amendment...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=s1515"
+          },
+          {
+            "record_id": "8e3a5485213b1e13fb36",
+            "title": "Red Lines Package Omnibus Bill 2026 [No. 2]",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=s1517"
+          }
+        ],
+        "added_count": 3,
+        "removed_count": 3,
+        "before_count": 96,
+        "after_count": 96,
+        "delta_hash": "0914fd6e09639c75a0469f234276b808af80023e323a314f6027ae0a94f6e9f6"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-NSW-MINISTERIAL-RELEASES-20260915133358",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-NSW",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-NSW-MINISTERIAL-RELEASES-20260915133358",
+      "captured_at": "2026-09-15T13:33:58.279Z",
+      "event_date": "2026-09-15",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-NSW-MINISTERIAL-RELEASES",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "review_policy": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-NSW-MINISTERIAL-RELEASES-20260915074540",
+        "content_hash": "52de3865eec9584443d7703a35d115fe244454f12bd33e2fd50f6dce37dc73d5",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-NSW-MINISTERIAL-RELEASES-20260915133358",
+        "content_hash": "182317a34a7b2c88f2904ceaf86db40fd63cbb7dc3dad9caae338c37d3e8620d",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "STRUCTURED_RECORD_SET",
+        "records_added": [
+          {
+            "record_id": "90c54d31050a326370c5",
+            "title": "Spring bursts into bloom at Parramatta Park’s iconic flower festival",
+            "url": "https://www.nsw.gov.au/ministerial-releases/spring-bursts-into-bloom-at-parramatta-parks-iconic-flower-festival"
+          }
+        ],
+        "records_removed": [
+          {
+            "record_id": "8fb60018f68695c9bb16",
+            "title": "New $14 million partnership to boost drought resilience in Australian cropping systems",
+            "url": "https://www.nsw.gov.au/ministerial-releases/new-14-million-partnership-to-boost-drought-resilience-australian-cropping-systems"
+          }
+        ],
+        "added_count": 1,
+        "removed_count": 1,
+        "before_count": 88,
+        "after_count": 88,
+        "delta_hash": "9541f3f87e92a5d64f6a7dfeab424fc491c76a8ab8bcef390493a76627529e6a"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "SIG-REV-CHG-WATCH-APH-BILLS-20260915133358",
+      "parent_event_id": "CHG-WATCH-APH-BILLS-20260915133358",
+      "review_id": "REV-CHG-WATCH-APH-BILLS-20260915133358",
+      "jurisdiction_id": "AUS-FED",
+      "party_id": null,
+      "actor_id": null,
+      "contest_id": null,
+      "cycle_id": null,
+      "source_snapshot_id": "AUTO-WATCH-APH-BILLS-20260915133358",
+      "record_id": null,
+      "captured_at": "2026-09-15T13:35:03.911Z",
+      "event_date": "2026-09-15",
+      "checkpoint": "CONTINUOUS_FORWARD_SIGNAL_REVIEW",
+      "event_type": "SIGNAL_CREATED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_PARLIAMENT",
+      "source_id": "SRC-APH-BILLS",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "claim": "Parliament of Australia — Bills and Legislation added 3 structured publication records to its forward-captured official index: Health Legislation Amendment (Improving Choice and...; Universities Accord (Opening the Doors of Opportun...; Private Health Insurance Amendment (Modernising th...",
+      "observed_behaviour": "One or more structured publication records appeared in the monitored official source index after the preceding forward snapshot.",
+      "publication_records_added": [
+        {
+          "record_id": "7b152d4caa880327da7c",
+          "title": "Health Legislation Amendment (Improving Choice and...",
+          "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7434"
+        },
+        {
+          "record_id": "ba16f1a261ed547f15f0",
+          "title": "Universities Accord (Opening the Doors of Opportun...",
+          "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7501"
+        },
+        {
+          "record_id": "eb8ff799ba2da88b25af",
+          "title": "Private Health Insurance Amendment (Modernising th...",
+          "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7497"
+        }
+      ],
+      "publication_records_removed": [
+        {
+          "record_id": "096ce2ee4da01b7fc07c",
+          "title": "Military Rehabilitation and Compensation Amendment...",
+          "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=s1518"
+        },
+        {
+          "record_id": "184b23d4f60096991092",
+          "title": "Military Rehabilitation and Compensation Amendment...",
+          "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=s1515"
+        },
+        {
+          "record_id": "8e3a5485213b1e13fb36",
+          "title": "Red Lines Package Omnibus Bill 2026 [No. 2]",
+          "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=s1517"
+        }
+      ],
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "underlying_publication_claims_not_promoted_to_verified_fact": true,
+        "source_change_parent_retained": true,
+        "deterministic_review": true
+      }
+    },
+    {
+      "event_id": "SIG-REV-CHG-WATCH-NSW-MINISTERIAL-RELEASES-20260915133358",
+      "parent_event_id": "CHG-WATCH-NSW-MINISTERIAL-RELEASES-20260915133358",
+      "review_id": "REV-CHG-WATCH-NSW-MINISTERIAL-RELEASES-20260915133358",
+      "jurisdiction_id": "AUS-NSW",
+      "party_id": null,
+      "actor_id": null,
+      "contest_id": null,
+      "cycle_id": null,
+      "source_snapshot_id": "AUTO-WATCH-NSW-MINISTERIAL-RELEASES-20260915133358",
+      "record_id": "90c54d31050a326370c5",
+      "captured_at": "2026-09-15T13:35:03.911Z",
+      "event_date": "2026-09-15",
+      "checkpoint": "CONTINUOUS_FORWARD_SIGNAL_REVIEW",
+      "event_type": "SIGNAL_CREATED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-NSW-MINISTERIAL-RELEASES",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "claim": "NSW Government — Ministerial releases added 1 structured publication record to its forward-captured official index: Spring bursts into bloom at Parramatta Park’s iconic flower festival",
+      "observed_behaviour": "One or more structured publication records appeared in the monitored official source index after the preceding forward snapshot.",
+      "publication_records_added": [
+        {
+          "record_id": "90c54d31050a326370c5",
+          "title": "Spring bursts into bloom at Parramatta Park’s iconic flower festival",
+          "url": "https://www.nsw.gov.au/ministerial-releases/spring-bursts-into-bloom-at-parramatta-parks-iconic-flower-festival"
+        }
+      ],
+      "publication_records_removed": [
+        {
+          "record_id": "8fb60018f68695c9bb16",
+          "title": "New $14 million partnership to boost drought resilience in Australian cropping systems",
+          "url": "https://www.nsw.gov.au/ministerial-releases/new-14-million-partnership-to-boost-drought-resilience-australian-cropping-systems"
+        }
+      ],
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "underlying_publication_claims_not_promoted_to_verified_fact": true,
+        "source_change_parent_retained": true,
+        "deterministic_review": true
+      }
+    },
+    {
+      "event_id": "INTEL-AREA-42ed4b0979d1e08e428db98b",
+      "parent_event_id": "SIG-REV-CHG-WATCH-APH-BILLS-20260915074540",
+      "jurisdiction_id": "AUS-FED",
+      "party_id": null,
+      "actor_id": null,
+      "party_ids": [],
+      "actor_ids": [],
+      "contest_id": null,
+      "cycle_id": null,
+      "competition_class": "LEGISLATIVE",
+      "area_evidence_id": "AREA-42ed4b0979d1e08e428db98b",
+      "detail_record_id": "DETAIL-79b8927229ede5a8d55682d6",
+      "detail_version_id": "DETAIL-79b8927229ede5a8d55682d6-V1",
+      "source_snapshot_id": "AUTO-WATCH-APH-BILLS-20260915074540",
+      "record_url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=s1515",
+      "captured_at": "2026-09-15T13:35:17.417Z",
+      "evidence_captured_at": "2026-09-15T13:35:12.350Z",
+      "event_date": "2026-09-15",
+      "checkpoint": "SUBSTANTIVE_INFORMATION_INGESTION",
+      "event_type": "AREA_EVIDENCE_INGESTED",
+      "area_routing_state": "SUBSTANTIVE_CONTENT_ROUTED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_PARLIAMENT",
+      "source_id": "SRC-APH-BILLS",
+      "claim": "Ingested substantive legislative evidence from Military Rehabilitation and Compensation Amendment (Veterans&rsquo; Allied Health Care) Bill 2026 &ndash; Parliament of Australia. Captured content includes stage: Introduced; resistance language: Amendment; outcome language: passed. Registration threshold state: evidence gap. Missing requirements: missing fact type material resistance, missing fact type explicit support position, missing fact type explicit opposition position, missing condition distinct supporting and opposing sides.",
+      "observed_behaviour": "Military Rehabilitation and Compensation Amendment (Veterans&rsquo; Allied Health Care) Bill 2026 &ndash; Parliament of Australia Skip to navigation Skip to content Military Rehabilitation and Compensation Amendment (Veterans&rsquo; Allied Health Care) Bill 2026 Type Private Sponsor(s) CADELL, Sen Ross Originating house Senate Status Before Senate Parliament no 48 Track (What's this?) Permalink Progress Senate Introduced and read a first time 15 Sep 2026 Second reading moved 15 Sep 2026 Documents and transcripts Text of bill First reading Explanatory memoranda Explanatory memorandum Transcript of speeches All second reading speeches Private Senator's introductory speech Proposed amendments No proposed amendments have been circulated. Schedules of amendments No documents at present Helpful information Text of bill First reading: Text of the bill as introduced into the Parliament Third reading: Prepared if the bill is amended by the house in which it was introduced. This version of the bill is then considered by the second house. As passed by both houses: Final text of bill agreed to by both the House of Representatives and the Senate which is presented to the Governor-General for assent. Explanatory memoranda Explanatory memorandum: Accompanies and provides an explanation of the content of the introduced version (first reading) of the bill. Supplementary explanatory memorandum: Accompanies and explains amendments proposed by the government to the bill. Revised explanatory memorandum: Accompanies and explains the amended version (third reading) of the bill. It supersedes the explanatory memorandum. Proposed amendments Circulated by members and senators when they propose to make changes to the bill. For details about the outcome of proposed amendments please refer to eithe",
+      "extracted_cues": {
+        "resistance_terms": [
+          "Amendment"
+        ],
+        "stage_terms": [
+          "Introduced"
+        ],
+        "outcome_terms": [
+          "passed"
+        ],
+        "pressure_terms": []
+      },
+      "entity_mentions": {
+        "actors": [],
+        "teams": []
+      },
+      "position_state": "UNRESOLVED",
+      "resistance_state": "RESISTANCE_LANGUAGE_PRESENT",
+      "outcome_state": "OUTCOME_LANGUAGE_PRESENT",
+      "contest_fact_ids": [
+        "FACT-1aa06d3260015269f7a1dd39",
+        "FACT-29b7e4c2de3886b47ce60556",
+        "FACT-35f795f3eb8dac6146a46617",
+        "FACT-5d4e27a72f769d9bf331b0f8",
+        "FACT-743de6335e18e50d4dcf73e9",
+        "FACT-c668a2050212412e801168b8"
+      ],
+      "contest_fact_types": [
+        "AMENDMENT",
+        "CONTEST_OBJECT",
+        "STAGE"
+      ],
+      "threshold_evaluation_id": "THRESH-c29c57659b9de9498c5f620f",
+      "threshold_state": "EVIDENCE_GAP",
+      "threshold_blockers": [
+        "MISSING_CONDITION_DISTINCT_SUPPORTING_AND_OPPOSING_SIDES",
+        "MISSING_FACT_TYPE_EXPLICIT_OPPOSITION_POSITION",
+        "MISSING_FACT_TYPE_EXPLICIT_SUPPORT_POSITION",
+        "MISSING_FACT_TYPE_MATERIAL_RESISTANCE"
+      ],
+      "supporting_entities": [],
+      "opposing_entities": [],
+      "registration_action": "NO_AUTOMATIC_REGISTRATION",
+      "intelligence_signature": "d6234321c0cb2e9e78fb87a843abd4088f985dc37a4953c861a8788bdc4fe0a9",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "substantive_detail_lineage_required": true,
+        "active_contest_fact_lineage_required": true,
+        "threshold_evaluation_lineage_required": true,
+        "routing_does_not_register_match": true,
+        "threshold_eligibility_does_not_register_match": true,
+        "entity_mentions_do_not_establish_positions": true,
+        "retracted_facts_excluded": true,
+        "no_projection_effect_without_registered_target": true
+      }
+    },
+    {
+      "event_id": "INTEL-AREA-95f7715fe24fb4ee0a00b146",
+      "parent_event_id": "SIG-REV-CHG-WATCH-APH-BILLS-20260915074540",
+      "jurisdiction_id": "AUS-FED",
+      "party_id": null,
+      "actor_id": null,
+      "party_ids": [],
+      "actor_ids": [],
+      "contest_id": null,
+      "cycle_id": null,
+      "competition_class": "BUDGET",
+      "area_evidence_id": "AREA-95f7715fe24fb4ee0a00b146",
+      "detail_record_id": "DETAIL-79b8927229ede5a8d55682d6",
+      "detail_version_id": "DETAIL-79b8927229ede5a8d55682d6-V1",
+      "source_snapshot_id": "AUTO-WATCH-APH-BILLS-20260915074540",
+      "record_url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=s1515",
+      "captured_at": "2026-09-15T13:35:17.417Z",
+      "evidence_captured_at": "2026-09-15T13:35:12.350Z",
+      "event_date": "2026-09-15",
+      "checkpoint": "SUBSTANTIVE_INFORMATION_INGESTION",
+      "event_type": "AREA_EVIDENCE_INGESTED",
+      "area_routing_state": "SUBSTANTIVE_CONTENT_ROUTED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_PARLIAMENT",
+      "source_id": "SRC-APH-BILLS",
+      "claim": "Ingested substantive budget evidence from Military Rehabilitation and Compensation Amendment (Veterans&rsquo; Allied Health Care) Bill 2026 &ndash; Parliament of Australia. Captured content includes stage: Introduced; resistance language: Amendment; outcome language: passed. Registration threshold state: evidence gap. Missing requirements: missing fact type contest object, missing fact type objective, missing fact type material resistance, missing fact type explicit support position, missing fact type explicit opposition position, missing condition distinct supporting and opposing sides.",
+      "observed_behaviour": "Military Rehabilitation and Compensation Amendment (Veterans&rsquo; Allied Health Care) Bill 2026 &ndash; Parliament of Australia Skip to navigation Skip to content Military Rehabilitation and Compensation Amendment (Veterans&rsquo; Allied Health Care) Bill 2026 Type Private Sponsor(s) CADELL, Sen Ross Originating house Senate Status Before Senate Parliament no 48 Track (What's this?) Permalink Progress Senate Introduced and read a first time 15 Sep 2026 Second reading moved 15 Sep 2026 Documents and transcripts Text of bill First reading Explanatory memoranda Explanatory memorandum Transcript of speeches All second reading speeches Private Senator's introductory speech Proposed amendments No proposed amendments have been circulated. Schedules of amendments No documents at present Helpful information Text of bill First reading: Text of the bill as introduced into the Parliament Third reading: Prepared if the bill is amended by the house in which it was introduced. This version of the bill is then considered by the second house. As passed by both houses: Final text of bill agreed to by both the House of Representatives and the Senate which is presented to the Governor-General for assent. Explanatory memoranda Explanatory memorandum: Accompanies and provides an explanation of the content of the introduced version (first reading) of the bill. Supplementary explanatory memorandum: Accompanies and explains amendments proposed by the government to the bill. Revised explanatory memorandum: Accompanies and explains the amended version (third reading) of the bill. It supersedes the explanatory memorandum. Proposed amendments Circulated by members and senators when they propose to make changes to the bill. For details about the outcome of proposed amendments please refer to eithe",
+      "extracted_cues": {
+        "resistance_terms": [
+          "Amendment"
+        ],
+        "stage_terms": [
+          "Introduced"
+        ],
+        "outcome_terms": [
+          "passed"
+        ],
+        "pressure_terms": []
+      },
+      "entity_mentions": {
+        "actors": [],
+        "teams": []
+      },
+      "position_state": "UNRESOLVED",
+      "resistance_state": "RESISTANCE_LANGUAGE_PRESENT",
+      "outcome_state": "OUTCOME_LANGUAGE_PRESENT",
+      "contest_fact_ids": [
+        "FACT-7addbc577907cb791c50ea30",
+        "FACT-93afb39209e9d9e2b1355a96"
+      ],
+      "contest_fact_types": [
+        "STAGE"
+      ],
+      "threshold_evaluation_id": "THRESH-9b48e76c3c2eb142f0304408",
+      "threshold_state": "EVIDENCE_GAP",
+      "threshold_blockers": [
+        "MISSING_CONDITION_DISTINCT_SUPPORTING_AND_OPPOSING_SIDES",
+        "MISSING_FACT_TYPE_CONTEST_OBJECT",
+        "MISSING_FACT_TYPE_EXPLICIT_OPPOSITION_POSITION",
+        "MISSING_FACT_TYPE_EXPLICIT_SUPPORT_POSITION",
+        "MISSING_FACT_TYPE_MATERIAL_RESISTANCE",
+        "MISSING_FACT_TYPE_OBJECTIVE"
+      ],
+      "supporting_entities": [],
+      "opposing_entities": [],
+      "registration_action": "NO_AUTOMATIC_REGISTRATION",
+      "intelligence_signature": "4d0af2137b196bdbb86637c3431546c85798c94b54fbc2fd80aaaae2bed450c6",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "substantive_detail_lineage_required": true,
+        "active_contest_fact_lineage_required": true,
+        "threshold_evaluation_lineage_required": true,
+        "routing_does_not_register_match": true,
+        "threshold_eligibility_does_not_register_match": true,
+        "entity_mentions_do_not_establish_positions": true,
+        "retracted_facts_excluded": true,
+        "no_projection_effect_without_registered_target": true
+      }
+    },
+    {
+      "event_id": "INTEL-AREA-cccb18baca6d0b83e462e4c9",
+      "parent_event_id": "SIG-REV-CHG-WATCH-APH-BILLS-20260915074540",
+      "jurisdiction_id": "AUS-FED",
+      "party_id": null,
+      "actor_id": null,
+      "party_ids": [],
+      "actor_ids": [],
+      "contest_id": null,
+      "cycle_id": null,
+      "competition_class": "LEGISLATIVE",
+      "area_evidence_id": "AREA-cccb18baca6d0b83e462e4c9",
+      "detail_record_id": "DETAIL-49bbc0677b96f0be004f1262",
+      "detail_version_id": "DETAIL-49bbc0677b96f0be004f1262-V1",
+      "source_snapshot_id": "AUTO-WATCH-APH-BILLS-20260915074540",
+      "record_url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=s1518",
+      "captured_at": "2026-09-15T13:35:17.417Z",
+      "evidence_captured_at": "2026-09-15T13:35:14.153Z",
+      "event_date": "2026-09-15",
+      "checkpoint": "SUBSTANTIVE_INFORMATION_INGESTION",
+      "event_type": "AREA_EVIDENCE_INGESTED",
+      "area_routing_state": "SUBSTANTIVE_CONTENT_ROUTED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_PARLIAMENT",
+      "source_id": "SRC-APH-BILLS",
+      "claim": "Ingested substantive legislative evidence from Military Rehabilitation and Compensation Amendment (Veterans&rsquo; Healthcare Without Caps) Bill 2026 &ndash; Parliament of Australia. Captured content includes stage: Introduced; resistance language: Amendment; outcome language: passed. Registration threshold state: evidence gap. Missing requirements: missing fact type material resistance, missing fact type explicit support position, missing fact type explicit opposition position, missing condition distinct supporting and opposing sides.",
+      "observed_behaviour": "Military Rehabilitation and Compensation Amendment (Veterans&rsquo; Healthcare Without Caps) Bill 2026 &ndash; Parliament of Australia Skip to navigation Skip to content Military Rehabilitation and Compensation Amendment (Veterans&rsquo; Healthcare Without Caps) Bill 2026 Type Private Sponsor(s) LAMBIE, Sen Jacqui POCOCK, Sen David PAYMAN, Sen Fatima SHOEBRIDGE, Sen David THORPE, Sen Lidia Originating house Senate Status Before Senate Parliament no 48 Track (What's this?) Permalink Progress Senate Introduced and read a first time 15 Sep 2026 Second reading moved 15 Sep 2026 Documents and transcripts Text of bill First reading Explanatory memoranda Explanatory memorandum Transcript of speeches All second reading speeches Private Senator's introductory speech Proposed amendments No proposed amendments have been circulated. Schedules of amendments No documents at present Helpful information Text of bill First reading: Text of the bill as introduced into the Parliament Third reading: Prepared if the bill is amended by the house in which it was introduced. This version of the bill is then considered by the second house. As passed by both houses: Final text of bill agreed to by both the House of Representatives and the Senate which is presented to the Governor-General for assent. Explanatory memoranda Explanatory memorandum: Accompanies and provides an explanation of the content of the introduced version (first reading) of the bill. Supplementary explanatory memorandum: Accompanies and explains amendments proposed by the government to the bill. Revised explanatory memorandum: Accompanies and explains the amended version (third reading) of the bill. It supersedes the explanatory memorandum. Proposed amendments Circulated by members and senators when they propose to make change",
+      "extracted_cues": {
+        "resistance_terms": [
+          "Amendment"
+        ],
+        "stage_terms": [
+          "Introduced"
+        ],
+        "outcome_terms": [
+          "passed"
+        ],
+        "pressure_terms": []
+      },
+      "entity_mentions": {
+        "actors": [],
+        "teams": []
+      },
+      "position_state": "UNRESOLVED",
+      "resistance_state": "RESISTANCE_LANGUAGE_PRESENT",
+      "outcome_state": "OUTCOME_LANGUAGE_PRESENT",
+      "contest_fact_ids": [
+        "FACT-0cc0b2d3d4c35d223fe06f4b",
+        "FACT-33331d813251912a706b848c",
+        "FACT-551e4ebf848b8a8d1370c65c",
+        "FACT-e6e74ce7b6950d6b54a1545d",
+        "FACT-f3d4464af168be606f625488",
+        "FACT-fbc8bf1206e1fe06ff9ab3c7"
+      ],
+      "contest_fact_types": [
+        "AMENDMENT",
+        "CONTEST_OBJECT",
+        "STAGE"
+      ],
+      "threshold_evaluation_id": "THRESH-ca43090dadee1a7fd58d4ae6",
+      "threshold_state": "EVIDENCE_GAP",
+      "threshold_blockers": [
+        "MISSING_CONDITION_DISTINCT_SUPPORTING_AND_OPPOSING_SIDES",
+        "MISSING_FACT_TYPE_EXPLICIT_OPPOSITION_POSITION",
+        "MISSING_FACT_TYPE_EXPLICIT_SUPPORT_POSITION",
+        "MISSING_FACT_TYPE_MATERIAL_RESISTANCE"
+      ],
+      "supporting_entities": [],
+      "opposing_entities": [],
+      "registration_action": "NO_AUTOMATIC_REGISTRATION",
+      "intelligence_signature": "dd7e189e0922a32aaf47877d968794d90e9e2716f3a1a1746dd58b63aa3c3a86",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "substantive_detail_lineage_required": true,
+        "active_contest_fact_lineage_required": true,
+        "threshold_evaluation_lineage_required": true,
+        "routing_does_not_register_match": true,
+        "threshold_eligibility_does_not_register_match": true,
+        "entity_mentions_do_not_establish_positions": true,
+        "retracted_facts_excluded": true,
+        "no_projection_effect_without_registered_target": true
+      }
+    },
+    {
+      "event_id": "INTEL-AREA-ca3b95d606ba303aaf08f442",
+      "parent_event_id": "SIG-REV-CHG-WATCH-APH-BILLS-20260915074540",
+      "jurisdiction_id": "AUS-FED",
+      "party_id": null,
+      "actor_id": null,
+      "party_ids": [],
+      "actor_ids": [],
+      "contest_id": null,
+      "cycle_id": null,
+      "competition_class": "BUDGET",
+      "area_evidence_id": "AREA-ca3b95d606ba303aaf08f442",
+      "detail_record_id": "DETAIL-49bbc0677b96f0be004f1262",
+      "detail_version_id": "DETAIL-49bbc0677b96f0be004f1262-V1",
+      "source_snapshot_id": "AUTO-WATCH-APH-BILLS-20260915074540",
+      "record_url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=s1518",
+      "captured_at": "2026-09-15T13:35:17.417Z",
+      "evidence_captured_at": "2026-09-15T13:35:14.153Z",
+      "event_date": "2026-09-15",
+      "checkpoint": "SUBSTANTIVE_INFORMATION_INGESTION",
+      "event_type": "AREA_EVIDENCE_INGESTED",
+      "area_routing_state": "SUBSTANTIVE_CONTENT_ROUTED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_PARLIAMENT",
+      "source_id": "SRC-APH-BILLS",
+      "claim": "Ingested substantive budget evidence from Military Rehabilitation and Compensation Amendment (Veterans&rsquo; Healthcare Without Caps) Bill 2026 &ndash; Parliament of Australia. Captured content includes stage: Introduced; resistance language: Amendment; outcome language: passed. Registration threshold state: evidence gap. Missing requirements: missing fact type contest object, missing fact type objective, missing fact type material resistance, missing fact type explicit support position, missing fact type explicit opposition position, missing condition distinct supporting and opposing sides.",
+      "observed_behaviour": "Military Rehabilitation and Compensation Amendment (Veterans&rsquo; Healthcare Without Caps) Bill 2026 &ndash; Parliament of Australia Skip to navigation Skip to content Military Rehabilitation and Compensation Amendment (Veterans&rsquo; Healthcare Without Caps) Bill 2026 Type Private Sponsor(s) LAMBIE, Sen Jacqui POCOCK, Sen David PAYMAN, Sen Fatima SHOEBRIDGE, Sen David THORPE, Sen Lidia Originating house Senate Status Before Senate Parliament no 48 Track (What's this?) Permalink Progress Senate Introduced and read a first time 15 Sep 2026 Second reading moved 15 Sep 2026 Documents and transcripts Text of bill First reading Explanatory memoranda Explanatory memorandum Transcript of speeches All second reading speeches Private Senator's introductory speech Proposed amendments No proposed amendments have been circulated. Schedules of amendments No documents at present Helpful information Text of bill First reading: Text of the bill as introduced into the Parliament Third reading: Prepared if the bill is amended by the house in which it was introduced. This version of the bill is then considered by the second house. As passed by both houses: Final text of bill agreed to by both the House of Representatives and the Senate which is presented to the Governor-General for assent. Explanatory memoranda Explanatory memorandum: Accompanies and provides an explanation of the content of the introduced version (first reading) of the bill. Supplementary explanatory memorandum: Accompanies and explains amendments proposed by the government to the bill. Revised explanatory memorandum: Accompanies and explains the amended version (third reading) of the bill. It supersedes the explanatory memorandum. Proposed amendments Circulated by members and senators when they propose to make change",
+      "extracted_cues": {
+        "resistance_terms": [
+          "Amendment"
+        ],
+        "stage_terms": [
+          "Introduced"
+        ],
+        "outcome_terms": [
+          "passed"
+        ],
+        "pressure_terms": []
+      },
+      "entity_mentions": {
+        "actors": [],
+        "teams": []
+      },
+      "position_state": "UNRESOLVED",
+      "resistance_state": "RESISTANCE_LANGUAGE_PRESENT",
+      "outcome_state": "OUTCOME_LANGUAGE_PRESENT",
+      "contest_fact_ids": [
+        "FACT-14c0a146988b0e9d044e5443",
+        "FACT-db44774a54cd3228f9b4717b"
+      ],
+      "contest_fact_types": [
+        "STAGE"
+      ],
+      "threshold_evaluation_id": "THRESH-70004a58b761ece0ebccd41c",
+      "threshold_state": "EVIDENCE_GAP",
+      "threshold_blockers": [
+        "MISSING_CONDITION_DISTINCT_SUPPORTING_AND_OPPOSING_SIDES",
+        "MISSING_FACT_TYPE_CONTEST_OBJECT",
+        "MISSING_FACT_TYPE_EXPLICIT_OPPOSITION_POSITION",
+        "MISSING_FACT_TYPE_EXPLICIT_SUPPORT_POSITION",
+        "MISSING_FACT_TYPE_MATERIAL_RESISTANCE",
+        "MISSING_FACT_TYPE_OBJECTIVE"
+      ],
+      "supporting_entities": [],
+      "opposing_entities": [],
+      "registration_action": "NO_AUTOMATIC_REGISTRATION",
+      "intelligence_signature": "058525073f0c4447c131489b22423c0984e114259916004fde8373a5cb98b17b",
       "inference": null,
       "inference_class": "NONE",
       "projection_effect": "NO_EFFECT",

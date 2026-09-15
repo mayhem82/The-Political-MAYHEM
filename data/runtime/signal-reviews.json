@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-SIGNAL-REVIEWS-001",
   "created_at": "2026-09-09T05:05:00+10:00",
-  "updated_at": "2026-09-15T07:46:25.531Z",
+  "updated_at": "2026-09-15T13:35:03.911Z",
   "rules": {
     "append_only": true,
     "raw_source_change_is_immutable": true,
@@ -27283,6 +27283,106 @@
           }
         ],
         "delta_hash": "640c794b793cc41fd38d6c57970e19a5cbd54ce213ff78cc38f88f815633b364"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-APH-BILLS-20260915133358",
+      "source_change_event_id": "CHG-WATCH-APH-BILLS-20260915133358",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-APH-BILLS-20260915133358",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Parliament of Australia — Bills and Legislation added 3 structured publication records to its forward-captured official index: Health Legislation Amendment (Improving Choice and...; Universities Accord (Opening the Doors of Opportun...; Private Health Insurance Amendment (Modernising th...",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-09-15T13:35:03.911Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "7b152d4caa880327da7c",
+            "title": "Health Legislation Amendment (Improving Choice and...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7434"
+          },
+          {
+            "record_id": "ba16f1a261ed547f15f0",
+            "title": "Universities Accord (Opening the Doors of Opportun...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7501"
+          },
+          {
+            "record_id": "eb8ff799ba2da88b25af",
+            "title": "Private Health Insurance Amendment (Modernising th...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7497"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "096ce2ee4da01b7fc07c",
+            "title": "Military Rehabilitation and Compensation Amendment...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=s1518"
+          },
+          {
+            "record_id": "184b23d4f60096991092",
+            "title": "Military Rehabilitation and Compensation Amendment...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=s1515"
+          },
+          {
+            "record_id": "8e3a5485213b1e13fb36",
+            "title": "Red Lines Package Omnibus Bill 2026 [No. 2]",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=s1517"
+          }
+        ],
+        "delta_hash": "0914fd6e09639c75a0469f234276b808af80023e323a314f6027ae0a94f6e9f6"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-NSW-MINISTERIAL-RELEASES-20260915133358",
+      "source_change_event_id": "CHG-WATCH-NSW-MINISTERIAL-RELEASES-20260915133358",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-NSW-MINISTERIAL-RELEASES-20260915133358",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "NSW Government — Ministerial releases added 1 structured publication record to its forward-captured official index: Spring bursts into bloom at Parramatta Park’s iconic flower festival",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-09-15T13:35:03.911Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "90c54d31050a326370c5",
+            "title": "Spring bursts into bloom at Parramatta Park’s iconic flower festival",
+            "url": "https://www.nsw.gov.au/ministerial-releases/spring-bursts-into-bloom-at-parramatta-parks-iconic-flower-festival"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "8fb60018f68695c9bb16",
+            "title": "New $14 million partnership to boost drought resilience in Australian cropping systems",
+            "url": "https://www.nsw.gov.au/ministerial-releases/new-14-million-partnership-to-boost-drought-resilience-australian-cropping-systems"
+          }
+        ],
+        "delta_hash": "9541f3f87e92a5d64f6a7dfeab424fc491c76a8ab8bcef390493a76627529e6a"
       },
       "integrity": {
         "source_change_unchanged": true,

@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-SIGNAL-REVIEWS-001",
   "created_at": "2026-09-09T05:05:00+10:00",
-  "updated_at": "2026-09-14T23:09:23.134Z",
+  "updated_at": "2026-09-15T01:29:18.801Z",
   "rules": {
     "append_only": true,
     "raw_source_change_is_immutable": true,
@@ -26526,6 +26526,268 @@
           }
         ],
         "delta_hash": "f1261269292d1facd226b1868b37a7080cec7f7824fc3fb6112ffd9b198ce6b6"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-PM-MEDIA-20260915012841",
+      "source_change_event_id": "CHG-WATCH-PM-MEDIA-20260915012841",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-PM-MEDIA-20260915012841",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Prime Minister of Australia — media added 1 structured publication record to its forward-captured official index: Little wings flying high",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-09-15T01:29:18.801Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "981d642895345eb112d4",
+            "title": "Little wings flying high",
+            "url": "https://www.pm.gov.au/media/little-wings-flying-high"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "54a44a66a4d218d09ed6",
+            "title": "Press conference - Palau",
+            "url": "https://www.pm.gov.au/media/press-conference-palau-3-september-2026"
+          }
+        ],
+        "delta_hash": "24087462dad2ca3ab99bf07d6c86da8b8bf872dbad7eb191a3b9b41ceaac2877"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-GREENS-FEDERAL-MEDIA-20260915012841",
+      "source_change_event_id": "CHG-WATCH-GREENS-FEDERAL-MEDIA-20260915012841",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-GREENS-FEDERAL-MEDIA-20260915012841",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": "AUS-FED-GRN",
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Australian Greens — Federal MPs media releases added 6 structured publication records to its forward-captured official index: Read more about Greens to push for Mandatory Domestic Roaming, Automatic Compensation for Consumers and Enforceable Reliability Standards to Telcos; Read more about Albanese Government Refuses to Commit to a Moratorium on Data Centres amid call for Global Slow Down on AI; Greens to push for Mandatory Domestic Roaming, Automatic Compensation for Consumers and Enforceable Reliability Standards to Telcos; Read more about Greens unite with industry on need for federal packaging reform; Albanese Government Refuses to Commit to a Moratorium on Data Centres amid call for Global Slow Down on AI; +1 more",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-09-15T01:29:18.801Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "017782ad701eee6ec4be",
+            "title": "Read more about Greens to push for Mandatory Domestic Roaming, Automatic Compensation for Consumers and Enforceable Reliability Standards to Telcos",
+            "url": "https://greens.org.au/sa/news/media-release/greens-push-mandatory-domestic-roaming-automatic-compensation-consumers-and"
+          },
+          {
+            "record_id": "2d9e66980035bd99dfe3",
+            "title": "Read more about Albanese Government Refuses to Commit to a Moratorium on Data Centres amid call for Global Slow Down on AI",
+            "url": "https://greens.org.au/sa/news/media-release/albanese-government-refuses-commit-moratorium-data-centres-amid-call-global"
+          },
+          {
+            "record_id": "32c6bf527c85525a3159",
+            "title": "Greens to push for Mandatory Domestic Roaming, Automatic Compensation for Consumers and Enforceable Reliability Standards to Telcos",
+            "url": "https://greens.org.au/sa/news/media-release/greens-push-mandatory-domestic-roaming-automatic-compensation-consumers-and"
+          },
+          {
+            "record_id": "3efc1cea385dcfe1e6fe",
+            "title": "Read more about Greens unite with industry on need for federal packaging reform",
+            "url": "https://greens.org.au/news/media-release/greens-unite-industry-need-federal-packaging-reform"
+          },
+          {
+            "record_id": "e544b93e437f19787c0d",
+            "title": "Albanese Government Refuses to Commit to a Moratorium on Data Centres amid call for Global Slow Down on AI",
+            "url": "https://greens.org.au/sa/news/media-release/albanese-government-refuses-commit-moratorium-data-centres-amid-call-global"
+          },
+          {
+            "record_id": "f94b1b7cc34db8cbda5b",
+            "title": "Greens unite with industry on need for federal packaging reform",
+            "url": "https://greens.org.au/news/media-release/greens-unite-industry-need-federal-packaging-reform"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "0b15804e4ce61c575c43",
+            "title": "Read more about Media release: Privacy laws welcome progress, but let’s deal with glasses now",
+            "url": "https://greens.org.au/news/media-release/media-release-privacy-laws-welcome-progress-lets-deal-glasses-now"
+          },
+          {
+            "record_id": "11f7ff4dbf87f326a0cf",
+            "title": "Media release: Privacy laws welcome progress, but let’s deal with glasses now",
+            "url": "https://greens.org.au/news/media-release/media-release-privacy-laws-welcome-progress-lets-deal-glasses-now"
+          },
+          {
+            "record_id": "254e9faeb0aa05c5505c",
+            "title": "Inquiry: Banks big winners from housing crisis",
+            "url": "https://greens.org.au/news/media-release/inquiry-banks-big-winners-housing-crisis"
+          },
+          {
+            "record_id": "57f692b2ba67ba5c4993",
+            "title": "Read more about “You cannot make this shit up”: Albanese talks climate leadership in the Pacific while Madeleine King cuts ribbon on new climate bomb gas project back home",
+            "url": "https://greens.org.au/news/media-release/you-cannot-make-shit-albanese-talks-climate-leadership-pacific-while-madeleine"
+          },
+          {
+            "record_id": "631a3166705d5a6b0f18",
+            "title": "“You cannot make this shit up”: Albanese talks climate leadership in the Pacific while Madeleine King cuts ribbon on new climate bomb gas project back home",
+            "url": "https://greens.org.au/news/media-release/you-cannot-make-shit-albanese-talks-climate-leadership-pacific-while-madeleine"
+          },
+          {
+            "record_id": "a54d065d8caff77038ba",
+            "title": "Read more about Inquiry: Banks big winners from housing crisis",
+            "url": "https://greens.org.au/news/media-release/inquiry-banks-big-winners-housing-crisis"
+          }
+        ],
+        "delta_hash": "6a8c2aac926dbc554662c00f4db4e8dfb96ac92d3b8a07fdecc9e0d4243fe755"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-ONENATION-NEWS-20260915012841",
+      "source_change_event_id": "CHG-WATCH-ONENATION-NEWS-20260915012841",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-ONENATION-NEWS-20260915012841",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": "AUS-FED-ONP",
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Pauline Hanson's One Nation — Latest News added 1 structured publication record to its forward-captured official index: One Nation’s Top 10 Cartoons: Satire, Comedy and Controversy",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-09-15T01:29:18.801Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "11cd2ceae30568dad833",
+            "title": "One Nation’s Top 10 Cartoons: Satire, Comedy and Controversy",
+            "url": "http://www.onenation.org.au/one-nation-top-cartoons",
+            "published": "Tue, 15 Sep 2026 08:38:14 +1000"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "c32ce5f183f102a069bd",
+            "title": "One nation. One flag. Because we are all Australian.",
+            "url": "http://www.onenation.org.au/one-nation-one-flag",
+            "published": "Tue, 01 Sep 2026 15:41:27 +1000"
+          }
+        ],
+        "delta_hash": "c0f4423d100b191cbb2f72d3031b5072380864c4ceb481e38fee610eaff22572"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-NSW-MINISTERIAL-RELEASES-20260915012841",
+      "source_change_event_id": "CHG-WATCH-NSW-MINISTERIAL-RELEASES-20260915012841",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-NSW-MINISTERIAL-RELEASES-20260915012841",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "NSW Government — Ministerial releases added 2 structured publication records to its forward-captured official index: Access all areas: Macquarie Fields station opens footbridge and lifts; Minns Labor Government strengthening youth crime prevention and responses",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-09-15T01:29:18.801Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "c55450ce09b42b7a4b4c",
+            "title": "Access all areas: Macquarie Fields station opens footbridge and lifts",
+            "url": "https://www.nsw.gov.au/ministerial-releases/access-all-areas-macquarie-fields-station-opens-footbridge-and-lifts"
+          },
+          {
+            "record_id": "dab51a235d76249dcb48",
+            "title": "Minns Labor Government strengthening youth crime prevention and responses",
+            "url": "https://www.nsw.gov.au/ministerial-releases/minns-labor-government-strengthening-youth-crime-prevention-and-responses"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "6790f91a67db69f47238",
+            "title": "Gold medal metro station to boost Sydney Olympic Park",
+            "url": "https://www.nsw.gov.au/ministerial-releases/gold-medal-metro-station-to-boost-sydney-olympic-park"
+          },
+          {
+            "record_id": "9ee8ac5478065a77a76f",
+            "title": "Building back stronger: $17.4 million to harden Ballina Shire roads against future floods",
+            "url": "https://www.nsw.gov.au/ministerial-releases/building-back-stronger-174-million-to-harden-ballina-shire-roads-against-future-floods"
+          }
+        ],
+        "delta_hash": "03ee7b5b41ca0c9b65b444e3bfbcb3aaaa4f82c8c5e3be27d8ae7246e1387681"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20260915012841",
+      "source_change_event_id": "CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20260915012841",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20260915012841",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Queensland Government — Ministerial Media Statements added 1 structured publication record to its forward-captured official index: New grants help Queensland education providers adapt and thrive",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-09-15T01:29:18.801Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "b6eaa630df2e04afdd32",
+            "title": "New grants help Queensland education providers adapt and thrive",
+            "url": "https://statements.qld.gov.au/statements/106052"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "5c3b8eab8f33cfae7e9f",
+            "title": "Three new dams join Queensland's fish stocking scheme",
+            "url": "https://statements.qld.gov.au/statements/106032"
+          }
+        ],
+        "delta_hash": "6fbf860ff35b5bf0bc25ffbd65b9116f06239dc81a54242567c4839ef171af6e"
       },
       "integrity": {
         "source_change_unchanged": true,

@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-INTELLIGENCE-EVENTS-001",
   "scope": "Australia — multi-jurisdiction",
-  "captured_at": "2026-09-14T23:09:27.114Z",
+  "captured_at": "2026-09-15T01:29:39.289Z",
   "mode": "FORWARD_ONLY",
   "rules": {
     "observation_distinct_from_inference": true,
@@ -70194,6 +70194,1092 @@
         "underlying_publication_claims_not_promoted_to_verified_fact": true,
         "source_change_parent_retained": true,
         "deterministic_review": true
+      }
+    },
+    {
+      "event_id": "CHG-WATCH-PM-MEDIA-20260915012841",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-FED",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-PM-MEDIA-20260915012841",
+      "captured_at": "2026-09-15T01:28:41.772Z",
+      "event_date": "2026-09-15",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-PM-MEDIA",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "review_policy": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-PM-MEDIA-20260913115333",
+        "content_hash": "825422d8367981a8f316d04c07fcc405380972bf42af738e5d7257898ee83ffe",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-PM-MEDIA-20260915012841",
+        "content_hash": "c8696f761d5559136d1dc46f6285cc8e98ec18cfc4af948895656f572505a1ff",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "STRUCTURED_RECORD_SET",
+        "records_added": [
+          {
+            "record_id": "981d642895345eb112d4",
+            "title": "Little wings flying high",
+            "url": "https://www.pm.gov.au/media/little-wings-flying-high"
+          }
+        ],
+        "records_removed": [
+          {
+            "record_id": "54a44a66a4d218d09ed6",
+            "title": "Press conference - Palau",
+            "url": "https://www.pm.gov.au/media/press-conference-palau-3-september-2026"
+          }
+        ],
+        "added_count": 1,
+        "removed_count": 1,
+        "before_count": 27,
+        "after_count": 27,
+        "delta_hash": "24087462dad2ca3ab99bf07d6c86da8b8bf872dbad7eb191a3b9b41ceaac2877"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-GREENS-FEDERAL-MEDIA-20260915012841",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-FED",
+      "party_id": "AUS-FED-GRN",
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-GREENS-FEDERAL-MEDIA-20260915012841",
+      "captured_at": "2026-09-15T01:28:41.772Z",
+      "event_date": "2026-09-15",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_PARTY",
+      "source_id": "SRC-GREENS-FEDERAL-RELEASE-INDEX",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "review_policy": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-GREENS-FEDERAL-MEDIA-20260914140350",
+        "content_hash": "d2d319a7eed2bfd1d4564fbb971cf1a5d5ab31e6d6143c9daf52b4b23e640408",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-GREENS-FEDERAL-MEDIA-20260915012841",
+        "content_hash": "b85daf1b24306d7e6d236779d4b633244f027ef9d35b03ae26b89ba49d01119c",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "STRUCTURED_RECORD_SET",
+        "records_added": [
+          {
+            "record_id": "017782ad701eee6ec4be",
+            "title": "Read more about Greens to push for Mandatory Domestic Roaming, Automatic Compensation for Consumers and Enforceable Reliability Standards to Telcos",
+            "url": "https://greens.org.au/sa/news/media-release/greens-push-mandatory-domestic-roaming-automatic-compensation-consumers-and"
+          },
+          {
+            "record_id": "2d9e66980035bd99dfe3",
+            "title": "Read more about Albanese Government Refuses to Commit to a Moratorium on Data Centres amid call for Global Slow Down on AI",
+            "url": "https://greens.org.au/sa/news/media-release/albanese-government-refuses-commit-moratorium-data-centres-amid-call-global"
+          },
+          {
+            "record_id": "32c6bf527c85525a3159",
+            "title": "Greens to push for Mandatory Domestic Roaming, Automatic Compensation for Consumers and Enforceable Reliability Standards to Telcos",
+            "url": "https://greens.org.au/sa/news/media-release/greens-push-mandatory-domestic-roaming-automatic-compensation-consumers-and"
+          },
+          {
+            "record_id": "3efc1cea385dcfe1e6fe",
+            "title": "Read more about Greens unite with industry on need for federal packaging reform",
+            "url": "https://greens.org.au/news/media-release/greens-unite-industry-need-federal-packaging-reform"
+          },
+          {
+            "record_id": "e544b93e437f19787c0d",
+            "title": "Albanese Government Refuses to Commit to a Moratorium on Data Centres amid call for Global Slow Down on AI",
+            "url": "https://greens.org.au/sa/news/media-release/albanese-government-refuses-commit-moratorium-data-centres-amid-call-global"
+          },
+          {
+            "record_id": "f94b1b7cc34db8cbda5b",
+            "title": "Greens unite with industry on need for federal packaging reform",
+            "url": "https://greens.org.au/news/media-release/greens-unite-industry-need-federal-packaging-reform"
+          }
+        ],
+        "records_removed": [
+          {
+            "record_id": "0b15804e4ce61c575c43",
+            "title": "Read more about Media release: Privacy laws welcome progress, but let’s deal with glasses now",
+            "url": "https://greens.org.au/news/media-release/media-release-privacy-laws-welcome-progress-lets-deal-glasses-now"
+          },
+          {
+            "record_id": "11f7ff4dbf87f326a0cf",
+            "title": "Media release: Privacy laws welcome progress, but let’s deal with glasses now",
+            "url": "https://greens.org.au/news/media-release/media-release-privacy-laws-welcome-progress-lets-deal-glasses-now"
+          },
+          {
+            "record_id": "254e9faeb0aa05c5505c",
+            "title": "Inquiry: Banks big winners from housing crisis",
+            "url": "https://greens.org.au/news/media-release/inquiry-banks-big-winners-housing-crisis"
+          },
+          {
+            "record_id": "57f692b2ba67ba5c4993",
+            "title": "Read more about “You cannot make this shit up”: Albanese talks climate leadership in the Pacific while Madeleine King cuts ribbon on new climate bomb gas project back home",
+            "url": "https://greens.org.au/news/media-release/you-cannot-make-shit-albanese-talks-climate-leadership-pacific-while-madeleine"
+          },
+          {
+            "record_id": "631a3166705d5a6b0f18",
+            "title": "“You cannot make this shit up”: Albanese talks climate leadership in the Pacific while Madeleine King cuts ribbon on new climate bomb gas project back home",
+            "url": "https://greens.org.au/news/media-release/you-cannot-make-shit-albanese-talks-climate-leadership-pacific-while-madeleine"
+          },
+          {
+            "record_id": "a54d065d8caff77038ba",
+            "title": "Read more about Inquiry: Banks big winners from housing crisis",
+            "url": "https://greens.org.au/news/media-release/inquiry-banks-big-winners-housing-crisis"
+          }
+        ],
+        "added_count": 6,
+        "removed_count": 6,
+        "before_count": 75,
+        "after_count": 75,
+        "delta_hash": "6a8c2aac926dbc554662c00f4db4e8dfb96ac92d3b8a07fdecc9e0d4243fe755"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-ONENATION-NEWS-20260915012841",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-FED",
+      "party_id": "AUS-FED-ONP",
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-ONENATION-NEWS-20260915012841",
+      "captured_at": "2026-09-15T01:28:41.772Z",
+      "event_date": "2026-09-15",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_PARTY",
+      "source_id": "SRC-ONENATION-FEDERAL-NEWS",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "review_policy": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-ONENATION-NEWS-20260914061817",
+        "content_hash": "85abe1bd5a775fa52d4bcf5d704e580642d30896c8c66446568a8873f5fc6dab",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-ONENATION-NEWS-20260915012841",
+        "content_hash": "5bf26b18eb9af2740447b95ea4628f5cba13dac8a10d25a14796be68a0d7d5e7",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "STRUCTURED_RECORD_SET",
+        "records_added": [
+          {
+            "record_id": "11cd2ceae30568dad833",
+            "title": "One Nation’s Top 10 Cartoons: Satire, Comedy and Controversy",
+            "url": "http://www.onenation.org.au/one-nation-top-cartoons",
+            "published": "Tue, 15 Sep 2026 08:38:14 +1000"
+          }
+        ],
+        "records_removed": [
+          {
+            "record_id": "c32ce5f183f102a069bd",
+            "title": "One nation. One flag. Because we are all Australian.",
+            "url": "http://www.onenation.org.au/one-nation-one-flag",
+            "published": "Tue, 01 Sep 2026 15:41:27 +1000"
+          }
+        ],
+        "added_count": 1,
+        "removed_count": 1,
+        "before_count": 20,
+        "after_count": 20,
+        "delta_hash": "c0f4423d100b191cbb2f72d3031b5072380864c4ceb481e38fee610eaff22572"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-NSW-MINISTERIAL-RELEASES-20260915012841",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-NSW",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-NSW-MINISTERIAL-RELEASES-20260915012841",
+      "captured_at": "2026-09-15T01:28:41.772Z",
+      "event_date": "2026-09-15",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-NSW-MINISTERIAL-RELEASES",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "review_policy": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-NSW-MINISTERIAL-RELEASES-20260914061817",
+        "content_hash": "ef73d723ffbdef98a5b29bce808e422d4a75eba959be3602e764d1fe23053962",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-NSW-MINISTERIAL-RELEASES-20260915012841",
+        "content_hash": "ed32fd570b0f04c9aa98b07800afbc339f1d7333839221d846c6dd538beb19c7",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "STRUCTURED_RECORD_SET",
+        "records_added": [
+          {
+            "record_id": "c55450ce09b42b7a4b4c",
+            "title": "Access all areas: Macquarie Fields station opens footbridge and lifts",
+            "url": "https://www.nsw.gov.au/ministerial-releases/access-all-areas-macquarie-fields-station-opens-footbridge-and-lifts"
+          },
+          {
+            "record_id": "dab51a235d76249dcb48",
+            "title": "Minns Labor Government strengthening youth crime prevention and responses",
+            "url": "https://www.nsw.gov.au/ministerial-releases/minns-labor-government-strengthening-youth-crime-prevention-and-responses"
+          }
+        ],
+        "records_removed": [
+          {
+            "record_id": "6790f91a67db69f47238",
+            "title": "Gold medal metro station to boost Sydney Olympic Park",
+            "url": "https://www.nsw.gov.au/ministerial-releases/gold-medal-metro-station-to-boost-sydney-olympic-park"
+          },
+          {
+            "record_id": "9ee8ac5478065a77a76f",
+            "title": "Building back stronger: $17.4 million to harden Ballina Shire roads against future floods",
+            "url": "https://www.nsw.gov.au/ministerial-releases/building-back-stronger-174-million-to-harden-ballina-shire-roads-against-future-floods"
+          }
+        ],
+        "added_count": 2,
+        "removed_count": 2,
+        "before_count": 88,
+        "after_count": 88,
+        "delta_hash": "03ee7b5b41ca0c9b65b444e3bfbcb3aaaa4f82c8c5e3be27d8ae7246e1387681"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20260915012841",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-QLD",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-QLD-MINISTERIAL-STATEMENTS-20260915012841",
+      "captured_at": "2026-09-15T01:28:41.772Z",
+      "event_date": "2026-09-15",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-QLD-MINISTERIAL-STATEMENTS",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "review_policy": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-QLD-MINISTERIAL-STATEMENTS-20260914230815",
+        "content_hash": "798c4806229c8cd8c14d27e3b0ac1e74736ad38443142d6a00289df817dbdd19",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-QLD-MINISTERIAL-STATEMENTS-20260915012841",
+        "content_hash": "436c9f2966957e3a2efe6f447cb26ef101ec66293be2610218d2f5a581f6bb87",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "STRUCTURED_RECORD_SET",
+        "records_added": [
+          {
+            "record_id": "b6eaa630df2e04afdd32",
+            "title": "New grants help Queensland education providers adapt and thrive",
+            "url": "https://statements.qld.gov.au/statements/106052"
+          }
+        ],
+        "records_removed": [
+          {
+            "record_id": "5c3b8eab8f33cfae7e9f",
+            "title": "Three new dams join Queensland's fish stocking scheme",
+            "url": "https://statements.qld.gov.au/statements/106032"
+          }
+        ],
+        "added_count": 1,
+        "removed_count": 1,
+        "before_count": 16,
+        "after_count": 16,
+        "delta_hash": "6fbf860ff35b5bf0bc25ffbd65b9116f06239dc81a54242567c4839ef171af6e"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "SIG-REV-CHG-WATCH-PM-MEDIA-20260915012841",
+      "parent_event_id": "CHG-WATCH-PM-MEDIA-20260915012841",
+      "review_id": "REV-CHG-WATCH-PM-MEDIA-20260915012841",
+      "jurisdiction_id": "AUS-FED",
+      "party_id": null,
+      "actor_id": null,
+      "contest_id": null,
+      "cycle_id": null,
+      "source_snapshot_id": "AUTO-WATCH-PM-MEDIA-20260915012841",
+      "record_id": "981d642895345eb112d4",
+      "captured_at": "2026-09-15T01:29:18.801Z",
+      "event_date": "2026-09-15",
+      "checkpoint": "CONTINUOUS_FORWARD_SIGNAL_REVIEW",
+      "event_type": "SIGNAL_CREATED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-PM-MEDIA",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "claim": "Prime Minister of Australia — media added 1 structured publication record to its forward-captured official index: Little wings flying high",
+      "observed_behaviour": "One or more structured publication records appeared in the monitored official source index after the preceding forward snapshot.",
+      "publication_records_added": [
+        {
+          "record_id": "981d642895345eb112d4",
+          "title": "Little wings flying high",
+          "url": "https://www.pm.gov.au/media/little-wings-flying-high"
+        }
+      ],
+      "publication_records_removed": [
+        {
+          "record_id": "54a44a66a4d218d09ed6",
+          "title": "Press conference - Palau",
+          "url": "https://www.pm.gov.au/media/press-conference-palau-3-september-2026"
+        }
+      ],
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "underlying_publication_claims_not_promoted_to_verified_fact": true,
+        "source_change_parent_retained": true,
+        "deterministic_review": true
+      }
+    },
+    {
+      "event_id": "SIG-REV-CHG-WATCH-GREENS-FEDERAL-MEDIA-20260915012841",
+      "parent_event_id": "CHG-WATCH-GREENS-FEDERAL-MEDIA-20260915012841",
+      "review_id": "REV-CHG-WATCH-GREENS-FEDERAL-MEDIA-20260915012841",
+      "jurisdiction_id": "AUS-FED",
+      "party_id": "AUS-FED-GRN",
+      "actor_id": null,
+      "contest_id": null,
+      "cycle_id": null,
+      "source_snapshot_id": "AUTO-WATCH-GREENS-FEDERAL-MEDIA-20260915012841",
+      "record_id": null,
+      "captured_at": "2026-09-15T01:29:18.801Z",
+      "event_date": "2026-09-15",
+      "checkpoint": "CONTINUOUS_FORWARD_SIGNAL_REVIEW",
+      "event_type": "SIGNAL_CREATED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_PARTY",
+      "source_id": "SRC-GREENS-FEDERAL-RELEASE-INDEX",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "claim": "Australian Greens — Federal MPs media releases added 6 structured publication records to its forward-captured official index: Read more about Greens to push for Mandatory Domestic Roaming, Automatic Compensation for Consumers and Enforceable Reliability Standards to Telcos; Read more about Albanese Government Refuses to Commit to a Moratorium on Data Centres amid call for Global Slow Down on AI; Greens to push for Mandatory Domestic Roaming, Automatic Compensation for Consumers and Enforceable Reliability Standards to Telcos; Read more about Greens unite with industry on need for federal packaging reform; Albanese Government Refuses to Commit to a Moratorium on Data Centres amid call for Global Slow Down on AI; +1 more",
+      "observed_behaviour": "One or more structured publication records appeared in the monitored official source index after the preceding forward snapshot.",
+      "publication_records_added": [
+        {
+          "record_id": "017782ad701eee6ec4be",
+          "title": "Read more about Greens to push for Mandatory Domestic Roaming, Automatic Compensation for Consumers and Enforceable Reliability Standards to Telcos",
+          "url": "https://greens.org.au/sa/news/media-release/greens-push-mandatory-domestic-roaming-automatic-compensation-consumers-and"
+        },
+        {
+          "record_id": "2d9e66980035bd99dfe3",
+          "title": "Read more about Albanese Government Refuses to Commit to a Moratorium on Data Centres amid call for Global Slow Down on AI",
+          "url": "https://greens.org.au/sa/news/media-release/albanese-government-refuses-commit-moratorium-data-centres-amid-call-global"
+        },
+        {
+          "record_id": "32c6bf527c85525a3159",
+          "title": "Greens to push for Mandatory Domestic Roaming, Automatic Compensation for Consumers and Enforceable Reliability Standards to Telcos",
+          "url": "https://greens.org.au/sa/news/media-release/greens-push-mandatory-domestic-roaming-automatic-compensation-consumers-and"
+        },
+        {
+          "record_id": "3efc1cea385dcfe1e6fe",
+          "title": "Read more about Greens unite with industry on need for federal packaging reform",
+          "url": "https://greens.org.au/news/media-release/greens-unite-industry-need-federal-packaging-reform"
+        },
+        {
+          "record_id": "e544b93e437f19787c0d",
+          "title": "Albanese Government Refuses to Commit to a Moratorium on Data Centres amid call for Global Slow Down on AI",
+          "url": "https://greens.org.au/sa/news/media-release/albanese-government-refuses-commit-moratorium-data-centres-amid-call-global"
+        },
+        {
+          "record_id": "f94b1b7cc34db8cbda5b",
+          "title": "Greens unite with industry on need for federal packaging reform",
+          "url": "https://greens.org.au/news/media-release/greens-unite-industry-need-federal-packaging-reform"
+        }
+      ],
+      "publication_records_removed": [
+        {
+          "record_id": "0b15804e4ce61c575c43",
+          "title": "Read more about Media release: Privacy laws welcome progress, but let’s deal with glasses now",
+          "url": "https://greens.org.au/news/media-release/media-release-privacy-laws-welcome-progress-lets-deal-glasses-now"
+        },
+        {
+          "record_id": "11f7ff4dbf87f326a0cf",
+          "title": "Media release: Privacy laws welcome progress, but let’s deal with glasses now",
+          "url": "https://greens.org.au/news/media-release/media-release-privacy-laws-welcome-progress-lets-deal-glasses-now"
+        },
+        {
+          "record_id": "254e9faeb0aa05c5505c",
+          "title": "Inquiry: Banks big winners from housing crisis",
+          "url": "https://greens.org.au/news/media-release/inquiry-banks-big-winners-housing-crisis"
+        },
+        {
+          "record_id": "57f692b2ba67ba5c4993",
+          "title": "Read more about “You cannot make this shit up”: Albanese talks climate leadership in the Pacific while Madeleine King cuts ribbon on new climate bomb gas project back home",
+          "url": "https://greens.org.au/news/media-release/you-cannot-make-shit-albanese-talks-climate-leadership-pacific-while-madeleine"
+        },
+        {
+          "record_id": "631a3166705d5a6b0f18",
+          "title": "“You cannot make this shit up”: Albanese talks climate leadership in the Pacific while Madeleine King cuts ribbon on new climate bomb gas project back home",
+          "url": "https://greens.org.au/news/media-release/you-cannot-make-shit-albanese-talks-climate-leadership-pacific-while-madeleine"
+        },
+        {
+          "record_id": "a54d065d8caff77038ba",
+          "title": "Read more about Inquiry: Banks big winners from housing crisis",
+          "url": "https://greens.org.au/news/media-release/inquiry-banks-big-winners-housing-crisis"
+        }
+      ],
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "underlying_publication_claims_not_promoted_to_verified_fact": true,
+        "source_change_parent_retained": true,
+        "deterministic_review": true
+      }
+    },
+    {
+      "event_id": "SIG-REV-CHG-WATCH-ONENATION-NEWS-20260915012841",
+      "parent_event_id": "CHG-WATCH-ONENATION-NEWS-20260915012841",
+      "review_id": "REV-CHG-WATCH-ONENATION-NEWS-20260915012841",
+      "jurisdiction_id": "AUS-FED",
+      "party_id": "AUS-FED-ONP",
+      "actor_id": null,
+      "contest_id": null,
+      "cycle_id": null,
+      "source_snapshot_id": "AUTO-WATCH-ONENATION-NEWS-20260915012841",
+      "record_id": "11cd2ceae30568dad833",
+      "captured_at": "2026-09-15T01:29:18.801Z",
+      "event_date": "2026-09-15",
+      "checkpoint": "CONTINUOUS_FORWARD_SIGNAL_REVIEW",
+      "event_type": "SIGNAL_CREATED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_PARTY",
+      "source_id": "SRC-ONENATION-FEDERAL-NEWS",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "claim": "Pauline Hanson's One Nation — Latest News added 1 structured publication record to its forward-captured official index: One Nation’s Top 10 Cartoons: Satire, Comedy and Controversy",
+      "observed_behaviour": "One or more structured publication records appeared in the monitored official source index after the preceding forward snapshot.",
+      "publication_records_added": [
+        {
+          "record_id": "11cd2ceae30568dad833",
+          "title": "One Nation’s Top 10 Cartoons: Satire, Comedy and Controversy",
+          "url": "http://www.onenation.org.au/one-nation-top-cartoons",
+          "published": "Tue, 15 Sep 2026 08:38:14 +1000"
+        }
+      ],
+      "publication_records_removed": [
+        {
+          "record_id": "c32ce5f183f102a069bd",
+          "title": "One nation. One flag. Because we are all Australian.",
+          "url": "http://www.onenation.org.au/one-nation-one-flag",
+          "published": "Tue, 01 Sep 2026 15:41:27 +1000"
+        }
+      ],
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "underlying_publication_claims_not_promoted_to_verified_fact": true,
+        "source_change_parent_retained": true,
+        "deterministic_review": true
+      }
+    },
+    {
+      "event_id": "SIG-REV-CHG-WATCH-NSW-MINISTERIAL-RELEASES-20260915012841",
+      "parent_event_id": "CHG-WATCH-NSW-MINISTERIAL-RELEASES-20260915012841",
+      "review_id": "REV-CHG-WATCH-NSW-MINISTERIAL-RELEASES-20260915012841",
+      "jurisdiction_id": "AUS-NSW",
+      "party_id": null,
+      "actor_id": null,
+      "contest_id": null,
+      "cycle_id": null,
+      "source_snapshot_id": "AUTO-WATCH-NSW-MINISTERIAL-RELEASES-20260915012841",
+      "record_id": null,
+      "captured_at": "2026-09-15T01:29:18.801Z",
+      "event_date": "2026-09-15",
+      "checkpoint": "CONTINUOUS_FORWARD_SIGNAL_REVIEW",
+      "event_type": "SIGNAL_CREATED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-NSW-MINISTERIAL-RELEASES",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "claim": "NSW Government — Ministerial releases added 2 structured publication records to its forward-captured official index: Access all areas: Macquarie Fields station opens footbridge and lifts; Minns Labor Government strengthening youth crime prevention and responses",
+      "observed_behaviour": "One or more structured publication records appeared in the monitored official source index after the preceding forward snapshot.",
+      "publication_records_added": [
+        {
+          "record_id": "c55450ce09b42b7a4b4c",
+          "title": "Access all areas: Macquarie Fields station opens footbridge and lifts",
+          "url": "https://www.nsw.gov.au/ministerial-releases/access-all-areas-macquarie-fields-station-opens-footbridge-and-lifts"
+        },
+        {
+          "record_id": "dab51a235d76249dcb48",
+          "title": "Minns Labor Government strengthening youth crime prevention and responses",
+          "url": "https://www.nsw.gov.au/ministerial-releases/minns-labor-government-strengthening-youth-crime-prevention-and-responses"
+        }
+      ],
+      "publication_records_removed": [
+        {
+          "record_id": "6790f91a67db69f47238",
+          "title": "Gold medal metro station to boost Sydney Olympic Park",
+          "url": "https://www.nsw.gov.au/ministerial-releases/gold-medal-metro-station-to-boost-sydney-olympic-park"
+        },
+        {
+          "record_id": "9ee8ac5478065a77a76f",
+          "title": "Building back stronger: $17.4 million to harden Ballina Shire roads against future floods",
+          "url": "https://www.nsw.gov.au/ministerial-releases/building-back-stronger-174-million-to-harden-ballina-shire-roads-against-future-floods"
+        }
+      ],
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "underlying_publication_claims_not_promoted_to_verified_fact": true,
+        "source_change_parent_retained": true,
+        "deterministic_review": true
+      }
+    },
+    {
+      "event_id": "SIG-REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20260915012841",
+      "parent_event_id": "CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20260915012841",
+      "review_id": "REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20260915012841",
+      "jurisdiction_id": "AUS-QLD",
+      "party_id": null,
+      "actor_id": null,
+      "contest_id": null,
+      "cycle_id": null,
+      "source_snapshot_id": "AUTO-WATCH-QLD-MINISTERIAL-STATEMENTS-20260915012841",
+      "record_id": "b6eaa630df2e04afdd32",
+      "captured_at": "2026-09-15T01:29:18.801Z",
+      "event_date": "2026-09-15",
+      "checkpoint": "CONTINUOUS_FORWARD_SIGNAL_REVIEW",
+      "event_type": "SIGNAL_CREATED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-QLD-MINISTERIAL-STATEMENTS",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "claim": "Queensland Government — Ministerial Media Statements added 1 structured publication record to its forward-captured official index: New grants help Queensland education providers adapt and thrive",
+      "observed_behaviour": "One or more structured publication records appeared in the monitored official source index after the preceding forward snapshot.",
+      "publication_records_added": [
+        {
+          "record_id": "b6eaa630df2e04afdd32",
+          "title": "New grants help Queensland education providers adapt and thrive",
+          "url": "https://statements.qld.gov.au/statements/106052"
+        }
+      ],
+      "publication_records_removed": [
+        {
+          "record_id": "5c3b8eab8f33cfae7e9f",
+          "title": "Three new dams join Queensland's fish stocking scheme",
+          "url": "https://statements.qld.gov.au/statements/106032"
+        }
+      ],
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "underlying_publication_claims_not_promoted_to_verified_fact": true,
+        "source_change_parent_retained": true,
+        "deterministic_review": true
+      }
+    },
+    {
+      "event_id": "INTEL-AREA-6248b0d4afcf29504cf3510c",
+      "parent_event_id": "SIG-REV-CHG-WATCH-APH-BILLS-20260914140350",
+      "jurisdiction_id": "AUS-FED",
+      "party_id": null,
+      "actor_id": null,
+      "party_ids": [],
+      "actor_ids": [
+        "ACT-ALLEGRA-SPENDER",
+        "ACT-MONIQUE-RYAN",
+        "ACT-SOPHIE-SCAMPS"
+      ],
+      "contest_id": null,
+      "cycle_id": null,
+      "competition_class": "LEGISLATIVE",
+      "area_evidence_id": "AREA-6248b0d4afcf29504cf3510c",
+      "detail_record_id": "DETAIL-cfe09d6eeb9ff9276ff2699e",
+      "detail_version_id": "DETAIL-cfe09d6eeb9ff9276ff2699e-V1",
+      "source_snapshot_id": "AUTO-WATCH-APH-BILLS-20260914140350",
+      "record_url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7434",
+      "captured_at": "2026-09-15T01:29:39.289Z",
+      "evidence_captured_at": "2026-09-15T01:29:35.231Z",
+      "event_date": "2026-09-15",
+      "checkpoint": "SUBSTANTIVE_INFORMATION_INGESTION",
+      "event_type": "AREA_EVIDENCE_INGESTED",
+      "area_routing_state": "SUBSTANTIVE_CONTENT_ROUTED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_PARLIAMENT",
+      "source_id": "SRC-APH-BILLS",
+      "claim": "Ingested substantive legislative evidence from Health Legislation Amendment (Improving Choice and Transparency for Private Health Consumers) Bill 2026 &ndash; Parliament of Australia. Captured content includes stage: Introduced; resistance language: Amendment; outcome language: passed. Registration threshold state: evidence gap. Missing requirements: missing fact type explicit support position, missing fact type explicit opposition position, missing condition distinct supporting and opposing sides.",
+      "observed_behaviour": "Health Legislation Amendment (Improving Choice and Transparency for Private Health Consumers) Bill 2026 &ndash; Parliament of Australia Skip to navigation Skip to content Health Legislation Amendment (Improving Choice and Transparency for Private Health Consumers) Bill 2026 Type Government Portfolio Health, Disability and Ageing Originating house House of Representatives Status Before Senate Parliament no 48 Track (What's this?) Permalink Summary Amends the: Health Insurance Act 1973 and Private Health Insurance Act 2007 to enable the publication of information on medical fees charged by medical practitioners and likely out-of-pocket costs; and Private Health Insurance Act 2007 to require private health insurers to apply to the minister for approval to change the premiums charged under a complying health insurance product. Progress House of Representatives Introduced and read a first time 12 Feb 2026 Second reading moved 12 Feb 2026 Second reading debate 25 Mar 2026 Second reading agreed to 25 Jun 2026 Consideration in detail debate Amendment details : 9 Government agreed to 25 Jun 2026 Third reading agreed to 25 Jun 2026 Senate Introduced and read a first time 29 Jun 2026 Second reading moved 29 Jun 2026 Second reading debate 14 Sep 2026 Documents and transcripts Text of bill First reading Third reading Explanatory memoranda Explanatory memorandum Revised explanatory memorandum Supplementary explanatory memorandum Supplementary explanatory memorandum relating to sheet ES128 Transcript of speeches All second reading speeches Minister's second reading speech Proposed amendments House of representatives 2nd reading amendment SPENDER, Allegra, MP 2nd reading amendment SCAMPS, Sophie, MP 2nd reading amendment RYAN, Monique, MP Detail - Crossbench RYAN, Monique, MP Detail - ",
+      "extracted_cues": {
+        "resistance_terms": [
+          "Amendment"
+        ],
+        "stage_terms": [
+          "Introduced"
+        ],
+        "outcome_terms": [
+          "passed"
+        ],
+        "pressure_terms": []
+      },
+      "entity_mentions": {
+        "actors": [
+          {
+            "actor_id": "ACT-ALLEGRA-SPENDER",
+            "name": "Allegra Spender",
+            "match_variant": "spender allegra",
+            "party_id_at_resolution": null
+          },
+          {
+            "actor_id": "ACT-MONIQUE-RYAN",
+            "name": "Monique Ryan",
+            "match_variant": "ryan monique",
+            "party_id_at_resolution": null
+          },
+          {
+            "actor_id": "ACT-SOPHIE-SCAMPS",
+            "name": "Sophie Scamps",
+            "match_variant": "scamps sophie",
+            "party_id_at_resolution": null
+          }
+        ],
+        "teams": []
+      },
+      "position_state": "UNRESOLVED",
+      "resistance_state": "RESISTANCE_LANGUAGE_PRESENT",
+      "outcome_state": "OUTCOME_LANGUAGE_PRESENT",
+      "contest_fact_ids": [
+        "FACT-00da0942e3c15a625e9574a3",
+        "FACT-0e36418d52a70de0f14049fa",
+        "FACT-3f670cf97f547374ad1fdb97",
+        "FACT-526a866ee410c7870e7e73c9",
+        "FACT-5a9f76d35d9256fc919dfb5e",
+        "FACT-6e71d0fa4f07d8c07e804519",
+        "FACT-815550a1d2909b1f30e71bde",
+        "FACT-9970a0862936eb7ce2755702",
+        "FACT-a00cf47d4b10728e51f451fd",
+        "FACT-bbb20657efea9d57dd56e0de",
+        "FACT-c637728cabbeac5d7900d831",
+        "FACT-ced84cf6c03d5ac7db6684e0",
+        "FACT-da16f58dae923aa01b455ae6",
+        "FACT-e4b998dd7c196611deb69752",
+        "FACT-f76d3b40fa2c59cf3a84f249",
+        "FACT-fb3b5d76fb9a02fff527cfcb",
+        "FACT-fe4418009b610c80fd6fb938",
+        "FACT-ff2a1b1b93851696dd47de05"
+      ],
+      "contest_fact_types": [
+        "AMENDMENT",
+        "CONTEST_OBJECT",
+        "MATERIAL_RESISTANCE",
+        "OBJECTIVE",
+        "POSSIBLE_OUTCOME_STATE",
+        "PROCEDURAL_ACTION",
+        "STAGE",
+        "VOTE_OR_DIVISION"
+      ],
+      "threshold_evaluation_id": "THRESH-01b49eb1fdf1b6c126a43058",
+      "threshold_state": "EVIDENCE_GAP",
+      "threshold_blockers": [
+        "MISSING_CONDITION_DISTINCT_SUPPORTING_AND_OPPOSING_SIDES",
+        "MISSING_FACT_TYPE_EXPLICIT_OPPOSITION_POSITION",
+        "MISSING_FACT_TYPE_EXPLICIT_SUPPORT_POSITION"
+      ],
+      "supporting_entities": [],
+      "opposing_entities": [],
+      "registration_action": "NO_AUTOMATIC_REGISTRATION",
+      "intelligence_signature": "7bb0de8bc55a3ec5219d517b08c2fac574d1cc33610cdc4545591800ba76e0f1",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "substantive_detail_lineage_required": true,
+        "active_contest_fact_lineage_required": true,
+        "threshold_evaluation_lineage_required": true,
+        "routing_does_not_register_match": true,
+        "threshold_eligibility_does_not_register_match": true,
+        "entity_mentions_do_not_establish_positions": true,
+        "retracted_facts_excluded": true,
+        "no_projection_effect_without_registered_target": true
+      }
+    },
+    {
+      "event_id": "INTEL-AREA-862aef5dfd7a624de32e9859",
+      "parent_event_id": "SIG-REV-CHG-WATCH-APH-BILLS-20260914140350",
+      "jurisdiction_id": "AUS-FED",
+      "party_id": "AUS-FED-GRN",
+      "actor_id": "ACT-KATE-CHANEY",
+      "party_ids": [
+        "AUS-FED-GRN"
+      ],
+      "actor_ids": [
+        "ACT-KATE-CHANEY"
+      ],
+      "contest_id": null,
+      "cycle_id": null,
+      "competition_class": "LEGISLATIVE",
+      "area_evidence_id": "AREA-862aef5dfd7a624de32e9859",
+      "detail_record_id": "DETAIL-380326a975382152c88e868b",
+      "detail_version_id": "DETAIL-380326a975382152c88e868b-V1",
+      "source_snapshot_id": "AUTO-WATCH-APH-BILLS-20260914140350",
+      "record_url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7515",
+      "captured_at": "2026-09-15T01:29:39.289Z",
+      "evidence_captured_at": "2026-09-15T01:29:36.499Z",
+      "event_date": "2026-09-15",
+      "checkpoint": "SUBSTANTIVE_INFORMATION_INGESTION",
+      "event_type": "AREA_EVIDENCE_INGESTED",
+      "area_routing_state": "SUBSTANTIVE_CONTENT_ROUTED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_PARLIAMENT",
+      "source_id": "SRC-APH-BILLS",
+      "claim": "Ingested substantive legislative evidence from Social Security and Other Legislation Amendment (Technical Changes No. 2) Bill 2026 &ndash; Parliament of Australia. Captured content includes stage: Introduced; resistance language: Amendment. Registration threshold state: evidence gap. Missing requirements: missing fact type contest object, missing fact type material resistance, missing fact type explicit support position, missing fact type explicit opposition position, missing condition distinct supporting and opposing sides.",
+      "observed_behaviour": "Social Security and Other Legislation Amendment (Technical Changes No. 2) Bill 2026 &ndash; Parliament of Australia Skip to navigation Skip to content Social Security and Other Legislation Amendment (Technical Changes No. 2) Bill 2026 Type Government Portfolio Social Services Originating house House of Representatives Status Before Senate Parliament no 48 Track (What's this?) Permalink Summary Amends the: A New Tax System (Family Assistance) Act 1999 , A New Tax System (Family Assistance) (Administration) Act 1999 and Social Security Act 1991 to: enable the automation of advance payments of social security or family assistance entitlements; and correct cross-referencing errors; Administrative Review Tribunal Act 2024 and A New Tax System (Family Assistance) (Administration) Act 1999 to enable the secretary to alter certain social services decisions that undergo review at the Administrative Review Tribunal under specific circumstances; A New Tax System (Family Assistance) Act 1999 and A New Tax System (Family Assistance) (Administration) Act 1999 to clarify the use of pre-issue income data (PIID); Child Support (Assessment) Act 1989 in relation to the use of PIID, the automation of provisional adjusted taxable income and the delegation of a publishing function; A New Tax System (Family Assistance) (Administration) Act 1999 to enable merits review of tax and family assistance entitlement debt offsetting decisions; Paid Parental Leave Act 2010 in relation to the calculation of paid parental leave superannuation contributions and employer debts; Social Security (Administration) Act 1999 to make minor amendments in relation to the operation of the urgent payment provisions; and Social Security and Other Legislation Amendment (Technical Changes No. 2) Act 2025 to clarify the ",
+      "extracted_cues": {
+        "resistance_terms": [
+          "Amendment"
+        ],
+        "stage_terms": [
+          "Introduced"
+        ],
+        "outcome_terms": [],
+        "pressure_terms": []
+      },
+      "entity_mentions": {
+        "actors": [
+          {
+            "actor_id": "ACT-KATE-CHANEY",
+            "name": "Kate Chaney",
+            "match_variant": "chaney kate",
+            "party_id_at_resolution": null
+          }
+        ],
+        "teams": [
+          {
+            "party_id": "AUS-FED-GRN",
+            "name": "Australian Greens",
+            "match_alias": "Australian Greens"
+          }
+        ]
+      },
+      "position_state": "UNRESOLVED",
+      "resistance_state": "RESISTANCE_LANGUAGE_PRESENT",
+      "outcome_state": "UNRESOLVED",
+      "contest_fact_ids": [
+        "FACT-03803b77b7d5ac0a16baa84c",
+        "FACT-0cb2dc29c88bf86ae298a597",
+        "FACT-15bdd97167b0b2b5e6c8a249",
+        "FACT-1943b6d3a348b597d2461913",
+        "FACT-2a30a4742732a833b1b30811",
+        "FACT-2ae2b964442ad0d2afe73844",
+        "FACT-2af3182bb91df2754587fe6c",
+        "FACT-37f144518c4aadb24a163c0d",
+        "FACT-51a124a68a08eb5340b7f1c6",
+        "FACT-57a1af836fec722712e79474",
+        "FACT-7b52b092c3f685a187d66dda",
+        "FACT-7eefc5351f38e0206b5e6c73",
+        "FACT-da9aae1c526a9b4dd846fc4d",
+        "FACT-dee48fd680da4153d438cb40",
+        "FACT-f5be0c8d3ed8d5716a6e8b3d"
+      ],
+      "contest_fact_types": [
+        "AMENDMENT",
+        "POSSIBLE_OUTCOME_STATE",
+        "PROCEDURAL_ACTION",
+        "STAGE",
+        "VOTE_OR_DIVISION"
+      ],
+      "threshold_evaluation_id": "THRESH-a43e20611718b0634fdb989c",
+      "threshold_state": "EVIDENCE_GAP",
+      "threshold_blockers": [
+        "MISSING_CONDITION_DISTINCT_SUPPORTING_AND_OPPOSING_SIDES",
+        "MISSING_FACT_TYPE_CONTEST_OBJECT",
+        "MISSING_FACT_TYPE_EXPLICIT_OPPOSITION_POSITION",
+        "MISSING_FACT_TYPE_EXPLICIT_SUPPORT_POSITION",
+        "MISSING_FACT_TYPE_MATERIAL_RESISTANCE"
+      ],
+      "supporting_entities": [],
+      "opposing_entities": [],
+      "registration_action": "NO_AUTOMATIC_REGISTRATION",
+      "intelligence_signature": "abc71fd0a08e635f47fd6a0b60ef4555c72475436568357953ebad27c8d4fbda",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "substantive_detail_lineage_required": true,
+        "active_contest_fact_lineage_required": true,
+        "threshold_evaluation_lineage_required": true,
+        "routing_does_not_register_match": true,
+        "threshold_eligibility_does_not_register_match": true,
+        "entity_mentions_do_not_establish_positions": true,
+        "retracted_facts_excluded": true,
+        "no_projection_effect_without_registered_target": true
+      }
+    },
+    {
+      "event_id": "INTEL-AREA-b103da4df3c8b76004b2fb42",
+      "parent_event_id": "SIG-REV-CHG-WATCH-APH-BILLS-20260914140350",
+      "jurisdiction_id": "AUS-FED",
+      "party_id": null,
+      "actor_id": null,
+      "party_ids": [],
+      "actor_ids": [],
+      "contest_id": null,
+      "cycle_id": null,
+      "competition_class": "LEGISLATIVE",
+      "area_evidence_id": "AREA-b103da4df3c8b76004b2fb42",
+      "detail_record_id": "DETAIL-4d179b5cc1279414c6af7b53",
+      "detail_version_id": "DETAIL-4d179b5cc1279414c6af7b53-V1",
+      "source_snapshot_id": "AUTO-WATCH-APH-BILLS-20260914140350",
+      "record_url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=s1516",
+      "captured_at": "2026-09-15T01:29:39.289Z",
+      "evidence_captured_at": "2026-09-15T01:29:37.014Z",
+      "event_date": "2026-09-15",
+      "checkpoint": "SUBSTANTIVE_INFORMATION_INGESTION",
+      "event_type": "AREA_EVIDENCE_INGESTED",
+      "area_routing_state": "SUBSTANTIVE_CONTENT_ROUTED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_PARLIAMENT",
+      "source_id": "SRC-APH-BILLS",
+      "claim": "Ingested substantive legislative evidence from Environment and Other Legislation Amendment (Fast Tracking Coal, Gas and Oil Projects) Bill 2026 &ndash; Parliament of Australia. Captured content includes stage: Introduced; resistance language: Amendment; outcome language: passed. Registration threshold state: evidence gap. Missing requirements: missing fact type material resistance, missing fact type explicit support position, missing fact type explicit opposition position, missing condition distinct supporting and opposing sides.",
+      "observed_behaviour": "Environment and Other Legislation Amendment (Fast Tracking Coal, Gas and Oil Projects) Bill 2026 &ndash; Parliament of Australia Skip to navigation Skip to content Environment and Other Legislation Amendment (Fast Tracking Coal, Gas and Oil Projects) Bill 2026 Type Private Sponsor(s) BRAGG, Sen Andrew Originating house Senate Status Before Senate Parliament no 48 Track (What's this?) Permalink Progress Senate Introduced and read a first time 14 Sep 2026 Second reading moved 14 Sep 2026 Documents and transcripts Text of bill First reading Explanatory memoranda Explanatory memorandum Transcript of speeches All second reading speeches Private Senator's introductory speech Proposed amendments No proposed amendments have been circulated. Schedules of amendments No documents at present Helpful information Text of bill First reading: Text of the bill as introduced into the Parliament Third reading: Prepared if the bill is amended by the house in which it was introduced. This version of the bill is then considered by the second house. As passed by both houses: Final text of bill agreed to by both the House of Representatives and the Senate which is presented to the Governor-General for assent. Explanatory memoranda Explanatory memorandum: Accompanies and provides an explanation of the content of the introduced version (first reading) of the bill. Supplementary explanatory memorandum: Accompanies and explains amendments proposed by the government to the bill. Revised explanatory memorandum: Accompanies and explains the amended version (third reading) of the bill. It supersedes the explanatory memorandum. Proposed amendments Circulated by members and senators when they propose to make changes to the bill. For details about the outcome of proposed amendments please refer to either",
+      "extracted_cues": {
+        "resistance_terms": [
+          "Amendment"
+        ],
+        "stage_terms": [
+          "Introduced"
+        ],
+        "outcome_terms": [
+          "passed"
+        ],
+        "pressure_terms": []
+      },
+      "entity_mentions": {
+        "actors": [],
+        "teams": []
+      },
+      "position_state": "UNRESOLVED",
+      "resistance_state": "RESISTANCE_LANGUAGE_PRESENT",
+      "outcome_state": "OUTCOME_LANGUAGE_PRESENT",
+      "contest_fact_ids": [
+        "FACT-2ace4e848366088e475de094",
+        "FACT-30e911c6879394adcef68e3b",
+        "FACT-33394fec82a2cdc0576f7a10",
+        "FACT-3d36bf5ea3ef7ae932caf52d",
+        "FACT-6756c2a357ab08c0259988ba",
+        "FACT-e99b608a08bd484e8e273ca6"
+      ],
+      "contest_fact_types": [
+        "AMENDMENT",
+        "CONTEST_OBJECT",
+        "STAGE"
+      ],
+      "threshold_evaluation_id": "THRESH-c358c56d7c22025fbd28573b",
+      "threshold_state": "EVIDENCE_GAP",
+      "threshold_blockers": [
+        "MISSING_CONDITION_DISTINCT_SUPPORTING_AND_OPPOSING_SIDES",
+        "MISSING_FACT_TYPE_EXPLICIT_OPPOSITION_POSITION",
+        "MISSING_FACT_TYPE_EXPLICIT_SUPPORT_POSITION",
+        "MISSING_FACT_TYPE_MATERIAL_RESISTANCE"
+      ],
+      "supporting_entities": [],
+      "opposing_entities": [],
+      "registration_action": "NO_AUTOMATIC_REGISTRATION",
+      "intelligence_signature": "f0c0753769efed5646f6da221074f15f52d3b9ecdc2ef8620fc0c7383ae04e56",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "substantive_detail_lineage_required": true,
+        "active_contest_fact_lineage_required": true,
+        "threshold_evaluation_lineage_required": true,
+        "routing_does_not_register_match": true,
+        "threshold_eligibility_does_not_register_match": true,
+        "entity_mentions_do_not_establish_positions": true,
+        "retracted_facts_excluded": true,
+        "no_projection_effect_without_registered_target": true
+      }
+    },
+    {
+      "event_id": "INTEL-AREA-c677fddc9a8cc9979bdedaac",
+      "parent_event_id": "SIG-REV-CHG-WATCH-APH-BILLS-20260914140350",
+      "jurisdiction_id": "AUS-FED",
+      "party_id": null,
+      "actor_id": null,
+      "party_ids": [],
+      "actor_ids": [],
+      "contest_id": null,
+      "cycle_id": null,
+      "competition_class": "BUDGET",
+      "area_evidence_id": "AREA-c677fddc9a8cc9979bdedaac",
+      "detail_record_id": "DETAIL-4d179b5cc1279414c6af7b53",
+      "detail_version_id": "DETAIL-4d179b5cc1279414c6af7b53-V1",
+      "source_snapshot_id": "AUTO-WATCH-APH-BILLS-20260914140350",
+      "record_url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=s1516",
+      "captured_at": "2026-09-15T01:29:39.289Z",
+      "evidence_captured_at": "2026-09-15T01:29:37.014Z",
+      "event_date": "2026-09-15",
+      "checkpoint": "SUBSTANTIVE_INFORMATION_INGESTION",
+      "event_type": "AREA_EVIDENCE_INGESTED",
+      "area_routing_state": "SUBSTANTIVE_CONTENT_ROUTED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_PARLIAMENT",
+      "source_id": "SRC-APH-BILLS",
+      "claim": "Ingested substantive budget evidence from Environment and Other Legislation Amendment (Fast Tracking Coal, Gas and Oil Projects) Bill 2026 &ndash; Parliament of Australia. Captured content includes stage: Introduced; resistance language: Amendment; outcome language: passed. Registration threshold state: evidence gap. Missing requirements: missing fact type contest object, missing fact type objective, missing fact type material resistance, missing fact type explicit support position, missing fact type explicit opposition position, missing condition distinct supporting and opposing sides.",
+      "observed_behaviour": "Environment and Other Legislation Amendment (Fast Tracking Coal, Gas and Oil Projects) Bill 2026 &ndash; Parliament of Australia Skip to navigation Skip to content Environment and Other Legislation Amendment (Fast Tracking Coal, Gas and Oil Projects) Bill 2026 Type Private Sponsor(s) BRAGG, Sen Andrew Originating house Senate Status Before Senate Parliament no 48 Track (What's this?) Permalink Progress Senate Introduced and read a first time 14 Sep 2026 Second reading moved 14 Sep 2026 Documents and transcripts Text of bill First reading Explanatory memoranda Explanatory memorandum Transcript of speeches All second reading speeches Private Senator's introductory speech Proposed amendments No proposed amendments have been circulated. Schedules of amendments No documents at present Helpful information Text of bill First reading: Text of the bill as introduced into the Parliament Third reading: Prepared if the bill is amended by the house in which it was introduced. This version of the bill is then considered by the second house. As passed by both houses: Final text of bill agreed to by both the House of Representatives and the Senate which is presented to the Governor-General for assent. Explanatory memoranda Explanatory memorandum: Accompanies and provides an explanation of the content of the introduced version (first reading) of the bill. Supplementary explanatory memorandum: Accompanies and explains amendments proposed by the government to the bill. Revised explanatory memorandum: Accompanies and explains the amended version (third reading) of the bill. It supersedes the explanatory memorandum. Proposed amendments Circulated by members and senators when they propose to make changes to the bill. For details about the outcome of proposed amendments please refer to either",
+      "extracted_cues": {
+        "resistance_terms": [
+          "Amendment"
+        ],
+        "stage_terms": [
+          "Introduced"
+        ],
+        "outcome_terms": [
+          "passed"
+        ],
+        "pressure_terms": []
+      },
+      "entity_mentions": {
+        "actors": [],
+        "teams": []
+      },
+      "position_state": "UNRESOLVED",
+      "resistance_state": "RESISTANCE_LANGUAGE_PRESENT",
+      "outcome_state": "OUTCOME_LANGUAGE_PRESENT",
+      "contest_fact_ids": [
+        "FACT-94bd42098fc804374776b087",
+        "FACT-f48ec6d3556644ef23e29444"
+      ],
+      "contest_fact_types": [
+        "STAGE"
+      ],
+      "threshold_evaluation_id": "THRESH-985c96bfad4aa3cc42249fc3",
+      "threshold_state": "EVIDENCE_GAP",
+      "threshold_blockers": [
+        "MISSING_CONDITION_DISTINCT_SUPPORTING_AND_OPPOSING_SIDES",
+        "MISSING_FACT_TYPE_CONTEST_OBJECT",
+        "MISSING_FACT_TYPE_EXPLICIT_OPPOSITION_POSITION",
+        "MISSING_FACT_TYPE_EXPLICIT_SUPPORT_POSITION",
+        "MISSING_FACT_TYPE_MATERIAL_RESISTANCE",
+        "MISSING_FACT_TYPE_OBJECTIVE"
+      ],
+      "supporting_entities": [],
+      "opposing_entities": [],
+      "registration_action": "NO_AUTOMATIC_REGISTRATION",
+      "intelligence_signature": "ccdcde494cad8ac7d9cd9f7a90cf5dc243b46348fcf46735f8619532a07c3707",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "substantive_detail_lineage_required": true,
+        "active_contest_fact_lineage_required": true,
+        "threshold_evaluation_lineage_required": true,
+        "routing_does_not_register_match": true,
+        "threshold_eligibility_does_not_register_match": true,
+        "entity_mentions_do_not_establish_positions": true,
+        "retracted_facts_excluded": true,
+        "no_projection_effect_without_registered_target": true
       }
     }
   ]

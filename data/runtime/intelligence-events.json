@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-INTELLIGENCE-EVENTS-001",
   "scope": "Australia — multi-jurisdiction",
-  "captured_at": "2026-09-16T06:04:14.823Z",
+  "captured_at": "2026-09-16T11:37:02.744Z",
   "mode": "FORWARD_ONLY",
   "rules": {
     "observation_distinct_from_inference": true,
@@ -76068,6 +76068,778 @@
       "opposing_entities": [],
       "registration_action": "NO_AUTOMATIC_REGISTRATION",
       "intelligence_signature": "4ae347dd44c7b2394a8e40c99acb06e8dcafb60abb97acbf6f3c0aeb8e7ed104",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "substantive_detail_lineage_required": true,
+        "active_contest_fact_lineage_required": true,
+        "threshold_evaluation_lineage_required": true,
+        "routing_does_not_register_match": true,
+        "threshold_eligibility_does_not_register_match": true,
+        "entity_mentions_do_not_establish_positions": true,
+        "retracted_facts_excluded": true,
+        "no_projection_effect_without_registered_target": true
+      }
+    },
+    {
+      "event_id": "CHG-WATCH-APH-LIVE-MINUTES-20260916113535",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-FED",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-APH-LIVE-MINUTES-20260916113535",
+      "captured_at": "2026-09-16T11:35:35.279Z",
+      "event_date": "2026-09-16",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_PARLIAMENT",
+      "source_id": "SRC-APH-LIVE-MINUTES",
+      "capture_mode": "NORMALISED_PAGE_HASH",
+      "review_policy": "REVIEW_UNSTRUCTURED_CHANGE",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-APH-LIVE-MINUTES-20260916060300",
+        "content_hash": "0fe07bed2f09a090d1095c7dcf99d094e08cda29780c4e0039eff390b982cde8",
+        "capture_mode": "NORMALISED_PAGE_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-APH-LIVE-MINUTES-20260916113535",
+        "content_hash": "11412040ba2d45c0769a2f257227a12ed6fa6a46c4c8d63723917f6ee8c9fa03",
+        "capture_mode": "NORMALISED_PAGE_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "TEXT_REPRESENTATION",
+        "first_difference_offset": 14478,
+        "before_length": 16238,
+        "after_length": 37299,
+        "before_excerpt": "scussion ensued. Mr Hill , <TIME>. Mr Hogan , <TIME>. Ms Briskey , <TIME>. Mr McCormack , <TIME>. Ms Campbell , <TIME>. In this section Bills and Legislation Tabled documents Chamber documents Work of the Senate House of Representatives cha",
+        "after_excerpt": "scussion ensued. Mr Hill , <TIME>. Mr Hogan , <TIME>. Ms Briskey , <TIME>. Mr McCormack , <TIME>. Ms Campbell , <TIME>. Ms Landry , <TIME>. Mr Gregg , <TIME>. Mr Rebello , <TIME>. Mr M Smith , <TIME>. - <TIME> Discussion concluded. - <TIME> 15 SUSPENSION OF STANDING AND SESSIONAL ORDERS MOVED Mr Katter moved—That so much of the standing and sessional orders be suspended as would prevent the Member for Kennedy moving the following—That the House: (1) notes: (a) Australia has agreed to a number of international commitments relating to modern slavery, forced labour and child labour including the Palermo Protocol, conventions established by the International Labour Organization and the Convention on the Rights of the Child; (b) Australia implements these commitments by focusing on supply-chain transparency that only applies to entities with annual consolidated revenue of at least $100 million (0.11 per cent of Australian companies) and, even then, only requires reporting on risks and mitigation measures; (c) strong evidence is available that fresh fruit and vegetables produced overseas are produced using slave labour wage levels, extending to child labour; (d) Australia currently assesses fresh produce import applications without any consideration of the need for the product or the working conditions under which it reached our shores; (e) by comparison, the United States has a stronger import-control framework with import prohibitions, which more closely aligns with international commitments; and (f) Australia must move from ‘report and disclose’ toward ‘report, investigate and prohibit’ to ensure: (i) stronger and more effective implementation of international obligations; (ii) Australia does not become a destination market for at-risk goods; (iii) support for Australian businesses, including the vulnerable agriculture and manufacturing sectors; and (iv) alignment with emerging international trends towards mandatory due diligence and import controls; and (2) calls on the Government to: (a) prohibit imports linked to slave labour wage levels, extending to child labour (modelled on Section 307 of the US Tariff Act, but also including specific provisions in relation to fresh produce); (b) provide the Australian Border Force with authority to investigate, detain, require evidence and seize or exclude goods; (c) establish a rebuttable presumption of prohibition for high-risk goods (that is, agricultural products) that originate from specified regions, sectors or entities associated with forced labour; and (d) extend the existing Modern Slavery Act to apply to all importers and require reports to feed into a list of prohibited high-risk goods. - <TIME> Debate ensued. Mr Hill , <TIME>. - <TIME> Debate adjourned ( Dr Charlton — Assistant Minister for Science, Technology and the Digital Economy ) , and the resumption of the debate made an order of the day for the next sitting . - <TIME> 16 MESSAGE FROM THE SENATE— Health Legislation Amendment (Improving Choice and Transparency for Private Health Consumers) Bill 2026 Message No. 178 , 15 September 2026 , from the Senate was reported returning the Health Legislation Amendment (Improving Choice and Transparency for Private Health Consumers) Bill 2026 with amendments . - <TIME> Ordered—That the amendment s be considered immediately . - <TIME> On the motion of Mr Butler ( Minister for Health and Ageing ) , the amendments were agreed to . - <TIME> 17 Private Health Insurance Amendment (Modernising the Private Health Insurance Rebate) Bill 2026 The order of the day having been read for the resumption of the debate on the question—That the bill be now read a second time— And on the amendment moved thereto by Dr M Ryan ( see item No. 10, page XX ) — Debate resumed. Mr Caldwell , <TIME>. - <TIME> Mr Thompson moved, as an amendment to the amendment proposed by Dr M Ryan — That all words after “reading” be omitted with a view to substituting the following words: “while also: (1) noting that: (a) the Government developed this $11 billion tax on older Australians without adequate consultation with industry, stakeholders, or state and territory governments; (b) the Government did not determine how many of the 3.1 million older Australians affected are pensioners, until forced to do so by stakeholders, and now concedes the figure is well in excess of one million; (c) these pensioners, and older Australians on fixed incomes more broadly, must absorb higher costs or go without care, with couples aged over 65 with gold cover to be slugged up to $1,614 a year extra from April 2027; (d) independent modelling by Finity Consulting, provided to the Government, finds that for every dollar saved by cutting the rebate, the public hospital system will be charged $1.20 in extra hospital admissions and pressure; (e) the Government’s own modelling concedes at least 44,000 older Australians will drop their cover, while industry research suggests more than 250,000 older Australians will drop or downgrade their cover, pushing more Australians onto public elective surgery waitlists and increasing ambulance ramping; (f) evidence to the Senate inquiry into the bill found this measure places private maternity services at risk of closure and will increase the cost of having a baby; (g) health ministers in New South Wales, South Australia, Victoria, Queensland, Tasmania and the Northern Territory have all warned this measure will push more patients onto public hospital waiting lists, worsen elective surgery delays and leave older patients stranded in hospital; and (h) this policy is a false economy that will cost the health system, and taxpayers of all ages, more than it saves; and (2) calling on the Government to immediately abandon this bill and scrap this damaging policy in its entirety”. Mr Buchholz , <TIME>. - <TIME> Question—That the amendment moved by Mr Thompson to the amendment proposed by Dr M Ryan be agreed to —put . - <TIME> Division 281 The House divided (the Speaker, Mr Dick, in the Chair)— AYES, 46 Ms Aldred* Dr Haines Ms McKenzie Mr Small Mr Batt Mr Hamilton Mr Ted O’Brien Mr Tehan Ms Bell Mr Hastie Mr L O’Brien Mr Thompson Mr Birrell Mr Hawke Mr Pasin Mr Violi Mr Boyce Mr Hogan Ms Penfold Mr Wallace Mr Buchholz Mr Joyce Mr Pike Dr Webster Mr Caldwell Mr Kennedy Ms Price Mr Wilkie Mr Chaffey Ms Landry* Mr Rebello Mr Willcox Ms Chaney Ms Le Dr M Ryan Mr R Wilson Mr Chester Mr Littleproud Dr Scamps Mr T Wilson Mr Farley Mr McCormack Ms Sharkie Mr Wood Mr Gee Mrs McIntosh NOES, 86 Mr Abdo Ms Comer Mr Keogh Dr Reid Dr Aly Mr Conroy Mr Khalil Mr Repacholi Ms Ambihaipahar Ms K Cook Ms C King Ms Rishworth Ms Belyea Dr T Cook Ms M M H King Ms Roberts Ms Berry Mr Dreyfus Ms Lawrence Ms Rowland Mr Bowen Mrs Elliot Mr Laxale Ms J Ryan Ms Briskey Ms Fernando Dr Leigh Ms Scrymgour Mr Burke Ms France Mr Lim Ms Sitou Mr Burnell Dr Freelander Ms McBride Mr D Smith* Mr Burns Mr French Mr Marles Mr M Smith Mr Butler Dr Garland Ms Mascarenhas Mr Soon Ms Byrnes Mr Georganas Ms Miller-Frost Ms Spender Ms Campbell Mr Giles Mr Mitchell Ms Stanley* Dr Chalmers Mr Gorman Mr Moncrieff Ms Teesdale Dr Charlton Mr Gosling Dr Mulino Ms Templeman Ms Chesters Mr Gregg Mr Neumann Ms Thwaites Mr Clare Mr Hill Mr Ng Ms Urquhart Ms Claydon Mr Holzberger Ms O’Neil Ms Wells Ms Clutterham Mr Husic Ms Payne Ms White Ms Coffey Ms Jarrett Mrs Phillips Ms Witty Ms Coker Ms Jordan-Baird Ms Plibersek Mr Zappia Ms Collins Ms Kearney * Tellers And so it was negatived. - <TIME> Question—That the amendment moved by Dr M Ryan be agreed to —put . - <TIME> Division 282 The House divided (the Speaker, Mr Dick, in the Chair)— AYES, 45 Ms Aldred Mr Hamilton Ms McKenzie Mr Small Mr Batt Mr Hastie Mr Ted O’Brien Mr Tehan Ms Bell Mr Hawke Mr L O’Brien Mr Thompson Mr Birrell Mr Hogan Mr Pasin Mr Violi Mr Boyce Mr Kennedy Ms Penfold Mr Wallace Mr Buchholz Ms Landry Mr Pike Dr Webster Mr Caldwell Ms Le Ms Price Mr Wilkie Mr Chaffey Mr Leeser Mr Rebello Mr Willcox Ms Chaney Mr Littleproud Dr M Ryan* Mr R Wilson Mr Chester Mr McCormack Dr Scamps Mr T Wilson Mr Gee Mrs McIntosh Ms Sharkie* Mr Wood Dr Haines NOES, 87 Mr Abdo Ms Comer Mr Keogh Dr Reid Dr Aly Mr Conroy Mr Khalil Mr Repacholi Ms Ambihaipahar Ms K Cook Ms C King Ms Rishworth Ms Belyea Dr T Cook Ms M M H King Ms Roberts Ms Berry Mr Dreyfus Ms Lawrence Ms Rowland Mr Bowen Mrs Elliot Mr Laxale Ms J Ryan Ms Briskey Ms Fernando Dr Leigh Ms Scrymgour Mr Burke Ms France Mr Lim Ms Sitou Mr Burnell Dr Freelander Ms McBain Mr D Smith* Mr Burns Mr French Ms McBride Mr M Smith Mr Butler Dr Garland Ms Mascarenhas Mr Soon Ms Byrnes Mr Georganas Ms Miller-Frost Ms Spender Ms Campbell Mr Giles Mr Mitchell Ms Stanley* Dr Chalmers Mr Gorman Mr Moncrieff Ms Teesdale Dr Charlton Mr Gosling Dr Mulino Ms Templeman Ms Chesters Mr Gregg Mr Neumann Ms Thwaites Mr Clare Mr Hill Mr Ng Ms Urquhart Ms Claydon Mr Holzberger Ms O’Neil Ms Wells Ms Clutterham Mr Husic Ms Payne Ms White Ms Coffey Ms Jarrett Mrs Phillips Ms Witty Ms Coker Ms Jordan-Baird Ms Plibersek Mr Zappia Ms Collins Ms Kearney Mr Rae * Tellers And so it was negatived. - <TIME> Question—That the bill be now read a second time—put. - <TIME> Division 283 The House divided (the Speaker, Mr Dick, in the Chair)— AYES, 86 Mr Abdo Ms Comer Mr Khalil Dr Reid Dr Aly Mr Conroy Ms C King Mr Repacholi Ms Ambihaipahar Ms K Cook Ms M M H King Ms Rishworth Ms Belyea Dr T Cook Ms Lawrence Ms Roberts Ms Berry Mr Dreyfus Mr Laxale Ms Rowland Mr Bowen Mrs Elliot Dr Leigh Ms J Ryan Ms Briskey Ms Fernando Mr Lim Ms Scrymgour Mr Burke Ms France Ms McBain Ms Sitou Mr Burnell Dr Freelander Ms McBride Mr D Smith* Mr Burns Mr French Ms Mascarenhas Mr M Smith Mr Butler Dr Garland Ms Miller-Frost Mr Soon Ms Byrnes Mr Georganas Mr Mitchell Ms Spender Ms Campbell Mr Giles Mr Moncrieff Ms Stanley* Dr Chalmers Mr Gorman Dr Mulino Ms Teesdale Dr Charlton Mr Gosling Mr Neumann Ms Templeman Ms Chesters Mr Gregg Mr Ng Ms Thwaites Mr Clare Mr Hill Ms O’Neil Ms Urquhart Ms Claydon Mr Holzberger Ms Payne Ms Wells Ms Clutterham Mr Husic Mrs Phillips Ms White Ms Coffey Ms Jarrett Ms Plibersek Ms Witty Ms Coker Ms Jordan-Baird Mr Rae Mr Zappia Ms Collins Mr Keogh NOES, 47 Ms Aldred* Dr Haines Mrs McIntosh Mr Small Mr Batt Mr Hamilton Ms McKenzie Mr Tehan Ms Bell Mr Hastie Mr Ted O’Brien Mr Thompson Mr Birrell Mr Hawke Mr L O’Brien Mr Violi Mr Boyce Mr Hogan Mr Pasin Mr Wallace Mr Buchholz Mr Joyce Ms Penfold Dr Webster Mr Caldwell Mr Kennedy Mr Pike Mr Wilkie Mr Chaffey Ms Landry* Ms Price Mr Willcox Ms Chaney Ms Le Mr Rebello Mr R Wilson Mr Chester Mr Leeser Dr M Ryan Mr T Wilson Mr Farley Mr Littleproud Dr Scamps Mr Wood Mr Gee Mr McCormack Ms Sharkie * Tellers And so it was resolved in the affirmative. - <TIME> —bill read a second time. - <TIME> Consideration in detail Bill , by leave, taken as a whole. - <TIME> Dr M Ryan moved an amendment . - <TIME> Question—That the amendment be agreed to—put. - <TIME> Division 284 The House divided (the Speaker, Mr Dick, in the Chair)— AYES, 9 Ms Chaney Ms Le Dr Scamps* Ms Steggall Mr Gee Dr M Ryan* Ms Sharkie Mr Wilkie Dr Haines NOES, 85 Mr Abdo Ms K Cook Ms C King Mr Repacholi Dr Aly Dr T Cook Ms M M H King Ms Rishworth Ms Ambihaipahar Mr Dreyfus Ms Lawrence Ms Roberts Ms Belyea Mrs Elliot Mr Laxale Ms Rowland Ms Berry Ms Fernando Dr Leigh Ms J Ryan Mr Bowen Ms France Mr Lim Ms Scrymgour Ms Briskey Dr Freelander Ms McBain Ms Sitou Mr Burke Mr French Ms McBride Mr D Smith* Mr Burnell Dr Garland Ms Mascarenhas Mr M Smith Mr Burns Mr Georganas Ms Miller-Frost Mr Soon Mr Butler Mr Giles Mr Mitchell Ms Spender Ms Byrnes Mr Gorman Mr Moncrieff Ms Stanley* Ms Campbell Mr Gosling Dr Mulino Ms Teesdale Dr Charlton Mr Gregg Mr Neumann Ms Templeman Ms Chesters Mr Hill Mr Ng Mr Thistlethwaite Mr Clare Mr Holzberger Ms O’Neil Ms Thwaites Ms Claydon Mr Husic Ms Payne Ms Urquhart Ms Clutterham Ms Jarrett Mrs Phillips Ms Wells Ms Coffey Ms Jordan-Baird Ms Plibersek Ms White Ms Coker Ms Kearney Mr Rae Ms Witty Ms Collins Mr Khalil Dr Reid Mr Zappia Ms Comer * Tellers And so it was negatived. - <TIME> Question— That the bill be agreed to — put . - <TIME> Division 285 The House divided (the Speaker, Mr Dick, in the Chair)— AYES, 87 Mr Abdo Ms Comer Mr Khalil Mr Repacholi Dr Aly Mr Conroy Ms C King Ms Rishworth Ms Ambihaipahar Ms K Cook Ms M M H King Ms Roberts Ms Belyea Dr T Cook Ms Lawrence Ms Rowland Ms Berry Mr Dreyfus Mr Laxale Ms J Ryan Mr Bowen Mrs Elliot Dr Leigh Ms Scrymgour Ms Briskey Ms Fernando Mr Lim Ms Sitou Mr Burke Ms France Ms McBain Mr D Smith* Mr Burnell Dr Freelander Ms McBride Mr M Smith Mr Burns Mr French Ms Mascarenhas Mr Soon Mr Butler Dr Garland Ms Miller-Frost Ms Spender Ms Byrnes Mr Georganas Mr Mitchell Ms Stanley* Ms Campbell Mr Giles Mr Moncrieff Ms Teesdale Dr Chalmers Mr Gorman Dr Mulino Ms Templeman Dr Charlton Mr Gosling Mr Neumann Mr Thistlethwaite Ms Chesters Mr Gregg Mr Ng Ms Thwaites Mr Clare Mr Hill Ms O’Neil Ms Urquhart Ms Claydon Mr Holzberger Ms Payne Ms Wells Ms Clutterham Mr Husic Mrs Phillips Ms White Ms Coffey Ms Jarrett Ms Plibersek Ms Witty Ms Coker Ms Jordan-Baird Mr Rae Mr Zappia Ms Collins Ms Kearney Dr Reid NOES, 48 Ms Aldred* Dr Haines Mrs McIntosh Mr Small Mr Batt Mr Hamilton Ms McKenzie Ms Steggall Ms Bell Mr Hastie Mr Ted O’Brien Mr Tehan Mr Birrell Mr Hawke Mr L O’Brien Mr Thompson Mr Boyce Mr Hogan Mr Pasin Mr Violi Mr Buchholz Mr Joyce Ms Penfold Mr Wallace Mr Caldwell Mr Kennedy Mr Pike Dr Webster Mr Chaffey Ms Landry* Ms Price Mr Wilkie Ms Chaney Ms Le Mr Rebello Mr Willcox Mr Chester Mr Leeser Dr M Ryan Mr R Wilson Mr Farley Mr Littleproud Dr Scamps Mr T Wilson Mr Gee Mr McCormack Ms Sharkie Mr Wood * Tellers And so it was resolved in the affirmative. - <TIME> Bill agreed to. Consideration in detail concluded. - <TIME> Mr Butler ( Minister for Health and Ageing ) , by leave, moved—That the bill be now read a third time. - <TIME> Question—put. - <TIME> Division 286 The House divided (the Speaker, Mr Dick, in the Chair)— AYES, 88 Mr Abdo Ms Comer Mr Keogh Dr Reid Dr Aly Mr Conroy Mr Khalil Mr Repacholi Ms Ambihaipahar Ms K Cook Ms C King Ms Rishworth Ms Belyea Dr T Cook Ms M M H King Ms Roberts Ms Berry Mr Dreyfus Ms Lawrence Ms Rowland Mr Bowen Mrs Elliot Mr Laxale Ms J Ryan Ms Briskey Ms Fernando Dr Leigh Ms Scrymgour Mr Burke Ms France Mr Lim Ms Sitou Mr Burnell Dr Freelander Ms McBain Mr D Smith* Mr Burns Mr French Ms McBride Mr M Smith Mr Butler Dr Garland Ms Mascarenhas Mr Soon Ms Byrnes Mr Georganas Ms Miller-Frost Ms Spender Ms Campbell Mr Giles Mr Mitchell Ms Stanley* Dr Chalmers Mr Gorman Mr Moncrieff Ms Teesdale Dr Charlton Mr Gosling Dr Mulino Ms Templeman Ms Chesters Mr Gregg Mr Neumann Mr Thistlethwaite Mr Clare Mr Hill Mr Ng Ms Thwaites Ms Claydon Mr Holzberger Ms O’Neil Ms Urquhart Ms Clutterham Mr Husic Ms Payne Ms Wells Ms Coffey Ms Jarrett Mrs Phillips Ms White Ms Coker Ms Jordan-Baird Ms Plibersek Ms Witty Ms Collins Ms Kearney Mr Rae Mr Zappia NOES, 48 Ms Aldred* Dr Haines Mrs McIntosh Mr Small Mr Batt Mr Hamilton Ms McKenzie Ms Steggall Ms Bell Mr Hastie Mr Ted O’Brien Mr Tehan Mr Birrell Mr Hawke Mr L O’Brien Mr Thompson Mr Boyce Mr Hogan Mr Pasin Mr Violi Mr Buchholz Mr Joyce Ms Penfold Mr Wallace Mr Caldwell Mr Kennedy Mr Pike Dr Webster Mr Chaffey Ms Landry* Ms Price Mr Wilkie Ms Chaney Ms Le Mr Rebello Mr Willcox Mr Chester Mr Leeser Dr M Ryan Mr R Wilson Mr Farley Mr Littleproud Dr Scamps Mr T Wilson Mr Gee Mr McCormack Ms Sharkie Mr Wood * Tellers And so it was resolved in the affirmative. - <TIME> — bill read a third time. - <TIME> 18 SUSPENSION OF STANDING AND SESSIONAL ORDERS MOVED Mr Tehan ( Manager of Opposition Business ) mov ing a suspension of standing and sessional orders— - <TIME> Order o f t he d ay c alled o n Mr Burke ( Leader of the House ) moved— That order of the day No. 3 , government business, be called on immediately . - <TIME> Question—put. - <TIME> Division 287 The House divided (the Speaker, Mr Dick, in the Chair)— AYES, 84 Mr Abdo Ms Collins Ms Jordan-Baird Mrs Phillips Dr Aly Ms Comer Ms Kearney Ms Plibersek Ms Ambihaipahar Mr Conroy Mr Khalil Mr Rae Ms Belyea Ms K Cook Ms C King Dr Reid Ms Berry Dr T Cook Ms M M H King Mr Repacholi Mr Bowen Mr Dreyfus Ms Lawrence Ms Roberts Ms Briskey Mrs Elliot Mr Laxale Ms Rowland Mr Burke Ms Fernando Dr Leigh Ms J Ryan Mr Burnell Ms France Mr Lim Ms Scrymgour Mr Burns Dr Freelander Ms McBain Ms Sitou Mr Butler Mr French Ms McBride Mr D Smith* Ms Byrnes Dr Garland Mr Marles Mr M Smith Ms Campbell Mr Georganas Ms Mascarenhas Ms Stanley* Dr Chalmers Mr Giles Ms Miller-Frost Ms Teesdale Dr Charlton Mr Gorman Mr Mitchell Ms Templeman Ms Chesters Mr Gosling Mr Moncrieff Ms Thwaites Mr Clare Mr Gregg Dr Mulino Ms Urquhart Ms Claydon Mr Hill Mr Neumann Ms Wells Ms Clutterham Mr Holzberger Mr Ng Ms White Ms Coffey Mr Husic Ms O’Neil Ms Witty Ms Coker Ms Jarrett Ms Payne Mr Zappia NOES, 44 Ms Aldred* Mr Gee Mr McCormack Mr Small Mr Batt Dr Haines Mrs McIntosh Mr Tehan Ms Bell Mr Hamilton Ms McKenzie Mr Thompson Mr Birrell Mr Hastie Mr L O’Brien Mr Violi Mr Boyce Mr Hawke Mr Pasin Mr Wallace Mr Buchholz Mr Hogan Ms Penfold Dr Webster Mr Caldwell Mr Joyce Mr Pike Mr Wilkie Mr Chaffey Mr Kennedy Ms Price Mr Willcox Ms Chaney Ms Landry* Mr Rebello Mr R Wilson Mr Chester Mr Leeser Dr M Ryan Mr T Wilson Mr Farley Mr Littleproud Ms Sharkie Mr Wood * Tellers And so it was resolved in the affirmative. - <TIME> 19 Carbon Credits and Other Legislation Amendment (Integrity and Transparency) Bill 2026 The order of the day having been read for the resumption of the debate on the question—That the bill be now read a second time— - <TIME> Debate resumed by Mr Tehan who moved, as an amendment— That all words after “That” be omitted with a view to substituting the following words: “the House declines to give the bill a second reading as it is of the view that: (1) the bill: (a) progresses the Government’s failing net zero agenda; (b) increases lawfare, undermines responsible emissions reduction, and raises costs on industry; (c) repeals the ‘least cost’ test in favour of an opaque ‘value for money’ regime; and (d) hands the Minister for Climate Change and Energy new, unilateral powers on an unfounded basis; (2) the Government’s deal in the Senate on Thursday, 10 September 2026, undermines the integrity of the Australian Carbon Credit Units Scheme; and (3) the Government must scrap its punitive carbon tax, the Safeguard Mechanism”. Debate ensued. Ms Thwaites , <TIME>. Ms Watson-Brown , <TIME>. Ms Berry , <TIME>. Ms Penfold , <TIME>. - <TIME> 20 ADJOURNMENT It being 7.30 pm —The question was proposed—That the House do now adjourn. Debate ensued. Mr Farley , <TIME>. Mrs Elliot , <TIME>. Mr Tehan , <TIME>. Mr Dreyfus , <TIME>. Ms Price , <TIME>. Ms Witty , <TIME>. - <TIME> The House continuing to sit until 8.01 pm —The Speaker adjourned the House until 9 am tomorrow. - <TIME> DOCUMENT S The following document s were deemed to have been presented on 16 September 2026 (An explanatory statement has been presented with each instrument unless otherwise indicated by an asterisk) : Biosecurity Act 2015— Biosecurity (Ship Sanitation Certification Scheme—Ports) Declaration 2026 [F2026L01208]. Corporations Act 2001— ASIC Corporations ( Dematerialised Securities: Austraclear ) Instrument 2026/754 [F2026L01213]. ASIC Corporations (Disclosure of Directors’ Interests) Instrument 2026/758 [F2026L01215]. ASIC Corporations (Qualified Accountant) Instrument 2026/734 — [F2026L01209] . Dashboard impact analysis. ASIC Corporations (Records: Dealings on Foreign Markets) Instrument 2026/755 [F2026L01214]. Federal Financial Relations Act 2009— Federal Financial Relations (General Purpose Financial Assistance—2026-27 Payment No. 3) Determination 2026 [F2026L01212]. Future Made in Australia (Guarantee of Origin) Act 2024— Future Made in Australia (Guarantee of Origin) Legislation Amendment (Measures No. 1) Instrument 2026 [F2026L01217]. Industry Research and Development Act 1986— Industry Research and Development (Cliff Head Field Temporary Operations Program) Instrument 2026 [F2026L01220]. Migration Act 1958— Notices under section 501C— 11 September 2026. 15 September 2026. Military Rehabilitation and Compensation Act 2004— Motor Vehicle Compensation Scheme 2026 [F2026L01203]. Public Governance, Performance and Accountability Act 2013— Notices under section 72—Commonwealth acquired shares in NBN Co Limited—10 September 2026 [2]. Radiocommunications Act 1992— Radiocommunications (Aircraft and Aeronautical Mobile Stations) Class Licence 2026 [F2026L01200]. Radiocommunications (Emergency Locating Devices) Class Licence 2026 [F2026L01199]. Tax Agent Services Act 2009— Tax Agent Services (Code of Professional Conduct) Amendment (Enhancing Tax Practitioners Board Sanctions) Determination 2026 [F2026L01196]. Therapeutic Goods Act 1989— Therapeutic Goods (Permissible Ingredients) Amendment (Removal of Andrographis Paniculata) Determination 2026 [F2026L01211]. - <TIME> ATTENDANCE All Members attended (at some time during the sitting) except Ms Boele , Mr Conaghan , * Ms Doyle , * Ms Swanson , Mr Venning , Mr Watts , Mr J Wilson and * Mr Young . * On leave In this section Bills and Legislation Tabled documents Chamber documents Work of the Senate House of Representatives cha",
+        "delta_hash": "f758371e09a7cec62e6bcd3e45bccf5cac83245863c6b91ba18f9fdfa9a81694"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-APH-BILLS-20260916113535",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-FED",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-APH-BILLS-20260916113535",
+      "captured_at": "2026-09-16T11:35:35.279Z",
+      "event_date": "2026-09-16",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_PARLIAMENT",
+      "source_id": "SRC-APH-BILLS",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "review_policy": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-APH-BILLS-20260916060300",
+        "content_hash": "fdb8dbaeefd0b084393963578eb841f8bf5d11d3c8bce2274f5b5f5e32fb244b",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-APH-BILLS-20260916113535",
+        "content_hash": "e3b42894914e983e60c4acff89deb70ecec2b5101b9dc275783926865f9cecfa",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "STRUCTURED_RECORD_SET",
+        "records_added": [
+          {
+            "record_id": "2a6999b453936296e183",
+            "title": "Knox Class Action (Facilitation) Bill 2026",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7539"
+          },
+          {
+            "record_id": "68ea1d349e472a585e69",
+            "title": "Health Insurance Amendment (Incentive Payments and...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7491"
+          },
+          {
+            "record_id": "99f9eb5ee6cd3cbb89d8",
+            "title": "Carbon Credits and Other Legislation Amendment (In...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7532"
+          }
+        ],
+        "records_removed": [
+          {
+            "record_id": "6a0c13d6814e5c99a3c6",
+            "title": "A New Tax System (Family Assistance) Amendment (No...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=s1482"
+          },
+          {
+            "record_id": "6a8c24adf037db28b31b",
+            "title": "Anti-Money Laundering and Counter-Terrorism Financ...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7448"
+          },
+          {
+            "record_id": "ba16f1a261ed547f15f0",
+            "title": "Universities Accord (Opening the Doors of Opportun...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7501"
+          }
+        ],
+        "added_count": 3,
+        "removed_count": 3,
+        "before_count": 96,
+        "after_count": 96,
+        "delta_hash": "7042393b1c691dc0bf88819f741781365fe3abee1ce0cd28884064e2a80381ba"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-ALP-NEWS-20260916113535",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-FED",
+      "party_id": "AUS-FED-ALP",
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-ALP-NEWS-20260916113535",
+      "captured_at": "2026-09-16T11:35:35.279Z",
+      "event_date": "2026-09-16",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_PARTY",
+      "source_id": "SRC-ALP-FEDERAL-NEWS",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "review_policy": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-ALP-NEWS-20260916060300",
+        "content_hash": "94db7fa84eb9cd4975e6a91887ddea3681f8439c63091f26f6a661030aa020b1",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-ALP-NEWS-20260916113535",
+        "content_hash": "ed08810671e8f56d80bccf8ea9eef67f8b10ee661515c99db5d4f53e82ff634d",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "STRUCTURED_RECORD_SET",
+        "records_added": [
+          {
+            "record_id": "098980bc131645dfc196",
+            "title": "15% pay rise for early educators locked in 15 September 2026",
+            "url": "https://www.alp.org.au/news/all-news/15-pay-rise-for-early-educators-locked-in/"
+          },
+          {
+            "record_id": "85939b4168a3b3908699",
+            "title": "Trade apprentice completions highest in a decade 15 September 2026",
+            "url": "https://www.alp.org.au/news/all-news/trade-apprentice-completions-reach-highest-level-in-a-decade/"
+          }
+        ],
+        "records_removed": [],
+        "added_count": 2,
+        "removed_count": 0,
+        "before_count": 471,
+        "after_count": 473,
+        "delta_hash": "a54c99a4108406f01bf55d03626dd683106f1f9d84df2d12bd1627fa99be4c63"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-ONENATION-NEWS-20260916113535",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-FED",
+      "party_id": "AUS-FED-ONP",
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-ONENATION-NEWS-20260916113535",
+      "captured_at": "2026-09-16T11:35:35.279Z",
+      "event_date": "2026-09-16",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_PARTY",
+      "source_id": "SRC-ONENATION-FEDERAL-NEWS",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "review_policy": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-ONENATION-NEWS-20260915074540",
+        "content_hash": "c3d2b41e37223d78b494f6c2f02f64edf2d27146807ed6fa13e8f82fc4709dac",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-ONENATION-NEWS-20260916113535",
+        "content_hash": "ab705e16138d913a4cbcd58c064da01747411bbff1f7b80d6b3d73962c67c8fc",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "STRUCTURED_RECORD_SET",
+        "records_added": [
+          {
+            "record_id": "612de1165d536204014a",
+            "title": "Rikkie-Lee Tyrrell Calls for an End to Political Indoctrination in Victorian Schools",
+            "url": "http://www.onenation.org.au/victoria-classroom-indoctrination",
+            "published": "Wed, 16 Sep 2026 19:00:32 +1000"
+          },
+          {
+            "record_id": "de96f7add11d9ed39913",
+            "title": "One Nation Immigration Plan Targets Family Visas for Overseas Students",
+            "url": "http://www.onenation.org.au/student-family-visa-reform",
+            "published": "Wed, 16 Sep 2026 19:00:38 +1000"
+          }
+        ],
+        "records_removed": [
+          {
+            "record_id": "95612fa8d250204d3576",
+            "title": "Pauline Hanson Unveils One Nation’s 3% Super Pay Boost",
+            "url": "http://www.onenation.org.au/super-pay-boost",
+            "published": "Mon, 07 Sep 2026 12:08:56 +1000"
+          },
+          {
+            "record_id": "e659b6f1d2594415c36b",
+            "title": "One Nation Questions Labor’s New Climate Change ‘Misinformation’ Unit",
+            "url": "http://www.onenation.org.au/climate-misinformation-unit",
+            "published": "Mon, 07 Sep 2026 11:00:00 +1000"
+          }
+        ],
+        "added_count": 2,
+        "removed_count": 2,
+        "before_count": 20,
+        "after_count": 20,
+        "delta_hash": "306b5a9b73f1d9de9a2f7428ddfc4ad7fa51cf552bcae6fc49c53e9d2ad1de09"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20260916113535",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-QLD",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-QLD-MINISTERIAL-STATEMENTS-20260916113535",
+      "captured_at": "2026-09-16T11:35:35.279Z",
+      "event_date": "2026-09-16",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-QLD-MINISTERIAL-STATEMENTS",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "review_policy": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-QLD-MINISTERIAL-STATEMENTS-20260916060300",
+        "content_hash": "59eab9791bc1a84b3b2bd82aa966292f08a77068b27bf781ab3caaaafadf4722",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-QLD-MINISTERIAL-STATEMENTS-20260916113535",
+        "content_hash": "d732cae011086af06c277aced2758384e6fc746d15b7a4d1505e23542106c403",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "STRUCTURED_RECORD_SET",
+        "records_added": [
+          {
+            "record_id": "a9e40e247bf2caa69337",
+            "title": "Victims put first in major reforms marking National Victims of Crime Day",
+            "url": "https://statements.qld.gov.au/statements/106066"
+          }
+        ],
+        "records_removed": [
+          {
+            "record_id": "fc29221a5bb9f34eb284",
+            "title": "Major milestone as Cairns Hospital Expansion builds momentum",
+            "url": "https://statements.qld.gov.au/statements/106051"
+          }
+        ],
+        "added_count": 1,
+        "removed_count": 1,
+        "before_count": 16,
+        "after_count": 16,
+        "delta_hash": "f951f892ee45d64bccbc034dd597670d3eb89f18675d56de2ede7dc1bc563e92"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "SIG-REV-CHG-WATCH-APH-BILLS-20260916113535",
+      "parent_event_id": "CHG-WATCH-APH-BILLS-20260916113535",
+      "review_id": "REV-CHG-WATCH-APH-BILLS-20260916113535",
+      "jurisdiction_id": "AUS-FED",
+      "party_id": null,
+      "actor_id": null,
+      "contest_id": null,
+      "cycle_id": null,
+      "source_snapshot_id": "AUTO-WATCH-APH-BILLS-20260916113535",
+      "record_id": null,
+      "captured_at": "2026-09-16T11:36:53.642Z",
+      "event_date": "2026-09-16",
+      "checkpoint": "CONTINUOUS_FORWARD_SIGNAL_REVIEW",
+      "event_type": "SIGNAL_CREATED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_PARLIAMENT",
+      "source_id": "SRC-APH-BILLS",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "claim": "Parliament of Australia — Bills and Legislation added 3 structured publication records to its forward-captured official index: Knox Class Action (Facilitation) Bill 2026; Health Insurance Amendment (Incentive Payments and...; Carbon Credits and Other Legislation Amendment (In...",
+      "observed_behaviour": "One or more structured publication records appeared in the monitored official source index after the preceding forward snapshot.",
+      "publication_records_added": [
+        {
+          "record_id": "2a6999b453936296e183",
+          "title": "Knox Class Action (Facilitation) Bill 2026",
+          "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7539"
+        },
+        {
+          "record_id": "68ea1d349e472a585e69",
+          "title": "Health Insurance Amendment (Incentive Payments and...",
+          "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7491"
+        },
+        {
+          "record_id": "99f9eb5ee6cd3cbb89d8",
+          "title": "Carbon Credits and Other Legislation Amendment (In...",
+          "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7532"
+        }
+      ],
+      "publication_records_removed": [
+        {
+          "record_id": "6a0c13d6814e5c99a3c6",
+          "title": "A New Tax System (Family Assistance) Amendment (No...",
+          "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=s1482"
+        },
+        {
+          "record_id": "6a8c24adf037db28b31b",
+          "title": "Anti-Money Laundering and Counter-Terrorism Financ...",
+          "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7448"
+        },
+        {
+          "record_id": "ba16f1a261ed547f15f0",
+          "title": "Universities Accord (Opening the Doors of Opportun...",
+          "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7501"
+        }
+      ],
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "underlying_publication_claims_not_promoted_to_verified_fact": true,
+        "source_change_parent_retained": true,
+        "deterministic_review": true
+      }
+    },
+    {
+      "event_id": "SIG-REV-CHG-WATCH-ALP-NEWS-20260916113535",
+      "parent_event_id": "CHG-WATCH-ALP-NEWS-20260916113535",
+      "review_id": "REV-CHG-WATCH-ALP-NEWS-20260916113535",
+      "jurisdiction_id": "AUS-FED",
+      "party_id": "AUS-FED-ALP",
+      "actor_id": null,
+      "contest_id": null,
+      "cycle_id": null,
+      "source_snapshot_id": "AUTO-WATCH-ALP-NEWS-20260916113535",
+      "record_id": null,
+      "captured_at": "2026-09-16T11:36:53.642Z",
+      "event_date": "2026-09-16",
+      "checkpoint": "CONTINUOUS_FORWARD_SIGNAL_REVIEW",
+      "event_type": "SIGNAL_CREATED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_PARTY",
+      "source_id": "SRC-ALP-FEDERAL-NEWS",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "claim": "Australian Labor Party — news added 2 structured publication records to its forward-captured official index: 15% pay rise for early educators locked in 15 September 2026; Trade apprentice completions highest in a decade 15 September 2026",
+      "observed_behaviour": "One or more structured publication records appeared in the monitored official source index after the preceding forward snapshot.",
+      "publication_records_added": [
+        {
+          "record_id": "098980bc131645dfc196",
+          "title": "15% pay rise for early educators locked in 15 September 2026",
+          "url": "https://www.alp.org.au/news/all-news/15-pay-rise-for-early-educators-locked-in/"
+        },
+        {
+          "record_id": "85939b4168a3b3908699",
+          "title": "Trade apprentice completions highest in a decade 15 September 2026",
+          "url": "https://www.alp.org.au/news/all-news/trade-apprentice-completions-reach-highest-level-in-a-decade/"
+        }
+      ],
+      "publication_records_removed": [],
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "underlying_publication_claims_not_promoted_to_verified_fact": true,
+        "source_change_parent_retained": true,
+        "deterministic_review": true
+      }
+    },
+    {
+      "event_id": "SIG-REV-CHG-WATCH-ONENATION-NEWS-20260916113535",
+      "parent_event_id": "CHG-WATCH-ONENATION-NEWS-20260916113535",
+      "review_id": "REV-CHG-WATCH-ONENATION-NEWS-20260916113535",
+      "jurisdiction_id": "AUS-FED",
+      "party_id": "AUS-FED-ONP",
+      "actor_id": null,
+      "contest_id": null,
+      "cycle_id": null,
+      "source_snapshot_id": "AUTO-WATCH-ONENATION-NEWS-20260916113535",
+      "record_id": null,
+      "captured_at": "2026-09-16T11:36:53.642Z",
+      "event_date": "2026-09-16",
+      "checkpoint": "CONTINUOUS_FORWARD_SIGNAL_REVIEW",
+      "event_type": "SIGNAL_CREATED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_PARTY",
+      "source_id": "SRC-ONENATION-FEDERAL-NEWS",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "claim": "Pauline Hanson's One Nation — Latest News added 2 structured publication records to its forward-captured official index: Rikkie-Lee Tyrrell Calls for an End to Political Indoctrination in Victorian Schools; One Nation Immigration Plan Targets Family Visas for Overseas Students",
+      "observed_behaviour": "One or more structured publication records appeared in the monitored official source index after the preceding forward snapshot.",
+      "publication_records_added": [
+        {
+          "record_id": "612de1165d536204014a",
+          "title": "Rikkie-Lee Tyrrell Calls for an End to Political Indoctrination in Victorian Schools",
+          "url": "http://www.onenation.org.au/victoria-classroom-indoctrination",
+          "published": "Wed, 16 Sep 2026 19:00:32 +1000"
+        },
+        {
+          "record_id": "de96f7add11d9ed39913",
+          "title": "One Nation Immigration Plan Targets Family Visas for Overseas Students",
+          "url": "http://www.onenation.org.au/student-family-visa-reform",
+          "published": "Wed, 16 Sep 2026 19:00:38 +1000"
+        }
+      ],
+      "publication_records_removed": [
+        {
+          "record_id": "95612fa8d250204d3576",
+          "title": "Pauline Hanson Unveils One Nation’s 3% Super Pay Boost",
+          "url": "http://www.onenation.org.au/super-pay-boost",
+          "published": "Mon, 07 Sep 2026 12:08:56 +1000"
+        },
+        {
+          "record_id": "e659b6f1d2594415c36b",
+          "title": "One Nation Questions Labor’s New Climate Change ‘Misinformation’ Unit",
+          "url": "http://www.onenation.org.au/climate-misinformation-unit",
+          "published": "Mon, 07 Sep 2026 11:00:00 +1000"
+        }
+      ],
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "underlying_publication_claims_not_promoted_to_verified_fact": true,
+        "source_change_parent_retained": true,
+        "deterministic_review": true
+      }
+    },
+    {
+      "event_id": "SIG-REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20260916113535",
+      "parent_event_id": "CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20260916113535",
+      "review_id": "REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20260916113535",
+      "jurisdiction_id": "AUS-QLD",
+      "party_id": null,
+      "actor_id": null,
+      "contest_id": null,
+      "cycle_id": null,
+      "source_snapshot_id": "AUTO-WATCH-QLD-MINISTERIAL-STATEMENTS-20260916113535",
+      "record_id": "a9e40e247bf2caa69337",
+      "captured_at": "2026-09-16T11:36:53.642Z",
+      "event_date": "2026-09-16",
+      "checkpoint": "CONTINUOUS_FORWARD_SIGNAL_REVIEW",
+      "event_type": "SIGNAL_CREATED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-QLD-MINISTERIAL-STATEMENTS",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "claim": "Queensland Government — Ministerial Media Statements added 1 structured publication record to its forward-captured official index: Victims put first in major reforms marking National Victims of Crime Day",
+      "observed_behaviour": "One or more structured publication records appeared in the monitored official source index after the preceding forward snapshot.",
+      "publication_records_added": [
+        {
+          "record_id": "a9e40e247bf2caa69337",
+          "title": "Victims put first in major reforms marking National Victims of Crime Day",
+          "url": "https://statements.qld.gov.au/statements/106066"
+        }
+      ],
+      "publication_records_removed": [
+        {
+          "record_id": "fc29221a5bb9f34eb284",
+          "title": "Major milestone as Cairns Hospital Expansion builds momentum",
+          "url": "https://statements.qld.gov.au/statements/106051"
+        }
+      ],
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "underlying_publication_claims_not_promoted_to_verified_fact": true,
+        "source_change_parent_retained": true,
+        "deterministic_review": true
+      }
+    },
+    {
+      "event_id": "INTEL-AREA-a118ddb35931e937b36ccec5",
+      "parent_event_id": "SIG-REV-CHG-WATCH-APH-BILLS-20260916113535",
+      "jurisdiction_id": "AUS-FED",
+      "party_id": "AUS-FED-GRN",
+      "actor_id": "ACT-MELISSA-MCINTOSH",
+      "party_ids": [
+        "AUS-FED-GRN"
+      ],
+      "actor_ids": [
+        "ACT-MELISSA-MCINTOSH"
+      ],
+      "contest_id": null,
+      "cycle_id": null,
+      "competition_class": "LEGISLATIVE",
+      "area_evidence_id": "AREA-a118ddb35931e937b36ccec5",
+      "detail_record_id": "DETAIL-ba4967c4c06935e55cc2c7c6",
+      "detail_version_id": "DETAIL-ba4967c4c06935e55cc2c7c6-V1",
+      "source_snapshot_id": "AUTO-WATCH-APH-BILLS-20260916113535",
+      "record_url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7491",
+      "captured_at": "2026-09-16T11:37:02.744Z",
+      "evidence_captured_at": "2026-09-16T11:36:58.532Z",
+      "event_date": "2026-09-16",
+      "checkpoint": "SUBSTANTIVE_INFORMATION_INGESTION",
+      "event_type": "AREA_EVIDENCE_INGESTED",
+      "area_routing_state": "SUBSTANTIVE_CONTENT_ROUTED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_PARLIAMENT",
+      "source_id": "SRC-APH-BILLS",
+      "claim": "Ingested substantive legislative evidence from Health Insurance Amendment (Incentive Payments and Other Measures) Bill 2026 &ndash; Parliament of Australia. Captured content includes stage: Introduced; resistance language: Amendment; outcome language: passed. Registration threshold state: evidence gap. Missing requirements: missing fact type explicit support position, missing fact type explicit opposition position, missing condition distinct supporting and opposing sides.",
+      "observed_behaviour": "Health Insurance Amendment (Incentive Payments and Other Measures) Bill 2026 &ndash; Parliament of Australia Skip to navigation Skip to content Health Insurance Amendment (Incentive Payments and Other Measures) Bill 2026 Type Government Portfolio Health, Disability and Ageing Originating house House of Representatives Status Before Senate Parliament no 48 Track (What's this?) Permalink Summary Amends the Health Insurance Act 1973 to: establish a framework for Commonwealth health incentive payment programs which allows the Commonwealth to make payment to approved participants under programs prescribed by rules; and amend the short title of the Act to the Medicare Act 1973 . Also makes consequential or contingent amendments to 37 other Acts. Progress House of Representatives Introduced and read a first time 27 May 2026 Second reading moved 27 May 2026 Second reading debate 29 Jun 2026 Second reading debate 01 Jul 2026 Second reading debate 02 Jul 2026 Second reading agreed to 02 Jul 2026 Third reading agreed to 02 Jul 2026 Senate Introduced and read a first time 02 Jul 2026 Second reading moved 02 Jul 2026 Second reading debate 16 Sep 2026 Documents and transcripts Text of bill First reading Explanatory memoranda Explanatory memorandum Transcript of speeches All second reading speeches Minister's second reading speech Proposed amendments House of representatives 2nd reading amendment MCINTOSH, Melissa, MP Senate 2R - Australian Greens [sheet 4105] STEELE-JOHN, Sen Jordon 2R - Opposition [sheet 4144] RUSTON, Sen Anne CW - Opposition [sheet 3946] RUSTON, Sen Anne CW - Opposition [sheet 3945] RUSTON, Sen Anne CW - Opposition [sheet 3944] RUSTON, Sen Anne Schedules of amendments No documents at present Bills digest Bills Digest Notes Referred to Committee (25/06/2026): Senate",
+      "extracted_cues": {
+        "resistance_terms": [
+          "Amendment"
+        ],
+        "stage_terms": [
+          "Introduced"
+        ],
+        "outcome_terms": [
+          "passed"
+        ],
+        "pressure_terms": []
+      },
+      "entity_mentions": {
+        "actors": [
+          {
+            "actor_id": "ACT-MELISSA-MCINTOSH",
+            "name": "Melissa McIntosh",
+            "match_variant": "mcintosh melissa",
+            "party_id_at_resolution": "AUS-FED-LIB"
+          }
+        ],
+        "teams": [
+          {
+            "party_id": "AUS-FED-GRN",
+            "name": "Australian Greens",
+            "match_alias": "Australian Greens"
+          }
+        ]
+      },
+      "position_state": "UNRESOLVED",
+      "resistance_state": "RESISTANCE_LANGUAGE_PRESENT",
+      "outcome_state": "OUTCOME_LANGUAGE_PRESENT",
+      "contest_fact_ids": [
+        "FACT-051c85c91e7b185a01b6901f",
+        "FACT-0764aa83060f501ca59f2e97",
+        "FACT-2e988b4874b731e9d5b0bae4",
+        "FACT-31e7ef38ae9455de1cc0536b",
+        "FACT-38598edd15fe61d91344ae83",
+        "FACT-3fc7d07bd1df9a78cf804305",
+        "FACT-49b263ddffc582ff4b51bf62",
+        "FACT-56cabcdcad44e0dd0794d8c4",
+        "FACT-7b7665847f04537e8acaaeb0",
+        "FACT-8f74d64bfb01841091ebd7e8",
+        "FACT-9a597e757c221b6fcd6a17cd",
+        "FACT-9b7713efa713f071b85123ee",
+        "FACT-ba44a3dcbc6cf0b347d264c3",
+        "FACT-db7b19f0671f408de858a082",
+        "FACT-fb19e00584e08d9f4fc9b8ac"
+      ],
+      "contest_fact_types": [
+        "AMENDMENT",
+        "CONTEST_OBJECT",
+        "MATERIAL_RESISTANCE",
+        "OBJECTIVE",
+        "POSSIBLE_OUTCOME_STATE",
+        "PROCEDURAL_ACTION",
+        "STAGE",
+        "VOTE_OR_DIVISION"
+      ],
+      "threshold_evaluation_id": "THRESH-b20004d5cfdbebe45b3a59aa",
+      "threshold_state": "EVIDENCE_GAP",
+      "threshold_blockers": [
+        "MISSING_CONDITION_DISTINCT_SUPPORTING_AND_OPPOSING_SIDES",
+        "MISSING_FACT_TYPE_EXPLICIT_OPPOSITION_POSITION",
+        "MISSING_FACT_TYPE_EXPLICIT_SUPPORT_POSITION"
+      ],
+      "supporting_entities": [],
+      "opposing_entities": [],
+      "registration_action": "NO_AUTOMATIC_REGISTRATION",
+      "intelligence_signature": "591bc24718658f9735248050db552b0fb3fb23095feab4d6c86a64bc1f651282",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "substantive_detail_lineage_required": true,
+        "active_contest_fact_lineage_required": true,
+        "threshold_evaluation_lineage_required": true,
+        "routing_does_not_register_match": true,
+        "threshold_eligibility_does_not_register_match": true,
+        "entity_mentions_do_not_establish_positions": true,
+        "retracted_facts_excluded": true,
+        "no_projection_effect_without_registered_target": true
+      }
+    },
+    {
+      "event_id": "INTEL-AREA-9181030b92ebdab6ac8f5528",
+      "parent_event_id": "SIG-REV-CHG-WATCH-APH-BILLS-20260916113535",
+      "jurisdiction_id": "AUS-FED",
+      "party_id": null,
+      "actor_id": null,
+      "party_ids": [],
+      "actor_ids": [
+        "ACT-DAN-TEHAN",
+        "ACT-BARNABY-JOYCE"
+      ],
+      "contest_id": null,
+      "cycle_id": null,
+      "competition_class": "LEGISLATIVE",
+      "area_evidence_id": "AREA-9181030b92ebdab6ac8f5528",
+      "detail_record_id": "DETAIL-43a57cdcf2238b2456291a6e",
+      "detail_version_id": "DETAIL-43a57cdcf2238b2456291a6e-V1",
+      "source_snapshot_id": "AUTO-WATCH-APH-BILLS-20260916113535",
+      "record_url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7532",
+      "captured_at": "2026-09-16T11:37:02.744Z",
+      "evidence_captured_at": "2026-09-16T11:36:59.791Z",
+      "event_date": "2026-09-16",
+      "checkpoint": "SUBSTANTIVE_INFORMATION_INGESTION",
+      "event_type": "AREA_EVIDENCE_INGESTED",
+      "area_routing_state": "SUBSTANTIVE_CONTENT_ROUTED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_PARLIAMENT",
+      "source_id": "SRC-APH-BILLS",
+      "claim": "Ingested substantive legislative evidence from Carbon Credits and Other Legislation Amendment (Integrity and Transparency) Bill 2026 &ndash; Parliament of Australia. Captured content includes stage: Introduced; resistance language: Amendment; outcome language: passed. Registration threshold state: evidence gap. Missing requirements: missing fact type material resistance, missing fact type explicit support position, missing fact type explicit opposition position, missing condition distinct supporting and opposing sides.",
+      "observed_behaviour": "Carbon Credits and Other Legislation Amendment (Integrity and Transparency) Bill 2026 &ndash; Parliament of Australia Skip to navigation Skip to content Carbon Credits and Other Legislation Amendment (Integrity and Transparency) Bill 2026 Type Government Portfolio Climate Change, Energy, the Environment and Water Originating house House of Representatives Status Before Reps Parliament no 48 Track (What's this?) Permalink Progress House of Representatives Introduced and read a first time 20 Aug 2026 Second reading moved 20 Aug 2026 Second reading debate 16 Sep 2026 Documents and transcripts Text of bill First reading Explanatory memoranda Explanatory memorandum Transcript of speeches All second reading speeches Minister's second reading speech Proposed amendments House of representatives 2nd reading amendment JOYCE, Barnaby, MP 2nd reading amendment TEHAN, Dan, MP Detail - Crossbench JOYCE, Barnaby, MP Schedules of amendments No documents at present Bills digest Bills Digest Notes Referred to Committee (10/09/2026): Senate Environment and Communications Legislation Committee; Report due 24/11/2026 Helpful information Text of bill First reading: Text of the bill as introduced into the Parliament Third reading: Prepared if the bill is amended by the house in which it was introduced. This version of the bill is then considered by the second house. As passed by both houses: Final text of bill agreed to by both the House of Representatives and the Senate which is presented to the Governor-General for assent. Explanatory memoranda Explanatory memorandum: Accompanies and provides an explanation of the content of the introduced version (first reading) of the bill. Supplementary explanatory memorandum: Accompanies and explains amendments proposed by the government to the bill. Re",
+      "extracted_cues": {
+        "resistance_terms": [
+          "Amendment"
+        ],
+        "stage_terms": [
+          "Introduced"
+        ],
+        "outcome_terms": [
+          "passed"
+        ],
+        "pressure_terms": []
+      },
+      "entity_mentions": {
+        "actors": [
+          {
+            "actor_id": "ACT-DAN-TEHAN",
+            "name": "Dan Tehan",
+            "match_variant": "tehan dan",
+            "party_id_at_resolution": "AUS-FED-LIB"
+          },
+          {
+            "actor_id": "ACT-BARNABY-JOYCE",
+            "name": "Barnaby Joyce",
+            "match_variant": "joyce barnaby",
+            "party_id_at_resolution": "AUS-FED-ONP"
+          }
+        ],
+        "teams": []
+      },
+      "position_state": "UNRESOLVED",
+      "resistance_state": "RESISTANCE_LANGUAGE_PRESENT",
+      "outcome_state": "OUTCOME_LANGUAGE_PRESENT",
+      "contest_fact_ids": [
+        "FACT-15ae052d248cc436e34081ad",
+        "FACT-4a5b153e4b1881028945e296",
+        "FACT-638e8808a1068a0c939fdb5d",
+        "FACT-82680f9cd57c4828e42beac4",
+        "FACT-96c9fbd2fa0b4b0d5f8c3dc5",
+        "FACT-9875823fb6517fc2f6110a51",
+        "FACT-ece60181d651e408c3f28fdd"
+      ],
+      "contest_fact_types": [
+        "AMENDMENT",
+        "CONTEST_OBJECT",
+        "PROCEDURAL_ACTION",
+        "STAGE"
+      ],
+      "threshold_evaluation_id": "THRESH-0d56b9796604bca8020c0318",
+      "threshold_state": "EVIDENCE_GAP",
+      "threshold_blockers": [
+        "MISSING_CONDITION_DISTINCT_SUPPORTING_AND_OPPOSING_SIDES",
+        "MISSING_FACT_TYPE_EXPLICIT_OPPOSITION_POSITION",
+        "MISSING_FACT_TYPE_EXPLICIT_SUPPORT_POSITION",
+        "MISSING_FACT_TYPE_MATERIAL_RESISTANCE"
+      ],
+      "supporting_entities": [],
+      "opposing_entities": [],
+      "registration_action": "NO_AUTOMATIC_REGISTRATION",
+      "intelligence_signature": "d290a9e837eb146f5ce581d173d85cb97be5a200d0b16a1c378d1d7d2a6563a6",
       "inference": null,
       "inference_class": "NONE",
       "projection_effect": "NO_EFFECT",

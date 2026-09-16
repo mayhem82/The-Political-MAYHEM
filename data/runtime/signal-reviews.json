@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-SIGNAL-REVIEWS-001",
   "created_at": "2026-09-09T05:05:00+10:00",
-  "updated_at": "2026-09-16T06:04:04.101Z",
+  "updated_at": "2026-09-16T11:36:53.642Z",
   "rules": {
     "append_only": true,
     "raw_source_change_is_immutable": true,
@@ -28131,6 +28131,199 @@
           }
         ],
         "delta_hash": "f2a4620fbee158dec0276719e797245ef59798e275b5eb161111bf40c16a2d48"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-APH-BILLS-20260916113535",
+      "source_change_event_id": "CHG-WATCH-APH-BILLS-20260916113535",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-APH-BILLS-20260916113535",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Parliament of Australia — Bills and Legislation added 3 structured publication records to its forward-captured official index: Knox Class Action (Facilitation) Bill 2026; Health Insurance Amendment (Incentive Payments and...; Carbon Credits and Other Legislation Amendment (In...",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-09-16T11:36:53.642Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "2a6999b453936296e183",
+            "title": "Knox Class Action (Facilitation) Bill 2026",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7539"
+          },
+          {
+            "record_id": "68ea1d349e472a585e69",
+            "title": "Health Insurance Amendment (Incentive Payments and...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7491"
+          },
+          {
+            "record_id": "99f9eb5ee6cd3cbb89d8",
+            "title": "Carbon Credits and Other Legislation Amendment (In...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7532"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "6a0c13d6814e5c99a3c6",
+            "title": "A New Tax System (Family Assistance) Amendment (No...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=s1482"
+          },
+          {
+            "record_id": "6a8c24adf037db28b31b",
+            "title": "Anti-Money Laundering and Counter-Terrorism Financ...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7448"
+          },
+          {
+            "record_id": "ba16f1a261ed547f15f0",
+            "title": "Universities Accord (Opening the Doors of Opportun...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7501"
+          }
+        ],
+        "delta_hash": "7042393b1c691dc0bf88819f741781365fe3abee1ce0cd28884064e2a80381ba"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-ALP-NEWS-20260916113535",
+      "source_change_event_id": "CHG-WATCH-ALP-NEWS-20260916113535",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-ALP-NEWS-20260916113535",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": "AUS-FED-ALP",
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Australian Labor Party — news added 2 structured publication records to its forward-captured official index: 15% pay rise for early educators locked in 15 September 2026; Trade apprentice completions highest in a decade 15 September 2026",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-09-16T11:36:53.642Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "098980bc131645dfc196",
+            "title": "15% pay rise for early educators locked in 15 September 2026",
+            "url": "https://www.alp.org.au/news/all-news/15-pay-rise-for-early-educators-locked-in/"
+          },
+          {
+            "record_id": "85939b4168a3b3908699",
+            "title": "Trade apprentice completions highest in a decade 15 September 2026",
+            "url": "https://www.alp.org.au/news/all-news/trade-apprentice-completions-reach-highest-level-in-a-decade/"
+          }
+        ],
+        "removed_records": [],
+        "delta_hash": "a54c99a4108406f01bf55d03626dd683106f1f9d84df2d12bd1627fa99be4c63"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-ONENATION-NEWS-20260916113535",
+      "source_change_event_id": "CHG-WATCH-ONENATION-NEWS-20260916113535",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-ONENATION-NEWS-20260916113535",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": "AUS-FED-ONP",
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Pauline Hanson's One Nation — Latest News added 2 structured publication records to its forward-captured official index: Rikkie-Lee Tyrrell Calls for an End to Political Indoctrination in Victorian Schools; One Nation Immigration Plan Targets Family Visas for Overseas Students",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-09-16T11:36:53.642Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "612de1165d536204014a",
+            "title": "Rikkie-Lee Tyrrell Calls for an End to Political Indoctrination in Victorian Schools",
+            "url": "http://www.onenation.org.au/victoria-classroom-indoctrination",
+            "published": "Wed, 16 Sep 2026 19:00:32 +1000"
+          },
+          {
+            "record_id": "de96f7add11d9ed39913",
+            "title": "One Nation Immigration Plan Targets Family Visas for Overseas Students",
+            "url": "http://www.onenation.org.au/student-family-visa-reform",
+            "published": "Wed, 16 Sep 2026 19:00:38 +1000"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "95612fa8d250204d3576",
+            "title": "Pauline Hanson Unveils One Nation’s 3% Super Pay Boost",
+            "url": "http://www.onenation.org.au/super-pay-boost",
+            "published": "Mon, 07 Sep 2026 12:08:56 +1000"
+          },
+          {
+            "record_id": "e659b6f1d2594415c36b",
+            "title": "One Nation Questions Labor’s New Climate Change ‘Misinformation’ Unit",
+            "url": "http://www.onenation.org.au/climate-misinformation-unit",
+            "published": "Mon, 07 Sep 2026 11:00:00 +1000"
+          }
+        ],
+        "delta_hash": "306b5a9b73f1d9de9a2f7428ddfc4ad7fa51cf552bcae6fc49c53e9d2ad1de09"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20260916113535",
+      "source_change_event_id": "CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20260916113535",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20260916113535",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Queensland Government — Ministerial Media Statements added 1 structured publication record to its forward-captured official index: Victims put first in major reforms marking National Victims of Crime Day",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-09-16T11:36:53.642Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "a9e40e247bf2caa69337",
+            "title": "Victims put first in major reforms marking National Victims of Crime Day",
+            "url": "https://statements.qld.gov.au/statements/106066"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "fc29221a5bb9f34eb284",
+            "title": "Major milestone as Cairns Hospital Expansion builds momentum",
+            "url": "https://statements.qld.gov.au/statements/106051"
+          }
+        ],
+        "delta_hash": "f951f892ee45d64bccbc034dd597670d3eb89f18675d56de2ede7dc1bc563e92"
       },
       "integrity": {
         "source_change_unchanged": true,

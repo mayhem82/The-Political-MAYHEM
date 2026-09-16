@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-SIGNAL-REVIEWS-001",
   "created_at": "2026-09-09T05:05:00+10:00",
-  "updated_at": "2026-09-15T21:23:16.987Z",
+  "updated_at": "2026-09-16T00:22:24.271Z",
   "rules": {
     "append_only": true,
     "raw_source_change_is_immutable": true,
@@ -27573,6 +27573,176 @@
           }
         ],
         "delta_hash": "3f45b2120fd69c1508ed8ccadbeb7c51fb76d36865d8c1c2183c9353cfefa10f"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-APH-BILLS-20260916002116",
+      "source_change_event_id": "CHG-WATCH-APH-BILLS-20260916002116",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-APH-BILLS-20260916002116",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Parliament of Australia — Bills and Legislation added 2 structured publication records to its forward-captured official index: A New Tax System (Family Assistance) Amendment (No...; Anti-Money Laundering and Counter-Terrorism Financ...",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-09-16T00:22:24.271Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "6a0c13d6814e5c99a3c6",
+            "title": "A New Tax System (Family Assistance) Amendment (No...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=s1482"
+          },
+          {
+            "record_id": "6a8c24adf037db28b31b",
+            "title": "Anti-Money Laundering and Counter-Terrorism Financ...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7448"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "2a6999b453936296e183",
+            "title": "Knox Class Action (Facilitation) Bill 2026",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7539"
+          },
+          {
+            "record_id": "eb8ff799ba2da88b25af",
+            "title": "Private Health Insurance Amendment (Modernising th...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7497"
+          }
+        ],
+        "delta_hash": "ee35e576466e39a4cc57df8d8e022736ad4585d1e781f82a0722c04bfd0f0c15"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-NSW-MINISTERIAL-RELEASES-20260916002116",
+      "source_change_event_id": "CHG-WATCH-NSW-MINISTERIAL-RELEASES-20260916002116",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-NSW-MINISTERIAL-RELEASES-20260916002116",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "NSW Government — Ministerial releases added 5 structured publication records to its forward-captured official index: Minns Labor Government delivering more surgeries in the Illawarra; All renters can now use Smart Rental Bonds; County Road Reserve transfer a win for the Northern Beaches community; Minns Labor Government crime crackdown continues: new data shows more DV offenders before the courts; More apprentices picking up the tools as the Minns Labor Government rebuilds the skills pipeline",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-09-16T00:22:24.271Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "0c3dc851ebaf665f9422",
+            "title": "Minns Labor Government delivering more surgeries in the Illawarra",
+            "url": "https://www.nsw.gov.au/ministerial-releases/minns-labor-government-delivering-more-surgeries-illawarra"
+          },
+          {
+            "record_id": "25179db3df9bd93a4c18",
+            "title": "All renters can now use Smart Rental Bonds",
+            "url": "https://www.nsw.gov.au/ministerial-releases/all-renters-can-now-use-smart-rental-bonds"
+          },
+          {
+            "record_id": "4f764fc516ea17771905",
+            "title": "County Road Reserve transfer a win for the Northern Beaches community",
+            "url": "https://www.nsw.gov.au/ministerial-releases/county-road-reserve-transfer-a-win-for-northern-beaches-community"
+          },
+          {
+            "record_id": "bed5925b96f3802bf358",
+            "title": "Minns Labor Government crime crackdown continues: new data shows more DV offenders before the courts",
+            "url": "https://www.nsw.gov.au/ministerial-releases/minns-labor-government-crime-crackdown-continues-new-data-shows-more-dv-offenders-before-courts"
+          },
+          {
+            "record_id": "d0f13b46d2c94bf53370",
+            "title": "More apprentices picking up the tools as the Minns Labor Government rebuilds the skills pipeline",
+            "url": "https://www.nsw.gov.au/ministerial-releases/more-apprentices-picking-up-tools-as-minns-labor-government-rebuilds-skills-pipeline"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "90c54d31050a326370c5",
+            "title": "Spring bursts into bloom at Parramatta Park’s iconic flower festival",
+            "url": "https://www.nsw.gov.au/ministerial-releases/spring-bursts-into-bloom-at-parramatta-parks-iconic-flower-festival"
+          },
+          {
+            "record_id": "a15bb5de28576017260f",
+            "title": "Foundations laid for Finley Hospital Redevelopment",
+            "url": "https://www.nsw.gov.au/ministerial-releases/foundations-laid-finley-hospital-redevelopment"
+          },
+          {
+            "record_id": "c18b71401d5be00be6fc",
+            "title": "All Australians deserve a fair share of the GST",
+            "url": "https://www.nsw.gov.au/ministerial-releases/all-australians-deserve-a-fair-share-of-gst"
+          },
+          {
+            "record_id": "c88a00a367b80a692d39",
+            "title": "All new public schools to share facilities with community as Share Our Space program expands",
+            "url": "https://www.nsw.gov.au/ministerial-releases/all-new-public-schools-to-share-facilities-community-as-share-our-space-program-expands"
+          },
+          {
+            "record_id": "da7fc3f885d2b86d50dc",
+            "title": "Minns Labor Government introducing reforms to strengthen justice system",
+            "url": "https://www.nsw.gov.au/ministerial-releases/minns-labor-government-introducing-reforms-to-strengthen-justice-system"
+          }
+        ],
+        "delta_hash": "aa5fc0e75a73345636d1f17be77b6f85e28a359627910c89eea2608e3fb02af6"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20260916002116",
+      "source_change_event_id": "CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20260916002116",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20260916002116",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Queensland Government — Ministerial Media Statements added 1 structured publication record to its forward-captured official index: Containers for Change reforms put Queenslanders first",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-09-16T00:22:24.271Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "dd666831aceb06007f9d",
+            "title": "Containers for Change reforms put Queenslanders first",
+            "url": "https://statements.qld.gov.au/statements/106059"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "3de5639b7c65ad57099a",
+            "title": "G’day to Ipswich’s Little Queenslanders",
+            "url": "https://statements.qld.gov.au/statements/106042"
+          }
+        ],
+        "delta_hash": "7afe607b20f417d2def7ef0ad6b31cc1cb4ab1c7b552618132949f854ef3782c"
       },
       "integrity": {
         "source_change_unchanged": true,

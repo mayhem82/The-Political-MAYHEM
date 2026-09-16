@@ -69,63 +69,63 @@
     {
       "jurisdiction_id": "AUS-FED",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-15T21:23:26.266Z",
-      "signals_examined": 141,
-      "candidates_detected": 74
+      "last_screened_at": "2026-09-16T00:22:33.423Z",
+      "signals_examined": 143,
+      "candidates_detected": 76
     },
     {
       "jurisdiction_id": "AUS-NSW",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-15T21:23:26.266Z",
-      "signals_examined": 46,
+      "last_screened_at": "2026-09-16T00:22:33.423Z",
+      "signals_examined": 47,
       "candidates_detected": 8
     },
     {
       "jurisdiction_id": "AUS-VIC",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-15T21:23:26.266Z",
+      "last_screened_at": "2026-09-16T00:22:33.423Z",
       "signals_examined": 11,
       "candidates_detected": 4
     },
     {
       "jurisdiction_id": "AUS-QLD",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-15T21:23:26.266Z",
-      "signals_examined": 20,
+      "last_screened_at": "2026-09-16T00:22:33.423Z",
+      "signals_examined": 21,
       "candidates_detected": 43
     },
     {
       "jurisdiction_id": "AUS-WA",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-15T21:23:26.266Z",
+      "last_screened_at": "2026-09-16T00:22:33.423Z",
       "signals_examined": 3,
       "candidates_detected": 2
     },
     {
       "jurisdiction_id": "AUS-SA",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-15T21:23:26.266Z",
+      "last_screened_at": "2026-09-16T00:22:33.423Z",
       "signals_examined": 1,
       "candidates_detected": 0
     },
     {
       "jurisdiction_id": "AUS-TAS",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-15T21:23:26.266Z",
+      "last_screened_at": "2026-09-16T00:22:33.423Z",
       "signals_examined": 20,
       "candidates_detected": 0
     },
     {
       "jurisdiction_id": "AUS-ACT",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-15T21:23:26.266Z",
+      "last_screened_at": "2026-09-16T00:22:33.423Z",
       "signals_examined": 24,
       "candidates_detected": 1
     },
     {
       "jurisdiction_id": "AUS-NT",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-15T21:23:26.266Z",
+      "last_screened_at": "2026-09-16T00:22:33.423Z",
       "signals_examined": 31,
       "candidates_detected": 0
     }
@@ -5520,21 +5520,94 @@
           "reason": "SUBSTANTIVE_THRESHOLD_EVALUATION_PROPAGATED"
         }
       ]
+    },
+    {
+      "candidate_id": "DISC-FED-PROCEDURAL-e89eaaf3f06bcb03",
+      "jurisdiction_id": "AUS-FED",
+      "competition_family": "PROCEDURAL",
+      "proposed_competition_class": "PARLIAMENTARY_PROCEDURE",
+      "proposed_cycle_id": "AUS-FED-48TH-PARLIAMENT",
+      "subject": "A New Tax System (Family Assistance) Amendment (No...",
+      "candidate_state": "REVIEW_REQUIRED",
+      "detected_at": "2026-09-16T00:22:24.271Z",
+      "source_snapshot_ids": [
+        "AUTO-WATCH-APH-BILLS-20260916002116"
+      ],
+      "signal_event_ids": [
+        "SIG-REV-CHG-WATCH-APH-BILLS-20260916002116"
+      ],
+      "review_ids": [
+        "REV-CHG-WATCH-APH-BILLS-20260916002116"
+      ],
+      "area_evidence_ids": [],
+      "detail_version_ids": [],
+      "evidence_summary": "Screened PRIMARY_PARLIAMENT evidence contains language consistent with a procedural competition candidate. This is a discovery observation, not a registered contest or outcome inference.",
+      "registration_blockers": [
+        "MATERIAL_PROCEDURAL_OPPOSITION_REQUIRES_REVIEW"
+      ],
+      "linked_contest_id": null,
+      "state_history": [
+        {
+          "from": null,
+          "to": "REVIEW_REQUIRED",
+          "at": "2026-09-16T00:22:24.271Z",
+          "reason": "DETERMINISTIC_COMPETITION_FAMILY_SCREEN"
+        }
+      ]
+    },
+    {
+      "candidate_id": "DISC-FED-LEGISLATION-53f885efd4142032",
+      "jurisdiction_id": "AUS-FED",
+      "competition_family": "LEGISLATION",
+      "proposed_competition_class": "LEGISLATIVE",
+      "proposed_cycle_id": "AUS-FED-48TH-PARLIAMENT",
+      "subject": "Ingested substantive legislative evidence from A New Tax System (Family Assistance) Amendment (No Jab No Pay Repeal) Bill 2025 &ndash; Parliament of Australia. Captured content includes stage: Introduced; resistance language: Amendment; outcome language: passed. Registration threshold state: evidenc",
+      "candidate_state": "EVIDENCE_GAP",
+      "detected_at": "2026-09-16T00:22:33.098Z",
+      "source_snapshot_ids": [
+        "AUTO-WATCH-APH-BILLS-20260916002116"
+      ],
+      "signal_event_ids": [
+        "INTEL-AREA-b87668c05f08ed505666f3b2"
+      ],
+      "review_ids": [],
+      "area_evidence_ids": [
+        "AREA-b87668c05f08ed505666f3b2"
+      ],
+      "detail_version_ids": [
+        "DETAIL-9dc554b0f3647b52976310c2-V1"
+      ],
+      "evidence_summary": "Substantive source record body was acquired, routed to LEGISLATIVE, and written into intelligence with retained detail, source-snapshot and stage-10 threshold lineage. Match registration remains a separate action.",
+      "registration_blockers": [
+        "MISSING_CONDITION_DISTINCT_SUPPORTING_AND_OPPOSING_SIDES",
+        "MISSING_FACT_TYPE_EXPLICIT_OPPOSITION_POSITION",
+        "MISSING_FACT_TYPE_EXPLICIT_SUPPORT_POSITION",
+        "MISSING_FACT_TYPE_MATERIAL_RESISTANCE"
+      ],
+      "linked_contest_id": null,
+      "state_history": [
+        {
+          "from": null,
+          "to": "EVIDENCE_GAP",
+          "at": "2026-09-16T00:22:33.098Z",
+          "reason": "SUBSTANTIVE_THRESHOLD_EVALUATION_PROPAGATED"
+        }
+      ]
     }
   ],
-  "last_screened_at": "2026-09-15T21:23:26.266Z",
+  "last_screened_at": "2026-09-16T00:22:33.423Z",
   "last_screen_summary": {
-    "signals_examined": 297,
-    "candidates_total": 132,
-    "candidates_added": 0,
+    "signals_examined": 301,
+    "candidates_total": 134,
+    "candidates_added": 2,
     "candidate_lineage_merges": 312,
-    "substantive_area_events_examined": 92,
+    "substantive_area_events_examined": 93,
     "threshold_state_transitions": 0,
     "registered_contests_unchanged": true
   },
-  "last_duplicate_reconciliation_at": "2026-09-15T21:23:26.361Z",
+  "last_duplicate_reconciliation_at": "2026-09-16T00:22:33.511Z",
   "last_duplicate_reconciliation": {
     "rejected": 0,
-    "active_area_family_keys": 91
+    "active_area_family_keys": 92
   }
 }

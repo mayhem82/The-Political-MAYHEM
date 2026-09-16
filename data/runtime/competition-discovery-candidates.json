@@ -69,63 +69,63 @@
     {
       "jurisdiction_id": "AUS-FED",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-16T00:22:33.423Z",
-      "signals_examined": 143,
+      "last_screened_at": "2026-09-16T06:04:15.162Z",
+      "signals_examined": 146,
       "candidates_detected": 76
     },
     {
       "jurisdiction_id": "AUS-NSW",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-16T00:22:33.423Z",
-      "signals_examined": 47,
-      "candidates_detected": 8
+      "last_screened_at": "2026-09-16T06:04:15.162Z",
+      "signals_examined": 51,
+      "candidates_detected": 11
     },
     {
       "jurisdiction_id": "AUS-VIC",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-16T00:22:33.423Z",
+      "last_screened_at": "2026-09-16T06:04:15.162Z",
       "signals_examined": 11,
       "candidates_detected": 4
     },
     {
       "jurisdiction_id": "AUS-QLD",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-16T00:22:33.423Z",
-      "signals_examined": 21,
+      "last_screened_at": "2026-09-16T06:04:15.162Z",
+      "signals_examined": 22,
       "candidates_detected": 43
     },
     {
       "jurisdiction_id": "AUS-WA",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-16T00:22:33.423Z",
+      "last_screened_at": "2026-09-16T06:04:15.162Z",
       "signals_examined": 3,
       "candidates_detected": 2
     },
     {
       "jurisdiction_id": "AUS-SA",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-16T00:22:33.423Z",
+      "last_screened_at": "2026-09-16T06:04:15.162Z",
       "signals_examined": 1,
       "candidates_detected": 0
     },
     {
       "jurisdiction_id": "AUS-TAS",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-16T00:22:33.423Z",
+      "last_screened_at": "2026-09-16T06:04:15.162Z",
       "signals_examined": 20,
       "candidates_detected": 0
     },
     {
       "jurisdiction_id": "AUS-ACT",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-16T00:22:33.423Z",
+      "last_screened_at": "2026-09-16T06:04:15.162Z",
       "signals_examined": 24,
       "candidates_detected": 1
     },
     {
       "jurisdiction_id": "AUS-NT",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-16T00:22:33.423Z",
+      "last_screened_at": "2026-09-16T06:04:15.162Z",
       "signals_examined": 31,
       "candidates_detected": 0
     }
@@ -3527,17 +3527,20 @@
       "source_snapshot_ids": [
         "AUTO-WATCH-APH-BILLS-20260910045050",
         "AUTO-WATCH-APH-BILLS-20260914061817",
-        "AUTO-WATCH-APH-BILLS-20260915133358"
+        "AUTO-WATCH-APH-BILLS-20260915133358",
+        "AUTO-WATCH-APH-BILLS-20260916060300"
       ],
       "signal_event_ids": [
         "SIG-REV-CHG-WATCH-APH-BILLS-20260910045050",
         "SIG-REV-CHG-WATCH-APH-BILLS-20260914061817",
-        "SIG-REV-CHG-WATCH-APH-BILLS-20260915133358"
+        "SIG-REV-CHG-WATCH-APH-BILLS-20260915133358",
+        "SIG-REV-CHG-WATCH-APH-BILLS-20260916060300"
       ],
       "review_ids": [
         "REV-CHG-WATCH-APH-BILLS-20260910045050",
         "REV-CHG-WATCH-APH-BILLS-20260914061817",
-        "REV-CHG-WATCH-APH-BILLS-20260915133358"
+        "REV-CHG-WATCH-APH-BILLS-20260915133358",
+        "REV-CHG-WATCH-APH-BILLS-20260916060300"
       ],
       "area_evidence_ids": [],
       "detail_version_ids": [],
@@ -5593,21 +5596,132 @@
           "reason": "SUBSTANTIVE_THRESHOLD_EVALUATION_PROPAGATED"
         }
       ]
+    },
+    {
+      "candidate_id": "DISC-NSW-ELECTION-5eb448b23c6c29ee",
+      "jurisdiction_id": "AUS-NSW",
+      "competition_family": "ELECTION",
+      "proposed_competition_class": "ELECTORAL",
+      "proposed_cycle_id": null,
+      "subject": "Key changes and improvements for the 2027 NSW State election released arrow_forward 16 Sep 2026 On the International Day of Democracy, the NSW Electoral Commission published its 2027 NSW State Election Change Summary.",
+      "candidate_state": "REVIEW_REQUIRED",
+      "detected_at": "2026-09-16T06:04:04.101Z",
+      "source_snapshot_ids": [
+        "AUTO-WATCH-NSWEC-MEDIA-20260916060300"
+      ],
+      "signal_event_ids": [
+        "SIG-REV-CHG-WATCH-NSWEC-MEDIA-20260916060300"
+      ],
+      "review_ids": [
+        "REV-CHG-WATCH-NSWEC-MEDIA-20260916060300"
+      ],
+      "area_evidence_ids": [],
+      "detail_version_ids": [],
+      "evidence_summary": "Screened PRIMARY_ELECTORAL_AUTHORITY evidence contains language consistent with a election competition candidate. This is a discovery observation, not a registered contest or outcome inference.",
+      "registration_blockers": [
+        "DISTINCT_ELECTORAL_CONTEST_SCOPE_REQUIRES_REVIEW",
+        "REGISTERED_COMPATIBLE_CYCLE_REQUIRED"
+      ],
+      "linked_contest_id": null,
+      "state_history": [
+        {
+          "from": null,
+          "to": "REVIEW_REQUIRED",
+          "at": "2026-09-16T06:04:04.101Z",
+          "reason": "DETERMINISTIC_COMPETITION_FAMILY_SCREEN"
+        }
+      ]
+    },
+    {
+      "candidate_id": "DISC-NSW-ELECTION-acd8030317fa030c",
+      "jurisdiction_id": "AUS-NSW",
+      "competition_family": "ELECTION",
+      "proposed_competition_class": "ELECTORAL",
+      "proposed_cycle_id": null,
+      "subject": "Ingested substantive electoral evidence from Key changes and improvements for the 2027 NSW State election released. Captured content includes stage: ballot; public-pressure language: campaign. Registration threshold state: evidence gap. Missing requirements: missing fact type stage, missing conditio",
+      "candidate_state": "EVIDENCE_GAP",
+      "detected_at": "2026-09-16T06:04:14.823Z",
+      "source_snapshot_ids": [
+        "AUTO-WATCH-NSWEC-MEDIA-20260916060300"
+      ],
+      "signal_event_ids": [
+        "INTEL-AREA-dcddeba93460d764f1e582ca"
+      ],
+      "review_ids": [],
+      "area_evidence_ids": [
+        "AREA-dcddeba93460d764f1e582ca"
+      ],
+      "detail_version_ids": [
+        "DETAIL-d6aaac00d358b2b92edb9758-V1"
+      ],
+      "evidence_summary": "Substantive source record body was acquired, routed to ELECTORAL, and written into intelligence with retained detail, source-snapshot and stage-10 threshold lineage. Match registration remains a separate action.",
+      "registration_blockers": [
+        "MISSING_CONDITION_RESOLVED_PARTICIPANT_OR_TEAM",
+        "MISSING_FACT_TYPE_STAGE"
+      ],
+      "linked_contest_id": null,
+      "state_history": [
+        {
+          "from": null,
+          "to": "EVIDENCE_GAP",
+          "at": "2026-09-16T06:04:14.823Z",
+          "reason": "SUBSTANTIVE_THRESHOLD_EVALUATION_PROPAGATED"
+        }
+      ]
+    },
+    {
+      "candidate_id": "DISC-NSW-POLICY_ENACTMENT-01134e2a055a3860",
+      "jurisdiction_id": "AUS-NSW",
+      "competition_family": "POLICY_ENACTMENT",
+      "proposed_competition_class": "POLICY_ENACTMENT",
+      "proposed_cycle_id": "AUS-NSW-58TH-PARLIAMENT",
+      "subject": "Ingested substantive policy enactment evidence from Key changes and improvements for the 2027 NSW State election released. Captured content includes stage: ballot; public-pressure language: campaign. Registration threshold state: evidence gap. Missing requirements: missing fact type material resista",
+      "candidate_state": "EVIDENCE_GAP",
+      "detected_at": "2026-09-16T06:04:14.823Z",
+      "source_snapshot_ids": [
+        "AUTO-WATCH-NSWEC-MEDIA-20260916060300"
+      ],
+      "signal_event_ids": [
+        "INTEL-AREA-9c39ad52755de9fdedbab02a"
+      ],
+      "review_ids": [],
+      "area_evidence_ids": [
+        "AREA-9c39ad52755de9fdedbab02a"
+      ],
+      "detail_version_ids": [
+        "DETAIL-d6aaac00d358b2b92edb9758-V1"
+      ],
+      "evidence_summary": "Substantive source record body was acquired, routed to POLICY_ENACTMENT, and written into intelligence with retained detail, source-snapshot and stage-10 threshold lineage. Match registration remains a separate action.",
+      "registration_blockers": [
+        "MISSING_CONDITION_DISTINCT_SUPPORTING_AND_OPPOSING_SIDES",
+        "MISSING_FACT_TYPE_EXPLICIT_OPPOSITION_POSITION",
+        "MISSING_FACT_TYPE_EXPLICIT_SUPPORT_POSITION",
+        "MISSING_FACT_TYPE_MATERIAL_RESISTANCE"
+      ],
+      "linked_contest_id": null,
+      "state_history": [
+        {
+          "from": null,
+          "to": "EVIDENCE_GAP",
+          "at": "2026-09-16T06:04:14.823Z",
+          "reason": "SUBSTANTIVE_THRESHOLD_EVALUATION_PROPAGATED"
+        }
+      ]
     }
   ],
-  "last_screened_at": "2026-09-16T00:22:33.423Z",
+  "last_screened_at": "2026-09-16T06:04:15.162Z",
   "last_screen_summary": {
-    "signals_examined": 301,
-    "candidates_total": 134,
-    "candidates_added": 2,
-    "candidate_lineage_merges": 312,
-    "substantive_area_events_examined": 93,
+    "signals_examined": 309,
+    "candidates_total": 137,
+    "candidates_added": 3,
+    "candidate_lineage_merges": 315,
+    "substantive_area_events_examined": 95,
     "threshold_state_transitions": 0,
     "registered_contests_unchanged": true
   },
-  "last_duplicate_reconciliation_at": "2026-09-16T00:22:33.511Z",
+  "last_duplicate_reconciliation_at": "2026-09-16T06:04:15.256Z",
   "last_duplicate_reconciliation": {
     "rejected": 0,
-    "active_area_family_keys": 92
+    "active_area_family_keys": 94
   }
 }

@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-SIGNAL-REVIEWS-001",
   "created_at": "2026-09-09T05:05:00+10:00",
-  "updated_at": "2026-09-16T00:22:24.271Z",
+  "updated_at": "2026-09-16T06:04:04.101Z",
   "rules": {
     "append_only": true,
     "raw_source_change_is_immutable": true,
@@ -27743,6 +27743,394 @@
           }
         ],
         "delta_hash": "7afe607b20f417d2def7ef0ad6b31cc1cb4ab1c7b552618132949f854ef3782c"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-APH-BILLS-20260916060300",
+      "source_change_event_id": "CHG-WATCH-APH-BILLS-20260916060300",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-APH-BILLS-20260916060300",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Parliament of Australia — Bills and Legislation added 1 structured publication record to its forward-captured official index: Private Health Insurance Amendment (Modernising th...",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-09-16T06:04:04.101Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "eb8ff799ba2da88b25af",
+            "title": "Private Health Insurance Amendment (Modernising th...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7497"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "7b152d4caa880327da7c",
+            "title": "Health Legislation Amendment (Improving Choice and...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7434"
+          }
+        ],
+        "delta_hash": "f9c23accf2ce966602331787123885924c2d7347ee010a45239a01b0ab2e8d29"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-ALP-NEWS-20260916060300",
+      "source_change_event_id": "CHG-WATCH-ALP-NEWS-20260916060300",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-ALP-NEWS-20260916060300",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": "AUS-FED-ALP",
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Australian Labor Party — news added 3 structured publication records to its forward-captured official index: Protecting Australians in residential aged care 10 September 2026; Strengthening suicide prevention support for all 10 September 2026; New funding for crisis housing 14 September 2026",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-09-16T06:04:04.101Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "2173c3d38098a0d4845e",
+            "title": "Protecting Australians in residential aged care 10 September 2026",
+            "url": "https://www.alp.org.au/news/all-news/protecting-older-australians-in-residential-aged-care/"
+          },
+          {
+            "record_id": "86791ed75fc374f0c257",
+            "title": "Strengthening suicide prevention support for all 10 September 2026",
+            "url": "https://www.alp.org.au/news/all-news/strengthening-suicide-prevention-support-for-all-australians/"
+          },
+          {
+            "record_id": "b16320a812d052787dc3",
+            "title": "New funding for crisis housing 14 September 2026",
+            "url": "https://www.alp.org.au/news/all-news/new-funding-for-crisis-housing/"
+          }
+        ],
+        "removed_records": [],
+        "delta_hash": "dde5d4cd60830e51b7473a2d5268b38e5ab0da25e969b6a920ad0befdff7332c"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-GREENS-FEDERAL-MEDIA-20260916060300",
+      "source_change_event_id": "CHG-WATCH-GREENS-FEDERAL-MEDIA-20260916060300",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-GREENS-FEDERAL-MEDIA-20260916060300",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": "AUS-FED-GRN",
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Australian Greens — Federal MPs media releases added 11 structured publication records to its forward-captured official index: Read more about James Cook University must reverse proposed axing of vet lab; Undermining Copyright would be selling out Artists, Creatives and all Australians to big AI; Bathla collapse: the case for a public developer; Greens say universities must stop steamrolling staff and students in AI rush; Last page Last »; +6 more",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-09-16T06:04:04.101Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "17a1745cbea4ff7f8f3b",
+            "title": "Read more about James Cook University must reverse proposed axing of vet lab",
+            "url": "https://greens.org.au/news/media-release/james-cook-university-must-reverse-proposed-axing-vet-lab"
+          },
+          {
+            "record_id": "1da5af780d7657cab87a",
+            "title": "Undermining Copyright would be selling out Artists, Creatives and all Australians to big AI",
+            "url": "https://greens.org.au/news/media-release/undermining-copyright-would-be-selling-out-artists-creatives-and-all-australians"
+          },
+          {
+            "record_id": "290f1f0d83adc6a220c2",
+            "title": "Bathla collapse: the case for a public developer",
+            "url": "https://greens.org.au/news/media-release/bathla-collapse-case-public-developer"
+          },
+          {
+            "record_id": "2cca2d3d6f8ba800dff2",
+            "title": "Greens say universities must stop steamrolling staff and students in AI rush",
+            "url": "https://greens.org.au/news/media-release/greens-say-universities-must-stop-steamrolling-staff-and-students-ai-rush"
+          },
+          {
+            "record_id": "4945b1a7e2bc323ead9f",
+            "title": "Last page Last »",
+            "url": "https://greens.org.au/news/media-releases?page=297"
+          },
+          {
+            "record_id": "63ed2876b95024b908c4",
+            "title": "Digital Duty of Care must make Platforms Safer for All Users",
+            "url": "https://greens.org.au/news/media-release/digital-duty-care-must-make-platforms-safer-all-users"
+          },
+          {
+            "record_id": "856974ff3dd1fcf130d0",
+            "title": "Read more about Digital Duty of Care must make Platforms Safer for All Users",
+            "url": "https://greens.org.au/news/media-release/digital-duty-care-must-make-platforms-safer-all-users"
+          },
+          {
+            "record_id": "97e5f7742c3b775b48bb",
+            "title": "Read more about Undermining Copyright would be selling out Artists, Creatives and all Australians to big AI",
+            "url": "https://greens.org.au/news/media-release/undermining-copyright-would-be-selling-out-artists-creatives-and-all-australians"
+          },
+          {
+            "record_id": "a51f613503dbbb222660",
+            "title": "Read more about Bathla collapse: the case for a public developer",
+            "url": "https://greens.org.au/news/media-release/bathla-collapse-case-public-developer"
+          },
+          {
+            "record_id": "d1ed656bd189808a1646",
+            "title": "James Cook University must reverse proposed axing of vet lab",
+            "url": "https://greens.org.au/news/media-release/james-cook-university-must-reverse-proposed-axing-vet-lab"
+          },
+          {
+            "record_id": "d2a21b8bb9fcf68e2c59",
+            "title": "Read more about Greens say universities must stop steamrolling staff and students in AI rush",
+            "url": "https://greens.org.au/news/media-release/greens-say-universities-must-stop-steamrolling-staff-and-students-ai-rush"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "0adb8dc2224dda9007ad",
+            "title": "Greens support call to investigate animal cruelty in Tasmanian salmon farming",
+            "url": "https://greens.org.au/news/media-release/greens-support-call-investigate-animal-cruelty-tasmanian-salmon-farming"
+          },
+          {
+            "record_id": "13ff7d5411ff30f1513f",
+            "title": "Greens welcome Vanessa Bleyer to federal team, announce portfolios to defend nature, take on AI",
+            "url": "https://greens.org.au/news/media-release/greens-welcome-vanessa-bleyer-federal-team-announce-portfolios-defend-nature"
+          },
+          {
+            "record_id": "35cdd290dbfc2ee2b957",
+            "title": "Labor extends racist and failed compulsory income management indefinitely",
+            "url": "https://greens.org.au/news/media-release/labor-extends-racist-and-failed-compulsory-income-management-indefinitely"
+          },
+          {
+            "record_id": "39f72bdc7ec3956e4a18",
+            "title": "Read more about Media release: Senator Shoebridge formally announced as the Australian Greens spokesperson on AI",
+            "url": "https://greens.org.au/news/media-release/media-release-senator-shoebridge-formally-announced-australian-greens"
+          },
+          {
+            "record_id": "64d81706b6b99b9490ce",
+            "title": "Read more about Labor extends racist and failed compulsory income management indefinitely",
+            "url": "https://greens.org.au/news/media-release/labor-extends-racist-and-failed-compulsory-income-management-indefinitely"
+          },
+          {
+            "record_id": "7723e649b5c45a28afa1",
+            "title": "Media release: Senator Shoebridge formally announced as the Australian Greens spokesperson on AI",
+            "url": "https://greens.org.au/news/media-release/media-release-senator-shoebridge-formally-announced-australian-greens"
+          },
+          {
+            "record_id": "80d54194e48852008455",
+            "title": "Read more about Greens support call to investigate animal cruelty in Tasmanian salmon farming",
+            "url": "https://greens.org.au/news/media-release/greens-support-call-investigate-animal-cruelty-tasmanian-salmon-farming"
+          },
+          {
+            "record_id": "b4ee04c1a2fa00a0674a",
+            "title": "Last page Last »",
+            "url": "https://greens.org.au/news/media-releases?page=296"
+          },
+          {
+            "record_id": "c642ca5ba72018234da3",
+            "title": "Labor refuses to follow UK in moving to ban trade with illegal Israeli settlements",
+            "url": "https://greens.org.au/news/media-release/labor-refuses-follow-uk-moving-ban-trade-illegal-israeli-settlements"
+          },
+          {
+            "record_id": "cab52c0d720e018d38e7",
+            "title": "Read more about Greens welcome Vanessa Bleyer to federal team, announce portfolios to defend nature, take on AI",
+            "url": "https://greens.org.au/news/media-release/greens-welcome-vanessa-bleyer-federal-team-announce-portfolios-defend-nature"
+          },
+          {
+            "record_id": "e87e813a56fb6ba59510",
+            "title": "Read more about Labor refuses to follow UK in moving to ban trade with illegal Israeli settlements",
+            "url": "https://greens.org.au/news/media-release/labor-refuses-follow-uk-moving-ban-trade-illegal-israeli-settlements"
+          }
+        ],
+        "delta_hash": "fd232ea0798633584469c6772f8d4ad091520b7787932b1a6606185a06551eb6"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-NSW-MINISTERIAL-RELEASES-20260916060300",
+      "source_change_event_id": "CHG-WATCH-NSW-MINISTERIAL-RELEASES-20260916060300",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-NSW-MINISTERIAL-RELEASES-20260916060300",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "NSW Government — Ministerial releases added 3 structured publication records to its forward-captured official index: NSW Police appoint five new leaders to Assistant Commissioner rank; Winds of change as NSW’s largest power point nears completion at White Bay; Eight additional H5 bird flu events in NSW",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-09-16T06:04:04.101Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "0ba98ee1a5141b9d1a79",
+            "title": "NSW Police appoint five new leaders to Assistant Commissioner rank",
+            "url": "https://www.nsw.gov.au/ministerial-releases/nsw-police-appoint-five-new-leaders-to-assistant-commissioner-rank"
+          },
+          {
+            "record_id": "8f3dad1f90774e6bf8db",
+            "title": "Winds of change as NSW’s largest power point nears completion at White Bay",
+            "url": "https://www.nsw.gov.au/ministerial-releases/winds-of-change-as-nsws-largest-power-point-nears-completion-at-white-bay"
+          },
+          {
+            "record_id": "ee89b637a45fd3934f05",
+            "title": "Eight additional H5 bird flu events in NSW",
+            "url": "https://www.nsw.gov.au/ministerial-releases/eight-more-bird-flu-events"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "475acf8e76d093acb587",
+            "title": "NSW leads the nation on accessible government information",
+            "url": "https://www.nsw.gov.au/ministerial-releases/nsw-leads-nation-on-accessible-government-information"
+          },
+          {
+            "record_id": "c3b8b41f20a861fffc0f",
+            "title": "Boost to water allocations for farmers in the Murray",
+            "url": "https://www.nsw.gov.au/ministerial-releases/boosted-water-allocations-murray"
+          },
+          {
+            "record_id": "c55450ce09b42b7a4b4c",
+            "title": "Access all areas: Macquarie Fields station opens footbridge and lifts",
+            "url": "https://www.nsw.gov.au/ministerial-releases/access-all-areas-macquarie-fields-station-opens-footbridge-and-lifts"
+          }
+        ],
+        "delta_hash": "94d5f85868a1fb934488d716f566969a5b4dcd41a51fbe70de5b281e527512a6"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-NSWEC-MEDIA-20260916060300",
+      "source_change_event_id": "CHG-WATCH-NSWEC-MEDIA-20260916060300",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-NSWEC-MEDIA-20260916060300",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "NSW Electoral Commission — news and media releases added 1 structured publication record to its forward-captured official index: Key changes and improvements for the 2027 NSW State election released arrow_forward 16 Sep 2026 On the International Day of Democracy, the NSW Electoral Commission published its 2027 NSW State Election Change Summary.",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-09-16T06:04:04.101Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "c87ad248c2c7209eb1d7",
+            "title": "Key changes and improvements for the 2027 NSW State election released arrow_forward 16 Sep 2026 On the International Day of Democracy, the NSW Electoral Commission published its 2027 NSW State Election Change Summary.",
+            "url": "https://elections.nsw.gov.au/about-us/media-centre/news-and-media-releases/key-changes-and-improvements-for-the-2027-nsw-state-election-released"
+          }
+        ],
+        "removed_records": [],
+        "delta_hash": "272e24181c6b60ed54d867a41048152b575a34b4abef0cd23e8d59e9728e9f1b"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20260916060300",
+      "source_change_event_id": "CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20260916060300",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20260916060300",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Queensland Government — Ministerial Media Statements added 4 structured publication records to its forward-captured official index: Major fan events celebrate Brazilian soccer tour secured by QLD Government; Aboriginal and Torres Strait Islander Queenslanders backed with jobs and training opportunities; Almost $80 million in grants up for grabs for Queensland manufacturers; Construction begins to upgrade five weirs for Longreach",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-09-16T06:04:04.101Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "03dfa42e83f7825405d1",
+            "title": "Major fan events celebrate Brazilian soccer tour secured by QLD Government",
+            "url": "https://statements.qld.gov.au/statements/106062"
+          },
+          {
+            "record_id": "7fb9cef1c32e9bf4fb65",
+            "title": "Aboriginal and Torres Strait Islander Queenslanders backed with jobs and training opportunities",
+            "url": "https://statements.qld.gov.au/statements/106065"
+          },
+          {
+            "record_id": "d375068c22880d8f7af7",
+            "title": "Almost $80 million in grants up for grabs for Queensland manufacturers",
+            "url": "https://statements.qld.gov.au/statements/106064"
+          },
+          {
+            "record_id": "ee452a06449c9c2ce9a1",
+            "title": "Construction begins to upgrade five weirs for Longreach",
+            "url": "https://statements.qld.gov.au/statements/106063"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "8c681c82cc2dc61d4efb",
+            "title": "Birthing services returning to Cooktown and Biloela",
+            "url": "https://statements.qld.gov.au/statements/106046"
+          },
+          {
+            "record_id": "97d5dff4fba7b53d10f2",
+            "title": "710 new homes fast tracked across South Burnett and Somerset regions",
+            "url": "https://statements.qld.gov.au/statements/106047"
+          },
+          {
+            "record_id": "d1faa9dfd93cef5b8a72",
+            "title": "Statement from the Treasurer regarding S&P Global Ratings",
+            "url": "https://statements.qld.gov.au/statements/106043"
+          },
+          {
+            "record_id": "e772fb61b3a6a10c2df5",
+            "title": "Dangerous illegal e-bikes destroyed under tough new laws",
+            "url": "https://statements.qld.gov.au/statements/106048"
+          }
+        ],
+        "delta_hash": "f2a4620fbee158dec0276719e797245ef59798e275b5eb161111bf40c16a2d48"
       },
       "integrity": {
         "source_change_unchanged": true,

@@ -7,9 +7,9 @@
       "source_id": "SRC-LIBERAL-FEDERAL-HOME",
       "jurisdiction_id": "AUS-FED",
       "party_id": "AUS-FED-LIB",
-      "content_hash": "80c3668234032fea53f30e0731d77646689b7b3a1c2d18ce5efd8f3a7401b3a2",
-      "snapshot_id": "AUTO-WATCH-LIBERAL-HOME-20260916002116",
-      "captured_at": "2026-09-16T00:21:16.407Z",
+      "content_hash": "ea2e984d66bbeea7ffae3a25513b5c49475e9d7ed7c9587990f24413089b553c",
+      "snapshot_id": "AUTO-WATCH-LIBERAL-HOME-20260916225644",
+      "captured_at": "2026-09-16T22:56:44.374Z",
       "acquisition_url": "https://www.liberal.org.au/",
       "requested_url": "https://www.liberal.org.au/",
       "header_profile": "IDENTIFIED_AUTOMATION",
@@ -49,9 +49,9 @@
       "source_id": "SRC-NSW-MINISTERIAL-RELEASES",
       "jurisdiction_id": "AUS-NSW",
       "party_id": null,
-      "content_hash": "0d871e2f9f6cd29013b18c20999cc46195492de4e2dcfc53b03bb1c2cb68819c",
-      "snapshot_id": "AUTO-WATCH-NSW-MINISTERIAL-RELEASES-20260916060300",
-      "captured_at": "2026-09-16T06:03:00.170Z",
+      "content_hash": "d6db0d7a64d14253e7e62f085cc2caf26af6a5fc50ac39d3efa324d3e182c6e5",
+      "snapshot_id": "AUTO-WATCH-NSW-MINISTERIAL-RELEASES-20260916225644",
+      "captured_at": "2026-09-16T22:56:44.374Z",
       "acquisition_url": "https://www.nsw.gov.au/ministerial-releases",
       "requested_url": "https://www.nsw.gov.au/ministerial-releases",
       "header_profile": "IDENTIFIED_AUTOMATION",
@@ -63,11 +63,11 @@
       "source_id": "SRC-APH-LIVE-MINUTES",
       "jurisdiction_id": "AUS-FED",
       "party_id": null,
-      "content_hash": "11412040ba2d45c0769a2f257227a12ed6fa6a46c4c8d63723917f6ee8c9fa03",
-      "snapshot_id": "AUTO-WATCH-APH-LIVE-MINUTES-20260916113535",
-      "captured_at": "2026-09-16T11:35:35.279Z",
-      "acquisition_url": "https://www.aph.gov.au/LiveMinutes",
-      "requested_url": "https://www.aph.gov.au/LiveMinutes",
+      "content_hash": "3d2980af2ab733ce432fdf1cad08b152bfe3b9a52ede9d39828c9cd20955487f",
+      "snapshot_id": "AUTO-WATCH-APH-LIVE-MINUTES-20260916225644",
+      "captured_at": "2026-09-16T22:56:44.374Z",
+      "acquisition_url": "https://www.aph.gov.au/Parliamentary_Business/Chamber_documents/Live_Minutes",
+      "requested_url": "https://www.aph.gov.au/Parliamentary_Business/Chamber_documents/Live_Minutes",
       "header_profile": "BROWSER_COMPATIBILITY",
       "content_type": "text/html; charset=utf-8",
       "capture_mode": "NORMALISED_PAGE_HASH",
@@ -464,9 +464,9 @@
       "source_id": "SRC-APH-BILLS",
       "jurisdiction_id": "AUS-FED",
       "party_id": null,
-      "content_hash": "ec645ab3e3e95cebf6560b827fd7499009aac692a4000ad10b7cfbdb355054bf",
-      "snapshot_id": "AUTO-WATCH-APH-BILLS-20260916200837",
-      "captured_at": "2026-09-16T20:08:37.056Z",
+      "content_hash": "e3b42894914e983e60c4acff89deb70ecec2b5101b9dc275783926865f9cecfa",
+      "snapshot_id": "AUTO-WATCH-APH-BILLS-20260916225644",
+      "captured_at": "2026-09-16T22:56:44.374Z",
       "acquisition_url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation",
       "requested_url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation",
       "header_profile": "BROWSER_COMPATIBILITY",
@@ -503,14 +503,18 @@
       "captured_representation_complete": true
     }
   },
-  "updated_at": "2026-09-16T20:08:37.056Z",
+  "updated_at": "2026-09-16T22:56:44.374Z",
   "last_run": {
-    "captured_at": "2026-09-16T20:08:37.056Z",
+    "captured_at": "2026-09-16T22:56:44.374Z",
     "baselines_created": 0,
-    "source_changes_created": 1,
+    "source_changes_created": 4,
     "semantic_signals_created": 0,
     "representation_upgrades": 0,
     "failures": [
+      {
+        "watch_id": "WATCH-APH-WEEK-AHEAD",
+        "error": "https://www.aph.gov.au/Parliamentary_Business/Chamber_documents/Senate_chamber_documents/The_Week_Ahead [IDENTIFIED_AUTOMATION] 403 Forbidden | https://www.aph.gov.au/Parliamentary_Business/Chamber_documents/Senate_chamber_documents/The_Week_Ahead [BROWSER_COMPATIBILITY] timeout>15000ms"
+      },
       {
         "watch_id": "WATCH-NSW-HANSARD",
         "error": "https://www.parliament.nsw.gov.au/parliamentary-business/hansard [IDENTIFIED_AUTOMATION] 403 Forbidden | https://www.parliament.nsw.gov.au/parliamentary-business/hansard [BROWSER_COMPATIBILITY] 403 Forbidden | https://www.parliament.nsw.gov.au/hansard/Pages/home.aspx [IDENTIFIED_AUTOMATION] 403 Forbidden | https://www.parliament.nsw.gov.au/hansard/Pages/home.aspx [BROWSER_COMPATIBILITY] 403 Forbidden"
@@ -522,6 +526,10 @@
       {
         "watch_id": "WATCH-ECQ-MEDIA",
         "error": "https://www.ecq.qld.gov.au/media/2026-media-statements [IDENTIFIED_AUTOMATION] 403 Forbidden | https://www.ecq.qld.gov.au/media/2026-media-statements [BROWSER_COMPATIBILITY] 403 Forbidden | https://www.ecq.qld.gov.au/home [IDENTIFIED_AUTOMATION] 403 Forbidden | https://www.ecq.qld.gov.au/home [BROWSER_COMPATIBILITY] 403 Forbidden"
+      },
+      {
+        "watch_id": "WATCH-SA-PARLIAMENT",
+        "error": "https://www.parliament.sa.gov.au/ [IDENTIFIED_AUTOMATION] timeout>15000ms | https://www.parliament.sa.gov.au/ [BROWSER_COMPATIBILITY] timeout>15000ms"
       },
       {
         "watch_id": "WATCH-TAS-PREMIER-NEWS",
@@ -557,19 +565,19 @@
   "coverage": {
     "active_sources": 36,
     "baselines_captured": 36,
-    "current_run_failures": 10,
+    "current_run_failures": 12,
     "jurisdictions": {
       "AUS-FED": {
         "configured_sources": 10,
         "baseline_sources": 10,
-        "current_run_failures": 0,
+        "current_run_failures": 1,
         "source_classes": [
           "PRIMARY_ELECTORAL_AUTHORITY",
           "PRIMARY_GOVERNMENT",
           "PRIMARY_PARLIAMENT",
           "PRIMARY_PARTY"
         ],
-        "status": "CAPTURE_ACTIVE_FULL_CONFIGURED_BASELINE"
+        "status": "CAPTURE_ACTIVE_DEGRADED_CURRENT_RUN"
       },
       "AUS-NSW": {
         "configured_sources": 4,
@@ -618,13 +626,13 @@
       "AUS-SA": {
         "configured_sources": 3,
         "baseline_sources": 3,
-        "current_run_failures": 0,
+        "current_run_failures": 1,
         "source_classes": [
           "PRIMARY_ELECTORAL_AUTHORITY",
           "PRIMARY_GOVERNMENT",
           "PRIMARY_PARLIAMENT"
         ],
-        "status": "CAPTURE_ACTIVE_FULL_CONFIGURED_BASELINE"
+        "status": "CAPTURE_ACTIVE_DEGRADED_CURRENT_RUN"
       },
       "AUS-TAS": {
         "configured_sources": 3,

@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-SIGNAL-REVIEWS-001",
   "created_at": "2026-09-09T05:05:00+10:00",
-  "updated_at": "2026-09-16T20:09:11.354Z",
+  "updated_at": "2026-09-16T22:58:18.143Z",
   "rules": {
     "append_only": true,
     "raw_source_change_is_immutable": true,
@@ -28374,6 +28374,106 @@
           }
         ],
         "delta_hash": "ae8cb0e8dd22608ac58458e493e583cf381bbd5446989da87c826d1f7821f692"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-APH-BILLS-20260916225644",
+      "source_change_event_id": "CHG-WATCH-APH-BILLS-20260916225644",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-APH-BILLS-20260916225644",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Parliament of Australia — Bills and Legislation added 2 structured publication records to its forward-captured official index: Current Senate bills list; Current House bills list",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-09-16T22:58:18.143Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "29a68e1255907793c887",
+            "title": "Current Senate bills list",
+            "url": "https://www.aph.gov.au/layouts/DPS/Bills/?blsId=legislation%2fbillslst%2fbillslst_8100fb48-0592-488b-828b-d017b24562d4"
+          },
+          {
+            "record_id": "5965c705a3f269591b38",
+            "title": "Current House bills list",
+            "url": "https://www.aph.gov.au/layouts/DPS/Bills/?blsId=legislation%2fbillslst%2fbillslst_c203aa1c-1876-41a8-bc76-1de328bdb726"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "0c02f85eb762e1f64212",
+            "title": "Current House bills list",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/layouts/DPS/Bills/?blsId=legislation%2fbillslst%2fbillslst_c203aa1c-1876-41a8-bc76-1de328bdb726"
+          },
+          {
+            "record_id": "a9d593cfe442932eabeb",
+            "title": "Current Senate bills list",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/layouts/DPS/Bills/?blsId=legislation%2fbillslst%2fbillslst_8100fb48-0592-488b-828b-d017b24562d4"
+          }
+        ],
+        "delta_hash": "ae77352edd3f794d48b6e319265a2b7c71b0e19c6183fe740c05730e845e3cf3"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-NSW-MINISTERIAL-RELEASES-20260916225644",
+      "source_change_event_id": "CHG-WATCH-NSW-MINISTERIAL-RELEASES-20260916225644",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-NSW-MINISTERIAL-RELEASES-20260916225644",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "NSW Government — Ministerial releases added 2 structured publication records to its forward-captured official index: Town Hall Square; Crown land reforms pass NSW Parliament",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-09-16T22:58:18.143Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "2289ce54c7951b5d27a4",
+            "title": "Town Hall Square",
+            "url": "https://www.nsw.gov.au/ministerial-releases/town-hall-square"
+          },
+          {
+            "record_id": "feb44eae0b6d2c3b24aa",
+            "title": "Crown land reforms pass NSW Parliament",
+            "url": "https://www.nsw.gov.au/ministerial-releases/crown-land-reforms-pass-parliament"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "34ebd4406f2163e4180b",
+            "title": "NSW government to double length of aquaculture leases - driving regional growth",
+            "url": "https://www.nsw.gov.au/ministerial-releases/nsw-government-to-double-length-of-aquaculture-leases-driving-regional-growth"
+          },
+          {
+            "record_id": "dab51a235d76249dcb48",
+            "title": "Minns Labor Government strengthening youth crime prevention and responses",
+            "url": "https://www.nsw.gov.au/ministerial-releases/minns-labor-government-strengthening-youth-crime-prevention-and-responses"
+          }
+        ],
+        "delta_hash": "ef6f0b816a59bad3f51ca886347db8b3f0ac3191c62599dfaeab29fd6cbafcd2"
       },
       "integrity": {
         "source_change_unchanged": true,

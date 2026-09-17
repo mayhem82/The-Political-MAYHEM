@@ -69,63 +69,63 @@
     {
       "jurisdiction_id": "AUS-FED",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-17T07:41:50.276Z",
-      "signals_examined": 164,
-      "candidates_detected": 86
+      "last_screened_at": "2026-09-17T13:29:45.411Z",
+      "signals_examined": 166,
+      "candidates_detected": 88
     },
     {
       "jurisdiction_id": "AUS-NSW",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-17T07:41:50.276Z",
+      "last_screened_at": "2026-09-17T13:29:45.411Z",
       "signals_examined": 54,
       "candidates_detected": 11
     },
     {
       "jurisdiction_id": "AUS-VIC",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-17T07:41:50.276Z",
+      "last_screened_at": "2026-09-17T13:29:45.411Z",
       "signals_examined": 12,
       "candidates_detected": 4
     },
     {
       "jurisdiction_id": "AUS-QLD",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-17T07:41:50.276Z",
-      "signals_examined": 25,
+      "last_screened_at": "2026-09-17T13:29:45.411Z",
+      "signals_examined": 26,
       "candidates_detected": 43
     },
     {
       "jurisdiction_id": "AUS-WA",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-17T07:41:50.276Z",
+      "last_screened_at": "2026-09-17T13:29:45.411Z",
       "signals_examined": 3,
       "candidates_detected": 2
     },
     {
       "jurisdiction_id": "AUS-SA",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-17T07:41:50.276Z",
+      "last_screened_at": "2026-09-17T13:29:45.411Z",
       "signals_examined": 1,
       "candidates_detected": 0
     },
     {
       "jurisdiction_id": "AUS-TAS",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-17T07:41:50.276Z",
+      "last_screened_at": "2026-09-17T13:29:45.411Z",
       "signals_examined": 20,
       "candidates_detected": 0
     },
     {
       "jurisdiction_id": "AUS-ACT",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-17T07:41:50.276Z",
+      "last_screened_at": "2026-09-17T13:29:45.411Z",
       "signals_examined": 24,
       "candidates_detected": 1
     },
     {
       "jurisdiction_id": "AUS-NT",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-17T07:41:50.276Z",
+      "last_screened_at": "2026-09-17T13:29:45.411Z",
       "signals_examined": 31,
       "candidates_detected": 0
     }
@@ -6098,21 +6098,101 @@
           "reason": "DETERMINISTIC_COMPETITION_FAMILY_SCREEN"
         }
       ]
+    },
+    {
+      "candidate_id": "DISC-FED-LEGISLATION-bf75463ed8c7680f",
+      "jurisdiction_id": "AUS-FED",
+      "competition_family": "LEGISLATION",
+      "proposed_competition_class": "LEGISLATIVE",
+      "proposed_cycle_id": "AUS-FED-48TH-PARLIAMENT",
+      "subject": "Ingested substantive legislative evidence from Defence Legislation Amendment (RCDVS Implementation and Related Measures No. 2) Bill 2026 &ndash; Parliament of Australia. Captured content includes stage: Implementation; resistance language: Amendment; outcome language: Passed. Registration threshold ",
+      "candidate_state": "EVIDENCE_GAP",
+      "detected_at": "2026-09-17T13:29:45.141Z",
+      "source_snapshot_ids": [
+        "AUTO-WATCH-APH-BILLS-20260917074045"
+      ],
+      "signal_event_ids": [
+        "INTEL-AREA-39e844c0e07af7cb23290529"
+      ],
+      "review_ids": [],
+      "area_evidence_ids": [
+        "AREA-39e844c0e07af7cb23290529"
+      ],
+      "detail_version_ids": [
+        "DETAIL-a1dd8a125e939c1b9ce29b53-V1"
+      ],
+      "evidence_summary": "Substantive source record body was acquired, routed to LEGISLATIVE, and written into intelligence with retained detail, source-snapshot and stage-10 threshold lineage. Match registration remains a separate action.",
+      "registration_blockers": [
+        "MISSING_CONDITION_DISTINCT_SUPPORTING_AND_OPPOSING_SIDES",
+        "MISSING_FACT_TYPE_CONTEST_OBJECT",
+        "MISSING_FACT_TYPE_EXPLICIT_OPPOSITION_POSITION",
+        "MISSING_FACT_TYPE_EXPLICIT_SUPPORT_POSITION",
+        "MISSING_FACT_TYPE_MATERIAL_RESISTANCE"
+      ],
+      "linked_contest_id": null,
+      "state_history": [
+        {
+          "from": null,
+          "to": "EVIDENCE_GAP",
+          "at": "2026-09-17T13:29:45.141Z",
+          "reason": "SUBSTANTIVE_THRESHOLD_EVALUATION_PROPAGATED"
+        }
+      ]
+    },
+    {
+      "candidate_id": "DISC-FED-POLICY_ENACTMENT-4dfc0901056810ba",
+      "jurisdiction_id": "AUS-FED",
+      "competition_family": "POLICY_ENACTMENT",
+      "proposed_competition_class": "POLICY_ENACTMENT",
+      "proposed_cycle_id": "AUS-FED-48TH-PARLIAMENT",
+      "subject": "Ingested substantive policy enactment evidence from Defence Legislation Amendment (RCDVS Implementation and Related Measures No. 2) Bill 2026 &ndash; Parliament of Australia. Captured content includes stage: Implementation; resistance language: Amendment; outcome language: Passed. Registration thres",
+      "candidate_state": "EVIDENCE_GAP",
+      "detected_at": "2026-09-17T13:29:45.141Z",
+      "source_snapshot_ids": [
+        "AUTO-WATCH-APH-BILLS-20260917074045"
+      ],
+      "signal_event_ids": [
+        "INTEL-AREA-85f5a961313309f4a1b781c4"
+      ],
+      "review_ids": [],
+      "area_evidence_ids": [
+        "AREA-85f5a961313309f4a1b781c4"
+      ],
+      "detail_version_ids": [
+        "DETAIL-a1dd8a125e939c1b9ce29b53-V1"
+      ],
+      "evidence_summary": "Substantive source record body was acquired, routed to POLICY_ENACTMENT, and written into intelligence with retained detail, source-snapshot and stage-10 threshold lineage. Match registration remains a separate action.",
+      "registration_blockers": [
+        "MISSING_CONDITION_DISTINCT_SUPPORTING_AND_OPPOSING_SIDES",
+        "MISSING_FACT_TYPE_EXPLICIT_OPPOSITION_POSITION",
+        "MISSING_FACT_TYPE_EXPLICIT_SUPPORT_POSITION",
+        "MISSING_FACT_TYPE_MATERIAL_RESISTANCE",
+        "MISSING_FACT_TYPE_OBJECTIVE"
+      ],
+      "linked_contest_id": null,
+      "state_history": [
+        {
+          "from": null,
+          "to": "EVIDENCE_GAP",
+          "at": "2026-09-17T13:29:45.141Z",
+          "reason": "SUBSTANTIVE_THRESHOLD_EVALUATION_PROPAGATED"
+        }
+      ]
     }
   ],
-  "last_screened_at": "2026-09-17T07:41:50.276Z",
+  "last_screened_at": "2026-09-17T13:29:45.411Z",
   "last_screen_summary": {
-    "signals_examined": 334,
-    "candidates_total": 147,
-    "candidates_added": 1,
-    "candidate_lineage_merges": 333,
-    "substantive_area_events_examined": 101,
+    "signals_examined": 337,
+    "candidates_total": 149,
+    "candidates_added": 2,
+    "candidate_lineage_merges": 334,
+    "substantive_area_events_examined": 103,
     "threshold_state_transitions": 0,
     "registered_contests_unchanged": true
   },
-  "last_duplicate_reconciliation_at": "2026-09-17T07:41:50.373Z",
+  "last_duplicate_reconciliation_at": "2026-09-17T13:29:45.490Z",
   "last_duplicate_reconciliation": {
     "rejected": 0,
-    "active_area_family_keys": 100
+    "active_area_family_keys": 102
   }
 }

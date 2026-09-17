@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-SIGNAL-REVIEWS-001",
   "created_at": "2026-09-09T05:05:00+10:00",
-  "updated_at": "2026-09-17T07:41:42.358Z",
+  "updated_at": "2026-09-17T13:29:39.239Z",
   "rules": {
     "append_only": true,
     "raw_source_change_is_immutable": true,
@@ -29215,6 +29215,46 @@
           }
         ],
         "delta_hash": "63839b8e4b91f58e099c230567d4c78e3a53db9be9f7be8bf55882007116f255"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20260917132835",
+      "source_change_event_id": "CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20260917132835",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20260917132835",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Queensland Government — Ministerial Media Statements added 1 structured publication record to its forward-captured official index: New laws passed to crack down on dangerous driving",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-09-17T13:29:39.239Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "034b4700c806635c34ee",
+            "title": "New laws passed to crack down on dangerous driving",
+            "url": "https://statements.qld.gov.au/statements/106068"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "54698c7c52f5f6effd97",
+            "title": "Pathway forward delivered for central Queensland town",
+            "url": "https://statements.qld.gov.au/statements/106053"
+          }
+        ],
+        "delta_hash": "c2577a75ef57782b3ae39ee8d26df355919d90fa41ea63f65e9fd5c7d08aa0ac"
       },
       "integrity": {
         "source_change_unchanged": true,

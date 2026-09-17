@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-INTELLIGENCE-EVENTS-001",
   "scope": "Australia — multi-jurisdiction",
-  "captured_at": "2026-09-17T07:41:49.942Z",
+  "captured_at": "2026-09-17T13:29:45.141Z",
   "mode": "FORWARD_ONLY",
   "rules": {
     "observation_distinct_from_inference": true,
@@ -79694,6 +79694,351 @@
         "underlying_publication_claims_not_promoted_to_verified_fact": true,
         "source_change_parent_retained": true,
         "deterministic_review": true
+      }
+    },
+    {
+      "event_id": "CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20260917132835",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-QLD",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-QLD-MINISTERIAL-STATEMENTS-20260917132835",
+      "captured_at": "2026-09-17T13:28:35.522Z",
+      "event_date": "2026-09-17",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-QLD-MINISTERIAL-STATEMENTS",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "review_policy": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-QLD-MINISTERIAL-STATEMENTS-20260917074045",
+        "content_hash": "9839f5fed0b5dacbfcf1e22efe776d524a7afca307ff92288919049cf90f53e9",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-QLD-MINISTERIAL-STATEMENTS-20260917132835",
+        "content_hash": "fa05a7d8f510eec33cdecd5731a1bcef3df94ea24c4ab6184f4a7f91aee694a3",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "STRUCTURED_RECORD_SET",
+        "records_added": [
+          {
+            "record_id": "034b4700c806635c34ee",
+            "title": "New laws passed to crack down on dangerous driving",
+            "url": "https://statements.qld.gov.au/statements/106068"
+          }
+        ],
+        "records_removed": [
+          {
+            "record_id": "54698c7c52f5f6effd97",
+            "title": "Pathway forward delivered for central Queensland town",
+            "url": "https://statements.qld.gov.au/statements/106053"
+          }
+        ],
+        "added_count": 1,
+        "removed_count": 1,
+        "before_count": 16,
+        "after_count": 16,
+        "delta_hash": "c2577a75ef57782b3ae39ee8d26df355919d90fa41ea63f65e9fd5c7d08aa0ac"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-WA-HANSARD-20260917132835",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-WA",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-WA-HANSARD-20260917132835",
+      "captured_at": "2026-09-17T13:28:35.522Z",
+      "event_date": "2026-09-17",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_PARLIAMENT",
+      "source_id": "SRC-WA-HANSARD",
+      "capture_mode": "NORMALISED_PAGE_HASH",
+      "review_policy": "REVIEW_UNSTRUCTURED_CHANGE",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-WA-HANSARD-20260914230815",
+        "content_hash": "c7a51747ba06bf608f150625630d055439a0c797f89089d7e95f8760f8e704ca",
+        "capture_mode": "NORMALISED_PAGE_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-WA-HANSARD-20260917132835",
+        "content_hash": "b9830e5bb9cc15527b01c37a22fede2cc06730553a0bb8b75d4f0f14c6f24162",
+        "capture_mode": "NORMALISED_PAGE_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "TEXT_REPRESENTATION",
+        "first_difference_offset": 183,
+        "before_length": 10663,
+        "after_length": 10586,
+        "before_excerpt": "ip to main content Home Site map Accessibility Contact us Alerts Home Menu Show/Hide website navigation The Legislative Assembly meets today (<TIME>) Watch live Watch Assembly live The Legislative Council meets today (<TIME>) Watch live Watch Council live Search this website Advanced Search Search Parliamentary Busi",
+        "after_excerpt": "ip to main content Home Site map Accessibility Contact us Alerts Home Menu Show/Hide website navigation The Legislative Council meets today (<TIME>) Watch live Watch Council live Search this website Advanced Search Search Parliamentary Busi",
+        "delta_hash": "2d8be2e6cfa518e3056337b0d03514ed8e727c8041f740929c4224a95fc18fcf"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "SIG-REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20260917132835",
+      "parent_event_id": "CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20260917132835",
+      "review_id": "REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20260917132835",
+      "jurisdiction_id": "AUS-QLD",
+      "party_id": null,
+      "actor_id": null,
+      "contest_id": null,
+      "cycle_id": null,
+      "source_snapshot_id": "AUTO-WATCH-QLD-MINISTERIAL-STATEMENTS-20260917132835",
+      "record_id": "034b4700c806635c34ee",
+      "captured_at": "2026-09-17T13:29:39.239Z",
+      "event_date": "2026-09-17",
+      "checkpoint": "CONTINUOUS_FORWARD_SIGNAL_REVIEW",
+      "event_type": "SIGNAL_CREATED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-QLD-MINISTERIAL-STATEMENTS",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "claim": "Queensland Government — Ministerial Media Statements added 1 structured publication record to its forward-captured official index: New laws passed to crack down on dangerous driving",
+      "observed_behaviour": "One or more structured publication records appeared in the monitored official source index after the preceding forward snapshot.",
+      "publication_records_added": [
+        {
+          "record_id": "034b4700c806635c34ee",
+          "title": "New laws passed to crack down on dangerous driving",
+          "url": "https://statements.qld.gov.au/statements/106068"
+        }
+      ],
+      "publication_records_removed": [
+        {
+          "record_id": "54698c7c52f5f6effd97",
+          "title": "Pathway forward delivered for central Queensland town",
+          "url": "https://statements.qld.gov.au/statements/106053"
+        }
+      ],
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "underlying_publication_claims_not_promoted_to_verified_fact": true,
+        "source_change_parent_retained": true,
+        "deterministic_review": true
+      }
+    },
+    {
+      "event_id": "INTEL-AREA-39e844c0e07af7cb23290529",
+      "parent_event_id": "SIG-REV-CHG-WATCH-APH-BILLS-20260917074045",
+      "jurisdiction_id": "AUS-FED",
+      "party_id": null,
+      "actor_id": null,
+      "party_ids": [],
+      "actor_ids": [],
+      "contest_id": null,
+      "cycle_id": null,
+      "competition_class": "LEGISLATIVE",
+      "area_evidence_id": "AREA-39e844c0e07af7cb23290529",
+      "detail_record_id": "DETAIL-a1dd8a125e939c1b9ce29b53",
+      "detail_version_id": "DETAIL-a1dd8a125e939c1b9ce29b53-V1",
+      "source_snapshot_id": "AUTO-WATCH-APH-BILLS-20260917074045",
+      "record_url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7498",
+      "captured_at": "2026-09-17T13:29:45.141Z",
+      "evidence_captured_at": "2026-09-17T13:29:40.164Z",
+      "event_date": "2026-09-17",
+      "checkpoint": "SUBSTANTIVE_INFORMATION_INGESTION",
+      "event_type": "AREA_EVIDENCE_INGESTED",
+      "area_routing_state": "SUBSTANTIVE_CONTENT_ROUTED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_PARLIAMENT",
+      "source_id": "SRC-APH-BILLS",
+      "claim": "Ingested substantive legislative evidence from Defence Legislation Amendment (RCDVS Implementation and Related Measures No. 2) Bill 2026 &ndash; Parliament of Australia. Captured content includes stage: Implementation; resistance language: Amendment; outcome language: Passed. Registration threshold state: evidence gap. Missing requirements: missing fact type contest object, missing fact type material resistance, missing fact type explicit support position, missing fact type explicit opposition position, missing condition distinct supporting and opposing sides.",
+      "observed_behaviour": "Defence Legislation Amendment (RCDVS Implementation and Related Measures No. 2) Bill 2026 &ndash; Parliament of Australia Skip to navigation Skip to content Defence Legislation Amendment (RCDVS Implementation and Related Measures No. 2) Bill 2026 Type Government Portfolio Defence Originating house House of Representatives Status Passed Both Houses Parliament no 48 Track (What's this?) Permalink Summary Amends the: Defence Act 1903 and Military Rehabilitation and Compensation Act 2004 to: expand the functions of the Military Rehabilitation and Compensation Commission to include supporting the wellbeing, health and safety of members of the Australian Defence Force (ADF), veterans and their families; and provide for the collection, use and disclosure of information for certain purposes; Defence Act 1903 and Freedom of Information Act 1982 to establish a legislative basis for Defence health services; Defence Act 1903 to: ensure that benefits for former partners of ADF members can continue in the immediate aftermath of a separation; support direct engagement between Defence and ADF families; and prohibit persons who have been sentenced to a period of imprisonment for a sexual offence from joining the ADF, implement a policy of mandatory discharge for persons convicted of sexual and other serious offences and consolidate certain existing requirements relating to eligibility for service and the early termination of service in the ADF; and Defence and Veterans&rsquo; Service Commissioner Act 2026 to make minor amendments relating to the operation of the Defence and Veterans&rsquo; Service Commission. Progress House of Representatives Introduced and read a first time 25 Jun 2026 Second reading moved 25 Jun 2026 Second reading debate 01 Jul 2026 Referred to Federation Chamber 01 ",
+      "extracted_cues": {
+        "resistance_terms": [
+          "Amendment"
+        ],
+        "stage_terms": [
+          "Implementation"
+        ],
+        "outcome_terms": [
+          "Passed"
+        ],
+        "pressure_terms": []
+      },
+      "entity_mentions": {
+        "actors": [],
+        "teams": []
+      },
+      "position_state": "UNRESOLVED",
+      "resistance_state": "RESISTANCE_LANGUAGE_PRESENT",
+      "outcome_state": "OUTCOME_LANGUAGE_PRESENT",
+      "contest_fact_ids": [
+        "FACT-05f8da5de63305dfc0c32f90",
+        "FACT-0a180ab444cf3ccc6eb26422",
+        "FACT-0dc83b670979e9576306231d",
+        "FACT-205c1bef3ea54af426e2e57a",
+        "FACT-32634b6cadbedf19a81f1c8b",
+        "FACT-6c7c325356cc816d99136eb6",
+        "FACT-7a57a0b9702df0f376b8a890",
+        "FACT-842e98efe1c027fdd2821590",
+        "FACT-891e701a0e412b5779106934",
+        "FACT-91a7505ec18f51299f8431a0",
+        "FACT-a6c95d7f72677e32b00fc407",
+        "FACT-b2504f13267c4f4b76307316",
+        "FACT-be9ae96e9663b0d8f7465948"
+      ],
+      "contest_fact_types": [
+        "AMENDMENT",
+        "POSSIBLE_OUTCOME_STATE",
+        "PROCEDURAL_ACTION",
+        "STAGE",
+        "VOTE_OR_DIVISION"
+      ],
+      "threshold_evaluation_id": "THRESH-7949231ebf6f2e110346afbc",
+      "threshold_state": "EVIDENCE_GAP",
+      "threshold_blockers": [
+        "MISSING_CONDITION_DISTINCT_SUPPORTING_AND_OPPOSING_SIDES",
+        "MISSING_FACT_TYPE_CONTEST_OBJECT",
+        "MISSING_FACT_TYPE_EXPLICIT_OPPOSITION_POSITION",
+        "MISSING_FACT_TYPE_EXPLICIT_SUPPORT_POSITION",
+        "MISSING_FACT_TYPE_MATERIAL_RESISTANCE"
+      ],
+      "supporting_entities": [],
+      "opposing_entities": [],
+      "registration_action": "NO_AUTOMATIC_REGISTRATION",
+      "intelligence_signature": "7786ee6471e1eb615c141fd815310f9cec92054dcae836d0ddedaeedcb7bc681",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "substantive_detail_lineage_required": true,
+        "active_contest_fact_lineage_required": true,
+        "threshold_evaluation_lineage_required": true,
+        "routing_does_not_register_match": true,
+        "threshold_eligibility_does_not_register_match": true,
+        "entity_mentions_do_not_establish_positions": true,
+        "retracted_facts_excluded": true,
+        "no_projection_effect_without_registered_target": true
+      }
+    },
+    {
+      "event_id": "INTEL-AREA-85f5a961313309f4a1b781c4",
+      "parent_event_id": "SIG-REV-CHG-WATCH-APH-BILLS-20260917074045",
+      "jurisdiction_id": "AUS-FED",
+      "party_id": null,
+      "actor_id": null,
+      "party_ids": [],
+      "actor_ids": [],
+      "contest_id": null,
+      "cycle_id": null,
+      "competition_class": "POLICY_ENACTMENT",
+      "area_evidence_id": "AREA-85f5a961313309f4a1b781c4",
+      "detail_record_id": "DETAIL-a1dd8a125e939c1b9ce29b53",
+      "detail_version_id": "DETAIL-a1dd8a125e939c1b9ce29b53-V1",
+      "source_snapshot_id": "AUTO-WATCH-APH-BILLS-20260917074045",
+      "record_url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7498",
+      "captured_at": "2026-09-17T13:29:45.141Z",
+      "evidence_captured_at": "2026-09-17T13:29:40.164Z",
+      "event_date": "2026-09-17",
+      "checkpoint": "SUBSTANTIVE_INFORMATION_INGESTION",
+      "event_type": "AREA_EVIDENCE_INGESTED",
+      "area_routing_state": "SUBSTANTIVE_CONTENT_ROUTED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_PARLIAMENT",
+      "source_id": "SRC-APH-BILLS",
+      "claim": "Ingested substantive policy enactment evidence from Defence Legislation Amendment (RCDVS Implementation and Related Measures No. 2) Bill 2026 &ndash; Parliament of Australia. Captured content includes stage: Implementation; resistance language: Amendment; outcome language: Passed. Registration threshold state: evidence gap. Missing requirements: missing fact type objective, missing fact type material resistance, missing fact type explicit support position, missing fact type explicit opposition position, missing condition distinct supporting and opposing sides.",
+      "observed_behaviour": "Defence Legislation Amendment (RCDVS Implementation and Related Measures No. 2) Bill 2026 &ndash; Parliament of Australia Skip to navigation Skip to content Defence Legislation Amendment (RCDVS Implementation and Related Measures No. 2) Bill 2026 Type Government Portfolio Defence Originating house House of Representatives Status Passed Both Houses Parliament no 48 Track (What's this?) Permalink Summary Amends the: Defence Act 1903 and Military Rehabilitation and Compensation Act 2004 to: expand the functions of the Military Rehabilitation and Compensation Commission to include supporting the wellbeing, health and safety of members of the Australian Defence Force (ADF), veterans and their families; and provide for the collection, use and disclosure of information for certain purposes; Defence Act 1903 and Freedom of Information Act 1982 to establish a legislative basis for Defence health services; Defence Act 1903 to: ensure that benefits for former partners of ADF members can continue in the immediate aftermath of a separation; support direct engagement between Defence and ADF families; and prohibit persons who have been sentenced to a period of imprisonment for a sexual offence from joining the ADF, implement a policy of mandatory discharge for persons convicted of sexual and other serious offences and consolidate certain existing requirements relating to eligibility for service and the early termination of service in the ADF; and Defence and Veterans&rsquo; Service Commissioner Act 2026 to make minor amendments relating to the operation of the Defence and Veterans&rsquo; Service Commission. Progress House of Representatives Introduced and read a first time 25 Jun 2026 Second reading moved 25 Jun 2026 Second reading debate 01 Jul 2026 Referred to Federation Chamber 01 ",
+      "extracted_cues": {
+        "resistance_terms": [
+          "Amendment"
+        ],
+        "stage_terms": [
+          "Implementation"
+        ],
+        "outcome_terms": [
+          "Passed"
+        ],
+        "pressure_terms": []
+      },
+      "entity_mentions": {
+        "actors": [],
+        "teams": []
+      },
+      "position_state": "UNRESOLVED",
+      "resistance_state": "RESISTANCE_LANGUAGE_PRESENT",
+      "outcome_state": "OUTCOME_LANGUAGE_PRESENT",
+      "contest_fact_ids": [
+        "FACT-124dda614b3459ccb2a4ab5d",
+        "FACT-77b09fcede29e1af12b4d9be",
+        "FACT-882dc6603b6e5d7ad3232bae",
+        "FACT-9b722314f71e00192050c420",
+        "FACT-d9a9e5548b8b65a915796054",
+        "FACT-f8fa6ac7746d27286dd33171"
+      ],
+      "contest_fact_types": [
+        "CONTEST_OBJECT",
+        "IMPLEMENTATION_ACTION",
+        "STAGE"
+      ],
+      "threshold_evaluation_id": "THRESH-c8f110c63bd1a2a2b48dbb7c",
+      "threshold_state": "EVIDENCE_GAP",
+      "threshold_blockers": [
+        "MISSING_CONDITION_DISTINCT_SUPPORTING_AND_OPPOSING_SIDES",
+        "MISSING_FACT_TYPE_EXPLICIT_OPPOSITION_POSITION",
+        "MISSING_FACT_TYPE_EXPLICIT_SUPPORT_POSITION",
+        "MISSING_FACT_TYPE_MATERIAL_RESISTANCE",
+        "MISSING_FACT_TYPE_OBJECTIVE"
+      ],
+      "supporting_entities": [],
+      "opposing_entities": [],
+      "registration_action": "NO_AUTOMATIC_REGISTRATION",
+      "intelligence_signature": "f17a72bc7fe0e8db47be9ca5b790ab69a68ddeedb6097e9f1e4c9f406b4c5dd3",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "substantive_detail_lineage_required": true,
+        "active_contest_fact_lineage_required": true,
+        "threshold_evaluation_lineage_required": true,
+        "routing_does_not_register_match": true,
+        "threshold_eligibility_does_not_register_match": true,
+        "entity_mentions_do_not_establish_positions": true,
+        "retracted_facts_excluded": true,
+        "no_projection_effect_without_registered_target": true
       }
     }
   ]

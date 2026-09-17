@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-SIGNAL-REVIEWS-001",
   "created_at": "2026-09-09T05:05:00+10:00",
-  "updated_at": "2026-09-17T01:27:09.600Z",
+  "updated_at": "2026-09-17T07:41:42.358Z",
   "rules": {
     "append_only": true,
     "raw_source_change_is_immutable": true,
@@ -28878,6 +28878,343 @@
           }
         ],
         "delta_hash": "9f3713f2f7c7003492439b764ed445cdcc2fd6a80c4d07ab4a6bb07a5d60d851"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-APH-BILLS-20260917074045",
+      "source_change_event_id": "CHG-WATCH-APH-BILLS-20260917074045",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-APH-BILLS-20260917074045",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Parliament of Australia — Bills and Legislation added 4 structured publication records to its forward-captured official index: Knox Class Action (Facilitation) Bill 2026; Universities Accord (Opening the Doors of Opportun...; Private Health Insurance Amendment (Modernising th...; Defence Legislation Amendment (RCDVS Implementatio...",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-09-17T07:41:42.358Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "2a6999b453936296e183",
+            "title": "Knox Class Action (Facilitation) Bill 2026",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7539"
+          },
+          {
+            "record_id": "ba16f1a261ed547f15f0",
+            "title": "Universities Accord (Opening the Doors of Opportun...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7501"
+          },
+          {
+            "record_id": "eb8ff799ba2da88b25af",
+            "title": "Private Health Insurance Amendment (Modernising th...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7497"
+          },
+          {
+            "record_id": "f1cb69459e052865620a",
+            "title": "Defence Legislation Amendment (RCDVS Implementatio...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7498"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "53d1e729641b17686005",
+            "title": "Child Support and Family Assistance Legislation Am...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7549"
+          },
+          {
+            "record_id": "732221c68c87c7b3aff7",
+            "title": "Aged Care Legislation Amendment (Aboriginal and To...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7517"
+          },
+          {
+            "record_id": "b483e0ab98aaa9be7511",
+            "title": "Customs Amendment (Safeguard Inquiries) Bill 2026",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=s1495"
+          },
+          {
+            "record_id": "c522e44dbf4b86263daf",
+            "title": "Private Health Insurance (National Joint Replaceme...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7544"
+          }
+        ],
+        "delta_hash": "086ca2f6cbd053c113fce2546ea3ac64cab624c873cd33ac70ec9bf64f9cfa73"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-GREENS-FEDERAL-MEDIA-20260917074045",
+      "source_change_event_id": "CHG-WATCH-GREENS-FEDERAL-MEDIA-20260917074045",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-GREENS-FEDERAL-MEDIA-20260917074045",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": "AUS-FED-GRN",
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Australian Greens — Federal MPs media releases added 4 structured publication records to its forward-captured official index: Apology to LGBTIQA+ veterans; Labor’s migration policy a bumbling return to Abbott era; Read more about Apology to LGBTIQA+ veterans; Read more about Labor’s migration policy a bumbling return to Abbott era",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-09-17T07:41:42.358Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "47fbb7f66c885f5b47be",
+            "title": "Apology to LGBTIQA+ veterans",
+            "url": "https://greens.org.au/news/media-release/apology-lgbtiqa-veterans"
+          },
+          {
+            "record_id": "68257b65c53d88ff8ede",
+            "title": "Labor’s migration policy a bumbling return to Abbott era",
+            "url": "https://greens.org.au/news/media-release/labors-migration-policy-bumbling-return-abbott-era"
+          },
+          {
+            "record_id": "f4da79727e0310b863d8",
+            "title": "Read more about Apology to LGBTIQA+ veterans",
+            "url": "https://greens.org.au/news/media-release/apology-lgbtiqa-veterans"
+          },
+          {
+            "record_id": "fecf1f3601f15ef88db9",
+            "title": "Read more about Labor’s migration policy a bumbling return to Abbott era",
+            "url": "https://greens.org.au/news/media-release/labors-migration-policy-bumbling-return-abbott-era"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "77d7602bc49dfcc2a912",
+            "title": "Read more about Labor must ditch gas reservation and finally make gas industry pay up",
+            "url": "https://greens.org.au/news/media-release/labor-must-ditch-gas-reservation-and-finally-make-gas-industry-pay"
+          },
+          {
+            "record_id": "86094de7f53b0f21d144",
+            "title": "Labor must ditch gas reservation and finally make gas industry pay up",
+            "url": "https://greens.org.au/news/media-release/labor-must-ditch-gas-reservation-and-finally-make-gas-industry-pay"
+          },
+          {
+            "record_id": "8debf7bc167cae6c29fd",
+            "title": "Real pollution cuts, not accounting tricks: Greens announce support for improved INFM, oppose Labor&#039;s greenwashing carbon bill and IFLM",
+            "url": "https://greens.org.au/news/media-release/real-pollution-cuts-not-accounting-tricks-greens-announce-support-improved-infm"
+          },
+          {
+            "record_id": "b3a256f4cb0ad099ad3a",
+            "title": "Read more about Real pollution cuts, not accounting tricks: Greens announce support for improved INFM, oppose Labor&#039;s greenwashing carbon bill and IFLM",
+            "url": "https://greens.org.au/news/media-release/real-pollution-cuts-not-accounting-tricks-greens-announce-support-improved-infm"
+          }
+        ],
+        "delta_hash": "893c9a861ba701a55a7440b4be06c9e33d123229da576c3ad2e8813f28d6497e"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-ONENATION-NEWS-20260917074045",
+      "source_change_event_id": "CHG-WATCH-ONENATION-NEWS-20260917074045",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-ONENATION-NEWS-20260917074045",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": "AUS-FED-ONP",
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Pauline Hanson's One Nation — Latest News added 1 structured publication record to its forward-captured official index: Labor hopelessly divided as One Nation sets the agenda on immigration",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-09-17T07:41:42.358Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "9b32d246212ebfaf53e8",
+            "title": "Labor hopelessly divided as One Nation sets the agenda on immigration",
+            "url": "http://www.onenation.org.au/labor-immigration-divisions",
+            "published": "Thu, 17 Sep 2026 16:34:15 +1000"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "9b630f8688ed368448bd",
+            "title": "Albanese Calls Super a ‘National Asset’ — But It’s Your Money",
+            "url": "http://www.onenation.org.au/super-retirement-savings",
+            "published": "Mon, 07 Sep 2026 16:31:00 +1000"
+          }
+        ],
+        "delta_hash": "1b4cccd31371a4634b15997333edd186f4bc0d2d10419e8afb3f589e9e3e3169"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-NSW-MINISTERIAL-RELEASES-20260917074045",
+      "source_change_event_id": "CHG-WATCH-NSW-MINISTERIAL-RELEASES-20260917074045",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-NSW-MINISTERIAL-RELEASES-20260917074045",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "NSW Government — Ministerial releases added 3 structured publication records to its forward-captured official index: NSW winners announced at 2026 Resilient Australia Awards; NSW winners announced at 2026 Resilient Australia Awards; Five new H5 bird flu events along the NSW coast",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-09-17T07:41:42.358Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "90a20c7e4cdb716a0705",
+            "title": "NSW winners announced at 2026 Resilient Australia Awards",
+            "url": "https://www.nsw.gov.au/ministerial-releases/nsw-winners-announced-at-2026-resilient-australia-awards-0"
+          },
+          {
+            "record_id": "c8cc870940535f23ab79",
+            "title": "NSW winners announced at 2026 Resilient Australia Awards",
+            "url": "https://www.nsw.gov.au/ministerial-releases/nsw-winners-announced-at-2026-resilient-australia-awards"
+          },
+          {
+            "record_id": "f536f7b9102b17ddb5d2",
+            "title": "Five new H5 bird flu events along the NSW coast",
+            "url": "https://www.nsw.gov.au/ministerial-releases/five-new-h5-bird-flu-events-along-nsw-coast"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "0c3dc851ebaf665f9422",
+            "title": "Minns Labor Government delivering more surgeries in the Illawarra",
+            "url": "https://www.nsw.gov.au/ministerial-releases/minns-labor-government-delivering-more-surgeries-illawarra"
+          },
+          {
+            "record_id": "8f3dad1f90774e6bf8db",
+            "title": "Winds of change as NSW’s largest power point nears completion at White Bay",
+            "url": "https://www.nsw.gov.au/ministerial-releases/winds-of-change-as-nsws-largest-power-point-nears-completion-at-white-bay"
+          },
+          {
+            "record_id": "bed5925b96f3802bf358",
+            "title": "Minns Labor Government crime crackdown continues: new data shows more DV offenders before the courts",
+            "url": "https://www.nsw.gov.au/ministerial-releases/minns-labor-government-crime-crackdown-continues-new-data-shows-more-dv-offenders-before-courts"
+          }
+        ],
+        "delta_hash": "45b86c5fc7a497c4de4cb8752b539e2990d268ba3138885b02e3981a661bd4c3"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-VEC-MEDIA-20260917074045",
+      "source_change_event_id": "CHG-WATCH-VEC-MEDIA-20260917074045",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-VEC-MEDIA-20260917074045",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Victorian Electoral Commission — media centre added 2 structured publication records to its forward-captured official index: 17 September 2026 Free TAFE Free Uni refused registration as a political party Media release details; 17 September 2026 - Free TAFE Free Uni refused registration as a political party",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-09-17T07:41:42.358Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "c514d443971fe3633924",
+            "title": "17 September 2026 Free TAFE Free Uni refused registration as a political party Media release details",
+            "url": "https://www.vec.vic.gov.au/about-us/media/free-tafe-free-uni-refused-registration-as-a-political-party"
+          },
+          {
+            "record_id": "fd551c2297e29347671d",
+            "title": "17 September 2026 - Free TAFE Free Uni refused registration as a political party",
+            "url": "https://www.vec.vic.gov.au/about-us/media/free-tafe-free-uni-refused-registration-as-a-political-party"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "131723c219e222f250ab",
+            "title": "14 September 2026 Ballot packs mailed for Banyule City Council by-election Media release details",
+            "url": "https://www.vec.vic.gov.au/about-us/media/ballot-packs-mailed-for-banyule-city-council-by-election"
+          }
+        ],
+        "delta_hash": "fdd320a9733ebb09047b6aaa67a63508c0208b753fbc0461cf6d33efc24199d7"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20260917074045",
+      "source_change_event_id": "CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20260917074045",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20260917074045",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Queensland Government — Ministerial Media Statements added 2 structured publication records to its forward-captured official index: Circuit Breaker Sentencing passes Parliament to make Queensland safer as Labor vote against rehabilitation; Nation-leading domestic and family violence reforms strengthen victim support",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-09-17T07:41:42.358Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "1f64e61415362a703335",
+            "title": "Circuit Breaker Sentencing passes Parliament to make Queensland safer as Labor vote against rehabilitation",
+            "url": "https://statements.qld.gov.au/statements/106078"
+          },
+          {
+            "record_id": "d976610e6f325a080f21",
+            "title": "Nation-leading domestic and family violence reforms strengthen victim support",
+            "url": "https://statements.qld.gov.au/statements/106074"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "020a4a088e28cd6b3c2e",
+            "title": "Strongest parole laws in the nation to keep dangerous prisoners behind bars",
+            "url": "https://statements.qld.gov.au/statements/106058"
+          },
+          {
+            "record_id": "b33556b7155f2d5d81c4",
+            "title": "Thousands more Queenslanders getting skilled for work",
+            "url": "https://statements.qld.gov.au/statements/106057"
+          }
+        ],
+        "delta_hash": "63839b8e4b91f58e099c230567d4c78e3a53db9be9f7be8bf55882007116f255"
       },
       "integrity": {
         "source_change_unchanged": true,

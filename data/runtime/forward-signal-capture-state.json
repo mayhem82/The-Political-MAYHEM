@@ -159,9 +159,9 @@
       "source_id": "SRC-WA-HANSARD",
       "jurisdiction_id": "AUS-WA",
       "party_id": null,
-      "content_hash": "b9830e5bb9cc15527b01c37a22fede2cc06730553a0bb8b75d4f0f14c6f24162",
-      "snapshot_id": "AUTO-WATCH-WA-HANSARD-20260917132835",
-      "captured_at": "2026-09-17T13:28:35.522Z",
+      "content_hash": "0041fa5e31d4dbbc548feb1315e06377cf936f57859d412a4543277bf29cfc3a",
+      "snapshot_id": "AUTO-WATCH-WA-HANSARD-20260917181442",
+      "captured_at": "2026-09-17T18:14:42.592Z",
       "acquisition_url": "https://www.parliament.wa.gov.au/4825795E0000B647/content/hansard-how-to-search-and-use-hansard",
       "requested_url": "https://www.parliament.wa.gov.au/4825795E0000B647/content/hansard-how-to-search-and-use-hansard",
       "header_profile": "BROWSER_COMPATIBILITY",
@@ -178,7 +178,7 @@
       "captured_at": "2026-09-10T00:15:42.389Z",
       "acquisition_url": "https://www.parliament.sa.gov.au/",
       "requested_url": "https://www.parliament.sa.gov.au/",
-      "header_profile": "BROWSER_COMPATIBILITY",
+      "header_profile": "IDENTIFIED_AUTOMATION",
       "content_type": "text/html; charset=utf-8",
       "capture_mode": "NORMALISED_PAGE_HASH",
       "captured_representation_complete": true
@@ -504,11 +504,11 @@
       "captured_representation_complete": true
     }
   },
-  "updated_at": "2026-09-17T13:28:35.522Z",
+  "updated_at": "2026-09-17T18:14:42.592Z",
   "last_run": {
-    "captured_at": "2026-09-17T13:28:35.522Z",
+    "captured_at": "2026-09-17T18:14:42.592Z",
     "baselines_created": 0,
-    "source_changes_created": 2,
+    "source_changes_created": 1,
     "semantic_signals_created": 0,
     "representation_upgrades": 0,
     "failures": [
@@ -523,10 +523,6 @@
       {
         "watch_id": "WATCH-ECQ-MEDIA",
         "error": "https://www.ecq.qld.gov.au/media/2026-media-statements [IDENTIFIED_AUTOMATION] 403 Forbidden | https://www.ecq.qld.gov.au/media/2026-media-statements [BROWSER_COMPATIBILITY] 403 Forbidden | https://www.ecq.qld.gov.au/home [IDENTIFIED_AUTOMATION] 403 Forbidden | https://www.ecq.qld.gov.au/home [BROWSER_COMPATIBILITY] 403 Forbidden"
-      },
-      {
-        "watch_id": "WATCH-TAS-HANSARD",
-        "error": "https://search.parliament.tas.gov.au/Search/search/search?IW_FIELD_ADVANCE_PHRASE=2026%20IN%20TITLE&IW_DATABASE=Hansard&IW_SORT=-9&IW_SEARCH_SCOPE=meta [IDENTIFIED_AUTOMATION] timeout>15000ms | https://search.parliament.tas.gov.au/Search/search/search?IW_FIELD_ADVANCE_PHRASE=2026%20IN%20TITLE&IW_DATABASE=Hansard&IW_SORT=-9&IW_SEARCH_SCOPE=meta [BROWSER_COMPATIBILITY] 503 Service Unavailable"
       },
       {
         "watch_id": "WATCH-TAS-PREMIER-NEWS",
@@ -562,7 +558,7 @@
   "coverage": {
     "active_sources": 36,
     "baselines_captured": 36,
-    "current_run_failures": 11,
+    "current_run_failures": 10,
     "jurisdictions": {
       "AUS-FED": {
         "configured_sources": 10,
@@ -634,7 +630,7 @@
       "AUS-TAS": {
         "configured_sources": 3,
         "baseline_sources": 3,
-        "current_run_failures": 2,
+        "current_run_failures": 1,
         "source_classes": [
           "PRIMARY_ELECTORAL_AUTHORITY",
           "PRIMARY_GOVERNMENT",

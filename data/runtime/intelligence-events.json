@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-INTELLIGENCE-EVENTS-001",
   "scope": "Australia — multi-jurisdiction",
-  "captured_at": "2026-09-17T13:29:45.141Z",
+  "captured_at": "2026-09-17T18:15:27.685Z",
   "mode": "FORWARD_ONLY",
   "rules": {
     "observation_distinct_from_inference": true,
@@ -80040,6 +80040,52 @@
         "retracted_facts_excluded": true,
         "no_projection_effect_without_registered_target": true
       }
+    },
+    {
+      "event_id": "CHG-WATCH-WA-HANSARD-20260917181442",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-WA",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-WA-HANSARD-20260917181442",
+      "captured_at": "2026-09-17T18:14:42.592Z",
+      "event_date": "2026-09-18",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_PARLIAMENT",
+      "source_id": "SRC-WA-HANSARD",
+      "capture_mode": "NORMALISED_PAGE_HASH",
+      "review_policy": "REVIEW_UNSTRUCTURED_CHANGE",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-WA-HANSARD-20260917132835",
+        "content_hash": "b9830e5bb9cc15527b01c37a22fede2cc06730553a0bb8b75d4f0f14c6f24162",
+        "capture_mode": "NORMALISED_PAGE_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-WA-HANSARD-20260917181442",
+        "content_hash": "0041fa5e31d4dbbc548feb1315e06377cf936f57859d412a4543277bf29cfc3a",
+        "capture_mode": "NORMALISED_PAGE_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "TEXT_REPRESENTATION",
+        "first_difference_offset": 183,
+        "before_length": 10586,
+        "after_length": 10665,
+        "before_excerpt": "ip to main content Home Site map Accessibility Contact us Alerts Home Menu Show/Hide website navigation The Legislative Council meets today (<TIME>) Watch live Watch Council live Search this website Advanced Search Search Parliamentary Business Bills (proposed laws) WA Acts and Regulations (curren",
+        "after_excerpt": "ip to main content Home Site map Accessibility Contact us Alerts Home Menu Show/Hide website navigation The Legislative Assembly meets on 13/10/2026 (<TIME>) Assembly sit 13/10/2026 The Legislative Council meets on 13/10/2026 (<TIME>) Council sit 13/10/2026 Search this website Advanced Search Search Parliamentary Business Bills (proposed laws) WA Acts and Regulations (curren",
+        "delta_hash": "5a6d39b72f307cb499ef57d99cf518275ce383746edc7317ec841f5195ca43ab"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
     }
   ]
 }

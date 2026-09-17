@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-SIGNAL-REVIEWS-001",
   "created_at": "2026-09-09T05:05:00+10:00",
-  "updated_at": "2026-09-16T22:58:18.143Z",
+  "updated_at": "2026-09-17T01:27:09.600Z",
   "rules": {
     "append_only": true,
     "raw_source_change_is_immutable": true,
@@ -28474,6 +28474,410 @@
           }
         ],
         "delta_hash": "ef6f0b816a59bad3f51ca886347db8b3f0ac3191c62599dfaeab29fd6cbafcd2"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-APH-BILLS-20260917012605",
+      "source_change_event_id": "CHG-WATCH-APH-BILLS-20260917012605",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-APH-BILLS-20260917012605",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Parliament of Australia — Bills and Legislation added 6 structured publication records to its forward-captured official index: Military Rehabilitation and Compensation Amendment...; Child Support and Family Assistance Legislation Am...; Defence Force Discipline Amendment (RCDVS Implemen...; Aged Care Legislation Amendment (Aboriginal and To...; Customs Amendment (Safeguard Inquiries) Bill 2026; +1 more",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-09-17T01:27:09.600Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "096ce2ee4da01b7fc07c",
+            "title": "Military Rehabilitation and Compensation Amendment...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=s1518"
+          },
+          {
+            "record_id": "53d1e729641b17686005",
+            "title": "Child Support and Family Assistance Legislation Am...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7549"
+          },
+          {
+            "record_id": "5bda2274e29e23b28b95",
+            "title": "Defence Force Discipline Amendment (RCDVS Implemen...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7464"
+          },
+          {
+            "record_id": "732221c68c87c7b3aff7",
+            "title": "Aged Care Legislation Amendment (Aboriginal and To...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7517"
+          },
+          {
+            "record_id": "b483e0ab98aaa9be7511",
+            "title": "Customs Amendment (Safeguard Inquiries) Bill 2026",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=s1495"
+          },
+          {
+            "record_id": "c522e44dbf4b86263daf",
+            "title": "Private Health Insurance (National Joint Replaceme...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7544"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "2a6999b453936296e183",
+            "title": "Knox Class Action (Facilitation) Bill 2026",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7539"
+          },
+          {
+            "record_id": "68ea1d349e472a585e69",
+            "title": "Health Insurance Amendment (Incentive Payments and...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7491"
+          },
+          {
+            "record_id": "99f9eb5ee6cd3cbb89d8",
+            "title": "Carbon Credits and Other Legislation Amendment (In...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7532"
+          },
+          {
+            "record_id": "b1a378be24b357fbca5d",
+            "title": "Tertiary Education Quality and Standards Agency Am...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7542"
+          },
+          {
+            "record_id": "eb8ff799ba2da88b25af",
+            "title": "Private Health Insurance Amendment (Modernising th...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7497"
+          },
+          {
+            "record_id": "edeff7d63c0136e7de5d",
+            "title": "National Student Ombudsman Levy Bill 2026",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7541"
+          }
+        ],
+        "delta_hash": "8d961e88c3bc2ea5fb554e6496a5b5f03faf5756c1585729a28ffc10aac1ee8c"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-PM-MEDIA-20260917012605",
+      "source_change_event_id": "CHG-WATCH-PM-MEDIA-20260917012605",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-PM-MEDIA-20260917012605",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Prime Minister of Australia — media added 2 structured publication records to its forward-captured official index: Last » Last page; Australia ranked 8th in global gender equality rankings",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-09-17T01:27:09.600Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "804ec97091ba33c939d3",
+            "title": "Last » Last page",
+            "url": "https://www.pm.gov.au/media?page=277"
+          },
+          {
+            "record_id": "9ef8120f6e9b4d2082e3",
+            "title": "Australia ranked 8th in global gender equality rankings",
+            "url": "https://www.pm.gov.au/media/australia-ranked-8th-global-gender-equality-rankings"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "28faf0b245a4b563ff89",
+            "title": "Last » Last page",
+            "url": "https://www.pm.gov.au/media?page=276"
+          },
+          {
+            "record_id": "653448b9132d3e5582b7",
+            "title": "Doubling down on a brave deal to save our children",
+            "url": "https://www.pm.gov.au/media/doubling-down-brave-deal-save-our-children"
+          }
+        ],
+        "delta_hash": "dcb970a0d2477b22ec38027cc4ef5a566e749507c47268acde25f268d50a4508"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-ALP-NEWS-20260917012605",
+      "source_change_event_id": "CHG-WATCH-ALP-NEWS-20260917012605",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-ALP-NEWS-20260917012605",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": "AUS-FED-ALP",
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Australian Labor Party — news added 1 structured publication record to its forward-captured official index: Highest ever global ranking for gender equality 16 September 2026",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-09-17T01:27:09.600Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "556429bf042b0bee0621",
+            "title": "Highest ever global ranking for gender equality 16 September 2026",
+            "url": "https://www.alp.org.au/news/all-news/australia-ranked-8th-in-global-gender-equality-rankings/"
+          }
+        ],
+        "removed_records": [],
+        "delta_hash": "23256b5dfb13ce1e687cf9efc7eecc6c8a333a1f1a9ff9b9c4fb8998887b9edb"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-GREENS-FEDERAL-MEDIA-20260917012605",
+      "source_change_event_id": "CHG-WATCH-GREENS-FEDERAL-MEDIA-20260917012605",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-GREENS-FEDERAL-MEDIA-20260917012605",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": "AUS-FED-GRN",
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Australian Greens — Federal MPs media releases added 6 structured publication records to its forward-captured official index: Read more about International students political footballs once again as Labor panders to One Nation; Read more about Greens welcome Government backdown on cuts to Veterans health care; International students political footballs once again as Labor panders to One Nation; Read more about Labor Tinkers Around the Edges of Broken Aged Care Assessment Tool; Labor Tinkers Around the Edges of Broken Aged Care Assessment Tool; +1 more",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-09-17T01:27:09.600Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "44f20442bea17e96f43b",
+            "title": "Read more about International students political footballs once again as Labor panders to One Nation",
+            "url": "https://greens.org.au/news/media-release/international-students-political-footballs-once-again-labor-panders-one-nation"
+          },
+          {
+            "record_id": "8f1ae0978206a4ee6bcb",
+            "title": "Read more about Greens welcome Government backdown on cuts to Veterans health care",
+            "url": "https://greens.org.au/news/media-release/greens-welcome-government-backdown-cuts-veterans-health-care"
+          },
+          {
+            "record_id": "921b022dfa118591ff41",
+            "title": "International students political footballs once again as Labor panders to One Nation",
+            "url": "https://greens.org.au/news/media-release/international-students-political-footballs-once-again-labor-panders-one-nation"
+          },
+          {
+            "record_id": "a1cc558f766354427c82",
+            "title": "Read more about Labor Tinkers Around the Edges of Broken Aged Care Assessment Tool",
+            "url": "https://greens.org.au/news/media-release/labor-tinkers-around-edges-broken-aged-care-assessment-tool"
+          },
+          {
+            "record_id": "ea562c8ae40cc6415506",
+            "title": "Labor Tinkers Around the Edges of Broken Aged Care Assessment Tool",
+            "url": "https://greens.org.au/news/media-release/labor-tinkers-around-edges-broken-aged-care-assessment-tool"
+          },
+          {
+            "record_id": "ef5bd15876ebafa64936",
+            "title": "Greens welcome Government backdown on cuts to Veterans health care",
+            "url": "https://greens.org.au/news/media-release/greens-welcome-government-backdown-cuts-veterans-health-care"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "0030093e89cec064f578",
+            "title": "PISA proves Australian teachers are world-class but need more support",
+            "url": "https://greens.org.au/news/media-release/pisa-proves-australian-teachers-are-world-class-need-more-support"
+          },
+          {
+            "record_id": "4c9e08c8a63ff0bb3982",
+            "title": "Read more about PISA proves Australian teachers are world-class but need more support",
+            "url": "https://greens.org.au/news/media-release/pisa-proves-australian-teachers-are-world-class-need-more-support"
+          },
+          {
+            "record_id": "63ed2876b95024b908c4",
+            "title": "Digital Duty of Care must make Platforms Safer for All Users",
+            "url": "https://greens.org.au/news/media-release/digital-duty-care-must-make-platforms-safer-all-users"
+          },
+          {
+            "record_id": "856974ff3dd1fcf130d0",
+            "title": "Read more about Digital Duty of Care must make Platforms Safer for All Users",
+            "url": "https://greens.org.au/news/media-release/digital-duty-care-must-make-platforms-safer-all-users"
+          },
+          {
+            "record_id": "c1e162b2fabe09935b49",
+            "title": "Greens say Albanese must explain pork-barrelling claims at election inquiry",
+            "url": "https://greens.org.au/news/media-release/greens-say-albanese-must-explain-pork-barrelling-claims-election-inquiry"
+          },
+          {
+            "record_id": "d696226f3cd5a9e5ea2e",
+            "title": "Read more about Greens say Albanese must explain pork-barrelling claims at election inquiry",
+            "url": "https://greens.org.au/news/media-release/greens-say-albanese-must-explain-pork-barrelling-claims-election-inquiry"
+          }
+        ],
+        "delta_hash": "521407df448b635a898a8da555757d380be6c18bd9febb9794c581c208de5050"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-NSW-MINISTERIAL-RELEASES-20260917012605",
+      "source_change_event_id": "CHG-WATCH-NSW-MINISTERIAL-RELEASES-20260917012605",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-NSW-MINISTERIAL-RELEASES-20260917012605",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "NSW Government — Ministerial releases added 5 structured publication records to its forward-captured official index: New powers being introduced to fight organised crime; Applications open for $1.5 million in animal welfare and rehoming grants; New rules strengthen protections for learner drivers and instructors across the state; Minns Government to establish NSW Institute for Paediatric Trauma; The Home Straight for George Street transformation",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-09-17T01:27:09.600Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "0c4e35d7e7431b707dde",
+            "title": "New powers being introduced to fight organised crime",
+            "url": "https://www.nsw.gov.au/ministerial-releases/new-powers-being-introduced-to-fight-organised-crime"
+          },
+          {
+            "record_id": "456a8938435f069bb5c7",
+            "title": "Applications open for $1.5 million in animal welfare and rehoming grants",
+            "url": "https://www.nsw.gov.au/ministerial-releases/companion-animal-welfare-program-reopens"
+          },
+          {
+            "record_id": "49fae74a3834e79d8f30",
+            "title": "New rules strengthen protections for learner drivers and instructors across the state",
+            "url": "https://www.nsw.gov.au/ministerial-releases/stronger-protections-learner-drivers"
+          },
+          {
+            "record_id": "b77b5d9a1087a62321a7",
+            "title": "Minns Government to establish NSW Institute for Paediatric Trauma",
+            "url": "https://www.nsw.gov.au/ministerial-releases/minns-government-to-establish-nsw-institute-for-paediatric-trauma"
+          },
+          {
+            "record_id": "f2144c48686c59976873",
+            "title": "The Home Straight for George Street transformation",
+            "url": "https://www.nsw.gov.au/ministerial-releases/home-straight-for-george-street-transformation"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "0ba98ee1a5141b9d1a79",
+            "title": "NSW Police appoint five new leaders to Assistant Commissioner rank",
+            "url": "https://www.nsw.gov.au/ministerial-releases/nsw-police-appoint-five-new-leaders-to-assistant-commissioner-rank"
+          },
+          {
+            "record_id": "25179db3df9bd93a4c18",
+            "title": "All renters can now use Smart Rental Bonds",
+            "url": "https://www.nsw.gov.au/ministerial-releases/all-renters-can-now-use-smart-rental-bonds"
+          },
+          {
+            "record_id": "4f764fc516ea17771905",
+            "title": "County Road Reserve transfer a win for the Northern Beaches community",
+            "url": "https://www.nsw.gov.au/ministerial-releases/county-road-reserve-transfer-a-win-for-northern-beaches-community"
+          },
+          {
+            "record_id": "ee89b637a45fd3934f05",
+            "title": "Eight additional H5 bird flu events in NSW",
+            "url": "https://www.nsw.gov.au/ministerial-releases/eight-more-bird-flu-events"
+          },
+          {
+            "record_id": "feb44eae0b6d2c3b24aa",
+            "title": "Crown land reforms pass NSW Parliament",
+            "url": "https://www.nsw.gov.au/ministerial-releases/crown-land-reforms-pass-parliament"
+          }
+        ],
+        "delta_hash": "5419aee074f3668b82d5f8e5f89ef39fcb89308ce09ef219d67465db2a1bbba4"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20260917012605",
+      "source_change_event_id": "CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20260917012605",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20260917012605",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Queensland Government — Ministerial Media Statements added 3 structured publication records to its forward-captured official index: Hundreds more Queenslanders given pathway to work; 2032 Rowing in Rockhampton endorsed by World Rowing and Paddle Worldwide; Thousands of homes for 2032 and beyond in Bowen Hills",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-09-17T01:27:09.600Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "80f719c9e85346a2d4d0",
+            "title": "Hundreds more Queenslanders given pathway to work",
+            "url": "https://statements.qld.gov.au/statements/106067"
+          },
+          {
+            "record_id": "a7dbdeb290aa35835bae",
+            "title": "2032 Rowing in Rockhampton endorsed by World Rowing and Paddle Worldwide",
+            "url": "https://statements.qld.gov.au/statements/106070"
+          },
+          {
+            "record_id": "be2145208c282ebac688",
+            "title": "Thousands of homes for 2032 and beyond in Bowen Hills",
+            "url": "https://statements.qld.gov.au/statements/106069"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "14ac196848c8529d89b7",
+            "title": "First of 22 new schools officially named ahead of 2027 school year",
+            "url": "https://statements.qld.gov.au/statements/106054"
+          },
+          {
+            "record_id": "b6eaa630df2e04afdd32",
+            "title": "New grants help Queensland education providers adapt and thrive",
+            "url": "https://statements.qld.gov.au/statements/106052"
+          },
+          {
+            "record_id": "d3736d81b0a3fa81340f",
+            "title": "Mining lease reforms to streamline approvals and stamp out lawfare",
+            "url": "https://statements.qld.gov.au/statements/106056"
+          }
+        ],
+        "delta_hash": "9f3713f2f7c7003492439b764ed445cdcc2fd6a80c4d07ab4a6bb07a5d60d851"
       },
       "integrity": {
         "source_change_unchanged": true,

@@ -3,7 +3,7 @@
   "mode": "FORWARD_ONLY",
   "scope": "Australia — Federal, States and Territories",
   "created_at": "2026-09-08T00:00:00+10:00",
-  "updated_at": "2026-09-18T15:02:51.813Z",
+  "updated_at": "2026-09-18T18:30:54.232Z",
   "rules": {
     "evidence_must_be_knowable_at_capture_time": true,
     "captured_at_required": true,
@@ -41,14 +41,14 @@
     "raw_source_changes_ingested": 0,
     "signal_reviews_ingested": 217,
     "post_separation_promoted_signals_ingested": 0,
-    "last_capture_at": "2026-09-18T15:01:28.484Z",
+    "last_capture_at": "2026-09-18T18:29:46.048Z",
     "jurisdiction_coverage": {
-      "federal": "CAPTURE_ACTIVE_DEGRADED_CURRENT_RUN",
+      "federal": "CAPTURE_ACTIVE_FULL_CONFIGURED_BASELINE",
       "new_south_wales": "CAPTURE_ACTIVE_DEGRADED_CURRENT_RUN",
       "victoria": "CAPTURE_ACTIVE_FULL_CONFIGURED_BASELINE",
       "queensland": "CAPTURE_ACTIVE_DEGRADED_CURRENT_RUN",
       "western_australia": "CAPTURE_ACTIVE_FULL_CONFIGURED_BASELINE",
-      "south_australia": "CAPTURE_ACTIVE_FULL_CONFIGURED_BASELINE",
+      "south_australia": "CAPTURE_ACTIVE_DEGRADED_CURRENT_RUN",
       "tasmania": "CAPTURE_ACTIVE_DEGRADED_CURRENT_RUN",
       "australian_capital_territory": "CAPTURE_ACTIVE_DEGRADED_CURRENT_RUN",
       "northern_territory": "CAPTURE_ACTIVE_DEGRADED_CURRENT_RUN"
@@ -61,14 +61,14 @@
       "AUS-FED": {
         "configured_sources": 10,
         "baseline_sources": 10,
-        "current_run_failures": 1,
+        "current_run_failures": 0,
         "source_classes": [
           "PRIMARY_ELECTORAL_AUTHORITY",
           "PRIMARY_GOVERNMENT",
           "PRIMARY_PARLIAMENT",
           "PRIMARY_PARTY"
         ],
-        "status": "CAPTURE_ACTIVE_DEGRADED_CURRENT_RUN"
+        "status": "CAPTURE_ACTIVE_FULL_CONFIGURED_BASELINE"
       },
       "AUS-NSW": {
         "configured_sources": 4,
@@ -117,13 +117,13 @@
       "AUS-SA": {
         "configured_sources": 3,
         "baseline_sources": 3,
-        "current_run_failures": 0,
+        "current_run_failures": 1,
         "source_classes": [
           "PRIMARY_ELECTORAL_AUTHORITY",
           "PRIMARY_GOVERNMENT",
           "PRIMARY_PARLIAMENT"
         ],
-        "status": "CAPTURE_ACTIVE_FULL_CONFIGURED_BASELINE"
+        "status": "CAPTURE_ACTIVE_DEGRADED_CURRENT_RUN"
       },
       "AUS-TAS": {
         "configured_sources": 3,

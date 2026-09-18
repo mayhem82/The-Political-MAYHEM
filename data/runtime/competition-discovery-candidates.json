@@ -69,63 +69,63 @@
     {
       "jurisdiction_id": "AUS-FED",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-18T00:21:37.915Z",
-      "signals_examined": 167,
+      "last_screened_at": "2026-09-18T05:56:53.216Z",
+      "signals_examined": 168,
       "candidates_detected": 88
     },
     {
       "jurisdiction_id": "AUS-NSW",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-18T00:21:37.915Z",
-      "signals_examined": 55,
+      "last_screened_at": "2026-09-18T05:56:53.216Z",
+      "signals_examined": 56,
       "candidates_detected": 11
     },
     {
       "jurisdiction_id": "AUS-VIC",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-18T00:21:37.915Z",
+      "last_screened_at": "2026-09-18T05:56:53.216Z",
       "signals_examined": 12,
       "candidates_detected": 4
     },
     {
       "jurisdiction_id": "AUS-QLD",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-18T00:21:37.915Z",
-      "signals_examined": 27,
-      "candidates_detected": 43
+      "last_screened_at": "2026-09-18T05:56:53.216Z",
+      "signals_examined": 29,
+      "candidates_detected": 44
     },
     {
       "jurisdiction_id": "AUS-WA",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-18T00:21:37.915Z",
+      "last_screened_at": "2026-09-18T05:56:53.216Z",
       "signals_examined": 3,
       "candidates_detected": 2
     },
     {
       "jurisdiction_id": "AUS-SA",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-18T00:21:37.915Z",
+      "last_screened_at": "2026-09-18T05:56:53.216Z",
       "signals_examined": 1,
       "candidates_detected": 0
     },
     {
       "jurisdiction_id": "AUS-TAS",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-18T00:21:37.915Z",
+      "last_screened_at": "2026-09-18T05:56:53.216Z",
       "signals_examined": 20,
       "candidates_detected": 0
     },
     {
       "jurisdiction_id": "AUS-ACT",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-18T00:21:37.915Z",
+      "last_screened_at": "2026-09-18T05:56:53.216Z",
       "signals_examined": 24,
       "candidates_detected": 1
     },
     {
       "jurisdiction_id": "AUS-NT",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-18T00:21:37.915Z",
+      "last_screened_at": "2026-09-18T05:56:53.216Z",
       "signals_examined": 31,
       "candidates_detected": 0
     }
@@ -6178,21 +6178,62 @@
           "reason": "SUBSTANTIVE_THRESHOLD_EVALUATION_PROPAGATED"
         }
       ]
+    },
+    {
+      "candidate_id": "DISC-QLD-BUDGET-642e5daf9c3bf7ba",
+      "jurisdiction_id": "AUS-QLD",
+      "competition_family": "BUDGET",
+      "proposed_competition_class": "BUDGET",
+      "proposed_cycle_id": null,
+      "subject": "Ingested substantive budget evidence from US investors back Queensland to deliver new critical minerals supply chain. Registration threshold state: evidence gap. Missing requirements: missing fact type objective, missing fact type stage, missing fact type material resistance, missing fact type expli",
+      "candidate_state": "EVIDENCE_GAP",
+      "detected_at": "2026-09-18T05:56:52.888Z",
+      "source_snapshot_ids": [
+        "AUTO-WATCH-QLD-MINISTERIAL-STATEMENTS-20260918055547"
+      ],
+      "signal_event_ids": [
+        "INTEL-AREA-3ebfdd775c8095c07cdc9072"
+      ],
+      "review_ids": [],
+      "area_evidence_ids": [
+        "AREA-3ebfdd775c8095c07cdc9072"
+      ],
+      "detail_version_ids": [
+        "DETAIL-c8bcb07cfd967e1251666f9f-V1"
+      ],
+      "evidence_summary": "Substantive source record body was acquired, routed to BUDGET, and written into intelligence with retained detail, source-snapshot and stage-10 threshold lineage. Match registration remains a separate action.",
+      "registration_blockers": [
+        "MISSING_CONDITION_DISTINCT_SUPPORTING_AND_OPPOSING_SIDES",
+        "MISSING_FACT_TYPE_EXPLICIT_OPPOSITION_POSITION",
+        "MISSING_FACT_TYPE_EXPLICIT_SUPPORT_POSITION",
+        "MISSING_FACT_TYPE_MATERIAL_RESISTANCE",
+        "MISSING_FACT_TYPE_OBJECTIVE",
+        "MISSING_FACT_TYPE_STAGE"
+      ],
+      "linked_contest_id": null,
+      "state_history": [
+        {
+          "from": null,
+          "to": "EVIDENCE_GAP",
+          "at": "2026-09-18T05:56:52.888Z",
+          "reason": "SUBSTANTIVE_THRESHOLD_EVALUATION_PROPAGATED"
+        }
+      ]
     }
   ],
-  "last_screened_at": "2026-09-18T00:21:37.915Z",
+  "last_screened_at": "2026-09-18T05:56:53.216Z",
   "last_screen_summary": {
-    "signals_examined": 340,
-    "candidates_total": 149,
-    "candidates_added": 0,
+    "signals_examined": 344,
+    "candidates_total": 150,
+    "candidates_added": 1,
     "candidate_lineage_merges": 336,
-    "substantive_area_events_examined": 103,
+    "substantive_area_events_examined": 104,
     "threshold_state_transitions": 0,
     "registered_contests_unchanged": true
   },
-  "last_duplicate_reconciliation_at": "2026-09-18T00:21:37.980Z",
+  "last_duplicate_reconciliation_at": "2026-09-18T05:56:53.305Z",
   "last_duplicate_reconciliation": {
     "rejected": 0,
-    "active_area_family_keys": 102
+    "active_area_family_keys": 103
   }
 }

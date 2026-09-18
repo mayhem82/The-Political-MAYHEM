@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-MAYHEM-CONTEST-FACTS-001",
   "status": "ACTIVE",
-  "updated_at": "2026-09-18T00:21:37.445Z",
+  "updated_at": "2026-09-18T05:56:52.688Z",
   "supported_competition_classes": [
     "ELECTORAL",
     "LEGISLATIVE",
@@ -38146,23 +38146,97 @@
         "competition_not_registered_by_fact": true
       },
       "fact_state_history": []
+    },
+    {
+      "fact_id": "FACT-233cc70b5526d744141e01b1",
+      "competition_class": "BUDGET",
+      "jurisdiction_id": "AUS-QLD",
+      "area_evidence_id": "AREA-3ebfdd775c8095c07cdc9072",
+      "detail_record_id": "DETAIL-c8bcb07cfd967e1251666f9f",
+      "detail_version_id": "DETAIL-c8bcb07cfd967e1251666f9f-V1",
+      "source_snapshot_id": "AUTO-WATCH-QLD-MINISTERIAL-STATEMENTS-20260918055547",
+      "source_id": "SRC-QLD-MINISTERIAL-STATEMENTS",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "record_url": "https://statements.qld.gov.au/statements/106081",
+      "record_title": "US investors back Queensland to deliver new critical minerals supply chain",
+      "fact_type": "CONTEST_OBJECT",
+      "fact_state": "OBSERVED_SOURCE_TEXT",
+      "evidence_match": "Budget will support the industry to accelerate extraction, processing and export opportunities to strengthen Queensland&rsquo",
+      "evidence_text": "al supply chains. &ldquo;The Crisafulli Government&rsquo;s Delivering Queensland&rsquo;s Critical Minerals Future 2026-2030 alongside our investment of $146 million in the 2026-27 Budget will support the industry to accelerate extraction, processing and export opportunities to strengthen Queensland&rsquo;s position as a global supplier of critical minerals. &ldquo;I want to congratulate Huntore on this agreement and look forward to seeing more global investment in Queensland&rsquo",
+      "evidence_captured_at": "2026-09-18T05:56:49.341Z",
+      "extracted_at": "2026-09-18T05:56:52.536Z",
+      "actor_ids": [],
+      "party_ids": [],
+      "position_state": "UNRESOLVED",
+      "resistance_state": "UNRESOLVED",
+      "outcome_verification_state": "NOT_APPLICABLE",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "integrity": {
+        "source_text_preserved": true,
+        "area_lineage_preserved": true,
+        "entity_identity_limited_to_resolved_mentions": true,
+        "position_requires_explicit_language": true,
+        "position_entity_binding_required": false,
+        "competition_not_registered_by_fact": true
+      },
+      "fact_state_history": []
+    },
+    {
+      "fact_id": "FACT-d1cf7175784a4ff2b8b72aa8",
+      "competition_class": "BUDGET",
+      "jurisdiction_id": "AUS-QLD",
+      "area_evidence_id": "AREA-3ebfdd775c8095c07cdc9072",
+      "detail_record_id": "DETAIL-c8bcb07cfd967e1251666f9f",
+      "detail_version_id": "DETAIL-c8bcb07cfd967e1251666f9f-V1",
+      "source_snapshot_id": "AUTO-WATCH-QLD-MINISTERIAL-STATEMENTS-20260918055547",
+      "source_id": "SRC-QLD-MINISTERIAL-STATEMENTS",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "record_url": "https://statements.qld.gov.au/statements/106081",
+      "record_title": "US investors back Queensland to deliver new critical minerals supply chain",
+      "fact_type": "PARTICIPANT",
+      "fact_state": "OBSERVED_SOURCE_TEXT",
+      "evidence_match": "Dale Last",
+      "evidence_text": "nisterial Directory Published Today at 12:00 PM Minister for Natural Resources and Mines, Minister for Manufacturing and Minister for Regional and Rural Development The Honourable Dale Last US investors back Queensland to deliver new critical minerals supply chain The Crisafulli Government welcome s long-term agreement for the purchase of concentrate from Huntore Aus",
+      "evidence_captured_at": "2026-09-18T05:56:49.341Z",
+      "extracted_at": "2026-09-18T05:56:52.536Z",
+      "actor_ids": [
+        "QLD-DALE-LAST"
+      ],
+      "party_ids": [],
+      "position_state": "UNRESOLVED",
+      "resistance_state": "UNRESOLVED",
+      "outcome_verification_state": "NOT_APPLICABLE",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "integrity": {
+        "source_text_preserved": true,
+        "area_lineage_preserved": true,
+        "entity_identity_limited_to_resolved_mentions": true,
+        "position_requires_explicit_language": true,
+        "position_entity_binding_required": false,
+        "competition_not_registered_by_fact": true
+      },
+      "fact_state_history": []
     }
   ],
   "summary": {
-    "active_area_evidence_examined": 102,
-    "facts_total": 1050,
-    "facts_added_this_run": 0,
+    "active_area_evidence_examined": 103,
+    "facts_total": 1052,
+    "facts_added_this_run": 2,
     "by_competition_class": {
-      "BUDGET": 153,
+      "BUDGET": 155,
       "ELECTORAL": 68,
       "LEGISLATIVE": 575,
       "PARLIAMENTARY_PROCEDURE": 160,
       "POLICY_ENACTMENT": 46
     },
     "by_fact_type": {
-      "CONTEST_OBJECT": 219,
+      "CONTEST_OBJECT": 220,
       "OBJECTIVE": 17,
-      "PARTICIPANT": 56,
+      "PARTICIPANT": 57,
       "EXPLICIT_SUPPORT_POSITION": 1,
       "EXPLICIT_OPPOSITION_POSITION": 4,
       "MATERIAL_RESISTANCE": 18,
@@ -38176,7 +38250,7 @@
       "IMPLEMENTATION_ACTION": 14,
       "POSSIBLE_OUTCOME_STATE": 148
     },
-    "active_facts": 1002,
+    "active_facts": 1004,
     "retracted_facts": 48,
     "facts_retracted_this_run": 0,
     "facts_reactivated_this_run": 0

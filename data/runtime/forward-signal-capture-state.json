@@ -7,9 +7,9 @@
       "source_id": "SRC-LIBERAL-FEDERAL-HOME",
       "jurisdiction_id": "AUS-FED",
       "party_id": "AUS-FED-LIB",
-      "content_hash": "7f0613f9015c8f944e0daafd4567b421c195dcf780b2a2e0214adacbb7df5671",
-      "snapshot_id": "AUTO-WATCH-LIBERAL-HOME-20260917012605",
-      "captured_at": "2026-09-17T01:26:05.882Z",
+      "content_hash": "4206a9cfb7bb2e05110a945d3a053ab8c0bfe17c3e8f11cee50bd4f0379358da",
+      "snapshot_id": "AUTO-WATCH-LIBERAL-HOME-20260918055547",
+      "captured_at": "2026-09-18T05:55:47.844Z",
       "acquisition_url": "https://www.liberal.org.au/",
       "requested_url": "https://www.liberal.org.au/",
       "header_profile": "IDENTIFIED_AUTOMATION",
@@ -21,9 +21,9 @@
       "source_id": "SRC-GREENS-FEDERAL-RELEASE-INDEX",
       "jurisdiction_id": "AUS-FED",
       "party_id": "AUS-FED-GRN",
-      "content_hash": "640886414b41a9d7c99702333f75d6cab799fb78f9c39e6e14d5ef6ec552b89b",
-      "snapshot_id": "AUTO-WATCH-GREENS-FEDERAL-MEDIA-20260917074045",
-      "captured_at": "2026-09-17T07:40:45.839Z",
+      "content_hash": "843a7e7d210796a5024a9125dddc5596232cdca19ceda48c21ce826729acced1",
+      "snapshot_id": "AUTO-WATCH-GREENS-FEDERAL-MEDIA-20260918055547",
+      "captured_at": "2026-09-18T05:55:47.844Z",
       "acquisition_url": "https://greens.org.au/news/media-releases",
       "requested_url": "https://greens.org.au/news/media-releases",
       "header_profile": "IDENTIFIED_AUTOMATION",
@@ -49,9 +49,9 @@
       "source_id": "SRC-NSW-MINISTERIAL-RELEASES",
       "jurisdiction_id": "AUS-NSW",
       "party_id": null,
-      "content_hash": "30dbb84683d0b9b810296ade236373310549c088a5df5e2ef404f85d8a40a7d4",
-      "snapshot_id": "AUTO-WATCH-NSW-MINISTERIAL-RELEASES-20260918002020",
-      "captured_at": "2026-09-18T00:20:20.990Z",
+      "content_hash": "f2a31c83b25052cea11d3332c8eb531fdc302aeb21b8cfa18e14fc04a593371b",
+      "snapshot_id": "AUTO-WATCH-NSW-MINISTERIAL-RELEASES-20260918055547",
+      "captured_at": "2026-09-18T05:55:47.844Z",
       "acquisition_url": "https://www.nsw.gov.au/ministerial-releases",
       "requested_url": "https://www.nsw.gov.au/ministerial-releases",
       "header_profile": "IDENTIFIED_AUTOMATION",
@@ -311,9 +311,9 @@
       "source_id": "SRC-QLD-MINISTERIAL-STATEMENTS",
       "jurisdiction_id": "AUS-QLD",
       "party_id": null,
-      "content_hash": "835948298e5483320dd48cd116df21cd0d985f962f374e554053ffa7910f927c",
-      "snapshot_id": "AUTO-WATCH-QLD-MINISTERIAL-STATEMENTS-20260918002020",
-      "captured_at": "2026-09-18T00:20:20.990Z",
+      "content_hash": "e2a3ac9d6807d17007d58a09b788f66b80f0360369c25b51a92cd952064e5d17",
+      "snapshot_id": "AUTO-WATCH-QLD-MINISTERIAL-STATEMENTS-20260918055547",
+      "captured_at": "2026-09-18T05:55:47.844Z",
       "acquisition_url": "https://statements.qld.gov.au/",
       "requested_url": "https://statements.qld.gov.au/",
       "header_profile": "IDENTIFIED_AUTOMATION",
@@ -504,11 +504,11 @@
       "captured_representation_complete": true
     }
   },
-  "updated_at": "2026-09-18T00:20:20.990Z",
+  "updated_at": "2026-09-18T05:55:47.844Z",
   "last_run": {
-    "captured_at": "2026-09-18T00:20:20.990Z",
+    "captured_at": "2026-09-18T05:55:47.844Z",
     "baselines_created": 0,
-    "source_changes_created": 3,
+    "source_changes_created": 4,
     "semantic_signals_created": 0,
     "representation_upgrades": 0,
     "failures": [
@@ -527,6 +527,10 @@
       {
         "watch_id": "WATCH-SA-PARLIAMENT",
         "error": "https://www.parliament.sa.gov.au/ [IDENTIFIED_AUTOMATION] timeout>15000ms | https://www.parliament.sa.gov.au/ [BROWSER_COMPATIBILITY] timeout>15000ms"
+      },
+      {
+        "watch_id": "WATCH-TAS-HANSARD",
+        "error": "https://search.parliament.tas.gov.au/Search/search/search?IW_FIELD_ADVANCE_PHRASE=2026%20IN%20TITLE&IW_DATABASE=Hansard&IW_SORT=-9&IW_SEARCH_SCOPE=meta [IDENTIFIED_AUTOMATION] 503 Service Unavailable | https://search.parliament.tas.gov.au/Search/search/search?IW_FIELD_ADVANCE_PHRASE=2026%20IN%20TITLE&IW_DATABASE=Hansard&IW_SORT=-9&IW_SEARCH_SCOPE=meta [BROWSER_COMPATIBILITY] 503 Service Unavailable"
       },
       {
         "watch_id": "WATCH-TAS-PREMIER-NEWS",
@@ -562,7 +566,7 @@
   "coverage": {
     "active_sources": 36,
     "baselines_captured": 36,
-    "current_run_failures": 11,
+    "current_run_failures": 12,
     "jurisdictions": {
       "AUS-FED": {
         "configured_sources": 10,
@@ -634,7 +638,7 @@
       "AUS-TAS": {
         "configured_sources": 3,
         "baseline_sources": 3,
-        "current_run_failures": 1,
+        "current_run_failures": 2,
         "source_classes": [
           "PRIMARY_ELECTORAL_AUTHORITY",
           "PRIMARY_GOVERNMENT",

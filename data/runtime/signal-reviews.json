@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-SIGNAL-REVIEWS-001",
   "created_at": "2026-09-09T05:05:00+10:00",
-  "updated_at": "2026-09-18T00:21:27.223Z",
+  "updated_at": "2026-09-18T05:56:49.179Z",
   "rules": {
     "append_only": true,
     "raw_source_change_is_immutable": true,
@@ -29415,6 +29415,226 @@
           }
         ],
         "delta_hash": "0903b58a84b1855513a7614eb31add90d7549f79b2ddc22f863406a785cb7761"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-GREENS-FEDERAL-MEDIA-20260918055547",
+      "source_change_event_id": "CHG-WATCH-GREENS-FEDERAL-MEDIA-20260918055547",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-GREENS-FEDERAL-MEDIA-20260918055547",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": "AUS-FED-GRN",
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Australian Greens — Federal MPs media releases added 2 structured publication records to its forward-captured official index: Media Release: National standards recommendation a landmark step for children in youth justice; Read more about Media Release: National standards recommendation a landmark step for children in youth justice",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-09-18T05:56:49.179Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "19428d6705d1ab485585",
+            "title": "Media Release: National standards recommendation a landmark step for children in youth justice",
+            "url": "https://greens.org.au/news/media-release/media-release-national-standards-recommendation-landmark-step-children-youth"
+          },
+          {
+            "record_id": "3b02c220c623c06d48a8",
+            "title": "Read more about Media Release: National standards recommendation a landmark step for children in youth justice",
+            "url": "https://greens.org.au/news/media-release/media-release-national-standards-recommendation-landmark-step-children-youth"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "317bc71971f4590cb1b8",
+            "title": "Read more about Statement on the Improved Native Forest Management Instrument from Senators McKim, Bleyer, Steele-John",
+            "url": "https://greens.org.au/news/media-release/statement-improved-native-forest-management-instrument-senators-mckim-bleyer"
+          },
+          {
+            "record_id": "417e5d69ffb2f390b290",
+            "title": "Statement on the Improved Native Forest Management Instrument from Senators McKim, Bleyer, Steele-John",
+            "url": "https://greens.org.au/news/media-release/statement-improved-native-forest-management-instrument-senators-mckim-bleyer"
+          }
+        ],
+        "delta_hash": "07c8020dcb6dfaaacb24b8417b23b160879460dec30e07230b340fbc873830e3"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-NSW-MINISTERIAL-RELEASES-20260918055547",
+      "source_change_event_id": "CHG-WATCH-NSW-MINISTERIAL-RELEASES-20260918055547",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-NSW-MINISTERIAL-RELEASES-20260918055547",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "NSW Government — Ministerial releases added 6 structured publication records to its forward-captured official index: Strategic assessment of NSW forestry gets underway; New upgrades for Barangaroo’s coolest swim spot Marrinawi Cove; Centre to support Bega community during emergencies opens; Major boost for emergency care at Caves Beach: Construction commences on new Ambulance Station; $1 million Port Kembla Community Investment fund now open; +1 more",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-09-18T05:56:49.179Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "01a5b133d85d5fcec7ce",
+            "title": "Strategic assessment of NSW forestry gets underway",
+            "url": "https://www.nsw.gov.au/ministerial-releases/strategic-assessment-of-nsw-forestry-gets-underway"
+          },
+          {
+            "record_id": "07836aa6f1c0128527c0",
+            "title": "New upgrades for Barangaroo’s coolest swim spot Marrinawi Cove",
+            "url": "https://www.nsw.gov.au/ministerial-releases/new-upgrades-marrinawi-cove"
+          },
+          {
+            "record_id": "14eaecd7bf886584d629",
+            "title": "Centre to support Bega community during emergencies opens",
+            "url": "https://www.nsw.gov.au/ministerial-releases/centre-to-support-bega-community-during-emergencies-opens"
+          },
+          {
+            "record_id": "2efa89bec45f86da39c2",
+            "title": "Major boost for emergency care at Caves Beach: Construction commences on new Ambulance Station",
+            "url": "https://www.nsw.gov.au/ministerial-releases/major-boost-for-emergency-care-at-caves-beach-construction-commences-on-new-ambulance-station"
+          },
+          {
+            "record_id": "506d90f71045bcf480c0",
+            "title": "$1 million Port Kembla Community Investment fund now open",
+            "url": "https://www.nsw.gov.au/ministerial-releases/1-million-port-kembla-community-investment-fund-now-open"
+          },
+          {
+            "record_id": "c92d374bf57920bae7e6",
+            "title": "$15 million to rebuild Wingham pool",
+            "url": "https://www.nsw.gov.au/ministerial-releases/15-million-to-rebuild-wingham-pool"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "0c4e35d7e7431b707dde",
+            "title": "New powers being introduced to fight organised crime",
+            "url": "https://www.nsw.gov.au/ministerial-releases/new-powers-being-introduced-to-fight-organised-crime"
+          },
+          {
+            "record_id": "2289ce54c7951b5d27a4",
+            "title": "Town Hall Square",
+            "url": "https://www.nsw.gov.au/ministerial-releases/town-hall-square"
+          },
+          {
+            "record_id": "49fae74a3834e79d8f30",
+            "title": "New rules strengthen protections for learner drivers and instructors across the state",
+            "url": "https://www.nsw.gov.au/ministerial-releases/stronger-protections-learner-drivers"
+          },
+          {
+            "record_id": "c8cc870940535f23ab79",
+            "title": "NSW winners announced at 2026 Resilient Australia Awards",
+            "url": "https://www.nsw.gov.au/ministerial-releases/nsw-winners-announced-at-2026-resilient-australia-awards"
+          },
+          {
+            "record_id": "f2144c48686c59976873",
+            "title": "The Home Straight for George Street transformation",
+            "url": "https://www.nsw.gov.au/ministerial-releases/home-straight-for-george-street-transformation"
+          },
+          {
+            "record_id": "f536f7b9102b17ddb5d2",
+            "title": "Five new H5 bird flu events along the NSW coast",
+            "url": "https://www.nsw.gov.au/ministerial-releases/five-new-h5-bird-flu-events-along-nsw-coast"
+          }
+        ],
+        "delta_hash": "bd9ad8e1d5b27d4dbfd0a04875772d87d8d8301b323c04ec19e062bfd729d6af"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20260918055547",
+      "source_change_event_id": "CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20260918055547",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20260918055547",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Queensland Government — Ministerial Media Statements added 5 structured publication records to its forward-captured official index: Multi-million-dollar boost for Regional Queensland tourism; Former cops return to frontline duties to make Queensland safer; Sporting heroes help future tradies reach the final siren; US investors back Queensland to deliver new critical minerals supply chain; Rockhampton Ring Road reaches major construction milestones",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-09-18T05:56:49.179Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "021c3366fba04cee9d74",
+            "title": "Multi-million-dollar boost for Regional Queensland tourism",
+            "url": "https://statements.qld.gov.au/statements/106077"
+          },
+          {
+            "record_id": "4d504e533575bc860cba",
+            "title": "Former cops return to frontline duties to make Queensland safer",
+            "url": "https://statements.qld.gov.au/statements/106083"
+          },
+          {
+            "record_id": "7845d7d1195b9df30e8b",
+            "title": "Sporting heroes help future tradies reach the final siren",
+            "url": "https://statements.qld.gov.au/statements/106076"
+          },
+          {
+            "record_id": "9356a7ba765062e00dea",
+            "title": "US investors back Queensland to deliver new critical minerals supply chain",
+            "url": "https://statements.qld.gov.au/statements/106081"
+          },
+          {
+            "record_id": "ca0906e0fad5456aca05",
+            "title": "Rockhampton Ring Road reaches major construction milestones",
+            "url": "https://statements.qld.gov.au/statements/106082"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "03dfa42e83f7825405d1",
+            "title": "Major fan events celebrate Brazilian soccer tour secured by QLD Government",
+            "url": "https://statements.qld.gov.au/statements/106062"
+          },
+          {
+            "record_id": "7fb9cef1c32e9bf4fb65",
+            "title": "Aboriginal and Torres Strait Islander Queenslanders backed with jobs and training opportunities",
+            "url": "https://statements.qld.gov.au/statements/106065"
+          },
+          {
+            "record_id": "80f719c9e85346a2d4d0",
+            "title": "Hundreds more Queenslanders given pathway to work",
+            "url": "https://statements.qld.gov.au/statements/106067"
+          },
+          {
+            "record_id": "a9e40e247bf2caa69337",
+            "title": "Victims put first in major reforms marking National Victims of Crime Day",
+            "url": "https://statements.qld.gov.au/statements/106066"
+          },
+          {
+            "record_id": "d375068c22880d8f7af7",
+            "title": "Almost $80 million in grants up for grabs for Queensland manufacturers",
+            "url": "https://statements.qld.gov.au/statements/106064"
+          }
+        ],
+        "delta_hash": "820887f0fb1d84e95dfd36bb3a2ae0f790757c1ef714c12e6d4b51043bd48d16"
       },
       "integrity": {
         "source_change_unchanged": true,

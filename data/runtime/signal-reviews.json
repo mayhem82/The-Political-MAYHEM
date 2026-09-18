@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-SIGNAL-REVIEWS-001",
   "created_at": "2026-09-09T05:05:00+10:00",
-  "updated_at": "2026-09-18T05:56:49.179Z",
+  "updated_at": "2026-09-18T11:17:09.564Z",
   "rules": {
     "append_only": true,
     "raw_source_change_is_immutable": true,
@@ -29635,6 +29635,86 @@
           }
         ],
         "delta_hash": "820887f0fb1d84e95dfd36bb3a2ae0f790757c1ef714c12e6d4b51043bd48d16"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-NSW-MINISTERIAL-RELEASES-20260918111601",
+      "source_change_event_id": "CHG-WATCH-NSW-MINISTERIAL-RELEASES-20260918111601",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-NSW-MINISTERIAL-RELEASES-20260918111601",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "NSW Government — Ministerial releases added 1 structured publication record to its forward-captured official index: NSW Ambulance stations open doors to communities at local Appreciation Day events across the state",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-09-18T11:17:09.564Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "8d78b7e0784d7e114cad",
+            "title": "NSW Ambulance stations open doors to communities at local Appreciation Day events across the state",
+            "url": "https://www.nsw.gov.au/ministerial-releases/nsw-ambulance-stations-open-doors-to-communities-at-local-appreciation-day-events-across-state"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "01a5b133d85d5fcec7ce",
+            "title": "Strategic assessment of NSW forestry gets underway",
+            "url": "https://www.nsw.gov.au/ministerial-releases/strategic-assessment-of-nsw-forestry-gets-underway"
+          }
+        ],
+        "delta_hash": "ed35148cd173147be1e2be7ef5ae9e1ed5ba6f82134e4e8ce97311c204879417"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20260918111601",
+      "source_change_event_id": "CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20260918111601",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20260918111601",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Queensland Government — Ministerial Media Statements added 1 structured publication record to its forward-captured official index: Statement from the Minister for Transport and Main Roads",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-09-18T11:17:09.564Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "377a930a0232917bb6d0",
+            "title": "Statement from the Minister for Transport and Main Roads",
+            "url": "https://statements.qld.gov.au/statements/106087"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "a7dbdeb290aa35835bae",
+            "title": "2032 Rowing in Rockhampton endorsed by World Rowing and Paddle Worldwide",
+            "url": "https://statements.qld.gov.au/statements/106070"
+          }
+        ],
+        "delta_hash": "3e30c598713d165e7a278253a57aa0ee796571d3b80fa3f776fad17183863862"
       },
       "integrity": {
         "source_change_unchanged": true,

@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-INTELLIGENCE-EVENTS-001",
   "scope": "Australia — multi-jurisdiction",
-  "captured_at": "2026-09-18T05:56:52.888Z",
+  "captured_at": "2026-09-18T11:17:21.590Z",
   "mode": "FORWARD_ONLY",
   "rules": {
     "observation_distinct_from_inference": true,
@@ -81149,6 +81149,222 @@
         "entity_mentions_do_not_establish_positions": true,
         "retracted_facts_excluded": true,
         "no_projection_effect_without_registered_target": true
+      }
+    },
+    {
+      "event_id": "CHG-WATCH-NSW-MINISTERIAL-RELEASES-20260918111601",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-NSW",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-NSW-MINISTERIAL-RELEASES-20260918111601",
+      "captured_at": "2026-09-18T11:16:01.487Z",
+      "event_date": "2026-09-18",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-NSW-MINISTERIAL-RELEASES",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "review_policy": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-NSW-MINISTERIAL-RELEASES-20260918055547",
+        "content_hash": "f2a31c83b25052cea11d3332c8eb531fdc302aeb21b8cfa18e14fc04a593371b",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-NSW-MINISTERIAL-RELEASES-20260918111601",
+        "content_hash": "2ff4a2ea005908ea476c7e1004a7f65c9783ee9a86d0e68f1b7646f4b1b78400",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "STRUCTURED_RECORD_SET",
+        "records_added": [
+          {
+            "record_id": "8d78b7e0784d7e114cad",
+            "title": "NSW Ambulance stations open doors to communities at local Appreciation Day events across the state",
+            "url": "https://www.nsw.gov.au/ministerial-releases/nsw-ambulance-stations-open-doors-to-communities-at-local-appreciation-day-events-across-state"
+          }
+        ],
+        "records_removed": [
+          {
+            "record_id": "01a5b133d85d5fcec7ce",
+            "title": "Strategic assessment of NSW forestry gets underway",
+            "url": "https://www.nsw.gov.au/ministerial-releases/strategic-assessment-of-nsw-forestry-gets-underway"
+          }
+        ],
+        "added_count": 1,
+        "removed_count": 1,
+        "before_count": 88,
+        "after_count": 88,
+        "delta_hash": "ed35148cd173147be1e2be7ef5ae9e1ed5ba6f82134e4e8ce97311c204879417"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20260918111601",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-QLD",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-QLD-MINISTERIAL-STATEMENTS-20260918111601",
+      "captured_at": "2026-09-18T11:16:01.487Z",
+      "event_date": "2026-09-18",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-QLD-MINISTERIAL-STATEMENTS",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "review_policy": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-QLD-MINISTERIAL-STATEMENTS-20260918055547",
+        "content_hash": "e2a3ac9d6807d17007d58a09b788f66b80f0360369c25b51a92cd952064e5d17",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-QLD-MINISTERIAL-STATEMENTS-20260918111601",
+        "content_hash": "ced175f6db197535ab823daf8c765bb8e638d44ade0d1b05919d53c49b6f57ae",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "STRUCTURED_RECORD_SET",
+        "records_added": [
+          {
+            "record_id": "377a930a0232917bb6d0",
+            "title": "Statement from the Minister for Transport and Main Roads",
+            "url": "https://statements.qld.gov.au/statements/106087"
+          }
+        ],
+        "records_removed": [
+          {
+            "record_id": "a7dbdeb290aa35835bae",
+            "title": "2032 Rowing in Rockhampton endorsed by World Rowing and Paddle Worldwide",
+            "url": "https://statements.qld.gov.au/statements/106070"
+          }
+        ],
+        "added_count": 1,
+        "removed_count": 1,
+        "before_count": 16,
+        "after_count": 16,
+        "delta_hash": "3e30c598713d165e7a278253a57aa0ee796571d3b80fa3f776fad17183863862"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "SIG-REV-CHG-WATCH-NSW-MINISTERIAL-RELEASES-20260918111601",
+      "parent_event_id": "CHG-WATCH-NSW-MINISTERIAL-RELEASES-20260918111601",
+      "review_id": "REV-CHG-WATCH-NSW-MINISTERIAL-RELEASES-20260918111601",
+      "jurisdiction_id": "AUS-NSW",
+      "party_id": null,
+      "actor_id": null,
+      "contest_id": null,
+      "cycle_id": null,
+      "source_snapshot_id": "AUTO-WATCH-NSW-MINISTERIAL-RELEASES-20260918111601",
+      "record_id": "8d78b7e0784d7e114cad",
+      "captured_at": "2026-09-18T11:17:09.564Z",
+      "event_date": "2026-09-18",
+      "checkpoint": "CONTINUOUS_FORWARD_SIGNAL_REVIEW",
+      "event_type": "SIGNAL_CREATED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-NSW-MINISTERIAL-RELEASES",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "claim": "NSW Government — Ministerial releases added 1 structured publication record to its forward-captured official index: NSW Ambulance stations open doors to communities at local Appreciation Day events across the state",
+      "observed_behaviour": "One or more structured publication records appeared in the monitored official source index after the preceding forward snapshot.",
+      "publication_records_added": [
+        {
+          "record_id": "8d78b7e0784d7e114cad",
+          "title": "NSW Ambulance stations open doors to communities at local Appreciation Day events across the state",
+          "url": "https://www.nsw.gov.au/ministerial-releases/nsw-ambulance-stations-open-doors-to-communities-at-local-appreciation-day-events-across-state"
+        }
+      ],
+      "publication_records_removed": [
+        {
+          "record_id": "01a5b133d85d5fcec7ce",
+          "title": "Strategic assessment of NSW forestry gets underway",
+          "url": "https://www.nsw.gov.au/ministerial-releases/strategic-assessment-of-nsw-forestry-gets-underway"
+        }
+      ],
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "underlying_publication_claims_not_promoted_to_verified_fact": true,
+        "source_change_parent_retained": true,
+        "deterministic_review": true
+      }
+    },
+    {
+      "event_id": "SIG-REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20260918111601",
+      "parent_event_id": "CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20260918111601",
+      "review_id": "REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20260918111601",
+      "jurisdiction_id": "AUS-QLD",
+      "party_id": null,
+      "actor_id": null,
+      "contest_id": null,
+      "cycle_id": null,
+      "source_snapshot_id": "AUTO-WATCH-QLD-MINISTERIAL-STATEMENTS-20260918111601",
+      "record_id": "377a930a0232917bb6d0",
+      "captured_at": "2026-09-18T11:17:09.564Z",
+      "event_date": "2026-09-18",
+      "checkpoint": "CONTINUOUS_FORWARD_SIGNAL_REVIEW",
+      "event_type": "SIGNAL_CREATED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-QLD-MINISTERIAL-STATEMENTS",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "claim": "Queensland Government — Ministerial Media Statements added 1 structured publication record to its forward-captured official index: Statement from the Minister for Transport and Main Roads",
+      "observed_behaviour": "One or more structured publication records appeared in the monitored official source index after the preceding forward snapshot.",
+      "publication_records_added": [
+        {
+          "record_id": "377a930a0232917bb6d0",
+          "title": "Statement from the Minister for Transport and Main Roads",
+          "url": "https://statements.qld.gov.au/statements/106087"
+        }
+      ],
+      "publication_records_removed": [
+        {
+          "record_id": "a7dbdeb290aa35835bae",
+          "title": "2032 Rowing in Rockhampton endorsed by World Rowing and Paddle Worldwide",
+          "url": "https://statements.qld.gov.au/statements/106070"
+        }
+      ],
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "underlying_publication_claims_not_promoted_to_verified_fact": true,
+        "source_change_parent_retained": true,
+        "deterministic_review": true
       }
     }
   ]

@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-INTELLIGENCE-EVENTS-001",
   "scope": "Australia — multi-jurisdiction",
-  "captured_at": "2026-09-19T00:23:00.056Z",
+  "captured_at": "2026-09-19T05:55:03.828Z",
   "mode": "FORWARD_ONLY",
   "rules": {
     "observation_distinct_from_inference": true,
@@ -81354,6 +81354,180 @@
           "record_id": "a7dbdeb290aa35835bae",
           "title": "2032 Rowing in Rockhampton endorsed by World Rowing and Paddle Worldwide",
           "url": "https://statements.qld.gov.au/statements/106070"
+        }
+      ],
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "underlying_publication_claims_not_promoted_to_verified_fact": true,
+        "source_change_parent_retained": true,
+        "deterministic_review": true
+      }
+    },
+    {
+      "event_id": "CHG-WATCH-APH-BILLS-20260919055349",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-FED",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-APH-BILLS-20260919055349",
+      "captured_at": "2026-09-19T05:53:49.385Z",
+      "event_date": "2026-09-19",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_PARLIAMENT",
+      "source_id": "SRC-APH-BILLS",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "review_policy": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-APH-BILLS-20260917074045",
+        "content_hash": "ae885d3400d63cda9a55416c47775d3c484721113d7f8b26de6ba5345793a154",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-APH-BILLS-20260919055349",
+        "content_hash": "6fde49745ac3e8805fc6f050a858a22a3161ad219c432a0eaa2ae50afe71e15e",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "STRUCTURED_RECORD_SET",
+        "records_added": [
+          {
+            "record_id": "0c02f85eb762e1f64212",
+            "title": "Current House bills list",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/layouts/DPS/Bills/?blsId=legislation%2fbillslst%2fbillslst_c203aa1c-1876-41a8-bc76-1de328bdb726"
+          },
+          {
+            "record_id": "a9d593cfe442932eabeb",
+            "title": "Current Senate bills list",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/layouts/DPS/Bills/?blsId=legislation%2fbillslst%2fbillslst_8100fb48-0592-488b-828b-d017b24562d4"
+          }
+        ],
+        "records_removed": [
+          {
+            "record_id": "29a68e1255907793c887",
+            "title": "Current Senate bills list",
+            "url": "https://www.aph.gov.au/layouts/DPS/Bills/?blsId=legislation%2fbillslst%2fbillslst_8100fb48-0592-488b-828b-d017b24562d4"
+          },
+          {
+            "record_id": "5965c705a3f269591b38",
+            "title": "Current House bills list",
+            "url": "https://www.aph.gov.au/layouts/DPS/Bills/?blsId=legislation%2fbillslst%2fbillslst_c203aa1c-1876-41a8-bc76-1de328bdb726"
+          }
+        ],
+        "added_count": 2,
+        "removed_count": 2,
+        "before_count": 96,
+        "after_count": 96,
+        "delta_hash": "ae8cb0e8dd22608ac58458e493e583cf381bbd5446989da87c826d1f7821f692"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-LIBERAL-HOME-20260919055349",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-FED",
+      "party_id": "AUS-FED-LIB",
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-LIBERAL-HOME-20260919055349",
+      "captured_at": "2026-09-19T05:53:49.385Z",
+      "event_date": "2026-09-19",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_PARTY",
+      "source_id": "SRC-LIBERAL-FEDERAL-HOME",
+      "capture_mode": "NORMALISED_PAGE_HASH",
+      "review_policy": "REVIEW_UNSTRUCTURED_CHANGE",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-LIBERAL-HOME-20260918055547",
+        "content_hash": "4206a9cfb7bb2e05110a945d3a053ab8c0bfe17c3e8f11cee50bd4f0379358da",
+        "capture_mode": "NORMALISED_PAGE_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-LIBERAL-HOME-20260919055349",
+        "content_hash": "828f375dd2959ec41581205853284a46595c73c500607a9d1bf0eb868a9f754d",
+        "capture_mode": "NORMALISED_PAGE_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "TEXT_REPRESENTATION",
+        "first_difference_offset": 1420,
+        "before_length": 8346,
+        "after_length": 8017,
+        "before_excerpt": "er of the Opposition in the Senate Meet the Liberal Team The Latest Stay up to date with the Liberal Party of Australia liberalaus Life is easy for Albanese. It`s not for most Australians &#8211; but then again most Aussies can`t give a $6m grant to the golf club near their investment property. Sep 18 Open post by liberalaus with ID 18190154491392111 liberalaus Government spending is at a 40-year high outside the pandemic, fuelling inflation. The Liberals and Nationals will put a speed limit on spending – preventing government from spending faster than the economy is growing. Sep 17 Open post by liberalaus with ID 17911417815466997 angustaylormp This morning, my Coalition colleagues and I spoke with Reza Pahlavi, a leading voice of the Iranian opposition. The Islamic Republic is an enemy of its own people, an exporter of terrorism and a threat to Australia and the wider world. It tortures and executes its own citizens, funds terrorism and continues to pursue nuclear weapons. But Iran’s future does not have to be its past. Mr Pahlavi spoke of a free and democratic Iran, a future that can be secured by the Iranian people themselves, through a broad and united movement for change. The Iranian people deserve freedom. We are proud to stand with them. Sep 17 Open post by angustaylormp with ID 18100363916528275 angustaylormp 1,100 people a day. That’s one new arrival in Australia every 78 seconds. That’s the scale of mass migration Australians are dealing with under Labor. And today, instead of cutting immigration, Labor announced more tinkering around the edges. Australians are struggling to find a home, pay the rent and keep up with the cost of living. Labor’s answer is to keep the numbers high and hope no one notices. Australians deserve lower numbers and higher standards. So why didn’t Labor cut immigration today? Sep 17 Open post by angustaylormp with ID 17915852133445745 senatorhume Labor’s “level playing field” doesn’t look much like one. Fewer homes being built, while more than 51,000 people who aren’t Australian citizens have accessed their 5% deposit scheme. We’ll axe Labor’s housing taxes, boost supply and limit the 5% deposit scheme for Australian citizens. Sep 17 Open post by senatorhume with ID 18127553152743999 angustaylormp Our veterans should never have had to fight for this. We will always put Australians first. Sep 17 Open post by angustaylormp with ID 18096255401267108 liberalaus Labor’s mass migration has helped create a housing shortage of around 400,000 homes. The Liberals and Nationals will lower the numbers and lift the standards. Sep 17 Open post by liberalaus with ID 17917654488243947 angustaylormp Pressure from the Coalition has forced Labor to scrap its arbitrary cap on allied health services for veterans and their families. I want to thank the veterans, their families and the veterans’ organisations who stood strong, gave voice to their concerns and stared this government down. There are more than half-a-million veterans in this country. Australians who have served in conflicts from the Second World War through to Afghanistan. They’ve served, suffered and sacrificed for their fellow Australians. We owe them a debt that can never be repaid. The last thing any government should do is force our veterans to pay-up for the treatment they need because of their service. Labor’s cruel cap says everything about this government’s warped priorities. Labor puts Australians second. We will always put Australians first. Sep 17 Open post by angustaylormp with ID 18008256662970903 angustaylormp Great news for our veterans. We’ve scrapped Labor’s appalling cap on their allied healthcare. Veterans shouldn’t have to fight for their healthcare. Yet they were made to fight again. This is a win for you and your community. Nothing signals warped priorities more than a government that’s so desperate to find savings it goes after our veterans. Congratulations and thank you for your service to our nation. Sep 16 Open post by angustaylormp with ID 18073622459720511 angustaylormp This Labor government is sending Australia into decline with its constant failures. We will fix the economy and protect our way of life! Sep 16 Open post by angustaylormp with ID 17902430685352272 angustaylormp A Prime Minister who can’t be honest with Australians sets the tone for a government that can’t be honest about why Australians are worse off. Sep 16 Open post by angustaylormp with ID 18630387625028812 senatorhume Even Labor MPs admit small businesses are doing it tough. But when asked whether Labor’s inflation and higher interest rates are making it worse, the Katy Gallagher had no answers &#8211; just excuses. Sep 16 Open post by senatorhume with ID 18119450333318920 liberalaus Labor’s spending is keeping pressure on inflation and interest rates. Add their damaging housing taxes, and you get a weaker housing market, less investment and more pressure on rents. Sep 16 Open post by liberalaus with ID 17881668126689876 liberalaus Labor`s higher taxes and attack on mum and dad investors have killed the housing market and Labor has no idea how to fix it. We do. Axe Labor’s taxes. Cut immigration and make it easier to build homes in Australia. Sep 16 Open post by liberalaus with ID 18631257004043851 senatorhume Australians can’t afford more of the same with Labor. Sep 15 Open post by senatorhume with ID 17989088208050934 liberalaus Labor’s cuts will hit pensioners, clog public hospitals and cost taxpayers more in the long run. Sep 15 Open post by liberalaus with ID 18155478040505829 liberalaus After a lifetime of working, paying taxes and doing the right thing, pensioners are being told by Labor to pay more just to keep their private health cover. Our seniors deserve better. Sep 15 Open post by liberalaus with ID 18123519865910444 liberalaus Chris Bowen has a case of the Albo’s: can’t lie straight in bed. After throwing billions at his hydrogen fantasy, he now wants Australians to believe he was never really that into it. Meanwhile, families and businesses are paying the price for Labor’s energy experiment through higher power bills and a weaker economy. Only the Liberals and Nationals have an energy plan that will fix the economy and reduce the cost of living. Sep 15 Open post by liberalaus with ID 18120861241930235 We need your support to win! Help us by making a donation today. 🙏🏼 $30 👏🏼 $60 😃 $120 😁 $500 😲 $1,000 🥹 $2,000 ",
+        "after_excerpt": "er of the Opposition in the Senate Meet the Liberal Team The Latest Stay up to date with the Liberal Party of Australia senatorhume The IMF has told Chalmers what needs to happen: rein in spending and deliver real economic reform. Instead, Labor has chosen higher taxes while government spending is at its highest level in 40 years, outside the pandemic. Sep 19 Open post by senatorhume with ID 18081974291324910 angustaylormp Labor can’t be trusted to censor Australians social media. It could end up like this. Sep 18 Open post by angustaylormp with ID 18418449685159892 angustaylormp Anthony Albanese is always in denial. Dodge, duck, dip and dive. That’s this Prime Minister and he’s taking our country down with him. Australians deserve better! Sep 18 Open post by angustaylormp with ID 18127241953793834 senatorhume Labor’s migration plan isn’t much of a plan at all. Sep 18 Open post by senatorhume with ID 17901743604575634 angustaylormp When your energy bills are climbing, why did Chris Bowen commit $9 billion to a hype he didn’t quite buy? Sep 18 Open post by angustaylormp with ID 18024772970696286 liberalaus Life is easy for Albanese. It`s not for most Australians &#8211; but then again most Aussies can`t give a $6m grant to the golf club near their investment property. Sep 18 Open post by liberalaus with ID 18190154491392111 liberalaus Government spending is at a 40-year high outside the pandemic, fuelling inflation. The Liberals and Nationals will put a speed limit on spending – preventing government from spending faster than the economy is growing. Sep 17 Open post by liberalaus with ID 17911417815466997 angustaylormp This morning, my Coalition colleagues and I spoke with Reza Pahlavi, a leading voice of the Iranian opposition. The Islamic Republic is an enemy of its own people, an exporter of terrorism and a threat to Australia and the wider world. It tortures and executes its own citizens, funds terrorism and continues to pursue nuclear weapons. But Iran’s future does not have to be its past. Mr Pahlavi spoke of a free and democratic Iran, a future that can be secured by the Iranian people themselves, through a broad and united movement for change. The Iranian people deserve freedom. We are proud to stand with them. Sep 17 Open post by angustaylormp with ID 18100363916528275 angustaylormp 1,100 people a day. That’s one new arrival in Australia every 78 seconds. That’s the scale of mass migration Australians are dealing with under Labor. And today, instead of cutting immigration, Labor announced more tinkering around the edges. Australians are struggling to find a home, pay the rent and keep up with the cost of living. Labor’s answer is to keep the numbers high and hope no one notices. Australians deserve lower numbers and higher standards. So why didn’t Labor cut immigration today? Sep 17 Open post by angustaylormp with ID 17915852133445745 senatorhume Labor’s “level playing field” doesn’t look much like one. Fewer homes being built, while more than 51,000 people who aren’t Australian citizens have accessed their 5% deposit scheme. We’ll axe Labor’s housing taxes, boost supply and limit the 5% deposit scheme for Australian citizens. Sep 17 Open post by senatorhume with ID 18127553152743999 angustaylormp Our veterans should never have had to fight for this. We will always put Australians first. Sep 17 Open post by angustaylormp with ID 18096255401267108 liberalaus Labor’s mass migration has helped create a housing shortage of around 400,000 homes. The Liberals and Nationals will lower the numbers and lift the standards. Sep 17 Open post by liberalaus with ID 17917654488243947 angustaylormp Pressure from the Coalition has forced Labor to scrap its arbitrary cap on allied health services for veterans and their families. I want to thank the veterans, their families and the veterans’ organisations who stood strong, gave voice to their concerns and stared this government down. There are more than half-a-million veterans in this country. Australians who have served in conflicts from the Second World War through to Afghanistan. They’ve served, suffered and sacrificed for their fellow Australians. We owe them a debt that can never be repaid. The last thing any government should do is force our veterans to pay-up for the treatment they need because of their service. Labor’s cruel cap says everything about this government’s warped priorities. Labor puts Australians second. We will always put Australians first. Sep 17 Open post by angustaylormp with ID 18008256662970903 angustaylormp Great news for our veterans. We’ve scrapped Labor’s appalling cap on their allied healthcare. Veterans shouldn’t have to fight for their healthcare. Yet they were made to fight again. This is a win for you and your community. Nothing signals warped priorities more than a government that’s so desperate to find savings it goes after our veterans. Congratulations and thank you for your service to our nation. Sep 16 Open post by angustaylormp with ID 18073622459720511 angustaylormp This Labor government is sending Australia into decline with its constant failures. We will fix the economy and protect our way of life! Sep 16 Open post by angustaylormp with ID 17902430685352272 angustaylormp A Prime Minister who can’t be honest with Australians sets the tone for a government that can’t be honest about why Australians are worse off. Sep 16 Open post by angustaylormp with ID 18630387625028812 senatorhume Even Labor MPs admit small businesses are doing it tough. But when asked whether Labor’s inflation and higher interest rates are making it worse, the Katy Gallagher had no answers &#8211; just excuses. Sep 16 Open post by senatorhume with ID 18119450333318920 liberalaus Labor’s spending is keeping pressure on inflation and interest rates. Add their damaging housing taxes, and you get a weaker housing market, less investment and more pressure on rents. Sep 16 Open post by liberalaus with ID 17881668126689876 We need your support to win! Help us by making a donation today. 🙏🏼 $30 👏🏼 $60 😃 $120 😁 $500 😲 $1,000 🥹 $2,000 ",
+        "delta_hash": "ccc3ab186e64f23fb07cfaa0a19dc4b1f6a4c0866a81fb12776e28f9c9e01b7c"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "SIG-REV-CHG-WATCH-APH-BILLS-20260919055349",
+      "parent_event_id": "CHG-WATCH-APH-BILLS-20260919055349",
+      "review_id": "REV-CHG-WATCH-APH-BILLS-20260919055349",
+      "jurisdiction_id": "AUS-FED",
+      "party_id": null,
+      "actor_id": null,
+      "contest_id": null,
+      "cycle_id": null,
+      "source_snapshot_id": "AUTO-WATCH-APH-BILLS-20260919055349",
+      "record_id": null,
+      "captured_at": "2026-09-19T05:54:53.108Z",
+      "event_date": "2026-09-19",
+      "checkpoint": "CONTINUOUS_FORWARD_SIGNAL_REVIEW",
+      "event_type": "SIGNAL_CREATED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_PARLIAMENT",
+      "source_id": "SRC-APH-BILLS",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "claim": "Parliament of Australia — Bills and Legislation added 2 structured publication records to its forward-captured official index: Current House bills list; Current Senate bills list",
+      "observed_behaviour": "One or more structured publication records appeared in the monitored official source index after the preceding forward snapshot.",
+      "publication_records_added": [
+        {
+          "record_id": "0c02f85eb762e1f64212",
+          "title": "Current House bills list",
+          "url": "https://www.aph.gov.au/Parliamentary_Business/layouts/DPS/Bills/?blsId=legislation%2fbillslst%2fbillslst_c203aa1c-1876-41a8-bc76-1de328bdb726"
+        },
+        {
+          "record_id": "a9d593cfe442932eabeb",
+          "title": "Current Senate bills list",
+          "url": "https://www.aph.gov.au/Parliamentary_Business/layouts/DPS/Bills/?blsId=legislation%2fbillslst%2fbillslst_8100fb48-0592-488b-828b-d017b24562d4"
+        }
+      ],
+      "publication_records_removed": [
+        {
+          "record_id": "29a68e1255907793c887",
+          "title": "Current Senate bills list",
+          "url": "https://www.aph.gov.au/layouts/DPS/Bills/?blsId=legislation%2fbillslst%2fbillslst_8100fb48-0592-488b-828b-d017b24562d4"
+        },
+        {
+          "record_id": "5965c705a3f269591b38",
+          "title": "Current House bills list",
+          "url": "https://www.aph.gov.au/layouts/DPS/Bills/?blsId=legislation%2fbillslst%2fbillslst_c203aa1c-1876-41a8-bc76-1de328bdb726"
         }
       ],
       "inference": null,

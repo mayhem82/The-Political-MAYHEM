@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-MAYHEM-INFORMATION-INGESTION-COVERAGE-001",
   "status": "ACTIVE",
-  "updated_at": "2026-09-19T18:02:45.495Z",
+  "updated_at": "2026-09-19T20:42:16.227Z",
   "rules": {
     "coverage_is_jurisdiction_by_competition_area": true,
     "generic_jurisdiction_source_count_does_not_equal_area_coverage": true,
@@ -1029,12 +1029,12 @@
     {
       "jurisdiction_id": "AUS-QLD",
       "competition_class": "ELECTORAL",
-      "state": "INGESTION_PATH_READY_NO_SUBSTANTIVE_EVIDENCE",
+      "state": "SUBSTANTIVE_EVIDENCE_ACTIVE",
       "configured_source_count": 3,
       "relevant_source_count": 2,
       "detail_capable_source_count": 1,
-      "detail_records_in_jurisdiction": 3,
-      "substantive_area_evidence_count": 0,
+      "detail_records_in_jurisdiction": 4,
+      "substantive_area_evidence_count": 1,
       "required_source_groups": [
         {
           "options": [
@@ -1062,7 +1062,7 @@
       "configured_source_count": 3,
       "relevant_source_count": 1,
       "detail_capable_source_count": 0,
-      "detail_records_in_jurisdiction": 3,
+      "detail_records_in_jurisdiction": 4,
       "substantive_area_evidence_count": 0,
       "required_source_groups": [
         {
@@ -1088,7 +1088,7 @@
       "configured_source_count": 3,
       "relevant_source_count": 1,
       "detail_capable_source_count": 0,
-      "detail_records_in_jurisdiction": 3,
+      "detail_records_in_jurisdiction": 4,
       "substantive_area_evidence_count": 0,
       "required_source_groups": [
         {
@@ -1118,7 +1118,7 @@
       "configured_source_count": 3,
       "relevant_source_count": 1,
       "detail_capable_source_count": 0,
-      "detail_records_in_jurisdiction": 3,
+      "detail_records_in_jurisdiction": 4,
       "substantive_area_evidence_count": 0,
       "required_source_groups": [
         {
@@ -1157,7 +1157,7 @@
       "configured_source_count": 3,
       "relevant_source_count": 2,
       "detail_capable_source_count": 1,
-      "detail_records_in_jurisdiction": 3,
+      "detail_records_in_jurisdiction": 4,
       "substantive_area_evidence_count": 1,
       "required_source_groups": [
         {
@@ -1208,7 +1208,7 @@
       "configured_source_count": 3,
       "relevant_source_count": 2,
       "detail_capable_source_count": 1,
-      "detail_records_in_jurisdiction": 3,
+      "detail_records_in_jurisdiction": 4,
       "substantive_area_evidence_count": 0,
       "required_source_groups": [
         {
@@ -1250,7 +1250,7 @@
       "configured_source_count": 3,
       "relevant_source_count": 1,
       "detail_capable_source_count": 0,
-      "detail_records_in_jurisdiction": 3,
+      "detail_records_in_jurisdiction": 4,
       "substantive_area_evidence_count": 0,
       "required_source_groups": [
         {
@@ -1276,7 +1276,7 @@
       "configured_source_count": 3,
       "relevant_source_count": 2,
       "detail_capable_source_count": 1,
-      "detail_records_in_jurisdiction": 3,
+      "detail_records_in_jurisdiction": 4,
       "substantive_area_evidence_count": 0,
       "required_source_groups": [
         {
@@ -2953,14 +2953,6 @@
     },
     {
       "jurisdiction_id": "AUS-QLD",
-      "competition_class": "ELECTORAL",
-      "state": "INGESTION_PATH_READY_NO_SUBSTANTIVE_EVIDENCE",
-      "missing_source_groups": [],
-      "detail_capable_source_count": 1,
-      "substantive_area_evidence_count": 0
-    },
-    {
-      "jurisdiction_id": "AUS-QLD",
       "competition_class": "LEGISLATIVE",
       "state": "NO_AUTOMATED_DETAIL_PATH",
       "missing_source_groups": [],
@@ -3464,8 +3456,8 @@
     "jurisdictions": 9,
     "competition_areas": 8,
     "total_cells": 72,
-    "substantive_evidence_active": 10,
-    "ingestion_path_ready_no_substantive_evidence": 15,
+    "substantive_evidence_active": 11,
+    "ingestion_path_ready_no_substantive_evidence": 14,
     "no_automated_detail_path": 14,
     "source_path_gaps": 33,
     "retracted_routing_records_excluded": 4

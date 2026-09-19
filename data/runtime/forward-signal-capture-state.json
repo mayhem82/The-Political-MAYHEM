@@ -504,11 +504,11 @@
       "captured_representation_complete": true
     }
   },
-  "updated_at": "2026-09-19T11:00:12.925Z",
+  "updated_at": "2026-09-19T14:26:08.632Z",
   "last_run": {
-    "captured_at": "2026-09-19T11:00:12.925Z",
+    "captured_at": "2026-09-19T14:26:08.632Z",
     "baselines_created": 0,
-    "source_changes_created": 2,
+    "source_changes_created": 0,
     "semantic_signals_created": 0,
     "representation_upgrades": 0,
     "failures": [
@@ -525,12 +525,12 @@
         "error": "https://www.ecq.qld.gov.au/media/2026-media-statements [IDENTIFIED_AUTOMATION] 403 Forbidden | https://www.ecq.qld.gov.au/media/2026-media-statements [BROWSER_COMPATIBILITY] 403 Forbidden | https://www.ecq.qld.gov.au/home [IDENTIFIED_AUTOMATION] 403 Forbidden | https://www.ecq.qld.gov.au/home [BROWSER_COMPATIBILITY] 403 Forbidden"
       },
       {
-        "watch_id": "WATCH-WA-GOV-MEDIA",
-        "error": "https://www.wa.gov.au/government/media-statements [IDENTIFIED_AUTOMATION] 403 Forbidden | https://www.wa.gov.au/government/media-statements [BROWSER_COMPATIBILITY] 403 Forbidden"
+        "watch_id": "WATCH-SA-PARLIAMENT",
+        "error": "https://www.parliament.sa.gov.au/ [IDENTIFIED_AUTOMATION] timeout>15000ms | https://www.parliament.sa.gov.au/ [BROWSER_COMPATIBILITY] timeout>15000ms"
       },
       {
         "watch_id": "WATCH-TAS-HANSARD",
-        "error": "https://search.parliament.tas.gov.au/Search/search/search?IW_FIELD_ADVANCE_PHRASE=2026%20IN%20TITLE&IW_DATABASE=Hansard&IW_SORT=-9&IW_SEARCH_SCOPE=meta [IDENTIFIED_AUTOMATION] timeout>15000ms | https://search.parliament.tas.gov.au/Search/search/search?IW_FIELD_ADVANCE_PHRASE=2026%20IN%20TITLE&IW_DATABASE=Hansard&IW_SORT=-9&IW_SEARCH_SCOPE=meta [BROWSER_COMPATIBILITY] timeout>15000ms"
+        "error": "https://search.parliament.tas.gov.au/Search/search/search?IW_FIELD_ADVANCE_PHRASE=2026%20IN%20TITLE&IW_DATABASE=Hansard&IW_SORT=-9&IW_SEARCH_SCOPE=meta [IDENTIFIED_AUTOMATION] 503 Service Unavailable | https://search.parliament.tas.gov.au/Search/search/search?IW_FIELD_ADVANCE_PHRASE=2026%20IN%20TITLE&IW_DATABASE=Hansard&IW_SORT=-9&IW_SEARCH_SCOPE=meta [BROWSER_COMPATIBILITY] 503 Service Unavailable"
       },
       {
         "watch_id": "WATCH-TAS-PREMIER-NEWS",
@@ -616,17 +616,6 @@
       "AUS-WA": {
         "configured_sources": 3,
         "baseline_sources": 3,
-        "current_run_failures": 1,
-        "source_classes": [
-          "PRIMARY_ELECTORAL_AUTHORITY",
-          "PRIMARY_GOVERNMENT",
-          "PRIMARY_PARLIAMENT"
-        ],
-        "status": "CAPTURE_ACTIVE_DEGRADED_CURRENT_RUN"
-      },
-      "AUS-SA": {
-        "configured_sources": 3,
-        "baseline_sources": 3,
         "current_run_failures": 0,
         "source_classes": [
           "PRIMARY_ELECTORAL_AUTHORITY",
@@ -634,6 +623,17 @@
           "PRIMARY_PARLIAMENT"
         ],
         "status": "CAPTURE_ACTIVE_FULL_CONFIGURED_BASELINE"
+      },
+      "AUS-SA": {
+        "configured_sources": 3,
+        "baseline_sources": 3,
+        "current_run_failures": 1,
+        "source_classes": [
+          "PRIMARY_ELECTORAL_AUTHORITY",
+          "PRIMARY_GOVERNMENT",
+          "PRIMARY_PARLIAMENT"
+        ],
+        "status": "CAPTURE_ACTIVE_DEGRADED_CURRENT_RUN"
       },
       "AUS-TAS": {
         "configured_sources": 3,

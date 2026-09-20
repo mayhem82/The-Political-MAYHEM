@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-SIGNAL-REVIEWS-001",
   "created_at": "2026-09-09T05:05:00+10:00",
-  "updated_at": "2026-09-20T01:11:38.010Z",
+  "updated_at": "2026-09-20T06:18:33.891Z",
   "rules": {
     "append_only": true,
     "raw_source_change_is_immutable": true,
@@ -29855,6 +29855,66 @@
           }
         ],
         "delta_hash": "9a0dba49a16f0ef7d38bbb91ddbc501af44b94623b10c58250b192ae975fef4a"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-PM-MEDIA-20260920061754",
+      "source_change_event_id": "CHG-WATCH-PM-MEDIA-20260920061754",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-PM-MEDIA-20260920061754",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Prime Minister of Australia — media added 3 structured publication records to its forward-captured official index: Television interview - ABC Insiders; Working with Apple on online safety; Press conference - Apple Park, California",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-09-20T06:18:33.891Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "6eab1d8b0ea231523cd8",
+            "title": "Television interview - ABC Insiders",
+            "url": "https://www.pm.gov.au/media/television-interview-abc-insiders-8"
+          },
+          {
+            "record_id": "990a0ef69dc7c2d43def",
+            "title": "Working with Apple on online safety",
+            "url": "https://www.pm.gov.au/media/working-apple-online-safety"
+          },
+          {
+            "record_id": "de30dcaa7ee01ff85387",
+            "title": "Press conference - Apple Park, California",
+            "url": "https://www.pm.gov.au/media/press-conference-apple-park-california"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "1f8e7c9cd2a99bc87481",
+            "title": "Television interview - Today",
+            "url": "https://www.pm.gov.au/media/television-interview-today-13"
+          },
+          {
+            "record_id": "8dfe9e2e580111a97ec2",
+            "title": "Television interview - Sunrise",
+            "url": "https://www.pm.gov.au/media/television-interview-sunrise-44"
+          },
+          {
+            "record_id": "c219054a83442899cac5",
+            "title": "Lasting Legacy: A new era for the Hunter as M1 extension opens",
+            "url": "https://www.pm.gov.au/media/lasting-legacy-new-era-hunter-m1-extension-opens"
+          }
+        ],
+        "delta_hash": "175e722ee4a0d6f01cf6ee86b57cded0069392213199ce9aa4253c76ab16439d"
       },
       "integrity": {
         "source_change_unchanged": true,

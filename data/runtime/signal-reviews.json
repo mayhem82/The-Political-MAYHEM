@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-SIGNAL-REVIEWS-001",
   "created_at": "2026-09-09T05:05:00+10:00",
-  "updated_at": "2026-09-20T22:27:42.454Z",
+  "updated_at": "2026-09-21T01:07:09.149Z",
   "rules": {
     "append_only": true,
     "raw_source_change_is_immutable": true,
@@ -29915,6 +29915,236 @@
           }
         ],
         "delta_hash": "175e722ee4a0d6f01cf6ee86b57cded0069392213199ce9aa4253c76ab16439d"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-PM-MEDIA-20260921010631",
+      "source_change_event_id": "CHG-WATCH-PM-MEDIA-20260921010631",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-PM-MEDIA-20260921010631",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Prime Minister of Australia — media added 2 structured publication records to its forward-captured official index: Australia launches bid for United Nations Security Council seat; Press conference - United Nations, New York",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-09-21T01:07:09.149Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "25509b0bdf772ed8d3c3",
+            "title": "Australia launches bid for United Nations Security Council seat",
+            "url": "https://www.pm.gov.au/media/australia-launches-bid-united-nations-security-council-seat"
+          },
+          {
+            "record_id": "b26680d4332286ee6037",
+            "title": "Press conference - United Nations, New York",
+            "url": "https://www.pm.gov.au/media/press-conference-united-nations-new-york"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "82dc3850cd86f896b248",
+            "title": "Press conference - Tarro, NSW",
+            "url": "https://www.pm.gov.au/media/press-conference-tarro-nsw"
+          },
+          {
+            "record_id": "ce6aaa7a87a61b8dc8e3",
+            "title": "Television interview - ABC news breakfast",
+            "url": "https://www.pm.gov.au/media/television-interview-abc-news-breakfast-42"
+          }
+        ],
+        "delta_hash": "ca2db631ffac6db7a2d30da267e71e2242eb8d353bfbd80d55a39a142c6114de"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-NSW-MINISTERIAL-RELEASES-20260921010631",
+      "source_change_event_id": "CHG-WATCH-NSW-MINISTERIAL-RELEASES-20260921010631",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-NSW-MINISTERIAL-RELEASES-20260921010631",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "NSW Government — Ministerial releases added 8 structured publication records to its forward-captured official index: Powerhouse Parramatta opening festival program; All ten stations ready to go for Southwest Metro; Memorial to historical forced adoption practices unveiled; $16.5M for more EV chargers as NSW hits 155k EVs on the road; Five projects endorsed by Investment Delivery Authority to strengthen NSW fuel security; +3 more",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-09-21T01:07:09.149Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "1d19aa1f732b75fe91a1",
+            "title": "Powerhouse Parramatta opening festival program",
+            "url": "https://www.nsw.gov.au/departments-and-agencies/dciths/ministerial-media-releases/powerhouse-parramatta-opening-festival-program"
+          },
+          {
+            "record_id": "292876b35f07d9cf1eeb",
+            "title": "All ten stations ready to go for Southwest Metro",
+            "url": "https://www.nsw.gov.au/ministerial-releases/all-ten-stations-ready-to-go-for-southwest-metro"
+          },
+          {
+            "record_id": "318ca761b3a528c915fd",
+            "title": "Memorial to historical forced adoption practices unveiled",
+            "url": "https://www.nsw.gov.au/ministerial-releases/memorial-to-historical-forced-adoption-practices-unveiled"
+          },
+          {
+            "record_id": "a0510a2cc3ca47cda81c",
+            "title": "$16.5M for more EV chargers as NSW hits 155k EVs on the road",
+            "url": "https://www.nsw.gov.au/ministerial-releases/more-investment-ev-chargers"
+          },
+          {
+            "record_id": "abfc2a74688e7cab131c",
+            "title": "Five projects endorsed by Investment Delivery Authority to strengthen NSW fuel security",
+            "url": "https://www.nsw.gov.au/ministerial-releases/five-projects-endorsed-strengthening-fuel-security"
+          },
+          {
+            "record_id": "c1c1371f9d6d7d1a4024",
+            "title": "NSW leads Australia with new solar panel recycling mandate",
+            "url": "https://www.nsw.gov.au/ministerial-releases/nsw-leads-australia-new-solar-panel-recycling-mandate"
+          },
+          {
+            "record_id": "c6e65b1a4266fd59b5f6",
+            "title": "Mammoth investment: Nearly $3 billion worth of road projects on the way for Western Sydney",
+            "url": "https://www.nsw.gov.au/ministerial-releases/mammoth-investment-nearly-3-billion-worth-of-road-projects-on-way-for-western-sydney"
+          },
+          {
+            "record_id": "c7ba860e4f6bd24d2b4d",
+            "title": "Safer and smoother connections along Empire Bay Drive",
+            "url": "https://www.nsw.gov.au/ministerial-releases/safer-and-smoother-connections-along-empire-bay-drive"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "07836aa6f1c0128527c0",
+            "title": "New upgrades for Barangaroo’s coolest swim spot Marrinawi Cove",
+            "url": "https://www.nsw.gov.au/ministerial-releases/new-upgrades-marrinawi-cove"
+          },
+          {
+            "record_id": "2efa89bec45f86da39c2",
+            "title": "Major boost for emergency care at Caves Beach: Construction commences on new Ambulance Station",
+            "url": "https://www.nsw.gov.au/ministerial-releases/major-boost-for-emergency-care-at-caves-beach-construction-commences-on-new-ambulance-station"
+          },
+          {
+            "record_id": "506d90f71045bcf480c0",
+            "title": "$1 million Port Kembla Community Investment fund now open",
+            "url": "https://www.nsw.gov.au/ministerial-releases/1-million-port-kembla-community-investment-fund-now-open"
+          },
+          {
+            "record_id": "65dbb1734c4c90c1d25f",
+            "title": "Minns Labor Government’s medicinal cannabis driving reforms pass NSW Parliament",
+            "url": "https://www.nsw.gov.au/ministerial-releases/minns-labor-governments-medicinal-cannabis-driving-reforms-pass-nsw-parliament"
+          },
+          {
+            "record_id": "8d78b7e0784d7e114cad",
+            "title": "NSW Ambulance stations open doors to communities at local Appreciation Day events across the state",
+            "url": "https://www.nsw.gov.au/ministerial-releases/nsw-ambulance-stations-open-doors-to-communities-at-local-appreciation-day-events-across-state"
+          },
+          {
+            "record_id": "9f7bbb78a23a51b0136a",
+            "title": "A brighter future for NSW parklands",
+            "url": "https://www.nsw.gov.au/ministerial-releases/brighter-future-nsw-parklands"
+          },
+          {
+            "record_id": "ba14c1845b3913bf26bc",
+            "title": "Major energy grid stabilisers ready for summer",
+            "url": "https://www.nsw.gov.au/ministerial-releases/major-energy-grid-stabilisers-ready-for-summer"
+          },
+          {
+            "record_id": "c92d374bf57920bae7e6",
+            "title": "$15 million to rebuild Wingham pool",
+            "url": "https://www.nsw.gov.au/ministerial-releases/15-million-to-rebuild-wingham-pool"
+          }
+        ],
+        "delta_hash": "8a23b6bb905ddb2fc43721f0e4c650557e9c82dfbf149341aba9a75014793c08"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20260921010631",
+      "source_change_event_id": "CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20260921010631",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20260921010631",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Queensland Government — Ministerial Media Statements added 4 structured publication records to its forward-captured official index: The Gabba’s pitch to live on at Brisbane Stadium; Local feedback requested for draft Georgina and Diamantina water plan; Toowoomba Youth Foyer moves ahead; G’day to Toowoomba’s Little Queenslanders",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-09-21T01:07:09.149Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "49778a1c51a75f6089e0",
+            "title": "The Gabba’s pitch to live on at Brisbane Stadium",
+            "url": "https://statements.qld.gov.au/statements/106085"
+          },
+          {
+            "record_id": "820988219dbcb00173b3",
+            "title": "Local feedback requested for draft Georgina and Diamantina water plan",
+            "url": "https://statements.qld.gov.au/statements/106094"
+          },
+          {
+            "record_id": "87b1ad91064109ee36ee",
+            "title": "Toowoomba Youth Foyer moves ahead",
+            "url": "https://statements.qld.gov.au/statements/106093"
+          },
+          {
+            "record_id": "dd2e72f8ec8d986d067f",
+            "title": "G’day to Toowoomba’s Little Queenslanders",
+            "url": "https://statements.qld.gov.au/statements/106091"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "034b4700c806635c34ee",
+            "title": "New laws passed to crack down on dangerous driving",
+            "url": "https://statements.qld.gov.au/statements/106068"
+          },
+          {
+            "record_id": "1f64e61415362a703335",
+            "title": "Circuit Breaker Sentencing passes Parliament to make Queensland safer as Labor vote against rehabilitation",
+            "url": "https://statements.qld.gov.au/statements/106078"
+          },
+          {
+            "record_id": "be2145208c282ebac688",
+            "title": "Thousands of homes for 2032 and beyond in Bowen Hills",
+            "url": "https://statements.qld.gov.au/statements/106069"
+          },
+          {
+            "record_id": "d976610e6f325a080f21",
+            "title": "Nation-leading domestic and family violence reforms strengthen victim support",
+            "url": "https://statements.qld.gov.au/statements/106074"
+          }
+        ],
+        "delta_hash": "86782dd1ac1ca48b520c40dad7bd99a6e14ecdc7b201d428013da1f323bd68d4"
       },
       "integrity": {
         "source_change_unchanged": true,

@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-INTELLIGENCE-EVENTS-001",
   "scope": "Australia — multi-jurisdiction",
-  "captured_at": "2026-09-20T22:27:46.940Z",
+  "captured_at": "2026-09-21T01:07:12.845Z",
   "mode": "FORWARD_ONLY",
   "rules": {
     "observation_distinct_from_inference": true,
@@ -82153,6 +82153,596 @@
       "projection_effect": "NO_EFFECT",
       "information_advantage": "NONE",
       "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-PM-MEDIA-20260921010631",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-FED",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-PM-MEDIA-20260921010631",
+      "captured_at": "2026-09-21T01:06:31.315Z",
+      "event_date": "2026-09-21",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-PM-MEDIA",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "review_policy": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-PM-MEDIA-20260920061754",
+        "content_hash": "4bc2d9fdaabb8b277e04fd38cd7770e7f61e5eb9629ee3b2e47319fb4bcb4ec8",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-PM-MEDIA-20260921010631",
+        "content_hash": "2ef4529c44eca07e91c0510da6c2ec3deb64c72cf22fd68efc66a5ae24ad32df",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "STRUCTURED_RECORD_SET",
+        "records_added": [
+          {
+            "record_id": "25509b0bdf772ed8d3c3",
+            "title": "Australia launches bid for United Nations Security Council seat",
+            "url": "https://www.pm.gov.au/media/australia-launches-bid-united-nations-security-council-seat"
+          },
+          {
+            "record_id": "b26680d4332286ee6037",
+            "title": "Press conference - United Nations, New York",
+            "url": "https://www.pm.gov.au/media/press-conference-united-nations-new-york"
+          }
+        ],
+        "records_removed": [
+          {
+            "record_id": "82dc3850cd86f896b248",
+            "title": "Press conference - Tarro, NSW",
+            "url": "https://www.pm.gov.au/media/press-conference-tarro-nsw"
+          },
+          {
+            "record_id": "ce6aaa7a87a61b8dc8e3",
+            "title": "Television interview - ABC news breakfast",
+            "url": "https://www.pm.gov.au/media/television-interview-abc-news-breakfast-42"
+          }
+        ],
+        "added_count": 2,
+        "removed_count": 2,
+        "before_count": 27,
+        "after_count": 27,
+        "delta_hash": "ca2db631ffac6db7a2d30da267e71e2242eb8d353bfbd80d55a39a142c6114de"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-NSW-MINISTERIAL-RELEASES-20260921010631",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-NSW",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-NSW-MINISTERIAL-RELEASES-20260921010631",
+      "captured_at": "2026-09-21T01:06:31.315Z",
+      "event_date": "2026-09-21",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-NSW-MINISTERIAL-RELEASES",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "review_policy": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-NSW-MINISTERIAL-RELEASES-20260918111601",
+        "content_hash": "2ff4a2ea005908ea476c7e1004a7f65c9783ee9a86d0e68f1b7646f4b1b78400",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-NSW-MINISTERIAL-RELEASES-20260921010631",
+        "content_hash": "23bcdb51477399fb3491d62e50c9ae02cdf5f0957a06ada243836a56e34d4bbd",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "STRUCTURED_RECORD_SET",
+        "records_added": [
+          {
+            "record_id": "1d19aa1f732b75fe91a1",
+            "title": "Powerhouse Parramatta opening festival program",
+            "url": "https://www.nsw.gov.au/departments-and-agencies/dciths/ministerial-media-releases/powerhouse-parramatta-opening-festival-program"
+          },
+          {
+            "record_id": "292876b35f07d9cf1eeb",
+            "title": "All ten stations ready to go for Southwest Metro",
+            "url": "https://www.nsw.gov.au/ministerial-releases/all-ten-stations-ready-to-go-for-southwest-metro"
+          },
+          {
+            "record_id": "318ca761b3a528c915fd",
+            "title": "Memorial to historical forced adoption practices unveiled",
+            "url": "https://www.nsw.gov.au/ministerial-releases/memorial-to-historical-forced-adoption-practices-unveiled"
+          },
+          {
+            "record_id": "a0510a2cc3ca47cda81c",
+            "title": "$16.5M for more EV chargers as NSW hits 155k EVs on the road",
+            "url": "https://www.nsw.gov.au/ministerial-releases/more-investment-ev-chargers"
+          },
+          {
+            "record_id": "abfc2a74688e7cab131c",
+            "title": "Five projects endorsed by Investment Delivery Authority to strengthen NSW fuel security",
+            "url": "https://www.nsw.gov.au/ministerial-releases/five-projects-endorsed-strengthening-fuel-security"
+          },
+          {
+            "record_id": "c1c1371f9d6d7d1a4024",
+            "title": "NSW leads Australia with new solar panel recycling mandate",
+            "url": "https://www.nsw.gov.au/ministerial-releases/nsw-leads-australia-new-solar-panel-recycling-mandate"
+          },
+          {
+            "record_id": "c6e65b1a4266fd59b5f6",
+            "title": "Mammoth investment: Nearly $3 billion worth of road projects on the way for Western Sydney",
+            "url": "https://www.nsw.gov.au/ministerial-releases/mammoth-investment-nearly-3-billion-worth-of-road-projects-on-way-for-western-sydney"
+          },
+          {
+            "record_id": "c7ba860e4f6bd24d2b4d",
+            "title": "Safer and smoother connections along Empire Bay Drive",
+            "url": "https://www.nsw.gov.au/ministerial-releases/safer-and-smoother-connections-along-empire-bay-drive"
+          }
+        ],
+        "records_removed": [
+          {
+            "record_id": "07836aa6f1c0128527c0",
+            "title": "New upgrades for Barangaroo’s coolest swim spot Marrinawi Cove",
+            "url": "https://www.nsw.gov.au/ministerial-releases/new-upgrades-marrinawi-cove"
+          },
+          {
+            "record_id": "2efa89bec45f86da39c2",
+            "title": "Major boost for emergency care at Caves Beach: Construction commences on new Ambulance Station",
+            "url": "https://www.nsw.gov.au/ministerial-releases/major-boost-for-emergency-care-at-caves-beach-construction-commences-on-new-ambulance-station"
+          },
+          {
+            "record_id": "506d90f71045bcf480c0",
+            "title": "$1 million Port Kembla Community Investment fund now open",
+            "url": "https://www.nsw.gov.au/ministerial-releases/1-million-port-kembla-community-investment-fund-now-open"
+          },
+          {
+            "record_id": "65dbb1734c4c90c1d25f",
+            "title": "Minns Labor Government’s medicinal cannabis driving reforms pass NSW Parliament",
+            "url": "https://www.nsw.gov.au/ministerial-releases/minns-labor-governments-medicinal-cannabis-driving-reforms-pass-nsw-parliament"
+          },
+          {
+            "record_id": "8d78b7e0784d7e114cad",
+            "title": "NSW Ambulance stations open doors to communities at local Appreciation Day events across the state",
+            "url": "https://www.nsw.gov.au/ministerial-releases/nsw-ambulance-stations-open-doors-to-communities-at-local-appreciation-day-events-across-state"
+          },
+          {
+            "record_id": "9f7bbb78a23a51b0136a",
+            "title": "A brighter future for NSW parklands",
+            "url": "https://www.nsw.gov.au/ministerial-releases/brighter-future-nsw-parklands"
+          },
+          {
+            "record_id": "ba14c1845b3913bf26bc",
+            "title": "Major energy grid stabilisers ready for summer",
+            "url": "https://www.nsw.gov.au/ministerial-releases/major-energy-grid-stabilisers-ready-for-summer"
+          },
+          {
+            "record_id": "c92d374bf57920bae7e6",
+            "title": "$15 million to rebuild Wingham pool",
+            "url": "https://www.nsw.gov.au/ministerial-releases/15-million-to-rebuild-wingham-pool"
+          }
+        ],
+        "added_count": 8,
+        "removed_count": 8,
+        "before_count": 88,
+        "after_count": 88,
+        "delta_hash": "8a23b6bb905ddb2fc43721f0e4c650557e9c82dfbf149341aba9a75014793c08"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-VEC-2026-STATE-ELECTION-20260921010631",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-VIC",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-VEC-2026-STATE-ELECTION-20260921010631",
+      "captured_at": "2026-09-21T01:06:31.315Z",
+      "event_date": "2026-09-21",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_ELECTORAL_AUTHORITY",
+      "source_id": "SRC-VEC-2026-STATE-ELECTION",
+      "capture_mode": "NORMALISED_PAGE_HASH",
+      "review_policy": "REVIEW_UNSTRUCTURED_CHANGE",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-VEC-2026-STATE-ELECTION-20260908042439",
+        "content_hash": "c6d8d4a2da314f2fc70358f82b58df824eb1f000e02cea1431154197ee30b6c5",
+        "capture_mode": "NORMALISED_PAGE_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-VEC-2026-STATE-ELECTION-20260921010631",
+        "content_hash": "4b9728117c63a42316e4732339fdd9233f8849bb994aaeb25a1a2c81f4430d19",
+        "capture_mode": "NORMALISED_PAGE_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "TEXT_REPRESENTATION",
+        "first_difference_offset": 8328,
+        "before_length": 15292,
+        "after_length": 15092,
+        "before_excerpt": "'ve also made some improvements to what we'll offer Victorian voters for this year's election. Changes to electoral law The Electoral Amendment Act 2026 made some changes to the Electoral Act 2002, the law state elections are run under. The full list of changes is on our Electoral Act amendments page. Some key differences are: the electoral roll closes at 8 pm the day the writ of an election is issued, 1 week earlier than other elections. This year the roll will close at 8 pm on Tuesday 3 November , Melbourne Cup Day. there are fewer days for candidates to nominate. If you're an independent candidate, make sure you're prepared before nominations open on Wednesday 4 November. the early voting period is shorter. This year early voting will be available from Wednesday 18 to Friday 27 November. Changes we have made This year we've made some changes we think will make it easier for all Victorians to actively participate in their democracy. Low sensory voting &ndash; there'll be a low-sensory mobile voting session in every district on Tuesday 17 November between 10am and 4pm. We'll share more information about this session later this year. Early voting centres &ndash; all early voting centres will also be election day voting centres. This will make it easier to find a voting centre location that works for you. EasyVote guide &ndash; we're mailing a printed version of our EasyVote guide to all households. This pamphlet will have all the key information about when, where, and how to vote correctly. Prepare for November Become a candidate Candidate nominations: open at 9 am Wednesday 4 November close at 12 noon on Monday 9 November for all candidates . There is a shorter nomination period this year. If you&rsquo;re an independent candidate, make sure you&rsquo;re prepared before nominations open. Independent candidates must nominate in person at the election office of the electorate they&rsquo;re nominating in. For district (lower house) independent candidates, this will be the district election office. For region (upper house) independent candidates this will be any district election office within your region. From Wednesday 14 October, Candidate Helper will have: nomination forms election office locations opening hours contact information Registered political parties must lodge the nomination forms for their endorsed candidates directly with us. More information Become a state election candidate Know your electorate Victoria is made up of 88 districts and 8 regions. The 88 districts make up Victoria&rsquo;s lower house of Parliament, the Legislative Assembly. Each district is represented by one Member of Parliament (MP for short). The 8 regions make up Victoria&rsquo;s upper house of Parliament, the Legislative Council. Each region is represented by 5 Members of Parliament. If you&rsquo;ve moved house since the 2022 state election, you might be voting in a new electorate. If you do move house, it&rsquo;s your responsibility to keep your enrolment up to date . Why this is important When candidates nominate for an election, they nominate for either one district or one region. When you go to vote, you&rsquo;ll be given ballot papers for the district and region you&rsquo;re enrolled in. If you want to find out more about the candidates who want your vote, you need to know which electorate you&rsquo;re enrolled in. Knowing your electorate also helps you plan where you go to vote, if you want to vote in person. If you do vote in person, knowing which electorate you&rsquo;re enrolled in can make it faster for you at the voting centre. More information What are electoral boundaries? Interactive electoral boundaries map Electoral Boundaries Commission Parliament of Victoria website Work at the election Elections are a fundamental part of democracy in Victoria. During a state election, we hire up to 25,000 staff for a range of important jobs. We&rsquo;re looking for staff from a wide range of backgrounds. In particular want to hear from you if you: speak multiple languages are of Aboriginal or Torres Strait Islander background live with a disability are 18-29 years old Many jobs involve working in a voting centre on election day. There are also jobs in the months before and after election day. Apply to work at the election Political donations There are strict laws that regulate political donations in Victoria, including: who can make a political donation the maximum value of political donations when you must disclose political donations you make or receive a ban on foreign donations. There have been recent updates to the political donation laws that all political participants should be aware of. Please read our 2026 political finance laws and political donations pages for the details of these changes. Rules for campaigning You can start campaigning at any time, even before nominations open. When you&rsquo;re campaigning, you must: properly authorise your electoral material so it&rsquo;s clear who is accountable for it. The law about authorisations has recently changed so make sure you are familiar with the new rules. follow all non-electoral laws, such as defamation laws not distribute material that&rsquo;s likely to mislead voters into casting their vote incorrectly follow all political donation disclosure rules as soon as you publicly declare your intention to become a candidate. You must do this even if you don&rsquo;t end up nominating. If you see something you think is in breach of the Electoral Act 2002 , please submit a complaint . We&rsquo;ll investigate and, where appropriate, we&rsquo;ll let you know the outcome. More information Authorising electoral material Become a state election candidate Campaigning Stay in touch with us Follow us on Facebook , X , Instagram or Threads for the latest information about the 2026 state election. 2026 state election timeline Tuesday 3 November Issue of writs 6 pm Roll closes 8 pm Wednesday 4 November Nominations open Postal vote applications open Monday 9 November Nominations close for all candidates 12 noon Tuesday 10 November How-to-vote card registration opens 9 am Wednesday 11 November Group voting ticket registration closes 12 noon Tuesday 17 November Low sensory voting 10 am to 4 pm Wednesday 18 November Early voting opens Telephone-assisted voting",
+        "after_excerpt": "'ve also made some improvements to what we'll offer Victorian voters for this year's election. Changes to electoral law Some changes were made to the Electoral Act 2002, the law state elections are run under. The full list of changes is on our Electoral Act amendments page . Some key differences are: The electoral roll closes at 8 pm the day the writ of an election is issued, 1 week earlier than other elections. This year the roll will close at 8 pm on Tuesday 3 November , Melbourne Cup Day. There are fewer days for candidates to nominate. If you're an independent candidate, make sure you're prepared before nominations open on Wednesday 4 November. The early voting period is shorter. This year early voting will be available from Wednesday 18 to Friday 27 November. Changes we have made This year we've made some changes that will make it easier for all Victorians to actively participate in their democracy. Low sensory voting &ndash; there'll be a low-sensory mobile voting session in every district on Tuesday 17 November between 10am and 4pm. We'll share more information about this session later this year. Early voting centres &ndash; all early voting centres will also be election day voting centres. This will make it easier to find a voting centre location that works for you. EasyVote guide &ndash; we're mailing a printed version of our EasyVote guide to all households. This pamphlet will have all the key information about when, where, and how to vote correctly. Prepare for November Become a candidate Candidate nominations: open at 9 am Wednesday 4 November close at 12 noon on Monday 9 November for all candidates . There is a shorter nomination period this year. If you&rsquo;re an independent candidate, make sure you&rsquo;re prepared before nominations open. Independent candidates must nominate in person at the election office of the electorate they&rsquo;re nominating in. For district (lower house) independent candidates, this will be the district election office. For region (upper house) independent candidates this will be any district election office within your region. From Wednesday 14 October, Candidate Helper will have: nomination forms election office locations opening hours contact information Registered political parties must lodge the nomination forms for their endorsed candidates directly with us. More information Become a state election candidate Know your electorate Victoria is made up of 88 districts and 8 regions. The 88 districts make up Victoria&rsquo;s lower house of Parliament, the Legislative Assembly. Each district is represented by one Member of Parliament (MP for short). The 8 regions make up Victoria&rsquo;s upper house of Parliament, the Legislative Council. Each region is represented by 5 Members of Parliament. If you&rsquo;ve moved house since the 2022 state election, you might be voting in a new electorate. If you do move house, it&rsquo;s your responsibility to keep your enrolment up to date . Why this is important When candidates nominate for an election, they nominate for either one district or one region. When you go to vote, you&rsquo;ll be given ballot papers for the district and region you&rsquo;re enrolled in. If you want to find out more about the candidates who want your vote, you need to know which electorate you&rsquo;re enrolled in. Knowing your electorate also helps you plan where you go to vote, if you want to vote in person. If you do vote in person, knowing which electorate you&rsquo;re enrolled in can make it faster for you at the voting centre. More information What are electoral boundaries? Interactive electoral boundaries map Electoral Boundaries Commission Parliament of Victoria website Work at the election Elections are a fundamental part of democracy in Victoria. During a state election, we hire up to 25,000 staff for a range of important jobs. We&rsquo;re looking for staff from a wide range of backgrounds. In particular want to hear from you if you: speak multiple languages are of Aboriginal or Torres Strait Islander background live with a disability are 18-29 years old Many jobs involve working in a voting centre on election day. There are also jobs in the months before and after election day. Apply to work at the election Political donations There are strict laws that regulate political donations in Victoria, including: who can make a political donation the maximum value of political donations when you must disclose political donations you make or receive a ban on foreign donations. There have been recent updates to the political donation laws that all political participants should be aware of. Rules for campaigning You can start campaigning at any time, even before nominations open. When you&rsquo;re campaigning, you must: properly authorise your electoral material so it&rsquo;s clear who is accountable for it. The law about authorisations has recently changed so make sure you are familiar with the new rules. follow all non-electoral laws, such as defamation laws not distribute material that&rsquo;s likely to mislead voters into casting their vote incorrectly follow all political donation disclosure rules as soon as you publicly declare your intention to become a candidate. You must do this even if you don&rsquo;t end up nominating. If you see something you think is in breach of the Electoral Act 2002 , please submit a complaint . We&rsquo;ll investigate and, where appropriate, we&rsquo;ll let you know the outcome. More information Authorising electoral material Become a state election candidate Campaigning Stay in touch with us Follow us on TikTok , Facebook , X , Instagram or Threads for the latest information about the 2026 state election. 2026 state election timeline Tuesday 3 November Issue of writs 6 pm Roll closes 8 pm Wednesday 4 November Nominations open Postal vote applications open Monday 9 November Nominations close for all candidates 12 noon Tuesday 10 November How-to-vote card registration opens 9 am Tuesday 17 November Low sensory voting 10 am to 4 pm Wednesday 18 November Early voting opens Telephone-assisted voting",
+        "delta_hash": "9041033916920ea899269f90b7013b2a0196a7f06039abaf41fbe72b46cefdba"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20260921010631",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-QLD",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-QLD-MINISTERIAL-STATEMENTS-20260921010631",
+      "captured_at": "2026-09-21T01:06:31.315Z",
+      "event_date": "2026-09-21",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-QLD-MINISTERIAL-STATEMENTS",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "review_policy": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-QLD-MINISTERIAL-STATEMENTS-20260918111601",
+        "content_hash": "ced175f6db197535ab823daf8c765bb8e638d44ade0d1b05919d53c49b6f57ae",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-QLD-MINISTERIAL-STATEMENTS-20260921010631",
+        "content_hash": "5ca141b24f1773a62b4a185e42eb2fc8b3994c37f6937b42e903200c6023c959",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "STRUCTURED_RECORD_SET",
+        "records_added": [
+          {
+            "record_id": "49778a1c51a75f6089e0",
+            "title": "The Gabba’s pitch to live on at Brisbane Stadium",
+            "url": "https://statements.qld.gov.au/statements/106085"
+          },
+          {
+            "record_id": "820988219dbcb00173b3",
+            "title": "Local feedback requested for draft Georgina and Diamantina water plan",
+            "url": "https://statements.qld.gov.au/statements/106094"
+          },
+          {
+            "record_id": "87b1ad91064109ee36ee",
+            "title": "Toowoomba Youth Foyer moves ahead",
+            "url": "https://statements.qld.gov.au/statements/106093"
+          },
+          {
+            "record_id": "dd2e72f8ec8d986d067f",
+            "title": "G’day to Toowoomba’s Little Queenslanders",
+            "url": "https://statements.qld.gov.au/statements/106091"
+          }
+        ],
+        "records_removed": [
+          {
+            "record_id": "034b4700c806635c34ee",
+            "title": "New laws passed to crack down on dangerous driving",
+            "url": "https://statements.qld.gov.au/statements/106068"
+          },
+          {
+            "record_id": "1f64e61415362a703335",
+            "title": "Circuit Breaker Sentencing passes Parliament to make Queensland safer as Labor vote against rehabilitation",
+            "url": "https://statements.qld.gov.au/statements/106078"
+          },
+          {
+            "record_id": "be2145208c282ebac688",
+            "title": "Thousands of homes for 2032 and beyond in Bowen Hills",
+            "url": "https://statements.qld.gov.au/statements/106069"
+          },
+          {
+            "record_id": "d976610e6f325a080f21",
+            "title": "Nation-leading domestic and family violence reforms strengthen victim support",
+            "url": "https://statements.qld.gov.au/statements/106074"
+          }
+        ],
+        "added_count": 4,
+        "removed_count": 4,
+        "before_count": 16,
+        "after_count": 16,
+        "delta_hash": "86782dd1ac1ca48b520c40dad7bd99a6e14ecdc7b201d428013da1f323bd68d4"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "SIG-REV-CHG-WATCH-PM-MEDIA-20260921010631",
+      "parent_event_id": "CHG-WATCH-PM-MEDIA-20260921010631",
+      "review_id": "REV-CHG-WATCH-PM-MEDIA-20260921010631",
+      "jurisdiction_id": "AUS-FED",
+      "party_id": null,
+      "actor_id": null,
+      "contest_id": null,
+      "cycle_id": null,
+      "source_snapshot_id": "AUTO-WATCH-PM-MEDIA-20260921010631",
+      "record_id": null,
+      "captured_at": "2026-09-21T01:07:09.149Z",
+      "event_date": "2026-09-21",
+      "checkpoint": "CONTINUOUS_FORWARD_SIGNAL_REVIEW",
+      "event_type": "SIGNAL_CREATED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-PM-MEDIA",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "claim": "Prime Minister of Australia — media added 2 structured publication records to its forward-captured official index: Australia launches bid for United Nations Security Council seat; Press conference - United Nations, New York",
+      "observed_behaviour": "One or more structured publication records appeared in the monitored official source index after the preceding forward snapshot.",
+      "publication_records_added": [
+        {
+          "record_id": "25509b0bdf772ed8d3c3",
+          "title": "Australia launches bid for United Nations Security Council seat",
+          "url": "https://www.pm.gov.au/media/australia-launches-bid-united-nations-security-council-seat"
+        },
+        {
+          "record_id": "b26680d4332286ee6037",
+          "title": "Press conference - United Nations, New York",
+          "url": "https://www.pm.gov.au/media/press-conference-united-nations-new-york"
+        }
+      ],
+      "publication_records_removed": [
+        {
+          "record_id": "82dc3850cd86f896b248",
+          "title": "Press conference - Tarro, NSW",
+          "url": "https://www.pm.gov.au/media/press-conference-tarro-nsw"
+        },
+        {
+          "record_id": "ce6aaa7a87a61b8dc8e3",
+          "title": "Television interview - ABC news breakfast",
+          "url": "https://www.pm.gov.au/media/television-interview-abc-news-breakfast-42"
+        }
+      ],
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "underlying_publication_claims_not_promoted_to_verified_fact": true,
+        "source_change_parent_retained": true,
+        "deterministic_review": true
+      }
+    },
+    {
+      "event_id": "SIG-REV-CHG-WATCH-NSW-MINISTERIAL-RELEASES-20260921010631",
+      "parent_event_id": "CHG-WATCH-NSW-MINISTERIAL-RELEASES-20260921010631",
+      "review_id": "REV-CHG-WATCH-NSW-MINISTERIAL-RELEASES-20260921010631",
+      "jurisdiction_id": "AUS-NSW",
+      "party_id": null,
+      "actor_id": null,
+      "contest_id": null,
+      "cycle_id": null,
+      "source_snapshot_id": "AUTO-WATCH-NSW-MINISTERIAL-RELEASES-20260921010631",
+      "record_id": null,
+      "captured_at": "2026-09-21T01:07:09.149Z",
+      "event_date": "2026-09-21",
+      "checkpoint": "CONTINUOUS_FORWARD_SIGNAL_REVIEW",
+      "event_type": "SIGNAL_CREATED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-NSW-MINISTERIAL-RELEASES",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "claim": "NSW Government — Ministerial releases added 8 structured publication records to its forward-captured official index: Powerhouse Parramatta opening festival program; All ten stations ready to go for Southwest Metro; Memorial to historical forced adoption practices unveiled; $16.5M for more EV chargers as NSW hits 155k EVs on the road; Five projects endorsed by Investment Delivery Authority to strengthen NSW fuel security; +3 more",
+      "observed_behaviour": "One or more structured publication records appeared in the monitored official source index after the preceding forward snapshot.",
+      "publication_records_added": [
+        {
+          "record_id": "1d19aa1f732b75fe91a1",
+          "title": "Powerhouse Parramatta opening festival program",
+          "url": "https://www.nsw.gov.au/departments-and-agencies/dciths/ministerial-media-releases/powerhouse-parramatta-opening-festival-program"
+        },
+        {
+          "record_id": "292876b35f07d9cf1eeb",
+          "title": "All ten stations ready to go for Southwest Metro",
+          "url": "https://www.nsw.gov.au/ministerial-releases/all-ten-stations-ready-to-go-for-southwest-metro"
+        },
+        {
+          "record_id": "318ca761b3a528c915fd",
+          "title": "Memorial to historical forced adoption practices unveiled",
+          "url": "https://www.nsw.gov.au/ministerial-releases/memorial-to-historical-forced-adoption-practices-unveiled"
+        },
+        {
+          "record_id": "a0510a2cc3ca47cda81c",
+          "title": "$16.5M for more EV chargers as NSW hits 155k EVs on the road",
+          "url": "https://www.nsw.gov.au/ministerial-releases/more-investment-ev-chargers"
+        },
+        {
+          "record_id": "abfc2a74688e7cab131c",
+          "title": "Five projects endorsed by Investment Delivery Authority to strengthen NSW fuel security",
+          "url": "https://www.nsw.gov.au/ministerial-releases/five-projects-endorsed-strengthening-fuel-security"
+        },
+        {
+          "record_id": "c1c1371f9d6d7d1a4024",
+          "title": "NSW leads Australia with new solar panel recycling mandate",
+          "url": "https://www.nsw.gov.au/ministerial-releases/nsw-leads-australia-new-solar-panel-recycling-mandate"
+        },
+        {
+          "record_id": "c6e65b1a4266fd59b5f6",
+          "title": "Mammoth investment: Nearly $3 billion worth of road projects on the way for Western Sydney",
+          "url": "https://www.nsw.gov.au/ministerial-releases/mammoth-investment-nearly-3-billion-worth-of-road-projects-on-way-for-western-sydney"
+        },
+        {
+          "record_id": "c7ba860e4f6bd24d2b4d",
+          "title": "Safer and smoother connections along Empire Bay Drive",
+          "url": "https://www.nsw.gov.au/ministerial-releases/safer-and-smoother-connections-along-empire-bay-drive"
+        }
+      ],
+      "publication_records_removed": [
+        {
+          "record_id": "07836aa6f1c0128527c0",
+          "title": "New upgrades for Barangaroo’s coolest swim spot Marrinawi Cove",
+          "url": "https://www.nsw.gov.au/ministerial-releases/new-upgrades-marrinawi-cove"
+        },
+        {
+          "record_id": "2efa89bec45f86da39c2",
+          "title": "Major boost for emergency care at Caves Beach: Construction commences on new Ambulance Station",
+          "url": "https://www.nsw.gov.au/ministerial-releases/major-boost-for-emergency-care-at-caves-beach-construction-commences-on-new-ambulance-station"
+        },
+        {
+          "record_id": "506d90f71045bcf480c0",
+          "title": "$1 million Port Kembla Community Investment fund now open",
+          "url": "https://www.nsw.gov.au/ministerial-releases/1-million-port-kembla-community-investment-fund-now-open"
+        },
+        {
+          "record_id": "65dbb1734c4c90c1d25f",
+          "title": "Minns Labor Government’s medicinal cannabis driving reforms pass NSW Parliament",
+          "url": "https://www.nsw.gov.au/ministerial-releases/minns-labor-governments-medicinal-cannabis-driving-reforms-pass-nsw-parliament"
+        },
+        {
+          "record_id": "8d78b7e0784d7e114cad",
+          "title": "NSW Ambulance stations open doors to communities at local Appreciation Day events across the state",
+          "url": "https://www.nsw.gov.au/ministerial-releases/nsw-ambulance-stations-open-doors-to-communities-at-local-appreciation-day-events-across-state"
+        },
+        {
+          "record_id": "9f7bbb78a23a51b0136a",
+          "title": "A brighter future for NSW parklands",
+          "url": "https://www.nsw.gov.au/ministerial-releases/brighter-future-nsw-parklands"
+        },
+        {
+          "record_id": "ba14c1845b3913bf26bc",
+          "title": "Major energy grid stabilisers ready for summer",
+          "url": "https://www.nsw.gov.au/ministerial-releases/major-energy-grid-stabilisers-ready-for-summer"
+        },
+        {
+          "record_id": "c92d374bf57920bae7e6",
+          "title": "$15 million to rebuild Wingham pool",
+          "url": "https://www.nsw.gov.au/ministerial-releases/15-million-to-rebuild-wingham-pool"
+        }
+      ],
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "underlying_publication_claims_not_promoted_to_verified_fact": true,
+        "source_change_parent_retained": true,
+        "deterministic_review": true
+      }
+    },
+    {
+      "event_id": "SIG-REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20260921010631",
+      "parent_event_id": "CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20260921010631",
+      "review_id": "REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20260921010631",
+      "jurisdiction_id": "AUS-QLD",
+      "party_id": null,
+      "actor_id": null,
+      "contest_id": null,
+      "cycle_id": null,
+      "source_snapshot_id": "AUTO-WATCH-QLD-MINISTERIAL-STATEMENTS-20260921010631",
+      "record_id": null,
+      "captured_at": "2026-09-21T01:07:09.149Z",
+      "event_date": "2026-09-21",
+      "checkpoint": "CONTINUOUS_FORWARD_SIGNAL_REVIEW",
+      "event_type": "SIGNAL_CREATED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-QLD-MINISTERIAL-STATEMENTS",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "claim": "Queensland Government — Ministerial Media Statements added 4 structured publication records to its forward-captured official index: The Gabba’s pitch to live on at Brisbane Stadium; Local feedback requested for draft Georgina and Diamantina water plan; Toowoomba Youth Foyer moves ahead; G’day to Toowoomba’s Little Queenslanders",
+      "observed_behaviour": "One or more structured publication records appeared in the monitored official source index after the preceding forward snapshot.",
+      "publication_records_added": [
+        {
+          "record_id": "49778a1c51a75f6089e0",
+          "title": "The Gabba’s pitch to live on at Brisbane Stadium",
+          "url": "https://statements.qld.gov.au/statements/106085"
+        },
+        {
+          "record_id": "820988219dbcb00173b3",
+          "title": "Local feedback requested for draft Georgina and Diamantina water plan",
+          "url": "https://statements.qld.gov.au/statements/106094"
+        },
+        {
+          "record_id": "87b1ad91064109ee36ee",
+          "title": "Toowoomba Youth Foyer moves ahead",
+          "url": "https://statements.qld.gov.au/statements/106093"
+        },
+        {
+          "record_id": "dd2e72f8ec8d986d067f",
+          "title": "G’day to Toowoomba’s Little Queenslanders",
+          "url": "https://statements.qld.gov.au/statements/106091"
+        }
+      ],
+      "publication_records_removed": [
+        {
+          "record_id": "034b4700c806635c34ee",
+          "title": "New laws passed to crack down on dangerous driving",
+          "url": "https://statements.qld.gov.au/statements/106068"
+        },
+        {
+          "record_id": "1f64e61415362a703335",
+          "title": "Circuit Breaker Sentencing passes Parliament to make Queensland safer as Labor vote against rehabilitation",
+          "url": "https://statements.qld.gov.au/statements/106078"
+        },
+        {
+          "record_id": "be2145208c282ebac688",
+          "title": "Thousands of homes for 2032 and beyond in Bowen Hills",
+          "url": "https://statements.qld.gov.au/statements/106069"
+        },
+        {
+          "record_id": "d976610e6f325a080f21",
+          "title": "Nation-leading domestic and family violence reforms strengthen victim support",
+          "url": "https://statements.qld.gov.au/statements/106074"
+        }
+      ],
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "underlying_publication_claims_not_promoted_to_verified_fact": true,
+        "source_change_parent_retained": true,
+        "deterministic_review": true
+      }
     }
   ]
 }

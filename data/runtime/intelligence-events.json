@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-INTELLIGENCE-EVENTS-001",
   "scope": "Australia — multi-jurisdiction",
-  "captured_at": "2026-09-21T19:28:55.850Z",
+  "captured_at": "2026-09-21T23:19:07.935Z",
   "mode": "FORWARD_ONLY",
   "rules": {
     "observation_distinct_from_inference": true,
@@ -83693,6 +83693,134 @@
       "projection_effect": "NO_EFFECT",
       "information_advantage": "NONE",
       "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-PM-MEDIA-20260921231800",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-FED",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-PM-MEDIA-20260921231800",
+      "captured_at": "2026-09-21T23:18:00.919Z",
+      "event_date": "2026-09-22",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-PM-MEDIA",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "review_policy": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-PM-MEDIA-20260921140944",
+        "content_hash": "2c3ed7ccf77e9a33c15975527505c79ad6efd3f9596983b2a52b20d2673297b3",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-PM-MEDIA-20260921231800",
+        "content_hash": "643557d0bff779323553eb85a3aaa47365e0aab2ee57cac9834d1dae0973140f",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "STRUCTURED_RECORD_SET",
+        "records_added": [
+          {
+            "record_id": "525348f9bbed50f193c3",
+            "title": "Australia-EU meeting 2026",
+            "url": "https://www.pm.gov.au/media/australia-eu-meeting-2026"
+          },
+          {
+            "record_id": "ece9c1b7b760186f2771",
+            "title": "Doorstop - New York",
+            "url": "https://www.pm.gov.au/media/doorstop-new-york-22-september-2026"
+          }
+        ],
+        "records_removed": [
+          {
+            "record_id": "98d2337afae5be99b25e",
+            "title": "Appointment of new Chair for National Australia Day Council Board",
+            "url": "https://www.pm.gov.au/media/appointment-new-chair-national-australia-day-council-board"
+          },
+          {
+            "record_id": "b76395c8374cc5e0854b",
+            "title": "Press conference - Admiralty House",
+            "url": "https://www.pm.gov.au/media/press-conference-admiralty-house"
+          }
+        ],
+        "added_count": 2,
+        "removed_count": 2,
+        "before_count": 27,
+        "after_count": 27,
+        "delta_hash": "2eda8898f5a3fcaedebd720c077a0500f06a0a09d9bdb8787e0291ce8d96cd71"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "SIG-REV-CHG-WATCH-PM-MEDIA-20260921231800",
+      "parent_event_id": "CHG-WATCH-PM-MEDIA-20260921231800",
+      "review_id": "REV-CHG-WATCH-PM-MEDIA-20260921231800",
+      "jurisdiction_id": "AUS-FED",
+      "party_id": null,
+      "actor_id": null,
+      "contest_id": null,
+      "cycle_id": null,
+      "source_snapshot_id": "AUTO-WATCH-PM-MEDIA-20260921231800",
+      "record_id": null,
+      "captured_at": "2026-09-21T23:18:59.234Z",
+      "event_date": "2026-09-22",
+      "checkpoint": "CONTINUOUS_FORWARD_SIGNAL_REVIEW",
+      "event_type": "SIGNAL_CREATED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-PM-MEDIA",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "claim": "Prime Minister of Australia — media added 2 structured publication records to its forward-captured official index: Australia-EU meeting 2026; Doorstop - New York",
+      "observed_behaviour": "One or more structured publication records appeared in the monitored official source index after the preceding forward snapshot.",
+      "publication_records_added": [
+        {
+          "record_id": "525348f9bbed50f193c3",
+          "title": "Australia-EU meeting 2026",
+          "url": "https://www.pm.gov.au/media/australia-eu-meeting-2026"
+        },
+        {
+          "record_id": "ece9c1b7b760186f2771",
+          "title": "Doorstop - New York",
+          "url": "https://www.pm.gov.au/media/doorstop-new-york-22-september-2026"
+        }
+      ],
+      "publication_records_removed": [
+        {
+          "record_id": "98d2337afae5be99b25e",
+          "title": "Appointment of new Chair for National Australia Day Council Board",
+          "url": "https://www.pm.gov.au/media/appointment-new-chair-national-australia-day-council-board"
+        },
+        {
+          "record_id": "b76395c8374cc5e0854b",
+          "title": "Press conference - Admiralty House",
+          "url": "https://www.pm.gov.au/media/press-conference-admiralty-house"
+        }
+      ],
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "underlying_publication_claims_not_promoted_to_verified_fact": true,
+        "source_change_parent_retained": true,
+        "deterministic_review": true
+      }
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-INTELLIGENCE-EVENTS-001",
   "scope": "Australia — multi-jurisdiction",
-  "captured_at": "2026-09-21T01:07:12.845Z",
+  "captured_at": "2026-09-21T06:23:15.905Z",
   "mode": "FORWARD_ONLY",
   "rules": {
     "observation_distinct_from_inference": true,
@@ -82731,6 +82731,756 @@
           "record_id": "d976610e6f325a080f21",
           "title": "Nation-leading domestic and family violence reforms strengthen victim support",
           "url": "https://statements.qld.gov.au/statements/106074"
+        }
+      ],
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "underlying_publication_claims_not_promoted_to_verified_fact": true,
+        "source_change_parent_retained": true,
+        "deterministic_review": true
+      }
+    },
+    {
+      "event_id": "CHG-WATCH-APH-BILLS-20260921062215",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-FED",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-APH-BILLS-20260921062215",
+      "captured_at": "2026-09-21T06:22:15.321Z",
+      "event_date": "2026-09-21",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_PARLIAMENT",
+      "source_id": "SRC-APH-BILLS",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "review_policy": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-APH-BILLS-20260919110012",
+        "content_hash": "ae885d3400d63cda9a55416c47775d3c484721113d7f8b26de6ba5345793a154",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-APH-BILLS-20260921062215",
+        "content_hash": "763b3b3ff02f95104b1e9cbc19475dab3009cc2e8e3f36211ab8e380ab6e0a37",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "STRUCTURED_RECORD_SET",
+        "records_added": [
+          {
+            "record_id": "2a2a745834efd2cdb892",
+            "title": "Regulatory Reform Omnibus Bill 2026",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7481"
+          },
+          {
+            "record_id": "2df4c182076dedc8d5d6",
+            "title": "Wage Justice for Early Childhood Education and Car...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7529"
+          },
+          {
+            "record_id": "7b152d4caa880327da7c",
+            "title": "Health Legislation Amendment (Improving Choice and...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7434"
+          },
+          {
+            "record_id": "fd455d4e5c31a39837e2",
+            "title": "Major Sporting Events (Indicia and Images) Protect...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7499"
+          }
+        ],
+        "records_removed": [
+          {
+            "record_id": "096ce2ee4da01b7fc07c",
+            "title": "Military Rehabilitation and Compensation Amendment...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=s1518"
+          },
+          {
+            "record_id": "5bda2274e29e23b28b95",
+            "title": "Defence Force Discipline Amendment (RCDVS Implemen...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7464"
+          },
+          {
+            "record_id": "ba16f1a261ed547f15f0",
+            "title": "Universities Accord (Opening the Doors of Opportun...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7501"
+          },
+          {
+            "record_id": "f1cb69459e052865620a",
+            "title": "Defence Legislation Amendment (RCDVS Implementatio...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7498"
+          }
+        ],
+        "added_count": 4,
+        "removed_count": 4,
+        "before_count": 96,
+        "after_count": 96,
+        "delta_hash": "fce4ccee2b02a21ec11e8cf0c08658082f1e3a85c37fc41eb2412ace41e072fe"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-LIBERAL-HOME-20260921062215",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-FED",
+      "party_id": "AUS-FED-LIB",
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-LIBERAL-HOME-20260921062215",
+      "captured_at": "2026-09-21T06:22:15.321Z",
+      "event_date": "2026-09-21",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_PARTY",
+      "source_id": "SRC-LIBERAL-FEDERAL-HOME",
+      "capture_mode": "NORMALISED_PAGE_HASH",
+      "review_policy": "REVIEW_UNSTRUCTURED_CHANGE",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-LIBERAL-HOME-20260920122306",
+        "content_hash": "2835bf9ada65a533618adb9649ae6ab8767a44cdadb8eec663490fbdbf47d9dd",
+        "capture_mode": "NORMALISED_PAGE_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-LIBERAL-HOME-20260921062215",
+        "content_hash": "fb932c28c7ffbe0f4f8278ac7d4dc27f3f6c4b7fac6e93e8a94eaf41f242292c",
+        "capture_mode": "NORMALISED_PAGE_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "TEXT_REPRESENTATION",
+        "first_difference_offset": 1420,
+        "before_length": 7205,
+        "after_length": 6865,
+        "before_excerpt": "er of the Opposition in the Senate Meet the Liberal Team The Latest Stay up to date with the Liberal Party of Australia senatorhume We’ll make petrol cheaper when things get tough overseas⛽️ Sep 20 Open post by senatorhume with ID 17886405219476046 angustaylormp Relief at the bowser to protect Australians from oil shocks and price spikes. This is the Fuel Price Shield ⛽️🛡️ Sep 20 Open post by angustaylormp with ID 18088544135208645 liberalaus Labor says they can’t control oil shocks overseas. But we can do more to protect Australians when they happen. That’s why the Liberals and Nationals will introduce Fuel Price Shield. Sep 20 Open post by liberalaus with ID 17882548158622689 liberalaus Every extra dollar you spend on petrol is a dollar less for groceries, rent, the mortgage or power bills. Our plan will ensure immediate relief when there’s oil shocks. Sep 20 Open post by liberalaus with ID 18076660193388743 angustaylormp When global oil prices spike, Australians shouldn’t be left to wear the pain. We have a plan to protect drivers from fuel price shocks. When oil prices average US$100 for more than two weeks, we’ll halve the fuel excise—saving motorists up to 27 cents a litre, or around $15 a tank. This shield will protect Australians and help keep the cost of filling up down. Sep 19 Open post by angustaylormp with ID 17891000760680353 angustaylormp Australians should be shielded from oil price spikes. More tomorrow. Sep 19 Open post by angustaylormp with ID 17966548287159978 angustaylormp Dangerous. Divisive. Dishonest. From economic mismanagement and censorship, to broken promises on power bills, negative gearing and living standards, their record speaks for itself. Australians deserve better than a government that says one thing before an election and does another after it. Sep 19 Open post by angustaylormp with ID 17907356166474039 senatorhume The IMF has told Chalmers what needs to happen: rein in spending and deliver real economic reform. Instead, Labor has chosen higher taxes while government spending is at its highest level in 40 years, outside the pandemic. Sep 19 Open post by senatorhume with ID 18081974291324910 angustaylormp Labor can’t be trusted to censor Australians social media. It could end up like this. Sep 18 Open post by angustaylormp with ID 18418449685159892 angustaylormp Anthony Albanese is always in denial. Dodge, duck, dip and dive. That’s this Prime Minister and he’s taking our country down with him. Australians deserve better! Sep 18 Open post by angustaylormp with ID 18127241953793834 senatorhume Labor’s migration plan isn’t much of a plan at all. Sep 18 Open post by senatorhume with ID 17901743604575634 angustaylormp When your energy bills are climbing, why did Chris Bowen commit $9 billion to a hype he didn’t quite buy? Sep 18 Open post by angustaylormp with ID 18024772970696286 liberalaus Life is easy for Albanese. It`s not for most Australians &#8211; but then again most Aussies can`t give a $6m grant to the golf club near their investment property. Sep 18 Open post by liberalaus with ID 18190154491392111 liberalaus Government spending is at a 40-year high outside the pandemic, fuelling inflation. The Liberals and Nationals will put a speed limit on spending – preventing government from spending faster than the economy is growing. Sep 17 Open post by liberalaus with ID 17911417815466997 angustaylormp This morning, my Coalition colleagues and I spoke with Reza Pahlavi, a leading voice of the Iranian opposition. The Islamic Republic is an enemy of its own people, an exporter of terrorism and a threat to Australia and the wider world. It tortures and executes its own citizens, funds terrorism and continues to pursue nuclear weapons. But Iran’s future does not have to be its past. Mr Pahlavi spoke of a free and democratic Iran, a future that can be secured by the Iranian people themselves, through a broad and united movement for change. The Iranian people deserve freedom. We are proud to stand with them. Sep 17 Open post by angustaylormp with ID 18100363916528275 angustaylormp 1,100 people a day. That’s one new arrival in Australia every 78 seconds. That’s the scale of mass migration Australians are dealing with under Labor. And today, instead of cutting immigration, Labor announced more tinkering around the edges. Australians are struggling to find a home, pay the rent and keep up with the cost of living. Labor’s answer is to keep the numbers high and hope no one notices. Australians deserve lower numbers and higher standards. So why didn’t Labor cut immigration today? Sep 17 Open post by angustaylormp with ID 17915852133445745 senatorhume Labor’s “level playing field” doesn’t look much like one. Fewer homes being built, while more than 51,000 people who aren’t Australian citizens have accessed their 5% deposit scheme. We’ll axe Labor’s housing taxes, boost supply and limit the 5% deposit scheme for Australian citizens. Sep 17 Open post by senatorhume with ID 18127553152743999 angustaylormp Our veterans should never have had to fight for this. We will always put Australians first. Sep 17 Open post by angustaylormp with ID 18096255401267108 We need your support to win! Help us by making a donation today. 🙏🏼 $30 👏🏼 $60 😃 $120 😁 $500 😲 $1,000 🥹 $2,000 ",
+        "after_excerpt": "er of the Opposition in the Senate Meet the Liberal Team The Latest Stay up to date with the Liberal Party of Australia liberalaus Mr Albanese has shown that he`s incompetent and a liar and has now been called a fraud while representing Australia overseas. Our country needs change. Only the Liberals and Nationals have the strong leadership, united team, and a realistic plan to restore Australians’ standard of living and protect our way of life. Sep 21 Open post by liberalaus with ID 17934987888381561 angustaylormp When oil spikes, our fuel price shield kicks in saving you 27 cents a litre or $15 for a typical tank.⛽️ Sep 21 Open post by angustaylormp with ID 18190427152394591 liberalaus Under the Liberals and Nationals Fuel Price Shield plan, families will pay less tax at the pump when global oil prices surge. Sep 21 Open post by liberalaus with ID 18093429986390750 senatorhume We’ll make petrol cheaper when things get tough overseas⛽️ Sep 20 Open post by senatorhume with ID 17886405219476046 angustaylormp Relief at the bowser to protect Australians from oil shocks and price spikes. This is the Fuel Price Shield ⛽️🛡️ Sep 20 Open post by angustaylormp with ID 18088544135208645 liberalaus Labor says they can’t control oil shocks overseas. But we can do more to protect Australians when they happen. That’s why the Liberals and Nationals will introduce Fuel Price Shield. Sep 20 Open post by liberalaus with ID 17882548158622689 liberalaus Every extra dollar you spend on petrol is a dollar less for groceries, rent, the mortgage or power bills. Our plan will ensure immediate relief when there’s oil shocks. Sep 20 Open post by liberalaus with ID 18076660193388743 angustaylormp When global oil prices spike, Australians shouldn’t be left to wear the pain. We have a plan to protect drivers from fuel price shocks. When oil prices average US$100 for more than two weeks, we’ll halve the fuel excise—saving motorists up to 27 cents a litre, or around $15 a tank. This shield will protect Australians and help keep the cost of filling up down. Sep 19 Open post by angustaylormp with ID 17891000760680353 angustaylormp Australians should be shielded from oil price spikes. More tomorrow. Sep 19 Open post by angustaylormp with ID 17966548287159978 angustaylormp Dangerous. Divisive. Dishonest. From economic mismanagement and censorship, to broken promises on power bills, negative gearing and living standards, their record speaks for itself. Australians deserve better than a government that says one thing before an election and does another after it. Sep 19 Open post by angustaylormp with ID 17907356166474039 senatorhume The IMF has told Chalmers what needs to happen: rein in spending and deliver real economic reform. Instead, Labor has chosen higher taxes while government spending is at its highest level in 40 years, outside the pandemic. Sep 19 Open post by senatorhume with ID 18081974291324910 angustaylormp Labor can’t be trusted to censor Australians social media. It could end up like this. Sep 18 Open post by angustaylormp with ID 18418449685159892 angustaylormp Anthony Albanese is always in denial. Dodge, duck, dip and dive. That’s this Prime Minister and he’s taking our country down with him. Australians deserve better! Sep 18 Open post by angustaylormp with ID 18127241953793834 senatorhume Labor’s migration plan isn’t much of a plan at all. Sep 18 Open post by senatorhume with ID 17901743604575634 angustaylormp When your energy bills are climbing, why did Chris Bowen commit $9 billion to a hype he didn’t quite buy? Sep 18 Open post by angustaylormp with ID 18024772970696286 liberalaus Life is easy for Albanese. It`s not for most Australians &#8211; but then again most Aussies can`t give a $6m grant to the golf club near their investment property. Sep 18 Open post by liberalaus with ID 18190154491392111 liberalaus Government spending is at a 40-year high outside the pandemic, fuelling inflation. The Liberals and Nationals will put a speed limit on spending – preventing government from spending faster than the economy is growing. Sep 17 Open post by liberalaus with ID 17911417815466997 angustaylormp This morning, my Coalition colleagues and I spoke with Reza Pahlavi, a leading voice of the Iranian opposition. The Islamic Republic is an enemy of its own people, an exporter of terrorism and a threat to Australia and the wider world. It tortures and executes its own citizens, funds terrorism and continues to pursue nuclear weapons. But Iran’s future does not have to be its past. Mr Pahlavi spoke of a free and democratic Iran, a future that can be secured by the Iranian people themselves, through a broad and united movement for change. The Iranian people deserve freedom. We are proud to stand with them. Sep 17 Open post by angustaylormp with ID 18100363916528275 We need your support to win! Help us by making a donation today. 🙏🏼 $30 👏🏼 $60 😃 $120 😁 $500 😲 $1,000 🥹 $2,000 ",
+        "delta_hash": "0f35b5b690505cc63abc00e355cbe5174c4eed94d26562b066f932672e2f5fa2"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-GREENS-FEDERAL-MEDIA-20260921062215",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-FED",
+      "party_id": "AUS-FED-GRN",
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-GREENS-FEDERAL-MEDIA-20260921062215",
+      "captured_at": "2026-09-21T06:22:15.321Z",
+      "event_date": "2026-09-21",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_PARTY",
+      "source_id": "SRC-GREENS-FEDERAL-RELEASE-INDEX",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "review_policy": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-GREENS-FEDERAL-MEDIA-20260918055547",
+        "content_hash": "843a7e7d210796a5024a9125dddc5596232cdca19ceda48c21ce826729acced1",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-GREENS-FEDERAL-MEDIA-20260921062215",
+        "content_hash": "216060cfe04a58e845c9f59d7be41d2d3ef11ee1ceef8e4fd26f5b0b6e08e0bd",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "STRUCTURED_RECORD_SET",
+        "records_added": [
+          {
+            "record_id": "59605bbec68b17e15105",
+            "title": "Read more about Triple Zero Inquiry recommends nationalising of Triple 0, mandated domestic roaming and a review into ACMA&#039;s role in regulating Triple Zero",
+            "url": "https://greens.org.au/sa/news/media-release/triple-zero-inquiry-recommends-nationalising-triple-0-mandated-domestic"
+          },
+          {
+            "record_id": "bb319d791a63a8bcf715",
+            "title": "Triple Zero Inquiry recommends nationalising of Triple 0, mandated domestic roaming and a review into ACMA&#039;s role in regulating Triple Zero",
+            "url": "https://greens.org.au/sa/news/media-release/triple-zero-inquiry-recommends-nationalising-triple-0-mandated-domestic"
+          }
+        ],
+        "records_removed": [
+          {
+            "record_id": "38ca2a4898a31d904b8e",
+            "title": "Read more about KPMG raking in $437m in govt contracts, $303m in defence",
+            "url": "https://greens.org.au/news/media-release/kpmg-raking-437m-govt-contracts-303m-defence"
+          },
+          {
+            "record_id": "98576fe5476552536dba",
+            "title": "KPMG raking in $437m in govt contracts, $303m in defence",
+            "url": "https://greens.org.au/news/media-release/kpmg-raking-437m-govt-contracts-303m-defence"
+          }
+        ],
+        "added_count": 2,
+        "removed_count": 2,
+        "before_count": 75,
+        "after_count": 75,
+        "delta_hash": "abff809690d45e058e86a12c1e03c7b330d518f6b4b6065c42236595c353be5c"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-ONENATION-NEWS-20260921062215",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-FED",
+      "party_id": "AUS-FED-ONP",
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-ONENATION-NEWS-20260921062215",
+      "captured_at": "2026-09-21T06:22:15.321Z",
+      "event_date": "2026-09-21",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_PARTY",
+      "source_id": "SRC-ONENATION-FEDERAL-NEWS",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "review_policy": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-ONENATION-NEWS-20260917074045",
+        "content_hash": "8cb998e9be240780c95e4f9ae9dd42abd65840540edff14b5af0b2ebaa503ac7",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-ONENATION-NEWS-20260921062215",
+        "content_hash": "e091408375a7f928e294566cc6524756d240c5db1a9f6ea86c8f09d636e07e04",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "STRUCTURED_RECORD_SET",
+        "records_added": [
+          {
+            "record_id": "84fa3b9c5180736723bd",
+            "title": "One Nation Calls for Full Audit of Indigenous Spending",
+            "url": "http://www.onenation.org.au/indigenous-spending-audit",
+            "published": "Mon, 21 Sep 2026 15:07:08 +1000"
+          }
+        ],
+        "records_removed": [
+          {
+            "record_id": "f67090f05e9c900f9df1",
+            "title": "Follow One Nation NSW Leader Mike Newman on Facebook",
+            "url": "http://www.onenation.org.au/mike-newman-facebook",
+            "published": "Tue, 08 Sep 2026 10:14:52 +1000"
+          }
+        ],
+        "added_count": 1,
+        "removed_count": 1,
+        "before_count": 20,
+        "after_count": 20,
+        "delta_hash": "2b94c2fcb4a8e54df61d6d092d87707fd96943389e4bb8ed465c3e3d25365ab1"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-NSW-MINISTERIAL-RELEASES-20260921062215",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-NSW",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-NSW-MINISTERIAL-RELEASES-20260921062215",
+      "captured_at": "2026-09-21T06:22:15.321Z",
+      "event_date": "2026-09-21",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-NSW-MINISTERIAL-RELEASES",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "review_policy": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-NSW-MINISTERIAL-RELEASES-20260921010631",
+        "content_hash": "23bcdb51477399fb3491d62e50c9ae02cdf5f0957a06ada243836a56e34d4bbd",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-NSW-MINISTERIAL-RELEASES-20260921062215",
+        "content_hash": "c97fc43fe1bfbc02d8eeb3c6f07f073f380e3a2c54d40424db4a1db624e017c7",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "STRUCTURED_RECORD_SET",
+        "records_added": [
+          {
+            "record_id": "52bdcc897dfa22d867e7",
+            "title": "Refresh your driver knowledge this Road Rules Awareness Week",
+            "url": "https://www.nsw.gov.au/ministerial-releases/refresh-your-driver-knowledge"
+          },
+          {
+            "record_id": "57483e6e13a6db242870",
+            "title": "Windsor High School enrolments hit 15-year high as Minns Labor Government rolls out major upgrades",
+            "url": "https://www.nsw.gov.au/ministerial-releases/windsor-high-school-enrolments-hit-15-year-high-as-minns-labor-government-rolls-out-major-upgrades"
+          },
+          {
+            "record_id": "6a02a426c2eee4be785b",
+            "title": "New intake of paramedics and control staff for NSW Ambulance",
+            "url": "https://www.nsw.gov.au/ministerial-releases/new-intake-of-paramedics-and-control-staff"
+          },
+          {
+            "record_id": "72b161e888c6de9ebf39",
+            "title": "Grafton Base Hospital Redevelopment main works underway",
+            "url": "https://www.nsw.gov.au/ministerial-releases/grafton-base-hospital-redevelopment-main-works-underway"
+          },
+          {
+            "record_id": "b79a9c381f710e4eee71",
+            "title": "Western Sydney camp set for a $49 million outdoor learning transformation",
+            "url": "https://www.nsw.gov.au/ministerial-releases/western-sydney-camp-set-for-a-49-million-outdoor-learning-transformation"
+          }
+        ],
+        "records_removed": [
+          {
+            "record_id": "14eaecd7bf886584d629",
+            "title": "Centre to support Bega community during emergencies opens",
+            "url": "https://www.nsw.gov.au/ministerial-releases/centre-to-support-bega-community-during-emergencies-opens"
+          },
+          {
+            "record_id": "1d19aa1f732b75fe91a1",
+            "title": "Powerhouse Parramatta opening festival program",
+            "url": "https://www.nsw.gov.au/departments-and-agencies/dciths/ministerial-media-releases/powerhouse-parramatta-opening-festival-program"
+          },
+          {
+            "record_id": "7bf9a480f9356bfdb3d8",
+            "title": "$7 million boost for the Illawarra South Coast’s active communities",
+            "url": "https://www.nsw.gov.au/ministerial-releases/boost-illawara-south-coast-active-communities"
+          },
+          {
+            "record_id": "a0510a2cc3ca47cda81c",
+            "title": "$16.5M for more EV chargers as NSW hits 155k EVs on the road",
+            "url": "https://www.nsw.gov.au/ministerial-releases/more-investment-ev-chargers"
+          },
+          {
+            "record_id": "abfc2a74688e7cab131c",
+            "title": "Five projects endorsed by Investment Delivery Authority to strengthen NSW fuel security",
+            "url": "https://www.nsw.gov.au/ministerial-releases/five-projects-endorsed-strengthening-fuel-security"
+          }
+        ],
+        "added_count": 5,
+        "removed_count": 5,
+        "before_count": 88,
+        "after_count": 88,
+        "delta_hash": "7ab9fb123bfd7f68400a64ecf65f409811ce9b5a8672b37c58a181b59a648824"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20260921062215",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-QLD",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-QLD-MINISTERIAL-STATEMENTS-20260921062215",
+      "captured_at": "2026-09-21T06:22:15.321Z",
+      "event_date": "2026-09-21",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-QLD-MINISTERIAL-STATEMENTS",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "review_policy": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-QLD-MINISTERIAL-STATEMENTS-20260921010631",
+        "content_hash": "5ca141b24f1773a62b4a185e42eb2fc8b3994c37f6937b42e903200c6023c959",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-QLD-MINISTERIAL-STATEMENTS-20260921062215",
+        "content_hash": "509a5a12dc8f745d7fcb6d47b7b9eba748bc5b930ddecf79b755d41d43194add",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "STRUCTURED_RECORD_SET",
+        "records_added": [
+          {
+            "record_id": "c34aac4317cbc02436b6",
+            "title": "Enhanced biosecurity investment in local outbreak response",
+            "url": "https://statements.qld.gov.au/statements/106095"
+          }
+        ],
+        "records_removed": [
+          {
+            "record_id": "44991d8c804a33964a43",
+            "title": "Back to School Boost delivers relief for Queensland families as Term 3 concludes",
+            "url": "https://statements.qld.gov.au/statements/106075"
+          }
+        ],
+        "added_count": 1,
+        "removed_count": 1,
+        "before_count": 16,
+        "after_count": 16,
+        "delta_hash": "b5768f0a88db92a4e35b8d0d4839e976483e60803d78b7c89f2888ac68daf1cb"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "SIG-REV-CHG-WATCH-APH-BILLS-20260921062215",
+      "parent_event_id": "CHG-WATCH-APH-BILLS-20260921062215",
+      "review_id": "REV-CHG-WATCH-APH-BILLS-20260921062215",
+      "jurisdiction_id": "AUS-FED",
+      "party_id": null,
+      "actor_id": null,
+      "contest_id": null,
+      "cycle_id": null,
+      "source_snapshot_id": "AUTO-WATCH-APH-BILLS-20260921062215",
+      "record_id": null,
+      "captured_at": "2026-09-21T06:23:06.539Z",
+      "event_date": "2026-09-21",
+      "checkpoint": "CONTINUOUS_FORWARD_SIGNAL_REVIEW",
+      "event_type": "SIGNAL_CREATED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_PARLIAMENT",
+      "source_id": "SRC-APH-BILLS",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "claim": "Parliament of Australia — Bills and Legislation added 4 structured publication records to its forward-captured official index: Regulatory Reform Omnibus Bill 2026; Wage Justice for Early Childhood Education and Car...; Health Legislation Amendment (Improving Choice and...; Major Sporting Events (Indicia and Images) Protect...",
+      "observed_behaviour": "One or more structured publication records appeared in the monitored official source index after the preceding forward snapshot.",
+      "publication_records_added": [
+        {
+          "record_id": "2a2a745834efd2cdb892",
+          "title": "Regulatory Reform Omnibus Bill 2026",
+          "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7481"
+        },
+        {
+          "record_id": "2df4c182076dedc8d5d6",
+          "title": "Wage Justice for Early Childhood Education and Car...",
+          "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7529"
+        },
+        {
+          "record_id": "7b152d4caa880327da7c",
+          "title": "Health Legislation Amendment (Improving Choice and...",
+          "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7434"
+        },
+        {
+          "record_id": "fd455d4e5c31a39837e2",
+          "title": "Major Sporting Events (Indicia and Images) Protect...",
+          "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7499"
+        }
+      ],
+      "publication_records_removed": [
+        {
+          "record_id": "096ce2ee4da01b7fc07c",
+          "title": "Military Rehabilitation and Compensation Amendment...",
+          "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=s1518"
+        },
+        {
+          "record_id": "5bda2274e29e23b28b95",
+          "title": "Defence Force Discipline Amendment (RCDVS Implemen...",
+          "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7464"
+        },
+        {
+          "record_id": "ba16f1a261ed547f15f0",
+          "title": "Universities Accord (Opening the Doors of Opportun...",
+          "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7501"
+        },
+        {
+          "record_id": "f1cb69459e052865620a",
+          "title": "Defence Legislation Amendment (RCDVS Implementatio...",
+          "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7498"
+        }
+      ],
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "underlying_publication_claims_not_promoted_to_verified_fact": true,
+        "source_change_parent_retained": true,
+        "deterministic_review": true
+      }
+    },
+    {
+      "event_id": "SIG-REV-CHG-WATCH-GREENS-FEDERAL-MEDIA-20260921062215",
+      "parent_event_id": "CHG-WATCH-GREENS-FEDERAL-MEDIA-20260921062215",
+      "review_id": "REV-CHG-WATCH-GREENS-FEDERAL-MEDIA-20260921062215",
+      "jurisdiction_id": "AUS-FED",
+      "party_id": "AUS-FED-GRN",
+      "actor_id": null,
+      "contest_id": null,
+      "cycle_id": null,
+      "source_snapshot_id": "AUTO-WATCH-GREENS-FEDERAL-MEDIA-20260921062215",
+      "record_id": null,
+      "captured_at": "2026-09-21T06:23:06.539Z",
+      "event_date": "2026-09-21",
+      "checkpoint": "CONTINUOUS_FORWARD_SIGNAL_REVIEW",
+      "event_type": "SIGNAL_CREATED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_PARTY",
+      "source_id": "SRC-GREENS-FEDERAL-RELEASE-INDEX",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "claim": "Australian Greens — Federal MPs media releases added 2 structured publication records to its forward-captured official index: Read more about Triple Zero Inquiry recommends nationalising of Triple 0, mandated domestic roaming and a review into ACMA&#039;s role in regulating Triple Zero; Triple Zero Inquiry recommends nationalising of Triple 0, mandated domestic roaming and a review into ACMA&#039;s role in regulating Triple Zero",
+      "observed_behaviour": "One or more structured publication records appeared in the monitored official source index after the preceding forward snapshot.",
+      "publication_records_added": [
+        {
+          "record_id": "59605bbec68b17e15105",
+          "title": "Read more about Triple Zero Inquiry recommends nationalising of Triple 0, mandated domestic roaming and a review into ACMA&#039;s role in regulating Triple Zero",
+          "url": "https://greens.org.au/sa/news/media-release/triple-zero-inquiry-recommends-nationalising-triple-0-mandated-domestic"
+        },
+        {
+          "record_id": "bb319d791a63a8bcf715",
+          "title": "Triple Zero Inquiry recommends nationalising of Triple 0, mandated domestic roaming and a review into ACMA&#039;s role in regulating Triple Zero",
+          "url": "https://greens.org.au/sa/news/media-release/triple-zero-inquiry-recommends-nationalising-triple-0-mandated-domestic"
+        }
+      ],
+      "publication_records_removed": [
+        {
+          "record_id": "38ca2a4898a31d904b8e",
+          "title": "Read more about KPMG raking in $437m in govt contracts, $303m in defence",
+          "url": "https://greens.org.au/news/media-release/kpmg-raking-437m-govt-contracts-303m-defence"
+        },
+        {
+          "record_id": "98576fe5476552536dba",
+          "title": "KPMG raking in $437m in govt contracts, $303m in defence",
+          "url": "https://greens.org.au/news/media-release/kpmg-raking-437m-govt-contracts-303m-defence"
+        }
+      ],
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "underlying_publication_claims_not_promoted_to_verified_fact": true,
+        "source_change_parent_retained": true,
+        "deterministic_review": true
+      }
+    },
+    {
+      "event_id": "SIG-REV-CHG-WATCH-ONENATION-NEWS-20260921062215",
+      "parent_event_id": "CHG-WATCH-ONENATION-NEWS-20260921062215",
+      "review_id": "REV-CHG-WATCH-ONENATION-NEWS-20260921062215",
+      "jurisdiction_id": "AUS-FED",
+      "party_id": "AUS-FED-ONP",
+      "actor_id": null,
+      "contest_id": null,
+      "cycle_id": null,
+      "source_snapshot_id": "AUTO-WATCH-ONENATION-NEWS-20260921062215",
+      "record_id": "84fa3b9c5180736723bd",
+      "captured_at": "2026-09-21T06:23:06.539Z",
+      "event_date": "2026-09-21",
+      "checkpoint": "CONTINUOUS_FORWARD_SIGNAL_REVIEW",
+      "event_type": "SIGNAL_CREATED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_PARTY",
+      "source_id": "SRC-ONENATION-FEDERAL-NEWS",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "claim": "Pauline Hanson's One Nation — Latest News added 1 structured publication record to its forward-captured official index: One Nation Calls for Full Audit of Indigenous Spending",
+      "observed_behaviour": "One or more structured publication records appeared in the monitored official source index after the preceding forward snapshot.",
+      "publication_records_added": [
+        {
+          "record_id": "84fa3b9c5180736723bd",
+          "title": "One Nation Calls for Full Audit of Indigenous Spending",
+          "url": "http://www.onenation.org.au/indigenous-spending-audit",
+          "published": "Mon, 21 Sep 2026 15:07:08 +1000"
+        }
+      ],
+      "publication_records_removed": [
+        {
+          "record_id": "f67090f05e9c900f9df1",
+          "title": "Follow One Nation NSW Leader Mike Newman on Facebook",
+          "url": "http://www.onenation.org.au/mike-newman-facebook",
+          "published": "Tue, 08 Sep 2026 10:14:52 +1000"
+        }
+      ],
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "underlying_publication_claims_not_promoted_to_verified_fact": true,
+        "source_change_parent_retained": true,
+        "deterministic_review": true
+      }
+    },
+    {
+      "event_id": "SIG-REV-CHG-WATCH-NSW-MINISTERIAL-RELEASES-20260921062215",
+      "parent_event_id": "CHG-WATCH-NSW-MINISTERIAL-RELEASES-20260921062215",
+      "review_id": "REV-CHG-WATCH-NSW-MINISTERIAL-RELEASES-20260921062215",
+      "jurisdiction_id": "AUS-NSW",
+      "party_id": null,
+      "actor_id": null,
+      "contest_id": null,
+      "cycle_id": null,
+      "source_snapshot_id": "AUTO-WATCH-NSW-MINISTERIAL-RELEASES-20260921062215",
+      "record_id": null,
+      "captured_at": "2026-09-21T06:23:06.539Z",
+      "event_date": "2026-09-21",
+      "checkpoint": "CONTINUOUS_FORWARD_SIGNAL_REVIEW",
+      "event_type": "SIGNAL_CREATED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-NSW-MINISTERIAL-RELEASES",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "claim": "NSW Government — Ministerial releases added 5 structured publication records to its forward-captured official index: Refresh your driver knowledge this Road Rules Awareness Week; Windsor High School enrolments hit 15-year high as Minns Labor Government rolls out major upgrades; New intake of paramedics and control staff for NSW Ambulance; Grafton Base Hospital Redevelopment main works underway; Western Sydney camp set for a $49 million outdoor learning transformation",
+      "observed_behaviour": "One or more structured publication records appeared in the monitored official source index after the preceding forward snapshot.",
+      "publication_records_added": [
+        {
+          "record_id": "52bdcc897dfa22d867e7",
+          "title": "Refresh your driver knowledge this Road Rules Awareness Week",
+          "url": "https://www.nsw.gov.au/ministerial-releases/refresh-your-driver-knowledge"
+        },
+        {
+          "record_id": "57483e6e13a6db242870",
+          "title": "Windsor High School enrolments hit 15-year high as Minns Labor Government rolls out major upgrades",
+          "url": "https://www.nsw.gov.au/ministerial-releases/windsor-high-school-enrolments-hit-15-year-high-as-minns-labor-government-rolls-out-major-upgrades"
+        },
+        {
+          "record_id": "6a02a426c2eee4be785b",
+          "title": "New intake of paramedics and control staff for NSW Ambulance",
+          "url": "https://www.nsw.gov.au/ministerial-releases/new-intake-of-paramedics-and-control-staff"
+        },
+        {
+          "record_id": "72b161e888c6de9ebf39",
+          "title": "Grafton Base Hospital Redevelopment main works underway",
+          "url": "https://www.nsw.gov.au/ministerial-releases/grafton-base-hospital-redevelopment-main-works-underway"
+        },
+        {
+          "record_id": "b79a9c381f710e4eee71",
+          "title": "Western Sydney camp set for a $49 million outdoor learning transformation",
+          "url": "https://www.nsw.gov.au/ministerial-releases/western-sydney-camp-set-for-a-49-million-outdoor-learning-transformation"
+        }
+      ],
+      "publication_records_removed": [
+        {
+          "record_id": "14eaecd7bf886584d629",
+          "title": "Centre to support Bega community during emergencies opens",
+          "url": "https://www.nsw.gov.au/ministerial-releases/centre-to-support-bega-community-during-emergencies-opens"
+        },
+        {
+          "record_id": "1d19aa1f732b75fe91a1",
+          "title": "Powerhouse Parramatta opening festival program",
+          "url": "https://www.nsw.gov.au/departments-and-agencies/dciths/ministerial-media-releases/powerhouse-parramatta-opening-festival-program"
+        },
+        {
+          "record_id": "7bf9a480f9356bfdb3d8",
+          "title": "$7 million boost for the Illawarra South Coast’s active communities",
+          "url": "https://www.nsw.gov.au/ministerial-releases/boost-illawara-south-coast-active-communities"
+        },
+        {
+          "record_id": "a0510a2cc3ca47cda81c",
+          "title": "$16.5M for more EV chargers as NSW hits 155k EVs on the road",
+          "url": "https://www.nsw.gov.au/ministerial-releases/more-investment-ev-chargers"
+        },
+        {
+          "record_id": "abfc2a74688e7cab131c",
+          "title": "Five projects endorsed by Investment Delivery Authority to strengthen NSW fuel security",
+          "url": "https://www.nsw.gov.au/ministerial-releases/five-projects-endorsed-strengthening-fuel-security"
+        }
+      ],
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "underlying_publication_claims_not_promoted_to_verified_fact": true,
+        "source_change_parent_retained": true,
+        "deterministic_review": true
+      }
+    },
+    {
+      "event_id": "SIG-REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20260921062215",
+      "parent_event_id": "CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20260921062215",
+      "review_id": "REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20260921062215",
+      "jurisdiction_id": "AUS-QLD",
+      "party_id": null,
+      "actor_id": null,
+      "contest_id": null,
+      "cycle_id": null,
+      "source_snapshot_id": "AUTO-WATCH-QLD-MINISTERIAL-STATEMENTS-20260921062215",
+      "record_id": "c34aac4317cbc02436b6",
+      "captured_at": "2026-09-21T06:23:06.539Z",
+      "event_date": "2026-09-21",
+      "checkpoint": "CONTINUOUS_FORWARD_SIGNAL_REVIEW",
+      "event_type": "SIGNAL_CREATED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-QLD-MINISTERIAL-STATEMENTS",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "claim": "Queensland Government — Ministerial Media Statements added 1 structured publication record to its forward-captured official index: Enhanced biosecurity investment in local outbreak response",
+      "observed_behaviour": "One or more structured publication records appeared in the monitored official source index after the preceding forward snapshot.",
+      "publication_records_added": [
+        {
+          "record_id": "c34aac4317cbc02436b6",
+          "title": "Enhanced biosecurity investment in local outbreak response",
+          "url": "https://statements.qld.gov.au/statements/106095"
+        }
+      ],
+      "publication_records_removed": [
+        {
+          "record_id": "44991d8c804a33964a43",
+          "title": "Back to School Boost delivers relief for Queensland families as Term 3 concludes",
+          "url": "https://statements.qld.gov.au/statements/106075"
         }
       ],
       "inference": null,

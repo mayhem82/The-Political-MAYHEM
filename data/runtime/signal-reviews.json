@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-SIGNAL-REVIEWS-001",
   "created_at": "2026-09-09T05:05:00+10:00",
-  "updated_at": "2026-09-21T01:07:09.149Z",
+  "updated_at": "2026-09-21T06:23:06.539Z",
   "rules": {
     "append_only": true,
     "raw_source_change_is_immutable": true,
@@ -30145,6 +30145,288 @@
           }
         ],
         "delta_hash": "86782dd1ac1ca48b520c40dad7bd99a6e14ecdc7b201d428013da1f323bd68d4"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-APH-BILLS-20260921062215",
+      "source_change_event_id": "CHG-WATCH-APH-BILLS-20260921062215",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-APH-BILLS-20260921062215",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Parliament of Australia — Bills and Legislation added 4 structured publication records to its forward-captured official index: Regulatory Reform Omnibus Bill 2026; Wage Justice for Early Childhood Education and Car...; Health Legislation Amendment (Improving Choice and...; Major Sporting Events (Indicia and Images) Protect...",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-09-21T06:23:06.539Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "2a2a745834efd2cdb892",
+            "title": "Regulatory Reform Omnibus Bill 2026",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7481"
+          },
+          {
+            "record_id": "2df4c182076dedc8d5d6",
+            "title": "Wage Justice for Early Childhood Education and Car...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7529"
+          },
+          {
+            "record_id": "7b152d4caa880327da7c",
+            "title": "Health Legislation Amendment (Improving Choice and...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7434"
+          },
+          {
+            "record_id": "fd455d4e5c31a39837e2",
+            "title": "Major Sporting Events (Indicia and Images) Protect...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7499"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "096ce2ee4da01b7fc07c",
+            "title": "Military Rehabilitation and Compensation Amendment...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=s1518"
+          },
+          {
+            "record_id": "5bda2274e29e23b28b95",
+            "title": "Defence Force Discipline Amendment (RCDVS Implemen...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7464"
+          },
+          {
+            "record_id": "ba16f1a261ed547f15f0",
+            "title": "Universities Accord (Opening the Doors of Opportun...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7501"
+          },
+          {
+            "record_id": "f1cb69459e052865620a",
+            "title": "Defence Legislation Amendment (RCDVS Implementatio...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7498"
+          }
+        ],
+        "delta_hash": "fce4ccee2b02a21ec11e8cf0c08658082f1e3a85c37fc41eb2412ace41e072fe"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-GREENS-FEDERAL-MEDIA-20260921062215",
+      "source_change_event_id": "CHG-WATCH-GREENS-FEDERAL-MEDIA-20260921062215",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-GREENS-FEDERAL-MEDIA-20260921062215",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": "AUS-FED-GRN",
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Australian Greens — Federal MPs media releases added 2 structured publication records to its forward-captured official index: Read more about Triple Zero Inquiry recommends nationalising of Triple 0, mandated domestic roaming and a review into ACMA&#039;s role in regulating Triple Zero; Triple Zero Inquiry recommends nationalising of Triple 0, mandated domestic roaming and a review into ACMA&#039;s role in regulating Triple Zero",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-09-21T06:23:06.539Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "59605bbec68b17e15105",
+            "title": "Read more about Triple Zero Inquiry recommends nationalising of Triple 0, mandated domestic roaming and a review into ACMA&#039;s role in regulating Triple Zero",
+            "url": "https://greens.org.au/sa/news/media-release/triple-zero-inquiry-recommends-nationalising-triple-0-mandated-domestic"
+          },
+          {
+            "record_id": "bb319d791a63a8bcf715",
+            "title": "Triple Zero Inquiry recommends nationalising of Triple 0, mandated domestic roaming and a review into ACMA&#039;s role in regulating Triple Zero",
+            "url": "https://greens.org.au/sa/news/media-release/triple-zero-inquiry-recommends-nationalising-triple-0-mandated-domestic"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "38ca2a4898a31d904b8e",
+            "title": "Read more about KPMG raking in $437m in govt contracts, $303m in defence",
+            "url": "https://greens.org.au/news/media-release/kpmg-raking-437m-govt-contracts-303m-defence"
+          },
+          {
+            "record_id": "98576fe5476552536dba",
+            "title": "KPMG raking in $437m in govt contracts, $303m in defence",
+            "url": "https://greens.org.au/news/media-release/kpmg-raking-437m-govt-contracts-303m-defence"
+          }
+        ],
+        "delta_hash": "abff809690d45e058e86a12c1e03c7b330d518f6b4b6065c42236595c353be5c"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-ONENATION-NEWS-20260921062215",
+      "source_change_event_id": "CHG-WATCH-ONENATION-NEWS-20260921062215",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-ONENATION-NEWS-20260921062215",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": "AUS-FED-ONP",
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Pauline Hanson's One Nation — Latest News added 1 structured publication record to its forward-captured official index: One Nation Calls for Full Audit of Indigenous Spending",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-09-21T06:23:06.539Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "84fa3b9c5180736723bd",
+            "title": "One Nation Calls for Full Audit of Indigenous Spending",
+            "url": "http://www.onenation.org.au/indigenous-spending-audit",
+            "published": "Mon, 21 Sep 2026 15:07:08 +1000"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "f67090f05e9c900f9df1",
+            "title": "Follow One Nation NSW Leader Mike Newman on Facebook",
+            "url": "http://www.onenation.org.au/mike-newman-facebook",
+            "published": "Tue, 08 Sep 2026 10:14:52 +1000"
+          }
+        ],
+        "delta_hash": "2b94c2fcb4a8e54df61d6d092d87707fd96943389e4bb8ed465c3e3d25365ab1"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-NSW-MINISTERIAL-RELEASES-20260921062215",
+      "source_change_event_id": "CHG-WATCH-NSW-MINISTERIAL-RELEASES-20260921062215",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-NSW-MINISTERIAL-RELEASES-20260921062215",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "NSW Government — Ministerial releases added 5 structured publication records to its forward-captured official index: Refresh your driver knowledge this Road Rules Awareness Week; Windsor High School enrolments hit 15-year high as Minns Labor Government rolls out major upgrades; New intake of paramedics and control staff for NSW Ambulance; Grafton Base Hospital Redevelopment main works underway; Western Sydney camp set for a $49 million outdoor learning transformation",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-09-21T06:23:06.539Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "52bdcc897dfa22d867e7",
+            "title": "Refresh your driver knowledge this Road Rules Awareness Week",
+            "url": "https://www.nsw.gov.au/ministerial-releases/refresh-your-driver-knowledge"
+          },
+          {
+            "record_id": "57483e6e13a6db242870",
+            "title": "Windsor High School enrolments hit 15-year high as Minns Labor Government rolls out major upgrades",
+            "url": "https://www.nsw.gov.au/ministerial-releases/windsor-high-school-enrolments-hit-15-year-high-as-minns-labor-government-rolls-out-major-upgrades"
+          },
+          {
+            "record_id": "6a02a426c2eee4be785b",
+            "title": "New intake of paramedics and control staff for NSW Ambulance",
+            "url": "https://www.nsw.gov.au/ministerial-releases/new-intake-of-paramedics-and-control-staff"
+          },
+          {
+            "record_id": "72b161e888c6de9ebf39",
+            "title": "Grafton Base Hospital Redevelopment main works underway",
+            "url": "https://www.nsw.gov.au/ministerial-releases/grafton-base-hospital-redevelopment-main-works-underway"
+          },
+          {
+            "record_id": "b79a9c381f710e4eee71",
+            "title": "Western Sydney camp set for a $49 million outdoor learning transformation",
+            "url": "https://www.nsw.gov.au/ministerial-releases/western-sydney-camp-set-for-a-49-million-outdoor-learning-transformation"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "14eaecd7bf886584d629",
+            "title": "Centre to support Bega community during emergencies opens",
+            "url": "https://www.nsw.gov.au/ministerial-releases/centre-to-support-bega-community-during-emergencies-opens"
+          },
+          {
+            "record_id": "1d19aa1f732b75fe91a1",
+            "title": "Powerhouse Parramatta opening festival program",
+            "url": "https://www.nsw.gov.au/departments-and-agencies/dciths/ministerial-media-releases/powerhouse-parramatta-opening-festival-program"
+          },
+          {
+            "record_id": "7bf9a480f9356bfdb3d8",
+            "title": "$7 million boost for the Illawarra South Coast’s active communities",
+            "url": "https://www.nsw.gov.au/ministerial-releases/boost-illawara-south-coast-active-communities"
+          },
+          {
+            "record_id": "a0510a2cc3ca47cda81c",
+            "title": "$16.5M for more EV chargers as NSW hits 155k EVs on the road",
+            "url": "https://www.nsw.gov.au/ministerial-releases/more-investment-ev-chargers"
+          },
+          {
+            "record_id": "abfc2a74688e7cab131c",
+            "title": "Five projects endorsed by Investment Delivery Authority to strengthen NSW fuel security",
+            "url": "https://www.nsw.gov.au/ministerial-releases/five-projects-endorsed-strengthening-fuel-security"
+          }
+        ],
+        "delta_hash": "7ab9fb123bfd7f68400a64ecf65f409811ce9b5a8672b37c58a181b59a648824"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20260921062215",
+      "source_change_event_id": "CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20260921062215",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20260921062215",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Queensland Government — Ministerial Media Statements added 1 structured publication record to its forward-captured official index: Enhanced biosecurity investment in local outbreak response",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-09-21T06:23:06.539Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "c34aac4317cbc02436b6",
+            "title": "Enhanced biosecurity investment in local outbreak response",
+            "url": "https://statements.qld.gov.au/statements/106095"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "44991d8c804a33964a43",
+            "title": "Back to School Boost delivers relief for Queensland families as Term 3 concludes",
+            "url": "https://statements.qld.gov.au/statements/106075"
+          }
+        ],
+        "delta_hash": "b5768f0a88db92a4e35b8d0d4839e976483e60803d78b7c89f2888ac68daf1cb"
       },
       "integrity": {
         "source_change_unchanged": true,

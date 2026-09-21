@@ -7,9 +7,9 @@
       "source_id": "SRC-LIBERAL-FEDERAL-HOME",
       "jurisdiction_id": "AUS-FED",
       "party_id": "AUS-FED-LIB",
-      "content_hash": "fb932c28c7ffbe0f4f8278ac7d4dc27f3f6c4b7fac6e93e8a94eaf41f242292c",
-      "snapshot_id": "AUTO-WATCH-LIBERAL-HOME-20260921062215",
-      "captured_at": "2026-09-21T06:22:15.321Z",
+      "content_hash": "0f7fb5e284a636fb757fb3a34506d20fef238e00b3cc8e1f66921f3a0bce08e7",
+      "snapshot_id": "AUTO-WATCH-LIBERAL-HOME-20260921140944",
+      "captured_at": "2026-09-21T14:09:44.936Z",
       "acquisition_url": "https://www.liberal.org.au/",
       "requested_url": "https://www.liberal.org.au/",
       "header_profile": "IDENTIFIED_AUTOMATION",
@@ -242,9 +242,9 @@
       "source_id": "SRC-PM-MEDIA",
       "jurisdiction_id": "AUS-FED",
       "party_id": null,
-      "content_hash": "2ef4529c44eca07e91c0510da6c2ec3deb64c72cf22fd68efc66a5ae24ad32df",
-      "snapshot_id": "AUTO-WATCH-PM-MEDIA-20260921010631",
-      "captured_at": "2026-09-21T01:06:31.315Z",
+      "content_hash": "2c3ed7ccf77e9a33c15975527505c79ad6efd3f9596983b2a52b20d2673297b3",
+      "snapshot_id": "AUTO-WATCH-PM-MEDIA-20260921140944",
+      "captured_at": "2026-09-21T14:09:44.936Z",
       "acquisition_url": "https://www.pm.gov.au/media",
       "requested_url": "https://www.pm.gov.au/media",
       "header_profile": "IDENTIFIED_AUTOMATION",
@@ -505,11 +505,11 @@
       "captured_representation_complete": true
     }
   },
-  "updated_at": "2026-09-21T06:22:15.321Z",
+  "updated_at": "2026-09-21T14:09:44.936Z",
   "last_run": {
-    "captured_at": "2026-09-21T06:22:15.321Z",
+    "captured_at": "2026-09-21T14:09:44.936Z",
     "baselines_created": 0,
-    "source_changes_created": 6,
+    "source_changes_created": 2,
     "semantic_signals_created": 0,
     "representation_upgrades": 0,
     "failures": [
@@ -524,10 +524,6 @@
       {
         "watch_id": "WATCH-ECQ-MEDIA",
         "error": "https://www.ecq.qld.gov.au/media/2026-media-statements [IDENTIFIED_AUTOMATION] 403 Forbidden | https://www.ecq.qld.gov.au/media/2026-media-statements [BROWSER_COMPATIBILITY] 403 Forbidden | https://www.ecq.qld.gov.au/home [IDENTIFIED_AUTOMATION] 403 Forbidden | https://www.ecq.qld.gov.au/home [BROWSER_COMPATIBILITY] 403 Forbidden"
-      },
-      {
-        "watch_id": "WATCH-TAS-HANSARD",
-        "error": "https://search.parliament.tas.gov.au/Search/search/search?IW_FIELD_ADVANCE_PHRASE=2026%20IN%20TITLE&IW_DATABASE=Hansard&IW_SORT=-9&IW_SEARCH_SCOPE=meta [IDENTIFIED_AUTOMATION] empty response | https://search.parliament.tas.gov.au/Search/search/search?IW_FIELD_ADVANCE_PHRASE=2026%20IN%20TITLE&IW_DATABASE=Hansard&IW_SORT=-9&IW_SEARCH_SCOPE=meta [BROWSER_COMPATIBILITY] timeout>15000ms"
       },
       {
         "watch_id": "WATCH-TAS-PREMIER-NEWS",
@@ -563,7 +559,7 @@
   "coverage": {
     "active_sources": 36,
     "baselines_captured": 36,
-    "current_run_failures": 11,
+    "current_run_failures": 10,
     "jurisdictions": {
       "AUS-FED": {
         "configured_sources": 10,
@@ -635,7 +631,7 @@
       "AUS-TAS": {
         "configured_sources": 3,
         "baseline_sources": 3,
-        "current_run_failures": 2,
+        "current_run_failures": 1,
         "source_classes": [
           "PRIMARY_ELECTORAL_AUTHORITY",
           "PRIMARY_GOVERNMENT",

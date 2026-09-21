@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-INTELLIGENCE-EVENTS-001",
   "scope": "Australia — multi-jurisdiction",
-  "captured_at": "2026-09-21T06:23:15.905Z",
+  "captured_at": "2026-09-21T14:10:27.969Z",
   "mode": "FORWARD_ONLY",
   "rules": {
     "observation_distinct_from_inference": true,
@@ -83481,6 +83481,160 @@
           "record_id": "44991d8c804a33964a43",
           "title": "Back to School Boost delivers relief for Queensland families as Term 3 concludes",
           "url": "https://statements.qld.gov.au/statements/106075"
+        }
+      ],
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "underlying_publication_claims_not_promoted_to_verified_fact": true,
+        "source_change_parent_retained": true,
+        "deterministic_review": true
+      }
+    },
+    {
+      "event_id": "CHG-WATCH-PM-MEDIA-20260921140944",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-FED",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-PM-MEDIA-20260921140944",
+      "captured_at": "2026-09-21T14:09:44.936Z",
+      "event_date": "2026-09-22",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-PM-MEDIA",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "review_policy": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-PM-MEDIA-20260921010631",
+        "content_hash": "2ef4529c44eca07e91c0510da6c2ec3deb64c72cf22fd68efc66a5ae24ad32df",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-PM-MEDIA-20260921140944",
+        "content_hash": "2c3ed7ccf77e9a33c15975527505c79ad6efd3f9596983b2a52b20d2673297b3",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "STRUCTURED_RECORD_SET",
+        "records_added": [
+          {
+            "record_id": "fae0728d128b31ae2760",
+            "title": "Climate Week Keynote Address",
+            "url": "https://www.pm.gov.au/media/climate-week-keynote-address"
+          }
+        ],
+        "records_removed": [
+          {
+            "record_id": "b37c56c1d19894956f67",
+            "title": "25th commemoration of September 11",
+            "url": "https://www.pm.gov.au/media/25th-commemoration-september-11"
+          }
+        ],
+        "added_count": 1,
+        "removed_count": 1,
+        "before_count": 27,
+        "after_count": 27,
+        "delta_hash": "65a8321ba40a398aa077a979ba049ffc128bf371b51f11618b03f33928b4eb1a"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-LIBERAL-HOME-20260921140944",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-FED",
+      "party_id": "AUS-FED-LIB",
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-LIBERAL-HOME-20260921140944",
+      "captured_at": "2026-09-21T14:09:44.936Z",
+      "event_date": "2026-09-22",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_PARTY",
+      "source_id": "SRC-LIBERAL-FEDERAL-HOME",
+      "capture_mode": "NORMALISED_PAGE_HASH",
+      "review_policy": "REVIEW_UNSTRUCTURED_CHANGE",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-LIBERAL-HOME-20260921062215",
+        "content_hash": "fb932c28c7ffbe0f4f8278ac7d4dc27f3f6c4b7fac6e93e8a94eaf41f242292c",
+        "capture_mode": "NORMALISED_PAGE_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-LIBERAL-HOME-20260921140944",
+        "content_hash": "0f7fb5e284a636fb757fb3a34506d20fef238e00b3cc8e1f66921f3a0bce08e7",
+        "capture_mode": "NORMALISED_PAGE_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "TEXT_REPRESENTATION",
+        "first_difference_offset": 1431,
+        "before_length": 6865,
+        "after_length": 6395,
+        "before_excerpt": "pposition in the Senate Meet the Liberal Team The Latest Stay up to date with the Liberal Party of Australia liberalaus Mr Albanese has shown that he`s incompetent and a liar and has now been called a fraud while representing Australia overseas. Our country needs change. Only the Liberals and Nationals have the strong leadership, united team, and a realistic plan to restore Australians’ standard of living and protect our way of life. Sep 21 Open post by liberalaus with ID 17934987888381561 angustaylormp When oil spikes, our fuel price shield kicks in saving you 27 cents a litre or $15 for a typical tank.⛽️ Sep 21 Open post by angustaylormp with ID 18190427152394591 liberalaus Under the Liberals and Nationals Fuel Price Shield plan, families will pay less tax at the pump when global oil prices surge. Sep 21 Open post by liberalaus with ID 18093429986390750 senatorhume We’ll make petrol cheaper when things get tough overseas⛽️ Sep 20 Open post by senatorhume with ID 17886405219476046 angustaylormp Relief at the bowser to protect Australians from oil shocks and price spikes. This is the Fuel Price Shield ⛽️🛡️ Sep 20 Open post by angustaylormp with ID 18088544135208645 liberalaus Labor says they can’t control oil shocks overseas. But we can do more to protect Australians when they happen. That’s why the Liberals and Nationals will introduce Fuel Price Shield. Sep 20 Open post by liberalaus with ID 17882548158622689 liberalaus Every extra dollar you spend on petrol is a dollar less for groceries, rent, the mortgage or power bills. Our plan will ensure immediate relief when there’s oil shocks. Sep 20 Open post by liberalaus with ID 18076660193388743 angustaylormp When global oil prices spike, Australians shouldn’t be left to wear the pain. We have a plan to protect drivers from fuel price shocks. When oil prices average US$100 for more than two weeks, we’ll halve the fuel excise—saving motorists up to 27 cents a litre, or around $15 a tank. This shield will protect Australians and help keep the cost of filling up down. Sep 19 Open post by angustaylormp with ID 17891000760680353 angustaylormp Australians should be shielded from oil price spikes. More tomorrow. Sep 19 Open post by angustaylormp with ID 17966548287159978 angustaylormp Dangerous. Divisive. Dishonest. From economic mismanagement and censorship, to broken promises on power bills, negative gearing and living standards, their record speaks for itself. Australians deserve better than a government that says one thing before an election and does another after it. Sep 19 Open post by angustaylormp with ID 17907356166474039 senatorhume The IMF has told Chalmers what needs to happen: rein in spending and deliver real economic reform. Instead, Labor has chosen higher taxes while government spending is at its highest level in 40 years, outside the pandemic. Sep 19 Open post by senatorhume with ID 18081974291324910 angustaylormp Labor can’t be trusted to censor Australians social media. It could end up like this. Sep 18 Open post by angustaylormp with ID 18418449685159892 angustaylormp Anthony Albanese is always in denial. Dodge, duck, dip and dive. That’s this Prime Minister and he’s taking our country down with him. Australians deserve better! Sep 18 Open post by angustaylormp with ID 18127241953793834 senatorhume Labor’s migration plan isn’t much of a plan at all. Sep 18 Open post by senatorhume with ID 17901743604575634 angustaylormp When your energy bills are climbing, why did Chris Bowen commit $9 billion to a hype he didn’t quite buy? Sep 18 Open post by angustaylormp with ID 18024772970696286 liberalaus Life is easy for Albanese. It`s not for most Australians &#8211; but then again most Aussies can`t give a $6m grant to the golf club near their investment property. Sep 18 Open post by liberalaus with ID 18190154491392111 liberalaus Government spending is at a 40-year high outside the pandemic, fuelling inflation. The Liberals and Nationals will put a speed limit on spending – preventing government from spending faster than the economy is growing. Sep 17 Open post by liberalaus with ID 17911417815466997 angustaylormp This morning, my Coalition colleagues and I spoke with Reza Pahlavi, a leading voice of the Iranian opposition. The Islamic Republic is an enemy of its own people, an exporter of terrorism and a threat to Australia and the wider world. It tortures and executes its own citizens, funds terrorism and continues to pursue nuclear weapons. But Iran’s future does not have to be its past. Mr Pahlavi spoke of a free and democratic Iran, a future that can be secured by the Iranian people themselves, through a broad and united movement for change. The Iranian people deserve freedom. We are proud to stand with them. Sep 17 Open post by angustaylormp with ID 18100363916528275 We need your support to win! Help us by making a donation today. 🙏🏼 $30 👏🏼 $60 😃 $120 😁 $500 😲 $1,000 🥹 $2,000 ",
+        "after_excerpt": "pposition in the Senate Meet the Liberal Team The Latest Stay up to date with the Liberal Party of Australia liberalaus Today’s debt is tomorrow’s taxes, and as long as the Treasurer can’t kick his spending addiction, young Australians will be left carrying the bill. Sep 21 Open post by liberalaus with ID 18149347168532718 liberalaus Mr Albanese has shown that he`s incompetent and a liar and has now been called a fraud while representing Australia overseas. Our country needs change. Only the Liberals and Nationals have the strong leadership, united team, and a realistic plan to restore Australians’ standard of living and protect our way of life. Sep 21 Open post by liberalaus with ID 17934987888381561 angustaylormp When oil spikes, our fuel price shield kicks in saving you 27 cents a litre or $15 for a typical tank.⛽️ Sep 21 Open post by angustaylormp with ID 18190427152394591 liberalaus Under the Liberals and Nationals Fuel Price Shield plan, families will pay less tax at the pump when global oil prices surge. Sep 21 Open post by liberalaus with ID 18093429986390750 senatorhume We’ll make petrol cheaper when things get tough overseas⛽️ Sep 20 Open post by senatorhume with ID 17886405219476046 angustaylormp Relief at the bowser to protect Australians from oil shocks and price spikes. This is the Fuel Price Shield ⛽️🛡️ Sep 20 Open post by angustaylormp with ID 18088544135208645 liberalaus Labor says they can’t control oil shocks overseas. But we can do more to protect Australians when they happen. That’s why the Liberals and Nationals will introduce Fuel Price Shield. Sep 20 Open post by liberalaus with ID 17882548158622689 liberalaus Every extra dollar you spend on petrol is a dollar less for groceries, rent, the mortgage or power bills. Our plan will ensure immediate relief when there’s oil shocks. Sep 20 Open post by liberalaus with ID 18076660193388743 angustaylormp When global oil prices spike, Australians shouldn’t be left to wear the pain. We have a plan to protect drivers from fuel price shocks. When oil prices average US$100 for more than two weeks, we’ll halve the fuel excise—saving motorists up to 27 cents a litre, or around $15 a tank. This shield will protect Australians and help keep the cost of filling up down. Sep 19 Open post by angustaylormp with ID 17891000760680353 angustaylormp Australians should be shielded from oil price spikes. More tomorrow. Sep 19 Open post by angustaylormp with ID 17966548287159978 angustaylormp Dangerous. Divisive. Dishonest. From economic mismanagement and censorship, to broken promises on power bills, negative gearing and living standards, their record speaks for itself. Australians deserve better than a government that says one thing before an election and does another after it. Sep 19 Open post by angustaylormp with ID 17907356166474039 senatorhume The IMF has told Chalmers what needs to happen: rein in spending and deliver real economic reform. Instead, Labor has chosen higher taxes while government spending is at its highest level in 40 years, outside the pandemic. Sep 19 Open post by senatorhume with ID 18081974291324910 angustaylormp Labor can’t be trusted to censor Australians social media. It could end up like this. Sep 18 Open post by angustaylormp with ID 18418449685159892 angustaylormp Anthony Albanese is always in denial. Dodge, duck, dip and dive. That’s this Prime Minister and he’s taking our country down with him. Australians deserve better! Sep 18 Open post by angustaylormp with ID 18127241953793834 senatorhume Labor’s migration plan isn’t much of a plan at all. Sep 18 Open post by senatorhume with ID 17901743604575634 angustaylormp When your energy bills are climbing, why did Chris Bowen commit $9 billion to a hype he didn’t quite buy? Sep 18 Open post by angustaylormp with ID 18024772970696286 liberalaus Life is easy for Albanese. It`s not for most Australians &#8211; but then again most Aussies can`t give a $6m grant to the golf club near their investment property. Sep 18 Open post by liberalaus with ID 18190154491392111 liberalaus Government spending is at a 40-year high outside the pandemic, fuelling inflation. The Liberals and Nationals will put a speed limit on spending – preventing government from spending faster than the economy is growing. Sep 17 Open post by liberalaus with ID 17911417815466997 We need your support to win! Help us by making a donation today. 🙏🏼 $30 👏🏼 $60 😃 $120 😁 $500 😲 $1,000 🥹 $2,000 ",
+        "delta_hash": "826d3398e08ecf2788460e50f25815fb23b3e0fa50493d60a50f531b4116b566"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "SIG-REV-CHG-WATCH-PM-MEDIA-20260921140944",
+      "parent_event_id": "CHG-WATCH-PM-MEDIA-20260921140944",
+      "review_id": "REV-CHG-WATCH-PM-MEDIA-20260921140944",
+      "jurisdiction_id": "AUS-FED",
+      "party_id": null,
+      "actor_id": null,
+      "contest_id": null,
+      "cycle_id": null,
+      "source_snapshot_id": "AUTO-WATCH-PM-MEDIA-20260921140944",
+      "record_id": "fae0728d128b31ae2760",
+      "captured_at": "2026-09-21T14:10:14.441Z",
+      "event_date": "2026-09-22",
+      "checkpoint": "CONTINUOUS_FORWARD_SIGNAL_REVIEW",
+      "event_type": "SIGNAL_CREATED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-PM-MEDIA",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "claim": "Prime Minister of Australia — media added 1 structured publication record to its forward-captured official index: Climate Week Keynote Address",
+      "observed_behaviour": "One or more structured publication records appeared in the monitored official source index after the preceding forward snapshot.",
+      "publication_records_added": [
+        {
+          "record_id": "fae0728d128b31ae2760",
+          "title": "Climate Week Keynote Address",
+          "url": "https://www.pm.gov.au/media/climate-week-keynote-address"
+        }
+      ],
+      "publication_records_removed": [
+        {
+          "record_id": "b37c56c1d19894956f67",
+          "title": "25th commemoration of September 11",
+          "url": "https://www.pm.gov.au/media/25th-commemoration-september-11"
         }
       ],
       "inference": null,

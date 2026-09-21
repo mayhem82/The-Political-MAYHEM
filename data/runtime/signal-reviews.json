@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-SIGNAL-REVIEWS-001",
   "created_at": "2026-09-09T05:05:00+10:00",
-  "updated_at": "2026-09-21T06:23:06.539Z",
+  "updated_at": "2026-09-21T14:10:14.441Z",
   "rules": {
     "append_only": true,
     "raw_source_change_is_immutable": true,
@@ -30427,6 +30427,46 @@
           }
         ],
         "delta_hash": "b5768f0a88db92a4e35b8d0d4839e976483e60803d78b7c89f2888ac68daf1cb"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-PM-MEDIA-20260921140944",
+      "source_change_event_id": "CHG-WATCH-PM-MEDIA-20260921140944",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-PM-MEDIA-20260921140944",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Prime Minister of Australia — media added 1 structured publication record to its forward-captured official index: Climate Week Keynote Address",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-09-21T14:10:14.441Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "fae0728d128b31ae2760",
+            "title": "Climate Week Keynote Address",
+            "url": "https://www.pm.gov.au/media/climate-week-keynote-address"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "b37c56c1d19894956f67",
+            "title": "25th commemoration of September 11",
+            "url": "https://www.pm.gov.au/media/25th-commemoration-september-11"
+          }
+        ],
+        "delta_hash": "65a8321ba40a398aa077a979ba049ffc128bf371b51f11618b03f33928b4eb1a"
       },
       "integrity": {
         "source_change_unchanged": true,

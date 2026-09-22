@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-INTELLIGENCE-EVENTS-001",
   "scope": "Australia — multi-jurisdiction",
-  "captured_at": "2026-09-21T23:19:07.935Z",
+  "captured_at": "2026-09-22T04:58:48.909Z",
   "mode": "FORWARD_ONLY",
   "rules": {
     "observation_distinct_from_inference": true,
@@ -83811,6 +83811,1094 @@
           "url": "https://www.pm.gov.au/media/press-conference-admiralty-house"
         }
       ],
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "underlying_publication_claims_not_promoted_to_verified_fact": true,
+        "source_change_parent_retained": true,
+        "deterministic_review": true
+      }
+    },
+    {
+      "event_id": "CHG-WATCH-PM-MEDIA-20260922045752",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-FED",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-PM-MEDIA-20260922045752",
+      "captured_at": "2026-09-22T04:57:52.188Z",
+      "event_date": "2026-09-22",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-PM-MEDIA",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "review_policy": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-PM-MEDIA-20260921231800",
+        "content_hash": "643557d0bff779323553eb85a3aaa47365e0aab2ee57cac9834d1dae0973140f",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-PM-MEDIA-20260922045752",
+        "content_hash": "259296ba8e13a77bc554bb19325ef5ff7778898eff98729325b9813c94e0d3ea",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "STRUCTURED_RECORD_SET",
+        "records_added": [
+          {
+            "record_id": "8436833762032a7d7a4d",
+            "title": "P4M Summit: Partners for Multilateralism, International Law, Peace and Prosperity",
+            "url": "https://www.pm.gov.au/media/p4m-summit-partners-multilateralism-international-law-peace-and-prosperity"
+          }
+        ],
+        "records_removed": [
+          {
+            "record_id": "981d642895345eb112d4",
+            "title": "Little wings flying high",
+            "url": "https://www.pm.gov.au/media/little-wings-flying-high"
+          }
+        ],
+        "added_count": 1,
+        "removed_count": 1,
+        "before_count": 27,
+        "after_count": 27,
+        "delta_hash": "6ca5df215eb28867b577289d413aa0628ad59ac1697fde852347663f8034069a"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-GREENS-FEDERAL-MEDIA-20260922045752",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-FED",
+      "party_id": "AUS-FED-GRN",
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-GREENS-FEDERAL-MEDIA-20260922045752",
+      "captured_at": "2026-09-22T04:57:52.188Z",
+      "event_date": "2026-09-22",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_PARTY",
+      "source_id": "SRC-GREENS-FEDERAL-RELEASE-INDEX",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "review_policy": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-GREENS-FEDERAL-MEDIA-20260921062215",
+        "content_hash": "216060cfe04a58e845c9f59d7be41d2d3ef11ee1ceef8e4fd26f5b0b6e08e0bd",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-GREENS-FEDERAL-MEDIA-20260922045752",
+        "content_hash": "1ac14cb2dfdf745781fc9723e412bca32c35462c101142d650eb9a3c84249d40",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "STRUCTURED_RECORD_SET",
+        "records_added": [
+          {
+            "record_id": "5ea7fa289bed781ddd2f",
+            "title": "Read more about ‘Un-Australian scam artists”: Greens call for action on airline’s Grand Final gouging",
+            "url": "https://greens.org.au/news/media-release/un-australian-scam-artists-greens-call-action-airlines-grand-final-gouging"
+          },
+          {
+            "record_id": "9be86a6d80aa1da835fc",
+            "title": "Media Release: Australia must add substance, local and global action, to PM’s words on AI",
+            "url": "https://greens.org.au/news/media-release/media-release-australia-must-add-substance-local-and-global-action-pms-words-ai"
+          },
+          {
+            "record_id": "a3b7329d2a52777c3fd2",
+            "title": "Read more about Triple Zero Inquiry recommends nationalising of Triple 0, mandated domestic roaming and a review into ACMA&#039;s role in regulating Triple Zero",
+            "url": "https://greens.org.au/news/media-release/triple-zero-inquiry-recommends-nationalising-triple-0-mandated-domestic-roaming"
+          },
+          {
+            "record_id": "afa5ce21c41a6c852df9",
+            "title": "Read more about Media Release: Australia must add substance, local and global action, to PM’s words on AI",
+            "url": "https://greens.org.au/news/media-release/media-release-australia-must-add-substance-local-and-global-action-pms-words-ai"
+          },
+          {
+            "record_id": "e247d2abbf69c18b6ac8",
+            "title": "‘Un-Australian scam artists”: Greens call for action on airline’s Grand Final gouging",
+            "url": "https://greens.org.au/news/media-release/un-australian-scam-artists-greens-call-action-airlines-grand-final-gouging"
+          },
+          {
+            "record_id": "e621b153338e75f494fd",
+            "title": "Triple Zero Inquiry recommends nationalising of Triple 0, mandated domestic roaming and a review into ACMA&#039;s role in regulating Triple Zero",
+            "url": "https://greens.org.au/news/media-release/triple-zero-inquiry-recommends-nationalising-triple-0-mandated-domestic-roaming"
+          }
+        ],
+        "records_removed": [
+          {
+            "record_id": "2d9e66980035bd99dfe3",
+            "title": "Read more about Albanese Government Refuses to Commit to a Moratorium on Data Centres amid call for Global Slow Down on AI",
+            "url": "https://greens.org.au/sa/news/media-release/albanese-government-refuses-commit-moratorium-data-centres-amid-call-global"
+          },
+          {
+            "record_id": "3efc1cea385dcfe1e6fe",
+            "title": "Read more about Greens unite with industry on need for federal packaging reform",
+            "url": "https://greens.org.au/news/media-release/greens-unite-industry-need-federal-packaging-reform"
+          },
+          {
+            "record_id": "d6176f65c13c8c6581e5",
+            "title": "Read more about Sad day for Whyalla workers, 600 jobs cut",
+            "url": "https://greens.org.au/news/media-release/sad-day-whyalla-workers-600-jobs-cut"
+          },
+          {
+            "record_id": "e544b93e437f19787c0d",
+            "title": "Albanese Government Refuses to Commit to a Moratorium on Data Centres amid call for Global Slow Down on AI",
+            "url": "https://greens.org.au/sa/news/media-release/albanese-government-refuses-commit-moratorium-data-centres-amid-call-global"
+          },
+          {
+            "record_id": "e9c6da2e6ba78710c02f",
+            "title": "Sad day for Whyalla workers, 600 jobs cut",
+            "url": "https://greens.org.au/news/media-release/sad-day-whyalla-workers-600-jobs-cut"
+          },
+          {
+            "record_id": "f94b1b7cc34db8cbda5b",
+            "title": "Greens unite with industry on need for federal packaging reform",
+            "url": "https://greens.org.au/news/media-release/greens-unite-industry-need-federal-packaging-reform"
+          }
+        ],
+        "added_count": 6,
+        "removed_count": 6,
+        "before_count": 75,
+        "after_count": 75,
+        "delta_hash": "af4db21765cbb402a76dca0cfa96b59decd154c001c2ec218c73c3f5d81ed591"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-ONENATION-NEWS-20260922045752",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-FED",
+      "party_id": "AUS-FED-ONP",
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-ONENATION-NEWS-20260922045752",
+      "captured_at": "2026-09-22T04:57:52.188Z",
+      "event_date": "2026-09-22",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_PARTY",
+      "source_id": "SRC-ONENATION-FEDERAL-NEWS",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "review_policy": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-ONENATION-NEWS-20260921062215",
+        "content_hash": "e091408375a7f928e294566cc6524756d240c5db1a9f6ea86c8f09d636e07e04",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-ONENATION-NEWS-20260922045752",
+        "content_hash": "7bfb24705afd4faff1e5a635c89db037f56709d00227b1413ef6191fec547e3b",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "STRUCTURED_RECORD_SET",
+        "records_added": [
+          {
+            "record_id": "05abd47ca107d7b62338",
+            "title": "Mark Nicholson Defends One Nation’s Andrew Hastie Satire",
+            "url": "http://www.onenation.org.au/hastie-satire-response",
+            "published": "Tue, 22 Sep 2026 13:24:08 +1000"
+          }
+        ],
+        "records_removed": [
+          {
+            "record_id": "e7f55897883edb9c70a8",
+            "title": "One Nation Questions Why Labor Won’t Show Off Its Net Zero Mega Projects",
+            "url": "http://www.onenation.org.au/net-zero-mega-projects",
+            "published": "Tue, 08 Sep 2026 15:24:53 +1000"
+          }
+        ],
+        "added_count": 1,
+        "removed_count": 1,
+        "before_count": 20,
+        "after_count": 20,
+        "delta_hash": "1d7191c3d8b5c5e439879fb123ae7cc2d7f46ce1bdffca38da4c4e829e8777a6"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-NSW-MINISTERIAL-RELEASES-20260922045752",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-NSW",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-NSW-MINISTERIAL-RELEASES-20260922045752",
+      "captured_at": "2026-09-22T04:57:52.188Z",
+      "event_date": "2026-09-22",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-NSW-MINISTERIAL-RELEASES",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "review_policy": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-NSW-MINISTERIAL-RELEASES-20260921062215",
+        "content_hash": "c97fc43fe1bfbc02d8eeb3c6f07f073f380e3a2c54d40424db4a1db624e017c7",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-NSW-MINISTERIAL-RELEASES-20260922045752",
+        "content_hash": "2c437997ebfc93e5566831f01eb6524a447ffc4dfbb0e2b0620522ed58476671",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "STRUCTURED_RECORD_SET",
+        "records_added": [
+          {
+            "record_id": "3425d33504a05aa5f8cd",
+            "title": "Research to support children with inherited cancer risk shares in Minns Labor Government funding boost",
+            "url": "https://www.nsw.gov.au/ministerial-releases/research-to-support-children-inherited-cancer-risk-shares-minns-labor-government-funding-boost"
+          },
+          {
+            "record_id": "4cb2f8936c507f437023",
+            "title": "Minns Labor Government launches Psychosocial Advisory Service to address the rise in psychosocial incidents in the workplace",
+            "url": "https://www.nsw.gov.au/ministerial-releases/minns-labor-government-launches-psychosocial-advisory-service-to-address-rise-psychosocial-incidents-workplace"
+          },
+          {
+            "record_id": "50574f7d9c7739f82b6c",
+            "title": "A hat-trick for NSW: Moody’s maintains Triple-A credit rating",
+            "url": "https://www.nsw.gov.au/ministerial-releases/moodys-triple-a-rating-maintained"
+          },
+          {
+            "record_id": "7a1e60be92b43f7e2198",
+            "title": "Minns Labor Government introducing significant reforms to sexual assault prosecutions",
+            "url": "https://www.nsw.gov.au/ministerial-releases/minns-labor-government-introducing-significant-reforms-to-sexual-assault-prosecutions"
+          },
+          {
+            "record_id": "e8b9879ddee11a8ffb87",
+            "title": "Rezoning to unlock hundreds more homes for South West Sydney",
+            "url": "https://www.nsw.gov.au/ministerial-releases/rezoning-unlocks-more-homes-southwest-sydney"
+          }
+        ],
+        "records_removed": [
+          {
+            "record_id": "52bdcc897dfa22d867e7",
+            "title": "Refresh your driver knowledge this Road Rules Awareness Week",
+            "url": "https://www.nsw.gov.au/ministerial-releases/refresh-your-driver-knowledge"
+          },
+          {
+            "record_id": "57483e6e13a6db242870",
+            "title": "Windsor High School enrolments hit 15-year high as Minns Labor Government rolls out major upgrades",
+            "url": "https://www.nsw.gov.au/ministerial-releases/windsor-high-school-enrolments-hit-15-year-high-as-minns-labor-government-rolls-out-major-upgrades"
+          },
+          {
+            "record_id": "6a02a426c2eee4be785b",
+            "title": "New intake of paramedics and control staff for NSW Ambulance",
+            "url": "https://www.nsw.gov.au/ministerial-releases/new-intake-of-paramedics-and-control-staff"
+          },
+          {
+            "record_id": "c1c1371f9d6d7d1a4024",
+            "title": "NSW leads Australia with new solar panel recycling mandate",
+            "url": "https://www.nsw.gov.au/ministerial-releases/nsw-leads-australia-new-solar-panel-recycling-mandate"
+          },
+          {
+            "record_id": "c6e65b1a4266fd59b5f6",
+            "title": "Mammoth investment: Nearly $3 billion worth of road projects on the way for Western Sydney",
+            "url": "https://www.nsw.gov.au/ministerial-releases/mammoth-investment-nearly-3-billion-worth-of-road-projects-on-way-for-western-sydney"
+          }
+        ],
+        "added_count": 5,
+        "removed_count": 5,
+        "before_count": 88,
+        "after_count": 88,
+        "delta_hash": "d591ad47e7fa22d02608969a9c42ed4c37d5b1923b069dab7452068cce992e45"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20260922045752",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-QLD",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-QLD-MINISTERIAL-STATEMENTS-20260922045752",
+      "captured_at": "2026-09-22T04:57:52.188Z",
+      "event_date": "2026-09-22",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-QLD-MINISTERIAL-STATEMENTS",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "review_policy": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-QLD-MINISTERIAL-STATEMENTS-20260921062215",
+        "content_hash": "509a5a12dc8f745d7fcb6d47b7b9eba748bc5b930ddecf79b755d41d43194add",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-QLD-MINISTERIAL-STATEMENTS-20260922045752",
+        "content_hash": "717f4b253efcd224bd759e30fdfb55ca616c8b961344ab1d1857d6e8db6e5b1e",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "STRUCTURED_RECORD_SET",
+        "records_added": [
+          {
+            "record_id": "1ec4564733611f924133",
+            "title": "New Bruce Highway Granite Creek Rest Area now open",
+            "url": "https://statements.qld.gov.au/statements/106041"
+          },
+          {
+            "record_id": "29e4133083f4241aafa0",
+            "title": "World-class sport precinct backed for Mackay",
+            "url": "https://statements.qld.gov.au/statements/106103"
+          },
+          {
+            "record_id": "34886f22934e54e01702",
+            "title": "26 regional tourism projects delivered or underway across Queensland",
+            "url": "https://statements.qld.gov.au/statements/106111"
+          },
+          {
+            "record_id": "38bb4fada5806f3c8f82",
+            "title": "Tablelands Property Crime Unit charges more than 200 offenders in six-month crime crackdown",
+            "url": "https://statements.qld.gov.au/statements/106104"
+          },
+          {
+            "record_id": "799a3ee80eb07a22ce76",
+            "title": "Regional Queensland dominates state training awards",
+            "url": "https://statements.qld.gov.au/statements/106092"
+          },
+          {
+            "record_id": "9f1e522f59ec992382d7",
+            "title": "Queensland welcomes new national critical metals research centre",
+            "url": "https://statements.qld.gov.au/statements/106098"
+          },
+          {
+            "record_id": "b043765ce2303024bba5",
+            "title": "Community safety improved for Moreton Bay",
+            "url": "https://statements.qld.gov.au/statements/106097"
+          },
+          {
+            "record_id": "bb0f11a855d095abd1fb",
+            "title": "Registrations open for small business AI training",
+            "url": "https://statements.qld.gov.au/statements/106099"
+          },
+          {
+            "record_id": "f0c1ba406cede429148b",
+            "title": "Events boom delivers $2.7 billion boost for Queensland",
+            "url": "https://statements.qld.gov.au/statements/106096"
+          }
+        ],
+        "records_removed": [
+          {
+            "record_id": "021c3366fba04cee9d74",
+            "title": "Multi-million-dollar boost for Regional Queensland tourism",
+            "url": "https://statements.qld.gov.au/statements/106077"
+          },
+          {
+            "record_id": "377a930a0232917bb6d0",
+            "title": "Statement from the Minister for Transport and Main Roads",
+            "url": "https://statements.qld.gov.au/statements/106087"
+          },
+          {
+            "record_id": "49778a1c51a75f6089e0",
+            "title": "The Gabba’s pitch to live on at Brisbane Stadium",
+            "url": "https://statements.qld.gov.au/statements/106085"
+          },
+          {
+            "record_id": "4d504e533575bc860cba",
+            "title": "Former cops return to frontline duties to make Queensland safer",
+            "url": "https://statements.qld.gov.au/statements/106083"
+          },
+          {
+            "record_id": "74823ae233ecdf1a54a4",
+            "title": "Two-way traffic returns to Kuranda Range Road as major recovery milestone reached",
+            "url": "https://statements.qld.gov.au/statements/106079"
+          },
+          {
+            "record_id": "7845d7d1195b9df30e8b",
+            "title": "Sporting heroes help future tradies reach the final siren",
+            "url": "https://statements.qld.gov.au/statements/106076"
+          },
+          {
+            "record_id": "9356a7ba765062e00dea",
+            "title": "US investors back Queensland to deliver new critical minerals supply chain",
+            "url": "https://statements.qld.gov.au/statements/106081"
+          },
+          {
+            "record_id": "ca0906e0fad5456aca05",
+            "title": "Rockhampton Ring Road reaches major construction milestones",
+            "url": "https://statements.qld.gov.au/statements/106082"
+          },
+          {
+            "record_id": "dd2e72f8ec8d986d067f",
+            "title": "G’day to Toowoomba’s Little Queenslanders",
+            "url": "https://statements.qld.gov.au/statements/106091"
+          }
+        ],
+        "added_count": 9,
+        "removed_count": 9,
+        "before_count": 16,
+        "after_count": 16,
+        "delta_hash": "e0a30a8d76526d5e6a9ac395619ea42c7b431a5d0b01f09546e9986210fe229b"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-ECSA-NEWS-20260922045752",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-SA",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-ECSA-NEWS-20260922045752",
+      "captured_at": "2026-09-22T04:57:52.188Z",
+      "event_date": "2026-09-22",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_ELECTORAL_AUTHORITY",
+      "source_id": "SRC-ECSA-NEWS",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "review_policy": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-ECSA-NEWS-20260908195628",
+        "content_hash": "397d88231a23d7f3b0e99579d617f32bf9c2aa43d6bfd6e82edb0890ba4a2978",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-ECSA-NEWS-20260922045752",
+        "content_hash": "3b2b014e6ad7bd643dcc4b27fdb8623a90db8d376385e5d9d0774d2b169023dd",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "STRUCTURED_RECORD_SET",
+        "records_added": [
+          {
+            "record_id": "709e99217670a329b8b8",
+            "title": "Electoral guides",
+            "url": "https://www.ecsa.sa.gov.au/voting/easy-read-guides"
+          }
+        ],
+        "records_removed": [
+          {
+            "record_id": "808750727b237c42890f",
+            "title": "Easy read guides",
+            "url": "https://www.ecsa.sa.gov.au/voting/easy-read-guides"
+          }
+        ],
+        "added_count": 1,
+        "removed_count": 1,
+        "before_count": 236,
+        "after_count": 236,
+        "delta_hash": "c278c65c65d4c8b7161a744df5f6a341755a53750f0060453b0b2f2a3630ced4"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-TEC-MEDIA-20260922045752",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-TAS",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-TEC-MEDIA-20260922045752",
+      "captured_at": "2026-09-22T04:57:52.188Z",
+      "event_date": "2026-09-22",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_ELECTORAL_AUTHORITY",
+      "source_id": "SRC-TEC-MEDIA",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "review_policy": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-TEC-MEDIA-20260908195628",
+        "content_hash": "ff0f417a1cbfc2adbe3ac5119e57183c37bc7739e28db353166f4bb42adadb76",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-TEC-MEDIA-20260922045752",
+        "content_hash": "15da0e1e3b4a665314dfcdd9403caa0b41feb3c9685b49a2291934e1e0e2cd45",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "STRUCTURED_RECORD_SET",
+        "records_added": [
+          {
+            "record_id": "ffdfd69cf6f45fe83fa5",
+            "title": "Local government elections 2026",
+            "url": "https://www.tec.tas.gov.au/media/"
+          }
+        ],
+        "records_removed": [],
+        "added_count": 1,
+        "removed_count": 0,
+        "before_count": 11,
+        "after_count": 12,
+        "delta_hash": "33f845d68b160005f8a1395df8b6b1cd1e741cdfb09dddaa5edf064ed427fd11"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "SIG-REV-CHG-WATCH-PM-MEDIA-20260922045752",
+      "parent_event_id": "CHG-WATCH-PM-MEDIA-20260922045752",
+      "review_id": "REV-CHG-WATCH-PM-MEDIA-20260922045752",
+      "jurisdiction_id": "AUS-FED",
+      "party_id": null,
+      "actor_id": null,
+      "contest_id": null,
+      "cycle_id": null,
+      "source_snapshot_id": "AUTO-WATCH-PM-MEDIA-20260922045752",
+      "record_id": "8436833762032a7d7a4d",
+      "captured_at": "2026-09-22T04:58:42.909Z",
+      "event_date": "2026-09-22",
+      "checkpoint": "CONTINUOUS_FORWARD_SIGNAL_REVIEW",
+      "event_type": "SIGNAL_CREATED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-PM-MEDIA",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "claim": "Prime Minister of Australia — media added 1 structured publication record to its forward-captured official index: P4M Summit: Partners for Multilateralism, International Law, Peace and Prosperity",
+      "observed_behaviour": "One or more structured publication records appeared in the monitored official source index after the preceding forward snapshot.",
+      "publication_records_added": [
+        {
+          "record_id": "8436833762032a7d7a4d",
+          "title": "P4M Summit: Partners for Multilateralism, International Law, Peace and Prosperity",
+          "url": "https://www.pm.gov.au/media/p4m-summit-partners-multilateralism-international-law-peace-and-prosperity"
+        }
+      ],
+      "publication_records_removed": [
+        {
+          "record_id": "981d642895345eb112d4",
+          "title": "Little wings flying high",
+          "url": "https://www.pm.gov.au/media/little-wings-flying-high"
+        }
+      ],
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "underlying_publication_claims_not_promoted_to_verified_fact": true,
+        "source_change_parent_retained": true,
+        "deterministic_review": true
+      }
+    },
+    {
+      "event_id": "SIG-REV-CHG-WATCH-GREENS-FEDERAL-MEDIA-20260922045752",
+      "parent_event_id": "CHG-WATCH-GREENS-FEDERAL-MEDIA-20260922045752",
+      "review_id": "REV-CHG-WATCH-GREENS-FEDERAL-MEDIA-20260922045752",
+      "jurisdiction_id": "AUS-FED",
+      "party_id": "AUS-FED-GRN",
+      "actor_id": null,
+      "contest_id": null,
+      "cycle_id": null,
+      "source_snapshot_id": "AUTO-WATCH-GREENS-FEDERAL-MEDIA-20260922045752",
+      "record_id": null,
+      "captured_at": "2026-09-22T04:58:42.909Z",
+      "event_date": "2026-09-22",
+      "checkpoint": "CONTINUOUS_FORWARD_SIGNAL_REVIEW",
+      "event_type": "SIGNAL_CREATED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_PARTY",
+      "source_id": "SRC-GREENS-FEDERAL-RELEASE-INDEX",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "claim": "Australian Greens — Federal MPs media releases added 6 structured publication records to its forward-captured official index: Read more about ‘Un-Australian scam artists”: Greens call for action on airline’s Grand Final gouging; Media Release: Australia must add substance, local and global action, to PM’s words on AI; Read more about Triple Zero Inquiry recommends nationalising of Triple 0, mandated domestic roaming and a review into ACMA&#039;s role in regulating Triple Zero; Read more about Media Release: Australia must add substance, local and global action, to PM’s words on AI; ‘Un-Australian scam artists”: Greens call for action on airline’s Grand Final gouging; +1 more",
+      "observed_behaviour": "One or more structured publication records appeared in the monitored official source index after the preceding forward snapshot.",
+      "publication_records_added": [
+        {
+          "record_id": "5ea7fa289bed781ddd2f",
+          "title": "Read more about ‘Un-Australian scam artists”: Greens call for action on airline’s Grand Final gouging",
+          "url": "https://greens.org.au/news/media-release/un-australian-scam-artists-greens-call-action-airlines-grand-final-gouging"
+        },
+        {
+          "record_id": "9be86a6d80aa1da835fc",
+          "title": "Media Release: Australia must add substance, local and global action, to PM’s words on AI",
+          "url": "https://greens.org.au/news/media-release/media-release-australia-must-add-substance-local-and-global-action-pms-words-ai"
+        },
+        {
+          "record_id": "a3b7329d2a52777c3fd2",
+          "title": "Read more about Triple Zero Inquiry recommends nationalising of Triple 0, mandated domestic roaming and a review into ACMA&#039;s role in regulating Triple Zero",
+          "url": "https://greens.org.au/news/media-release/triple-zero-inquiry-recommends-nationalising-triple-0-mandated-domestic-roaming"
+        },
+        {
+          "record_id": "afa5ce21c41a6c852df9",
+          "title": "Read more about Media Release: Australia must add substance, local and global action, to PM’s words on AI",
+          "url": "https://greens.org.au/news/media-release/media-release-australia-must-add-substance-local-and-global-action-pms-words-ai"
+        },
+        {
+          "record_id": "e247d2abbf69c18b6ac8",
+          "title": "‘Un-Australian scam artists”: Greens call for action on airline’s Grand Final gouging",
+          "url": "https://greens.org.au/news/media-release/un-australian-scam-artists-greens-call-action-airlines-grand-final-gouging"
+        },
+        {
+          "record_id": "e621b153338e75f494fd",
+          "title": "Triple Zero Inquiry recommends nationalising of Triple 0, mandated domestic roaming and a review into ACMA&#039;s role in regulating Triple Zero",
+          "url": "https://greens.org.au/news/media-release/triple-zero-inquiry-recommends-nationalising-triple-0-mandated-domestic-roaming"
+        }
+      ],
+      "publication_records_removed": [
+        {
+          "record_id": "2d9e66980035bd99dfe3",
+          "title": "Read more about Albanese Government Refuses to Commit to a Moratorium on Data Centres amid call for Global Slow Down on AI",
+          "url": "https://greens.org.au/sa/news/media-release/albanese-government-refuses-commit-moratorium-data-centres-amid-call-global"
+        },
+        {
+          "record_id": "3efc1cea385dcfe1e6fe",
+          "title": "Read more about Greens unite with industry on need for federal packaging reform",
+          "url": "https://greens.org.au/news/media-release/greens-unite-industry-need-federal-packaging-reform"
+        },
+        {
+          "record_id": "d6176f65c13c8c6581e5",
+          "title": "Read more about Sad day for Whyalla workers, 600 jobs cut",
+          "url": "https://greens.org.au/news/media-release/sad-day-whyalla-workers-600-jobs-cut"
+        },
+        {
+          "record_id": "e544b93e437f19787c0d",
+          "title": "Albanese Government Refuses to Commit to a Moratorium on Data Centres amid call for Global Slow Down on AI",
+          "url": "https://greens.org.au/sa/news/media-release/albanese-government-refuses-commit-moratorium-data-centres-amid-call-global"
+        },
+        {
+          "record_id": "e9c6da2e6ba78710c02f",
+          "title": "Sad day for Whyalla workers, 600 jobs cut",
+          "url": "https://greens.org.au/news/media-release/sad-day-whyalla-workers-600-jobs-cut"
+        },
+        {
+          "record_id": "f94b1b7cc34db8cbda5b",
+          "title": "Greens unite with industry on need for federal packaging reform",
+          "url": "https://greens.org.au/news/media-release/greens-unite-industry-need-federal-packaging-reform"
+        }
+      ],
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "underlying_publication_claims_not_promoted_to_verified_fact": true,
+        "source_change_parent_retained": true,
+        "deterministic_review": true
+      }
+    },
+    {
+      "event_id": "SIG-REV-CHG-WATCH-ONENATION-NEWS-20260922045752",
+      "parent_event_id": "CHG-WATCH-ONENATION-NEWS-20260922045752",
+      "review_id": "REV-CHG-WATCH-ONENATION-NEWS-20260922045752",
+      "jurisdiction_id": "AUS-FED",
+      "party_id": "AUS-FED-ONP",
+      "actor_id": null,
+      "contest_id": null,
+      "cycle_id": null,
+      "source_snapshot_id": "AUTO-WATCH-ONENATION-NEWS-20260922045752",
+      "record_id": "05abd47ca107d7b62338",
+      "captured_at": "2026-09-22T04:58:42.909Z",
+      "event_date": "2026-09-22",
+      "checkpoint": "CONTINUOUS_FORWARD_SIGNAL_REVIEW",
+      "event_type": "SIGNAL_CREATED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_PARTY",
+      "source_id": "SRC-ONENATION-FEDERAL-NEWS",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "claim": "Pauline Hanson's One Nation — Latest News added 1 structured publication record to its forward-captured official index: Mark Nicholson Defends One Nation’s Andrew Hastie Satire",
+      "observed_behaviour": "One or more structured publication records appeared in the monitored official source index after the preceding forward snapshot.",
+      "publication_records_added": [
+        {
+          "record_id": "05abd47ca107d7b62338",
+          "title": "Mark Nicholson Defends One Nation’s Andrew Hastie Satire",
+          "url": "http://www.onenation.org.au/hastie-satire-response",
+          "published": "Tue, 22 Sep 2026 13:24:08 +1000"
+        }
+      ],
+      "publication_records_removed": [
+        {
+          "record_id": "e7f55897883edb9c70a8",
+          "title": "One Nation Questions Why Labor Won’t Show Off Its Net Zero Mega Projects",
+          "url": "http://www.onenation.org.au/net-zero-mega-projects",
+          "published": "Tue, 08 Sep 2026 15:24:53 +1000"
+        }
+      ],
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "underlying_publication_claims_not_promoted_to_verified_fact": true,
+        "source_change_parent_retained": true,
+        "deterministic_review": true
+      }
+    },
+    {
+      "event_id": "SIG-REV-CHG-WATCH-NSW-MINISTERIAL-RELEASES-20260922045752",
+      "parent_event_id": "CHG-WATCH-NSW-MINISTERIAL-RELEASES-20260922045752",
+      "review_id": "REV-CHG-WATCH-NSW-MINISTERIAL-RELEASES-20260922045752",
+      "jurisdiction_id": "AUS-NSW",
+      "party_id": null,
+      "actor_id": null,
+      "contest_id": null,
+      "cycle_id": null,
+      "source_snapshot_id": "AUTO-WATCH-NSW-MINISTERIAL-RELEASES-20260922045752",
+      "record_id": null,
+      "captured_at": "2026-09-22T04:58:42.909Z",
+      "event_date": "2026-09-22",
+      "checkpoint": "CONTINUOUS_FORWARD_SIGNAL_REVIEW",
+      "event_type": "SIGNAL_CREATED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-NSW-MINISTERIAL-RELEASES",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "claim": "NSW Government — Ministerial releases added 5 structured publication records to its forward-captured official index: Research to support children with inherited cancer risk shares in Minns Labor Government funding boost; Minns Labor Government launches Psychosocial Advisory Service to address the rise in psychosocial incidents in the workplace; A hat-trick for NSW: Moody’s maintains Triple-A credit rating; Minns Labor Government introducing significant reforms to sexual assault prosecutions; Rezoning to unlock hundreds more homes for South West Sydney",
+      "observed_behaviour": "One or more structured publication records appeared in the monitored official source index after the preceding forward snapshot.",
+      "publication_records_added": [
+        {
+          "record_id": "3425d33504a05aa5f8cd",
+          "title": "Research to support children with inherited cancer risk shares in Minns Labor Government funding boost",
+          "url": "https://www.nsw.gov.au/ministerial-releases/research-to-support-children-inherited-cancer-risk-shares-minns-labor-government-funding-boost"
+        },
+        {
+          "record_id": "4cb2f8936c507f437023",
+          "title": "Minns Labor Government launches Psychosocial Advisory Service to address the rise in psychosocial incidents in the workplace",
+          "url": "https://www.nsw.gov.au/ministerial-releases/minns-labor-government-launches-psychosocial-advisory-service-to-address-rise-psychosocial-incidents-workplace"
+        },
+        {
+          "record_id": "50574f7d9c7739f82b6c",
+          "title": "A hat-trick for NSW: Moody’s maintains Triple-A credit rating",
+          "url": "https://www.nsw.gov.au/ministerial-releases/moodys-triple-a-rating-maintained"
+        },
+        {
+          "record_id": "7a1e60be92b43f7e2198",
+          "title": "Minns Labor Government introducing significant reforms to sexual assault prosecutions",
+          "url": "https://www.nsw.gov.au/ministerial-releases/minns-labor-government-introducing-significant-reforms-to-sexual-assault-prosecutions"
+        },
+        {
+          "record_id": "e8b9879ddee11a8ffb87",
+          "title": "Rezoning to unlock hundreds more homes for South West Sydney",
+          "url": "https://www.nsw.gov.au/ministerial-releases/rezoning-unlocks-more-homes-southwest-sydney"
+        }
+      ],
+      "publication_records_removed": [
+        {
+          "record_id": "52bdcc897dfa22d867e7",
+          "title": "Refresh your driver knowledge this Road Rules Awareness Week",
+          "url": "https://www.nsw.gov.au/ministerial-releases/refresh-your-driver-knowledge"
+        },
+        {
+          "record_id": "57483e6e13a6db242870",
+          "title": "Windsor High School enrolments hit 15-year high as Minns Labor Government rolls out major upgrades",
+          "url": "https://www.nsw.gov.au/ministerial-releases/windsor-high-school-enrolments-hit-15-year-high-as-minns-labor-government-rolls-out-major-upgrades"
+        },
+        {
+          "record_id": "6a02a426c2eee4be785b",
+          "title": "New intake of paramedics and control staff for NSW Ambulance",
+          "url": "https://www.nsw.gov.au/ministerial-releases/new-intake-of-paramedics-and-control-staff"
+        },
+        {
+          "record_id": "c1c1371f9d6d7d1a4024",
+          "title": "NSW leads Australia with new solar panel recycling mandate",
+          "url": "https://www.nsw.gov.au/ministerial-releases/nsw-leads-australia-new-solar-panel-recycling-mandate"
+        },
+        {
+          "record_id": "c6e65b1a4266fd59b5f6",
+          "title": "Mammoth investment: Nearly $3 billion worth of road projects on the way for Western Sydney",
+          "url": "https://www.nsw.gov.au/ministerial-releases/mammoth-investment-nearly-3-billion-worth-of-road-projects-on-way-for-western-sydney"
+        }
+      ],
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "underlying_publication_claims_not_promoted_to_verified_fact": true,
+        "source_change_parent_retained": true,
+        "deterministic_review": true
+      }
+    },
+    {
+      "event_id": "SIG-REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20260922045752",
+      "parent_event_id": "CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20260922045752",
+      "review_id": "REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20260922045752",
+      "jurisdiction_id": "AUS-QLD",
+      "party_id": null,
+      "actor_id": null,
+      "contest_id": null,
+      "cycle_id": null,
+      "source_snapshot_id": "AUTO-WATCH-QLD-MINISTERIAL-STATEMENTS-20260922045752",
+      "record_id": null,
+      "captured_at": "2026-09-22T04:58:42.909Z",
+      "event_date": "2026-09-22",
+      "checkpoint": "CONTINUOUS_FORWARD_SIGNAL_REVIEW",
+      "event_type": "SIGNAL_CREATED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-QLD-MINISTERIAL-STATEMENTS",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "claim": "Queensland Government — Ministerial Media Statements added 9 structured publication records to its forward-captured official index: New Bruce Highway Granite Creek Rest Area now open; World-class sport precinct backed for Mackay; 26 regional tourism projects delivered or underway across Queensland; Tablelands Property Crime Unit charges more than 200 offenders in six-month crime crackdown; Regional Queensland dominates state training awards; +4 more",
+      "observed_behaviour": "One or more structured publication records appeared in the monitored official source index after the preceding forward snapshot.",
+      "publication_records_added": [
+        {
+          "record_id": "1ec4564733611f924133",
+          "title": "New Bruce Highway Granite Creek Rest Area now open",
+          "url": "https://statements.qld.gov.au/statements/106041"
+        },
+        {
+          "record_id": "29e4133083f4241aafa0",
+          "title": "World-class sport precinct backed for Mackay",
+          "url": "https://statements.qld.gov.au/statements/106103"
+        },
+        {
+          "record_id": "34886f22934e54e01702",
+          "title": "26 regional tourism projects delivered or underway across Queensland",
+          "url": "https://statements.qld.gov.au/statements/106111"
+        },
+        {
+          "record_id": "38bb4fada5806f3c8f82",
+          "title": "Tablelands Property Crime Unit charges more than 200 offenders in six-month crime crackdown",
+          "url": "https://statements.qld.gov.au/statements/106104"
+        },
+        {
+          "record_id": "799a3ee80eb07a22ce76",
+          "title": "Regional Queensland dominates state training awards",
+          "url": "https://statements.qld.gov.au/statements/106092"
+        },
+        {
+          "record_id": "9f1e522f59ec992382d7",
+          "title": "Queensland welcomes new national critical metals research centre",
+          "url": "https://statements.qld.gov.au/statements/106098"
+        },
+        {
+          "record_id": "b043765ce2303024bba5",
+          "title": "Community safety improved for Moreton Bay",
+          "url": "https://statements.qld.gov.au/statements/106097"
+        },
+        {
+          "record_id": "bb0f11a855d095abd1fb",
+          "title": "Registrations open for small business AI training",
+          "url": "https://statements.qld.gov.au/statements/106099"
+        },
+        {
+          "record_id": "f0c1ba406cede429148b",
+          "title": "Events boom delivers $2.7 billion boost for Queensland",
+          "url": "https://statements.qld.gov.au/statements/106096"
+        }
+      ],
+      "publication_records_removed": [
+        {
+          "record_id": "021c3366fba04cee9d74",
+          "title": "Multi-million-dollar boost for Regional Queensland tourism",
+          "url": "https://statements.qld.gov.au/statements/106077"
+        },
+        {
+          "record_id": "377a930a0232917bb6d0",
+          "title": "Statement from the Minister for Transport and Main Roads",
+          "url": "https://statements.qld.gov.au/statements/106087"
+        },
+        {
+          "record_id": "49778a1c51a75f6089e0",
+          "title": "The Gabba’s pitch to live on at Brisbane Stadium",
+          "url": "https://statements.qld.gov.au/statements/106085"
+        },
+        {
+          "record_id": "4d504e533575bc860cba",
+          "title": "Former cops return to frontline duties to make Queensland safer",
+          "url": "https://statements.qld.gov.au/statements/106083"
+        },
+        {
+          "record_id": "74823ae233ecdf1a54a4",
+          "title": "Two-way traffic returns to Kuranda Range Road as major recovery milestone reached",
+          "url": "https://statements.qld.gov.au/statements/106079"
+        },
+        {
+          "record_id": "7845d7d1195b9df30e8b",
+          "title": "Sporting heroes help future tradies reach the final siren",
+          "url": "https://statements.qld.gov.au/statements/106076"
+        },
+        {
+          "record_id": "9356a7ba765062e00dea",
+          "title": "US investors back Queensland to deliver new critical minerals supply chain",
+          "url": "https://statements.qld.gov.au/statements/106081"
+        },
+        {
+          "record_id": "ca0906e0fad5456aca05",
+          "title": "Rockhampton Ring Road reaches major construction milestones",
+          "url": "https://statements.qld.gov.au/statements/106082"
+        },
+        {
+          "record_id": "dd2e72f8ec8d986d067f",
+          "title": "G’day to Toowoomba’s Little Queenslanders",
+          "url": "https://statements.qld.gov.au/statements/106091"
+        }
+      ],
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "underlying_publication_claims_not_promoted_to_verified_fact": true,
+        "source_change_parent_retained": true,
+        "deterministic_review": true
+      }
+    },
+    {
+      "event_id": "SIG-REV-CHG-WATCH-ECSA-NEWS-20260922045752",
+      "parent_event_id": "CHG-WATCH-ECSA-NEWS-20260922045752",
+      "review_id": "REV-CHG-WATCH-ECSA-NEWS-20260922045752",
+      "jurisdiction_id": "AUS-SA",
+      "party_id": null,
+      "actor_id": null,
+      "contest_id": null,
+      "cycle_id": null,
+      "source_snapshot_id": "AUTO-WATCH-ECSA-NEWS-20260922045752",
+      "record_id": "709e99217670a329b8b8",
+      "captured_at": "2026-09-22T04:58:42.909Z",
+      "event_date": "2026-09-22",
+      "checkpoint": "CONTINUOUS_FORWARD_SIGNAL_REVIEW",
+      "event_type": "SIGNAL_CREATED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_ELECTORAL_AUTHORITY",
+      "source_id": "SRC-ECSA-NEWS",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "claim": "Electoral Commission of South Australia — news and notices added 1 structured publication record to its forward-captured official index: Electoral guides",
+      "observed_behaviour": "One or more structured publication records appeared in the monitored official source index after the preceding forward snapshot.",
+      "publication_records_added": [
+        {
+          "record_id": "709e99217670a329b8b8",
+          "title": "Electoral guides",
+          "url": "https://www.ecsa.sa.gov.au/voting/easy-read-guides"
+        }
+      ],
+      "publication_records_removed": [
+        {
+          "record_id": "808750727b237c42890f",
+          "title": "Easy read guides",
+          "url": "https://www.ecsa.sa.gov.au/voting/easy-read-guides"
+        }
+      ],
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "underlying_publication_claims_not_promoted_to_verified_fact": true,
+        "source_change_parent_retained": true,
+        "deterministic_review": true
+      }
+    },
+    {
+      "event_id": "SIG-REV-CHG-WATCH-TEC-MEDIA-20260922045752",
+      "parent_event_id": "CHG-WATCH-TEC-MEDIA-20260922045752",
+      "review_id": "REV-CHG-WATCH-TEC-MEDIA-20260922045752",
+      "jurisdiction_id": "AUS-TAS",
+      "party_id": null,
+      "actor_id": null,
+      "contest_id": null,
+      "cycle_id": null,
+      "source_snapshot_id": "AUTO-WATCH-TEC-MEDIA-20260922045752",
+      "record_id": "ffdfd69cf6f45fe83fa5",
+      "captured_at": "2026-09-22T04:58:42.909Z",
+      "event_date": "2026-09-22",
+      "checkpoint": "CONTINUOUS_FORWARD_SIGNAL_REVIEW",
+      "event_type": "SIGNAL_CREATED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_ELECTORAL_AUTHORITY",
+      "source_id": "SRC-TEC-MEDIA",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "claim": "Tasmanian Electoral Commission — media releases added 1 structured publication record to its forward-captured official index: Local government elections 2026",
+      "observed_behaviour": "One or more structured publication records appeared in the monitored official source index after the preceding forward snapshot.",
+      "publication_records_added": [
+        {
+          "record_id": "ffdfd69cf6f45fe83fa5",
+          "title": "Local government elections 2026",
+          "url": "https://www.tec.tas.gov.au/media/"
+        }
+      ],
+      "publication_records_removed": [],
       "inference": null,
       "inference_class": "NONE",
       "projection_effect": "NO_EFFECT",

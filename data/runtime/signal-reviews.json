@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-SIGNAL-REVIEWS-001",
   "created_at": "2026-09-09T05:05:00+10:00",
-  "updated_at": "2026-09-22T18:56:01.997Z",
+  "updated_at": "2026-09-22T22:10:19.168Z",
   "rules": {
     "append_only": true,
     "raw_source_change_is_immutable": true,
@@ -31003,6 +31003,56 @@
           }
         ],
         "delta_hash": "ec124704b4e4467c29aa13b340bc92831f1b84db398c428bae89bb81dfe85738"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-PM-MEDIA-20260922220940",
+      "source_change_event_id": "CHG-WATCH-PM-MEDIA-20260922220940",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-PM-MEDIA-20260922220940",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Prime Minister of Australia — media added 2 structured publication records to its forward-captured official index: Last » Last page; Shape the digital world or it will shape us",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-09-22T22:10:19.168Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "12b0edd25134de75e7e9",
+            "title": "Last » Last page",
+            "url": "https://www.pm.gov.au/media?page=278"
+          },
+          {
+            "record_id": "4747d71174225f3558c5",
+            "title": "Shape the digital world or it will shape us",
+            "url": "https://www.pm.gov.au/media/shape-digital-world-or-it-will-shape-us"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "804ec97091ba33c939d3",
+            "title": "Last » Last page",
+            "url": "https://www.pm.gov.au/media?page=277"
+          },
+          {
+            "record_id": "9ef8120f6e9b4d2082e3",
+            "title": "Australia ranked 8th in global gender equality rankings",
+            "url": "https://www.pm.gov.au/media/australia-ranked-8th-global-gender-equality-rankings"
+          }
+        ],
+        "delta_hash": "b7cf6a3cf3568d80459d0b2e9c794b8d222314dbab83d0e6707bba4dd076208e"
       },
       "integrity": {
         "source_change_unchanged": true,

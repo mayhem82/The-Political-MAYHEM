@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-SIGNAL-REVIEWS-001",
   "created_at": "2026-09-09T05:05:00+10:00",
-  "updated_at": "2026-09-22T04:58:42.909Z",
+  "updated_at": "2026-09-22T09:59:42.474Z",
   "rules": {
     "append_only": true,
     "raw_source_change_is_immutable": true,
@@ -30963,6 +30963,46 @@
         ],
         "removed_records": [],
         "delta_hash": "33f845d68b160005f8a1395df8b6b1cd1e741cdfb09dddaa5edf064ed427fd11"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-NSW-MINISTERIAL-RELEASES-20260922095813",
+      "source_change_event_id": "CHG-WATCH-NSW-MINISTERIAL-RELEASES-20260922095813",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-NSW-MINISTERIAL-RELEASES-20260922095813",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "NSW Government — Ministerial releases added 1 structured publication record to its forward-captured official index: New look at $630 million Fairfield Hospital Redevelopment",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-09-22T09:59:42.474Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "0bb50dc362f6a34e710b",
+            "title": "New look at $630 million Fairfield Hospital Redevelopment",
+            "url": "https://www.nsw.gov.au/ministerial-releases/new-look-at-630-million-fairfield-hospital-redevelopment"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "72b161e888c6de9ebf39",
+            "title": "Grafton Base Hospital Redevelopment main works underway",
+            "url": "https://www.nsw.gov.au/ministerial-releases/grafton-base-hospital-redevelopment-main-works-underway"
+          }
+        ],
+        "delta_hash": "ec124704b4e4467c29aa13b340bc92831f1b84db398c428bae89bb81dfe85738"
       },
       "integrity": {
         "source_change_unchanged": true,

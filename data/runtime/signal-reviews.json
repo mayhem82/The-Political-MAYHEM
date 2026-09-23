@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-SIGNAL-REVIEWS-001",
   "created_at": "2026-09-09T05:05:00+10:00",
-  "updated_at": "2026-09-23T00:34:48.850Z",
+  "updated_at": "2026-09-23T05:59:52.287Z",
   "rules": {
     "append_only": true,
     "raw_source_change_is_immutable": true,
@@ -31213,6 +31213,276 @@
           }
         ],
         "delta_hash": "900d17b3293573654ca5dea6047ec4e2940cc73738d1a8ea99a174cb562d0236"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-PM-MEDIA-20260923055908",
+      "source_change_event_id": "CHG-WATCH-PM-MEDIA-20260923055908",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-PM-MEDIA-20260923055908",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Prime Minister of Australia — media added 2 structured publication records to its forward-captured official index: Macquarie Group Climate event; Doorstop - New York",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-09-23T05:59:52.287Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "66ba96ab22b50a4a4990",
+            "title": "Macquarie Group Climate event",
+            "url": "https://www.pm.gov.au/media/macquarie-group-climate-event"
+          },
+          {
+            "record_id": "951a197c12f423a2e519",
+            "title": "Doorstop - New York",
+            "url": "https://www.pm.gov.au/media/doorstop-new-york-23-september-2026"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "37aff474db9793bc9013",
+            "title": "Doorstop - San Jose, California",
+            "url": "https://www.pm.gov.au/media/doorstop-san-jose-california"
+          },
+          {
+            "record_id": "5484276aa10faad69356",
+            "title": "Visit to California and New York",
+            "url": "https://www.pm.gov.au/media/visit-california-and-new-york"
+          }
+        ],
+        "delta_hash": "1c7f48b438c5e19a3c0aa07827fba8ce6a4705f01e2ce00292e27ea9083c8c7c"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-GREENS-FEDERAL-MEDIA-20260923055908",
+      "source_change_event_id": "CHG-WATCH-GREENS-FEDERAL-MEDIA-20260923055908",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-GREENS-FEDERAL-MEDIA-20260923055908",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": "AUS-FED-GRN",
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Australian Greens — Federal MPs media releases added 6 structured publication records to its forward-captured official index: Albanese Government must put Australia First and Reject Trump&#039;s Extraordinary Interference; Aged care Senate inquiry hears Labor is denying rights to older people; Read more about Australians will pay the price for major parties’ fossil fuel plans: Greens; Read more about Albanese Government must put Australia First and Reject Trump&#039;s Extraordinary Interference; Australians will pay the price for major parties’ fossil fuel plans: Greens; +1 more",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-09-23T05:59:52.287Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "0316062dbdfa7717be85",
+            "title": "Albanese Government must put Australia First and Reject Trump&#039;s Extraordinary Interference",
+            "url": "https://greens.org.au/news/media-release/albanese-government-must-put-australia-first-and-reject-trumps-extraordinary"
+          },
+          {
+            "record_id": "49f935708abd5c1ce62a",
+            "title": "Aged care Senate inquiry hears Labor is denying rights to older people",
+            "url": "https://greens.org.au/news/media-release/aged-care-senate-inquiry-hears-labor-denying-rights-older-people"
+          },
+          {
+            "record_id": "850a67e9ae195c7f6176",
+            "title": "Read more about Australians will pay the price for major parties’ fossil fuel plans: Greens",
+            "url": "https://greens.org.au/news/media-release/australians-will-pay-price-major-parties-fossil-fuel-plans-greens"
+          },
+          {
+            "record_id": "c8c31461330d9a26c07e",
+            "title": "Read more about Albanese Government must put Australia First and Reject Trump&#039;s Extraordinary Interference",
+            "url": "https://greens.org.au/news/media-release/albanese-government-must-put-australia-first-and-reject-trumps-extraordinary"
+          },
+          {
+            "record_id": "d8454d28aed515a971e4",
+            "title": "Australians will pay the price for major parties’ fossil fuel plans: Greens",
+            "url": "https://greens.org.au/news/media-release/australians-will-pay-price-major-parties-fossil-fuel-plans-greens"
+          },
+          {
+            "record_id": "f879fd282d196fd6f0da",
+            "title": "Read more about Aged care Senate inquiry hears Labor is denying rights to older people",
+            "url": "https://greens.org.au/news/media-release/aged-care-senate-inquiry-hears-labor-denying-rights-older-people"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "017782ad701eee6ec4be",
+            "title": "Read more about Greens to push for Mandatory Domestic Roaming, Automatic Compensation for Consumers and Enforceable Reliability Standards to Telcos",
+            "url": "https://greens.org.au/sa/news/media-release/greens-push-mandatory-domestic-roaming-automatic-compensation-consumers-and"
+          },
+          {
+            "record_id": "17a1745cbea4ff7f8f3b",
+            "title": "Read more about James Cook University must reverse proposed axing of vet lab",
+            "url": "https://greens.org.au/news/media-release/james-cook-university-must-reverse-proposed-axing-vet-lab"
+          },
+          {
+            "record_id": "290f1f0d83adc6a220c2",
+            "title": "Bathla collapse: the case for a public developer",
+            "url": "https://greens.org.au/news/media-release/bathla-collapse-case-public-developer"
+          },
+          {
+            "record_id": "32c6bf527c85525a3159",
+            "title": "Greens to push for Mandatory Domestic Roaming, Automatic Compensation for Consumers and Enforceable Reliability Standards to Telcos",
+            "url": "https://greens.org.au/sa/news/media-release/greens-push-mandatory-domestic-roaming-automatic-compensation-consumers-and"
+          },
+          {
+            "record_id": "a51f613503dbbb222660",
+            "title": "Read more about Bathla collapse: the case for a public developer",
+            "url": "https://greens.org.au/news/media-release/bathla-collapse-case-public-developer"
+          },
+          {
+            "record_id": "d1ed656bd189808a1646",
+            "title": "James Cook University must reverse proposed axing of vet lab",
+            "url": "https://greens.org.au/news/media-release/james-cook-university-must-reverse-proposed-axing-vet-lab"
+          }
+        ],
+        "delta_hash": "3445b1a3385dae9683eabab2ecd8b4843738052bab73dd24df4fbfaed4214407"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-NSW-MINISTERIAL-RELEASES-20260923055908",
+      "source_change_event_id": "CHG-WATCH-NSW-MINISTERIAL-RELEASES-20260923055908",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-NSW-MINISTERIAL-RELEASES-20260923055908",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "NSW Government — Ministerial releases added 3 structured publication records to its forward-captured official index: NSW Government extends consultation on proposed harvest strategies to protect Yellowtail Kingfish and Snapper; New AI leak detection technology to save millions of litres of water; One step closer to ensuring a stronger, more reliable firefighting fleet",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-09-23T05:59:52.287Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "1e21f2e075dfe9a03d1a",
+            "title": "NSW Government extends consultation on proposed harvest strategies to protect Yellowtail Kingfish and Snapper",
+            "url": "https://www.nsw.gov.au/ministerial-releases/harvest-strategies-consultation-extended"
+          },
+          {
+            "record_id": "d2126e68dfd0d6291236",
+            "title": "New AI leak detection technology to save millions of litres of water",
+            "url": "https://www.nsw.gov.au/ministerial-releases/new-ai-leak-detection-technology-to-save-millions-of-litres-of-water"
+          },
+          {
+            "record_id": "e73b8f6e649d3a10bc39",
+            "title": "One step closer to ensuring a stronger, more reliable firefighting fleet",
+            "url": "https://www.nsw.gov.au/ministerial-releases/one-step-closer-to-ensuring-a-stronger-more-reliable-firefighting-fleet"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "4cb2f8936c507f437023",
+            "title": "Minns Labor Government launches Psychosocial Advisory Service to address the rise in psychosocial incidents in the workplace",
+            "url": "https://www.nsw.gov.au/ministerial-releases/minns-labor-government-launches-psychosocial-advisory-service-to-address-rise-psychosocial-incidents-workplace"
+          },
+          {
+            "record_id": "50574f7d9c7739f82b6c",
+            "title": "A hat-trick for NSW: Moody’s maintains Triple-A credit rating",
+            "url": "https://www.nsw.gov.au/ministerial-releases/moodys-triple-a-rating-maintained"
+          },
+          {
+            "record_id": "e8b9879ddee11a8ffb87",
+            "title": "Rezoning to unlock hundreds more homes for South West Sydney",
+            "url": "https://www.nsw.gov.au/ministerial-releases/rezoning-unlocks-more-homes-southwest-sydney"
+          }
+        ],
+        "delta_hash": "75cd38b084d2992c184a1a831572ca0cb057f7aa47baf9cc28515ab2b097da62"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20260923055908",
+      "source_change_event_id": "CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20260923055908",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20260923055908",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Queensland Government — Ministerial Media Statements added 4 structured publication records to its forward-captured official index: Cuttaburra Crossing upgrade reaches major milestone; Acreage awarded to supercharge Queensland’s resources future; Community safety improved for Brisbane with expanded CCTV network; Awards celebrate work to build disaster resilience in Queensland",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-09-23T05:59:52.287Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "43a1a2cf539900436258",
+            "title": "Cuttaburra Crossing upgrade reaches major milestone",
+            "url": "https://statements.qld.gov.au/statements/106115"
+          },
+          {
+            "record_id": "616ae16cd51fd20b1413",
+            "title": "Acreage awarded to supercharge Queensland’s resources future",
+            "url": "https://statements.qld.gov.au/statements/106110"
+          },
+          {
+            "record_id": "7587c1aa315b82f5d65a",
+            "title": "Community safety improved for Brisbane with expanded CCTV network",
+            "url": "https://statements.qld.gov.au/statements/106113"
+          },
+          {
+            "record_id": "ee62705205bcbdd06fcd",
+            "title": "Awards celebrate work to build disaster resilience in Queensland",
+            "url": "https://statements.qld.gov.au/statements/106108"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "34886f22934e54e01702",
+            "title": "26 regional tourism projects delivered or underway across Queensland",
+            "url": "https://statements.qld.gov.au/statements/106111"
+          },
+          {
+            "record_id": "38bb4fada5806f3c8f82",
+            "title": "Tablelands Property Crime Unit charges more than 200 offenders in six-month crime crackdown",
+            "url": "https://statements.qld.gov.au/statements/106104"
+          },
+          {
+            "record_id": "9f1e522f59ec992382d7",
+            "title": "Queensland welcomes new national critical metals research centre",
+            "url": "https://statements.qld.gov.au/statements/106098"
+          },
+          {
+            "record_id": "f0c1ba406cede429148b",
+            "title": "Events boom delivers $2.7 billion boost for Queensland",
+            "url": "https://statements.qld.gov.au/statements/106096"
+          }
+        ],
+        "delta_hash": "97dbc6141b95ec671472921bf28bd6c56fc78130c0a7e786246d468e0701a701"
       },
       "integrity": {
         "source_change_unchanged": true,

@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-INTELLIGENCE-EVENTS-001",
   "scope": "Australia — multi-jurisdiction",
-  "captured_at": "2026-09-23T00:34:56.658Z",
+  "captured_at": "2026-09-23T06:00:02.838Z",
   "mode": "FORWARD_ONLY",
   "rules": {
     "observation_distinct_from_inference": true,
@@ -85648,6 +85648,750 @@
           "record_id": "c34aac4317cbc02436b6",
           "title": "Enhanced biosecurity investment in local outbreak response",
           "url": "https://statements.qld.gov.au/statements/106095"
+        }
+      ],
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "underlying_publication_claims_not_promoted_to_verified_fact": true,
+        "source_change_parent_retained": true,
+        "deterministic_review": true
+      }
+    },
+    {
+      "event_id": "CHG-WATCH-PM-MEDIA-20260923055908",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-FED",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-PM-MEDIA-20260923055908",
+      "captured_at": "2026-09-23T05:59:08.482Z",
+      "event_date": "2026-09-23",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-PM-MEDIA",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "review_policy": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-PM-MEDIA-20260922220940",
+        "content_hash": "8979c40b5d5470ecd0a7076952bebdfc3d63e510f826ac19227f8cbf2b36501f",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-PM-MEDIA-20260923055908",
+        "content_hash": "a42fddda7fc181d0d0c4756b91ec2e65c7991b35985b8b3527a14b866ea90f8f",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "STRUCTURED_RECORD_SET",
+        "records_added": [
+          {
+            "record_id": "66ba96ab22b50a4a4990",
+            "title": "Macquarie Group Climate event",
+            "url": "https://www.pm.gov.au/media/macquarie-group-climate-event"
+          },
+          {
+            "record_id": "951a197c12f423a2e519",
+            "title": "Doorstop - New York",
+            "url": "https://www.pm.gov.au/media/doorstop-new-york-23-september-2026"
+          }
+        ],
+        "records_removed": [
+          {
+            "record_id": "37aff474db9793bc9013",
+            "title": "Doorstop - San Jose, California",
+            "url": "https://www.pm.gov.au/media/doorstop-san-jose-california"
+          },
+          {
+            "record_id": "5484276aa10faad69356",
+            "title": "Visit to California and New York",
+            "url": "https://www.pm.gov.au/media/visit-california-and-new-york"
+          }
+        ],
+        "added_count": 2,
+        "removed_count": 2,
+        "before_count": 27,
+        "after_count": 27,
+        "delta_hash": "1c7f48b438c5e19a3c0aa07827fba8ce6a4705f01e2ce00292e27ea9083c8c7c"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-LIBERAL-HOME-20260923055908",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-FED",
+      "party_id": "AUS-FED-LIB",
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-LIBERAL-HOME-20260923055908",
+      "captured_at": "2026-09-23T05:59:08.482Z",
+      "event_date": "2026-09-23",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_PARTY",
+      "source_id": "SRC-LIBERAL-FEDERAL-HOME",
+      "capture_mode": "NORMALISED_PAGE_HASH",
+      "review_policy": "REVIEW_UNSTRUCTURED_CHANGE",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-LIBERAL-HOME-20260922095813",
+        "content_hash": "7a8fca2c2bd5266bd41030585df9eb35fc4fedbe8545fafce1358f10e2bdd45e",
+        "capture_mode": "NORMALISED_PAGE_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-LIBERAL-HOME-20260923055908",
+        "content_hash": "f6853e4eb0df78314f0209e658e9cd3f0919fb43bd83bc0fc954a5cd22804734",
+        "capture_mode": "NORMALISED_PAGE_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "TEXT_REPRESENTATION",
+        "first_difference_offset": 1420,
+        "before_length": 6618,
+        "after_length": 6340,
+        "before_excerpt": "er of the Opposition in the Senate Meet the Liberal Team The Latest Stay up to date with the Liberal Party of Australia liberalaus Labor`s lost control of their spending and now they`re coming after pensioners. It`s been revealed Labor`s cut to the Private Health Insurance rebate for people 65+ will cost pensioners $1.6 billion. Labor needs to scrap this cash grab, for the sake of seniors Australians, and our health system. Sep 22 Open post by liberalaus with ID 18214752967347997 liberalaus Labor`s lost control of its spending which puts huge pressure on inflation. This is forcing up interest rates, and making it harder to get a loan, and costing homeowners more every week. Sep 21 Open post by liberalaus with ID 17897282961603844 angustaylormp We know household budgets are under pressure, and when fuel prices go up, every trip to the bowser can hurt a little more. Australians deserve a government that will do what they can to relieve that pressure. Not one that will make it worse. Sep 21 Open post by angustaylormp with ID 18564664057074394 senatorhume Jim Chalmers talks about intergenerational fairness while Labor is pulling up the ladder on the next generation. Sep 21 Open post by senatorhume with ID 18104231428973488 angustaylormp The cost of fuel is so hot right now. We’ll halve the fuel tax and save you 27c a litre! Sep 21 Open post by angustaylormp with ID 18135697732724354 liberalaus Today’s debt is tomorrow’s taxes, and as long as the Treasurer can’t kick his spending addiction, young Australians will be left carrying the bill. Sep 21 Open post by liberalaus with ID 18149347168532718 liberalaus Mr Albanese has shown that he`s incompetent and a liar and has now been called a fraud while representing Australia overseas. Our country needs change. Only the Liberals and Nationals have the strong leadership, united team, and a realistic plan to restore Australians’ standard of living and protect our way of life. Sep 21 Open post by liberalaus with ID 17934987888381561 angustaylormp When oil spikes, our fuel price shield kicks in saving you 27 cents a litre or $15 for a typical tank.⛽️ Sep 21 Open post by angustaylormp with ID 18190427152394591 liberalaus Under the Liberals and Nationals Fuel Price Shield plan, families will pay less tax at the pump when global oil prices surge. Sep 21 Open post by liberalaus with ID 18093429986390750 senatorhume We’ll make petrol cheaper when things get tough overseas⛽️ Sep 20 Open post by senatorhume with ID 17886405219476046 angustaylormp Relief at the bowser to protect Australians from oil shocks and price spikes. This is the Fuel Price Shield ⛽️🛡️ Sep 20 Open post by angustaylormp with ID 18088544135208645 liberalaus Labor says they can’t control oil shocks overseas. But we can do more to protect Australians when they happen. That’s why the Liberals and Nationals will introduce Fuel Price Shield. Sep 20 Open post by liberalaus with ID 17882548158622689 liberalaus Every extra dollar you spend on petrol is a dollar less for groceries, rent, the mortgage or power bills. Our plan will ensure immediate relief when there’s oil shocks. Sep 20 Open post by liberalaus with ID 18076660193388743 angustaylormp When global oil prices spike, Australians shouldn’t be left to wear the pain. We have a plan to protect drivers from fuel price shocks. When oil prices average US$100 for more than two weeks, we’ll halve the fuel excise—saving motorists up to 27 cents a litre, or around $15 a tank. This shield will protect Australians and help keep the cost of filling up down. Sep 19 Open post by angustaylormp with ID 17891000760680353 angustaylormp Australians should be shielded from oil price spikes. More tomorrow. Sep 19 Open post by angustaylormp with ID 17966548287159978 angustaylormp Dangerous. Divisive. Dishonest. From economic mismanagement and censorship, to broken promises on power bills, negative gearing and living standards, their record speaks for itself. Australians deserve better than a government that says one thing before an election and does another after it. Sep 19 Open post by angustaylormp with ID 17907356166474039 senatorhume The IMF has told Chalmers what needs to happen: rein in spending and deliver real economic reform. Instead, Labor has chosen higher taxes while government spending is at its highest level in 40 years, outside the pandemic. Sep 19 Open post by senatorhume with ID 18081974291324910 angustaylormp Labor can’t be trusted to censor Australians social media. It could end up like this. Sep 18 Open post by angustaylormp with ID 18418449685159892 We need your support to win! Help us by making a donation today. 🙏🏼 $30 👏🏼 $60 😃 $120 😁 $500 😲 $1,000 🥹 $2,000 ",
+        "after_excerpt": "er of the Opposition in the Senate Meet the Liberal Team The Latest Stay up to date with the Liberal Party of Australia angustaylormp Can’t stop talking about our plan to halve the tax on fuel when oil prices surge. Sep 23 Open post by angustaylormp with ID 18131531125780029 angustaylormp When global oil prices spike, our Fuel Price Shield would save you 27c a litre. Sep 22 Open post by angustaylormp with ID 17907991374517138 angustaylormp Save 27 cents a litre. Around $15 a tank. Money back in your pocket. It could happen right now if Anthony Albanese took up our plan to halve the fuel excise. Sep 22 Open post by angustaylormp with ID 18123223363694665 liberalaus Labor`s lost control of their spending and now they`re coming after pensioners. It`s been revealed Labor`s cut to the Private Health Insurance rebate for people 65+ will cost pensioners $1.6 billion. Labor needs to scrap this cash grab, for the sake of seniors Australians, and our health system. Sep 22 Open post by liberalaus with ID 18214752967347997 liberalaus Labor`s lost control of its spending which puts huge pressure on inflation. This is forcing up interest rates, and making it harder to get a loan, and costing homeowners more every week. Sep 21 Open post by liberalaus with ID 17897282961603844 angustaylormp We know household budgets are under pressure, and when fuel prices go up, every trip to the bowser can hurt a little more. Australians deserve a government that will do what they can to relieve that pressure. Not one that will make it worse. Sep 21 Open post by angustaylormp with ID 18564664057074394 senatorhume Jim Chalmers talks about intergenerational fairness while Labor is pulling up the ladder on the next generation. Sep 21 Open post by senatorhume with ID 18104231428973488 angustaylormp The cost of fuel is so hot right now. We’ll halve the fuel tax and save you 27c a litre! Sep 21 Open post by angustaylormp with ID 18135697732724354 liberalaus Today’s debt is tomorrow’s taxes, and as long as the Treasurer can’t kick his spending addiction, young Australians will be left carrying the bill. Sep 21 Open post by liberalaus with ID 18149347168532718 liberalaus Mr Albanese has shown that he`s incompetent and a liar and has now been called a fraud while representing Australia overseas. Our country needs change. Only the Liberals and Nationals have the strong leadership, united team, and a realistic plan to restore Australians’ standard of living and protect our way of life. Sep 21 Open post by liberalaus with ID 17934987888381561 angustaylormp When oil spikes, our fuel price shield kicks in saving you 27 cents a litre or $15 for a typical tank.⛽️ Sep 21 Open post by angustaylormp with ID 18190427152394591 liberalaus Under the Liberals and Nationals Fuel Price Shield plan, families will pay less tax at the pump when global oil prices surge. Sep 21 Open post by liberalaus with ID 18093429986390750 senatorhume We’ll make petrol cheaper when things get tough overseas⛽️ Sep 20 Open post by senatorhume with ID 17886405219476046 angustaylormp Relief at the bowser to protect Australians from oil shocks and price spikes. This is the Fuel Price Shield ⛽️🛡️ Sep 20 Open post by angustaylormp with ID 18088544135208645 liberalaus Labor says they can’t control oil shocks overseas. But we can do more to protect Australians when they happen. That’s why the Liberals and Nationals will introduce Fuel Price Shield. Sep 20 Open post by liberalaus with ID 17882548158622689 liberalaus Every extra dollar you spend on petrol is a dollar less for groceries, rent, the mortgage or power bills. Our plan will ensure immediate relief when there’s oil shocks. Sep 20 Open post by liberalaus with ID 18076660193388743 angustaylormp When global oil prices spike, Australians shouldn’t be left to wear the pain. We have a plan to protect drivers from fuel price shocks. When oil prices average US$100 for more than two weeks, we’ll halve the fuel excise—saving motorists up to 27 cents a litre, or around $15 a tank. This shield will protect Australians and help keep the cost of filling up down. Sep 19 Open post by angustaylormp with ID 17891000760680353 angustaylormp Australians should be shielded from oil price spikes. More tomorrow. Sep 19 Open post by angustaylormp with ID 17966548287159978 We need your support to win! Help us by making a donation today. 🙏🏼 $30 👏🏼 $60 😃 $120 😁 $500 😲 $1,000 🥹 $2,000 ",
+        "delta_hash": "558462a01c855b2419639af07899909812f9bf0e0c808aca0e0ab48975270b90"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-GREENS-FEDERAL-MEDIA-20260923055908",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-FED",
+      "party_id": "AUS-FED-GRN",
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-GREENS-FEDERAL-MEDIA-20260923055908",
+      "captured_at": "2026-09-23T05:59:08.482Z",
+      "event_date": "2026-09-23",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_PARTY",
+      "source_id": "SRC-GREENS-FEDERAL-RELEASE-INDEX",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "review_policy": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-GREENS-FEDERAL-MEDIA-20260922045752",
+        "content_hash": "1ac14cb2dfdf745781fc9723e412bca32c35462c101142d650eb9a3c84249d40",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-GREENS-FEDERAL-MEDIA-20260923055908",
+        "content_hash": "bbfd2fd10e1c3c4fb242790ea06251c26d070dcb16b9e9557424341e64130425",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "STRUCTURED_RECORD_SET",
+        "records_added": [
+          {
+            "record_id": "0316062dbdfa7717be85",
+            "title": "Albanese Government must put Australia First and Reject Trump&#039;s Extraordinary Interference",
+            "url": "https://greens.org.au/news/media-release/albanese-government-must-put-australia-first-and-reject-trumps-extraordinary"
+          },
+          {
+            "record_id": "49f935708abd5c1ce62a",
+            "title": "Aged care Senate inquiry hears Labor is denying rights to older people",
+            "url": "https://greens.org.au/news/media-release/aged-care-senate-inquiry-hears-labor-denying-rights-older-people"
+          },
+          {
+            "record_id": "850a67e9ae195c7f6176",
+            "title": "Read more about Australians will pay the price for major parties’ fossil fuel plans: Greens",
+            "url": "https://greens.org.au/news/media-release/australians-will-pay-price-major-parties-fossil-fuel-plans-greens"
+          },
+          {
+            "record_id": "c8c31461330d9a26c07e",
+            "title": "Read more about Albanese Government must put Australia First and Reject Trump&#039;s Extraordinary Interference",
+            "url": "https://greens.org.au/news/media-release/albanese-government-must-put-australia-first-and-reject-trumps-extraordinary"
+          },
+          {
+            "record_id": "d8454d28aed515a971e4",
+            "title": "Australians will pay the price for major parties’ fossil fuel plans: Greens",
+            "url": "https://greens.org.au/news/media-release/australians-will-pay-price-major-parties-fossil-fuel-plans-greens"
+          },
+          {
+            "record_id": "f879fd282d196fd6f0da",
+            "title": "Read more about Aged care Senate inquiry hears Labor is denying rights to older people",
+            "url": "https://greens.org.au/news/media-release/aged-care-senate-inquiry-hears-labor-denying-rights-older-people"
+          }
+        ],
+        "records_removed": [
+          {
+            "record_id": "017782ad701eee6ec4be",
+            "title": "Read more about Greens to push for Mandatory Domestic Roaming, Automatic Compensation for Consumers and Enforceable Reliability Standards to Telcos",
+            "url": "https://greens.org.au/sa/news/media-release/greens-push-mandatory-domestic-roaming-automatic-compensation-consumers-and"
+          },
+          {
+            "record_id": "17a1745cbea4ff7f8f3b",
+            "title": "Read more about James Cook University must reverse proposed axing of vet lab",
+            "url": "https://greens.org.au/news/media-release/james-cook-university-must-reverse-proposed-axing-vet-lab"
+          },
+          {
+            "record_id": "290f1f0d83adc6a220c2",
+            "title": "Bathla collapse: the case for a public developer",
+            "url": "https://greens.org.au/news/media-release/bathla-collapse-case-public-developer"
+          },
+          {
+            "record_id": "32c6bf527c85525a3159",
+            "title": "Greens to push for Mandatory Domestic Roaming, Automatic Compensation for Consumers and Enforceable Reliability Standards to Telcos",
+            "url": "https://greens.org.au/sa/news/media-release/greens-push-mandatory-domestic-roaming-automatic-compensation-consumers-and"
+          },
+          {
+            "record_id": "a51f613503dbbb222660",
+            "title": "Read more about Bathla collapse: the case for a public developer",
+            "url": "https://greens.org.au/news/media-release/bathla-collapse-case-public-developer"
+          },
+          {
+            "record_id": "d1ed656bd189808a1646",
+            "title": "James Cook University must reverse proposed axing of vet lab",
+            "url": "https://greens.org.au/news/media-release/james-cook-university-must-reverse-proposed-axing-vet-lab"
+          }
+        ],
+        "added_count": 6,
+        "removed_count": 6,
+        "before_count": 75,
+        "after_count": 75,
+        "delta_hash": "3445b1a3385dae9683eabab2ecd8b4843738052bab73dd24df4fbfaed4214407"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-NSW-MINISTERIAL-RELEASES-20260923055908",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-NSW",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-NSW-MINISTERIAL-RELEASES-20260923055908",
+      "captured_at": "2026-09-23T05:59:08.482Z",
+      "event_date": "2026-09-23",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-NSW-MINISTERIAL-RELEASES",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "review_policy": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-NSW-MINISTERIAL-RELEASES-20260923003411",
+        "content_hash": "db25fb1761478e0638c773c86a1e1c109deff4c034180f4e11f3a4d9576a9196",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-NSW-MINISTERIAL-RELEASES-20260923055908",
+        "content_hash": "6b5a07a758dced922fcbbc3c515d2bdf8e74b1e1aa6ebc9a84f5f3ddce0b5aa6",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "STRUCTURED_RECORD_SET",
+        "records_added": [
+          {
+            "record_id": "1e21f2e075dfe9a03d1a",
+            "title": "NSW Government extends consultation on proposed harvest strategies to protect Yellowtail Kingfish and Snapper",
+            "url": "https://www.nsw.gov.au/ministerial-releases/harvest-strategies-consultation-extended"
+          },
+          {
+            "record_id": "d2126e68dfd0d6291236",
+            "title": "New AI leak detection technology to save millions of litres of water",
+            "url": "https://www.nsw.gov.au/ministerial-releases/new-ai-leak-detection-technology-to-save-millions-of-litres-of-water"
+          },
+          {
+            "record_id": "e73b8f6e649d3a10bc39",
+            "title": "One step closer to ensuring a stronger, more reliable firefighting fleet",
+            "url": "https://www.nsw.gov.au/ministerial-releases/one-step-closer-to-ensuring-a-stronger-more-reliable-firefighting-fleet"
+          }
+        ],
+        "records_removed": [
+          {
+            "record_id": "4cb2f8936c507f437023",
+            "title": "Minns Labor Government launches Psychosocial Advisory Service to address the rise in psychosocial incidents in the workplace",
+            "url": "https://www.nsw.gov.au/ministerial-releases/minns-labor-government-launches-psychosocial-advisory-service-to-address-rise-psychosocial-incidents-workplace"
+          },
+          {
+            "record_id": "50574f7d9c7739f82b6c",
+            "title": "A hat-trick for NSW: Moody’s maintains Triple-A credit rating",
+            "url": "https://www.nsw.gov.au/ministerial-releases/moodys-triple-a-rating-maintained"
+          },
+          {
+            "record_id": "e8b9879ddee11a8ffb87",
+            "title": "Rezoning to unlock hundreds more homes for South West Sydney",
+            "url": "https://www.nsw.gov.au/ministerial-releases/rezoning-unlocks-more-homes-southwest-sydney"
+          }
+        ],
+        "added_count": 3,
+        "removed_count": 3,
+        "before_count": 88,
+        "after_count": 88,
+        "delta_hash": "75cd38b084d2992c184a1a831572ca0cb057f7aa47baf9cc28515ab2b097da62"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-VEC-2026-STATE-ELECTION-20260923055908",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-VIC",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-VEC-2026-STATE-ELECTION-20260923055908",
+      "captured_at": "2026-09-23T05:59:08.482Z",
+      "event_date": "2026-09-23",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_ELECTORAL_AUTHORITY",
+      "source_id": "SRC-VEC-2026-STATE-ELECTION",
+      "capture_mode": "NORMALISED_PAGE_HASH",
+      "review_policy": "REVIEW_UNSTRUCTURED_CHANGE",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-VEC-2026-STATE-ELECTION-20260921010631",
+        "content_hash": "4b9728117c63a42316e4732339fdd9233f8849bb994aaeb25a1a2c81f4430d19",
+        "capture_mode": "NORMALISED_PAGE_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-VEC-2026-STATE-ELECTION-20260923055908",
+        "content_hash": "41a3242ffa739631a254ee33bd57a0c094e938817f8f93e21b2d9e10569aceb0",
+        "capture_mode": "NORMALISED_PAGE_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "TEXT_REPRESENTATION",
+        "first_difference_offset": 10332,
+        "before_length": 15092,
+        "after_length": 15092,
+        "before_excerpt": "egion (upper house) independent candidates this will be any district election office within your region. From Wednesday 14 October, Candidate Helper will have: nomination forms election office locations opening hours contact information Regis",
+        "after_excerpt": "egion (upper house) independent candidates this will be any district election office within your region. From Wednesday 21 October, Candidate Helper will have: nomination forms election office locations opening hours contact information Regis",
+        "delta_hash": "9c8d4c611561aabeb5c72a0ee77c4559649d2b8d0cfe42b950f6445985496694"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20260923055908",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-QLD",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-QLD-MINISTERIAL-STATEMENTS-20260923055908",
+      "captured_at": "2026-09-23T05:59:08.482Z",
+      "event_date": "2026-09-23",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-QLD-MINISTERIAL-STATEMENTS",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "review_policy": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-QLD-MINISTERIAL-STATEMENTS-20260923003411",
+        "content_hash": "e40b12400db3ae1a73ba439c25ae0be18b47e1a504ebd03fc528176442de7ba8",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-QLD-MINISTERIAL-STATEMENTS-20260923055908",
+        "content_hash": "0ac3577b5fb01a1c765684cee2ffd7bc20cc8f5a97773958ddc90a188c01b1c7",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "STRUCTURED_RECORD_SET",
+        "records_added": [
+          {
+            "record_id": "43a1a2cf539900436258",
+            "title": "Cuttaburra Crossing upgrade reaches major milestone",
+            "url": "https://statements.qld.gov.au/statements/106115"
+          },
+          {
+            "record_id": "616ae16cd51fd20b1413",
+            "title": "Acreage awarded to supercharge Queensland’s resources future",
+            "url": "https://statements.qld.gov.au/statements/106110"
+          },
+          {
+            "record_id": "7587c1aa315b82f5d65a",
+            "title": "Community safety improved for Brisbane with expanded CCTV network",
+            "url": "https://statements.qld.gov.au/statements/106113"
+          },
+          {
+            "record_id": "ee62705205bcbdd06fcd",
+            "title": "Awards celebrate work to build disaster resilience in Queensland",
+            "url": "https://statements.qld.gov.au/statements/106108"
+          }
+        ],
+        "records_removed": [
+          {
+            "record_id": "34886f22934e54e01702",
+            "title": "26 regional tourism projects delivered or underway across Queensland",
+            "url": "https://statements.qld.gov.au/statements/106111"
+          },
+          {
+            "record_id": "38bb4fada5806f3c8f82",
+            "title": "Tablelands Property Crime Unit charges more than 200 offenders in six-month crime crackdown",
+            "url": "https://statements.qld.gov.au/statements/106104"
+          },
+          {
+            "record_id": "9f1e522f59ec992382d7",
+            "title": "Queensland welcomes new national critical metals research centre",
+            "url": "https://statements.qld.gov.au/statements/106098"
+          },
+          {
+            "record_id": "f0c1ba406cede429148b",
+            "title": "Events boom delivers $2.7 billion boost for Queensland",
+            "url": "https://statements.qld.gov.au/statements/106096"
+          }
+        ],
+        "added_count": 4,
+        "removed_count": 4,
+        "before_count": 16,
+        "after_count": 16,
+        "delta_hash": "97dbc6141b95ec671472921bf28bd6c56fc78130c0a7e786246d468e0701a701"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "SIG-REV-CHG-WATCH-PM-MEDIA-20260923055908",
+      "parent_event_id": "CHG-WATCH-PM-MEDIA-20260923055908",
+      "review_id": "REV-CHG-WATCH-PM-MEDIA-20260923055908",
+      "jurisdiction_id": "AUS-FED",
+      "party_id": null,
+      "actor_id": null,
+      "contest_id": null,
+      "cycle_id": null,
+      "source_snapshot_id": "AUTO-WATCH-PM-MEDIA-20260923055908",
+      "record_id": null,
+      "captured_at": "2026-09-23T05:59:52.287Z",
+      "event_date": "2026-09-23",
+      "checkpoint": "CONTINUOUS_FORWARD_SIGNAL_REVIEW",
+      "event_type": "SIGNAL_CREATED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-PM-MEDIA",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "claim": "Prime Minister of Australia — media added 2 structured publication records to its forward-captured official index: Macquarie Group Climate event; Doorstop - New York",
+      "observed_behaviour": "One or more structured publication records appeared in the monitored official source index after the preceding forward snapshot.",
+      "publication_records_added": [
+        {
+          "record_id": "66ba96ab22b50a4a4990",
+          "title": "Macquarie Group Climate event",
+          "url": "https://www.pm.gov.au/media/macquarie-group-climate-event"
+        },
+        {
+          "record_id": "951a197c12f423a2e519",
+          "title": "Doorstop - New York",
+          "url": "https://www.pm.gov.au/media/doorstop-new-york-23-september-2026"
+        }
+      ],
+      "publication_records_removed": [
+        {
+          "record_id": "37aff474db9793bc9013",
+          "title": "Doorstop - San Jose, California",
+          "url": "https://www.pm.gov.au/media/doorstop-san-jose-california"
+        },
+        {
+          "record_id": "5484276aa10faad69356",
+          "title": "Visit to California and New York",
+          "url": "https://www.pm.gov.au/media/visit-california-and-new-york"
+        }
+      ],
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "underlying_publication_claims_not_promoted_to_verified_fact": true,
+        "source_change_parent_retained": true,
+        "deterministic_review": true
+      }
+    },
+    {
+      "event_id": "SIG-REV-CHG-WATCH-GREENS-FEDERAL-MEDIA-20260923055908",
+      "parent_event_id": "CHG-WATCH-GREENS-FEDERAL-MEDIA-20260923055908",
+      "review_id": "REV-CHG-WATCH-GREENS-FEDERAL-MEDIA-20260923055908",
+      "jurisdiction_id": "AUS-FED",
+      "party_id": "AUS-FED-GRN",
+      "actor_id": null,
+      "contest_id": null,
+      "cycle_id": null,
+      "source_snapshot_id": "AUTO-WATCH-GREENS-FEDERAL-MEDIA-20260923055908",
+      "record_id": null,
+      "captured_at": "2026-09-23T05:59:52.287Z",
+      "event_date": "2026-09-23",
+      "checkpoint": "CONTINUOUS_FORWARD_SIGNAL_REVIEW",
+      "event_type": "SIGNAL_CREATED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_PARTY",
+      "source_id": "SRC-GREENS-FEDERAL-RELEASE-INDEX",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "claim": "Australian Greens — Federal MPs media releases added 6 structured publication records to its forward-captured official index: Albanese Government must put Australia First and Reject Trump&#039;s Extraordinary Interference; Aged care Senate inquiry hears Labor is denying rights to older people; Read more about Australians will pay the price for major parties’ fossil fuel plans: Greens; Read more about Albanese Government must put Australia First and Reject Trump&#039;s Extraordinary Interference; Australians will pay the price for major parties’ fossil fuel plans: Greens; +1 more",
+      "observed_behaviour": "One or more structured publication records appeared in the monitored official source index after the preceding forward snapshot.",
+      "publication_records_added": [
+        {
+          "record_id": "0316062dbdfa7717be85",
+          "title": "Albanese Government must put Australia First and Reject Trump&#039;s Extraordinary Interference",
+          "url": "https://greens.org.au/news/media-release/albanese-government-must-put-australia-first-and-reject-trumps-extraordinary"
+        },
+        {
+          "record_id": "49f935708abd5c1ce62a",
+          "title": "Aged care Senate inquiry hears Labor is denying rights to older people",
+          "url": "https://greens.org.au/news/media-release/aged-care-senate-inquiry-hears-labor-denying-rights-older-people"
+        },
+        {
+          "record_id": "850a67e9ae195c7f6176",
+          "title": "Read more about Australians will pay the price for major parties’ fossil fuel plans: Greens",
+          "url": "https://greens.org.au/news/media-release/australians-will-pay-price-major-parties-fossil-fuel-plans-greens"
+        },
+        {
+          "record_id": "c8c31461330d9a26c07e",
+          "title": "Read more about Albanese Government must put Australia First and Reject Trump&#039;s Extraordinary Interference",
+          "url": "https://greens.org.au/news/media-release/albanese-government-must-put-australia-first-and-reject-trumps-extraordinary"
+        },
+        {
+          "record_id": "d8454d28aed515a971e4",
+          "title": "Australians will pay the price for major parties’ fossil fuel plans: Greens",
+          "url": "https://greens.org.au/news/media-release/australians-will-pay-price-major-parties-fossil-fuel-plans-greens"
+        },
+        {
+          "record_id": "f879fd282d196fd6f0da",
+          "title": "Read more about Aged care Senate inquiry hears Labor is denying rights to older people",
+          "url": "https://greens.org.au/news/media-release/aged-care-senate-inquiry-hears-labor-denying-rights-older-people"
+        }
+      ],
+      "publication_records_removed": [
+        {
+          "record_id": "017782ad701eee6ec4be",
+          "title": "Read more about Greens to push for Mandatory Domestic Roaming, Automatic Compensation for Consumers and Enforceable Reliability Standards to Telcos",
+          "url": "https://greens.org.au/sa/news/media-release/greens-push-mandatory-domestic-roaming-automatic-compensation-consumers-and"
+        },
+        {
+          "record_id": "17a1745cbea4ff7f8f3b",
+          "title": "Read more about James Cook University must reverse proposed axing of vet lab",
+          "url": "https://greens.org.au/news/media-release/james-cook-university-must-reverse-proposed-axing-vet-lab"
+        },
+        {
+          "record_id": "290f1f0d83adc6a220c2",
+          "title": "Bathla collapse: the case for a public developer",
+          "url": "https://greens.org.au/news/media-release/bathla-collapse-case-public-developer"
+        },
+        {
+          "record_id": "32c6bf527c85525a3159",
+          "title": "Greens to push for Mandatory Domestic Roaming, Automatic Compensation for Consumers and Enforceable Reliability Standards to Telcos",
+          "url": "https://greens.org.au/sa/news/media-release/greens-push-mandatory-domestic-roaming-automatic-compensation-consumers-and"
+        },
+        {
+          "record_id": "a51f613503dbbb222660",
+          "title": "Read more about Bathla collapse: the case for a public developer",
+          "url": "https://greens.org.au/news/media-release/bathla-collapse-case-public-developer"
+        },
+        {
+          "record_id": "d1ed656bd189808a1646",
+          "title": "James Cook University must reverse proposed axing of vet lab",
+          "url": "https://greens.org.au/news/media-release/james-cook-university-must-reverse-proposed-axing-vet-lab"
+        }
+      ],
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "underlying_publication_claims_not_promoted_to_verified_fact": true,
+        "source_change_parent_retained": true,
+        "deterministic_review": true
+      }
+    },
+    {
+      "event_id": "SIG-REV-CHG-WATCH-NSW-MINISTERIAL-RELEASES-20260923055908",
+      "parent_event_id": "CHG-WATCH-NSW-MINISTERIAL-RELEASES-20260923055908",
+      "review_id": "REV-CHG-WATCH-NSW-MINISTERIAL-RELEASES-20260923055908",
+      "jurisdiction_id": "AUS-NSW",
+      "party_id": null,
+      "actor_id": null,
+      "contest_id": null,
+      "cycle_id": null,
+      "source_snapshot_id": "AUTO-WATCH-NSW-MINISTERIAL-RELEASES-20260923055908",
+      "record_id": null,
+      "captured_at": "2026-09-23T05:59:52.287Z",
+      "event_date": "2026-09-23",
+      "checkpoint": "CONTINUOUS_FORWARD_SIGNAL_REVIEW",
+      "event_type": "SIGNAL_CREATED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-NSW-MINISTERIAL-RELEASES",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "claim": "NSW Government — Ministerial releases added 3 structured publication records to its forward-captured official index: NSW Government extends consultation on proposed harvest strategies to protect Yellowtail Kingfish and Snapper; New AI leak detection technology to save millions of litres of water; One step closer to ensuring a stronger, more reliable firefighting fleet",
+      "observed_behaviour": "One or more structured publication records appeared in the monitored official source index after the preceding forward snapshot.",
+      "publication_records_added": [
+        {
+          "record_id": "1e21f2e075dfe9a03d1a",
+          "title": "NSW Government extends consultation on proposed harvest strategies to protect Yellowtail Kingfish and Snapper",
+          "url": "https://www.nsw.gov.au/ministerial-releases/harvest-strategies-consultation-extended"
+        },
+        {
+          "record_id": "d2126e68dfd0d6291236",
+          "title": "New AI leak detection technology to save millions of litres of water",
+          "url": "https://www.nsw.gov.au/ministerial-releases/new-ai-leak-detection-technology-to-save-millions-of-litres-of-water"
+        },
+        {
+          "record_id": "e73b8f6e649d3a10bc39",
+          "title": "One step closer to ensuring a stronger, more reliable firefighting fleet",
+          "url": "https://www.nsw.gov.au/ministerial-releases/one-step-closer-to-ensuring-a-stronger-more-reliable-firefighting-fleet"
+        }
+      ],
+      "publication_records_removed": [
+        {
+          "record_id": "4cb2f8936c507f437023",
+          "title": "Minns Labor Government launches Psychosocial Advisory Service to address the rise in psychosocial incidents in the workplace",
+          "url": "https://www.nsw.gov.au/ministerial-releases/minns-labor-government-launches-psychosocial-advisory-service-to-address-rise-psychosocial-incidents-workplace"
+        },
+        {
+          "record_id": "50574f7d9c7739f82b6c",
+          "title": "A hat-trick for NSW: Moody’s maintains Triple-A credit rating",
+          "url": "https://www.nsw.gov.au/ministerial-releases/moodys-triple-a-rating-maintained"
+        },
+        {
+          "record_id": "e8b9879ddee11a8ffb87",
+          "title": "Rezoning to unlock hundreds more homes for South West Sydney",
+          "url": "https://www.nsw.gov.au/ministerial-releases/rezoning-unlocks-more-homes-southwest-sydney"
+        }
+      ],
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "underlying_publication_claims_not_promoted_to_verified_fact": true,
+        "source_change_parent_retained": true,
+        "deterministic_review": true
+      }
+    },
+    {
+      "event_id": "SIG-REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20260923055908",
+      "parent_event_id": "CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20260923055908",
+      "review_id": "REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20260923055908",
+      "jurisdiction_id": "AUS-QLD",
+      "party_id": null,
+      "actor_id": null,
+      "contest_id": null,
+      "cycle_id": null,
+      "source_snapshot_id": "AUTO-WATCH-QLD-MINISTERIAL-STATEMENTS-20260923055908",
+      "record_id": null,
+      "captured_at": "2026-09-23T05:59:52.287Z",
+      "event_date": "2026-09-23",
+      "checkpoint": "CONTINUOUS_FORWARD_SIGNAL_REVIEW",
+      "event_type": "SIGNAL_CREATED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-QLD-MINISTERIAL-STATEMENTS",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "claim": "Queensland Government — Ministerial Media Statements added 4 structured publication records to its forward-captured official index: Cuttaburra Crossing upgrade reaches major milestone; Acreage awarded to supercharge Queensland’s resources future; Community safety improved for Brisbane with expanded CCTV network; Awards celebrate work to build disaster resilience in Queensland",
+      "observed_behaviour": "One or more structured publication records appeared in the monitored official source index after the preceding forward snapshot.",
+      "publication_records_added": [
+        {
+          "record_id": "43a1a2cf539900436258",
+          "title": "Cuttaburra Crossing upgrade reaches major milestone",
+          "url": "https://statements.qld.gov.au/statements/106115"
+        },
+        {
+          "record_id": "616ae16cd51fd20b1413",
+          "title": "Acreage awarded to supercharge Queensland’s resources future",
+          "url": "https://statements.qld.gov.au/statements/106110"
+        },
+        {
+          "record_id": "7587c1aa315b82f5d65a",
+          "title": "Community safety improved for Brisbane with expanded CCTV network",
+          "url": "https://statements.qld.gov.au/statements/106113"
+        },
+        {
+          "record_id": "ee62705205bcbdd06fcd",
+          "title": "Awards celebrate work to build disaster resilience in Queensland",
+          "url": "https://statements.qld.gov.au/statements/106108"
+        }
+      ],
+      "publication_records_removed": [
+        {
+          "record_id": "34886f22934e54e01702",
+          "title": "26 regional tourism projects delivered or underway across Queensland",
+          "url": "https://statements.qld.gov.au/statements/106111"
+        },
+        {
+          "record_id": "38bb4fada5806f3c8f82",
+          "title": "Tablelands Property Crime Unit charges more than 200 offenders in six-month crime crackdown",
+          "url": "https://statements.qld.gov.au/statements/106104"
+        },
+        {
+          "record_id": "9f1e522f59ec992382d7",
+          "title": "Queensland welcomes new national critical metals research centre",
+          "url": "https://statements.qld.gov.au/statements/106098"
+        },
+        {
+          "record_id": "f0c1ba406cede429148b",
+          "title": "Events boom delivers $2.7 billion boost for Queensland",
+          "url": "https://statements.qld.gov.au/statements/106096"
         }
       ],
       "inference": null,

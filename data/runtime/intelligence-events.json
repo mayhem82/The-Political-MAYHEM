@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-INTELLIGENCE-EVENTS-001",
   "scope": "Australia — multi-jurisdiction",
-  "captured_at": "2026-09-23T06:00:02.838Z",
+  "captured_at": "2026-09-23T11:38:42.366Z",
   "mode": "FORWARD_ONLY",
   "rules": {
     "observation_distinct_from_inference": true,
@@ -86392,6 +86392,114 @@
           "record_id": "f0c1ba406cede429148b",
           "title": "Events boom delivers $2.7 billion boost for Queensland",
           "url": "https://statements.qld.gov.au/statements/106096"
+        }
+      ],
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "underlying_publication_claims_not_promoted_to_verified_fact": true,
+        "source_change_parent_retained": true,
+        "deterministic_review": true
+      }
+    },
+    {
+      "event_id": "CHG-WATCH-NSW-MINISTERIAL-RELEASES-20260923113807",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-NSW",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-NSW-MINISTERIAL-RELEASES-20260923113807",
+      "captured_at": "2026-09-23T11:38:07.477Z",
+      "event_date": "2026-09-23",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-NSW-MINISTERIAL-RELEASES",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "review_policy": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-NSW-MINISTERIAL-RELEASES-20260923055908",
+        "content_hash": "6b5a07a758dced922fcbbc3c515d2bdf8e74b1e1aa6ebc9a84f5f3ddce0b5aa6",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-NSW-MINISTERIAL-RELEASES-20260923113807",
+        "content_hash": "97d75604119c734a311f848e5f50e54cca39be2683475c301e450a5623237950",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "STRUCTURED_RECORD_SET",
+        "records_added": [
+          {
+            "record_id": "e8b9879ddee11a8ffb87",
+            "title": "Rezoning to unlock hundreds more homes for South West Sydney",
+            "url": "https://www.nsw.gov.au/ministerial-releases/rezoning-unlocks-more-homes-southwest-sydney"
+          }
+        ],
+        "records_removed": [
+          {
+            "record_id": "0bb50dc362f6a34e710b",
+            "title": "New look at $630 million Fairfield Hospital Redevelopment",
+            "url": "https://www.nsw.gov.au/ministerial-releases/new-look-at-630-million-fairfield-hospital-redevelopment"
+          }
+        ],
+        "added_count": 1,
+        "removed_count": 1,
+        "before_count": 88,
+        "after_count": 88,
+        "delta_hash": "072d695ab15fc28c7f4d58d9c9c61b06de816d7b5d3b8ead0133ceeeb3018178"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "SIG-REV-CHG-WATCH-NSW-MINISTERIAL-RELEASES-20260923113807",
+      "parent_event_id": "CHG-WATCH-NSW-MINISTERIAL-RELEASES-20260923113807",
+      "review_id": "REV-CHG-WATCH-NSW-MINISTERIAL-RELEASES-20260923113807",
+      "jurisdiction_id": "AUS-NSW",
+      "party_id": null,
+      "actor_id": null,
+      "contest_id": null,
+      "cycle_id": null,
+      "source_snapshot_id": "AUTO-WATCH-NSW-MINISTERIAL-RELEASES-20260923113807",
+      "record_id": "e8b9879ddee11a8ffb87",
+      "captured_at": "2026-09-23T11:38:38.348Z",
+      "event_date": "2026-09-23",
+      "checkpoint": "CONTINUOUS_FORWARD_SIGNAL_REVIEW",
+      "event_type": "SIGNAL_CREATED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-NSW-MINISTERIAL-RELEASES",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "claim": "NSW Government — Ministerial releases added 1 structured publication record to its forward-captured official index: Rezoning to unlock hundreds more homes for South West Sydney",
+      "observed_behaviour": "One or more structured publication records appeared in the monitored official source index after the preceding forward snapshot.",
+      "publication_records_added": [
+        {
+          "record_id": "e8b9879ddee11a8ffb87",
+          "title": "Rezoning to unlock hundreds more homes for South West Sydney",
+          "url": "https://www.nsw.gov.au/ministerial-releases/rezoning-unlocks-more-homes-southwest-sydney"
+        }
+      ],
+      "publication_records_removed": [
+        {
+          "record_id": "0bb50dc362f6a34e710b",
+          "title": "New look at $630 million Fairfield Hospital Redevelopment",
+          "url": "https://www.nsw.gov.au/ministerial-releases/new-look-at-630-million-fairfield-hospital-redevelopment"
         }
       ],
       "inference": null,

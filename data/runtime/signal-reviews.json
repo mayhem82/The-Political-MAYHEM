@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-SIGNAL-REVIEWS-001",
   "created_at": "2026-09-09T05:05:00+10:00",
-  "updated_at": "2026-09-23T11:38:38.348Z",
+  "updated_at": "2026-09-23T17:00:39.119Z",
   "rules": {
     "append_only": true,
     "raw_source_change_is_immutable": true,
@@ -31523,6 +31523,86 @@
           }
         ],
         "delta_hash": "072d695ab15fc28c7f4d58d9c9c61b06de816d7b5d3b8ead0133ceeeb3018178"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-PM-MEDIA-20260923170000",
+      "source_change_event_id": "CHG-WATCH-PM-MEDIA-20260923170000",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-PM-MEDIA-20260923170000",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Prime Minister of Australia — media added 1 structured publication record to its forward-captured official index: Agreement on long-term support and cooperation between Australia and Ukraine",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-09-23T17:00:39.119Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "f7019ab773ec7fccf6e5",
+            "title": "Agreement on long-term support and cooperation between Australia and Ukraine",
+            "url": "https://www.pm.gov.au/media/agreement-long-term-support-and-cooperation-between-australia-and-ukraine"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "990a0ef69dc7c2d43def",
+            "title": "Working with Apple on online safety",
+            "url": "https://www.pm.gov.au/media/working-apple-online-safety"
+          }
+        ],
+        "delta_hash": "83d90c48be3ccd3f11ca328eba192db7d3bdd63e06f0f9b4cfcbcbaa893f27ea"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-NSW-MINISTERIAL-RELEASES-20260923170000",
+      "source_change_event_id": "CHG-WATCH-NSW-MINISTERIAL-RELEASES-20260923170000",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-NSW-MINISTERIAL-RELEASES-20260923170000",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "NSW Government — Ministerial releases added 1 structured publication record to its forward-captured official index: New look at $630 million Fairfield Hospital Redevelopment",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-09-23T17:00:39.119Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "0bb50dc362f6a34e710b",
+            "title": "New look at $630 million Fairfield Hospital Redevelopment",
+            "url": "https://www.nsw.gov.au/ministerial-releases/new-look-at-630-million-fairfield-hospital-redevelopment"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "e8b9879ddee11a8ffb87",
+            "title": "Rezoning to unlock hundreds more homes for South West Sydney",
+            "url": "https://www.nsw.gov.au/ministerial-releases/rezoning-unlocks-more-homes-southwest-sydney"
+          }
+        ],
+        "delta_hash": "8aaaff275014836e823eaeccbc85bc5efbc82480245f888d0d94f327338e7ed3"
       },
       "integrity": {
         "source_change_unchanged": true,

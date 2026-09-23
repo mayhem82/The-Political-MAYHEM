@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-SIGNAL-REVIEWS-001",
   "created_at": "2026-09-09T05:05:00+10:00",
-  "updated_at": "2026-09-22T22:10:19.168Z",
+  "updated_at": "2026-09-23T00:34:48.850Z",
   "rules": {
     "append_only": true,
     "raw_source_change_is_immutable": true,
@@ -31053,6 +31053,166 @@
           }
         ],
         "delta_hash": "b7cf6a3cf3568d80459d0b2e9c794b8d222314dbab83d0e6707bba4dd076208e"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-NSW-MINISTERIAL-RELEASES-20260923003411",
+      "source_change_event_id": "CHG-WATCH-NSW-MINISTERIAL-RELEASES-20260923003411",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-NSW-MINISTERIAL-RELEASES-20260923003411",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "NSW Government — Ministerial releases added 6 structured publication records to its forward-captured official index: 220 new homes for Sydney’s essential workers underway in Annandale; NSW Government tables key reforms to support veterinary workforce and modernise service delivery; Minns Government’s far western flight subsidies to continue; Free training for council planners to speed up housing approvals; New outsourcing protections for NSW council workers; +1 more",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-09-23T00:34:48.850Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "1b0ea396c35b2e25cd42",
+            "title": "220 new homes for Sydney’s essential workers underway in Annandale",
+            "url": "https://www.nsw.gov.au/ministerial-releases/220-new-homes-for-sydneys-essential-workers-underway-annandale"
+          },
+          {
+            "record_id": "3c28eaa09e4fc517b811",
+            "title": "NSW Government tables key reforms to support veterinary workforce and modernise service delivery",
+            "url": "https://www.nsw.gov.au/ministerial-releases/nsw-government-tables-key-reforms-to-support-veterinary-workforce-and-modernise-service-delivery"
+          },
+          {
+            "record_id": "6844d26605e01144442f",
+            "title": "Minns Government’s far western flight subsidies to continue",
+            "url": "https://www.nsw.gov.au/ministerial-releases/minns-governments-far-western-flight-subsidies-to-continue"
+          },
+          {
+            "record_id": "94d70e54da81d40ec4be",
+            "title": "Free training for council planners to speed up housing approvals",
+            "url": "https://www.nsw.gov.au/ministerial-releases/free-training-council-planners"
+          },
+          {
+            "record_id": "a36a378f4ab6f81668ae",
+            "title": "New outsourcing protections for NSW council workers",
+            "url": "https://www.nsw.gov.au/ministerial-releases/council-worker-outsourcing-protections"
+          },
+          {
+            "record_id": "a3f5fb6abd04611c2e23",
+            "title": "Major review launched to strengthen NSW Community Transport Program",
+            "url": "https://www.nsw.gov.au/ministerial-releases/major-review-launched-to-strengthen-nsw-community-transport-program"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "292876b35f07d9cf1eeb",
+            "title": "All ten stations ready to go for Southwest Metro",
+            "url": "https://www.nsw.gov.au/ministerial-releases/all-ten-stations-ready-to-go-for-southwest-metro"
+          },
+          {
+            "record_id": "318ca761b3a528c915fd",
+            "title": "Memorial to historical forced adoption practices unveiled",
+            "url": "https://www.nsw.gov.au/ministerial-releases/memorial-to-historical-forced-adoption-practices-unveiled"
+          },
+          {
+            "record_id": "3425d33504a05aa5f8cd",
+            "title": "Research to support children with inherited cancer risk shares in Minns Labor Government funding boost",
+            "url": "https://www.nsw.gov.au/ministerial-releases/research-to-support-children-inherited-cancer-risk-shares-minns-labor-government-funding-boost"
+          },
+          {
+            "record_id": "7a1e60be92b43f7e2198",
+            "title": "Minns Labor Government introducing significant reforms to sexual assault prosecutions",
+            "url": "https://www.nsw.gov.au/ministerial-releases/minns-labor-government-introducing-significant-reforms-to-sexual-assault-prosecutions"
+          },
+          {
+            "record_id": "b79a9c381f710e4eee71",
+            "title": "Western Sydney camp set for a $49 million outdoor learning transformation",
+            "url": "https://www.nsw.gov.au/ministerial-releases/western-sydney-camp-set-for-a-49-million-outdoor-learning-transformation"
+          },
+          {
+            "record_id": "c7ba860e4f6bd24d2b4d",
+            "title": "Safer and smoother connections along Empire Bay Drive",
+            "url": "https://www.nsw.gov.au/ministerial-releases/safer-and-smoother-connections-along-empire-bay-drive"
+          }
+        ],
+        "delta_hash": "83b39078142213c4195715b0a255cf28a3e299e06edb71180baddf2b57691c4a"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20260923003411",
+      "source_change_event_id": "CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20260923003411",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20260923003411",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Queensland Government — Ministerial Media Statements added 4 structured publication records to its forward-captured official index: New training facility to supercharge future sparkies; Proposed $1.9 billion steel and manufacturing investments to supercharge Queensland jobs; Racing governance to be streamlined in Queensland; CMC Rocks on as Queensland cements status as Australia's events capital",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-09-23T00:34:48.850Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "10928a3fcea4499b0625",
+            "title": "New training facility to supercharge future sparkies",
+            "url": "https://statements.qld.gov.au/statements/106109"
+          },
+          {
+            "record_id": "1f964466612955e26316",
+            "title": "Proposed $1.9 billion steel and manufacturing investments to supercharge Queensland jobs",
+            "url": "https://statements.qld.gov.au/statements/106106"
+          },
+          {
+            "record_id": "259dd2f528eefdc5fa47",
+            "title": "Racing governance to be streamlined in Queensland",
+            "url": "https://statements.qld.gov.au/statements/106112"
+          },
+          {
+            "record_id": "c7b60ecfd518dc4c5066",
+            "title": "CMC Rocks on as Queensland cements status as Australia's events capital",
+            "url": "https://statements.qld.gov.au/statements/106107"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "799a3ee80eb07a22ce76",
+            "title": "Regional Queensland dominates state training awards",
+            "url": "https://statements.qld.gov.au/statements/106092"
+          },
+          {
+            "record_id": "820988219dbcb00173b3",
+            "title": "Local feedback requested for draft Georgina and Diamantina water plan",
+            "url": "https://statements.qld.gov.au/statements/106094"
+          },
+          {
+            "record_id": "87b1ad91064109ee36ee",
+            "title": "Toowoomba Youth Foyer moves ahead",
+            "url": "https://statements.qld.gov.au/statements/106093"
+          },
+          {
+            "record_id": "c34aac4317cbc02436b6",
+            "title": "Enhanced biosecurity investment in local outbreak response",
+            "url": "https://statements.qld.gov.au/statements/106095"
+          }
+        ],
+        "delta_hash": "900d17b3293573654ca5dea6047ec4e2940cc73738d1a8ea99a174cb562d0236"
       },
       "integrity": {
         "source_change_unchanged": true,

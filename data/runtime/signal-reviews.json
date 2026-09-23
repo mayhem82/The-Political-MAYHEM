@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-SIGNAL-REVIEWS-001",
   "created_at": "2026-09-09T05:05:00+10:00",
-  "updated_at": "2026-09-23T20:23:23.090Z",
+  "updated_at": "2026-09-23T23:43:21.646Z",
   "rules": {
     "append_only": true,
     "raw_source_change_is_immutable": true,
@@ -31643,6 +31643,166 @@
           }
         ],
         "delta_hash": "072d695ab15fc28c7f4d58d9c9c61b06de816d7b5d3b8ead0133ceeeb3018178"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-PM-MEDIA-20260923234247",
+      "source_change_event_id": "CHG-WATCH-PM-MEDIA-20260923234247",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-PM-MEDIA-20260923234247",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Prime Minister of Australia — media added 2 structured publication records to its forward-captured official index: Remarks, Australia-Ukraine meeting; Press conference - New York",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-09-23T23:43:21.646Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "c8a9903d5ef309c38cde",
+            "title": "Remarks, Australia-Ukraine meeting",
+            "url": "https://www.pm.gov.au/media/remarks-australia-ukraine-meeting"
+          },
+          {
+            "record_id": "e8fa4013afeb0bee5cb8",
+            "title": "Press conference - New York",
+            "url": "https://www.pm.gov.au/media/press-conference-new-york"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "6eab1d8b0ea231523cd8",
+            "title": "Television interview - ABC Insiders",
+            "url": "https://www.pm.gov.au/media/television-interview-abc-insiders-8"
+          },
+          {
+            "record_id": "de30dcaa7ee01ff85387",
+            "title": "Press conference - Apple Park, California",
+            "url": "https://www.pm.gov.au/media/press-conference-apple-park-california"
+          }
+        ],
+        "delta_hash": "acf5b175eeecb8a3ec2fde22e72ee45cac4a5ae3d45b4bf931e11de476c1bc33"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-NSW-MINISTERIAL-RELEASES-20260923234247",
+      "source_change_event_id": "CHG-WATCH-NSW-MINISTERIAL-RELEASES-20260923234247",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-NSW-MINISTERIAL-RELEASES-20260923234247",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "NSW Government — Ministerial releases added 4 structured publication records to its forward-captured official index: Extra trains for Knights fans as Newcastle charges toward history; Minns Labor Government to renew and upgrade Bradfield Park under Sydney Harbour Bridge; Water quality improves at NSW beaches; 950 additional nurses for higher quality healthcare",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-09-23T23:43:21.646Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "26d6722a60784220aa1b",
+            "title": "Extra trains for Knights fans as Newcastle charges toward history",
+            "url": "https://www.nsw.gov.au/ministerial-releases/extra-trains-for-knights-fans-as-newcastle-charges-toward-history"
+          },
+          {
+            "record_id": "51d4f63fc4149ef14861",
+            "title": "Minns Labor Government to renew and upgrade Bradfield Park under Sydney Harbour Bridge",
+            "url": "https://www.nsw.gov.au/ministerial-releases/bradfield-park-gets-upgrade"
+          },
+          {
+            "record_id": "a7f45b18a981cb5fd4d4",
+            "title": "Water quality improves at NSW beaches",
+            "url": "https://www.nsw.gov.au/ministerial-releases/beach-water-quality-improves"
+          },
+          {
+            "record_id": "b0594d75cc956c5d44e8",
+            "title": "950 additional nurses for higher quality healthcare",
+            "url": "https://www.nsw.gov.au/ministerial-releases/950-nurses-being-recruited"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "1b0ea396c35b2e25cd42",
+            "title": "220 new homes for Sydney’s essential workers underway in Annandale",
+            "url": "https://www.nsw.gov.au/ministerial-releases/220-new-homes-for-sydneys-essential-workers-underway-annandale"
+          },
+          {
+            "record_id": "94d70e54da81d40ec4be",
+            "title": "Free training for council planners to speed up housing approvals",
+            "url": "https://www.nsw.gov.au/ministerial-releases/free-training-council-planners"
+          },
+          {
+            "record_id": "d2126e68dfd0d6291236",
+            "title": "New AI leak detection technology to save millions of litres of water",
+            "url": "https://www.nsw.gov.au/ministerial-releases/new-ai-leak-detection-technology-to-save-millions-of-litres-of-water"
+          },
+          {
+            "record_id": "e8b9879ddee11a8ffb87",
+            "title": "Rezoning to unlock hundreds more homes for South West Sydney",
+            "url": "https://www.nsw.gov.au/ministerial-releases/rezoning-unlocks-more-homes-southwest-sydney"
+          }
+        ],
+        "delta_hash": "bb961ee1060e2d1d9a9502480ecb5c98291256fc0b7ce8fbaacaeb8120a6d0b5"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20260923234247",
+      "source_change_event_id": "CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20260923234247",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20260923234247",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Queensland Government — Ministerial Media Statements added 1 structured publication record to its forward-captured official index: 2,899 new homes fast tracked across Central Queensland",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-09-23T23:43:21.646Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "c1a01a7ab5f75d413056",
+            "title": "2,899 new homes fast tracked across Central Queensland",
+            "url": "https://statements.qld.gov.au/statements/106125"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "b043765ce2303024bba5",
+            "title": "Community safety improved for Moreton Bay",
+            "url": "https://statements.qld.gov.au/statements/106097"
+          }
+        ],
+        "delta_hash": "ae1a75aca6a755f3eddfc21bb5239786e324f530f12d9daef84c3f9b59adfb77"
       },
       "integrity": {
         "source_change_unchanged": true,

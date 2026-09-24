@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-SIGNAL-REVIEWS-001",
   "created_at": "2026-09-09T05:05:00+10:00",
-  "updated_at": "2026-09-23T23:43:21.646Z",
+  "updated_at": "2026-09-24T04:52:50.939Z",
   "rules": {
     "append_only": true,
     "raw_source_change_is_immutable": true,
@@ -31803,6 +31803,348 @@
           }
         ],
         "delta_hash": "ae1a75aca6a755f3eddfc21bb5239786e324f530f12d9daef84c3f9b59adfb77"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-PM-MEDIA-20260924045212",
+      "source_change_event_id": "CHG-WATCH-PM-MEDIA-20260924045212",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-PM-MEDIA-20260924045212",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Prime Minister of Australia — media added 1 structured publication record to its forward-captured official index: Australia&#039;s place in the Indo-Pacific - 2026 Atlantic Council Global Citizen Awards - New York",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-09-24T04:52:50.939Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "30dc4fb99b06b6d0049e",
+            "title": "Australia&#039;s place in the Indo-Pacific - 2026 Atlantic Council Global Citizen Awards - New York",
+            "url": "https://www.pm.gov.au/media/australias-place-indo-pacific-2026-atlantic-council-global-citizen-awards-new-york"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "b26680d4332286ee6037",
+            "title": "Press conference - United Nations, New York",
+            "url": "https://www.pm.gov.au/media/press-conference-united-nations-new-york"
+          }
+        ],
+        "delta_hash": "49fe0c0f29be5e12045a83b118e8420ca15b69fd6ae7af33be7e5eb58c107bf4"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-GREENS-FEDERAL-MEDIA-20260924045212",
+      "source_change_event_id": "CHG-WATCH-GREENS-FEDERAL-MEDIA-20260924045212",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-GREENS-FEDERAL-MEDIA-20260924045212",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": "AUS-FED-GRN",
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Australian Greens — Federal MPs media releases added 2 structured publication records to its forward-captured official index: OpenAI Medicare hack is a serious foreign attack in Australia; Read more about OpenAI Medicare hack is a serious foreign attack in Australia",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-09-24T04:52:50.939Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "3aa6651d845a3fa8bae8",
+            "title": "OpenAI Medicare hack is a serious foreign attack in Australia",
+            "url": "https://greens.org.au/news/media-release/openai-medicare-hack-serious-foreign-attack-australia"
+          },
+          {
+            "record_id": "6466fa4087be6450efb6",
+            "title": "Read more about OpenAI Medicare hack is a serious foreign attack in Australia",
+            "url": "https://greens.org.au/news/media-release/openai-medicare-hack-serious-foreign-attack-australia"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "2cca2d3d6f8ba800dff2",
+            "title": "Greens say universities must stop steamrolling staff and students in AI rush",
+            "url": "https://greens.org.au/news/media-release/greens-say-universities-must-stop-steamrolling-staff-and-students-ai-rush"
+          },
+          {
+            "record_id": "d2a21b8bb9fcf68e2c59",
+            "title": "Read more about Greens say universities must stop steamrolling staff and students in AI rush",
+            "url": "https://greens.org.au/news/media-release/greens-say-universities-must-stop-steamrolling-staff-and-students-ai-rush"
+          }
+        ],
+        "delta_hash": "de448cc288dfe04566ff35254b853f5887a69620c873b1b24d48ac4ffdd38f5c"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-ONENATION-NEWS-20260924045212",
+      "source_change_event_id": "CHG-WATCH-ONENATION-NEWS-20260924045212",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-ONENATION-NEWS-20260924045212",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": "AUS-FED-ONP",
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Pauline Hanson's One Nation — Latest News added 1 structured publication record to its forward-captured official index: Mike Newman Responds After One Nation Dominates NSW Question Time",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-09-24T04:52:50.939Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "fc6cefd9245404620c81",
+            "title": "Mike Newman Responds After One Nation Dominates NSW Question Time",
+            "url": "http://www.onenation.org.au/newman-nsw-labor-response",
+            "published": "Thu, 24 Sep 2026 09:45:00 +1000"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "707274a3abcff4b8924f",
+            "title": "Barnaby Joyce Backs Mike Newman to Lead One Nation in NSW",
+            "url": "http://www.onenation.org.au/barnaby-backs-mike-newman",
+            "published": "Tue, 08 Sep 2026 16:37:39 +1000"
+          }
+        ],
+        "delta_hash": "0583d1d21f891a3bea5b9da72a570176941878d55fc5e34f5ebd663b3129d7ff"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-NSW-MINISTERIAL-RELEASES-20260924045212",
+      "source_change_event_id": "CHG-WATCH-NSW-MINISTERIAL-RELEASES-20260924045212",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-NSW-MINISTERIAL-RELEASES-20260924045212",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "NSW Government — Ministerial releases added 5 structured publication records to its forward-captured official index: Illawarra hospitals to benefit from more nurses; World first music bill passes to protect NSW live music; Minns Labor Government invests millions to accelerate cancer research in regional and rural NSW; Tailored coaching to help NSW farmers build business resilience across regional NSW; More nurses and better care for Hunter hospitals",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-09-24T04:52:50.939Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "2488e00f9a2812988c84",
+            "title": "Illawarra hospitals to benefit from more nurses",
+            "url": "https://www.nsw.gov.au/ministerial-releases/illawarra-hospitals-to-benefit-from-more-nurses"
+          },
+          {
+            "record_id": "470e53be9afc882602e8",
+            "title": "World first music bill passes to protect NSW live music",
+            "url": "https://www.nsw.gov.au/departments-and-agencies/dciths/ministerial-media-releases/world-first-music-bill-passes-to-protect-nsw-live-music"
+          },
+          {
+            "record_id": "bfaa7ade2d826f79bf08",
+            "title": "Minns Labor Government invests millions to accelerate cancer research in regional and rural NSW",
+            "url": "https://www.nsw.gov.au/ministerial-releases/minns-labor-government-invests-millions-to-accelerate-cancer-research-regional-and-rural-nsw"
+          },
+          {
+            "record_id": "daebd992db1a6309f4be",
+            "title": "Tailored coaching to help NSW farmers build business resilience across regional NSW",
+            "url": "https://www.nsw.gov.au/ministerial-releases/tailored-coaching-to-help-nsw-farmers-build-business-resilience-across-regional-nsw"
+          },
+          {
+            "record_id": "fac70a69730cde4ceec1",
+            "title": "More nurses and better care for Hunter hospitals",
+            "url": "https://www.nsw.gov.au/ministerial-releases/more-nurses-and-better-care-for-hunter-hospitals"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "1e21f2e075dfe9a03d1a",
+            "title": "NSW Government extends consultation on proposed harvest strategies to protect Yellowtail Kingfish and Snapper",
+            "url": "https://www.nsw.gov.au/ministerial-releases/harvest-strategies-consultation-extended"
+          },
+          {
+            "record_id": "3c28eaa09e4fc517b811",
+            "title": "NSW Government tables key reforms to support veterinary workforce and modernise service delivery",
+            "url": "https://www.nsw.gov.au/ministerial-releases/nsw-government-tables-key-reforms-to-support-veterinary-workforce-and-modernise-service-delivery"
+          },
+          {
+            "record_id": "6844d26605e01144442f",
+            "title": "Minns Government’s far western flight subsidies to continue",
+            "url": "https://www.nsw.gov.au/ministerial-releases/minns-governments-far-western-flight-subsidies-to-continue"
+          },
+          {
+            "record_id": "a3f5fb6abd04611c2e23",
+            "title": "Major review launched to strengthen NSW Community Transport Program",
+            "url": "https://www.nsw.gov.au/ministerial-releases/major-review-launched-to-strengthen-nsw-community-transport-program"
+          },
+          {
+            "record_id": "e73b8f6e649d3a10bc39",
+            "title": "One step closer to ensuring a stronger, more reliable firefighting fleet",
+            "url": "https://www.nsw.gov.au/ministerial-releases/one-step-closer-to-ensuring-a-stronger-more-reliable-firefighting-fleet"
+          }
+        ],
+        "delta_hash": "9c4ba65c03c444d1a5116fc3cd81349d54e29f7c2e4f482d4dab104a8f60558f"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-VEC-MEDIA-20260924045212",
+      "source_change_event_id": "CHG-WATCH-VEC-MEDIA-20260924045212",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-VEC-MEDIA-20260924045212",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Victorian Electoral Commission — media centre added 3 structured publication records to its forward-captured official index: 14 September 2026 Ballot packs mailed for Greater Bendigo City Council by-election Media release details; 17 September 2026 Free TAFE Free Uni refused registration as a political party Media release details; 15 September 2026 Last chance to enrol for Murrindindi Shire Council by-election Media release details",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-09-24T04:52:50.939Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "70fef3f0893c600b0dfc",
+            "title": "14 September 2026 Ballot packs mailed for Greater Bendigo City Council by-election Media release details",
+            "url": "https://www.vec.vic.gov.au/about-us/media/media-releases/ballot-packs-mailed-for-greater-bendigo-city-council-by-election"
+          },
+          {
+            "record_id": "bbd457ed71280898d760",
+            "title": "17 September 2026 Free TAFE Free Uni refused registration as a political party Media release details",
+            "url": "https://www.vec.vic.gov.au/about-us/media/media-releases/free-tafe-free-uni-refused-registration-as-a-political-party"
+          },
+          {
+            "record_id": "d8c24a3eb8a86e2d2552",
+            "title": "15 September 2026 Last chance to enrol for Murrindindi Shire Council by-election Media release details",
+            "url": "https://www.vec.vic.gov.au/about-us/media/media-releases/last-chance-to-enrol-for-murrindindi-shire-council-by-election"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "5c09cebc1e6fd0655af5",
+            "title": "14 September 2026 Ballot packs mailed for Greater Bendigo City Council by-election Media release details",
+            "url": "https://www.vec.vic.gov.au/about-us/media/ballot-packs-mailed-for-greater-bendigo-city-council-by-election"
+          },
+          {
+            "record_id": "74f0175ae0ac8fd63183",
+            "title": "15 September 2026 Last chance to enrol for Murrindindi Shire Council by-election Media release details",
+            "url": "https://www.vec.vic.gov.au/about-us/media/last-chance-to-enrol-for-murrindindi-shire-council-by-election"
+          },
+          {
+            "record_id": "c514d443971fe3633924",
+            "title": "17 September 2026 Free TAFE Free Uni refused registration as a political party Media release details",
+            "url": "https://www.vec.vic.gov.au/about-us/media/free-tafe-free-uni-refused-registration-as-a-political-party"
+          }
+        ],
+        "delta_hash": "0ce69d5f84be18f13d47945b029c8dc27a34ead054a0d1b9385c3b78672c7916"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20260924045212",
+      "source_change_event_id": "CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20260924045212",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20260924045212",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Queensland Government — Ministerial Media Statements added 4 structured publication records to its forward-captured official index: Brazil and Socceroos superstars to train in front of fans; New Sooning Street bridge reconnects Magnetic Island community; Transforming Queensland Manufacturing Grant helps Brisbane business soar to new heights; Fight against electric ants bolstered with paws on the ground in the Far North",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-09-24T04:52:50.939Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "55f5952b3b56a309cf08",
+            "title": "Brazil and Socceroos superstars to train in front of fans",
+            "url": "https://statements.qld.gov.au/statements/106129"
+          },
+          {
+            "record_id": "62f9adf04e8791083db5",
+            "title": "New Sooning Street bridge reconnects Magnetic Island community",
+            "url": "https://statements.qld.gov.au/statements/106118"
+          },
+          {
+            "record_id": "9792db392a5b7dbf1bcf",
+            "title": "Transforming Queensland Manufacturing Grant helps Brisbane business soar to new heights",
+            "url": "https://statements.qld.gov.au/statements/106117"
+          },
+          {
+            "record_id": "ed1a7c943bbd03a99e8c",
+            "title": "Fight against electric ants bolstered with paws on the ground in the Far North",
+            "url": "https://statements.qld.gov.au/statements/106121"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "1ec4564733611f924133",
+            "title": "New Bruce Highway Granite Creek Rest Area now open",
+            "url": "https://statements.qld.gov.au/statements/106041"
+          },
+          {
+            "record_id": "29e4133083f4241aafa0",
+            "title": "World-class sport precinct backed for Mackay",
+            "url": "https://statements.qld.gov.au/statements/106103"
+          },
+          {
+            "record_id": "bb0f11a855d095abd1fb",
+            "title": "Registrations open for small business AI training",
+            "url": "https://statements.qld.gov.au/statements/106099"
+          },
+          {
+            "record_id": "c7b60ecfd518dc4c5066",
+            "title": "CMC Rocks on as Queensland cements status as Australia's events capital",
+            "url": "https://statements.qld.gov.au/statements/106107"
+          }
+        ],
+        "delta_hash": "5dd497623a2f27c658acca1a985d718c3d0eb8ba4d19034672217be2cf893e58"
       },
       "integrity": {
         "source_change_unchanged": true,

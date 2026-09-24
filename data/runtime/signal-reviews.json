@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-SIGNAL-REVIEWS-001",
   "created_at": "2026-09-09T05:05:00+10:00",
-  "updated_at": "2026-09-24T19:11:53.311Z",
+  "updated_at": "2026-09-24T22:26:00.779Z",
   "rules": {
     "append_only": true,
     "raw_source_change_is_immutable": true,
@@ -32855,6 +32855,46 @@
           }
         ],
         "delta_hash": "e268093b61ffe6dd3de25437b23f062a12eccc4600447904af2b2969d0f09fc0"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-PM-MEDIA-20260924222500",
+      "source_change_event_id": "CHG-WATCH-PM-MEDIA-20260924222500",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-PM-MEDIA-20260924222500",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Prime Minister of Australia — media added 1 structured publication record to its forward-captured official index: Remarks - New York",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-09-24T22:26:00.779Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "c88282112e09e4dfac8e",
+            "title": "Remarks - New York",
+            "url": "https://www.pm.gov.au/media/remarks-new-york"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "25509b0bdf772ed8d3c3",
+            "title": "Australia launches bid for United Nations Security Council seat",
+            "url": "https://www.pm.gov.au/media/australia-launches-bid-united-nations-security-council-seat"
+          }
+        ],
+        "delta_hash": "5327dcc06d98ef4f5e33fbbef9d9aec65d5cf603a7db05d20e3f7ae9a55cebd9"
       },
       "integrity": {
         "source_change_unchanged": true,

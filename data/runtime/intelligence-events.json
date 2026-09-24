@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-INTELLIGENCE-EVENTS-001",
   "scope": "Australia — multi-jurisdiction",
-  "captured_at": "2026-09-24T19:12:01.992Z",
+  "captured_at": "2026-09-24T22:26:07.040Z",
   "mode": "FORWARD_ONLY",
   "rules": {
     "observation_distinct_from_inference": true,
@@ -90102,6 +90102,114 @@
           "record_id": "1f964466612955e26316",
           "title": "Proposed $1.9 billion steel and manufacturing investments to supercharge Queensland jobs",
           "url": "https://statements.qld.gov.au/statements/106106"
+        }
+      ],
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "underlying_publication_claims_not_promoted_to_verified_fact": true,
+        "source_change_parent_retained": true,
+        "deterministic_review": true
+      }
+    },
+    {
+      "event_id": "CHG-WATCH-PM-MEDIA-20260924222500",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-FED",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-PM-MEDIA-20260924222500",
+      "captured_at": "2026-09-24T22:25:00.889Z",
+      "event_date": "2026-09-25",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-PM-MEDIA",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "review_policy": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-PM-MEDIA-20260924045212",
+        "content_hash": "0b1ea5f8cb1f9f148c1dcac5e6d1cc3e926953b9f9f2c367704533d8324a911c",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-PM-MEDIA-20260924222500",
+        "content_hash": "5b7dd8a282f04343440dd6f4917e8869cd845b906d22cd9bee458a7e7110af1d",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "STRUCTURED_RECORD_SET",
+        "records_added": [
+          {
+            "record_id": "c88282112e09e4dfac8e",
+            "title": "Remarks - New York",
+            "url": "https://www.pm.gov.au/media/remarks-new-york"
+          }
+        ],
+        "records_removed": [
+          {
+            "record_id": "25509b0bdf772ed8d3c3",
+            "title": "Australia launches bid for United Nations Security Council seat",
+            "url": "https://www.pm.gov.au/media/australia-launches-bid-united-nations-security-council-seat"
+          }
+        ],
+        "added_count": 1,
+        "removed_count": 1,
+        "before_count": 27,
+        "after_count": 27,
+        "delta_hash": "5327dcc06d98ef4f5e33fbbef9d9aec65d5cf603a7db05d20e3f7ae9a55cebd9"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "SIG-REV-CHG-WATCH-PM-MEDIA-20260924222500",
+      "parent_event_id": "CHG-WATCH-PM-MEDIA-20260924222500",
+      "review_id": "REV-CHG-WATCH-PM-MEDIA-20260924222500",
+      "jurisdiction_id": "AUS-FED",
+      "party_id": null,
+      "actor_id": null,
+      "contest_id": null,
+      "cycle_id": null,
+      "source_snapshot_id": "AUTO-WATCH-PM-MEDIA-20260924222500",
+      "record_id": "c88282112e09e4dfac8e",
+      "captured_at": "2026-09-24T22:26:00.779Z",
+      "event_date": "2026-09-25",
+      "checkpoint": "CONTINUOUS_FORWARD_SIGNAL_REVIEW",
+      "event_type": "SIGNAL_CREATED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-PM-MEDIA",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "claim": "Prime Minister of Australia — media added 1 structured publication record to its forward-captured official index: Remarks - New York",
+      "observed_behaviour": "One or more structured publication records appeared in the monitored official source index after the preceding forward snapshot.",
+      "publication_records_added": [
+        {
+          "record_id": "c88282112e09e4dfac8e",
+          "title": "Remarks - New York",
+          "url": "https://www.pm.gov.au/media/remarks-new-york"
+        }
+      ],
+      "publication_records_removed": [
+        {
+          "record_id": "25509b0bdf772ed8d3c3",
+          "title": "Australia launches bid for United Nations Security Council seat",
+          "url": "https://www.pm.gov.au/media/australia-launches-bid-united-nations-security-council-seat"
         }
       ],
       "inference": null,

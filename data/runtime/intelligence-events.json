@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-INTELLIGENCE-EVENTS-001",
   "scope": "Australia — multi-jurisdiction",
-  "captured_at": "2026-09-25T13:49:35.283Z",
+  "captured_at": "2026-09-25T18:38:54.633Z",
   "mode": "FORWARD_ONLY",
   "rules": {
     "observation_distinct_from_inference": true,
@@ -91535,6 +91535,52 @@
         "retracted_facts_excluded": true,
         "no_projection_effect_without_registered_target": true
       }
+    },
+    {
+      "event_id": "CHG-WATCH-QLD-HANSARD-20260925183731",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-QLD",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-QLD-HANSARD-20260925183731",
+      "captured_at": "2026-09-25T18:37:31.395Z",
+      "event_date": "2026-09-26",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_PARLIAMENT",
+      "source_id": "SRC-QLD-HANSARD",
+      "capture_mode": "NORMALISED_PAGE_HASH",
+      "review_policy": "REVIEW_UNSTRUCTURED_CHANGE",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-QLD-HANSARD-20260924100200",
+        "content_hash": "578135a4798eaa3954d7a6fc4b8804ecf830e47fb072268ac439388d72289228",
+        "capture_mode": "NORMALISED_PAGE_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-QLD-HANSARD-20260925183731",
+        "content_hash": "404f30bfca272be1903cf0b7558fb2d88d15ee8160176c7d22eebee699d4d10f",
+        "capture_mode": "NORMALISED_PAGE_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "TEXT_REPRESENTATION",
+        "first_difference_offset": 4185,
+        "before_length": 7972,
+        "after_length": 7955,
+        "before_excerpt": "ittee Portfolio Committees - Membership and Operation Engagement Survey Training Seminar - Committees@Work Committees (11) Committee of the Legislative Assembly Education, Arts and Communities Committee Ethics Committee Governance, Energy and Finance Committee Health, Environment and Innovation Committee Justice, Integrity and Community Safety Committee Local Government, Small Business and Customer Service Committee Parliamentary Crime and Corruption Committee Primary Industries and Resources Committee State Development, Infrastructure and Works Committee Youth Parliament Committees Glossary Estimates Hearings Former Estimates Hearings Inquiries Live and Archived Broadcasts Live Committee Broadcast Archived Committee Broadcasts Terms and Conditions Publications Guidelines Subscribe Former Committees (67) 30 Year Release Past Alert Digest and Legislation Alert Indexes Ten Year Anniversary Members Members There are currently 93 MPs, each representing one of Queensland’s 93 electorates. Each Member is elected for a four year term. Find details for current and former members here. Current Members (including Ministers and shadow Ministers) Member List Full Mailing List Register of Members' Interests 'Parliamentary Friends of' Groups Member Speeches Office of the Leader of the Opposition Shadow Minister Lobbyist Meetings Former Members Former Members Register Contacting Former Members and Association Members of the first Parliament Members' and Former Members' Entitlements Events and functions Events and functions Parliament House is Brisbane’s leading heritage venue. Find out more about visiting Parliament House, our latest events and exclusive venues available for private hire. Visit our dedicated Events & Dining website. Careers Careers Careers at Queensland Parliament What we offer Permanent/Contract Roles Casual Roles First Peoples Cadetship Program Graduate Program Latest Record of Proceedings Home Work of the Assembly Record of Proceedings (Hansard) Latest Record of Proceedings Work of the Assembly What's New Sitting Dates Live and Archived Broadcasts Daily Agenda (Notice Paper) Record of Proceedings (Hansard) Overview Latest Record of Proceedings Browse by Sitting Dates Indexes to Debates Citizen's Right of Reply Petitions Bills and Legislation Questions on Notice and Answers Tabled Papers Procedures (5) Visit and learn Message from the Speaker About Us Visitors Visit the Public Gallery Visit our Gift Shop Have Your Say Get Involved Education and Learning History Heritage Collections Preservation of our Heritage Regional Sittings CPA Australia and Pacific Regional Conference Publications and Reports Speakers' Corner Opening of the 58th Parliament Contact Us Work of the Assembly What's New Sitting Dates Live and Archived Broadcasts Daily Agenda (Notice Paper) Record of Proceedings (Hansard) Citizen's Right of Reply Petitions Bills and Legislation Questions on Notice and Answers Tabled Papers Procedures Work of committees Upcoming Committee Business About Committees Training Seminar - Committees@Work Committees (11) Committees Glossary Estimates Hearings Inquiries Live and Archived Broadcasts Publications Guidelines Subscribe Former",
+        "after_excerpt": "ittee Portfolio Committees - Membership and Operation Engagement Survey Training Seminar - Committees@Work Committees (10) Committee of the Legislative Assembly Education, Arts and Communities Committee Ethics Committee Governance, Energy and Finance Committee Health, Environment and Innovation Committee Justice, Integrity and Community Safety Committee Local Government, Small Business and Customer Service Committee Parliamentary Crime and Corruption Committee Primary Industries and Resources Committee State Development, Infrastructure and Works Committee Committees Glossary Estimates Hearings Former Estimates Hearings Inquiries Live and Archived Broadcasts Live Committee Broadcast Archived Committee Broadcasts Terms and Conditions Publications Guidelines Subscribe Former Committees (67) 30 Year Release Past Alert Digest and Legislation Alert Indexes Ten Year Anniversary Members Members There are currently 93 MPs, each representing one of Queensland’s 93 electorates. Each Member is elected for a four year term. Find details for current and former members here. Current Members (including Ministers and shadow Ministers) Member List Full Mailing List Register of Members' Interests 'Parliamentary Friends of' Groups Member Speeches Office of the Leader of the Opposition Shadow Minister Lobbyist Meetings Former Members Former Members Register Contacting Former Members and Association Members of the first Parliament Members' and Former Members' Entitlements Events and functions Events and functions Parliament House is Brisbane’s leading heritage venue. Find out more about visiting Parliament House, our latest events and exclusive venues available for private hire. Visit our dedicated Events & Dining website. Careers Careers Careers at Queensland Parliament What we offer Permanent/Contract Roles Casual Roles First Peoples Cadetship Program Graduate Program Latest Record of Proceedings Home Work of the Assembly Record of Proceedings (Hansard) Latest Record of Proceedings Work of the Assembly What's New Sitting Dates Live and Archived Broadcasts Daily Agenda (Notice Paper) Record of Proceedings (Hansard) Overview Latest Record of Proceedings Browse by Sitting Dates Indexes to Debates Citizen's Right of Reply Petitions Bills and Legislation Questions on Notice and Answers Tabled Papers Procedures (5) Visit and learn Message from the Speaker About Us Visitors Visit the Public Gallery Visit our Gift Shop Have Your Say Get Involved Education and Learning History Heritage Collections Preservation of our Heritage Regional Sittings CPA Australia and Pacific Regional Conference Publications and Reports Speakers' Corner Opening of the 58th Parliament Contact Us Work of the Assembly What's New Sitting Dates Live and Archived Broadcasts Daily Agenda (Notice Paper) Record of Proceedings (Hansard) Citizen's Right of Reply Petitions Bills and Legislation Questions on Notice and Answers Tabled Papers Procedures Work of committees Upcoming Committee Business About Committees Training Seminar - Committees@Work Committees (10) Committees Glossary Estimates Hearings Inquiries Live and Archived Broadcasts Publications Guidelines Subscribe Former",
+        "delta_hash": "01544459db28bf6464521105fb352901a919cac5a14cf9180e2586b8f7c8f795"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
     }
   ]
 }

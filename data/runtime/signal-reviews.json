@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-SIGNAL-REVIEWS-001",
   "created_at": "2026-09-09T05:05:00+10:00",
-  "updated_at": "2026-09-24T22:26:00.779Z",
+  "updated_at": "2026-09-25T01:32:07.377Z",
   "rules": {
     "append_only": true,
     "raw_source_change_is_immutable": true,
@@ -32895,6 +32895,146 @@
           }
         ],
         "delta_hash": "5327dcc06d98ef4f5e33fbbef9d9aec65d5cf603a7db05d20e3f7ae9a55cebd9"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-NSW-MINISTERIAL-RELEASES-20260925013126",
+      "source_change_event_id": "CHG-WATCH-NSW-MINISTERIAL-RELEASES-20260925013126",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-NSW-MINISTERIAL-RELEASES-20260925013126",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "NSW Government — Ministerial releases added 5 structured publication records to its forward-captured official index: Making it easier to move through Torakina Reserve at Brunswick Heads; Community invited to help shape new park in the heart of Bankstown; Minns Labor Government delivers NSW renters landmark protections against privacy breaches and misleading rental ads; Full steam ahead on Hunter train manufacturing; Free family fun to stay active these school holidays",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-09-25T01:32:07.377Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "1af416842000bcfeb5c3",
+            "title": "Making it easier to move through Torakina Reserve at Brunswick Heads",
+            "url": "https://www.nsw.gov.au/ministerial-releases/making-it-easier-to-move-through-torakina-reserve-at-brunswick-heads"
+          },
+          {
+            "record_id": "9ec78a9cf658e304661e",
+            "title": "Community invited to help shape new park in the heart of Bankstown",
+            "url": "https://www.nsw.gov.au/ministerial-releases/community-invited-to-help-shape-new-park-heart-of-bankstown"
+          },
+          {
+            "record_id": "ab02f9372fd5c410dff9",
+            "title": "Minns Labor Government delivers NSW renters landmark protections against privacy breaches and misleading rental ads",
+            "url": "https://www.nsw.gov.au/ministerial-releases/renters-get-landmark-protections-against-privacy-breaches-and-misleading-rental-ads"
+          },
+          {
+            "record_id": "e44f4bd8132a776868a0",
+            "title": "Full steam ahead on Hunter train manufacturing",
+            "url": "https://www.nsw.gov.au/ministerial-releases/full-steam-ahead-on-hunter-train-manufacturing"
+          },
+          {
+            "record_id": "e8d4c650a3d47f422237",
+            "title": "Free family fun to stay active these school holidays",
+            "url": "https://www.nsw.gov.au/ministerial-releases/free-family-school-holiday-fun"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "a7f45b18a981cb5fd4d4",
+            "title": "Water quality improves at NSW beaches",
+            "url": "https://www.nsw.gov.au/ministerial-releases/beach-water-quality-improves"
+          },
+          {
+            "record_id": "b0594d75cc956c5d44e8",
+            "title": "950 additional nurses for higher quality healthcare",
+            "url": "https://www.nsw.gov.au/ministerial-releases/950-nurses-being-recruited"
+          },
+          {
+            "record_id": "bfaa7ade2d826f79bf08",
+            "title": "Minns Labor Government invests millions to accelerate cancer research in regional and rural NSW",
+            "url": "https://www.nsw.gov.au/ministerial-releases/minns-labor-government-invests-millions-to-accelerate-cancer-research-regional-and-rural-nsw"
+          },
+          {
+            "record_id": "daebd992db1a6309f4be",
+            "title": "Tailored coaching to help NSW farmers build business resilience across regional NSW",
+            "url": "https://www.nsw.gov.au/ministerial-releases/tailored-coaching-to-help-nsw-farmers-build-business-resilience-across-regional-nsw"
+          },
+          {
+            "record_id": "fac70a69730cde4ceec1",
+            "title": "More nurses and better care for Hunter hospitals",
+            "url": "https://www.nsw.gov.au/ministerial-releases/more-nurses-and-better-care-for-hunter-hospitals"
+          }
+        ],
+        "delta_hash": "d0a0fb2ef1301806fe05b9160a3a53429db80c1c67cb24e44a0f1ee7de1a39c1"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20260925013126",
+      "source_change_event_id": "CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20260925013126",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20260925013126",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Queensland Government — Ministerial Media Statements added 3 structured publication records to its forward-captured official index: Delivering better roads for Queensland's beef country; Major upgrade delivered at Beachmere’s Clayton Park; More than 2,000 new corrections officers bolster ranks to make Queensland safer",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-09-25T01:32:07.377Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "134834ec088a736fcf71",
+            "title": "Delivering better roads for Queensland's beef country",
+            "url": "https://statements.qld.gov.au/statements/106126"
+          },
+          {
+            "record_id": "415fbd6d5ebcf32cb75c",
+            "title": "Major upgrade delivered at Beachmere’s Clayton Park",
+            "url": "https://statements.qld.gov.au/statements/106127"
+          },
+          {
+            "record_id": "7e8b3bd428eda8a2889e",
+            "title": "More than 2,000 new corrections officers bolster ranks to make Queensland safer",
+            "url": "https://statements.qld.gov.au/statements/106131"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "10928a3fcea4499b0625",
+            "title": "New training facility to supercharge future sparkies",
+            "url": "https://statements.qld.gov.au/statements/106109"
+          },
+          {
+            "record_id": "259dd2f528eefdc5fa47",
+            "title": "Racing governance to be streamlined in Queensland",
+            "url": "https://statements.qld.gov.au/statements/106112"
+          },
+          {
+            "record_id": "616ae16cd51fd20b1413",
+            "title": "Acreage awarded to supercharge Queensland’s resources future",
+            "url": "https://statements.qld.gov.au/statements/106110"
+          }
+        ],
+        "delta_hash": "e0d5994bd5b9f80f66339bda867a1981495b024bd12ff19969f8c73cc688a94c"
       },
       "integrity": {
         "source_change_unchanged": true,

@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-INTELLIGENCE-EVENTS-001",
   "scope": "Australia — multi-jurisdiction",
-  "captured_at": "2026-09-25T07:51:02.281Z",
+  "captured_at": "2026-09-25T13:49:35.283Z",
   "mode": "FORWARD_ONLY",
   "rules": {
     "observation_distinct_from_inference": true,
@@ -91261,6 +91261,279 @@
         "underlying_publication_claims_not_promoted_to_verified_fact": true,
         "source_change_parent_retained": true,
         "deterministic_review": true
+      }
+    },
+    {
+      "event_id": "CHG-WATCH-TAS-HANSARD-20260925134836",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-TAS",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-TAS-HANSARD-20260925134836",
+      "captured_at": "2026-09-25T13:48:36.811Z",
+      "event_date": "2026-09-25",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_PARLIAMENT",
+      "source_id": "SRC-TAS-HANSARD",
+      "capture_mode": "NORMALISED_PAGE_HASH",
+      "review_policy": "REVIEW_UNSTRUCTURED_CHANGE",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-TAS-HANSARD-20260925074943",
+        "content_hash": "f114eede910a05688fd952fe0bca4bb6c0530c4a5d16db4c4f75441abc2349a9",
+        "capture_mode": "NORMALISED_PAGE_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-TAS-HANSARD-20260925134836",
+        "content_hash": "7ae65ddf2209f1533e7680e4d929e8f588ad3f984029d55761edbe91f4f9ac59",
+        "capture_mode": "NORMALISED_PAGE_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "TEXT_REPRESENTATION",
+        "first_difference_offset": 1529,
+        "before_length": 3178,
+        "after_length": 3207,
+        "before_excerpt": " Stillwater 34 Iran 30 Singapore 30 Wellington 28 France 24 America 23 SCOTLAND 22 Cambridge 20 Canada 20 more... top 5 Sort by Best Match Date Size Date Filter by date Last 7 days Last Month Last 3 Months Last 6 Months Last 12 Months Showi",
+        "after_excerpt": " Stillwater 34 Iran 30 Singapore 30 Wellington 28 France 24 America 23 SCOTLAND 22 Cambridge 20 Canada 20 more... top 5 Clusters Council Thursday 12 Sort by Best Match Date Size Date Filter by date Last 7 days Last Month Last 3 Months Last 6 Months Last 12 Months Showi",
+        "delta_hash": "ed75a45be22000238415ca4470092a8815fb110f2d6a44271f96677286b16877"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "INTEL-AREA-6a30c26def97d8349bd5d6fb",
+      "parent_event_id": "SIG-REV-CHG-WATCH-NSW-MINISTERIAL-RELEASES-20260925074943",
+      "jurisdiction_id": "AUS-NSW",
+      "party_id": "AUS-NSW-ALP",
+      "actor_id": null,
+      "party_ids": [
+        "AUS-NSW-ALP"
+      ],
+      "actor_ids": [
+        "NSW-YASMIN-CATLEY",
+        "NSW-MICHAEL-DALEY"
+      ],
+      "contest_id": null,
+      "cycle_id": null,
+      "competition_class": "LEGISLATIVE",
+      "area_evidence_id": "AREA-6a30c26def97d8349bd5d6fb",
+      "detail_record_id": "DETAIL-688223021d9da9d3298f4e81",
+      "detail_version_id": "DETAIL-688223021d9da9d3298f4e81-V1",
+      "source_snapshot_id": "AUTO-WATCH-NSW-MINISTERIAL-RELEASES-20260925074943",
+      "record_url": "https://www.nsw.gov.au/ministerial-releases/crimes-amendment-passes-parliament",
+      "captured_at": "2026-09-25T13:49:35.283Z",
+      "evidence_captured_at": "2026-09-25T13:49:31.303Z",
+      "event_date": "2026-09-25",
+      "checkpoint": "SUBSTANTIVE_INFORMATION_INGESTION",
+      "event_type": "AREA_EVIDENCE_INGESTED",
+      "area_routing_state": "SUBSTANTIVE_CONTENT_ROUTED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-NSW-MINISTERIAL-RELEASES",
+      "claim": "Ingested substantive legislative evidence from Tough new powers to tackle organised crime pass NSW Parliament. Captured content includes resistance language: Amendment; outcome language: passed. Registration threshold state: evidence gap. Missing requirements: missing fact type stage, missing fact type material resistance, missing fact type explicit support position, missing fact type explicit opposition position, missing condition distinct supporting and opposing sides.",
+      "observed_behaviour": "Tough new powers to tackle organised crime pass NSW Parliament | NSW Government menu Open Menu MyServiceNSW Logged in MyServiceNSW Manage account Logout of MyServiceNSW Ministerial media release Tough new powers to tackle organised crime pass NSW Parliament Published: 25 September 2026 Released by: Attorney General, Minister for Police and Counter-terrorism Listen Legislation giving law enforcement stronger powers to investigate and disrupt organised crime and increasing penalties for those who facilitate serious offending have passed NSW Parliament. The Crimes and Other Legislation Amendment (Further Organised Crime Reforms) Bill 2026 passed Parliament last night. It included new powers for the NSW Crime Commission and NSW Police to combat organised crime. It also introduces tougher penalties for those who plan and facilitate organised crime murders and exposes children who carry out shootings or firebombings to adult maximum penalties. Strengthening the Crime Commission The package gives the Crime Commission the ability to compel suspects to hand over their digital devices immediately to prevent the destruction of crucial evidence. Previously, the Crime Commission could require someone to provide a device or document and bring it to a hearing. But it could not compel them to provide access at the point of being served a summons. The change means suspects will not be able to hide or destroy evidence in the lead up to a hearing. Those who refuse to comply face up to four years’ jail, a $4,400 fine or both and can be held in contempt of the Crime Commission. The legislation also doubles maximum penalties to 10 years for failing to comply with Crime Commission orders – including refusing to answer questions, obstructing investigations or giving false and misleading eviden",
+      "extracted_cues": {
+        "resistance_terms": [
+          "Amendment"
+        ],
+        "stage_terms": [],
+        "outcome_terms": [
+          "passed"
+        ],
+        "pressure_terms": []
+      },
+      "entity_mentions": {
+        "actors": [
+          {
+            "actor_id": "NSW-YASMIN-CATLEY",
+            "name": "Yasmin Catley",
+            "match_variant": "yasmin catley",
+            "party_id_at_resolution": "AUS-NSW-ALP"
+          },
+          {
+            "actor_id": "NSW-MICHAEL-DALEY",
+            "name": "Michael Daley",
+            "match_variant": "michael daley",
+            "party_id_at_resolution": "AUS-NSW-ALP"
+          }
+        ],
+        "teams": [
+          {
+            "party_id": "AUS-NSW-ALP",
+            "name": "Australian Labor Party",
+            "match_alias": "Labor"
+          }
+        ]
+      },
+      "position_state": "UNRESOLVED",
+      "resistance_state": "RESISTANCE_LANGUAGE_PRESENT",
+      "outcome_state": "OUTCOME_LANGUAGE_PRESENT",
+      "contest_fact_ids": [
+        "FACT-63ee5b7d2077761a8933ffb0",
+        "FACT-a85d462bc5e65519c3136b92",
+        "FACT-e98bce7095d4d9aa3bfa76bc"
+      ],
+      "contest_fact_types": [
+        "CONTEST_OBJECT",
+        "PARTICIPANT"
+      ],
+      "threshold_evaluation_id": "THRESH-6a15572bd6372ed90c82bcfd",
+      "threshold_state": "EVIDENCE_GAP",
+      "threshold_blockers": [
+        "MISSING_CONDITION_DISTINCT_SUPPORTING_AND_OPPOSING_SIDES",
+        "MISSING_FACT_TYPE_EXPLICIT_OPPOSITION_POSITION",
+        "MISSING_FACT_TYPE_EXPLICIT_SUPPORT_POSITION",
+        "MISSING_FACT_TYPE_MATERIAL_RESISTANCE",
+        "MISSING_FACT_TYPE_STAGE"
+      ],
+      "supporting_entities": [],
+      "opposing_entities": [],
+      "registration_action": "NO_AUTOMATIC_REGISTRATION",
+      "intelligence_signature": "1ec88361a117c1857c64bacec56fb74cfc3c7fa92733e6bc6c2a4b2cf0504b1b",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "substantive_detail_lineage_required": true,
+        "active_contest_fact_lineage_required": true,
+        "threshold_evaluation_lineage_required": true,
+        "routing_does_not_register_match": true,
+        "threshold_eligibility_does_not_register_match": true,
+        "entity_mentions_do_not_establish_positions": true,
+        "retracted_facts_excluded": true,
+        "no_projection_effect_without_registered_target": true
+      }
+    },
+    {
+      "event_id": "INTEL-AREA-65f6d5842c6cac1b46b4d5ed",
+      "parent_event_id": "SIG-REV-CHG-WATCH-NSW-MINISTERIAL-RELEASES-20260925074943",
+      "jurisdiction_id": "AUS-NSW",
+      "party_id": "AUS-NSW-ALP",
+      "actor_id": null,
+      "party_ids": [
+        "AUS-NSW-ALP"
+      ],
+      "actor_ids": [
+        "NSW-YASMIN-CATLEY",
+        "NSW-MICHAEL-DALEY"
+      ],
+      "contest_id": null,
+      "cycle_id": null,
+      "competition_class": "BUDGET",
+      "area_evidence_id": "AREA-65f6d5842c6cac1b46b4d5ed",
+      "detail_record_id": "DETAIL-688223021d9da9d3298f4e81",
+      "detail_version_id": "DETAIL-688223021d9da9d3298f4e81-V1",
+      "source_snapshot_id": "AUTO-WATCH-NSW-MINISTERIAL-RELEASES-20260925074943",
+      "record_url": "https://www.nsw.gov.au/ministerial-releases/crimes-amendment-passes-parliament",
+      "captured_at": "2026-09-25T13:49:35.283Z",
+      "evidence_captured_at": "2026-09-25T13:49:31.303Z",
+      "event_date": "2026-09-25",
+      "checkpoint": "SUBSTANTIVE_INFORMATION_INGESTION",
+      "event_type": "AREA_EVIDENCE_INGESTED",
+      "area_routing_state": "SUBSTANTIVE_CONTENT_ROUTED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-NSW-MINISTERIAL-RELEASES",
+      "claim": "Ingested substantive budget evidence from Tough new powers to tackle organised crime pass NSW Parliament. Captured content includes resistance language: Amendment; outcome language: passed. Registration threshold state: evidence gap. Missing requirements: missing fact type objective, missing fact type material resistance, missing fact type explicit support position, missing fact type explicit opposition position, missing condition distinct supporting and opposing sides.",
+      "observed_behaviour": "Tough new powers to tackle organised crime pass NSW Parliament | NSW Government menu Open Menu MyServiceNSW Logged in MyServiceNSW Manage account Logout of MyServiceNSW Ministerial media release Tough new powers to tackle organised crime pass NSW Parliament Published: 25 September 2026 Released by: Attorney General, Minister for Police and Counter-terrorism Listen Legislation giving law enforcement stronger powers to investigate and disrupt organised crime and increasing penalties for those who facilitate serious offending have passed NSW Parliament. The Crimes and Other Legislation Amendment (Further Organised Crime Reforms) Bill 2026 passed Parliament last night. It included new powers for the NSW Crime Commission and NSW Police to combat organised crime. It also introduces tougher penalties for those who plan and facilitate organised crime murders and exposes children who carry out shootings or firebombings to adult maximum penalties. Strengthening the Crime Commission The package gives the Crime Commission the ability to compel suspects to hand over their digital devices immediately to prevent the destruction of crucial evidence. Previously, the Crime Commission could require someone to provide a device or document and bring it to a hearing. But it could not compel them to provide access at the point of being served a summons. The change means suspects will not be able to hide or destroy evidence in the lead up to a hearing. Those who refuse to comply face up to four years’ jail, a $4,400 fine or both and can be held in contempt of the Crime Commission. The legislation also doubles maximum penalties to 10 years for failing to comply with Crime Commission orders – including refusing to answer questions, obstructing investigations or giving false and misleading eviden",
+      "extracted_cues": {
+        "resistance_terms": [
+          "Amendment"
+        ],
+        "stage_terms": [],
+        "outcome_terms": [
+          "passed"
+        ],
+        "pressure_terms": []
+      },
+      "entity_mentions": {
+        "actors": [
+          {
+            "actor_id": "NSW-YASMIN-CATLEY",
+            "name": "Yasmin Catley",
+            "match_variant": "yasmin catley",
+            "party_id_at_resolution": "AUS-NSW-ALP"
+          },
+          {
+            "actor_id": "NSW-MICHAEL-DALEY",
+            "name": "Michael Daley",
+            "match_variant": "michael daley",
+            "party_id_at_resolution": "AUS-NSW-ALP"
+          }
+        ],
+        "teams": [
+          {
+            "party_id": "AUS-NSW-ALP",
+            "name": "Australian Labor Party",
+            "match_alias": "Labor"
+          }
+        ]
+      },
+      "position_state": "UNRESOLVED",
+      "resistance_state": "RESISTANCE_LANGUAGE_PRESENT",
+      "outcome_state": "OUTCOME_LANGUAGE_PRESENT",
+      "contest_fact_ids": [
+        "FACT-01db46a04e9f00386e331a27",
+        "FACT-2482440851ee6745b9005fd0",
+        "FACT-3700319e078809c30f2748d2",
+        "FACT-3745ec9217235faa1e8b4209",
+        "FACT-3fa3c1c7d91c2e520855d1f0",
+        "FACT-5da80ffbffb7a960280bc403",
+        "FACT-97220140c54661955e1d550e",
+        "FACT-ba79bfbe1c6aea4c483c18b6",
+        "FACT-c8779b6f99a147fbce7a545f",
+        "FACT-de2741bc0b8e90473009e876"
+      ],
+      "contest_fact_types": [
+        "CONTEST_OBJECT",
+        "PARTICIPANT",
+        "POSSIBLE_OUTCOME_STATE",
+        "STAGE"
+      ],
+      "threshold_evaluation_id": "THRESH-0766870c38b4c35428d1bea1",
+      "threshold_state": "EVIDENCE_GAP",
+      "threshold_blockers": [
+        "MISSING_CONDITION_DISTINCT_SUPPORTING_AND_OPPOSING_SIDES",
+        "MISSING_FACT_TYPE_EXPLICIT_OPPOSITION_POSITION",
+        "MISSING_FACT_TYPE_EXPLICIT_SUPPORT_POSITION",
+        "MISSING_FACT_TYPE_MATERIAL_RESISTANCE",
+        "MISSING_FACT_TYPE_OBJECTIVE"
+      ],
+      "supporting_entities": [],
+      "opposing_entities": [],
+      "registration_action": "NO_AUTOMATIC_REGISTRATION",
+      "intelligence_signature": "2e2ffe33c5eaf5e69a74dcfcbe298553a44719cf54eac9f54b77aa7230537b10",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "substantive_detail_lineage_required": true,
+        "active_contest_fact_lineage_required": true,
+        "threshold_evaluation_lineage_required": true,
+        "routing_does_not_register_match": true,
+        "threshold_eligibility_does_not_register_match": true,
+        "entity_mentions_do_not_establish_positions": true,
+        "retracted_facts_excluded": true,
+        "no_projection_effect_without_registered_target": true
       }
     }
   ]

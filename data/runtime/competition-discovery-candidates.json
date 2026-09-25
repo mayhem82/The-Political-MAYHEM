@@ -69,63 +69,63 @@
     {
       "jurisdiction_id": "AUS-FED",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-25T07:51:02.610Z",
+      "last_screened_at": "2026-09-25T13:49:35.666Z",
       "signals_examined": 192,
       "candidates_detected": 88
     },
     {
       "jurisdiction_id": "AUS-NSW",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-25T07:51:02.610Z",
-      "signals_examined": 73,
-      "candidates_detected": 13
+      "last_screened_at": "2026-09-25T13:49:35.666Z",
+      "signals_examined": 75,
+      "candidates_detected": 15
     },
     {
       "jurisdiction_id": "AUS-VIC",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-25T07:51:02.610Z",
+      "last_screened_at": "2026-09-25T13:49:35.666Z",
       "signals_examined": 16,
       "candidates_detected": 4
     },
     {
       "jurisdiction_id": "AUS-QLD",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-25T07:51:02.610Z",
+      "last_screened_at": "2026-09-25T13:49:35.666Z",
       "signals_examined": 40,
       "candidates_detected": 45
     },
     {
       "jurisdiction_id": "AUS-WA",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-25T07:51:02.610Z",
+      "last_screened_at": "2026-09-25T13:49:35.666Z",
       "signals_examined": 4,
       "candidates_detected": 2
     },
     {
       "jurisdiction_id": "AUS-SA",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-25T07:51:02.610Z",
+      "last_screened_at": "2026-09-25T13:49:35.666Z",
       "signals_examined": 2,
       "candidates_detected": 0
     },
     {
       "jurisdiction_id": "AUS-TAS",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-25T07:51:02.610Z",
+      "last_screened_at": "2026-09-25T13:49:35.666Z",
       "signals_examined": 21,
       "candidates_detected": 0
     },
     {
       "jurisdiction_id": "AUS-ACT",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-25T07:51:02.610Z",
+      "last_screened_at": "2026-09-25T13:49:35.666Z",
       "signals_examined": 24,
       "candidates_detected": 1
     },
     {
       "jurisdiction_id": "AUS-NT",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-25T07:51:02.610Z",
+      "last_screened_at": "2026-09-25T13:49:35.666Z",
       "signals_examined": 31,
       "candidates_detected": 0
     }
@@ -6346,21 +6346,101 @@
           "reason": "SUBSTANTIVE_THRESHOLD_EVALUATION_PROPAGATED"
         }
       ]
+    },
+    {
+      "candidate_id": "DISC-NSW-LEGISLATION-5e3abc5781e228a6",
+      "jurisdiction_id": "AUS-NSW",
+      "competition_family": "LEGISLATION",
+      "proposed_competition_class": "LEGISLATIVE",
+      "proposed_cycle_id": "AUS-NSW-58TH-PARLIAMENT",
+      "subject": "Ingested substantive legislative evidence from Tough new powers to tackle organised crime pass NSW Parliament. Captured content includes resistance language: Amendment; outcome language: passed. Registration threshold state: evidence gap. Missing requirements: missing fact type stage, missing fact t",
+      "candidate_state": "EVIDENCE_GAP",
+      "detected_at": "2026-09-25T13:49:35.283Z",
+      "source_snapshot_ids": [
+        "AUTO-WATCH-NSW-MINISTERIAL-RELEASES-20260925074943"
+      ],
+      "signal_event_ids": [
+        "INTEL-AREA-6a30c26def97d8349bd5d6fb"
+      ],
+      "review_ids": [],
+      "area_evidence_ids": [
+        "AREA-6a30c26def97d8349bd5d6fb"
+      ],
+      "detail_version_ids": [
+        "DETAIL-688223021d9da9d3298f4e81-V1"
+      ],
+      "evidence_summary": "Substantive source record body was acquired, routed to LEGISLATIVE, and written into intelligence with retained detail, source-snapshot and stage-10 threshold lineage. Match registration remains a separate action.",
+      "registration_blockers": [
+        "MISSING_CONDITION_DISTINCT_SUPPORTING_AND_OPPOSING_SIDES",
+        "MISSING_FACT_TYPE_EXPLICIT_OPPOSITION_POSITION",
+        "MISSING_FACT_TYPE_EXPLICIT_SUPPORT_POSITION",
+        "MISSING_FACT_TYPE_MATERIAL_RESISTANCE",
+        "MISSING_FACT_TYPE_STAGE"
+      ],
+      "linked_contest_id": null,
+      "state_history": [
+        {
+          "from": null,
+          "to": "EVIDENCE_GAP",
+          "at": "2026-09-25T13:49:35.283Z",
+          "reason": "SUBSTANTIVE_THRESHOLD_EVALUATION_PROPAGATED"
+        }
+      ]
+    },
+    {
+      "candidate_id": "DISC-NSW-BUDGET-9aaeac0480a90fe7",
+      "jurisdiction_id": "AUS-NSW",
+      "competition_family": "BUDGET",
+      "proposed_competition_class": "BUDGET",
+      "proposed_cycle_id": "AUS-NSW-58TH-PARLIAMENT",
+      "subject": "Ingested substantive budget evidence from Tough new powers to tackle organised crime pass NSW Parliament. Captured content includes resistance language: Amendment; outcome language: passed. Registration threshold state: evidence gap. Missing requirements: missing fact type objective, missing fact ty",
+      "candidate_state": "EVIDENCE_GAP",
+      "detected_at": "2026-09-25T13:49:35.283Z",
+      "source_snapshot_ids": [
+        "AUTO-WATCH-NSW-MINISTERIAL-RELEASES-20260925074943"
+      ],
+      "signal_event_ids": [
+        "INTEL-AREA-65f6d5842c6cac1b46b4d5ed"
+      ],
+      "review_ids": [],
+      "area_evidence_ids": [
+        "AREA-65f6d5842c6cac1b46b4d5ed"
+      ],
+      "detail_version_ids": [
+        "DETAIL-688223021d9da9d3298f4e81-V1"
+      ],
+      "evidence_summary": "Substantive source record body was acquired, routed to BUDGET, and written into intelligence with retained detail, source-snapshot and stage-10 threshold lineage. Match registration remains a separate action.",
+      "registration_blockers": [
+        "MISSING_CONDITION_DISTINCT_SUPPORTING_AND_OPPOSING_SIDES",
+        "MISSING_FACT_TYPE_EXPLICIT_OPPOSITION_POSITION",
+        "MISSING_FACT_TYPE_EXPLICIT_SUPPORT_POSITION",
+        "MISSING_FACT_TYPE_MATERIAL_RESISTANCE",
+        "MISSING_FACT_TYPE_OBJECTIVE"
+      ],
+      "linked_contest_id": null,
+      "state_history": [
+        {
+          "from": null,
+          "to": "EVIDENCE_GAP",
+          "at": "2026-09-25T13:49:35.283Z",
+          "reason": "SUBSTANTIVE_THRESHOLD_EVALUATION_PROPAGATED"
+        }
+      ]
     }
   ],
-  "last_screened_at": "2026-09-25T07:51:02.610Z",
+  "last_screened_at": "2026-09-25T13:49:35.666Z",
   "last_screen_summary": {
-    "signals_examined": 403,
-    "candidates_total": 153,
-    "candidates_added": 0,
+    "signals_examined": 405,
+    "candidates_total": 155,
+    "candidates_added": 2,
     "candidate_lineage_merges": 344,
-    "substantive_area_events_examined": 108,
+    "substantive_area_events_examined": 110,
     "threshold_state_transitions": 0,
     "registered_contests_unchanged": true
   },
-  "last_duplicate_reconciliation_at": "2026-09-25T07:51:02.706Z",
+  "last_duplicate_reconciliation_at": "2026-09-25T13:49:35.774Z",
   "last_duplicate_reconciliation": {
     "rejected": 0,
-    "active_area_family_keys": 107
+    "active_area_family_keys": 109
   }
 }

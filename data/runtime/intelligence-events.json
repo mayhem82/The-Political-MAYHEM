@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-INTELLIGENCE-EVENTS-001",
   "scope": "Australia — multi-jurisdiction",
-  "captured_at": "2026-09-25T01:32:15.957Z",
+  "captured_at": "2026-09-25T07:51:02.281Z",
   "mode": "FORWARD_ONLY",
   "rules": {
     "observation_distinct_from_inference": true,
@@ -90638,6 +90638,618 @@
           "record_id": "616ae16cd51fd20b1413",
           "title": "Acreage awarded to supercharge Queensland’s resources future",
           "url": "https://statements.qld.gov.au/statements/106110"
+        }
+      ],
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "underlying_publication_claims_not_promoted_to_verified_fact": true,
+        "source_change_parent_retained": true,
+        "deterministic_review": true
+      }
+    },
+    {
+      "event_id": "CHG-WATCH-PM-MEDIA-20260925074943",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-FED",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-PM-MEDIA-20260925074943",
+      "captured_at": "2026-09-25T07:49:43.312Z",
+      "event_date": "2026-09-25",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-PM-MEDIA",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "review_policy": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-PM-MEDIA-20260924222500",
+        "content_hash": "5b7dd8a282f04343440dd6f4917e8869cd845b906d22cd9bee458a7e7110af1d",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-PM-MEDIA-20260925074943",
+        "content_hash": "8f435734d9734f5a4d1d66008806e2a07d144740bc9987a44e40bd7d3c15c307",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "STRUCTURED_RECORD_SET",
+        "records_added": [
+          {
+            "record_id": "1b710fe6c60b1bceaced",
+            "title": "Australia&#039;s National Statement - United States, New York",
+            "url": "https://www.pm.gov.au/media/australias-national-statement-united-states-new-york"
+          },
+          {
+            "record_id": "a3d7f876294e4dc117e7",
+            "title": "Television interview - News24 NewsDay",
+            "url": "https://www.pm.gov.au/media/television-interview-news24-newsday"
+          }
+        ],
+        "records_removed": [
+          {
+            "record_id": "525348f9bbed50f193c3",
+            "title": "Australia-EU meeting 2026",
+            "url": "https://www.pm.gov.au/media/australia-eu-meeting-2026"
+          },
+          {
+            "record_id": "fae0728d128b31ae2760",
+            "title": "Climate Week Keynote Address",
+            "url": "https://www.pm.gov.au/media/climate-week-keynote-address"
+          }
+        ],
+        "added_count": 2,
+        "removed_count": 2,
+        "before_count": 27,
+        "after_count": 27,
+        "delta_hash": "9997342b9d98c22118b799a9dada1fb4acdf2d66df5770ccb521efb91645731c"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-LIBERAL-HOME-20260925074943",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-FED",
+      "party_id": "AUS-FED-LIB",
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-LIBERAL-HOME-20260925074943",
+      "captured_at": "2026-09-25T07:49:43.312Z",
+      "event_date": "2026-09-25",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_PARTY",
+      "source_id": "SRC-LIBERAL-FEDERAL-HOME",
+      "capture_mode": "NORMALISED_PAGE_HASH",
+      "review_policy": "REVIEW_UNSTRUCTURED_CHANGE",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-LIBERAL-HOME-20260925013126",
+        "content_hash": "37f7ce05412db4c0bcd6ff6082c34efa99b1c103c8a5fa1c1a6843c0d70b066b",
+        "capture_mode": "NORMALISED_PAGE_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-LIBERAL-HOME-20260925074943",
+        "content_hash": "3a972d1b4c91b270dad8b93b519a9d7380b4945235eef7bbb500aed9be0b8670",
+        "capture_mode": "NORMALISED_PAGE_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "TEXT_REPRESENTATION",
+        "first_difference_offset": 1420,
+        "before_length": 6248,
+        "after_length": 6694,
+        "before_excerpt": "er of the Opposition in the Senate Meet the Liberal Team The Latest Stay up to date with the Liberal Party of Australia angustaylormp Anthony Albanese has broken our economy. While he celebrates in New York, Australians are bracing for another rate rise. Only the Coalition can fix the economy and protect our way of life. Sep 24 Open post by angustaylormp with ID 17892366141610482 senatorhume Australians are not better off under Labor &#8211; they are working harder and taking on second and even third jobs, yet they are still watching their living standards collapse. Sep 24 Open post by senatorhume with ID 18391967686163706 angustaylormp There’s a pretty stark contrast in Australian politics right now. While Labor politicians are busy taking photos of themselves in the mirror, Australian families are worrying about the cost of filling up the car and paying the mortgage while staring down the barrel of another interest rate rise. The Coalition is fighting for cheaper fuel, scrapping net zero and making Australia energy independent as part of our plan to fix our economy. Sep 24 Open post by angustaylormp with ID 18092312066438664 liberalaus After watching all that sport she still drops the ball when it comes to our data security. Sep 24 Open post by liberalaus with ID 18137458909621917 liberalaus Life isn`t easy under Albanese. Sep 24 Open post by liberalaus with ID 18075048350442405 angustaylormp Australians want to know what their government will do when the oil price spikes and family budgets get smashed. Sep 24 Open post by angustaylormp with ID 18119840657311577 liberalaus Australia has abundant energy resources. So why are we paying so much? The problem is Labor’s policies. Driven by its Net Zero obsession, Labor has turned its back on affordable and reliable energy. Sep 23 Open post by liberalaus with ID 17909522616540447 liberalaus Australia`s energy system should be built around: affordability, reliability and security. Read more about our plan at the link in bio. Sep 23 Open post by liberalaus with ID 17889100665614869 senatorhume $15 billion. Taxpayers deserve answers. Sep 23 Open post by senatorhume with ID 18149728474484055 angustaylormp Can’t stop talking about our plan to halve the tax on fuel when oil prices surge. Sep 23 Open post by angustaylormp with ID 18131531125780029 angustaylormp When global oil prices spike, our Fuel Price Shield would save you 27c a litre. Sep 22 Open post by angustaylormp with ID 17907991374517138 angustaylormp Save 27 cents a litre. Around $15 a tank. Money back in your pocket. It could happen right now if Anthony Albanese took up our plan to halve the fuel excise. Sep 22 Open post by angustaylormp with ID 18123223363694665 liberalaus Labor`s lost control of their spending and now they`re coming after pensioners. It`s been revealed Labor`s cut to the Private Health Insurance rebate for people 65+ will cost pensioners $1.6 billion. Labor needs to scrap this cash grab, for the sake of seniors Australians, and our health system. Sep 22 Open post by liberalaus with ID 18214752967347997 liberalaus Labor`s lost control of its spending which puts huge pressure on inflation. This is forcing up interest rates, and making it harder to get a loan, and costing homeowners more every week. Sep 21 Open post by liberalaus with ID 17897282961603844 angustaylormp We know household budgets are under pressure, and when fuel prices go up, every trip to the bowser can hurt a little more. Australians deserve a government that will do what they can to relieve that pressure. Not one that will make it worse. Sep 21 Open post by angustaylormp with ID 18564664057074394 senatorhume Jim Chalmers talks about intergenerational fairness while Labor is pulling up the ladder on the next generation. Sep 21 Open post by senatorhume with ID 18104231428973488 angustaylormp The cost of fuel is so hot right now. We’ll halve the fuel tax and save you 27c a litre! Sep 21 Open post by angustaylormp with ID 18135697732724354 liberalaus Today’s debt is tomorrow’s taxes, and as long as the Treasurer can’t kick his spending addiction, young Australians will be left carrying the bill. Sep 21 Open post by liberalaus with ID 18149347168532718 We need your support to win! Help us by making a donation today. 🙏🏼 $30 👏🏼 $60 😃 $120 😁 $500 😲 $1,000 🥹 $2,000 ",
+        "after_excerpt": "er of the Opposition in the Senate Meet the Liberal Team The Latest Stay up to date with the Liberal Party of Australia liberalaus Labor has no plan to reduce its more than $1 trillion debt, and Australians will continue to pay the price as higher interest rates hit. The Liberals and Nationals will establish a Future Generations Fund to pay down Labor’s debt, and we will stop spending faster than the economy is growing. Disciplined budgets are how we will keep taxes low, pays down debt and protects the economy against shocks. Sep 25 Open post by liberalaus with ID 18113861354005092 angustaylormp This has not aged well. Come on Prime Minister, put Australians first. Halve the fuel tax! Sep 25 Open post by angustaylormp with ID 18138010813618776 liberalaus Australian petrol and diesel prices have hit their highest levels in nearly six months. Our plan would automatically halve fuel excise when the two-week average Brent crude oil price rises above US$100 a barrel. It would cut the tax on fuel by around 27 cents a litre, saving around $15 on a typical tank. Sep 25 Open post by liberalaus with ID 18113699930039100 angustaylormp Anthony Albanese has broken our economy. While he celebrates in New York, Australians are bracing for another rate rise. Only the Coalition can fix the economy and protect our way of life. Sep 24 Open post by angustaylormp with ID 17892366141610482 senatorhume Australians are not better off under Labor &#8211; they are working harder and taking on second and even third jobs, yet they are still watching their living standards collapse. Sep 24 Open post by senatorhume with ID 18391967686163706 angustaylormp There’s a pretty stark contrast in Australian politics right now. While Labor politicians are busy taking photos of themselves in the mirror, Australian families are worrying about the cost of filling up the car and paying the mortgage while staring down the barrel of another interest rate rise. The Coalition is fighting for cheaper fuel, scrapping net zero and making Australia energy independent as part of our plan to fix our economy. Sep 24 Open post by angustaylormp with ID 18092312066438664 liberalaus After watching all that sport she still drops the ball when it comes to our data security. Sep 24 Open post by liberalaus with ID 18137458909621917 liberalaus Life isn`t easy under Albanese. Sep 24 Open post by liberalaus with ID 18075048350442405 angustaylormp Australians want to know what their government will do when the oil price spikes and family budgets get smashed. Sep 24 Open post by angustaylormp with ID 18119840657311577 liberalaus Australia has abundant energy resources. So why are we paying so much? The problem is Labor’s policies. Driven by its Net Zero obsession, Labor has turned its back on affordable and reliable energy. Sep 23 Open post by liberalaus with ID 17909522616540447 liberalaus Australia`s energy system should be built around: affordability, reliability and security. Read more about our plan at the link in bio. Sep 23 Open post by liberalaus with ID 17889100665614869 senatorhume $15 billion. Taxpayers deserve answers. Sep 23 Open post by senatorhume with ID 18149728474484055 angustaylormp Can’t stop talking about our plan to halve the tax on fuel when oil prices surge. Sep 23 Open post by angustaylormp with ID 18131531125780029 angustaylormp When global oil prices spike, our Fuel Price Shield would save you 27c a litre. Sep 22 Open post by angustaylormp with ID 17907991374517138 angustaylormp Save 27 cents a litre. Around $15 a tank. Money back in your pocket. It could happen right now if Anthony Albanese took up our plan to halve the fuel excise. Sep 22 Open post by angustaylormp with ID 18123223363694665 liberalaus Labor`s lost control of their spending and now they`re coming after pensioners. It`s been revealed Labor`s cut to the Private Health Insurance rebate for people 65+ will cost pensioners $1.6 billion. Labor needs to scrap this cash grab, for the sake of seniors Australians, and our health system. Sep 22 Open post by liberalaus with ID 18214752967347997 liberalaus Labor`s lost control of its spending which puts huge pressure on inflation. This is forcing up interest rates, and making it harder to get a loan, and costing homeowners more every week. Sep 21 Open post by liberalaus with ID 17897282961603844 angustaylormp We know household budgets are under pressure, and when fuel prices go up, every trip to the bowser can hurt a little more. Australians deserve a government that will do what they can to relieve that pressure. Not one that will make it worse. Sep 21 Open post by angustaylormp with ID 18564664057074394 We need your support to win! Help us by making a donation today. 🙏🏼 $30 👏🏼 $60 😃 $120 😁 $500 😲 $1,000 🥹 $2,000 ",
+        "delta_hash": "90559e2978b0e208b4fc56e5651006cee2270c45d44929477ae41fd7bb1b7382"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-NSW-MINISTERIAL-RELEASES-20260925074943",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-NSW",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-NSW-MINISTERIAL-RELEASES-20260925074943",
+      "captured_at": "2026-09-25T07:49:43.312Z",
+      "event_date": "2026-09-25",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-NSW-MINISTERIAL-RELEASES",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "review_policy": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-NSW-MINISTERIAL-RELEASES-20260925013126",
+        "content_hash": "e0ce5f99fcc8f735958bbbce55949cbf6c5f4ad516a32fef6ca31cb83e6350d5",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-NSW-MINISTERIAL-RELEASES-20260925074943",
+        "content_hash": "adbccdec19e18cd482dd2d24ecf78e7b0e980a6d014fb72e45a1d7542712f983",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "STRUCTURED_RECORD_SET",
+        "records_added": [
+          {
+            "record_id": "4442ebb1675f1c87ba6d",
+            "title": "Building Homes for NSW Halfway Report Card: Historic investment delivering record results",
+            "url": "https://www.nsw.gov.au/ministerial-releases/building-homes-for-nsw-halfway-report-card-historic-investment-delivering-record-results"
+          },
+          {
+            "record_id": "71d7ebb02d920b44f809",
+            "title": "Tough new powers to tackle organised crime pass NSW Parliament",
+            "url": "https://www.nsw.gov.au/ministerial-releases/crimes-amendment-passes-parliament"
+          },
+          {
+            "record_id": "83a0592d2c1a329c23d1",
+            "title": "Historic $319 million contract awarded for largest disaster recovery road rebuild in NSW",
+            "url": "https://www.nsw.gov.au/ministerial-releases/historic-319-million-contract-awarded-for-largest-disaster-recovery-road-rebuild-nsw"
+          },
+          {
+            "record_id": "b0fab0064c1c9990a945",
+            "title": "Justice system reforms, extension of bail laws pass NSW Parliament",
+            "url": "https://www.nsw.gov.au/ministerial-releases/justice-system-reforms-extension-of-bail-laws-pass-nsw-parliament"
+          },
+          {
+            "record_id": "b3b36de12b7c55b27c21",
+            "title": "10-year plan strikes the right note for music education in New South Wales public schools",
+            "url": "https://www.nsw.gov.au/ministerial-releases/10-year-plan-strikes-right-note-for-music-education-new-south-wales-public-schools"
+          }
+        ],
+        "records_removed": [
+          {
+            "record_id": "03df9a3a7d623ac6c785",
+            "title": "Minns Labor Government’s landmark domestic violence rental reforms now in effect",
+            "url": "https://www.nsw.gov.au/ministerial-releases/minns-labor-governments-landmark-domestic-violence-rental-reforms-now-effect-0"
+          },
+          {
+            "record_id": "2488e00f9a2812988c84",
+            "title": "Illawarra hospitals to benefit from more nurses",
+            "url": "https://www.nsw.gov.au/ministerial-releases/illawarra-hospitals-to-benefit-from-more-nurses"
+          },
+          {
+            "record_id": "26d6722a60784220aa1b",
+            "title": "Extra trains for Knights fans as Newcastle charges toward history",
+            "url": "https://www.nsw.gov.au/ministerial-releases/extra-trains-for-knights-fans-as-newcastle-charges-toward-history"
+          },
+          {
+            "record_id": "470e53be9afc882602e8",
+            "title": "World first music bill passes to protect NSW live music",
+            "url": "https://www.nsw.gov.au/departments-and-agencies/dciths/ministerial-media-releases/world-first-music-bill-passes-to-protect-nsw-live-music"
+          },
+          {
+            "record_id": "51d4f63fc4149ef14861",
+            "title": "Minns Labor Government to renew and upgrade Bradfield Park under Sydney Harbour Bridge",
+            "url": "https://www.nsw.gov.au/ministerial-releases/bradfield-park-gets-upgrade"
+          }
+        ],
+        "added_count": 5,
+        "removed_count": 5,
+        "before_count": 88,
+        "after_count": 88,
+        "delta_hash": "3823978766bd0a7ffb6ceacfad09de97516dec307449002bbaa0c3fcac620ffd"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-NSWEC-MEDIA-20260925074943",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-NSW",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-NSWEC-MEDIA-20260925074943",
+      "captured_at": "2026-09-25T07:49:43.312Z",
+      "event_date": "2026-09-25",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_ELECTORAL_AUTHORITY",
+      "source_id": "SRC-NSWEC-MEDIA",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "review_policy": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-NSWEC-MEDIA-20260916060300",
+        "content_hash": "d7480ae976e40418f4075fe49a60c0c20759d1c5ed3d2f4ff84373cd37d11f95",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-NSWEC-MEDIA-20260925074943",
+        "content_hash": "0d0865f0b5c4ef5e73404c26280949336f39f20ce8374c946e440d36e5ac37fb",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "STRUCTURED_RECORD_SET",
+        "records_added": [
+          {
+            "record_id": "fc8a242bffd934a5c856",
+            "title": "Report a breach of electoral laws",
+            "url": "https://elections.nsw.gov.au/about-us/legislation/report-a-breach-of-electoral-laws"
+          }
+        ],
+        "records_removed": [],
+        "added_count": 1,
+        "removed_count": 0,
+        "before_count": 362,
+        "after_count": 363,
+        "delta_hash": "29f8b928f8443aba0ed0cc4c7047b2d0dad2c3c7b21bab30faa5c607cd568266"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-WAEC-MEDIA-20260925074943",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-WA",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-WAEC-MEDIA-20260925074943",
+      "captured_at": "2026-09-25T07:49:43.312Z",
+      "event_date": "2026-09-25",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_ELECTORAL_AUTHORITY",
+      "source_id": "SRC-WAEC-MEDIA",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "review_policy": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-WAEC-MEDIA-20260914140350",
+        "content_hash": "7d0789f0a122e89e371b72e62dc1055162cdbf9b3f05ced25fc5e4ecb26241b4",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-WAEC-MEDIA-20260925074943",
+        "content_hash": "4c98742156439c068dde2b211875b49cf5bc20ebdfd59130c6498c9736c67484",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "STRUCTURED_RECORD_SET",
+        "records_added": [
+          {
+            "record_id": "367bec7e418445965438",
+            "title": "All Results Declared for September Local Government Extraordinary Elections",
+            "url": "https://www.elections.wa.gov.au/about-us/media/releases/2632"
+          }
+        ],
+        "records_removed": [
+          {
+            "record_id": "16f8245769d7684baa4d",
+            "title": "Local Government Extraordinary Elections postal vote deadline fast approaching",
+            "url": "https://www.elections.wa.gov.au/about-us/media/releases/2593"
+          }
+        ],
+        "added_count": 1,
+        "removed_count": 1,
+        "before_count": 96,
+        "after_count": 96,
+        "delta_hash": "b698719111fd2a1f6cb102395c755eda894b66a626bd34a4aa768cfd83ccd783"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-TAS-HANSARD-20260925074943",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-TAS",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-TAS-HANSARD-20260925074943",
+      "captured_at": "2026-09-25T07:49:43.312Z",
+      "event_date": "2026-09-25",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_PARLIAMENT",
+      "source_id": "SRC-TAS-HANSARD",
+      "capture_mode": "NORMALISED_PAGE_HASH",
+      "review_policy": "REVIEW_UNSTRUCTURED_CHANGE",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-TAS-HANSARD-20260913161802",
+        "content_hash": "7ae65ddf2209f1533e7680e4d929e8f588ad3f984029d55761edbe91f4f9ac59",
+        "capture_mode": "NORMALISED_PAGE_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-TAS-HANSARD-20260925074943",
+        "content_hash": "f114eede910a05688fd952fe0bca4bb6c0530c4a5d16db4c4f75441abc2349a9",
+        "capture_mode": "NORMALISED_PAGE_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "TEXT_REPRESENTATION",
+        "first_difference_offset": 1529,
+        "before_length": 3207,
+        "after_length": 3178,
+        "before_excerpt": " Stillwater 34 Iran 30 Singapore 30 Wellington 28 France 24 America 23 SCOTLAND 22 Cambridge 20 Canada 20 more... top 5 Clusters Council Thursday 12 Sort by Best Match Date Size Date Filter by date Last 7 days Last Month Last 3 Months Last 6 Months Last 12 Months Showi",
+        "after_excerpt": " Stillwater 34 Iran 30 Singapore 30 Wellington 28 France 24 America 23 SCOTLAND 22 Cambridge 20 Canada 20 more... top 5 Sort by Best Match Date Size Date Filter by date Last 7 days Last Month Last 3 Months Last 6 Months Last 12 Months Showi",
+        "delta_hash": "fe2fdd5efc3c7478bbb910c80295440ddfd9cf11fab16847ed2a362ad3864268"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "SIG-REV-CHG-WATCH-PM-MEDIA-20260925074943",
+      "parent_event_id": "CHG-WATCH-PM-MEDIA-20260925074943",
+      "review_id": "REV-CHG-WATCH-PM-MEDIA-20260925074943",
+      "jurisdiction_id": "AUS-FED",
+      "party_id": null,
+      "actor_id": null,
+      "contest_id": null,
+      "cycle_id": null,
+      "source_snapshot_id": "AUTO-WATCH-PM-MEDIA-20260925074943",
+      "record_id": null,
+      "captured_at": "2026-09-25T07:50:52.038Z",
+      "event_date": "2026-09-25",
+      "checkpoint": "CONTINUOUS_FORWARD_SIGNAL_REVIEW",
+      "event_type": "SIGNAL_CREATED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-PM-MEDIA",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "claim": "Prime Minister of Australia — media added 2 structured publication records to its forward-captured official index: Australia&#039;s National Statement - United States, New York; Television interview - News24 NewsDay",
+      "observed_behaviour": "One or more structured publication records appeared in the monitored official source index after the preceding forward snapshot.",
+      "publication_records_added": [
+        {
+          "record_id": "1b710fe6c60b1bceaced",
+          "title": "Australia&#039;s National Statement - United States, New York",
+          "url": "https://www.pm.gov.au/media/australias-national-statement-united-states-new-york"
+        },
+        {
+          "record_id": "a3d7f876294e4dc117e7",
+          "title": "Television interview - News24 NewsDay",
+          "url": "https://www.pm.gov.au/media/television-interview-news24-newsday"
+        }
+      ],
+      "publication_records_removed": [
+        {
+          "record_id": "525348f9bbed50f193c3",
+          "title": "Australia-EU meeting 2026",
+          "url": "https://www.pm.gov.au/media/australia-eu-meeting-2026"
+        },
+        {
+          "record_id": "fae0728d128b31ae2760",
+          "title": "Climate Week Keynote Address",
+          "url": "https://www.pm.gov.au/media/climate-week-keynote-address"
+        }
+      ],
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "underlying_publication_claims_not_promoted_to_verified_fact": true,
+        "source_change_parent_retained": true,
+        "deterministic_review": true
+      }
+    },
+    {
+      "event_id": "SIG-REV-CHG-WATCH-NSW-MINISTERIAL-RELEASES-20260925074943",
+      "parent_event_id": "CHG-WATCH-NSW-MINISTERIAL-RELEASES-20260925074943",
+      "review_id": "REV-CHG-WATCH-NSW-MINISTERIAL-RELEASES-20260925074943",
+      "jurisdiction_id": "AUS-NSW",
+      "party_id": null,
+      "actor_id": null,
+      "contest_id": null,
+      "cycle_id": null,
+      "source_snapshot_id": "AUTO-WATCH-NSW-MINISTERIAL-RELEASES-20260925074943",
+      "record_id": null,
+      "captured_at": "2026-09-25T07:50:52.038Z",
+      "event_date": "2026-09-25",
+      "checkpoint": "CONTINUOUS_FORWARD_SIGNAL_REVIEW",
+      "event_type": "SIGNAL_CREATED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-NSW-MINISTERIAL-RELEASES",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "claim": "NSW Government — Ministerial releases added 5 structured publication records to its forward-captured official index: Building Homes for NSW Halfway Report Card: Historic investment delivering record results; Tough new powers to tackle organised crime pass NSW Parliament; Historic $319 million contract awarded for largest disaster recovery road rebuild in NSW; Justice system reforms, extension of bail laws pass NSW Parliament; 10-year plan strikes the right note for music education in New South Wales public schools",
+      "observed_behaviour": "One or more structured publication records appeared in the monitored official source index after the preceding forward snapshot.",
+      "publication_records_added": [
+        {
+          "record_id": "4442ebb1675f1c87ba6d",
+          "title": "Building Homes for NSW Halfway Report Card: Historic investment delivering record results",
+          "url": "https://www.nsw.gov.au/ministerial-releases/building-homes-for-nsw-halfway-report-card-historic-investment-delivering-record-results"
+        },
+        {
+          "record_id": "71d7ebb02d920b44f809",
+          "title": "Tough new powers to tackle organised crime pass NSW Parliament",
+          "url": "https://www.nsw.gov.au/ministerial-releases/crimes-amendment-passes-parliament"
+        },
+        {
+          "record_id": "83a0592d2c1a329c23d1",
+          "title": "Historic $319 million contract awarded for largest disaster recovery road rebuild in NSW",
+          "url": "https://www.nsw.gov.au/ministerial-releases/historic-319-million-contract-awarded-for-largest-disaster-recovery-road-rebuild-nsw"
+        },
+        {
+          "record_id": "b0fab0064c1c9990a945",
+          "title": "Justice system reforms, extension of bail laws pass NSW Parliament",
+          "url": "https://www.nsw.gov.au/ministerial-releases/justice-system-reforms-extension-of-bail-laws-pass-nsw-parliament"
+        },
+        {
+          "record_id": "b3b36de12b7c55b27c21",
+          "title": "10-year plan strikes the right note for music education in New South Wales public schools",
+          "url": "https://www.nsw.gov.au/ministerial-releases/10-year-plan-strikes-right-note-for-music-education-new-south-wales-public-schools"
+        }
+      ],
+      "publication_records_removed": [
+        {
+          "record_id": "03df9a3a7d623ac6c785",
+          "title": "Minns Labor Government’s landmark domestic violence rental reforms now in effect",
+          "url": "https://www.nsw.gov.au/ministerial-releases/minns-labor-governments-landmark-domestic-violence-rental-reforms-now-effect-0"
+        },
+        {
+          "record_id": "2488e00f9a2812988c84",
+          "title": "Illawarra hospitals to benefit from more nurses",
+          "url": "https://www.nsw.gov.au/ministerial-releases/illawarra-hospitals-to-benefit-from-more-nurses"
+        },
+        {
+          "record_id": "26d6722a60784220aa1b",
+          "title": "Extra trains for Knights fans as Newcastle charges toward history",
+          "url": "https://www.nsw.gov.au/ministerial-releases/extra-trains-for-knights-fans-as-newcastle-charges-toward-history"
+        },
+        {
+          "record_id": "470e53be9afc882602e8",
+          "title": "World first music bill passes to protect NSW live music",
+          "url": "https://www.nsw.gov.au/departments-and-agencies/dciths/ministerial-media-releases/world-first-music-bill-passes-to-protect-nsw-live-music"
+        },
+        {
+          "record_id": "51d4f63fc4149ef14861",
+          "title": "Minns Labor Government to renew and upgrade Bradfield Park under Sydney Harbour Bridge",
+          "url": "https://www.nsw.gov.au/ministerial-releases/bradfield-park-gets-upgrade"
+        }
+      ],
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "underlying_publication_claims_not_promoted_to_verified_fact": true,
+        "source_change_parent_retained": true,
+        "deterministic_review": true
+      }
+    },
+    {
+      "event_id": "SIG-REV-CHG-WATCH-NSWEC-MEDIA-20260925074943",
+      "parent_event_id": "CHG-WATCH-NSWEC-MEDIA-20260925074943",
+      "review_id": "REV-CHG-WATCH-NSWEC-MEDIA-20260925074943",
+      "jurisdiction_id": "AUS-NSW",
+      "party_id": null,
+      "actor_id": null,
+      "contest_id": null,
+      "cycle_id": null,
+      "source_snapshot_id": "AUTO-WATCH-NSWEC-MEDIA-20260925074943",
+      "record_id": "fc8a242bffd934a5c856",
+      "captured_at": "2026-09-25T07:50:52.038Z",
+      "event_date": "2026-09-25",
+      "checkpoint": "CONTINUOUS_FORWARD_SIGNAL_REVIEW",
+      "event_type": "SIGNAL_CREATED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_ELECTORAL_AUTHORITY",
+      "source_id": "SRC-NSWEC-MEDIA",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "claim": "NSW Electoral Commission — news and media releases added 1 structured publication record to its forward-captured official index: Report a breach of electoral laws",
+      "observed_behaviour": "One or more structured publication records appeared in the monitored official source index after the preceding forward snapshot.",
+      "publication_records_added": [
+        {
+          "record_id": "fc8a242bffd934a5c856",
+          "title": "Report a breach of electoral laws",
+          "url": "https://elections.nsw.gov.au/about-us/legislation/report-a-breach-of-electoral-laws"
+        }
+      ],
+      "publication_records_removed": [],
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "underlying_publication_claims_not_promoted_to_verified_fact": true,
+        "source_change_parent_retained": true,
+        "deterministic_review": true
+      }
+    },
+    {
+      "event_id": "SIG-REV-CHG-WATCH-WAEC-MEDIA-20260925074943",
+      "parent_event_id": "CHG-WATCH-WAEC-MEDIA-20260925074943",
+      "review_id": "REV-CHG-WATCH-WAEC-MEDIA-20260925074943",
+      "jurisdiction_id": "AUS-WA",
+      "party_id": null,
+      "actor_id": null,
+      "contest_id": null,
+      "cycle_id": null,
+      "source_snapshot_id": "AUTO-WATCH-WAEC-MEDIA-20260925074943",
+      "record_id": "367bec7e418445965438",
+      "captured_at": "2026-09-25T07:50:52.038Z",
+      "event_date": "2026-09-25",
+      "checkpoint": "CONTINUOUS_FORWARD_SIGNAL_REVIEW",
+      "event_type": "SIGNAL_CREATED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_ELECTORAL_AUTHORITY",
+      "source_id": "SRC-WAEC-MEDIA",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "claim": "Western Australian Electoral Commission — media releases added 1 structured publication record to its forward-captured official index: All Results Declared for September Local Government Extraordinary Elections",
+      "observed_behaviour": "One or more structured publication records appeared in the monitored official source index after the preceding forward snapshot.",
+      "publication_records_added": [
+        {
+          "record_id": "367bec7e418445965438",
+          "title": "All Results Declared for September Local Government Extraordinary Elections",
+          "url": "https://www.elections.wa.gov.au/about-us/media/releases/2632"
+        }
+      ],
+      "publication_records_removed": [
+        {
+          "record_id": "16f8245769d7684baa4d",
+          "title": "Local Government Extraordinary Elections postal vote deadline fast approaching",
+          "url": "https://www.elections.wa.gov.au/about-us/media/releases/2593"
         }
       ],
       "inference": null,

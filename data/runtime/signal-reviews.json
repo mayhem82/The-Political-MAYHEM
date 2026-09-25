@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-SIGNAL-REVIEWS-001",
   "created_at": "2026-09-09T05:05:00+10:00",
-  "updated_at": "2026-09-25T01:32:07.377Z",
+  "updated_at": "2026-09-25T07:50:52.038Z",
   "rules": {
     "append_only": true,
     "raw_source_change_is_immutable": true,
@@ -33035,6 +33035,210 @@
           }
         ],
         "delta_hash": "e0d5994bd5b9f80f66339bda867a1981495b024bd12ff19969f8c73cc688a94c"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-PM-MEDIA-20260925074943",
+      "source_change_event_id": "CHG-WATCH-PM-MEDIA-20260925074943",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-PM-MEDIA-20260925074943",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Prime Minister of Australia — media added 2 structured publication records to its forward-captured official index: Australia&#039;s National Statement - United States, New York; Television interview - News24 NewsDay",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-09-25T07:50:52.038Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "1b710fe6c60b1bceaced",
+            "title": "Australia&#039;s National Statement - United States, New York",
+            "url": "https://www.pm.gov.au/media/australias-national-statement-united-states-new-york"
+          },
+          {
+            "record_id": "a3d7f876294e4dc117e7",
+            "title": "Television interview - News24 NewsDay",
+            "url": "https://www.pm.gov.au/media/television-interview-news24-newsday"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "525348f9bbed50f193c3",
+            "title": "Australia-EU meeting 2026",
+            "url": "https://www.pm.gov.au/media/australia-eu-meeting-2026"
+          },
+          {
+            "record_id": "fae0728d128b31ae2760",
+            "title": "Climate Week Keynote Address",
+            "url": "https://www.pm.gov.au/media/climate-week-keynote-address"
+          }
+        ],
+        "delta_hash": "9997342b9d98c22118b799a9dada1fb4acdf2d66df5770ccb521efb91645731c"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-NSW-MINISTERIAL-RELEASES-20260925074943",
+      "source_change_event_id": "CHG-WATCH-NSW-MINISTERIAL-RELEASES-20260925074943",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-NSW-MINISTERIAL-RELEASES-20260925074943",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "NSW Government — Ministerial releases added 5 structured publication records to its forward-captured official index: Building Homes for NSW Halfway Report Card: Historic investment delivering record results; Tough new powers to tackle organised crime pass NSW Parliament; Historic $319 million contract awarded for largest disaster recovery road rebuild in NSW; Justice system reforms, extension of bail laws pass NSW Parliament; 10-year plan strikes the right note for music education in New South Wales public schools",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-09-25T07:50:52.038Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "4442ebb1675f1c87ba6d",
+            "title": "Building Homes for NSW Halfway Report Card: Historic investment delivering record results",
+            "url": "https://www.nsw.gov.au/ministerial-releases/building-homes-for-nsw-halfway-report-card-historic-investment-delivering-record-results"
+          },
+          {
+            "record_id": "71d7ebb02d920b44f809",
+            "title": "Tough new powers to tackle organised crime pass NSW Parliament",
+            "url": "https://www.nsw.gov.au/ministerial-releases/crimes-amendment-passes-parliament"
+          },
+          {
+            "record_id": "83a0592d2c1a329c23d1",
+            "title": "Historic $319 million contract awarded for largest disaster recovery road rebuild in NSW",
+            "url": "https://www.nsw.gov.au/ministerial-releases/historic-319-million-contract-awarded-for-largest-disaster-recovery-road-rebuild-nsw"
+          },
+          {
+            "record_id": "b0fab0064c1c9990a945",
+            "title": "Justice system reforms, extension of bail laws pass NSW Parliament",
+            "url": "https://www.nsw.gov.au/ministerial-releases/justice-system-reforms-extension-of-bail-laws-pass-nsw-parliament"
+          },
+          {
+            "record_id": "b3b36de12b7c55b27c21",
+            "title": "10-year plan strikes the right note for music education in New South Wales public schools",
+            "url": "https://www.nsw.gov.au/ministerial-releases/10-year-plan-strikes-right-note-for-music-education-new-south-wales-public-schools"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "03df9a3a7d623ac6c785",
+            "title": "Minns Labor Government’s landmark domestic violence rental reforms now in effect",
+            "url": "https://www.nsw.gov.au/ministerial-releases/minns-labor-governments-landmark-domestic-violence-rental-reforms-now-effect-0"
+          },
+          {
+            "record_id": "2488e00f9a2812988c84",
+            "title": "Illawarra hospitals to benefit from more nurses",
+            "url": "https://www.nsw.gov.au/ministerial-releases/illawarra-hospitals-to-benefit-from-more-nurses"
+          },
+          {
+            "record_id": "26d6722a60784220aa1b",
+            "title": "Extra trains for Knights fans as Newcastle charges toward history",
+            "url": "https://www.nsw.gov.au/ministerial-releases/extra-trains-for-knights-fans-as-newcastle-charges-toward-history"
+          },
+          {
+            "record_id": "470e53be9afc882602e8",
+            "title": "World first music bill passes to protect NSW live music",
+            "url": "https://www.nsw.gov.au/departments-and-agencies/dciths/ministerial-media-releases/world-first-music-bill-passes-to-protect-nsw-live-music"
+          },
+          {
+            "record_id": "51d4f63fc4149ef14861",
+            "title": "Minns Labor Government to renew and upgrade Bradfield Park under Sydney Harbour Bridge",
+            "url": "https://www.nsw.gov.au/ministerial-releases/bradfield-park-gets-upgrade"
+          }
+        ],
+        "delta_hash": "3823978766bd0a7ffb6ceacfad09de97516dec307449002bbaa0c3fcac620ffd"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-NSWEC-MEDIA-20260925074943",
+      "source_change_event_id": "CHG-WATCH-NSWEC-MEDIA-20260925074943",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-NSWEC-MEDIA-20260925074943",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "NSW Electoral Commission — news and media releases added 1 structured publication record to its forward-captured official index: Report a breach of electoral laws",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-09-25T07:50:52.038Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "fc8a242bffd934a5c856",
+            "title": "Report a breach of electoral laws",
+            "url": "https://elections.nsw.gov.au/about-us/legislation/report-a-breach-of-electoral-laws"
+          }
+        ],
+        "removed_records": [],
+        "delta_hash": "29f8b928f8443aba0ed0cc4c7047b2d0dad2c3c7b21bab30faa5c607cd568266"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-WAEC-MEDIA-20260925074943",
+      "source_change_event_id": "CHG-WATCH-WAEC-MEDIA-20260925074943",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-WAEC-MEDIA-20260925074943",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Western Australian Electoral Commission — media releases added 1 structured publication record to its forward-captured official index: All Results Declared for September Local Government Extraordinary Elections",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-09-25T07:50:52.038Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "367bec7e418445965438",
+            "title": "All Results Declared for September Local Government Extraordinary Elections",
+            "url": "https://www.elections.wa.gov.au/about-us/media/releases/2632"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "16f8245769d7684baa4d",
+            "title": "Local Government Extraordinary Elections postal vote deadline fast approaching",
+            "url": "https://www.elections.wa.gov.au/about-us/media/releases/2593"
+          }
+        ],
+        "delta_hash": "b698719111fd2a1f6cb102395c755eda894b66a626bd34a4aa768cfd83ccd783"
       },
       "integrity": {
         "source_change_unchanged": true,

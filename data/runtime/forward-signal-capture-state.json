@@ -7,9 +7,9 @@
       "source_id": "SRC-LIBERAL-FEDERAL-HOME",
       "jurisdiction_id": "AUS-FED",
       "party_id": "AUS-FED-LIB",
-      "content_hash": "3a972d1b4c91b270dad8b93b519a9d7380b4945235eef7bbb500aed9be0b8670",
-      "snapshot_id": "AUTO-WATCH-LIBERAL-HOME-20260925074943",
-      "captured_at": "2026-09-25T07:49:43.312Z",
+      "content_hash": "2e11c696fcac6517bb5c0012f081a268033215a8d35f592d4842d5d9624b72a1",
+      "snapshot_id": "AUTO-WATCH-LIBERAL-HOME-20260926074244",
+      "captured_at": "2026-09-26T07:42:44.439Z",
       "acquisition_url": "https://www.liberal.org.au/",
       "requested_url": "https://www.liberal.org.au/",
       "header_profile": "IDENTIFIED_AUTOMATION",
@@ -505,11 +505,11 @@
       "captured_representation_complete": true
     }
   },
-  "updated_at": "2026-09-26T01:34:54.700Z",
+  "updated_at": "2026-09-26T07:42:44.439Z",
   "last_run": {
-    "captured_at": "2026-09-26T01:34:54.700Z",
+    "captured_at": "2026-09-26T07:42:44.439Z",
     "baselines_created": 0,
-    "source_changes_created": 0,
+    "source_changes_created": 1,
     "semantic_signals_created": 0,
     "representation_upgrades": 0,
     "failures": [
@@ -524,10 +524,6 @@
       {
         "watch_id": "WATCH-ECQ-MEDIA",
         "error": "https://www.ecq.qld.gov.au/media/2026-media-statements [IDENTIFIED_AUTOMATION] 403 Forbidden | https://www.ecq.qld.gov.au/media/2026-media-statements [BROWSER_COMPATIBILITY] 403 Forbidden | https://www.ecq.qld.gov.au/home [IDENTIFIED_AUTOMATION] 403 Forbidden | https://www.ecq.qld.gov.au/home [BROWSER_COMPATIBILITY] 403 Forbidden"
-      },
-      {
-        "watch_id": "WATCH-TAS-HANSARD",
-        "error": "https://search.parliament.tas.gov.au/Search/search/search?IW_FIELD_ADVANCE_PHRASE=2026%20IN%20TITLE&IW_DATABASE=Hansard&IW_SORT=-9&IW_SEARCH_SCOPE=meta [IDENTIFIED_AUTOMATION] timeout>15000ms | https://search.parliament.tas.gov.au/Search/search/search?IW_FIELD_ADVANCE_PHRASE=2026%20IN%20TITLE&IW_DATABASE=Hansard&IW_SORT=-9&IW_SEARCH_SCOPE=meta [BROWSER_COMPATIBILITY] 503 Service Unavailable"
       },
       {
         "watch_id": "WATCH-TAS-PREMIER-NEWS",
@@ -563,7 +559,7 @@
   "coverage": {
     "active_sources": 36,
     "baselines_captured": 36,
-    "current_run_failures": 11,
+    "current_run_failures": 10,
     "jurisdictions": {
       "AUS-FED": {
         "configured_sources": 10,
@@ -635,7 +631,7 @@
       "AUS-TAS": {
         "configured_sources": 3,
         "baseline_sources": 3,
-        "current_run_failures": 2,
+        "current_run_failures": 1,
         "source_classes": [
           "PRIMARY_ELECTORAL_AUTHORITY",
           "PRIMARY_GOVERNMENT",

@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-INTELLIGENCE-EVENTS-001",
   "scope": "Australia — multi-jurisdiction",
-  "captured_at": "2026-09-26T07:43:39.990Z",
+  "captured_at": "2026-09-26T13:07:41.425Z",
   "mode": "FORWARD_ONLY",
   "rules": {
     "observation_distinct_from_inference": true,
@@ -91627,6 +91627,160 @@
       "projection_effect": "NO_EFFECT",
       "information_advantage": "NONE",
       "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-PM-MEDIA-20260926130629",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-FED",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-PM-MEDIA-20260926130629",
+      "captured_at": "2026-09-26T13:06:29.435Z",
+      "event_date": "2026-09-26",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-PM-MEDIA",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "review_policy": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-PM-MEDIA-20260925074943",
+        "content_hash": "8f435734d9734f5a4d1d66008806e2a07d144740bc9987a44e40bd7d3c15c307",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-PM-MEDIA-20260926130629",
+        "content_hash": "00b5888a17cbed2ee5f91f6450de38992dc3a9ee1b6af44476faa6d4e0bc315a",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "STRUCTURED_RECORD_SET",
+        "records_added": [
+          {
+            "record_id": "e217fb98af502452c09a",
+            "title": "Doorstop - Sydney",
+            "url": "https://www.pm.gov.au/media/doorstop-sydney-9"
+          }
+        ],
+        "records_removed": [
+          {
+            "record_id": "ece9c1b7b760186f2771",
+            "title": "Doorstop - New York",
+            "url": "https://www.pm.gov.au/media/doorstop-new-york-22-september-2026"
+          }
+        ],
+        "added_count": 1,
+        "removed_count": 1,
+        "before_count": 27,
+        "after_count": 27,
+        "delta_hash": "99ce9d53ed354824293e48158a79f3b8e8643d7a7f0537dac4cb9c55ff1ac757"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-LIBERAL-HOME-20260926130629",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-FED",
+      "party_id": "AUS-FED-LIB",
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-LIBERAL-HOME-20260926130629",
+      "captured_at": "2026-09-26T13:06:29.435Z",
+      "event_date": "2026-09-26",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_PARTY",
+      "source_id": "SRC-LIBERAL-FEDERAL-HOME",
+      "capture_mode": "NORMALISED_PAGE_HASH",
+      "review_policy": "REVIEW_UNSTRUCTURED_CHANGE",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-LIBERAL-HOME-20260926074244",
+        "content_hash": "2e11c696fcac6517bb5c0012f081a268033215a8d35f592d4842d5d9624b72a1",
+        "capture_mode": "NORMALISED_PAGE_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-LIBERAL-HOME-20260926130629",
+        "content_hash": "bd408426f38d019c0bd27ae5677a9a41326becafe26c99df72125bd26147d571",
+        "capture_mode": "NORMALISED_PAGE_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "TEXT_REPRESENTATION",
+        "first_difference_offset": 1420,
+        "before_length": 6383,
+        "after_length": 6454,
+        "before_excerpt": "er of the Opposition in the Senate Meet the Liberal Team The Latest Stay up to date with the Liberal Party of Australia liberalaus Scrapping Labor’s Net Zero policies will deliver cheaper, reliable and abundant energy. Sep 25 Open post by liberalaus with ID 18114108155095557 angustaylormp As you fill up this weekend, we have a plan to save you 27c a litre. This could be done right now. We need a Government that will put Australians first. Sep 25 Open post by angustaylormp with ID 18028636157907560 angustaylormp Halving the fuel excise should be the first thing the Prime Minister does when he gets off the plane. It should have happened a week ago. Sep 25 Open post by angustaylormp with ID 18217406428349642 senatorhume This week the PM got to hang out with celebrities while Australians were told we’ll be poorer in the future, interest rates could rise again, and more Australians are out of work. Priorities. Sep 25 Open post by senatorhume with ID 18104805050095657 liberalaus Labor has no plan to reduce its more than $1 trillion debt, and Australians will continue to pay the price as higher interest rates hit. The Liberals and Nationals will establish a Future Generations Fund to pay down Labor’s debt, and we will stop spending faster than the economy is growing. Disciplined budgets are how we will keep taxes low, pays down debt and protects the economy against shocks. Sep 25 Open post by liberalaus with ID 18113861354005092 angustaylormp This has not aged well. Come on Prime Minister, put Australians first. Halve the fuel tax! Sep 25 Open post by angustaylormp with ID 18138010813618776 liberalaus Australian petrol and diesel prices have hit their highest levels in nearly six months. Our plan would automatically halve fuel excise when the two-week average Brent crude oil price rises above US$100 a barrel. It would cut the tax on fuel by around 27 cents a litre, saving around $15 on a typical tank. Sep 25 Open post by liberalaus with ID 18113699930039100 angustaylormp Anthony Albanese has broken our economy. While he celebrates in New York, Australians are bracing for another rate rise. Only the Coalition can fix the economy and protect our way of life. Sep 24 Open post by angustaylormp with ID 17892366141610482 senatorhume Australians are not better off under Labor &#8211; they are working harder and taking on second and even third jobs, yet they are still watching their living standards collapse. Sep 24 Open post by senatorhume with ID 18391967686163706 angustaylormp There’s a pretty stark contrast in Australian politics right now. While Labor politicians are busy taking photos of themselves in the mirror, Australian families are worrying about the cost of filling up the car and paying the mortgage while staring down the barrel of another interest rate rise. The Coalition is fighting for cheaper fuel, scrapping net zero and making Australia energy independent as part of our plan to fix our economy. Sep 24 Open post by angustaylormp with ID 18092312066438664 liberalaus After watching all that sport she still drops the ball when it comes to our data security. Sep 24 Open post by liberalaus with ID 18137458909621917 liberalaus Life isn`t easy under Albanese. Sep 24 Open post by liberalaus with ID 18075048350442405 angustaylormp Australians want to know what their government will do when the oil price spikes and family budgets get smashed. Sep 24 Open post by angustaylormp with ID 18119840657311577 liberalaus Australia has abundant energy resources. So why are we paying so much? The problem is Labor’s policies. Driven by its Net Zero obsession, Labor has turned its back on affordable and reliable energy. Sep 23 Open post by liberalaus with ID 17909522616540447 liberalaus Australia`s energy system should be built around: affordability, reliability and security. Read more about our plan at the link in bio. Sep 23 Open post by liberalaus with ID 17889100665614869 senatorhume $15 billion. Taxpayers deserve answers. Sep 23 Open post by senatorhume with ID 18149728474484055 angustaylormp Can’t stop talking about our plan to halve the tax on fuel when oil prices surge. Sep 23 Open post by angustaylormp with ID 18131531125780029 angustaylormp When global oil prices spike, our Fuel Price Shield would save you 27c a litre. Sep 22 Open post by angustaylormp with ID 17907991374517138 We need your support to win! Help us by making a donation today. 🙏🏼 $30 👏🏼 $60 😃 $120 😁 $500 😲 $1,000 🥹 $2,000 ",
+        "after_excerpt": "er of the Opposition in the Senate Meet the Liberal Team The Latest Stay up to date with the Liberal Party of Australia senatorhume Our Fuel Price Shield would automatically cut the tax on fuel by around 27 cents a litre when global oil prices stay too high for too long. Sep 26 Open post by senatorhume with ID 18065711288782486 liberalaus The Liberals and Nationals have a Plan for cheaper power. Read more about our plan at the link in bio. Sep 26 Open post by liberalaus with ID 18112291784040231 liberalaus Scrapping Labor’s Net Zero policies will deliver cheaper, reliable and abundant energy. Sep 25 Open post by liberalaus with ID 18114108155095557 angustaylormp As you fill up this weekend, we have a plan to save you 27c a litre. This could be done right now. We need a Government that will put Australians first. Sep 25 Open post by angustaylormp with ID 18028636157907560 angustaylormp Halving the fuel excise should be the first thing the Prime Minister does when he gets off the plane. It should have happened a week ago. Sep 25 Open post by angustaylormp with ID 18217406428349642 senatorhume This week the PM got to hang out with celebrities while Australians were told we’ll be poorer in the future, interest rates could rise again, and more Australians are out of work. Priorities. Sep 25 Open post by senatorhume with ID 18104805050095657 liberalaus Labor has no plan to reduce its more than $1 trillion debt, and Australians will continue to pay the price as higher interest rates hit. The Liberals and Nationals will establish a Future Generations Fund to pay down Labor’s debt, and we will stop spending faster than the economy is growing. Disciplined budgets are how we will keep taxes low, pays down debt and protects the economy against shocks. Sep 25 Open post by liberalaus with ID 18113861354005092 angustaylormp This has not aged well. Come on Prime Minister, put Australians first. Halve the fuel tax! Sep 25 Open post by angustaylormp with ID 18138010813618776 liberalaus Australian petrol and diesel prices have hit their highest levels in nearly six months. Our plan would automatically halve fuel excise when the two-week average Brent crude oil price rises above US$100 a barrel. It would cut the tax on fuel by around 27 cents a litre, saving around $15 on a typical tank. Sep 25 Open post by liberalaus with ID 18113699930039100 angustaylormp Anthony Albanese has broken our economy. While he celebrates in New York, Australians are bracing for another rate rise. Only the Coalition can fix the economy and protect our way of life. Sep 24 Open post by angustaylormp with ID 17892366141610482 senatorhume Australians are not better off under Labor &#8211; they are working harder and taking on second and even third jobs, yet they are still watching their living standards collapse. Sep 24 Open post by senatorhume with ID 18391967686163706 angustaylormp There’s a pretty stark contrast in Australian politics right now. While Labor politicians are busy taking photos of themselves in the mirror, Australian families are worrying about the cost of filling up the car and paying the mortgage while staring down the barrel of another interest rate rise. The Coalition is fighting for cheaper fuel, scrapping net zero and making Australia energy independent as part of our plan to fix our economy. Sep 24 Open post by angustaylormp with ID 18092312066438664 liberalaus After watching all that sport she still drops the ball when it comes to our data security. Sep 24 Open post by liberalaus with ID 18137458909621917 liberalaus Life isn`t easy under Albanese. Sep 24 Open post by liberalaus with ID 18075048350442405 angustaylormp Australians want to know what their government will do when the oil price spikes and family budgets get smashed. Sep 24 Open post by angustaylormp with ID 18119840657311577 liberalaus Australia has abundant energy resources. So why are we paying so much? The problem is Labor’s policies. Driven by its Net Zero obsession, Labor has turned its back on affordable and reliable energy. Sep 23 Open post by liberalaus with ID 17909522616540447 liberalaus Australia`s energy system should be built around: affordability, reliability and security. Read more about our plan at the link in bio. Sep 23 Open post by liberalaus with ID 17889100665614869 senatorhume $15 billion. Taxpayers deserve answers. Sep 23 Open post by senatorhume with ID 18149728474484055 We need your support to win! Help us by making a donation today. 🙏🏼 $30 👏🏼 $60 😃 $120 😁 $500 😲 $1,000 🥹 $2,000 ",
+        "delta_hash": "9643302bd6a0e11dd4292bb439a1918f62cc47d6f523d821b6b33e07f65ae484"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "SIG-REV-CHG-WATCH-PM-MEDIA-20260926130629",
+      "parent_event_id": "CHG-WATCH-PM-MEDIA-20260926130629",
+      "review_id": "REV-CHG-WATCH-PM-MEDIA-20260926130629",
+      "jurisdiction_id": "AUS-FED",
+      "party_id": null,
+      "actor_id": null,
+      "contest_id": null,
+      "cycle_id": null,
+      "source_snapshot_id": "AUTO-WATCH-PM-MEDIA-20260926130629",
+      "record_id": "e217fb98af502452c09a",
+      "captured_at": "2026-09-26T13:07:36.099Z",
+      "event_date": "2026-09-26",
+      "checkpoint": "CONTINUOUS_FORWARD_SIGNAL_REVIEW",
+      "event_type": "SIGNAL_CREATED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-PM-MEDIA",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "claim": "Prime Minister of Australia — media added 1 structured publication record to its forward-captured official index: Doorstop - Sydney",
+      "observed_behaviour": "One or more structured publication records appeared in the monitored official source index after the preceding forward snapshot.",
+      "publication_records_added": [
+        {
+          "record_id": "e217fb98af502452c09a",
+          "title": "Doorstop - Sydney",
+          "url": "https://www.pm.gov.au/media/doorstop-sydney-9"
+        }
+      ],
+      "publication_records_removed": [
+        {
+          "record_id": "ece9c1b7b760186f2771",
+          "title": "Doorstop - New York",
+          "url": "https://www.pm.gov.au/media/doorstop-new-york-22-september-2026"
+        }
+      ],
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "underlying_publication_claims_not_promoted_to_verified_fact": true,
+        "source_change_parent_retained": true,
+        "deterministic_review": true
+      }
     }
   ]
 }

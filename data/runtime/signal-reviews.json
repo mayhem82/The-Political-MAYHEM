@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-SIGNAL-REVIEWS-001",
   "created_at": "2026-09-09T05:05:00+10:00",
-  "updated_at": "2026-09-27T22:12:58.184Z",
+  "updated_at": "2026-09-28T00:48:04.297Z",
   "rules": {
     "append_only": true,
     "raw_source_change_is_immutable": true,
@@ -33279,6 +33279,186 @@
           }
         ],
         "delta_hash": "99ce9d53ed354824293e48158a79f3b8e8643d7a7f0537dac4cb9c55ff1ac757"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-NSW-MINISTERIAL-RELEASES-20260928004727",
+      "source_change_event_id": "CHG-WATCH-NSW-MINISTERIAL-RELEASES-20260928004727",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-NSW-MINISTERIAL-RELEASES-20260928004727",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "NSW Government — Ministerial releases added 10 structured publication records to its forward-captured official index: Operation Summer Foreshore launched as summer heats up; New free legal service to support victim-survivors of sexual violence; $1 million to help Newcastle bring local ideas to life; Flags up for a safe summer on NSW beaches; Blockbuster October events schedule to bring tourism boom; +5 more",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-09-28T00:48:04.297Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "1976167c9d1e8f04be9c",
+            "title": "Operation Summer Foreshore launched as summer heats up",
+            "url": "https://www.nsw.gov.au/ministerial-releases/operation-summer-foreshore-launched-as-summer-heats-up"
+          },
+          {
+            "record_id": "2331a797ea5959d74734",
+            "title": "New free legal service to support victim-survivors of sexual violence",
+            "url": "https://www.nsw.gov.au/ministerial-releases/new-free-legal-service-to-support-victim-survivors-of-sexual-violence"
+          },
+          {
+            "record_id": "269b67f7430f3353d06a",
+            "title": "$1 million to help Newcastle bring local ideas to life",
+            "url": "https://www.nsw.gov.au/ministerial-releases/1-million-to-help-newcastle-bring-local-ideas-to-life"
+          },
+          {
+            "record_id": "7b68e7e7c686a3e8c342",
+            "title": "Flags up for a safe summer on NSW beaches",
+            "url": "https://www.nsw.gov.au/ministerial-releases/flags-up-for-a-safe-summer-on-nsw-beaches"
+          },
+          {
+            "record_id": "9616634c1198c173e788",
+            "title": "Blockbuster October events schedule to bring tourism boom",
+            "url": "https://www.nsw.gov.au/departments-and-agencies/dciths/ministerial-media-releases/blockbuster-october-events-schedule-to-bring-tourism-boom"
+          },
+          {
+            "record_id": "a0e6ea2856f35f76a731",
+            "title": "Minns Labor Government to consolidate the operation of 12 car ferry services",
+            "url": "https://www.nsw.gov.au/ministerial-releases/minns-labor-government-to-consolidate-operation-of-12-car-ferry-services"
+          },
+          {
+            "record_id": "a9eb73821056770ce4af",
+            "title": "Upward trend in VET enrolments as HSC students prepare for jobs of the future",
+            "url": "https://www.nsw.gov.au/ministerial-releases/upward-trend-vet-enrolments-as-hsc-students-prepare-for-jobs-of-future"
+          },
+          {
+            "record_id": "cde12c1da47e8f5529f8",
+            "title": "$138m Cessnock Hospital Redevelopment reaches highest point of construction as CT Scanner is locked in",
+            "url": "https://www.nsw.gov.au/ministerial-releases/138m-cessnock-hospital-redevelopment-reaches-highest-point-of-construction-as-ct-scanner-locked"
+          },
+          {
+            "record_id": "d9f53a08f4c730057b69",
+            "title": "New homes deliver housing security for seniors in Riverwood",
+            "url": "https://www.nsw.gov.au/ministerial-releases/new-homes-deliver-housing-security-for-seniors-riverwood"
+          },
+          {
+            "record_id": "f07fa9f1eba2b3945565",
+            "title": "Minns Labor Government boosts prison capacity, as tougher bail laws keep more alleged offenders in custody",
+            "url": "https://www.nsw.gov.au/ministerial-releases/minns-labor-government-boosts-prison-capacity-as-tougher-bail-laws-keep-more-alleged-offenders-custody"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "1af416842000bcfeb5c3",
+            "title": "Making it easier to move through Torakina Reserve at Brunswick Heads",
+            "url": "https://www.nsw.gov.au/ministerial-releases/making-it-easier-to-move-through-torakina-reserve-at-brunswick-heads"
+          },
+          {
+            "record_id": "4442ebb1675f1c87ba6d",
+            "title": "Building Homes for NSW Halfway Report Card: Historic investment delivering record results",
+            "url": "https://www.nsw.gov.au/ministerial-releases/building-homes-for-nsw-halfway-report-card-historic-investment-delivering-record-results"
+          },
+          {
+            "record_id": "71d7ebb02d920b44f809",
+            "title": "Tough new powers to tackle organised crime pass NSW Parliament",
+            "url": "https://www.nsw.gov.au/ministerial-releases/crimes-amendment-passes-parliament"
+          },
+          {
+            "record_id": "83a0592d2c1a329c23d1",
+            "title": "Historic $319 million contract awarded for largest disaster recovery road rebuild in NSW",
+            "url": "https://www.nsw.gov.au/ministerial-releases/historic-319-million-contract-awarded-for-largest-disaster-recovery-road-rebuild-nsw"
+          },
+          {
+            "record_id": "9ec78a9cf658e304661e",
+            "title": "Community invited to help shape new park in the heart of Bankstown",
+            "url": "https://www.nsw.gov.au/ministerial-releases/community-invited-to-help-shape-new-park-heart-of-bankstown"
+          },
+          {
+            "record_id": "ab02f9372fd5c410dff9",
+            "title": "Minns Labor Government delivers NSW renters landmark protections against privacy breaches and misleading rental ads",
+            "url": "https://www.nsw.gov.au/ministerial-releases/renters-get-landmark-protections-against-privacy-breaches-and-misleading-rental-ads"
+          },
+          {
+            "record_id": "b0fab0064c1c9990a945",
+            "title": "Justice system reforms, extension of bail laws pass NSW Parliament",
+            "url": "https://www.nsw.gov.au/ministerial-releases/justice-system-reforms-extension-of-bail-laws-pass-nsw-parliament"
+          },
+          {
+            "record_id": "b3b36de12b7c55b27c21",
+            "title": "10-year plan strikes the right note for music education in New South Wales public schools",
+            "url": "https://www.nsw.gov.au/ministerial-releases/10-year-plan-strikes-right-note-for-music-education-new-south-wales-public-schools"
+          },
+          {
+            "record_id": "e44f4bd8132a776868a0",
+            "title": "Full steam ahead on Hunter train manufacturing",
+            "url": "https://www.nsw.gov.au/ministerial-releases/full-steam-ahead-on-hunter-train-manufacturing"
+          },
+          {
+            "record_id": "e8d4c650a3d47f422237",
+            "title": "Free family fun to stay active these school holidays",
+            "url": "https://www.nsw.gov.au/ministerial-releases/free-family-school-holiday-fun"
+          }
+        ],
+        "delta_hash": "677e9dfb960d13456075f9817de3008f898d29845ad1f87ca913592f30e71411"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20260928004727",
+      "source_change_event_id": "CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20260928004727",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20260928004727",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Queensland Government — Ministerial Media Statements added 2 structured publication records to its forward-captured official index: State Flying Squad cracks 200-deployment milestone; Delivering upgraded amenities for Mundingburra",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-09-28T00:48:04.297Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "17296ea0aac167350864",
+            "title": "State Flying Squad cracks 200-deployment milestone",
+            "url": "https://statements.qld.gov.au/statements/106136"
+          },
+          {
+            "record_id": "aee1a4954be7b26f68b7",
+            "title": "Delivering upgraded amenities for Mundingburra",
+            "url": "https://statements.qld.gov.au/statements/106134"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "43a1a2cf539900436258",
+            "title": "Cuttaburra Crossing upgrade reaches major milestone",
+            "url": "https://statements.qld.gov.au/statements/106115"
+          },
+          {
+            "record_id": "7587c1aa315b82f5d65a",
+            "title": "Community safety improved for Brisbane with expanded CCTV network",
+            "url": "https://statements.qld.gov.au/statements/106113"
+          }
+        ],
+        "delta_hash": "c4fd9780b46cfc6febf041c2f48e7d046e4c1b08c317bc9e1893fdf736fa82e3"
       },
       "integrity": {
         "source_change_unchanged": true,

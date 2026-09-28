@@ -69,63 +69,63 @@
     {
       "jurisdiction_id": "AUS-FED",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-28T00:48:14.447Z",
-      "signals_examined": 193,
-      "candidates_detected": 88
+      "last_screened_at": "2026-09-28T06:56:27.472Z",
+      "signals_examined": 198,
+      "candidates_detected": 89
     },
     {
       "jurisdiction_id": "AUS-NSW",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-28T00:48:14.447Z",
-      "signals_examined": 76,
+      "last_screened_at": "2026-09-28T06:56:27.472Z",
+      "signals_examined": 77,
       "candidates_detected": 15
     },
     {
       "jurisdiction_id": "AUS-VIC",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-28T00:48:14.447Z",
-      "signals_examined": 16,
-      "candidates_detected": 4
+      "last_screened_at": "2026-09-28T06:56:27.472Z",
+      "signals_examined": 18,
+      "candidates_detected": 5
     },
     {
       "jurisdiction_id": "AUS-QLD",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-28T00:48:14.447Z",
-      "signals_examined": 41,
+      "last_screened_at": "2026-09-28T06:56:27.472Z",
+      "signals_examined": 42,
       "candidates_detected": 45
     },
     {
       "jurisdiction_id": "AUS-WA",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-28T00:48:14.447Z",
+      "last_screened_at": "2026-09-28T06:56:27.472Z",
       "signals_examined": 4,
       "candidates_detected": 2
     },
     {
       "jurisdiction_id": "AUS-SA",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-28T00:48:14.447Z",
+      "last_screened_at": "2026-09-28T06:56:27.472Z",
       "signals_examined": 2,
       "candidates_detected": 0
     },
     {
       "jurisdiction_id": "AUS-TAS",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-28T00:48:14.447Z",
+      "last_screened_at": "2026-09-28T06:56:27.472Z",
       "signals_examined": 21,
       "candidates_detected": 0
     },
     {
       "jurisdiction_id": "AUS-ACT",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-28T00:48:14.447Z",
+      "last_screened_at": "2026-09-28T06:56:27.472Z",
       "signals_examined": 24,
       "candidates_detected": 1
     },
     {
       "jurisdiction_id": "AUS-NT",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-28T00:48:14.447Z",
+      "last_screened_at": "2026-09-28T06:56:27.472Z",
       "signals_examined": 31,
       "candidates_detected": 0
     }
@@ -5895,13 +5895,16 @@
       "candidate_state": "REVIEW_REQUIRED",
       "detected_at": "2026-09-17T01:27:09.600Z",
       "source_snapshot_ids": [
-        "AUTO-WATCH-APH-BILLS-20260917012605"
+        "AUTO-WATCH-APH-BILLS-20260917012605",
+        "AUTO-WATCH-APH-BILLS-20260928065514"
       ],
       "signal_event_ids": [
-        "SIG-REV-CHG-WATCH-APH-BILLS-20260917012605"
+        "SIG-REV-CHG-WATCH-APH-BILLS-20260917012605",
+        "SIG-REV-CHG-WATCH-APH-BILLS-20260928065514"
       ],
       "review_ids": [
-        "REV-CHG-WATCH-APH-BILLS-20260917012605"
+        "REV-CHG-WATCH-APH-BILLS-20260917012605",
+        "REV-CHG-WATCH-APH-BILLS-20260928065514"
       ],
       "area_evidence_ids": [],
       "detail_version_ids": [],
@@ -6089,13 +6092,16 @@
       "candidate_state": "REVIEW_REQUIRED",
       "detected_at": "2026-09-17T07:41:42.358Z",
       "source_snapshot_ids": [
-        "AUTO-WATCH-APH-BILLS-20260917074045"
+        "AUTO-WATCH-APH-BILLS-20260917074045",
+        "AUTO-WATCH-APH-BILLS-20260928065514"
       ],
       "signal_event_ids": [
-        "SIG-REV-CHG-WATCH-APH-BILLS-20260917074045"
+        "SIG-REV-CHG-WATCH-APH-BILLS-20260917074045",
+        "SIG-REV-CHG-WATCH-APH-BILLS-20260928065514"
       ],
       "review_ids": [
-        "REV-CHG-WATCH-APH-BILLS-20260917074045"
+        "REV-CHG-WATCH-APH-BILLS-20260917074045",
+        "REV-CHG-WATCH-APH-BILLS-20260928065514"
       ],
       "area_evidence_ids": [],
       "detail_version_ids": [],
@@ -6426,21 +6432,94 @@
           "reason": "SUBSTANTIVE_THRESHOLD_EVALUATION_PROPAGATED"
         }
       ]
+    },
+    {
+      "candidate_id": "DISC-FED-LEGISLATION-98c893907c438a0f",
+      "jurisdiction_id": "AUS-FED",
+      "competition_family": "LEGISLATION",
+      "proposed_competition_class": "LEGISLATIVE",
+      "proposed_cycle_id": "AUS-FED-48TH-PARLIAMENT",
+      "subject": "One Nation Raises Free Speech Concerns Over Labor’s Digital Duty of Care Bill",
+      "candidate_state": "EVIDENCE_GAP",
+      "detected_at": "2026-09-28T06:56:13.534Z",
+      "source_snapshot_ids": [
+        "AUTO-WATCH-ONENATION-NEWS-20260928065514"
+      ],
+      "signal_event_ids": [
+        "SIG-REV-CHG-WATCH-ONENATION-NEWS-20260928065514"
+      ],
+      "review_ids": [
+        "REV-CHG-WATCH-ONENATION-NEWS-20260928065514"
+      ],
+      "area_evidence_ids": [],
+      "detail_version_ids": [],
+      "evidence_summary": "Screened PRIMARY_PARTY evidence contains language consistent with a legislation competition candidate. This is a discovery observation, not a registered contest or outcome inference.",
+      "registration_blockers": [
+        "MATERIAL_RESISTANCE_NOT_YET_EVIDENCED",
+        "SUPPORTING_SIDE_NOT_YET_RESOLVED",
+        "OPPOSING_SIDE_NOT_YET_RESOLVED"
+      ],
+      "linked_contest_id": null,
+      "state_history": [
+        {
+          "from": null,
+          "to": "EVIDENCE_GAP",
+          "at": "2026-09-28T06:56:13.534Z",
+          "reason": "DETERMINISTIC_COMPETITION_FAMILY_SCREEN"
+        }
+      ]
+    },
+    {
+      "candidate_id": "DISC-VIC-ELECTION-7685f1d47ad6ffae",
+      "jurisdiction_id": "AUS-VIC",
+      "competition_family": "ELECTION",
+      "proposed_competition_class": "ELECTORAL",
+      "proposed_cycle_id": "AUS-VIC-SE2026",
+      "subject": "Ingested substantive electoral evidence from What is electoral misinformation?. Captured content includes stage: ballot. Registration threshold state: evidence gap. Missing requirements: missing fact type stage, missing condition resolved participant or team.",
+      "candidate_state": "EVIDENCE_GAP",
+      "detected_at": "2026-09-28T06:56:27.153Z",
+      "source_snapshot_ids": [
+        "AUTO-WATCH-VEC-MEDIA-20260928065514"
+      ],
+      "signal_event_ids": [
+        "INTEL-AREA-3132c300f9e327343f081fd5"
+      ],
+      "review_ids": [],
+      "area_evidence_ids": [
+        "AREA-3132c300f9e327343f081fd5"
+      ],
+      "detail_version_ids": [
+        "DETAIL-a014554bb9ac7f2b3c66dfb1-V1"
+      ],
+      "evidence_summary": "Substantive source record body was acquired, routed to ELECTORAL, and written into intelligence with retained detail, source-snapshot and stage-10 threshold lineage. Match registration remains a separate action.",
+      "registration_blockers": [
+        "MISSING_CONDITION_RESOLVED_PARTICIPANT_OR_TEAM",
+        "MISSING_FACT_TYPE_STAGE"
+      ],
+      "linked_contest_id": null,
+      "state_history": [
+        {
+          "from": null,
+          "to": "EVIDENCE_GAP",
+          "at": "2026-09-28T06:56:27.153Z",
+          "reason": "SUBSTANTIVE_THRESHOLD_EVALUATION_PROPAGATED"
+        }
+      ]
     }
   ],
-  "last_screened_at": "2026-09-28T00:48:14.447Z",
+  "last_screened_at": "2026-09-28T06:56:27.472Z",
   "last_screen_summary": {
-    "signals_examined": 408,
-    "candidates_total": 155,
-    "candidates_added": 0,
-    "candidate_lineage_merges": 346,
-    "substantive_area_events_examined": 110,
+    "signals_examined": 417,
+    "candidates_total": 157,
+    "candidates_added": 2,
+    "candidate_lineage_merges": 348,
+    "substantive_area_events_examined": 111,
     "threshold_state_transitions": 0,
     "registered_contests_unchanged": true
   },
-  "last_duplicate_reconciliation_at": "2026-09-28T00:48:14.554Z",
+  "last_duplicate_reconciliation_at": "2026-09-28T06:56:27.562Z",
   "last_duplicate_reconciliation": {
     "rejected": 0,
-    "active_area_family_keys": 109
+    "active_area_family_keys": 110
   }
 }

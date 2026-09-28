@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-SIGNAL-REVIEWS-001",
   "created_at": "2026-09-09T05:05:00+10:00",
-  "updated_at": "2026-09-28T00:48:04.297Z",
+  "updated_at": "2026-09-28T06:56:13.534Z",
   "rules": {
     "append_only": true,
     "raw_source_change_is_immutable": true,
@@ -33459,6 +33459,497 @@
           }
         ],
         "delta_hash": "c4fd9780b46cfc6febf041c2f48e7d046e4c1b08c317bc9e1893fdf736fa82e3"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-APH-BILLS-20260928065514",
+      "source_change_event_id": "CHG-WATCH-APH-BILLS-20260928065514",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-APH-BILLS-20260928065514",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Parliament of Australia — Bills and Legislation added 2 structured publication records to its forward-captured official index: Defence Force Discipline Amendment (RCDVS Implemen...; Defence Legislation Amendment (RCDVS Implementatio...",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-09-28T06:56:13.534Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "5bda2274e29e23b28b95",
+            "title": "Defence Force Discipline Amendment (RCDVS Implemen...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7464"
+          },
+          {
+            "record_id": "f1cb69459e052865620a",
+            "title": "Defence Legislation Amendment (RCDVS Implementatio...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7498"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "2df4c182076dedc8d5d6",
+            "title": "Wage Justice for Early Childhood Education and Car...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7529"
+          },
+          {
+            "record_id": "eb8ff799ba2da88b25af",
+            "title": "Private Health Insurance Amendment (Modernising th...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7497"
+          }
+        ],
+        "delta_hash": "2341b0652f8b5c68c08fb32f24ad05b68ecab0adbcf890879762e1556682eebc"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-PM-MEDIA-20260928065514",
+      "source_change_event_id": "CHG-WATCH-PM-MEDIA-20260928065514",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-PM-MEDIA-20260928065514",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Prime Minister of Australia — media added 3 structured publication records to its forward-captured official index: More fans, closer to the action as new stand opens at Launceston&#039;s UTAS stadium; Last » Last page; Press conference - Launceston, Tas",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-09-28T06:56:13.534Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "30ba72abfeca1ee7ed23",
+            "title": "More fans, closer to the action as new stand opens at Launceston&#039;s UTAS stadium",
+            "url": "https://www.pm.gov.au/media/more-fans-closer-action-new-stand-opens-launcestons-utas-stadium"
+          },
+          {
+            "record_id": "77a1bf2a20bb87819f40",
+            "title": "Last » Last page",
+            "url": "https://www.pm.gov.au/media?page=279"
+          },
+          {
+            "record_id": "eaa4b027fe86a5324c3f",
+            "title": "Press conference - Launceston, Tas",
+            "url": "https://www.pm.gov.au/media/press-conference-launceston-tas"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "12b0edd25134de75e7e9",
+            "title": "Last » Last page",
+            "url": "https://www.pm.gov.au/media?page=278"
+          },
+          {
+            "record_id": "4747d71174225f3558c5",
+            "title": "Shape the digital world or it will shape us",
+            "url": "https://www.pm.gov.au/media/shape-digital-world-or-it-will-shape-us"
+          },
+          {
+            "record_id": "8436833762032a7d7a4d",
+            "title": "P4M Summit: Partners for Multilateralism, International Law, Peace and Prosperity",
+            "url": "https://www.pm.gov.au/media/p4m-summit-partners-multilateralism-international-law-peace-and-prosperity"
+          }
+        ],
+        "delta_hash": "17636840a3e4cd9e5f7518d234280c1b11d9d49346178fe03a8a332aa3b58030"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-ALP-NEWS-20260928065514",
+      "source_change_event_id": "CHG-WATCH-ALP-NEWS-20260928065514",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-ALP-NEWS-20260928065514",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": "AUS-FED-ALP",
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Australian Labor Party — news added 2 structured publication records to its forward-captured official index: Australia ratifies landmark ocean treaty 24 September 2026; Australia unveils Sustainable Ocean Plan 23 September 2026",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-09-28T06:56:13.534Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "9a7d70d82b7b0e3a4de2",
+            "title": "Australia ratifies landmark ocean treaty 24 September 2026",
+            "url": "https://www.alp.org.au/news/all-news/australia-ratifies-landmark-ocean-treaty/"
+          },
+          {
+            "record_id": "ffe127dc67d79ae5ea83",
+            "title": "Australia unveils Sustainable Ocean Plan 23 September 2026",
+            "url": "https://www.alp.org.au/news/all-news/australia-unveils-sustainable-ocean-plan/"
+          }
+        ],
+        "removed_records": [],
+        "delta_hash": "7615331bda010ec32f74c97f14410bb741685a17f163718733b97931adccfdd6"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-GREENS-FEDERAL-MEDIA-20260928065514",
+      "source_change_event_id": "CHG-WATCH-GREENS-FEDERAL-MEDIA-20260928065514",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-GREENS-FEDERAL-MEDIA-20260928065514",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": "AUS-FED-GRN",
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Australian Greens — Federal MPs media releases added 2 structured publication records to its forward-captured official index: AI leaders called to front Senate Inquiry; Read more about AI leaders called to front Senate Inquiry",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-09-28T06:56:13.534Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "5c2af39b2fd5a4213d50",
+            "title": "AI leaders called to front Senate Inquiry",
+            "url": "https://greens.org.au/sa/news/media-release/ai-leaders-called-front-senate-inquiry"
+          },
+          {
+            "record_id": "b9c78c8388508d742643",
+            "title": "Read more about AI leaders called to front Senate Inquiry",
+            "url": "https://greens.org.au/sa/news/media-release/ai-leaders-called-front-senate-inquiry"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "8f1ae0978206a4ee6bcb",
+            "title": "Read more about Greens welcome Government backdown on cuts to Veterans health care",
+            "url": "https://greens.org.au/news/media-release/greens-welcome-government-backdown-cuts-veterans-health-care"
+          },
+          {
+            "record_id": "ef5bd15876ebafa64936",
+            "title": "Greens welcome Government backdown on cuts to Veterans health care",
+            "url": "https://greens.org.au/news/media-release/greens-welcome-government-backdown-cuts-veterans-health-care"
+          }
+        ],
+        "delta_hash": "3a479bac5df473566186fa058a18d73f91b70c09502b60840d16b52ab395dfb1"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-ONENATION-NEWS-20260928065514",
+      "source_change_event_id": "CHG-WATCH-ONENATION-NEWS-20260928065514",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-ONENATION-NEWS-20260928065514",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": "AUS-FED-ONP",
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Pauline Hanson's One Nation — Latest News added 6 structured publication records to its forward-captured official index: One Nation Raises Free Speech Concerns Over Labor’s Digital Duty of Care Bill; Senator Sean Bell Questions Coalition’s Net Zero Position and Paris Agreement; Pauline Hanson Questions Nine’s KKK Report and $16 Million Journalism Funding; Labor's Taxpayer-funded $12 Billion Train-building pledge is no more than an election bribe; Senate Inquiry Into Infected Blood Scandal Secured; +1 more",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-09-28T06:56:13.534Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "330fe967286b489254f5",
+            "title": "One Nation Raises Free Speech Concerns Over Labor’s Digital Duty of Care Bill",
+            "url": "http://www.onenation.org.au/on-raises-digital-duty-free-speech",
+            "published": "Mon, 28 Sep 2026 13:02:44 +1000"
+          },
+          {
+            "record_id": "372911fbc5ab05ee8c7b",
+            "title": "Senator Sean Bell Questions Coalition’s Net Zero Position and Paris Agreement",
+            "url": "http://www.onenation.org.au/net-zero-paris-agreement",
+            "published": "Mon, 28 Sep 2026 16:19:28 +1000"
+          },
+          {
+            "record_id": "7d9956fc7ac0ea831131",
+            "title": "Pauline Hanson Questions Nine’s KKK Report and $16 Million Journalism Funding",
+            "url": "http://www.onenation.org.au/nine-kkk-funding-questions",
+            "published": "Mon, 28 Sep 2026 14:42:18 +1000"
+          },
+          {
+            "record_id": "95e27677b65c3904e336",
+            "title": "Labor's Taxpayer-funded $12 Billion Train-building pledge is no more than an election bribe",
+            "url": "http://www.onenation.org.au/hunter-train-spending",
+            "published": "Mon, 28 Sep 2026 12:46:19 +1000"
+          },
+          {
+            "record_id": "ceecf7b826983812dde3",
+            "title": "Senate Inquiry Into Infected Blood Scandal Secured",
+            "url": "http://www.onenation.org.au/contaminated-blood-inquiry",
+            "published": "Mon, 28 Sep 2026 11:35:00 +1000"
+          },
+          {
+            "record_id": "f60faffa807e22a94b05",
+            "title": "Labor has abandoned regional Australia",
+            "url": "http://www.onenation.org.au/regional-australia-neglect",
+            "published": "Mon, 28 Sep 2026 13:34:00 +1000"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "5ef65fc358039ac1c145",
+            "title": "One Nation Stands With Responsible Australian Firearm Owners",
+            "url": "http://www.onenation.org.au/responsible-firearm-owners",
+            "published": "Wed, 09 Sep 2026 11:57:00 +1000"
+          },
+          {
+            "record_id": "67af3fa3a0f49f727537",
+            "title": "One Nation Will Withdraw Australia from the UN Refugee Convention",
+            "url": "http://www.onenation.org.au/refugee-convention-withdrawal",
+            "published": "Thu, 10 Sep 2026 09:35:17 +1000"
+          },
+          {
+            "record_id": "76aeb11a0f907aff639d",
+            "title": "Strathfield Council Removes ‘Always Was, Always Will Be’ Wangal Country Sign",
+            "url": "http://www.onenation.org.au/strathfield-council-sign",
+            "published": "Wed, 09 Sep 2026 19:02:08 +1000"
+          },
+          {
+            "record_id": "7fd39b35da9e813ed244",
+            "title": "Eighteen Victims, No Jail: One Nation Demands Deportation",
+            "url": "http://www.onenation.org.au/sexual-offender-deportation",
+            "published": "Wed, 09 Sep 2026 19:01:31 +1000"
+          },
+          {
+            "record_id": "8615c2b3b8f6b04f87e4",
+            "title": "One Nation Warns Labor’s Social Media Reforms Must Protect Free Speech",
+            "url": "http://www.onenation.org.au/labor-social-media-reforms",
+            "published": "Wed, 09 Sep 2026 17:08:00 +1000"
+          },
+          {
+            "record_id": "d6288fd76f56d39b9bfe",
+            "title": "Colleen Harkin Calls for Gender Ideology to Be Removed from Australian Schools",
+            "url": "http://www.onenation.org.au/gender-ideology-schools",
+            "published": "Thu, 10 Sep 2026 10:19:00 +1000"
+          }
+        ],
+        "delta_hash": "8f5441c579ee42790e649f702f8c1f7e01743080d3091098039ecc7ccdef7d4c"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-NSW-MINISTERIAL-RELEASES-20260928065514",
+      "source_change_event_id": "CHG-WATCH-NSW-MINISTERIAL-RELEASES-20260928065514",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-NSW-MINISTERIAL-RELEASES-20260928065514",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "NSW Government — Ministerial releases added 4 structured publication records to its forward-captured official index: Donated human milk program for premature babies expands across NSW; Lismore community called on to shape the future of over 70 hectares of flood buyback land; Community invited to shape future of NSW&#x27;s oldest timber truss bridges; NSW flicks the switch on one of the world’s most powerful batteries",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-09-28T06:56:13.534Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "487e359adb3d96265874",
+            "title": "Donated human milk program for premature babies expands across NSW",
+            "url": "https://www.nsw.gov.au/ministerial-releases/donated-human-milk-program-expands"
+          },
+          {
+            "record_id": "8f05f2f105af9648c73e",
+            "title": "Lismore community called on to shape the future of over 70 hectares of flood buyback land",
+            "url": "https://www.nsw.gov.au/ministerial-releases/lismore-community-called-on-to-shape-future-of-over-70-hectares-of-flood-buyback-land"
+          },
+          {
+            "record_id": "9c06641305aa02fcc97c",
+            "title": "Community invited to shape future of NSW&#x27;s oldest timber truss bridges",
+            "url": "https://www.nsw.gov.au/ministerial-releases/community-invited-to-shape-future-of-nsws-oldest-timber-truss-bridges"
+          },
+          {
+            "record_id": "a772b2401f494d902212",
+            "title": "NSW flicks the switch on one of the world’s most powerful batteries",
+            "url": "https://www.nsw.gov.au/ministerial-releases/nsw-flicks-switch-on-one-of-worlds-most-powerful-batteries"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "269b67f7430f3353d06a",
+            "title": "$1 million to help Newcastle bring local ideas to life",
+            "url": "https://www.nsw.gov.au/ministerial-releases/1-million-to-help-newcastle-bring-local-ideas-to-life"
+          },
+          {
+            "record_id": "9616634c1198c173e788",
+            "title": "Blockbuster October events schedule to bring tourism boom",
+            "url": "https://www.nsw.gov.au/departments-and-agencies/dciths/ministerial-media-releases/blockbuster-october-events-schedule-to-bring-tourism-boom"
+          },
+          {
+            "record_id": "a0e6ea2856f35f76a731",
+            "title": "Minns Labor Government to consolidate the operation of 12 car ferry services",
+            "url": "https://www.nsw.gov.au/ministerial-releases/minns-labor-government-to-consolidate-operation-of-12-car-ferry-services"
+          },
+          {
+            "record_id": "a9eb73821056770ce4af",
+            "title": "Upward trend in VET enrolments as HSC students prepare for jobs of the future",
+            "url": "https://www.nsw.gov.au/ministerial-releases/upward-trend-vet-enrolments-as-hsc-students-prepare-for-jobs-of-future"
+          }
+        ],
+        "delta_hash": "c7b80f4fd75b6bd1262428b74f5bfb5035ab309664a20f0a6525530837c11006"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-VEC-MEDIA-20260928065514",
+      "source_change_event_id": "CHG-WATCH-VEC-MEDIA-20260928065514",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-VEC-MEDIA-20260928065514",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Victorian Electoral Commission — media centre added 3 structured publication records to its forward-captured official index: VEC 2026 state election media handbook (pdf, 674.9 kb); Download the media handbook; Electoral misinformation",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-09-28T06:56:13.534Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "5856af6a96187a8493b9",
+            "title": "VEC 2026 state election media handbook (pdf, 674.9 kb)",
+            "url": "https://www.vec.vic.gov.au/-/media/3b5197f380b84c80bb43ca9b612da336.pdf"
+          },
+          {
+            "record_id": "760e3abff288e95ffc81",
+            "title": "Download the media handbook",
+            "url": "https://www.vec.vic.gov.au/-/media/3b5197f380b84c80bb43ca9b612da336.pdf"
+          },
+          {
+            "record_id": "a24f7e408ae2fa03b98e",
+            "title": "Electoral misinformation",
+            "url": "https://www.vec.vic.gov.au/voting/2026-state-election/electoral-misinformation"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "33c217d010a48332a4ed",
+            "title": "Electoral misinformation register",
+            "url": "https://www.vec.vic.gov.au/voting/electoral-misinformation/misinformation-register"
+          },
+          {
+            "record_id": "42fb9a9e1a7f0142bd13",
+            "title": "Verifying information about elections",
+            "url": "https://www.vec.vic.gov.au/voting/electoral-misinformation/verifying-information-about-elections"
+          },
+          {
+            "record_id": "7889084a01c8ed0f3530",
+            "title": "Electoral misinformation",
+            "url": "https://www.vec.vic.gov.au/voting/electoral-misinformation"
+          },
+          {
+            "record_id": "8043bb046f688a7901de",
+            "title": "Working together to correct misinformation",
+            "url": "https://www.vec.vic.gov.au/voting/electoral-misinformation/working-together-to-correct-misinformation"
+          },
+          {
+            "record_id": "a4ba6bd66b6cdc0dbd83",
+            "title": "Engaging with electoral campaign material",
+            "url": "https://www.vec.vic.gov.au/voting/electoral-misinformation/engaging-with-electoral-campaign-material"
+          }
+        ],
+        "delta_hash": "9dd6c0510ccc5b4424f71c3c06de8c60ffe2a80e07a976ac11c35cfc949fd3fe"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20260928065514",
+      "source_change_event_id": "CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20260928065514",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20260928065514",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Queensland Government — Ministerial Media Statements added 2 structured publication records to its forward-captured official index: Fix for Toowoomba crash hotspot; Applications open for next round of Active Transport Grants",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-09-28T06:56:13.534Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "73b1c34cc1083e03ace5",
+            "title": "Fix for Toowoomba crash hotspot",
+            "url": "https://statements.qld.gov.au/statements/106137"
+          },
+          {
+            "record_id": "ed2b7479345eb6c620f1",
+            "title": "Applications open for next round of Active Transport Grants",
+            "url": "https://statements.qld.gov.au/statements/106133"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "c1a01a7ab5f75d413056",
+            "title": "2,899 new homes fast tracked across Central Queensland",
+            "url": "https://statements.qld.gov.au/statements/106125"
+          },
+          {
+            "record_id": "ee62705205bcbdd06fcd",
+            "title": "Awards celebrate work to build disaster resilience in Queensland",
+            "url": "https://statements.qld.gov.au/statements/106108"
+          }
+        ],
+        "delta_hash": "30193535da6d62c6a9706dbbba9b9690347f5ef0768d6923835a49a9c0fa0a13"
       },
       "integrity": {
         "source_change_unchanged": true,

@@ -49,9 +49,9 @@
       "source_id": "SRC-NSW-MINISTERIAL-RELEASES",
       "jurisdiction_id": "AUS-NSW",
       "party_id": null,
-      "content_hash": "7fd6eba4d1a2b10fd18f08364e4a3bb1d4d0eb72f11377180df4261c61ae9ac0",
-      "snapshot_id": "AUTO-WATCH-NSW-MINISTERIAL-RELEASES-20260929015803",
-      "captured_at": "2026-09-29T01:58:03.550Z",
+      "content_hash": "a1945dd334650d9a4bd62fa78f3a098a4667ba3efa9dd7c5c962f1ef97294731",
+      "snapshot_id": "AUTO-WATCH-NSW-MINISTERIAL-RELEASES-20260929155232",
+      "captured_at": "2026-09-29T15:52:32.904Z",
       "acquisition_url": "https://www.nsw.gov.au/ministerial-releases",
       "requested_url": "https://www.nsw.gov.au/ministerial-releases",
       "header_profile": "IDENTIFIED_AUTOMATION",
@@ -105,9 +105,9 @@
       "source_id": "SRC-VEC-2026-STATE-ELECTION",
       "jurisdiction_id": "AUS-VIC",
       "party_id": null,
-      "content_hash": "e0dccd2029630c349cc87ce6795216d1187e2fb15ec24f7983d26fe2666a8cd4",
-      "snapshot_id": "AUTO-WATCH-VEC-2026-STATE-ELECTION-20260929083141",
-      "captured_at": "2026-09-29T08:31:41.079Z",
+      "content_hash": "8fcc3316412a58aa18cf1ce48410c34f5b9ad8e56dbacd31b8c0b3e9ae2d0e62",
+      "snapshot_id": "AUTO-WATCH-VEC-2026-STATE-ELECTION-20260929155232",
+      "captured_at": "2026-09-29T15:52:32.904Z",
       "acquisition_url": "https://www.vec.vic.gov.au/voting/2026-state-election",
       "requested_url": "https://www.vec.vic.gov.au/voting/2026-state-election",
       "header_profile": "IDENTIFIED_AUTOMATION",
@@ -270,9 +270,9 @@
       "source_id": "SRC-VEC-MEDIA",
       "jurisdiction_id": "AUS-VIC",
       "party_id": null,
-      "content_hash": "d942cbf534868a024010e1ec01540c1f6ac530d5c1e64056451e274627aeb0da",
-      "snapshot_id": "AUTO-WATCH-VEC-MEDIA-20260929083141",
-      "captured_at": "2026-09-29T08:31:41.079Z",
+      "content_hash": "15ab4e6b04b2e310beee16796462200a0611120b56b3f9cecbc46e68d0ef8d11",
+      "snapshot_id": "AUTO-WATCH-VEC-MEDIA-20260929155232",
+      "captured_at": "2026-09-29T15:52:32.904Z",
       "acquisition_url": "https://www.vec.vic.gov.au/Media/",
       "requested_url": "https://www.vec.vic.gov.au/Media/",
       "header_profile": "IDENTIFIED_AUTOMATION",
@@ -505,11 +505,11 @@
       "captured_representation_complete": true
     }
   },
-  "updated_at": "2026-09-29T08:31:41.079Z",
+  "updated_at": "2026-09-29T15:52:32.904Z",
   "last_run": {
-    "captured_at": "2026-09-29T08:31:41.079Z",
+    "captured_at": "2026-09-29T15:52:32.904Z",
     "baselines_created": 0,
-    "source_changes_created": 6,
+    "source_changes_created": 3,
     "semantic_signals_created": 0,
     "representation_upgrades": 0,
     "failures": [
@@ -526,8 +526,8 @@
         "error": "https://www.ecq.qld.gov.au/media/2026-media-statements [IDENTIFIED_AUTOMATION] 403 Forbidden | https://www.ecq.qld.gov.au/media/2026-media-statements [BROWSER_COMPATIBILITY] 403 Forbidden | https://www.ecq.qld.gov.au/home [IDENTIFIED_AUTOMATION] 403 Forbidden | https://www.ecq.qld.gov.au/home [BROWSER_COMPATIBILITY] 403 Forbidden"
       },
       {
-        "watch_id": "WATCH-TAS-HANSARD",
-        "error": "https://search.parliament.tas.gov.au/Search/search/search?IW_FIELD_ADVANCE_PHRASE=2026%20IN%20TITLE&IW_DATABASE=Hansard&IW_SORT=-9&IW_SEARCH_SCOPE=meta [IDENTIFIED_AUTOMATION] timeout>15000ms | https://search.parliament.tas.gov.au/Search/search/search?IW_FIELD_ADVANCE_PHRASE=2026%20IN%20TITLE&IW_DATABASE=Hansard&IW_SORT=-9&IW_SEARCH_SCOPE=meta [BROWSER_COMPATIBILITY] timeout>15000ms"
+        "watch_id": "WATCH-SA-PARLIAMENT",
+        "error": "https://www.parliament.sa.gov.au/ [IDENTIFIED_AUTOMATION] timeout>15000ms | https://www.parliament.sa.gov.au/ [BROWSER_COMPATIBILITY] timeout>15000ms"
       },
       {
         "watch_id": "WATCH-TAS-PREMIER-NEWS",
@@ -624,18 +624,18 @@
       "AUS-SA": {
         "configured_sources": 3,
         "baseline_sources": 3,
-        "current_run_failures": 0,
+        "current_run_failures": 1,
         "source_classes": [
           "PRIMARY_ELECTORAL_AUTHORITY",
           "PRIMARY_GOVERNMENT",
           "PRIMARY_PARLIAMENT"
         ],
-        "status": "CAPTURE_ACTIVE_FULL_CONFIGURED_BASELINE"
+        "status": "CAPTURE_ACTIVE_DEGRADED_CURRENT_RUN"
       },
       "AUS-TAS": {
         "configured_sources": 3,
         "baseline_sources": 3,
-        "current_run_failures": 2,
+        "current_run_failures": 1,
         "source_classes": [
           "PRIMARY_ELECTORAL_AUTHORITY",
           "PRIMARY_GOVERNMENT",

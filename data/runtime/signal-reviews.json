@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-SIGNAL-REVIEWS-001",
   "created_at": "2026-09-09T05:05:00+10:00",
-  "updated_at": "2026-09-29T08:32:45.209Z",
+  "updated_at": "2026-09-29T15:53:37.783Z",
   "rules": {
     "append_only": true,
     "raw_source_change_is_immutable": true,
@@ -34483,6 +34483,119 @@
           }
         ],
         "delta_hash": "2ae4be7eab4815793001e9831ec62ec2ef4d14a9cc9313635bc7188430d50ad2"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-NSW-MINISTERIAL-RELEASES-20260929155232",
+      "source_change_event_id": "CHG-WATCH-NSW-MINISTERIAL-RELEASES-20260929155232",
+      "decision": "EXCLUDED_AS_NON_SIGNAL",
+      "signal_event_id": null,
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": null,
+      "materiality_state": "IMMATERIAL",
+      "claim": "Structured publication-index change contained removals only. It is retained as a raw source change but is not automatically promoted into a political signal.",
+      "review_basis": "Deterministic review policy excludes removal-only index changes because disappearance from an index does not establish a political event, reversal or substantive fact.",
+      "reviewed_at": "2026-09-29T15:53:37.783Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [],
+        "removed_records": [
+          {
+            "record_id": "12633e15cff5e78274e9",
+            "title": "NSW Strata and Property Taskforce takes stress out of strata mediation",
+            "url": "https://www.nsw.gov.au/ministerial-releases/nsw-strata-and-property-taskforce-takes-stress-out-of-strata-mediation"
+          },
+          {
+            "record_id": "2331a797ea5959d74734",
+            "title": "New free legal service to support victim-survivors of sexual violence",
+            "url": "https://www.nsw.gov.au/ministerial-releases/new-free-legal-service-to-support-victim-survivors-of-sexual-violence"
+          },
+          {
+            "record_id": "46d69128194f783ea4d0",
+            "title": "Honouring fallen police officers",
+            "url": "https://www.nsw.gov.au/ministerial-releases/honouring-fallen-police-officers"
+          },
+          {
+            "record_id": "76106ccecec018d79040",
+            "title": "Faster housing approvals unlocks $73 million for local infrastructure",
+            "url": "https://www.nsw.gov.au/ministerial-releases/73-million-faster-housing-approvals"
+          },
+          {
+            "record_id": "7b68e7e7c686a3e8c342",
+            "title": "Flags up for a safe summer on NSW beaches",
+            "url": "https://www.nsw.gov.au/ministerial-releases/flags-up-for-a-safe-summer-on-nsw-beaches"
+          },
+          {
+            "record_id": "7deefd4cb55b25c0186a",
+            "title": "Chester Hill Station upgrade complete with better access for everyone",
+            "url": "https://www.nsw.gov.au/ministerial-releases/chester-hill-station-upgrade-complete-better-access-for-everyone"
+          },
+          {
+            "record_id": "8f05f2f105af9648c73e",
+            "title": "Lismore community called on to shape the future of over 70 hectares of flood buyback land",
+            "url": "https://www.nsw.gov.au/ministerial-releases/lismore-community-called-on-to-shape-future-of-over-70-hectares-of-flood-buyback-land"
+          },
+          {
+            "record_id": "a868631a88bd2018c42c",
+            "title": "More than 4,300 homes declared State Significant",
+            "url": "https://www.nsw.gov.au/ministerial-releases/more-than-4300-homes-declared-state-significant"
+          },
+          {
+            "record_id": "cde12c1da47e8f5529f8",
+            "title": "$138m Cessnock Hospital Redevelopment reaches highest point of construction as CT Scanner is locked in",
+            "url": "https://www.nsw.gov.au/ministerial-releases/138m-cessnock-hospital-redevelopment-reaches-highest-point-of-construction-as-ct-scanner-locked"
+          },
+          {
+            "record_id": "dd8017d6c2beb64e1add",
+            "title": "$12.4 million for North Coast active communities",
+            "url": "https://www.nsw.gov.au/ministerial-releases/north-coast-community-projects-funded"
+          }
+        ],
+        "delta_hash": "8a745bb2846d4568317385a0c076f95878622427467caf5f505f8c525bb77547"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-VEC-MEDIA-20260929155232",
+      "source_change_event_id": "CHG-WATCH-VEC-MEDIA-20260929155232",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-VEC-MEDIA-20260929155232",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Victorian Electoral Commission — media centre added 1 structured publication record to its forward-captured official index: Away from Victoria",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-09-29T15:53:37.783Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "2d046523beb25b7251bb",
+            "title": "Away from Victoria",
+            "url": "https://www.vec.vic.gov.au/voting/2026-state-election/away-from-victoria"
+          }
+        ],
+        "removed_records": [],
+        "delta_hash": "54ee66c0ee921a6cb8de8523a7389dca4fc0891f94e25a0a1ea34754971f5c74"
       },
       "integrity": {
         "source_change_unchanged": true,

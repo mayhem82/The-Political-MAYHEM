@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-INTELLIGENCE-EVENTS-001",
   "scope": "Australia — multi-jurisdiction",
-  "captured_at": "2026-09-29T08:32:56.774Z",
+  "captured_at": "2026-09-29T15:53:50.040Z",
   "mode": "FORWARD_ONLY",
   "rules": {
     "observation_distinct_from_inference": true,
@@ -95455,6 +95455,326 @@
         "underlying_publication_claims_not_promoted_to_verified_fact": true,
         "source_change_parent_retained": true,
         "deterministic_review": true
+      }
+    },
+    {
+      "event_id": "CHG-WATCH-NSW-MINISTERIAL-RELEASES-20260929155232",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-NSW",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-NSW-MINISTERIAL-RELEASES-20260929155232",
+      "captured_at": "2026-09-29T15:52:32.904Z",
+      "event_date": "2026-09-30",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-NSW-MINISTERIAL-RELEASES",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "review_policy": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-NSW-MINISTERIAL-RELEASES-20260929015803",
+        "content_hash": "7fd6eba4d1a2b10fd18f08364e4a3bb1d4d0eb72f11377180df4261c61ae9ac0",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-NSW-MINISTERIAL-RELEASES-20260929155232",
+        "content_hash": "a1945dd334650d9a4bd62fa78f3a098a4667ba3efa9dd7c5c962f1ef97294731",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "STRUCTURED_RECORD_SET",
+        "records_added": [],
+        "records_removed": [
+          {
+            "record_id": "12633e15cff5e78274e9",
+            "title": "NSW Strata and Property Taskforce takes stress out of strata mediation",
+            "url": "https://www.nsw.gov.au/ministerial-releases/nsw-strata-and-property-taskforce-takes-stress-out-of-strata-mediation"
+          },
+          {
+            "record_id": "2331a797ea5959d74734",
+            "title": "New free legal service to support victim-survivors of sexual violence",
+            "url": "https://www.nsw.gov.au/ministerial-releases/new-free-legal-service-to-support-victim-survivors-of-sexual-violence"
+          },
+          {
+            "record_id": "46d69128194f783ea4d0",
+            "title": "Honouring fallen police officers",
+            "url": "https://www.nsw.gov.au/ministerial-releases/honouring-fallen-police-officers"
+          },
+          {
+            "record_id": "76106ccecec018d79040",
+            "title": "Faster housing approvals unlocks $73 million for local infrastructure",
+            "url": "https://www.nsw.gov.au/ministerial-releases/73-million-faster-housing-approvals"
+          },
+          {
+            "record_id": "7b68e7e7c686a3e8c342",
+            "title": "Flags up for a safe summer on NSW beaches",
+            "url": "https://www.nsw.gov.au/ministerial-releases/flags-up-for-a-safe-summer-on-nsw-beaches"
+          },
+          {
+            "record_id": "7deefd4cb55b25c0186a",
+            "title": "Chester Hill Station upgrade complete with better access for everyone",
+            "url": "https://www.nsw.gov.au/ministerial-releases/chester-hill-station-upgrade-complete-better-access-for-everyone"
+          },
+          {
+            "record_id": "8f05f2f105af9648c73e",
+            "title": "Lismore community called on to shape the future of over 70 hectares of flood buyback land",
+            "url": "https://www.nsw.gov.au/ministerial-releases/lismore-community-called-on-to-shape-future-of-over-70-hectares-of-flood-buyback-land"
+          },
+          {
+            "record_id": "a868631a88bd2018c42c",
+            "title": "More than 4,300 homes declared State Significant",
+            "url": "https://www.nsw.gov.au/ministerial-releases/more-than-4300-homes-declared-state-significant"
+          },
+          {
+            "record_id": "cde12c1da47e8f5529f8",
+            "title": "$138m Cessnock Hospital Redevelopment reaches highest point of construction as CT Scanner is locked in",
+            "url": "https://www.nsw.gov.au/ministerial-releases/138m-cessnock-hospital-redevelopment-reaches-highest-point-of-construction-as-ct-scanner-locked"
+          },
+          {
+            "record_id": "dd8017d6c2beb64e1add",
+            "title": "$12.4 million for North Coast active communities",
+            "url": "https://www.nsw.gov.au/ministerial-releases/north-coast-community-projects-funded"
+          }
+        ],
+        "added_count": 0,
+        "removed_count": 10,
+        "before_count": 88,
+        "after_count": 78,
+        "delta_hash": "8a745bb2846d4568317385a0c076f95878622427467caf5f505f8c525bb77547"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-VEC-2026-STATE-ELECTION-20260929155232",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-VIC",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-VEC-2026-STATE-ELECTION-20260929155232",
+      "captured_at": "2026-09-29T15:52:32.904Z",
+      "event_date": "2026-09-30",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_ELECTORAL_AUTHORITY",
+      "source_id": "SRC-VEC-2026-STATE-ELECTION",
+      "capture_mode": "NORMALISED_PAGE_HASH",
+      "review_policy": "REVIEW_UNSTRUCTURED_CHANGE",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-VEC-2026-STATE-ELECTION-20260929083141",
+        "content_hash": "e0dccd2029630c349cc87ce6795216d1187e2fb15ec24f7983d26fe2666a8cd4",
+        "capture_mode": "NORMALISED_PAGE_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-VEC-2026-STATE-ELECTION-20260929155232",
+        "content_hash": "8fcc3316412a58aa18cf1ce48410c34f5b9ad8e56dbacd31b8c0b3e9ae2d0e62",
+        "capture_mode": "NORMALISED_PAGE_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "TEXT_REPRESENTATION",
+        "first_difference_offset": 478,
+        "before_length": 14872,
+        "after_length": 14910,
+        "before_excerpt": "olment Update my enrolment VoterAlert Remove someone from the roll Electoral roll statistics Voting 2026 state election Voting options Electoral misinformation Current elections Banyule City Council Beale Ward by-election Greater Bendigo City Council Lockwood Ward by-election Mornington Peninsula Shire Council, Briars Ward by-election Murrindindi Shire Council Kinglake Ward by-election Fines and reviews Internal reviews and special circumstances Going to court How voting works Preferential voting Counting the votes Challenging an election What happens at a voting centre Types of elections State elections Local council elections Council countbacks and by-elections State by-elections, supplementary elections and appointments Other elections Learn to vote Easy English guides on voting How to fill out state ballot papers How to fill a council ballot paper Book a free information session Passport to Democracy program Talking Democracy resources Young voters History of elections in Victoria Results State election results 2022 state election results 2018 state election results 2014 state election results 2010 state election results 2006 state election results By-election and supplementary election results Council election results 2024 council election results 2021 South Gippsland Shire Council election results 2020 council election results 2017 Greater Geelong City Council election results 2016 council election results 2012 council election results 2008 council election results Council by-election and countback results Other election and poll results MAV elections 2025 MAV Metropolitan South region by-election Murray Valley Wine Grape Industry Development Order Poll 2024 Strawberry Poll 2026 Election statistics Local council election statistics State election statistics Electoral boundaries State districts State regions Local councils Council reviews Ward boundary reviews Electoral structure reviews What are electoral boundaries? Which boundaries cover where I live? State boundary reviews Download boundary maps Candidates & Parties Become a state election candidate How to nominate Campaigning Authorising state election material How-to-vote card guidelines Election information sessions Scrutineers Appointing a scrutineer Upper house groups State election candidate resources Become a local council candidate How to nominate Authorising local council election material Appointing a scrutineer Information for scrutineers Local council candidate resources Registered political parties About registered political parties Register a political party Currently registered parties Party decisions and changes Party registration review Political donations Information for donors Information for recipients New entrants Indexation Funding Funding for registered political parties Funding for independent members Funding for independent candidates State campaign account Funding glossary Annual returns Registered political parties Associated entities Independents and groups Third-party campaigners Languages Toggle search Search Type a minimum of three characters then press UP or DOWN on the keyboard to navigate the autocompleted search results Search button Close search bar Navigation Close navigation Enrolment Enrol to vote Enrol in other languages Get help to enrol Other ways to enrol Postal voting Enrolling for local council elections Check my enrolment Update my enrolment VoterAlert Remove someone from the roll Electoral roll statistics Voting 2026 state election Voting options Electoral misinformation Current elections Banyule City Council Beale Ward by-election Greater Bendigo C",
+        "after_excerpt": "olment Update my enrolment VoterAlert Remove someone from the roll Electoral roll statistics Voting 2026 state election Away from Victoria Voting options Electoral misinformation Current elections Banyule City Council Beale Ward by-election Greater Bendigo City Council Lockwood Ward by-election Mornington Peninsula Shire Council, Briars Ward by-election Murrindindi Shire Council Kinglake Ward by-election Fines and reviews Internal reviews and special circumstances Going to court How voting works Preferential voting Counting the votes Challenging an election What happens at a voting centre Types of elections State elections Local council elections Council countbacks and by-elections State by-elections, supplementary elections and appointments Other elections Learn to vote Easy English guides on voting How to fill out state ballot papers How to fill a council ballot paper Book a free information session Passport to Democracy program Talking Democracy resources Young voters History of elections in Victoria Results State election results 2022 state election results 2018 state election results 2014 state election results 2010 state election results 2006 state election results By-election and supplementary election results Council election results 2024 council election results 2021 South Gippsland Shire Council election results 2020 council election results 2017 Greater Geelong City Council election results 2016 council election results 2012 council election results 2008 council election results Council by-election and countback results Other election and poll results MAV elections 2025 MAV Metropolitan South region by-election Murray Valley Wine Grape Industry Development Order Poll 2024 Strawberry Poll 2026 Election statistics Local council election statistics State election statistics Electoral boundaries State districts State regions Local councils Council reviews Ward boundary reviews Electoral structure reviews What are electoral boundaries? Which boundaries cover where I live? State boundary reviews Download boundary maps Candidates & Parties Become a state election candidate How to nominate Campaigning Authorising state election material How-to-vote card guidelines Election information sessions Scrutineers Appointing a scrutineer Upper house groups State election candidate resources Become a local council candidate How to nominate Authorising local council election material Appointing a scrutineer Information for scrutineers Local council candidate resources Registered political parties About registered political parties Register a political party Currently registered parties Party decisions and changes Party registration review Political donations Information for donors Information for recipients New entrants Indexation Funding Funding for registered political parties Funding for independent members Funding for independent candidates State campaign account Funding glossary Annual returns Registered political parties Associated entities Independents and groups Third-party campaigners Languages Toggle search Search Type a minimum of three characters then press UP or DOWN on the keyboard to navigate the autocompleted search results Search button Close search bar Navigation Close navigation Enrolment Enrol to vote Enrol in other languages Get help to enrol Other ways to enrol Postal voting Enrolling for local council elections Check my enrolment Update my enrolment VoterAlert Remove someone from the roll Electoral roll statistics Voting 2026 state election Away from Victoria Voting options Electoral misinformation Current elections Banyule City Council Beale Ward by-election Greater Bendigo C",
+        "delta_hash": "6e2e425be36d962d2dfc134e99453abee9d8c8c21be81d35c66fd402587701df"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-VEC-MEDIA-20260929155232",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-VIC",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-VEC-MEDIA-20260929155232",
+      "captured_at": "2026-09-29T15:52:32.904Z",
+      "event_date": "2026-09-30",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_ELECTORAL_AUTHORITY",
+      "source_id": "SRC-VEC-MEDIA",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "review_policy": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-VEC-MEDIA-20260929083141",
+        "content_hash": "d942cbf534868a024010e1ec01540c1f6ac530d5c1e64056451e274627aeb0da",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-VEC-MEDIA-20260929155232",
+        "content_hash": "15ab4e6b04b2e310beee16796462200a0611120b56b3f9cecbc46e68d0ef8d11",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "STRUCTURED_RECORD_SET",
+        "records_added": [
+          {
+            "record_id": "2d046523beb25b7251bb",
+            "title": "Away from Victoria",
+            "url": "https://www.vec.vic.gov.au/voting/2026-state-election/away-from-victoria"
+          }
+        ],
+        "records_removed": [],
+        "added_count": 1,
+        "removed_count": 0,
+        "before_count": 140,
+        "after_count": 141,
+        "delta_hash": "54ee66c0ee921a6cb8de8523a7389dca4fc0891f94e25a0a1ea34754971f5c74"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "SIG-REV-CHG-WATCH-VEC-MEDIA-20260929155232",
+      "parent_event_id": "CHG-WATCH-VEC-MEDIA-20260929155232",
+      "review_id": "REV-CHG-WATCH-VEC-MEDIA-20260929155232",
+      "jurisdiction_id": "AUS-VIC",
+      "party_id": null,
+      "actor_id": null,
+      "contest_id": null,
+      "cycle_id": null,
+      "source_snapshot_id": "AUTO-WATCH-VEC-MEDIA-20260929155232",
+      "record_id": "2d046523beb25b7251bb",
+      "captured_at": "2026-09-29T15:53:37.783Z",
+      "event_date": "2026-09-30",
+      "checkpoint": "CONTINUOUS_FORWARD_SIGNAL_REVIEW",
+      "event_type": "SIGNAL_CREATED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_ELECTORAL_AUTHORITY",
+      "source_id": "SRC-VEC-MEDIA",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "claim": "Victorian Electoral Commission — media centre added 1 structured publication record to its forward-captured official index: Away from Victoria",
+      "observed_behaviour": "One or more structured publication records appeared in the monitored official source index after the preceding forward snapshot.",
+      "publication_records_added": [
+        {
+          "record_id": "2d046523beb25b7251bb",
+          "title": "Away from Victoria",
+          "url": "https://www.vec.vic.gov.au/voting/2026-state-election/away-from-victoria"
+        }
+      ],
+      "publication_records_removed": [],
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "underlying_publication_claims_not_promoted_to_verified_fact": true,
+        "source_change_parent_retained": true,
+        "deterministic_review": true
+      }
+    },
+    {
+      "event_id": "INTEL-AREA-14ec9baecd8fb067a56c98a7",
+      "parent_event_id": "SIG-REV-CHG-WATCH-VEC-MEDIA-20260929155232",
+      "jurisdiction_id": "AUS-VIC",
+      "party_id": null,
+      "actor_id": null,
+      "party_ids": [],
+      "actor_ids": [],
+      "contest_id": null,
+      "cycle_id": null,
+      "competition_class": "ELECTORAL",
+      "area_evidence_id": "AREA-14ec9baecd8fb067a56c98a7",
+      "detail_record_id": "DETAIL-77cc5c97c3305b741ff60549",
+      "detail_version_id": "DETAIL-77cc5c97c3305b741ff60549-V1",
+      "source_snapshot_id": "AUTO-WATCH-VEC-MEDIA-20260929155232",
+      "record_url": "https://www.vec.vic.gov.au/voting/2026-state-election/away-from-victoria",
+      "captured_at": "2026-09-29T15:53:50.040Z",
+      "evidence_captured_at": "2026-09-29T15:53:41.934Z",
+      "event_date": "2026-09-29",
+      "checkpoint": "SUBSTANTIVE_INFORMATION_INGESTION",
+      "event_type": "AREA_EVIDENCE_INGESTED",
+      "area_routing_state": "SUBSTANTIVE_CONTENT_ROUTED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_ELECTORAL_AUTHORITY",
+      "source_id": "SRC-VEC-MEDIA",
+      "claim": "Ingested substantive electoral evidence from Away during the election. Captured content includes stage: vote. Registration threshold state: evidence gap. Missing requirements: missing fact type stage, missing condition resolved participant or team.",
+      "observed_behaviour": "Away from Victoria | Victorian Electoral Commission Jump to main navigation Jump to main navigation Jump to main content Toggle navigation Victorian Electoral Commission Victorian Electoral Commission logo Languages Toggle search Search Type a minimum of three characters then press UP or DOWN on the keyboard to navigate the autocompleted search results Search button Close search bar Back to 2026 state election Home Voting 2026 state election Away from Victoria Away during the election Listen If you're going to be away from Victoria during the 2026 state election voting period, you can still vote. Vote early You can vote at any early voting centre between Wednesday 18 and Friday 27 November. You don't need a reason to vote early. There will be early voting centres in every district in Victoria. We'll share these locations on Wednesday 4 November. Vote by post Anyone can apply to receive their ballot papers by post. Postal vote applications open at 9 am on Wednesday 4 November. We'll share some more information about postal voting closer to the voting period. Vote interstate If you're interstate during the early voting period, you can apply for a postal vote. Postal vote applications open at 9 am on Wednesday 4 November. You can also vote in person at any other Australian state or territory electoral commission head office. They will be open between Wednesday 18 and Friday 27 November during local business hours (not including weekends). Interstate voting locations won't be open on election day (Saturday 28 November). Interstate voting locations and opening hours will be in our election venue locator from Wednesday 4 November. Vote from overseas Vote in person or drop your postal vote at one of our international venues. We'll have venues in 30 cities in 21 countries. We'l",
+      "extracted_cues": {
+        "resistance_terms": [],
+        "stage_terms": [
+          "vote"
+        ],
+        "outcome_terms": [],
+        "pressure_terms": []
+      },
+      "entity_mentions": {
+        "actors": [],
+        "teams": []
+      },
+      "position_state": "UNRESOLVED",
+      "resistance_state": "UNRESOLVED",
+      "outcome_state": "UNRESOLVED",
+      "contest_fact_ids": [
+        "FACT-7610ec2734a03a5782e7360d",
+        "FACT-7f9a0ec20fc9f22c59377bb7",
+        "FACT-89644fd5c0b9f00c6ddb2ff5",
+        "FACT-f60a817dd8b2f12fabf37c61"
+      ],
+      "contest_fact_types": [
+        "CONTEST_OBJECT"
+      ],
+      "threshold_evaluation_id": "THRESH-9ca26d74fa83ea4ae0b1c323",
+      "threshold_state": "EVIDENCE_GAP",
+      "threshold_blockers": [
+        "MISSING_CONDITION_RESOLVED_PARTICIPANT_OR_TEAM",
+        "MISSING_FACT_TYPE_STAGE"
+      ],
+      "supporting_entities": [],
+      "opposing_entities": [],
+      "registration_action": "NO_AUTOMATIC_REGISTRATION",
+      "intelligence_signature": "aba1fe0541fb3db40a6ac862579fbc76ebffcc07eb21d5d02f14217681459df5",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "substantive_detail_lineage_required": true,
+        "active_contest_fact_lineage_required": true,
+        "threshold_evaluation_lineage_required": true,
+        "routing_does_not_register_match": true,
+        "threshold_eligibility_does_not_register_match": true,
+        "entity_mentions_do_not_establish_positions": true,
+        "retracted_facts_excluded": true,
+        "no_projection_effect_without_registered_target": true
       }
     }
   ]

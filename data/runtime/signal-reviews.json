@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-SIGNAL-REVIEWS-001",
   "created_at": "2026-09-09T05:05:00+10:00",
-  "updated_at": "2026-09-28T22:02:20.930Z",
+  "updated_at": "2026-09-29T01:59:01.559Z",
   "rules": {
     "append_only": true,
     "raw_source_change_is_immutable": true,
@@ -34029,6 +34029,292 @@
         ],
         "removed_records": [],
         "delta_hash": "f06338e64c2c690b18dffc9277911e547e04e26e5766b18e1071a070cb1973a8"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-PM-MEDIA-20260929015803",
+      "source_change_event_id": "CHG-WATCH-PM-MEDIA-20260929015803",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-PM-MEDIA-20260929015803",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Prime Minister of Australia — media added 2 structured publication records to its forward-captured official index: Radio interview - ABC Northern Tasmania; Accelerating the delivery of more homes for South Australians",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-09-29T01:59:01.559Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "049f0ca469c201b79625",
+            "title": "Radio interview - ABC Northern Tasmania",
+            "url": "https://www.pm.gov.au/media/radio-interview-abc-northern-tasmania-1"
+          },
+          {
+            "record_id": "1ff13cb8dd07aac3a47b",
+            "title": "Accelerating the delivery of more homes for South Australians",
+            "url": "https://www.pm.gov.au/media/accelerating-delivery-more-homes-south-australians"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "66ba96ab22b50a4a4990",
+            "title": "Macquarie Group Climate event",
+            "url": "https://www.pm.gov.au/media/macquarie-group-climate-event"
+          },
+          {
+            "record_id": "951a197c12f423a2e519",
+            "title": "Doorstop - New York",
+            "url": "https://www.pm.gov.au/media/doorstop-new-york-23-september-2026"
+          }
+        ],
+        "delta_hash": "2eb3f0bf31ec8043eb8f81de110e642a9d41b586952dc798ee7a447d4910d013"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-ALP-NEWS-20260929015803",
+      "source_change_event_id": "CHG-WATCH-ALP-NEWS-20260929015803",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-ALP-NEWS-20260929015803",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": "AUS-FED-ALP",
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Australian Labor Party — news added 1 structured publication record to its forward-captured official index: Final Budget Outcome 2025–26 28 September 2026",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-09-29T01:59:01.559Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "f959fb711b756aa169c3",
+            "title": "Final Budget Outcome 2025–26 28 September 2026",
+            "url": "https://www.alp.org.au/news/all-news/final-budget-outcome-2025-26/"
+          }
+        ],
+        "removed_records": [],
+        "delta_hash": "978bbc98f70704f2153ee8412aaa1029d871c4174ac1c91d74ab82a8f06f256d"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-ONENATION-NEWS-20260929015803",
+      "source_change_event_id": "CHG-WATCH-ONENATION-NEWS-20260929015803",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-ONENATION-NEWS-20260929015803",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": "AUS-FED-ONP",
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Pauline Hanson's One Nation — Latest News added 1 structured publication record to its forward-captured official index: Colleen Harkin Calls for Gender Ideology to Be Removed from Australian Schools",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-09-29T01:59:01.559Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "d6288fd76f56d39b9bfe",
+            "title": "Colleen Harkin Calls for Gender Ideology to Be Removed from Australian Schools",
+            "url": "http://www.onenation.org.au/gender-ideology-schools",
+            "published": "Thu, 10 Sep 2026 10:19:00 +1000"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "ceecf7b826983812dde3",
+            "title": "Senate Inquiry Into Infected Blood Scandal Secured",
+            "url": "http://www.onenation.org.au/contaminated-blood-inquiry",
+            "published": "Mon, 28 Sep 2026 11:35:00 +1000"
+          }
+        ],
+        "delta_hash": "1c4ae2013a7af669972f997e88e004b7556d1c3168ca0253e6b02ac787ec0557"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-NSW-MINISTERIAL-RELEASES-20260929015803",
+      "source_change_event_id": "CHG-WATCH-NSW-MINISTERIAL-RELEASES-20260929015803",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-NSW-MINISTERIAL-RELEASES-20260929015803",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "NSW Government — Ministerial releases added 6 structured publication records to its forward-captured official index: NSW Strata and Property Taskforce takes stress out of strata mediation; Honouring fallen police officers; Faster housing approvals unlocks $73 million for local infrastructure; Chester Hill Station upgrade complete with better access for everyone; More than 4,300 homes declared State Significant; +1 more",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-09-29T01:59:01.559Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "12633e15cff5e78274e9",
+            "title": "NSW Strata and Property Taskforce takes stress out of strata mediation",
+            "url": "https://www.nsw.gov.au/ministerial-releases/nsw-strata-and-property-taskforce-takes-stress-out-of-strata-mediation"
+          },
+          {
+            "record_id": "46d69128194f783ea4d0",
+            "title": "Honouring fallen police officers",
+            "url": "https://www.nsw.gov.au/ministerial-releases/honouring-fallen-police-officers"
+          },
+          {
+            "record_id": "76106ccecec018d79040",
+            "title": "Faster housing approvals unlocks $73 million for local infrastructure",
+            "url": "https://www.nsw.gov.au/ministerial-releases/73-million-faster-housing-approvals"
+          },
+          {
+            "record_id": "7deefd4cb55b25c0186a",
+            "title": "Chester Hill Station upgrade complete with better access for everyone",
+            "url": "https://www.nsw.gov.au/ministerial-releases/chester-hill-station-upgrade-complete-better-access-for-everyone"
+          },
+          {
+            "record_id": "a868631a88bd2018c42c",
+            "title": "More than 4,300 homes declared State Significant",
+            "url": "https://www.nsw.gov.au/ministerial-releases/more-than-4300-homes-declared-state-significant"
+          },
+          {
+            "record_id": "dd8017d6c2beb64e1add",
+            "title": "$12.4 million for North Coast active communities",
+            "url": "https://www.nsw.gov.au/ministerial-releases/north-coast-community-projects-funded"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "1976167c9d1e8f04be9c",
+            "title": "Operation Summer Foreshore launched as summer heats up",
+            "url": "https://www.nsw.gov.au/ministerial-releases/operation-summer-foreshore-launched-as-summer-heats-up"
+          },
+          {
+            "record_id": "487e359adb3d96265874",
+            "title": "Donated human milk program for premature babies expands across NSW",
+            "url": "https://www.nsw.gov.au/ministerial-releases/donated-human-milk-program-expands"
+          },
+          {
+            "record_id": "9c06641305aa02fcc97c",
+            "title": "Community invited to shape future of NSW&#x27;s oldest timber truss bridges",
+            "url": "https://www.nsw.gov.au/ministerial-releases/community-invited-to-shape-future-of-nsws-oldest-timber-truss-bridges"
+          },
+          {
+            "record_id": "a772b2401f494d902212",
+            "title": "NSW flicks the switch on one of the world’s most powerful batteries",
+            "url": "https://www.nsw.gov.au/ministerial-releases/nsw-flicks-switch-on-one-of-worlds-most-powerful-batteries"
+          },
+          {
+            "record_id": "d9f53a08f4c730057b69",
+            "title": "New homes deliver housing security for seniors in Riverwood",
+            "url": "https://www.nsw.gov.au/ministerial-releases/new-homes-deliver-housing-security-for-seniors-riverwood"
+          },
+          {
+            "record_id": "f07fa9f1eba2b3945565",
+            "title": "Minns Labor Government boosts prison capacity, as tougher bail laws keep more alleged offenders in custody",
+            "url": "https://www.nsw.gov.au/ministerial-releases/minns-labor-government-boosts-prison-capacity-as-tougher-bail-laws-keep-more-alleged-offenders-custody"
+          }
+        ],
+        "delta_hash": "ce75c87ade32c9da87e5d7981f570bbed06341818685772c2522a1ba379580b7"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20260929015803",
+      "source_change_event_id": "CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20260929015803",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20260929015803",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Queensland Government — Ministerial Media Statements added 4 structured publication records to its forward-captured official index: Early childhood teachers to be registered in major safety boost; Works commence on Peak Downs Highway to improve safety and productivity; Copperstring becoming a reality in North Queensland; Growing community gardens in Brisbane continue to flourish with State support",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-09-29T01:59:01.559Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "2a2855463cfd912de1de",
+            "title": "Early childhood teachers to be registered in major safety boost",
+            "url": "https://statements.qld.gov.au/statements/106145"
+          },
+          {
+            "record_id": "acc9549326ade41c1c6f",
+            "title": "Works commence on Peak Downs Highway to improve safety and productivity",
+            "url": "https://statements.qld.gov.au/statements/106135"
+          },
+          {
+            "record_id": "e5c0268d5a4a42d863f6",
+            "title": "Copperstring becoming a reality in North Queensland",
+            "url": "https://statements.qld.gov.au/statements/106143"
+          },
+          {
+            "record_id": "f007f8565fb96f98e0b2",
+            "title": "Growing community gardens in Brisbane continue to flourish with State support",
+            "url": "https://statements.qld.gov.au/statements/106139"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "55f5952b3b56a309cf08",
+            "title": "Brazil and Socceroos superstars to train in front of fans",
+            "url": "https://statements.qld.gov.au/statements/106129"
+          },
+          {
+            "record_id": "62f9adf04e8791083db5",
+            "title": "New Sooning Street bridge reconnects Magnetic Island community",
+            "url": "https://statements.qld.gov.au/statements/106118"
+          },
+          {
+            "record_id": "9792db392a5b7dbf1bcf",
+            "title": "Transforming Queensland Manufacturing Grant helps Brisbane business soar to new heights",
+            "url": "https://statements.qld.gov.au/statements/106117"
+          },
+          {
+            "record_id": "ed1a7c943bbd03a99e8c",
+            "title": "Fight against electric ants bolstered with paws on the ground in the Far North",
+            "url": "https://statements.qld.gov.au/statements/106121"
+          }
+        ],
+        "delta_hash": "a72571b9721ac186d331cf35350c241b6dd59fce1ef9d7bb34dc8d9606990cd9"
       },
       "integrity": {
         "source_change_unchanged": true,

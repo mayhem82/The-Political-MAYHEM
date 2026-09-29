@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-INTELLIGENCE-EVENTS-001",
   "scope": "Australia — multi-jurisdiction",
-  "captured_at": "2026-09-29T01:59:07.941Z",
+  "captured_at": "2026-09-29T08:32:56.774Z",
   "mode": "FORWARD_ONLY",
   "rules": {
     "observation_distinct_from_inference": true,
@@ -94915,6 +94915,546 @@
         "entity_mentions_do_not_establish_positions": true,
         "retracted_facts_excluded": true,
         "no_projection_effect_without_registered_target": true
+      }
+    },
+    {
+      "event_id": "CHG-WATCH-PM-MEDIA-20260929083141",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-FED",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-PM-MEDIA-20260929083141",
+      "captured_at": "2026-09-29T08:31:41.079Z",
+      "event_date": "2026-09-29",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-PM-MEDIA",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "review_policy": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-PM-MEDIA-20260929015803",
+        "content_hash": "2ad5dd788971659b76937405c978931b60eaa7c892a3ea71044c1667a7bea363",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-PM-MEDIA-20260929083141",
+        "content_hash": "ba4384924279e137d167542b8527a66906e143aa8a5553bd4b42ba6c31db1358",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "STRUCTURED_RECORD_SET",
+        "records_added": [
+          {
+            "record_id": "75460c87897eeacad887",
+            "title": "Press conference - Adelaide",
+            "url": "https://www.pm.gov.au/media/press-conference-adelaide-8"
+          }
+        ],
+        "records_removed": [
+          {
+            "record_id": "f7019ab773ec7fccf6e5",
+            "title": "Agreement on long-term support and cooperation between Australia and Ukraine",
+            "url": "https://www.pm.gov.au/media/agreement-long-term-support-and-cooperation-between-australia-and-ukraine"
+          }
+        ],
+        "added_count": 1,
+        "removed_count": 1,
+        "before_count": 27,
+        "after_count": 27,
+        "delta_hash": "0c291a545c4a0fea65fbc2ab1c38b30359b15ed1a0b3f01087e64a458099022e"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-ALP-NEWS-20260929083141",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-FED",
+      "party_id": "AUS-FED-ALP",
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-ALP-NEWS-20260929083141",
+      "captured_at": "2026-09-29T08:31:41.079Z",
+      "event_date": "2026-09-29",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_PARTY",
+      "source_id": "SRC-ALP-FEDERAL-NEWS",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "review_policy": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-ALP-NEWS-20260929015803",
+        "content_hash": "2c876317b8433702f7696a17737a1107a485b3c3a2a5c37a26bf5a315acbf674",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-ALP-NEWS-20260929083141",
+        "content_hash": "74b1bd14e4a14d3f98fba81334409299739c817623a03058215d2882361213dc",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "STRUCTURED_RECORD_SET",
+        "records_added": [
+          {
+            "record_id": "0cd818ef00b902b4f530",
+            "title": "Accelerating more homes for South Australians 29 September 2026",
+            "url": "https://www.alp.org.au/news/all-news/accelerating-the-delivery-of-more-homes-for-south-australians/"
+          }
+        ],
+        "records_removed": [],
+        "added_count": 1,
+        "removed_count": 0,
+        "before_count": 477,
+        "after_count": 478,
+        "delta_hash": "6b844e8a00d09d2982911a6bc8526e9a7451adec9f1b46a129e69413d9e6750f"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-LIBERAL-HOME-20260929083141",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-FED",
+      "party_id": "AUS-FED-LIB",
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-LIBERAL-HOME-20260929083141",
+      "captured_at": "2026-09-29T08:31:41.079Z",
+      "event_date": "2026-09-29",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_PARTY",
+      "source_id": "SRC-LIBERAL-FEDERAL-HOME",
+      "capture_mode": "NORMALISED_PAGE_HASH",
+      "review_policy": "REVIEW_UNSTRUCTURED_CHANGE",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-LIBERAL-HOME-20260929015803",
+        "content_hash": "7b589fa586a64b8150cf8e63f11ae69c113902e83e5df8aaef045cf7c7c25d99",
+        "capture_mode": "NORMALISED_PAGE_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-LIBERAL-HOME-20260929083141",
+        "content_hash": "9f7304b2b29f88a8392d8b9855c3eb5cc17685bf7c0107c9efc0966e03d5627a",
+        "capture_mode": "NORMALISED_PAGE_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "TEXT_REPRESENTATION",
+        "first_difference_offset": 1420,
+        "before_length": 6148,
+        "after_length": 6097,
+        "before_excerpt": "er of the Opposition in the Senate Meet the Liberal Team The Latest Stay up to date with the Liberal Party of Australia liberalaus Labor’s lost control of its spending and they’re blaming everyone else for what they’ve done. The Liberals and Nationals have a plan that will get government spending under control. Sep 28 Open post by liberalaus with ID 18631493374003849 angustaylormp Labor has broken the economy. They can’t stop spending and Australians are being made to pay for it. With our plan, we will get spending under control. We will fix our economy. Sep 28 Open post by angustaylormp with ID 17976175542129717 senatorhume Labor’s reckless spending has consequences and Australians are paying the price. Sep 28 Open post by senatorhume with ID 17948877513271823 liberalaus Because Labor can’t control its spending, the Reserve Bank has been forced to increase interest rates 3 times already this year. Sep 28 Open post by liberalaus with ID 17942181561090622 angustaylormp Australians have to manage their budgets, why can’t Labor do the same? Our plan will fix the economy and protect our way of life. Sep 28 Open post by angustaylormp with ID 18130853203773581 liberalaus For Australians to have the means to live, government must live within its means. Sep 28 Open post by liberalaus with ID 18155991928506227 liberalaus Under Labor, spending as a share of the economy is the highest in 40 years, outside the pandemic. Labor`s choices, not bad luck, drive rates up. And you pay the price. Sep 28 Open post by liberalaus with ID 18112700012586784 senatorhume Australians deserve cheaper. That’s what the Coalition will deliver. Sep 27 Open post by senatorhume with ID 18092596142653742 angustaylormp Anthony Albanese has broken the economy. It has consequences for Australians. We must fix it. Sep 27 Open post by angustaylormp with ID 18108175160058656 senatorhume Our Fuel Price Shield would automatically cut the tax on fuel by around 27 cents a litre when global oil prices stay too high for too long. Sep 26 Open post by senatorhume with ID 18065711288782486 liberalaus The Liberals and Nationals have a Plan for cheaper power. Read more about our plan at the link in bio. Sep 26 Open post by liberalaus with ID 18112291784040231 liberalaus Scrapping Labor’s Net Zero policies will deliver cheaper, reliable and abundant energy. Sep 25 Open post by liberalaus with ID 18114108155095557 angustaylormp As you fill up this weekend, we have a plan to save you 27c a litre. This could be done right now. We need a Government that will put Australians first. Sep 25 Open post by angustaylormp with ID 18028636157907560 angustaylormp Halving the fuel excise should be the first thing the Prime Minister does when he gets off the plane. It should have happened a week ago. Sep 25 Open post by angustaylormp with ID 18217406428349642 senatorhume This week the PM got to hang out with celebrities while Australians were told we’ll be poorer in the future, interest rates could rise again, and more Australians are out of work. Priorities. Sep 25 Open post by senatorhume with ID 18104805050095657 liberalaus Labor has no plan to reduce its more than $1 trillion debt, and Australians will continue to pay the price as higher interest rates hit. The Liberals and Nationals will establish a Future Generations Fund to pay down Labor’s debt, and we will stop spending faster than the economy is growing. Disciplined budgets are how we will keep taxes low, pays down debt and protects the economy against shocks. Sep 25 Open post by liberalaus with ID 18113861354005092 angustaylormp This has not aged well. Come on Prime Minister, put Australians first. Halve the fuel tax! Sep 25 Open post by angustaylormp with ID 18138010813618776 liberalaus Australian petrol and diesel prices have hit their highest levels in nearly six months. Our plan would automatically halve fuel excise when the two-week average Brent crude oil price rises above US$100 a barrel. It would cut the tax on fuel by around 27 cents a litre, saving around $15 on a typical tank. Sep 25 Open post by liberalaus with ID 18113699930039100 We need your support to win! Help us by making a donation today. 🙏🏼 $30 👏🏼 $60 😃 $120 😁 $500 😲 $1,000 🥹 $2,000 ",
+        "after_excerpt": "er of the Opposition in the Senate Meet the Liberal Team The Latest Stay up to date with the Liberal Party of Australia angustaylormp On National Police Remembrance Day, to all our police officers we thank you for your service, your courage and your commitment to keeping Australians safe. With honour they serve. With honour, we remember those who gave their lives in that service. Sep 29 Open post by angustaylormp with ID 18117378065057887 liberalaus Labor’s lost control of its spending and they’re blaming everyone else for what they’ve done. The Liberals and Nationals have a plan that will get government spending under control. Sep 28 Open post by liberalaus with ID 18631493374003849 angustaylormp Labor has broken the economy. They can’t stop spending and Australians are being made to pay for it. With our plan, we will get spending under control. We will fix our economy. Sep 28 Open post by angustaylormp with ID 17976175542129717 senatorhume Labor’s reckless spending has consequences and Australians are paying the price. Sep 28 Open post by senatorhume with ID 17948877513271823 liberalaus Because Labor can’t control its spending, the Reserve Bank has been forced to increase interest rates 3 times already this year. Sep 28 Open post by liberalaus with ID 17942181561090622 angustaylormp Australians have to manage their budgets, why can’t Labor do the same? Our plan will fix the economy and protect our way of life. Sep 28 Open post by angustaylormp with ID 18130853203773581 liberalaus For Australians to have the means to live, government must live within its means. Sep 28 Open post by liberalaus with ID 18155991928506227 liberalaus Under Labor, spending as a share of the economy is the highest in 40 years, outside the pandemic. Labor`s choices, not bad luck, drive rates up. And you pay the price. Sep 28 Open post by liberalaus with ID 18112700012586784 senatorhume Australians deserve cheaper. That’s what the Coalition will deliver. Sep 27 Open post by senatorhume with ID 18092596142653742 angustaylormp Anthony Albanese has broken the economy. It has consequences for Australians. We must fix it. Sep 27 Open post by angustaylormp with ID 18108175160058656 senatorhume Our Fuel Price Shield would automatically cut the tax on fuel by around 27 cents a litre when global oil prices stay too high for too long. Sep 26 Open post by senatorhume with ID 18065711288782486 liberalaus The Liberals and Nationals have a Plan for cheaper power. Read more about our plan at the link in bio. Sep 26 Open post by liberalaus with ID 18112291784040231 liberalaus Scrapping Labor’s Net Zero policies will deliver cheaper, reliable and abundant energy. Sep 25 Open post by liberalaus with ID 18114108155095557 angustaylormp As you fill up this weekend, we have a plan to save you 27c a litre. This could be done right now. We need a Government that will put Australians first. Sep 25 Open post by angustaylormp with ID 18028636157907560 angustaylormp Halving the fuel excise should be the first thing the Prime Minister does when he gets off the plane. It should have happened a week ago. Sep 25 Open post by angustaylormp with ID 18217406428349642 senatorhume This week the PM got to hang out with celebrities while Australians were told we’ll be poorer in the future, interest rates could rise again, and more Australians are out of work. Priorities. Sep 25 Open post by senatorhume with ID 18104805050095657 liberalaus Labor has no plan to reduce its more than $1 trillion debt, and Australians will continue to pay the price as higher interest rates hit. The Liberals and Nationals will establish a Future Generations Fund to pay down Labor’s debt, and we will stop spending faster than the economy is growing. Disciplined budgets are how we will keep taxes low, pays down debt and protects the economy against shocks. Sep 25 Open post by liberalaus with ID 18113861354005092 angustaylormp This has not aged well. Come on Prime Minister, put Australians first. Halve the fuel tax! Sep 25 Open post by angustaylormp with ID 18138010813618776 We need your support to win! Help us by making a donation today. 🙏🏼 $30 👏🏼 $60 😃 $120 😁 $500 😲 $1,000 🥹 $2,000 ",
+        "delta_hash": "82f2578284b4d3a371e51fa7773fb28338580bb2de58f630f826b9d0e156aa7e"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-VEC-2026-STATE-ELECTION-20260929083141",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-VIC",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-VEC-2026-STATE-ELECTION-20260929083141",
+      "captured_at": "2026-09-29T08:31:41.079Z",
+      "event_date": "2026-09-29",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_ELECTORAL_AUTHORITY",
+      "source_id": "SRC-VEC-2026-STATE-ELECTION",
+      "capture_mode": "NORMALISED_PAGE_HASH",
+      "review_policy": "REVIEW_UNSTRUCTURED_CHANGE",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-VEC-2026-STATE-ELECTION-20260928152906",
+        "content_hash": "9f842d8190de9e5c3d228b8a551bb225aa33c5e30a9d8348966af2db5926fa9f",
+        "capture_mode": "NORMALISED_PAGE_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-VEC-2026-STATE-ELECTION-20260929083141",
+        "content_hash": "e0dccd2029630c349cc87ce6795216d1187e2fb15ec24f7983d26fe2666a8cd4",
+        "capture_mode": "NORMALISED_PAGE_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "TEXT_REPRESENTATION",
+        "first_difference_offset": 2575,
+        "before_length": 14848,
+        "after_length": 14872,
+        "before_excerpt": "w to nominate Campaigning Authorising state election material How-to-vote card guidelines Election information sessions Appointing a scrutineer Upper house groups State election candidate resources Become a local council candidate How to nominate Authorising local council election material Appointing a scrutineer Information for scrutineers Local council candidate resources Registered political parties About registered political parties Register a political party Currently registered parties Party decisions and changes Party registration review Political donations Information for donors Information for recipients New entrants Indexation Funding Funding for registered political parties Funding for independent members Funding for independent candidates State campaign account Funding glossary Annual returns Registered political parties Associated entities Independents and groups Third-party campaigners Languages Toggle search Search Type a minimum of three characters then press UP or DOWN on the keyboard to navigate the autocompleted search results Search button Close search bar Navigation Close navigation Enrolment Enrol to vote Enrol in other languages Get help to enrol Other ways to enrol Postal voting Enrolling for local council elections Check my enrolment Update my enrolment VoterAlert Remove someone from the roll Electoral roll statistics Voting 2026 state election Voting options Electoral misinformation Current elections Banyule City Council Beale Ward by-election Greater Bendigo City Council Lockwood Ward by-election Mornington Peninsula Shire Council, Briars Ward by-election Murrindindi Shire Council Kinglake Ward by-election Fines and reviews Internal reviews and special circumstances Going to court How voting works Preferential voting Counting the votes Challenging an election What happens at a voting centre Types of elections State elections Local council elections Council countbacks and by-elections State by-elections, supplementary elections and appointments Other elections Learn to vote Easy English guides on voting How to fill out state ballot papers How to fill a council ballot paper Book a free information session Passport to Democracy program Talking Democracy resources Young voters History of elections in Victoria Results State election results 2022 state election results 2018 state election results 2014 state election results 2010 state election results 2006 state election results By-election and supplementary election results Council election results 2024 council election results 2021 South Gippsland Shire Council election results 2020 council election results 2017 Greater Geelong City Council election results 2016 council election results 2012 council election results 2008 council election results Council by-election and countback results Other election and poll results MAV elections 2025 MAV Metropolitan South region by-election Murray Valley Wine Grape Industry Development Order Poll 2024 Strawberry Poll 2026 Election statistics Local council election statistics State election statistics Electoral boundaries State districts State regions Local councils Council reviews Ward boundary reviews Electoral structure reviews What are electoral boundaries? Which boundaries cover where I live? State boundary reviews Download boundary maps Candidates & Parties Become a state election candidate How to nominate Campaigning Authorising state election material How-to-vote card guidelines Election information sessions Appointing a scrutineer Upper house groups State election candidate resources Become a local council candidate How to ",
+        "after_excerpt": "w to nominate Campaigning Authorising state election material How-to-vote card guidelines Election information sessions Scrutineers Appointing a scrutineer Upper house groups State election candidate resources Become a local council candidate How to nominate Authorising local council election material Appointing a scrutineer Information for scrutineers Local council candidate resources Registered political parties About registered political parties Register a political party Currently registered parties Party decisions and changes Party registration review Political donations Information for donors Information for recipients New entrants Indexation Funding Funding for registered political parties Funding for independent members Funding for independent candidates State campaign account Funding glossary Annual returns Registered political parties Associated entities Independents and groups Third-party campaigners Languages Toggle search Search Type a minimum of three characters then press UP or DOWN on the keyboard to navigate the autocompleted search results Search button Close search bar Navigation Close navigation Enrolment Enrol to vote Enrol in other languages Get help to enrol Other ways to enrol Postal voting Enrolling for local council elections Check my enrolment Update my enrolment VoterAlert Remove someone from the roll Electoral roll statistics Voting 2026 state election Voting options Electoral misinformation Current elections Banyule City Council Beale Ward by-election Greater Bendigo City Council Lockwood Ward by-election Mornington Peninsula Shire Council, Briars Ward by-election Murrindindi Shire Council Kinglake Ward by-election Fines and reviews Internal reviews and special circumstances Going to court How voting works Preferential voting Counting the votes Challenging an election What happens at a voting centre Types of elections State elections Local council elections Council countbacks and by-elections State by-elections, supplementary elections and appointments Other elections Learn to vote Easy English guides on voting How to fill out state ballot papers How to fill a council ballot paper Book a free information session Passport to Democracy program Talking Democracy resources Young voters History of elections in Victoria Results State election results 2022 state election results 2018 state election results 2014 state election results 2010 state election results 2006 state election results By-election and supplementary election results Council election results 2024 council election results 2021 South Gippsland Shire Council election results 2020 council election results 2017 Greater Geelong City Council election results 2016 council election results 2012 council election results 2008 council election results Council by-election and countback results Other election and poll results MAV elections 2025 MAV Metropolitan South region by-election Murray Valley Wine Grape Industry Development Order Poll 2024 Strawberry Poll 2026 Election statistics Local council election statistics State election statistics Electoral boundaries State districts State regions Local councils Council reviews Ward boundary reviews Electoral structure reviews What are electoral boundaries? Which boundaries cover where I live? State boundary reviews Download boundary maps Candidates & Parties Become a state election candidate How to nominate Campaigning Authorising state election material How-to-vote card guidelines Election information sessions Scrutineers Appointing a scrutineer Upper house groups State election candidate resources Become a local council candidate How to ",
+        "delta_hash": "c23f39bba41598a1c879148728b7c0532ce67975627e72568b610820cf79f20e"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-VEC-MEDIA-20260929083141",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-VIC",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-VEC-MEDIA-20260929083141",
+      "captured_at": "2026-09-29T08:31:41.079Z",
+      "event_date": "2026-09-29",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_ELECTORAL_AUTHORITY",
+      "source_id": "SRC-VEC-MEDIA",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "review_policy": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-VEC-MEDIA-20260928152906",
+        "content_hash": "9db52ef234a0ec3f46578d686324a19005f0feaacff540ba998337199a0e6258",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-VEC-MEDIA-20260929083141",
+        "content_hash": "d942cbf534868a024010e1ec01540c1f6ac530d5c1e64056451e274627aeb0da",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "STRUCTURED_RECORD_SET",
+        "records_added": [
+          {
+            "record_id": "aa5a85e7b3463a5309c1",
+            "title": "Scrutineers",
+            "url": "https://www.vec.vic.gov.au/candidates-and-parties/become-a-state-election-candidate/information-for-scrutineers"
+          }
+        ],
+        "records_removed": [],
+        "added_count": 1,
+        "removed_count": 0,
+        "before_count": 139,
+        "after_count": 140,
+        "delta_hash": "cda2d266e44c176f758804df0f547b0fdaa1cc063a4e50b13c1bcbb347b72b0b"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20260929083141",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-QLD",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-QLD-MINISTERIAL-STATEMENTS-20260929083141",
+      "captured_at": "2026-09-29T08:31:41.079Z",
+      "event_date": "2026-09-29",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-QLD-MINISTERIAL-STATEMENTS",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "review_policy": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-QLD-MINISTERIAL-STATEMENTS-20260929015803",
+        "content_hash": "6e7658590a2166446fdfe7989d86b77417821283313f2cd1c911a922c3d26a58",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-QLD-MINISTERIAL-STATEMENTS-20260929083141",
+        "content_hash": "467534989ca170e709d7b9424fca256765756fc64a4657b99b284240a1041fba",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "STRUCTURED_RECORD_SET",
+        "records_added": [
+          {
+            "record_id": "555911d9cc6efdd33d37",
+            "title": "Queensland Youth Parliament nurtures next generation of leaders",
+            "url": "https://statements.qld.gov.au/statements/106138"
+          },
+          {
+            "record_id": "c65ab1b57caf89fec66f",
+            "title": "Statement from the Attorney-General",
+            "url": "https://statements.qld.gov.au/statements/106154"
+          },
+          {
+            "record_id": "f3b0387a008be268d5f2",
+            "title": "Statement from the Treasurer regarding Moody's Ratings",
+            "url": "https://statements.qld.gov.au/statements/106152"
+          }
+        ],
+        "records_removed": [
+          {
+            "record_id": "415fbd6d5ebcf32cb75c",
+            "title": "Major upgrade delivered at Beachmere’s Clayton Park",
+            "url": "https://statements.qld.gov.au/statements/106127"
+          },
+          {
+            "record_id": "7e8b3bd428eda8a2889e",
+            "title": "More than 2,000 new corrections officers bolster ranks to make Queensland safer",
+            "url": "https://statements.qld.gov.au/statements/106131"
+          },
+          {
+            "record_id": "d65b2840291eebf09ddd",
+            "title": "The Star Gold Coast licence suspension deferred to 2027",
+            "url": "https://statements.qld.gov.au/statements/106120"
+          }
+        ],
+        "added_count": 3,
+        "removed_count": 3,
+        "before_count": 16,
+        "after_count": 16,
+        "delta_hash": "2ae4be7eab4815793001e9831ec62ec2ef4d14a9cc9313635bc7188430d50ad2"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "SIG-REV-CHG-WATCH-PM-MEDIA-20260929083141",
+      "parent_event_id": "CHG-WATCH-PM-MEDIA-20260929083141",
+      "review_id": "REV-CHG-WATCH-PM-MEDIA-20260929083141",
+      "jurisdiction_id": "AUS-FED",
+      "party_id": null,
+      "actor_id": null,
+      "contest_id": null,
+      "cycle_id": null,
+      "source_snapshot_id": "AUTO-WATCH-PM-MEDIA-20260929083141",
+      "record_id": "75460c87897eeacad887",
+      "captured_at": "2026-09-29T08:32:45.209Z",
+      "event_date": "2026-09-29",
+      "checkpoint": "CONTINUOUS_FORWARD_SIGNAL_REVIEW",
+      "event_type": "SIGNAL_CREATED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-PM-MEDIA",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "claim": "Prime Minister of Australia — media added 1 structured publication record to its forward-captured official index: Press conference - Adelaide",
+      "observed_behaviour": "One or more structured publication records appeared in the monitored official source index after the preceding forward snapshot.",
+      "publication_records_added": [
+        {
+          "record_id": "75460c87897eeacad887",
+          "title": "Press conference - Adelaide",
+          "url": "https://www.pm.gov.au/media/press-conference-adelaide-8"
+        }
+      ],
+      "publication_records_removed": [
+        {
+          "record_id": "f7019ab773ec7fccf6e5",
+          "title": "Agreement on long-term support and cooperation between Australia and Ukraine",
+          "url": "https://www.pm.gov.au/media/agreement-long-term-support-and-cooperation-between-australia-and-ukraine"
+        }
+      ],
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "underlying_publication_claims_not_promoted_to_verified_fact": true,
+        "source_change_parent_retained": true,
+        "deterministic_review": true
+      }
+    },
+    {
+      "event_id": "SIG-REV-CHG-WATCH-ALP-NEWS-20260929083141",
+      "parent_event_id": "CHG-WATCH-ALP-NEWS-20260929083141",
+      "review_id": "REV-CHG-WATCH-ALP-NEWS-20260929083141",
+      "jurisdiction_id": "AUS-FED",
+      "party_id": "AUS-FED-ALP",
+      "actor_id": null,
+      "contest_id": null,
+      "cycle_id": null,
+      "source_snapshot_id": "AUTO-WATCH-ALP-NEWS-20260929083141",
+      "record_id": "0cd818ef00b902b4f530",
+      "captured_at": "2026-09-29T08:32:45.209Z",
+      "event_date": "2026-09-29",
+      "checkpoint": "CONTINUOUS_FORWARD_SIGNAL_REVIEW",
+      "event_type": "SIGNAL_CREATED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_PARTY",
+      "source_id": "SRC-ALP-FEDERAL-NEWS",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "claim": "Australian Labor Party — news added 1 structured publication record to its forward-captured official index: Accelerating more homes for South Australians 29 September 2026",
+      "observed_behaviour": "One or more structured publication records appeared in the monitored official source index after the preceding forward snapshot.",
+      "publication_records_added": [
+        {
+          "record_id": "0cd818ef00b902b4f530",
+          "title": "Accelerating more homes for South Australians 29 September 2026",
+          "url": "https://www.alp.org.au/news/all-news/accelerating-the-delivery-of-more-homes-for-south-australians/"
+        }
+      ],
+      "publication_records_removed": [],
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "underlying_publication_claims_not_promoted_to_verified_fact": true,
+        "source_change_parent_retained": true,
+        "deterministic_review": true
+      }
+    },
+    {
+      "event_id": "SIG-REV-CHG-WATCH-VEC-MEDIA-20260929083141",
+      "parent_event_id": "CHG-WATCH-VEC-MEDIA-20260929083141",
+      "review_id": "REV-CHG-WATCH-VEC-MEDIA-20260929083141",
+      "jurisdiction_id": "AUS-VIC",
+      "party_id": null,
+      "actor_id": null,
+      "contest_id": null,
+      "cycle_id": null,
+      "source_snapshot_id": "AUTO-WATCH-VEC-MEDIA-20260929083141",
+      "record_id": "aa5a85e7b3463a5309c1",
+      "captured_at": "2026-09-29T08:32:45.209Z",
+      "event_date": "2026-09-29",
+      "checkpoint": "CONTINUOUS_FORWARD_SIGNAL_REVIEW",
+      "event_type": "SIGNAL_CREATED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_ELECTORAL_AUTHORITY",
+      "source_id": "SRC-VEC-MEDIA",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "claim": "Victorian Electoral Commission — media centre added 1 structured publication record to its forward-captured official index: Scrutineers",
+      "observed_behaviour": "One or more structured publication records appeared in the monitored official source index after the preceding forward snapshot.",
+      "publication_records_added": [
+        {
+          "record_id": "aa5a85e7b3463a5309c1",
+          "title": "Scrutineers",
+          "url": "https://www.vec.vic.gov.au/candidates-and-parties/become-a-state-election-candidate/information-for-scrutineers"
+        }
+      ],
+      "publication_records_removed": [],
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "underlying_publication_claims_not_promoted_to_verified_fact": true,
+        "source_change_parent_retained": true,
+        "deterministic_review": true
+      }
+    },
+    {
+      "event_id": "SIG-REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20260929083141",
+      "parent_event_id": "CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20260929083141",
+      "review_id": "REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20260929083141",
+      "jurisdiction_id": "AUS-QLD",
+      "party_id": null,
+      "actor_id": null,
+      "contest_id": null,
+      "cycle_id": null,
+      "source_snapshot_id": "AUTO-WATCH-QLD-MINISTERIAL-STATEMENTS-20260929083141",
+      "record_id": null,
+      "captured_at": "2026-09-29T08:32:45.209Z",
+      "event_date": "2026-09-29",
+      "checkpoint": "CONTINUOUS_FORWARD_SIGNAL_REVIEW",
+      "event_type": "SIGNAL_CREATED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-QLD-MINISTERIAL-STATEMENTS",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "claim": "Queensland Government — Ministerial Media Statements added 3 structured publication records to its forward-captured official index: Queensland Youth Parliament nurtures next generation of leaders; Statement from the Attorney-General; Statement from the Treasurer regarding Moody's Ratings",
+      "observed_behaviour": "One or more structured publication records appeared in the monitored official source index after the preceding forward snapshot.",
+      "publication_records_added": [
+        {
+          "record_id": "555911d9cc6efdd33d37",
+          "title": "Queensland Youth Parliament nurtures next generation of leaders",
+          "url": "https://statements.qld.gov.au/statements/106138"
+        },
+        {
+          "record_id": "c65ab1b57caf89fec66f",
+          "title": "Statement from the Attorney-General",
+          "url": "https://statements.qld.gov.au/statements/106154"
+        },
+        {
+          "record_id": "f3b0387a008be268d5f2",
+          "title": "Statement from the Treasurer regarding Moody's Ratings",
+          "url": "https://statements.qld.gov.au/statements/106152"
+        }
+      ],
+      "publication_records_removed": [
+        {
+          "record_id": "415fbd6d5ebcf32cb75c",
+          "title": "Major upgrade delivered at Beachmere’s Clayton Park",
+          "url": "https://statements.qld.gov.au/statements/106127"
+        },
+        {
+          "record_id": "7e8b3bd428eda8a2889e",
+          "title": "More than 2,000 new corrections officers bolster ranks to make Queensland safer",
+          "url": "https://statements.qld.gov.au/statements/106131"
+        },
+        {
+          "record_id": "d65b2840291eebf09ddd",
+          "title": "The Star Gold Coast licence suspension deferred to 2027",
+          "url": "https://statements.qld.gov.au/statements/106120"
+        }
+      ],
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "underlying_publication_claims_not_promoted_to_verified_fact": true,
+        "source_change_parent_retained": true,
+        "deterministic_review": true
       }
     }
   ]

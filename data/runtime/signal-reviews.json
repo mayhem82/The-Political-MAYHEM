@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-SIGNAL-REVIEWS-001",
   "created_at": "2026-09-09T05:05:00+10:00",
-  "updated_at": "2026-09-29T01:59:01.559Z",
+  "updated_at": "2026-09-29T08:32:45.209Z",
   "rules": {
     "append_only": true,
     "raw_source_change_is_immutable": true,
@@ -34315,6 +34315,174 @@
           }
         ],
         "delta_hash": "a72571b9721ac186d331cf35350c241b6dd59fce1ef9d7bb34dc8d9606990cd9"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-PM-MEDIA-20260929083141",
+      "source_change_event_id": "CHG-WATCH-PM-MEDIA-20260929083141",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-PM-MEDIA-20260929083141",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Prime Minister of Australia — media added 1 structured publication record to its forward-captured official index: Press conference - Adelaide",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-09-29T08:32:45.209Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "75460c87897eeacad887",
+            "title": "Press conference - Adelaide",
+            "url": "https://www.pm.gov.au/media/press-conference-adelaide-8"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "f7019ab773ec7fccf6e5",
+            "title": "Agreement on long-term support and cooperation between Australia and Ukraine",
+            "url": "https://www.pm.gov.au/media/agreement-long-term-support-and-cooperation-between-australia-and-ukraine"
+          }
+        ],
+        "delta_hash": "0c291a545c4a0fea65fbc2ab1c38b30359b15ed1a0b3f01087e64a458099022e"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-ALP-NEWS-20260929083141",
+      "source_change_event_id": "CHG-WATCH-ALP-NEWS-20260929083141",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-ALP-NEWS-20260929083141",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": "AUS-FED-ALP",
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Australian Labor Party — news added 1 structured publication record to its forward-captured official index: Accelerating more homes for South Australians 29 September 2026",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-09-29T08:32:45.209Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "0cd818ef00b902b4f530",
+            "title": "Accelerating more homes for South Australians 29 September 2026",
+            "url": "https://www.alp.org.au/news/all-news/accelerating-the-delivery-of-more-homes-for-south-australians/"
+          }
+        ],
+        "removed_records": [],
+        "delta_hash": "6b844e8a00d09d2982911a6bc8526e9a7451adec9f1b46a129e69413d9e6750f"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-VEC-MEDIA-20260929083141",
+      "source_change_event_id": "CHG-WATCH-VEC-MEDIA-20260929083141",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-VEC-MEDIA-20260929083141",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Victorian Electoral Commission — media centre added 1 structured publication record to its forward-captured official index: Scrutineers",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-09-29T08:32:45.209Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "aa5a85e7b3463a5309c1",
+            "title": "Scrutineers",
+            "url": "https://www.vec.vic.gov.au/candidates-and-parties/become-a-state-election-candidate/information-for-scrutineers"
+          }
+        ],
+        "removed_records": [],
+        "delta_hash": "cda2d266e44c176f758804df0f547b0fdaa1cc063a4e50b13c1bcbb347b72b0b"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20260929083141",
+      "source_change_event_id": "CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20260929083141",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20260929083141",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Queensland Government — Ministerial Media Statements added 3 structured publication records to its forward-captured official index: Queensland Youth Parliament nurtures next generation of leaders; Statement from the Attorney-General; Statement from the Treasurer regarding Moody's Ratings",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-09-29T08:32:45.209Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "555911d9cc6efdd33d37",
+            "title": "Queensland Youth Parliament nurtures next generation of leaders",
+            "url": "https://statements.qld.gov.au/statements/106138"
+          },
+          {
+            "record_id": "c65ab1b57caf89fec66f",
+            "title": "Statement from the Attorney-General",
+            "url": "https://statements.qld.gov.au/statements/106154"
+          },
+          {
+            "record_id": "f3b0387a008be268d5f2",
+            "title": "Statement from the Treasurer regarding Moody's Ratings",
+            "url": "https://statements.qld.gov.au/statements/106152"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "415fbd6d5ebcf32cb75c",
+            "title": "Major upgrade delivered at Beachmere’s Clayton Park",
+            "url": "https://statements.qld.gov.au/statements/106127"
+          },
+          {
+            "record_id": "7e8b3bd428eda8a2889e",
+            "title": "More than 2,000 new corrections officers bolster ranks to make Queensland safer",
+            "url": "https://statements.qld.gov.au/statements/106131"
+          },
+          {
+            "record_id": "d65b2840291eebf09ddd",
+            "title": "The Star Gold Coast licence suspension deferred to 2027",
+            "url": "https://statements.qld.gov.au/statements/106120"
+          }
+        ],
+        "delta_hash": "2ae4be7eab4815793001e9831ec62ec2ef4d14a9cc9313635bc7188430d50ad2"
       },
       "integrity": {
         "source_change_unchanged": true,

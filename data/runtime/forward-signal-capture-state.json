@@ -49,9 +49,9 @@
       "source_id": "SRC-NSW-MINISTERIAL-RELEASES",
       "jurisdiction_id": "AUS-NSW",
       "party_id": null,
-      "content_hash": "a03669c351d0a08150e16025b84f8c22b2f0bb5a4e737248bf3dc4aab194776c",
-      "snapshot_id": "AUTO-WATCH-NSW-MINISTERIAL-RELEASES-20260930064410",
-      "captured_at": "2026-09-30T06:44:10.999Z",
+      "content_hash": "9081aa4bfe87d9f73b2f020af167e1547068101961bbc7b4c4d094e3dfa32dfc",
+      "snapshot_id": "AUTO-WATCH-NSW-MINISTERIAL-RELEASES-20260930235042",
+      "captured_at": "2026-09-30T23:50:42.921Z",
       "acquisition_url": "https://www.nsw.gov.au/ministerial-releases",
       "requested_url": "https://www.nsw.gov.au/ministerial-releases",
       "header_profile": "IDENTIFIED_AUTOMATION",
@@ -179,7 +179,7 @@
       "captured_at": "2026-09-25T01:31:26.557Z",
       "acquisition_url": "https://www.parliament.sa.gov.au/",
       "requested_url": "https://www.parliament.sa.gov.au/",
-      "header_profile": "IDENTIFIED_AUTOMATION",
+      "header_profile": "BROWSER_COMPATIBILITY",
       "content_type": "text/html; charset=utf-8",
       "capture_mode": "NORMALISED_PAGE_HASH",
       "captured_representation_complete": true
@@ -242,9 +242,9 @@
       "source_id": "SRC-PM-MEDIA",
       "jurisdiction_id": "AUS-FED",
       "party_id": null,
-      "content_hash": "795c752804be70667fb56217e5ef28bc2441ceec858c2b1b9d26c71e2355aa63",
-      "snapshot_id": "AUTO-WATCH-PM-MEDIA-20260930064410",
-      "captured_at": "2026-09-30T06:44:10.999Z",
+      "content_hash": "534805b416676dbded0989a464d15b72828855a47acf506f19678afab4256e23",
+      "snapshot_id": "AUTO-WATCH-PM-MEDIA-20260930235042",
+      "captured_at": "2026-09-30T23:50:42.921Z",
       "acquisition_url": "https://www.pm.gov.au/media",
       "requested_url": "https://www.pm.gov.au/media",
       "header_profile": "IDENTIFIED_AUTOMATION",
@@ -312,9 +312,9 @@
       "source_id": "SRC-QLD-MINISTERIAL-STATEMENTS",
       "jurisdiction_id": "AUS-QLD",
       "party_id": null,
-      "content_hash": "acfe95bbe8f7d5bc5c3bc7a8254c96602702d590bffb200639dfa717ed25179c",
-      "snapshot_id": "AUTO-WATCH-QLD-MINISTERIAL-STATEMENTS-20260930134434",
-      "captured_at": "2026-09-30T13:44:34.467Z",
+      "content_hash": "64d6d6a9b9437b55df2de5207a3a3189936fb88562438e8d9a9e18d0fdc1f758",
+      "snapshot_id": "AUTO-WATCH-QLD-MINISTERIAL-STATEMENTS-20260930235042",
+      "captured_at": "2026-09-30T23:50:42.921Z",
       "acquisition_url": "https://statements.qld.gov.au/",
       "requested_url": "https://statements.qld.gov.au/",
       "header_profile": "IDENTIFIED_AUTOMATION",
@@ -505,11 +505,11 @@
       "captured_representation_complete": true
     }
   },
-  "updated_at": "2026-09-30T19:21:31.211Z",
+  "updated_at": "2026-09-30T23:50:42.921Z",
   "last_run": {
-    "captured_at": "2026-09-30T19:21:31.211Z",
+    "captured_at": "2026-09-30T23:50:42.921Z",
     "baselines_created": 0,
-    "source_changes_created": 2,
+    "source_changes_created": 3,
     "semantic_signals_created": 0,
     "representation_upgrades": 0,
     "failures": [
@@ -526,8 +526,8 @@
         "error": "https://www.ecq.qld.gov.au/media/2026-media-statements [IDENTIFIED_AUTOMATION] 403 Forbidden | https://www.ecq.qld.gov.au/media/2026-media-statements [BROWSER_COMPATIBILITY] 403 Forbidden | https://www.ecq.qld.gov.au/home [IDENTIFIED_AUTOMATION] 403 Forbidden | https://www.ecq.qld.gov.au/home [BROWSER_COMPATIBILITY] 403 Forbidden"
       },
       {
-        "watch_id": "WATCH-SA-PARLIAMENT",
-        "error": "https://www.parliament.sa.gov.au/ [IDENTIFIED_AUTOMATION] timeout>15000ms | https://www.parliament.sa.gov.au/ [BROWSER_COMPATIBILITY] timeout>15000ms"
+        "watch_id": "WATCH-WA-GOV-MEDIA",
+        "error": "https://www.wa.gov.au/government/media-statements [IDENTIFIED_AUTOMATION] 403 Forbidden | https://www.wa.gov.au/government/media-statements [BROWSER_COMPATIBILITY] 403 Forbidden"
       },
       {
         "watch_id": "WATCH-TAS-PREMIER-NEWS",
@@ -613,17 +613,6 @@
       "AUS-WA": {
         "configured_sources": 3,
         "baseline_sources": 3,
-        "current_run_failures": 0,
-        "source_classes": [
-          "PRIMARY_ELECTORAL_AUTHORITY",
-          "PRIMARY_GOVERNMENT",
-          "PRIMARY_PARLIAMENT"
-        ],
-        "status": "CAPTURE_ACTIVE_FULL_CONFIGURED_BASELINE"
-      },
-      "AUS-SA": {
-        "configured_sources": 3,
-        "baseline_sources": 3,
         "current_run_failures": 1,
         "source_classes": [
           "PRIMARY_ELECTORAL_AUTHORITY",
@@ -631,6 +620,17 @@
           "PRIMARY_PARLIAMENT"
         ],
         "status": "CAPTURE_ACTIVE_DEGRADED_CURRENT_RUN"
+      },
+      "AUS-SA": {
+        "configured_sources": 3,
+        "baseline_sources": 3,
+        "current_run_failures": 0,
+        "source_classes": [
+          "PRIMARY_ELECTORAL_AUTHORITY",
+          "PRIMARY_GOVERNMENT",
+          "PRIMARY_PARLIAMENT"
+        ],
+        "status": "CAPTURE_ACTIVE_FULL_CONFIGURED_BASELINE"
       },
       "AUS-TAS": {
         "configured_sources": 3,

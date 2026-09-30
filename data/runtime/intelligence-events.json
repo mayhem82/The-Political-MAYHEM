@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-INTELLIGENCE-EVENTS-001",
   "scope": "Australia — multi-jurisdiction",
-  "captured_at": "2026-09-30T19:22:42.773Z",
+  "captured_at": "2026-09-30T23:52:01.746Z",
   "mode": "FORWARD_ONLY",
   "rules": {
     "observation_distinct_from_inference": true,
@@ -97235,6 +97235,430 @@
         }
       ],
       "publication_records_removed": [],
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "underlying_publication_claims_not_promoted_to_verified_fact": true,
+        "source_change_parent_retained": true,
+        "deterministic_review": true
+      }
+    },
+    {
+      "event_id": "CHG-WATCH-PM-MEDIA-20260930235042",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-FED",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-PM-MEDIA-20260930235042",
+      "captured_at": "2026-09-30T23:50:42.921Z",
+      "event_date": "2026-10-01",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-PM-MEDIA",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "review_policy": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-PM-MEDIA-20260930064410",
+        "content_hash": "795c752804be70667fb56217e5ef28bc2441ceec858c2b1b9d26c71e2355aa63",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-PM-MEDIA-20260930235042",
+        "content_hash": "534805b416676dbded0989a464d15b72828855a47acf506f19678afab4256e23",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "STRUCTURED_RECORD_SET",
+        "records_added": [
+          {
+            "record_id": "71b3c986a59ef70948fa",
+            "title": "Launch of Three Shocks",
+            "url": "https://www.pm.gov.au/media/launch-three-shocks"
+          }
+        ],
+        "records_removed": [
+          {
+            "record_id": "30dc4fb99b06b6d0049e",
+            "title": "Australia&#039;s place in the Indo-Pacific - 2026 Atlantic Council Global Citizen Awards - New York",
+            "url": "https://www.pm.gov.au/media/australias-place-indo-pacific-2026-atlantic-council-global-citizen-awards-new-york"
+          }
+        ],
+        "added_count": 1,
+        "removed_count": 1,
+        "before_count": 27,
+        "after_count": 27,
+        "delta_hash": "9228c778e0db707ebe05660400f5f89fc7496991e1bff1fef881e5602a0907e4"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-NSW-MINISTERIAL-RELEASES-20260930235042",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-NSW",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-NSW-MINISTERIAL-RELEASES-20260930235042",
+      "captured_at": "2026-09-30T23:50:42.921Z",
+      "event_date": "2026-10-01",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-NSW-MINISTERIAL-RELEASES",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "review_policy": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-NSW-MINISTERIAL-RELEASES-20260930064410",
+        "content_hash": "a03669c351d0a08150e16025b84f8c22b2f0bb5a4e737248bf3dc4aab194776c",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-NSW-MINISTERIAL-RELEASES-20260930235042",
+        "content_hash": "9081aa4bfe87d9f73b2f020af167e1547068101961bbc7b4c4d094e3dfa32dfc",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "STRUCTURED_RECORD_SET",
+        "records_added": [
+          {
+            "record_id": "0d77b4f336c1a33ba194",
+            "title": "Lung Bus rolls into south-west Sydney as new data reveals mobile screening is critical in early detection of deadly dust diseases in the workplace",
+            "url": "https://www.nsw.gov.au/ministerial-releases/lung-bus-rolls-into-south-west-sydney"
+          },
+          {
+            "record_id": "69a9c037dc7ec7937362",
+            "title": "First batch of illegal e-bikes crushed into scrap metal",
+            "url": "https://www.nsw.gov.au/ministerial-releases/first-batch-of-illegal-e-bikes-crushed-into-scrap-metal"
+          },
+          {
+            "record_id": "99c9df41832683b3f29e",
+            "title": "Minns Labor Government successfully returns Parklea Correctional Centre to public hands",
+            "url": "https://www.nsw.gov.au/ministerial-releases/minns-labor-government-successfully-returns-parklea-correctional-centre-to-public-hands"
+          },
+          {
+            "record_id": "b51654ab751bf35db6a7",
+            "title": "$6.95 million boost for New England and Northern Tablelands Active Regional Communities",
+            "url": "https://www.nsw.gov.au/ministerial-releases/new-england-and-northern-tablelands-active-regional-communities"
+          },
+          {
+            "record_id": "be1aa87e892b9ac45383",
+            "title": "Flood-impacted homeowners first in line for new East Lismore lots",
+            "url": "https://www.nsw.gov.au/ministerial-releases/flood-impacted-homeowners-first-line-for-new-east-lismore-lots"
+          },
+          {
+            "record_id": "ec68bdfd2adcd4e1a9f1",
+            "title": "Record number of women screened for breast cancer in the past year",
+            "url": "https://www.nsw.gov.au/ministerial-releases/record-number-of-women-screened-for-breast-cancer-past-year"
+          }
+        ],
+        "records_removed": [
+          {
+            "record_id": "51514fe5b7e881b3ccf0",
+            "title": "Digital licence shifts up a gear for Western Sydney and Blue Mountains drivers",
+            "url": "https://www.nsw.gov.au/ministerial-releases/digital-licence-shifts-up-a-gear-for-western-sydney-and-blue-mountains-drivers"
+          },
+          {
+            "record_id": "60ae95a61c1d9e525bdc",
+            "title": "More than $1.8 million for health facility upgrades across Central Coast",
+            "url": "https://www.nsw.gov.au/ministerial-releases/more-than-18-million-for-health-facility-upgrades-across-central-coast"
+          },
+          {
+            "record_id": "7522ed20475ab098dc70",
+            "title": "$590,000 for health facility upgrades across the Shoalhaven",
+            "url": "https://www.nsw.gov.au/ministerial-releases/funding-health-facility-upgrades-shoalhaven"
+          },
+          {
+            "record_id": "c7a331e7cd6af500319f",
+            "title": "Getting trucks off Stoney Creek Road and onto motorways",
+            "url": "https://www.nsw.gov.au/departments-and-agencies/nsw-motorways/nsw-motorways-news/getting-trucks-off-stoney-creek-road"
+          },
+          {
+            "record_id": "ec06c89bbc23097e1185",
+            "title": "More than $810,000 for upgrades at Queanbeyan Hospital",
+            "url": "https://www.nsw.gov.au/ministerial-releases/more-than-810000-for-upgrades-at-queanbeyan-hospital"
+          },
+          {
+            "record_id": "fc2839847392a2b13306",
+            "title": "$12 million for hospital upgrades across regional NSW",
+            "url": "https://www.nsw.gov.au/ministerial-releases/hospital-upgrades-across-regional-nsw"
+          }
+        ],
+        "added_count": 6,
+        "removed_count": 6,
+        "before_count": 88,
+        "after_count": 88,
+        "delta_hash": "44ff0c3528aeac39264bb01461727cc1275f3fbafb2953609e9b4a30a68a628c"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20260930235042",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-QLD",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-QLD-MINISTERIAL-STATEMENTS-20260930235042",
+      "captured_at": "2026-09-30T23:50:42.921Z",
+      "event_date": "2026-10-01",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-QLD-MINISTERIAL-STATEMENTS",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "review_policy": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-QLD-MINISTERIAL-STATEMENTS-20260930134434",
+        "content_hash": "acfe95bbe8f7d5bc5c3bc7a8254c96602702d590bffb200639dfa717ed25179c",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-QLD-MINISTERIAL-STATEMENTS-20260930235042",
+        "content_hash": "64d6d6a9b9437b55df2de5207a3a3189936fb88562438e8d9a9e18d0fdc1f758",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "STRUCTURED_RECORD_SET",
+        "records_added": [
+          {
+            "record_id": "e14fe11497b7dcd5daab",
+            "title": "Statement from the Minister for Youth Justice and Victim Support",
+            "url": "https://statements.qld.gov.au/statements/106166"
+          }
+        ],
+        "records_removed": [
+          {
+            "record_id": "e5c0268d5a4a42d863f6",
+            "title": "Copperstring becoming a reality in North Queensland",
+            "url": "https://statements.qld.gov.au/statements/106143"
+          }
+        ],
+        "added_count": 1,
+        "removed_count": 1,
+        "before_count": 16,
+        "after_count": 16,
+        "delta_hash": "5a3a9a332fd487dabdc86e51eba5d6349eaf34df761df28b8893b460763d623f"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "SIG-REV-CHG-WATCH-PM-MEDIA-20260930235042",
+      "parent_event_id": "CHG-WATCH-PM-MEDIA-20260930235042",
+      "review_id": "REV-CHG-WATCH-PM-MEDIA-20260930235042",
+      "jurisdiction_id": "AUS-FED",
+      "party_id": null,
+      "actor_id": null,
+      "contest_id": null,
+      "cycle_id": null,
+      "source_snapshot_id": "AUTO-WATCH-PM-MEDIA-20260930235042",
+      "record_id": "71b3c986a59ef70948fa",
+      "captured_at": "2026-09-30T23:51:49.475Z",
+      "event_date": "2026-10-01",
+      "checkpoint": "CONTINUOUS_FORWARD_SIGNAL_REVIEW",
+      "event_type": "SIGNAL_CREATED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-PM-MEDIA",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "claim": "Prime Minister of Australia — media added 1 structured publication record to its forward-captured official index: Launch of Three Shocks",
+      "observed_behaviour": "One or more structured publication records appeared in the monitored official source index after the preceding forward snapshot.",
+      "publication_records_added": [
+        {
+          "record_id": "71b3c986a59ef70948fa",
+          "title": "Launch of Three Shocks",
+          "url": "https://www.pm.gov.au/media/launch-three-shocks"
+        }
+      ],
+      "publication_records_removed": [
+        {
+          "record_id": "30dc4fb99b06b6d0049e",
+          "title": "Australia&#039;s place in the Indo-Pacific - 2026 Atlantic Council Global Citizen Awards - New York",
+          "url": "https://www.pm.gov.au/media/australias-place-indo-pacific-2026-atlantic-council-global-citizen-awards-new-york"
+        }
+      ],
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "underlying_publication_claims_not_promoted_to_verified_fact": true,
+        "source_change_parent_retained": true,
+        "deterministic_review": true
+      }
+    },
+    {
+      "event_id": "SIG-REV-CHG-WATCH-NSW-MINISTERIAL-RELEASES-20260930235042",
+      "parent_event_id": "CHG-WATCH-NSW-MINISTERIAL-RELEASES-20260930235042",
+      "review_id": "REV-CHG-WATCH-NSW-MINISTERIAL-RELEASES-20260930235042",
+      "jurisdiction_id": "AUS-NSW",
+      "party_id": null,
+      "actor_id": null,
+      "contest_id": null,
+      "cycle_id": null,
+      "source_snapshot_id": "AUTO-WATCH-NSW-MINISTERIAL-RELEASES-20260930235042",
+      "record_id": null,
+      "captured_at": "2026-09-30T23:51:49.475Z",
+      "event_date": "2026-10-01",
+      "checkpoint": "CONTINUOUS_FORWARD_SIGNAL_REVIEW",
+      "event_type": "SIGNAL_CREATED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-NSW-MINISTERIAL-RELEASES",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "claim": "NSW Government — Ministerial releases added 6 structured publication records to its forward-captured official index: Lung Bus rolls into south-west Sydney as new data reveals mobile screening is critical in early detection of deadly dust diseases in the workplace; First batch of illegal e-bikes crushed into scrap metal; Minns Labor Government successfully returns Parklea Correctional Centre to public hands; $6.95 million boost for New England and Northern Tablelands Active Regional Communities; Flood-impacted homeowners first in line for new East Lismore lots; +1 more",
+      "observed_behaviour": "One or more structured publication records appeared in the monitored official source index after the preceding forward snapshot.",
+      "publication_records_added": [
+        {
+          "record_id": "0d77b4f336c1a33ba194",
+          "title": "Lung Bus rolls into south-west Sydney as new data reveals mobile screening is critical in early detection of deadly dust diseases in the workplace",
+          "url": "https://www.nsw.gov.au/ministerial-releases/lung-bus-rolls-into-south-west-sydney"
+        },
+        {
+          "record_id": "69a9c037dc7ec7937362",
+          "title": "First batch of illegal e-bikes crushed into scrap metal",
+          "url": "https://www.nsw.gov.au/ministerial-releases/first-batch-of-illegal-e-bikes-crushed-into-scrap-metal"
+        },
+        {
+          "record_id": "99c9df41832683b3f29e",
+          "title": "Minns Labor Government successfully returns Parklea Correctional Centre to public hands",
+          "url": "https://www.nsw.gov.au/ministerial-releases/minns-labor-government-successfully-returns-parklea-correctional-centre-to-public-hands"
+        },
+        {
+          "record_id": "b51654ab751bf35db6a7",
+          "title": "$6.95 million boost for New England and Northern Tablelands Active Regional Communities",
+          "url": "https://www.nsw.gov.au/ministerial-releases/new-england-and-northern-tablelands-active-regional-communities"
+        },
+        {
+          "record_id": "be1aa87e892b9ac45383",
+          "title": "Flood-impacted homeowners first in line for new East Lismore lots",
+          "url": "https://www.nsw.gov.au/ministerial-releases/flood-impacted-homeowners-first-line-for-new-east-lismore-lots"
+        },
+        {
+          "record_id": "ec68bdfd2adcd4e1a9f1",
+          "title": "Record number of women screened for breast cancer in the past year",
+          "url": "https://www.nsw.gov.au/ministerial-releases/record-number-of-women-screened-for-breast-cancer-past-year"
+        }
+      ],
+      "publication_records_removed": [
+        {
+          "record_id": "51514fe5b7e881b3ccf0",
+          "title": "Digital licence shifts up a gear for Western Sydney and Blue Mountains drivers",
+          "url": "https://www.nsw.gov.au/ministerial-releases/digital-licence-shifts-up-a-gear-for-western-sydney-and-blue-mountains-drivers"
+        },
+        {
+          "record_id": "60ae95a61c1d9e525bdc",
+          "title": "More than $1.8 million for health facility upgrades across Central Coast",
+          "url": "https://www.nsw.gov.au/ministerial-releases/more-than-18-million-for-health-facility-upgrades-across-central-coast"
+        },
+        {
+          "record_id": "7522ed20475ab098dc70",
+          "title": "$590,000 for health facility upgrades across the Shoalhaven",
+          "url": "https://www.nsw.gov.au/ministerial-releases/funding-health-facility-upgrades-shoalhaven"
+        },
+        {
+          "record_id": "c7a331e7cd6af500319f",
+          "title": "Getting trucks off Stoney Creek Road and onto motorways",
+          "url": "https://www.nsw.gov.au/departments-and-agencies/nsw-motorways/nsw-motorways-news/getting-trucks-off-stoney-creek-road"
+        },
+        {
+          "record_id": "ec06c89bbc23097e1185",
+          "title": "More than $810,000 for upgrades at Queanbeyan Hospital",
+          "url": "https://www.nsw.gov.au/ministerial-releases/more-than-810000-for-upgrades-at-queanbeyan-hospital"
+        },
+        {
+          "record_id": "fc2839847392a2b13306",
+          "title": "$12 million for hospital upgrades across regional NSW",
+          "url": "https://www.nsw.gov.au/ministerial-releases/hospital-upgrades-across-regional-nsw"
+        }
+      ],
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "underlying_publication_claims_not_promoted_to_verified_fact": true,
+        "source_change_parent_retained": true,
+        "deterministic_review": true
+      }
+    },
+    {
+      "event_id": "SIG-REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20260930235042",
+      "parent_event_id": "CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20260930235042",
+      "review_id": "REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20260930235042",
+      "jurisdiction_id": "AUS-QLD",
+      "party_id": null,
+      "actor_id": null,
+      "contest_id": null,
+      "cycle_id": null,
+      "source_snapshot_id": "AUTO-WATCH-QLD-MINISTERIAL-STATEMENTS-20260930235042",
+      "record_id": "e14fe11497b7dcd5daab",
+      "captured_at": "2026-09-30T23:51:49.475Z",
+      "event_date": "2026-10-01",
+      "checkpoint": "CONTINUOUS_FORWARD_SIGNAL_REVIEW",
+      "event_type": "SIGNAL_CREATED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-QLD-MINISTERIAL-STATEMENTS",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "claim": "Queensland Government — Ministerial Media Statements added 1 structured publication record to its forward-captured official index: Statement from the Minister for Youth Justice and Victim Support",
+      "observed_behaviour": "One or more structured publication records appeared in the monitored official source index after the preceding forward snapshot.",
+      "publication_records_added": [
+        {
+          "record_id": "e14fe11497b7dcd5daab",
+          "title": "Statement from the Minister for Youth Justice and Victim Support",
+          "url": "https://statements.qld.gov.au/statements/106166"
+        }
+      ],
+      "publication_records_removed": [
+        {
+          "record_id": "e5c0268d5a4a42d863f6",
+          "title": "Copperstring becoming a reality in North Queensland",
+          "url": "https://statements.qld.gov.au/statements/106143"
+        }
+      ],
       "inference": null,
       "inference_class": "NONE",
       "projection_effect": "NO_EFFECT",

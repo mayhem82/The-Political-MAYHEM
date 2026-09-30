@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-SIGNAL-REVIEWS-001",
   "created_at": "2026-09-09T05:05:00+10:00",
-  "updated_at": "2026-09-29T20:48:26.586Z",
+  "updated_at": "2026-09-30T00:29:01.994Z",
   "rules": {
     "append_only": true,
     "raw_source_change_is_immutable": true,
@@ -34596,6 +34596,46 @@
         ],
         "removed_records": [],
         "delta_hash": "54ee66c0ee921a6cb8de8523a7389dca4fc0891f94e25a0a1ea34754971f5c74"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20260930002805",
+      "source_change_event_id": "CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20260930002805",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20260930002805",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Queensland Government — Ministerial Media Statements added 1 structured publication record to its forward-captured official index: Caloundra Congestion Busting Plan kicks off",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-09-30T00:29:01.994Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "d24e4acb3bf0f69010c3",
+            "title": "Caloundra Congestion Busting Plan kicks off",
+            "url": "https://statements.qld.gov.au/statements/106155"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "134834ec088a736fcf71",
+            "title": "Delivering better roads for Queensland's beef country",
+            "url": "https://statements.qld.gov.au/statements/106126"
+          }
+        ],
+        "delta_hash": "f2d1be14e34697c25657a848dc30d1e30d28d1449de21a115cbba8b74b0a211f"
       },
       "integrity": {
         "source_change_unchanged": true,

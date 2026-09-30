@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-SIGNAL-REVIEWS-001",
   "created_at": "2026-09-09T05:05:00+10:00",
-  "updated_at": "2026-09-30T00:29:01.994Z",
+  "updated_at": "2026-09-30T06:44:45.356Z",
   "rules": {
     "append_only": true,
     "raw_source_change_is_immutable": true,
@@ -34636,6 +34636,309 @@
           }
         ],
         "delta_hash": "f2d1be14e34697c25657a848dc30d1e30d28d1449de21a115cbba8b74b0a211f"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-PM-MEDIA-20260930064410",
+      "source_change_event_id": "CHG-WATCH-PM-MEDIA-20260930064410",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-PM-MEDIA-20260930064410",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Prime Minister of Australia — media added 2 structured publication records to its forward-captured official index: Press conference - Footscray; Melbourne Airport Rail Stage 2 set for take-off",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-09-30T06:44:45.356Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "9bf27f255bd60d8f73c3",
+            "title": "Press conference - Footscray",
+            "url": "https://www.pm.gov.au/media/press-conference-footscray"
+          },
+          {
+            "record_id": "f43d478399a85e9f00e2",
+            "title": "Melbourne Airport Rail Stage 2 set for take-off",
+            "url": "https://www.pm.gov.au/media/melbourne-airport-rail-stage-2-set-take"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "c8a9903d5ef309c38cde",
+            "title": "Remarks, Australia-Ukraine meeting",
+            "url": "https://www.pm.gov.au/media/remarks-australia-ukraine-meeting"
+          },
+          {
+            "record_id": "e8fa4013afeb0bee5cb8",
+            "title": "Press conference - New York",
+            "url": "https://www.pm.gov.au/media/press-conference-new-york"
+          }
+        ],
+        "delta_hash": "1029404191af0d98012616610141a5fe49dff6b093c53f0e62cc639d7fb2337f"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-GREENS-FEDERAL-MEDIA-20260930064410",
+      "source_change_event_id": "CHG-WATCH-GREENS-FEDERAL-MEDIA-20260930064410",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-GREENS-FEDERAL-MEDIA-20260930064410",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": "AUS-FED-GRN",
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Australian Greens — Federal MPs media releases added 4 structured publication records to its forward-captured official index: Locked out: the growing housing divide; Read more about Locked out: the growing housing divide; Read more about David Shoebridge and Steph Hodgins-May to lead Greens in fight against corporate greed; David Shoebridge and Steph Hodgins-May to lead Greens in fight against corporate greed",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-09-30T06:44:45.356Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "13480b030108164d8b6c",
+            "title": "Locked out: the growing housing divide",
+            "url": "https://greens.org.au/news/media-release/locked-out-growing-housing-divide"
+          },
+          {
+            "record_id": "3aa7daa77ac62044f5ee",
+            "title": "Read more about Locked out: the growing housing divide",
+            "url": "https://greens.org.au/news/media-release/locked-out-growing-housing-divide"
+          },
+          {
+            "record_id": "654141913bdd13443ed5",
+            "title": "Read more about David Shoebridge and Steph Hodgins-May to lead Greens in fight against corporate greed",
+            "url": "https://greens.org.au/news/media-release/david-shoebridge-and-steph-hodgins-may-lead-greens-fight-against-corporate-greed"
+          },
+          {
+            "record_id": "bab2a8a75f3240e733e0",
+            "title": "David Shoebridge and Steph Hodgins-May to lead Greens in fight against corporate greed",
+            "url": "https://greens.org.au/news/media-release/david-shoebridge-and-steph-hodgins-may-lead-greens-fight-against-corporate-greed"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "44f20442bea17e96f43b",
+            "title": "Read more about International students political footballs once again as Labor panders to One Nation",
+            "url": "https://greens.org.au/news/media-release/international-students-political-footballs-once-again-labor-panders-one-nation"
+          },
+          {
+            "record_id": "921b022dfa118591ff41",
+            "title": "International students political footballs once again as Labor panders to One Nation",
+            "url": "https://greens.org.au/news/media-release/international-students-political-footballs-once-again-labor-panders-one-nation"
+          },
+          {
+            "record_id": "a1cc558f766354427c82",
+            "title": "Read more about Labor Tinkers Around the Edges of Broken Aged Care Assessment Tool",
+            "url": "https://greens.org.au/news/media-release/labor-tinkers-around-edges-broken-aged-care-assessment-tool"
+          },
+          {
+            "record_id": "ea562c8ae40cc6415506",
+            "title": "Labor Tinkers Around the Edges of Broken Aged Care Assessment Tool",
+            "url": "https://greens.org.au/news/media-release/labor-tinkers-around-edges-broken-aged-care-assessment-tool"
+          }
+        ],
+        "delta_hash": "8be7cbebf3b025d69f0957bbbe08b2840813a6bfdc8f493532850b4eb161b7ca"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-NSW-MINISTERIAL-RELEASES-20260930064410",
+      "source_change_event_id": "CHG-WATCH-NSW-MINISTERIAL-RELEASES-20260930064410",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-NSW-MINISTERIAL-RELEASES-20260930064410",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "NSW Government — Ministerial releases added 10 structured publication records to its forward-captured official index: Life-sustaining therapy now available in Murrumbidgee Local Health District; Digital licence shifts up a gear for Western Sydney and Blue Mountains drivers; Day-trippers spend record $16.2 billion as short escapes surge; More than $1.8 million for health facility upgrades across Central Coast; $590,000 for health facility upgrades across the Shoalhaven; +5 more",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-09-30T06:44:45.356Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "3130bf9c966081467684",
+            "title": "Life-sustaining therapy now available in Murrumbidgee Local Health District",
+            "url": "https://www.nsw.gov.au/ministerial-releases/life-sustaining-therapy-now-available-murrumbidgee-local-health-district"
+          },
+          {
+            "record_id": "51514fe5b7e881b3ccf0",
+            "title": "Digital licence shifts up a gear for Western Sydney and Blue Mountains drivers",
+            "url": "https://www.nsw.gov.au/ministerial-releases/digital-licence-shifts-up-a-gear-for-western-sydney-and-blue-mountains-drivers"
+          },
+          {
+            "record_id": "5ca2bb1ff4241fe2643a",
+            "title": "Day-trippers spend record $16.2 billion as short escapes surge",
+            "url": "https://www.nsw.gov.au/departments-and-agencies/dciths/ministerial-media-releases/day-trippers-spend-record-162-billion-as-short-escapes-surge"
+          },
+          {
+            "record_id": "60ae95a61c1d9e525bdc",
+            "title": "More than $1.8 million for health facility upgrades across Central Coast",
+            "url": "https://www.nsw.gov.au/ministerial-releases/more-than-18-million-for-health-facility-upgrades-across-central-coast"
+          },
+          {
+            "record_id": "7522ed20475ab098dc70",
+            "title": "$590,000 for health facility upgrades across the Shoalhaven",
+            "url": "https://www.nsw.gov.au/ministerial-releases/funding-health-facility-upgrades-shoalhaven"
+          },
+          {
+            "record_id": "9dd29a900596030cda90",
+            "title": "More than $1.7 million for health facility upgrades across Mid North Coast and Northern NSW",
+            "url": "https://www.nsw.gov.au/ministerial-releases/more-than-17-million-for-health-facility-upgrades-across-mid-north-coast-and-northern-nsw"
+          },
+          {
+            "record_id": "c7a331e7cd6af500319f",
+            "title": "Getting trucks off Stoney Creek Road and onto motorways",
+            "url": "https://www.nsw.gov.au/departments-and-agencies/nsw-motorways/nsw-motorways-news/getting-trucks-off-stoney-creek-road"
+          },
+          {
+            "record_id": "d41359117af8113d4ef4",
+            "title": "Nearly $3.4 million for health facility upgrades across Murrumbidgee",
+            "url": "https://www.nsw.gov.au/ministerial-releases/nearly-34-million-for-health-facility-upgrades-across-murrumbidgee"
+          },
+          {
+            "record_id": "ec06c89bbc23097e1185",
+            "title": "More than $810,000 for upgrades at Queanbeyan Hospital",
+            "url": "https://www.nsw.gov.au/ministerial-releases/more-than-810000-for-upgrades-at-queanbeyan-hospital"
+          },
+          {
+            "record_id": "fc2839847392a2b13306",
+            "title": "$12 million for hospital upgrades across regional NSW",
+            "url": "https://www.nsw.gov.au/ministerial-releases/hospital-upgrades-across-regional-nsw"
+          }
+        ],
+        "removed_records": [],
+        "delta_hash": "ab667f35a7544d2df2adc20e96baa9dcdc5fb484e23d6829f4873d6e4445e3d7"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-NSWEC-MEDIA-20260930064410",
+      "source_change_event_id": "CHG-WATCH-NSWEC-MEDIA-20260930064410",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-NSWEC-MEDIA-20260930064410",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "NSW Electoral Commission — news and media releases added 1 structured publication record to its forward-captured official index: 7-day pre-election donation disclosure requirement starts 1 October ahead of the 2027 NSW State election arrow_forward 30 Sep 2026 7-day pre-election donation disclosure requirement starts 1 October ahead of the 2027 NSW State election",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-09-30T06:44:45.356Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "f717b69a5734c54a7639",
+            "title": "7-day pre-election donation disclosure requirement starts 1 October ahead of the 2027 NSW State election arrow_forward 30 Sep 2026 7-day pre-election donation disclosure requirement starts 1 October ahead of the 2027 NSW State election",
+            "url": "https://elections.nsw.gov.au/about-us/media-centre/news-and-media-releases/7-day-pre-election-donation-disclosure-requirement-starts-1-october"
+          }
+        ],
+        "removed_records": [],
+        "delta_hash": "69d12a4ffe81ebf1d0b74ffa18f3d835c75185975f9208e051e44389f3298580"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20260930064410",
+      "source_change_event_id": "CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20260930064410",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20260930064410",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Queensland Government — Ministerial Media Statements added 4 structured publication records to its forward-captured official index: Queensland demands safeguards from Canberra for gas reservation; Queensland puts AI to work with $750,000 manufacturing investment; Central Queensland water users invited to help shape region’s water future; Queensland visitor economy powers ahead of Destination 2045 projections",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-09-30T06:44:45.356Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "26c93002900c677027cf",
+            "title": "Queensland demands safeguards from Canberra for gas reservation",
+            "url": "https://statements.qld.gov.au/statements/106149"
+          },
+          {
+            "record_id": "8690db73f42cc13cba8a",
+            "title": "Queensland puts AI to work with $750,000 manufacturing investment",
+            "url": "https://statements.qld.gov.au/statements/106150"
+          },
+          {
+            "record_id": "8ca269f4c3c69b08e0da",
+            "title": "Central Queensland water users invited to help shape region’s water future",
+            "url": "https://statements.qld.gov.au/statements/106148"
+          },
+          {
+            "record_id": "d2c91f084049f416603e",
+            "title": "Queensland visitor economy powers ahead of Destination 2045 projections",
+            "url": "https://statements.qld.gov.au/statements/106146"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "17296ea0aac167350864",
+            "title": "State Flying Squad cracks 200-deployment milestone",
+            "url": "https://statements.qld.gov.au/statements/106136"
+          },
+          {
+            "record_id": "73b1c34cc1083e03ace5",
+            "title": "Fix for Toowoomba crash hotspot",
+            "url": "https://statements.qld.gov.au/statements/106137"
+          },
+          {
+            "record_id": "aee1a4954be7b26f68b7",
+            "title": "Delivering upgraded amenities for Mundingburra",
+            "url": "https://statements.qld.gov.au/statements/106134"
+          },
+          {
+            "record_id": "ed2b7479345eb6c620f1",
+            "title": "Applications open for next round of Active Transport Grants",
+            "url": "https://statements.qld.gov.au/statements/106133"
+          }
+        ],
+        "delta_hash": "4088117b4a802427559fd9f19972e8c3ac3985dd48f2fe99d840b503b639c970"
       },
       "integrity": {
         "source_change_unchanged": true,

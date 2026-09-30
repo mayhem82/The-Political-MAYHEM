@@ -69,63 +69,63 @@
     {
       "jurisdiction_id": "AUS-FED",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-30T00:29:12.193Z",
-      "signals_examined": 205,
+      "last_screened_at": "2026-09-30T06:44:58.092Z",
+      "signals_examined": 207,
       "candidates_detected": 90
     },
     {
       "jurisdiction_id": "AUS-NSW",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-30T00:29:12.193Z",
-      "signals_examined": 78,
-      "candidates_detected": 15
+      "last_screened_at": "2026-09-30T06:44:58.092Z",
+      "signals_examined": 81,
+      "candidates_detected": 17
     },
     {
       "jurisdiction_id": "AUS-VIC",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-30T00:29:12.193Z",
+      "last_screened_at": "2026-09-30T06:44:58.092Z",
       "signals_examined": 22,
       "candidates_detected": 6
     },
     {
       "jurisdiction_id": "AUS-QLD",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-30T00:29:12.193Z",
-      "signals_examined": 45,
+      "last_screened_at": "2026-09-30T06:44:58.092Z",
+      "signals_examined": 46,
       "candidates_detected": 45
     },
     {
       "jurisdiction_id": "AUS-WA",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-30T00:29:12.193Z",
+      "last_screened_at": "2026-09-30T06:44:58.092Z",
       "signals_examined": 4,
       "candidates_detected": 2
     },
     {
       "jurisdiction_id": "AUS-SA",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-30T00:29:12.193Z",
+      "last_screened_at": "2026-09-30T06:44:58.092Z",
       "signals_examined": 2,
       "candidates_detected": 0
     },
     {
       "jurisdiction_id": "AUS-TAS",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-30T00:29:12.193Z",
+      "last_screened_at": "2026-09-30T06:44:58.092Z",
       "signals_examined": 21,
       "candidates_detected": 0
     },
     {
       "jurisdiction_id": "AUS-ACT",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-30T00:29:12.193Z",
+      "last_screened_at": "2026-09-30T06:44:58.092Z",
       "signals_examined": 24,
       "candidates_detected": 1
     },
     {
       "jurisdiction_id": "AUS-NT",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-09-30T00:29:12.193Z",
+      "last_screened_at": "2026-09-30T06:44:58.092Z",
       "signals_examined": 31,
       "candidates_detected": 0
     }
@@ -6585,21 +6585,93 @@
           "reason": "SUBSTANTIVE_THRESHOLD_EVALUATION_PROPAGATED"
         }
       ]
+    },
+    {
+      "candidate_id": "DISC-NSW-ELECTION-7f170b6426335b44",
+      "jurisdiction_id": "AUS-NSW",
+      "competition_family": "ELECTION",
+      "proposed_competition_class": "ELECTORAL",
+      "proposed_cycle_id": null,
+      "subject": "7-day pre-election donation disclosure requirement starts 1 October ahead of the 2027 NSW State election arrow_forward 30 Sep 2026 7-day pre-election donation disclosure requirement starts 1 October ahead of the 2027 NSW State election",
+      "candidate_state": "REVIEW_REQUIRED",
+      "detected_at": "2026-09-30T06:44:45.356Z",
+      "source_snapshot_ids": [
+        "AUTO-WATCH-NSWEC-MEDIA-20260930064410"
+      ],
+      "signal_event_ids": [
+        "SIG-REV-CHG-WATCH-NSWEC-MEDIA-20260930064410"
+      ],
+      "review_ids": [
+        "REV-CHG-WATCH-NSWEC-MEDIA-20260930064410"
+      ],
+      "area_evidence_ids": [],
+      "detail_version_ids": [],
+      "evidence_summary": "Screened PRIMARY_ELECTORAL_AUTHORITY evidence contains language consistent with a election competition candidate. This is a discovery observation, not a registered contest or outcome inference.",
+      "registration_blockers": [
+        "DISTINCT_ELECTORAL_CONTEST_SCOPE_REQUIRES_REVIEW",
+        "REGISTERED_COMPATIBLE_CYCLE_REQUIRED"
+      ],
+      "linked_contest_id": null,
+      "state_history": [
+        {
+          "from": null,
+          "to": "REVIEW_REQUIRED",
+          "at": "2026-09-30T06:44:45.356Z",
+          "reason": "DETERMINISTIC_COMPETITION_FAMILY_SCREEN"
+        }
+      ]
+    },
+    {
+      "candidate_id": "DISC-NSW-ELECTION-17166d4296ba7f22",
+      "jurisdiction_id": "AUS-NSW",
+      "competition_family": "ELECTION",
+      "proposed_competition_class": "ELECTORAL",
+      "proposed_cycle_id": null,
+      "subject": "Ingested substantive electoral evidence from 7-day pre-election donation disclosure requirement starts 1 October ahead of the 2027 NSW State election. Captured content includes outcome language: elected. Registration threshold state: evidence gap. Missing requirements: missing fact type stage, missi",
+      "candidate_state": "EVIDENCE_GAP",
+      "detected_at": "2026-09-30T06:44:57.697Z",
+      "source_snapshot_ids": [
+        "AUTO-WATCH-NSWEC-MEDIA-20260930064410"
+      ],
+      "signal_event_ids": [
+        "INTEL-AREA-e35a83239dd15ef2a7f72058"
+      ],
+      "review_ids": [],
+      "area_evidence_ids": [
+        "AREA-e35a83239dd15ef2a7f72058"
+      ],
+      "detail_version_ids": [
+        "DETAIL-3a53f1fa2f671771a6330ec3-V1"
+      ],
+      "evidence_summary": "Substantive source record body was acquired, routed to ELECTORAL, and written into intelligence with retained detail, source-snapshot and stage-10 threshold lineage. Match registration remains a separate action.",
+      "registration_blockers": [
+        "MISSING_CONDITION_RESOLVED_PARTICIPANT_OR_TEAM",
+        "MISSING_FACT_TYPE_STAGE"
+      ],
+      "linked_contest_id": null,
+      "state_history": [
+        {
+          "from": null,
+          "to": "EVIDENCE_GAP",
+          "at": "2026-09-30T06:44:57.697Z",
+          "reason": "SUBSTANTIVE_THRESHOLD_EVALUATION_PROPAGATED"
+        }
+      ]
     }
   ],
-  "last_screened_at": "2026-09-30T00:29:12.193Z",
+  "last_screened_at": "2026-09-30T06:44:58.092Z",
   "last_screen_summary": {
-    "signals_examined": 432,
-    "candidates_total": 159,
-    "candidates_added": 0,
+    "signals_examined": 438,
+    "candidates_total": 161,
+    "candidates_added": 2,
     "candidate_lineage_merges": 353,
-    "substantive_area_events_examined": 113,
+    "substantive_area_events_examined": 114,
     "threshold_state_transitions": 0,
     "registered_contests_unchanged": true
   },
-  "last_duplicate_reconciliation_at": "2026-09-30T00:29:12.310Z",
+  "last_duplicate_reconciliation_at": "2026-09-30T06:44:58.175Z",
   "last_duplicate_reconciliation": {
     "rejected": 0,
-    "active_area_family_keys": 112
+    "active_area_family_keys": 113
   }
 }

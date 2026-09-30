@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-INTELLIGENCE-EVENTS-001",
   "scope": "Australia — multi-jurisdiction",
-  "captured_at": "2026-09-30T00:29:11.784Z",
+  "captured_at": "2026-09-30T06:44:57.697Z",
   "mode": "FORWARD_ONLY",
   "rules": {
     "observation_distinct_from_inference": true,
@@ -95883,6 +95883,884 @@
         "underlying_publication_claims_not_promoted_to_verified_fact": true,
         "source_change_parent_retained": true,
         "deterministic_review": true
+      }
+    },
+    {
+      "event_id": "CHG-WATCH-PM-MEDIA-20260930064410",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-FED",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-PM-MEDIA-20260930064410",
+      "captured_at": "2026-09-30T06:44:10.999Z",
+      "event_date": "2026-09-30",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-PM-MEDIA",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "review_policy": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-PM-MEDIA-20260929083141",
+        "content_hash": "ba4384924279e137d167542b8527a66906e143aa8a5553bd4b42ba6c31db1358",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-PM-MEDIA-20260930064410",
+        "content_hash": "795c752804be70667fb56217e5ef28bc2441ceec858c2b1b9d26c71e2355aa63",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "STRUCTURED_RECORD_SET",
+        "records_added": [
+          {
+            "record_id": "9bf27f255bd60d8f73c3",
+            "title": "Press conference - Footscray",
+            "url": "https://www.pm.gov.au/media/press-conference-footscray"
+          },
+          {
+            "record_id": "f43d478399a85e9f00e2",
+            "title": "Melbourne Airport Rail Stage 2 set for take-off",
+            "url": "https://www.pm.gov.au/media/melbourne-airport-rail-stage-2-set-take"
+          }
+        ],
+        "records_removed": [
+          {
+            "record_id": "c8a9903d5ef309c38cde",
+            "title": "Remarks, Australia-Ukraine meeting",
+            "url": "https://www.pm.gov.au/media/remarks-australia-ukraine-meeting"
+          },
+          {
+            "record_id": "e8fa4013afeb0bee5cb8",
+            "title": "Press conference - New York",
+            "url": "https://www.pm.gov.au/media/press-conference-new-york"
+          }
+        ],
+        "added_count": 2,
+        "removed_count": 2,
+        "before_count": 27,
+        "after_count": 27,
+        "delta_hash": "1029404191af0d98012616610141a5fe49dff6b093c53f0e62cc639d7fb2337f"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-LIBERAL-HOME-20260930064410",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-FED",
+      "party_id": "AUS-FED-LIB",
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-LIBERAL-HOME-20260930064410",
+      "captured_at": "2026-09-30T06:44:10.999Z",
+      "event_date": "2026-09-30",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_PARTY",
+      "source_id": "SRC-LIBERAL-FEDERAL-HOME",
+      "capture_mode": "NORMALISED_PAGE_HASH",
+      "review_policy": "REVIEW_UNSTRUCTURED_CHANGE",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-LIBERAL-HOME-20260929083141",
+        "content_hash": "9f7304b2b29f88a8392d8b9855c3eb5cc17685bf7c0107c9efc0966e03d5627a",
+        "capture_mode": "NORMALISED_PAGE_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-LIBERAL-HOME-20260930064410",
+        "content_hash": "040da75faa85fd78b725a0b498a1c52d6bdbe677d737c51a87a89f87088937cc",
+        "capture_mode": "NORMALISED_PAGE_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "TEXT_REPRESENTATION",
+        "first_difference_offset": 1420,
+        "before_length": 6097,
+        "after_length": 6782,
+        "before_excerpt": "er of the Opposition in the Senate Meet the Liberal Team The Latest Stay up to date with the Liberal Party of Australia angustaylormp On National Police Remembrance Day, to all our police officers we thank you for your service, your courage and your commitment to keeping Australians safe. With honour they serve. With honour, we remember those who gave their lives in that service. Sep 29 Open post by angustaylormp with ID 18117378065057887 liberalaus Labor’s lost control of its spending and they’re blaming everyone else for what they’ve done. The Liberals and Nationals have a plan that will get government spending under control. Sep 28 Open post by liberalaus with ID 18631493374003849 angustaylormp Labor has broken the economy. They can’t stop spending and Australians are being made to pay for it. With our plan, we will get spending under control. We will fix our economy. Sep 28 Open post by angustaylormp with ID 17976175542129717 senatorhume Labor’s reckless spending has consequences and Australians are paying the price. Sep 28 Open post by senatorhume with ID 17948877513271823 liberalaus Because Labor can’t control its spending, the Reserve Bank has been forced to increase interest rates 3 times already this year. Sep 28 Open post by liberalaus with ID 17942181561090622 angustaylormp Australians have to manage their budgets, why can’t Labor do the same? Our plan will fix the economy and protect our way of life. Sep 28 Open post by angustaylormp with ID 18130853203773581 liberalaus For Australians to have the means to live, government must live within its means. Sep 28 Open post by liberalaus with ID 18155991928506227 liberalaus Under Labor, spending as a share of the economy is the highest in 40 years, outside the pandemic. Labor`s choices, not bad luck, drive rates up. And you pay the price. Sep 28 Open post by liberalaus with ID 18112700012586784 senatorhume Australians deserve cheaper. That’s what the Coalition will deliver. Sep 27 Open post by senatorhume with ID 18092596142653742 angustaylormp Anthony Albanese has broken the economy. It has consequences for Australians. We must fix it. Sep 27 Open post by angustaylormp with ID 18108175160058656 senatorhume Our Fuel Price Shield would automatically cut the tax on fuel by around 27 cents a litre when global oil prices stay too high for too long. Sep 26 Open post by senatorhume with ID 18065711288782486 liberalaus The Liberals and Nationals have a Plan for cheaper power. Read more about our plan at the link in bio. Sep 26 Open post by liberalaus with ID 18112291784040231 liberalaus Scrapping Labor’s Net Zero policies will deliver cheaper, reliable and abundant energy. Sep 25 Open post by liberalaus with ID 18114108155095557 angustaylormp As you fill up this weekend, we have a plan to save you 27c a litre. This could be done right now. We need a Government that will put Australians first. Sep 25 Open post by angustaylormp with ID 18028636157907560 angustaylormp Halving the fuel excise should be the first thing the Prime Minister does when he gets off the plane. It should have happened a week ago. Sep 25 Open post by angustaylormp with ID 18217406428349642 senatorhume This week the PM got to hang out with celebrities while Australians were told we’ll be poorer in the future, interest rates could rise again, and more Australians are out of work. Priorities. Sep 25 Open post by senatorhume with ID 18104805050095657 liberalaus Labor has no plan to reduce its more than $1 trillion debt, and Australians will continue to pay the price as higher interest rates hit. The Liberals and Nationals will establish a Future Generations Fund to pay down Labor’s debt, and we will stop spending faster than the economy is growing. Disciplined budgets are how we will keep taxes low, pays down debt and protects the economy against shocks. Sep 25 Open post by liberalaus with ID 18113861354005092 angustaylormp This has not aged well. Come on Prime Minister, put Australians first. Halve the fuel tax! Sep 25 Open post by angustaylormp with ID 18138010813618776 We need your support to win! Help us by making a donation today. 🙏🏼 $30 👏🏼 $60 😃 $120 😁 $500 😲 $1,000 🥹 $2,000 ",
+        "after_excerpt": "er of the Opposition in the Senate Meet the Liberal Team The Latest Stay up to date with the Liberal Party of Australia liberalaus Under Labor, Australians pay more. Sep 29 Open post by liberalaus with ID 18025873622699624 liberalaus Labor blames global events. But you can`t be unlucky 16 times. While families have tightened their belts, Anthony Albanese hasn’t. Under Labor, spending as a share of the economy is the highest in 40 years, outside the pandemic. That fuels inflation, which is higher than any major advanced economy. Sep 29 Open post by liberalaus with ID 18356779057222570 liberalaus Labor’s record spending means higher inflation, putting upward pressure interest rates. The Liberals and Nationals will put a speed limit on spending and restore budget discipline. We will cut taxes, back small business and slash red tape to lift productivity and grow the economy, without fuelling inflation. That is how we ease inflation and interest rates, and lift living standards. Sep 29 Open post by liberalaus with ID 18138955402536033 liberalaus At 4.6%, our cash rate is higher than any major advanced economy, and the highest here in 15 years. While families have tightened their belts, Anthony Albanese hasn’t. Sep 29 Open post by liberalaus with ID 18101567036623291 angustaylormp Anthony Albanese has broken the economy. Only the Coalition has the team and the plan to fix it. Sep 29 Open post by angustaylormp with ID 17918183823450224 liberalaus Labor blames global events. But you can`t be unlucky 16 times. The Liberals and Nationals have a plan. We will put a speed limit on spending and restore budget discipline. We will cut taxes, back small business and slash red tape to lift productivity and grow the economy without fuelling inflation. That is how we ease inflation and interest rates, and lift living standards. Sep 29 Open post by liberalaus with ID 17912663088537960 liberalaus Under Labor, spending as a share of the economy is the highest in 40 years, outside the pandemic. That fuels inflation, which is also higher than any major advanced economy. Sep 29 Open post by liberalaus with ID 18490345087098607 angustaylormp Today’s rate rise takes the cash rate to 4.60%, its highest level in 15 years. Families have tightened their belts but Anthony Albanese hasn’t. Australians are paying the price for the government’s higher spending which is fuelling inflation and higher interest rates. Life has only got harder under Labor. The Coalition will fix the economy. We will axe Labor’s toxic taxes, put a speed limit on spending and lower taxes. Sep 29 Open post by angustaylormp with ID 18097664003296438 liberalaus Today, the Reserve Bank has raised interest rates again. Labor is trying to blame global events. However, the facts tell a different story. Sep 29 Open post by liberalaus with ID 18244038196310638 angustaylormp On National Police Remembrance Day, to all our police officers we thank you for your service, your courage and your commitment to keeping Australians safe. With honour they serve. With honour, we remember those who gave their lives in that service. Sep 29 Open post by angustaylormp with ID 18117378065057887 liberalaus Labor’s lost control of its spending and they’re blaming everyone else for what they’ve done. The Liberals and Nationals have a plan that will get government spending under control. Sep 28 Open post by liberalaus with ID 18631493374003849 angustaylormp Labor has broken the economy. They can’t stop spending and Australians are being made to pay for it. With our plan, we will get spending under control. We will fix our economy. Sep 28 Open post by angustaylormp with ID 17976175542129717 senatorhume Labor’s reckless spending has consequences and Australians are paying the price. Sep 28 Open post by senatorhume with ID 17948877513271823 liberalaus Because Labor can’t control its spending, the Reserve Bank has been forced to increase interest rates 3 times already this year. Sep 28 Open post by liberalaus with ID 17942181561090622 angustaylormp Australians have to manage their budgets, why can’t Labor do the same? Our plan will fix the economy and protect our way of life. Sep 28 Open post by angustaylormp with ID 18130853203773581 liberalaus For Australians to have the means to live, government must live within its means. Sep 28 Open post by liberalaus with ID 18155991928506227 liberalaus Under Labor, spending as a share of the economy is the highest in 40 years, outside the pandemic. Labor`s choices, not bad luck, drive rates up. And you pay the price. Sep 28 Open post by liberalaus with ID 18112700012586784 senatorhume Australians deserve cheaper. That’s what the Coalition will deliver. Sep 27 Open post by senatorhume with ID 18092596142653742 We need your support to win! Help us by making a donation today. 🙏🏼 $30 👏🏼 $60 😃 $120 😁 $500 😲 $1,000 🥹 $2,000 ",
+        "delta_hash": "840a5d8d47938b18cfb482c418c0e4a13fb8ed87b9554b95ed22891d322c738a"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-GREENS-FEDERAL-MEDIA-20260930064410",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-FED",
+      "party_id": "AUS-FED-GRN",
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-GREENS-FEDERAL-MEDIA-20260930064410",
+      "captured_at": "2026-09-30T06:44:10.999Z",
+      "event_date": "2026-09-30",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_PARTY",
+      "source_id": "SRC-GREENS-FEDERAL-RELEASE-INDEX",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "review_policy": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-GREENS-FEDERAL-MEDIA-20260928065514",
+        "content_hash": "6c688d5033b036c1f5955de0c355e4e5f8f246bbc731e6a0cefe9b83bab2bc9b",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-GREENS-FEDERAL-MEDIA-20260930064410",
+        "content_hash": "14592b3b15d3267dd77a374745871a5b856f33018e223cbae01b294a7d0b26fe",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "STRUCTURED_RECORD_SET",
+        "records_added": [
+          {
+            "record_id": "13480b030108164d8b6c",
+            "title": "Locked out: the growing housing divide",
+            "url": "https://greens.org.au/news/media-release/locked-out-growing-housing-divide"
+          },
+          {
+            "record_id": "3aa7daa77ac62044f5ee",
+            "title": "Read more about Locked out: the growing housing divide",
+            "url": "https://greens.org.au/news/media-release/locked-out-growing-housing-divide"
+          },
+          {
+            "record_id": "654141913bdd13443ed5",
+            "title": "Read more about David Shoebridge and Steph Hodgins-May to lead Greens in fight against corporate greed",
+            "url": "https://greens.org.au/news/media-release/david-shoebridge-and-steph-hodgins-may-lead-greens-fight-against-corporate-greed"
+          },
+          {
+            "record_id": "bab2a8a75f3240e733e0",
+            "title": "David Shoebridge and Steph Hodgins-May to lead Greens in fight against corporate greed",
+            "url": "https://greens.org.au/news/media-release/david-shoebridge-and-steph-hodgins-may-lead-greens-fight-against-corporate-greed"
+          }
+        ],
+        "records_removed": [
+          {
+            "record_id": "44f20442bea17e96f43b",
+            "title": "Read more about International students political footballs once again as Labor panders to One Nation",
+            "url": "https://greens.org.au/news/media-release/international-students-political-footballs-once-again-labor-panders-one-nation"
+          },
+          {
+            "record_id": "921b022dfa118591ff41",
+            "title": "International students political footballs once again as Labor panders to One Nation",
+            "url": "https://greens.org.au/news/media-release/international-students-political-footballs-once-again-labor-panders-one-nation"
+          },
+          {
+            "record_id": "a1cc558f766354427c82",
+            "title": "Read more about Labor Tinkers Around the Edges of Broken Aged Care Assessment Tool",
+            "url": "https://greens.org.au/news/media-release/labor-tinkers-around-edges-broken-aged-care-assessment-tool"
+          },
+          {
+            "record_id": "ea562c8ae40cc6415506",
+            "title": "Labor Tinkers Around the Edges of Broken Aged Care Assessment Tool",
+            "url": "https://greens.org.au/news/media-release/labor-tinkers-around-edges-broken-aged-care-assessment-tool"
+          }
+        ],
+        "added_count": 4,
+        "removed_count": 4,
+        "before_count": 75,
+        "after_count": 75,
+        "delta_hash": "8be7cbebf3b025d69f0957bbbe08b2840813a6bfdc8f493532850b4eb161b7ca"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-NSW-MINISTERIAL-RELEASES-20260930064410",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-NSW",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-NSW-MINISTERIAL-RELEASES-20260930064410",
+      "captured_at": "2026-09-30T06:44:10.999Z",
+      "event_date": "2026-09-30",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-NSW-MINISTERIAL-RELEASES",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "review_policy": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-NSW-MINISTERIAL-RELEASES-20260929155232",
+        "content_hash": "a1945dd334650d9a4bd62fa78f3a098a4667ba3efa9dd7c5c962f1ef97294731",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-NSW-MINISTERIAL-RELEASES-20260930064410",
+        "content_hash": "a03669c351d0a08150e16025b84f8c22b2f0bb5a4e737248bf3dc4aab194776c",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "STRUCTURED_RECORD_SET",
+        "records_added": [
+          {
+            "record_id": "3130bf9c966081467684",
+            "title": "Life-sustaining therapy now available in Murrumbidgee Local Health District",
+            "url": "https://www.nsw.gov.au/ministerial-releases/life-sustaining-therapy-now-available-murrumbidgee-local-health-district"
+          },
+          {
+            "record_id": "51514fe5b7e881b3ccf0",
+            "title": "Digital licence shifts up a gear for Western Sydney and Blue Mountains drivers",
+            "url": "https://www.nsw.gov.au/ministerial-releases/digital-licence-shifts-up-a-gear-for-western-sydney-and-blue-mountains-drivers"
+          },
+          {
+            "record_id": "5ca2bb1ff4241fe2643a",
+            "title": "Day-trippers spend record $16.2 billion as short escapes surge",
+            "url": "https://www.nsw.gov.au/departments-and-agencies/dciths/ministerial-media-releases/day-trippers-spend-record-162-billion-as-short-escapes-surge"
+          },
+          {
+            "record_id": "60ae95a61c1d9e525bdc",
+            "title": "More than $1.8 million for health facility upgrades across Central Coast",
+            "url": "https://www.nsw.gov.au/ministerial-releases/more-than-18-million-for-health-facility-upgrades-across-central-coast"
+          },
+          {
+            "record_id": "7522ed20475ab098dc70",
+            "title": "$590,000 for health facility upgrades across the Shoalhaven",
+            "url": "https://www.nsw.gov.au/ministerial-releases/funding-health-facility-upgrades-shoalhaven"
+          },
+          {
+            "record_id": "9dd29a900596030cda90",
+            "title": "More than $1.7 million for health facility upgrades across Mid North Coast and Northern NSW",
+            "url": "https://www.nsw.gov.au/ministerial-releases/more-than-17-million-for-health-facility-upgrades-across-mid-north-coast-and-northern-nsw"
+          },
+          {
+            "record_id": "c7a331e7cd6af500319f",
+            "title": "Getting trucks off Stoney Creek Road and onto motorways",
+            "url": "https://www.nsw.gov.au/departments-and-agencies/nsw-motorways/nsw-motorways-news/getting-trucks-off-stoney-creek-road"
+          },
+          {
+            "record_id": "d41359117af8113d4ef4",
+            "title": "Nearly $3.4 million for health facility upgrades across Murrumbidgee",
+            "url": "https://www.nsw.gov.au/ministerial-releases/nearly-34-million-for-health-facility-upgrades-across-murrumbidgee"
+          },
+          {
+            "record_id": "ec06c89bbc23097e1185",
+            "title": "More than $810,000 for upgrades at Queanbeyan Hospital",
+            "url": "https://www.nsw.gov.au/ministerial-releases/more-than-810000-for-upgrades-at-queanbeyan-hospital"
+          },
+          {
+            "record_id": "fc2839847392a2b13306",
+            "title": "$12 million for hospital upgrades across regional NSW",
+            "url": "https://www.nsw.gov.au/ministerial-releases/hospital-upgrades-across-regional-nsw"
+          }
+        ],
+        "records_removed": [],
+        "added_count": 10,
+        "removed_count": 0,
+        "before_count": 78,
+        "after_count": 88,
+        "delta_hash": "ab667f35a7544d2df2adc20e96baa9dcdc5fb484e23d6829f4873d6e4445e3d7"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-NSWEC-MEDIA-20260930064410",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-NSW",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-NSWEC-MEDIA-20260930064410",
+      "captured_at": "2026-09-30T06:44:10.999Z",
+      "event_date": "2026-09-30",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_ELECTORAL_AUTHORITY",
+      "source_id": "SRC-NSWEC-MEDIA",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "review_policy": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-NSWEC-MEDIA-20260925074943",
+        "content_hash": "0d0865f0b5c4ef5e73404c26280949336f39f20ce8374c946e440d36e5ac37fb",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-NSWEC-MEDIA-20260930064410",
+        "content_hash": "e0e18e8696aabeccbd97877befaf2fe24dc0ba27c7a2f77db7891c1d54070802",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "STRUCTURED_RECORD_SET",
+        "records_added": [
+          {
+            "record_id": "f717b69a5734c54a7639",
+            "title": "7-day pre-election donation disclosure requirement starts 1 October ahead of the 2027 NSW State election arrow_forward 30 Sep 2026 7-day pre-election donation disclosure requirement starts 1 October ahead of the 2027 NSW State election",
+            "url": "https://elections.nsw.gov.au/about-us/media-centre/news-and-media-releases/7-day-pre-election-donation-disclosure-requirement-starts-1-october"
+          }
+        ],
+        "records_removed": [],
+        "added_count": 1,
+        "removed_count": 0,
+        "before_count": 363,
+        "after_count": 364,
+        "delta_hash": "69d12a4ffe81ebf1d0b74ffa18f3d835c75185975f9208e051e44389f3298580"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20260930064410",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-QLD",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-QLD-MINISTERIAL-STATEMENTS-20260930064410",
+      "captured_at": "2026-09-30T06:44:10.999Z",
+      "event_date": "2026-09-30",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-QLD-MINISTERIAL-STATEMENTS",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "review_policy": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-QLD-MINISTERIAL-STATEMENTS-20260930002805",
+        "content_hash": "4dce41e1f5e5ebe00f9535b69e2b53d64615c4803a1210c6dd7ae4a699af13bd",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-QLD-MINISTERIAL-STATEMENTS-20260930064410",
+        "content_hash": "cd2775e27b13701078cbdfff87ec29e2df26886d89692df58ac59624eebc5e23",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "STRUCTURED_RECORD_SET",
+        "records_added": [
+          {
+            "record_id": "26c93002900c677027cf",
+            "title": "Queensland demands safeguards from Canberra for gas reservation",
+            "url": "https://statements.qld.gov.au/statements/106149"
+          },
+          {
+            "record_id": "8690db73f42cc13cba8a",
+            "title": "Queensland puts AI to work with $750,000 manufacturing investment",
+            "url": "https://statements.qld.gov.au/statements/106150"
+          },
+          {
+            "record_id": "8ca269f4c3c69b08e0da",
+            "title": "Central Queensland water users invited to help shape region’s water future",
+            "url": "https://statements.qld.gov.au/statements/106148"
+          },
+          {
+            "record_id": "d2c91f084049f416603e",
+            "title": "Queensland visitor economy powers ahead of Destination 2045 projections",
+            "url": "https://statements.qld.gov.au/statements/106146"
+          }
+        ],
+        "records_removed": [
+          {
+            "record_id": "17296ea0aac167350864",
+            "title": "State Flying Squad cracks 200-deployment milestone",
+            "url": "https://statements.qld.gov.au/statements/106136"
+          },
+          {
+            "record_id": "73b1c34cc1083e03ace5",
+            "title": "Fix for Toowoomba crash hotspot",
+            "url": "https://statements.qld.gov.au/statements/106137"
+          },
+          {
+            "record_id": "aee1a4954be7b26f68b7",
+            "title": "Delivering upgraded amenities for Mundingburra",
+            "url": "https://statements.qld.gov.au/statements/106134"
+          },
+          {
+            "record_id": "ed2b7479345eb6c620f1",
+            "title": "Applications open for next round of Active Transport Grants",
+            "url": "https://statements.qld.gov.au/statements/106133"
+          }
+        ],
+        "added_count": 4,
+        "removed_count": 4,
+        "before_count": 16,
+        "after_count": 16,
+        "delta_hash": "4088117b4a802427559fd9f19972e8c3ac3985dd48f2fe99d840b503b639c970"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "SIG-REV-CHG-WATCH-PM-MEDIA-20260930064410",
+      "parent_event_id": "CHG-WATCH-PM-MEDIA-20260930064410",
+      "review_id": "REV-CHG-WATCH-PM-MEDIA-20260930064410",
+      "jurisdiction_id": "AUS-FED",
+      "party_id": null,
+      "actor_id": null,
+      "contest_id": null,
+      "cycle_id": null,
+      "source_snapshot_id": "AUTO-WATCH-PM-MEDIA-20260930064410",
+      "record_id": null,
+      "captured_at": "2026-09-30T06:44:45.356Z",
+      "event_date": "2026-09-30",
+      "checkpoint": "CONTINUOUS_FORWARD_SIGNAL_REVIEW",
+      "event_type": "SIGNAL_CREATED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-PM-MEDIA",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "claim": "Prime Minister of Australia — media added 2 structured publication records to its forward-captured official index: Press conference - Footscray; Melbourne Airport Rail Stage 2 set for take-off",
+      "observed_behaviour": "One or more structured publication records appeared in the monitored official source index after the preceding forward snapshot.",
+      "publication_records_added": [
+        {
+          "record_id": "9bf27f255bd60d8f73c3",
+          "title": "Press conference - Footscray",
+          "url": "https://www.pm.gov.au/media/press-conference-footscray"
+        },
+        {
+          "record_id": "f43d478399a85e9f00e2",
+          "title": "Melbourne Airport Rail Stage 2 set for take-off",
+          "url": "https://www.pm.gov.au/media/melbourne-airport-rail-stage-2-set-take"
+        }
+      ],
+      "publication_records_removed": [
+        {
+          "record_id": "c8a9903d5ef309c38cde",
+          "title": "Remarks, Australia-Ukraine meeting",
+          "url": "https://www.pm.gov.au/media/remarks-australia-ukraine-meeting"
+        },
+        {
+          "record_id": "e8fa4013afeb0bee5cb8",
+          "title": "Press conference - New York",
+          "url": "https://www.pm.gov.au/media/press-conference-new-york"
+        }
+      ],
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "underlying_publication_claims_not_promoted_to_verified_fact": true,
+        "source_change_parent_retained": true,
+        "deterministic_review": true
+      }
+    },
+    {
+      "event_id": "SIG-REV-CHG-WATCH-GREENS-FEDERAL-MEDIA-20260930064410",
+      "parent_event_id": "CHG-WATCH-GREENS-FEDERAL-MEDIA-20260930064410",
+      "review_id": "REV-CHG-WATCH-GREENS-FEDERAL-MEDIA-20260930064410",
+      "jurisdiction_id": "AUS-FED",
+      "party_id": "AUS-FED-GRN",
+      "actor_id": null,
+      "contest_id": null,
+      "cycle_id": null,
+      "source_snapshot_id": "AUTO-WATCH-GREENS-FEDERAL-MEDIA-20260930064410",
+      "record_id": null,
+      "captured_at": "2026-09-30T06:44:45.356Z",
+      "event_date": "2026-09-30",
+      "checkpoint": "CONTINUOUS_FORWARD_SIGNAL_REVIEW",
+      "event_type": "SIGNAL_CREATED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_PARTY",
+      "source_id": "SRC-GREENS-FEDERAL-RELEASE-INDEX",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "claim": "Australian Greens — Federal MPs media releases added 4 structured publication records to its forward-captured official index: Locked out: the growing housing divide; Read more about Locked out: the growing housing divide; Read more about David Shoebridge and Steph Hodgins-May to lead Greens in fight against corporate greed; David Shoebridge and Steph Hodgins-May to lead Greens in fight against corporate greed",
+      "observed_behaviour": "One or more structured publication records appeared in the monitored official source index after the preceding forward snapshot.",
+      "publication_records_added": [
+        {
+          "record_id": "13480b030108164d8b6c",
+          "title": "Locked out: the growing housing divide",
+          "url": "https://greens.org.au/news/media-release/locked-out-growing-housing-divide"
+        },
+        {
+          "record_id": "3aa7daa77ac62044f5ee",
+          "title": "Read more about Locked out: the growing housing divide",
+          "url": "https://greens.org.au/news/media-release/locked-out-growing-housing-divide"
+        },
+        {
+          "record_id": "654141913bdd13443ed5",
+          "title": "Read more about David Shoebridge and Steph Hodgins-May to lead Greens in fight against corporate greed",
+          "url": "https://greens.org.au/news/media-release/david-shoebridge-and-steph-hodgins-may-lead-greens-fight-against-corporate-greed"
+        },
+        {
+          "record_id": "bab2a8a75f3240e733e0",
+          "title": "David Shoebridge and Steph Hodgins-May to lead Greens in fight against corporate greed",
+          "url": "https://greens.org.au/news/media-release/david-shoebridge-and-steph-hodgins-may-lead-greens-fight-against-corporate-greed"
+        }
+      ],
+      "publication_records_removed": [
+        {
+          "record_id": "44f20442bea17e96f43b",
+          "title": "Read more about International students political footballs once again as Labor panders to One Nation",
+          "url": "https://greens.org.au/news/media-release/international-students-political-footballs-once-again-labor-panders-one-nation"
+        },
+        {
+          "record_id": "921b022dfa118591ff41",
+          "title": "International students political footballs once again as Labor panders to One Nation",
+          "url": "https://greens.org.au/news/media-release/international-students-political-footballs-once-again-labor-panders-one-nation"
+        },
+        {
+          "record_id": "a1cc558f766354427c82",
+          "title": "Read more about Labor Tinkers Around the Edges of Broken Aged Care Assessment Tool",
+          "url": "https://greens.org.au/news/media-release/labor-tinkers-around-edges-broken-aged-care-assessment-tool"
+        },
+        {
+          "record_id": "ea562c8ae40cc6415506",
+          "title": "Labor Tinkers Around the Edges of Broken Aged Care Assessment Tool",
+          "url": "https://greens.org.au/news/media-release/labor-tinkers-around-edges-broken-aged-care-assessment-tool"
+        }
+      ],
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "underlying_publication_claims_not_promoted_to_verified_fact": true,
+        "source_change_parent_retained": true,
+        "deterministic_review": true
+      }
+    },
+    {
+      "event_id": "SIG-REV-CHG-WATCH-NSW-MINISTERIAL-RELEASES-20260930064410",
+      "parent_event_id": "CHG-WATCH-NSW-MINISTERIAL-RELEASES-20260930064410",
+      "review_id": "REV-CHG-WATCH-NSW-MINISTERIAL-RELEASES-20260930064410",
+      "jurisdiction_id": "AUS-NSW",
+      "party_id": null,
+      "actor_id": null,
+      "contest_id": null,
+      "cycle_id": null,
+      "source_snapshot_id": "AUTO-WATCH-NSW-MINISTERIAL-RELEASES-20260930064410",
+      "record_id": null,
+      "captured_at": "2026-09-30T06:44:45.356Z",
+      "event_date": "2026-09-30",
+      "checkpoint": "CONTINUOUS_FORWARD_SIGNAL_REVIEW",
+      "event_type": "SIGNAL_CREATED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-NSW-MINISTERIAL-RELEASES",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "claim": "NSW Government — Ministerial releases added 10 structured publication records to its forward-captured official index: Life-sustaining therapy now available in Murrumbidgee Local Health District; Digital licence shifts up a gear for Western Sydney and Blue Mountains drivers; Day-trippers spend record $16.2 billion as short escapes surge; More than $1.8 million for health facility upgrades across Central Coast; $590,000 for health facility upgrades across the Shoalhaven; +5 more",
+      "observed_behaviour": "One or more structured publication records appeared in the monitored official source index after the preceding forward snapshot.",
+      "publication_records_added": [
+        {
+          "record_id": "3130bf9c966081467684",
+          "title": "Life-sustaining therapy now available in Murrumbidgee Local Health District",
+          "url": "https://www.nsw.gov.au/ministerial-releases/life-sustaining-therapy-now-available-murrumbidgee-local-health-district"
+        },
+        {
+          "record_id": "51514fe5b7e881b3ccf0",
+          "title": "Digital licence shifts up a gear for Western Sydney and Blue Mountains drivers",
+          "url": "https://www.nsw.gov.au/ministerial-releases/digital-licence-shifts-up-a-gear-for-western-sydney-and-blue-mountains-drivers"
+        },
+        {
+          "record_id": "5ca2bb1ff4241fe2643a",
+          "title": "Day-trippers spend record $16.2 billion as short escapes surge",
+          "url": "https://www.nsw.gov.au/departments-and-agencies/dciths/ministerial-media-releases/day-trippers-spend-record-162-billion-as-short-escapes-surge"
+        },
+        {
+          "record_id": "60ae95a61c1d9e525bdc",
+          "title": "More than $1.8 million for health facility upgrades across Central Coast",
+          "url": "https://www.nsw.gov.au/ministerial-releases/more-than-18-million-for-health-facility-upgrades-across-central-coast"
+        },
+        {
+          "record_id": "7522ed20475ab098dc70",
+          "title": "$590,000 for health facility upgrades across the Shoalhaven",
+          "url": "https://www.nsw.gov.au/ministerial-releases/funding-health-facility-upgrades-shoalhaven"
+        },
+        {
+          "record_id": "9dd29a900596030cda90",
+          "title": "More than $1.7 million for health facility upgrades across Mid North Coast and Northern NSW",
+          "url": "https://www.nsw.gov.au/ministerial-releases/more-than-17-million-for-health-facility-upgrades-across-mid-north-coast-and-northern-nsw"
+        },
+        {
+          "record_id": "c7a331e7cd6af500319f",
+          "title": "Getting trucks off Stoney Creek Road and onto motorways",
+          "url": "https://www.nsw.gov.au/departments-and-agencies/nsw-motorways/nsw-motorways-news/getting-trucks-off-stoney-creek-road"
+        },
+        {
+          "record_id": "d41359117af8113d4ef4",
+          "title": "Nearly $3.4 million for health facility upgrades across Murrumbidgee",
+          "url": "https://www.nsw.gov.au/ministerial-releases/nearly-34-million-for-health-facility-upgrades-across-murrumbidgee"
+        },
+        {
+          "record_id": "ec06c89bbc23097e1185",
+          "title": "More than $810,000 for upgrades at Queanbeyan Hospital",
+          "url": "https://www.nsw.gov.au/ministerial-releases/more-than-810000-for-upgrades-at-queanbeyan-hospital"
+        },
+        {
+          "record_id": "fc2839847392a2b13306",
+          "title": "$12 million for hospital upgrades across regional NSW",
+          "url": "https://www.nsw.gov.au/ministerial-releases/hospital-upgrades-across-regional-nsw"
+        }
+      ],
+      "publication_records_removed": [],
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "underlying_publication_claims_not_promoted_to_verified_fact": true,
+        "source_change_parent_retained": true,
+        "deterministic_review": true
+      }
+    },
+    {
+      "event_id": "SIG-REV-CHG-WATCH-NSWEC-MEDIA-20260930064410",
+      "parent_event_id": "CHG-WATCH-NSWEC-MEDIA-20260930064410",
+      "review_id": "REV-CHG-WATCH-NSWEC-MEDIA-20260930064410",
+      "jurisdiction_id": "AUS-NSW",
+      "party_id": null,
+      "actor_id": null,
+      "contest_id": null,
+      "cycle_id": null,
+      "source_snapshot_id": "AUTO-WATCH-NSWEC-MEDIA-20260930064410",
+      "record_id": "f717b69a5734c54a7639",
+      "captured_at": "2026-09-30T06:44:45.356Z",
+      "event_date": "2026-09-30",
+      "checkpoint": "CONTINUOUS_FORWARD_SIGNAL_REVIEW",
+      "event_type": "SIGNAL_CREATED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_ELECTORAL_AUTHORITY",
+      "source_id": "SRC-NSWEC-MEDIA",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "claim": "NSW Electoral Commission — news and media releases added 1 structured publication record to its forward-captured official index: 7-day pre-election donation disclosure requirement starts 1 October ahead of the 2027 NSW State election arrow_forward 30 Sep 2026 7-day pre-election donation disclosure requirement starts 1 October ahead of the 2027 NSW State election",
+      "observed_behaviour": "One or more structured publication records appeared in the monitored official source index after the preceding forward snapshot.",
+      "publication_records_added": [
+        {
+          "record_id": "f717b69a5734c54a7639",
+          "title": "7-day pre-election donation disclosure requirement starts 1 October ahead of the 2027 NSW State election arrow_forward 30 Sep 2026 7-day pre-election donation disclosure requirement starts 1 October ahead of the 2027 NSW State election",
+          "url": "https://elections.nsw.gov.au/about-us/media-centre/news-and-media-releases/7-day-pre-election-donation-disclosure-requirement-starts-1-october"
+        }
+      ],
+      "publication_records_removed": [],
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "underlying_publication_claims_not_promoted_to_verified_fact": true,
+        "source_change_parent_retained": true,
+        "deterministic_review": true
+      }
+    },
+    {
+      "event_id": "SIG-REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20260930064410",
+      "parent_event_id": "CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20260930064410",
+      "review_id": "REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20260930064410",
+      "jurisdiction_id": "AUS-QLD",
+      "party_id": null,
+      "actor_id": null,
+      "contest_id": null,
+      "cycle_id": null,
+      "source_snapshot_id": "AUTO-WATCH-QLD-MINISTERIAL-STATEMENTS-20260930064410",
+      "record_id": null,
+      "captured_at": "2026-09-30T06:44:45.356Z",
+      "event_date": "2026-09-30",
+      "checkpoint": "CONTINUOUS_FORWARD_SIGNAL_REVIEW",
+      "event_type": "SIGNAL_CREATED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-QLD-MINISTERIAL-STATEMENTS",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "claim": "Queensland Government — Ministerial Media Statements added 4 structured publication records to its forward-captured official index: Queensland demands safeguards from Canberra for gas reservation; Queensland puts AI to work with $750,000 manufacturing investment; Central Queensland water users invited to help shape region’s water future; Queensland visitor economy powers ahead of Destination 2045 projections",
+      "observed_behaviour": "One or more structured publication records appeared in the monitored official source index after the preceding forward snapshot.",
+      "publication_records_added": [
+        {
+          "record_id": "26c93002900c677027cf",
+          "title": "Queensland demands safeguards from Canberra for gas reservation",
+          "url": "https://statements.qld.gov.au/statements/106149"
+        },
+        {
+          "record_id": "8690db73f42cc13cba8a",
+          "title": "Queensland puts AI to work with $750,000 manufacturing investment",
+          "url": "https://statements.qld.gov.au/statements/106150"
+        },
+        {
+          "record_id": "8ca269f4c3c69b08e0da",
+          "title": "Central Queensland water users invited to help shape region’s water future",
+          "url": "https://statements.qld.gov.au/statements/106148"
+        },
+        {
+          "record_id": "d2c91f084049f416603e",
+          "title": "Queensland visitor economy powers ahead of Destination 2045 projections",
+          "url": "https://statements.qld.gov.au/statements/106146"
+        }
+      ],
+      "publication_records_removed": [
+        {
+          "record_id": "17296ea0aac167350864",
+          "title": "State Flying Squad cracks 200-deployment milestone",
+          "url": "https://statements.qld.gov.au/statements/106136"
+        },
+        {
+          "record_id": "73b1c34cc1083e03ace5",
+          "title": "Fix for Toowoomba crash hotspot",
+          "url": "https://statements.qld.gov.au/statements/106137"
+        },
+        {
+          "record_id": "aee1a4954be7b26f68b7",
+          "title": "Delivering upgraded amenities for Mundingburra",
+          "url": "https://statements.qld.gov.au/statements/106134"
+        },
+        {
+          "record_id": "ed2b7479345eb6c620f1",
+          "title": "Applications open for next round of Active Transport Grants",
+          "url": "https://statements.qld.gov.au/statements/106133"
+        }
+      ],
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "underlying_publication_claims_not_promoted_to_verified_fact": true,
+        "source_change_parent_retained": true,
+        "deterministic_review": true
+      }
+    },
+    {
+      "event_id": "INTEL-AREA-e35a83239dd15ef2a7f72058",
+      "parent_event_id": "SIG-REV-CHG-WATCH-NSWEC-MEDIA-20260930064410",
+      "jurisdiction_id": "AUS-NSW",
+      "party_id": null,
+      "actor_id": null,
+      "party_ids": [],
+      "actor_ids": [],
+      "contest_id": null,
+      "cycle_id": null,
+      "competition_class": "ELECTORAL",
+      "area_evidence_id": "AREA-e35a83239dd15ef2a7f72058",
+      "detail_record_id": "DETAIL-3a53f1fa2f671771a6330ec3",
+      "detail_version_id": "DETAIL-3a53f1fa2f671771a6330ec3-V1",
+      "source_snapshot_id": "AUTO-WATCH-NSWEC-MEDIA-20260930064410",
+      "record_url": "https://elections.nsw.gov.au/about-us/media-centre/news-and-media-releases/7-day-pre-election-donation-disclosure-requirement-starts-1-october",
+      "captured_at": "2026-09-30T06:44:57.697Z",
+      "evidence_captured_at": "2026-09-30T06:44:47.027Z",
+      "event_date": "2026-09-30",
+      "checkpoint": "SUBSTANTIVE_INFORMATION_INGESTION",
+      "event_type": "AREA_EVIDENCE_INGESTED",
+      "area_routing_state": "SUBSTANTIVE_CONTENT_ROUTED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_ELECTORAL_AUTHORITY",
+      "source_id": "SRC-NSWEC-MEDIA",
+      "claim": "Ingested substantive electoral evidence from 7-day pre-election donation disclosure requirement starts 1 October ahead of the 2027 NSW State election. Captured content includes outcome language: elected. Registration threshold state: evidence gap. Missing requirements: missing fact type stage, missing condition resolved participant or team.",
+      "observed_behaviour": "7-day pre-election donation disclosure requirement starts 1 October ahead of the 2027 NSW State election - NSW Electoral Commission Go to content language العربية Tiếng Việt 中文 Ελληνικά Italiano newspaper Media work Work with us contact_support Contact us search Search Menu Listen share Share 7-day pre-election donation disclosure requirement starts 1 October ahead of the 2027 NSW State election The pre-election donation disclosures period for the 2027 NSW State election starts tomorrow. From 1 October 2026 election participants are required to disclose reportable political donations within only seven days of being made or received. Under recent amendments to the Electoral Funding Act 2018 , all reportable political donations made or received in the lead-up to the State election, must be disclosed to the NSW Electoral Commission within seven days , replacing the previous 21-day requirement. NSW Electoral Commissioner, Rachel McCallum, said that the shorter disclosure period would make more information about political donations publicly available in the lead up to the State election on 13 March 2027. \"From tomorrow, the timeframe for disclosing reportable political donations is only seven days,\" Ms McCallum said. \"With the State election now less than six months away, election participants must ensure they have appropriate procedures and systems in place to record and disclose those donations within this timeframe to avoid penalties.\" The seven-day disclosure requirement applies to all key election participants, including political parties, elected members, candidates, and third-party campaigners. It does not apply to donations made for local government elections. A reportable political donation is a political donation valued at $1,000 or more. This includes a political ",
+      "extracted_cues": {
+        "resistance_terms": [],
+        "stage_terms": [],
+        "outcome_terms": [
+          "elected"
+        ],
+        "pressure_terms": []
+      },
+      "entity_mentions": {
+        "actors": [],
+        "teams": []
+      },
+      "position_state": "UNRESOLVED",
+      "resistance_state": "UNRESOLVED",
+      "outcome_state": "OUTCOME_LANGUAGE_PRESENT",
+      "contest_fact_ids": [
+        "FACT-45c49a2878af796719ace692",
+        "FACT-648ec52276ee68ce69a3cc3f",
+        "FACT-6ef8a1b99f1e905a24b5baab",
+        "FACT-726e4c76062d71ccf429e71e",
+        "FACT-9c1815a14b65ee277b4e7ae4",
+        "FACT-a6e5ffeee261de0f9dc9e1ae",
+        "FACT-de101d743d92d1e0b0bcc312",
+        "FACT-e2f59b8b242c917497c8e2ce",
+        "FACT-e9f0b0991134c74dcae9cbbb"
+      ],
+      "contest_fact_types": [
+        "CONTEST_OBJECT",
+        "POSSIBLE_OUTCOME_STATE"
+      ],
+      "threshold_evaluation_id": "THRESH-f9b6830b82dfe46b9bbab24b",
+      "threshold_state": "EVIDENCE_GAP",
+      "threshold_blockers": [
+        "MISSING_CONDITION_RESOLVED_PARTICIPANT_OR_TEAM",
+        "MISSING_FACT_TYPE_STAGE"
+      ],
+      "supporting_entities": [],
+      "opposing_entities": [],
+      "registration_action": "NO_AUTOMATIC_REGISTRATION",
+      "intelligence_signature": "3428b0fe8fdcd311e88e236f878a1690f3f840a44315f63393456ee6639bdb16",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "substantive_detail_lineage_required": true,
+        "active_contest_fact_lineage_required": true,
+        "threshold_evaluation_lineage_required": true,
+        "routing_does_not_register_match": true,
+        "threshold_eligibility_does_not_register_match": true,
+        "entity_mentions_do_not_establish_positions": true,
+        "retracted_facts_excluded": true,
+        "no_projection_effect_without_registered_target": true
       }
     }
   ]

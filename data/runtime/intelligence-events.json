@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-INTELLIGENCE-EVENTS-001",
   "scope": "Australia — multi-jurisdiction",
-  "captured_at": "2026-09-30T06:44:57.697Z",
+  "captured_at": "2026-09-30T13:45:34.700Z",
   "mode": "FORWARD_ONLY",
   "rules": {
     "observation_distinct_from_inference": true,
@@ -96761,6 +96761,227 @@
         "entity_mentions_do_not_establish_positions": true,
         "retracted_facts_excluded": true,
         "no_projection_effect_without_registered_target": true
+      }
+    },
+    {
+      "event_id": "CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20260930134434",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-QLD",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-QLD-MINISTERIAL-STATEMENTS-20260930134434",
+      "captured_at": "2026-09-30T13:44:34.467Z",
+      "event_date": "2026-09-30",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-QLD-MINISTERIAL-STATEMENTS",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "review_policy": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-QLD-MINISTERIAL-STATEMENTS-20260930064410",
+        "content_hash": "cd2775e27b13701078cbdfff87ec29e2df26886d89692df58ac59624eebc5e23",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-QLD-MINISTERIAL-STATEMENTS-20260930134434",
+        "content_hash": "acfe95bbe8f7d5bc5c3bc7a8254c96602702d590bffb200639dfa717ed25179c",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "STRUCTURED_RECORD_SET",
+        "records_added": [
+          {
+            "record_id": "8314bf71b831e76d0237",
+            "title": "Recommendations to strengthen integrity and accountability for corruption watchdog backed",
+            "url": "https://statements.qld.gov.au/statements/106156"
+          }
+        ],
+        "records_removed": [
+          {
+            "record_id": "2a2855463cfd912de1de",
+            "title": "Early childhood teachers to be registered in major safety boost",
+            "url": "https://statements.qld.gov.au/statements/106145"
+          }
+        ],
+        "added_count": 1,
+        "removed_count": 1,
+        "before_count": 16,
+        "after_count": 16,
+        "delta_hash": "57ed7e96af33ae64531980dadd85f1771531db149ab6c2272f2eb4665941b452"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-SA-PREMIER-MEDIA-20260930134434",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-SA",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-SA-PREMIER-MEDIA-20260930134434",
+      "captured_at": "2026-09-30T13:44:34.467Z",
+      "event_date": "2026-09-30",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-SA-PREMIER-MEDIA",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "review_policy": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-SA-PREMIER-MEDIA-20260912054807",
+        "content_hash": "6e3466ce4b10a1a1b36862a0a81822cf198d9c7cd65bb9cec002d4716ab7ef00",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-SA-PREMIER-MEDIA-20260930134434",
+        "content_hash": "a3445cd22e753c955e4e7a35aaa37d9b398e41c7ba6e2b9d46f66bfaf27c99b6",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "STRUCTURED_RECORD_SET",
+        "records_added": [],
+        "records_removed": [
+          {
+            "record_id": "03edcc795d19c500e113",
+            "title": "Media Release $32m a day: ‘Splash Cash’ Ashton’s plan for deficit and red tape 16/06/2026",
+            "url": "https://www.premier.sa.gov.au/media-releases/news-items/$32m-a-day-splash-cash-ashtons-plan-for-deficit-and-red-tape"
+          },
+          {
+            "record_id": "0bb52bdd43ada33652e2",
+            "title": "Media Release Key aviation connections resume 17/06/2026",
+            "url": "https://www.premier.sa.gov.au/media-releases/news-items/key-aviation-connections-resume"
+          },
+          {
+            "record_id": "24b9416b2df25b11c032",
+            "title": "Media Release New high school and upgrades underway across Adelaide’s north 14/06/2026",
+            "url": "https://www.premier.sa.gov.au/media-releases/news-items/new-high-school-and-upgrades-underway-across-adelaides-north"
+          },
+          {
+            "record_id": "27eaae4e761555f9f915",
+            "title": "Media Release New appointments to the Adelaide Festival Board 12/06/2026",
+            "url": "https://www.premier.sa.gov.au/media-releases/news-items/new-appointments-to-the-adelaide-festival-board"
+          },
+          {
+            "record_id": "3101d96f833109570cb5",
+            "title": "Media Release Business events return record economic boost 16/06/2026",
+            "url": "https://www.premier.sa.gov.au/media-releases/news-items/business-events-return-record-economic-boost"
+          },
+          {
+            "record_id": "44c36a10e27c79b7d104",
+            "title": "Clear Search",
+            "url": "https://www.premier.sa.gov.au/config/funnelback-config/premiermediareleases-funnelback-connector"
+          },
+          {
+            "record_id": "47a332477660d1323ebb",
+            "title": "Media Release Ensuring the integrity of council elections 16/06/2026",
+            "url": "https://www.premier.sa.gov.au/media-releases/news-items/ensuring-the-integrity-of-council-elections"
+          },
+          {
+            "record_id": "5769d3a1bd503eb10e90",
+            "title": "Media Release Works to continue at North Adelaide Public Golf Course 12/06/2026",
+            "url": "https://www.premier.sa.gov.au/media-releases/news-items/works-to-continue-at-north-adelaide-public-golf-course"
+          },
+          {
+            "record_id": "793f24fd9cabd7f75fef",
+            "title": "Media Release New data shows mobile phone ban driving dramatic change in schools 15/06/2026",
+            "url": "https://www.premier.sa.gov.au/media-releases/news-items/new-data-shows-mobile-phone-ban-driving-dramatic-change-in-schools"
+          },
+          {
+            "record_id": "a07f7303b3ee8ecb7536",
+            "title": "Media Release Search begins for new Inspector 16/06/2026",
+            "url": "https://www.premier.sa.gov.au/media-releases/news-items/search-begins-for-new-inspector"
+          },
+          {
+            "record_id": "bb22f3e4a54eb66f56fe",
+            "title": "Media Release Get live and loud to support the Commbank Socceroos 13/06/2026",
+            "url": "https://www.premier.sa.gov.au/media-releases/news-items/get-live-and-loud-to-support-the-commbank-socceroos"
+          },
+          {
+            "record_id": "d40ce650e42538f9c525",
+            "title": "Media Release National Office for Algal Bloom Research opens in Adelaide 17/06/2026",
+            "url": "https://www.premier.sa.gov.au/media-releases/news-items/national-office-for-algal-bloom-research-opens-in-adelaide"
+          },
+          {
+            "record_id": "dc903e0d5773afd5de95",
+            "title": "Media Release More records fall as SA’s copper bonanza powers on 17/06/2026",
+            "url": "https://www.premier.sa.gov.au/media-releases/news-items/more-records-fall-as-sas-copper-bonanza-powers-on"
+          }
+        ],
+        "added_count": 0,
+        "removed_count": 13,
+        "before_count": 20,
+        "after_count": 7,
+        "delta_hash": "530a7e5d418edba633ff3ba7f64abdb29ab91a908d45b4c10971a0504151338b"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "SIG-REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20260930134434",
+      "parent_event_id": "CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20260930134434",
+      "review_id": "REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20260930134434",
+      "jurisdiction_id": "AUS-QLD",
+      "party_id": null,
+      "actor_id": null,
+      "contest_id": null,
+      "cycle_id": null,
+      "source_snapshot_id": "AUTO-WATCH-QLD-MINISTERIAL-STATEMENTS-20260930134434",
+      "record_id": "8314bf71b831e76d0237",
+      "captured_at": "2026-09-30T13:45:21.801Z",
+      "event_date": "2026-09-30",
+      "checkpoint": "CONTINUOUS_FORWARD_SIGNAL_REVIEW",
+      "event_type": "SIGNAL_CREATED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-QLD-MINISTERIAL-STATEMENTS",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "claim": "Queensland Government — Ministerial Media Statements added 1 structured publication record to its forward-captured official index: Recommendations to strengthen integrity and accountability for corruption watchdog backed",
+      "observed_behaviour": "One or more structured publication records appeared in the monitored official source index after the preceding forward snapshot.",
+      "publication_records_added": [
+        {
+          "record_id": "8314bf71b831e76d0237",
+          "title": "Recommendations to strengthen integrity and accountability for corruption watchdog backed",
+          "url": "https://statements.qld.gov.au/statements/106156"
+        }
+      ],
+      "publication_records_removed": [
+        {
+          "record_id": "2a2855463cfd912de1de",
+          "title": "Early childhood teachers to be registered in major safety boost",
+          "url": "https://statements.qld.gov.au/statements/106145"
+        }
+      ],
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "underlying_publication_claims_not_promoted_to_verified_fact": true,
+        "source_change_parent_retained": true,
+        "deterministic_review": true
       }
     }
   ]

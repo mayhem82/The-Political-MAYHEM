@@ -7,9 +7,9 @@
       "source_id": "SRC-LIBERAL-FEDERAL-HOME",
       "jurisdiction_id": "AUS-FED",
       "party_id": "AUS-FED-LIB",
-      "content_hash": "040da75faa85fd78b725a0b498a1c52d6bdbe677d737c51a87a89f87088937cc",
-      "snapshot_id": "AUTO-WATCH-LIBERAL-HOME-20260930064410",
-      "captured_at": "2026-09-30T06:44:10.999Z",
+      "content_hash": "f749f6b805e23541ebc58393888a43579ffb085e17389ca94893e6dcc5bcbe5b",
+      "snapshot_id": "AUTO-WATCH-LIBERAL-HOME-20260930192131",
+      "captured_at": "2026-09-30T19:21:31.211Z",
       "acquisition_url": "https://www.liberal.org.au/",
       "requested_url": "https://www.liberal.org.au/",
       "header_profile": "IDENTIFIED_AUTOMATION",
@@ -368,9 +368,9 @@
       "source_id": "SRC-SA-PREMIER-MEDIA",
       "jurisdiction_id": "AUS-SA",
       "party_id": null,
-      "content_hash": "a3445cd22e753c955e4e7a35aaa37d9b398e41c7ba6e2b9d46f66bfaf27c99b6",
-      "snapshot_id": "AUTO-WATCH-SA-PREMIER-MEDIA-20260930134434",
-      "captured_at": "2026-09-30T13:44:34.467Z",
+      "content_hash": "6e3466ce4b10a1a1b36862a0a81822cf198d9c7cd65bb9cec002d4716ab7ef00",
+      "snapshot_id": "AUTO-WATCH-SA-PREMIER-MEDIA-20260930192131",
+      "captured_at": "2026-09-30T19:21:31.211Z",
       "acquisition_url": "https://www.premier.sa.gov.au/config/funnelback-config/premiermediareleases-funnelback-connector",
       "requested_url": "https://www.premier.sa.gov.au/config/funnelback-config/premiermediareleases-funnelback-connector",
       "header_profile": "IDENTIFIED_AUTOMATION",
@@ -505,9 +505,9 @@
       "captured_representation_complete": true
     }
   },
-  "updated_at": "2026-09-30T13:44:34.467Z",
+  "updated_at": "2026-09-30T19:21:31.211Z",
   "last_run": {
-    "captured_at": "2026-09-30T13:44:34.467Z",
+    "captured_at": "2026-09-30T19:21:31.211Z",
     "baselines_created": 0,
     "source_changes_created": 2,
     "semantic_signals_created": 0,
@@ -524,6 +524,10 @@
       {
         "watch_id": "WATCH-ECQ-MEDIA",
         "error": "https://www.ecq.qld.gov.au/media/2026-media-statements [IDENTIFIED_AUTOMATION] 403 Forbidden | https://www.ecq.qld.gov.au/media/2026-media-statements [BROWSER_COMPATIBILITY] 403 Forbidden | https://www.ecq.qld.gov.au/home [IDENTIFIED_AUTOMATION] 403 Forbidden | https://www.ecq.qld.gov.au/home [BROWSER_COMPATIBILITY] 403 Forbidden"
+      },
+      {
+        "watch_id": "WATCH-SA-PARLIAMENT",
+        "error": "https://www.parliament.sa.gov.au/ [IDENTIFIED_AUTOMATION] timeout>15000ms | https://www.parliament.sa.gov.au/ [BROWSER_COMPATIBILITY] timeout>15000ms"
       },
       {
         "watch_id": "WATCH-TAS-PREMIER-NEWS",
@@ -559,7 +563,7 @@
   "coverage": {
     "active_sources": 36,
     "baselines_captured": 36,
-    "current_run_failures": 10,
+    "current_run_failures": 11,
     "jurisdictions": {
       "AUS-FED": {
         "configured_sources": 10,
@@ -620,13 +624,13 @@
       "AUS-SA": {
         "configured_sources": 3,
         "baseline_sources": 3,
-        "current_run_failures": 0,
+        "current_run_failures": 1,
         "source_classes": [
           "PRIMARY_ELECTORAL_AUTHORITY",
           "PRIMARY_GOVERNMENT",
           "PRIMARY_PARLIAMENT"
         ],
-        "status": "CAPTURE_ACTIVE_FULL_CONFIGURED_BASELINE"
+        "status": "CAPTURE_ACTIVE_DEGRADED_CURRENT_RUN"
       },
       "AUS-TAS": {
         "configured_sources": 3,

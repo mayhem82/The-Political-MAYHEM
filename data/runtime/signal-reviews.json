@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-SIGNAL-REVIEWS-001",
   "created_at": "2026-09-09T05:05:00+10:00",
-  "updated_at": "2026-10-01T05:56:42.425Z",
+  "updated_at": "2026-10-01T13:17:26.357Z",
   "rules": {
     "append_only": true,
     "raw_source_change_is_immutable": true,
@@ -35640,6 +35640,46 @@
           }
         ],
         "delta_hash": "9b939cbdae7f991374a9025b0c9cdceb6be2c41183abb7228853d2fcac59e9dd"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-PM-MEDIA-20261001131630",
+      "source_change_event_id": "CHG-WATCH-PM-MEDIA-20261001131630",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-PM-MEDIA-20261001131630",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Prime Minister of Australia — media added 1 structured publication record to its forward-captured official index: Press conference - Bell Bay, Tasmania",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-10-01T13:17:26.357Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "fabf20208f8637c65e95",
+            "title": "Press conference - Bell Bay, Tasmania",
+            "url": "https://www.pm.gov.au/media/press-conference-bell-bay-tasmania"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "1b710fe6c60b1bceaced",
+            "title": "Australia&#039;s National Statement - United States, New York",
+            "url": "https://www.pm.gov.au/media/australias-national-statement-united-states-new-york"
+          }
+        ],
+        "delta_hash": "f4224d4de49d0d5057abc6f8349e6f39c843bdd5d19e06b47e70914b3a8aa363"
       },
       "integrity": {
         "source_change_unchanged": true,

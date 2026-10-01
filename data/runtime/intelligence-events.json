@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-INTELLIGENCE-EVENTS-001",
   "scope": "Australia — multi-jurisdiction",
-  "captured_at": "2026-10-01T05:56:54.692Z",
+  "captured_at": "2026-10-01T13:17:40.179Z",
   "mode": "FORWARD_ONLY",
   "rules": {
     "observation_distinct_from_inference": true,
@@ -98406,6 +98406,114 @@
           "record_id": "f3b0387a008be268d5f2",
           "title": "Statement from the Treasurer regarding Moody's Ratings",
           "url": "https://statements.qld.gov.au/statements/106152"
+        }
+      ],
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "underlying_publication_claims_not_promoted_to_verified_fact": true,
+        "source_change_parent_retained": true,
+        "deterministic_review": true
+      }
+    },
+    {
+      "event_id": "CHG-WATCH-PM-MEDIA-20261001131630",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-FED",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-PM-MEDIA-20261001131630",
+      "captured_at": "2026-10-01T13:16:30.424Z",
+      "event_date": "2026-10-01",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-PM-MEDIA",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "review_policy": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-PM-MEDIA-20261001055529",
+        "content_hash": "68ec0cc8428c79cc9e3b45d974611363a514aea6cd0c282421d6d46583d57a7c",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-PM-MEDIA-20261001131630",
+        "content_hash": "83a2067df90624d869a92b04330ba29fdf2f30a6d6c5414cd2deca7456305ff8",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "STRUCTURED_RECORD_SET",
+        "records_added": [
+          {
+            "record_id": "fabf20208f8637c65e95",
+            "title": "Press conference - Bell Bay, Tasmania",
+            "url": "https://www.pm.gov.au/media/press-conference-bell-bay-tasmania"
+          }
+        ],
+        "records_removed": [
+          {
+            "record_id": "1b710fe6c60b1bceaced",
+            "title": "Australia&#039;s National Statement - United States, New York",
+            "url": "https://www.pm.gov.au/media/australias-national-statement-united-states-new-york"
+          }
+        ],
+        "added_count": 1,
+        "removed_count": 1,
+        "before_count": 27,
+        "after_count": 27,
+        "delta_hash": "f4224d4de49d0d5057abc6f8349e6f39c843bdd5d19e06b47e70914b3a8aa363"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "SIG-REV-CHG-WATCH-PM-MEDIA-20261001131630",
+      "parent_event_id": "CHG-WATCH-PM-MEDIA-20261001131630",
+      "review_id": "REV-CHG-WATCH-PM-MEDIA-20261001131630",
+      "jurisdiction_id": "AUS-FED",
+      "party_id": null,
+      "actor_id": null,
+      "contest_id": null,
+      "cycle_id": null,
+      "source_snapshot_id": "AUTO-WATCH-PM-MEDIA-20261001131630",
+      "record_id": "fabf20208f8637c65e95",
+      "captured_at": "2026-10-01T13:17:26.357Z",
+      "event_date": "2026-10-01",
+      "checkpoint": "CONTINUOUS_FORWARD_SIGNAL_REVIEW",
+      "event_type": "SIGNAL_CREATED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-PM-MEDIA",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "claim": "Prime Minister of Australia — media added 1 structured publication record to its forward-captured official index: Press conference - Bell Bay, Tasmania",
+      "observed_behaviour": "One or more structured publication records appeared in the monitored official source index after the preceding forward snapshot.",
+      "publication_records_added": [
+        {
+          "record_id": "fabf20208f8637c65e95",
+          "title": "Press conference - Bell Bay, Tasmania",
+          "url": "https://www.pm.gov.au/media/press-conference-bell-bay-tasmania"
+        }
+      ],
+      "publication_records_removed": [
+        {
+          "record_id": "1b710fe6c60b1bceaced",
+          "title": "Australia&#039;s National Statement - United States, New York",
+          "url": "https://www.pm.gov.au/media/australias-national-statement-united-states-new-york"
         }
       ],
       "inference": null,

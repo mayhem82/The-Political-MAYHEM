@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-SIGNAL-REVIEWS-001",
   "created_at": "2026-09-09T05:05:00+10:00",
-  "updated_at": "2026-10-01T18:56:43.467Z",
+  "updated_at": "2026-10-01T23:14:06.969Z",
   "rules": {
     "append_only": true,
     "raw_source_change_is_immutable": true,
@@ -35680,6 +35680,116 @@
           }
         ],
         "delta_hash": "f4224d4de49d0d5057abc6f8349e6f39c843bdd5d19e06b47e70914b3a8aa363"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-GREENS-FEDERAL-MEDIA-20261001231309",
+      "source_change_event_id": "CHG-WATCH-GREENS-FEDERAL-MEDIA-20261001231309",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-GREENS-FEDERAL-MEDIA-20261001231309",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": "AUS-FED-GRN",
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Australian Greens — Federal MPs media releases added 2 structured publication records to its forward-captured official index: Read more about The public servants earning over $1 million; The public servants earning over $1 million",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-10-01T23:14:06.969Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "7c82d8fd9dafb20e3db5",
+            "title": "Read more about The public servants earning over $1 million",
+            "url": "https://greens.org.au/news/media-release/public-servants-earning-over-1-million"
+          },
+          {
+            "record_id": "e568668f7b731d62f7b1",
+            "title": "The public servants earning over $1 million",
+            "url": "https://greens.org.au/news/media-release/public-servants-earning-over-1-million"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "47fbb7f66c885f5b47be",
+            "title": "Apology to LGBTIQA+ veterans",
+            "url": "https://greens.org.au/news/media-release/apology-lgbtiqa-veterans"
+          },
+          {
+            "record_id": "f4da79727e0310b863d8",
+            "title": "Read more about Apology to LGBTIQA+ veterans",
+            "url": "https://greens.org.au/news/media-release/apology-lgbtiqa-veterans"
+          }
+        ],
+        "delta_hash": "78a077ddc794f29a2203e24d8df6efd80d93627fa98737b1574b7eddf915f5a2"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-NSW-MINISTERIAL-RELEASES-20261001231309",
+      "source_change_event_id": "CHG-WATCH-NSW-MINISTERIAL-RELEASES-20261001231309",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-NSW-MINISTERIAL-RELEASES-20261001231309",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "NSW Government — Ministerial releases added 3 structured publication records to its forward-captured official index: Help shape the future of Centennial Parklands; A Re-Elected Minns Labor Government will regulate Labour Hire in NSW; Record breaking year as Sydneysiders flock to Sydney Olympic Park in their millions",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-10-01T23:14:06.969Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "8526751f72a4dff1b061",
+            "title": "Help shape the future of Centennial Parklands",
+            "url": "https://www.nsw.gov.au/ministerial-releases/centennial-parklands-consultation"
+          },
+          {
+            "record_id": "8bbd9e91b0d1ab5b1eef",
+            "title": "A Re-Elected Minns Labor Government will regulate Labour Hire in NSW",
+            "url": "https://www.nsw.gov.au/ministerial-releases/a-re-elected-minns-labor-government-will-regulate-labour-hire-nsw"
+          },
+          {
+            "record_id": "f75e18df2e2493ff7315",
+            "title": "Record breaking year as Sydneysiders flock to Sydney Olympic Park in their millions",
+            "url": "https://www.nsw.gov.au/departments-and-agencies/dciths/ministerial-media-releases/record-breaking-year-as-sydneysiders-flock-to-sydney-olympic-park-their-millions"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "96cdd65d3bd5dfc35833",
+            "title": "New research reveals rapid rise in technology adoption and micro-business growth",
+            "url": "https://www.nsw.gov.au/ministerial-releases/small-business-month-launch"
+          },
+          {
+            "record_id": "99c9df41832683b3f29e",
+            "title": "Minns Labor Government successfully returns Parklea Correctional Centre to public hands",
+            "url": "https://www.nsw.gov.au/ministerial-releases/minns-labor-government-successfully-returns-parklea-correctional-centre-to-public-hands"
+          },
+          {
+            "record_id": "ec68bdfd2adcd4e1a9f1",
+            "title": "Record number of women screened for breast cancer in the past year",
+            "url": "https://www.nsw.gov.au/ministerial-releases/record-number-of-women-screened-for-breast-cancer-past-year"
+          }
+        ],
+        "delta_hash": "066000a6adfe3425a0b1117beb8a95420849d984083af3c2518cf3c5c34837a1"
       },
       "integrity": {
         "source_change_unchanged": true,

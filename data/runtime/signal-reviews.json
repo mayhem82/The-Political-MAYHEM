@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-SIGNAL-REVIEWS-001",
   "created_at": "2026-09-09T05:05:00+10:00",
-  "updated_at": "2026-09-30T23:51:49.475Z",
+  "updated_at": "2026-10-01T05:56:42.425Z",
   "rules": {
     "append_only": true,
     "raw_source_change_is_immutable": true,
@@ -35337,6 +35337,309 @@
           }
         ],
         "delta_hash": "5a3a9a332fd487dabdc86e51eba5d6349eaf34df761df28b8893b460763d623f"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-PM-MEDIA-20261001055529",
+      "source_change_event_id": "CHG-WATCH-PM-MEDIA-20261001055529",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-PM-MEDIA-20261001055529",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Prime Minister of Australia — media added 1 structured publication record to its forward-captured official index: Securing the Future of Bell Bay Aluminium",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-10-01T05:56:42.425Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "d73bc363d583733ef40c",
+            "title": "Securing the Future of Bell Bay Aluminium",
+            "url": "https://www.pm.gov.au/media/securing-future-bell-bay-aluminium"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "c88282112e09e4dfac8e",
+            "title": "Remarks - New York",
+            "url": "https://www.pm.gov.au/media/remarks-new-york"
+          }
+        ],
+        "delta_hash": "3b2f6ebe37a8b745268a45ba76884dc7514c02ebd1369e7ec1bd5b497537d66e"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-ALP-NEWS-20261001055529",
+      "source_change_event_id": "CHG-WATCH-ALP-NEWS-20261001055529",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-ALP-NEWS-20261001055529",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": "AUS-FED-ALP",
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Australian Labor Party — news added 4 structured publication records to its forward-captured official index: Personal care fully funded under Support at Home 1 October 2026; Helping 100k first home buyers into home ownership 1 October 2026; Credit and debit card surcharges end 1 October 2026; First phase of Thriving Kids supports start today 1 October 2026",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-10-01T05:56:42.425Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "3398c10825c19e0376b1",
+            "title": "Personal care fully funded under Support at Home 1 October 2026",
+            "url": "https://www.alp.org.au/news/all-news/personal-care-now-fully-funded-under-support-at-home/"
+          },
+          {
+            "record_id": "849ef7b8c9c2941ecc0f",
+            "title": "Helping 100k first home buyers into home ownership 1 October 2026",
+            "url": "https://www.alp.org.au/news/all-news/helping-100-000-first-home-buyers-into-a-home-of-their-own/"
+          },
+          {
+            "record_id": "9aa0c961bd04d139b169",
+            "title": "Credit and debit card surcharges end 1 October 2026",
+            "url": "https://www.alp.org.au/news/all-news/credit-and-debit-card-surcharges-end/"
+          },
+          {
+            "record_id": "c50a132fc4b5d271d154",
+            "title": "First phase of Thriving Kids supports start today 1 October 2026",
+            "url": "https://www.alp.org.au/news/all-news/first-phase-of-thriving-kids-supports-start-today/"
+          }
+        ],
+        "removed_records": [],
+        "delta_hash": "2c12a3384e6b669e98c096741c5ab0261d8577b33f87aa0c2aa387777402fa74"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-NSW-MINISTERIAL-RELEASES-20261001055529",
+      "source_change_event_id": "CHG-WATCH-NSW-MINISTERIAL-RELEASES-20261001055529",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-NSW-MINISTERIAL-RELEASES-20261001055529",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "NSW Government — Ministerial releases added 5 structured publication records to its forward-captured official index: NSW Sheriff’s officers to be better protected with body-worn video rollout; 125 ways to celebrate unpaid carers in NSW; New training to empower NSW strata committee members; New research reveals rapid rise in technology adoption and micro-business growth; New Awards recognising the next generation of council workers",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-10-01T05:56:42.425Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "1ef779dd1edd5f52eedd",
+            "title": "NSW Sheriff’s officers to be better protected with body-worn video rollout",
+            "url": "https://www.nsw.gov.au/ministerial-releases/body-worn-camera-rollout"
+          },
+          {
+            "record_id": "6d8a67c2c43137e72c3b",
+            "title": "125 ways to celebrate unpaid carers in NSW",
+            "url": "https://www.nsw.gov.au/ministerial-releases/carers-week-events-2026"
+          },
+          {
+            "record_id": "935c141ef04c4399e3cb",
+            "title": "New training to empower NSW strata committee members",
+            "url": "https://www.nsw.gov.au/ministerial-releases/new-training-to-empower-nsw-strata-committee-members"
+          },
+          {
+            "record_id": "96cdd65d3bd5dfc35833",
+            "title": "New research reveals rapid rise in technology adoption and micro-business growth",
+            "url": "https://www.nsw.gov.au/ministerial-releases/small-business-month-launch"
+          },
+          {
+            "record_id": "fb820ea7df94839baf97",
+            "title": "New Awards recognising the next generation of council workers",
+            "url": "https://www.nsw.gov.au/ministerial-releases/new-awards-recognising-next-generation-of-council-workers"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "3130bf9c966081467684",
+            "title": "Life-sustaining therapy now available in Murrumbidgee Local Health District",
+            "url": "https://www.nsw.gov.au/ministerial-releases/life-sustaining-therapy-now-available-murrumbidgee-local-health-district"
+          },
+          {
+            "record_id": "5ca2bb1ff4241fe2643a",
+            "title": "Day-trippers spend record $16.2 billion as short escapes surge",
+            "url": "https://www.nsw.gov.au/departments-and-agencies/dciths/ministerial-media-releases/day-trippers-spend-record-162-billion-as-short-escapes-surge"
+          },
+          {
+            "record_id": "9dd29a900596030cda90",
+            "title": "More than $1.7 million for health facility upgrades across Mid North Coast and Northern NSW",
+            "url": "https://www.nsw.gov.au/ministerial-releases/more-than-17-million-for-health-facility-upgrades-across-mid-north-coast-and-northern-nsw"
+          },
+          {
+            "record_id": "be1aa87e892b9ac45383",
+            "title": "Flood-impacted homeowners first in line for new East Lismore lots",
+            "url": "https://www.nsw.gov.au/ministerial-releases/flood-impacted-homeowners-first-line-for-new-east-lismore-lots"
+          },
+          {
+            "record_id": "d41359117af8113d4ef4",
+            "title": "Nearly $3.4 million for health facility upgrades across Murrumbidgee",
+            "url": "https://www.nsw.gov.au/ministerial-releases/nearly-34-million-for-health-facility-upgrades-across-murrumbidgee"
+          }
+        ],
+        "delta_hash": "63dc272df38b2185e3acfc330593ab12eb295d9c939cd7b68817ed2b41df8474"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261001055529",
+      "source_change_event_id": "CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261001055529",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261001055529",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Queensland Government — Ministerial Media Statements added 7 structured publication records to its forward-captured official index: Security upgrade delivering safer Townsville small business precincts; New appointments for Government business and advisory boards; Next Court of Appeal President and significant judicial appointments announced; More eyes in the sky keeping swimmers safe these school holidays; Doomadgee water security project marks major milestone; +2 more",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-10-01T05:56:42.425Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "22453aeaafd5ae283b5a",
+            "title": "Security upgrade delivering safer Townsville small business precincts",
+            "url": "https://statements.qld.gov.au/statements/106163"
+          },
+          {
+            "record_id": "3228b97899813f3fbe83",
+            "title": "New appointments for Government business and advisory boards",
+            "url": "https://statements.qld.gov.au/statements/106168"
+          },
+          {
+            "record_id": "58ca49fbf2e10a6cc698",
+            "title": "Next Court of Appeal President and significant judicial appointments announced",
+            "url": "https://statements.qld.gov.au/statements/106167"
+          },
+          {
+            "record_id": "61042695c16fffa03719",
+            "title": "More eyes in the sky keeping swimmers safe these school holidays",
+            "url": "https://statements.qld.gov.au/statements/106130"
+          },
+          {
+            "record_id": "a0bd370de5123a750e04",
+            "title": "Doomadgee water security project marks major milestone",
+            "url": "https://statements.qld.gov.au/statements/106162"
+          },
+          {
+            "record_id": "b0583400a655bea58064",
+            "title": "Queensland open for business with record procurement driving Indigenous Business Month momentum",
+            "url": "https://statements.qld.gov.au/statements/106160"
+          },
+          {
+            "record_id": "b637185377258c6d5a40",
+            "title": "Work starts on Petrie TAFE Centre of Excellence",
+            "url": "https://statements.qld.gov.au/statements/106151"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "555911d9cc6efdd33d37",
+            "title": "Queensland Youth Parliament nurtures next generation of leaders",
+            "url": "https://statements.qld.gov.au/statements/106138"
+          },
+          {
+            "record_id": "acc9549326ade41c1c6f",
+            "title": "Works commence on Peak Downs Highway to improve safety and productivity",
+            "url": "https://statements.qld.gov.au/statements/106135"
+          },
+          {
+            "record_id": "c65ab1b57caf89fec66f",
+            "title": "Statement from the Attorney-General",
+            "url": "https://statements.qld.gov.au/statements/106154"
+          },
+          {
+            "record_id": "d24e4acb3bf0f69010c3",
+            "title": "Caloundra Congestion Busting Plan kicks off",
+            "url": "https://statements.qld.gov.au/statements/106155"
+          },
+          {
+            "record_id": "d2c91f084049f416603e",
+            "title": "Queensland visitor economy powers ahead of Destination 2045 projections",
+            "url": "https://statements.qld.gov.au/statements/106146"
+          },
+          {
+            "record_id": "f007f8565fb96f98e0b2",
+            "title": "Growing community gardens in Brisbane continue to flourish with State support",
+            "url": "https://statements.qld.gov.au/statements/106139"
+          },
+          {
+            "record_id": "f3b0387a008be268d5f2",
+            "title": "Statement from the Treasurer regarding Moody's Ratings",
+            "url": "https://statements.qld.gov.au/statements/106152"
+          }
+        ],
+        "delta_hash": "62e237252f0e8e8adc9984077704d560693d30d0dc759f2790b8052ba57f67f9"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-WAEC-MEDIA-20261001055529",
+      "source_change_event_id": "CHG-WATCH-WAEC-MEDIA-20261001055529",
+      "decision": "EXCLUDED_AS_NON_SIGNAL",
+      "signal_event_id": null,
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": null,
+      "materiality_state": "IMMATERIAL",
+      "claim": "Structured publication-index change contained removals only. It is retained as a raw source change but is not automatically promoted into a political signal.",
+      "review_basis": "Deterministic review policy excludes removal-only index changes because disappearance from an index does not establish a political event, reversal or substantive fact.",
+      "reviewed_at": "2026-10-01T05:56:42.425Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [],
+        "removed_records": [
+          {
+            "record_id": "c4143d0e7d073a8e03a9",
+            "title": "Current Elections",
+            "url": "https://www.elections.wa.gov.au/2026-september-local-government-extraordinary-elections"
+          }
+        ],
+        "delta_hash": "9b939cbdae7f991374a9025b0c9cdceb6be2c41183abb7228853d2fcac59e9dd"
       },
       "integrity": {
         "source_change_unchanged": true,

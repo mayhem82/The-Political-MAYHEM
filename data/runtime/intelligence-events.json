@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-INTELLIGENCE-EVENTS-001",
   "scope": "Australia — multi-jurisdiction",
-  "captured_at": "2026-09-30T23:52:01.746Z",
+  "captured_at": "2026-10-01T05:56:54.692Z",
   "mode": "FORWARD_ONLY",
   "rules": {
     "observation_distinct_from_inference": true,
@@ -97657,6 +97657,755 @@
           "record_id": "e5c0268d5a4a42d863f6",
           "title": "Copperstring becoming a reality in North Queensland",
           "url": "https://statements.qld.gov.au/statements/106143"
+        }
+      ],
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "underlying_publication_claims_not_promoted_to_verified_fact": true,
+        "source_change_parent_retained": true,
+        "deterministic_review": true
+      }
+    },
+    {
+      "event_id": "CHG-WATCH-PM-MEDIA-20261001055529",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-FED",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-PM-MEDIA-20261001055529",
+      "captured_at": "2026-10-01T05:55:29.722Z",
+      "event_date": "2026-10-01",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-PM-MEDIA",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "review_policy": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-PM-MEDIA-20260930235042",
+        "content_hash": "534805b416676dbded0989a464d15b72828855a47acf506f19678afab4256e23",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-PM-MEDIA-20261001055529",
+        "content_hash": "68ec0cc8428c79cc9e3b45d974611363a514aea6cd0c282421d6d46583d57a7c",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "STRUCTURED_RECORD_SET",
+        "records_added": [
+          {
+            "record_id": "d73bc363d583733ef40c",
+            "title": "Securing the Future of Bell Bay Aluminium",
+            "url": "https://www.pm.gov.au/media/securing-future-bell-bay-aluminium"
+          }
+        ],
+        "records_removed": [
+          {
+            "record_id": "c88282112e09e4dfac8e",
+            "title": "Remarks - New York",
+            "url": "https://www.pm.gov.au/media/remarks-new-york"
+          }
+        ],
+        "added_count": 1,
+        "removed_count": 1,
+        "before_count": 27,
+        "after_count": 27,
+        "delta_hash": "3b2f6ebe37a8b745268a45ba76884dc7514c02ebd1369e7ec1bd5b497537d66e"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-ALP-NEWS-20261001055529",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-FED",
+      "party_id": "AUS-FED-ALP",
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-ALP-NEWS-20261001055529",
+      "captured_at": "2026-10-01T05:55:29.722Z",
+      "event_date": "2026-10-01",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_PARTY",
+      "source_id": "SRC-ALP-FEDERAL-NEWS",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "review_policy": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-ALP-NEWS-20260929083141",
+        "content_hash": "74b1bd14e4a14d3f98fba81334409299739c817623a03058215d2882361213dc",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-ALP-NEWS-20261001055529",
+        "content_hash": "244bb795aa9fbd3d1db1e26896a83ccf90c0697116e1015fc691c07c7050020f",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "STRUCTURED_RECORD_SET",
+        "records_added": [
+          {
+            "record_id": "3398c10825c19e0376b1",
+            "title": "Personal care fully funded under Support at Home 1 October 2026",
+            "url": "https://www.alp.org.au/news/all-news/personal-care-now-fully-funded-under-support-at-home/"
+          },
+          {
+            "record_id": "849ef7b8c9c2941ecc0f",
+            "title": "Helping 100k first home buyers into home ownership 1 October 2026",
+            "url": "https://www.alp.org.au/news/all-news/helping-100-000-first-home-buyers-into-a-home-of-their-own/"
+          },
+          {
+            "record_id": "9aa0c961bd04d139b169",
+            "title": "Credit and debit card surcharges end 1 October 2026",
+            "url": "https://www.alp.org.au/news/all-news/credit-and-debit-card-surcharges-end/"
+          },
+          {
+            "record_id": "c50a132fc4b5d271d154",
+            "title": "First phase of Thriving Kids supports start today 1 October 2026",
+            "url": "https://www.alp.org.au/news/all-news/first-phase-of-thriving-kids-supports-start-today/"
+          }
+        ],
+        "records_removed": [],
+        "added_count": 4,
+        "removed_count": 0,
+        "before_count": 478,
+        "after_count": 482,
+        "delta_hash": "2c12a3384e6b669e98c096741c5ab0261d8577b33f87aa0c2aa387777402fa74"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-LIBERAL-HOME-20261001055529",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-FED",
+      "party_id": "AUS-FED-LIB",
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-LIBERAL-HOME-20261001055529",
+      "captured_at": "2026-10-01T05:55:29.722Z",
+      "event_date": "2026-10-01",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_PARTY",
+      "source_id": "SRC-LIBERAL-FEDERAL-HOME",
+      "capture_mode": "NORMALISED_PAGE_HASH",
+      "review_policy": "REVIEW_UNSTRUCTURED_CHANGE",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-LIBERAL-HOME-20260930192131",
+        "content_hash": "f749f6b805e23541ebc58393888a43579ffb085e17389ca94893e6dcc5bcbe5b",
+        "capture_mode": "NORMALISED_PAGE_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-LIBERAL-HOME-20261001055529",
+        "content_hash": "a14a67a1430e490871448e1c17d58293cf4bb15cf24a8e2e34b420ed5bcaa706",
+        "capture_mode": "NORMALISED_PAGE_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "TEXT_REPRESENTATION",
+        "first_difference_offset": 1434,
+        "before_length": 6977,
+        "after_length": 6976,
+        "before_excerpt": "sition in the Senate Meet the Liberal Team The Latest Stay up to date with the Liberal Party of Australia angustaylormp Labor’s spending has grown faster than the economy, adding to inflation and putting pressure on interest rates. The Coalition will cut spending, cut waste and shrink the growth of government. We will stop programs that are not delivering and make government live within its means. Australians deserve a government that lives within its means, rewards work and takes responsibility for its decisions. Sep 30 Open post by angustaylormp with ID 17974009430942660 liberalaus Hey Jim, remember this? Sep 30 Open post by liberalaus with ID 18090532445423380 senatorhume Interest rates are at their highest level in 15 years and Labor’s reckless spending is to blame. Sep 30 Open post by senatorhume with ID 18458428387140701 liberalaus Labor’s spending is out of control and it’s keeping inflation and interest rates higher for longer, hurting all Australians. Sep 30 Open post by liberalaus with ID 17973803463154966 angustaylormp It’s never their fault. The Government needs to cut spending so Australians can get some relief. Sep 30 Open post by angustaylormp with ID 18132242254741083 liberalaus Under Labor, spending as a share of the economy is the highest in 40 years, outside the pandemic. That fuels inflation, which is also higher than any major advanced economy. Sep 30 Open post by liberalaus with ID 18103197191300947 liberalaus Jim Chalmers is in denial about his spending problem and everyday Australians are the ones who are paying his bill. Sep 30 Open post by liberalaus with ID 17895857367608930 liberalaus Under Labor, Australians pay more. Sep 29 Open post by liberalaus with ID 18025873622699624 liberalaus Labor blames global events. But you can`t be unlucky 16 times. While families have tightened their belts, Anthony Albanese hasn’t. Under Labor, spending as a share of the economy is the highest in 40 years, outside the pandemic. That fuels inflation, which is higher than any major advanced economy. Sep 29 Open post by liberalaus with ID 18356779057222570 liberalaus Labor’s record spending means higher inflation, putting upward pressure interest rates. The Liberals and Nationals will put a speed limit on spending and restore budget discipline. We will cut taxes, back small business and slash red tape to lift productivity and grow the economy, without fuelling inflation. That is how we ease inflation and interest rates, and lift living standards. Sep 29 Open post by liberalaus with ID 18138955402536033 liberalaus At 4.6%, our cash rate is higher than any major advanced economy, and the highest here in 15 years. While families have tightened their belts, Anthony Albanese hasn’t. Sep 29 Open post by liberalaus with ID 18101567036623291 angustaylormp Anthony Albanese has broken the economy. Only the Coalition has the team and the plan to fix it. Sep 29 Open post by angustaylormp with ID 17918183823450224 liberalaus Labor blames global events. But you can`t be unlucky 16 times. The Liberals and Nationals have a plan. We will put a speed limit on spending and restore budget discipline. We will cut taxes, back small business and slash red tape to lift productivity and grow the economy without fuelling inflation. That is how we ease inflation and interest rates, and lift living standards. Sep 29 Open post by liberalaus with ID 17912663088537960 liberalaus Under Labor, spending as a share of the economy is the highest in 40 years, outside the pandemic. That fuels inflation, which is also higher than any major advanced economy. Sep 29 Open post by liberalaus with ID 18490345087098607 angustaylormp Today’s rate rise takes the cash rate to 4.60%, its highest level in 15 years. Families have tightened their belts but Anthony Albanese hasn’t. Australians are paying the price for the government’s higher spending which is fuelling inflation and higher interest rates. Life has only got harder under Labor. The Coalition will fix the economy. We will axe Labor’s toxic taxes, put a speed limit on spending and lower taxes. Sep 29 Open post by angustaylormp with ID 18097664003296438 liberalaus Today, the Reserve Bank has raised interest rates again. Labor is trying to blame global events. However, the facts tell a different story. Sep 29 Open post by liberalaus with ID 18244038196310638 angustaylormp On National Police Remembrance Day, to all our police officers we thank you for your service, your courage and your commitment to keeping Australians safe. With honour they serve. With honour, we remember those who gave their lives in that service. Sep 29 Open post by angustaylormp with ID 18117378065057887 liberalaus Labor’s lost control of its spending and they’re blaming everyone else for what they’ve done. The Liberals and Nationals have a plan that will get government spending under control. Sep 28 Open post by liberalaus with ID 18631493374003849 We need your support to win! Help us by making a donation today. 🙏🏼 $30 👏🏼 $60 😃 $120 😁 $500 😲 $1,000 🥹 $2,000 ",
+        "after_excerpt": "sition in the Senate Meet the Liberal Team The Latest Stay up to date with the Liberal Party of Australia angustaylormp Card surcharging: Australians aren’t mugs. A small business still has to process your card. If that cost isn’t on the receipt, it has to be absorbed or built into the price. If the Prime Minister really wants to bring prices down, he should start with the biggest cost Australians are facing: a government that has lost control of spending, inflation and the economy. Oct 1 Open post by angustaylormp with ID 17911041627550518 liberalaus Many families will be at the kitchen table, doing the mortgage sums. After 16 rate rises, an average new mortgage now costs over $30,000 a year more in interest than when Labor was elected. Their loan will take longer and cost more to repay, eating into money meant for groceries and bills. Oct 1 Open post by liberalaus with ID 17949833847336492 liberalaus The Liberals and Nationals have a plan. We will put a speed limit on spending and restore budget discipline. We will cut taxes, back small business and slash red tape to lift productivity and grow the economy without fuelling inflation. That is how we ease inflation and interest rates, and lift living standards. Oct 1 Open post by liberalaus with ID 18127652833830668 liberalaus You cannot keep spending more, taxing more and driving up costs, then pretend inflation and interest rates have nothing to do with you. Sep 30 Open post by liberalaus with ID 18170161627481837 liberalaus Life is more expensive under Labor. Nothing’s easy under Albanese. Sep 30 Open post by liberalaus with ID 18170968318457038 angustaylormp Labor’s spending has grown faster than the economy, adding to inflation and putting pressure on interest rates. The Coalition will cut spending, cut waste and shrink the growth of government. We will stop programs that are not delivering and make government live within its means. Australians deserve a government that lives within its means, rewards work and takes responsibility for its decisions. Sep 30 Open post by angustaylormp with ID 17974009430942660 liberalaus Hey Jim, remember this? Sep 30 Open post by liberalaus with ID 18090532445423380 senatorhume Interest rates are at their highest level in 15 years and Labor’s reckless spending is to blame. Sep 30 Open post by senatorhume with ID 18458428387140701 liberalaus Labor’s spending is out of control and it’s keeping inflation and interest rates higher for longer, hurting all Australians. Sep 30 Open post by liberalaus with ID 17973803463154966 angustaylormp It’s never their fault. The Government needs to cut spending so Australians can get some relief. Sep 30 Open post by angustaylormp with ID 18132242254741083 liberalaus Under Labor, spending as a share of the economy is the highest in 40 years, outside the pandemic. That fuels inflation, which is also higher than any major advanced economy. Sep 30 Open post by liberalaus with ID 18103197191300947 liberalaus Jim Chalmers is in denial about his spending problem and everyday Australians are the ones who are paying his bill. Sep 30 Open post by liberalaus with ID 17895857367608930 liberalaus Under Labor, Australians pay more. Sep 29 Open post by liberalaus with ID 18025873622699624 liberalaus Labor blames global events. But you can`t be unlucky 16 times. While families have tightened their belts, Anthony Albanese hasn’t. Under Labor, spending as a share of the economy is the highest in 40 years, outside the pandemic. That fuels inflation, which is higher than any major advanced economy. Sep 29 Open post by liberalaus with ID 18356779057222570 liberalaus Labor’s record spending means higher inflation, putting upward pressure interest rates. The Liberals and Nationals will put a speed limit on spending and restore budget discipline. We will cut taxes, back small business and slash red tape to lift productivity and grow the economy, without fuelling inflation. That is how we ease inflation and interest rates, and lift living standards. Sep 29 Open post by liberalaus with ID 18138955402536033 liberalaus At 4.6%, our cash rate is higher than any major advanced economy, and the highest here in 15 years. While families have tightened their belts, Anthony Albanese hasn’t. Sep 29 Open post by liberalaus with ID 18101567036623291 angustaylormp Anthony Albanese has broken the economy. Only the Coalition has the team and the plan to fix it. Sep 29 Open post by angustaylormp with ID 17918183823450224 liberalaus Labor blames global events. But you can`t be unlucky 16 times. The Liberals and Nationals have a plan. We will put a speed limit on spending and restore budget discipline. We will cut taxes, back small business and slash red tape to lift productivity and grow the economy without fuelling inflation. That is how we ease inflation and interest rates, and lift living standards. Sep 29 Open post by liberalaus with ID 17912663088537960 We need your support to win! Help us by making a donation today. 🙏🏼 $30 👏🏼 $60 😃 $120 😁 $500 😲 $1,000 🥹 $2,000 ",
+        "delta_hash": "f5c5d4a703cc664ea82e3a4114e499c23c516980d7e520a288a9f349e9e6c27f"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-NSW-MINISTERIAL-RELEASES-20261001055529",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-NSW",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-NSW-MINISTERIAL-RELEASES-20261001055529",
+      "captured_at": "2026-10-01T05:55:29.722Z",
+      "event_date": "2026-10-01",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-NSW-MINISTERIAL-RELEASES",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "review_policy": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-NSW-MINISTERIAL-RELEASES-20260930235042",
+        "content_hash": "9081aa4bfe87d9f73b2f020af167e1547068101961bbc7b4c4d094e3dfa32dfc",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-NSW-MINISTERIAL-RELEASES-20261001055529",
+        "content_hash": "23e4d4b29fc916d37db9181327ee6ed2e17a0c2e72ee24340c7a2e928bfaa4a7",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "STRUCTURED_RECORD_SET",
+        "records_added": [
+          {
+            "record_id": "1ef779dd1edd5f52eedd",
+            "title": "NSW Sheriff’s officers to be better protected with body-worn video rollout",
+            "url": "https://www.nsw.gov.au/ministerial-releases/body-worn-camera-rollout"
+          },
+          {
+            "record_id": "6d8a67c2c43137e72c3b",
+            "title": "125 ways to celebrate unpaid carers in NSW",
+            "url": "https://www.nsw.gov.au/ministerial-releases/carers-week-events-2026"
+          },
+          {
+            "record_id": "935c141ef04c4399e3cb",
+            "title": "New training to empower NSW strata committee members",
+            "url": "https://www.nsw.gov.au/ministerial-releases/new-training-to-empower-nsw-strata-committee-members"
+          },
+          {
+            "record_id": "96cdd65d3bd5dfc35833",
+            "title": "New research reveals rapid rise in technology adoption and micro-business growth",
+            "url": "https://www.nsw.gov.au/ministerial-releases/small-business-month-launch"
+          },
+          {
+            "record_id": "fb820ea7df94839baf97",
+            "title": "New Awards recognising the next generation of council workers",
+            "url": "https://www.nsw.gov.au/ministerial-releases/new-awards-recognising-next-generation-of-council-workers"
+          }
+        ],
+        "records_removed": [
+          {
+            "record_id": "3130bf9c966081467684",
+            "title": "Life-sustaining therapy now available in Murrumbidgee Local Health District",
+            "url": "https://www.nsw.gov.au/ministerial-releases/life-sustaining-therapy-now-available-murrumbidgee-local-health-district"
+          },
+          {
+            "record_id": "5ca2bb1ff4241fe2643a",
+            "title": "Day-trippers spend record $16.2 billion as short escapes surge",
+            "url": "https://www.nsw.gov.au/departments-and-agencies/dciths/ministerial-media-releases/day-trippers-spend-record-162-billion-as-short-escapes-surge"
+          },
+          {
+            "record_id": "9dd29a900596030cda90",
+            "title": "More than $1.7 million for health facility upgrades across Mid North Coast and Northern NSW",
+            "url": "https://www.nsw.gov.au/ministerial-releases/more-than-17-million-for-health-facility-upgrades-across-mid-north-coast-and-northern-nsw"
+          },
+          {
+            "record_id": "be1aa87e892b9ac45383",
+            "title": "Flood-impacted homeowners first in line for new East Lismore lots",
+            "url": "https://www.nsw.gov.au/ministerial-releases/flood-impacted-homeowners-first-line-for-new-east-lismore-lots"
+          },
+          {
+            "record_id": "d41359117af8113d4ef4",
+            "title": "Nearly $3.4 million for health facility upgrades across Murrumbidgee",
+            "url": "https://www.nsw.gov.au/ministerial-releases/nearly-34-million-for-health-facility-upgrades-across-murrumbidgee"
+          }
+        ],
+        "added_count": 5,
+        "removed_count": 5,
+        "before_count": 88,
+        "after_count": 88,
+        "delta_hash": "63dc272df38b2185e3acfc330593ab12eb295d9c939cd7b68817ed2b41df8474"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261001055529",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-QLD",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-QLD-MINISTERIAL-STATEMENTS-20261001055529",
+      "captured_at": "2026-10-01T05:55:29.722Z",
+      "event_date": "2026-10-01",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-QLD-MINISTERIAL-STATEMENTS",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "review_policy": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-QLD-MINISTERIAL-STATEMENTS-20260930235042",
+        "content_hash": "64d6d6a9b9437b55df2de5207a3a3189936fb88562438e8d9a9e18d0fdc1f758",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-QLD-MINISTERIAL-STATEMENTS-20261001055529",
+        "content_hash": "73be3f17a523919e4681a9254f911c51abf6aa965cd3cc50c9477671f0c25038",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "STRUCTURED_RECORD_SET",
+        "records_added": [
+          {
+            "record_id": "22453aeaafd5ae283b5a",
+            "title": "Security upgrade delivering safer Townsville small business precincts",
+            "url": "https://statements.qld.gov.au/statements/106163"
+          },
+          {
+            "record_id": "3228b97899813f3fbe83",
+            "title": "New appointments for Government business and advisory boards",
+            "url": "https://statements.qld.gov.au/statements/106168"
+          },
+          {
+            "record_id": "58ca49fbf2e10a6cc698",
+            "title": "Next Court of Appeal President and significant judicial appointments announced",
+            "url": "https://statements.qld.gov.au/statements/106167"
+          },
+          {
+            "record_id": "61042695c16fffa03719",
+            "title": "More eyes in the sky keeping swimmers safe these school holidays",
+            "url": "https://statements.qld.gov.au/statements/106130"
+          },
+          {
+            "record_id": "a0bd370de5123a750e04",
+            "title": "Doomadgee water security project marks major milestone",
+            "url": "https://statements.qld.gov.au/statements/106162"
+          },
+          {
+            "record_id": "b0583400a655bea58064",
+            "title": "Queensland open for business with record procurement driving Indigenous Business Month momentum",
+            "url": "https://statements.qld.gov.au/statements/106160"
+          },
+          {
+            "record_id": "b637185377258c6d5a40",
+            "title": "Work starts on Petrie TAFE Centre of Excellence",
+            "url": "https://statements.qld.gov.au/statements/106151"
+          }
+        ],
+        "records_removed": [
+          {
+            "record_id": "555911d9cc6efdd33d37",
+            "title": "Queensland Youth Parliament nurtures next generation of leaders",
+            "url": "https://statements.qld.gov.au/statements/106138"
+          },
+          {
+            "record_id": "acc9549326ade41c1c6f",
+            "title": "Works commence on Peak Downs Highway to improve safety and productivity",
+            "url": "https://statements.qld.gov.au/statements/106135"
+          },
+          {
+            "record_id": "c65ab1b57caf89fec66f",
+            "title": "Statement from the Attorney-General",
+            "url": "https://statements.qld.gov.au/statements/106154"
+          },
+          {
+            "record_id": "d24e4acb3bf0f69010c3",
+            "title": "Caloundra Congestion Busting Plan kicks off",
+            "url": "https://statements.qld.gov.au/statements/106155"
+          },
+          {
+            "record_id": "d2c91f084049f416603e",
+            "title": "Queensland visitor economy powers ahead of Destination 2045 projections",
+            "url": "https://statements.qld.gov.au/statements/106146"
+          },
+          {
+            "record_id": "f007f8565fb96f98e0b2",
+            "title": "Growing community gardens in Brisbane continue to flourish with State support",
+            "url": "https://statements.qld.gov.au/statements/106139"
+          },
+          {
+            "record_id": "f3b0387a008be268d5f2",
+            "title": "Statement from the Treasurer regarding Moody's Ratings",
+            "url": "https://statements.qld.gov.au/statements/106152"
+          }
+        ],
+        "added_count": 7,
+        "removed_count": 7,
+        "before_count": 16,
+        "after_count": 16,
+        "delta_hash": "62e237252f0e8e8adc9984077704d560693d30d0dc759f2790b8052ba57f67f9"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-WAEC-MEDIA-20261001055529",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-WA",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-WAEC-MEDIA-20261001055529",
+      "captured_at": "2026-10-01T05:55:29.722Z",
+      "event_date": "2026-10-01",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_ELECTORAL_AUTHORITY",
+      "source_id": "SRC-WAEC-MEDIA",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "review_policy": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-WAEC-MEDIA-20260925074943",
+        "content_hash": "4c98742156439c068dde2b211875b49cf5bc20ebdfd59130c6498c9736c67484",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-WAEC-MEDIA-20261001055529",
+        "content_hash": "352c95582dd082d3d63153c2d104f96122c4f4f47d8504dea0d5610e4e5064d2",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "STRUCTURED_RECORD_SET",
+        "records_added": [],
+        "records_removed": [
+          {
+            "record_id": "c4143d0e7d073a8e03a9",
+            "title": "Current Elections",
+            "url": "https://www.elections.wa.gov.au/2026-september-local-government-extraordinary-elections"
+          }
+        ],
+        "added_count": 0,
+        "removed_count": 1,
+        "before_count": 96,
+        "after_count": 95,
+        "delta_hash": "9b939cbdae7f991374a9025b0c9cdceb6be2c41183abb7228853d2fcac59e9dd"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "SIG-REV-CHG-WATCH-PM-MEDIA-20261001055529",
+      "parent_event_id": "CHG-WATCH-PM-MEDIA-20261001055529",
+      "review_id": "REV-CHG-WATCH-PM-MEDIA-20261001055529",
+      "jurisdiction_id": "AUS-FED",
+      "party_id": null,
+      "actor_id": null,
+      "contest_id": null,
+      "cycle_id": null,
+      "source_snapshot_id": "AUTO-WATCH-PM-MEDIA-20261001055529",
+      "record_id": "d73bc363d583733ef40c",
+      "captured_at": "2026-10-01T05:56:42.425Z",
+      "event_date": "2026-10-01",
+      "checkpoint": "CONTINUOUS_FORWARD_SIGNAL_REVIEW",
+      "event_type": "SIGNAL_CREATED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-PM-MEDIA",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "claim": "Prime Minister of Australia — media added 1 structured publication record to its forward-captured official index: Securing the Future of Bell Bay Aluminium",
+      "observed_behaviour": "One or more structured publication records appeared in the monitored official source index after the preceding forward snapshot.",
+      "publication_records_added": [
+        {
+          "record_id": "d73bc363d583733ef40c",
+          "title": "Securing the Future of Bell Bay Aluminium",
+          "url": "https://www.pm.gov.au/media/securing-future-bell-bay-aluminium"
+        }
+      ],
+      "publication_records_removed": [
+        {
+          "record_id": "c88282112e09e4dfac8e",
+          "title": "Remarks - New York",
+          "url": "https://www.pm.gov.au/media/remarks-new-york"
+        }
+      ],
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "underlying_publication_claims_not_promoted_to_verified_fact": true,
+        "source_change_parent_retained": true,
+        "deterministic_review": true
+      }
+    },
+    {
+      "event_id": "SIG-REV-CHG-WATCH-ALP-NEWS-20261001055529",
+      "parent_event_id": "CHG-WATCH-ALP-NEWS-20261001055529",
+      "review_id": "REV-CHG-WATCH-ALP-NEWS-20261001055529",
+      "jurisdiction_id": "AUS-FED",
+      "party_id": "AUS-FED-ALP",
+      "actor_id": null,
+      "contest_id": null,
+      "cycle_id": null,
+      "source_snapshot_id": "AUTO-WATCH-ALP-NEWS-20261001055529",
+      "record_id": null,
+      "captured_at": "2026-10-01T05:56:42.425Z",
+      "event_date": "2026-10-01",
+      "checkpoint": "CONTINUOUS_FORWARD_SIGNAL_REVIEW",
+      "event_type": "SIGNAL_CREATED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_PARTY",
+      "source_id": "SRC-ALP-FEDERAL-NEWS",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "claim": "Australian Labor Party — news added 4 structured publication records to its forward-captured official index: Personal care fully funded under Support at Home 1 October 2026; Helping 100k first home buyers into home ownership 1 October 2026; Credit and debit card surcharges end 1 October 2026; First phase of Thriving Kids supports start today 1 October 2026",
+      "observed_behaviour": "One or more structured publication records appeared in the monitored official source index after the preceding forward snapshot.",
+      "publication_records_added": [
+        {
+          "record_id": "3398c10825c19e0376b1",
+          "title": "Personal care fully funded under Support at Home 1 October 2026",
+          "url": "https://www.alp.org.au/news/all-news/personal-care-now-fully-funded-under-support-at-home/"
+        },
+        {
+          "record_id": "849ef7b8c9c2941ecc0f",
+          "title": "Helping 100k first home buyers into home ownership 1 October 2026",
+          "url": "https://www.alp.org.au/news/all-news/helping-100-000-first-home-buyers-into-a-home-of-their-own/"
+        },
+        {
+          "record_id": "9aa0c961bd04d139b169",
+          "title": "Credit and debit card surcharges end 1 October 2026",
+          "url": "https://www.alp.org.au/news/all-news/credit-and-debit-card-surcharges-end/"
+        },
+        {
+          "record_id": "c50a132fc4b5d271d154",
+          "title": "First phase of Thriving Kids supports start today 1 October 2026",
+          "url": "https://www.alp.org.au/news/all-news/first-phase-of-thriving-kids-supports-start-today/"
+        }
+      ],
+      "publication_records_removed": [],
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "underlying_publication_claims_not_promoted_to_verified_fact": true,
+        "source_change_parent_retained": true,
+        "deterministic_review": true
+      }
+    },
+    {
+      "event_id": "SIG-REV-CHG-WATCH-NSW-MINISTERIAL-RELEASES-20261001055529",
+      "parent_event_id": "CHG-WATCH-NSW-MINISTERIAL-RELEASES-20261001055529",
+      "review_id": "REV-CHG-WATCH-NSW-MINISTERIAL-RELEASES-20261001055529",
+      "jurisdiction_id": "AUS-NSW",
+      "party_id": null,
+      "actor_id": null,
+      "contest_id": null,
+      "cycle_id": null,
+      "source_snapshot_id": "AUTO-WATCH-NSW-MINISTERIAL-RELEASES-20261001055529",
+      "record_id": null,
+      "captured_at": "2026-10-01T05:56:42.425Z",
+      "event_date": "2026-10-01",
+      "checkpoint": "CONTINUOUS_FORWARD_SIGNAL_REVIEW",
+      "event_type": "SIGNAL_CREATED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-NSW-MINISTERIAL-RELEASES",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "claim": "NSW Government — Ministerial releases added 5 structured publication records to its forward-captured official index: NSW Sheriff’s officers to be better protected with body-worn video rollout; 125 ways to celebrate unpaid carers in NSW; New training to empower NSW strata committee members; New research reveals rapid rise in technology adoption and micro-business growth; New Awards recognising the next generation of council workers",
+      "observed_behaviour": "One or more structured publication records appeared in the monitored official source index after the preceding forward snapshot.",
+      "publication_records_added": [
+        {
+          "record_id": "1ef779dd1edd5f52eedd",
+          "title": "NSW Sheriff’s officers to be better protected with body-worn video rollout",
+          "url": "https://www.nsw.gov.au/ministerial-releases/body-worn-camera-rollout"
+        },
+        {
+          "record_id": "6d8a67c2c43137e72c3b",
+          "title": "125 ways to celebrate unpaid carers in NSW",
+          "url": "https://www.nsw.gov.au/ministerial-releases/carers-week-events-2026"
+        },
+        {
+          "record_id": "935c141ef04c4399e3cb",
+          "title": "New training to empower NSW strata committee members",
+          "url": "https://www.nsw.gov.au/ministerial-releases/new-training-to-empower-nsw-strata-committee-members"
+        },
+        {
+          "record_id": "96cdd65d3bd5dfc35833",
+          "title": "New research reveals rapid rise in technology adoption and micro-business growth",
+          "url": "https://www.nsw.gov.au/ministerial-releases/small-business-month-launch"
+        },
+        {
+          "record_id": "fb820ea7df94839baf97",
+          "title": "New Awards recognising the next generation of council workers",
+          "url": "https://www.nsw.gov.au/ministerial-releases/new-awards-recognising-next-generation-of-council-workers"
+        }
+      ],
+      "publication_records_removed": [
+        {
+          "record_id": "3130bf9c966081467684",
+          "title": "Life-sustaining therapy now available in Murrumbidgee Local Health District",
+          "url": "https://www.nsw.gov.au/ministerial-releases/life-sustaining-therapy-now-available-murrumbidgee-local-health-district"
+        },
+        {
+          "record_id": "5ca2bb1ff4241fe2643a",
+          "title": "Day-trippers spend record $16.2 billion as short escapes surge",
+          "url": "https://www.nsw.gov.au/departments-and-agencies/dciths/ministerial-media-releases/day-trippers-spend-record-162-billion-as-short-escapes-surge"
+        },
+        {
+          "record_id": "9dd29a900596030cda90",
+          "title": "More than $1.7 million for health facility upgrades across Mid North Coast and Northern NSW",
+          "url": "https://www.nsw.gov.au/ministerial-releases/more-than-17-million-for-health-facility-upgrades-across-mid-north-coast-and-northern-nsw"
+        },
+        {
+          "record_id": "be1aa87e892b9ac45383",
+          "title": "Flood-impacted homeowners first in line for new East Lismore lots",
+          "url": "https://www.nsw.gov.au/ministerial-releases/flood-impacted-homeowners-first-line-for-new-east-lismore-lots"
+        },
+        {
+          "record_id": "d41359117af8113d4ef4",
+          "title": "Nearly $3.4 million for health facility upgrades across Murrumbidgee",
+          "url": "https://www.nsw.gov.au/ministerial-releases/nearly-34-million-for-health-facility-upgrades-across-murrumbidgee"
+        }
+      ],
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "underlying_publication_claims_not_promoted_to_verified_fact": true,
+        "source_change_parent_retained": true,
+        "deterministic_review": true
+      }
+    },
+    {
+      "event_id": "SIG-REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261001055529",
+      "parent_event_id": "CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261001055529",
+      "review_id": "REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261001055529",
+      "jurisdiction_id": "AUS-QLD",
+      "party_id": null,
+      "actor_id": null,
+      "contest_id": null,
+      "cycle_id": null,
+      "source_snapshot_id": "AUTO-WATCH-QLD-MINISTERIAL-STATEMENTS-20261001055529",
+      "record_id": null,
+      "captured_at": "2026-10-01T05:56:42.425Z",
+      "event_date": "2026-10-01",
+      "checkpoint": "CONTINUOUS_FORWARD_SIGNAL_REVIEW",
+      "event_type": "SIGNAL_CREATED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-QLD-MINISTERIAL-STATEMENTS",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "claim": "Queensland Government — Ministerial Media Statements added 7 structured publication records to its forward-captured official index: Security upgrade delivering safer Townsville small business precincts; New appointments for Government business and advisory boards; Next Court of Appeal President and significant judicial appointments announced; More eyes in the sky keeping swimmers safe these school holidays; Doomadgee water security project marks major milestone; +2 more",
+      "observed_behaviour": "One or more structured publication records appeared in the monitored official source index after the preceding forward snapshot.",
+      "publication_records_added": [
+        {
+          "record_id": "22453aeaafd5ae283b5a",
+          "title": "Security upgrade delivering safer Townsville small business precincts",
+          "url": "https://statements.qld.gov.au/statements/106163"
+        },
+        {
+          "record_id": "3228b97899813f3fbe83",
+          "title": "New appointments for Government business and advisory boards",
+          "url": "https://statements.qld.gov.au/statements/106168"
+        },
+        {
+          "record_id": "58ca49fbf2e10a6cc698",
+          "title": "Next Court of Appeal President and significant judicial appointments announced",
+          "url": "https://statements.qld.gov.au/statements/106167"
+        },
+        {
+          "record_id": "61042695c16fffa03719",
+          "title": "More eyes in the sky keeping swimmers safe these school holidays",
+          "url": "https://statements.qld.gov.au/statements/106130"
+        },
+        {
+          "record_id": "a0bd370de5123a750e04",
+          "title": "Doomadgee water security project marks major milestone",
+          "url": "https://statements.qld.gov.au/statements/106162"
+        },
+        {
+          "record_id": "b0583400a655bea58064",
+          "title": "Queensland open for business with record procurement driving Indigenous Business Month momentum",
+          "url": "https://statements.qld.gov.au/statements/106160"
+        },
+        {
+          "record_id": "b637185377258c6d5a40",
+          "title": "Work starts on Petrie TAFE Centre of Excellence",
+          "url": "https://statements.qld.gov.au/statements/106151"
+        }
+      ],
+      "publication_records_removed": [
+        {
+          "record_id": "555911d9cc6efdd33d37",
+          "title": "Queensland Youth Parliament nurtures next generation of leaders",
+          "url": "https://statements.qld.gov.au/statements/106138"
+        },
+        {
+          "record_id": "acc9549326ade41c1c6f",
+          "title": "Works commence on Peak Downs Highway to improve safety and productivity",
+          "url": "https://statements.qld.gov.au/statements/106135"
+        },
+        {
+          "record_id": "c65ab1b57caf89fec66f",
+          "title": "Statement from the Attorney-General",
+          "url": "https://statements.qld.gov.au/statements/106154"
+        },
+        {
+          "record_id": "d24e4acb3bf0f69010c3",
+          "title": "Caloundra Congestion Busting Plan kicks off",
+          "url": "https://statements.qld.gov.au/statements/106155"
+        },
+        {
+          "record_id": "d2c91f084049f416603e",
+          "title": "Queensland visitor economy powers ahead of Destination 2045 projections",
+          "url": "https://statements.qld.gov.au/statements/106146"
+        },
+        {
+          "record_id": "f007f8565fb96f98e0b2",
+          "title": "Growing community gardens in Brisbane continue to flourish with State support",
+          "url": "https://statements.qld.gov.au/statements/106139"
+        },
+        {
+          "record_id": "f3b0387a008be268d5f2",
+          "title": "Statement from the Treasurer regarding Moody's Ratings",
+          "url": "https://statements.qld.gov.au/statements/106152"
         }
       ],
       "inference": null,

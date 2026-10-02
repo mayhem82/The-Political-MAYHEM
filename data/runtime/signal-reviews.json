@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-SIGNAL-REVIEWS-001",
   "created_at": "2026-09-09T05:05:00+10:00",
-  "updated_at": "2026-10-02T02:18:35.610Z",
+  "updated_at": "2026-10-02T09:47:43.190Z",
   "rules": {
     "append_only": true,
     "raw_source_change_is_immutable": true,
@@ -35998,6 +35998,106 @@
         ],
         "removed_records": [],
         "delta_hash": "a165ddd0074a7b1d9995126710c1ad0adf680250b9571d61926162c0b4f19a80"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-GREENS-FEDERAL-MEDIA-20261002094710",
+      "source_change_event_id": "CHG-WATCH-GREENS-FEDERAL-MEDIA-20261002094710",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-GREENS-FEDERAL-MEDIA-20261002094710",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": "AUS-FED-GRN",
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Australian Greens — Federal MPs media releases added 2 structured publication records to its forward-captured official index: Gov must find solution for first homebuyers conned by Labor’s 5% deposit scheme: Greens; Read more about Gov must find solution for first homebuyers conned by Labor’s 5% deposit scheme: Greens",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-10-02T09:47:43.190Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "c91966f0eb51fe041162",
+            "title": "Gov must find solution for first homebuyers conned by Labor’s 5% deposit scheme: Greens",
+            "url": "https://greens.org.au/news/media-release/gov-must-find-solution-first-homebuyers-conned-labors-5-deposit-scheme-greens"
+          },
+          {
+            "record_id": "e02951e93195b0672110",
+            "title": "Read more about Gov must find solution for first homebuyers conned by Labor’s 5% deposit scheme: Greens",
+            "url": "https://greens.org.au/news/media-release/gov-must-find-solution-first-homebuyers-conned-labors-5-deposit-scheme-greens"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "19428d6705d1ab485585",
+            "title": "Media Release: National standards recommendation a landmark step for children in youth justice",
+            "url": "https://greens.org.au/news/media-release/media-release-national-standards-recommendation-landmark-step-children-youth"
+          },
+          {
+            "record_id": "3b02c220c623c06d48a8",
+            "title": "Read more about Media Release: National standards recommendation a landmark step for children in youth justice",
+            "url": "https://greens.org.au/news/media-release/media-release-national-standards-recommendation-landmark-step-children-youth"
+          }
+        ],
+        "delta_hash": "a149ce32405ea97e2ca3f8277022504f299e83157d2d48056e3473c483eaebc6"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261002094710",
+      "source_change_event_id": "CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261002094710",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261002094710",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Queensland Government — Ministerial Media Statements added 2 structured publication records to its forward-captured official index: Acreage awarded to secure Queensland’s resources future; 500+ illegal e-mobility devices seized as tough new laws crackdown on dangerous riders",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-10-02T09:47:43.190Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "4e0781751f5e880fc724",
+            "title": "Acreage awarded to secure Queensland’s resources future",
+            "url": "https://statements.qld.gov.au/statements/106170"
+          },
+          {
+            "record_id": "e9c20f0871c44ef4adbe",
+            "title": "500+ illegal e-mobility devices seized as tough new laws crackdown on dangerous riders",
+            "url": "https://statements.qld.gov.au/statements/106172"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "26c93002900c677027cf",
+            "title": "Queensland demands safeguards from Canberra for gas reservation",
+            "url": "https://statements.qld.gov.au/statements/106149"
+          },
+          {
+            "record_id": "8690db73f42cc13cba8a",
+            "title": "Queensland puts AI to work with $750,000 manufacturing investment",
+            "url": "https://statements.qld.gov.au/statements/106150"
+          }
+        ],
+        "delta_hash": "cb8049d1ac0a64f258eeefe8400b80b4b4462bc41559872f661e0ac7fba28558"
       },
       "integrity": {
         "source_change_unchanged": true,

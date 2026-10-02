@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-SIGNAL-REVIEWS-001",
   "created_at": "2026-09-09T05:05:00+10:00",
-  "updated_at": "2026-10-01T23:14:06.969Z",
+  "updated_at": "2026-10-02T02:18:35.610Z",
   "rules": {
     "append_only": true,
     "raw_source_change_is_immutable": true,
@@ -35790,6 +35790,214 @@
           }
         ],
         "delta_hash": "066000a6adfe3425a0b1117beb8a95420849d984083af3c2518cf3c5c34837a1"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-GREENS-FEDERAL-MEDIA-20261002021725",
+      "source_change_event_id": "CHG-WATCH-GREENS-FEDERAL-MEDIA-20261002021725",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-GREENS-FEDERAL-MEDIA-20261002021725",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": "AUS-FED-GRN",
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Australian Greens — Federal MPs media releases added 2 structured publication records to its forward-captured official index: Labor must reject Hunter Valley coal mine before COP31; Read more about Labor must reject Hunter Valley coal mine before COP31",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-10-02T02:18:35.610Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "688a9a033e763db16a56",
+            "title": "Labor must reject Hunter Valley coal mine before COP31",
+            "url": "https://greens.org.au/news/media-release/labor-must-reject-hunter-valley-coal-mine-cop31"
+          },
+          {
+            "record_id": "8bfa14d9c993eb1d19b7",
+            "title": "Read more about Labor must reject Hunter Valley coal mine before COP31",
+            "url": "https://greens.org.au/news/media-release/labor-must-reject-hunter-valley-coal-mine-cop31"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "68257b65c53d88ff8ede",
+            "title": "Labor’s migration policy a bumbling return to Abbott era",
+            "url": "https://greens.org.au/news/media-release/labors-migration-policy-bumbling-return-abbott-era"
+          },
+          {
+            "record_id": "fecf1f3601f15ef88db9",
+            "title": "Read more about Labor’s migration policy a bumbling return to Abbott era",
+            "url": "https://greens.org.au/news/media-release/labors-migration-policy-bumbling-return-abbott-era"
+          }
+        ],
+        "delta_hash": "d32d6c9e9ad56db66ec23296f235544e4027893ddca73183bef41ddabde7db7b"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-NSW-MINISTERIAL-RELEASES-20261002021725",
+      "source_change_event_id": "CHG-WATCH-NSW-MINISTERIAL-RELEASES-20261002021725",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-NSW-MINISTERIAL-RELEASES-20261002021725",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "NSW Government — Ministerial releases added 2 structured publication records to its forward-captured official index: Coffs Harbour Jetty Foreshore revitalisation a step closer; Minns Government releases strategy to tackle cattle tick",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-10-02T02:18:35.610Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "216dc2bb3ef6186c536e",
+            "title": "Coffs Harbour Jetty Foreshore revitalisation a step closer",
+            "url": "https://www.nsw.gov.au/ministerial-releases/coffs-harbour-jetty-foreshore-revitalisation-a-step-closer"
+          },
+          {
+            "record_id": "b73b62e9d01db32283c9",
+            "title": "Minns Government releases strategy to tackle cattle tick",
+            "url": "https://www.nsw.gov.au/ministerial-releases/minns-government-releases-strategy-to-tackle-cattle-tick"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "6d8a67c2c43137e72c3b",
+            "title": "125 ways to celebrate unpaid carers in NSW",
+            "url": "https://www.nsw.gov.au/ministerial-releases/carers-week-events-2026"
+          },
+          {
+            "record_id": "fb820ea7df94839baf97",
+            "title": "New Awards recognising the next generation of council workers",
+            "url": "https://www.nsw.gov.au/ministerial-releases/new-awards-recognising-next-generation-of-council-workers"
+          }
+        ],
+        "delta_hash": "83bd8e8fc57df3f914d27c7da1e97a5ed0c8765f8f18fbfeea7f9a8b7c63a0ab"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-VEC-MEDIA-20261002021725",
+      "source_change_event_id": "CHG-WATCH-VEC-MEDIA-20261002021725",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-VEC-MEDIA-20261002021725",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Victorian Electoral Commission — media centre added 1 structured publication record to its forward-captured official index: 2026 results data feed",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-10-02T02:18:35.610Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "bf32b9bc8a5f6914ae6a",
+            "title": "2026 results data feed",
+            "url": "https://www.vec.vic.gov.au/about-us/media/2026-results-data-feed"
+          }
+        ],
+        "removed_records": [],
+        "delta_hash": "e148bf67e1da429610c7e838492bb0f5b0d61bfa751f9dc890cea94cd3b5786a"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261002021725",
+      "source_change_event_id": "CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261002021725",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261002021725",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Queensland Government — Ministerial Media Statements added 1 structured publication record to its forward-captured official index: New fisheries patrol vessel for North Queensland",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-10-02T02:18:35.610Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "7e2795a29e03ff8986d9",
+            "title": "New fisheries patrol vessel for North Queensland",
+            "url": "https://statements.qld.gov.au/statements/106147"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "8ca269f4c3c69b08e0da",
+            "title": "Central Queensland water users invited to help shape region’s water future",
+            "url": "https://statements.qld.gov.au/statements/106148"
+          }
+        ],
+        "delta_hash": "7cc32192442c6647a8d9fbef415be38463eec762e3e90fd31f9a7de9bc55d541"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-WAEC-MEDIA-20261002021725",
+      "source_change_event_id": "CHG-WATCH-WAEC-MEDIA-20261002021725",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-WAEC-MEDIA-20261002021725",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Western Australian Electoral Commission — media releases added 1 structured publication record to its forward-captured official index: Current Elections",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-10-02T02:18:35.610Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "823bd5321ad561575272",
+            "title": "Current Elections",
+            "url": "https://www.elections.wa.gov.au/elections/local-government-elections/2026-december-local-government-extraordinary-elections"
+          }
+        ],
+        "removed_records": [],
+        "delta_hash": "a165ddd0074a7b1d9995126710c1ad0adf680250b9571d61926162c0b4f19a80"
       },
       "integrity": {
         "source_change_unchanged": true,

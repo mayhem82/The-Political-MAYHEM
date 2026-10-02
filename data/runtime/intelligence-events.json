@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-INTELLIGENCE-EVENTS-001",
   "scope": "Australia — multi-jurisdiction",
-  "captured_at": "2026-10-01T23:14:20.301Z",
+  "captured_at": "2026-10-02T02:18:42.625Z",
   "mode": "FORWARD_ONLY",
   "rules": {
     "observation_distinct_from_inference": true,
@@ -99011,6 +99011,736 @@
         "underlying_publication_claims_not_promoted_to_verified_fact": true,
         "source_change_parent_retained": true,
         "deterministic_review": true
+      }
+    },
+    {
+      "event_id": "CHG-WATCH-GREENS-FEDERAL-MEDIA-20261002021725",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-FED",
+      "party_id": "AUS-FED-GRN",
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-GREENS-FEDERAL-MEDIA-20261002021725",
+      "captured_at": "2026-10-02T02:17:25.686Z",
+      "event_date": "2026-10-02",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_PARTY",
+      "source_id": "SRC-GREENS-FEDERAL-RELEASE-INDEX",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "review_policy": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-GREENS-FEDERAL-MEDIA-20261001231309",
+        "content_hash": "c1cbf77613bbb8dbfdb71d917b86ac05e780a9b721ef018da4a9812bf06e43c8",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-GREENS-FEDERAL-MEDIA-20261002021725",
+        "content_hash": "7ccf8507b4609a448616037c67bba751d609907778d2d49015a5e6830eb11dfa",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "STRUCTURED_RECORD_SET",
+        "records_added": [
+          {
+            "record_id": "688a9a033e763db16a56",
+            "title": "Labor must reject Hunter Valley coal mine before COP31",
+            "url": "https://greens.org.au/news/media-release/labor-must-reject-hunter-valley-coal-mine-cop31"
+          },
+          {
+            "record_id": "8bfa14d9c993eb1d19b7",
+            "title": "Read more about Labor must reject Hunter Valley coal mine before COP31",
+            "url": "https://greens.org.au/news/media-release/labor-must-reject-hunter-valley-coal-mine-cop31"
+          }
+        ],
+        "records_removed": [
+          {
+            "record_id": "68257b65c53d88ff8ede",
+            "title": "Labor’s migration policy a bumbling return to Abbott era",
+            "url": "https://greens.org.au/news/media-release/labors-migration-policy-bumbling-return-abbott-era"
+          },
+          {
+            "record_id": "fecf1f3601f15ef88db9",
+            "title": "Read more about Labor’s migration policy a bumbling return to Abbott era",
+            "url": "https://greens.org.au/news/media-release/labors-migration-policy-bumbling-return-abbott-era"
+          }
+        ],
+        "added_count": 2,
+        "removed_count": 2,
+        "before_count": 75,
+        "after_count": 75,
+        "delta_hash": "d32d6c9e9ad56db66ec23296f235544e4027893ddca73183bef41ddabde7db7b"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-NSW-MINISTERIAL-RELEASES-20261002021725",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-NSW",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-NSW-MINISTERIAL-RELEASES-20261002021725",
+      "captured_at": "2026-10-02T02:17:25.686Z",
+      "event_date": "2026-10-02",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-NSW-MINISTERIAL-RELEASES",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "review_policy": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-NSW-MINISTERIAL-RELEASES-20261001231309",
+        "content_hash": "7e3b6a0e1766b3ce7119b0756170439181c9fe7083a03bbd8a94661fb299b8ae",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-NSW-MINISTERIAL-RELEASES-20261002021725",
+        "content_hash": "0bfe38d528fd9b045ddaa93d626d1fcd56ef2b95fa74dd8e5726787b2a367472",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "STRUCTURED_RECORD_SET",
+        "records_added": [
+          {
+            "record_id": "216dc2bb3ef6186c536e",
+            "title": "Coffs Harbour Jetty Foreshore revitalisation a step closer",
+            "url": "https://www.nsw.gov.au/ministerial-releases/coffs-harbour-jetty-foreshore-revitalisation-a-step-closer"
+          },
+          {
+            "record_id": "b73b62e9d01db32283c9",
+            "title": "Minns Government releases strategy to tackle cattle tick",
+            "url": "https://www.nsw.gov.au/ministerial-releases/minns-government-releases-strategy-to-tackle-cattle-tick"
+          }
+        ],
+        "records_removed": [
+          {
+            "record_id": "6d8a67c2c43137e72c3b",
+            "title": "125 ways to celebrate unpaid carers in NSW",
+            "url": "https://www.nsw.gov.au/ministerial-releases/carers-week-events-2026"
+          },
+          {
+            "record_id": "fb820ea7df94839baf97",
+            "title": "New Awards recognising the next generation of council workers",
+            "url": "https://www.nsw.gov.au/ministerial-releases/new-awards-recognising-next-generation-of-council-workers"
+          }
+        ],
+        "added_count": 2,
+        "removed_count": 2,
+        "before_count": 88,
+        "after_count": 88,
+        "delta_hash": "83bd8e8fc57df3f914d27c7da1e97a5ed0c8765f8f18fbfeea7f9a8b7c63a0ab"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-VEC-2026-STATE-ELECTION-20261002021725",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-VIC",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-VEC-2026-STATE-ELECTION-20261002021725",
+      "captured_at": "2026-10-02T02:17:25.686Z",
+      "event_date": "2026-10-02",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_ELECTORAL_AUTHORITY",
+      "source_id": "SRC-VEC-2026-STATE-ELECTION",
+      "capture_mode": "NORMALISED_PAGE_HASH",
+      "review_policy": "REVIEW_UNSTRUCTURED_CHANGE",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-VEC-2026-STATE-ELECTION-20260929155232",
+        "content_hash": "8fcc3316412a58aa18cf1ce48410c34f5b9ad8e56dbacd31b8c0b3e9ae2d0e62",
+        "capture_mode": "NORMALISED_PAGE_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-VEC-2026-STATE-ELECTION-20261002021725",
+        "content_hash": "871ea62a14a1ea41ac7063e2fbb70f794907ca7279168f2c997bd7a0261c6009",
+        "capture_mode": "NORMALISED_PAGE_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "TEXT_REPRESENTATION",
+        "first_difference_offset": 7583,
+        "before_length": 14910,
+        "after_length": 15137,
+        "before_excerpt": "here are different ways to enrol if you have special circumstances that might affect your enrolment Other ways to enrol Know when, where, and how to vote Don't miss your chance to help shape Victoria. Get reminders for the state election th",
+        "after_excerpt": "here are different ways to enrol if you have special circumstances that might affect your enrolment Other ways to enrol Away from Victoria If you'll be away from Victoria during the 2026 state election voting period, you can still vote. Away from Victoria Voting options There are many ways you can vote in the 2026 state election. Voting options Know when, where, and how to vote Don't miss your chance to help shape Victoria. Get reminders for the state election th",
+        "delta_hash": "48f0a2385e944fc6d0b21ca3e573e554c527851e0179bc3f4879671042b04ff1"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-VEC-MEDIA-20261002021725",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-VIC",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-VEC-MEDIA-20261002021725",
+      "captured_at": "2026-10-02T02:17:25.686Z",
+      "event_date": "2026-10-02",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_ELECTORAL_AUTHORITY",
+      "source_id": "SRC-VEC-MEDIA",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "review_policy": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-VEC-MEDIA-20260929155232",
+        "content_hash": "15ab4e6b04b2e310beee16796462200a0611120b56b3f9cecbc46e68d0ef8d11",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-VEC-MEDIA-20261002021725",
+        "content_hash": "7339222b5e1d1056df44f722d5f54fc9e0893748935d4041a472dcc414298fe9",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "STRUCTURED_RECORD_SET",
+        "records_added": [
+          {
+            "record_id": "bf32b9bc8a5f6914ae6a",
+            "title": "2026 results data feed",
+            "url": "https://www.vec.vic.gov.au/about-us/media/2026-results-data-feed"
+          }
+        ],
+        "records_removed": [],
+        "added_count": 1,
+        "removed_count": 0,
+        "before_count": 141,
+        "after_count": 142,
+        "delta_hash": "e148bf67e1da429610c7e838492bb0f5b0d61bfa751f9dc890cea94cd3b5786a"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261002021725",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-QLD",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-QLD-MINISTERIAL-STATEMENTS-20261002021725",
+      "captured_at": "2026-10-02T02:17:25.686Z",
+      "event_date": "2026-10-02",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-QLD-MINISTERIAL-STATEMENTS",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "review_policy": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-QLD-MINISTERIAL-STATEMENTS-20261001055529",
+        "content_hash": "73be3f17a523919e4681a9254f911c51abf6aa965cd3cc50c9477671f0c25038",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-QLD-MINISTERIAL-STATEMENTS-20261002021725",
+        "content_hash": "e6d817d79c21bcd4936cdbc343a060c5bc5f3473e97577806659b427a5260306",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "STRUCTURED_RECORD_SET",
+        "records_added": [
+          {
+            "record_id": "7e2795a29e03ff8986d9",
+            "title": "New fisheries patrol vessel for North Queensland",
+            "url": "https://statements.qld.gov.au/statements/106147"
+          }
+        ],
+        "records_removed": [
+          {
+            "record_id": "8ca269f4c3c69b08e0da",
+            "title": "Central Queensland water users invited to help shape region’s water future",
+            "url": "https://statements.qld.gov.au/statements/106148"
+          }
+        ],
+        "added_count": 1,
+        "removed_count": 1,
+        "before_count": 16,
+        "after_count": 16,
+        "delta_hash": "7cc32192442c6647a8d9fbef415be38463eec762e3e90fd31f9a7de9bc55d541"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-WAEC-MEDIA-20261002021725",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-WA",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-WAEC-MEDIA-20261002021725",
+      "captured_at": "2026-10-02T02:17:25.686Z",
+      "event_date": "2026-10-02",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_ELECTORAL_AUTHORITY",
+      "source_id": "SRC-WAEC-MEDIA",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "review_policy": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-WAEC-MEDIA-20261001055529",
+        "content_hash": "352c95582dd082d3d63153c2d104f96122c4f4f47d8504dea0d5610e4e5064d2",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-WAEC-MEDIA-20261002021725",
+        "content_hash": "119e4bacf94f934de069fce2b88e6d0de30802ec22d429c7502275b5ff9f7d3a",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "STRUCTURED_RECORD_SET",
+        "records_added": [
+          {
+            "record_id": "823bd5321ad561575272",
+            "title": "Current Elections",
+            "url": "https://www.elections.wa.gov.au/elections/local-government-elections/2026-december-local-government-extraordinary-elections"
+          }
+        ],
+        "records_removed": [],
+        "added_count": 1,
+        "removed_count": 0,
+        "before_count": 95,
+        "after_count": 96,
+        "delta_hash": "a165ddd0074a7b1d9995126710c1ad0adf680250b9571d61926162c0b4f19a80"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-SA-PARLIAMENT-20261002021725",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-SA",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-SA-PARLIAMENT-20261002021725",
+      "captured_at": "2026-10-02T02:17:25.686Z",
+      "event_date": "2026-10-02",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_PARLIAMENT",
+      "source_id": "SRC-SA-PARLIAMENT",
+      "capture_mode": "NORMALISED_PAGE_HASH",
+      "review_policy": "REVIEW_UNSTRUCTURED_CHANGE",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-SA-PARLIAMENT-20260925013126",
+        "content_hash": "ce3d6db6e9a7bbdea17a82fa2ca59920b6d890ce9beaf48a51fe5a81ba268a3c",
+        "capture_mode": "NORMALISED_PAGE_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-SA-PARLIAMENT-20261002021725",
+        "content_hash": "78a1444405c29a0a009554c36d4507c2cf22084747da09529682728a2092f9dd",
+        "capture_mode": "NORMALISED_PAGE_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "TEXT_REPRESENTATION",
+        "first_difference_offset": 1182,
+        "before_length": 3027,
+        "after_length": 3018,
+        "before_excerpt": "s On Legislative Council VIEW BUSINESS OF THE COUNCIL House of Assembly VIEW BUSINESS OF THE ASSEMBLY SUBMISSIONS OPEN: Inquiry into the adequacy of the existing financial assistance provided to formal and informal foster and kinship carers by the Department for Child Protection. Submissions due 6 November 2026 September 23, 2026 SUBMISSIONS OPEN: Select Committee on the Conduct of Real Estate Professionals in South Australia Submissions due 23 October 2026 September 08, 2026 SUBMISSIONS OPEN: Inquiry into Petition No. 1 / 2026 - Immediate ban of greyhound racing in South Australia Submissions due 9 October 2026 August 25, 2026 More Parliament news Committees FIND A COMMITTEE ATTEND A COMMITTEE HEARING MAKE A SUBMISSION Tour Parliament BOO",
+        "after_excerpt": "s On Legislative Council VIEW BUSINESS OF THE COUNCIL House of Assembly VIEW BUSINESS OF THE ASSEMBLY SUBMISSIONS OPEN: Select Committee on Matters Concerning the Social Worker Registration Scheme Submissions due 30 October 2026 September 28, 2026 SUBMISSIONS OPEN: Inquiry into the adequacy of the existing financial assistance provided to formal and informal foster and kinship carers by the Department for Child Protection. Submissions due 6 November 2026 September 23, 2026 SUBMISSIONS OPEN: Select Committee on the Conduct of Real Estate Professionals in South Australia Submissions due 23 October 2026 September 08, 2026 More Parliament news Committees FIND A COMMITTEE ATTEND A COMMITTEE HEARING MAKE A SUBMISSION Tour Parliament BOO",
+        "delta_hash": "d1e9fbe86cd3e5eb1571214df194d0886e73cd3b81d2c0719a1b0462f958d501"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "SIG-REV-CHG-WATCH-GREENS-FEDERAL-MEDIA-20261002021725",
+      "parent_event_id": "CHG-WATCH-GREENS-FEDERAL-MEDIA-20261002021725",
+      "review_id": "REV-CHG-WATCH-GREENS-FEDERAL-MEDIA-20261002021725",
+      "jurisdiction_id": "AUS-FED",
+      "party_id": "AUS-FED-GRN",
+      "actor_id": null,
+      "contest_id": null,
+      "cycle_id": null,
+      "source_snapshot_id": "AUTO-WATCH-GREENS-FEDERAL-MEDIA-20261002021725",
+      "record_id": null,
+      "captured_at": "2026-10-02T02:18:35.610Z",
+      "event_date": "2026-10-02",
+      "checkpoint": "CONTINUOUS_FORWARD_SIGNAL_REVIEW",
+      "event_type": "SIGNAL_CREATED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_PARTY",
+      "source_id": "SRC-GREENS-FEDERAL-RELEASE-INDEX",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "claim": "Australian Greens — Federal MPs media releases added 2 structured publication records to its forward-captured official index: Labor must reject Hunter Valley coal mine before COP31; Read more about Labor must reject Hunter Valley coal mine before COP31",
+      "observed_behaviour": "One or more structured publication records appeared in the monitored official source index after the preceding forward snapshot.",
+      "publication_records_added": [
+        {
+          "record_id": "688a9a033e763db16a56",
+          "title": "Labor must reject Hunter Valley coal mine before COP31",
+          "url": "https://greens.org.au/news/media-release/labor-must-reject-hunter-valley-coal-mine-cop31"
+        },
+        {
+          "record_id": "8bfa14d9c993eb1d19b7",
+          "title": "Read more about Labor must reject Hunter Valley coal mine before COP31",
+          "url": "https://greens.org.au/news/media-release/labor-must-reject-hunter-valley-coal-mine-cop31"
+        }
+      ],
+      "publication_records_removed": [
+        {
+          "record_id": "68257b65c53d88ff8ede",
+          "title": "Labor’s migration policy a bumbling return to Abbott era",
+          "url": "https://greens.org.au/news/media-release/labors-migration-policy-bumbling-return-abbott-era"
+        },
+        {
+          "record_id": "fecf1f3601f15ef88db9",
+          "title": "Read more about Labor’s migration policy a bumbling return to Abbott era",
+          "url": "https://greens.org.au/news/media-release/labors-migration-policy-bumbling-return-abbott-era"
+        }
+      ],
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "underlying_publication_claims_not_promoted_to_verified_fact": true,
+        "source_change_parent_retained": true,
+        "deterministic_review": true
+      }
+    },
+    {
+      "event_id": "SIG-REV-CHG-WATCH-NSW-MINISTERIAL-RELEASES-20261002021725",
+      "parent_event_id": "CHG-WATCH-NSW-MINISTERIAL-RELEASES-20261002021725",
+      "review_id": "REV-CHG-WATCH-NSW-MINISTERIAL-RELEASES-20261002021725",
+      "jurisdiction_id": "AUS-NSW",
+      "party_id": null,
+      "actor_id": null,
+      "contest_id": null,
+      "cycle_id": null,
+      "source_snapshot_id": "AUTO-WATCH-NSW-MINISTERIAL-RELEASES-20261002021725",
+      "record_id": null,
+      "captured_at": "2026-10-02T02:18:35.610Z",
+      "event_date": "2026-10-02",
+      "checkpoint": "CONTINUOUS_FORWARD_SIGNAL_REVIEW",
+      "event_type": "SIGNAL_CREATED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-NSW-MINISTERIAL-RELEASES",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "claim": "NSW Government — Ministerial releases added 2 structured publication records to its forward-captured official index: Coffs Harbour Jetty Foreshore revitalisation a step closer; Minns Government releases strategy to tackle cattle tick",
+      "observed_behaviour": "One or more structured publication records appeared in the monitored official source index after the preceding forward snapshot.",
+      "publication_records_added": [
+        {
+          "record_id": "216dc2bb3ef6186c536e",
+          "title": "Coffs Harbour Jetty Foreshore revitalisation a step closer",
+          "url": "https://www.nsw.gov.au/ministerial-releases/coffs-harbour-jetty-foreshore-revitalisation-a-step-closer"
+        },
+        {
+          "record_id": "b73b62e9d01db32283c9",
+          "title": "Minns Government releases strategy to tackle cattle tick",
+          "url": "https://www.nsw.gov.au/ministerial-releases/minns-government-releases-strategy-to-tackle-cattle-tick"
+        }
+      ],
+      "publication_records_removed": [
+        {
+          "record_id": "6d8a67c2c43137e72c3b",
+          "title": "125 ways to celebrate unpaid carers in NSW",
+          "url": "https://www.nsw.gov.au/ministerial-releases/carers-week-events-2026"
+        },
+        {
+          "record_id": "fb820ea7df94839baf97",
+          "title": "New Awards recognising the next generation of council workers",
+          "url": "https://www.nsw.gov.au/ministerial-releases/new-awards-recognising-next-generation-of-council-workers"
+        }
+      ],
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "underlying_publication_claims_not_promoted_to_verified_fact": true,
+        "source_change_parent_retained": true,
+        "deterministic_review": true
+      }
+    },
+    {
+      "event_id": "SIG-REV-CHG-WATCH-VEC-MEDIA-20261002021725",
+      "parent_event_id": "CHG-WATCH-VEC-MEDIA-20261002021725",
+      "review_id": "REV-CHG-WATCH-VEC-MEDIA-20261002021725",
+      "jurisdiction_id": "AUS-VIC",
+      "party_id": null,
+      "actor_id": null,
+      "contest_id": null,
+      "cycle_id": null,
+      "source_snapshot_id": "AUTO-WATCH-VEC-MEDIA-20261002021725",
+      "record_id": "bf32b9bc8a5f6914ae6a",
+      "captured_at": "2026-10-02T02:18:35.610Z",
+      "event_date": "2026-10-02",
+      "checkpoint": "CONTINUOUS_FORWARD_SIGNAL_REVIEW",
+      "event_type": "SIGNAL_CREATED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_ELECTORAL_AUTHORITY",
+      "source_id": "SRC-VEC-MEDIA",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "claim": "Victorian Electoral Commission — media centre added 1 structured publication record to its forward-captured official index: 2026 results data feed",
+      "observed_behaviour": "One or more structured publication records appeared in the monitored official source index after the preceding forward snapshot.",
+      "publication_records_added": [
+        {
+          "record_id": "bf32b9bc8a5f6914ae6a",
+          "title": "2026 results data feed",
+          "url": "https://www.vec.vic.gov.au/about-us/media/2026-results-data-feed"
+        }
+      ],
+      "publication_records_removed": [],
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "underlying_publication_claims_not_promoted_to_verified_fact": true,
+        "source_change_parent_retained": true,
+        "deterministic_review": true
+      }
+    },
+    {
+      "event_id": "SIG-REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261002021725",
+      "parent_event_id": "CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261002021725",
+      "review_id": "REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261002021725",
+      "jurisdiction_id": "AUS-QLD",
+      "party_id": null,
+      "actor_id": null,
+      "contest_id": null,
+      "cycle_id": null,
+      "source_snapshot_id": "AUTO-WATCH-QLD-MINISTERIAL-STATEMENTS-20261002021725",
+      "record_id": "7e2795a29e03ff8986d9",
+      "captured_at": "2026-10-02T02:18:35.610Z",
+      "event_date": "2026-10-02",
+      "checkpoint": "CONTINUOUS_FORWARD_SIGNAL_REVIEW",
+      "event_type": "SIGNAL_CREATED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-QLD-MINISTERIAL-STATEMENTS",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "claim": "Queensland Government — Ministerial Media Statements added 1 structured publication record to its forward-captured official index: New fisheries patrol vessel for North Queensland",
+      "observed_behaviour": "One or more structured publication records appeared in the monitored official source index after the preceding forward snapshot.",
+      "publication_records_added": [
+        {
+          "record_id": "7e2795a29e03ff8986d9",
+          "title": "New fisheries patrol vessel for North Queensland",
+          "url": "https://statements.qld.gov.au/statements/106147"
+        }
+      ],
+      "publication_records_removed": [
+        {
+          "record_id": "8ca269f4c3c69b08e0da",
+          "title": "Central Queensland water users invited to help shape region’s water future",
+          "url": "https://statements.qld.gov.au/statements/106148"
+        }
+      ],
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "underlying_publication_claims_not_promoted_to_verified_fact": true,
+        "source_change_parent_retained": true,
+        "deterministic_review": true
+      }
+    },
+    {
+      "event_id": "SIG-REV-CHG-WATCH-WAEC-MEDIA-20261002021725",
+      "parent_event_id": "CHG-WATCH-WAEC-MEDIA-20261002021725",
+      "review_id": "REV-CHG-WATCH-WAEC-MEDIA-20261002021725",
+      "jurisdiction_id": "AUS-WA",
+      "party_id": null,
+      "actor_id": null,
+      "contest_id": null,
+      "cycle_id": null,
+      "source_snapshot_id": "AUTO-WATCH-WAEC-MEDIA-20261002021725",
+      "record_id": "823bd5321ad561575272",
+      "captured_at": "2026-10-02T02:18:35.610Z",
+      "event_date": "2026-10-02",
+      "checkpoint": "CONTINUOUS_FORWARD_SIGNAL_REVIEW",
+      "event_type": "SIGNAL_CREATED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_ELECTORAL_AUTHORITY",
+      "source_id": "SRC-WAEC-MEDIA",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "claim": "Western Australian Electoral Commission — media releases added 1 structured publication record to its forward-captured official index: Current Elections",
+      "observed_behaviour": "One or more structured publication records appeared in the monitored official source index after the preceding forward snapshot.",
+      "publication_records_added": [
+        {
+          "record_id": "823bd5321ad561575272",
+          "title": "Current Elections",
+          "url": "https://www.elections.wa.gov.au/elections/local-government-elections/2026-december-local-government-extraordinary-elections"
+        }
+      ],
+      "publication_records_removed": [],
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "underlying_publication_claims_not_promoted_to_verified_fact": true,
+        "source_change_parent_retained": true,
+        "deterministic_review": true
+      }
+    },
+    {
+      "event_id": "INTEL-AREA-7d7e7b5af701a5edf3ef528d",
+      "parent_event_id": "SIG-REV-CHG-WATCH-WAEC-MEDIA-20261002021725",
+      "jurisdiction_id": "AUS-WA",
+      "party_id": null,
+      "actor_id": null,
+      "party_ids": [],
+      "actor_ids": [],
+      "contest_id": null,
+      "cycle_id": null,
+      "competition_class": "ELECTORAL",
+      "area_evidence_id": "AREA-7d7e7b5af701a5edf3ef528d",
+      "detail_record_id": "DETAIL-60ce3ea7e991c360be698df4",
+      "detail_version_id": "DETAIL-60ce3ea7e991c360be698df4-V1",
+      "source_snapshot_id": "AUTO-WATCH-WAEC-MEDIA-20261002021725",
+      "record_url": "https://www.elections.wa.gov.au/elections/local-government-elections/2026-december-local-government-extraordinary-elections",
+      "captured_at": "2026-10-02T02:18:42.625Z",
+      "evidence_captured_at": "2026-10-02T02:18:38.069Z",
+      "event_date": "2026-10-02",
+      "checkpoint": "SUBSTANTIVE_INFORMATION_INGESTION",
+      "event_type": "AREA_EVIDENCE_INGESTED",
+      "area_routing_state": "SUBSTANTIVE_CONTENT_ROUTED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_ELECTORAL_AUTHORITY",
+      "source_id": "SRC-WAEC-MEDIA",
+      "claim": "Ingested substantive electoral evidence from 2026 December Local Government Extraordinary Elections. Captured content includes stage: vote; outcome language: elected. Registration threshold state: evidence gap. Missing requirements: missing fact type contest object, missing condition resolved participant or team.",
+      "observed_behaviour": "2026 December Local Government Extraordinary Elections | Western Australian Electoral Commission Skip to main content Search Search Home Elections 2026 December Local Government Extraordinary Elections 2026 December Local Government Extraordinary Elections Local government Extraordinary Elections will take place on Thursday 3 December for the local governments below. Shire of Carnarvon Shire of Coolgardie Shire of Esperance Local Government Extraordinary Elections in Western Australia are elections held outside the normal two-year cycle to fill a vacancy/vacancies that occurs mid-term. This happens when a councillor, mayor, or president passes away, resigns, or is disqualified during their term. The person elected in an extraordinary election serves for the remainder of the original term, not a full four-year term. Key dates Enrolment: You must check, update or enrol to vote by: 5:00pm 7 October. Nominations open: 13 October 2026. Nominations close: 4:00pm 20 October. Quick links Information for candidates Electoral Offences and complaints - click here for information about authorisation of electoral material, ballot paper handling and more Local Government Stakeholder Resources How to vote Optional preferential voting is the voting system used in Local Government Elections. This means you have the choice to number the candidates in the order of your preference. You do not have to number all the boxes if you don’t want to. You have the choice to: vote for one candidate - by putting a 1 next to their name vote for some candidates - by numbering several candidates in the order of your preference vote for all candidates - in the order of your preference Who can vote Residents All residents in a local government district who are enrolled on the State electoral roll are auto",
+      "extracted_cues": {
+        "resistance_terms": [],
+        "stage_terms": [
+          "vote"
+        ],
+        "outcome_terms": [
+          "elected"
+        ],
+        "pressure_terms": []
+      },
+      "entity_mentions": {
+        "actors": [],
+        "teams": []
+      },
+      "position_state": "UNRESOLVED",
+      "resistance_state": "UNRESOLVED",
+      "outcome_state": "OUTCOME_LANGUAGE_PRESENT",
+      "contest_fact_ids": [
+        "FACT-3f90d30ea1c51af57289a63f",
+        "FACT-c767e3bf4624a6dd9fd5bcf1",
+        "FACT-cb73b52c03d254261a5cf05c"
+      ],
+      "contest_fact_types": [
+        "POSSIBLE_OUTCOME_STATE",
+        "STAGE"
+      ],
+      "threshold_evaluation_id": "THRESH-a9d0d5dd159e68bc55604645",
+      "threshold_state": "EVIDENCE_GAP",
+      "threshold_blockers": [
+        "MISSING_CONDITION_RESOLVED_PARTICIPANT_OR_TEAM",
+        "MISSING_FACT_TYPE_CONTEST_OBJECT"
+      ],
+      "supporting_entities": [],
+      "opposing_entities": [],
+      "registration_action": "NO_AUTOMATIC_REGISTRATION",
+      "intelligence_signature": "9401fc9149997882ba6ecf40a74ba0cc4bdd5d81473fdc61e8b56fa8f2f1779f",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "substantive_detail_lineage_required": true,
+        "active_contest_fact_lineage_required": true,
+        "threshold_evaluation_lineage_required": true,
+        "routing_does_not_register_match": true,
+        "threshold_eligibility_does_not_register_match": true,
+        "entity_mentions_do_not_establish_positions": true,
+        "retracted_facts_excluded": true,
+        "no_projection_effect_without_registered_target": true
       }
     }
   ]

@@ -7,9 +7,9 @@
       "source_id": "SRC-LIBERAL-FEDERAL-HOME",
       "jurisdiction_id": "AUS-FED",
       "party_id": "AUS-FED-LIB",
-      "content_hash": "cdcf497f316b3095a4e46487738cb9aa2c4ee612463eed6228973679428e98d2",
-      "snapshot_id": "AUTO-WATCH-LIBERAL-HOME-20261003063405",
-      "captured_at": "2026-10-03T06:34:05.625Z",
+      "content_hash": "002b81fae495e11a87112842674b408717fd08acc3f2fc8d47ed049d498ef1fc",
+      "snapshot_id": "AUTO-WATCH-LIBERAL-HOME-20261004055416",
+      "captured_at": "2026-10-04T05:54:16.712Z",
       "acquisition_url": "https://www.liberal.org.au/",
       "requested_url": "https://www.liberal.org.au/",
       "header_profile": "IDENTIFIED_AUTOMATION",
@@ -505,11 +505,11 @@
       "captured_representation_complete": true
     }
   },
-  "updated_at": "2026-10-03T23:47:55.700Z",
+  "updated_at": "2026-10-04T05:54:16.712Z",
   "last_run": {
-    "captured_at": "2026-10-03T23:47:55.700Z",
+    "captured_at": "2026-10-04T05:54:16.712Z",
     "baselines_created": 0,
-    "source_changes_created": 0,
+    "source_changes_created": 1,
     "semantic_signals_created": 0,
     "representation_upgrades": 0,
     "failures": [
@@ -526,8 +526,8 @@
         "error": "https://www.ecq.qld.gov.au/media/2026-media-statements [IDENTIFIED_AUTOMATION] 403 Forbidden | https://www.ecq.qld.gov.au/media/2026-media-statements [BROWSER_COMPATIBILITY] 403 Forbidden | https://www.ecq.qld.gov.au/home [IDENTIFIED_AUTOMATION] 403 Forbidden | https://www.ecq.qld.gov.au/home [BROWSER_COMPATIBILITY] 403 Forbidden"
       },
       {
-        "watch_id": "WATCH-SA-PARLIAMENT",
-        "error": "https://www.parliament.sa.gov.au/ [IDENTIFIED_AUTOMATION] timeout>15000ms | https://www.parliament.sa.gov.au/ [BROWSER_COMPATIBILITY] timeout>15000ms"
+        "watch_id": "WATCH-TAS-HANSARD",
+        "error": "https://search.parliament.tas.gov.au/Search/search/search?IW_FIELD_ADVANCE_PHRASE=2026%20IN%20TITLE&IW_DATABASE=Hansard&IW_SORT=-9&IW_SEARCH_SCOPE=meta [IDENTIFIED_AUTOMATION] 503 Service Unavailable | https://search.parliament.tas.gov.au/Search/search/search?IW_FIELD_ADVANCE_PHRASE=2026%20IN%20TITLE&IW_DATABASE=Hansard&IW_SORT=-9&IW_SEARCH_SCOPE=meta [BROWSER_COMPATIBILITY] timeout>15000ms"
       },
       {
         "watch_id": "WATCH-TAS-PREMIER-NEWS",
@@ -539,7 +539,7 @@
       },
       {
         "watch_id": "WATCH-ELECTIONS-ACT-NEWS",
-        "error": "https://www.elections.act.gov.au/about-the-commission/publications/news-archives [IDENTIFIED_AUTOMATION] fetch failed | https://www.elections.act.gov.au/about-the-commission/publications/news-archives [BROWSER_COMPATIBILITY] 403 Forbidden | https://www.elections.act.gov.au/ [IDENTIFIED_AUTOMATION] 403 Forbidden | https://www.elections.act.gov.au/ [BROWSER_COMPATIBILITY] 403 Forbidden"
+        "error": "https://www.elections.act.gov.au/about-the-commission/publications/news-archives [IDENTIFIED_AUTOMATION] 403 Forbidden | https://www.elections.act.gov.au/about-the-commission/publications/news-archives [BROWSER_COMPATIBILITY] 403 Forbidden | https://www.elections.act.gov.au/ [IDENTIFIED_AUTOMATION] 403 Forbidden | https://www.elections.act.gov.au/ [BROWSER_COMPATIBILITY] 403 Forbidden"
       },
       {
         "watch_id": "WATCH-ACT-GOV-MEDIA",
@@ -624,18 +624,18 @@
       "AUS-SA": {
         "configured_sources": 3,
         "baseline_sources": 3,
-        "current_run_failures": 1,
+        "current_run_failures": 0,
         "source_classes": [
           "PRIMARY_ELECTORAL_AUTHORITY",
           "PRIMARY_GOVERNMENT",
           "PRIMARY_PARLIAMENT"
         ],
-        "status": "CAPTURE_ACTIVE_DEGRADED_CURRENT_RUN"
+        "status": "CAPTURE_ACTIVE_FULL_CONFIGURED_BASELINE"
       },
       "AUS-TAS": {
         "configured_sources": 3,
         "baseline_sources": 3,
-        "current_run_failures": 1,
+        "current_run_failures": 2,
         "source_classes": [
           "PRIMARY_ELECTORAL_AUTHORITY",
           "PRIMARY_GOVERNMENT",

@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-SIGNAL-REVIEWS-001",
   "created_at": "2026-09-09T05:05:00+10:00",
-  "updated_at": "2026-10-05T16:02:10.130Z",
+  "updated_at": "2026-10-05T22:38:46.350Z",
   "rules": {
     "append_only": true,
     "raw_source_change_is_immutable": true,
@@ -36320,6 +36320,106 @@
           }
         ],
         "delta_hash": "9a6812a86394878e766984c8290b9cb7c35efbe3506a1dd91ec3c7b5a650ed79"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-GREENS-FEDERAL-MEDIA-20261005223759",
+      "source_change_event_id": "CHG-WATCH-GREENS-FEDERAL-MEDIA-20261005223759",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-GREENS-FEDERAL-MEDIA-20261005223759",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": "AUS-FED-GRN",
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Australian Greens — Federal MPs media releases added 2 structured publication records to its forward-captured official index: Labor spend on KPMG nearly doubled, data shows; Read more about Labor spend on KPMG nearly doubled, data shows",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-10-05T22:38:46.350Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "ade005f2a45f860afa11",
+            "title": "Labor spend on KPMG nearly doubled, data shows",
+            "url": "https://greens.org.au/news/media-release/labor-spend-kpmg-nearly-doubled-data-shows"
+          },
+          {
+            "record_id": "ba76361c07efe21e27ba",
+            "title": "Read more about Labor spend on KPMG nearly doubled, data shows",
+            "url": "https://greens.org.au/news/media-release/labor-spend-kpmg-nearly-doubled-data-shows"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "59605bbec68b17e15105",
+            "title": "Read more about Triple Zero Inquiry recommends nationalising of Triple 0, mandated domestic roaming and a review into ACMA&#039;s role in regulating Triple Zero",
+            "url": "https://greens.org.au/sa/news/media-release/triple-zero-inquiry-recommends-nationalising-triple-0-mandated-domestic"
+          },
+          {
+            "record_id": "bb319d791a63a8bcf715",
+            "title": "Triple Zero Inquiry recommends nationalising of Triple 0, mandated domestic roaming and a review into ACMA&#039;s role in regulating Triple Zero",
+            "url": "https://greens.org.au/sa/news/media-release/triple-zero-inquiry-recommends-nationalising-triple-0-mandated-domestic"
+          }
+        ],
+        "delta_hash": "ab0b00b23f74f9fa134b4bd4ff105e5a22058bf4332ff7d02c1fa6a0a70c1278"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-NSW-MINISTERIAL-RELEASES-20261005223759",
+      "source_change_event_id": "CHG-WATCH-NSW-MINISTERIAL-RELEASES-20261005223759",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-NSW-MINISTERIAL-RELEASES-20261005223759",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "NSW Government — Ministerial releases added 2 structured publication records to its forward-captured official index: Woollahra and Edgecliff community consultation extended; Violence is never part of the game",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-10-05T22:38:46.350Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "8e0bdf961bb8ea7bbaf4",
+            "title": "Woollahra and Edgecliff community consultation extended",
+            "url": "https://www.nsw.gov.au/ministerial-releases/woollahra-edgecliff-conssultation-extended"
+          },
+          {
+            "record_id": "9165b65e3ae90a3b850d",
+            "title": "Violence is never part of the game",
+            "url": "https://www.nsw.gov.au/departments-and-agencies/dciths/ministerial-media-releases/enjoy-grand-final-safely"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "935c141ef04c4399e3cb",
+            "title": "New training to empower NSW strata committee members",
+            "url": "https://www.nsw.gov.au/ministerial-releases/new-training-to-empower-nsw-strata-committee-members"
+          },
+          {
+            "record_id": "b51654ab751bf35db6a7",
+            "title": "$6.95 million boost for New England and Northern Tablelands Active Regional Communities",
+            "url": "https://www.nsw.gov.au/ministerial-releases/new-england-and-northern-tablelands-active-regional-communities"
+          }
+        ],
+        "delta_hash": "7ac719fcd855b0edabcb33eb7bfa363df22bb658fdb5f9b6c3dd7f7d085b1b60"
       },
       "integrity": {
         "source_change_unchanged": true,

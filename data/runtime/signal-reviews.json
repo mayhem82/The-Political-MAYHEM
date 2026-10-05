@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-SIGNAL-REVIEWS-001",
   "created_at": "2026-09-09T05:05:00+10:00",
-  "updated_at": "2026-10-04T21:26:30.246Z",
+  "updated_at": "2026-10-05T00:56:40.513Z",
   "rules": {
     "append_only": true,
     "raw_source_change_is_immutable": true,
@@ -36098,6 +36098,106 @@
           }
         ],
         "delta_hash": "cb8049d1ac0a64f258eeefe8400b80b4b4462bc41559872f661e0ac7fba28558"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-PM-MEDIA-20261005005558",
+      "source_change_event_id": "CHG-WATCH-PM-MEDIA-20261005005558",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-PM-MEDIA-20261005005558",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Prime Minister of Australia — media added 2 structured publication records to its forward-captured official index: Pre-COP Leaders’ Event in Fiji and Tuvalu; Vale Bruce Baird",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-10-05T00:56:40.513Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "20b5f882134b06c07bb2",
+            "title": "Pre-COP Leaders’ Event in Fiji and Tuvalu",
+            "url": "https://www.pm.gov.au/media/pre-cop-leaders-event-fiji-and-tuvalu"
+          },
+          {
+            "record_id": "4757ec0e247f082fb21e",
+            "title": "Vale Bruce Baird",
+            "url": "https://www.pm.gov.au/media/vale-bruce-baird"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "a3d7f876294e4dc117e7",
+            "title": "Television interview - News24 NewsDay",
+            "url": "https://www.pm.gov.au/media/television-interview-news24-newsday"
+          },
+          {
+            "record_id": "e217fb98af502452c09a",
+            "title": "Doorstop - Sydney",
+            "url": "https://www.pm.gov.au/media/doorstop-sydney-9"
+          }
+        ],
+        "delta_hash": "1323a4ecbcf16e5253aaf1ecc4875dc4ac556a40f8d4298a8ed24d4f92d442e7"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261005005558",
+      "source_change_event_id": "CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261005005558",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261005005558",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Queensland Government — Ministerial Media Statements added 2 structured publication records to its forward-captured official index: New police hit the frontline to make Queensland safer; Beef2027 moves closer as Central Queensland prepares to welcome the world",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-10-05T00:56:40.513Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "272e2a8f4dbffedce269",
+            "title": "New police hit the frontline to make Queensland safer",
+            "url": "https://statements.qld.gov.au/statements/106169"
+          },
+          {
+            "record_id": "a0b593263fef5b3b409b",
+            "title": "Beef2027 moves closer as Central Queensland prepares to welcome the world",
+            "url": "https://statements.qld.gov.au/statements/106177"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "8314bf71b831e76d0237",
+            "title": "Recommendations to strengthen integrity and accountability for corruption watchdog backed",
+            "url": "https://statements.qld.gov.au/statements/106156"
+          },
+          {
+            "record_id": "e14fe11497b7dcd5daab",
+            "title": "Statement from the Minister for Youth Justice and Victim Support",
+            "url": "https://statements.qld.gov.au/statements/106166"
+          }
+        ],
+        "delta_hash": "a289f783d791f09ec9fe081e33a35787c6eb2f471dca34a9e973c53ff8746047"
       },
       "integrity": {
         "source_change_unchanged": true,

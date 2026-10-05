@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-SIGNAL-REVIEWS-001",
   "created_at": "2026-09-09T05:05:00+10:00",
-  "updated_at": "2026-10-05T00:56:40.513Z",
+  "updated_at": "2026-10-05T07:04:15.625Z",
   "rules": {
     "append_only": true,
     "raw_source_change_is_immutable": true,
@@ -36198,6 +36198,128 @@
           }
         ],
         "delta_hash": "a289f783d791f09ec9fe081e33a35787c6eb2f471dca34a9e973c53ff8746047"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-PM-MEDIA-20261005070328",
+      "source_change_event_id": "CHG-WATCH-PM-MEDIA-20261005070328",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-PM-MEDIA-20261005070328",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Prime Minister of Australia — media added 1 structured publication record to its forward-captured official index: Doorstop - Nadi, Fiji",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-10-05T07:04:15.625Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "19e857032d637be595eb",
+            "title": "Doorstop - Nadi, Fiji",
+            "url": "https://www.pm.gov.au/media/doorstop-nadi-fiji"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "049f0ca469c201b79625",
+            "title": "Radio interview - ABC Northern Tasmania",
+            "url": "https://www.pm.gov.au/media/radio-interview-abc-northern-tasmania-1"
+          }
+        ],
+        "delta_hash": "1785948f320260119a27106753d29e54f35da678e58917bb032327ac93d83791"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-ONENATION-NEWS-20261005070328",
+      "source_change_event_id": "CHG-WATCH-ONENATION-NEWS-20261005070328",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-ONENATION-NEWS-20261005070328",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": "AUS-FED-ONP",
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Pauline Hanson's One Nation — Latest News added 1 structured publication record to its forward-captured official index: One Nation Questions Liberal Party’s Credibility on Net Zero",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-10-05T07:04:15.625Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "048d588be716b278ec0e",
+            "title": "One Nation Questions Liberal Party’s Credibility on Net Zero",
+            "url": "http://www.onenation.org.au/liberals-net-zero-credibility",
+            "published": "Mon, 05 Oct 2026 16:01:00 +1000"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "d6288fd76f56d39b9bfe",
+            "title": "Colleen Harkin Calls for Gender Ideology to Be Removed from Australian Schools",
+            "url": "http://www.onenation.org.au/gender-ideology-schools",
+            "published": "Thu, 10 Sep 2026 10:19:00 +1000"
+          }
+        ],
+        "delta_hash": "e28c47c0d1cf7ead68571dd4d337b680b931c776955b4ff11b33a2c9b0d98029"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261005070328",
+      "source_change_event_id": "CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261005070328",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261005070328",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Queensland Government — Ministerial Media Statements added 1 structured publication record to its forward-captured official index: More police delivered to Kilcoy frontline to make Somerset region safer",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-10-05T07:04:15.625Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "346b06111ebd86971a05",
+            "title": "More police delivered to Kilcoy frontline to make Somerset region safer",
+            "url": "https://statements.qld.gov.au/statements/106173"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "22453aeaafd5ae283b5a",
+            "title": "Security upgrade delivering safer Townsville small business precincts",
+            "url": "https://statements.qld.gov.au/statements/106163"
+          }
+        ],
+        "delta_hash": "9a6812a86394878e766984c8290b9cb7c35efbe3506a1dd91ec3c7b5a650ed79"
       },
       "integrity": {
         "source_change_unchanged": true,

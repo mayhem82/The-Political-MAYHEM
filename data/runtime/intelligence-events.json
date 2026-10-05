@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-INTELLIGENCE-EVENTS-001",
   "scope": "Australia — multi-jurisdiction",
-  "captured_at": "2026-10-05T00:56:44.950Z",
+  "captured_at": "2026-10-05T07:04:28.913Z",
   "mode": "FORWARD_ONLY",
   "rules": {
     "observation_distinct_from_inference": true,
@@ -100380,6 +100380,380 @@
           "record_id": "e14fe11497b7dcd5daab",
           "title": "Statement from the Minister for Youth Justice and Victim Support",
           "url": "https://statements.qld.gov.au/statements/106166"
+        }
+      ],
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "underlying_publication_claims_not_promoted_to_verified_fact": true,
+        "source_change_parent_retained": true,
+        "deterministic_review": true
+      }
+    },
+    {
+      "event_id": "CHG-WATCH-PM-MEDIA-20261005070328",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-FED",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-PM-MEDIA-20261005070328",
+      "captured_at": "2026-10-05T07:03:28.046Z",
+      "event_date": "2026-10-05",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-PM-MEDIA",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "review_policy": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-PM-MEDIA-20261005005558",
+        "content_hash": "a4fde036d09a68e0aa23ca77fca984c034f5237f68fe8acccd2d427ee8f7daec",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-PM-MEDIA-20261005070328",
+        "content_hash": "9d84039729bff35859bc327bac8afe9fae9769be341188f2e49ff84129713eda",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "STRUCTURED_RECORD_SET",
+        "records_added": [
+          {
+            "record_id": "19e857032d637be595eb",
+            "title": "Doorstop - Nadi, Fiji",
+            "url": "https://www.pm.gov.au/media/doorstop-nadi-fiji"
+          }
+        ],
+        "records_removed": [
+          {
+            "record_id": "049f0ca469c201b79625",
+            "title": "Radio interview - ABC Northern Tasmania",
+            "url": "https://www.pm.gov.au/media/radio-interview-abc-northern-tasmania-1"
+          }
+        ],
+        "added_count": 1,
+        "removed_count": 1,
+        "before_count": 27,
+        "after_count": 27,
+        "delta_hash": "1785948f320260119a27106753d29e54f35da678e58917bb032327ac93d83791"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-LIBERAL-HOME-20261005070328",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-FED",
+      "party_id": "AUS-FED-LIB",
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-LIBERAL-HOME-20261005070328",
+      "captured_at": "2026-10-05T07:03:28.046Z",
+      "event_date": "2026-10-05",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_PARTY",
+      "source_id": "SRC-LIBERAL-FEDERAL-HOME",
+      "capture_mode": "NORMALISED_PAGE_HASH",
+      "review_policy": "REVIEW_UNSTRUCTURED_CHANGE",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-LIBERAL-HOME-20261004055416",
+        "content_hash": "002b81fae495e11a87112842674b408717fd08acc3f2fc8d47ed049d498ef1fc",
+        "capture_mode": "NORMALISED_PAGE_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-LIBERAL-HOME-20261005070328",
+        "content_hash": "d9cf1a3549d330742e23a68b86fb75bae684ffee32442da08dbd752b20fda186",
+        "capture_mode": "NORMALISED_PAGE_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "TEXT_REPRESENTATION",
+        "first_difference_offset": 1434,
+        "before_length": 6466,
+        "after_length": 6443,
+        "before_excerpt": "sition in the Senate Meet the Liberal Team The Latest Stay up to date with the Liberal Party of Australia angustaylormp Every day Anthony Albanese and Jim Chalmers find another way to make life harder for small businesses and Australians who are just trying to get ahead. Oct 4 Open post by angustaylormp with ID 17869886073647353 angustaylormp This is why you’re paying more for just about everything. Oct 3 Open post by angustaylormp with ID 18139772833964712 liberalaus An internal revolt is growing within Labor about Albanese and Chalmers` economic mismanagement. It`s time for change. Oct 2 Open post by liberalaus with ID 18058011479557784 liberalaus Vale Bruce Baird &#8211; a former NSW MP, NSW Deputy Leader and Federal MP, and a former Federal Vice President of the Liberal Party. Our thoughts are with his many friends and family. Oct 2 Open post by liberalaus with ID 18072228923738040 liberalaus Nobody likes card surcharges, but Anthony Albanese is trying to pretend a cost disappears simply because you can`t see it on the receipt anymore. Australians aren`t mugs. Oct 2 Open post by liberalaus with ID 18106400354196808 senatorhume I don’t think Albo understands that he can’t just magically abolish a cost with a social media post 🤨 Oct 2 Open post by senatorhume with ID 17908319139488595 liberalaus The Prime Minister told Australians this would save them money every time they tap. Now, on day one, businesses are warning prices will rise. Oct 2 Open post by liberalaus with ID 18097513697385331 angustaylormp Small businesses have bills they have to pay. But Labor has just taken away an option to manage their cashflow. Without telling them. Oct 2 Open post by angustaylormp with ID 18118084133072005 liberalaus Albonomics is hurting small businesses. Oct 2 Open post by liberalaus with ID 18087295415271757 liberalaus Albanese has never run a small business, and it shows. The Prime Minister is out boasting about his ban on card surcharges. But cafes are warning it could add up to 50 cents to the price of a coffee. The cost hasn’t disappeared. Small businesses still have to pay card processing fees. They either absorb them or build them into their prices. Oct 2 Open post by liberalaus with ID 18117149351096355 liberalaus Even Labor MP`s can see through Jim Chalmers` spin. His inability to get government spending under control is keeping inflation high and hurting Australians. Oct 2 Open post by liberalaus with ID 17951586630277762 liberalaus Government spending is growing faster than the economy, which is fuelling inflation and keeping interest rates higher for longer. Oct 1 Open post by liberalaus with ID 17926834386423552 senatorhume The Coalition will end union-favoured contracts, restore a strong construction watchdog and give the CFMEU Administrator the powers he needs to clean up the union. Oct 1 Open post by senatorhume with ID 17923497552431768 angustaylormp Card surcharging: Australians aren’t mugs. A small business still has to process your card. If that cost isn’t on the receipt, it has to be absorbed or built into the price. If the Prime Minister really wants to bring prices down, he should start with the biggest cost Australians are facing: a government that has lost control of spending, inflation and the economy. Oct 1 Open post by angustaylormp with ID 17911041627550518 liberalaus Many families will be at the kitchen table, doing the mortgage sums. After 16 rate rises, an average new mortgage now costs over $30,000 a year more in interest than when Labor was elected. Their loan will take longer and cost more to repay, eating into money meant for groceries and bills. Oct 1 Open post by liberalaus with ID 17949833847336492 liberalaus The Liberals and Nationals have a plan. We will put a speed limit on spending and restore budget discipline. We will cut taxes, back small business and slash red tape to lift productivity and grow the economy without fuelling inflation. That is how we ease inflation and interest rates, and lift living standards. Oct 1 Open post by liberalaus with ID 18127652833830668 liberalaus You cannot keep spending more, taxing more and driving up costs, then pretend inflation and interest rates have nothing to do with you. Sep 30 Open post by liberalaus with ID 18170161627481837 liberalaus Life is more expensive under Labor. Nothing’s easy under Albanese. Sep 30 Open post by liberalaus with ID 18170968318457038 We need your support to win! Help us by making a donation today. 🙏🏼 $30 👏🏼 $60 😃 $120 😁 $500 😲 $1,000 🥹 $2,000",
+        "after_excerpt": "sition in the Senate Meet the Liberal Team The Latest Stay up to date with the Liberal Party of Australia angustaylormp Our small business community deserves respect. Anthony Albanese and Jim Chalmers should reverse this decision today. Oct 5 Open post by angustaylormp with ID 17930584626164381 senatorhume Labor just don’t get small business and they never will. Oct 4 Open post by senatorhume with ID 18496436914101075 angustaylormp Every day Anthony Albanese and Jim Chalmers find another way to make life harder for small businesses and Australians who are just trying to get ahead. Oct 4 Open post by angustaylormp with ID 17869886073647353 angustaylormp This is why you’re paying more for just about everything. Oct 3 Open post by angustaylormp with ID 18139772833964712 liberalaus An internal revolt is growing within Labor about Albanese and Chalmers` economic mismanagement. It`s time for change. Oct 2 Open post by liberalaus with ID 18058011479557784 liberalaus Vale Bruce Baird &#8211; a former NSW MP, NSW Deputy Leader and Federal MP, and a former Federal Vice President of the Liberal Party. Our thoughts are with his many friends and family. Oct 2 Open post by liberalaus with ID 18072228923738040 liberalaus Nobody likes card surcharges, but Anthony Albanese is trying to pretend a cost disappears simply because you can`t see it on the receipt anymore. Australians aren`t mugs. Oct 2 Open post by liberalaus with ID 18106400354196808 senatorhume I don’t think Albo understands that he can’t just magically abolish a cost with a social media post 🤨 Oct 2 Open post by senatorhume with ID 17908319139488595 liberalaus The Prime Minister told Australians this would save them money every time they tap. Now, on day one, businesses are warning prices will rise. Oct 2 Open post by liberalaus with ID 18097513697385331 angustaylormp Small businesses have bills they have to pay. But Labor has just taken away an option to manage their cashflow. Without telling them. Oct 2 Open post by angustaylormp with ID 18118084133072005 liberalaus Albonomics is hurting small businesses. Oct 2 Open post by liberalaus with ID 18087295415271757 liberalaus Albanese has never run a small business, and it shows. The Prime Minister is out boasting about his ban on card surcharges. But cafes are warning it could add up to 50 cents to the price of a coffee. The cost hasn’t disappeared. Small businesses still have to pay card processing fees. They either absorb them or build them into their prices. Oct 2 Open post by liberalaus with ID 18117149351096355 liberalaus Even Labor MP`s can see through Jim Chalmers` spin. His inability to get government spending under control is keeping inflation high and hurting Australians. Oct 2 Open post by liberalaus with ID 17951586630277762 liberalaus Government spending is growing faster than the economy, which is fuelling inflation and keeping interest rates higher for longer. Oct 1 Open post by liberalaus with ID 17926834386423552 senatorhume The Coalition will end union-favoured contracts, restore a strong construction watchdog and give the CFMEU Administrator the powers he needs to clean up the union. Oct 1 Open post by senatorhume with ID 17923497552431768 angustaylormp Card surcharging: Australians aren’t mugs. A small business still has to process your card. If that cost isn’t on the receipt, it has to be absorbed or built into the price. If the Prime Minister really wants to bring prices down, he should start with the biggest cost Australians are facing: a government that has lost control of spending, inflation and the economy. Oct 1 Open post by angustaylormp with ID 17911041627550518 liberalaus Many families will be at the kitchen table, doing the mortgage sums. After 16 rate rises, an average new mortgage now costs over $30,000 a year more in interest than when Labor was elected. Their loan will take longer and cost more to repay, eating into money meant for groceries and bills. Oct 1 Open post by liberalaus with ID 17949833847336492 liberalaus The Liberals and Nationals have a plan. We will put a speed limit on spending and restore budget discipline. We will cut taxes, back small business and slash red tape to lift productivity and grow the economy without fuelling inflation. That is how we ease inflation and interest rates, and lift living standards. Oct 1 Open post by liberalaus with ID 18127652833830668 We need your support to win! Help us by making a donation today. 🙏🏼 $30 👏🏼 $60 😃 $120 😁 $500 😲 $1,000 🥹 $2,000",
+        "delta_hash": "12da6262e790f2847fdd623e35c09d137819d849de3624595fac9535ed7e961d"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-ONENATION-NEWS-20261005070328",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-FED",
+      "party_id": "AUS-FED-ONP",
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-ONENATION-NEWS-20261005070328",
+      "captured_at": "2026-10-05T07:03:28.046Z",
+      "event_date": "2026-10-05",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_PARTY",
+      "source_id": "SRC-ONENATION-FEDERAL-NEWS",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "review_policy": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-ONENATION-NEWS-20260929015803",
+        "content_hash": "d8fbe760a06d4b521ac8f14d1d2f2d05b2fdd4a95716f150b3dc5a20ac5d490f",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-ONENATION-NEWS-20261005070328",
+        "content_hash": "fdfa578bef99785d07b415f8e135a3f9c9737cf45b11a31f0a0a0595a1377964",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "STRUCTURED_RECORD_SET",
+        "records_added": [
+          {
+            "record_id": "048d588be716b278ec0e",
+            "title": "One Nation Questions Liberal Party’s Credibility on Net Zero",
+            "url": "http://www.onenation.org.au/liberals-net-zero-credibility",
+            "published": "Mon, 05 Oct 2026 16:01:00 +1000"
+          }
+        ],
+        "records_removed": [
+          {
+            "record_id": "d6288fd76f56d39b9bfe",
+            "title": "Colleen Harkin Calls for Gender Ideology to Be Removed from Australian Schools",
+            "url": "http://www.onenation.org.au/gender-ideology-schools",
+            "published": "Thu, 10 Sep 2026 10:19:00 +1000"
+          }
+        ],
+        "added_count": 1,
+        "removed_count": 1,
+        "before_count": 20,
+        "after_count": 20,
+        "delta_hash": "e28c47c0d1cf7ead68571dd4d337b680b931c776955b4ff11b33a2c9b0d98029"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261005070328",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-QLD",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-QLD-MINISTERIAL-STATEMENTS-20261005070328",
+      "captured_at": "2026-10-05T07:03:28.046Z",
+      "event_date": "2026-10-05",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-QLD-MINISTERIAL-STATEMENTS",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "review_policy": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-QLD-MINISTERIAL-STATEMENTS-20261005005558",
+        "content_hash": "47cb7d62bec872b367f482caaf51456c80820d3ca2b7dfa61d8c6ca0ee982e2e",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-QLD-MINISTERIAL-STATEMENTS-20261005070328",
+        "content_hash": "9a4b55117f25b4ebc6ab2b684a1c7251373542eb984ad77c11ab2777067adc19",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "STRUCTURED_RECORD_SET",
+        "records_added": [
+          {
+            "record_id": "346b06111ebd86971a05",
+            "title": "More police delivered to Kilcoy frontline to make Somerset region safer",
+            "url": "https://statements.qld.gov.au/statements/106173"
+          }
+        ],
+        "records_removed": [
+          {
+            "record_id": "22453aeaafd5ae283b5a",
+            "title": "Security upgrade delivering safer Townsville small business precincts",
+            "url": "https://statements.qld.gov.au/statements/106163"
+          }
+        ],
+        "added_count": 1,
+        "removed_count": 1,
+        "before_count": 16,
+        "after_count": 16,
+        "delta_hash": "9a6812a86394878e766984c8290b9cb7c35efbe3506a1dd91ec3c7b5a650ed79"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "SIG-REV-CHG-WATCH-PM-MEDIA-20261005070328",
+      "parent_event_id": "CHG-WATCH-PM-MEDIA-20261005070328",
+      "review_id": "REV-CHG-WATCH-PM-MEDIA-20261005070328",
+      "jurisdiction_id": "AUS-FED",
+      "party_id": null,
+      "actor_id": null,
+      "contest_id": null,
+      "cycle_id": null,
+      "source_snapshot_id": "AUTO-WATCH-PM-MEDIA-20261005070328",
+      "record_id": "19e857032d637be595eb",
+      "captured_at": "2026-10-05T07:04:15.625Z",
+      "event_date": "2026-10-05",
+      "checkpoint": "CONTINUOUS_FORWARD_SIGNAL_REVIEW",
+      "event_type": "SIGNAL_CREATED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-PM-MEDIA",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "claim": "Prime Minister of Australia — media added 1 structured publication record to its forward-captured official index: Doorstop - Nadi, Fiji",
+      "observed_behaviour": "One or more structured publication records appeared in the monitored official source index after the preceding forward snapshot.",
+      "publication_records_added": [
+        {
+          "record_id": "19e857032d637be595eb",
+          "title": "Doorstop - Nadi, Fiji",
+          "url": "https://www.pm.gov.au/media/doorstop-nadi-fiji"
+        }
+      ],
+      "publication_records_removed": [
+        {
+          "record_id": "049f0ca469c201b79625",
+          "title": "Radio interview - ABC Northern Tasmania",
+          "url": "https://www.pm.gov.au/media/radio-interview-abc-northern-tasmania-1"
+        }
+      ],
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "underlying_publication_claims_not_promoted_to_verified_fact": true,
+        "source_change_parent_retained": true,
+        "deterministic_review": true
+      }
+    },
+    {
+      "event_id": "SIG-REV-CHG-WATCH-ONENATION-NEWS-20261005070328",
+      "parent_event_id": "CHG-WATCH-ONENATION-NEWS-20261005070328",
+      "review_id": "REV-CHG-WATCH-ONENATION-NEWS-20261005070328",
+      "jurisdiction_id": "AUS-FED",
+      "party_id": "AUS-FED-ONP",
+      "actor_id": null,
+      "contest_id": null,
+      "cycle_id": null,
+      "source_snapshot_id": "AUTO-WATCH-ONENATION-NEWS-20261005070328",
+      "record_id": "048d588be716b278ec0e",
+      "captured_at": "2026-10-05T07:04:15.625Z",
+      "event_date": "2026-10-05",
+      "checkpoint": "CONTINUOUS_FORWARD_SIGNAL_REVIEW",
+      "event_type": "SIGNAL_CREATED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_PARTY",
+      "source_id": "SRC-ONENATION-FEDERAL-NEWS",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "claim": "Pauline Hanson's One Nation — Latest News added 1 structured publication record to its forward-captured official index: One Nation Questions Liberal Party’s Credibility on Net Zero",
+      "observed_behaviour": "One or more structured publication records appeared in the monitored official source index after the preceding forward snapshot.",
+      "publication_records_added": [
+        {
+          "record_id": "048d588be716b278ec0e",
+          "title": "One Nation Questions Liberal Party’s Credibility on Net Zero",
+          "url": "http://www.onenation.org.au/liberals-net-zero-credibility",
+          "published": "Mon, 05 Oct 2026 16:01:00 +1000"
+        }
+      ],
+      "publication_records_removed": [
+        {
+          "record_id": "d6288fd76f56d39b9bfe",
+          "title": "Colleen Harkin Calls for Gender Ideology to Be Removed from Australian Schools",
+          "url": "http://www.onenation.org.au/gender-ideology-schools",
+          "published": "Thu, 10 Sep 2026 10:19:00 +1000"
+        }
+      ],
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "underlying_publication_claims_not_promoted_to_verified_fact": true,
+        "source_change_parent_retained": true,
+        "deterministic_review": true
+      }
+    },
+    {
+      "event_id": "SIG-REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261005070328",
+      "parent_event_id": "CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261005070328",
+      "review_id": "REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261005070328",
+      "jurisdiction_id": "AUS-QLD",
+      "party_id": null,
+      "actor_id": null,
+      "contest_id": null,
+      "cycle_id": null,
+      "source_snapshot_id": "AUTO-WATCH-QLD-MINISTERIAL-STATEMENTS-20261005070328",
+      "record_id": "346b06111ebd86971a05",
+      "captured_at": "2026-10-05T07:04:15.625Z",
+      "event_date": "2026-10-05",
+      "checkpoint": "CONTINUOUS_FORWARD_SIGNAL_REVIEW",
+      "event_type": "SIGNAL_CREATED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-QLD-MINISTERIAL-STATEMENTS",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "claim": "Queensland Government — Ministerial Media Statements added 1 structured publication record to its forward-captured official index: More police delivered to Kilcoy frontline to make Somerset region safer",
+      "observed_behaviour": "One or more structured publication records appeared in the monitored official source index after the preceding forward snapshot.",
+      "publication_records_added": [
+        {
+          "record_id": "346b06111ebd86971a05",
+          "title": "More police delivered to Kilcoy frontline to make Somerset region safer",
+          "url": "https://statements.qld.gov.au/statements/106173"
+        }
+      ],
+      "publication_records_removed": [
+        {
+          "record_id": "22453aeaafd5ae283b5a",
+          "title": "Security upgrade delivering safer Townsville small business precincts",
+          "url": "https://statements.qld.gov.au/statements/106163"
         }
       ],
       "inference": null,

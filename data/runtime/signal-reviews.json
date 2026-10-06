@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-SIGNAL-REVIEWS-001",
   "created_at": "2026-09-09T05:05:00+10:00",
-  "updated_at": "2026-10-05T22:38:46.350Z",
+  "updated_at": "2026-10-06T02:59:38.308Z",
   "rules": {
     "append_only": true,
     "raw_source_change_is_immutable": true,
@@ -36420,6 +36420,270 @@
           }
         ],
         "delta_hash": "7ac719fcd855b0edabcb33eb7bfa363df22bb658fdb5f9b6c3dd7f7d085b1b60"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-ONENATION-NEWS-20261006025858",
+      "source_change_event_id": "CHG-WATCH-ONENATION-NEWS-20261006025858",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-ONENATION-NEWS-20261006025858",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": "AUS-FED-ONP",
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Pauline Hanson's One Nation — Latest News added 2 structured publication records to its forward-captured official index: Pauline Hanson Challenges Labor Over One Million Migration Projection; One Nation Launches 2026 Victorian Election Campaign in Melbourne",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-10-06T02:59:38.308Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "17a826789fda57659b58",
+            "title": "Pauline Hanson Challenges Labor Over One Million Migration Projection",
+            "url": "http://www.onenation.org.au/migration-million-challenge",
+            "published": "Tue, 06 Oct 2026 09:42:00 +1000"
+          },
+          {
+            "record_id": "25033114eb3e0c38adce",
+            "title": "One Nation Launches 2026 Victorian Election Campaign in Melbourne",
+            "url": "http://www.onenation.org.au/victoria-campaign-launch",
+            "published": "Tue, 06 Oct 2026 09:44:50 +1000"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "8d0bc4f2017863674ec4",
+            "title": "Mark Nicholson: Victoria’s Pothole Problem Is Really a Government Spending Problem",
+            "url": "http://www.onenation.org.au/victoria-pothole-spending",
+            "published": "Thu, 10 Sep 2026 10:32:00 +1000"
+          },
+          {
+            "record_id": "b2466f1f2cab247b4f99",
+            "title": "Warren Pickering: A Story of Service, Accountability and Second Chances",
+            "url": "http://www.onenation.org.au/warren-pickering-story",
+            "published": "Thu, 10 Sep 2026 12:52:08 +1000"
+          }
+        ],
+        "delta_hash": "d8c9821d5108d2fa19692fbc0d2587a5b5656e1c036708818a99f8fa680aeda2"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-NSW-MINISTERIAL-RELEASES-20261006025858",
+      "source_change_event_id": "CHG-WATCH-NSW-MINISTERIAL-RELEASES-20261006025858",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-NSW-MINISTERIAL-RELEASES-20261006025858",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "NSW Government — Ministerial releases added 9 structured publication records to its forward-captured official index: New era for Moree – Business and NSW Government investments creating jobs and opportunities; New health hub to take pressure off South Western Sydney Hospitals; Clearing a new path for Callan Park to thrive; $1.55 million boost for Monaro and Snowy Mountains communities; Study reveals broad support for limits on screen use in schools as students self-report distraction in class; +4 more",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-10-06T02:59:38.308Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "26074169d2d6fc1e0fc4",
+            "title": "New era for Moree – Business and NSW Government investments creating jobs and opportunities",
+            "url": "https://www.nsw.gov.au/ministerial-releases/new-era-moree"
+          },
+          {
+            "record_id": "31150bf94158bc228cfd",
+            "title": "New health hub to take pressure off South Western Sydney Hospitals",
+            "url": "https://www.nsw.gov.au/ministerial-releases/new-health-hub-to-take-pressure-off-south-western-sydney-hospitals"
+          },
+          {
+            "record_id": "a17b652212160f1ee09b",
+            "title": "Clearing a new path for Callan Park to thrive",
+            "url": "https://www.nsw.gov.au/ministerial-releases/clearing-a-new-path-for-callan-park-to-thrive"
+          },
+          {
+            "record_id": "ada25739e9dac4c50d11",
+            "title": "$1.55 million boost for Monaro and Snowy Mountains communities",
+            "url": "https://www.nsw.gov.au/ministerial-releases/155-million-boost-for-monaro-and-snowy-mountains-communities"
+          },
+          {
+            "record_id": "ada2a4f13a8373390565",
+            "title": "Study reveals broad support for limits on screen use in schools as students self-report distraction in class",
+            "url": "https://www.nsw.gov.au/ministerial-releases/study-reveals-broad-support-for-limits-on-screen-use-schools-as-students-self-report-distraction-class"
+          },
+          {
+            "record_id": "b83aa39b696aedd9c3ba",
+            "title": "Minns Labor Government funding attracts four world-leading medical researchers to the state",
+            "url": "https://www.nsw.gov.au/ministerial-releases/minns-labor-government-funding-attracts-four-world-leading-medical-researchers-to-state"
+          },
+          {
+            "record_id": "e8a9a6ccad07a3c2ef2a",
+            "title": "Major pump upgrade to strengthen Lismore’s flood resilience",
+            "url": "https://www.nsw.gov.au/ministerial-releases/major-pump-upgrade-to-strengthen-lismores-flood-resilience"
+          },
+          {
+            "record_id": "eb8330eedb71e2f692ec",
+            "title": "NSW reforms protect native wildlife in Central West NSW",
+            "url": "https://www.nsw.gov.au/ministerial-releases/nsw-reforms-protect-native-wildlife-central-west-nsw"
+          },
+          {
+            "record_id": "ebd3805d14ed2661a742",
+            "title": "Construction complete on Nepean Hospital’s new Stage 2 building",
+            "url": "https://www.nsw.gov.au/ministerial-releases/construction-complete-on-nepean-hospitals-new-stage-2-building"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "0d77b4f336c1a33ba194",
+            "title": "Lung Bus rolls into south-west Sydney as new data reveals mobile screening is critical in early detection of deadly dust diseases in the workplace",
+            "url": "https://www.nsw.gov.au/ministerial-releases/lung-bus-rolls-into-south-west-sydney"
+          },
+          {
+            "record_id": "1ef779dd1edd5f52eedd",
+            "title": "NSW Sheriff’s officers to be better protected with body-worn video rollout",
+            "url": "https://www.nsw.gov.au/ministerial-releases/body-worn-camera-rollout"
+          },
+          {
+            "record_id": "216dc2bb3ef6186c536e",
+            "title": "Coffs Harbour Jetty Foreshore revitalisation a step closer",
+            "url": "https://www.nsw.gov.au/ministerial-releases/coffs-harbour-jetty-foreshore-revitalisation-a-step-closer"
+          },
+          {
+            "record_id": "69a9c037dc7ec7937362",
+            "title": "First batch of illegal e-bikes crushed into scrap metal",
+            "url": "https://www.nsw.gov.au/ministerial-releases/first-batch-of-illegal-e-bikes-crushed-into-scrap-metal"
+          },
+          {
+            "record_id": "8526751f72a4dff1b061",
+            "title": "Help shape the future of Centennial Parklands",
+            "url": "https://www.nsw.gov.au/ministerial-releases/centennial-parklands-consultation"
+          },
+          {
+            "record_id": "8bbd9e91b0d1ab5b1eef",
+            "title": "A Re-Elected Minns Labor Government will regulate Labour Hire in NSW",
+            "url": "https://www.nsw.gov.au/ministerial-releases/a-re-elected-minns-labor-government-will-regulate-labour-hire-nsw"
+          },
+          {
+            "record_id": "8e0bdf961bb8ea7bbaf4",
+            "title": "Woollahra and Edgecliff community consultation extended",
+            "url": "https://www.nsw.gov.au/ministerial-releases/woollahra-edgecliff-conssultation-extended"
+          },
+          {
+            "record_id": "b73b62e9d01db32283c9",
+            "title": "Minns Government releases strategy to tackle cattle tick",
+            "url": "https://www.nsw.gov.au/ministerial-releases/minns-government-releases-strategy-to-tackle-cattle-tick"
+          },
+          {
+            "record_id": "f75e18df2e2493ff7315",
+            "title": "Record breaking year as Sydneysiders flock to Sydney Olympic Park in their millions",
+            "url": "https://www.nsw.gov.au/departments-and-agencies/dciths/ministerial-media-releases/record-breaking-year-as-sydneysiders-flock-to-sydney-olympic-park-their-millions"
+          }
+        ],
+        "delta_hash": "e1db784de3f9a89179a8f7d97007356d54479d7bd6678e8347d7a9066c822414"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261006025858",
+      "source_change_event_id": "CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261006025858",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261006025858",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Queensland Government — Ministerial Media Statements added 6 structured publication records to its forward-captured official index: Works underway on new Ripley Valley primary school; Get Ready Queensland Week launches ahead of disaster season; Design begins on key Gold Coast Transport Plan bridge upgrade project; Destination 2045: Giving tourism businesses the tools to grow; Statement from the Minister for Transport and Main Roads; +1 more",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-10-06T02:59:38.308Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "293be6393bbb527a2d9d",
+            "title": "Works underway on new Ripley Valley primary school",
+            "url": "https://statements.qld.gov.au/statements/106183"
+          },
+          {
+            "record_id": "5458a1c0df19cd606aef",
+            "title": "Get Ready Queensland Week launches ahead of disaster season",
+            "url": "https://statements.qld.gov.au/statements/106179"
+          },
+          {
+            "record_id": "5f3482f9647da7cced7d",
+            "title": "Design begins on key Gold Coast Transport Plan bridge upgrade project",
+            "url": "https://statements.qld.gov.au/statements/106174"
+          },
+          {
+            "record_id": "9132f7c1fadf2dcc1ecc",
+            "title": "Destination 2045: Giving tourism businesses the tools to grow",
+            "url": "https://statements.qld.gov.au/statements/106180"
+          },
+          {
+            "record_id": "badc10780b853f7b6e4e",
+            "title": "Statement from the Minister for Transport and Main Roads",
+            "url": "https://statements.qld.gov.au/statements/106188"
+          },
+          {
+            "record_id": "ef291950ff94b0859438",
+            "title": "Queensland opens search for next generation of resource opportunities",
+            "url": "https://statements.qld.gov.au/statements/106182"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "3228b97899813f3fbe83",
+            "title": "New appointments for Government business and advisory boards",
+            "url": "https://statements.qld.gov.au/statements/106168"
+          },
+          {
+            "record_id": "58ca49fbf2e10a6cc698",
+            "title": "Next Court of Appeal President and significant judicial appointments announced",
+            "url": "https://statements.qld.gov.au/statements/106167"
+          },
+          {
+            "record_id": "61042695c16fffa03719",
+            "title": "More eyes in the sky keeping swimmers safe these school holidays",
+            "url": "https://statements.qld.gov.au/statements/106130"
+          },
+          {
+            "record_id": "a0bd370de5123a750e04",
+            "title": "Doomadgee water security project marks major milestone",
+            "url": "https://statements.qld.gov.au/statements/106162"
+          },
+          {
+            "record_id": "b0583400a655bea58064",
+            "title": "Queensland open for business with record procurement driving Indigenous Business Month momentum",
+            "url": "https://statements.qld.gov.au/statements/106160"
+          },
+          {
+            "record_id": "b637185377258c6d5a40",
+            "title": "Work starts on Petrie TAFE Centre of Excellence",
+            "url": "https://statements.qld.gov.au/statements/106151"
+          }
+        ],
+        "delta_hash": "0f8b86e15561282c1f236f688ca234898fa521df3d930c84ecd3720a391849f7"
       },
       "integrity": {
         "source_change_unchanged": true,

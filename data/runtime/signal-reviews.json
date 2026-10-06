@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-SIGNAL-REVIEWS-001",
   "created_at": "2026-09-09T05:05:00+10:00",
-  "updated_at": "2026-10-06T02:59:38.308Z",
+  "updated_at": "2026-10-06T10:19:42.547Z",
   "rules": {
     "append_only": true,
     "raw_source_change_is_immutable": true,
@@ -36684,6 +36684,200 @@
           }
         ],
         "delta_hash": "0f8b86e15561282c1f236f688ca234898fa521df3d930c84ecd3720a391849f7"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-PM-MEDIA-20261006101905",
+      "source_change_event_id": "CHG-WATCH-PM-MEDIA-20261006101905",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-PM-MEDIA-20261006101905",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Prime Minister of Australia — media added 2 structured publication records to its forward-captured official index: Last » Last page; Statement on Death of Australian Army Soldier",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-10-06T10:19:42.547Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "51ae43130799ff74a719",
+            "title": "Last » Last page",
+            "url": "https://www.pm.gov.au/media?page=280"
+          },
+          {
+            "record_id": "caba80d5e6b5e3f3e86d",
+            "title": "Statement on Death of Australian Army Soldier",
+            "url": "https://www.pm.gov.au/media/statement-death-australian-army-soldier"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "30ba72abfeca1ee7ed23",
+            "title": "More fans, closer to the action as new stand opens at Launceston&#039;s UTAS stadium",
+            "url": "https://www.pm.gov.au/media/more-fans-closer-action-new-stand-opens-launcestons-utas-stadium"
+          },
+          {
+            "record_id": "77a1bf2a20bb87819f40",
+            "title": "Last » Last page",
+            "url": "https://www.pm.gov.au/media?page=279"
+          }
+        ],
+        "delta_hash": "51953a3f7c53473b6b047880f148176278f49bcc701253081847b345a3f12155"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-NSW-MINISTERIAL-RELEASES-20261006101905",
+      "source_change_event_id": "CHG-WATCH-NSW-MINISTERIAL-RELEASES-20261006101905",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-NSW-MINISTERIAL-RELEASES-20261006101905",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "NSW Government — Ministerial releases added 2 structured publication records to its forward-captured official index: Sydney secures major Australia-Japan business summit for 2027; Work progresses at Rouse Hill Hospital with new construction milestone and fly through",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-10-06T10:19:42.547Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "3ca1e59e1c50d55d9097",
+            "title": "Sydney secures major Australia-Japan business summit for 2027",
+            "url": "https://www.nsw.gov.au/ministerial-releases/sydney-secures-major-australia-japan-business-summit-for-2027"
+          },
+          {
+            "record_id": "6cb41d2b422659ab23a6",
+            "title": "Work progresses at Rouse Hill Hospital with new construction milestone and fly through",
+            "url": "https://www.nsw.gov.au/ministerial-releases/new-construction-milestone-rouse-hill-hospital"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "31150bf94158bc228cfd",
+            "title": "New health hub to take pressure off South Western Sydney Hospitals",
+            "url": "https://www.nsw.gov.au/ministerial-releases/new-health-hub-to-take-pressure-off-south-western-sydney-hospitals"
+          },
+          {
+            "record_id": "9165b65e3ae90a3b850d",
+            "title": "Violence is never part of the game",
+            "url": "https://www.nsw.gov.au/departments-and-agencies/dciths/ministerial-media-releases/enjoy-grand-final-safely"
+          }
+        ],
+        "delta_hash": "a5e4c6d8d88bc8cb52ae342f8dea5b9f66fcd67e083f6ab3a17896cdd53f0cee"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-NSWEC-MEDIA-20261006101905",
+      "source_change_event_id": "CHG-WATCH-NSWEC-MEDIA-20261006101905",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-NSWEC-MEDIA-20261006101905",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "NSW Electoral Commission — news and media releases added 1 structured publication record to its forward-captured official index: Cobar Shire Council is having a by-election on Saturday, 28 November 2026 arrow_forward 6 Oct 2026 Encouraging voters in the Cobar local government area to enrol or check their enrolment details.",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-10-06T10:19:42.547Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "4df658c69695fb1ad422",
+            "title": "Cobar Shire Council is having a by-election on Saturday, 28 November 2026 arrow_forward 6 Oct 2026 Encouraging voters in the Cobar local government area to enrol or check their enrolment details.",
+            "url": "https://elections.nsw.gov.au/about-us/media-centre/news-and-media-releases/check-enrolment-cobar-shire-council-by-election"
+          }
+        ],
+        "removed_records": [],
+        "delta_hash": "fabba42c892b3b0921e1f1cbc036d06987af28ab1cb68d1dade58e6b6c453871"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261006101905",
+      "source_change_event_id": "CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261006101905",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261006101905",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Queensland Government — Ministerial Media Statements added 3 structured publication records to its forward-captured official index: Safety Works Complete on Cunningham Highway; Better and safer journeys at key Gatton intersection; Bringing Queensland communities together through culture and celebration",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-10-06T10:19:42.547Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "0073cd3d1e54536bdcf2",
+            "title": "Safety Works Complete on Cunningham Highway",
+            "url": "https://statements.qld.gov.au/statements/106184"
+          },
+          {
+            "record_id": "96765627778dc1c4c6c9",
+            "title": "Better and safer journeys at key Gatton intersection",
+            "url": "https://statements.qld.gov.au/statements/106185"
+          },
+          {
+            "record_id": "c86c2f9f1432e2c96ed1",
+            "title": "Bringing Queensland communities together through culture and celebration",
+            "url": "https://statements.qld.gov.au/statements/106181"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "4e0781751f5e880fc724",
+            "title": "Acreage awarded to secure Queensland’s resources future",
+            "url": "https://statements.qld.gov.au/statements/106170"
+          },
+          {
+            "record_id": "7e2795a29e03ff8986d9",
+            "title": "New fisheries patrol vessel for North Queensland",
+            "url": "https://statements.qld.gov.au/statements/106147"
+          },
+          {
+            "record_id": "e9c20f0871c44ef4adbe",
+            "title": "500+ illegal e-mobility devices seized as tough new laws crackdown on dangerous riders",
+            "url": "https://statements.qld.gov.au/statements/106172"
+          }
+        ],
+        "delta_hash": "fba16b6d7cbd1b7476c55f1645e411fa3cdec71d9d535dd86f6385b869c88372"
       },
       "integrity": {
         "source_change_unchanged": true,

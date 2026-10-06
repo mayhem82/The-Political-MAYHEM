@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-INTELLIGENCE-EVENTS-001",
   "scope": "Australia — multi-jurisdiction",
-  "captured_at": "2026-10-06T02:59:42.454Z",
+  "captured_at": "2026-10-06T10:20:04.512Z",
   "mode": "FORWARD_ONLY",
   "rules": {
     "observation_distinct_from_inference": true,
@@ -101817,6 +101817,633 @@
         "underlying_publication_claims_not_promoted_to_verified_fact": true,
         "source_change_parent_retained": true,
         "deterministic_review": true
+      }
+    },
+    {
+      "event_id": "CHG-WATCH-PM-MEDIA-20261006101905",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-FED",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-PM-MEDIA-20261006101905",
+      "captured_at": "2026-10-06T10:19:05.288Z",
+      "event_date": "2026-10-06",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-PM-MEDIA",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "review_policy": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-PM-MEDIA-20261005070328",
+        "content_hash": "9d84039729bff35859bc327bac8afe9fae9769be341188f2e49ff84129713eda",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-PM-MEDIA-20261006101905",
+        "content_hash": "c624b9249d9d9f90ecd34acc03d68cd538ae5fef31e86c2c00eb2f217c0b6ed7",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "STRUCTURED_RECORD_SET",
+        "records_added": [
+          {
+            "record_id": "51ae43130799ff74a719",
+            "title": "Last » Last page",
+            "url": "https://www.pm.gov.au/media?page=280"
+          },
+          {
+            "record_id": "caba80d5e6b5e3f3e86d",
+            "title": "Statement on Death of Australian Army Soldier",
+            "url": "https://www.pm.gov.au/media/statement-death-australian-army-soldier"
+          }
+        ],
+        "records_removed": [
+          {
+            "record_id": "30ba72abfeca1ee7ed23",
+            "title": "More fans, closer to the action as new stand opens at Launceston&#039;s UTAS stadium",
+            "url": "https://www.pm.gov.au/media/more-fans-closer-action-new-stand-opens-launcestons-utas-stadium"
+          },
+          {
+            "record_id": "77a1bf2a20bb87819f40",
+            "title": "Last » Last page",
+            "url": "https://www.pm.gov.au/media?page=279"
+          }
+        ],
+        "added_count": 2,
+        "removed_count": 2,
+        "before_count": 27,
+        "after_count": 27,
+        "delta_hash": "51953a3f7c53473b6b047880f148176278f49bcc701253081847b345a3f12155"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-LIBERAL-HOME-20261006101905",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-FED",
+      "party_id": "AUS-FED-LIB",
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-LIBERAL-HOME-20261006101905",
+      "captured_at": "2026-10-06T10:19:05.288Z",
+      "event_date": "2026-10-06",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_PARTY",
+      "source_id": "SRC-LIBERAL-FEDERAL-HOME",
+      "capture_mode": "NORMALISED_PAGE_HASH",
+      "review_policy": "REVIEW_UNSTRUCTURED_CHANGE",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-LIBERAL-HOME-20261006025858",
+        "content_hash": "e412ac0b852eb9c41d0ef1a4ed2ac2d5b8351949da8e4a2550ea1d155bd8a545",
+        "capture_mode": "NORMALISED_PAGE_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-LIBERAL-HOME-20261006101905",
+        "content_hash": "7cab5209c890513f353f165c962def1cacb4261baa8ac27141237b8569eaac5f",
+        "capture_mode": "NORMALISED_PAGE_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "TEXT_REPRESENTATION",
+        "first_difference_offset": 1433,
+        "before_length": 6595,
+        "after_length": 6431,
+        "before_excerpt": "er of the Opposition in the Senate Meet the Liberal Team The Latest Stay up to date with the Liberal Party of Australia liberalaus Labor has the balance wrong. Migration numbers are too high and the standards are too low. We’ll change both. Oct 6 Open post by liberalaus with ID 18111092591584708 angustaylormp We will take back control of our migration system to make it work for Australia. The Liberals and Nationals will cut the numbers and raise the standards. This is part of our plan to fix the economy and protect our way of life. Oct 6 Open post by angustaylormp with ID 18055585952585216 liberalaus Migration should work for Australia. Our plan cuts the numbers, raises the standards and puts Australia’s needs first. Oct 6 Open post by liberalaus with ID 18106121237622699 liberalaus Vale John Neil Andrew AO. The Liberal Party mourns the passing of former Federal Member for Wakefield and Speaker of the House of Representatives, Neil Andrew. As a parliamentarian Neil was highly respected in his role as Speaker of the House of Representatives, which he held from 1998-2004. Neil devoted many years to public service and made a significant contribution to South Australia and our nation, particularly through his advocacy for agriculture, regional communities and the Murray-Darling Basin. A proud Riverlander, he remained deeply connected to the region and the people he represented. We honour Neil’s distinguished service and extend our deepest condolences to his family, friends and all those who knew and worked alongside him. Oct 5 Open post by liberalaus with ID 18117432451978261 liberalaus Labor`s world view is that anyone who works hard, takes a risk or tries to get ahead, should then pay even more tax. Labor`s policy is to try and tax their way to prosperity &#8211; and it doesn`t work. Oct 5 Open post by liberalaus with ID 18142109056593805 angustaylormp Our small business community deserves respect. Anthony Albanese and Jim Chalmers should reverse this decision today. Oct 5 Open post by angustaylormp with ID 17930584626164381 senatorhume Labor just don’t get small business and they never will. Oct 4 Open post by senatorhume with ID 18496436914101075 angustaylormp Every day Anthony Albanese and Jim Chalmers find another way to make life harder for small businesses and Australians who are just trying to get ahead. Oct 4 Open post by angustaylormp with ID 17869886073647353 angustaylormp This is why you’re paying more for just about everything. Oct 3 Open post by angustaylormp with ID 18139772833964712 liberalaus An internal revolt is growing within Labor about Albanese and Chalmers` economic mismanagement. It`s time for change. Oct 2 Open post by liberalaus with ID 18058011479557784 liberalaus Vale Bruce Baird &#8211; a former NSW MP, NSW Deputy Leader and Federal MP, and a former Federal Vice President of the Liberal Party. Our thoughts are with his many friends and family. Oct 2 Open post by liberalaus with ID 18072228923738040 liberalaus Nobody likes card surcharges, but Anthony Albanese is trying to pretend a cost disappears simply because you can`t see it on the receipt anymore. Australians aren`t mugs. Oct 2 Open post by liberalaus with ID 18106400354196808 senatorhume I don’t think Albo understands that he can’t just magically abolish a cost with a social media post 🤨 Oct 2 Open post by senatorhume with ID 17908319139488595 liberalaus The Prime Minister told Australians this would save them money every time they tap. Now, on day one, businesses are warning prices will rise. Oct 2 Open post by liberalaus with ID 18097513697385331 angustaylormp Small businesses have bills they have to pay. But Labor has just taken away an option to manage their cashflow. Without telling them. Oct 2 Open post by angustaylormp with ID 18118084133072005 liberalaus Albonomics is hurting small businesses. Oct 2 Open post by liberalaus with ID 18087295415271757 liberalaus Albanese has never run a small business, and it shows. The Prime Minister is out boasting about his ban on card surcharges. But cafes are warning it could add up to 50 cents to the price of a coffee. The cost hasn’t disappeared. Small businesses still have to pay card processing fees. They either absorb them or build them into their prices. Oct 2 Open post by liberalaus with ID 18117149351096355 liberalaus Even Labor MP`s can see through Jim Chalmers` spin. His inability to get government spending under control is keeping inflation high and hurting Australians. Oct 2 Open post by liberalaus with ID 17951586630277762 We need your support to win! Help us by making a donation today. 🙏🏼 $30 👏🏼 $60 😃 $120 😁 $500 😲 $1,000 🥹 $2,000 ",
+        "after_excerpt": "er of the Opposition in the Senate Meet the Liberal Team The Latest Stay up to date with the Liberal Party of Australia angustaylormp We will take back control of migration. Under Labor, the numbers have been too high and the standards too low. We will change both. Oct 6 Open post by angustaylormp with ID 18430074130149860 liberalaus The Liberals and Nationals will deliver the largest cut to immigration in Australian history to deliver more homes for Australians, take pressure off frontline services, and protect our way of life. Oct 6 Open post by liberalaus with ID 17993756894842925 liberalaus Labor has the balance wrong. Migration numbers are too high and the standards are too low. We’ll change both. Oct 6 Open post by liberalaus with ID 18111092591584708 angustaylormp We will take back control of our migration system to make it work for Australia. The Liberals and Nationals will cut the numbers and raise the standards. This is part of our plan to fix the economy and protect our way of life. Oct 6 Open post by angustaylormp with ID 18055585952585216 liberalaus Migration should work for Australia. Our plan cuts the numbers, raises the standards and puts Australia’s needs first. Oct 6 Open post by liberalaus with ID 18106121237622699 liberalaus Vale John Neil Andrew AO. The Liberal Party mourns the passing of former Federal Member for Wakefield and Speaker of the House of Representatives, Neil Andrew. As a parliamentarian Neil was highly respected in his role as Speaker of the House of Representatives, which he held from 1998-2004. Neil devoted many years to public service and made a significant contribution to South Australia and our nation, particularly through his advocacy for agriculture, regional communities and the Murray-Darling Basin. A proud Riverlander, he remained deeply connected to the region and the people he represented. We honour Neil’s distinguished service and extend our deepest condolences to his family, friends and all those who knew and worked alongside him. Oct 5 Open post by liberalaus with ID 18117432451978261 liberalaus Labor`s world view is that anyone who works hard, takes a risk or tries to get ahead, should then pay even more tax. Labor`s policy is to try and tax their way to prosperity &#8211; and it doesn`t work. Oct 5 Open post by liberalaus with ID 18142109056593805 angustaylormp Our small business community deserves respect. Anthony Albanese and Jim Chalmers should reverse this decision today. Oct 5 Open post by angustaylormp with ID 17930584626164381 senatorhume Labor just don’t get small business and they never will. Oct 4 Open post by senatorhume with ID 18496436914101075 angustaylormp Every day Anthony Albanese and Jim Chalmers find another way to make life harder for small businesses and Australians who are just trying to get ahead. Oct 4 Open post by angustaylormp with ID 17869886073647353 angustaylormp This is why you’re paying more for just about everything. Oct 3 Open post by angustaylormp with ID 18139772833964712 liberalaus An internal revolt is growing within Labor about Albanese and Chalmers` economic mismanagement. It`s time for change. Oct 2 Open post by liberalaus with ID 18058011479557784 liberalaus Vale Bruce Baird &#8211; a former NSW MP, NSW Deputy Leader and Federal MP, and a former Federal Vice President of the Liberal Party. Our thoughts are with his many friends and family. Oct 2 Open post by liberalaus with ID 18072228923738040 liberalaus Nobody likes card surcharges, but Anthony Albanese is trying to pretend a cost disappears simply because you can`t see it on the receipt anymore. Australians aren`t mugs. Oct 2 Open post by liberalaus with ID 18106400354196808 senatorhume I don’t think Albo understands that he can’t just magically abolish a cost with a social media post 🤨 Oct 2 Open post by senatorhume with ID 17908319139488595 liberalaus The Prime Minister told Australians this would save them money every time they tap. Now, on day one, businesses are warning prices will rise. Oct 2 Open post by liberalaus with ID 18097513697385331 angustaylormp Small businesses have bills they have to pay. But Labor has just taken away an option to manage their cashflow. Without telling them. Oct 2 Open post by angustaylormp with ID 18118084133072005 liberalaus Albonomics is hurting small businesses. Oct 2 Open post by liberalaus with ID 18087295415271757 We need your support to win! Help us by making a donation today. 🙏🏼 $30 👏🏼 $60 😃 $120 😁 $500 😲 $1,000 🥹 $2,000 ",
+        "delta_hash": "b1153d3c87d2a98cce6528390f582fa2cdbd42f4d764fa68917f01804bfc33d0"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-NSW-MINISTERIAL-RELEASES-20261006101905",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-NSW",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-NSW-MINISTERIAL-RELEASES-20261006101905",
+      "captured_at": "2026-10-06T10:19:05.288Z",
+      "event_date": "2026-10-06",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-NSW-MINISTERIAL-RELEASES",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "review_policy": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-NSW-MINISTERIAL-RELEASES-20261006025858",
+        "content_hash": "7e2238d22276a9542011e58a1859c3cbb3df79e28285302623b2bb4bdc9630fe",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-NSW-MINISTERIAL-RELEASES-20261006101905",
+        "content_hash": "4fb5be0eafc6d77fa812aad72a24475f98684ed5b2e8720a976e84a2cb1085c4",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "STRUCTURED_RECORD_SET",
+        "records_added": [
+          {
+            "record_id": "3ca1e59e1c50d55d9097",
+            "title": "Sydney secures major Australia-Japan business summit for 2027",
+            "url": "https://www.nsw.gov.au/ministerial-releases/sydney-secures-major-australia-japan-business-summit-for-2027"
+          },
+          {
+            "record_id": "6cb41d2b422659ab23a6",
+            "title": "Work progresses at Rouse Hill Hospital with new construction milestone and fly through",
+            "url": "https://www.nsw.gov.au/ministerial-releases/new-construction-milestone-rouse-hill-hospital"
+          }
+        ],
+        "records_removed": [
+          {
+            "record_id": "31150bf94158bc228cfd",
+            "title": "New health hub to take pressure off South Western Sydney Hospitals",
+            "url": "https://www.nsw.gov.au/ministerial-releases/new-health-hub-to-take-pressure-off-south-western-sydney-hospitals"
+          },
+          {
+            "record_id": "9165b65e3ae90a3b850d",
+            "title": "Violence is never part of the game",
+            "url": "https://www.nsw.gov.au/departments-and-agencies/dciths/ministerial-media-releases/enjoy-grand-final-safely"
+          }
+        ],
+        "added_count": 2,
+        "removed_count": 2,
+        "before_count": 88,
+        "after_count": 88,
+        "delta_hash": "a5e4c6d8d88bc8cb52ae342f8dea5b9f66fcd67e083f6ab3a17896cdd53f0cee"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-NSWEC-MEDIA-20261006101905",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-NSW",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-NSWEC-MEDIA-20261006101905",
+      "captured_at": "2026-10-06T10:19:05.288Z",
+      "event_date": "2026-10-06",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_ELECTORAL_AUTHORITY",
+      "source_id": "SRC-NSWEC-MEDIA",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "review_policy": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-NSWEC-MEDIA-20260930064410",
+        "content_hash": "e0e18e8696aabeccbd97877befaf2fe24dc0ba27c7a2f77db7891c1d54070802",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-NSWEC-MEDIA-20261006101905",
+        "content_hash": "a93387a239eb5b50ac8fec00c715280f5457e2b6e015742bccaf514982e7a971",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "STRUCTURED_RECORD_SET",
+        "records_added": [
+          {
+            "record_id": "4df658c69695fb1ad422",
+            "title": "Cobar Shire Council is having a by-election on Saturday, 28 November 2026 arrow_forward 6 Oct 2026 Encouraging voters in the Cobar local government area to enrol or check their enrolment details.",
+            "url": "https://elections.nsw.gov.au/about-us/media-centre/news-and-media-releases/check-enrolment-cobar-shire-council-by-election"
+          }
+        ],
+        "records_removed": [],
+        "added_count": 1,
+        "removed_count": 0,
+        "before_count": 364,
+        "after_count": 365,
+        "delta_hash": "fabba42c892b3b0921e1f1cbc036d06987af28ab1cb68d1dade58e6b6c453871"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261006101905",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-QLD",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-QLD-MINISTERIAL-STATEMENTS-20261006101905",
+      "captured_at": "2026-10-06T10:19:05.288Z",
+      "event_date": "2026-10-06",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-QLD-MINISTERIAL-STATEMENTS",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "review_policy": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-QLD-MINISTERIAL-STATEMENTS-20261006025858",
+        "content_hash": "5bd5153b878d37b85b15524e4d2e13a1c426f67d3ae0b7b14d34a268eb041b98",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-QLD-MINISTERIAL-STATEMENTS-20261006101905",
+        "content_hash": "6b23f2033fbc19964e7666d0c68301a19a971f6e22f35e63b221335e4f891c56",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "STRUCTURED_RECORD_SET",
+        "records_added": [
+          {
+            "record_id": "0073cd3d1e54536bdcf2",
+            "title": "Safety Works Complete on Cunningham Highway",
+            "url": "https://statements.qld.gov.au/statements/106184"
+          },
+          {
+            "record_id": "96765627778dc1c4c6c9",
+            "title": "Better and safer journeys at key Gatton intersection",
+            "url": "https://statements.qld.gov.au/statements/106185"
+          },
+          {
+            "record_id": "c86c2f9f1432e2c96ed1",
+            "title": "Bringing Queensland communities together through culture and celebration",
+            "url": "https://statements.qld.gov.au/statements/106181"
+          }
+        ],
+        "records_removed": [
+          {
+            "record_id": "4e0781751f5e880fc724",
+            "title": "Acreage awarded to secure Queensland’s resources future",
+            "url": "https://statements.qld.gov.au/statements/106170"
+          },
+          {
+            "record_id": "7e2795a29e03ff8986d9",
+            "title": "New fisheries patrol vessel for North Queensland",
+            "url": "https://statements.qld.gov.au/statements/106147"
+          },
+          {
+            "record_id": "e9c20f0871c44ef4adbe",
+            "title": "500+ illegal e-mobility devices seized as tough new laws crackdown on dangerous riders",
+            "url": "https://statements.qld.gov.au/statements/106172"
+          }
+        ],
+        "added_count": 3,
+        "removed_count": 3,
+        "before_count": 16,
+        "after_count": 16,
+        "delta_hash": "fba16b6d7cbd1b7476c55f1645e411fa3cdec71d9d535dd86f6385b869c88372"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "SIG-REV-CHG-WATCH-PM-MEDIA-20261006101905",
+      "parent_event_id": "CHG-WATCH-PM-MEDIA-20261006101905",
+      "review_id": "REV-CHG-WATCH-PM-MEDIA-20261006101905",
+      "jurisdiction_id": "AUS-FED",
+      "party_id": null,
+      "actor_id": null,
+      "contest_id": null,
+      "cycle_id": null,
+      "source_snapshot_id": "AUTO-WATCH-PM-MEDIA-20261006101905",
+      "record_id": null,
+      "captured_at": "2026-10-06T10:19:42.547Z",
+      "event_date": "2026-10-06",
+      "checkpoint": "CONTINUOUS_FORWARD_SIGNAL_REVIEW",
+      "event_type": "SIGNAL_CREATED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-PM-MEDIA",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "claim": "Prime Minister of Australia — media added 2 structured publication records to its forward-captured official index: Last » Last page; Statement on Death of Australian Army Soldier",
+      "observed_behaviour": "One or more structured publication records appeared in the monitored official source index after the preceding forward snapshot.",
+      "publication_records_added": [
+        {
+          "record_id": "51ae43130799ff74a719",
+          "title": "Last » Last page",
+          "url": "https://www.pm.gov.au/media?page=280"
+        },
+        {
+          "record_id": "caba80d5e6b5e3f3e86d",
+          "title": "Statement on Death of Australian Army Soldier",
+          "url": "https://www.pm.gov.au/media/statement-death-australian-army-soldier"
+        }
+      ],
+      "publication_records_removed": [
+        {
+          "record_id": "30ba72abfeca1ee7ed23",
+          "title": "More fans, closer to the action as new stand opens at Launceston&#039;s UTAS stadium",
+          "url": "https://www.pm.gov.au/media/more-fans-closer-action-new-stand-opens-launcestons-utas-stadium"
+        },
+        {
+          "record_id": "77a1bf2a20bb87819f40",
+          "title": "Last » Last page",
+          "url": "https://www.pm.gov.au/media?page=279"
+        }
+      ],
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "underlying_publication_claims_not_promoted_to_verified_fact": true,
+        "source_change_parent_retained": true,
+        "deterministic_review": true
+      }
+    },
+    {
+      "event_id": "SIG-REV-CHG-WATCH-NSW-MINISTERIAL-RELEASES-20261006101905",
+      "parent_event_id": "CHG-WATCH-NSW-MINISTERIAL-RELEASES-20261006101905",
+      "review_id": "REV-CHG-WATCH-NSW-MINISTERIAL-RELEASES-20261006101905",
+      "jurisdiction_id": "AUS-NSW",
+      "party_id": null,
+      "actor_id": null,
+      "contest_id": null,
+      "cycle_id": null,
+      "source_snapshot_id": "AUTO-WATCH-NSW-MINISTERIAL-RELEASES-20261006101905",
+      "record_id": null,
+      "captured_at": "2026-10-06T10:19:42.547Z",
+      "event_date": "2026-10-06",
+      "checkpoint": "CONTINUOUS_FORWARD_SIGNAL_REVIEW",
+      "event_type": "SIGNAL_CREATED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-NSW-MINISTERIAL-RELEASES",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "claim": "NSW Government — Ministerial releases added 2 structured publication records to its forward-captured official index: Sydney secures major Australia-Japan business summit for 2027; Work progresses at Rouse Hill Hospital with new construction milestone and fly through",
+      "observed_behaviour": "One or more structured publication records appeared in the monitored official source index after the preceding forward snapshot.",
+      "publication_records_added": [
+        {
+          "record_id": "3ca1e59e1c50d55d9097",
+          "title": "Sydney secures major Australia-Japan business summit for 2027",
+          "url": "https://www.nsw.gov.au/ministerial-releases/sydney-secures-major-australia-japan-business-summit-for-2027"
+        },
+        {
+          "record_id": "6cb41d2b422659ab23a6",
+          "title": "Work progresses at Rouse Hill Hospital with new construction milestone and fly through",
+          "url": "https://www.nsw.gov.au/ministerial-releases/new-construction-milestone-rouse-hill-hospital"
+        }
+      ],
+      "publication_records_removed": [
+        {
+          "record_id": "31150bf94158bc228cfd",
+          "title": "New health hub to take pressure off South Western Sydney Hospitals",
+          "url": "https://www.nsw.gov.au/ministerial-releases/new-health-hub-to-take-pressure-off-south-western-sydney-hospitals"
+        },
+        {
+          "record_id": "9165b65e3ae90a3b850d",
+          "title": "Violence is never part of the game",
+          "url": "https://www.nsw.gov.au/departments-and-agencies/dciths/ministerial-media-releases/enjoy-grand-final-safely"
+        }
+      ],
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "underlying_publication_claims_not_promoted_to_verified_fact": true,
+        "source_change_parent_retained": true,
+        "deterministic_review": true
+      }
+    },
+    {
+      "event_id": "SIG-REV-CHG-WATCH-NSWEC-MEDIA-20261006101905",
+      "parent_event_id": "CHG-WATCH-NSWEC-MEDIA-20261006101905",
+      "review_id": "REV-CHG-WATCH-NSWEC-MEDIA-20261006101905",
+      "jurisdiction_id": "AUS-NSW",
+      "party_id": null,
+      "actor_id": null,
+      "contest_id": null,
+      "cycle_id": null,
+      "source_snapshot_id": "AUTO-WATCH-NSWEC-MEDIA-20261006101905",
+      "record_id": "4df658c69695fb1ad422",
+      "captured_at": "2026-10-06T10:19:42.547Z",
+      "event_date": "2026-10-06",
+      "checkpoint": "CONTINUOUS_FORWARD_SIGNAL_REVIEW",
+      "event_type": "SIGNAL_CREATED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_ELECTORAL_AUTHORITY",
+      "source_id": "SRC-NSWEC-MEDIA",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "claim": "NSW Electoral Commission — news and media releases added 1 structured publication record to its forward-captured official index: Cobar Shire Council is having a by-election on Saturday, 28 November 2026 arrow_forward 6 Oct 2026 Encouraging voters in the Cobar local government area to enrol or check their enrolment details.",
+      "observed_behaviour": "One or more structured publication records appeared in the monitored official source index after the preceding forward snapshot.",
+      "publication_records_added": [
+        {
+          "record_id": "4df658c69695fb1ad422",
+          "title": "Cobar Shire Council is having a by-election on Saturday, 28 November 2026 arrow_forward 6 Oct 2026 Encouraging voters in the Cobar local government area to enrol or check their enrolment details.",
+          "url": "https://elections.nsw.gov.au/about-us/media-centre/news-and-media-releases/check-enrolment-cobar-shire-council-by-election"
+        }
+      ],
+      "publication_records_removed": [],
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "underlying_publication_claims_not_promoted_to_verified_fact": true,
+        "source_change_parent_retained": true,
+        "deterministic_review": true
+      }
+    },
+    {
+      "event_id": "SIG-REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261006101905",
+      "parent_event_id": "CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261006101905",
+      "review_id": "REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261006101905",
+      "jurisdiction_id": "AUS-QLD",
+      "party_id": null,
+      "actor_id": null,
+      "contest_id": null,
+      "cycle_id": null,
+      "source_snapshot_id": "AUTO-WATCH-QLD-MINISTERIAL-STATEMENTS-20261006101905",
+      "record_id": null,
+      "captured_at": "2026-10-06T10:19:42.547Z",
+      "event_date": "2026-10-06",
+      "checkpoint": "CONTINUOUS_FORWARD_SIGNAL_REVIEW",
+      "event_type": "SIGNAL_CREATED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-QLD-MINISTERIAL-STATEMENTS",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "claim": "Queensland Government — Ministerial Media Statements added 3 structured publication records to its forward-captured official index: Safety Works Complete on Cunningham Highway; Better and safer journeys at key Gatton intersection; Bringing Queensland communities together through culture and celebration",
+      "observed_behaviour": "One or more structured publication records appeared in the monitored official source index after the preceding forward snapshot.",
+      "publication_records_added": [
+        {
+          "record_id": "0073cd3d1e54536bdcf2",
+          "title": "Safety Works Complete on Cunningham Highway",
+          "url": "https://statements.qld.gov.au/statements/106184"
+        },
+        {
+          "record_id": "96765627778dc1c4c6c9",
+          "title": "Better and safer journeys at key Gatton intersection",
+          "url": "https://statements.qld.gov.au/statements/106185"
+        },
+        {
+          "record_id": "c86c2f9f1432e2c96ed1",
+          "title": "Bringing Queensland communities together through culture and celebration",
+          "url": "https://statements.qld.gov.au/statements/106181"
+        }
+      ],
+      "publication_records_removed": [
+        {
+          "record_id": "4e0781751f5e880fc724",
+          "title": "Acreage awarded to secure Queensland’s resources future",
+          "url": "https://statements.qld.gov.au/statements/106170"
+        },
+        {
+          "record_id": "7e2795a29e03ff8986d9",
+          "title": "New fisheries patrol vessel for North Queensland",
+          "url": "https://statements.qld.gov.au/statements/106147"
+        },
+        {
+          "record_id": "e9c20f0871c44ef4adbe",
+          "title": "500+ illegal e-mobility devices seized as tough new laws crackdown on dangerous riders",
+          "url": "https://statements.qld.gov.au/statements/106172"
+        }
+      ],
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "underlying_publication_claims_not_promoted_to_verified_fact": true,
+        "source_change_parent_retained": true,
+        "deterministic_review": true
+      }
+    },
+    {
+      "event_id": "INTEL-AREA-0ad8ce0c6c3d6a4ba4cf1268",
+      "parent_event_id": "SIG-REV-CHG-WATCH-NSWEC-MEDIA-20261006101905",
+      "jurisdiction_id": "AUS-NSW",
+      "party_id": null,
+      "actor_id": null,
+      "party_ids": [],
+      "actor_ids": [],
+      "contest_id": null,
+      "cycle_id": null,
+      "competition_class": "ELECTORAL",
+      "area_evidence_id": "AREA-0ad8ce0c6c3d6a4ba4cf1268",
+      "detail_record_id": "DETAIL-6715a5ceecdd8d62cd1abdf0",
+      "detail_version_id": "DETAIL-6715a5ceecdd8d62cd1abdf0-V1",
+      "source_snapshot_id": "AUTO-WATCH-NSWEC-MEDIA-20261006101905",
+      "record_url": "https://elections.nsw.gov.au/about-us/media-centre/news-and-media-releases/check-enrolment-cobar-shire-council-by-election",
+      "captured_at": "2026-10-06T10:20:04.512Z",
+      "evidence_captured_at": "2026-10-06T10:19:43.502Z",
+      "event_date": "2026-10-06",
+      "checkpoint": "SUBSTANTIVE_INFORMATION_INGESTION",
+      "event_type": "AREA_EVIDENCE_INGESTED",
+      "area_routing_state": "SUBSTANTIVE_CONTENT_ROUTED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_ELECTORAL_AUTHORITY",
+      "source_id": "SRC-NSWEC-MEDIA",
+      "claim": "Ingested substantive electoral evidence from Check your enrolment: Cobar Shire Council by-election. Captured content includes stage: vote. Registration threshold state: evidence gap. Missing requirements: missing fact type stage, missing condition resolved participant or team.",
+      "observed_behaviour": "Check your enrolment: Cobar Shire Council by-election - NSW Electoral Commission Go to content language العربية Tiếng Việt 中文 Ελληνικά Italiano newspaper Media work Work with us contact_support Contact us search Search Menu Listen share Share Check your enrolment: Cobar Shire Council by-election Cobar Shire Council is having a by-election on Saturday, 28 November 2026. Voting is compulsory and the NSW Electoral Commission is encouraging voters in the Cobar local government area to enrol or check their enrolment details before the close of residential and non-residential rolls at 6pm on Monday, 19 October 2026. NSW Electoral Commissioner Rachel McCallum reminded voters that now is the time to get ready to vote. \"With a by-election approaching, now is the time for eligible voters to ensure their details are up-to-date so they are ready to have their say.\" \"Whether you need to enrol for the first time, update your details or just check where you are enrolled, it’s quick and easy to do online.\" \"Go to the NSW Electoral Commission's website and you’ll get all the information you need.\" Ms McCallum said it is compulsory to enrol to vote for NSW local government elections if you are eligible and aged 18 or over. Visit the NSW Electoral Commission website to find out more about this by-election. Last updated 06 October 2026 at 2:35 PM arrow_upward Back to top Listen share Share",
+      "extracted_cues": {
+        "resistance_terms": [],
+        "stage_terms": [
+          "vote"
+        ],
+        "outcome_terms": [],
+        "pressure_terms": []
+      },
+      "entity_mentions": {
+        "actors": [],
+        "teams": []
+      },
+      "position_state": "UNRESOLVED",
+      "resistance_state": "UNRESOLVED",
+      "outcome_state": "UNRESOLVED",
+      "contest_fact_ids": [
+        "FACT-0583190aaa7612aee73b2511",
+        "FACT-35981d05f5bf9cd4511452ac",
+        "FACT-ad6dde5a82b37dff3d699b32",
+        "FACT-be87125c1aaaf363bdb080c1",
+        "FACT-e2889a9ab5c241efb3336bb1"
+      ],
+      "contest_fact_types": [
+        "CONTEST_OBJECT"
+      ],
+      "threshold_evaluation_id": "THRESH-9aa02ed9b14b4e0f90ba87bf",
+      "threshold_state": "EVIDENCE_GAP",
+      "threshold_blockers": [
+        "MISSING_CONDITION_RESOLVED_PARTICIPANT_OR_TEAM",
+        "MISSING_FACT_TYPE_STAGE"
+      ],
+      "supporting_entities": [],
+      "opposing_entities": [],
+      "registration_action": "NO_AUTOMATIC_REGISTRATION",
+      "intelligence_signature": "d28128b2109264dfb8818aed8f38beb173ef91d91e72dfdaf732138af2ff3775",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "substantive_detail_lineage_required": true,
+        "active_contest_fact_lineage_required": true,
+        "threshold_evaluation_lineage_required": true,
+        "routing_does_not_register_match": true,
+        "threshold_eligibility_does_not_register_match": true,
+        "entity_mentions_do_not_establish_positions": true,
+        "retracted_facts_excluded": true,
+        "no_projection_effect_without_registered_target": true
       }
     }
   ]

@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-SIGNAL-REVIEWS-001",
   "created_at": "2026-09-09T05:05:00+10:00",
-  "updated_at": "2026-10-06T21:38:43.529Z",
+  "updated_at": "2026-10-19T01:20:27.588Z",
   "rules": {
     "append_only": true,
     "raw_source_change_is_immutable": true,
@@ -36878,6 +36878,1310 @@
           }
         ],
         "delta_hash": "fba16b6d7cbd1b7476c55f1645e411fa3cdec71d9d535dd86f6385b869c88372"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-APH-BILLS-20261019011830",
+      "source_change_event_id": "CHG-WATCH-APH-BILLS-20261019011830",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-APH-BILLS-20261019011830",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Parliament of Australia — Bills and Legislation added 6 structured publication records to its forward-captured official index: Autonomous Sanctions Amendment (Iran and Syria) Bi...; Telecommunications Legislation Amendment (Universa...; Social Security and Other Legislation Amendment (T...; Health Insurance Amendment (Incentive Payments and...; Aged Care Legislation Amendment (Aboriginal and To...; +1 more",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-10-19T01:20:27.588Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "01931c395f0cd1abc7b2",
+            "title": "Autonomous Sanctions Amendment (Iran and Syria) Bi...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7552"
+          },
+          {
+            "record_id": "482c4b90b9cd4fe2c84a",
+            "title": "Telecommunications Legislation Amendment (Universa...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7414"
+          },
+          {
+            "record_id": "5dfdb0f54589f88ce831",
+            "title": "Social Security and Other Legislation Amendment (T...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7515"
+          },
+          {
+            "record_id": "68ea1d349e472a585e69",
+            "title": "Health Insurance Amendment (Incentive Payments and...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7491"
+          },
+          {
+            "record_id": "732221c68c87c7b3aff7",
+            "title": "Aged Care Legislation Amendment (Aboriginal and To...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7517"
+          },
+          {
+            "record_id": "ba16f1a261ed547f15f0",
+            "title": "Universities Accord (Opening the Doors of Opportun...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7501"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "2a6999b453936296e183",
+            "title": "Knox Class Action (Facilitation) Bill 2026",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7539"
+          },
+          {
+            "record_id": "5bda2274e29e23b28b95",
+            "title": "Defence Force Discipline Amendment (RCDVS Implemen...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7464"
+          },
+          {
+            "record_id": "7b152d4caa880327da7c",
+            "title": "Health Legislation Amendment (Improving Choice and...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7434"
+          },
+          {
+            "record_id": "b483e0ab98aaa9be7511",
+            "title": "Customs Amendment (Safeguard Inquiries) Bill 2026",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=s1495"
+          },
+          {
+            "record_id": "f1cb69459e052865620a",
+            "title": "Defence Legislation Amendment (RCDVS Implementatio...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7498"
+          },
+          {
+            "record_id": "fd455d4e5c31a39837e2",
+            "title": "Major Sporting Events (Indicia and Images) Protect...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7499"
+          }
+        ],
+        "delta_hash": "20c86baabe91bccfbdefea8a3643ad755db685e0164193cd695d489b903394b1"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-PM-MEDIA-20261019011830",
+      "source_change_event_id": "CHG-WATCH-PM-MEDIA-20261019011830",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-PM-MEDIA-20261019011830",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Prime Minister of Australia — media added 13 structured publication records to its forward-captured official index: 25 years since Australians answered the call in Afghanistan; National reflection 25 years of Australian service in Afghanistan; Federation of Ethnic Communities&#039; Councils of Australia national conference; Opening remarks - Parliament House, Canberra; Centenary of the Canberra Times; +8 more",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-10-19T01:20:27.588Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "024aad5d6c1d0d23ac46",
+            "title": "25 years since Australians answered the call in Afghanistan",
+            "url": "https://www.pm.gov.au/media/25-years-australians-answered-call-afghanistan"
+          },
+          {
+            "record_id": "2542fbb8663d54ae8971",
+            "title": "National reflection 25 years of Australian service in Afghanistan",
+            "url": "https://www.pm.gov.au/media/national-reflection-25-years-australian-service-afghanistan"
+          },
+          {
+            "record_id": "37dc9ec56867daee3ece",
+            "title": "Federation of Ethnic Communities&#039; Councils of Australia national conference",
+            "url": "https://www.pm.gov.au/media/federation-ethnic-communities-councils-australia-national-conference"
+          },
+          {
+            "record_id": "4fb3a802c41ed0104cf2",
+            "title": "Opening remarks - Parliament House, Canberra",
+            "url": "https://www.pm.gov.au/media/opening-remarks-parliament-house-canberra-14-october-2026"
+          },
+          {
+            "record_id": "50ec389289dc8691db5b",
+            "title": "Centenary of the Canberra Times",
+            "url": "https://www.pm.gov.au/media/centenary-canberra-times"
+          },
+          {
+            "record_id": "5a4ecfbc1652b4f7647f",
+            "title": "Visit to Australia by the Hashemite Kingdom of Jordan",
+            "url": "https://www.pm.gov.au/media/visit-australia-hashemite-kingdom-jordan"
+          },
+          {
+            "record_id": "621e37f544fb6a91f037",
+            "title": "Centenary of parliament sitting",
+            "url": "https://www.pm.gov.au/media/centenary-parliament-sitting"
+          },
+          {
+            "record_id": "9ce01399fa246ba9019c",
+            "title": "2026 Telethon gala ball",
+            "url": "https://www.pm.gov.au/media/2026-telethon-gala-ball"
+          },
+          {
+            "record_id": "bdfcebbf9eca0a31dd6d",
+            "title": "Television interview - ABC Afternoon Briefing",
+            "url": "https://www.pm.gov.au/media/television-interview-abc-afternoon-briefing-11"
+          },
+          {
+            "record_id": "d5e22b45652562070363",
+            "title": "Last » Last page",
+            "url": "https://www.pm.gov.au/media?page=281"
+          },
+          {
+            "record_id": "d843f13ff47f82c7a266",
+            "title": "Vale Richard Morecroft",
+            "url": "https://www.pm.gov.au/media/vale-richard-morecroft"
+          },
+          {
+            "record_id": "dae736eaa660b6a16f2d",
+            "title": "Joint leaders&#039; Statement on Enhanced Cooperation",
+            "url": "https://www.pm.gov.au/media/joint-leaders-statement-enhanced-cooperation"
+          },
+          {
+            "record_id": "f7a7b600cd62e7342a66",
+            "title": "Albanese Government delivers $6 million to Telethon",
+            "url": "https://www.pm.gov.au/media/albanese-government-delivers-6-million-telethon"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "19e857032d637be595eb",
+            "title": "Doorstop - Nadi, Fiji",
+            "url": "https://www.pm.gov.au/media/doorstop-nadi-fiji"
+          },
+          {
+            "record_id": "1ff13cb8dd07aac3a47b",
+            "title": "Accelerating the delivery of more homes for South Australians",
+            "url": "https://www.pm.gov.au/media/accelerating-delivery-more-homes-south-australians"
+          },
+          {
+            "record_id": "20b5f882134b06c07bb2",
+            "title": "Pre-COP Leaders’ Event in Fiji and Tuvalu",
+            "url": "https://www.pm.gov.au/media/pre-cop-leaders-event-fiji-and-tuvalu"
+          },
+          {
+            "record_id": "4757ec0e247f082fb21e",
+            "title": "Vale Bruce Baird",
+            "url": "https://www.pm.gov.au/media/vale-bruce-baird"
+          },
+          {
+            "record_id": "51ae43130799ff74a719",
+            "title": "Last » Last page",
+            "url": "https://www.pm.gov.au/media?page=280"
+          },
+          {
+            "record_id": "71b3c986a59ef70948fa",
+            "title": "Launch of Three Shocks",
+            "url": "https://www.pm.gov.au/media/launch-three-shocks"
+          },
+          {
+            "record_id": "75460c87897eeacad887",
+            "title": "Press conference - Adelaide",
+            "url": "https://www.pm.gov.au/media/press-conference-adelaide-8"
+          },
+          {
+            "record_id": "9bf27f255bd60d8f73c3",
+            "title": "Press conference - Footscray",
+            "url": "https://www.pm.gov.au/media/press-conference-footscray"
+          },
+          {
+            "record_id": "caba80d5e6b5e3f3e86d",
+            "title": "Statement on Death of Australian Army Soldier",
+            "url": "https://www.pm.gov.au/media/statement-death-australian-army-soldier"
+          },
+          {
+            "record_id": "d73bc363d583733ef40c",
+            "title": "Securing the Future of Bell Bay Aluminium",
+            "url": "https://www.pm.gov.au/media/securing-future-bell-bay-aluminium"
+          },
+          {
+            "record_id": "eaa4b027fe86a5324c3f",
+            "title": "Press conference - Launceston, Tas",
+            "url": "https://www.pm.gov.au/media/press-conference-launceston-tas"
+          },
+          {
+            "record_id": "f43d478399a85e9f00e2",
+            "title": "Melbourne Airport Rail Stage 2 set for take-off",
+            "url": "https://www.pm.gov.au/media/melbourne-airport-rail-stage-2-set-take"
+          },
+          {
+            "record_id": "fabf20208f8637c65e95",
+            "title": "Press conference - Bell Bay, Tasmania",
+            "url": "https://www.pm.gov.au/media/press-conference-bell-bay-tasmania"
+          }
+        ],
+        "delta_hash": "69a0e3a687eb29686d4000c325bc136257a2cefa7607d8c403b2c61a93f91ce5"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-ALP-NEWS-20261019011830",
+      "source_change_event_id": "CHG-WATCH-ALP-NEWS-20261019011830",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-ALP-NEWS-20261019011830",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": "AUS-FED-ALP",
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Australian Labor Party — news added 9 structured publication records to its forward-captured official index: Regional apprentices keen on $10,000 incentives 6 October 2026; World mental health day 2026: Together we thrive 10 October 2026; Volunteer for Labor; More support for women this World Menopause Day 18 October 2026; More than 1m supported through headspace centres 14 October 2026; +4 more",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-10-19T01:20:27.588Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "627b8da489d62a372df6",
+            "title": "Regional apprentices keen on $10,000 incentives 6 October 2026",
+            "url": "https://www.alp.org.au/news/all-news/regional-apprentices-keen-on-10-000-incentives-for-new-housing-construction-trades/"
+          },
+          {
+            "record_id": "67574c7cc4214a4f03d2",
+            "title": "World mental health day 2026: Together we thrive 10 October 2026",
+            "url": "https://www.alp.org.au/news/all-news/world-mental-health-day-2026-together-we-thrive/"
+          },
+          {
+            "record_id": "8075148800547c6b46d6",
+            "title": "Volunteer for Labor",
+            "url": "https://www.alp.org.au/get-involved/volunteer-for-labor/"
+          },
+          {
+            "record_id": "8a6d0d9d4f6a37f27740",
+            "title": "More support for women this World Menopause Day 18 October 2026",
+            "url": "https://www.alp.org.au/news/all-news/more-support-for-women-this-world-menopause-day/"
+          },
+          {
+            "record_id": "8a920fcfb93023ab497f",
+            "title": "More than 1m supported through headspace centres 14 October 2026",
+            "url": "https://www.alp.org.au/news/all-news/more-than-one-million-young-australians-supported-through-headspace-centres/"
+          },
+          {
+            "record_id": "8ce28e4eb30102d39419",
+            "title": "1,275 new social homes for Victoria 1 October 2026",
+            "url": "https://www.alp.org.au/news/all-news/1-275-new-social-homes-for-victoria-through-the-housing-australia-future-fund/"
+          },
+          {
+            "record_id": "9ec9de7a41f1f86770de",
+            "title": "Pay rise to 460k workers in female-dominated roles 10 October 2026",
+            "url": "https://www.alp.org.au/news/all-news/landmark-funding-to-address-historic-gender-undervaluation-in-care-sectors/"
+          },
+          {
+            "record_id": "afb559c138d3b827a03b",
+            "title": "Crisis housing for Queenslanders that need it most 1 October 2026",
+            "url": "https://www.alp.org.au/news/all-news/crisis-housing-for-queenslanders-that-need-it-most/"
+          },
+          {
+            "record_id": "d572449b36acc4ab3e2c",
+            "title": "Better mobile coverage for all Australians 16 October 2026",
+            "url": "https://www.alp.org.au/news/all-news/ensuring-better-mobile-coverage-for-all-australians/"
+          }
+        ],
+        "removed_records": [],
+        "delta_hash": "c02c1aa0277c9da543cb3d8281369b4836f077dc988e0cec5d549ffba5fbc0a8"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-GREENS-FEDERAL-MEDIA-20261019011830",
+      "source_change_event_id": "CHG-WATCH-GREENS-FEDERAL-MEDIA-20261019011830",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-GREENS-FEDERAL-MEDIA-20261019011830",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": "AUS-FED-GRN",
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Australian Greens — Federal MPs media releases added 27 structured publication records to its forward-captured official index: Greens to seek Senate inquiry into Labor&#039;s watered-down trust reforms; Read more about Greens call on Government to block livestreamed execution footage from Australian screens; Greens call on Government to block livestreamed execution footage from Australian screens; Labor review into aged care assessments means human override must be urgently reinstated: Greens; Read more about Labor review into aged care assessments means human override must be urgently reinstated: Greens; +22 more",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-10-19T01:20:27.588Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "060b1943f9e838a8986c",
+            "title": "Greens to seek Senate inquiry into Labor&#039;s watered-down trust reforms",
+            "url": "https://greens.org.au/news/media-release/greens-seek-senate-inquiry-labors-watered-down-trust-reforms"
+          },
+          {
+            "record_id": "0f6ac4ba0e3111cc5a01",
+            "title": "Read more about Greens call on Government to block livestreamed execution footage from Australian screens",
+            "url": "https://greens.org.au/news/media-release/greens-call-government-block-livestreamed-execution-footage-australian-screens"
+          },
+          {
+            "record_id": "13c6ff79fec0bf1905a6",
+            "title": "Greens call on Government to block livestreamed execution footage from Australian screens",
+            "url": "https://greens.org.au/news/media-release/greens-call-government-block-livestreamed-execution-footage-australian-screens"
+          },
+          {
+            "record_id": "269c2ec2bc2ba1b81ee9",
+            "title": "Labor review into aged care assessments means human override must be urgently reinstated: Greens",
+            "url": "https://greens.org.au/news/media-release/labor-review-aged-care-assessments-means-human-override-must-be-urgently"
+          },
+          {
+            "record_id": "3224169bed6da178f7af",
+            "title": "Read more about Labor review into aged care assessments means human override must be urgently reinstated: Greens",
+            "url": "https://greens.org.au/news/media-release/labor-review-aged-care-assessments-means-human-override-must-be-urgently"
+          },
+          {
+            "record_id": "32845516baa3fb49b310",
+            "title": "Albanese Government needs to stand firm against big AI and protect Australian creatives",
+            "url": "https://greens.org.au/sa/news/media-release/albanese-government-needs-stand-firm-against-big-ai-and-protect-australian"
+          },
+          {
+            "record_id": "3d8cdf93343f8596aae5",
+            "title": "Read more about Labor must restore Ask Izzy funding",
+            "url": "https://greens.org.au/news/media-release/labor-must-restore-ask-izzy-funding"
+          },
+          {
+            "record_id": "3dcdaf37dfd0921cf3bd",
+            "title": "Last page Last »",
+            "url": "https://greens.org.au/news/media-releases?page=299"
+          },
+          {
+            "record_id": "5994e9e9590687069c5c",
+            "title": "Read more about 78% of Australians back rent limits",
+            "url": "https://greens.org.au/news/media-release/78-australians-back-rent-limits"
+          },
+          {
+            "record_id": "5d6c95c6341c52111510",
+            "title": "Read more about Greens push for economic security reforms for women",
+            "url": "https://greens.org.au/news/media-release/greens-push-economic-security-reforms-women"
+          },
+          {
+            "record_id": "5e5e0f3ac7076353637d",
+            "title": "Read more about Statement on the third anniversary of the October 7 attacks",
+            "url": "https://greens.org.au/news/media-release/statement-third-anniversary-october-7-attacks"
+          },
+          {
+            "record_id": "6c1763cbec333430b6e1",
+            "title": "Read more about Albanese Government needs to stand firm against big AI and protect Australian creatives",
+            "url": "https://greens.org.au/sa/news/media-release/albanese-government-needs-stand-firm-against-big-ai-and-protect-australian"
+          },
+          {
+            "record_id": "8ac4f12354778f8b05f2",
+            "title": "Greens will not allow Labor to punch down on pensioners for quick cash",
+            "url": "https://greens.org.au/news/media-release/greens-will-not-allow-labor-punch-down-pensioners-quick-cash"
+          },
+          {
+            "record_id": "92542b4c4ecfb0ab2a45",
+            "title": "Labor’s stacked AI committee delivers utterly captured message",
+            "url": "https://greens.org.au/news/media-release/labors-stacked-ai-committee-delivers-utterly-captured-message"
+          },
+          {
+            "record_id": "a695cddb840ac85eb7c8",
+            "title": "Labor must restore Ask Izzy funding",
+            "url": "https://greens.org.au/news/media-release/labor-must-restore-ask-izzy-funding"
+          },
+          {
+            "record_id": "abc4c2a73ea50a50b0ce",
+            "title": "Read more about Labor’s stacked AI committee delivers utterly captured message",
+            "url": "https://greens.org.au/news/media-release/labors-stacked-ai-committee-delivers-utterly-captured-message"
+          },
+          {
+            "record_id": "abd32b2f3ec3700c5a60",
+            "title": "Digital Duty of Care must include a right for compensation",
+            "url": "https://greens.org.au/sa/news/media-release/digital-duty-care-must-include-right-compensation"
+          },
+          {
+            "record_id": "bb7dc9ec19e42a861a24",
+            "title": "Greens push for economic security reforms for women",
+            "url": "https://greens.org.au/news/media-release/greens-push-economic-security-reforms-women"
+          },
+          {
+            "record_id": "c09d980be4ebdd74e6c3",
+            "title": "Read more about Greens to seek Senate inquiry into Labor&#039;s watered-down trust reforms",
+            "url": "https://greens.org.au/news/media-release/greens-seek-senate-inquiry-labors-watered-down-trust-reforms"
+          },
+          {
+            "record_id": "c39b5b8741643b0123b8",
+            "title": "Statement on the third anniversary of the October 7 attacks",
+            "url": "https://greens.org.au/news/media-release/statement-third-anniversary-october-7-attacks"
+          },
+          {
+            "record_id": "cde07866fb3159f8bbb3",
+            "title": "Read more about Digital Duty of Care must include a right for compensation",
+            "url": "https://greens.org.au/sa/news/media-release/digital-duty-care-must-include-right-compensation"
+          },
+          {
+            "record_id": "dc185104eea4bccb3b9e",
+            "title": "Read more about Greens will not allow Labor to punch down on pensioners for quick cash",
+            "url": "https://greens.org.au/news/media-release/greens-will-not-allow-labor-punch-down-pensioners-quick-cash"
+          },
+          {
+            "record_id": "e24edc04dbb9521c5e3b",
+            "title": "Greens call for federal support for Aboriginal-controlled YiSSA housing",
+            "url": "https://greens.org.au/news/media-release/greens-call-federal-support-aboriginal-controlled-yissa-housing"
+          },
+          {
+            "record_id": "e5fc143c8e293a71f91b",
+            "title": "78% of Australians back rent limits",
+            "url": "https://greens.org.au/news/media-release/78-australians-back-rent-limits"
+          },
+          {
+            "record_id": "eea66547e53ed4851afd",
+            "title": "Read more about Greens call for federal support for Aboriginal-controlled YiSSA housing",
+            "url": "https://greens.org.au/news/media-release/greens-call-federal-support-aboriginal-controlled-yissa-housing"
+          },
+          {
+            "record_id": "f11f8ae7c2cefccb4b0d",
+            "title": "Labor protects fuel giants war profits, leaving Australians under the pump at bowser: Greens",
+            "url": "https://greens.org.au/news/media-release/labor-protects-fuel-giants-war-profits-leaving-australians-under-pump-bowser"
+          },
+          {
+            "record_id": "f6ccd840210aac4c75b8",
+            "title": "Read more about Labor protects fuel giants war profits, leaving Australians under the pump at bowser: Greens",
+            "url": "https://greens.org.au/news/media-release/labor-protects-fuel-giants-war-profits-leaving-australians-under-pump-bowser"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "0316062dbdfa7717be85",
+            "title": "Albanese Government must put Australia First and Reject Trump&#039;s Extraordinary Interference",
+            "url": "https://greens.org.au/news/media-release/albanese-government-must-put-australia-first-and-reject-trumps-extraordinary"
+          },
+          {
+            "record_id": "13480b030108164d8b6c",
+            "title": "Locked out: the growing housing divide",
+            "url": "https://greens.org.au/news/media-release/locked-out-growing-housing-divide"
+          },
+          {
+            "record_id": "27aaf3f7c8e407558b40",
+            "title": "Experts shoot down Labor’s aged care assessment fix",
+            "url": "https://greens.org.au/news/media-release/experts-shoot-down-labors-aged-care-assessment-fix"
+          },
+          {
+            "record_id": "3aa6651d845a3fa8bae8",
+            "title": "OpenAI Medicare hack is a serious foreign attack in Australia",
+            "url": "https://greens.org.au/news/media-release/openai-medicare-hack-serious-foreign-attack-australia"
+          },
+          {
+            "record_id": "3aa7daa77ac62044f5ee",
+            "title": "Read more about Locked out: the growing housing divide",
+            "url": "https://greens.org.au/news/media-release/locked-out-growing-housing-divide"
+          },
+          {
+            "record_id": "49f935708abd5c1ce62a",
+            "title": "Aged care Senate inquiry hears Labor is denying rights to older people",
+            "url": "https://greens.org.au/news/media-release/aged-care-senate-inquiry-hears-labor-denying-rights-older-people"
+          },
+          {
+            "record_id": "5c2af39b2fd5a4213d50",
+            "title": "AI leaders called to front Senate Inquiry",
+            "url": "https://greens.org.au/sa/news/media-release/ai-leaders-called-front-senate-inquiry"
+          },
+          {
+            "record_id": "5ea7fa289bed781ddd2f",
+            "title": "Read more about ‘Un-Australian scam artists”: Greens call for action on airline’s Grand Final gouging",
+            "url": "https://greens.org.au/news/media-release/un-australian-scam-artists-greens-call-action-airlines-grand-final-gouging"
+          },
+          {
+            "record_id": "6466fa4087be6450efb6",
+            "title": "Read more about OpenAI Medicare hack is a serious foreign attack in Australia",
+            "url": "https://greens.org.au/news/media-release/openai-medicare-hack-serious-foreign-attack-australia"
+          },
+          {
+            "record_id": "654141913bdd13443ed5",
+            "title": "Read more about David Shoebridge and Steph Hodgins-May to lead Greens in fight against corporate greed",
+            "url": "https://greens.org.au/news/media-release/david-shoebridge-and-steph-hodgins-may-lead-greens-fight-against-corporate-greed"
+          },
+          {
+            "record_id": "66f3244edb7efe0722f5",
+            "title": "Read more about Experts shoot down Labor’s aged care assessment fix",
+            "url": "https://greens.org.au/news/media-release/experts-shoot-down-labors-aged-care-assessment-fix"
+          },
+          {
+            "record_id": "688a9a033e763db16a56",
+            "title": "Labor must reject Hunter Valley coal mine before COP31",
+            "url": "https://greens.org.au/news/media-release/labor-must-reject-hunter-valley-coal-mine-cop31"
+          },
+          {
+            "record_id": "7c82d8fd9dafb20e3db5",
+            "title": "Read more about The public servants earning over $1 million",
+            "url": "https://greens.org.au/news/media-release/public-servants-earning-over-1-million"
+          },
+          {
+            "record_id": "850a67e9ae195c7f6176",
+            "title": "Read more about Australians will pay the price for major parties’ fossil fuel plans: Greens",
+            "url": "https://greens.org.au/news/media-release/australians-will-pay-price-major-parties-fossil-fuel-plans-greens"
+          },
+          {
+            "record_id": "8bfa14d9c993eb1d19b7",
+            "title": "Read more about Labor must reject Hunter Valley coal mine before COP31",
+            "url": "https://greens.org.au/news/media-release/labor-must-reject-hunter-valley-coal-mine-cop31"
+          },
+          {
+            "record_id": "9be86a6d80aa1da835fc",
+            "title": "Media Release: Australia must add substance, local and global action, to PM’s words on AI",
+            "url": "https://greens.org.au/news/media-release/media-release-australia-must-add-substance-local-and-global-action-pms-words-ai"
+          },
+          {
+            "record_id": "a3b7329d2a52777c3fd2",
+            "title": "Read more about Triple Zero Inquiry recommends nationalising of Triple 0, mandated domestic roaming and a review into ACMA&#039;s role in regulating Triple Zero",
+            "url": "https://greens.org.au/news/media-release/triple-zero-inquiry-recommends-nationalising-triple-0-mandated-domestic-roaming"
+          },
+          {
+            "record_id": "afa5ce21c41a6c852df9",
+            "title": "Read more about Media Release: Australia must add substance, local and global action, to PM’s words on AI",
+            "url": "https://greens.org.au/news/media-release/media-release-australia-must-add-substance-local-and-global-action-pms-words-ai"
+          },
+          {
+            "record_id": "b9c78c8388508d742643",
+            "title": "Read more about AI leaders called to front Senate Inquiry",
+            "url": "https://greens.org.au/sa/news/media-release/ai-leaders-called-front-senate-inquiry"
+          },
+          {
+            "record_id": "bab2a8a75f3240e733e0",
+            "title": "David Shoebridge and Steph Hodgins-May to lead Greens in fight against corporate greed",
+            "url": "https://greens.org.au/news/media-release/david-shoebridge-and-steph-hodgins-may-lead-greens-fight-against-corporate-greed"
+          },
+          {
+            "record_id": "c8c31461330d9a26c07e",
+            "title": "Read more about Albanese Government must put Australia First and Reject Trump&#039;s Extraordinary Interference",
+            "url": "https://greens.org.au/news/media-release/albanese-government-must-put-australia-first-and-reject-trumps-extraordinary"
+          },
+          {
+            "record_id": "d8454d28aed515a971e4",
+            "title": "Australians will pay the price for major parties’ fossil fuel plans: Greens",
+            "url": "https://greens.org.au/news/media-release/australians-will-pay-price-major-parties-fossil-fuel-plans-greens"
+          },
+          {
+            "record_id": "df854b2506f656ef2f37",
+            "title": "Last page Last »",
+            "url": "https://greens.org.au/news/media-releases?page=298"
+          },
+          {
+            "record_id": "e247d2abbf69c18b6ac8",
+            "title": "‘Un-Australian scam artists”: Greens call for action on airline’s Grand Final gouging",
+            "url": "https://greens.org.au/news/media-release/un-australian-scam-artists-greens-call-action-airlines-grand-final-gouging"
+          },
+          {
+            "record_id": "e568668f7b731d62f7b1",
+            "title": "The public servants earning over $1 million",
+            "url": "https://greens.org.au/news/media-release/public-servants-earning-over-1-million"
+          },
+          {
+            "record_id": "e621b153338e75f494fd",
+            "title": "Triple Zero Inquiry recommends nationalising of Triple 0, mandated domestic roaming and a review into ACMA&#039;s role in regulating Triple Zero",
+            "url": "https://greens.org.au/news/media-release/triple-zero-inquiry-recommends-nationalising-triple-0-mandated-domestic-roaming"
+          },
+          {
+            "record_id": "f879fd282d196fd6f0da",
+            "title": "Read more about Aged care Senate inquiry hears Labor is denying rights to older people",
+            "url": "https://greens.org.au/news/media-release/aged-care-senate-inquiry-hears-labor-denying-rights-older-people"
+          }
+        ],
+        "delta_hash": "5bf19426aba64f77d9b5c58bda91008d65579174e780fb0438085856fc74a89f"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-ONENATION-NEWS-20261019011830",
+      "source_change_event_id": "CHG-WATCH-ONENATION-NEWS-20261019011830",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-ONENATION-NEWS-20261019011830",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": "AUS-FED-ONP",
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Pauline Hanson's One Nation — Latest News added 20 structured publication records to its forward-captured official index: Pauline Hanson Reflects on 30 Years in Australian Politics; One Nation Questions Sentencing in Case Involving Rape of Four Teenagers; One Nation Proposes Scrapping Climate Change Department to Cut Government Spending; Is South Australia's $5 Million AI Royal Commission Worth the Cost?; One Nation Questions Burqa and Niqab in Australia’s Multiculturalism Debate; +15 more",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-10-19T01:20:27.588Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "038adb273c96278cc5c8",
+            "title": "Pauline Hanson Reflects on 30 Years in Australian Politics",
+            "url": "http://www.onenation.org.au/pauline-hanson-30-years",
+            "published": "Tue, 13 Oct 2026 13:12:29 +1000"
+          },
+          {
+            "record_id": "09d9ba0e11e79b653993",
+            "title": "One Nation Questions Sentencing in Case Involving Rape of Four Teenagers",
+            "url": "http://www.onenation.org.au/sentencing-connection-to-country",
+            "published": "Fri, 16 Oct 2026 11:58:09 +1000"
+          },
+          {
+            "record_id": "0d1e2f6d2094c7306725",
+            "title": "One Nation Proposes Scrapping Climate Change Department to Cut Government Spending",
+            "url": "http://www.onenation.org.au/scrap-climate-department",
+            "published": "Wed, 14 Oct 2026 10:34:00 +1000"
+          },
+          {
+            "record_id": "0fdde47d326a0b4bdc14",
+            "title": "Is South Australia's $5 Million AI Royal Commission Worth the Cost?",
+            "url": "http://www.onenation.org.au/sa-ai-royal-commission",
+            "published": "Wed, 14 Oct 2026 14:13:51 +1000"
+          },
+          {
+            "record_id": "228e92db97a15901f106",
+            "title": "One Nation Questions Burqa and Niqab in Australia’s Multiculturalism Debate",
+            "url": "http://www.onenation.org.au/burqa-niqab-integration-debate",
+            "published": "Fri, 09 Oct 2026 16:04:04 +1000"
+          },
+          {
+            "record_id": "26e9c2eec1243032013b",
+            "title": "Labor NSW Government Copy and Paste One Nation Stamp Duty Policy",
+            "url": "http://www.onenation.org.au/newman-nsw-stamp-duty",
+            "published": "Fri, 16 Oct 2026 16:35:28 +1000"
+          },
+          {
+            "record_id": "2b3eadc164903fe25181",
+            "title": "Murray Watt Criticised Over Question Time Response",
+            "url": "http://www.onenation.org.au/murray-watt-question-time",
+            "published": "Tue, 13 Oct 2026 16:33:54 +1000"
+          },
+          {
+            "record_id": "45f819938c9fbaefa1e8",
+            "title": "A message from the General Manager",
+            "url": "http://www.onenation.org.au/one-nation-political-growth",
+            "published": "Thu, 15 Oct 2026 12:22:20 +1000"
+          },
+          {
+            "record_id": "4e34c8bad64eaf725681",
+            "title": "Labor Grants Went to Mosque Linked to Accused Flydubai Terrorist Hijacker",
+            "url": "http://www.onenation.org.au/albanese-government-accountability",
+            "published": "Wed, 14 Oct 2026 12:17:54 +1000"
+          },
+          {
+            "record_id": "5bb64bd1aa122764b440",
+            "title": "Lee Hanson Speaks Out on Labor's Spending, Inflation and Cost-of-Living Crisis",
+            "url": "http://www.onenation.org.au/labor-cost-living-crisis",
+            "published": "Thu, 15 Oct 2026 01:00:05 +1000"
+          },
+          {
+            "record_id": "6233903e771097d63d32",
+            "title": "Pauline Hanson Signs Labor-Last Preference Pledge at CPAC Australia",
+            "url": "http://www.onenation.org.au/hanson-labor-last-pledge",
+            "published": "Tue, 13 Oct 2026 16:34:17 +1000"
+          },
+          {
+            "record_id": "9de5de763fd2c1415086",
+            "title": "Lee Hanson Criticises Tasmania's Youth Justice Blueprint Over Criminal Responsibility Age",
+            "url": "http://www.onenation.org.au/tasmania-youth-justice-reforms",
+            "published": "Fri, 16 Oct 2026 11:22:05 +1000"
+          },
+          {
+            "record_id": "b0ffd3c4dca8ca3d12a4",
+            "title": "Colleen Harkin Speaks Out Against Violent Protests on Remembrance Day",
+            "url": "http://www.onenation.org.au/remembrance-day-protest-concerns",
+            "published": "Wed, 14 Oct 2026 14:13:34 +1000"
+          },
+          {
+            "record_id": "ca7b90d74cd083fb03cd",
+            "title": "One Nation Questions Almost $400 Million in Multicultural Grants Under Labor",
+            "url": "http://www.onenation.org.au/multicultural-grants-labor-seats",
+            "published": "Fri, 09 Oct 2026 13:33:00 +1000"
+          },
+          {
+            "record_id": "db7a394eb32ddecf310f",
+            "title": "One Nation Raises Free Speech Concerns Over Digital Duty of Care Bill",
+            "url": "http://www.onenation.org.au/digital-duty-policy-changes",
+            "published": "Wed, 14 Oct 2026 11:32:19 +1000"
+          },
+          {
+            "record_id": "e372b71633cc02f2ad24",
+            "title": "Warren Pickering Outlines One Nation's Alternative Political Direction for Victoria",
+            "url": "http://www.onenation.org.au/warren-pickering-victoria-leadership",
+            "published": "Mon, 19 Oct 2026 10:18:23 +1000"
+          },
+          {
+            "record_id": "e455138a970290df5701",
+            "title": "One Nation Accuses Labor of Threatening Free Speech with Digital Duty of Care Bill",
+            "url": "http://www.onenation.org.au/labor-digital-duty-free-speech",
+            "published": "Fri, 16 Oct 2026 11:58:17 +1000"
+          },
+          {
+            "record_id": "ec98312ec8ae19b0d0bf",
+            "title": "Leader of Melbourne Mosque attended by accused Terror Pilot under Fire For Comments",
+            "url": "http://www.onenation.org.au/mosque-leader-funding-controversy",
+            "published": "Wed, 14 Oct 2026 16:27:33 +1000"
+          },
+          {
+            "record_id": "eded1b46f87a44290b31",
+            "title": "Questions Raised Over Flydubai Co-Pilot’s Time in Australia",
+            "url": "http://www.onenation.org.au/flydubai-melbourne-investigation",
+            "published": "Fri, 09 Oct 2026 15:25:00 +1000"
+          },
+          {
+            "record_id": "fe40d54fc2c1bcb5d6f0",
+            "title": "Colleen Harkin Questions Labor Funding for Melbourne Religious Centres Amid Hate Speech Concerns",
+            "url": "http://www.onenation.org.au/melbourne-hate-speech-funding",
+            "published": "Fri, 16 Oct 2026 11:21:38 +1000"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "048d588be716b278ec0e",
+            "title": "One Nation Questions Liberal Party’s Credibility on Net Zero",
+            "url": "http://www.onenation.org.au/liberals-net-zero-credibility",
+            "published": "Mon, 05 Oct 2026 16:01:00 +1000"
+          },
+          {
+            "record_id": "05abd47ca107d7b62338",
+            "title": "Mark Nicholson Defends One Nation’s Andrew Hastie Satire",
+            "url": "http://www.onenation.org.au/hastie-satire-response",
+            "published": "Tue, 22 Sep 2026 13:24:00 +1000"
+          },
+          {
+            "record_id": "11cd2ceae30568dad833",
+            "title": "One Nation’s Top 10 Cartoons: Satire, Comedy and Controversy",
+            "url": "http://www.onenation.org.au/one-nation-top-cartoons",
+            "published": "Tue, 15 Sep 2026 08:38:14 +1000"
+          },
+          {
+            "record_id": "17a826789fda57659b58",
+            "title": "Pauline Hanson Challenges Labor Over One Million Migration Projection",
+            "url": "http://www.onenation.org.au/migration-million-challenge",
+            "published": "Tue, 06 Oct 2026 09:42:00 +1000"
+          },
+          {
+            "record_id": "25033114eb3e0c38adce",
+            "title": "One Nation Launches 2026 Victorian Election Campaign in Melbourne",
+            "url": "http://www.onenation.org.au/victoria-campaign-launch",
+            "published": "Tue, 06 Oct 2026 09:44:50 +1000"
+          },
+          {
+            "record_id": "330fe967286b489254f5",
+            "title": "One Nation Raises Free Speech Concerns Over Labor’s Digital Duty of Care Bill",
+            "url": "http://www.onenation.org.au/on-raises-digital-duty-free-speech",
+            "published": "Mon, 28 Sep 2026 13:02:44 +1000"
+          },
+          {
+            "record_id": "372911fbc5ab05ee8c7b",
+            "title": "Senator Sean Bell Questions Coalition’s Net Zero Position and Paris Agreement",
+            "url": "http://www.onenation.org.au/net-zero-paris-agreement",
+            "published": "Mon, 28 Sep 2026 16:19:28 +1000"
+          },
+          {
+            "record_id": "612de1165d536204014a",
+            "title": "Rikkie-Lee Tyrrell Calls for an End to Political Indoctrination in Victorian Schools",
+            "url": "http://www.onenation.org.au/victoria-classroom-indoctrination",
+            "published": "Wed, 16 Sep 2026 19:00:32 +1000"
+          },
+          {
+            "record_id": "6f2d7017a88759de1052",
+            "title": "One Nation’s Immigration Plan: Cut 750,000 Temporary Visas and Cap Migration",
+            "url": "http://www.onenation.org.au/immigration-radical-reset",
+            "published": "Tue, 15 Sep 2026 15:16:12 +1000"
+          },
+          {
+            "record_id": "7d9956fc7ac0ea831131",
+            "title": "Pauline Hanson Questions Nine’s KKK Report and $16 Million Journalism Funding",
+            "url": "http://www.onenation.org.au/nine-kkk-funding-questions",
+            "published": "Mon, 28 Sep 2026 14:42:18 +1000"
+          },
+          {
+            "record_id": "84fa3b9c5180736723bd",
+            "title": "One Nation Calls for Full Audit of Indigenous Spending",
+            "url": "http://www.onenation.org.au/indigenous-spending-audit",
+            "published": "Mon, 21 Sep 2026 15:07:08 +1000"
+          },
+          {
+            "record_id": "95e27677b65c3904e336",
+            "title": "Labor's Taxpayer-funded $12 Billion Train-building pledge is no more than an election bribe",
+            "url": "http://www.onenation.org.au/hunter-train-spending",
+            "published": "Mon, 28 Sep 2026 12:46:19 +1000"
+          },
+          {
+            "record_id": "9892b5ea0a1c38d68e54",
+            "title": "One Nation Commits to Net-Negative Migration and Cutting 750,000 Temporary Visas",
+            "url": "http://www.onenation.org.au/net-negative-migration-plan",
+            "published": "Mon, 14 Sep 2026 13:50:16 +1000"
+          },
+          {
+            "record_id": "9b32d246212ebfaf53e8",
+            "title": "Labor hopelessly divided as One Nation sets the agenda on immigration",
+            "url": "http://www.onenation.org.au/labor-immigration-divisions",
+            "published": "Thu, 17 Sep 2026 16:34:15 +1000"
+          },
+          {
+            "record_id": "9e46665b6c678bf490fb",
+            "title": "Pauline Hanson on Indigenous History: Watch the Full Video and Decide for Yourself",
+            "url": "http://www.onenation.org.au/pauline-history-full-context",
+            "published": "Tue, 15 Sep 2026 13:07:10 +1000"
+          },
+          {
+            "record_id": "d0ba33d256a617ee1873",
+            "title": "NFL Melbourne Welcome to Country Sparks Debate Over ‘Naarm’",
+            "url": "http://www.onenation.org.au/nfl-melbourne-welcome",
+            "published": "Tue, 15 Sep 2026 15:15:00 +1000"
+          },
+          {
+            "record_id": "d219f33a7270b149f4e5",
+            "title": "One Year Without Charlie Kirk: His Voice Still Lives On",
+            "url": "http://www.onenation.org.au/remembering-charlie-kirk",
+            "published": "Fri, 11 Sep 2026 16:34:26 +1000"
+          },
+          {
+            "record_id": "de96f7add11d9ed39913",
+            "title": "One Nation Immigration Plan Targets Family Visas for Overseas Students",
+            "url": "http://www.onenation.org.au/student-family-visa-reform",
+            "published": "Wed, 16 Sep 2026 19:00:38 +1000"
+          },
+          {
+            "record_id": "f60faffa807e22a94b05",
+            "title": "Labor has abandoned regional Australia",
+            "url": "http://www.onenation.org.au/regional-australia-neglect",
+            "published": "Mon, 28 Sep 2026 13:34:00 +1000"
+          },
+          {
+            "record_id": "fc6cefd9245404620c81",
+            "title": "Mike Newman Responds After One Nation Dominates NSW Question Time",
+            "url": "http://www.onenation.org.au/newman-nsw-labor-response",
+            "published": "Thu, 24 Sep 2026 09:45:00 +1000"
+          }
+        ],
+        "delta_hash": "81b0e3bffee66613d2f032487b98779640211ad5223fc735a525e7c38144d271"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-NSW-MINISTERIAL-RELEASES-20261019011830",
+      "source_change_event_id": "CHG-WATCH-NSW-MINISTERIAL-RELEASES-20261019011830",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-NSW-MINISTERIAL-RELEASES-20261019011830",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "NSW Government — Ministerial releases added 10 structured publication records to its forward-captured official index: Real stories to help make NSW workplaces safer as Safety Speakers Program launches for National SafeWork Month; NSW Maritime moves to seize dilapidated MV Cape Don for disposal; 120 new crisis accommodation beds to tackle rough sleeping; Hunter the first to trial new tech to avoid delays at Adamstown Level Crossing; $5 million commitment to deliver a recreational fishing haven for Western Sydney; +5 more",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-10-19T01:20:27.588Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "340fe717760690344ce2",
+            "title": "Real stories to help make NSW workplaces safer as Safety Speakers Program launches for National SafeWork Month",
+            "url": "https://www.nsw.gov.au/ministerial-releases/safety-speakers-program-launches"
+          },
+          {
+            "record_id": "4602883fe681218cdd27",
+            "title": "NSW Maritime moves to seize dilapidated MV Cape Don for disposal",
+            "url": "https://www.nsw.gov.au/ministerial-releases/nsw-maritime-moves-to-seize-dilapidated-mv-cape-don-for-disposal"
+          },
+          {
+            "record_id": "4b2ccd603cb7528af13e",
+            "title": "120 new crisis accommodation beds to tackle rough sleeping",
+            "url": "https://www.nsw.gov.au/ministerial-releases/building-crisis-housing-plan-on-track"
+          },
+          {
+            "record_id": "550aa0c398ef1b7e7ad6",
+            "title": "Hunter the first to trial new tech to avoid delays at Adamstown Level Crossing",
+            "url": "https://www.nsw.gov.au/ministerial-releases/hunter-trials-new-tech-to-avoid-driver-delays"
+          },
+          {
+            "record_id": "57c6ce65279748ba81ca",
+            "title": "$5 million commitment to deliver a recreational fishing haven for Western Sydney",
+            "url": "https://www.nsw.gov.au/ministerial-releases/penrith-lakes-fishing-park-planning-started"
+          },
+          {
+            "record_id": "80d90be5877f4cccaa4f",
+            "title": "NSW dishes up Australia’s biggest culinary tourism economy",
+            "url": "https://www.nsw.gov.au/departments-and-agencies/dciths/ministerial-media-releases/nsw-dishes-up-australias-biggest-culinary-tourism-economy"
+          },
+          {
+            "record_id": "93e7ec4ca869e4ccf36e",
+            "title": "NSW Health warns of surge in hospital presentations linked to peptide use",
+            "url": "https://www.nsw.gov.au/ministerial-releases/nsw-health-warns-of-surge-hospital-presentations-linked-to-peptide-use"
+          },
+          {
+            "record_id": "b8535f132b8d32a0a705",
+            "title": "NSW Aboriginal Languages Week 2026 celebrates Living Languages, Strong Futures",
+            "url": "https://www.nsw.gov.au/ministerial-releases/nsw-aboriginal-languages-week-2026"
+          },
+          {
+            "record_id": "ced0d1be68233c4a53e9",
+            "title": "More childcare places and fairer pay - Minns Labor Government reforms of early learning sector continue",
+            "url": "https://www.nsw.gov.au/ministerial-releases/more-childcare-places-and-fairer-pay-minns-labor-government-reforms-of-early-learning-sector-continue"
+          },
+          {
+            "record_id": "f8084fe9024ce979ef19",
+            "title": "NSW Government cracks down on operators issuing ‘sight unseen’ pink and blue slips",
+            "url": "https://www.nsw.gov.au/ministerial-releases/nsw-government-cracks-down-on-operators-issuing-sight-unseen-pink-and-blue-slips"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "26074169d2d6fc1e0fc4",
+            "title": "New era for Moree – Business and NSW Government investments creating jobs and opportunities",
+            "url": "https://www.nsw.gov.au/ministerial-releases/new-era-moree"
+          },
+          {
+            "record_id": "3ca1e59e1c50d55d9097",
+            "title": "Sydney secures major Australia-Japan business summit for 2027",
+            "url": "https://www.nsw.gov.au/ministerial-releases/sydney-secures-major-australia-japan-business-summit-for-2027"
+          },
+          {
+            "record_id": "6cb41d2b422659ab23a6",
+            "title": "Work progresses at Rouse Hill Hospital with new construction milestone and fly through",
+            "url": "https://www.nsw.gov.au/ministerial-releases/new-construction-milestone-rouse-hill-hospital"
+          },
+          {
+            "record_id": "a17b652212160f1ee09b",
+            "title": "Clearing a new path for Callan Park to thrive",
+            "url": "https://www.nsw.gov.au/ministerial-releases/clearing-a-new-path-for-callan-park-to-thrive"
+          },
+          {
+            "record_id": "ada25739e9dac4c50d11",
+            "title": "$1.55 million boost for Monaro and Snowy Mountains communities",
+            "url": "https://www.nsw.gov.au/ministerial-releases/155-million-boost-for-monaro-and-snowy-mountains-communities"
+          },
+          {
+            "record_id": "ada2a4f13a8373390565",
+            "title": "Study reveals broad support for limits on screen use in schools as students self-report distraction in class",
+            "url": "https://www.nsw.gov.au/ministerial-releases/study-reveals-broad-support-for-limits-on-screen-use-schools-as-students-self-report-distraction-class"
+          },
+          {
+            "record_id": "b83aa39b696aedd9c3ba",
+            "title": "Minns Labor Government funding attracts four world-leading medical researchers to the state",
+            "url": "https://www.nsw.gov.au/ministerial-releases/minns-labor-government-funding-attracts-four-world-leading-medical-researchers-to-state"
+          },
+          {
+            "record_id": "e8a9a6ccad07a3c2ef2a",
+            "title": "Major pump upgrade to strengthen Lismore’s flood resilience",
+            "url": "https://www.nsw.gov.au/ministerial-releases/major-pump-upgrade-to-strengthen-lismores-flood-resilience"
+          },
+          {
+            "record_id": "eb8330eedb71e2f692ec",
+            "title": "NSW reforms protect native wildlife in Central West NSW",
+            "url": "https://www.nsw.gov.au/ministerial-releases/nsw-reforms-protect-native-wildlife-central-west-nsw"
+          },
+          {
+            "record_id": "ebd3805d14ed2661a742",
+            "title": "Construction complete on Nepean Hospital’s new Stage 2 building",
+            "url": "https://www.nsw.gov.au/ministerial-releases/construction-complete-on-nepean-hospitals-new-stage-2-building"
+          }
+        ],
+        "delta_hash": "5f8020f36f31a930d5b087a70ded0b9876b923e3ccca555c608c99a1dcb09ebb"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-VEC-MEDIA-20261019011830",
+      "source_change_event_id": "CHG-WATCH-VEC-MEDIA-20261019011830",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-VEC-MEDIA-20261019011830",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Victorian Electoral Commission — media centre added 1 structured publication record to its forward-captured official index: Information for scrutineers",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-10-19T01:20:27.588Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "bc1f9de514bee7a07a6a",
+            "title": "Information for scrutineers",
+            "url": "https://www.vec.vic.gov.au/candidates-and-parties/become-a-state-election-candidate/information-for-scrutineers"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "9abbc02a0fbe50601c26",
+            "title": "Media centre",
+            "url": "https://www.vec.vic.gov.au/about-us/media"
+          },
+          {
+            "record_id": "aa5a85e7b3463a5309c1",
+            "title": "Scrutineers",
+            "url": "https://www.vec.vic.gov.au/candidates-and-parties/become-a-state-election-candidate/information-for-scrutineers"
+          }
+        ],
+        "delta_hash": "39d8c5c20902bf694686a095e1926f9e30f2a75b2c54630033bb934efe36f0ad"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261019011830",
+      "source_change_event_id": "CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261019011830",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261019011830",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Queensland Government — Ministerial Media Statements added 12 structured publication records to its forward-captured official index: Games On! for Coolum Football Club; New board appointments to strengthen Queensland Ports; Healthy Kindy Kids expands to give more Queensland kids a strong start; Applications open for landmark $2.4 billion housing infrastructure fund; Construction begins at new Gold Coast special school; +7 more",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-10-19T01:20:27.588Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "247b94364d70bbc55983",
+            "title": "Games On! for Coolum Football Club",
+            "url": "https://statements.qld.gov.au/statements/106250"
+          },
+          {
+            "record_id": "38ae68323293f7863604",
+            "title": "New board appointments to strengthen Queensland Ports",
+            "url": "https://statements.qld.gov.au/statements/106238"
+          },
+          {
+            "record_id": "44793264ea087894351d",
+            "title": "Healthy Kindy Kids expands to give more Queensland kids a strong start",
+            "url": "https://statements.qld.gov.au/statements/106235"
+          },
+          {
+            "record_id": "4a14d3ec43314473772a",
+            "title": "Applications open for landmark $2.4 billion housing infrastructure fund",
+            "url": "https://statements.qld.gov.au/statements/106240"
+          },
+          {
+            "record_id": "83abff98d35d1061ccb8",
+            "title": "Construction begins at new Gold Coast special school",
+            "url": "https://statements.qld.gov.au/statements/106226"
+          },
+          {
+            "record_id": "a211aeb2894762d16a42",
+            "title": "Strong flow of gas-fired power proposals in Central Queensland",
+            "url": "https://statements.qld.gov.au/statements/106254"
+          },
+          {
+            "record_id": "bc26244d5d62623c854e",
+            "title": "Games On! for 72 Queensland grassroots sporting clubs",
+            "url": "https://statements.qld.gov.au/statements/106242"
+          },
+          {
+            "record_id": "c9142efd35a8f7220008",
+            "title": "New Chair to lead Aviation Australia",
+            "url": "https://statements.qld.gov.au/statements/106237"
+          },
+          {
+            "record_id": "cc9aba875791156cb159",
+            "title": "Indigenous leadership backed with Family Responsibilities Commission appointments",
+            "url": "https://statements.qld.gov.au/statements/106243"
+          },
+          {
+            "record_id": "cdbc8b8f607669b921e0",
+            "title": "First look at four-lane bridge design to get Bribie Island moving again",
+            "url": "https://statements.qld.gov.au/statements/106246"
+          },
+          {
+            "record_id": "d88dd57ece637fff66ff",
+            "title": "Rugby League World Cup brings Queensland fans closer to the action",
+            "url": "https://statements.qld.gov.au/statements/106252"
+          },
+          {
+            "record_id": "e810ed0c9c7f26628ca7",
+            "title": "More than 7,200 new homes fast-tracked across Mackay and Sarina",
+            "url": "https://statements.qld.gov.au/statements/106241"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "0073cd3d1e54536bdcf2",
+            "title": "Safety Works Complete on Cunningham Highway",
+            "url": "https://statements.qld.gov.au/statements/106184"
+          },
+          {
+            "record_id": "272e2a8f4dbffedce269",
+            "title": "New police hit the frontline to make Queensland safer",
+            "url": "https://statements.qld.gov.au/statements/106169"
+          },
+          {
+            "record_id": "293be6393bbb527a2d9d",
+            "title": "Works underway on new Ripley Valley primary school",
+            "url": "https://statements.qld.gov.au/statements/106183"
+          },
+          {
+            "record_id": "346b06111ebd86971a05",
+            "title": "More police delivered to Kilcoy frontline to make Somerset region safer",
+            "url": "https://statements.qld.gov.au/statements/106173"
+          },
+          {
+            "record_id": "5458a1c0df19cd606aef",
+            "title": "Get Ready Queensland Week launches ahead of disaster season",
+            "url": "https://statements.qld.gov.au/statements/106179"
+          },
+          {
+            "record_id": "5f3482f9647da7cced7d",
+            "title": "Design begins on key Gold Coast Transport Plan bridge upgrade project",
+            "url": "https://statements.qld.gov.au/statements/106174"
+          },
+          {
+            "record_id": "9132f7c1fadf2dcc1ecc",
+            "title": "Destination 2045: Giving tourism businesses the tools to grow",
+            "url": "https://statements.qld.gov.au/statements/106180"
+          },
+          {
+            "record_id": "96765627778dc1c4c6c9",
+            "title": "Better and safer journeys at key Gatton intersection",
+            "url": "https://statements.qld.gov.au/statements/106185"
+          },
+          {
+            "record_id": "a0b593263fef5b3b409b",
+            "title": "Beef2027 moves closer as Central Queensland prepares to welcome the world",
+            "url": "https://statements.qld.gov.au/statements/106177"
+          },
+          {
+            "record_id": "badc10780b853f7b6e4e",
+            "title": "Statement from the Minister for Transport and Main Roads",
+            "url": "https://statements.qld.gov.au/statements/106188"
+          },
+          {
+            "record_id": "c86c2f9f1432e2c96ed1",
+            "title": "Bringing Queensland communities together through culture and celebration",
+            "url": "https://statements.qld.gov.au/statements/106181"
+          },
+          {
+            "record_id": "ef291950ff94b0859438",
+            "title": "Queensland opens search for next generation of resource opportunities",
+            "url": "https://statements.qld.gov.au/statements/106182"
+          }
+        ],
+        "delta_hash": "8a8085f3c0d19303dc0baf4c5921699377a80938ab806f255cca69b465426397"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-WAEC-MEDIA-20261019011830",
+      "source_change_event_id": "CHG-WATCH-WAEC-MEDIA-20261019011830",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-WAEC-MEDIA-20261019011830",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Western Australian Electoral Commission — media releases added 1 structured publication record to its forward-captured official index: Election Returns",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-10-19T01:20:27.588Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "bcd55ecfba3cd003e348",
+            "title": "Election Returns",
+            "url": "https://www.elections.wa.gov.au/2026-secret-harbour-election-returns"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "2ad34c973f3ff1504316",
+            "title": "Election Returns",
+            "url": "https://www.elections.wa.gov.au/2025-election-returns"
+          }
+        ],
+        "delta_hash": "9cad3212c7e3d07375f1b3215739d3c9f892c6636356678019d8ee150c8799ed"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-ECSA-NEWS-20261019011830",
+      "source_change_event_id": "CHG-WATCH-ECSA-NEWS-20261019011830",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-ECSA-NEWS-20261019011830",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Electoral Commission of South Australia — news and notices added 1 structured publication record to its forward-captured official index: SOUTH AUSTRALIAN GAZETTE NOTICES SEPT-OCT 2026",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-10-19T01:20:27.588Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "5dd65f5179e856566ec5",
+            "title": "SOUTH AUSTRALIAN GAZETTE NOTICES SEPT-OCT 2026",
+            "url": "https://www.ecsa.sa.gov.au/news/notice-part6-sep-oct2026"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "42a5b12312b2d789fcd3",
+            "title": "First campaign donation returns due - 2024 Supplementary Council Elections",
+            "url": "https://www.ecsa.sa.gov.au/news/first-campaign-donation-returns-due-2024-supplementary-council-elections"
+          },
+          {
+            "record_id": "d48e38ee7bf1e678b021",
+            "title": "Find out more",
+            "url": "https://www.ecsa.sa.gov.au/parties-and-candidates/candidate-returns-council-elections"
+          }
+        ],
+        "delta_hash": "36da095b0ab60a1f20222a64a0ba2d878aa89b65fd4ce583f6de74efbc8f39f5"
       },
       "integrity": {
         "source_change_unchanged": true,

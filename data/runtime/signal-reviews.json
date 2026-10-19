@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-SIGNAL-REVIEWS-001",
   "created_at": "2026-09-09T05:05:00+10:00",
-  "updated_at": "2026-10-19T01:20:27.588Z",
+  "updated_at": "2026-10-19T07:47:51.928Z",
   "rules": {
     "append_only": true,
     "raw_source_change_is_immutable": true,
@@ -38182,6 +38182,172 @@
           }
         ],
         "delta_hash": "36da095b0ab60a1f20222a64a0ba2d878aa89b65fd4ce583f6de74efbc8f39f5"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-ONENATION-NEWS-20261019074718",
+      "source_change_event_id": "CHG-WATCH-ONENATION-NEWS-20261019074718",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-ONENATION-NEWS-20261019074718",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": "AUS-FED-ONP",
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Pauline Hanson's One Nation — Latest News added 3 structured publication records to its forward-captured official index: Barnaby Joyce Warns Against Social Experimentation and Questions Australia's Migration Direction; One Nation Questions Parliamentary Staffing Resources and Political Fairness; One Nation Raises Concerns Over Political Funding, Free Speech and Establishment Opposition",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-10-19T07:47:51.928Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "89815746a2acef6d3c39",
+            "title": "Barnaby Joyce Warns Against Social Experimentation and Questions Australia's Migration Direction",
+            "url": "http://www.onenation.org.au/barnaby-joyce-cultural-concerns",
+            "published": "Mon, 19 Oct 2026 16:32:07 +1000"
+          },
+          {
+            "record_id": "906adc104b003c39e18f",
+            "title": "One Nation Questions Parliamentary Staffing Resources and Political Fairness",
+            "url": "http://www.onenation.org.au/one-nation-staffing-dispute",
+            "published": "Mon, 19 Oct 2026 15:45:59 +1000"
+          },
+          {
+            "record_id": "b7b761f66312a6c087c9",
+            "title": "One Nation Raises Concerns Over Political Funding, Free Speech and Establishment Opposition",
+            "url": "http://www.onenation.org.au/one-nation-establishment-opposition",
+            "published": "Mon, 19 Oct 2026 15:45:27 +1000"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "228e92db97a15901f106",
+            "title": "One Nation Questions Burqa and Niqab in Australia’s Multiculturalism Debate",
+            "url": "http://www.onenation.org.au/burqa-niqab-integration-debate",
+            "published": "Fri, 09 Oct 2026 16:04:04 +1000"
+          },
+          {
+            "record_id": "ca7b90d74cd083fb03cd",
+            "title": "One Nation Questions Almost $400 Million in Multicultural Grants Under Labor",
+            "url": "http://www.onenation.org.au/multicultural-grants-labor-seats",
+            "published": "Fri, 09 Oct 2026 13:33:00 +1000"
+          },
+          {
+            "record_id": "eded1b46f87a44290b31",
+            "title": "Questions Raised Over Flydubai Co-Pilot’s Time in Australia",
+            "url": "http://www.onenation.org.au/flydubai-melbourne-investigation",
+            "published": "Fri, 09 Oct 2026 15:25:00 +1000"
+          }
+        ],
+        "delta_hash": "b9cb8ba74290f5050ed88b78fbcb58ef3d06f86abc3153384d44d38875da21f4"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-NSW-MINISTERIAL-RELEASES-20261019074718",
+      "source_change_event_id": "CHG-WATCH-NSW-MINISTERIAL-RELEASES-20261019074718",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-NSW-MINISTERIAL-RELEASES-20261019074718",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "NSW Government — Ministerial releases added 3 structured publication records to its forward-captured official index: A new home with new recruits for NSW SES Stroud Unit; NSW Government boosts GambleAware Week to help break the stigma of gambling harm; Minns Labor Government steps in to protect 400 Hunter jobs ahead of Christmas",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-10-19T07:47:51.928Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "078213967c15c729c3f2",
+            "title": "A new home with new recruits for NSW SES Stroud Unit",
+            "url": "https://www.nsw.gov.au/ministerial-releases/stroud-state-emergency-services-unit-opens"
+          },
+          {
+            "record_id": "38b07c19322425278745",
+            "title": "NSW Government boosts GambleAware Week to help break the stigma of gambling harm",
+            "url": "https://www.nsw.gov.au/departments-and-agencies/dciths/ministerial-media-releases/gamble-aware-week"
+          },
+          {
+            "record_id": "945fde9a32cd636d5ce9",
+            "title": "Minns Labor Government steps in to protect 400 Hunter jobs ahead of Christmas",
+            "url": "https://www.nsw.gov.au/ministerial-releases/minns-labor-government-steps-to-protect-400-hunter-jobs-ahead-of-christmas"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "4602883fe681218cdd27",
+            "title": "NSW Maritime moves to seize dilapidated MV Cape Don for disposal",
+            "url": "https://www.nsw.gov.au/ministerial-releases/nsw-maritime-moves-to-seize-dilapidated-mv-cape-don-for-disposal"
+          },
+          {
+            "record_id": "4b2ccd603cb7528af13e",
+            "title": "120 new crisis accommodation beds to tackle rough sleeping",
+            "url": "https://www.nsw.gov.au/ministerial-releases/building-crisis-housing-plan-on-track"
+          },
+          {
+            "record_id": "57c6ce65279748ba81ca",
+            "title": "$5 million commitment to deliver a recreational fishing haven for Western Sydney",
+            "url": "https://www.nsw.gov.au/ministerial-releases/penrith-lakes-fishing-park-planning-started"
+          }
+        ],
+        "delta_hash": "070c63fb82159fece8b9abd3558a2ee639528b1c457fffe44972e725adf1bf3a"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261019074718",
+      "source_change_event_id": "CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261019074718",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261019074718",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Queensland Government — Ministerial Media Statements added 1 structured publication record to its forward-captured official index: Thousands of experienced Queenslanders backed to become qualified tradies",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-10-19T07:47:51.928Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "592bb1691e4ed6fd6c23",
+            "title": "Thousands of experienced Queenslanders backed to become qualified tradies",
+            "url": "https://statements.qld.gov.au/statements/106251"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "44793264ea087894351d",
+            "title": "Healthy Kindy Kids expands to give more Queensland kids a strong start",
+            "url": "https://statements.qld.gov.au/statements/106235"
+          }
+        ],
+        "delta_hash": "8cfee42a4dd2708d5a66a37cc76befd6fb59f77929b9d81880db8698316df6f1"
       },
       "integrity": {
         "source_change_unchanged": true,

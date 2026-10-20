@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-INTELLIGENCE-EVENTS-001",
   "scope": "Australia — multi-jurisdiction",
-  "captured_at": "2026-10-19T15:37:20.206Z",
+  "captured_at": "2026-10-20T00:21:48.465Z",
   "mode": "FORWARD_ONLY",
   "rules": {
     "observation_distinct_from_inference": true,
@@ -106117,6 +106117,678 @@
       "projection_effect": "NO_EFFECT",
       "information_advantage": "NONE",
       "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-PM-MEDIA-20261020002055",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-FED",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-PM-MEDIA-20261020002055",
+      "captured_at": "2026-10-20T00:20:55.574Z",
+      "event_date": "2026-10-20",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-PM-MEDIA",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "review_policy": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-PM-MEDIA-20261019011830",
+        "content_hash": "9d2a2db9bc481e18b87273e475d5137f96410eee3d9c82dcf62a251201fcc678",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-PM-MEDIA-20261020002055",
+        "content_hash": "feaa18e588bb064abd515c30bf91ab2d0484a9a80cf5b53d3c945c7914016a2e",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "STRUCTURED_RECORD_SET",
+        "records_added": [
+          {
+            "record_id": "3318b69ed5f57fa384de",
+            "title": "Television interview - ABC News Breakfast",
+            "url": "https://www.pm.gov.au/media/television-interview-abc-news-breakfast-43"
+          },
+          {
+            "record_id": "5982e169de9fcceecded",
+            "title": "Television interview - News24",
+            "url": "https://www.pm.gov.au/media/television-interview-news24-0"
+          },
+          {
+            "record_id": "67ffbcaea9a4e8210a57",
+            "title": "Television interview - ABC 7.30",
+            "url": "https://www.pm.gov.au/media/television-interview-abc-730-23"
+          },
+          {
+            "record_id": "b325e247f5e4e589b5fa",
+            "title": "Press conference - Sydney",
+            "url": "https://www.pm.gov.au/media/press-conference-sydney-40"
+          },
+          {
+            "record_id": "b4d6edea9c997a4c1196",
+            "title": "Television interview - Sunrise",
+            "url": "https://www.pm.gov.au/media/television-interview-sunrise-45"
+          },
+          {
+            "record_id": "fc4af41533176c0b21d7",
+            "title": "Television interview - Today Show",
+            "url": "https://www.pm.gov.au/media/television-interview-today-show-30"
+          }
+        ],
+        "records_removed": [
+          {
+            "record_id": "024aad5d6c1d0d23ac46",
+            "title": "25 years since Australians answered the call in Afghanistan",
+            "url": "https://www.pm.gov.au/media/25-years-australians-answered-call-afghanistan"
+          },
+          {
+            "record_id": "2542fbb8663d54ae8971",
+            "title": "National reflection 25 years of Australian service in Afghanistan",
+            "url": "https://www.pm.gov.au/media/national-reflection-25-years-australian-service-afghanistan"
+          },
+          {
+            "record_id": "5a4ecfbc1652b4f7647f",
+            "title": "Visit to Australia by the Hashemite Kingdom of Jordan",
+            "url": "https://www.pm.gov.au/media/visit-australia-hashemite-kingdom-jordan"
+          },
+          {
+            "record_id": "bdfcebbf9eca0a31dd6d",
+            "title": "Television interview - ABC Afternoon Briefing",
+            "url": "https://www.pm.gov.au/media/television-interview-abc-afternoon-briefing-11"
+          },
+          {
+            "record_id": "d843f13ff47f82c7a266",
+            "title": "Vale Richard Morecroft",
+            "url": "https://www.pm.gov.au/media/vale-richard-morecroft"
+          },
+          {
+            "record_id": "dae736eaa660b6a16f2d",
+            "title": "Joint leaders&#039; Statement on Enhanced Cooperation",
+            "url": "https://www.pm.gov.au/media/joint-leaders-statement-enhanced-cooperation"
+          }
+        ],
+        "added_count": 6,
+        "removed_count": 6,
+        "before_count": 27,
+        "after_count": 27,
+        "delta_hash": "bb487f8e7cabcc47037648d9e1aee7f67e6e6739043f938affaf8de84e3ffc4b"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-ALP-NEWS-20261020002055",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-FED",
+      "party_id": "AUS-FED-ALP",
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-ALP-NEWS-20261020002055",
+      "captured_at": "2026-10-20T00:20:55.574Z",
+      "event_date": "2026-10-20",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_PARTY",
+      "source_id": "SRC-ALP-FEDERAL-NEWS",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "review_policy": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-ALP-NEWS-20261019011830",
+        "content_hash": "86aa88ab3d3a22e5832b0e3d7c83801ddefaa9b3aa2d275b8e8b0f84bd9c2c18",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-ALP-NEWS-20261020002055",
+        "content_hash": "80025807db642f156bae82a2b501d4002f41fc451c599253d7b8c3164476a093",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "STRUCTURED_RECORD_SET",
+        "records_added": [
+          {
+            "record_id": "14dbbf5fc4d606113804",
+            "title": "More than 1m access free 1800MEDICARE health care 20 October 2026",
+            "url": "https://www.alp.org.au/news/all-news/more-than-one-million-australians-access-free-health-advice-through-1800medicare/"
+          }
+        ],
+        "records_removed": [],
+        "added_count": 1,
+        "removed_count": 0,
+        "before_count": 491,
+        "after_count": 492,
+        "delta_hash": "4e9ac6ba67073b446386be76f811d4638e006eefa68e71c0e3047d7b58a904cc"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-NSW-MINISTERIAL-RELEASES-20261020002055",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-NSW",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-NSW-MINISTERIAL-RELEASES-20261020002055",
+      "captured_at": "2026-10-20T00:20:55.574Z",
+      "event_date": "2026-10-20",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-NSW-MINISTERIAL-RELEASES",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "review_policy": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-NSW-MINISTERIAL-RELEASES-20261019074718",
+        "content_hash": "20d7e8924ab12063fe2fee64c6d3dde592be01652391229f4a70ebb96a7ddb81",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-NSW-MINISTERIAL-RELEASES-20261020002055",
+        "content_hash": "46bc0a4c8d878735899d628bcc8f8aeda0cc340c9e75484025d02ad188cde14c",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "STRUCTURED_RECORD_SET",
+        "records_added": [
+          {
+            "record_id": "7ee8df1485c09e4ebefc",
+            "title": "Global and local design leaders shortlisted to shape the future of Bays West",
+            "url": "https://www.nsw.gov.au/ministerial-releases/global-and-local-design-leaders-shortlisted-to-shape-future-of-bays-west"
+          },
+          {
+            "record_id": "8ccc122a6b02df12093e",
+            "title": "Tree vandals on notice: clear illegally and you’ll pay double",
+            "url": "https://www.nsw.gov.au/ministerial-releases/tougher-penalties-for-tree-vandals"
+          },
+          {
+            "record_id": "a0fab3ea47566d4dc231",
+            "title": "Teralba identified as preferred Hunter site to build NSW’s next train fleet",
+            "url": "https://www.nsw.gov.au/ministerial-releases/teralba-identified-as-preferred-hunter-site-to-build-nsws-next-train-fleet"
+          },
+          {
+            "record_id": "d7544b123797a162b806",
+            "title": "138-year-old Cockle Creek Station accessibility upgrade moves into construction",
+            "url": "https://www.nsw.gov.au/ministerial-releases/cockle-creek-station-upgrade-underway"
+          }
+        ],
+        "records_removed": [
+          {
+            "record_id": "38b07c19322425278745",
+            "title": "NSW Government boosts GambleAware Week to help break the stigma of gambling harm",
+            "url": "https://www.nsw.gov.au/departments-and-agencies/dciths/ministerial-media-releases/gamble-aware-week"
+          },
+          {
+            "record_id": "b8535f132b8d32a0a705",
+            "title": "NSW Aboriginal Languages Week 2026 celebrates Living Languages, Strong Futures",
+            "url": "https://www.nsw.gov.au/ministerial-releases/nsw-aboriginal-languages-week-2026"
+          },
+          {
+            "record_id": "ced0d1be68233c4a53e9",
+            "title": "More childcare places and fairer pay - Minns Labor Government reforms of early learning sector continue",
+            "url": "https://www.nsw.gov.au/ministerial-releases/more-childcare-places-and-fairer-pay-minns-labor-government-reforms-of-early-learning-sector-continue"
+          },
+          {
+            "record_id": "f8084fe9024ce979ef19",
+            "title": "NSW Government cracks down on operators issuing ‘sight unseen’ pink and blue slips",
+            "url": "https://www.nsw.gov.au/ministerial-releases/nsw-government-cracks-down-on-operators-issuing-sight-unseen-pink-and-blue-slips"
+          }
+        ],
+        "added_count": 4,
+        "removed_count": 4,
+        "before_count": 88,
+        "after_count": 88,
+        "delta_hash": "f41a78cd9eb938670029cd494e62a119d9face3426b9ef701049e0e9f93ff195"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261020002055",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-QLD",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-QLD-MINISTERIAL-STATEMENTS-20261020002055",
+      "captured_at": "2026-10-20T00:20:55.574Z",
+      "event_date": "2026-10-20",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-QLD-MINISTERIAL-STATEMENTS",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "review_policy": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-QLD-MINISTERIAL-STATEMENTS-20261019074718",
+        "content_hash": "be3c27fd5be6ed12b52ea079d0b395355186d7fcefe67fce452a10c491add1f3",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-QLD-MINISTERIAL-STATEMENTS-20261020002055",
+        "content_hash": "58043001e878c47e0a15c3787deb3750382551c628bb8b6fa19cd5f8772dd282",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "STRUCTURED_RECORD_SET",
+        "records_added": [
+          {
+            "record_id": "3d86f0b6c97090ba1f00",
+            "title": "Response delivered to strengthen council financial sustainability",
+            "url": "https://statements.qld.gov.au/statements/106263"
+          }
+        ],
+        "records_removed": [
+          {
+            "record_id": "83abff98d35d1061ccb8",
+            "title": "Construction begins at new Gold Coast special school",
+            "url": "https://statements.qld.gov.au/statements/106226"
+          }
+        ],
+        "added_count": 1,
+        "removed_count": 1,
+        "before_count": 16,
+        "after_count": 16,
+        "delta_hash": "7f13a01a94c3d52236080dde4394a088b4cb4600e994113564d183e47b4bc736"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-WA-HANSARD-20261020002055",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-WA",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-WA-HANSARD-20261020002055",
+      "captured_at": "2026-10-20T00:20:55.574Z",
+      "event_date": "2026-10-20",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_PARLIAMENT",
+      "source_id": "SRC-WA-HANSARD",
+      "capture_mode": "NORMALISED_PAGE_HASH",
+      "review_policy": "REVIEW_UNSTRUCTURED_CHANGE",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-WA-HANSARD-20261019011830",
+        "content_hash": "f3cdca1d0502e708e846c3c8a3274207c26faaab3014fb1669358084396fd339",
+        "capture_mode": "NORMALISED_PAGE_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-WA-HANSARD-20261020002055",
+        "content_hash": "4dc6c07ddd42acfc276cc869153167a080965cc915d8e12e032b6fad13a3ffbc",
+        "capture_mode": "NORMALISED_PAGE_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "TEXT_REPRESENTATION",
+        "first_difference_offset": 200,
+        "before_length": 10741,
+        "after_length": 10753,
+        "before_excerpt": "t Home Site map Accessibility Contact us Alerts Home Menu Show/Hide website navigation The Legislative Assembly meets tomorrow (<TIME>) Assembly sit tomorrow The Legislative Council meets tomorrow (<TIME>) Council sit tomorrow The Environment and Public Affairs meets on 23/10/2026 (<TIME>) Committee meet 23/10/2026 Search this website Advanced ",
+        "after_excerpt": "t Home Site map Accessibility Contact us Alerts Home Menu Show/Hide website navigation The Legislative Assembly meets today (<TIME>) Watch live Watch Assembly live The Legislative Council meets today (<TIME>) Watch live Watch Council live The Environment and Public Affairs meets on 23/10/2026 (<TIME>) Committee meet 23/10/2026 Search this website Advanced ",
+        "delta_hash": "93236594d164ebe8e97d4dcd94aeb84c3bee11dc273aeca2b0676788d82f9f63"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-SA-PARLIAMENT-20261020002055",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-SA",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-SA-PARLIAMENT-20261020002055",
+      "captured_at": "2026-10-20T00:20:55.574Z",
+      "event_date": "2026-10-20",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_PARLIAMENT",
+      "source_id": "SRC-SA-PARLIAMENT",
+      "capture_mode": "NORMALISED_PAGE_HASH",
+      "review_policy": "REVIEW_UNSTRUCTURED_CHANGE",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-SA-PARLIAMENT-20261019011830",
+        "content_hash": "bf71e94a8db013cc6bec202917f5630264f5c0c9eccc8966e5d2dceb70429124",
+        "capture_mode": "NORMALISED_PAGE_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-SA-PARLIAMENT-20261020002055",
+        "content_hash": "071c8173cd5b6023bf3ed962906ff05c8f210a3eb9a91ad81c88608f8f05108e",
+        "capture_mode": "NORMALISED_PAGE_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "TEXT_REPRESENTATION",
+        "first_difference_offset": 1164,
+        "before_length": 3003,
+        "after_length": 2937,
+        "before_excerpt": " Legislation What's On Legislative Council VIEW BUSINESS OF THE COUNCIL House of Assembly VIEW BUSINESS OF THE ASSEMBLY SUBMISSIONS OPEN: Select Committee on Energy Affordability and Competitiveness in SA Submissions due 6 November 2026 October 07, 2026 SUBMISSIONS OPEN: Select Committee on Matters Concerning the Social Worker Registration Scheme Submissions due 30 October 2026 September 28, 2026 SUBMISSIONS OPEN: Inquiry into the adequacy of the existing financial assistance provided to formal and informal foster and kinship carers by the Department for Child Protection. Submissions due 6 November 2026 September 23, 2026 More Parliament news Committees FIND A COMMITTEE ATTEND A COMMITTEE HEARING MAKE A SUBMISSION Tour Parliament BOO",
+        "after_excerpt": " Legislation What's On Legislative Council VIEW BUSINESS OF THE COUNCIL House of Assembly VIEW BUSINESS OF THE ASSEMBLY Committee-Regional-Hearing-Inquiry-Into-Small-Privately-Owned-Water-and-Sewerage-Retailers Mount Compass Memorial Hall &ndash; 26 October from 6pm October 15, 2026 SUBMISSIONS OPEN: Select Committee on Energy Affordability and Competitiveness in SA Submissions due 6 November 2026 October 07, 2026 SUBMISSIONS OPEN: Select Committee on Matters Concerning the Social Worker Registration Scheme Submissions due 30 October 2026 September 28, 2026 More Parliament news Committees FIND A COMMITTEE ATTEND A COMMITTEE HEARING MAKE A SUBMISSION Tour Parliament BOO",
+        "delta_hash": "9deb3f5fcdda00e14802a6c3b9ea9e07e845443371665b3458db21432eff4f55"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "SIG-REV-CHG-WATCH-PM-MEDIA-20261020002055",
+      "parent_event_id": "CHG-WATCH-PM-MEDIA-20261020002055",
+      "review_id": "REV-CHG-WATCH-PM-MEDIA-20261020002055",
+      "jurisdiction_id": "AUS-FED",
+      "party_id": null,
+      "actor_id": null,
+      "contest_id": null,
+      "cycle_id": null,
+      "source_snapshot_id": "AUTO-WATCH-PM-MEDIA-20261020002055",
+      "record_id": null,
+      "captured_at": "2026-10-20T00:21:43.089Z",
+      "event_date": "2026-10-20",
+      "checkpoint": "CONTINUOUS_FORWARD_SIGNAL_REVIEW",
+      "event_type": "SIGNAL_CREATED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-PM-MEDIA",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "claim": "Prime Minister of Australia — media added 6 structured publication records to its forward-captured official index: Television interview - ABC News Breakfast; Television interview - News24; Television interview - ABC 7.30; Press conference - Sydney; Television interview - Sunrise; +1 more",
+      "observed_behaviour": "One or more structured publication records appeared in the monitored official source index after the preceding forward snapshot.",
+      "publication_records_added": [
+        {
+          "record_id": "3318b69ed5f57fa384de",
+          "title": "Television interview - ABC News Breakfast",
+          "url": "https://www.pm.gov.au/media/television-interview-abc-news-breakfast-43"
+        },
+        {
+          "record_id": "5982e169de9fcceecded",
+          "title": "Television interview - News24",
+          "url": "https://www.pm.gov.au/media/television-interview-news24-0"
+        },
+        {
+          "record_id": "67ffbcaea9a4e8210a57",
+          "title": "Television interview - ABC 7.30",
+          "url": "https://www.pm.gov.au/media/television-interview-abc-730-23"
+        },
+        {
+          "record_id": "b325e247f5e4e589b5fa",
+          "title": "Press conference - Sydney",
+          "url": "https://www.pm.gov.au/media/press-conference-sydney-40"
+        },
+        {
+          "record_id": "b4d6edea9c997a4c1196",
+          "title": "Television interview - Sunrise",
+          "url": "https://www.pm.gov.au/media/television-interview-sunrise-45"
+        },
+        {
+          "record_id": "fc4af41533176c0b21d7",
+          "title": "Television interview - Today Show",
+          "url": "https://www.pm.gov.au/media/television-interview-today-show-30"
+        }
+      ],
+      "publication_records_removed": [
+        {
+          "record_id": "024aad5d6c1d0d23ac46",
+          "title": "25 years since Australians answered the call in Afghanistan",
+          "url": "https://www.pm.gov.au/media/25-years-australians-answered-call-afghanistan"
+        },
+        {
+          "record_id": "2542fbb8663d54ae8971",
+          "title": "National reflection 25 years of Australian service in Afghanistan",
+          "url": "https://www.pm.gov.au/media/national-reflection-25-years-australian-service-afghanistan"
+        },
+        {
+          "record_id": "5a4ecfbc1652b4f7647f",
+          "title": "Visit to Australia by the Hashemite Kingdom of Jordan",
+          "url": "https://www.pm.gov.au/media/visit-australia-hashemite-kingdom-jordan"
+        },
+        {
+          "record_id": "bdfcebbf9eca0a31dd6d",
+          "title": "Television interview - ABC Afternoon Briefing",
+          "url": "https://www.pm.gov.au/media/television-interview-abc-afternoon-briefing-11"
+        },
+        {
+          "record_id": "d843f13ff47f82c7a266",
+          "title": "Vale Richard Morecroft",
+          "url": "https://www.pm.gov.au/media/vale-richard-morecroft"
+        },
+        {
+          "record_id": "dae736eaa660b6a16f2d",
+          "title": "Joint leaders&#039; Statement on Enhanced Cooperation",
+          "url": "https://www.pm.gov.au/media/joint-leaders-statement-enhanced-cooperation"
+        }
+      ],
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "underlying_publication_claims_not_promoted_to_verified_fact": true,
+        "source_change_parent_retained": true,
+        "deterministic_review": true
+      }
+    },
+    {
+      "event_id": "SIG-REV-CHG-WATCH-ALP-NEWS-20261020002055",
+      "parent_event_id": "CHG-WATCH-ALP-NEWS-20261020002055",
+      "review_id": "REV-CHG-WATCH-ALP-NEWS-20261020002055",
+      "jurisdiction_id": "AUS-FED",
+      "party_id": "AUS-FED-ALP",
+      "actor_id": null,
+      "contest_id": null,
+      "cycle_id": null,
+      "source_snapshot_id": "AUTO-WATCH-ALP-NEWS-20261020002055",
+      "record_id": "14dbbf5fc4d606113804",
+      "captured_at": "2026-10-20T00:21:43.089Z",
+      "event_date": "2026-10-20",
+      "checkpoint": "CONTINUOUS_FORWARD_SIGNAL_REVIEW",
+      "event_type": "SIGNAL_CREATED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_PARTY",
+      "source_id": "SRC-ALP-FEDERAL-NEWS",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "claim": "Australian Labor Party — news added 1 structured publication record to its forward-captured official index: More than 1m access free 1800MEDICARE health care 20 October 2026",
+      "observed_behaviour": "One or more structured publication records appeared in the monitored official source index after the preceding forward snapshot.",
+      "publication_records_added": [
+        {
+          "record_id": "14dbbf5fc4d606113804",
+          "title": "More than 1m access free 1800MEDICARE health care 20 October 2026",
+          "url": "https://www.alp.org.au/news/all-news/more-than-one-million-australians-access-free-health-advice-through-1800medicare/"
+        }
+      ],
+      "publication_records_removed": [],
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "underlying_publication_claims_not_promoted_to_verified_fact": true,
+        "source_change_parent_retained": true,
+        "deterministic_review": true
+      }
+    },
+    {
+      "event_id": "SIG-REV-CHG-WATCH-NSW-MINISTERIAL-RELEASES-20261020002055",
+      "parent_event_id": "CHG-WATCH-NSW-MINISTERIAL-RELEASES-20261020002055",
+      "review_id": "REV-CHG-WATCH-NSW-MINISTERIAL-RELEASES-20261020002055",
+      "jurisdiction_id": "AUS-NSW",
+      "party_id": null,
+      "actor_id": null,
+      "contest_id": null,
+      "cycle_id": null,
+      "source_snapshot_id": "AUTO-WATCH-NSW-MINISTERIAL-RELEASES-20261020002055",
+      "record_id": null,
+      "captured_at": "2026-10-20T00:21:43.089Z",
+      "event_date": "2026-10-20",
+      "checkpoint": "CONTINUOUS_FORWARD_SIGNAL_REVIEW",
+      "event_type": "SIGNAL_CREATED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-NSW-MINISTERIAL-RELEASES",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "claim": "NSW Government — Ministerial releases added 4 structured publication records to its forward-captured official index: Global and local design leaders shortlisted to shape the future of Bays West; Tree vandals on notice: clear illegally and you’ll pay double; Teralba identified as preferred Hunter site to build NSW’s next train fleet; 138-year-old Cockle Creek Station accessibility upgrade moves into construction",
+      "observed_behaviour": "One or more structured publication records appeared in the monitored official source index after the preceding forward snapshot.",
+      "publication_records_added": [
+        {
+          "record_id": "7ee8df1485c09e4ebefc",
+          "title": "Global and local design leaders shortlisted to shape the future of Bays West",
+          "url": "https://www.nsw.gov.au/ministerial-releases/global-and-local-design-leaders-shortlisted-to-shape-future-of-bays-west"
+        },
+        {
+          "record_id": "8ccc122a6b02df12093e",
+          "title": "Tree vandals on notice: clear illegally and you’ll pay double",
+          "url": "https://www.nsw.gov.au/ministerial-releases/tougher-penalties-for-tree-vandals"
+        },
+        {
+          "record_id": "a0fab3ea47566d4dc231",
+          "title": "Teralba identified as preferred Hunter site to build NSW’s next train fleet",
+          "url": "https://www.nsw.gov.au/ministerial-releases/teralba-identified-as-preferred-hunter-site-to-build-nsws-next-train-fleet"
+        },
+        {
+          "record_id": "d7544b123797a162b806",
+          "title": "138-year-old Cockle Creek Station accessibility upgrade moves into construction",
+          "url": "https://www.nsw.gov.au/ministerial-releases/cockle-creek-station-upgrade-underway"
+        }
+      ],
+      "publication_records_removed": [
+        {
+          "record_id": "38b07c19322425278745",
+          "title": "NSW Government boosts GambleAware Week to help break the stigma of gambling harm",
+          "url": "https://www.nsw.gov.au/departments-and-agencies/dciths/ministerial-media-releases/gamble-aware-week"
+        },
+        {
+          "record_id": "b8535f132b8d32a0a705",
+          "title": "NSW Aboriginal Languages Week 2026 celebrates Living Languages, Strong Futures",
+          "url": "https://www.nsw.gov.au/ministerial-releases/nsw-aboriginal-languages-week-2026"
+        },
+        {
+          "record_id": "ced0d1be68233c4a53e9",
+          "title": "More childcare places and fairer pay - Minns Labor Government reforms of early learning sector continue",
+          "url": "https://www.nsw.gov.au/ministerial-releases/more-childcare-places-and-fairer-pay-minns-labor-government-reforms-of-early-learning-sector-continue"
+        },
+        {
+          "record_id": "f8084fe9024ce979ef19",
+          "title": "NSW Government cracks down on operators issuing ‘sight unseen’ pink and blue slips",
+          "url": "https://www.nsw.gov.au/ministerial-releases/nsw-government-cracks-down-on-operators-issuing-sight-unseen-pink-and-blue-slips"
+        }
+      ],
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "underlying_publication_claims_not_promoted_to_verified_fact": true,
+        "source_change_parent_retained": true,
+        "deterministic_review": true
+      }
+    },
+    {
+      "event_id": "SIG-REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261020002055",
+      "parent_event_id": "CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261020002055",
+      "review_id": "REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261020002055",
+      "jurisdiction_id": "AUS-QLD",
+      "party_id": null,
+      "actor_id": null,
+      "contest_id": null,
+      "cycle_id": null,
+      "source_snapshot_id": "AUTO-WATCH-QLD-MINISTERIAL-STATEMENTS-20261020002055",
+      "record_id": "3d86f0b6c97090ba1f00",
+      "captured_at": "2026-10-20T00:21:43.089Z",
+      "event_date": "2026-10-20",
+      "checkpoint": "CONTINUOUS_FORWARD_SIGNAL_REVIEW",
+      "event_type": "SIGNAL_CREATED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-QLD-MINISTERIAL-STATEMENTS",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "claim": "Queensland Government — Ministerial Media Statements added 1 structured publication record to its forward-captured official index: Response delivered to strengthen council financial sustainability",
+      "observed_behaviour": "One or more structured publication records appeared in the monitored official source index after the preceding forward snapshot.",
+      "publication_records_added": [
+        {
+          "record_id": "3d86f0b6c97090ba1f00",
+          "title": "Response delivered to strengthen council financial sustainability",
+          "url": "https://statements.qld.gov.au/statements/106263"
+        }
+      ],
+      "publication_records_removed": [
+        {
+          "record_id": "83abff98d35d1061ccb8",
+          "title": "Construction begins at new Gold Coast special school",
+          "url": "https://statements.qld.gov.au/statements/106226"
+        }
+      ],
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "underlying_publication_claims_not_promoted_to_verified_fact": true,
+        "source_change_parent_retained": true,
+        "deterministic_review": true
+      }
     }
   ]
 }

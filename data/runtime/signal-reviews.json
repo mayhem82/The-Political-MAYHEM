@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-SIGNAL-REVIEWS-001",
   "created_at": "2026-09-09T05:05:00+10:00",
-  "updated_at": "2026-10-20T00:21:43.089Z",
+  "updated_at": "2026-10-20T11:38:59.935Z",
   "rules": {
     "append_only": true,
     "raw_source_change_is_immutable": true,
@@ -38582,6 +38582,274 @@
           }
         ],
         "delta_hash": "7f13a01a94c3d52236080dde4394a088b4cb4600e994113564d183e47b4bc736"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-PM-MEDIA-20261020113810",
+      "source_change_event_id": "CHG-WATCH-PM-MEDIA-20261020113810",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-PM-MEDIA-20261020113810",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Prime Minister of Australia — media added 1 structured publication record to its forward-captured official index: Speech - The Age&#039;s Melbourne Assembly",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-10-20T11:38:59.935Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "9ab816d78efdee977d74",
+            "title": "Speech - The Age&#039;s Melbourne Assembly",
+            "url": "https://www.pm.gov.au/media/speech-ages-melbourne-assembly"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "4fb3a802c41ed0104cf2",
+            "title": "Opening remarks - Parliament House, Canberra",
+            "url": "https://www.pm.gov.au/media/opening-remarks-parliament-house-canberra-14-october-2026"
+          }
+        ],
+        "delta_hash": "51e079f0e326533c5e1a0076349cb27165fafd6f5fd5bc3f38cbbf9c3a0a5b6b"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-ALP-NEWS-20261020113810",
+      "source_change_event_id": "CHG-WATCH-ALP-NEWS-20261020113810",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-ALP-NEWS-20261020113810",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": "AUS-FED-ALP",
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Australian Labor Party — news added 1 structured publication record to its forward-captured official index: Boost to protect Australians from gambling harms 20 October 2026",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-10-20T11:38:59.935Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "f7386a2d72174a443bbe",
+            "title": "Boost to protect Australians from gambling harms 20 October 2026",
+            "url": "https://www.alp.org.au/news/all-news/nearly-40-million-boost-to-protect-australians-from-gambling-harms/"
+          }
+        ],
+        "removed_records": [],
+        "delta_hash": "9279834afdaba9d846aa116853225670cba38b37b7689b28991915d85beb2375"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-ONENATION-NEWS-20261020113810",
+      "source_change_event_id": "CHG-WATCH-ONENATION-NEWS-20261020113810",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-ONENATION-NEWS-20261020113810",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": "AUS-FED-ONP",
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Pauline Hanson's One Nation — Latest News added 2 structured publication records to its forward-captured official index: Only One Nation Will End Mass Migration; Barnaby Joyce condemns violence against Helen Haines",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-10-20T11:38:59.935Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "52f247141e688a4d9d09",
+            "title": "Only One Nation Will End Mass Migration",
+            "url": "http://www.onenation.org.au/three-year-negative-migration-plan",
+            "published": "Tue, 20 Oct 2026 14:07:00 +1000"
+          },
+          {
+            "record_id": "c702fb7c66e1bf003f6e",
+            "title": "Barnaby Joyce condemns violence against Helen Haines",
+            "url": "http://www.onenation.org.au/helen-haines-political-violence",
+            "published": "Tue, 20 Oct 2026 14:16:53 +1000"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "038adb273c96278cc5c8",
+            "title": "Pauline Hanson Reflects on 30 Years in Australian Politics",
+            "url": "http://www.onenation.org.au/pauline-hanson-30-years",
+            "published": "Tue, 13 Oct 2026 13:12:29 +1000"
+          },
+          {
+            "record_id": "2b3eadc164903fe25181",
+            "title": "Murray Watt Criticised Over Question Time Response",
+            "url": "http://www.onenation.org.au/murray-watt-question-time",
+            "published": "Tue, 13 Oct 2026 16:33:54 +1000"
+          }
+        ],
+        "delta_hash": "3b429fbf201f5e471a12e056076d171b99989cc96183850143676b4431a1a51f"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-NSW-MINISTERIAL-RELEASES-20261020113810",
+      "source_change_event_id": "CHG-WATCH-NSW-MINISTERIAL-RELEASES-20261020113810",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-NSW-MINISTERIAL-RELEASES-20261020113810",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "NSW Government — Ministerial releases added 3 structured publication records to its forward-captured official index: New scheme to better protect workers from abuse, violence; Minns Government releases twenty-year blueprint for transport in the Riverina Murray; Inner West gets 190 new bus trips to complement Southwest Metro",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-10-20T11:38:59.935Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "639569d423833281cc22",
+            "title": "New scheme to better protect workers from abuse, violence",
+            "url": "https://www.nsw.gov.au/ministerial-releases/new-scheme-to-better-protect-workers-from-abuse-violence"
+          },
+          {
+            "record_id": "995ee4a56f799056deae",
+            "title": "Minns Government releases twenty-year blueprint for transport in the Riverina Murray",
+            "url": "https://www.nsw.gov.au/ministerial-releases/minns-government-releases-twenty-year-blueprint-for-transport-riverina-murray"
+          },
+          {
+            "record_id": "f1610e9eaa95e67a8e3d",
+            "title": "Inner West gets 190 new bus trips to complement Southwest Metro",
+            "url": "https://www.nsw.gov.au/ministerial-releases/inner-west-gets-190-new-bus-trips-to-complement-southwest-metro"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "340fe717760690344ce2",
+            "title": "Real stories to help make NSW workplaces safer as Safety Speakers Program launches for National SafeWork Month",
+            "url": "https://www.nsw.gov.au/ministerial-releases/safety-speakers-program-launches"
+          },
+          {
+            "record_id": "80d90be5877f4cccaa4f",
+            "title": "NSW dishes up Australia’s biggest culinary tourism economy",
+            "url": "https://www.nsw.gov.au/departments-and-agencies/dciths/ministerial-media-releases/nsw-dishes-up-australias-biggest-culinary-tourism-economy"
+          },
+          {
+            "record_id": "93e7ec4ca869e4ccf36e",
+            "title": "NSW Health warns of surge in hospital presentations linked to peptide use",
+            "url": "https://www.nsw.gov.au/ministerial-releases/nsw-health-warns-of-surge-hospital-presentations-linked-to-peptide-use"
+          }
+        ],
+        "delta_hash": "fe487d858b2c0d5973019106daa1bd6912041a12a767fd2682e471d80e63334c"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261020113810",
+      "source_change_event_id": "CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261020113810",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261020113810",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Queensland Government — Ministerial Media Statements added 5 structured publication records to its forward-captured official index: Statement from the Attorney-General; Cairns Special School upgrade complete; Works start on Bruce Highway at Gairloch to get Queenslanders home sooner and safer; Far North Queensland small and family businesses first to access free AI courses; Nation-leading e-mobility laws deliver positive early results with reduced hospitalisations",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-10-20T11:38:59.935Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "125eb5f1a2066b246331",
+            "title": "Statement from the Attorney-General",
+            "url": "https://statements.qld.gov.au/statements/106266"
+          },
+          {
+            "record_id": "5d72d36c44d7b9bcf077",
+            "title": "Cairns Special School upgrade complete",
+            "url": "https://statements.qld.gov.au/statements/106261"
+          },
+          {
+            "record_id": "649c656982a9a963b6ec",
+            "title": "Works start on Bruce Highway at Gairloch to get Queenslanders home sooner and safer",
+            "url": "https://statements.qld.gov.au/statements/106262"
+          },
+          {
+            "record_id": "7590143a0c587da67387",
+            "title": "Far North Queensland small and family businesses first to access free AI courses",
+            "url": "https://statements.qld.gov.au/statements/106260"
+          },
+          {
+            "record_id": "9c51a543630d8808de24",
+            "title": "Nation-leading e-mobility laws deliver positive early results with reduced hospitalisations",
+            "url": "https://statements.qld.gov.au/statements/106257"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "38ae68323293f7863604",
+            "title": "New board appointments to strengthen Queensland Ports",
+            "url": "https://statements.qld.gov.au/statements/106238"
+          },
+          {
+            "record_id": "4a14d3ec43314473772a",
+            "title": "Applications open for landmark $2.4 billion housing infrastructure fund",
+            "url": "https://statements.qld.gov.au/statements/106240"
+          },
+          {
+            "record_id": "c9142efd35a8f7220008",
+            "title": "New Chair to lead Aviation Australia",
+            "url": "https://statements.qld.gov.au/statements/106237"
+          },
+          {
+            "record_id": "cc9aba875791156cb159",
+            "title": "Indigenous leadership backed with Family Responsibilities Commission appointments",
+            "url": "https://statements.qld.gov.au/statements/106243"
+          },
+          {
+            "record_id": "e810ed0c9c7f26628ca7",
+            "title": "More than 7,200 new homes fast-tracked across Mackay and Sarina",
+            "url": "https://statements.qld.gov.au/statements/106241"
+          }
+        ],
+        "delta_hash": "42e450db7c860a42bcb3eb42751b8a512383a268c3d39743f1c21d1bd90082d0"
       },
       "integrity": {
         "source_change_unchanged": true,

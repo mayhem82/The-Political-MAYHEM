@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-INTELLIGENCE-EVENTS-001",
   "scope": "Australia — multi-jurisdiction",
-  "captured_at": "2026-10-20T00:21:48.465Z",
+  "captured_at": "2026-10-20T11:39:03.499Z",
   "mode": "FORWARD_ONLY",
   "rules": {
     "observation_distinct_from_inference": true,
@@ -106777,6 +106777,728 @@
           "record_id": "83abff98d35d1061ccb8",
           "title": "Construction begins at new Gold Coast special school",
           "url": "https://statements.qld.gov.au/statements/106226"
+        }
+      ],
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "underlying_publication_claims_not_promoted_to_verified_fact": true,
+        "source_change_parent_retained": true,
+        "deterministic_review": true
+      }
+    },
+    {
+      "event_id": "CHG-WATCH-PM-MEDIA-20261020113810",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-FED",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-PM-MEDIA-20261020113810",
+      "captured_at": "2026-10-20T11:38:10.525Z",
+      "event_date": "2026-10-20",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-PM-MEDIA",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "review_policy": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-PM-MEDIA-20261020002055",
+        "content_hash": "feaa18e588bb064abd515c30bf91ab2d0484a9a80cf5b53d3c945c7914016a2e",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-PM-MEDIA-20261020113810",
+        "content_hash": "d62da2a80b4997ea6c5c67cb79ab90d67e0228fa18718b855095e37b91630206",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "STRUCTURED_RECORD_SET",
+        "records_added": [
+          {
+            "record_id": "9ab816d78efdee977d74",
+            "title": "Speech - The Age&#039;s Melbourne Assembly",
+            "url": "https://www.pm.gov.au/media/speech-ages-melbourne-assembly"
+          }
+        ],
+        "records_removed": [
+          {
+            "record_id": "4fb3a802c41ed0104cf2",
+            "title": "Opening remarks - Parliament House, Canberra",
+            "url": "https://www.pm.gov.au/media/opening-remarks-parliament-house-canberra-14-october-2026"
+          }
+        ],
+        "added_count": 1,
+        "removed_count": 1,
+        "before_count": 27,
+        "after_count": 27,
+        "delta_hash": "51e079f0e326533c5e1a0076349cb27165fafd6f5fd5bc3f38cbbf9c3a0a5b6b"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-ALP-NEWS-20261020113810",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-FED",
+      "party_id": "AUS-FED-ALP",
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-ALP-NEWS-20261020113810",
+      "captured_at": "2026-10-20T11:38:10.525Z",
+      "event_date": "2026-10-20",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_PARTY",
+      "source_id": "SRC-ALP-FEDERAL-NEWS",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "review_policy": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-ALP-NEWS-20261020002055",
+        "content_hash": "80025807db642f156bae82a2b501d4002f41fc451c599253d7b8c3164476a093",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-ALP-NEWS-20261020113810",
+        "content_hash": "5e85fdc170ca3f6ec82421e7236e85d3aa0d7528e6148356676149842039a6ff",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "STRUCTURED_RECORD_SET",
+        "records_added": [
+          {
+            "record_id": "f7386a2d72174a443bbe",
+            "title": "Boost to protect Australians from gambling harms 20 October 2026",
+            "url": "https://www.alp.org.au/news/all-news/nearly-40-million-boost-to-protect-australians-from-gambling-harms/"
+          }
+        ],
+        "records_removed": [],
+        "added_count": 1,
+        "removed_count": 0,
+        "before_count": 492,
+        "after_count": 493,
+        "delta_hash": "9279834afdaba9d846aa116853225670cba38b37b7689b28991915d85beb2375"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-LIBERAL-HOME-20261020113810",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-FED",
+      "party_id": "AUS-FED-LIB",
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-LIBERAL-HOME-20261020113810",
+      "captured_at": "2026-10-20T11:38:10.525Z",
+      "event_date": "2026-10-20",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_PARTY",
+      "source_id": "SRC-LIBERAL-FEDERAL-HOME",
+      "capture_mode": "NORMALISED_PAGE_HASH",
+      "review_policy": "REVIEW_UNSTRUCTURED_CHANGE",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-LIBERAL-HOME-20261019153641",
+        "content_hash": "dcbcfe2dda452a5384e4bd446008f5b16093c5888e5e2684a64e9697e84e7ce8",
+        "capture_mode": "NORMALISED_PAGE_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-LIBERAL-HOME-20261020113810",
+        "content_hash": "0b33f53752d9a23bc3e2f031e534784f4a109afe50612a6fce484f80ea8cfdd5",
+        "capture_mode": "NORMALISED_PAGE_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "TEXT_REPRESENTATION",
+        "first_difference_offset": 1427,
+        "before_length": 6181,
+        "after_length": 6101,
+        "before_excerpt": "position in the Senate Meet the Liberal Team The Latest Stay up to date with the Liberal Party of Australia senatorhume We will SCRAP Labor’s taxes on trusts, capital gains AND negative gearing. Oct 19 Open post by senatorhume with ID 18107741480155252 liberalaus Labor keeps changing its story on the ATO credit card ban. Why can`t Labor ever be upfront with Australians? Oct 19 Open post by liberalaus with ID 18105324848348714 liberalaus Labor don`t understand small businesses and that`s why they don`t respect small businesses. The Liberals and Nationals will always back small business. Oct 18 Open post by liberalaus with ID 18097214318653803 senatorhume Labor won’t stand up for small business. The Liberals will. Oct 18 Open post by senatorhume with ID 18124624342928879 angustaylormp Labor say we don’t talk about small business. We beg to differ. Oct 18 Open post by angustaylormp with ID 18124420015922688 angustaylormp This is what Telethon is all about. Behind every dollar raised are real children, real families and moments that matter. Oct 17 Open post by angustaylormp with ID 18041873099835257 angustaylormp A visit to Perth Children’s Hospital is a reminder of the incredible care and dedication that goes into supporting sick children and their families. This weekend is WA’s famous Telethon. Since 1968 more than $770 million has been donated to ensure a better life for our children now and in the future. This has included vital medical equipment, specialist facilities and research. That investment is making a real difference to children and families across Western Australia. @telethon7 Oct 17 Open post by angustaylormp with ID 18150575050558777 liberalaus The Albanese Government is knee-deep in the problems around the ATO credit card ban. It`s been revealed they initially backed it, then backflipped. Labor just makes things harder for small businesses. Oct 17 Open post by liberalaus with ID 18122168431937788 senatorhume Australians are not better off under this Labor Government. Oct 17 Open post by senatorhume with ID 17938224939384783 angustaylormp Anthony Albanese is taking our country backwards. We have the plan and the team to fight this terrible government, fix the economy and to protect our way of life. Oct 16 Open post by angustaylormp with ID 17909073990483352 liberalaus You cannot tax a country into prosperity. The Liberals and Nationals will fight these taxes, and we will axe them if elected. Oct 16 Open post by liberalaus with ID 17909259939561630 senatorhume Labor can cut wasteful spending on subsidies and climate bureaucracy, but instead they’re making life more expensive for pensioners. After a lifetime of paying for private health insurance, older Australians shouldn’t be punished when they need it most. Oct 16 Open post by senatorhume with ID 17975580680940013 angustaylormp Labor’s war on small business must end. Oct 16 Open post by angustaylormp with ID 18115169195093065 liberalaus Higher unemployment, higher inflation, higher taxes, higher interest rates, and higher power bills under Labor. There is a better way. Only the Liberals and Nationals have a plan to fix the economy and protect our way of life. Oct 15 Open post by liberalaus with ID 17944328499360607 liberalaus Only the Liberals and Nationals have a plan to fix the economy and protect our way of life. Read more about our plan at the link in bio. Oct 15 Open post by liberalaus with ID 18024825998867897 angustaylormp Labor hates small business and loves big government. Now Labor wants small businesses answering to the eSafety Commissioner on top of everything else. Oct 15 Open post by angustaylormp with ID 17988827703114975 angustaylormp Small and family businesses are being given three bad choices. Pay more tax, pay accountants and lawyers to restructure, or give up the flexibility they’ve relied on for generations. We will fight Labor’s new taxes and axe them if elected. Oct 15 Open post by angustaylormp with ID 18119377130072185 senatorhume More than two years on, Labor’s CFMEU administration has failed to clean up the union. Oct 15 Open post by senatorhume with ID 18118456192959554 We need your support to win! Help us by making a donation today. 🙏🏼 $30 👏🏼 $60 😃 $120 😁 $500 😲 $1,000 🥹 $2,000 ",
+        "after_excerpt": "position in the Senate Meet the Liberal Team The Latest Stay up to date with the Liberal Party of Australia senatorhume Our thoughts and prayers are with Helen Haines, her family and her team. We wish Helen a full recovery during this incredibly difficult time. Oct 20 Open post by senatorhume with ID 18030709376916963 angustaylormp My thoughts and prayers are with Helen Haines, her family and friends at this incredibly difficult time. Oct 20 Open post by angustaylormp with ID 18096503906394002 senatorhume We will SCRAP Labor’s taxes on trusts, capital gains AND negative gearing. Oct 19 Open post by senatorhume with ID 18107741480155252 liberalaus Labor keeps changing its story on the ATO credit card ban. Why can`t Labor ever be upfront with Australians? Oct 19 Open post by liberalaus with ID 18105324848348714 liberalaus Labor don`t understand small businesses and that`s why they don`t respect small businesses. The Liberals and Nationals will always back small business. Oct 18 Open post by liberalaus with ID 18097214318653803 senatorhume Labor won’t stand up for small business. The Liberals will. Oct 18 Open post by senatorhume with ID 18124624342928879 angustaylormp Labor say we don’t talk about small business. We beg to differ. Oct 18 Open post by angustaylormp with ID 18124420015922688 angustaylormp This is what Telethon is all about. Behind every dollar raised are real children, real families and moments that matter. Oct 17 Open post by angustaylormp with ID 18041873099835257 angustaylormp A visit to Perth Children’s Hospital is a reminder of the incredible care and dedication that goes into supporting sick children and their families. This weekend is WA’s famous Telethon. Since 1968 more than $770 million has been donated to ensure a better life for our children now and in the future. This has included vital medical equipment, specialist facilities and research. That investment is making a real difference to children and families across Western Australia. @telethon7 Oct 17 Open post by angustaylormp with ID 18150575050558777 liberalaus The Albanese Government is knee-deep in the problems around the ATO credit card ban. It`s been revealed they initially backed it, then backflipped. Labor just makes things harder for small businesses. Oct 17 Open post by liberalaus with ID 18122168431937788 senatorhume Australians are not better off under this Labor Government. Oct 17 Open post by senatorhume with ID 17938224939384783 angustaylormp Anthony Albanese is taking our country backwards. We have the plan and the team to fight this terrible government, fix the economy and to protect our way of life. Oct 16 Open post by angustaylormp with ID 17909073990483352 liberalaus You cannot tax a country into prosperity. The Liberals and Nationals will fight these taxes, and we will axe them if elected. Oct 16 Open post by liberalaus with ID 17909259939561630 senatorhume Labor can cut wasteful spending on subsidies and climate bureaucracy, but instead they’re making life more expensive for pensioners. After a lifetime of paying for private health insurance, older Australians shouldn’t be punished when they need it most. Oct 16 Open post by senatorhume with ID 17975580680940013 angustaylormp Labor’s war on small business must end. Oct 16 Open post by angustaylormp with ID 18115169195093065 liberalaus Higher unemployment, higher inflation, higher taxes, higher interest rates, and higher power bills under Labor. There is a better way. Only the Liberals and Nationals have a plan to fix the economy and protect our way of life. Oct 15 Open post by liberalaus with ID 17944328499360607 liberalaus Only the Liberals and Nationals have a plan to fix the economy and protect our way of life. Read more about our plan at the link in bio. Oct 15 Open post by liberalaus with ID 18024825998867897 angustaylormp Labor hates small business and loves big government. Now Labor wants small businesses answering to the eSafety Commissioner on top of everything else. Oct 15 Open post by angustaylormp with ID 17988827703114975 We need your support to win! Help us by making a donation today. 🙏🏼 $30 👏🏼 $60 😃 $120 😁 $500 😲 $1,000 🥹 $2,000 ",
+        "delta_hash": "61353ae222adbe3a79f1925c91e423b5c8b43c0d15c710f420974700d517182a"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-ONENATION-NEWS-20261020113810",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-FED",
+      "party_id": "AUS-FED-ONP",
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-ONENATION-NEWS-20261020113810",
+      "captured_at": "2026-10-20T11:38:10.525Z",
+      "event_date": "2026-10-20",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_PARTY",
+      "source_id": "SRC-ONENATION-FEDERAL-NEWS",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "review_policy": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-ONENATION-NEWS-20261019074718",
+        "content_hash": "63abdb814e2fceb1bbb2b9bc662f89902ef92c97f21a8035b2fc18d922c07a21",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-ONENATION-NEWS-20261020113810",
+        "content_hash": "e8192b3acab23f9fc966a84c904417a026b08583c9fd579b070c8cbc0830ac00",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "STRUCTURED_RECORD_SET",
+        "records_added": [
+          {
+            "record_id": "52f247141e688a4d9d09",
+            "title": "Only One Nation Will End Mass Migration",
+            "url": "http://www.onenation.org.au/three-year-negative-migration-plan",
+            "published": "Tue, 20 Oct 2026 14:07:00 +1000"
+          },
+          {
+            "record_id": "c702fb7c66e1bf003f6e",
+            "title": "Barnaby Joyce condemns violence against Helen Haines",
+            "url": "http://www.onenation.org.au/helen-haines-political-violence",
+            "published": "Tue, 20 Oct 2026 14:16:53 +1000"
+          }
+        ],
+        "records_removed": [
+          {
+            "record_id": "038adb273c96278cc5c8",
+            "title": "Pauline Hanson Reflects on 30 Years in Australian Politics",
+            "url": "http://www.onenation.org.au/pauline-hanson-30-years",
+            "published": "Tue, 13 Oct 2026 13:12:29 +1000"
+          },
+          {
+            "record_id": "2b3eadc164903fe25181",
+            "title": "Murray Watt Criticised Over Question Time Response",
+            "url": "http://www.onenation.org.au/murray-watt-question-time",
+            "published": "Tue, 13 Oct 2026 16:33:54 +1000"
+          }
+        ],
+        "added_count": 2,
+        "removed_count": 2,
+        "before_count": 20,
+        "after_count": 20,
+        "delta_hash": "3b429fbf201f5e471a12e056076d171b99989cc96183850143676b4431a1a51f"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-NSW-MINISTERIAL-RELEASES-20261020113810",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-NSW",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-NSW-MINISTERIAL-RELEASES-20261020113810",
+      "captured_at": "2026-10-20T11:38:10.525Z",
+      "event_date": "2026-10-20",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-NSW-MINISTERIAL-RELEASES",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "review_policy": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-NSW-MINISTERIAL-RELEASES-20261020002055",
+        "content_hash": "46bc0a4c8d878735899d628bcc8f8aeda0cc340c9e75484025d02ad188cde14c",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-NSW-MINISTERIAL-RELEASES-20261020113810",
+        "content_hash": "b5d28be4186e51f6fde8bed1671c6ba43ae01d8b4f5f993c142f7fa89064b3b9",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "STRUCTURED_RECORD_SET",
+        "records_added": [
+          {
+            "record_id": "639569d423833281cc22",
+            "title": "New scheme to better protect workers from abuse, violence",
+            "url": "https://www.nsw.gov.au/ministerial-releases/new-scheme-to-better-protect-workers-from-abuse-violence"
+          },
+          {
+            "record_id": "995ee4a56f799056deae",
+            "title": "Minns Government releases twenty-year blueprint for transport in the Riverina Murray",
+            "url": "https://www.nsw.gov.au/ministerial-releases/minns-government-releases-twenty-year-blueprint-for-transport-riverina-murray"
+          },
+          {
+            "record_id": "f1610e9eaa95e67a8e3d",
+            "title": "Inner West gets 190 new bus trips to complement Southwest Metro",
+            "url": "https://www.nsw.gov.au/ministerial-releases/inner-west-gets-190-new-bus-trips-to-complement-southwest-metro"
+          }
+        ],
+        "records_removed": [
+          {
+            "record_id": "340fe717760690344ce2",
+            "title": "Real stories to help make NSW workplaces safer as Safety Speakers Program launches for National SafeWork Month",
+            "url": "https://www.nsw.gov.au/ministerial-releases/safety-speakers-program-launches"
+          },
+          {
+            "record_id": "80d90be5877f4cccaa4f",
+            "title": "NSW dishes up Australia’s biggest culinary tourism economy",
+            "url": "https://www.nsw.gov.au/departments-and-agencies/dciths/ministerial-media-releases/nsw-dishes-up-australias-biggest-culinary-tourism-economy"
+          },
+          {
+            "record_id": "93e7ec4ca869e4ccf36e",
+            "title": "NSW Health warns of surge in hospital presentations linked to peptide use",
+            "url": "https://www.nsw.gov.au/ministerial-releases/nsw-health-warns-of-surge-hospital-presentations-linked-to-peptide-use"
+          }
+        ],
+        "added_count": 3,
+        "removed_count": 3,
+        "before_count": 88,
+        "after_count": 88,
+        "delta_hash": "fe487d858b2c0d5973019106daa1bd6912041a12a767fd2682e471d80e63334c"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261020113810",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-QLD",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-QLD-MINISTERIAL-STATEMENTS-20261020113810",
+      "captured_at": "2026-10-20T11:38:10.525Z",
+      "event_date": "2026-10-20",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-QLD-MINISTERIAL-STATEMENTS",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "review_policy": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-QLD-MINISTERIAL-STATEMENTS-20261020002055",
+        "content_hash": "58043001e878c47e0a15c3787deb3750382551c628bb8b6fa19cd5f8772dd282",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-QLD-MINISTERIAL-STATEMENTS-20261020113810",
+        "content_hash": "4c46f762e20eb2599c146310d13b53c1d311e47e0d4b27e6f08f12fd85c38a7c",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "STRUCTURED_RECORD_SET",
+        "records_added": [
+          {
+            "record_id": "125eb5f1a2066b246331",
+            "title": "Statement from the Attorney-General",
+            "url": "https://statements.qld.gov.au/statements/106266"
+          },
+          {
+            "record_id": "5d72d36c44d7b9bcf077",
+            "title": "Cairns Special School upgrade complete",
+            "url": "https://statements.qld.gov.au/statements/106261"
+          },
+          {
+            "record_id": "649c656982a9a963b6ec",
+            "title": "Works start on Bruce Highway at Gairloch to get Queenslanders home sooner and safer",
+            "url": "https://statements.qld.gov.au/statements/106262"
+          },
+          {
+            "record_id": "7590143a0c587da67387",
+            "title": "Far North Queensland small and family businesses first to access free AI courses",
+            "url": "https://statements.qld.gov.au/statements/106260"
+          },
+          {
+            "record_id": "9c51a543630d8808de24",
+            "title": "Nation-leading e-mobility laws deliver positive early results with reduced hospitalisations",
+            "url": "https://statements.qld.gov.au/statements/106257"
+          }
+        ],
+        "records_removed": [
+          {
+            "record_id": "38ae68323293f7863604",
+            "title": "New board appointments to strengthen Queensland Ports",
+            "url": "https://statements.qld.gov.au/statements/106238"
+          },
+          {
+            "record_id": "4a14d3ec43314473772a",
+            "title": "Applications open for landmark $2.4 billion housing infrastructure fund",
+            "url": "https://statements.qld.gov.au/statements/106240"
+          },
+          {
+            "record_id": "c9142efd35a8f7220008",
+            "title": "New Chair to lead Aviation Australia",
+            "url": "https://statements.qld.gov.au/statements/106237"
+          },
+          {
+            "record_id": "cc9aba875791156cb159",
+            "title": "Indigenous leadership backed with Family Responsibilities Commission appointments",
+            "url": "https://statements.qld.gov.au/statements/106243"
+          },
+          {
+            "record_id": "e810ed0c9c7f26628ca7",
+            "title": "More than 7,200 new homes fast-tracked across Mackay and Sarina",
+            "url": "https://statements.qld.gov.au/statements/106241"
+          }
+        ],
+        "added_count": 5,
+        "removed_count": 5,
+        "before_count": 16,
+        "after_count": 16,
+        "delta_hash": "42e450db7c860a42bcb3eb42751b8a512383a268c3d39743f1c21d1bd90082d0"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "SIG-REV-CHG-WATCH-PM-MEDIA-20261020113810",
+      "parent_event_id": "CHG-WATCH-PM-MEDIA-20261020113810",
+      "review_id": "REV-CHG-WATCH-PM-MEDIA-20261020113810",
+      "jurisdiction_id": "AUS-FED",
+      "party_id": null,
+      "actor_id": null,
+      "contest_id": null,
+      "cycle_id": null,
+      "source_snapshot_id": "AUTO-WATCH-PM-MEDIA-20261020113810",
+      "record_id": "9ab816d78efdee977d74",
+      "captured_at": "2026-10-20T11:38:59.935Z",
+      "event_date": "2026-10-20",
+      "checkpoint": "CONTINUOUS_FORWARD_SIGNAL_REVIEW",
+      "event_type": "SIGNAL_CREATED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-PM-MEDIA",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "claim": "Prime Minister of Australia — media added 1 structured publication record to its forward-captured official index: Speech - The Age&#039;s Melbourne Assembly",
+      "observed_behaviour": "One or more structured publication records appeared in the monitored official source index after the preceding forward snapshot.",
+      "publication_records_added": [
+        {
+          "record_id": "9ab816d78efdee977d74",
+          "title": "Speech - The Age&#039;s Melbourne Assembly",
+          "url": "https://www.pm.gov.au/media/speech-ages-melbourne-assembly"
+        }
+      ],
+      "publication_records_removed": [
+        {
+          "record_id": "4fb3a802c41ed0104cf2",
+          "title": "Opening remarks - Parliament House, Canberra",
+          "url": "https://www.pm.gov.au/media/opening-remarks-parliament-house-canberra-14-october-2026"
+        }
+      ],
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "underlying_publication_claims_not_promoted_to_verified_fact": true,
+        "source_change_parent_retained": true,
+        "deterministic_review": true
+      }
+    },
+    {
+      "event_id": "SIG-REV-CHG-WATCH-ALP-NEWS-20261020113810",
+      "parent_event_id": "CHG-WATCH-ALP-NEWS-20261020113810",
+      "review_id": "REV-CHG-WATCH-ALP-NEWS-20261020113810",
+      "jurisdiction_id": "AUS-FED",
+      "party_id": "AUS-FED-ALP",
+      "actor_id": null,
+      "contest_id": null,
+      "cycle_id": null,
+      "source_snapshot_id": "AUTO-WATCH-ALP-NEWS-20261020113810",
+      "record_id": "f7386a2d72174a443bbe",
+      "captured_at": "2026-10-20T11:38:59.935Z",
+      "event_date": "2026-10-20",
+      "checkpoint": "CONTINUOUS_FORWARD_SIGNAL_REVIEW",
+      "event_type": "SIGNAL_CREATED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_PARTY",
+      "source_id": "SRC-ALP-FEDERAL-NEWS",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "claim": "Australian Labor Party — news added 1 structured publication record to its forward-captured official index: Boost to protect Australians from gambling harms 20 October 2026",
+      "observed_behaviour": "One or more structured publication records appeared in the monitored official source index after the preceding forward snapshot.",
+      "publication_records_added": [
+        {
+          "record_id": "f7386a2d72174a443bbe",
+          "title": "Boost to protect Australians from gambling harms 20 October 2026",
+          "url": "https://www.alp.org.au/news/all-news/nearly-40-million-boost-to-protect-australians-from-gambling-harms/"
+        }
+      ],
+      "publication_records_removed": [],
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "underlying_publication_claims_not_promoted_to_verified_fact": true,
+        "source_change_parent_retained": true,
+        "deterministic_review": true
+      }
+    },
+    {
+      "event_id": "SIG-REV-CHG-WATCH-ONENATION-NEWS-20261020113810",
+      "parent_event_id": "CHG-WATCH-ONENATION-NEWS-20261020113810",
+      "review_id": "REV-CHG-WATCH-ONENATION-NEWS-20261020113810",
+      "jurisdiction_id": "AUS-FED",
+      "party_id": "AUS-FED-ONP",
+      "actor_id": null,
+      "contest_id": null,
+      "cycle_id": null,
+      "source_snapshot_id": "AUTO-WATCH-ONENATION-NEWS-20261020113810",
+      "record_id": null,
+      "captured_at": "2026-10-20T11:38:59.935Z",
+      "event_date": "2026-10-20",
+      "checkpoint": "CONTINUOUS_FORWARD_SIGNAL_REVIEW",
+      "event_type": "SIGNAL_CREATED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_PARTY",
+      "source_id": "SRC-ONENATION-FEDERAL-NEWS",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "claim": "Pauline Hanson's One Nation — Latest News added 2 structured publication records to its forward-captured official index: Only One Nation Will End Mass Migration; Barnaby Joyce condemns violence against Helen Haines",
+      "observed_behaviour": "One or more structured publication records appeared in the monitored official source index after the preceding forward snapshot.",
+      "publication_records_added": [
+        {
+          "record_id": "52f247141e688a4d9d09",
+          "title": "Only One Nation Will End Mass Migration",
+          "url": "http://www.onenation.org.au/three-year-negative-migration-plan",
+          "published": "Tue, 20 Oct 2026 14:07:00 +1000"
+        },
+        {
+          "record_id": "c702fb7c66e1bf003f6e",
+          "title": "Barnaby Joyce condemns violence against Helen Haines",
+          "url": "http://www.onenation.org.au/helen-haines-political-violence",
+          "published": "Tue, 20 Oct 2026 14:16:53 +1000"
+        }
+      ],
+      "publication_records_removed": [
+        {
+          "record_id": "038adb273c96278cc5c8",
+          "title": "Pauline Hanson Reflects on 30 Years in Australian Politics",
+          "url": "http://www.onenation.org.au/pauline-hanson-30-years",
+          "published": "Tue, 13 Oct 2026 13:12:29 +1000"
+        },
+        {
+          "record_id": "2b3eadc164903fe25181",
+          "title": "Murray Watt Criticised Over Question Time Response",
+          "url": "http://www.onenation.org.au/murray-watt-question-time",
+          "published": "Tue, 13 Oct 2026 16:33:54 +1000"
+        }
+      ],
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "underlying_publication_claims_not_promoted_to_verified_fact": true,
+        "source_change_parent_retained": true,
+        "deterministic_review": true
+      }
+    },
+    {
+      "event_id": "SIG-REV-CHG-WATCH-NSW-MINISTERIAL-RELEASES-20261020113810",
+      "parent_event_id": "CHG-WATCH-NSW-MINISTERIAL-RELEASES-20261020113810",
+      "review_id": "REV-CHG-WATCH-NSW-MINISTERIAL-RELEASES-20261020113810",
+      "jurisdiction_id": "AUS-NSW",
+      "party_id": null,
+      "actor_id": null,
+      "contest_id": null,
+      "cycle_id": null,
+      "source_snapshot_id": "AUTO-WATCH-NSW-MINISTERIAL-RELEASES-20261020113810",
+      "record_id": null,
+      "captured_at": "2026-10-20T11:38:59.935Z",
+      "event_date": "2026-10-20",
+      "checkpoint": "CONTINUOUS_FORWARD_SIGNAL_REVIEW",
+      "event_type": "SIGNAL_CREATED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-NSW-MINISTERIAL-RELEASES",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "claim": "NSW Government — Ministerial releases added 3 structured publication records to its forward-captured official index: New scheme to better protect workers from abuse, violence; Minns Government releases twenty-year blueprint for transport in the Riverina Murray; Inner West gets 190 new bus trips to complement Southwest Metro",
+      "observed_behaviour": "One or more structured publication records appeared in the monitored official source index after the preceding forward snapshot.",
+      "publication_records_added": [
+        {
+          "record_id": "639569d423833281cc22",
+          "title": "New scheme to better protect workers from abuse, violence",
+          "url": "https://www.nsw.gov.au/ministerial-releases/new-scheme-to-better-protect-workers-from-abuse-violence"
+        },
+        {
+          "record_id": "995ee4a56f799056deae",
+          "title": "Minns Government releases twenty-year blueprint for transport in the Riverina Murray",
+          "url": "https://www.nsw.gov.au/ministerial-releases/minns-government-releases-twenty-year-blueprint-for-transport-riverina-murray"
+        },
+        {
+          "record_id": "f1610e9eaa95e67a8e3d",
+          "title": "Inner West gets 190 new bus trips to complement Southwest Metro",
+          "url": "https://www.nsw.gov.au/ministerial-releases/inner-west-gets-190-new-bus-trips-to-complement-southwest-metro"
+        }
+      ],
+      "publication_records_removed": [
+        {
+          "record_id": "340fe717760690344ce2",
+          "title": "Real stories to help make NSW workplaces safer as Safety Speakers Program launches for National SafeWork Month",
+          "url": "https://www.nsw.gov.au/ministerial-releases/safety-speakers-program-launches"
+        },
+        {
+          "record_id": "80d90be5877f4cccaa4f",
+          "title": "NSW dishes up Australia’s biggest culinary tourism economy",
+          "url": "https://www.nsw.gov.au/departments-and-agencies/dciths/ministerial-media-releases/nsw-dishes-up-australias-biggest-culinary-tourism-economy"
+        },
+        {
+          "record_id": "93e7ec4ca869e4ccf36e",
+          "title": "NSW Health warns of surge in hospital presentations linked to peptide use",
+          "url": "https://www.nsw.gov.au/ministerial-releases/nsw-health-warns-of-surge-hospital-presentations-linked-to-peptide-use"
+        }
+      ],
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "underlying_publication_claims_not_promoted_to_verified_fact": true,
+        "source_change_parent_retained": true,
+        "deterministic_review": true
+      }
+    },
+    {
+      "event_id": "SIG-REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261020113810",
+      "parent_event_id": "CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261020113810",
+      "review_id": "REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261020113810",
+      "jurisdiction_id": "AUS-QLD",
+      "party_id": null,
+      "actor_id": null,
+      "contest_id": null,
+      "cycle_id": null,
+      "source_snapshot_id": "AUTO-WATCH-QLD-MINISTERIAL-STATEMENTS-20261020113810",
+      "record_id": null,
+      "captured_at": "2026-10-20T11:38:59.935Z",
+      "event_date": "2026-10-20",
+      "checkpoint": "CONTINUOUS_FORWARD_SIGNAL_REVIEW",
+      "event_type": "SIGNAL_CREATED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-QLD-MINISTERIAL-STATEMENTS",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "claim": "Queensland Government — Ministerial Media Statements added 5 structured publication records to its forward-captured official index: Statement from the Attorney-General; Cairns Special School upgrade complete; Works start on Bruce Highway at Gairloch to get Queenslanders home sooner and safer; Far North Queensland small and family businesses first to access free AI courses; Nation-leading e-mobility laws deliver positive early results with reduced hospitalisations",
+      "observed_behaviour": "One or more structured publication records appeared in the monitored official source index after the preceding forward snapshot.",
+      "publication_records_added": [
+        {
+          "record_id": "125eb5f1a2066b246331",
+          "title": "Statement from the Attorney-General",
+          "url": "https://statements.qld.gov.au/statements/106266"
+        },
+        {
+          "record_id": "5d72d36c44d7b9bcf077",
+          "title": "Cairns Special School upgrade complete",
+          "url": "https://statements.qld.gov.au/statements/106261"
+        },
+        {
+          "record_id": "649c656982a9a963b6ec",
+          "title": "Works start on Bruce Highway at Gairloch to get Queenslanders home sooner and safer",
+          "url": "https://statements.qld.gov.au/statements/106262"
+        },
+        {
+          "record_id": "7590143a0c587da67387",
+          "title": "Far North Queensland small and family businesses first to access free AI courses",
+          "url": "https://statements.qld.gov.au/statements/106260"
+        },
+        {
+          "record_id": "9c51a543630d8808de24",
+          "title": "Nation-leading e-mobility laws deliver positive early results with reduced hospitalisations",
+          "url": "https://statements.qld.gov.au/statements/106257"
+        }
+      ],
+      "publication_records_removed": [
+        {
+          "record_id": "38ae68323293f7863604",
+          "title": "New board appointments to strengthen Queensland Ports",
+          "url": "https://statements.qld.gov.au/statements/106238"
+        },
+        {
+          "record_id": "4a14d3ec43314473772a",
+          "title": "Applications open for landmark $2.4 billion housing infrastructure fund",
+          "url": "https://statements.qld.gov.au/statements/106240"
+        },
+        {
+          "record_id": "c9142efd35a8f7220008",
+          "title": "New Chair to lead Aviation Australia",
+          "url": "https://statements.qld.gov.au/statements/106237"
+        },
+        {
+          "record_id": "cc9aba875791156cb159",
+          "title": "Indigenous leadership backed with Family Responsibilities Commission appointments",
+          "url": "https://statements.qld.gov.au/statements/106243"
+        },
+        {
+          "record_id": "e810ed0c9c7f26628ca7",
+          "title": "More than 7,200 new homes fast-tracked across Mackay and Sarina",
+          "url": "https://statements.qld.gov.au/statements/106241"
         }
       ],
       "inference": null,

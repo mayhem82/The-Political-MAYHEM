@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-INTELLIGENCE-EVENTS-001",
   "scope": "Australia — multi-jurisdiction",
-  "captured_at": "2026-10-20T11:39:03.499Z",
+  "captured_at": "2026-10-20T20:36:31.477Z",
   "mode": "FORWARD_ONLY",
   "rules": {
     "observation_distinct_from_inference": true,
@@ -107501,6 +107501,158 @@
           "url": "https://statements.qld.gov.au/statements/106241"
         }
       ],
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "underlying_publication_claims_not_promoted_to_verified_fact": true,
+        "source_change_parent_retained": true,
+        "deterministic_review": true
+      }
+    },
+    {
+      "event_id": "CHG-WATCH-VEC-2026-STATE-ELECTION-20261020203547",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-VIC",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-VEC-2026-STATE-ELECTION-20261020203547",
+      "captured_at": "2026-10-20T20:35:47.357Z",
+      "event_date": "2026-10-21",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_ELECTORAL_AUTHORITY",
+      "source_id": "SRC-VEC-2026-STATE-ELECTION",
+      "capture_mode": "NORMALISED_PAGE_HASH",
+      "review_policy": "REVIEW_UNSTRUCTURED_CHANGE",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-VEC-2026-STATE-ELECTION-20261019011830",
+        "content_hash": "46cd32594d564a5c44e01daf2ccb647737766b1e560d32d72e60692579976fc7",
+        "capture_mode": "NORMALISED_PAGE_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-VEC-2026-STATE-ELECTION-20261020203547",
+        "content_hash": "7e073e2fb88dea978e76afe87907870408b3841de9811f62d6dbf67f543f8429",
+        "capture_mode": "NORMALISED_PAGE_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "TEXT_REPRESENTATION",
+        "first_difference_offset": 497,
+        "before_length": 15173,
+        "after_length": 15237,
+        "before_excerpt": "rolment VoterAlert Remove someone from the roll Electoral roll statistics Voting 2026 state election Away from Victoria Voting options Electoral misinformation Current elections Banyule City Council Beale Ward by-election Greater Bendigo City Council Lockwood Ward by-election Mornington Peninsula Shire Council, Briars Ward by-election Murrindindi Shire Council Kinglake Ward by-election Fines and reviews Internal reviews and special circumstances Going to court How voting works Preferential voting Counting the votes Challenging an election What happens at a voting centre Types of elections State elections Local council elections Council countbacks and by-elections State by-elections, supplementary elections and appointments Other elections Learn to vote Easy English guides on voting How to fill out state ballot papers How to fill a council ballot paper Book a free information session Passport to Democracy program Talking Democracy resources Young voters History of elections in Victoria Results State election results 2022 state election results 2018 state election results 2014 state election results 2010 state election results 2006 state election results By-election and supplementary election results Council election results 2024 council election results 2021 South Gippsland Shire Council election results 2020 council election results 2017 Greater Geelong City Council election results 2016 council election results 2012 council election results 2008 council election results Council by-election and countback results Other election and poll results MAV elections 2025 MAV Metropolitan South region by-election Murray Valley Wine Grape Industry Development Order Poll 2024 Strawberry Poll 2026 Election statistics Local council election statistics State election statistics Electoral boundaries State districts State regions Local councils Council reviews Ward boundary reviews Electoral structure reviews What are electoral boundaries? Which boundaries cover where I live? State boundary reviews Download boundary maps Candidates & Parties Become a state election candidate How to nominate Campaigning Authorising state election material How-to-vote card guidelines Election information sessions Appointing a scrutineer Information for scrutineers Upper house groups State election candidate resources Become a local council candidate How to nominate Authorising local council election material Appointing a scrutineer Information for scrutineers Local council candidate resources Registered political parties About registered political parties Register a political party Currently registered parties Party decisions and changes Party registration review Political donations Information for donors Information for recipients New entrants Indexation Funding Funding for registered political parties Funding for independent members Funding for independent candidates State campaign account Funding glossary Annual returns Registered political parties Associated entities Independents and groups Third-party campaigners Languages Toggle search Search Type a minimum of three characters then press UP or DOWN on the keyboard to navigate the autocompleted search results Search button Close search bar Navigation Close navigation Enrolment Enrol to vote Enrol in other languages Get help to enrol Other ways to enrol Postal voting Enrolling for local council elections Check my enrolment Update my enrolment VoterAlert Remove someone from the roll Electoral roll statistics Voting 2026 state election Away from Victoria Voting options Electoral misinformation Current elections Banyule City Council Beale Ward by-election Greater Bendigo C",
+        "after_excerpt": "rolment VoterAlert Remove someone from the roll Electoral roll statistics Voting 2026 state election Away from Victoria Low sensory voting Vote by post Voting options Electoral misinformation Current elections Banyule City Council Beale Ward by-election Greater Bendigo City Council Lockwood Ward by-election Mornington Peninsula Shire Council, Briars Ward by-election Murrindindi Shire Council Kinglake Ward by-election Fines and reviews Internal reviews and special circumstances Going to court How voting works Preferential voting Counting the votes Challenging an election What happens at a voting centre Types of elections State elections Local council elections Council countbacks and by-elections State by-elections, supplementary elections and appointments Other elections Learn to vote Easy English guides on voting How to fill out state ballot papers How to fill a council ballot paper Book a free information session Passport to Democracy program Talking Democracy resources Young voters History of elections in Victoria Results State election results 2022 state election results 2018 state election results 2014 state election results 2010 state election results 2006 state election results By-election and supplementary election results Council election results 2024 council election results 2021 South Gippsland Shire Council election results 2020 council election results 2017 Greater Geelong City Council election results 2016 council election results 2012 council election results 2008 council election results Council by-election and countback results Other election and poll results MAV elections 2025 MAV Metropolitan South region by-election Murray Valley Wine Grape Industry Development Order Poll 2024 Strawberry Poll 2026 Election statistics Local council election statistics State election statistics Electoral boundaries State districts State regions Local councils Council reviews Ward boundary reviews Electoral structure reviews What are electoral boundaries? Which boundaries cover where I live? State boundary reviews Download boundary maps Candidates & Parties Become a state election candidate How to nominate Campaigning Authorising state election material How-to-vote card guidelines Election information sessions Appointing a scrutineer Information for scrutineers Upper house groups State election candidate resources Become a local council candidate How to nominate Authorising local council election material Appointing a scrutineer Information for scrutineers Local council candidate resources Registered political parties About registered political parties Register a political party Currently registered parties Party decisions and changes Party registration review Political donations Information for donors Information for recipients New entrants Indexation Funding Funding for registered political parties Funding for independent members Funding for independent candidates State campaign account Funding glossary Annual returns Registered political parties Associated entities Independents and groups Third-party campaigners Languages Toggle search Search Type a minimum of three characters then press UP or DOWN on the keyboard to navigate the autocompleted search results Search button Close search bar Navigation Close navigation Enrolment Enrol to vote Enrol in other languages Get help to enrol Other ways to enrol Postal voting Enrolling for local council elections Check my enrolment Update my enrolment VoterAlert Remove someone from the roll Electoral roll statistics Voting 2026 state election Away from Victoria Low sensory voting Vote by post Voting options Electoral misinformation Current elections Banyule City Council Beale Ward by-election Greater Bendigo C",
+        "delta_hash": "03398ec47bbf3828dc0d949ae79139f192a24ae7d5c7b8ebebf59eadc86fe7b6"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-VEC-MEDIA-20261020203547",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-VIC",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-VEC-MEDIA-20261020203547",
+      "captured_at": "2026-10-20T20:35:47.357Z",
+      "event_date": "2026-10-21",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_ELECTORAL_AUTHORITY",
+      "source_id": "SRC-VEC-MEDIA",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "review_policy": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-VEC-MEDIA-20261019011830",
+        "content_hash": "04e3f7ff3749db1f82ee21a60ee127b95f078ea0967428d22bbe0a22ec437dc7",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-VEC-MEDIA-20261020203547",
+        "content_hash": "1d1a9646be6daf3c01f7be5e0847b37ee100f1ad810ca55b55fabb19d3c1d8a7",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "STRUCTURED_RECORD_SET",
+        "records_added": [
+          {
+            "record_id": "72b29bceaf4b8d6e10b9",
+            "title": "Low sensory voting",
+            "url": "https://www.vec.vic.gov.au/voting/2026-state-election/low-sensory-voting"
+          },
+          {
+            "record_id": "e27e0e70cae771a95119",
+            "title": "Vote by post",
+            "url": "https://www.vec.vic.gov.au/voting/2026-state-election/postal-voting"
+          }
+        ],
+        "records_removed": [],
+        "added_count": 2,
+        "removed_count": 0,
+        "before_count": 141,
+        "after_count": 143,
+        "delta_hash": "409e7ff49bd6a2e7462d205e1ab638a9287e5ce2308fa5809d3b3b6116042afe"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "SIG-REV-CHG-WATCH-VEC-MEDIA-20261020203547",
+      "parent_event_id": "CHG-WATCH-VEC-MEDIA-20261020203547",
+      "review_id": "REV-CHG-WATCH-VEC-MEDIA-20261020203547",
+      "jurisdiction_id": "AUS-VIC",
+      "party_id": null,
+      "actor_id": null,
+      "contest_id": null,
+      "cycle_id": null,
+      "source_snapshot_id": "AUTO-WATCH-VEC-MEDIA-20261020203547",
+      "record_id": null,
+      "captured_at": "2026-10-20T20:36:27.200Z",
+      "event_date": "2026-10-21",
+      "checkpoint": "CONTINUOUS_FORWARD_SIGNAL_REVIEW",
+      "event_type": "SIGNAL_CREATED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_ELECTORAL_AUTHORITY",
+      "source_id": "SRC-VEC-MEDIA",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "claim": "Victorian Electoral Commission — media centre added 2 structured publication records to its forward-captured official index: Low sensory voting; Vote by post",
+      "observed_behaviour": "One or more structured publication records appeared in the monitored official source index after the preceding forward snapshot.",
+      "publication_records_added": [
+        {
+          "record_id": "72b29bceaf4b8d6e10b9",
+          "title": "Low sensory voting",
+          "url": "https://www.vec.vic.gov.au/voting/2026-state-election/low-sensory-voting"
+        },
+        {
+          "record_id": "e27e0e70cae771a95119",
+          "title": "Vote by post",
+          "url": "https://www.vec.vic.gov.au/voting/2026-state-election/postal-voting"
+        }
+      ],
+      "publication_records_removed": [],
       "inference": null,
       "inference_class": "NONE",
       "projection_effect": "NO_EFFECT",

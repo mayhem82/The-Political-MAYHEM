@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-SIGNAL-REVIEWS-001",
   "created_at": "2026-09-09T05:05:00+10:00",
-  "updated_at": "2026-10-20T11:38:59.935Z",
+  "updated_at": "2026-10-20T20:36:27.200Z",
   "rules": {
     "append_only": true,
     "raw_source_change_is_immutable": true,
@@ -38850,6 +38850,45 @@
           }
         ],
         "delta_hash": "42e450db7c860a42bcb3eb42751b8a512383a268c3d39743f1c21d1bd90082d0"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-VEC-MEDIA-20261020203547",
+      "source_change_event_id": "CHG-WATCH-VEC-MEDIA-20261020203547",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-VEC-MEDIA-20261020203547",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Victorian Electoral Commission — media centre added 2 structured publication records to its forward-captured official index: Low sensory voting; Vote by post",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-10-20T20:36:27.200Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "72b29bceaf4b8d6e10b9",
+            "title": "Low sensory voting",
+            "url": "https://www.vec.vic.gov.au/voting/2026-state-election/low-sensory-voting"
+          },
+          {
+            "record_id": "e27e0e70cae771a95119",
+            "title": "Vote by post",
+            "url": "https://www.vec.vic.gov.au/voting/2026-state-election/postal-voting"
+          }
+        ],
+        "removed_records": [],
+        "delta_hash": "409e7ff49bd6a2e7462d205e1ab638a9287e5ce2308fa5809d3b3b6116042afe"
       },
       "integrity": {
         "source_change_unchanged": true,

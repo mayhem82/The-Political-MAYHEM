@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-INTELLIGENCE-EVENTS-001",
   "scope": "Australia — multi-jurisdiction",
-  "captured_at": "2026-10-20T20:36:31.477Z",
+  "captured_at": "2026-10-21T04:51:00.071Z",
   "mode": "FORWARD_ONLY",
   "rules": {
     "observation_distinct_from_inference": true,
@@ -107653,6 +107653,672 @@
         }
       ],
       "publication_records_removed": [],
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "underlying_publication_claims_not_promoted_to_verified_fact": true,
+        "source_change_parent_retained": true,
+        "deterministic_review": true
+      }
+    },
+    {
+      "event_id": "CHG-WATCH-PM-MEDIA-20261021044906",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-FED",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-PM-MEDIA-20261021044906",
+      "captured_at": "2026-10-21T04:49:06.558Z",
+      "event_date": "2026-10-21",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-PM-MEDIA",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "review_policy": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-PM-MEDIA-20261020113810",
+        "content_hash": "d62da2a80b4997ea6c5c67cb79ab90d67e0228fa18718b855095e37b91630206",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-PM-MEDIA-20261021044906",
+        "content_hash": "517ac08cd7707cd43ad4943629c1a805bfc3a2249051d090dd175b7d1ea734b1",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "STRUCTURED_RECORD_SET",
+        "records_added": [
+          {
+            "record_id": "2dceef42083ee086c61b",
+            "title": "Radio interview - ABC Melbourne",
+            "url": "https://www.pm.gov.au/media/radio-interview-abc-melbourne-14"
+          },
+          {
+            "record_id": "609225bd99dcf4306bcf",
+            "title": "Television interview - News24",
+            "url": "https://www.pm.gov.au/media/television-interview-news24-1"
+          }
+        ],
+        "records_removed": [
+          {
+            "record_id": "37dc9ec56867daee3ece",
+            "title": "Federation of Ethnic Communities&#039; Councils of Australia national conference",
+            "url": "https://www.pm.gov.au/media/federation-ethnic-communities-councils-australia-national-conference"
+          },
+          {
+            "record_id": "50ec389289dc8691db5b",
+            "title": "Centenary of the Canberra Times",
+            "url": "https://www.pm.gov.au/media/centenary-canberra-times"
+          }
+        ],
+        "added_count": 2,
+        "removed_count": 2,
+        "before_count": 27,
+        "after_count": 27,
+        "delta_hash": "00de067cd8fd05faa130374bbebdbe2732e8d8f0c4828227d3101297c68aab2f"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-ONENATION-NEWS-20261021044906",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-FED",
+      "party_id": "AUS-FED-ONP",
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-ONENATION-NEWS-20261021044906",
+      "captured_at": "2026-10-21T04:49:06.558Z",
+      "event_date": "2026-10-21",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_PARTY",
+      "source_id": "SRC-ONENATION-FEDERAL-NEWS",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "review_policy": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-ONENATION-NEWS-20261020113810",
+        "content_hash": "e8192b3acab23f9fc966a84c904417a026b08583c9fd579b070c8cbc0830ac00",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-ONENATION-NEWS-20261021044906",
+        "content_hash": "1bceb5cc34bc3dda75b1fc60327ab78902776977d55d6c0e8429188618fb7dd0",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "STRUCTURED_RECORD_SET",
+        "records_added": [
+          {
+            "record_id": "7a32be38a5ffbf19a29c",
+            "title": "Pauline Hanson Questions One Nation's Exclusion From Political Leadership Debates",
+            "url": "http://www.onenation.org.au/pauline-hanson-leadership-debates",
+            "published": "Wed, 21 Oct 2026 13:44:00 +1000"
+          },
+          {
+            "record_id": "dd8b8f3327424eb7b3d5",
+            "title": "Pauline Hanson Responds to Helen Haines Incident and Raises Concerns About Political Violence",
+            "url": "http://www.onenation.org.au/pauline-hanson-political-violence",
+            "published": "Wed, 21 Oct 2026 10:15:00 +1000"
+          }
+        ],
+        "records_removed": [
+          {
+            "record_id": "0d1e2f6d2094c7306725",
+            "title": "One Nation Proposes Scrapping Climate Change Department to Cut Government Spending",
+            "url": "http://www.onenation.org.au/scrap-climate-department",
+            "published": "Wed, 14 Oct 2026 10:34:00 +1000"
+          },
+          {
+            "record_id": "6233903e771097d63d32",
+            "title": "Pauline Hanson Signs Labor-Last Preference Pledge at CPAC Australia",
+            "url": "http://www.onenation.org.au/hanson-labor-last-pledge",
+            "published": "Tue, 13 Oct 2026 16:34:17 +1000"
+          }
+        ],
+        "added_count": 2,
+        "removed_count": 2,
+        "before_count": 20,
+        "after_count": 20,
+        "delta_hash": "8df862df979c5454f4c26a22ee86b1bb664145a29df002b42951673f23de5bf9"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-NSW-MINISTERIAL-RELEASES-20261021044906",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-NSW",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-NSW-MINISTERIAL-RELEASES-20261021044906",
+      "captured_at": "2026-10-21T04:49:06.558Z",
+      "event_date": "2026-10-21",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-NSW-MINISTERIAL-RELEASES",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "review_policy": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-NSW-MINISTERIAL-RELEASES-20261020113810",
+        "content_hash": "b5d28be4186e51f6fde8bed1671c6ba43ae01d8b4f5f993c142f7fa89064b3b9",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-NSW-MINISTERIAL-RELEASES-20261021044906",
+        "content_hash": "85bb84cc4d66cc8dc9b5dee63191183bdf030cc5721472bff30a498e67426b79",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "STRUCTURED_RECORD_SET",
+        "records_added": [
+          {
+            "record_id": "036915f17abb6e63230c",
+            "title": "NSW primary industries hit record $26 billion in value",
+            "url": "https://www.nsw.gov.au/ministerial-releases/nsw-primary-industries-hit-record-26-billion-value"
+          },
+          {
+            "record_id": "1b67cfe6a1588dc3cdb8",
+            "title": "Offshore fishers set for another big season as ‘fish magnets’ return to NSW coastline",
+            "url": "https://www.nsw.gov.au/ministerial-releases/offshore-fishers-set-for-another-big-season"
+          },
+          {
+            "record_id": "1f2e544a48a380e98867",
+            "title": "Coal-producing regions to lead the way under NSW Government’s new Future Jobs and Investment Authority",
+            "url": "https://www.nsw.gov.au/ministerial-releases/future-jobs-and-investment-fund-for-coal-producing-regions"
+          },
+          {
+            "record_id": "2502327515c5d1c57a13",
+            "title": "Nearly 300 GPs trained to safely diagnose and treat ADHD",
+            "url": "https://www.nsw.gov.au/ministerial-releases/nearly-300-gps-trained-to-safely-diagnose-and-treat-adhd"
+          },
+          {
+            "record_id": "6154b720361de18ce03b",
+            "title": "$560 million agreement for the future of free TAFE in New South Wales program",
+            "url": "https://www.nsw.gov.au/ministerial-releases/free-tafe-program-locked"
+          },
+          {
+            "record_id": "ab1b0e7596ac6d47c24c",
+            "title": "Reforms helping protect victim-survivors pass NSW Parliament",
+            "url": "https://www.nsw.gov.au/ministerial-releases/reforms-protecting-victim-survivors-pass"
+          },
+          {
+            "record_id": "f7f30811afff5e7b308d",
+            "title": "Wheels up for destination Doha",
+            "url": "https://www.nsw.gov.au/departments-and-agencies/dciths/ministerial-media-releases/wheels-up-for-destination-doha"
+          }
+        ],
+        "records_removed": [
+          {
+            "record_id": "078213967c15c729c3f2",
+            "title": "A new home with new recruits for NSW SES Stroud Unit",
+            "url": "https://www.nsw.gov.au/ministerial-releases/stroud-state-emergency-services-unit-opens"
+          },
+          {
+            "record_id": "550aa0c398ef1b7e7ad6",
+            "title": "Hunter the first to trial new tech to avoid delays at Adamstown Level Crossing",
+            "url": "https://www.nsw.gov.au/ministerial-releases/hunter-trials-new-tech-to-avoid-driver-delays"
+          },
+          {
+            "record_id": "8ccc122a6b02df12093e",
+            "title": "Tree vandals on notice: clear illegally and you’ll pay double",
+            "url": "https://www.nsw.gov.au/ministerial-releases/tougher-penalties-for-tree-vandals"
+          },
+          {
+            "record_id": "945fde9a32cd636d5ce9",
+            "title": "Minns Labor Government steps in to protect 400 Hunter jobs ahead of Christmas",
+            "url": "https://www.nsw.gov.au/ministerial-releases/minns-labor-government-steps-to-protect-400-hunter-jobs-ahead-of-christmas"
+          },
+          {
+            "record_id": "995ee4a56f799056deae",
+            "title": "Minns Government releases twenty-year blueprint for transport in the Riverina Murray",
+            "url": "https://www.nsw.gov.au/ministerial-releases/minns-government-releases-twenty-year-blueprint-for-transport-riverina-murray"
+          },
+          {
+            "record_id": "d7544b123797a162b806",
+            "title": "138-year-old Cockle Creek Station accessibility upgrade moves into construction",
+            "url": "https://www.nsw.gov.au/ministerial-releases/cockle-creek-station-upgrade-underway"
+          },
+          {
+            "record_id": "f1610e9eaa95e67a8e3d",
+            "title": "Inner West gets 190 new bus trips to complement Southwest Metro",
+            "url": "https://www.nsw.gov.au/ministerial-releases/inner-west-gets-190-new-bus-trips-to-complement-southwest-metro"
+          }
+        ],
+        "added_count": 7,
+        "removed_count": 7,
+        "before_count": 88,
+        "after_count": 88,
+        "delta_hash": "d0e1ee0e7221dc40835caa950ee941d416f04ef375b4408c814bb892da3b0cc9"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-VEC-2026-STATE-ELECTION-20261021044906",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-VIC",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-VEC-2026-STATE-ELECTION-20261021044906",
+      "captured_at": "2026-10-21T04:49:06.558Z",
+      "event_date": "2026-10-21",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_ELECTORAL_AUTHORITY",
+      "source_id": "SRC-VEC-2026-STATE-ELECTION",
+      "capture_mode": "NORMALISED_PAGE_HASH",
+      "review_policy": "REVIEW_UNSTRUCTURED_CHANGE",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-VEC-2026-STATE-ELECTION-20261020203547",
+        "content_hash": "7e073e2fb88dea978e76afe87907870408b3841de9811f62d6dbf67f543f8429",
+        "capture_mode": "NORMALISED_PAGE_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-VEC-2026-STATE-ELECTION-20261021044906",
+        "content_hash": "c185e2ee29af6f26eb9180e33be3b91cacd47ffe2ba3dd9fac3956ccdba8f3bb",
+        "capture_mode": "NORMALISED_PAGE_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "TEXT_REPRESENTATION",
+        "first_difference_offset": 10044,
+        "before_length": 15237,
+        "after_length": 15315,
+        "before_excerpt": "vember close at 12 noon on Monday 9 November for all candidates . There is a shorter nomination period this year. If you&rsquo;re an independent candidate, make sure you&rsquo;re prepared before nominations open. Independent candidates must nominate in person at the election office of the electorate they&rsquo;re nominating in. For district (lower house) independent candidates, this will be the district election office. For region (upper house) independent candidates this will be any district election office within your region. From Wednesday 21 October, Candidate Helper will have: nomination forms election office locations opening hours contact information Registered political parties must lodge the nomination forms for their endorsed candidates directly with us. More infor",
+        "after_excerpt": "vember close at 12 noon on Monday 9 November for all candidates . There is a shorter nomination period this year. If you're an independent candidate, make sure you're prepared before nominations open. Independent candidates must nominate in person at the election office of the electorate they're nominating in. For district (lower house) independent candidates, this will be the district election office. For region (upper house) independent candidates this will be any district election office within your region. Candidate Helper is now available. This tool helps independent candidates prepare their nomination forms. You must print out and take these forms with you to your nomination appointment. Find more information on how to nominate Registered political parties must lodge the nomination forms for their endorsed candidates directly with us. More infor",
+        "delta_hash": "96132f4056036b44b515c8c74d8f6ccf991708d109e3117fe464ddcf48c3039c"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261021044906",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-QLD",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-QLD-MINISTERIAL-STATEMENTS-20261021044906",
+      "captured_at": "2026-10-21T04:49:06.558Z",
+      "event_date": "2026-10-21",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-QLD-MINISTERIAL-STATEMENTS",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "review_policy": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-QLD-MINISTERIAL-STATEMENTS-20261020113810",
+        "content_hash": "4c46f762e20eb2599c146310d13b53c1d311e47e0d4b27e6f08f12fd85c38a7c",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-QLD-MINISTERIAL-STATEMENTS-20261021044906",
+        "content_hash": "607e82ad29f82e885ef442923ca08a39be102e5a609b74c32c47f8f4874044e3",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "STRUCTURED_RECORD_SET",
+        "records_added": [
+          {
+            "record_id": "3ac10e9e2ee62af14ce9",
+            "title": "Exclusive Brisbane concert draws visitors from across the globe",
+            "url": "https://statements.qld.gov.au/statements/106265"
+          },
+          {
+            "record_id": "3ecab44afeb23e625030",
+            "title": "Jack's Law turning the tide on Labor's Youth Crime Crisis in Far North Queensland",
+            "url": "https://statements.qld.gov.au/statements/106269"
+          }
+        ],
+        "records_removed": [
+          {
+            "record_id": "bc26244d5d62623c854e",
+            "title": "Games On! for 72 Queensland grassroots sporting clubs",
+            "url": "https://statements.qld.gov.au/statements/106242"
+          },
+          {
+            "record_id": "cdbc8b8f607669b921e0",
+            "title": "First look at four-lane bridge design to get Bribie Island moving again",
+            "url": "https://statements.qld.gov.au/statements/106246"
+          }
+        ],
+        "added_count": 2,
+        "removed_count": 2,
+        "before_count": 16,
+        "after_count": 16,
+        "delta_hash": "13661037542c6bd8732c03bd0adfe3048911521b6f762f8761e8b8c47dcbc9ba"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "SIG-REV-CHG-WATCH-PM-MEDIA-20261021044906",
+      "parent_event_id": "CHG-WATCH-PM-MEDIA-20261021044906",
+      "review_id": "REV-CHG-WATCH-PM-MEDIA-20261021044906",
+      "jurisdiction_id": "AUS-FED",
+      "party_id": null,
+      "actor_id": null,
+      "contest_id": null,
+      "cycle_id": null,
+      "source_snapshot_id": "AUTO-WATCH-PM-MEDIA-20261021044906",
+      "record_id": null,
+      "captured_at": "2026-10-21T04:50:54.371Z",
+      "event_date": "2026-10-21",
+      "checkpoint": "CONTINUOUS_FORWARD_SIGNAL_REVIEW",
+      "event_type": "SIGNAL_CREATED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-PM-MEDIA",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "claim": "Prime Minister of Australia — media added 2 structured publication records to its forward-captured official index: Radio interview - ABC Melbourne; Television interview - News24",
+      "observed_behaviour": "One or more structured publication records appeared in the monitored official source index after the preceding forward snapshot.",
+      "publication_records_added": [
+        {
+          "record_id": "2dceef42083ee086c61b",
+          "title": "Radio interview - ABC Melbourne",
+          "url": "https://www.pm.gov.au/media/radio-interview-abc-melbourne-14"
+        },
+        {
+          "record_id": "609225bd99dcf4306bcf",
+          "title": "Television interview - News24",
+          "url": "https://www.pm.gov.au/media/television-interview-news24-1"
+        }
+      ],
+      "publication_records_removed": [
+        {
+          "record_id": "37dc9ec56867daee3ece",
+          "title": "Federation of Ethnic Communities&#039; Councils of Australia national conference",
+          "url": "https://www.pm.gov.au/media/federation-ethnic-communities-councils-australia-national-conference"
+        },
+        {
+          "record_id": "50ec389289dc8691db5b",
+          "title": "Centenary of the Canberra Times",
+          "url": "https://www.pm.gov.au/media/centenary-canberra-times"
+        }
+      ],
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "underlying_publication_claims_not_promoted_to_verified_fact": true,
+        "source_change_parent_retained": true,
+        "deterministic_review": true
+      }
+    },
+    {
+      "event_id": "SIG-REV-CHG-WATCH-ONENATION-NEWS-20261021044906",
+      "parent_event_id": "CHG-WATCH-ONENATION-NEWS-20261021044906",
+      "review_id": "REV-CHG-WATCH-ONENATION-NEWS-20261021044906",
+      "jurisdiction_id": "AUS-FED",
+      "party_id": "AUS-FED-ONP",
+      "actor_id": null,
+      "contest_id": null,
+      "cycle_id": null,
+      "source_snapshot_id": "AUTO-WATCH-ONENATION-NEWS-20261021044906",
+      "record_id": null,
+      "captured_at": "2026-10-21T04:50:54.371Z",
+      "event_date": "2026-10-21",
+      "checkpoint": "CONTINUOUS_FORWARD_SIGNAL_REVIEW",
+      "event_type": "SIGNAL_CREATED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_PARTY",
+      "source_id": "SRC-ONENATION-FEDERAL-NEWS",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "claim": "Pauline Hanson's One Nation — Latest News added 2 structured publication records to its forward-captured official index: Pauline Hanson Questions One Nation's Exclusion From Political Leadership Debates; Pauline Hanson Responds to Helen Haines Incident and Raises Concerns About Political Violence",
+      "observed_behaviour": "One or more structured publication records appeared in the monitored official source index after the preceding forward snapshot.",
+      "publication_records_added": [
+        {
+          "record_id": "7a32be38a5ffbf19a29c",
+          "title": "Pauline Hanson Questions One Nation's Exclusion From Political Leadership Debates",
+          "url": "http://www.onenation.org.au/pauline-hanson-leadership-debates",
+          "published": "Wed, 21 Oct 2026 13:44:00 +1000"
+        },
+        {
+          "record_id": "dd8b8f3327424eb7b3d5",
+          "title": "Pauline Hanson Responds to Helen Haines Incident and Raises Concerns About Political Violence",
+          "url": "http://www.onenation.org.au/pauline-hanson-political-violence",
+          "published": "Wed, 21 Oct 2026 10:15:00 +1000"
+        }
+      ],
+      "publication_records_removed": [
+        {
+          "record_id": "0d1e2f6d2094c7306725",
+          "title": "One Nation Proposes Scrapping Climate Change Department to Cut Government Spending",
+          "url": "http://www.onenation.org.au/scrap-climate-department",
+          "published": "Wed, 14 Oct 2026 10:34:00 +1000"
+        },
+        {
+          "record_id": "6233903e771097d63d32",
+          "title": "Pauline Hanson Signs Labor-Last Preference Pledge at CPAC Australia",
+          "url": "http://www.onenation.org.au/hanson-labor-last-pledge",
+          "published": "Tue, 13 Oct 2026 16:34:17 +1000"
+        }
+      ],
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "underlying_publication_claims_not_promoted_to_verified_fact": true,
+        "source_change_parent_retained": true,
+        "deterministic_review": true
+      }
+    },
+    {
+      "event_id": "SIG-REV-CHG-WATCH-NSW-MINISTERIAL-RELEASES-20261021044906",
+      "parent_event_id": "CHG-WATCH-NSW-MINISTERIAL-RELEASES-20261021044906",
+      "review_id": "REV-CHG-WATCH-NSW-MINISTERIAL-RELEASES-20261021044906",
+      "jurisdiction_id": "AUS-NSW",
+      "party_id": null,
+      "actor_id": null,
+      "contest_id": null,
+      "cycle_id": null,
+      "source_snapshot_id": "AUTO-WATCH-NSW-MINISTERIAL-RELEASES-20261021044906",
+      "record_id": null,
+      "captured_at": "2026-10-21T04:50:54.371Z",
+      "event_date": "2026-10-21",
+      "checkpoint": "CONTINUOUS_FORWARD_SIGNAL_REVIEW",
+      "event_type": "SIGNAL_CREATED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-NSW-MINISTERIAL-RELEASES",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "claim": "NSW Government — Ministerial releases added 7 structured publication records to its forward-captured official index: NSW primary industries hit record $26 billion in value; Offshore fishers set for another big season as ‘fish magnets’ return to NSW coastline; Coal-producing regions to lead the way under NSW Government’s new Future Jobs and Investment Authority; Nearly 300 GPs trained to safely diagnose and treat ADHD; $560 million agreement for the future of free TAFE in New South Wales program; +2 more",
+      "observed_behaviour": "One or more structured publication records appeared in the monitored official source index after the preceding forward snapshot.",
+      "publication_records_added": [
+        {
+          "record_id": "036915f17abb6e63230c",
+          "title": "NSW primary industries hit record $26 billion in value",
+          "url": "https://www.nsw.gov.au/ministerial-releases/nsw-primary-industries-hit-record-26-billion-value"
+        },
+        {
+          "record_id": "1b67cfe6a1588dc3cdb8",
+          "title": "Offshore fishers set for another big season as ‘fish magnets’ return to NSW coastline",
+          "url": "https://www.nsw.gov.au/ministerial-releases/offshore-fishers-set-for-another-big-season"
+        },
+        {
+          "record_id": "1f2e544a48a380e98867",
+          "title": "Coal-producing regions to lead the way under NSW Government’s new Future Jobs and Investment Authority",
+          "url": "https://www.nsw.gov.au/ministerial-releases/future-jobs-and-investment-fund-for-coal-producing-regions"
+        },
+        {
+          "record_id": "2502327515c5d1c57a13",
+          "title": "Nearly 300 GPs trained to safely diagnose and treat ADHD",
+          "url": "https://www.nsw.gov.au/ministerial-releases/nearly-300-gps-trained-to-safely-diagnose-and-treat-adhd"
+        },
+        {
+          "record_id": "6154b720361de18ce03b",
+          "title": "$560 million agreement for the future of free TAFE in New South Wales program",
+          "url": "https://www.nsw.gov.au/ministerial-releases/free-tafe-program-locked"
+        },
+        {
+          "record_id": "ab1b0e7596ac6d47c24c",
+          "title": "Reforms helping protect victim-survivors pass NSW Parliament",
+          "url": "https://www.nsw.gov.au/ministerial-releases/reforms-protecting-victim-survivors-pass"
+        },
+        {
+          "record_id": "f7f30811afff5e7b308d",
+          "title": "Wheels up for destination Doha",
+          "url": "https://www.nsw.gov.au/departments-and-agencies/dciths/ministerial-media-releases/wheels-up-for-destination-doha"
+        }
+      ],
+      "publication_records_removed": [
+        {
+          "record_id": "078213967c15c729c3f2",
+          "title": "A new home with new recruits for NSW SES Stroud Unit",
+          "url": "https://www.nsw.gov.au/ministerial-releases/stroud-state-emergency-services-unit-opens"
+        },
+        {
+          "record_id": "550aa0c398ef1b7e7ad6",
+          "title": "Hunter the first to trial new tech to avoid delays at Adamstown Level Crossing",
+          "url": "https://www.nsw.gov.au/ministerial-releases/hunter-trials-new-tech-to-avoid-driver-delays"
+        },
+        {
+          "record_id": "8ccc122a6b02df12093e",
+          "title": "Tree vandals on notice: clear illegally and you’ll pay double",
+          "url": "https://www.nsw.gov.au/ministerial-releases/tougher-penalties-for-tree-vandals"
+        },
+        {
+          "record_id": "945fde9a32cd636d5ce9",
+          "title": "Minns Labor Government steps in to protect 400 Hunter jobs ahead of Christmas",
+          "url": "https://www.nsw.gov.au/ministerial-releases/minns-labor-government-steps-to-protect-400-hunter-jobs-ahead-of-christmas"
+        },
+        {
+          "record_id": "995ee4a56f799056deae",
+          "title": "Minns Government releases twenty-year blueprint for transport in the Riverina Murray",
+          "url": "https://www.nsw.gov.au/ministerial-releases/minns-government-releases-twenty-year-blueprint-for-transport-riverina-murray"
+        },
+        {
+          "record_id": "d7544b123797a162b806",
+          "title": "138-year-old Cockle Creek Station accessibility upgrade moves into construction",
+          "url": "https://www.nsw.gov.au/ministerial-releases/cockle-creek-station-upgrade-underway"
+        },
+        {
+          "record_id": "f1610e9eaa95e67a8e3d",
+          "title": "Inner West gets 190 new bus trips to complement Southwest Metro",
+          "url": "https://www.nsw.gov.au/ministerial-releases/inner-west-gets-190-new-bus-trips-to-complement-southwest-metro"
+        }
+      ],
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "underlying_publication_claims_not_promoted_to_verified_fact": true,
+        "source_change_parent_retained": true,
+        "deterministic_review": true
+      }
+    },
+    {
+      "event_id": "SIG-REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261021044906",
+      "parent_event_id": "CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261021044906",
+      "review_id": "REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261021044906",
+      "jurisdiction_id": "AUS-QLD",
+      "party_id": null,
+      "actor_id": null,
+      "contest_id": null,
+      "cycle_id": null,
+      "source_snapshot_id": "AUTO-WATCH-QLD-MINISTERIAL-STATEMENTS-20261021044906",
+      "record_id": null,
+      "captured_at": "2026-10-21T04:50:54.371Z",
+      "event_date": "2026-10-21",
+      "checkpoint": "CONTINUOUS_FORWARD_SIGNAL_REVIEW",
+      "event_type": "SIGNAL_CREATED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-QLD-MINISTERIAL-STATEMENTS",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "claim": "Queensland Government — Ministerial Media Statements added 2 structured publication records to its forward-captured official index: Exclusive Brisbane concert draws visitors from across the globe; Jack's Law turning the tide on Labor's Youth Crime Crisis in Far North Queensland",
+      "observed_behaviour": "One or more structured publication records appeared in the monitored official source index after the preceding forward snapshot.",
+      "publication_records_added": [
+        {
+          "record_id": "3ac10e9e2ee62af14ce9",
+          "title": "Exclusive Brisbane concert draws visitors from across the globe",
+          "url": "https://statements.qld.gov.au/statements/106265"
+        },
+        {
+          "record_id": "3ecab44afeb23e625030",
+          "title": "Jack's Law turning the tide on Labor's Youth Crime Crisis in Far North Queensland",
+          "url": "https://statements.qld.gov.au/statements/106269"
+        }
+      ],
+      "publication_records_removed": [
+        {
+          "record_id": "bc26244d5d62623c854e",
+          "title": "Games On! for 72 Queensland grassroots sporting clubs",
+          "url": "https://statements.qld.gov.au/statements/106242"
+        },
+        {
+          "record_id": "cdbc8b8f607669b921e0",
+          "title": "First look at four-lane bridge design to get Bribie Island moving again",
+          "url": "https://statements.qld.gov.au/statements/106246"
+        }
+      ],
       "inference": null,
       "inference_class": "NONE",
       "projection_effect": "NO_EFFECT",

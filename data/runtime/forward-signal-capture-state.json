@@ -49,9 +49,9 @@
       "source_id": "SRC-NSW-MINISTERIAL-RELEASES",
       "jurisdiction_id": "AUS-NSW",
       "party_id": null,
-      "content_hash": "85bb84cc4d66cc8dc9b5dee63191183bdf030cc5721472bff30a498e67426b79",
-      "snapshot_id": "AUTO-WATCH-NSW-MINISTERIAL-RELEASES-20261021044906",
-      "captured_at": "2026-10-21T04:49:06.558Z",
+      "content_hash": "bff071ac0ad4dae89213c681d0eac3e5acd1486db42cbbf203aebf7570e931f7",
+      "snapshot_id": "AUTO-WATCH-NSW-MINISTERIAL-RELEASES-20261021232030",
+      "captured_at": "2026-10-21T23:20:30.090Z",
       "acquisition_url": "https://www.nsw.gov.au/ministerial-releases",
       "requested_url": "https://www.nsw.gov.au/ministerial-releases",
       "header_profile": "IDENTIFIED_AUTOMATION",
@@ -133,9 +133,9 @@
       "source_id": "SRC-VIC-HANSARD",
       "jurisdiction_id": "AUS-VIC",
       "party_id": null,
-      "content_hash": "84ff078364f411da21f49c2f9eb3dd22e7aa25d93e5529f57eeaaf9378ac2baf",
-      "snapshot_id": "AUTO-WATCH-VIC-HANSARD-20261021151522",
-      "captured_at": "2026-10-21T15:15:22.835Z",
+      "content_hash": "d2f20a1e415883c8f52a80e56ebef78f8ba8057e9d34a4e7ab6f070b81b280e6",
+      "snapshot_id": "AUTO-WATCH-VIC-HANSARD-20261021232030",
+      "captured_at": "2026-10-21T23:20:30.090Z",
       "acquisition_url": "https://www.parliament.vic.gov.au/hansard/",
       "requested_url": "https://www.parliament.vic.gov.au/hansard/",
       "header_profile": "IDENTIFIED_AUTOMATION",
@@ -161,9 +161,9 @@
       "source_id": "SRC-WA-HANSARD",
       "jurisdiction_id": "AUS-WA",
       "party_id": null,
-      "content_hash": "4dc6c07ddd42acfc276cc869153167a080965cc915d8e12e032b6fad13a3ffbc",
-      "snapshot_id": "AUTO-WATCH-WA-HANSARD-20261020002055",
-      "captured_at": "2026-10-20T00:20:55.574Z",
+      "content_hash": "8a7aa875497133ff8b039b5d611fec33514dbdf4b000e0571062d1c1176fe054",
+      "snapshot_id": "AUTO-WATCH-WA-HANSARD-20261021232030",
+      "captured_at": "2026-10-21T23:20:30.090Z",
       "acquisition_url": "https://www.parliament.wa.gov.au/4825795E0000B647/content/hansard-how-to-search-and-use-hansard",
       "requested_url": "https://www.parliament.wa.gov.au/4825795E0000B647/content/hansard-how-to-search-and-use-hansard",
       "header_profile": "BROWSER_COMPATIBILITY",
@@ -243,9 +243,9 @@
       "source_id": "SRC-PM-MEDIA",
       "jurisdiction_id": "AUS-FED",
       "party_id": null,
-      "content_hash": "517ac08cd7707cd43ad4943629c1a805bfc3a2249051d090dd175b7d1ea734b1",
-      "snapshot_id": "AUTO-WATCH-PM-MEDIA-20261021044906",
-      "captured_at": "2026-10-21T04:49:06.558Z",
+      "content_hash": "d51a79f3e21825a5f9de68967751892d29e303c4041c96dc23779bcf45210dc7",
+      "snapshot_id": "AUTO-WATCH-PM-MEDIA-20261021232030",
+      "captured_at": "2026-10-21T23:20:30.090Z",
       "acquisition_url": "https://www.pm.gov.au/media",
       "requested_url": "https://www.pm.gov.au/media",
       "header_profile": "IDENTIFIED_AUTOMATION",
@@ -506,11 +506,11 @@
       "captured_representation_complete": true
     }
   },
-  "updated_at": "2026-10-21T15:15:22.835Z",
+  "updated_at": "2026-10-21T23:20:30.090Z",
   "last_run": {
-    "captured_at": "2026-10-21T15:15:22.835Z",
+    "captured_at": "2026-10-21T23:20:30.090Z",
     "baselines_created": 0,
-    "source_changes_created": 2,
+    "source_changes_created": 4,
     "semantic_signals_created": 0,
     "representation_upgrades": 0,
     "failures": [
@@ -521,10 +521,6 @@
       {
         "watch_id": "WATCH-NSW-CURRENT-BILLS",
         "error": "https://www.parliament.nsw.gov.au/parliamentary-business/bills/current-session-bills [IDENTIFIED_AUTOMATION] 403 Forbidden | https://www.parliament.nsw.gov.au/parliamentary-business/bills/current-session-bills [BROWSER_COMPATIBILITY] 403 Forbidden | https://www.parliament.nsw.gov.au/parliamentary-business/bills [IDENTIFIED_AUTOMATION] 403 Forbidden | https://www.parliament.nsw.gov.au/parliamentary-business/bills [BROWSER_COMPATIBILITY] 403 Forbidden"
-      },
-      {
-        "watch_id": "WATCH-NSW-MINISTERIAL-RELEASES",
-        "error": "publication-feed extractor found no stable records"
       },
       {
         "watch_id": "WATCH-ECQ-MEDIA",
@@ -564,7 +560,7 @@
   "coverage": {
     "active_sources": 36,
     "baselines_captured": 36,
-    "current_run_failures": 11,
+    "current_run_failures": 10,
     "jurisdictions": {
       "AUS-FED": {
         "configured_sources": 10,
@@ -581,7 +577,7 @@
       "AUS-NSW": {
         "configured_sources": 4,
         "baseline_sources": 4,
-        "current_run_failures": 3,
+        "current_run_failures": 2,
         "source_classes": [
           "PRIMARY_ELECTORAL_AUTHORITY",
           "PRIMARY_GOVERNMENT",

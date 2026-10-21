@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-INTELLIGENCE-EVENTS-001",
   "scope": "Australia — multi-jurisdiction",
-  "captured_at": "2026-10-21T15:16:02.883Z",
+  "captured_at": "2026-10-21T23:21:08.710Z",
   "mode": "FORWARD_ONLY",
   "rules": {
     "observation_distinct_from_inference": true,
@@ -108475,6 +108475,354 @@
           "title": "One Nation Raises Free Speech Concerns Over Digital Duty of Care Bill",
           "url": "http://www.onenation.org.au/digital-duty-policy-changes",
           "published": "Wed, 14 Oct 2026 11:32:19 +1000"
+        }
+      ],
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "underlying_publication_claims_not_promoted_to_verified_fact": true,
+        "source_change_parent_retained": true,
+        "deterministic_review": true
+      }
+    },
+    {
+      "event_id": "CHG-WATCH-PM-MEDIA-20261021232030",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-FED",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-PM-MEDIA-20261021232030",
+      "captured_at": "2026-10-21T23:20:30.090Z",
+      "event_date": "2026-10-22",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-PM-MEDIA",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "review_policy": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-PM-MEDIA-20261021044906",
+        "content_hash": "517ac08cd7707cd43ad4943629c1a805bfc3a2249051d090dd175b7d1ea734b1",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-PM-MEDIA-20261021232030",
+        "content_hash": "d51a79f3e21825a5f9de68967751892d29e303c4041c96dc23779bcf45210dc7",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "STRUCTURED_RECORD_SET",
+        "records_added": [
+          {
+            "record_id": "a937a23e22db6d282d56",
+            "title": "We need only look to Helen Haines",
+            "url": "https://www.pm.gov.au/media/we-need-only-look-helen-haines"
+          }
+        ],
+        "records_removed": [
+          {
+            "record_id": "621e37f544fb6a91f037",
+            "title": "Centenary of parliament sitting",
+            "url": "https://www.pm.gov.au/media/centenary-parliament-sitting"
+          }
+        ],
+        "added_count": 1,
+        "removed_count": 1,
+        "before_count": 27,
+        "after_count": 27,
+        "delta_hash": "8f110763cdecbed8135392cf32f7a09756bfe0df7e438bd48dd1739f7098a6a2"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-NSW-MINISTERIAL-RELEASES-20261021232030",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-NSW",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-NSW-MINISTERIAL-RELEASES-20261021232030",
+      "captured_at": "2026-10-21T23:20:30.090Z",
+      "event_date": "2026-10-22",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-NSW-MINISTERIAL-RELEASES",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "review_policy": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-NSW-MINISTERIAL-RELEASES-20261021044906",
+        "content_hash": "85bb84cc4d66cc8dc9b5dee63191183bdf030cc5721472bff30a498e67426b79",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-NSW-MINISTERIAL-RELEASES-20261021232030",
+        "content_hash": "bff071ac0ad4dae89213c681d0eac3e5acd1486db42cbbf203aebf7570e931f7",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "STRUCTURED_RECORD_SET",
+        "records_added": [
+          {
+            "record_id": "356a0297de935ab2b55a",
+            "title": "Southwest Metro to open Friday 30 October 2026",
+            "url": "https://www.nsw.gov.au/ministerial-releases/southwest-metro-to-open-friday-30-october-2026"
+          },
+          {
+            "record_id": "9d85b68d8755a2f079e3",
+            "title": "Thousands of Hunter potholes patched in statewide roads blitz",
+            "url": "https://www.nsw.gov.au/ministerial-releases/thousands-of-hunter-potholes-patched-statewide-roads-blitz"
+          },
+          {
+            "record_id": "d5d8dea1a02ecf27afe4",
+            "title": "Minns Labor Government pay rise lands for New South Wales public school teachers",
+            "url": "https://www.nsw.gov.au/ministerial-releases/minns-labor-government-pay-rise-lands-for-new-south-wales-public-school-teachers"
+          }
+        ],
+        "records_removed": [
+          {
+            "record_id": "639569d423833281cc22",
+            "title": "New scheme to better protect workers from abuse, violence",
+            "url": "https://www.nsw.gov.au/ministerial-releases/new-scheme-to-better-protect-workers-from-abuse-violence"
+          },
+          {
+            "record_id": "7ee8df1485c09e4ebefc",
+            "title": "Global and local design leaders shortlisted to shape the future of Bays West",
+            "url": "https://www.nsw.gov.au/ministerial-releases/global-and-local-design-leaders-shortlisted-to-shape-future-of-bays-west"
+          },
+          {
+            "record_id": "a0fab3ea47566d4dc231",
+            "title": "Teralba identified as preferred Hunter site to build NSW’s next train fleet",
+            "url": "https://www.nsw.gov.au/ministerial-releases/teralba-identified-as-preferred-hunter-site-to-build-nsws-next-train-fleet"
+          }
+        ],
+        "added_count": 3,
+        "removed_count": 3,
+        "before_count": 88,
+        "after_count": 88,
+        "delta_hash": "2a862f9c59a7c4cf085b3499cfd770dae94069dd3779979ec34c968bacd1179e"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-VIC-HANSARD-20261021232030",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-VIC",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-VIC-HANSARD-20261021232030",
+      "captured_at": "2026-10-21T23:20:30.090Z",
+      "event_date": "2026-10-22",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_PARLIAMENT",
+      "source_id": "SRC-VIC-HANSARD",
+      "capture_mode": "NORMALISED_PAGE_HASH",
+      "review_policy": "REVIEW_UNSTRUCTURED_CHANGE",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-VIC-HANSARD-20261021151522",
+        "content_hash": "84ff078364f411da21f49c2f9eb3dd22e7aa25d93e5529f57eeaaf9378ac2baf",
+        "capture_mode": "NORMALISED_PAGE_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-VIC-HANSARD-20261021232030",
+        "content_hash": "d2f20a1e415883c8f52a80e56ebef78f8ba8057e9d34a4e7ab6f070b81b280e6",
+        "capture_mode": "NORMALISED_PAGE_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "TEXT_REPRESENTATION",
+        "first_difference_offset": 49,
+        "before_length": 3160,
+        "after_length": 3073,
+        "before_excerpt": "Hansard - Parliament of Victoria Skip to content Site maintenance: Hansard search and browse unavailable between 6PM-6AM (AET) tonight. Parliamentary activity Hansard Hansard is the official report of the proceedings of the Parliament of Victoria from 1866",
+        "after_excerpt": "Hansard - Parliament of Victoria Skip to content Parliamentary activity Hansard Hansard is the official report of the proceedings of the Parliament of Victoria from 1866",
+        "delta_hash": "3418a3a4d0471f9ed70b332ae5244856d54826d73a34d2de5fe3daeee20a6802"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-WA-HANSARD-20261021232030",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-WA",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-WA-HANSARD-20261021232030",
+      "captured_at": "2026-10-21T23:20:30.090Z",
+      "event_date": "2026-10-22",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_PARLIAMENT",
+      "source_id": "SRC-WA-HANSARD",
+      "capture_mode": "NORMALISED_PAGE_HASH",
+      "review_policy": "REVIEW_UNSTRUCTURED_CHANGE",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-WA-HANSARD-20261020002055",
+        "content_hash": "4dc6c07ddd42acfc276cc869153167a080965cc915d8e12e032b6fad13a3ffbc",
+        "capture_mode": "NORMALISED_PAGE_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-WA-HANSARD-20261021232030",
+        "content_hash": "8a7aa875497133ff8b039b5d611fec33514dbdf4b000e0571062d1c1176fe054",
+        "capture_mode": "NORMALISED_PAGE_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "TEXT_REPRESENTATION",
+        "first_difference_offset": 360,
+        "before_length": 10753,
+        "after_length": 10746,
+        "before_excerpt": "ive The Legislative Council meets today (<TIME>) Watch live Watch Council live The Environment and Public Affairs meets on 23/10/2026 (<TIME>) Committee meet 23/10/2026 Search this website Advanced Search Search Parliamentary Business Bills (proposed laws) WA Acts and Regulations (curren",
+        "after_excerpt": "ive The Legislative Council meets today (<TIME>) Watch live Watch Council live The Environment and Public Affairs meets tomorrow (<TIME>) Committee meet tomorrow Search this website Advanced Search Search Parliamentary Business Bills (proposed laws) WA Acts and Regulations (curren",
+        "delta_hash": "31d668cb270d0b107a5ea5e584f1dc1ff14ca6df80b78c2731d1cc9bf0b23ccf"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "SIG-REV-CHG-WATCH-PM-MEDIA-20261021232030",
+      "parent_event_id": "CHG-WATCH-PM-MEDIA-20261021232030",
+      "review_id": "REV-CHG-WATCH-PM-MEDIA-20261021232030",
+      "jurisdiction_id": "AUS-FED",
+      "party_id": null,
+      "actor_id": null,
+      "contest_id": null,
+      "cycle_id": null,
+      "source_snapshot_id": "AUTO-WATCH-PM-MEDIA-20261021232030",
+      "record_id": "a937a23e22db6d282d56",
+      "captured_at": "2026-10-21T23:21:03.955Z",
+      "event_date": "2026-10-22",
+      "checkpoint": "CONTINUOUS_FORWARD_SIGNAL_REVIEW",
+      "event_type": "SIGNAL_CREATED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-PM-MEDIA",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "claim": "Prime Minister of Australia — media added 1 structured publication record to its forward-captured official index: We need only look to Helen Haines",
+      "observed_behaviour": "One or more structured publication records appeared in the monitored official source index after the preceding forward snapshot.",
+      "publication_records_added": [
+        {
+          "record_id": "a937a23e22db6d282d56",
+          "title": "We need only look to Helen Haines",
+          "url": "https://www.pm.gov.au/media/we-need-only-look-helen-haines"
+        }
+      ],
+      "publication_records_removed": [
+        {
+          "record_id": "621e37f544fb6a91f037",
+          "title": "Centenary of parliament sitting",
+          "url": "https://www.pm.gov.au/media/centenary-parliament-sitting"
+        }
+      ],
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "underlying_publication_claims_not_promoted_to_verified_fact": true,
+        "source_change_parent_retained": true,
+        "deterministic_review": true
+      }
+    },
+    {
+      "event_id": "SIG-REV-CHG-WATCH-NSW-MINISTERIAL-RELEASES-20261021232030",
+      "parent_event_id": "CHG-WATCH-NSW-MINISTERIAL-RELEASES-20261021232030",
+      "review_id": "REV-CHG-WATCH-NSW-MINISTERIAL-RELEASES-20261021232030",
+      "jurisdiction_id": "AUS-NSW",
+      "party_id": null,
+      "actor_id": null,
+      "contest_id": null,
+      "cycle_id": null,
+      "source_snapshot_id": "AUTO-WATCH-NSW-MINISTERIAL-RELEASES-20261021232030",
+      "record_id": null,
+      "captured_at": "2026-10-21T23:21:03.955Z",
+      "event_date": "2026-10-22",
+      "checkpoint": "CONTINUOUS_FORWARD_SIGNAL_REVIEW",
+      "event_type": "SIGNAL_CREATED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-NSW-MINISTERIAL-RELEASES",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "claim": "NSW Government — Ministerial releases added 3 structured publication records to its forward-captured official index: Southwest Metro to open Friday 30 October 2026; Thousands of Hunter potholes patched in statewide roads blitz; Minns Labor Government pay rise lands for New South Wales public school teachers",
+      "observed_behaviour": "One or more structured publication records appeared in the monitored official source index after the preceding forward snapshot.",
+      "publication_records_added": [
+        {
+          "record_id": "356a0297de935ab2b55a",
+          "title": "Southwest Metro to open Friday 30 October 2026",
+          "url": "https://www.nsw.gov.au/ministerial-releases/southwest-metro-to-open-friday-30-october-2026"
+        },
+        {
+          "record_id": "9d85b68d8755a2f079e3",
+          "title": "Thousands of Hunter potholes patched in statewide roads blitz",
+          "url": "https://www.nsw.gov.au/ministerial-releases/thousands-of-hunter-potholes-patched-statewide-roads-blitz"
+        },
+        {
+          "record_id": "d5d8dea1a02ecf27afe4",
+          "title": "Minns Labor Government pay rise lands for New South Wales public school teachers",
+          "url": "https://www.nsw.gov.au/ministerial-releases/minns-labor-government-pay-rise-lands-for-new-south-wales-public-school-teachers"
+        }
+      ],
+      "publication_records_removed": [
+        {
+          "record_id": "639569d423833281cc22",
+          "title": "New scheme to better protect workers from abuse, violence",
+          "url": "https://www.nsw.gov.au/ministerial-releases/new-scheme-to-better-protect-workers-from-abuse-violence"
+        },
+        {
+          "record_id": "7ee8df1485c09e4ebefc",
+          "title": "Global and local design leaders shortlisted to shape the future of Bays West",
+          "url": "https://www.nsw.gov.au/ministerial-releases/global-and-local-design-leaders-shortlisted-to-shape-future-of-bays-west"
+        },
+        {
+          "record_id": "a0fab3ea47566d4dc231",
+          "title": "Teralba identified as preferred Hunter site to build NSW’s next train fleet",
+          "url": "https://www.nsw.gov.au/ministerial-releases/teralba-identified-as-preferred-hunter-site-to-build-nsws-next-train-fleet"
         }
       ],
       "inference": null,

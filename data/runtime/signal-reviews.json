@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-SIGNAL-REVIEWS-001",
   "created_at": "2026-09-09T05:05:00+10:00",
-  "updated_at": "2026-10-21T15:15:58.562Z",
+  "updated_at": "2026-10-21T23:21:03.955Z",
   "rules": {
     "append_only": true,
     "raw_source_change_is_immutable": true,
@@ -39185,6 +39185,106 @@
           }
         ],
         "delta_hash": "ae496c2ea826a722c1e6fd5fefc1f10b0018e19fdd0f4b23250cf446da400d48"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-PM-MEDIA-20261021232030",
+      "source_change_event_id": "CHG-WATCH-PM-MEDIA-20261021232030",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-PM-MEDIA-20261021232030",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Prime Minister of Australia — media added 1 structured publication record to its forward-captured official index: We need only look to Helen Haines",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-10-21T23:21:03.955Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "a937a23e22db6d282d56",
+            "title": "We need only look to Helen Haines",
+            "url": "https://www.pm.gov.au/media/we-need-only-look-helen-haines"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "621e37f544fb6a91f037",
+            "title": "Centenary of parliament sitting",
+            "url": "https://www.pm.gov.au/media/centenary-parliament-sitting"
+          }
+        ],
+        "delta_hash": "8f110763cdecbed8135392cf32f7a09756bfe0df7e438bd48dd1739f7098a6a2"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-NSW-MINISTERIAL-RELEASES-20261021232030",
+      "source_change_event_id": "CHG-WATCH-NSW-MINISTERIAL-RELEASES-20261021232030",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-NSW-MINISTERIAL-RELEASES-20261021232030",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "NSW Government — Ministerial releases added 3 structured publication records to its forward-captured official index: Southwest Metro to open Friday 30 October 2026; Thousands of Hunter potholes patched in statewide roads blitz; Minns Labor Government pay rise lands for New South Wales public school teachers",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-10-21T23:21:03.955Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "356a0297de935ab2b55a",
+            "title": "Southwest Metro to open Friday 30 October 2026",
+            "url": "https://www.nsw.gov.au/ministerial-releases/southwest-metro-to-open-friday-30-october-2026"
+          },
+          {
+            "record_id": "9d85b68d8755a2f079e3",
+            "title": "Thousands of Hunter potholes patched in statewide roads blitz",
+            "url": "https://www.nsw.gov.au/ministerial-releases/thousands-of-hunter-potholes-patched-statewide-roads-blitz"
+          },
+          {
+            "record_id": "d5d8dea1a02ecf27afe4",
+            "title": "Minns Labor Government pay rise lands for New South Wales public school teachers",
+            "url": "https://www.nsw.gov.au/ministerial-releases/minns-labor-government-pay-rise-lands-for-new-south-wales-public-school-teachers"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "639569d423833281cc22",
+            "title": "New scheme to better protect workers from abuse, violence",
+            "url": "https://www.nsw.gov.au/ministerial-releases/new-scheme-to-better-protect-workers-from-abuse-violence"
+          },
+          {
+            "record_id": "7ee8df1485c09e4ebefc",
+            "title": "Global and local design leaders shortlisted to shape the future of Bays West",
+            "url": "https://www.nsw.gov.au/ministerial-releases/global-and-local-design-leaders-shortlisted-to-shape-future-of-bays-west"
+          },
+          {
+            "record_id": "a0fab3ea47566d4dc231",
+            "title": "Teralba identified as preferred Hunter site to build NSW’s next train fleet",
+            "url": "https://www.nsw.gov.au/ministerial-releases/teralba-identified-as-preferred-hunter-site-to-build-nsws-next-train-fleet"
+          }
+        ],
+        "delta_hash": "2a862f9c59a7c4cf085b3499cfd770dae94069dd3779979ec34c968bacd1179e"
       },
       "integrity": {
         "source_change_unchanged": true,

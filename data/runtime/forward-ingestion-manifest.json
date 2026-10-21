@@ -3,7 +3,7 @@
   "mode": "FORWARD_ONLY",
   "scope": "Australia — Federal, States and Territories",
   "created_at": "2026-09-08T00:00:00+10:00",
-  "updated_at": "2026-10-21T15:15:58.562Z",
+  "updated_at": "2026-10-21T23:21:03.955Z",
   "rules": {
     "evidence_must_be_knowable_at_capture_time": true,
     "captured_at_required": true,
@@ -30,18 +30,18 @@
   },
   "live_evidence_ingestion": {
     "running": true,
-    "source_snapshots_ingested": 604,
-    "intelligence_events_ingested": 1025,
+    "source_snapshots_ingested": 608,
+    "intelligence_events_ingested": 1031,
     "contradictions_ingested": 0,
     "party_state_updates_ingested": 8,
     "actor_state_updates_ingested": 2,
     "field_state_updates_ingested": 1,
     "contest_state_updates_ingested": 0,
-    "signals_ingested": 373,
+    "signals_ingested": 375,
     "raw_source_changes_ingested": 0,
-    "signal_reviews_ingested": 363,
+    "signal_reviews_ingested": 365,
     "post_separation_promoted_signals_ingested": 0,
-    "last_capture_at": "2026-10-21T15:15:22.835Z",
+    "last_capture_at": "2026-10-21T23:20:30.090Z",
     "jurisdiction_coverage": {
       "federal": "CAPTURE_ACTIVE_FULL_CONFIGURED_BASELINE",
       "new_south_wales": "CAPTURE_ACTIVE_DEGRADED_CURRENT_RUN",
@@ -53,10 +53,10 @@
       "australian_capital_territory": "CAPTURE_ACTIVE_DEGRADED_CURRENT_RUN",
       "northern_territory": "CAPTURE_ACTIVE_DEGRADED_CURRENT_RUN"
     },
-    "source_changes_ingested": 507,
+    "source_changes_ingested": 511,
     "watched_sources": 36,
     "capture_baselines": 36,
-    "capture_failures_last_run": 11,
+    "capture_failures_last_run": 10,
     "jurisdiction_capture": {
       "AUS-FED": {
         "configured_sources": 10,
@@ -73,7 +73,7 @@
       "AUS-NSW": {
         "configured_sources": 4,
         "baseline_sources": 4,
-        "current_run_failures": 3,
+        "current_run_failures": 2,
         "source_classes": [
           "PRIMARY_ELECTORAL_AUTHORITY",
           "PRIMARY_GOVERNMENT",
@@ -159,8 +159,8 @@
         "status": "CAPTURE_ACTIVE_DEGRADED_CURRENT_RUN"
       }
     },
-    "pending_signal_reviews": 144,
-    "deterministic_publication_signals": 358
+    "pending_signal_reviews": 146,
+    "deterministic_publication_signals": 360
   },
   "queues": {
     "sources": [],

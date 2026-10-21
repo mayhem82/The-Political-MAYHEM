@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-INTELLIGENCE-EVENTS-001",
   "scope": "Australia — multi-jurisdiction",
-  "captured_at": "2026-10-21T04:51:00.071Z",
+  "captured_at": "2026-10-21T15:16:02.883Z",
   "mode": "FORWARD_ONLY",
   "rules": {
     "observation_distinct_from_inference": true,
@@ -108317,6 +108317,164 @@
           "record_id": "cdbc8b8f607669b921e0",
           "title": "First look at four-lane bridge design to get Bribie Island moving again",
           "url": "https://statements.qld.gov.au/statements/106246"
+        }
+      ],
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "underlying_publication_claims_not_promoted_to_verified_fact": true,
+        "source_change_parent_retained": true,
+        "deterministic_review": true
+      }
+    },
+    {
+      "event_id": "CHG-WATCH-ONENATION-NEWS-20261021151522",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-FED",
+      "party_id": "AUS-FED-ONP",
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-ONENATION-NEWS-20261021151522",
+      "captured_at": "2026-10-21T15:15:22.835Z",
+      "event_date": "2026-10-22",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_PARTY",
+      "source_id": "SRC-ONENATION-FEDERAL-NEWS",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "review_policy": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-ONENATION-NEWS-20261021044906",
+        "content_hash": "1bceb5cc34bc3dda75b1fc60327ab78902776977d55d6c0e8429188618fb7dd0",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-ONENATION-NEWS-20261021151522",
+        "content_hash": "482c5820223a52862045d13d8186a91b1b2168ba38657d0f62d36e43d13ffefa",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "STRUCTURED_RECORD_SET",
+        "records_added": [
+          {
+            "record_id": "46ebfbc3e9536c927778",
+            "title": "One Nation Questions Labor's Approach to Islamic Extremism and National Security",
+            "url": "http://www.onenation.org.au/labor-terrorism-security-concerns",
+            "published": "Wed, 21 Oct 2026 15:01:00 +1000"
+          }
+        ],
+        "records_removed": [
+          {
+            "record_id": "db7a394eb32ddecf310f",
+            "title": "One Nation Raises Free Speech Concerns Over Digital Duty of Care Bill",
+            "url": "http://www.onenation.org.au/digital-duty-policy-changes",
+            "published": "Wed, 14 Oct 2026 11:32:19 +1000"
+          }
+        ],
+        "added_count": 1,
+        "removed_count": 1,
+        "before_count": 20,
+        "after_count": 20,
+        "delta_hash": "ae496c2ea826a722c1e6fd5fefc1f10b0018e19fdd0f4b23250cf446da400d48"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-VIC-HANSARD-20261021151522",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-VIC",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-VIC-HANSARD-20261021151522",
+      "captured_at": "2026-10-21T15:15:22.835Z",
+      "event_date": "2026-10-22",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_PARLIAMENT",
+      "source_id": "SRC-VIC-HANSARD",
+      "capture_mode": "NORMALISED_PAGE_HASH",
+      "review_policy": "REVIEW_UNSTRUCTURED_CHANGE",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-VIC-HANSARD-20260908093210",
+        "content_hash": "d2f20a1e415883c8f52a80e56ebef78f8ba8057e9d34a4e7ab6f070b81b280e6",
+        "capture_mode": "NORMALISED_PAGE_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-VIC-HANSARD-20261021151522",
+        "content_hash": "84ff078364f411da21f49c2f9eb3dd22e7aa25d93e5529f57eeaaf9378ac2baf",
+        "capture_mode": "NORMALISED_PAGE_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "TEXT_REPRESENTATION",
+        "first_difference_offset": 49,
+        "before_length": 3073,
+        "after_length": 3160,
+        "before_excerpt": "Hansard - Parliament of Victoria Skip to content Parliamentary activity Hansard Hansard is the official report of the proceedings of the Parliament of Victoria from 1866",
+        "after_excerpt": "Hansard - Parliament of Victoria Skip to content Site maintenance: Hansard search and browse unavailable between 6PM-6AM (AET) tonight. Parliamentary activity Hansard Hansard is the official report of the proceedings of the Parliament of Victoria from 1866",
+        "delta_hash": "a4130accb9a0ab92c655e764b5903190ed5e22dccd8f1e4e5e5c25616a751dba"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "SIG-REV-CHG-WATCH-ONENATION-NEWS-20261021151522",
+      "parent_event_id": "CHG-WATCH-ONENATION-NEWS-20261021151522",
+      "review_id": "REV-CHG-WATCH-ONENATION-NEWS-20261021151522",
+      "jurisdiction_id": "AUS-FED",
+      "party_id": "AUS-FED-ONP",
+      "actor_id": null,
+      "contest_id": null,
+      "cycle_id": null,
+      "source_snapshot_id": "AUTO-WATCH-ONENATION-NEWS-20261021151522",
+      "record_id": "46ebfbc3e9536c927778",
+      "captured_at": "2026-10-21T15:15:58.562Z",
+      "event_date": "2026-10-22",
+      "checkpoint": "CONTINUOUS_FORWARD_SIGNAL_REVIEW",
+      "event_type": "SIGNAL_CREATED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_PARTY",
+      "source_id": "SRC-ONENATION-FEDERAL-NEWS",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "claim": "Pauline Hanson's One Nation — Latest News added 1 structured publication record to its forward-captured official index: One Nation Questions Labor's Approach to Islamic Extremism and National Security",
+      "observed_behaviour": "One or more structured publication records appeared in the monitored official source index after the preceding forward snapshot.",
+      "publication_records_added": [
+        {
+          "record_id": "46ebfbc3e9536c927778",
+          "title": "One Nation Questions Labor's Approach to Islamic Extremism and National Security",
+          "url": "http://www.onenation.org.au/labor-terrorism-security-concerns",
+          "published": "Wed, 21 Oct 2026 15:01:00 +1000"
+        }
+      ],
+      "publication_records_removed": [
+        {
+          "record_id": "db7a394eb32ddecf310f",
+          "title": "One Nation Raises Free Speech Concerns Over Digital Duty of Care Bill",
+          "url": "http://www.onenation.org.au/digital-duty-policy-changes",
+          "published": "Wed, 14 Oct 2026 11:32:19 +1000"
         }
       ],
       "inference": null,

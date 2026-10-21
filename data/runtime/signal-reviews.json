@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-SIGNAL-REVIEWS-001",
   "created_at": "2026-09-09T05:05:00+10:00",
-  "updated_at": "2026-10-21T04:50:54.371Z",
+  "updated_at": "2026-10-21T15:15:58.562Z",
   "rules": {
     "append_only": true,
     "raw_source_change_is_immutable": true,
@@ -39143,6 +39143,48 @@
           }
         ],
         "delta_hash": "13661037542c6bd8732c03bd0adfe3048911521b6f762f8761e8b8c47dcbc9ba"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-ONENATION-NEWS-20261021151522",
+      "source_change_event_id": "CHG-WATCH-ONENATION-NEWS-20261021151522",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-ONENATION-NEWS-20261021151522",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": "AUS-FED-ONP",
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Pauline Hanson's One Nation — Latest News added 1 structured publication record to its forward-captured official index: One Nation Questions Labor's Approach to Islamic Extremism and National Security",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-10-21T15:15:58.562Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "46ebfbc3e9536c927778",
+            "title": "One Nation Questions Labor's Approach to Islamic Extremism and National Security",
+            "url": "http://www.onenation.org.au/labor-terrorism-security-concerns",
+            "published": "Wed, 21 Oct 2026 15:01:00 +1000"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "db7a394eb32ddecf310f",
+            "title": "One Nation Raises Free Speech Concerns Over Digital Duty of Care Bill",
+            "url": "http://www.onenation.org.au/digital-duty-policy-changes",
+            "published": "Wed, 14 Oct 2026 11:32:19 +1000"
+          }
+        ],
+        "delta_hash": "ae496c2ea826a722c1e6fd5fefc1f10b0018e19fdd0f4b23250cf446da400d48"
       },
       "integrity": {
         "source_change_unchanged": true,

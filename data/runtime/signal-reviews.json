@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-SIGNAL-REVIEWS-001",
   "created_at": "2026-09-09T05:05:00+10:00",
-  "updated_at": "2026-10-21T23:21:03.955Z",
+  "updated_at": "2026-10-22T10:12:39.174Z",
   "rules": {
     "append_only": true,
     "raw_source_change_is_immutable": true,
@@ -39285,6 +39285,495 @@
           }
         ],
         "delta_hash": "2a862f9c59a7c4cf085b3499cfd770dae94069dd3779979ec34c968bacd1179e"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-PM-MEDIA-20261022101158",
+      "source_change_event_id": "CHG-WATCH-PM-MEDIA-20261022101158",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-PM-MEDIA-20261022101158",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Prime Minister of Australia — media added 5 structured publication records to its forward-captured official index: Radio interview - ABC Perth; Radio interview - 2SM Sydney; Last » Last page; Radio interview - ABC Sydney; Radio interview - Nova Perth",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-10-22T10:12:39.174Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "215e507fcb9e3cc9c80d",
+            "title": "Radio interview - ABC Perth",
+            "url": "https://www.pm.gov.au/media/radio-interview-abc-perth-11"
+          },
+          {
+            "record_id": "7af5ac97b22983d09334",
+            "title": "Radio interview - 2SM Sydney",
+            "url": "https://www.pm.gov.au/media/radio-interview-2sm-sydney-0"
+          },
+          {
+            "record_id": "7df54a7e4dda9ab1b94e",
+            "title": "Last » Last page",
+            "url": "https://www.pm.gov.au/media?page=282"
+          },
+          {
+            "record_id": "cb7f75a5f96e36732ecf",
+            "title": "Radio interview - ABC Sydney",
+            "url": "https://www.pm.gov.au/media/radio-interview-abc-sydney-25"
+          },
+          {
+            "record_id": "d7661ced863a9c3bdc51",
+            "title": "Radio interview - Nova Perth",
+            "url": "https://www.pm.gov.au/media/radio-interview-nova-perth-10"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "67ffbcaea9a4e8210a57",
+            "title": "Television interview - ABC 7.30",
+            "url": "https://www.pm.gov.au/media/television-interview-abc-730-23"
+          },
+          {
+            "record_id": "9ce01399fa246ba9019c",
+            "title": "2026 Telethon gala ball",
+            "url": "https://www.pm.gov.au/media/2026-telethon-gala-ball"
+          },
+          {
+            "record_id": "b325e247f5e4e589b5fa",
+            "title": "Press conference - Sydney",
+            "url": "https://www.pm.gov.au/media/press-conference-sydney-40"
+          },
+          {
+            "record_id": "d5e22b45652562070363",
+            "title": "Last » Last page",
+            "url": "https://www.pm.gov.au/media?page=281"
+          },
+          {
+            "record_id": "f7a7b600cd62e7342a66",
+            "title": "Albanese Government delivers $6 million to Telethon",
+            "url": "https://www.pm.gov.au/media/albanese-government-delivers-6-million-telethon"
+          }
+        ],
+        "delta_hash": "bbc27d2939b6fb9a479cb32a3a4dd7188e83280b0fd71358a3b8f8b252bc5a35"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-GREENS-FEDERAL-MEDIA-20261022101158",
+      "source_change_event_id": "CHG-WATCH-GREENS-FEDERAL-MEDIA-20261022101158",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-GREENS-FEDERAL-MEDIA-20261022101158",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": "AUS-FED-GRN",
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Australian Greens — Federal MPs media releases added 6 structured publication records to its forward-captured official index: Read more about Labor’s review into KPMG just more tinkering; Inquiry: Australia’s delivery of social housing is a failure; Australia-EU Trade Agreement; Read more about Inquiry: Australia’s delivery of social housing is a failure; Read more about Australia-EU Trade Agreement; +1 more",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-10-22T10:12:39.174Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "3a4be111700d198ca739",
+            "title": "Read more about Labor’s review into KPMG just more tinkering",
+            "url": "https://greens.org.au/news/media-release/labors-review-kpmg-just-more-tinkering"
+          },
+          {
+            "record_id": "78578b7d5d2b6ce680f8",
+            "title": "Inquiry: Australia’s delivery of social housing is a failure",
+            "url": "https://greens.org.au/news/media-release/inquiry-australias-delivery-social-housing-failure"
+          },
+          {
+            "record_id": "925f51262f984046b9f5",
+            "title": "Australia-EU Trade Agreement",
+            "url": "https://greens.org.au/sa/news/media-release/australia-eu-trade-agreement"
+          },
+          {
+            "record_id": "a1381f8f7ff2a6378c07",
+            "title": "Read more about Inquiry: Australia’s delivery of social housing is a failure",
+            "url": "https://greens.org.au/news/media-release/inquiry-australias-delivery-social-housing-failure"
+          },
+          {
+            "record_id": "c221e82d4489d499f4c1",
+            "title": "Read more about Australia-EU Trade Agreement",
+            "url": "https://greens.org.au/sa/news/media-release/australia-eu-trade-agreement"
+          },
+          {
+            "record_id": "f7058891c5e78b46fd26",
+            "title": "Labor’s review into KPMG just more tinkering",
+            "url": "https://greens.org.au/news/media-release/labors-review-kpmg-just-more-tinkering"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "5e5e0f3ac7076353637d",
+            "title": "Read more about Statement on the third anniversary of the October 7 attacks",
+            "url": "https://greens.org.au/news/media-release/statement-third-anniversary-october-7-attacks"
+          },
+          {
+            "record_id": "ade005f2a45f860afa11",
+            "title": "Labor spend on KPMG nearly doubled, data shows",
+            "url": "https://greens.org.au/news/media-release/labor-spend-kpmg-nearly-doubled-data-shows"
+          },
+          {
+            "record_id": "ba76361c07efe21e27ba",
+            "title": "Read more about Labor spend on KPMG nearly doubled, data shows",
+            "url": "https://greens.org.au/news/media-release/labor-spend-kpmg-nearly-doubled-data-shows"
+          },
+          {
+            "record_id": "c39b5b8741643b0123b8",
+            "title": "Statement on the third anniversary of the October 7 attacks",
+            "url": "https://greens.org.au/news/media-release/statement-third-anniversary-october-7-attacks"
+          },
+          {
+            "record_id": "c91966f0eb51fe041162",
+            "title": "Gov must find solution for first homebuyers conned by Labor’s 5% deposit scheme: Greens",
+            "url": "https://greens.org.au/news/media-release/gov-must-find-solution-first-homebuyers-conned-labors-5-deposit-scheme-greens"
+          },
+          {
+            "record_id": "e02951e93195b0672110",
+            "title": "Read more about Gov must find solution for first homebuyers conned by Labor’s 5% deposit scheme: Greens",
+            "url": "https://greens.org.au/news/media-release/gov-must-find-solution-first-homebuyers-conned-labors-5-deposit-scheme-greens"
+          }
+        ],
+        "delta_hash": "3fdcda76ea3b5a86531addd66c3436f4503461396b8da66b4a9fc5188b3e0155"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-ONENATION-NEWS-20261022101158",
+      "source_change_event_id": "CHG-WATCH-ONENATION-NEWS-20261022101158",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-ONENATION-NEWS-20261022101158",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": "AUS-FED-ONP",
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Pauline Hanson's One Nation — Latest News added 3 structured publication records to its forward-captured official index: One Nation Hits 500,000 Facebook Followers! Pauline Hanson Thanks Supporters; Free Stuff Isn't Free. You're Paying for It.; Mike Newman Outlines One Nation's Vision for Small Businesses in NSW",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-10-22T10:12:39.174Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "708fdb9c8494d8b437e8",
+            "title": "One Nation Hits 500,000 Facebook Followers! Pauline Hanson Thanks Supporters",
+            "url": "http://www.onenation.org.au/one-nation-facebook-milestone",
+            "published": "Thu, 22 Oct 2026 17:34:56 +1000"
+          },
+          {
+            "record_id": "c16377929139b3e7f3ef",
+            "title": "Free Stuff Isn't Free. You're Paying for It.",
+            "url": "http://www.onenation.org.au/free-stuff-isnt-free",
+            "published": "Thu, 22 Oct 2026 14:00:12 +1000"
+          },
+          {
+            "record_id": "e1d41b44917c340fc7bc",
+            "title": "Mike Newman Outlines One Nation's Vision for Small Businesses in NSW",
+            "url": "http://www.onenation.org.au/mike-newman-small-business-support",
+            "published": "Thu, 22 Oct 2026 17:34:37 +1000"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "0fdde47d326a0b4bdc14",
+            "title": "Is South Australia's $5 Million AI Royal Commission Worth the Cost?",
+            "url": "http://www.onenation.org.au/sa-ai-royal-commission",
+            "published": "Wed, 14 Oct 2026 14:13:51 +1000"
+          },
+          {
+            "record_id": "4e34c8bad64eaf725681",
+            "title": "Labor Grants Went to Mosque Linked to Accused Flydubai Terrorist Hijacker",
+            "url": "http://www.onenation.org.au/albanese-government-accountability",
+            "published": "Wed, 14 Oct 2026 12:17:54 +1000"
+          },
+          {
+            "record_id": "b0ffd3c4dca8ca3d12a4",
+            "title": "Colleen Harkin Speaks Out Against Violent Protests on Remembrance Day",
+            "url": "http://www.onenation.org.au/remembrance-day-protest-concerns",
+            "published": "Wed, 14 Oct 2026 14:13:34 +1000"
+          }
+        ],
+        "delta_hash": "af03273904ee496c0e39fb892b8c5f8ff29f92a5f201278dcac1636e1d628fc6"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-NSW-MINISTERIAL-RELEASES-20261022101158",
+      "source_change_event_id": "CHG-WATCH-NSW-MINISTERIAL-RELEASES-20261022101158",
+      "decision": "EXCLUDED_AS_NON_SIGNAL",
+      "signal_event_id": null,
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": null,
+      "materiality_state": "IMMATERIAL",
+      "claim": "Structured publication-index change contained removals only. It is retained as a raw source change but is not automatically promoted into a political signal.",
+      "review_basis": "Deterministic review policy excludes removal-only index changes because disappearance from an index does not establish a political event, reversal or substantive fact.",
+      "reviewed_at": "2026-10-22T10:12:39.174Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [],
+        "removed_records": [
+          {
+            "record_id": "036915f17abb6e63230c",
+            "title": "NSW primary industries hit record $26 billion in value",
+            "url": "https://www.nsw.gov.au/ministerial-releases/nsw-primary-industries-hit-record-26-billion-value"
+          },
+          {
+            "record_id": "1b67cfe6a1588dc3cdb8",
+            "title": "Offshore fishers set for another big season as ‘fish magnets’ return to NSW coastline",
+            "url": "https://www.nsw.gov.au/ministerial-releases/offshore-fishers-set-for-another-big-season"
+          },
+          {
+            "record_id": "1f2e544a48a380e98867",
+            "title": "Coal-producing regions to lead the way under NSW Government’s new Future Jobs and Investment Authority",
+            "url": "https://www.nsw.gov.au/ministerial-releases/future-jobs-and-investment-fund-for-coal-producing-regions"
+          },
+          {
+            "record_id": "2502327515c5d1c57a13",
+            "title": "Nearly 300 GPs trained to safely diagnose and treat ADHD",
+            "url": "https://www.nsw.gov.au/ministerial-releases/nearly-300-gps-trained-to-safely-diagnose-and-treat-adhd"
+          },
+          {
+            "record_id": "356a0297de935ab2b55a",
+            "title": "Southwest Metro to open Friday 30 October 2026",
+            "url": "https://www.nsw.gov.au/ministerial-releases/southwest-metro-to-open-friday-30-october-2026"
+          },
+          {
+            "record_id": "6154b720361de18ce03b",
+            "title": "$560 million agreement for the future of free TAFE in New South Wales program",
+            "url": "https://www.nsw.gov.au/ministerial-releases/free-tafe-program-locked"
+          },
+          {
+            "record_id": "9d85b68d8755a2f079e3",
+            "title": "Thousands of Hunter potholes patched in statewide roads blitz",
+            "url": "https://www.nsw.gov.au/ministerial-releases/thousands-of-hunter-potholes-patched-statewide-roads-blitz"
+          },
+          {
+            "record_id": "ab1b0e7596ac6d47c24c",
+            "title": "Reforms helping protect victim-survivors pass NSW Parliament",
+            "url": "https://www.nsw.gov.au/ministerial-releases/reforms-protecting-victim-survivors-pass"
+          },
+          {
+            "record_id": "d5d8dea1a02ecf27afe4",
+            "title": "Minns Labor Government pay rise lands for New South Wales public school teachers",
+            "url": "https://www.nsw.gov.au/ministerial-releases/minns-labor-government-pay-rise-lands-for-new-south-wales-public-school-teachers"
+          },
+          {
+            "record_id": "f7f30811afff5e7b308d",
+            "title": "Wheels up for destination Doha",
+            "url": "https://www.nsw.gov.au/departments-and-agencies/dciths/ministerial-media-releases/wheels-up-for-destination-doha"
+          }
+        ],
+        "delta_hash": "cb99a4caf6a0e3e431423dfd9b61313c05e24a5ece88bf8a6014a830b58d9d39"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-NSWEC-MEDIA-20261022101158",
+      "source_change_event_id": "CHG-WATCH-NSWEC-MEDIA-20261022101158",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-NSWEC-MEDIA-20261022101158",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "NSW Electoral Commission — news and media releases added 1 structured publication record to its forward-captured official index: Nominations open: Cobar Shire Council by-election arrow_forward 19 Oct 2026 Nominations can be lodged from today with the NSW Electoral Commission Returning Officer and must be lodged by 12 noon on Wednesday, 28 October 2026.",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-10-22T10:12:39.174Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "128faea1ebcaf577b24c",
+            "title": "Nominations open: Cobar Shire Council by-election arrow_forward 19 Oct 2026 Nominations can be lodged from today with the NSW Electoral Commission Returning Officer and must be lodged by 12 noon on Wednesday, 28 October 2026.",
+            "url": "https://elections.nsw.gov.au/about-us/media-centre/news-and-media-releases/nominations-open-cobar-shire-council-by-election"
+          }
+        ],
+        "removed_records": [],
+        "delta_hash": "d8c23dfe68ea087a4b02a89c50401eb39d466b1f57e7c54d6ad1cc9372758128"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261022101158",
+      "source_change_event_id": "CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261022101158",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261022101158",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Queensland Government — Ministerial Media Statements added 6 structured publication records to its forward-captured official index: Games On! Round 2 boost for Cairns Surf Life Saving Club; Risk Response Bail to reduce youth reoffending; Works start on Caloundra TAFE Centre of Excellence; Unlocking Water Project identifies over 132,000 ML of water across three Queensland regions; Red tape reduction helping deliver water projects without costly delays; +1 more",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-10-22T10:12:39.174Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "26a06004396e16803d22",
+            "title": "Games On! Round 2 boost for Cairns Surf Life Saving Club",
+            "url": "https://statements.qld.gov.au/statements/106275"
+          },
+          {
+            "record_id": "2c4df732af3cae18400d",
+            "title": "Risk Response Bail to reduce youth reoffending",
+            "url": "https://statements.qld.gov.au/statements/106272"
+          },
+          {
+            "record_id": "55b7ddcf74c112c260de",
+            "title": "Works start on Caloundra TAFE Centre of Excellence",
+            "url": "https://statements.qld.gov.au/statements/106280"
+          },
+          {
+            "record_id": "8f8c43152fd5fd2a0bd8",
+            "title": "Unlocking Water Project identifies over 132,000 ML of water across three Queensland regions",
+            "url": "https://statements.qld.gov.au/statements/106277"
+          },
+          {
+            "record_id": "a4c9c50f63bbcaacb62e",
+            "title": "Red tape reduction helping deliver water projects without costly delays",
+            "url": "https://statements.qld.gov.au/statements/106279"
+          },
+          {
+            "record_id": "c5662dc9e2f34bf93261",
+            "title": "Connector Service delivers 100 connections within weeks of launch",
+            "url": "https://statements.qld.gov.au/statements/106273"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "247b94364d70bbc55983",
+            "title": "Games On! for Coolum Football Club",
+            "url": "https://statements.qld.gov.au/statements/106250"
+          },
+          {
+            "record_id": "3d86f0b6c97090ba1f00",
+            "title": "Response delivered to strengthen council financial sustainability",
+            "url": "https://statements.qld.gov.au/statements/106263"
+          },
+          {
+            "record_id": "592bb1691e4ed6fd6c23",
+            "title": "Thousands of experienced Queenslanders backed to become qualified tradies",
+            "url": "https://statements.qld.gov.au/statements/106251"
+          },
+          {
+            "record_id": "5d72d36c44d7b9bcf077",
+            "title": "Cairns Special School upgrade complete",
+            "url": "https://statements.qld.gov.au/statements/106261"
+          },
+          {
+            "record_id": "a211aeb2894762d16a42",
+            "title": "Strong flow of gas-fired power proposals in Central Queensland",
+            "url": "https://statements.qld.gov.au/statements/106254"
+          },
+          {
+            "record_id": "d88dd57ece637fff66ff",
+            "title": "Rugby League World Cup brings Queensland fans closer to the action",
+            "url": "https://statements.qld.gov.au/statements/106252"
+          }
+        ],
+        "delta_hash": "ba5dce671da7b347a4be671b5acbd15814545f2943e938f829388eb83998a308"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-WAEC-MEDIA-20261022101158",
+      "source_change_event_id": "CHG-WATCH-WAEC-MEDIA-20261022101158",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-WAEC-MEDIA-20261022101158",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Western Australian Electoral Commission — media releases added 2 structured publication records to its forward-captured official index: Nominations Closed for the 2026 December Local Government Extraordinary Elections; Last page Last »",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-10-22T10:12:39.174Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "8de012a427c2bfd16aed",
+            "title": "Nominations Closed for the 2026 December Local Government Extraordinary Elections",
+            "url": "https://www.elections.wa.gov.au/about-us/media/releases/2639"
+          },
+          {
+            "record_id": "e3a40ab20bd0df517bf5",
+            "title": "Last page Last »",
+            "url": "https://www.elections.wa.gov.au/about-us/media/releases?page=7"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "248fc3e42b581597e3a6",
+            "title": "Last page Last »",
+            "url": "https://www.elections.wa.gov.au/about-us/media/releases?page=6"
+          },
+          {
+            "record_id": "d93c742fa943a194350c",
+            "title": "WA local government extraordinary elections: all June 2026 results now declared",
+            "url": "https://www.elections.wa.gov.au/about-us/media/releases/2596"
+          }
+        ],
+        "delta_hash": "f4aed97d4ad24af95b5bf2b7a2babc6f2d675f86ca11b489d923bf9bb905b40c"
       },
       "integrity": {
         "source_change_unchanged": true,

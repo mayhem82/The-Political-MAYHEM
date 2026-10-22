@@ -69,63 +69,63 @@
     {
       "jurisdiction_id": "AUS-FED",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-10-21T23:21:09.090Z",
-      "signals_examined": 235,
+      "last_screened_at": "2026-10-22T10:12:46.433Z",
+      "signals_examined": 238,
       "candidates_detected": 93
     },
     {
       "jurisdiction_id": "AUS-NSW",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-10-21T23:21:09.090Z",
-      "signals_examined": 98,
-      "candidates_detected": 21
+      "last_screened_at": "2026-10-22T10:12:46.433Z",
+      "signals_examined": 100,
+      "candidates_detected": 23
     },
     {
       "jurisdiction_id": "AUS-VIC",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-10-21T23:21:09.090Z",
+      "last_screened_at": "2026-10-22T10:12:46.433Z",
       "signals_examined": 25,
       "candidates_detected": 6
     },
     {
       "jurisdiction_id": "AUS-QLD",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-10-21T23:21:09.090Z",
-      "signals_examined": 60,
+      "last_screened_at": "2026-10-22T10:12:46.433Z",
+      "signals_examined": 61,
       "candidates_detected": 45
     },
     {
       "jurisdiction_id": "AUS-WA",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-10-21T23:21:09.090Z",
-      "signals_examined": 7,
+      "last_screened_at": "2026-10-22T10:12:46.433Z",
+      "signals_examined": 8,
       "candidates_detected": 3
     },
     {
       "jurisdiction_id": "AUS-SA",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-10-21T23:21:09.090Z",
+      "last_screened_at": "2026-10-22T10:12:46.433Z",
       "signals_examined": 4,
       "candidates_detected": 0
     },
     {
       "jurisdiction_id": "AUS-TAS",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-10-21T23:21:09.090Z",
+      "last_screened_at": "2026-10-22T10:12:46.433Z",
       "signals_examined": 21,
       "candidates_detected": 0
     },
     {
       "jurisdiction_id": "AUS-ACT",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-10-21T23:21:09.090Z",
+      "last_screened_at": "2026-10-22T10:12:46.433Z",
       "signals_examined": 24,
       "candidates_detected": 1
     },
     {
       "jurisdiction_id": "AUS-NT",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-10-21T23:21:09.090Z",
+      "last_screened_at": "2026-10-22T10:12:46.433Z",
       "signals_examined": 31,
       "candidates_detected": 0
     }
@@ -6964,21 +6964,92 @@
           "reason": "DETERMINISTIC_COMPETITION_FAMILY_SCREEN"
         }
       ]
+    },
+    {
+      "candidate_id": "DISC-NSW-ELECTION-8dfc8dce4824ace9",
+      "jurisdiction_id": "AUS-NSW",
+      "competition_family": "ELECTION",
+      "proposed_competition_class": "ELECTORAL",
+      "proposed_cycle_id": null,
+      "subject": "Nominations open: Cobar Shire Council by-election arrow_forward 19 Oct 2026 Nominations can be lodged from today with the NSW Electoral Commission Returning Officer and must be lodged by 12 noon on Wednesday, 28 October 2026.",
+      "candidate_state": "REVIEW_REQUIRED",
+      "detected_at": "2026-10-22T10:12:39.174Z",
+      "source_snapshot_ids": [
+        "AUTO-WATCH-NSWEC-MEDIA-20261022101158"
+      ],
+      "signal_event_ids": [
+        "SIG-REV-CHG-WATCH-NSWEC-MEDIA-20261022101158"
+      ],
+      "review_ids": [
+        "REV-CHG-WATCH-NSWEC-MEDIA-20261022101158"
+      ],
+      "area_evidence_ids": [],
+      "detail_version_ids": [],
+      "evidence_summary": "Screened PRIMARY_ELECTORAL_AUTHORITY evidence contains language consistent with a election competition candidate. This is a discovery observation, not a registered contest or outcome inference.",
+      "registration_blockers": [
+        "DISTINCT_ELECTORAL_CONTEST_SCOPE_REQUIRES_REVIEW",
+        "REGISTERED_COMPATIBLE_CYCLE_REQUIRED"
+      ],
+      "linked_contest_id": null,
+      "state_history": [
+        {
+          "from": null,
+          "to": "REVIEW_REQUIRED",
+          "at": "2026-10-22T10:12:39.174Z",
+          "reason": "DETERMINISTIC_COMPETITION_FAMILY_SCREEN"
+        }
+      ]
+    },
+    {
+      "candidate_id": "DISC-NSW-ELECTION-0ef9f7727a3e29ff",
+      "jurisdiction_id": "AUS-NSW",
+      "competition_family": "ELECTION",
+      "proposed_competition_class": "ELECTORAL",
+      "proposed_cycle_id": null,
+      "subject": "Ingested substantive electoral evidence from Nominations Open: Cobar Shire Council by-election. Registration threshold state: evidence gap. Missing requirements: missing condition resolved participant or team.",
+      "candidate_state": "EVIDENCE_GAP",
+      "detected_at": "2026-10-22T10:12:45.944Z",
+      "source_snapshot_ids": [
+        "AUTO-WATCH-NSWEC-MEDIA-20261022101158"
+      ],
+      "signal_event_ids": [
+        "INTEL-AREA-bf5f99262f9af80a295c02ab"
+      ],
+      "review_ids": [],
+      "area_evidence_ids": [
+        "AREA-bf5f99262f9af80a295c02ab"
+      ],
+      "detail_version_ids": [
+        "DETAIL-26a78a687fba567af0d9c8b2-V1"
+      ],
+      "evidence_summary": "Substantive source record body was acquired, routed to ELECTORAL, and written into intelligence with retained detail, source-snapshot and stage-10 threshold lineage. Match registration remains a separate action.",
+      "registration_blockers": [
+        "MISSING_CONDITION_RESOLVED_PARTICIPANT_OR_TEAM"
+      ],
+      "linked_contest_id": null,
+      "state_history": [
+        {
+          "from": null,
+          "to": "EVIDENCE_GAP",
+          "at": "2026-10-22T10:12:45.944Z",
+          "reason": "SUBSTANTIVE_THRESHOLD_EVALUATION_PROPAGATED"
+        }
+      ]
     }
   ],
-  "last_screened_at": "2026-10-21T23:21:09.090Z",
+  "last_screened_at": "2026-10-22T10:12:46.433Z",
   "last_screen_summary": {
-    "signals_examined": 505,
-    "candidates_total": 169,
-    "candidates_added": 0,
+    "signals_examined": 512,
+    "candidates_total": 171,
+    "candidates_added": 2,
     "candidate_lineage_merges": 367,
-    "substantive_area_events_examined": 118,
+    "substantive_area_events_examined": 119,
     "threshold_state_transitions": 0,
     "registered_contests_unchanged": true
   },
-  "last_duplicate_reconciliation_at": "2026-10-21T23:21:09.168Z",
+  "last_duplicate_reconciliation_at": "2026-10-22T10:12:46.542Z",
   "last_duplicate_reconciliation": {
     "rejected": 0,
-    "active_area_family_keys": 117
+    "active_area_family_keys": 118
   }
 }

@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-INTELLIGENCE-EVENTS-001",
   "scope": "Australia — multi-jurisdiction",
-  "captured_at": "2026-10-22T10:12:45.944Z",
+  "captured_at": "2026-10-22T20:08:18.682Z",
   "mode": "FORWARD_ONLY",
   "rules": {
     "observation_distinct_from_inference": true,
@@ -110047,6 +110047,52 @@
         "retracted_facts_excluded": true,
         "no_projection_effect_without_registered_target": true
       }
+    },
+    {
+      "event_id": "CHG-WATCH-WA-HANSARD-20261022200718",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-WA",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-WA-HANSARD-20261022200718",
+      "captured_at": "2026-10-22T20:07:18.414Z",
+      "event_date": "2026-10-23",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_PARLIAMENT",
+      "source_id": "SRC-WA-HANSARD",
+      "capture_mode": "NORMALISED_PAGE_HASH",
+      "review_policy": "REVIEW_UNSTRUCTURED_CHANGE",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-WA-HANSARD-20261021232030",
+        "content_hash": "8a7aa875497133ff8b039b5d611fec33514dbdf4b000e0571062d1c1176fe054",
+        "capture_mode": "NORMALISED_PAGE_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-WA-HANSARD-20261022200718",
+        "content_hash": "c04053217cf3b17bd179ff2b4b02da053c00e6011643681d112442be07bd120e",
+        "capture_mode": "NORMALISED_PAGE_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "TEXT_REPRESENTATION",
+        "first_difference_offset": 198,
+        "before_length": 10746,
+        "after_length": 10753,
+        "before_excerpt": "ent Home Site map Accessibility Contact us Alerts Home Menu Show/Hide website navigation The Legislative Assembly meets today (<TIME>) Watch live Watch Assembly live The Legislative Council meets today (<TIME>) Watch live Watch Council live The Environment and Public Affairs meets tomorrow (<TIME>) Committee meet tomorrow Search this website Advanced Search Search Parliamentary Business Bills (proposed laws) WA Acts and Regulations (curren",
+        "after_excerpt": "ent Home Site map Accessibility Contact us Alerts Home Menu Show/Hide website navigation The Legislative Assembly meets on 10/11/2026 (<TIME>) Assembly sit 10/11/2026 The Legislative Council meets on 10/11/2026 (<TIME>) Council sit 10/11/2026 The Environment and Public Affairs meets today (<TIME>) Watch live Watch Committee live Search this website Advanced Search Search Parliamentary Business Bills (proposed laws) WA Acts and Regulations (curren",
+        "delta_hash": "7570c270f84841914c8f82b3fdabc173f1c62a4aefdebcfe1d3613a1a43d9290"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
     }
   ]
 }

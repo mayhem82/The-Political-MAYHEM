@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-SIGNAL-REVIEWS-001",
   "created_at": "2026-09-09T05:05:00+10:00",
-  "updated_at": "2026-10-23T04:51:30.083Z",
+  "updated_at": "2026-10-23T15:05:16.748Z",
   "rules": {
     "append_only": true,
     "raw_source_change_is_immutable": true,
@@ -40013,6 +40013,122 @@
           }
         ],
         "delta_hash": "17ec9e809fe33b07b4d91ef07645a1a4bd57d3f63be251a16aea34a3fb7ce25a"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-ONENATION-NEWS-20261023150435",
+      "source_change_event_id": "CHG-WATCH-ONENATION-NEWS-20261023150435",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-ONENATION-NEWS-20261023150435",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": "AUS-FED-ONP",
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Pauline Hanson's One Nation — Latest News added 1 structured publication record to its forward-captured official index: Pauline launches “What’s Holding You Back?” listening tour",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-10-23T15:05:16.748Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "0cca8790a36f9fb5b952",
+            "title": "Pauline launches “What’s Holding You Back?” listening tour",
+            "url": "http://www.onenation.org.au/pauline-hanson-listening-tour",
+            "published": "Fri, 23 Oct 2026 16:45:28 +1000"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "ec98312ec8ae19b0d0bf",
+            "title": "Leader of Melbourne Mosque attended by accused Terror Pilot under Fire For Comments",
+            "url": "http://www.onenation.org.au/mosque-leader-funding-controversy",
+            "published": "Wed, 14 Oct 2026 16:27:33 +1000"
+          }
+        ],
+        "delta_hash": "1c3114db7171c3083ae3b43d47fe20031d03e7b0240897091e8a6bb499cda85c"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-NSW-MINISTERIAL-RELEASES-20261023150435",
+      "source_change_event_id": "CHG-WATCH-NSW-MINISTERIAL-RELEASES-20261023150435",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-NSW-MINISTERIAL-RELEASES-20261023150435",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "NSW Government — Ministerial releases added 1 structured publication record to its forward-captured official index: Historic day for koalas as landmark legislation passes NSW Parliament",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-10-23T15:05:16.748Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "6c266f04fb71a3831304",
+            "title": "Historic day for koalas as landmark legislation passes NSW Parliament",
+            "url": "https://www.nsw.gov.au/ministerial-releases/great-koala-national-park-created"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "7dc4f040677d83d503e0",
+            "title": "Independent costings extended to One Nation",
+            "url": "https://www.nsw.gov.au/ministerial-releases/independent-costings-extended-to-one-nation"
+          }
+        ],
+        "delta_hash": "35d487304a79b3ca1214afa9719d57c400c65c2ca15ceaa6d563ecfe85a35872"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-NSWEC-MEDIA-20261023150435",
+      "source_change_event_id": "CHG-WATCH-NSWEC-MEDIA-20261023150435",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-NSWEC-MEDIA-20261023150435",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "NSW Electoral Commission — news and media releases added 1 structured publication record to its forward-captured official index: arrow_forward Learn more",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-10-23T15:05:16.748Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "0144bab8a958197251f7",
+            "title": "arrow_forward Learn more",
+            "url": "https://elections.nsw.gov.au/service-maintenance-schedule"
+          }
+        ],
+        "removed_records": [],
+        "delta_hash": "f3d698a3f379f72e685485a8855f833eeadcf890254b7f6dc577b69511f79aca"
       },
       "integrity": {
         "source_change_unchanged": true,

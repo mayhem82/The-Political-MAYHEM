@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-INTELLIGENCE-EVENTS-001",
   "scope": "Australia — multi-jurisdiction",
-  "captured_at": "2026-10-23T04:51:34.732Z",
+  "captured_at": "2026-10-23T15:05:22.026Z",
   "mode": "FORWARD_ONLY",
   "rules": {
     "observation_distinct_from_inference": true,
@@ -110691,6 +110691,368 @@
           "url": "https://statements.qld.gov.au/statements/106257"
         }
       ],
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "underlying_publication_claims_not_promoted_to_verified_fact": true,
+        "source_change_parent_retained": true,
+        "deterministic_review": true
+      }
+    },
+    {
+      "event_id": "CHG-WATCH-ONENATION-NEWS-20261023150435",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-FED",
+      "party_id": "AUS-FED-ONP",
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-ONENATION-NEWS-20261023150435",
+      "captured_at": "2026-10-23T15:04:35.369Z",
+      "event_date": "2026-10-24",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_PARTY",
+      "source_id": "SRC-ONENATION-FEDERAL-NEWS",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "review_policy": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-ONENATION-NEWS-20261022101158",
+        "content_hash": "a5c8178028561c6140ff949fd4626fec601e2ac61a054536d26eaf03b561147e",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-ONENATION-NEWS-20261023150435",
+        "content_hash": "a4181d0a38262e024b468b6393f0529841c839a44f28418cec78c91411c25f5a",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "STRUCTURED_RECORD_SET",
+        "records_added": [
+          {
+            "record_id": "0cca8790a36f9fb5b952",
+            "title": "Pauline launches “What’s Holding You Back?” listening tour",
+            "url": "http://www.onenation.org.au/pauline-hanson-listening-tour",
+            "published": "Fri, 23 Oct 2026 16:45:28 +1000"
+          }
+        ],
+        "records_removed": [
+          {
+            "record_id": "ec98312ec8ae19b0d0bf",
+            "title": "Leader of Melbourne Mosque attended by accused Terror Pilot under Fire For Comments",
+            "url": "http://www.onenation.org.au/mosque-leader-funding-controversy",
+            "published": "Wed, 14 Oct 2026 16:27:33 +1000"
+          }
+        ],
+        "added_count": 1,
+        "removed_count": 1,
+        "before_count": 20,
+        "after_count": 20,
+        "delta_hash": "1c3114db7171c3083ae3b43d47fe20031d03e7b0240897091e8a6bb499cda85c"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-NSW-MINISTERIAL-RELEASES-20261023150435",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-NSW",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-NSW-MINISTERIAL-RELEASES-20261023150435",
+      "captured_at": "2026-10-23T15:04:35.369Z",
+      "event_date": "2026-10-24",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-NSW-MINISTERIAL-RELEASES",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "review_policy": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-NSW-MINISTERIAL-RELEASES-20261023045028",
+        "content_hash": "5f91ef711a457c18739c2b21b187b63d6ea4ab0e34ea29b36a011741a5a3609c",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-NSW-MINISTERIAL-RELEASES-20261023150435",
+        "content_hash": "109474a2b65de1fa93f289cccb4db88a9875b0a9e54f58e08b0a420153dd5053",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "STRUCTURED_RECORD_SET",
+        "records_added": [
+          {
+            "record_id": "6c266f04fb71a3831304",
+            "title": "Historic day for koalas as landmark legislation passes NSW Parliament",
+            "url": "https://www.nsw.gov.au/ministerial-releases/great-koala-national-park-created"
+          }
+        ],
+        "records_removed": [
+          {
+            "record_id": "7dc4f040677d83d503e0",
+            "title": "Independent costings extended to One Nation",
+            "url": "https://www.nsw.gov.au/ministerial-releases/independent-costings-extended-to-one-nation"
+          }
+        ],
+        "added_count": 1,
+        "removed_count": 1,
+        "before_count": 88,
+        "after_count": 88,
+        "delta_hash": "35d487304a79b3ca1214afa9719d57c400c65c2ca15ceaa6d563ecfe85a35872"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-NSWEC-MEDIA-20261023150435",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-NSW",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-NSWEC-MEDIA-20261023150435",
+      "captured_at": "2026-10-23T15:04:35.369Z",
+      "event_date": "2026-10-24",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_ELECTORAL_AUTHORITY",
+      "source_id": "SRC-NSWEC-MEDIA",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "review_policy": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-NSWEC-MEDIA-20261022101158",
+        "content_hash": "797ea8e7aef1f33ae626c680e3214fb78137a4379734f881eed7074ed5abcb6d",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-NSWEC-MEDIA-20261023150435",
+        "content_hash": "b3da009de70a74a7725e31c85e1e4edcfca094e856a571c463a0870f8a10f28f",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "STRUCTURED_RECORD_SET",
+        "records_added": [
+          {
+            "record_id": "0144bab8a958197251f7",
+            "title": "arrow_forward Learn more",
+            "url": "https://elections.nsw.gov.au/service-maintenance-schedule"
+          }
+        ],
+        "records_removed": [],
+        "added_count": 1,
+        "removed_count": 0,
+        "before_count": 366,
+        "after_count": 367,
+        "delta_hash": "f3d698a3f379f72e685485a8855f833eeadcf890254b7f6dc577b69511f79aca"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-WA-HANSARD-20261023150435",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-WA",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-WA-HANSARD-20261023150435",
+      "captured_at": "2026-10-23T15:04:35.369Z",
+      "event_date": "2026-10-24",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_PARLIAMENT",
+      "source_id": "SRC-WA-HANSARD",
+      "capture_mode": "NORMALISED_PAGE_HASH",
+      "review_policy": "REVIEW_UNSTRUCTURED_CHANGE",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-WA-HANSARD-20261022200718",
+        "content_hash": "c04053217cf3b17bd179ff2b4b02da053c00e6011643681d112442be07bd120e",
+        "capture_mode": "NORMALISED_PAGE_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-WA-HANSARD-20261023150435",
+        "content_hash": "5db97505a6cd6991c78002aa70b325545bb19bc77a77396f503e438f2ab3533c",
+        "capture_mode": "NORMALISED_PAGE_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "TEXT_REPRESENTATION",
+        "first_difference_offset": 326,
+        "before_length": 10753,
+        "after_length": 10744,
+        "before_excerpt": "/2026 (<TIME>) Assembly sit 10/11/2026 The Legislative Council meets on 10/11/2026 (<TIME>) Council sit 10/11/2026 The Environment and Public Affairs meets today (<TIME>) Watch live Watch Committee live Search this website Advanced Search Search Parliamentary Business Bills (proposed laws) WA Acts and Regulations (curren",
+        "after_excerpt": "/2026 (<TIME>) Assembly sit 10/11/2026 The Legislative Council meets on 10/11/2026 (<TIME>) Council sit 10/11/2026 The Estimates Committee meets on 18/11/2026 (<TIME>) Committee meet 18/11/2026 Search this website Advanced Search Search Parliamentary Business Bills (proposed laws) WA Acts and Regulations (curren",
+        "delta_hash": "ae7d9459143710c2c13f691fdecf00740445e059ee6ecd1faf40eb533be129a8"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "SIG-REV-CHG-WATCH-ONENATION-NEWS-20261023150435",
+      "parent_event_id": "CHG-WATCH-ONENATION-NEWS-20261023150435",
+      "review_id": "REV-CHG-WATCH-ONENATION-NEWS-20261023150435",
+      "jurisdiction_id": "AUS-FED",
+      "party_id": "AUS-FED-ONP",
+      "actor_id": null,
+      "contest_id": null,
+      "cycle_id": null,
+      "source_snapshot_id": "AUTO-WATCH-ONENATION-NEWS-20261023150435",
+      "record_id": "0cca8790a36f9fb5b952",
+      "captured_at": "2026-10-23T15:05:16.748Z",
+      "event_date": "2026-10-24",
+      "checkpoint": "CONTINUOUS_FORWARD_SIGNAL_REVIEW",
+      "event_type": "SIGNAL_CREATED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_PARTY",
+      "source_id": "SRC-ONENATION-FEDERAL-NEWS",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "claim": "Pauline Hanson's One Nation — Latest News added 1 structured publication record to its forward-captured official index: Pauline launches “What’s Holding You Back?” listening tour",
+      "observed_behaviour": "One or more structured publication records appeared in the monitored official source index after the preceding forward snapshot.",
+      "publication_records_added": [
+        {
+          "record_id": "0cca8790a36f9fb5b952",
+          "title": "Pauline launches “What’s Holding You Back?” listening tour",
+          "url": "http://www.onenation.org.au/pauline-hanson-listening-tour",
+          "published": "Fri, 23 Oct 2026 16:45:28 +1000"
+        }
+      ],
+      "publication_records_removed": [
+        {
+          "record_id": "ec98312ec8ae19b0d0bf",
+          "title": "Leader of Melbourne Mosque attended by accused Terror Pilot under Fire For Comments",
+          "url": "http://www.onenation.org.au/mosque-leader-funding-controversy",
+          "published": "Wed, 14 Oct 2026 16:27:33 +1000"
+        }
+      ],
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "underlying_publication_claims_not_promoted_to_verified_fact": true,
+        "source_change_parent_retained": true,
+        "deterministic_review": true
+      }
+    },
+    {
+      "event_id": "SIG-REV-CHG-WATCH-NSW-MINISTERIAL-RELEASES-20261023150435",
+      "parent_event_id": "CHG-WATCH-NSW-MINISTERIAL-RELEASES-20261023150435",
+      "review_id": "REV-CHG-WATCH-NSW-MINISTERIAL-RELEASES-20261023150435",
+      "jurisdiction_id": "AUS-NSW",
+      "party_id": null,
+      "actor_id": null,
+      "contest_id": null,
+      "cycle_id": null,
+      "source_snapshot_id": "AUTO-WATCH-NSW-MINISTERIAL-RELEASES-20261023150435",
+      "record_id": "6c266f04fb71a3831304",
+      "captured_at": "2026-10-23T15:05:16.748Z",
+      "event_date": "2026-10-24",
+      "checkpoint": "CONTINUOUS_FORWARD_SIGNAL_REVIEW",
+      "event_type": "SIGNAL_CREATED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-NSW-MINISTERIAL-RELEASES",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "claim": "NSW Government — Ministerial releases added 1 structured publication record to its forward-captured official index: Historic day for koalas as landmark legislation passes NSW Parliament",
+      "observed_behaviour": "One or more structured publication records appeared in the monitored official source index after the preceding forward snapshot.",
+      "publication_records_added": [
+        {
+          "record_id": "6c266f04fb71a3831304",
+          "title": "Historic day for koalas as landmark legislation passes NSW Parliament",
+          "url": "https://www.nsw.gov.au/ministerial-releases/great-koala-national-park-created"
+        }
+      ],
+      "publication_records_removed": [
+        {
+          "record_id": "7dc4f040677d83d503e0",
+          "title": "Independent costings extended to One Nation",
+          "url": "https://www.nsw.gov.au/ministerial-releases/independent-costings-extended-to-one-nation"
+        }
+      ],
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "underlying_publication_claims_not_promoted_to_verified_fact": true,
+        "source_change_parent_retained": true,
+        "deterministic_review": true
+      }
+    },
+    {
+      "event_id": "SIG-REV-CHG-WATCH-NSWEC-MEDIA-20261023150435",
+      "parent_event_id": "CHG-WATCH-NSWEC-MEDIA-20261023150435",
+      "review_id": "REV-CHG-WATCH-NSWEC-MEDIA-20261023150435",
+      "jurisdiction_id": "AUS-NSW",
+      "party_id": null,
+      "actor_id": null,
+      "contest_id": null,
+      "cycle_id": null,
+      "source_snapshot_id": "AUTO-WATCH-NSWEC-MEDIA-20261023150435",
+      "record_id": "0144bab8a958197251f7",
+      "captured_at": "2026-10-23T15:05:16.748Z",
+      "event_date": "2026-10-24",
+      "checkpoint": "CONTINUOUS_FORWARD_SIGNAL_REVIEW",
+      "event_type": "SIGNAL_CREATED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_ELECTORAL_AUTHORITY",
+      "source_id": "SRC-NSWEC-MEDIA",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "claim": "NSW Electoral Commission — news and media releases added 1 structured publication record to its forward-captured official index: arrow_forward Learn more",
+      "observed_behaviour": "One or more structured publication records appeared in the monitored official source index after the preceding forward snapshot.",
+      "publication_records_added": [
+        {
+          "record_id": "0144bab8a958197251f7",
+          "title": "arrow_forward Learn more",
+          "url": "https://elections.nsw.gov.au/service-maintenance-schedule"
+        }
+      ],
+      "publication_records_removed": [],
       "inference": null,
       "inference_class": "NONE",
       "projection_effect": "NO_EFFECT",

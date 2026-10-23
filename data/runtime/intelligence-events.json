@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-INTELLIGENCE-EVENTS-001",
   "scope": "Australia — multi-jurisdiction",
-  "captured_at": "2026-10-22T20:08:18.682Z",
+  "captured_at": "2026-10-23T04:51:34.732Z",
   "mode": "FORWARD_ONLY",
   "rules": {
     "observation_distinct_from_inference": true,
@@ -110093,6 +110093,614 @@
       "projection_effect": "NO_EFFECT",
       "information_advantage": "NONE",
       "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-PM-MEDIA-20261023045028",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-FED",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-PM-MEDIA-20261023045028",
+      "captured_at": "2026-10-23T04:50:28.592Z",
+      "event_date": "2026-10-23",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-PM-MEDIA",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "review_policy": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-PM-MEDIA-20261022101158",
+        "content_hash": "f330c276126a3ca8f6cecf9032f48dfd6269d9a50fac7c0105e8f6333cfbf52c",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-PM-MEDIA-20261023045028",
+        "content_hash": "41f5b42f84f6840346741939371630852cd706a61251e23ab2d965a46791b504",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "STRUCTURED_RECORD_SET",
+        "records_added": [
+          {
+            "record_id": "c1c213874a2f258b8a6d",
+            "title": "Funding for world-class Gold Coast sports facility",
+            "url": "https://www.pm.gov.au/media/funding-world-class-gold-coast-sports-facility"
+          },
+          {
+            "record_id": "ff449f68710d6dbae6e5",
+            "title": "Future Brisbane",
+            "url": "https://www.pm.gov.au/media/future-brisbane"
+          }
+        ],
+        "records_removed": [
+          {
+            "record_id": "b4d6edea9c997a4c1196",
+            "title": "Television interview - Sunrise",
+            "url": "https://www.pm.gov.au/media/television-interview-sunrise-45"
+          },
+          {
+            "record_id": "fc4af41533176c0b21d7",
+            "title": "Television interview - Today Show",
+            "url": "https://www.pm.gov.au/media/television-interview-today-show-30"
+          }
+        ],
+        "added_count": 2,
+        "removed_count": 2,
+        "before_count": 27,
+        "after_count": 27,
+        "delta_hash": "4a9947c8590b7bb73bee29704b7957c37897d46673547a5f36d25ff0f5b9d518"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-NSW-MINISTERIAL-RELEASES-20261023045028",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-NSW",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-NSW-MINISTERIAL-RELEASES-20261023045028",
+      "captured_at": "2026-10-23T04:50:28.592Z",
+      "event_date": "2026-10-23",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-NSW-MINISTERIAL-RELEASES",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "review_policy": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-NSW-MINISTERIAL-RELEASES-20261022101158",
+        "content_hash": "a1945dd334650d9a4bd62fa78f3a098a4667ba3efa9dd7c5c962f1ef97294731",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-NSW-MINISTERIAL-RELEASES-20261023045028",
+        "content_hash": "5f91ef711a457c18739c2b21b187b63d6ea4ab0e34ea29b36a011741a5a3609c",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "STRUCTURED_RECORD_SET",
+        "records_added": [
+          {
+            "record_id": "1d030e68a8ff4684cf85",
+            "title": "Jobs and investment in train for Hunter through post mining land reuse",
+            "url": "https://www.nsw.gov.au/ministerial-releases/jobs-and-investment-for-hunter"
+          },
+          {
+            "record_id": "5f45117f1186d267c0a9",
+            "title": "New opportunities for First Nations artists through Vivid Sydney",
+            "url": "https://www.nsw.gov.au/departments-and-agencies/dciths/ministerial-media-releases/vivid-sydney-first-nations-artist-opportunities"
+          },
+          {
+            "record_id": "7a1184747952c3ccba1e",
+            "title": "New Rekindling the Spirit facility restores vital services in Lismore after floods",
+            "url": "https://www.nsw.gov.au/ministerial-releases/new-rekindling-spirit-facility-restores-vital-services-lismore-after-floods"
+          },
+          {
+            "record_id": "7dc4f040677d83d503e0",
+            "title": "Independent costings extended to One Nation",
+            "url": "https://www.nsw.gov.au/ministerial-releases/independent-costings-extended-to-one-nation"
+          },
+          {
+            "record_id": "8c37a1c7288942a25dff",
+            "title": "Update on PHP response",
+            "url": "https://www.nsw.gov.au/ministerial-releases/update-on-php-response"
+          },
+          {
+            "record_id": "8e2992add157835003d7",
+            "title": "New bus route to connect Inner West residents from Balmain East to Leichhardt",
+            "url": "https://www.nsw.gov.au/ministerial-releases/new-bus-route-from-balmain-east-to-leichhardt"
+          },
+          {
+            "record_id": "94fbc9b57da56b0af0af",
+            "title": "Building more homes for Lake Macquarie: Morisset project passes halfway point",
+            "url": "https://www.nsw.gov.au/ministerial-releases/morisset-project-passes-halfway-point"
+          },
+          {
+            "record_id": "9d85b68d8755a2f079e3",
+            "title": "Thousands of Hunter potholes patched in statewide roads blitz",
+            "url": "https://www.nsw.gov.au/ministerial-releases/thousands-of-hunter-potholes-patched-statewide-roads-blitz"
+          },
+          {
+            "record_id": "d9834acb4316a8dede71",
+            "title": "Minns Labor Government marks one year of tougher child safety laws",
+            "url": "https://www.nsw.gov.au/ministerial-releases/tougher-child-safety-laws-mark-one-year"
+          },
+          {
+            "record_id": "e3a74ae5009e8ecedee1",
+            "title": "Practical reforms to reduce plastics and microplastics",
+            "url": "https://www.nsw.gov.au/ministerial-releases/practical-reforms-to-reduce-plastics-and-microplastics"
+          }
+        ],
+        "records_removed": [],
+        "added_count": 10,
+        "removed_count": 0,
+        "before_count": 78,
+        "after_count": 88,
+        "delta_hash": "c78cd2b1c1c61a25aabccd8f63465a9cbcab0e86df4545c8f5ed1594427ede00"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-QLD-HANSARD-20261023045028",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-QLD",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-QLD-HANSARD-20261023045028",
+      "captured_at": "2026-10-23T04:50:28.592Z",
+      "event_date": "2026-10-23",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_PARLIAMENT",
+      "source_id": "SRC-QLD-HANSARD",
+      "capture_mode": "NORMALISED_PAGE_HASH",
+      "review_policy": "REVIEW_UNSTRUCTURED_CHANGE",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-QLD-HANSARD-20260928004727",
+        "content_hash": "43aeaa24cf1399ecab818ebecf74977a3c452dc0627ae44ff45bb3cd957f40fd",
+        "capture_mode": "NORMALISED_PAGE_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-QLD-HANSARD-20261023045028",
+        "content_hash": "fc00d1f24100c369a84cb3567eb8833b8ae4d6e8bc4786041d10fc024018fb87",
+        "capture_mode": "NORMALISED_PAGE_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "TEXT_REPRESENTATION",
+        "first_difference_offset": 2827,
+        "before_length": 7973,
+        "after_length": 7994,
+        "before_excerpt": "also watch live and archived broadcasts on demand. What's New Sitting Dates Latest Sitting Week Dates Work of the House Live and Archived Broadcasts Live Parliament and Committee Broadcast Archived Chamber Broadcasts Archived Committee Broa",
+        "after_excerpt": "also watch live and archived broadcasts on demand. What's New Sitting Dates Latest Sitting Week Dates Work of the House Chamber Seating Plan Live and Archived Broadcasts Live Parliament and Committee Broadcast Archived Chamber Broadcasts Archived Committee Broa",
+        "delta_hash": "8ad73a0aef9c98d8d48c57c8d4b6bc6bbb456937e9165eb64994112440b1c206"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261023045028",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-QLD",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-QLD-MINISTERIAL-STATEMENTS-20261023045028",
+      "captured_at": "2026-10-23T04:50:28.592Z",
+      "event_date": "2026-10-23",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-QLD-MINISTERIAL-STATEMENTS",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "review_policy": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-QLD-MINISTERIAL-STATEMENTS-20261022101158",
+        "content_hash": "37dedbfdc4d022b3ca034c6df89ee9357aec29430f28c3b9c3ca949e169ad9ba",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-QLD-MINISTERIAL-STATEMENTS-20261023045028",
+        "content_hash": "88242d365722d59b67f6c2e5a962b4d7b3c295012d34b2bcc620269e432604ef",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "STRUCTURED_RECORD_SET",
+        "records_added": [
+          {
+            "record_id": "12d1f47d37e7439792ec",
+            "title": "Energy Roadmap delivering lower power prices in Toowoomba",
+            "url": "https://statements.qld.gov.au/statements/106289"
+          },
+          {
+            "record_id": "55d27d18fde8cafd4226",
+            "title": "US market recognises Queensland is open for business",
+            "url": "https://statements.qld.gov.au/statements/106294"
+          },
+          {
+            "record_id": "6800b9bbc457047c952c",
+            "title": "South Bank’s next chapter for 2032 and beyond",
+            "url": "https://statements.qld.gov.au/statements/106290"
+          },
+          {
+            "record_id": "73998357d261573689fe",
+            "title": "Statement from Minister Amanda Camm",
+            "url": "https://statements.qld.gov.au/statements/106293"
+          },
+          {
+            "record_id": "7bef8974379a60299530",
+            "title": "Kuranda Weir built back better to strengthen Queensland’s energy resilience",
+            "url": "https://statements.qld.gov.au/statements/106288"
+          },
+          {
+            "record_id": "9edbb55fa111bf4d26e5",
+            "title": "Australian-first facility to accelerate critical minerals sector",
+            "url": "https://statements.qld.gov.au/statements/106284"
+          },
+          {
+            "record_id": "adfc54ad587b9708f16b",
+            "title": "Queensland Water Resources appointed to advance Emu Swamp Dam",
+            "url": "https://statements.qld.gov.au/statements/106291"
+          },
+          {
+            "record_id": "f7d6c8bdf32fb0f4cb91",
+            "title": "New security funding to protect small and family businesses, tradie utes, vans and mobile vehicles",
+            "url": "https://statements.qld.gov.au/statements/106285"
+          }
+        ],
+        "records_removed": [
+          {
+            "record_id": "125eb5f1a2066b246331",
+            "title": "Statement from the Attorney-General",
+            "url": "https://statements.qld.gov.au/statements/106266"
+          },
+          {
+            "record_id": "26a06004396e16803d22",
+            "title": "Games On! Round 2 boost for Cairns Surf Life Saving Club",
+            "url": "https://statements.qld.gov.au/statements/106275"
+          },
+          {
+            "record_id": "2c4df732af3cae18400d",
+            "title": "Risk Response Bail to reduce youth reoffending",
+            "url": "https://statements.qld.gov.au/statements/106272"
+          },
+          {
+            "record_id": "3ac10e9e2ee62af14ce9",
+            "title": "Exclusive Brisbane concert draws visitors from across the globe",
+            "url": "https://statements.qld.gov.au/statements/106265"
+          },
+          {
+            "record_id": "3ecab44afeb23e625030",
+            "title": "Jack's Law turning the tide on Labor's Youth Crime Crisis in Far North Queensland",
+            "url": "https://statements.qld.gov.au/statements/106269"
+          },
+          {
+            "record_id": "649c656982a9a963b6ec",
+            "title": "Works start on Bruce Highway at Gairloch to get Queenslanders home sooner and safer",
+            "url": "https://statements.qld.gov.au/statements/106262"
+          },
+          {
+            "record_id": "7590143a0c587da67387",
+            "title": "Far North Queensland small and family businesses first to access free AI courses",
+            "url": "https://statements.qld.gov.au/statements/106260"
+          },
+          {
+            "record_id": "9c51a543630d8808de24",
+            "title": "Nation-leading e-mobility laws deliver positive early results with reduced hospitalisations",
+            "url": "https://statements.qld.gov.au/statements/106257"
+          }
+        ],
+        "added_count": 8,
+        "removed_count": 8,
+        "before_count": 16,
+        "after_count": 16,
+        "delta_hash": "17ec9e809fe33b07b4d91ef07645a1a4bd57d3f63be251a16aea34a3fb7ce25a"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "SIG-REV-CHG-WATCH-PM-MEDIA-20261023045028",
+      "parent_event_id": "CHG-WATCH-PM-MEDIA-20261023045028",
+      "review_id": "REV-CHG-WATCH-PM-MEDIA-20261023045028",
+      "jurisdiction_id": "AUS-FED",
+      "party_id": null,
+      "actor_id": null,
+      "contest_id": null,
+      "cycle_id": null,
+      "source_snapshot_id": "AUTO-WATCH-PM-MEDIA-20261023045028",
+      "record_id": null,
+      "captured_at": "2026-10-23T04:51:30.083Z",
+      "event_date": "2026-10-23",
+      "checkpoint": "CONTINUOUS_FORWARD_SIGNAL_REVIEW",
+      "event_type": "SIGNAL_CREATED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-PM-MEDIA",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "claim": "Prime Minister of Australia — media added 2 structured publication records to its forward-captured official index: Funding for world-class Gold Coast sports facility; Future Brisbane",
+      "observed_behaviour": "One or more structured publication records appeared in the monitored official source index after the preceding forward snapshot.",
+      "publication_records_added": [
+        {
+          "record_id": "c1c213874a2f258b8a6d",
+          "title": "Funding for world-class Gold Coast sports facility",
+          "url": "https://www.pm.gov.au/media/funding-world-class-gold-coast-sports-facility"
+        },
+        {
+          "record_id": "ff449f68710d6dbae6e5",
+          "title": "Future Brisbane",
+          "url": "https://www.pm.gov.au/media/future-brisbane"
+        }
+      ],
+      "publication_records_removed": [
+        {
+          "record_id": "b4d6edea9c997a4c1196",
+          "title": "Television interview - Sunrise",
+          "url": "https://www.pm.gov.au/media/television-interview-sunrise-45"
+        },
+        {
+          "record_id": "fc4af41533176c0b21d7",
+          "title": "Television interview - Today Show",
+          "url": "https://www.pm.gov.au/media/television-interview-today-show-30"
+        }
+      ],
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "underlying_publication_claims_not_promoted_to_verified_fact": true,
+        "source_change_parent_retained": true,
+        "deterministic_review": true
+      }
+    },
+    {
+      "event_id": "SIG-REV-CHG-WATCH-NSW-MINISTERIAL-RELEASES-20261023045028",
+      "parent_event_id": "CHG-WATCH-NSW-MINISTERIAL-RELEASES-20261023045028",
+      "review_id": "REV-CHG-WATCH-NSW-MINISTERIAL-RELEASES-20261023045028",
+      "jurisdiction_id": "AUS-NSW",
+      "party_id": null,
+      "actor_id": null,
+      "contest_id": null,
+      "cycle_id": null,
+      "source_snapshot_id": "AUTO-WATCH-NSW-MINISTERIAL-RELEASES-20261023045028",
+      "record_id": null,
+      "captured_at": "2026-10-23T04:51:30.083Z",
+      "event_date": "2026-10-23",
+      "checkpoint": "CONTINUOUS_FORWARD_SIGNAL_REVIEW",
+      "event_type": "SIGNAL_CREATED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-NSW-MINISTERIAL-RELEASES",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "claim": "NSW Government — Ministerial releases added 10 structured publication records to its forward-captured official index: Jobs and investment in train for Hunter through post mining land reuse; New opportunities for First Nations artists through Vivid Sydney; New Rekindling the Spirit facility restores vital services in Lismore after floods; Independent costings extended to One Nation; Update on PHP response; +5 more",
+      "observed_behaviour": "One or more structured publication records appeared in the monitored official source index after the preceding forward snapshot.",
+      "publication_records_added": [
+        {
+          "record_id": "1d030e68a8ff4684cf85",
+          "title": "Jobs and investment in train for Hunter through post mining land reuse",
+          "url": "https://www.nsw.gov.au/ministerial-releases/jobs-and-investment-for-hunter"
+        },
+        {
+          "record_id": "5f45117f1186d267c0a9",
+          "title": "New opportunities for First Nations artists through Vivid Sydney",
+          "url": "https://www.nsw.gov.au/departments-and-agencies/dciths/ministerial-media-releases/vivid-sydney-first-nations-artist-opportunities"
+        },
+        {
+          "record_id": "7a1184747952c3ccba1e",
+          "title": "New Rekindling the Spirit facility restores vital services in Lismore after floods",
+          "url": "https://www.nsw.gov.au/ministerial-releases/new-rekindling-spirit-facility-restores-vital-services-lismore-after-floods"
+        },
+        {
+          "record_id": "7dc4f040677d83d503e0",
+          "title": "Independent costings extended to One Nation",
+          "url": "https://www.nsw.gov.au/ministerial-releases/independent-costings-extended-to-one-nation"
+        },
+        {
+          "record_id": "8c37a1c7288942a25dff",
+          "title": "Update on PHP response",
+          "url": "https://www.nsw.gov.au/ministerial-releases/update-on-php-response"
+        },
+        {
+          "record_id": "8e2992add157835003d7",
+          "title": "New bus route to connect Inner West residents from Balmain East to Leichhardt",
+          "url": "https://www.nsw.gov.au/ministerial-releases/new-bus-route-from-balmain-east-to-leichhardt"
+        },
+        {
+          "record_id": "94fbc9b57da56b0af0af",
+          "title": "Building more homes for Lake Macquarie: Morisset project passes halfway point",
+          "url": "https://www.nsw.gov.au/ministerial-releases/morisset-project-passes-halfway-point"
+        },
+        {
+          "record_id": "9d85b68d8755a2f079e3",
+          "title": "Thousands of Hunter potholes patched in statewide roads blitz",
+          "url": "https://www.nsw.gov.au/ministerial-releases/thousands-of-hunter-potholes-patched-statewide-roads-blitz"
+        },
+        {
+          "record_id": "d9834acb4316a8dede71",
+          "title": "Minns Labor Government marks one year of tougher child safety laws",
+          "url": "https://www.nsw.gov.au/ministerial-releases/tougher-child-safety-laws-mark-one-year"
+        },
+        {
+          "record_id": "e3a74ae5009e8ecedee1",
+          "title": "Practical reforms to reduce plastics and microplastics",
+          "url": "https://www.nsw.gov.au/ministerial-releases/practical-reforms-to-reduce-plastics-and-microplastics"
+        }
+      ],
+      "publication_records_removed": [],
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "underlying_publication_claims_not_promoted_to_verified_fact": true,
+        "source_change_parent_retained": true,
+        "deterministic_review": true
+      }
+    },
+    {
+      "event_id": "SIG-REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261023045028",
+      "parent_event_id": "CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261023045028",
+      "review_id": "REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261023045028",
+      "jurisdiction_id": "AUS-QLD",
+      "party_id": null,
+      "actor_id": null,
+      "contest_id": null,
+      "cycle_id": null,
+      "source_snapshot_id": "AUTO-WATCH-QLD-MINISTERIAL-STATEMENTS-20261023045028",
+      "record_id": null,
+      "captured_at": "2026-10-23T04:51:30.083Z",
+      "event_date": "2026-10-23",
+      "checkpoint": "CONTINUOUS_FORWARD_SIGNAL_REVIEW",
+      "event_type": "SIGNAL_CREATED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-QLD-MINISTERIAL-STATEMENTS",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "claim": "Queensland Government — Ministerial Media Statements added 8 structured publication records to its forward-captured official index: Energy Roadmap delivering lower power prices in Toowoomba; US market recognises Queensland is open for business; South Bank’s next chapter for 2032 and beyond; Statement from Minister Amanda Camm; Kuranda Weir built back better to strengthen Queensland’s energy resilience; +3 more",
+      "observed_behaviour": "One or more structured publication records appeared in the monitored official source index after the preceding forward snapshot.",
+      "publication_records_added": [
+        {
+          "record_id": "12d1f47d37e7439792ec",
+          "title": "Energy Roadmap delivering lower power prices in Toowoomba",
+          "url": "https://statements.qld.gov.au/statements/106289"
+        },
+        {
+          "record_id": "55d27d18fde8cafd4226",
+          "title": "US market recognises Queensland is open for business",
+          "url": "https://statements.qld.gov.au/statements/106294"
+        },
+        {
+          "record_id": "6800b9bbc457047c952c",
+          "title": "South Bank’s next chapter for 2032 and beyond",
+          "url": "https://statements.qld.gov.au/statements/106290"
+        },
+        {
+          "record_id": "73998357d261573689fe",
+          "title": "Statement from Minister Amanda Camm",
+          "url": "https://statements.qld.gov.au/statements/106293"
+        },
+        {
+          "record_id": "7bef8974379a60299530",
+          "title": "Kuranda Weir built back better to strengthen Queensland’s energy resilience",
+          "url": "https://statements.qld.gov.au/statements/106288"
+        },
+        {
+          "record_id": "9edbb55fa111bf4d26e5",
+          "title": "Australian-first facility to accelerate critical minerals sector",
+          "url": "https://statements.qld.gov.au/statements/106284"
+        },
+        {
+          "record_id": "adfc54ad587b9708f16b",
+          "title": "Queensland Water Resources appointed to advance Emu Swamp Dam",
+          "url": "https://statements.qld.gov.au/statements/106291"
+        },
+        {
+          "record_id": "f7d6c8bdf32fb0f4cb91",
+          "title": "New security funding to protect small and family businesses, tradie utes, vans and mobile vehicles",
+          "url": "https://statements.qld.gov.au/statements/106285"
+        }
+      ],
+      "publication_records_removed": [
+        {
+          "record_id": "125eb5f1a2066b246331",
+          "title": "Statement from the Attorney-General",
+          "url": "https://statements.qld.gov.au/statements/106266"
+        },
+        {
+          "record_id": "26a06004396e16803d22",
+          "title": "Games On! Round 2 boost for Cairns Surf Life Saving Club",
+          "url": "https://statements.qld.gov.au/statements/106275"
+        },
+        {
+          "record_id": "2c4df732af3cae18400d",
+          "title": "Risk Response Bail to reduce youth reoffending",
+          "url": "https://statements.qld.gov.au/statements/106272"
+        },
+        {
+          "record_id": "3ac10e9e2ee62af14ce9",
+          "title": "Exclusive Brisbane concert draws visitors from across the globe",
+          "url": "https://statements.qld.gov.au/statements/106265"
+        },
+        {
+          "record_id": "3ecab44afeb23e625030",
+          "title": "Jack's Law turning the tide on Labor's Youth Crime Crisis in Far North Queensland",
+          "url": "https://statements.qld.gov.au/statements/106269"
+        },
+        {
+          "record_id": "649c656982a9a963b6ec",
+          "title": "Works start on Bruce Highway at Gairloch to get Queenslanders home sooner and safer",
+          "url": "https://statements.qld.gov.au/statements/106262"
+        },
+        {
+          "record_id": "7590143a0c587da67387",
+          "title": "Far North Queensland small and family businesses first to access free AI courses",
+          "url": "https://statements.qld.gov.au/statements/106260"
+        },
+        {
+          "record_id": "9c51a543630d8808de24",
+          "title": "Nation-leading e-mobility laws deliver positive early results with reduced hospitalisations",
+          "url": "https://statements.qld.gov.au/statements/106257"
+        }
+      ],
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "underlying_publication_claims_not_promoted_to_verified_fact": true,
+        "source_change_parent_retained": true,
+        "deterministic_review": true
+      }
     }
   ]
 }

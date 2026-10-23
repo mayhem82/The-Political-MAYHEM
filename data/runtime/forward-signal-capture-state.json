@@ -49,9 +49,9 @@
       "source_id": "SRC-NSW-MINISTERIAL-RELEASES",
       "jurisdiction_id": "AUS-NSW",
       "party_id": null,
-      "content_hash": "a1945dd334650d9a4bd62fa78f3a098a4667ba3efa9dd7c5c962f1ef97294731",
-      "snapshot_id": "AUTO-WATCH-NSW-MINISTERIAL-RELEASES-20261022101158",
-      "captured_at": "2026-10-22T10:11:58.043Z",
+      "content_hash": "5f91ef711a457c18739c2b21b187b63d6ea4ab0e34ea29b36a011741a5a3609c",
+      "snapshot_id": "AUTO-WATCH-NSW-MINISTERIAL-RELEASES-20261023045028",
+      "captured_at": "2026-10-23T04:50:28.592Z",
       "acquisition_url": "https://www.nsw.gov.au/ministerial-releases",
       "requested_url": "https://www.nsw.gov.au/ministerial-releases",
       "header_profile": "IDENTIFIED_AUTOMATION",
@@ -147,9 +147,9 @@
       "source_id": "SRC-QLD-HANSARD",
       "jurisdiction_id": "AUS-QLD",
       "party_id": null,
-      "content_hash": "43aeaa24cf1399ecab818ebecf74977a3c452dc0627ae44ff45bb3cd957f40fd",
-      "snapshot_id": "AUTO-WATCH-QLD-HANSARD-20260928004727",
-      "captured_at": "2026-09-28T00:47:27.692Z",
+      "content_hash": "fc00d1f24100c369a84cb3567eb8833b8ae4d6e8bc4786041d10fc024018fb87",
+      "snapshot_id": "AUTO-WATCH-QLD-HANSARD-20261023045028",
+      "captured_at": "2026-10-23T04:50:28.592Z",
       "acquisition_url": "https://www.parliament.qld.gov.au/Work-of-the-Assembly/Record-of-Proceedings/Latest-Record-of-Proceedings",
       "requested_url": "https://www.parliament.qld.gov.au/Work-of-the-Assembly/Record-of-Proceedings/Latest-Record-of-Proceedings",
       "header_profile": "BROWSER_COMPATIBILITY",
@@ -243,9 +243,9 @@
       "source_id": "SRC-PM-MEDIA",
       "jurisdiction_id": "AUS-FED",
       "party_id": null,
-      "content_hash": "f330c276126a3ca8f6cecf9032f48dfd6269d9a50fac7c0105e8f6333cfbf52c",
-      "snapshot_id": "AUTO-WATCH-PM-MEDIA-20261022101158",
-      "captured_at": "2026-10-22T10:11:58.043Z",
+      "content_hash": "41f5b42f84f6840346741939371630852cd706a61251e23ab2d965a46791b504",
+      "snapshot_id": "AUTO-WATCH-PM-MEDIA-20261023045028",
+      "captured_at": "2026-10-23T04:50:28.592Z",
       "acquisition_url": "https://www.pm.gov.au/media",
       "requested_url": "https://www.pm.gov.au/media",
       "header_profile": "IDENTIFIED_AUTOMATION",
@@ -313,9 +313,9 @@
       "source_id": "SRC-QLD-MINISTERIAL-STATEMENTS",
       "jurisdiction_id": "AUS-QLD",
       "party_id": null,
-      "content_hash": "37dedbfdc4d022b3ca034c6df89ee9357aec29430f28c3b9c3ca949e169ad9ba",
-      "snapshot_id": "AUTO-WATCH-QLD-MINISTERIAL-STATEMENTS-20261022101158",
-      "captured_at": "2026-10-22T10:11:58.043Z",
+      "content_hash": "88242d365722d59b67f6c2e5a962b4d7b3c295012d34b2bcc620269e432604ef",
+      "snapshot_id": "AUTO-WATCH-QLD-MINISTERIAL-STATEMENTS-20261023045028",
+      "captured_at": "2026-10-23T04:50:28.592Z",
       "acquisition_url": "https://statements.qld.gov.au/",
       "requested_url": "https://statements.qld.gov.au/",
       "header_profile": "IDENTIFIED_AUTOMATION",
@@ -506,11 +506,11 @@
       "captured_representation_complete": true
     }
   },
-  "updated_at": "2026-10-22T20:07:18.414Z",
+  "updated_at": "2026-10-23T04:50:28.592Z",
   "last_run": {
-    "captured_at": "2026-10-22T20:07:18.414Z",
+    "captured_at": "2026-10-23T04:50:28.592Z",
     "baselines_created": 0,
-    "source_changes_created": 1,
+    "source_changes_created": 4,
     "semantic_signals_created": 0,
     "representation_upgrades": 0,
     "failures": [
@@ -525,6 +525,10 @@
       {
         "watch_id": "WATCH-ECQ-MEDIA",
         "error": "https://www.ecq.qld.gov.au/media/2026-media-statements [IDENTIFIED_AUTOMATION] 403 Forbidden | https://www.ecq.qld.gov.au/media/2026-media-statements [BROWSER_COMPATIBILITY] 403 Forbidden | https://www.ecq.qld.gov.au/home [IDENTIFIED_AUTOMATION] 403 Forbidden | https://www.ecq.qld.gov.au/home [BROWSER_COMPATIBILITY] 403 Forbidden"
+      },
+      {
+        "watch_id": "WATCH-SA-PARLIAMENT",
+        "error": "https://www.parliament.sa.gov.au/ [IDENTIFIED_AUTOMATION] timeout>15000ms | https://www.parliament.sa.gov.au/ [BROWSER_COMPATIBILITY] timeout>15000ms"
       },
       {
         "watch_id": "WATCH-TAS-PREMIER-NEWS",
@@ -560,7 +564,7 @@
   "coverage": {
     "active_sources": 36,
     "baselines_captured": 36,
-    "current_run_failures": 10,
+    "current_run_failures": 11,
     "jurisdictions": {
       "AUS-FED": {
         "configured_sources": 10,
@@ -621,13 +625,13 @@
       "AUS-SA": {
         "configured_sources": 3,
         "baseline_sources": 3,
-        "current_run_failures": 0,
+        "current_run_failures": 1,
         "source_classes": [
           "PRIMARY_ELECTORAL_AUTHORITY",
           "PRIMARY_GOVERNMENT",
           "PRIMARY_PARLIAMENT"
         ],
-        "status": "CAPTURE_ACTIVE_FULL_CONFIGURED_BASELINE"
+        "status": "CAPTURE_ACTIVE_DEGRADED_CURRENT_RUN"
       },
       "AUS-TAS": {
         "configured_sources": 3,

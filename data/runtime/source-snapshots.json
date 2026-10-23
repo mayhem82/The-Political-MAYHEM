@@ -1,7 +1,7 @@
 {
   "snapshot_register_id": "POLITICAL-SOURCE-SNAPSHOTS-001",
   "scope": "Australia — multi-jurisdiction",
-  "captured_at": "2026-10-22T20:07:18.414Z",
+  "captured_at": "2026-10-23T04:50:28.592Z",
   "mode": "FORWARD_ONLY",
   "hash_method": "SHA-256",
   "hash_basis": "captured_representation",
@@ -196240,6 +196240,776 @@
       "captured_representation_complete": true,
       "captured_representation_length": 10753,
       "structured_records": null,
+      "notes": "Automated forward capture after source representation changed. Raw source change is preserved separately from semantic signal promotion."
+    },
+    {
+      "snapshot_id": "AUTO-WATCH-PM-MEDIA-20261023045028",
+      "contest_id": null,
+      "cycle_id": null,
+      "source_id": "SRC-PM-MEDIA",
+      "source_registry_snapshot": "FORWARD-SIGNAL-SOURCE-REGISTRY-008",
+      "source_url": "https://www.pm.gov.au/media",
+      "acquisition_url": "https://www.pm.gov.au/media",
+      "requested_acquisition_url": "https://www.pm.gov.au/media",
+      "acquisition_header_profile": "IDENTIFIED_AUTOMATION",
+      "acquisition_content_type": "text/html; charset=utf-8",
+      "source_name": "Prime Minister of Australia — media",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "original_source_class": null,
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "published_at": null,
+      "published_date": null,
+      "captured_at": "2026-10-23T04:50:28.592Z",
+      "content_hash": "41f5b42f84f6840346741939371630852cd706a61251e23ab2d965a46791b504",
+      "hash_basis": "COMPLETE_STRUCTURED_PUBLICATION_RECORD_SET",
+      "previous_snapshot_id": "AUTO-WATCH-PM-MEDIA-20261022101158",
+      "public_access": "OPEN",
+      "captured_representation": "[{\"record_id\":\"0761e569cff2c16ec164\",\"title\":\"Building Australia’s future\",\"url\":\"https://www.pm.gov.au/our-work/building-australias-future\"},{\"record_id\":\"1eb96180d7ec073c0d2e\",\"title\":\"Your Ministry\",\"url\":\"https://www.pm.gov.au/your-ministry\"},{\"record_id\":\"215e507fcb9e3cc9c80d\",\"title\":\"Radio interview - ABC Perth\",\"url\":\"https://www.pm.gov.au/media/radio-interview-abc-perth-11\"},{\"record_id\":\"26ef1a641af27bcd9e78\",\"title\":\"Stronger Medicare and aged care\",\"url\":\"https://www.pm.gov.au/our-work/stronger-medicare-and-aged-care\"},{\"record_id\":\"2dceef42083ee086c61b\",\"title\":\"Radio interview - ABC Melbourne\",\"url\":\"https://www.pm.gov.au/media/radio-interview-abc-melbourne-14\"},{\"record_id\":\"3318b69ed5f57fa384de\",\"title\":\"Television interview - ABC News Breakfast\",\"url\":\"https://www.pm.gov.au/media/television-interview-abc-news-breakfast-43\"},{\"record_id\":\"3a15832495010b3ec4d3\",\"title\":\"Opportunities for Australians\",\"url\":\"https://www.pm.gov.au/our-work/opportunities-for-australians\"},{\"record_id\":\"5982e169de9fcceecded\",\"title\":\"Television interview - News24\",\"url\":\"https://www.pm.gov.au/media/television-interview-news24-0\"},{\"record_id\":\"609225bd99dcf4306bcf\",\"title\":\"Television interview - News24\",\"url\":\"https://www.pm.gov.au/media/television-interview-news24-1\"},{\"record_id\":\"765be4fb70e7c2cac6e6\",\"title\":\"A fair go at your first home\",\"url\":\"https://www.pm.gov.au/our-work/fair-go-at-your-first-home\"},{\"record_id\":\"7af5ac97b22983d09334\",\"title\":\"Radio interview - 2SM Sydney\",\"url\":\"https://www.pm.gov.au/media/radio-interview-2sm-sydney-0\"},{\"record_id\":\"7df54a7e4dda9ab1b94e\",\"title\":\"Last » Last page\",\"url\":\"https://www.pm.gov.au/media?page=282\"},{\"record_id\":\"81a9d61c94f087cab370\",\"title\":\"Next › › Next page\",\"url\":\"https://www.pm.gov.au/media?page=1\"},{\"record_id\":\"9ab816d78efdee977d74\",\"title\":\"Speech - The Age&#039;s Melbourne Assembly\",\"url\":\"https://www.pm.gov.au/media/speech-ages-melbourne-assembly\"},{\"record_id\":\"a937a23e22db6d282d56\",\"title\":\"We need only look to Helen Haines\",\"url\":\"https://www.pm.gov.au/media/we-need-only-look-helen-haines\"},{\"record_id\":\"b97926da6586a90681df\",\"title\":\"About this website\",\"url\":\"https://www.pm.gov.au/about\"},{\"record_id\":\"becad9d6d401264fa765\",\"title\":\"Contact the PM\",\"url\":\"https://www.pm.gov.au/contact\"},{\"record_id\":\"c1c213874a2f258b8a6d\",\"title\":\"Funding for world-class Gold Coast sports facility\",\"url\":\"https://www.pm.gov.au/media/funding-world-class-gold-coast-sports-facility\"},{\"record_id\":\"c718fa50067af753c303\",\"title\":\"Privacy statement\",\"url\":\"https://www.pm.gov.au/privacy\"},{\"record_id\":\"cb7f75a5f96e36732ecf\",\"title\":\"Radio interview - ABC Sydney\",\"url\":\"https://www.pm.gov.au/media/radio-interview-abc-sydney-25\"},{\"record_id\":\"d6a10450ce738857cc5b\",\"title\":\"About the PM\",\"url\":\"https://www.pm.gov.au/about-prime-minister\"},{\"record_id\":\"d7661ced863a9c3bdc51\",\"title\":\"Radio interview - Nova Perth\",\"url\":\"https://www.pm.gov.au/media/radio-interview-nova-perth-10\"},{\"record_id\":\"ddaaa6c3845b94771c95\",\"title\":\"Skip to main content\",\"url\":\"https://www.pm.gov.au/media\"},{\"record_id\":\"ecf7024f556d06de7195\",\"title\":\"Disclaimer\",\"url\":\"https://www.pm.gov.au/disclaimer\"},{\"record_id\":\"edddd701c6bdb033c084\",\"title\":\"Our work\",\"url\":\"https://www.pm.gov.au/our-work\"},{\"record_id\":\"f5881290b3f12971c067\",\"title\":\"Help with the cost of living\",\"url\":\"https://www.pm.gov.au/our-work/help-with-cost-of-living\"},{\"record_id\":\"ff449f68710d6dbae6e5\",\"title\":\"Future Brisbane\",\"url\":\"https://www.pm.gov.au/media/future-brisbane\"}]",
+      "captured_representation_complete": true,
+      "captured_representation_length": 3525,
+      "structured_records": [
+        {
+          "record_id": "0761e569cff2c16ec164",
+          "title": "Building Australia’s future",
+          "url": "https://www.pm.gov.au/our-work/building-australias-future"
+        },
+        {
+          "record_id": "1eb96180d7ec073c0d2e",
+          "title": "Your Ministry",
+          "url": "https://www.pm.gov.au/your-ministry"
+        },
+        {
+          "record_id": "215e507fcb9e3cc9c80d",
+          "title": "Radio interview - ABC Perth",
+          "url": "https://www.pm.gov.au/media/radio-interview-abc-perth-11"
+        },
+        {
+          "record_id": "26ef1a641af27bcd9e78",
+          "title": "Stronger Medicare and aged care",
+          "url": "https://www.pm.gov.au/our-work/stronger-medicare-and-aged-care"
+        },
+        {
+          "record_id": "2dceef42083ee086c61b",
+          "title": "Radio interview - ABC Melbourne",
+          "url": "https://www.pm.gov.au/media/radio-interview-abc-melbourne-14"
+        },
+        {
+          "record_id": "3318b69ed5f57fa384de",
+          "title": "Television interview - ABC News Breakfast",
+          "url": "https://www.pm.gov.au/media/television-interview-abc-news-breakfast-43"
+        },
+        {
+          "record_id": "3a15832495010b3ec4d3",
+          "title": "Opportunities for Australians",
+          "url": "https://www.pm.gov.au/our-work/opportunities-for-australians"
+        },
+        {
+          "record_id": "5982e169de9fcceecded",
+          "title": "Television interview - News24",
+          "url": "https://www.pm.gov.au/media/television-interview-news24-0"
+        },
+        {
+          "record_id": "609225bd99dcf4306bcf",
+          "title": "Television interview - News24",
+          "url": "https://www.pm.gov.au/media/television-interview-news24-1"
+        },
+        {
+          "record_id": "765be4fb70e7c2cac6e6",
+          "title": "A fair go at your first home",
+          "url": "https://www.pm.gov.au/our-work/fair-go-at-your-first-home"
+        },
+        {
+          "record_id": "7af5ac97b22983d09334",
+          "title": "Radio interview - 2SM Sydney",
+          "url": "https://www.pm.gov.au/media/radio-interview-2sm-sydney-0"
+        },
+        {
+          "record_id": "7df54a7e4dda9ab1b94e",
+          "title": "Last » Last page",
+          "url": "https://www.pm.gov.au/media?page=282"
+        },
+        {
+          "record_id": "81a9d61c94f087cab370",
+          "title": "Next › › Next page",
+          "url": "https://www.pm.gov.au/media?page=1"
+        },
+        {
+          "record_id": "9ab816d78efdee977d74",
+          "title": "Speech - The Age&#039;s Melbourne Assembly",
+          "url": "https://www.pm.gov.au/media/speech-ages-melbourne-assembly"
+        },
+        {
+          "record_id": "a937a23e22db6d282d56",
+          "title": "We need only look to Helen Haines",
+          "url": "https://www.pm.gov.au/media/we-need-only-look-helen-haines"
+        },
+        {
+          "record_id": "b97926da6586a90681df",
+          "title": "About this website",
+          "url": "https://www.pm.gov.au/about"
+        },
+        {
+          "record_id": "becad9d6d401264fa765",
+          "title": "Contact the PM",
+          "url": "https://www.pm.gov.au/contact"
+        },
+        {
+          "record_id": "c1c213874a2f258b8a6d",
+          "title": "Funding for world-class Gold Coast sports facility",
+          "url": "https://www.pm.gov.au/media/funding-world-class-gold-coast-sports-facility"
+        },
+        {
+          "record_id": "c718fa50067af753c303",
+          "title": "Privacy statement",
+          "url": "https://www.pm.gov.au/privacy"
+        },
+        {
+          "record_id": "cb7f75a5f96e36732ecf",
+          "title": "Radio interview - ABC Sydney",
+          "url": "https://www.pm.gov.au/media/radio-interview-abc-sydney-25"
+        },
+        {
+          "record_id": "d6a10450ce738857cc5b",
+          "title": "About the PM",
+          "url": "https://www.pm.gov.au/about-prime-minister"
+        },
+        {
+          "record_id": "d7661ced863a9c3bdc51",
+          "title": "Radio interview - Nova Perth",
+          "url": "https://www.pm.gov.au/media/radio-interview-nova-perth-10"
+        },
+        {
+          "record_id": "ddaaa6c3845b94771c95",
+          "title": "Skip to main content",
+          "url": "https://www.pm.gov.au/media"
+        },
+        {
+          "record_id": "ecf7024f556d06de7195",
+          "title": "Disclaimer",
+          "url": "https://www.pm.gov.au/disclaimer"
+        },
+        {
+          "record_id": "edddd701c6bdb033c084",
+          "title": "Our work",
+          "url": "https://www.pm.gov.au/our-work"
+        },
+        {
+          "record_id": "f5881290b3f12971c067",
+          "title": "Help with the cost of living",
+          "url": "https://www.pm.gov.au/our-work/help-with-cost-of-living"
+        },
+        {
+          "record_id": "ff449f68710d6dbae6e5",
+          "title": "Future Brisbane",
+          "url": "https://www.pm.gov.au/media/future-brisbane"
+        }
+      ],
+      "notes": "Automated forward capture after source representation changed. Raw source change is preserved separately from semantic signal promotion."
+    },
+    {
+      "snapshot_id": "AUTO-WATCH-NSW-MINISTERIAL-RELEASES-20261023045028",
+      "contest_id": null,
+      "cycle_id": null,
+      "source_id": "SRC-NSW-MINISTERIAL-RELEASES",
+      "source_registry_snapshot": "FORWARD-SIGNAL-SOURCE-REGISTRY-008",
+      "source_url": "https://www.nsw.gov.au/ministerial-releases",
+      "acquisition_url": "https://www.nsw.gov.au/ministerial-releases",
+      "requested_acquisition_url": "https://www.nsw.gov.au/ministerial-releases",
+      "acquisition_header_profile": "IDENTIFIED_AUTOMATION",
+      "acquisition_content_type": "text/html; charset=UTF-8",
+      "source_name": "NSW Government — Ministerial releases",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "original_source_class": null,
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "published_at": null,
+      "published_date": null,
+      "captured_at": "2026-10-23T04:50:28.592Z",
+      "content_hash": "5f91ef711a457c18739c2b21b187b63d6ea4ab0e34ea29b36a011741a5a3609c",
+      "hash_basis": "COMPLETE_STRUCTURED_PUBLICATION_RECORD_SET",
+      "previous_snapshot_id": "AUTO-WATCH-NSW-MINISTERIAL-RELEASES-20261022101158",
+      "public_access": "OPEN",
+      "captured_representation": "[{\"record_id\":\"02fa9ccf2ecdc48bdd5a\",\"title\":\"Department of Customer Service\",\"url\":\"https://www.nsw.gov.au/departments-and-agencies/customer-service\"},{\"record_id\":\"08c2fa4497dfeb662e75\",\"title\":\"What&#039;s happening east\",\"url\":\"https://www.nsw.gov.au/whats-happening\"},{\"record_id\":\"142e7191e26f024d2365\",\"title\":\"Education and training\",\"url\":\"https://www.nsw.gov.au/education-and-training\"},{\"record_id\":\"154ba6ccd23c21774036\",\"title\":\"Living in NSW east\",\"url\":\"https://www.nsw.gov.au/living-nsw\"},{\"record_id\":\"1c8642cbb384a029be59\",\"title\":\"Visit regional NSW east\",\"url\":\"https://www.nsw.gov.au/visiting-and-exploring-nsw/visit-regional-nsw\"},{\"record_id\":\"1d030e68a8ff4684cf85\",\"title\":\"Jobs and investment in train for Hunter through post mining land reuse\",\"url\":\"https://www.nsw.gov.au/ministerial-releases/jobs-and-investment-for-hunter\"},{\"record_id\":\"20867ab69b7b34bf4ba1\",\"title\":\"Manage account\",\"url\":\"https://account.service.nsw.gov.au/manage\"},{\"record_id\":\"2442a7773c9e89281953\",\"title\":\"Working and business east\",\"url\":\"https://www.nsw.gov.au/working-and-business\"},{\"record_id\":\"297daa64d6ce08004d1f\",\"title\":\"Treasury\",\"url\":\"https://www.nsw.gov.au/departments-and-agencies/nsw-treasury\"},{\"record_id\":\"2a593276da813059339a\",\"title\":\"Contact a Minister\",\"url\":\"https://www.nsw.gov.au/nsw-government/ministers\"},{\"record_id\":\"2e3d11226d39e1fef046\",\"title\":\"Disclaimer\",\"url\":\"https://www.nsw.gov.au/nsw-government/about-website/disclaimer\"},{\"record_id\":\"2ee0b62d72f93dae50b5\",\"title\":\"Planning, Housing and Infrastructure\",\"url\":\"https://www.nsw.gov.au/departments-and-agencies/department-of-planning-housing-and-infrastructure\"},{\"record_id\":\"3368d349c8bfc3799c6a\",\"title\":\"Working and business keyboard_arrow_right\",\"url\":\"https://www.nsw.gov.au/working-and-business\"},{\"record_id\":\"358f98871c5d9af1349e\",\"title\":\"NSW Digital ID east\",\"url\":\"https://www.nsw.gov.au/nsw-government/digital-identity-and-cybersecurity/nsw-digital-id\"},{\"record_id\":\"398d4c7ecdcab32c2f26\",\"title\":\"Health and wellbeing\",\"url\":\"https://www.nsw.gov.au/health-and-wellbeing\"},{\"record_id\":\"3ce5f97598980d0d1914\",\"title\":\"Access to information\",\"url\":\"https://www.nsw.gov.au/nsw-government/access-nsw-government-information\"},{\"record_id\":\"3d9ceeeb1ea2a5a7170c\",\"title\":\"Cabinet Office\",\"url\":\"https://www.nsw.gov.au/the-cabinet-office\"},{\"record_id\":\"4504cf48ea6f4e0b8200\",\"title\":\"Departments\",\"url\":\"https://www.nsw.gov.au/departments-and-agencies\"},{\"record_id\":\"49fd3028f2f25aae4049\",\"title\":\"State flag\",\"url\":\"https://www.nsw.gov.au/about-nsw/nsw-protocol/state-flag\"},{\"record_id\":\"4d051b9f72512bbacc25\",\"title\":\"Business and economy\",\"url\":\"https://www.nsw.gov.au/business-and-economy\"},{\"record_id\":\"4fec2defe321a00c055f\",\"title\":\"About this website\",\"url\":\"https://www.nsw.gov.au/nsw-government/about-website\"},{\"record_id\":\"504eda4112cc5cd2b2d6\",\"title\":\"Ministerial releases\",\"url\":\"https://www.nsw.gov.au/ministerial-releases\"},{\"record_id\":\"506c1459bebfded45524\",\"title\":\"Climate Change, Energy, the Environment and Water\",\"url\":\"https://www.nsw.gov.au/departments-and-agencies/dcceew\"},{\"record_id\":\"50edc225d66014cabde6\",\"title\":\"NSW Ministers\",\"url\":\"https://www.nsw.gov.au/nsw-government/ministers\"},{\"record_id\":\"533d53f3e43e0b8e78a2\",\"title\":\"Driving, boating and transport\",\"url\":\"https://www.nsw.gov.au/driving-boating-and-transport\"},{\"record_id\":\"58332eaf90ada6692e87\",\"title\":\"Creative Industries, Tourism, Hospitality and Sport\",\"url\":\"https://www.nsw.gov.au/departments-and-agencies/dciths\"},{\"record_id\":\"5e1471f90625f64da890\",\"title\":\"Regional and primary industries\",\"url\":\"https://www.nsw.gov.au/regional-and-primary-industries\"},{\"record_id\":\"5f1fa950ab443c0783d6\",\"title\":\"Service NSW locations\",\"url\":\"https://www.service.nsw.gov.au/service-centre\"},{\"record_id\":\"5f45117f1186d267c0a9\",\"title\":\"New opportunities for First Nations artists through Vivid Sydney\",\"url\":\"https://www.nsw.gov.au/departments-and-agencies/dciths/ministerial-media-releases/vivid-sydney-first-nations-artist-opportunities\"},{\"record_id\":\"62b93fff6407029acf6a\",\"title\":\"About NSW\",\"url\":\"https://www.nsw.gov.au/about-nsw\"},{\"record_id\":\"63448e3e3633624b3378\",\"title\":\"Visit Sydney east\",\"url\":\"https://www.nsw.gov.au/visiting-and-exploring-nsw/visit-sydney\"},{\"record_id\":\"6b38b1d7dac0579b6d7f\",\"title\":\"Easy Read\",\"url\":\"https://www.nsw.gov.au/easy-read\"},{\"record_id\":\"72088d126cbc7d7edeff\",\"title\":\"Arts and culture\",\"url\":\"https://www.nsw.gov.au/arts-and-culture\"},{\"record_id\":\"72cb6306ee8f53794281\",\"title\":\"Visiting and exploring NSW\",\"url\":\"https://www.nsw.gov.au/visiting-and-exploring-nsw\"},{\"record_id\":\"73d55e6072a12e57e4f2\",\"title\":\"Working and business\",\"url\":\"https://www.nsw.gov.au/working-and-business\"},{\"record_id\":\"78f9a18862c66dd2c424\",\"title\":\"Have your say\",\"url\":\"https://www.nsw.gov.au/have-your-say\"},{\"record_id\":\"7912fd3bca00136cacde\",\"title\":\"Events in NSW\",\"url\":\"https://www.nsw.gov.au/visiting-and-exploring-nsw/nsw-events\"},{\"record_id\":\"7a1184747952c3ccba1e\",\"title\":\"New Rekindling the Spirit facility restores vital services in Lismore after floods\",\"url\":\"https://www.nsw.gov.au/ministerial-releases/new-rekindling-spirit-facility-restores-vital-services-lismore-after-floods\"},{\"record_id\":\"7c17c5fd0d5d952a0053\",\"title\":\"NSW Government directory\",\"url\":\"https://www.service.nsw.gov.au/nswgovdirectory\"},{\"record_id\":\"7dc4f040677d83d503e0\",\"title\":\"Independent costings extended to One Nation\",\"url\":\"https://www.nsw.gov.au/ministerial-releases/independent-costings-extended-to-one-nation\"},{\"record_id\":\"8184da55e29525c8ea05\",\"title\":\"Working interstate east\",\"url\":\"https://www.nsw.gov.au/business-and-economy/licences-and-credentials/automatic-mutual-recognition\"},{\"record_id\":\"8451a94a4650110368bb\",\"title\":\"NSW public holidays east\",\"url\":\"https://www.nsw.gov.au/about-nsw/public-holidays\"},{\"record_id\":\"87a63651072dcf748717\",\"title\":\"Living in NSW keyboard_arrow_right\",\"url\":\"https://www.nsw.gov.au/living-nsw\"},{\"record_id\":\"88deb55ded916ee20414\",\"title\":\"Logout of MyServiceNSW\",\"url\":\"https://services.dcu.nsw.gov.au/myaccount/logout?destination=https%3A//www.nsw.gov.au/ministerial-releases\"},{\"record_id\":\"896bff8370702118d128\",\"title\":\"NSW skills lists east\",\"url\":\"https://www.nsw.gov.au/visas-and-migration/skilled-visas/nsw-skills-lists\"},{\"record_id\":\"8a3397fdeb94c6cea2c8\",\"title\":\"Aboriginal information and services\",\"url\":\"https://www.nsw.gov.au/living-in-nsw/information-for-aboriginal-people\"},{\"record_id\":\"8a4bf2299fbfb5a434b1\",\"title\":\"Visas and migration\",\"url\":\"https://www.nsw.gov.au/visas-and-migration\"},{\"record_id\":\"8bb63d0c3a0f4df74feb\",\"title\":\"Skip to content\",\"url\":\"https://www.nsw.gov.au/ministerial-releases\"},{\"record_id\":\"8c37a1c7288942a25dff\",\"title\":\"Update on PHP response\",\"url\":\"https://www.nsw.gov.au/ministerial-releases/update-on-php-response\"},{\"record_id\":\"8e1d777c2c4f0c3a10a7\",\"title\":\"NSW Government communications\",\"url\":\"https://www.nsw.gov.au/nsw-government/communications\"},{\"record_id\":\"8e2992add157835003d7\",\"title\":\"New bus route to connect Inner West residents from Balmain East to Leichhardt\",\"url\":\"https://www.nsw.gov.au/ministerial-releases/new-bus-route-from-balmain-east-to-leichhardt\"},{\"record_id\":\"8f2846b344580b0aebbf\",\"title\":\"Customer Service\",\"url\":\"https://www.nsw.gov.au/departments-and-agencies/customer-service\"},{\"record_id\":\"943b6377d07971e67b6c\",\"title\":\"Walks near me east\",\"url\":\"https://www.nsw.gov.au/visiting-and-exploring-nsw/walks-near-me\"},{\"record_id\":\"94fbc9b57da56b0af0af\",\"title\":\"Building more homes for Lake Macquarie: Morisset project passes halfway point\",\"url\":\"https://www.nsw.gov.au/ministerial-releases/morisset-project-passes-halfway-point\"},{\"record_id\":\"99f97893142e6f37c34e\",\"title\":\"Top of page north\",\"url\":\"https://www.nsw.gov.au/ministerial-releases\"},{\"record_id\":\"9d85b68d8755a2f079e3\",\"title\":\"Thousands of Hunter potholes patched in statewide roads blitz\",\"url\":\"https://www.nsw.gov.au/ministerial-releases/thousands-of-hunter-potholes-patched-statewide-roads-blitz\"},{\"record_id\":\"a4d6247f1abab7f64e72\",\"title\":\"Housing and construction\",\"url\":\"https://www.nsw.gov.au/housing-and-construction\"},{\"record_id\":\"b010834b80cef6541ec9\",\"title\":\"Emergency\",\"url\":\"https://www.nsw.gov.au/emergency\"},{\"record_id\":\"b075ff790f1d370ba6d9\",\"title\":\"NSW school holidays\",\"url\":\"https://www.nsw.gov.au/about-nsw/school-holidays\"},{\"record_id\":\"b1bd3dba1b21267a7770\",\"title\":\"Family and relationships\",\"url\":\"https://www.nsw.gov.au/family-and-relationships\"},{\"record_id\":\"b599e8e254202e8611a3\",\"title\":\"NSW Government east\",\"url\":\"https://www.nsw.gov.au/nsw-government\"},{\"record_id\":\"bb33b6e92e50bd5a6d3d\",\"title\":\"What&#039;s happening\",\"url\":\"https://www.nsw.gov.au/whats-happening\"},{\"record_id\":\"bbea104dc38efe35cce0\",\"title\":\"Privacy statement\",\"url\":\"https://www.nsw.gov.au/nsw-government/about-website/privacy-statement\"},{\"record_id\":\"c071cf0af910899ebdad\",\"title\":\"NSW Government\",\"url\":\"https://www.nsw.gov.au/nsw-government\"},{\"record_id\":\"c493a72307f0228f8289\",\"title\":\"Skip to navigation\",\"url\":\"https://www.nsw.gov.au/ministerial-releases\"},{\"record_id\":\"cdb875475fc0b7b6daa0\",\"title\":\"Primary Industries and Regional Development\",\"url\":\"https://www.nsw.gov.au/departments-and-agencies/dpird\"},{\"record_id\":\"d13711a411a2ec2d0bfc\",\"title\":\"Employment\",\"url\":\"https://www.nsw.gov.au/employment\"},{\"record_id\":\"d1654001401a8fc3eca6\",\"title\":\"NSW school holidays east\",\"url\":\"https://www.nsw.gov.au/about-nsw/school-holidays\"},{\"record_id\":\"d590088969e83e6e9912\",\"title\":\"Department of Customer Service careers east\",\"url\":\"https://www.nsw.gov.au/departments-and-agencies/customer-service/careers\"},{\"record_id\":\"d6eb12a3915dc74452a2\",\"title\":\"NSW map catalogue east\",\"url\":\"https://www.nsw.gov.au/about-nsw/nsw-maps\"},{\"record_id\":\"d74d1fe317c922e1ad6d\",\"title\":\"Living in NSW\",\"url\":\"https://www.nsw.gov.au/living-nsw\"},{\"record_id\":\"d7f13567616fba77db81\",\"title\":\"Money and taxes\",\"url\":\"https://www.nsw.gov.au/money-and-taxes\"},{\"record_id\":\"d94f66ee07ff102e6256\",\"title\":\"Education\",\"url\":\"https://www.nsw.gov.au/departments-and-agencies/department-of-education\"},{\"record_id\":\"d9834acb4316a8dede71\",\"title\":\"Minns Labor Government marks one year of tougher child safety laws\",\"url\":\"https://www.nsw.gov.au/ministerial-releases/tougher-child-safety-laws-mark-one-year\"},{\"record_id\":\"dd8c823fa9a5cb797ae2\",\"title\":\"What&#039;s happening keyboard_arrow_right\",\"url\":\"https://www.nsw.gov.au/whats-happening\"},{\"record_id\":\"de8cdd7d973cfbebda53\",\"title\":\"Grants and funding\",\"url\":\"https://www.nsw.gov.au/grants-and-funding\"},{\"record_id\":\"e31b2f78ab0902a66f0b\",\"title\":\"NSW public holidays\",\"url\":\"https://www.nsw.gov.au/about-nsw/public-holidays\"},{\"record_id\":\"e3a74ae5009e8ecedee1\",\"title\":\"Practical reforms to reduce plastics and microplastics\",\"url\":\"https://www.nsw.gov.au/ministerial-releases/practical-reforms-to-reduce-plastics-and-microplastics\"},{\"record_id\":\"e959deabbeb7b841be0f\",\"title\":\"Premier&#039;s Department\",\"url\":\"https://www.nsw.gov.au/departments-and-agencies/premiers-department\"},{\"record_id\":\"ec264fce1a4eef135d89\",\"title\":\"Legal and justice\",\"url\":\"https://www.nsw.gov.au/legal-and-justice\"},{\"record_id\":\"ec6aa9ea66f0e35d043e\",\"title\":\"Community services\",\"url\":\"https://www.nsw.gov.au/community-services\"},{\"record_id\":\"ec85026230bad75463d9\",\"title\":\"Unsolicited proposals\",\"url\":\"https://www.nsw.gov.au/nsw-government/engage-us/unsolicited-proposals\"},{\"record_id\":\"ece9cb38c2cad64cbc90\",\"title\":\"Find your local Member of Parliament\",\"url\":\"https://www.parliament.nsw.gov.au/members/pages/all-members.aspx\"},{\"record_id\":\"f7f281a616f873280ac7\",\"title\":\"Accessibility statement\",\"url\":\"https://www.nsw.gov.au/nsw-government/about-website/accessibility-statement\"},{\"record_id\":\"f8b3e18fb00df5914fd5\",\"title\":\"Environment, land and water\",\"url\":\"https://www.nsw.gov.au/environment-land-and-water\"},{\"record_id\":\"fbb12429a7147d86b1b5\",\"title\":\"Life Events\",\"url\":\"https://www.nsw.gov.au/living-nsw/life-events\"},{\"record_id\":\"fe1c9a158b0f08ad35a8\",\"title\":\"The Premier\",\"url\":\"https://www.nsw.gov.au/nsw-government/premier-of-nsw\"},{\"record_id\":\"fedd96604397c812fe50\",\"title\":\"State services\",\"url\":\"https://www.nsw.gov.au/about-nsw/state-services\"}]",
+      "captured_representation_complete": true,
+      "captured_representation_length": 12251,
+      "structured_records": [
+        {
+          "record_id": "02fa9ccf2ecdc48bdd5a",
+          "title": "Department of Customer Service",
+          "url": "https://www.nsw.gov.au/departments-and-agencies/customer-service"
+        },
+        {
+          "record_id": "08c2fa4497dfeb662e75",
+          "title": "What&#039;s happening east",
+          "url": "https://www.nsw.gov.au/whats-happening"
+        },
+        {
+          "record_id": "142e7191e26f024d2365",
+          "title": "Education and training",
+          "url": "https://www.nsw.gov.au/education-and-training"
+        },
+        {
+          "record_id": "154ba6ccd23c21774036",
+          "title": "Living in NSW east",
+          "url": "https://www.nsw.gov.au/living-nsw"
+        },
+        {
+          "record_id": "1c8642cbb384a029be59",
+          "title": "Visit regional NSW east",
+          "url": "https://www.nsw.gov.au/visiting-and-exploring-nsw/visit-regional-nsw"
+        },
+        {
+          "record_id": "1d030e68a8ff4684cf85",
+          "title": "Jobs and investment in train for Hunter through post mining land reuse",
+          "url": "https://www.nsw.gov.au/ministerial-releases/jobs-and-investment-for-hunter"
+        },
+        {
+          "record_id": "20867ab69b7b34bf4ba1",
+          "title": "Manage account",
+          "url": "https://account.service.nsw.gov.au/manage"
+        },
+        {
+          "record_id": "2442a7773c9e89281953",
+          "title": "Working and business east",
+          "url": "https://www.nsw.gov.au/working-and-business"
+        },
+        {
+          "record_id": "297daa64d6ce08004d1f",
+          "title": "Treasury",
+          "url": "https://www.nsw.gov.au/departments-and-agencies/nsw-treasury"
+        },
+        {
+          "record_id": "2a593276da813059339a",
+          "title": "Contact a Minister",
+          "url": "https://www.nsw.gov.au/nsw-government/ministers"
+        },
+        {
+          "record_id": "2e3d11226d39e1fef046",
+          "title": "Disclaimer",
+          "url": "https://www.nsw.gov.au/nsw-government/about-website/disclaimer"
+        },
+        {
+          "record_id": "2ee0b62d72f93dae50b5",
+          "title": "Planning, Housing and Infrastructure",
+          "url": "https://www.nsw.gov.au/departments-and-agencies/department-of-planning-housing-and-infrastructure"
+        },
+        {
+          "record_id": "3368d349c8bfc3799c6a",
+          "title": "Working and business keyboard_arrow_right",
+          "url": "https://www.nsw.gov.au/working-and-business"
+        },
+        {
+          "record_id": "358f98871c5d9af1349e",
+          "title": "NSW Digital ID east",
+          "url": "https://www.nsw.gov.au/nsw-government/digital-identity-and-cybersecurity/nsw-digital-id"
+        },
+        {
+          "record_id": "398d4c7ecdcab32c2f26",
+          "title": "Health and wellbeing",
+          "url": "https://www.nsw.gov.au/health-and-wellbeing"
+        },
+        {
+          "record_id": "3ce5f97598980d0d1914",
+          "title": "Access to information",
+          "url": "https://www.nsw.gov.au/nsw-government/access-nsw-government-information"
+        },
+        {
+          "record_id": "3d9ceeeb1ea2a5a7170c",
+          "title": "Cabinet Office",
+          "url": "https://www.nsw.gov.au/the-cabinet-office"
+        },
+        {
+          "record_id": "4504cf48ea6f4e0b8200",
+          "title": "Departments",
+          "url": "https://www.nsw.gov.au/departments-and-agencies"
+        },
+        {
+          "record_id": "49fd3028f2f25aae4049",
+          "title": "State flag",
+          "url": "https://www.nsw.gov.au/about-nsw/nsw-protocol/state-flag"
+        },
+        {
+          "record_id": "4d051b9f72512bbacc25",
+          "title": "Business and economy",
+          "url": "https://www.nsw.gov.au/business-and-economy"
+        },
+        {
+          "record_id": "4fec2defe321a00c055f",
+          "title": "About this website",
+          "url": "https://www.nsw.gov.au/nsw-government/about-website"
+        },
+        {
+          "record_id": "504eda4112cc5cd2b2d6",
+          "title": "Ministerial releases",
+          "url": "https://www.nsw.gov.au/ministerial-releases"
+        },
+        {
+          "record_id": "506c1459bebfded45524",
+          "title": "Climate Change, Energy, the Environment and Water",
+          "url": "https://www.nsw.gov.au/departments-and-agencies/dcceew"
+        },
+        {
+          "record_id": "50edc225d66014cabde6",
+          "title": "NSW Ministers",
+          "url": "https://www.nsw.gov.au/nsw-government/ministers"
+        },
+        {
+          "record_id": "533d53f3e43e0b8e78a2",
+          "title": "Driving, boating and transport",
+          "url": "https://www.nsw.gov.au/driving-boating-and-transport"
+        },
+        {
+          "record_id": "58332eaf90ada6692e87",
+          "title": "Creative Industries, Tourism, Hospitality and Sport",
+          "url": "https://www.nsw.gov.au/departments-and-agencies/dciths"
+        },
+        {
+          "record_id": "5e1471f90625f64da890",
+          "title": "Regional and primary industries",
+          "url": "https://www.nsw.gov.au/regional-and-primary-industries"
+        },
+        {
+          "record_id": "5f1fa950ab443c0783d6",
+          "title": "Service NSW locations",
+          "url": "https://www.service.nsw.gov.au/service-centre"
+        },
+        {
+          "record_id": "5f45117f1186d267c0a9",
+          "title": "New opportunities for First Nations artists through Vivid Sydney",
+          "url": "https://www.nsw.gov.au/departments-and-agencies/dciths/ministerial-media-releases/vivid-sydney-first-nations-artist-opportunities"
+        },
+        {
+          "record_id": "62b93fff6407029acf6a",
+          "title": "About NSW",
+          "url": "https://www.nsw.gov.au/about-nsw"
+        },
+        {
+          "record_id": "63448e3e3633624b3378",
+          "title": "Visit Sydney east",
+          "url": "https://www.nsw.gov.au/visiting-and-exploring-nsw/visit-sydney"
+        },
+        {
+          "record_id": "6b38b1d7dac0579b6d7f",
+          "title": "Easy Read",
+          "url": "https://www.nsw.gov.au/easy-read"
+        },
+        {
+          "record_id": "72088d126cbc7d7edeff",
+          "title": "Arts and culture",
+          "url": "https://www.nsw.gov.au/arts-and-culture"
+        },
+        {
+          "record_id": "72cb6306ee8f53794281",
+          "title": "Visiting and exploring NSW",
+          "url": "https://www.nsw.gov.au/visiting-and-exploring-nsw"
+        },
+        {
+          "record_id": "73d55e6072a12e57e4f2",
+          "title": "Working and business",
+          "url": "https://www.nsw.gov.au/working-and-business"
+        },
+        {
+          "record_id": "78f9a18862c66dd2c424",
+          "title": "Have your say",
+          "url": "https://www.nsw.gov.au/have-your-say"
+        },
+        {
+          "record_id": "7912fd3bca00136cacde",
+          "title": "Events in NSW",
+          "url": "https://www.nsw.gov.au/visiting-and-exploring-nsw/nsw-events"
+        },
+        {
+          "record_id": "7a1184747952c3ccba1e",
+          "title": "New Rekindling the Spirit facility restores vital services in Lismore after floods",
+          "url": "https://www.nsw.gov.au/ministerial-releases/new-rekindling-spirit-facility-restores-vital-services-lismore-after-floods"
+        },
+        {
+          "record_id": "7c17c5fd0d5d952a0053",
+          "title": "NSW Government directory",
+          "url": "https://www.service.nsw.gov.au/nswgovdirectory"
+        },
+        {
+          "record_id": "7dc4f040677d83d503e0",
+          "title": "Independent costings extended to One Nation",
+          "url": "https://www.nsw.gov.au/ministerial-releases/independent-costings-extended-to-one-nation"
+        },
+        {
+          "record_id": "8184da55e29525c8ea05",
+          "title": "Working interstate east",
+          "url": "https://www.nsw.gov.au/business-and-economy/licences-and-credentials/automatic-mutual-recognition"
+        },
+        {
+          "record_id": "8451a94a4650110368bb",
+          "title": "NSW public holidays east",
+          "url": "https://www.nsw.gov.au/about-nsw/public-holidays"
+        },
+        {
+          "record_id": "87a63651072dcf748717",
+          "title": "Living in NSW keyboard_arrow_right",
+          "url": "https://www.nsw.gov.au/living-nsw"
+        },
+        {
+          "record_id": "88deb55ded916ee20414",
+          "title": "Logout of MyServiceNSW",
+          "url": "https://services.dcu.nsw.gov.au/myaccount/logout?destination=https%3A//www.nsw.gov.au/ministerial-releases"
+        },
+        {
+          "record_id": "896bff8370702118d128",
+          "title": "NSW skills lists east",
+          "url": "https://www.nsw.gov.au/visas-and-migration/skilled-visas/nsw-skills-lists"
+        },
+        {
+          "record_id": "8a3397fdeb94c6cea2c8",
+          "title": "Aboriginal information and services",
+          "url": "https://www.nsw.gov.au/living-in-nsw/information-for-aboriginal-people"
+        },
+        {
+          "record_id": "8a4bf2299fbfb5a434b1",
+          "title": "Visas and migration",
+          "url": "https://www.nsw.gov.au/visas-and-migration"
+        },
+        {
+          "record_id": "8bb63d0c3a0f4df74feb",
+          "title": "Skip to content",
+          "url": "https://www.nsw.gov.au/ministerial-releases"
+        },
+        {
+          "record_id": "8c37a1c7288942a25dff",
+          "title": "Update on PHP response",
+          "url": "https://www.nsw.gov.au/ministerial-releases/update-on-php-response"
+        },
+        {
+          "record_id": "8e1d777c2c4f0c3a10a7",
+          "title": "NSW Government communications",
+          "url": "https://www.nsw.gov.au/nsw-government/communications"
+        },
+        {
+          "record_id": "8e2992add157835003d7",
+          "title": "New bus route to connect Inner West residents from Balmain East to Leichhardt",
+          "url": "https://www.nsw.gov.au/ministerial-releases/new-bus-route-from-balmain-east-to-leichhardt"
+        },
+        {
+          "record_id": "8f2846b344580b0aebbf",
+          "title": "Customer Service",
+          "url": "https://www.nsw.gov.au/departments-and-agencies/customer-service"
+        },
+        {
+          "record_id": "943b6377d07971e67b6c",
+          "title": "Walks near me east",
+          "url": "https://www.nsw.gov.au/visiting-and-exploring-nsw/walks-near-me"
+        },
+        {
+          "record_id": "94fbc9b57da56b0af0af",
+          "title": "Building more homes for Lake Macquarie: Morisset project passes halfway point",
+          "url": "https://www.nsw.gov.au/ministerial-releases/morisset-project-passes-halfway-point"
+        },
+        {
+          "record_id": "99f97893142e6f37c34e",
+          "title": "Top of page north",
+          "url": "https://www.nsw.gov.au/ministerial-releases"
+        },
+        {
+          "record_id": "9d85b68d8755a2f079e3",
+          "title": "Thousands of Hunter potholes patched in statewide roads blitz",
+          "url": "https://www.nsw.gov.au/ministerial-releases/thousands-of-hunter-potholes-patched-statewide-roads-blitz"
+        },
+        {
+          "record_id": "a4d6247f1abab7f64e72",
+          "title": "Housing and construction",
+          "url": "https://www.nsw.gov.au/housing-and-construction"
+        },
+        {
+          "record_id": "b010834b80cef6541ec9",
+          "title": "Emergency",
+          "url": "https://www.nsw.gov.au/emergency"
+        },
+        {
+          "record_id": "b075ff790f1d370ba6d9",
+          "title": "NSW school holidays",
+          "url": "https://www.nsw.gov.au/about-nsw/school-holidays"
+        },
+        {
+          "record_id": "b1bd3dba1b21267a7770",
+          "title": "Family and relationships",
+          "url": "https://www.nsw.gov.au/family-and-relationships"
+        },
+        {
+          "record_id": "b599e8e254202e8611a3",
+          "title": "NSW Government east",
+          "url": "https://www.nsw.gov.au/nsw-government"
+        },
+        {
+          "record_id": "bb33b6e92e50bd5a6d3d",
+          "title": "What&#039;s happening",
+          "url": "https://www.nsw.gov.au/whats-happening"
+        },
+        {
+          "record_id": "bbea104dc38efe35cce0",
+          "title": "Privacy statement",
+          "url": "https://www.nsw.gov.au/nsw-government/about-website/privacy-statement"
+        },
+        {
+          "record_id": "c071cf0af910899ebdad",
+          "title": "NSW Government",
+          "url": "https://www.nsw.gov.au/nsw-government"
+        },
+        {
+          "record_id": "c493a72307f0228f8289",
+          "title": "Skip to navigation",
+          "url": "https://www.nsw.gov.au/ministerial-releases"
+        },
+        {
+          "record_id": "cdb875475fc0b7b6daa0",
+          "title": "Primary Industries and Regional Development",
+          "url": "https://www.nsw.gov.au/departments-and-agencies/dpird"
+        },
+        {
+          "record_id": "d13711a411a2ec2d0bfc",
+          "title": "Employment",
+          "url": "https://www.nsw.gov.au/employment"
+        },
+        {
+          "record_id": "d1654001401a8fc3eca6",
+          "title": "NSW school holidays east",
+          "url": "https://www.nsw.gov.au/about-nsw/school-holidays"
+        },
+        {
+          "record_id": "d590088969e83e6e9912",
+          "title": "Department of Customer Service careers east",
+          "url": "https://www.nsw.gov.au/departments-and-agencies/customer-service/careers"
+        },
+        {
+          "record_id": "d6eb12a3915dc74452a2",
+          "title": "NSW map catalogue east",
+          "url": "https://www.nsw.gov.au/about-nsw/nsw-maps"
+        },
+        {
+          "record_id": "d74d1fe317c922e1ad6d",
+          "title": "Living in NSW",
+          "url": "https://www.nsw.gov.au/living-nsw"
+        },
+        {
+          "record_id": "d7f13567616fba77db81",
+          "title": "Money and taxes",
+          "url": "https://www.nsw.gov.au/money-and-taxes"
+        },
+        {
+          "record_id": "d94f66ee07ff102e6256",
+          "title": "Education",
+          "url": "https://www.nsw.gov.au/departments-and-agencies/department-of-education"
+        },
+        {
+          "record_id": "d9834acb4316a8dede71",
+          "title": "Minns Labor Government marks one year of tougher child safety laws",
+          "url": "https://www.nsw.gov.au/ministerial-releases/tougher-child-safety-laws-mark-one-year"
+        },
+        {
+          "record_id": "dd8c823fa9a5cb797ae2",
+          "title": "What&#039;s happening keyboard_arrow_right",
+          "url": "https://www.nsw.gov.au/whats-happening"
+        },
+        {
+          "record_id": "de8cdd7d973cfbebda53",
+          "title": "Grants and funding",
+          "url": "https://www.nsw.gov.au/grants-and-funding"
+        },
+        {
+          "record_id": "e31b2f78ab0902a66f0b",
+          "title": "NSW public holidays",
+          "url": "https://www.nsw.gov.au/about-nsw/public-holidays"
+        },
+        {
+          "record_id": "e3a74ae5009e8ecedee1",
+          "title": "Practical reforms to reduce plastics and microplastics",
+          "url": "https://www.nsw.gov.au/ministerial-releases/practical-reforms-to-reduce-plastics-and-microplastics"
+        },
+        {
+          "record_id": "e959deabbeb7b841be0f",
+          "title": "Premier&#039;s Department",
+          "url": "https://www.nsw.gov.au/departments-and-agencies/premiers-department"
+        },
+        {
+          "record_id": "ec264fce1a4eef135d89",
+          "title": "Legal and justice",
+          "url": "https://www.nsw.gov.au/legal-and-justice"
+        },
+        {
+          "record_id": "ec6aa9ea66f0e35d043e",
+          "title": "Community services",
+          "url": "https://www.nsw.gov.au/community-services"
+        },
+        {
+          "record_id": "ec85026230bad75463d9",
+          "title": "Unsolicited proposals",
+          "url": "https://www.nsw.gov.au/nsw-government/engage-us/unsolicited-proposals"
+        },
+        {
+          "record_id": "ece9cb38c2cad64cbc90",
+          "title": "Find your local Member of Parliament",
+          "url": "https://www.parliament.nsw.gov.au/members/pages/all-members.aspx"
+        },
+        {
+          "record_id": "f7f281a616f873280ac7",
+          "title": "Accessibility statement",
+          "url": "https://www.nsw.gov.au/nsw-government/about-website/accessibility-statement"
+        },
+        {
+          "record_id": "f8b3e18fb00df5914fd5",
+          "title": "Environment, land and water",
+          "url": "https://www.nsw.gov.au/environment-land-and-water"
+        },
+        {
+          "record_id": "fbb12429a7147d86b1b5",
+          "title": "Life Events",
+          "url": "https://www.nsw.gov.au/living-nsw/life-events"
+        },
+        {
+          "record_id": "fe1c9a158b0f08ad35a8",
+          "title": "The Premier",
+          "url": "https://www.nsw.gov.au/nsw-government/premier-of-nsw"
+        },
+        {
+          "record_id": "fedd96604397c812fe50",
+          "title": "State services",
+          "url": "https://www.nsw.gov.au/about-nsw/state-services"
+        }
+      ],
+      "notes": "Automated forward capture after source representation changed. Raw source change is preserved separately from semantic signal promotion."
+    },
+    {
+      "snapshot_id": "AUTO-WATCH-QLD-HANSARD-20261023045028",
+      "contest_id": null,
+      "cycle_id": null,
+      "source_id": "SRC-QLD-HANSARD",
+      "source_registry_snapshot": "FORWARD-SIGNAL-SOURCE-REGISTRY-008",
+      "source_url": "https://www.parliament.qld.gov.au/Work-of-the-Assembly/Record-of-Proceedings/Latest-Record-of-Proceedings",
+      "acquisition_url": "https://www.parliament.qld.gov.au/Work-of-the-Assembly/Record-of-Proceedings/Latest-Record-of-Proceedings",
+      "requested_acquisition_url": "https://www.parliament.qld.gov.au/Work-of-the-Assembly/Record-of-Proceedings/Latest-Record-of-Proceedings",
+      "acquisition_header_profile": "BROWSER_COMPATIBILITY",
+      "acquisition_content_type": "text/html; charset=utf-8",
+      "source_name": "Queensland Parliament — Record of Proceedings",
+      "source_class": "PRIMARY_PARLIAMENT",
+      "original_source_class": null,
+      "capture_mode": "NORMALISED_PAGE_HASH",
+      "published_at": null,
+      "published_date": null,
+      "captured_at": "2026-10-23T04:50:28.592Z",
+      "content_hash": "fc00d1f24100c369a84cb3567eb8833b8ae4d6e8bc4786041d10fc024018fb87",
+      "hash_basis": "COMPLETE_NORMALISED_CAPTURED_REPRESENTATION",
+      "previous_snapshot_id": "AUTO-WATCH-QLD-HANSARD-20260928004727",
+      "public_access": "OPEN",
+      "captured_representation": "Latest Record of Proceedings | Queensland Parliament Watch Parliament Watch Committees Watch Committees Calendar Watch Parliament Watch Committees Watch Committees Calendar Remote Access Parliamentary Library Advance Search Queensland Parliament Queensland Parliament REMOTE ACCESS Login to Parliamentary Library Advanced Search Visit and learn Visit and learn Queensland Parliament welcomes all visitors. Find out how to visit the public gallery, take a tour or learn about parliament at one of our educational programs here. Message from the Speaker About Us A day in the Life of the Queensland Parliament The Executive Government of Queensland Officers of the Queensland Parliament The Origins of the Queensland Parliament The Queensland Parliament and Parliamentary Process Parliamentary Scrutiny via Parliamentary Committees The Queensland Parliament and the Financial Process The Queensland Parliament and the Legislative Process The Queensland Constitution The Queensland Electoral System The Role of Parliament Separation of Powers Information on Parliament Learn About Parliament Information For Visitors Conditions of Entry Free Guided Tour School Excursion Take a look inside Parliament House Visitors with Guide, Hearing or Assistance animals Visit the Public Gallery Visit our Gift Shop Have Your Say Contact your local member Make a submission Vote at State Elections Sign or start a petition Contact Us Subscribe Get Involved Events at Parliament House Learn about Parliament Education and Learning Student Learning Zone Teacher Resources Programs Information Resources News History Overview History of Parliament House Key Dates and Events Elections and Referendums Former Members Former Committees Governors of Queensland O'Donovan Library and Collection Womens Suffrage Women in Parliament 100 Women in Parliament Lucinda Steamship War Service Honour Board Heritage Collections Preservation of our Heritage Restoration of Heritage Maps Regional Sittings Far North Queensland Regional Sitting 2023 North Queensland Regional Parliament 2019 Mackay Regional Sitting of Parliament 2011 Far North Queensland Central Queensland North Queensland CPA Australia and Pacific Regional Conference Publications and Reports Annual Reports Hansard Parliamentary Record Chamber and Procedural Publications Parliament's Budget Speakers' Corner Opening of the 58th Parliament Contact Us Work of the Assembly Work of the Assembly The Queensland Parliament is a unicameral parliament, consisting of the Legislative Assembly of Queensland (the Lower House) and the sovereign (the King or Queen). Find out when the Legislative Assembly meet, the latest Bills and documents, records and statistics here. You can also watch live and archived broadcasts on demand. What's New Sitting Dates Latest Sitting Week Dates Work of the House Chamber Seating Plan Live and Archived Broadcasts Live Parliament and Committee Broadcast Archived Chamber Broadcasts Archived Committee Broadcasts Search Archived Broadcasts Terms and Conditions Daily Agenda (Notice Paper) Record of Proceedings (Hansard) Overview Latest Record of Proceedings Browse by Sitting Dates Indexes to Debates Citizen's Right of Reply Petitions Create a Petition Open E-Petitions Closed Petitions Rules and Information Bills and Legislation What's new Overview Bills this Parliament Bills before the House Bills previous Parliaments Questions on Notice and Answers Questions on Notice and Answers from 2004 Questions on Notice and Answers from 1995 to 2003 Procedures for Answering Subscribe Tabled Papers Online Tabled Papers Registers of Legislative Assembly Tabled Papers Prior to September 2024 Tabling Procedures and Guidelines Subscribe Procedures Work of committees Work of committees Committees investigate specific issues and proposed legislation, and report back to the Parliament. Find information on current and past committees here, including areas of responsibility, how they work, their activities, and how you can get involved in the committee process. Upcoming Committee Business About Committees History What is a Parliamentary Committee Portfolio Committees - Membership and Operation Engagement Survey Training Seminar - Committees@Work Committees (10) Committee of the Legislative Assembly Education, Arts and Communities Committee Ethics Committee Governance, Energy and Finance Committee Health, Environment and Innovation Committee Justice, Integrity and Community Safety Committee Local Government, Small Business and Customer Service Committee Parliamentary Crime and Corruption Committee Primary Industries and Resources Committee State Development, Infrastructure and Works Committee Committees Glossary Estimates Hearings Former Estimates Hearings Inquiries Live and Archived Broadcasts Live Committee Broadcast Archived Committee Broadcasts Terms and Conditions Publications Guidelines Subscribe Former Committees (67) 30 Year Release Past Alert Digest and Legislation Alert Indexes Ten Year Anniversary Members Members There are currently 93 MPs, each representing one of Queensland’s 93 electorates. Each Member is elected for a four year term. Find details for current and former members here. Current Members (including Ministers and shadow Ministers) Member List Full Mailing List Register of Members' Interests 'Parliamentary Friends of' Groups Member Speeches Office of the Leader of the Opposition Shadow Minister Lobbyist Meetings Former Members Former Members Register Contacting Former Members and Association Members of the first Parliament Members' and Former Members' Entitlements Events and functions Events and functions Parliament House is Brisbane’s leading heritage venue. Find out more about visiting Parliament House, our latest events and exclusive venues available for private hire. Visit our dedicated Events & Dining website. Careers Careers Careers at Queensland Parliament What we offer Permanent/Contract Roles Casual Roles First Peoples Cadetship Program Graduate Program Latest Record of Proceedings Home Work of the Assembly Record of Proceedings (Hansard) Latest Record of Proceedings Work of the Assembly What's New Sitting Dates Live and Archived Broadcasts Daily Agenda (Notice Paper) Record of Proceedings (Hansard) Overview Latest Record of Proceedings Browse by Sitting Dates Indexes to Debates Citizen's Right of Reply Petitions Bills and Legislation Questions on Notice and Answers Tabled Papers Procedures (5) Visit and learn Message from the Speaker About Us Visitors Visit the Public Gallery Visit our Gift Shop Have Your Say Get Involved Education and Learning History Heritage Collections Preservation of our Heritage Regional Sittings CPA Australia and Pacific Regional Conference Publications and Reports Speakers' Corner Opening of the 58th Parliament Contact Us Work of the Assembly What's New Sitting Dates Live and Archived Broadcasts Daily Agenda (Notice Paper) Record of Proceedings (Hansard) Citizen's Right of Reply Petitions Bills and Legislation Questions on Notice and Answers Tabled Papers Procedures Work of committees Upcoming Committee Business About Committees Training Seminar - Committees@Work Committees (10) Committees Glossary Estimates Hearings Inquiries Live and Archived Broadcasts Publications Guidelines Subscribe Former Committees (67) 30 Year Release Past Alert Digest and Legislation Alert Indexes Ten Year Anniversary Members Current Members (including Ministers and shadow Ministers) Former Members Members' and Former Members' Entitlements Events and functions Visit our dedicated Events & Dining website. Careers What we offer Permanent/Contract Roles Casual Roles First Peoples Cadetship Program Graduate Program Stay in touch Subscribe Sitemap Glossary Frequently Asked Questions Accessibility Privacy Statement Copyright Disclaimer Parliamentary Service Useful Links Copyright © 2026 All rights reserved Warning - Aboriginal and Torres Strait Islander people are warned that this web site may contain images of deceased people.",
+      "captured_representation_complete": true,
+      "captured_representation_length": 7994,
+      "structured_records": null,
+      "notes": "Automated forward capture after source representation changed. Raw source change is preserved separately from semantic signal promotion."
+    },
+    {
+      "snapshot_id": "AUTO-WATCH-QLD-MINISTERIAL-STATEMENTS-20261023045028",
+      "contest_id": null,
+      "cycle_id": null,
+      "source_id": "SRC-QLD-MINISTERIAL-STATEMENTS",
+      "source_registry_snapshot": "FORWARD-SIGNAL-SOURCE-REGISTRY-008",
+      "source_url": "https://statements.qld.gov.au/",
+      "acquisition_url": "https://statements.qld.gov.au/",
+      "requested_acquisition_url": "https://statements.qld.gov.au/",
+      "acquisition_header_profile": "IDENTIFIED_AUTOMATION",
+      "acquisition_content_type": "text/html; charset=utf-8",
+      "source_name": "Queensland Government — Ministerial Media Statements",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "original_source_class": null,
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "published_at": null,
+      "published_date": null,
+      "captured_at": "2026-10-23T04:50:28.592Z",
+      "content_hash": "88242d365722d59b67f6c2e5a962b4d7b3c295012d34b2bcc620269e432604ef",
+      "hash_basis": "COMPLETE_STRUCTURED_PUBLICATION_RECORD_SET",
+      "previous_snapshot_id": "AUTO-WATCH-QLD-MINISTERIAL-STATEMENTS-20261022101158",
+      "public_access": "OPEN",
+      "captured_representation": "[{\"record_id\":\"12d1f47d37e7439792ec\",\"title\":\"Energy Roadmap delivering lower power prices in Toowoomba\",\"url\":\"https://statements.qld.gov.au/statements/106289\"},{\"record_id\":\"22f549526f3c13acc7ec\",\"title\":\"Français (Other languages)\",\"url\":\"https://www.qld.gov.au/languages/\"},{\"record_id\":\"46044cff84355039d636\",\"title\":\"Help and Support\",\"url\":\"https://statements.qld.gov.au/Help\"},{\"record_id\":\"55b7ddcf74c112c260de\",\"title\":\"Works start on Caloundra TAFE Centre of Excellence\",\"url\":\"https://statements.qld.gov.au/statements/106280\"},{\"record_id\":\"55d27d18fde8cafd4226\",\"title\":\"US market recognises Queensland is open for business\",\"url\":\"https://statements.qld.gov.au/statements/106294\"},{\"record_id\":\"6800b9bbc457047c952c\",\"title\":\"South Bank’s next chapter for 2032 and beyond\",\"url\":\"https://statements.qld.gov.au/statements/106290\"},{\"record_id\":\"7382047c0f4e4ad97e00\",\"title\":\"complaints and compliments form\",\"url\":\"https://www.qld.gov.au/contact-us/complaints/\"},{\"record_id\":\"73998357d261573689fe\",\"title\":\"Statement from Minister Amanda Camm\",\"url\":\"https://statements.qld.gov.au/statements/106293\"},{\"record_id\":\"7bef8974379a60299530\",\"title\":\"Kuranda Weir built back better to strengthen Queensland’s energy resilience\",\"url\":\"https://statements.qld.gov.au/statements/106288\"},{\"record_id\":\"8f8c43152fd5fd2a0bd8\",\"title\":\"Unlocking Water Project identifies over 132,000 ML of water across three Queensland regions\",\"url\":\"https://statements.qld.gov.au/statements/106277\"},{\"record_id\":\"9edbb55fa111bf4d26e5\",\"title\":\"Australian-first facility to accelerate critical minerals sector\",\"url\":\"https://statements.qld.gov.au/statements/106284\"},{\"record_id\":\"a4c9c50f63bbcaacb62e\",\"title\":\"Red tape reduction helping deliver water projects without costly delays\",\"url\":\"https://statements.qld.gov.au/statements/106279\"},{\"record_id\":\"adfc54ad587b9708f16b\",\"title\":\"Queensland Water Resources appointed to advance Emu Swamp Dam\",\"url\":\"https://statements.qld.gov.au/statements/106291\"},{\"record_id\":\"c5662dc9e2f34bf93261\",\"title\":\"Connector Service delivers 100 connections within weeks of launch\",\"url\":\"https://statements.qld.gov.au/statements/106273\"},{\"record_id\":\"dd7fde88821e2a61f7a1\",\"title\":\"Disclaimer\",\"url\":\"https://www.qld.gov.au/legal/disclaimer/\"},{\"record_id\":\"f7d6c8bdf32fb0f4cb91\",\"title\":\"New security funding to protect small and family businesses, tradie utes, vans and mobile vehicles\",\"url\":\"https://statements.qld.gov.au/statements/106285\"}]",
+      "captured_representation_complete": true,
+      "captured_representation_length": 2476,
+      "structured_records": [
+        {
+          "record_id": "12d1f47d37e7439792ec",
+          "title": "Energy Roadmap delivering lower power prices in Toowoomba",
+          "url": "https://statements.qld.gov.au/statements/106289"
+        },
+        {
+          "record_id": "22f549526f3c13acc7ec",
+          "title": "Français (Other languages)",
+          "url": "https://www.qld.gov.au/languages/"
+        },
+        {
+          "record_id": "46044cff84355039d636",
+          "title": "Help and Support",
+          "url": "https://statements.qld.gov.au/Help"
+        },
+        {
+          "record_id": "55b7ddcf74c112c260de",
+          "title": "Works start on Caloundra TAFE Centre of Excellence",
+          "url": "https://statements.qld.gov.au/statements/106280"
+        },
+        {
+          "record_id": "55d27d18fde8cafd4226",
+          "title": "US market recognises Queensland is open for business",
+          "url": "https://statements.qld.gov.au/statements/106294"
+        },
+        {
+          "record_id": "6800b9bbc457047c952c",
+          "title": "South Bank’s next chapter for 2032 and beyond",
+          "url": "https://statements.qld.gov.au/statements/106290"
+        },
+        {
+          "record_id": "7382047c0f4e4ad97e00",
+          "title": "complaints and compliments form",
+          "url": "https://www.qld.gov.au/contact-us/complaints/"
+        },
+        {
+          "record_id": "73998357d261573689fe",
+          "title": "Statement from Minister Amanda Camm",
+          "url": "https://statements.qld.gov.au/statements/106293"
+        },
+        {
+          "record_id": "7bef8974379a60299530",
+          "title": "Kuranda Weir built back better to strengthen Queensland’s energy resilience",
+          "url": "https://statements.qld.gov.au/statements/106288"
+        },
+        {
+          "record_id": "8f8c43152fd5fd2a0bd8",
+          "title": "Unlocking Water Project identifies over 132,000 ML of water across three Queensland regions",
+          "url": "https://statements.qld.gov.au/statements/106277"
+        },
+        {
+          "record_id": "9edbb55fa111bf4d26e5",
+          "title": "Australian-first facility to accelerate critical minerals sector",
+          "url": "https://statements.qld.gov.au/statements/106284"
+        },
+        {
+          "record_id": "a4c9c50f63bbcaacb62e",
+          "title": "Red tape reduction helping deliver water projects without costly delays",
+          "url": "https://statements.qld.gov.au/statements/106279"
+        },
+        {
+          "record_id": "adfc54ad587b9708f16b",
+          "title": "Queensland Water Resources appointed to advance Emu Swamp Dam",
+          "url": "https://statements.qld.gov.au/statements/106291"
+        },
+        {
+          "record_id": "c5662dc9e2f34bf93261",
+          "title": "Connector Service delivers 100 connections within weeks of launch",
+          "url": "https://statements.qld.gov.au/statements/106273"
+        },
+        {
+          "record_id": "dd7fde88821e2a61f7a1",
+          "title": "Disclaimer",
+          "url": "https://www.qld.gov.au/legal/disclaimer/"
+        },
+        {
+          "record_id": "f7d6c8bdf32fb0f4cb91",
+          "title": "New security funding to protect small and family businesses, tradie utes, vans and mobile vehicles",
+          "url": "https://statements.qld.gov.au/statements/106285"
+        }
+      ],
       "notes": "Automated forward capture after source representation changed. Raw source change is preserved separately from semantic signal promotion."
     }
   ]

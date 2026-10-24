@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-SIGNAL-REVIEWS-001",
   "created_at": "2026-09-09T05:05:00+10:00",
-  "updated_at": "2026-10-23T22:14:43.786Z",
+  "updated_at": "2026-10-24T05:55:45.625Z",
   "rules": {
     "append_only": true,
     "raw_source_change_is_immutable": true,
@@ -40129,6 +40129,46 @@
         ],
         "removed_records": [],
         "delta_hash": "f3d698a3f379f72e685485a8855f833eeadcf890254b7f6dc577b69511f79aca"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261024055500",
+      "source_change_event_id": "CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261024055500",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261024055500",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Queensland Government — Ministerial Media Statements added 1 structured publication record to its forward-captured official index: Premier appoints Child Safety Minister to continue reform agenda",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-10-24T05:55:45.625Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "60a859703ed7af00bd22",
+            "title": "Premier appoints Child Safety Minister to continue reform agenda",
+            "url": "https://statements.qld.gov.au/statements/106297"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "a4c9c50f63bbcaacb62e",
+            "title": "Red tape reduction helping deliver water projects without costly delays",
+            "url": "https://statements.qld.gov.au/statements/106279"
+          }
+        ],
+        "delta_hash": "cfb26e7687762beef71dd3b0bbc165232d2ea0b204c971f5623ffd79fbc8422b"
       },
       "integrity": {
         "source_change_unchanged": true,

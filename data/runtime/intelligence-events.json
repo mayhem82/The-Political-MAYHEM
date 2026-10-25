@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-INTELLIGENCE-EVENTS-001",
   "scope": "Australia — multi-jurisdiction",
-  "captured_at": "2026-10-25T06:12:37.217Z",
+  "captured_at": "2026-10-25T16:21:30.265Z",
   "mode": "FORWARD_ONLY",
   "rules": {
     "observation_distinct_from_inference": true,
@@ -111205,6 +111205,200 @@
           "record_id": "a4c9c50f63bbcaacb62e",
           "title": "Red tape reduction helping deliver water projects without costly delays",
           "url": "https://statements.qld.gov.au/statements/106279"
+        }
+      ],
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "underlying_publication_claims_not_promoted_to_verified_fact": true,
+        "source_change_parent_retained": true,
+        "deterministic_review": true
+      }
+    },
+    {
+      "event_id": "CHG-WATCH-PM-MEDIA-20261025162050",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-FED",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-PM-MEDIA-20261025162050",
+      "captured_at": "2026-10-25T16:20:50.595Z",
+      "event_date": "2026-10-26",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-PM-MEDIA",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "review_policy": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-PM-MEDIA-20261023045028",
+        "content_hash": "41f5b42f84f6840346741939371630852cd706a61251e23ab2d965a46791b504",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-PM-MEDIA-20261025162050",
+        "content_hash": "35f626a0fa03f6660af041553b35378ff160134e9e459b2502aa4a9f0a309cea",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "STRUCTURED_RECORD_SET",
+        "records_added": [
+          {
+            "record_id": "924f385bed17490a249d",
+            "title": "Australia&#039;s First Major New Airport Has Been Decades in the Making",
+            "url": "https://www.pm.gov.au/media/australias-first-major-new-airport-has-been-decades-making"
+          },
+          {
+            "record_id": "a8ccb59da33cd9fafee9",
+            "title": "Opening of Western Sydney International Airport",
+            "url": "https://www.pm.gov.au/media/opening-western-sydney-international-airport"
+          },
+          {
+            "record_id": "b2105c96d5f5c131c8e3",
+            "title": "First Passengers Lift Off from WSI",
+            "url": "https://www.pm.gov.au/media/first-passengers-lift-wsi"
+          }
+        ],
+        "records_removed": [
+          {
+            "record_id": "3318b69ed5f57fa384de",
+            "title": "Television interview - ABC News Breakfast",
+            "url": "https://www.pm.gov.au/media/television-interview-abc-news-breakfast-43"
+          },
+          {
+            "record_id": "5982e169de9fcceecded",
+            "title": "Television interview - News24",
+            "url": "https://www.pm.gov.au/media/television-interview-news24-0"
+          },
+          {
+            "record_id": "9ab816d78efdee977d74",
+            "title": "Speech - The Age&#039;s Melbourne Assembly",
+            "url": "https://www.pm.gov.au/media/speech-ages-melbourne-assembly"
+          }
+        ],
+        "added_count": 3,
+        "removed_count": 3,
+        "before_count": 27,
+        "after_count": 27,
+        "delta_hash": "d7e5f59511fac3415c9fdb89368b04908a6e0ad7807e36f4cf4e58ab687658d4"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-LIBERAL-HOME-20261025162050",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-FED",
+      "party_id": "AUS-FED-LIB",
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-LIBERAL-HOME-20261025162050",
+      "captured_at": "2026-10-25T16:20:50.595Z",
+      "event_date": "2026-10-26",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_PARTY",
+      "source_id": "SRC-LIBERAL-FEDERAL-HOME",
+      "capture_mode": "NORMALISED_PAGE_HASH",
+      "review_policy": "REVIEW_UNSTRUCTURED_CHANGE",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-LIBERAL-HOME-20261024055500",
+        "content_hash": "026d62ff536f4e1c572e727e993df0a097680fe292d974db608e6a8010bc04b7",
+        "capture_mode": "NORMALISED_PAGE_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-LIBERAL-HOME-20261025162050",
+        "content_hash": "e9a59ab448e14fed0de5d2e00c47de3cdcacef4bc972c86202dda4712212f6de",
+        "capture_mode": "NORMALISED_PAGE_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "TEXT_REPRESENTATION",
+        "first_difference_offset": 1429,
+        "before_length": 6141,
+        "after_length": 6022,
+        "before_excerpt": "sition in the Senate Meet the Liberal Team The Latest Stay up to date with the Liberal Party of Australia angustaylormp Jim Chalmers needs to take responsibility for the collapse in business investment under Labor. We’ll axe their toxic taxes, back businesses and help Australians get ahead. Oct 23 Open post by angustaylormp with ID 18121596787940627 angustaylormp Victoria needs a fresh start. Jess Wilson and her team will reduce crime, lower costs and clean up the corruption. Jess is the change Victoria needs! Oct 22 Open post by angustaylormp with ID 18127567927900498 senatorhume Our thoughts and prayers are with Helen Haines, her family and her team. We wish Helen a full recovery during this incredibly difficult time. Oct 20 Open post by senatorhume with ID 18030709376916963 angustaylormp My thoughts and prayers are with Helen Haines, her family and friends at this incredibly difficult time. Oct 20 Open post by angustaylormp with ID 18096503906394002 senatorhume We will SCRAP Labor’s taxes on trusts, capital gains AND negative gearing. Oct 19 Open post by senatorhume with ID 18107741480155252 liberalaus Labor keeps changing its story on the ATO credit card ban. Why can`t Labor ever be upfront with Australians? Oct 19 Open post by liberalaus with ID 18105324848348714 liberalaus Labor don`t understand small businesses and that`s why they don`t respect small businesses. The Liberals and Nationals will always back small business. Oct 18 Open post by liberalaus with ID 18097214318653803 senatorhume Labor won’t stand up for small business. The Liberals will. Oct 18 Open post by senatorhume with ID 18124624342928879 angustaylormp Labor say we don’t talk about small business. We beg to differ. Oct 18 Open post by angustaylormp with ID 18124420015922688 angustaylormp This is what Telethon is all about. Behind every dollar raised are real children, real families and moments that matter. Oct 17 Open post by angustaylormp with ID 18041873099835257 angustaylormp A visit to Perth Children’s Hospital is a reminder of the incredible care and dedication that goes into supporting sick children and their families. This weekend is WA’s famous Telethon. Since 1968 more than $770 million has been donated to ensure a better life for our children now and in the future. This has included vital medical equipment, specialist facilities and research. That investment is making a real difference to children and families across Western Australia. @telethon7 Oct 17 Open post by angustaylormp with ID 18150575050558777 liberalaus The Albanese Government is knee-deep in the problems around the ATO credit card ban. It`s been revealed they initially backed it, then backflipped. Labor just makes things harder for small businesses. Oct 17 Open post by liberalaus with ID 18122168431937788 senatorhume Australians are not better off under this Labor Government. Oct 17 Open post by senatorhume with ID 17938224939384783 angustaylormp Anthony Albanese is taking our country backwards. We have the plan and the team to fight this terrible government, fix the economy and to protect our way of life. Oct 16 Open post by angustaylormp with ID 17909073990483352 liberalaus You cannot tax a country into prosperity. The Liberals and Nationals will fight these taxes, and we will axe them if elected. Oct 16 Open post by liberalaus with ID 17909259939561630 senatorhume Labor can cut wasteful spending on subsidies and climate bureaucracy, but instead they’re making life more expensive for pensioners. After a lifetime of paying for private health insurance, older Australians shouldn’t be punished when they need it most. Oct 16 Open post by senatorhume with ID 17975580680940013 angustaylormp Labor’s war on small business must end. Oct 16 Open post by angustaylormp with ID 18115169195093065 liberalaus Higher unemployment, higher inflation, higher taxes, higher interest rates, and higher power bills under Labor. There is a better way. Only the Liberals and Nationals have a plan to fix the economy and protect our way of life. Oct 15 Open post by liberalaus with ID 17944328499360607 We need your support to win! Help us by making a donation today. 🙏🏼 $30 👏🏼 $60 😃 $120 😁 $500 😲 $1,000 🥹 $2,000 ",
+        "after_excerpt": "sition in the Senate Meet the Liberal Team The Latest Stay up to date with the Liberal Party of Australia angustaylormp Proud to see history made in Western Sydney! The Liberals and Nationals made WSI airport happen and I’m pleased to see it open today. Oct 25 Open post by angustaylormp with ID 18094363367659795 angustaylormp Thanks to the work of the Abbott and Morrison Governments, Western Sydney International Airport is a reality! Oct 24 Open post by angustaylormp with ID 18112171985462533 angustaylormp Australia is worth fighting for. We must restore our nation’s strength, fix our economy and protect our way of life that Australians work hard for. Oct 24 Open post by angustaylormp with ID 18129785729508383 angustaylormp Jim Chalmers needs to take responsibility for the collapse in business investment under Labor. We’ll axe their toxic taxes, back businesses and help Australians get ahead. Oct 23 Open post by angustaylormp with ID 18121596787940627 angustaylormp Victoria needs a fresh start. Jess Wilson and her team will reduce crime, lower costs and clean up the corruption. Jess is the change Victoria needs! Oct 22 Open post by angustaylormp with ID 18127567927900498 senatorhume Our thoughts and prayers are with Helen Haines, her family and her team. We wish Helen a full recovery during this incredibly difficult time. Oct 20 Open post by senatorhume with ID 18030709376916963 angustaylormp My thoughts and prayers are with Helen Haines, her family and friends at this incredibly difficult time. Oct 20 Open post by angustaylormp with ID 18096503906394002 senatorhume We will SCRAP Labor’s taxes on trusts, capital gains AND negative gearing. Oct 19 Open post by senatorhume with ID 18107741480155252 liberalaus Labor keeps changing its story on the ATO credit card ban. Why can`t Labor ever be upfront with Australians? Oct 19 Open post by liberalaus with ID 18105324848348714 liberalaus Labor don`t understand small businesses and that`s why they don`t respect small businesses. The Liberals and Nationals will always back small business. Oct 18 Open post by liberalaus with ID 18097214318653803 senatorhume Labor won’t stand up for small business. The Liberals will. Oct 18 Open post by senatorhume with ID 18124624342928879 angustaylormp Labor say we don’t talk about small business. We beg to differ. Oct 18 Open post by angustaylormp with ID 18124420015922688 angustaylormp This is what Telethon is all about. Behind every dollar raised are real children, real families and moments that matter. Oct 17 Open post by angustaylormp with ID 18041873099835257 angustaylormp A visit to Perth Children’s Hospital is a reminder of the incredible care and dedication that goes into supporting sick children and their families. This weekend is WA’s famous Telethon. Since 1968 more than $770 million has been donated to ensure a better life for our children now and in the future. This has included vital medical equipment, specialist facilities and research. That investment is making a real difference to children and families across Western Australia. @telethon7 Oct 17 Open post by angustaylormp with ID 18150575050558777 liberalaus The Albanese Government is knee-deep in the problems around the ATO credit card ban. It`s been revealed they initially backed it, then backflipped. Labor just makes things harder for small businesses. Oct 17 Open post by liberalaus with ID 18122168431937788 senatorhume Australians are not better off under this Labor Government. Oct 17 Open post by senatorhume with ID 17938224939384783 angustaylormp Anthony Albanese is taking our country backwards. We have the plan and the team to fight this terrible government, fix the economy and to protect our way of life. Oct 16 Open post by angustaylormp with ID 17909073990483352 liberalaus You cannot tax a country into prosperity. The Liberals and Nationals will fight these taxes, and we will axe them if elected. Oct 16 Open post by liberalaus with ID 17909259939561630 We need your support to win! Help us by making a donation today. 🙏🏼 $30 👏🏼 $60 😃 $120 😁 $500 😲 $1,000 🥹 $2,000 ",
+        "delta_hash": "4cf1a3d7f16f705adf8ed9101827f489f9316ab2ce1e5fe2508a187a860df394"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "SIG-REV-CHG-WATCH-PM-MEDIA-20261025162050",
+      "parent_event_id": "CHG-WATCH-PM-MEDIA-20261025162050",
+      "review_id": "REV-CHG-WATCH-PM-MEDIA-20261025162050",
+      "jurisdiction_id": "AUS-FED",
+      "party_id": null,
+      "actor_id": null,
+      "contest_id": null,
+      "cycle_id": null,
+      "source_snapshot_id": "AUTO-WATCH-PM-MEDIA-20261025162050",
+      "record_id": null,
+      "captured_at": "2026-10-25T16:21:25.559Z",
+      "event_date": "2026-10-26",
+      "checkpoint": "CONTINUOUS_FORWARD_SIGNAL_REVIEW",
+      "event_type": "SIGNAL_CREATED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-PM-MEDIA",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "claim": "Prime Minister of Australia — media added 3 structured publication records to its forward-captured official index: Australia&#039;s First Major New Airport Has Been Decades in the Making; Opening of Western Sydney International Airport; First Passengers Lift Off from WSI",
+      "observed_behaviour": "One or more structured publication records appeared in the monitored official source index after the preceding forward snapshot.",
+      "publication_records_added": [
+        {
+          "record_id": "924f385bed17490a249d",
+          "title": "Australia&#039;s First Major New Airport Has Been Decades in the Making",
+          "url": "https://www.pm.gov.au/media/australias-first-major-new-airport-has-been-decades-making"
+        },
+        {
+          "record_id": "a8ccb59da33cd9fafee9",
+          "title": "Opening of Western Sydney International Airport",
+          "url": "https://www.pm.gov.au/media/opening-western-sydney-international-airport"
+        },
+        {
+          "record_id": "b2105c96d5f5c131c8e3",
+          "title": "First Passengers Lift Off from WSI",
+          "url": "https://www.pm.gov.au/media/first-passengers-lift-wsi"
+        }
+      ],
+      "publication_records_removed": [
+        {
+          "record_id": "3318b69ed5f57fa384de",
+          "title": "Television interview - ABC News Breakfast",
+          "url": "https://www.pm.gov.au/media/television-interview-abc-news-breakfast-43"
+        },
+        {
+          "record_id": "5982e169de9fcceecded",
+          "title": "Television interview - News24",
+          "url": "https://www.pm.gov.au/media/television-interview-news24-0"
+        },
+        {
+          "record_id": "9ab816d78efdee977d74",
+          "title": "Speech - The Age&#039;s Melbourne Assembly",
+          "url": "https://www.pm.gov.au/media/speech-ages-melbourne-assembly"
         }
       ],
       "inference": null,

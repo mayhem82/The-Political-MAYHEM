@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-SIGNAL-REVIEWS-001",
   "created_at": "2026-09-09T05:05:00+10:00",
-  "updated_at": "2026-10-25T06:12:32.865Z",
+  "updated_at": "2026-10-25T16:21:25.559Z",
   "rules": {
     "append_only": true,
     "raw_source_change_is_immutable": true,
@@ -40169,6 +40169,66 @@
           }
         ],
         "delta_hash": "cfb26e7687762beef71dd3b0bbc165232d2ea0b204c971f5623ffd79fbc8422b"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-PM-MEDIA-20261025162050",
+      "source_change_event_id": "CHG-WATCH-PM-MEDIA-20261025162050",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-PM-MEDIA-20261025162050",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Prime Minister of Australia — media added 3 structured publication records to its forward-captured official index: Australia&#039;s First Major New Airport Has Been Decades in the Making; Opening of Western Sydney International Airport; First Passengers Lift Off from WSI",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-10-25T16:21:25.559Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "924f385bed17490a249d",
+            "title": "Australia&#039;s First Major New Airport Has Been Decades in the Making",
+            "url": "https://www.pm.gov.au/media/australias-first-major-new-airport-has-been-decades-making"
+          },
+          {
+            "record_id": "a8ccb59da33cd9fafee9",
+            "title": "Opening of Western Sydney International Airport",
+            "url": "https://www.pm.gov.au/media/opening-western-sydney-international-airport"
+          },
+          {
+            "record_id": "b2105c96d5f5c131c8e3",
+            "title": "First Passengers Lift Off from WSI",
+            "url": "https://www.pm.gov.au/media/first-passengers-lift-wsi"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "3318b69ed5f57fa384de",
+            "title": "Television interview - ABC News Breakfast",
+            "url": "https://www.pm.gov.au/media/television-interview-abc-news-breakfast-43"
+          },
+          {
+            "record_id": "5982e169de9fcceecded",
+            "title": "Television interview - News24",
+            "url": "https://www.pm.gov.au/media/television-interview-news24-0"
+          },
+          {
+            "record_id": "9ab816d78efdee977d74",
+            "title": "Speech - The Age&#039;s Melbourne Assembly",
+            "url": "https://www.pm.gov.au/media/speech-ages-melbourne-assembly"
+          }
+        ],
+        "delta_hash": "d7e5f59511fac3415c9fdb89368b04908a6e0ad7807e36f4cf4e58ab687658d4"
       },
       "integrity": {
         "source_change_unchanged": true,

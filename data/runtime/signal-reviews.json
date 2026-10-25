@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-SIGNAL-REVIEWS-001",
   "created_at": "2026-09-09T05:05:00+10:00",
-  "updated_at": "2026-10-25T16:21:25.559Z",
+  "updated_at": "2026-10-25T22:34:41.276Z",
   "rules": {
     "append_only": true,
     "raw_source_change_is_immutable": true,
@@ -40229,6 +40229,164 @@
           }
         ],
         "delta_hash": "d7e5f59511fac3415c9fdb89368b04908a6e0ad7807e36f4cf4e58ab687658d4"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-PM-MEDIA-20261025223353",
+      "source_change_event_id": "CHG-WATCH-PM-MEDIA-20261025223353",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-PM-MEDIA-20261025223353",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Prime Minister of Australia — media added 1 structured publication record to its forward-captured official index: Hellenic Club Centenary Gala Ball",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-10-25T22:34:41.276Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "9a03f6c98c343fcc973f",
+            "title": "Hellenic Club Centenary Gala Ball",
+            "url": "https://www.pm.gov.au/media/hellenic-club-centenary-gala-ball"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "2dceef42083ee086c61b",
+            "title": "Radio interview - ABC Melbourne",
+            "url": "https://www.pm.gov.au/media/radio-interview-abc-melbourne-14"
+          }
+        ],
+        "delta_hash": "03c5d8da337c88b8760f9afe0148ba682ae645e2a5d3c277a8444dd3e31abb28"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-ALP-NEWS-20261025223353",
+      "source_change_event_id": "CHG-WATCH-ALP-NEWS-20261025223353",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-ALP-NEWS-20261025223353",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": "AUS-FED-ALP",
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Australian Labor Party — news added 1 structured publication record to its forward-captured official index: First passengers lift off from WSI 25 October 2026",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-10-25T22:34:41.276Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "5749f3d20876b917bc53",
+            "title": "First passengers lift off from WSI 25 October 2026",
+            "url": "https://www.alp.org.au/news/all-news/first-passengers-lift-off-from-wsi/"
+          }
+        ],
+        "removed_records": [],
+        "delta_hash": "40999aa8edca771c8d43850302bd6b3805f395cc8d4530f1704b1497f6b0dd51"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-NSW-MINISTERIAL-RELEASES-20261025223353",
+      "source_change_event_id": "CHG-WATCH-NSW-MINISTERIAL-RELEASES-20261025223353",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-NSW-MINISTERIAL-RELEASES-20261025223353",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "NSW Government — Ministerial releases added 2 structured publication records to its forward-captured official index: Targeted illicit tobacco and vaping operations close a further ten retailers in western Sydney; NSW Government introduces fire ant Biosecurity Control Order to enable long term monitoring & compliance",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-10-25T22:34:41.276Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "6b7cfdad25f404ee3ca9",
+            "title": "Targeted illicit tobacco and vaping operations close a further ten retailers in western Sydney",
+            "url": "https://www.nsw.gov.au/ministerial-releases/tobacco-vaping-raids-close-10-retailers"
+          },
+          {
+            "record_id": "fbf5b826f4f91fd67c0b",
+            "title": "NSW Government introduces fire ant Biosecurity Control Order to enable long term monitoring & compliance",
+            "url": "https://www.nsw.gov.au/ministerial-releases/nsw-government-introduces-fire-ant-biosecurity-control-order-to-enable-long-term-monitoring-compliance"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "9d85b68d8755a2f079e3",
+            "title": "Thousands of Hunter potholes patched in statewide roads blitz",
+            "url": "https://www.nsw.gov.au/ministerial-releases/thousands-of-hunter-potholes-patched-statewide-roads-blitz"
+          },
+          {
+            "record_id": "e3a74ae5009e8ecedee1",
+            "title": "Practical reforms to reduce plastics and microplastics",
+            "url": "https://www.nsw.gov.au/ministerial-releases/practical-reforms-to-reduce-plastics-and-microplastics"
+          }
+        ],
+        "delta_hash": "141a63f4c17fee32938e4cb4ef9335d6fe2abbb1b808092c7682f13d22f0c5cc"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-NSWEC-MEDIA-20261025223353",
+      "source_change_event_id": "CHG-WATCH-NSWEC-MEDIA-20261025223353",
+      "decision": "EXCLUDED_AS_NON_SIGNAL",
+      "signal_event_id": null,
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": null,
+      "materiality_state": "IMMATERIAL",
+      "claim": "Structured publication-index change contained removals only. It is retained as a raw source change but is not automatically promoted into a political signal.",
+      "review_basis": "Deterministic review policy excludes removal-only index changes because disappearance from an index does not establish a political event, reversal or substantive fact.",
+      "reviewed_at": "2026-10-25T22:34:41.276Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [],
+        "removed_records": [
+          {
+            "record_id": "0144bab8a958197251f7",
+            "title": "arrow_forward Learn more",
+            "url": "https://elections.nsw.gov.au/service-maintenance-schedule"
+          }
+        ],
+        "delta_hash": "946ed7b594c9d469bf61755d3fd11c527c91cc3ccc76d66289cce6c4c498d50e"
       },
       "integrity": {
         "source_change_unchanged": true,

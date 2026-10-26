@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-SIGNAL-REVIEWS-001",
   "created_at": "2026-09-09T05:05:00+10:00",
-  "updated_at": "2026-10-25T22:34:41.276Z",
+  "updated_at": "2026-10-26T06:15:43.337Z",
   "rules": {
     "append_only": true,
     "raw_source_change_is_immutable": true,
@@ -40387,6 +40387,395 @@
           }
         ],
         "delta_hash": "946ed7b594c9d469bf61755d3fd11c527c91cc3ccc76d66289cce6c4c498d50e"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-APH-BILLS-20261026061501",
+      "source_change_event_id": "CHG-WATCH-APH-BILLS-20261026061501",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-APH-BILLS-20261026061501",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Parliament of Australia — Bills and Legislation added 4 structured publication records to its forward-captured official index: Customs and Other Legislation Amendment (Illicit T...; Telecommunications Amendment (Enhancing Consumer S...; Sport Legislation Amendment (World Anti-Doping Cod...; National Student Ombudsman Levy Bill 2026",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-10-26T06:15:43.337Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "b271d61082992defc2ca",
+            "title": "Customs and Other Legislation Amendment (Illicit T...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7540"
+          },
+          {
+            "record_id": "d923443996ee532112a2",
+            "title": "Telecommunications Amendment (Enhancing Consumer S...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7358"
+          },
+          {
+            "record_id": "e3f4106f3b0d2a2d6e82",
+            "title": "Sport Legislation Amendment (World Anti-Doping Cod...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7548"
+          },
+          {
+            "record_id": "edeff7d63c0136e7de5d",
+            "title": "National Student Ombudsman Levy Bill 2026",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7541"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "01931c395f0cd1abc7b2",
+            "title": "Autonomous Sanctions Amendment (Iran and Syria) Bi...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7552"
+          },
+          {
+            "record_id": "5dfdb0f54589f88ce831",
+            "title": "Social Security and Other Legislation Amendment (T...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7515"
+          },
+          {
+            "record_id": "68ea1d349e472a585e69",
+            "title": "Health Insurance Amendment (Incentive Payments and...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7491"
+          },
+          {
+            "record_id": "ba16f1a261ed547f15f0",
+            "title": "Universities Accord (Opening the Doors of Opportun...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7501"
+          }
+        ],
+        "delta_hash": "da21807a91e9707532e90cff0c8c1a272b320c59995adce1f41cc09816941cf8"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-PM-MEDIA-20261026061501",
+      "source_change_event_id": "CHG-WATCH-PM-MEDIA-20261026061501",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-PM-MEDIA-20261026061501",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Prime Minister of Australia — media added 4 structured publication records to its forward-captured official index: First passengers lift off from WSI; Western Sydney goes international; Australia&#039;s first major new airport has been decades in the making; Helen Haines - Parliament House, Canberra",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-10-26T06:15:43.337Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "2493468917eb9e48a1c9",
+            "title": "First passengers lift off from WSI",
+            "url": "https://www.pm.gov.au/media/first-passengers-lift-wsi"
+          },
+          {
+            "record_id": "416b60688fab4829994b",
+            "title": "Western Sydney goes international",
+            "url": "https://www.pm.gov.au/media/western-sydney-goes-international"
+          },
+          {
+            "record_id": "6446a635b97d14cfa703",
+            "title": "Australia&#039;s first major new airport has been decades in the making",
+            "url": "https://www.pm.gov.au/media/australias-first-major-new-airport-has-been-decades-making"
+          },
+          {
+            "record_id": "f764cdeb99eacd30ef40",
+            "title": "Helen Haines - Parliament House, Canberra",
+            "url": "https://www.pm.gov.au/media/helen-haines-parliament-house-canberra"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "609225bd99dcf4306bcf",
+            "title": "Television interview - News24",
+            "url": "https://www.pm.gov.au/media/television-interview-news24-1"
+          },
+          {
+            "record_id": "924f385bed17490a249d",
+            "title": "Australia&#039;s First Major New Airport Has Been Decades in the Making",
+            "url": "https://www.pm.gov.au/media/australias-first-major-new-airport-has-been-decades-making"
+          },
+          {
+            "record_id": "a937a23e22db6d282d56",
+            "title": "We need only look to Helen Haines",
+            "url": "https://www.pm.gov.au/media/we-need-only-look-helen-haines"
+          },
+          {
+            "record_id": "b2105c96d5f5c131c8e3",
+            "title": "First Passengers Lift Off from WSI",
+            "url": "https://www.pm.gov.au/media/first-passengers-lift-wsi"
+          }
+        ],
+        "delta_hash": "98a0d6a35464c577373896ef7a0c3e462ec3635b7e06b4843f8b0a5c5c15dd3e"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-ALP-NEWS-20261026061501",
+      "source_change_event_id": "CHG-WATCH-ALP-NEWS-20261026061501",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-ALP-NEWS-20261026061501",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": "AUS-FED-ALP",
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Australian Labor Party — news added 2 structured publication records to its forward-captured official index: PM Albanese: Helen Haines 26 October 2026; Cheaper and easier access to medicines for women 26 October 2026",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-10-26T06:15:43.337Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "358c522c33fe329f68aa",
+            "title": "PM Albanese: Helen Haines 26 October 2026",
+            "url": "https://www.alp.org.au/news/all-news/prime-minister-anthony-albanese-helen-haines/"
+          },
+          {
+            "record_id": "5c4b223ee800f63adacf",
+            "title": "Cheaper and easier access to medicines for women 26 October 2026",
+            "url": "https://www.alp.org.au/news/all-news/cheaper-and-easier-access-to-medicines-for-australian-women/"
+          }
+        ],
+        "removed_records": [],
+        "delta_hash": "dc01a584c3816bfc0d245d90ed9113c6a718896273124a5758c8ac7dd6ce5d47"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-GREENS-FEDERAL-MEDIA-20261026061501",
+      "source_change_event_id": "CHG-WATCH-GREENS-FEDERAL-MEDIA-20261026061501",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-GREENS-FEDERAL-MEDIA-20261026061501",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": "AUS-FED-GRN",
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Australian Greens — Federal MPs media releases added 2 structured publication records to its forward-captured official index: Read more about Labor’s grim economic plan is driven by vampire US tech bros: Greens; Labor’s grim economic plan is driven by vampire US tech bros: Greens",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-10-26T06:15:43.337Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "42d17cb61791af72a5f5",
+            "title": "Read more about Labor’s grim economic plan is driven by vampire US tech bros: Greens",
+            "url": "https://greens.org.au/news/media-release/labors-grim-economic-plan-driven-vampire-us-tech-bros-greens"
+          },
+          {
+            "record_id": "ca5c4f6b329a16a78b1a",
+            "title": "Labor’s grim economic plan is driven by vampire US tech bros: Greens",
+            "url": "https://greens.org.au/news/media-release/labors-grim-economic-plan-driven-vampire-us-tech-bros-greens"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "e24edc04dbb9521c5e3b",
+            "title": "Greens call for federal support for Aboriginal-controlled YiSSA housing",
+            "url": "https://greens.org.au/news/media-release/greens-call-federal-support-aboriginal-controlled-yissa-housing"
+          },
+          {
+            "record_id": "eea66547e53ed4851afd",
+            "title": "Read more about Greens call for federal support for Aboriginal-controlled YiSSA housing",
+            "url": "https://greens.org.au/news/media-release/greens-call-federal-support-aboriginal-controlled-yissa-housing"
+          }
+        ],
+        "delta_hash": "6e511da13194a42f5d33cc5d2ab146b936ed78a64454fbda0b3f703bb7738b55"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-NSW-MINISTERIAL-RELEASES-20261026061501",
+      "source_change_event_id": "CHG-WATCH-NSW-MINISTERIAL-RELEASES-20261026061501",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-NSW-MINISTERIAL-RELEASES-20261026061501",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "NSW Government — Ministerial releases added 8 structured publication records to its forward-captured official index: NSW Government to expedite overdue endoscopies; NSW Mental Health Hubs: easier to find, open longer; National Gun Buyback to begin in NSW on November 2, bookings to surrender open today; Supporting frontline domestic and family violence workers with fully subsidised TAFE; War widows honoured in Sydney; +3 more",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-10-26T06:15:43.337Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "1e26f87500d8d7785402",
+            "title": "NSW Government to expedite overdue endoscopies",
+            "url": "https://www.nsw.gov.au/ministerial-releases/nsw-government-to-expedite-overdue-endoscopies"
+          },
+          {
+            "record_id": "648221731da65aa1eea5",
+            "title": "NSW Mental Health Hubs: easier to find, open longer",
+            "url": "https://www.nsw.gov.au/ministerial-releases/nsw-mental-health-hubs-easier-to-find-open-longer"
+          },
+          {
+            "record_id": "841b9eb788c66de0dc66",
+            "title": "National Gun Buyback to begin in NSW on November 2, bookings to surrender open today",
+            "url": "https://www.nsw.gov.au/ministerial-releases/national-gun-buyback-to-begin-nsw-on-november-2-bookings-to-surrender-open-today"
+          },
+          {
+            "record_id": "85512ce9306acfbbed66",
+            "title": "Supporting frontline domestic and family violence workers with fully subsidised TAFE",
+            "url": "https://www.nsw.gov.au/ministerial-releases/dfv-specialist-workers-subsidised-tafe"
+          },
+          {
+            "record_id": "909b247c28ec9bd598de",
+            "title": "War widows honoured in Sydney",
+            "url": "https://www.nsw.gov.au/ministerial-releases/war-widows-honoured-sydney"
+          },
+          {
+            "record_id": "aeb501174850a65200c9",
+            "title": "NSW Government listens to commuters: putting rail reliability first by not proceeding with timetable changes",
+            "url": "https://www.nsw.gov.au/ministerial-releases/nsw-government-listens-to-commuters-putting-rail-reliability-first-by-not-proceeding-timetable-changes"
+          },
+          {
+            "record_id": "cd583feff361460e9c65",
+            "title": "South Coast rail line to be electrified and duplicated in the largest investment in rail infrastructure in generations",
+            "url": "https://www.nsw.gov.au/ministerial-releases/south-coast-rail-line-to-be-electrified-and-duplicated-largest-investment-rail-infrastructure-generations"
+          },
+          {
+            "record_id": "d8336086804cad7f4841",
+            "title": "Sydney shoots and scores the 2027 Super Netball Grand Final",
+            "url": "https://www.nsw.gov.au/departments-and-agencies/dciths/ministerial-media-releases/sydney-shoots-and-scores-2027-super-netball-grand-final"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "1d030e68a8ff4684cf85",
+            "title": "Jobs and investment in train for Hunter through post mining land reuse",
+            "url": "https://www.nsw.gov.au/ministerial-releases/jobs-and-investment-for-hunter"
+          },
+          {
+            "record_id": "5f45117f1186d267c0a9",
+            "title": "New opportunities for First Nations artists through Vivid Sydney",
+            "url": "https://www.nsw.gov.au/departments-and-agencies/dciths/ministerial-media-releases/vivid-sydney-first-nations-artist-opportunities"
+          },
+          {
+            "record_id": "6c266f04fb71a3831304",
+            "title": "Historic day for koalas as landmark legislation passes NSW Parliament",
+            "url": "https://www.nsw.gov.au/ministerial-releases/great-koala-national-park-created"
+          },
+          {
+            "record_id": "7a1184747952c3ccba1e",
+            "title": "New Rekindling the Spirit facility restores vital services in Lismore after floods",
+            "url": "https://www.nsw.gov.au/ministerial-releases/new-rekindling-spirit-facility-restores-vital-services-lismore-after-floods"
+          },
+          {
+            "record_id": "8c37a1c7288942a25dff",
+            "title": "Update on PHP response",
+            "url": "https://www.nsw.gov.au/ministerial-releases/update-on-php-response"
+          },
+          {
+            "record_id": "8e2992add157835003d7",
+            "title": "New bus route to connect Inner West residents from Balmain East to Leichhardt",
+            "url": "https://www.nsw.gov.au/ministerial-releases/new-bus-route-from-balmain-east-to-leichhardt"
+          },
+          {
+            "record_id": "94fbc9b57da56b0af0af",
+            "title": "Building more homes for Lake Macquarie: Morisset project passes halfway point",
+            "url": "https://www.nsw.gov.au/ministerial-releases/morisset-project-passes-halfway-point"
+          },
+          {
+            "record_id": "d9834acb4316a8dede71",
+            "title": "Minns Labor Government marks one year of tougher child safety laws",
+            "url": "https://www.nsw.gov.au/ministerial-releases/tougher-child-safety-laws-mark-one-year"
+          }
+        ],
+        "delta_hash": "c8a1d97d3507e9ede6085ae30c91f033391a5472f39f4e70af38a5ebdb23f670"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261026061501",
+      "source_change_event_id": "CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261026061501",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261026061501",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Queensland Government — Ministerial Media Statements added 2 structured publication records to its forward-captured official index: Tougher bail test to keep serious repeat offenders off the streets; 2027 Premier’s Anzac Prize recipients revealed",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-10-26T06:15:43.337Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "287bfbc8a8f1748bf2a3",
+            "title": "Tougher bail test to keep serious repeat offenders off the streets",
+            "url": "https://statements.qld.gov.au/statements/106300"
+          },
+          {
+            "record_id": "60751aa44a729649a17a",
+            "title": "2027 Premier’s Anzac Prize recipients revealed",
+            "url": "https://statements.qld.gov.au/statements/106301"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "55b7ddcf74c112c260de",
+            "title": "Works start on Caloundra TAFE Centre of Excellence",
+            "url": "https://statements.qld.gov.au/statements/106280"
+          },
+          {
+            "record_id": "8f8c43152fd5fd2a0bd8",
+            "title": "Unlocking Water Project identifies over 132,000 ML of water across three Queensland regions",
+            "url": "https://statements.qld.gov.au/statements/106277"
+          }
+        ],
+        "delta_hash": "605bf678f45b6def863794e654c8c68be487c2c8fb72cb9dcf6faed71668518d"
       },
       "integrity": {
         "source_change_unchanged": true,

@@ -69,63 +69,63 @@
     {
       "jurisdiction_id": "AUS-FED",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-10-25T22:34:46.705Z",
-      "signals_examined": 243,
-      "candidates_detected": 93
+      "last_screened_at": "2026-10-26T06:15:47.477Z",
+      "signals_examined": 247,
+      "candidates_detected": 96
     },
     {
       "jurisdiction_id": "AUS-NSW",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-10-25T22:34:46.705Z",
-      "signals_examined": 104,
+      "last_screened_at": "2026-10-26T06:15:47.477Z",
+      "signals_examined": 105,
       "candidates_detected": 23
     },
     {
       "jurisdiction_id": "AUS-VIC",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-10-25T22:34:46.705Z",
+      "last_screened_at": "2026-10-26T06:15:47.477Z",
       "signals_examined": 25,
       "candidates_detected": 6
     },
     {
       "jurisdiction_id": "AUS-QLD",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-10-25T22:34:46.705Z",
-      "signals_examined": 63,
+      "last_screened_at": "2026-10-26T06:15:47.477Z",
+      "signals_examined": 64,
       "candidates_detected": 45
     },
     {
       "jurisdiction_id": "AUS-WA",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-10-25T22:34:46.705Z",
+      "last_screened_at": "2026-10-26T06:15:47.477Z",
       "signals_examined": 8,
       "candidates_detected": 3
     },
     {
       "jurisdiction_id": "AUS-SA",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-10-25T22:34:46.705Z",
+      "last_screened_at": "2026-10-26T06:15:47.477Z",
       "signals_examined": 4,
       "candidates_detected": 0
     },
     {
       "jurisdiction_id": "AUS-TAS",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-10-25T22:34:46.705Z",
+      "last_screened_at": "2026-10-26T06:15:47.477Z",
       "signals_examined": 21,
       "candidates_detected": 0
     },
     {
       "jurisdiction_id": "AUS-ACT",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-10-25T22:34:46.705Z",
+      "last_screened_at": "2026-10-26T06:15:47.477Z",
       "signals_examined": 24,
       "candidates_detected": 1
     },
     {
       "jurisdiction_id": "AUS-NT",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-10-25T22:34:46.705Z",
+      "last_screened_at": "2026-10-26T06:15:47.477Z",
       "signals_examined": 31,
       "candidates_detected": 0
     }
@@ -5098,13 +5098,16 @@
       "candidate_state": "EVIDENCE_GAP",
       "detected_at": "2026-09-15T07:46:25.531Z",
       "source_snapshot_ids": [
-        "AUTO-WATCH-APH-BILLS-20260915074540"
+        "AUTO-WATCH-APH-BILLS-20260915074540",
+        "AUTO-WATCH-APH-BILLS-20261026061501"
       ],
       "signal_event_ids": [
-        "SIG-REV-CHG-WATCH-APH-BILLS-20260915074540"
+        "SIG-REV-CHG-WATCH-APH-BILLS-20260915074540",
+        "SIG-REV-CHG-WATCH-APH-BILLS-20261026061501"
       ],
       "review_ids": [
-        "REV-CHG-WATCH-APH-BILLS-20260915074540"
+        "REV-CHG-WATCH-APH-BILLS-20260915074540",
+        "REV-CHG-WATCH-APH-BILLS-20261026061501"
       ],
       "area_evidence_ids": [],
       "detail_version_ids": [],
@@ -7035,19 +7038,121 @@
           "reason": "SUBSTANTIVE_THRESHOLD_EVALUATION_PROPAGATED"
         }
       ]
+    },
+    {
+      "candidate_id": "DISC-FED-PROCEDURAL-010d3831bb0f2f05",
+      "jurisdiction_id": "AUS-FED",
+      "competition_family": "PROCEDURAL",
+      "proposed_competition_class": "PARLIAMENTARY_PROCEDURE",
+      "proposed_cycle_id": "AUS-FED-48TH-PARLIAMENT",
+      "subject": "Customs and Other Legislation Amendment (Illicit T...",
+      "candidate_state": "REVIEW_REQUIRED",
+      "detected_at": "2026-10-26T06:15:43.337Z",
+      "source_snapshot_ids": [
+        "AUTO-WATCH-APH-BILLS-20261026061501"
+      ],
+      "signal_event_ids": [
+        "SIG-REV-CHG-WATCH-APH-BILLS-20261026061501"
+      ],
+      "review_ids": [
+        "REV-CHG-WATCH-APH-BILLS-20261026061501"
+      ],
+      "area_evidence_ids": [],
+      "detail_version_ids": [],
+      "evidence_summary": "Screened PRIMARY_PARLIAMENT evidence contains language consistent with a procedural competition candidate. This is a discovery observation, not a registered contest or outcome inference.",
+      "registration_blockers": [
+        "MATERIAL_PROCEDURAL_OPPOSITION_REQUIRES_REVIEW"
+      ],
+      "linked_contest_id": null,
+      "state_history": [
+        {
+          "from": null,
+          "to": "REVIEW_REQUIRED",
+          "at": "2026-10-26T06:15:43.337Z",
+          "reason": "DETERMINISTIC_COMPETITION_FAMILY_SCREEN"
+        }
+      ]
+    },
+    {
+      "candidate_id": "DISC-FED-PROCEDURAL-cc029e6d94d0a542",
+      "jurisdiction_id": "AUS-FED",
+      "competition_family": "PROCEDURAL",
+      "proposed_competition_class": "PARLIAMENTARY_PROCEDURE",
+      "proposed_cycle_id": "AUS-FED-48TH-PARLIAMENT",
+      "subject": "Telecommunications Amendment (Enhancing Consumer S...",
+      "candidate_state": "REVIEW_REQUIRED",
+      "detected_at": "2026-10-26T06:15:43.337Z",
+      "source_snapshot_ids": [
+        "AUTO-WATCH-APH-BILLS-20261026061501"
+      ],
+      "signal_event_ids": [
+        "SIG-REV-CHG-WATCH-APH-BILLS-20261026061501"
+      ],
+      "review_ids": [
+        "REV-CHG-WATCH-APH-BILLS-20261026061501"
+      ],
+      "area_evidence_ids": [],
+      "detail_version_ids": [],
+      "evidence_summary": "Screened PRIMARY_PARLIAMENT evidence contains language consistent with a procedural competition candidate. This is a discovery observation, not a registered contest or outcome inference.",
+      "registration_blockers": [
+        "MATERIAL_PROCEDURAL_OPPOSITION_REQUIRES_REVIEW"
+      ],
+      "linked_contest_id": null,
+      "state_history": [
+        {
+          "from": null,
+          "to": "REVIEW_REQUIRED",
+          "at": "2026-10-26T06:15:43.337Z",
+          "reason": "DETERMINISTIC_COMPETITION_FAMILY_SCREEN"
+        }
+      ]
+    },
+    {
+      "candidate_id": "DISC-FED-PROCEDURAL-f1b6d9bc198829f2",
+      "jurisdiction_id": "AUS-FED",
+      "competition_family": "PROCEDURAL",
+      "proposed_competition_class": "PARLIAMENTARY_PROCEDURE",
+      "proposed_cycle_id": "AUS-FED-48TH-PARLIAMENT",
+      "subject": "Sport Legislation Amendment (World Anti-Doping Cod...",
+      "candidate_state": "REVIEW_REQUIRED",
+      "detected_at": "2026-10-26T06:15:43.337Z",
+      "source_snapshot_ids": [
+        "AUTO-WATCH-APH-BILLS-20261026061501"
+      ],
+      "signal_event_ids": [
+        "SIG-REV-CHG-WATCH-APH-BILLS-20261026061501"
+      ],
+      "review_ids": [
+        "REV-CHG-WATCH-APH-BILLS-20261026061501"
+      ],
+      "area_evidence_ids": [],
+      "detail_version_ids": [],
+      "evidence_summary": "Screened PRIMARY_PARLIAMENT evidence contains language consistent with a procedural competition candidate. This is a discovery observation, not a registered contest or outcome inference.",
+      "registration_blockers": [
+        "MATERIAL_PROCEDURAL_OPPOSITION_REQUIRES_REVIEW"
+      ],
+      "linked_contest_id": null,
+      "state_history": [
+        {
+          "from": null,
+          "to": "REVIEW_REQUIRED",
+          "at": "2026-10-26T06:15:43.337Z",
+          "reason": "DETERMINISTIC_COMPETITION_FAMILY_SCREEN"
+        }
+      ]
     }
   ],
-  "last_screened_at": "2026-10-25T22:34:46.705Z",
+  "last_screened_at": "2026-10-26T06:15:47.477Z",
   "last_screen_summary": {
-    "signals_examined": 523,
-    "candidates_total": 171,
-    "candidates_added": 0,
-    "candidate_lineage_merges": 369,
+    "signals_examined": 529,
+    "candidates_total": 174,
+    "candidates_added": 3,
+    "candidate_lineage_merges": 370,
     "substantive_area_events_examined": 119,
     "threshold_state_transitions": 0,
     "registered_contests_unchanged": true
   },
-  "last_duplicate_reconciliation_at": "2026-10-25T22:34:46.785Z",
+  "last_duplicate_reconciliation_at": "2026-10-26T06:15:47.542Z",
   "last_duplicate_reconciliation": {
     "rejected": 0,
     "active_area_family_keys": 118

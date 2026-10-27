@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-SIGNAL-REVIEWS-001",
   "created_at": "2026-09-09T05:05:00+10:00",
-  "updated_at": "2026-10-26T19:21:32.305Z",
+  "updated_at": "2026-10-27T05:06:51.143Z",
   "rules": {
     "append_only": true,
     "raw_source_change_is_immutable": true,
@@ -40776,6 +40776,324 @@
           }
         ],
         "delta_hash": "605bf678f45b6def863794e654c8c68be487c2c8fb72cb9dcf6faed71668518d"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-APH-BILLS-20261027050622",
+      "source_change_event_id": "CHG-WATCH-APH-BILLS-20261027050622",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-APH-BILLS-20261027050622",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Parliament of Australia — Bills and Legislation added 6 structured publication records to its forward-captured official index: Domestic Gas Reservation Bill 2026; Defence Legislation Amendment (Accelerating Capabi...; Domestic Gas Reservation (Consequential Amendments...; Treasury Laws Amendment (Tax Reform No. 4) Bill 20...; Online Safety Amendment (Digital Duty of Care) Bil...; +1 more",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-10-27T05:06:51.143Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "461afefea358cd8e9eb7",
+            "title": "Domestic Gas Reservation Bill 2026",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7559"
+          },
+          {
+            "record_id": "6955ae575c545805b9bd",
+            "title": "Defence Legislation Amendment (Accelerating Capabi...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7568"
+          },
+          {
+            "record_id": "97a5f3d1eecae28eae06",
+            "title": "Domestic Gas Reservation (Consequential Amendments...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7561"
+          },
+          {
+            "record_id": "b98f3e86ec1e5dbdfd21",
+            "title": "Treasury Laws Amendment (Tax Reform No. 4) Bill 20...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7566"
+          },
+          {
+            "record_id": "c6cf323b86329baf43f5",
+            "title": "Online Safety Amendment (Digital Duty of Care) Bil...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7553"
+          },
+          {
+            "record_id": "dc7e8ed5257b5723c2e7",
+            "title": "Domestic Gas Reservation Levy Bill 2026",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7560"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "482c4b90b9cd4fe2c84a",
+            "title": "Telecommunications Legislation Amendment (Universa...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7414"
+          },
+          {
+            "record_id": "732221c68c87c7b3aff7",
+            "title": "Aged Care Legislation Amendment (Aboriginal and To...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7517"
+          },
+          {
+            "record_id": "b271d61082992defc2ca",
+            "title": "Customs and Other Legislation Amendment (Illicit T...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7540"
+          },
+          {
+            "record_id": "d923443996ee532112a2",
+            "title": "Telecommunications Amendment (Enhancing Consumer S...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7358"
+          },
+          {
+            "record_id": "e3f4106f3b0d2a2d6e82",
+            "title": "Sport Legislation Amendment (World Anti-Doping Cod...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7548"
+          },
+          {
+            "record_id": "edeff7d63c0136e7de5d",
+            "title": "National Student Ombudsman Levy Bill 2026",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7541"
+          }
+        ],
+        "delta_hash": "c7e1c182d7345ec443621a80979e54c90d98722a01afb69c6330686ceb207da5"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-NSW-MINISTERIAL-RELEASES-20261027050622",
+      "source_change_event_id": "CHG-WATCH-NSW-MINISTERIAL-RELEASES-20261027050622",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-NSW-MINISTERIAL-RELEASES-20261027050622",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "NSW Government — Ministerial releases added 8 structured publication records to its forward-captured official index: NSW&#x27;s commitment to mining and critical minerals on the global stage; Australian industry supports firefighting fleet upgrades; Construction begins on 30 additional beds at Mount Druitt Hospital; NSW Government launches 2031 Road Safety Action Plan to address road trauma; $6.58 million for 14 community- led projects in Riverina, Murray and Southern Tablelands; +3 more",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-10-27T05:06:51.143Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "099dc42bc70bfd9ea329",
+            "title": "NSW&#x27;s commitment to mining and critical minerals on the global stage",
+            "url": "https://www.nsw.gov.au/ministerial-releases/sydney-hosts-mining-and-resources-conference"
+          },
+          {
+            "record_id": "0effae60b6dcfe6a93c6",
+            "title": "Australian industry supports firefighting fleet upgrades",
+            "url": "https://www.nsw.gov.au/ministerial-releases/australian-industry-supports-firefighting-fleet-upgrades"
+          },
+          {
+            "record_id": "5378d6e4ccecd21b3774",
+            "title": "Construction begins on 30 additional beds at Mount Druitt Hospital",
+            "url": "https://www.nsw.gov.au/ministerial-releases/construction-begins-on-30-additional-beds-at-mount-druitt-hospital"
+          },
+          {
+            "record_id": "5d3a8efb706c55b54a00",
+            "title": "NSW Government launches 2031 Road Safety Action Plan to address road trauma",
+            "url": "https://www.nsw.gov.au/ministerial-releases/nsw-government-launches-2031-road-safety-action-plan-to-address-road-trauma"
+          },
+          {
+            "record_id": "5f115530acbceff14d28",
+            "title": "$6.58 million for 14 community- led projects in Riverina, Murray and Southern Tablelands",
+            "url": "https://www.nsw.gov.au/ministerial-releases/658-million-for-14-community-led-projects-riverina-murray-and-southern-tablelands"
+          },
+          {
+            "record_id": "c391db669148c82b036e",
+            "title": "Minns Labor Government invests in TAFE NSW to boost hair and beauty workforce on the Mid North Coast",
+            "url": "https://www.nsw.gov.au/ministerial-releases/minns-labor-government-invests-tafe-nsw-to-boost-hair-and-beauty-workforce-on-mid-north-coast"
+          },
+          {
+            "record_id": "f055a7d998ceaca1bac3",
+            "title": "$50 million strengthens business, industry and communities across the NSW Southern Murray-Darling Basin",
+            "url": "https://www.nsw.gov.au/ministerial-releases/50-million-strengthens-business-industry-and-communities-across-nsw-southern-murray-darling-basin"
+          },
+          {
+            "record_id": "fb9b949bf9de3c9b8237",
+            "title": "More than 4,000 homes declared State Significant",
+            "url": "https://www.nsw.gov.au/ministerial-releases/more-than-4000-homes-declared-state-significant"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "1e26f87500d8d7785402",
+            "title": "NSW Government to expedite overdue endoscopies",
+            "url": "https://www.nsw.gov.au/ministerial-releases/nsw-government-to-expedite-overdue-endoscopies"
+          },
+          {
+            "record_id": "648221731da65aa1eea5",
+            "title": "NSW Mental Health Hubs: easier to find, open longer",
+            "url": "https://www.nsw.gov.au/ministerial-releases/nsw-mental-health-hubs-easier-to-find-open-longer"
+          },
+          {
+            "record_id": "6b7cfdad25f404ee3ca9",
+            "title": "Targeted illicit tobacco and vaping operations close a further ten retailers in western Sydney",
+            "url": "https://www.nsw.gov.au/ministerial-releases/tobacco-vaping-raids-close-10-retailers"
+          },
+          {
+            "record_id": "85512ce9306acfbbed66",
+            "title": "Supporting frontline domestic and family violence workers with fully subsidised TAFE",
+            "url": "https://www.nsw.gov.au/ministerial-releases/dfv-specialist-workers-subsidised-tafe"
+          },
+          {
+            "record_id": "909b247c28ec9bd598de",
+            "title": "War widows honoured in Sydney",
+            "url": "https://www.nsw.gov.au/ministerial-releases/war-widows-honoured-sydney"
+          },
+          {
+            "record_id": "aeb501174850a65200c9",
+            "title": "NSW Government listens to commuters: putting rail reliability first by not proceeding with timetable changes",
+            "url": "https://www.nsw.gov.au/ministerial-releases/nsw-government-listens-to-commuters-putting-rail-reliability-first-by-not-proceeding-timetable-changes"
+          },
+          {
+            "record_id": "d8336086804cad7f4841",
+            "title": "Sydney shoots and scores the 2027 Super Netball Grand Final",
+            "url": "https://www.nsw.gov.au/departments-and-agencies/dciths/ministerial-media-releases/sydney-shoots-and-scores-2027-super-netball-grand-final"
+          },
+          {
+            "record_id": "fbf5b826f4f91fd67c0b",
+            "title": "NSW Government introduces fire ant Biosecurity Control Order to enable long term monitoring & compliance",
+            "url": "https://www.nsw.gov.au/ministerial-releases/nsw-government-introduces-fire-ant-biosecurity-control-order-to-enable-long-term-monitoring-compliance"
+          }
+        ],
+        "delta_hash": "d0950e99bf6c48e801dec3b9950991c3ba8d2ee6db9a2f725c1c7956be5dd058"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-NSWEC-MEDIA-20261027050622",
+      "source_change_event_id": "CHG-WATCH-NSWEC-MEDIA-20261027050622",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-NSWEC-MEDIA-20261027050622",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "NSW Electoral Commission — news and media releases added 1 structured publication record to its forward-captured official index: Ballot paper draw: Cobar Shire Council by-election arrow_forward 27 Oct 2026 Media are invited to attend the ballot paper draw at 10am on Thursday, 29 October 2026 at the Returning Officer's office.",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-10-27T05:06:51.143Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "e4303bf8cf1a1c40fd05",
+            "title": "Ballot paper draw: Cobar Shire Council by-election arrow_forward 27 Oct 2026 Media are invited to attend the ballot paper draw at 10am on Thursday, 29 October 2026 at the Returning Officer's office.",
+            "url": "https://elections.nsw.gov.au/about-us/media-centre/news-and-media-releases/ballot-paper-draw-cobar-shire-council-by-election"
+          }
+        ],
+        "removed_records": [],
+        "delta_hash": "5803bafa6ab654953c202a64203684cb7be2eba3b22a4b888cdc633d1d200a77"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-VEC-MEDIA-20261027050622",
+      "source_change_event_id": "CHG-WATCH-VEC-MEDIA-20261027050622",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-VEC-MEDIA-20261027050622",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Victorian Electoral Commission — media centre added 1 structured publication record to its forward-captured official index: Connect with us",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-10-27T05:06:51.143Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "e71245190c725ce9a278",
+            "title": "Connect with us",
+            "url": "https://www.vec.vic.gov.au/about-us/social-media"
+          }
+        ],
+        "removed_records": [],
+        "delta_hash": "03a7937f6b0bb3d2cc782c090611a040d190b8806e3502f6cf97354686f0f521"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261027050622",
+      "source_change_event_id": "CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261027050622",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261027050622",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Queensland Government — Ministerial Media Statements added 2 structured publication records to its forward-captured official index: Play On! Learn to Swim vouchers open; New offence targets AI deepfake sex abuse predators",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-10-27T05:06:51.143Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "23322d71d8d9b5125588",
+            "title": "Play On! Learn to Swim vouchers open",
+            "url": "https://statements.qld.gov.au/statements/106303"
+          },
+          {
+            "record_id": "91be7ac9c483c740a3f5",
+            "title": "New offence targets AI deepfake sex abuse predators",
+            "url": "https://statements.qld.gov.au/statements/106304"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "12d1f47d37e7439792ec",
+            "title": "Energy Roadmap delivering lower power prices in Toowoomba",
+            "url": "https://statements.qld.gov.au/statements/106289"
+          },
+          {
+            "record_id": "c5662dc9e2f34bf93261",
+            "title": "Connector Service delivers 100 connections within weeks of launch",
+            "url": "https://statements.qld.gov.au/statements/106273"
+          }
+        ],
+        "delta_hash": "ad9dd79df3a01fd8d488b2580d77ade1ff84a48c1793c4d8f07b446349934047"
       },
       "integrity": {
         "source_change_unchanged": true,

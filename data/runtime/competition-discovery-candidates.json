@@ -69,63 +69,63 @@
     {
       "jurisdiction_id": "AUS-FED",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-10-26T19:21:42.427Z",
-      "signals_examined": 247,
-      "candidates_detected": 96
+      "last_screened_at": "2026-10-27T05:06:57.203Z",
+      "signals_examined": 250,
+      "candidates_detected": 103
     },
     {
       "jurisdiction_id": "AUS-NSW",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-10-26T19:21:42.427Z",
-      "signals_examined": 105,
-      "candidates_detected": 23
+      "last_screened_at": "2026-10-27T05:06:57.203Z",
+      "signals_examined": 108,
+      "candidates_detected": 25
     },
     {
       "jurisdiction_id": "AUS-VIC",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-10-26T19:21:42.427Z",
-      "signals_examined": 25,
+      "last_screened_at": "2026-10-27T05:06:57.203Z",
+      "signals_examined": 26,
       "candidates_detected": 6
     },
     {
       "jurisdiction_id": "AUS-QLD",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-10-26T19:21:42.427Z",
-      "signals_examined": 64,
+      "last_screened_at": "2026-10-27T05:06:57.203Z",
+      "signals_examined": 65,
       "candidates_detected": 45
     },
     {
       "jurisdiction_id": "AUS-WA",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-10-26T19:21:42.427Z",
+      "last_screened_at": "2026-10-27T05:06:57.203Z",
       "signals_examined": 8,
       "candidates_detected": 3
     },
     {
       "jurisdiction_id": "AUS-SA",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-10-26T19:21:42.427Z",
+      "last_screened_at": "2026-10-27T05:06:57.203Z",
       "signals_examined": 4,
       "candidates_detected": 0
     },
     {
       "jurisdiction_id": "AUS-TAS",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-10-26T19:21:42.427Z",
+      "last_screened_at": "2026-10-27T05:06:57.203Z",
       "signals_examined": 21,
       "candidates_detected": 0
     },
     {
       "jurisdiction_id": "AUS-ACT",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-10-26T19:21:42.427Z",
+      "last_screened_at": "2026-10-27T05:06:57.203Z",
       "signals_examined": 24,
       "candidates_detected": 1
     },
     {
       "jurisdiction_id": "AUS-NT",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-10-26T19:21:42.427Z",
+      "last_screened_at": "2026-10-27T05:06:57.203Z",
       "signals_examined": 31,
       "candidates_detected": 0
     }
@@ -7140,21 +7140,345 @@
           "reason": "DETERMINISTIC_COMPETITION_FAMILY_SCREEN"
         }
       ]
+    },
+    {
+      "candidate_id": "DISC-FED-LEGISLATION-ecc0ecef3fc02585",
+      "jurisdiction_id": "AUS-FED",
+      "competition_family": "LEGISLATION",
+      "proposed_competition_class": "LEGISLATIVE",
+      "proposed_cycle_id": "AUS-FED-48TH-PARLIAMENT",
+      "subject": "Domestic Gas Reservation Bill 2026",
+      "candidate_state": "EVIDENCE_GAP",
+      "detected_at": "2026-10-27T05:06:51.143Z",
+      "source_snapshot_ids": [
+        "AUTO-WATCH-APH-BILLS-20261027050622"
+      ],
+      "signal_event_ids": [
+        "SIG-REV-CHG-WATCH-APH-BILLS-20261027050622"
+      ],
+      "review_ids": [
+        "REV-CHG-WATCH-APH-BILLS-20261027050622"
+      ],
+      "area_evidence_ids": [],
+      "detail_version_ids": [],
+      "evidence_summary": "Screened PRIMARY_PARLIAMENT evidence contains language consistent with a legislation competition candidate. This is a discovery observation, not a registered contest or outcome inference.",
+      "registration_blockers": [
+        "MATERIAL_RESISTANCE_NOT_YET_EVIDENCED",
+        "SUPPORTING_SIDE_NOT_YET_RESOLVED",
+        "OPPOSING_SIDE_NOT_YET_RESOLVED"
+      ],
+      "linked_contest_id": null,
+      "state_history": [
+        {
+          "from": null,
+          "to": "EVIDENCE_GAP",
+          "at": "2026-10-27T05:06:51.143Z",
+          "reason": "DETERMINISTIC_COMPETITION_FAMILY_SCREEN"
+        }
+      ]
+    },
+    {
+      "candidate_id": "DISC-FED-PROCEDURAL-391ce518b789369f",
+      "jurisdiction_id": "AUS-FED",
+      "competition_family": "PROCEDURAL",
+      "proposed_competition_class": "PARLIAMENTARY_PROCEDURE",
+      "proposed_cycle_id": "AUS-FED-48TH-PARLIAMENT",
+      "subject": "Defence Legislation Amendment (Accelerating Capabi...",
+      "candidate_state": "REVIEW_REQUIRED",
+      "detected_at": "2026-10-27T05:06:51.143Z",
+      "source_snapshot_ids": [
+        "AUTO-WATCH-APH-BILLS-20261027050622"
+      ],
+      "signal_event_ids": [
+        "SIG-REV-CHG-WATCH-APH-BILLS-20261027050622"
+      ],
+      "review_ids": [
+        "REV-CHG-WATCH-APH-BILLS-20261027050622"
+      ],
+      "area_evidence_ids": [],
+      "detail_version_ids": [],
+      "evidence_summary": "Screened PRIMARY_PARLIAMENT evidence contains language consistent with a procedural competition candidate. This is a discovery observation, not a registered contest or outcome inference.",
+      "registration_blockers": [
+        "MATERIAL_PROCEDURAL_OPPOSITION_REQUIRES_REVIEW"
+      ],
+      "linked_contest_id": null,
+      "state_history": [
+        {
+          "from": null,
+          "to": "REVIEW_REQUIRED",
+          "at": "2026-10-27T05:06:51.143Z",
+          "reason": "DETERMINISTIC_COMPETITION_FAMILY_SCREEN"
+        }
+      ]
+    },
+    {
+      "candidate_id": "DISC-FED-PROCEDURAL-1b8f32990d60e2c9",
+      "jurisdiction_id": "AUS-FED",
+      "competition_family": "PROCEDURAL",
+      "proposed_competition_class": "PARLIAMENTARY_PROCEDURE",
+      "proposed_cycle_id": "AUS-FED-48TH-PARLIAMENT",
+      "subject": "Treasury Laws Amendment (Tax Reform No. 4) Bill 20...",
+      "candidate_state": "REVIEW_REQUIRED",
+      "detected_at": "2026-10-27T05:06:51.143Z",
+      "source_snapshot_ids": [
+        "AUTO-WATCH-APH-BILLS-20261027050622"
+      ],
+      "signal_event_ids": [
+        "SIG-REV-CHG-WATCH-APH-BILLS-20261027050622"
+      ],
+      "review_ids": [
+        "REV-CHG-WATCH-APH-BILLS-20261027050622"
+      ],
+      "area_evidence_ids": [],
+      "detail_version_ids": [],
+      "evidence_summary": "Screened PRIMARY_PARLIAMENT evidence contains language consistent with a procedural competition candidate. This is a discovery observation, not a registered contest or outcome inference.",
+      "registration_blockers": [
+        "MATERIAL_PROCEDURAL_OPPOSITION_REQUIRES_REVIEW"
+      ],
+      "linked_contest_id": null,
+      "state_history": [
+        {
+          "from": null,
+          "to": "REVIEW_REQUIRED",
+          "at": "2026-10-27T05:06:51.143Z",
+          "reason": "DETERMINISTIC_COMPETITION_FAMILY_SCREEN"
+        }
+      ]
+    },
+    {
+      "candidate_id": "DISC-FED-PROCEDURAL-a2445aa9c3fc9f89",
+      "jurisdiction_id": "AUS-FED",
+      "competition_family": "PROCEDURAL",
+      "proposed_competition_class": "PARLIAMENTARY_PROCEDURE",
+      "proposed_cycle_id": "AUS-FED-48TH-PARLIAMENT",
+      "subject": "Online Safety Amendment (Digital Duty of Care) Bil...",
+      "candidate_state": "REVIEW_REQUIRED",
+      "detected_at": "2026-10-27T05:06:51.143Z",
+      "source_snapshot_ids": [
+        "AUTO-WATCH-APH-BILLS-20261027050622"
+      ],
+      "signal_event_ids": [
+        "SIG-REV-CHG-WATCH-APH-BILLS-20261027050622"
+      ],
+      "review_ids": [
+        "REV-CHG-WATCH-APH-BILLS-20261027050622"
+      ],
+      "area_evidence_ids": [],
+      "detail_version_ids": [],
+      "evidence_summary": "Screened PRIMARY_PARLIAMENT evidence contains language consistent with a procedural competition candidate. This is a discovery observation, not a registered contest or outcome inference.",
+      "registration_blockers": [
+        "MATERIAL_PROCEDURAL_OPPOSITION_REQUIRES_REVIEW"
+      ],
+      "linked_contest_id": null,
+      "state_history": [
+        {
+          "from": null,
+          "to": "REVIEW_REQUIRED",
+          "at": "2026-10-27T05:06:51.143Z",
+          "reason": "DETERMINISTIC_COMPETITION_FAMILY_SCREEN"
+        }
+      ]
+    },
+    {
+      "candidate_id": "DISC-FED-LEGISLATION-3f4f9492ddeb830e",
+      "jurisdiction_id": "AUS-FED",
+      "competition_family": "LEGISLATION",
+      "proposed_competition_class": "LEGISLATIVE",
+      "proposed_cycle_id": "AUS-FED-48TH-PARLIAMENT",
+      "subject": "Domestic Gas Reservation Levy Bill 2026",
+      "candidate_state": "EVIDENCE_GAP",
+      "detected_at": "2026-10-27T05:06:51.143Z",
+      "source_snapshot_ids": [
+        "AUTO-WATCH-APH-BILLS-20261027050622"
+      ],
+      "signal_event_ids": [
+        "SIG-REV-CHG-WATCH-APH-BILLS-20261027050622"
+      ],
+      "review_ids": [
+        "REV-CHG-WATCH-APH-BILLS-20261027050622"
+      ],
+      "area_evidence_ids": [],
+      "detail_version_ids": [],
+      "evidence_summary": "Screened PRIMARY_PARLIAMENT evidence contains language consistent with a legislation competition candidate. This is a discovery observation, not a registered contest or outcome inference.",
+      "registration_blockers": [
+        "MATERIAL_RESISTANCE_NOT_YET_EVIDENCED",
+        "SUPPORTING_SIDE_NOT_YET_RESOLVED",
+        "OPPOSING_SIDE_NOT_YET_RESOLVED"
+      ],
+      "linked_contest_id": null,
+      "state_history": [
+        {
+          "from": null,
+          "to": "EVIDENCE_GAP",
+          "at": "2026-10-27T05:06:51.143Z",
+          "reason": "DETERMINISTIC_COMPETITION_FAMILY_SCREEN"
+        }
+      ]
+    },
+    {
+      "candidate_id": "DISC-NSW-ELECTION-92a5ab9b222988e3",
+      "jurisdiction_id": "AUS-NSW",
+      "competition_family": "ELECTION",
+      "proposed_competition_class": "ELECTORAL",
+      "proposed_cycle_id": null,
+      "subject": "Ballot paper draw: Cobar Shire Council by-election arrow_forward 27 Oct 2026 Media are invited to attend the ballot paper draw at 10am on Thursday, 29 October 2026 at the Returning Officer's office.",
+      "candidate_state": "REVIEW_REQUIRED",
+      "detected_at": "2026-10-27T05:06:51.143Z",
+      "source_snapshot_ids": [
+        "AUTO-WATCH-NSWEC-MEDIA-20261027050622"
+      ],
+      "signal_event_ids": [
+        "SIG-REV-CHG-WATCH-NSWEC-MEDIA-20261027050622"
+      ],
+      "review_ids": [
+        "REV-CHG-WATCH-NSWEC-MEDIA-20261027050622"
+      ],
+      "area_evidence_ids": [],
+      "detail_version_ids": [],
+      "evidence_summary": "Screened PRIMARY_ELECTORAL_AUTHORITY evidence contains language consistent with a election competition candidate. This is a discovery observation, not a registered contest or outcome inference.",
+      "registration_blockers": [
+        "DISTINCT_ELECTORAL_CONTEST_SCOPE_REQUIRES_REVIEW",
+        "REGISTERED_COMPATIBLE_CYCLE_REQUIRED"
+      ],
+      "linked_contest_id": null,
+      "state_history": [
+        {
+          "from": null,
+          "to": "REVIEW_REQUIRED",
+          "at": "2026-10-27T05:06:51.143Z",
+          "reason": "DETERMINISTIC_COMPETITION_FAMILY_SCREEN"
+        }
+      ]
+    },
+    {
+      "candidate_id": "DISC-FED-LEGISLATION-746f808f6315032b",
+      "jurisdiction_id": "AUS-FED",
+      "competition_family": "LEGISLATION",
+      "proposed_competition_class": "LEGISLATIVE",
+      "proposed_cycle_id": "AUS-FED-48TH-PARLIAMENT",
+      "subject": "Ingested substantive legislative evidence from Domestic Gas Reservation Bill 2026 &ndash; Parliament of Australia. Captured content includes stage: Introduced; resistance language: amendment; outcome language: passed. Registration threshold state: evidence gap. Missing requirements: missing fact typ",
+      "candidate_state": "EVIDENCE_GAP",
+      "detected_at": "2026-10-27T05:06:56.725Z",
+      "source_snapshot_ids": [
+        "AUTO-WATCH-APH-BILLS-20261027050622"
+      ],
+      "signal_event_ids": [
+        "INTEL-AREA-9de7e0f30c0d029efbd6dfcb"
+      ],
+      "review_ids": [],
+      "area_evidence_ids": [
+        "AREA-9de7e0f30c0d029efbd6dfcb"
+      ],
+      "detail_version_ids": [
+        "DETAIL-bd19a2dfe0a0bb90182f400c-V1"
+      ],
+      "evidence_summary": "Substantive source record body was acquired, routed to LEGISLATIVE, and written into intelligence with retained detail, source-snapshot and stage-10 threshold lineage. Match registration remains a separate action.",
+      "registration_blockers": [
+        "MISSING_CONDITION_DISTINCT_SUPPORTING_AND_OPPOSING_SIDES",
+        "MISSING_FACT_TYPE_EXPLICIT_OPPOSITION_POSITION",
+        "MISSING_FACT_TYPE_EXPLICIT_SUPPORT_POSITION",
+        "MISSING_FACT_TYPE_MATERIAL_RESISTANCE"
+      ],
+      "linked_contest_id": null,
+      "state_history": [
+        {
+          "from": null,
+          "to": "EVIDENCE_GAP",
+          "at": "2026-10-27T05:06:56.725Z",
+          "reason": "SUBSTANTIVE_THRESHOLD_EVALUATION_PROPAGATED"
+        }
+      ]
+    },
+    {
+      "candidate_id": "DISC-FED-LEGISLATION-dce4ce481374b24b",
+      "jurisdiction_id": "AUS-FED",
+      "competition_family": "LEGISLATION",
+      "proposed_competition_class": "LEGISLATIVE",
+      "proposed_cycle_id": "AUS-FED-48TH-PARLIAMENT",
+      "subject": "Ingested substantive legislative evidence from Domestic Gas Reservation Levy Bill 2026 &ndash; Parliament of Australia. Captured content includes stage: Introduced; outcome language: passed. Registration threshold state: evidence gap. Missing requirements: missing fact type material resistance, miss",
+      "candidate_state": "EVIDENCE_GAP",
+      "detected_at": "2026-10-27T05:06:56.725Z",
+      "source_snapshot_ids": [
+        "AUTO-WATCH-APH-BILLS-20261027050622"
+      ],
+      "signal_event_ids": [
+        "INTEL-AREA-9cef63906d5c51fd5146cd01"
+      ],
+      "review_ids": [],
+      "area_evidence_ids": [
+        "AREA-9cef63906d5c51fd5146cd01"
+      ],
+      "detail_version_ids": [
+        "DETAIL-5335134fdcab913bc2775d12-V1"
+      ],
+      "evidence_summary": "Substantive source record body was acquired, routed to LEGISLATIVE, and written into intelligence with retained detail, source-snapshot and stage-10 threshold lineage. Match registration remains a separate action.",
+      "registration_blockers": [
+        "MISSING_CONDITION_DISTINCT_SUPPORTING_AND_OPPOSING_SIDES",
+        "MISSING_FACT_TYPE_EXPLICIT_OPPOSITION_POSITION",
+        "MISSING_FACT_TYPE_EXPLICIT_SUPPORT_POSITION",
+        "MISSING_FACT_TYPE_MATERIAL_RESISTANCE"
+      ],
+      "linked_contest_id": null,
+      "state_history": [
+        {
+          "from": null,
+          "to": "EVIDENCE_GAP",
+          "at": "2026-10-27T05:06:56.725Z",
+          "reason": "SUBSTANTIVE_THRESHOLD_EVALUATION_PROPAGATED"
+        }
+      ]
+    },
+    {
+      "candidate_id": "DISC-NSW-ELECTION-12738d596feba4d2",
+      "jurisdiction_id": "AUS-NSW",
+      "competition_family": "ELECTION",
+      "proposed_competition_class": "ELECTORAL",
+      "proposed_cycle_id": null,
+      "subject": "Ingested substantive electoral evidence from Ballot paper draw: Cobar Shire Council by-election. Captured content includes stage: Ballot. Registration threshold state: evidence gap. Missing requirements: missing fact type stage, missing condition resolved participant or team.",
+      "candidate_state": "EVIDENCE_GAP",
+      "detected_at": "2026-10-27T05:06:56.725Z",
+      "source_snapshot_ids": [
+        "AUTO-WATCH-NSWEC-MEDIA-20261027050622"
+      ],
+      "signal_event_ids": [
+        "INTEL-AREA-e90304310c2c699b4081e127"
+      ],
+      "review_ids": [],
+      "area_evidence_ids": [
+        "AREA-e90304310c2c699b4081e127"
+      ],
+      "detail_version_ids": [
+        "DETAIL-01ec82e0b704beac973e46cc-V1"
+      ],
+      "evidence_summary": "Substantive source record body was acquired, routed to ELECTORAL, and written into intelligence with retained detail, source-snapshot and stage-10 threshold lineage. Match registration remains a separate action.",
+      "registration_blockers": [
+        "MISSING_CONDITION_RESOLVED_PARTICIPANT_OR_TEAM",
+        "MISSING_FACT_TYPE_STAGE"
+      ],
+      "linked_contest_id": null,
+      "state_history": [
+        {
+          "from": null,
+          "to": "EVIDENCE_GAP",
+          "at": "2026-10-27T05:06:56.725Z",
+          "reason": "SUBSTANTIVE_THRESHOLD_EVALUATION_PROPAGATED"
+        }
+      ]
     }
   ],
-  "last_screened_at": "2026-10-26T19:21:42.427Z",
+  "last_screened_at": "2026-10-27T05:06:57.203Z",
   "last_screen_summary": {
-    "signals_examined": 529,
-    "candidates_total": 174,
-    "candidates_added": 0,
+    "signals_examined": 537,
+    "candidates_total": 183,
+    "candidates_added": 9,
     "candidate_lineage_merges": 373,
-    "substantive_area_events_examined": 119,
+    "substantive_area_events_examined": 122,
     "threshold_state_transitions": 0,
     "registered_contests_unchanged": true
   },
-  "last_duplicate_reconciliation_at": "2026-10-26T19:21:42.547Z",
+  "last_duplicate_reconciliation_at": "2026-10-27T05:06:57.298Z",
   "last_duplicate_reconciliation": {
     "rejected": 0,
-    "active_area_family_keys": 118
+    "active_area_family_keys": 121
   }
 }

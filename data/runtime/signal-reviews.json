@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-SIGNAL-REVIEWS-001",
   "created_at": "2026-09-09T05:05:00+10:00",
-  "updated_at": "2026-10-27T05:06:51.143Z",
+  "updated_at": "2026-10-27T16:40:47.556Z",
   "rules": {
     "append_only": true,
     "raw_source_change_is_immutable": true,
@@ -41094,6 +41094,40 @@
           }
         ],
         "delta_hash": "ad9dd79df3a01fd8d488b2580d77ade1ff84a48c1793c4d8f07b446349934047"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-NSWEC-MEDIA-20261027164005",
+      "source_change_event_id": "CHG-WATCH-NSWEC-MEDIA-20261027164005",
+      "decision": "EXCLUDED_AS_NON_SIGNAL",
+      "signal_event_id": null,
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": null,
+      "materiality_state": "IMMATERIAL",
+      "claim": "Structured publication-index change contained removals only. It is retained as a raw source change but is not automatically promoted into a political signal.",
+      "review_basis": "Deterministic review policy excludes removal-only index changes because disappearance from an index does not establish a political event, reversal or substantive fact.",
+      "reviewed_at": "2026-10-27T16:40:47.556Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [],
+        "removed_records": [
+          {
+            "record_id": "128faea1ebcaf577b24c",
+            "title": "Nominations open: Cobar Shire Council by-election arrow_forward 19 Oct 2026 Nominations can be lodged from today with the NSW Electoral Commission Returning Officer and must be lodged by 12 noon on Wednesday, 28 October 2026.",
+            "url": "https://elections.nsw.gov.au/about-us/media-centre/news-and-media-releases/nominations-open-cobar-shire-council-by-election"
+          }
+        ],
+        "delta_hash": "521401b20c94eeb91f668c9824dcad7df169447914f230348741671a466afef6"
       },
       "integrity": {
         "source_change_unchanged": true,

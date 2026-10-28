@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-SIGNAL-REVIEWS-001",
   "created_at": "2026-09-09T05:05:00+10:00",
-  "updated_at": "2026-10-28T01:23:41.997Z",
+  "updated_at": "2026-10-28T08:34:20.912Z",
   "rules": {
     "append_only": true,
     "raw_source_change_is_immutable": true,
@@ -41468,6 +41468,329 @@
           }
         ],
         "delta_hash": "78becea4e6ab2b3451c425dc900a9f8869957b9b3a4cea535c9be7a572f0c497"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-APH-BILLS-20261028083338",
+      "source_change_event_id": "CHG-WATCH-APH-BILLS-20261028083338",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-APH-BILLS-20261028083338",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Parliament of Australia — Bills and Legislation added 4 structured publication records to its forward-captured official index: Domestic Gas Reservation Bill 2026; Defence Legislation Amendment (Accelerating Capabi...; Domestic Gas Reservation (Consequential Amendments...; Domestic Gas Reservation Levy Bill 2026",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-10-28T08:34:20.912Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "461afefea358cd8e9eb7",
+            "title": "Domestic Gas Reservation Bill 2026",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7559"
+          },
+          {
+            "record_id": "6955ae575c545805b9bd",
+            "title": "Defence Legislation Amendment (Accelerating Capabi...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7568"
+          },
+          {
+            "record_id": "97a5f3d1eecae28eae06",
+            "title": "Domestic Gas Reservation (Consequential Amendments...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7561"
+          },
+          {
+            "record_id": "dc7e8ed5257b5723c2e7",
+            "title": "Domestic Gas Reservation Levy Bill 2026",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7560"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "ab808913f3cb133fd667",
+            "title": "Treasury Laws Amendment (Tax Reform No. 3) Bill 20...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7554"
+          },
+          {
+            "record_id": "b98f3e86ec1e5dbdfd21",
+            "title": "Treasury Laws Amendment (Tax Reform No. 4) Bill 20...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7566"
+          },
+          {
+            "record_id": "c319a14d6df0e73e4b13",
+            "title": "Income Tax Rates Amendment (Minimum Tax on Discret...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7555"
+          },
+          {
+            "record_id": "c6cf323b86329baf43f5",
+            "title": "Online Safety Amendment (Digital Duty of Care) Bil...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7553"
+          }
+        ],
+        "delta_hash": "4c927fa64c60e44f4e8ba53adc8fd80515570386a42c8fe3d27c966aeef465b3"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-ALP-NEWS-20261028083338",
+      "source_change_event_id": "CHG-WATCH-ALP-NEWS-20261028083338",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-ALP-NEWS-20261028083338",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": "AUS-FED-ALP",
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Australian Labor Party — news added 1 structured publication record to its forward-captured official index: HAFF building momentum and changing lives 28 October 2026",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-10-28T08:34:20.912Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "768bf683ca40060107d7",
+            "title": "HAFF building momentum and changing lives 28 October 2026",
+            "url": "https://www.alp.org.au/news/all-news/housing-australia-future-fund-building-momentum-and-changing-lives/"
+          }
+        ],
+        "removed_records": [],
+        "delta_hash": "5eac16e5a1c47f11245af4c6ceb1afaa872527af3478e139732b63b48886d0b2"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-GREENS-FEDERAL-MEDIA-20261028083338",
+      "source_change_event_id": "CHG-WATCH-GREENS-FEDERAL-MEDIA-20261028083338",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-GREENS-FEDERAL-MEDIA-20261028083338",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": "AUS-FED-GRN",
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Australian Greens — Federal MPs media releases added 2 structured publication records to its forward-captured official index: Read more about Greens vow to Hold Big Tech to Account and deliver Digital Duty of Care laws with Teeth; Greens vow to Hold Big Tech to Account and deliver Digital Duty of Care laws with Teeth",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-10-28T08:34:20.912Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "5ae85d76655b37b93a6c",
+            "title": "Read more about Greens vow to Hold Big Tech to Account and deliver Digital Duty of Care laws with Teeth",
+            "url": "https://greens.org.au/sa/news/media-release/greens-vow-hold-big-tech-account-and-deliver-digital-duty-care-laws-teeth"
+          },
+          {
+            "record_id": "c7d1ad1f36327a55f65e",
+            "title": "Greens vow to Hold Big Tech to Account and deliver Digital Duty of Care laws with Teeth",
+            "url": "https://greens.org.au/sa/news/media-release/greens-vow-hold-big-tech-account-and-deliver-digital-duty-care-laws-teeth"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "abd32b2f3ec3700c5a60",
+            "title": "Digital Duty of Care must include a right for compensation",
+            "url": "https://greens.org.au/sa/news/media-release/digital-duty-care-must-include-right-compensation"
+          },
+          {
+            "record_id": "cde07866fb3159f8bbb3",
+            "title": "Read more about Digital Duty of Care must include a right for compensation",
+            "url": "https://greens.org.au/sa/news/media-release/digital-duty-care-must-include-right-compensation"
+          }
+        ],
+        "delta_hash": "cafdfee075b17c67299354ea88d54ae2e1d88b88d22ccf1a581ae1a21494ff60"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-NSW-MINISTERIAL-RELEASES-20261028083338",
+      "source_change_event_id": "CHG-WATCH-NSW-MINISTERIAL-RELEASES-20261028083338",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-NSW-MINISTERIAL-RELEASES-20261028083338",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "NSW Government — Ministerial releases added 1 structured publication record to its forward-captured official index: Anniversary of the death of Cobar miners",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-10-28T08:34:20.912Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "f0db2b75b2d9b5c3fc55",
+            "title": "Anniversary of the death of Cobar miners",
+            "url": "https://www.nsw.gov.au/ministerial-releases/anniversary-of-death-of-cobar-miners"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "5378d6e4ccecd21b3774",
+            "title": "Construction begins on 30 additional beds at Mount Druitt Hospital",
+            "url": "https://www.nsw.gov.au/ministerial-releases/construction-begins-on-30-additional-beds-at-mount-druitt-hospital"
+          }
+        ],
+        "delta_hash": "ced9e34187ed8aa7d26fa8f3b6573817d50619b32b6e29ec8776a5e60bbe2492"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-NSWEC-MEDIA-20261028083338",
+      "source_change_event_id": "CHG-WATCH-NSWEC-MEDIA-20261028083338",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-NSWEC-MEDIA-20261028083338",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "NSW Electoral Commission — news and media releases added 1 structured publication record to its forward-captured official index: Nominations open: Cobar Shire Council by-election arrow_forward 19 Oct 2026 Nominations can be lodged from today with the NSW Electoral Commission Returning Officer and must be lodged by 12 noon on Wednesday, 28 October 2026.",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-10-28T08:34:20.912Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "128faea1ebcaf577b24c",
+            "title": "Nominations open: Cobar Shire Council by-election arrow_forward 19 Oct 2026 Nominations can be lodged from today with the NSW Electoral Commission Returning Officer and must be lodged by 12 noon on Wednesday, 28 October 2026.",
+            "url": "https://elections.nsw.gov.au/about-us/media-centre/news-and-media-releases/nominations-open-cobar-shire-council-by-election"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "e4303bf8cf1a1c40fd05",
+            "title": "Ballot paper draw: Cobar Shire Council by-election arrow_forward 27 Oct 2026 Media are invited to attend the ballot paper draw at 10am on Thursday, 29 October 2026 at the Returning Officer's office.",
+            "url": "https://elections.nsw.gov.au/about-us/media-centre/news-and-media-releases/ballot-paper-draw-cobar-shire-council-by-election"
+          }
+        ],
+        "delta_hash": "686f90cd82419f82363f4fea78d40fba3f25a01dad2906a4733c696a78d27826"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-VEC-MEDIA-20261028083338",
+      "source_change_event_id": "CHG-WATCH-VEC-MEDIA-20261028083338",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-VEC-MEDIA-20261028083338",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Victorian Electoral Commission — media centre added 2 structured publication records to its forward-captured official index: Check your enrolment; More state election information",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-10-28T08:34:20.912Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "98274188bec0e0ab3970",
+            "title": "Check your enrolment",
+            "url": "https://www.vec.vic.gov.au/enrolment/check-my-enrolment"
+          },
+          {
+            "record_id": "dc79e77a50d97b32a4ab",
+            "title": "More state election information",
+            "url": "https://www.vec.vic.gov.au/voting/2026-state-election"
+          }
+        ],
+        "removed_records": [],
+        "delta_hash": "3bb64b9da67b55ee9760a68ae9e04d47e27366bdddf290c3a13145410249304c"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261028083338",
+      "source_change_event_id": "CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261028083338",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261028083338",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Queensland Government — Ministerial Media Statements added 2 structured publication records to its forward-captured official index: Commission of Inquiry child safety reforms underway; Vital funding delivered for regional volunteering",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-10-28T08:34:20.912Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "491a8d62aac4cca2b9db",
+            "title": "Commission of Inquiry child safety reforms underway",
+            "url": "https://statements.qld.gov.au/statements/106313"
+          },
+          {
+            "record_id": "b87cc78d7cc1ff12d95e",
+            "title": "Vital funding delivered for regional volunteering",
+            "url": "https://statements.qld.gov.au/statements/106311"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "55d27d18fde8cafd4226",
+            "title": "US market recognises Queensland is open for business",
+            "url": "https://statements.qld.gov.au/statements/106294"
+          },
+          {
+            "record_id": "adfc54ad587b9708f16b",
+            "title": "Queensland Water Resources appointed to advance Emu Swamp Dam",
+            "url": "https://statements.qld.gov.au/statements/106291"
+          }
+        ],
+        "delta_hash": "5d498e1b4ddd3fcd6c30007f84a3f9c84fba282dadc5377649ed0436e338045c"
       },
       "integrity": {
         "source_change_unchanged": true,

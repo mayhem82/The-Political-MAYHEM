@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-SIGNAL-REVIEWS-001",
   "created_at": "2026-09-09T05:05:00+10:00",
-  "updated_at": "2026-10-27T16:40:47.556Z",
+  "updated_at": "2026-10-28T01:23:41.997Z",
   "rules": {
     "append_only": true,
     "raw_source_change_is_immutable": true,
@@ -41128,6 +41128,346 @@
           }
         ],
         "delta_hash": "521401b20c94eeb91f668c9824dcad7df169447914f230348741671a466afef6"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-APH-BILLS-20261028012304",
+      "source_change_event_id": "CHG-WATCH-APH-BILLS-20261028012304",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-APH-BILLS-20261028012304",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Parliament of Australia — Bills and Legislation added 4 structured publication records to its forward-captured official index: Australian Criminal Intelligence Commission (Natio...; Treasury Laws Amendment (Tax Reform No. 3) Bill 20...; Income Tax Rates Amendment (Minimum Tax on Discret...; Australian Criminal Intelligence Commission Bill 2...",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-10-28T01:23:41.997Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "579186024e3e6839922f",
+            "title": "Australian Criminal Intelligence Commission (Natio...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7455"
+          },
+          {
+            "record_id": "ab808913f3cb133fd667",
+            "title": "Treasury Laws Amendment (Tax Reform No. 3) Bill 20...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7554"
+          },
+          {
+            "record_id": "c319a14d6df0e73e4b13",
+            "title": "Income Tax Rates Amendment (Minimum Tax on Discret...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7555"
+          },
+          {
+            "record_id": "eb2e380981f7f375f0ee",
+            "title": "Australian Criminal Intelligence Commission Bill 2...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7454"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "461afefea358cd8e9eb7",
+            "title": "Domestic Gas Reservation Bill 2026",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7559"
+          },
+          {
+            "record_id": "6955ae575c545805b9bd",
+            "title": "Defence Legislation Amendment (Accelerating Capabi...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7568"
+          },
+          {
+            "record_id": "97a5f3d1eecae28eae06",
+            "title": "Domestic Gas Reservation (Consequential Amendments...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7561"
+          },
+          {
+            "record_id": "dc7e8ed5257b5723c2e7",
+            "title": "Domestic Gas Reservation Levy Bill 2026",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7560"
+          }
+        ],
+        "delta_hash": "e01bf8ec57ef6ea403f2068d8d63be3cd36cf1bb160fd6c312facb4578312ef8"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-PM-MEDIA-20261028012304",
+      "source_change_event_id": "CHG-WATCH-PM-MEDIA-20261028012304",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-PM-MEDIA-20261028012304",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Prime Minister of Australia — media added 3 structured publication records to its forward-captured official index: Digital duty of care; The Australian Workers&#039; Union 2026 National Conference; Last » Last page",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-10-28T01:23:41.997Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "13996c668209b5c76773",
+            "title": "Digital duty of care",
+            "url": "https://www.pm.gov.au/media/digital-duty-care"
+          },
+          {
+            "record_id": "984d5402f7be9c3807a8",
+            "title": "The Australian Workers&#039; Union 2026 National Conference",
+            "url": "https://www.pm.gov.au/media/australian-workers-union-2026-national-conference"
+          },
+          {
+            "record_id": "d29a9466018edb244854",
+            "title": "Last » Last page",
+            "url": "https://www.pm.gov.au/media?page=283"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "215e507fcb9e3cc9c80d",
+            "title": "Radio interview - ABC Perth",
+            "url": "https://www.pm.gov.au/media/radio-interview-abc-perth-11"
+          },
+          {
+            "record_id": "7af5ac97b22983d09334",
+            "title": "Radio interview - 2SM Sydney",
+            "url": "https://www.pm.gov.au/media/radio-interview-2sm-sydney-0"
+          },
+          {
+            "record_id": "7df54a7e4dda9ab1b94e",
+            "title": "Last » Last page",
+            "url": "https://www.pm.gov.au/media?page=282"
+          }
+        ],
+        "delta_hash": "d61bff0026fb70399b446058f02033c53d688cfe99982e2b17f9dd9d77aff823"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-GREENS-FEDERAL-MEDIA-20261028012304",
+      "source_change_event_id": "CHG-WATCH-GREENS-FEDERAL-MEDIA-20261028012304",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-GREENS-FEDERAL-MEDIA-20261028012304",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": "AUS-FED-GRN",
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Australian Greens — Federal MPs media releases added 2 structured publication records to its forward-captured official index: RELEASE: $2.2m a year - a lottery win or APS salary?; Read more about RELEASE: $2.2m a year - a lottery win or APS salary?",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-10-28T01:23:41.997Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "2055ddb7ed6d41ada4a5",
+            "title": "RELEASE: $2.2m a year - a lottery win or APS salary?",
+            "url": "https://greens.org.au/news/media-release/release-22m-year-lottery-win-or-aps-salary"
+          },
+          {
+            "record_id": "ce43ca19f4f0258ce373",
+            "title": "Read more about RELEASE: $2.2m a year - a lottery win or APS salary?",
+            "url": "https://greens.org.au/news/media-release/release-22m-year-lottery-win-or-aps-salary"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "3d8cdf93343f8596aae5",
+            "title": "Read more about Labor must restore Ask Izzy funding",
+            "url": "https://greens.org.au/news/media-release/labor-must-restore-ask-izzy-funding"
+          },
+          {
+            "record_id": "a695cddb840ac85eb7c8",
+            "title": "Labor must restore Ask Izzy funding",
+            "url": "https://greens.org.au/news/media-release/labor-must-restore-ask-izzy-funding"
+          }
+        ],
+        "delta_hash": "13303a46db47066da5e4ae82e9fa4deb0125e0223a8c29c8123f3d006dcbe03f"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-NSW-MINISTERIAL-RELEASES-20261028012304",
+      "source_change_event_id": "CHG-WATCH-NSW-MINISTERIAL-RELEASES-20261028012304",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-NSW-MINISTERIAL-RELEASES-20261028012304",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "NSW Government — Ministerial releases added 5 structured publication records to its forward-captured official index: Construction underway on major upgrade to Thornton Public School; Minns Labor Government fast tracks road safety upgrades at nine regional locations; First MND notifications registered; 2026 NSW Premier’s Awards recognise outstanding public service; Piling work complete on $30 million Marshalls Creek Bridge Upgrade",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-10-28T01:23:41.997Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "1e6587876e56589e06c4",
+            "title": "Construction underway on major upgrade to Thornton Public School",
+            "url": "https://www.nsw.gov.au/ministerial-releases/construction-underway-on-major-upgrade-to-thornton-public-school"
+          },
+          {
+            "record_id": "352899e012ef16fb5600",
+            "title": "Minns Labor Government fast tracks road safety upgrades at nine regional locations",
+            "url": "https://www.nsw.gov.au/ministerial-releases/minns-labor-government-fast-tracks-road-safety-upgrades-at-nine-regional-locations"
+          },
+          {
+            "record_id": "4bb272d6f5c66dd101f1",
+            "title": "First MND notifications registered",
+            "url": "https://www.nsw.gov.au/ministerial-releases/first-motor-neurone-disease-notifications-received"
+          },
+          {
+            "record_id": "7424c2628f4cf4f29aad",
+            "title": "2026 NSW Premier’s Awards recognise outstanding public service",
+            "url": "https://www.nsw.gov.au/ministerial-releases/2026-nsw-premiers-awards-recognise-outstanding-public-service"
+          },
+          {
+            "record_id": "93353cf3aff0473e2336",
+            "title": "Piling work complete on $30 million Marshalls Creek Bridge Upgrade",
+            "url": "https://www.nsw.gov.au/ministerial-releases/piling-work-complete-on-30-million-marshalls-creek-bridge-upgrade"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "0effae60b6dcfe6a93c6",
+            "title": "Australian industry supports firefighting fleet upgrades",
+            "url": "https://www.nsw.gov.au/ministerial-releases/australian-industry-supports-firefighting-fleet-upgrades"
+          },
+          {
+            "record_id": "5d3a8efb706c55b54a00",
+            "title": "NSW Government launches 2031 Road Safety Action Plan to address road trauma",
+            "url": "https://www.nsw.gov.au/ministerial-releases/nsw-government-launches-2031-road-safety-action-plan-to-address-road-trauma"
+          },
+          {
+            "record_id": "841b9eb788c66de0dc66",
+            "title": "National Gun Buyback to begin in NSW on November 2, bookings to surrender open today",
+            "url": "https://www.nsw.gov.au/ministerial-releases/national-gun-buyback-to-begin-nsw-on-november-2-bookings-to-surrender-open-today"
+          },
+          {
+            "record_id": "cd583feff361460e9c65",
+            "title": "South Coast rail line to be electrified and duplicated in the largest investment in rail infrastructure in generations",
+            "url": "https://www.nsw.gov.au/ministerial-releases/south-coast-rail-line-to-be-electrified-and-duplicated-largest-investment-rail-infrastructure-generations"
+          },
+          {
+            "record_id": "fb9b949bf9de3c9b8237",
+            "title": "More than 4,000 homes declared State Significant",
+            "url": "https://www.nsw.gov.au/ministerial-releases/more-than-4000-homes-declared-state-significant"
+          }
+        ],
+        "delta_hash": "7086633bf1e157d93fc98083ef5bb92706f7325627ca75a726403b153acd2453"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261028012304",
+      "source_change_event_id": "CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261028012304",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261028012304",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Queensland Government — Ministerial Media Statements added 5 structured publication records to its forward-captured official index: Port of Mackay Container Depot Now Complete; 2026 Premier’s Reading Challenge is one for the books; Brisbane to host historic ANZAC Day rugby double-header; Queensland takes centre court securing World Wheelchair Rugby Cup; Country Roads Connect seals missing link on Daymar-Weengallon Road",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-10-28T01:23:41.997Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "669858fbe9d305201ce0",
+            "title": "Port of Mackay Container Depot Now Complete",
+            "url": "https://statements.qld.gov.au/statements/106302"
+          },
+          {
+            "record_id": "669b18f2dda45bdf0806",
+            "title": "2026 Premier’s Reading Challenge is one for the books",
+            "url": "https://statements.qld.gov.au/statements/106309"
+          },
+          {
+            "record_id": "6bc0c26ffc778cd6a853",
+            "title": "Brisbane to host historic ANZAC Day rugby double-header",
+            "url": "https://statements.qld.gov.au/statements/106312"
+          },
+          {
+            "record_id": "aaada887ce16ced25daf",
+            "title": "Queensland takes centre court securing World Wheelchair Rugby Cup",
+            "url": "https://statements.qld.gov.au/statements/106306"
+          },
+          {
+            "record_id": "b96bba3b733504117549",
+            "title": "Country Roads Connect seals missing link on Daymar-Weengallon Road",
+            "url": "https://statements.qld.gov.au/statements/106307"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "6800b9bbc457047c952c",
+            "title": "South Bank’s next chapter for 2032 and beyond",
+            "url": "https://statements.qld.gov.au/statements/106290"
+          },
+          {
+            "record_id": "73998357d261573689fe",
+            "title": "Statement from Minister Amanda Camm",
+            "url": "https://statements.qld.gov.au/statements/106293"
+          },
+          {
+            "record_id": "7bef8974379a60299530",
+            "title": "Kuranda Weir built back better to strengthen Queensland’s energy resilience",
+            "url": "https://statements.qld.gov.au/statements/106288"
+          },
+          {
+            "record_id": "9edbb55fa111bf4d26e5",
+            "title": "Australian-first facility to accelerate critical minerals sector",
+            "url": "https://statements.qld.gov.au/statements/106284"
+          },
+          {
+            "record_id": "f7d6c8bdf32fb0f4cb91",
+            "title": "New security funding to protect small and family businesses, tradie utes, vans and mobile vehicles",
+            "url": "https://statements.qld.gov.au/statements/106285"
+          }
+        ],
+        "delta_hash": "78becea4e6ab2b3451c425dc900a9f8869957b9b3a4cea535c9be7a572f0c497"
       },
       "integrity": {
         "source_change_unchanged": true,

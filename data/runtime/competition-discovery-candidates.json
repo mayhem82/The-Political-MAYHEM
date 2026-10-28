@@ -69,63 +69,63 @@
     {
       "jurisdiction_id": "AUS-FED",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-10-27T16:40:54.348Z",
-      "signals_examined": 250,
-      "candidates_detected": 103
+      "last_screened_at": "2026-10-28T01:23:49.895Z",
+      "signals_examined": 253,
+      "candidates_detected": 106
     },
     {
       "jurisdiction_id": "AUS-NSW",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-10-27T16:40:54.348Z",
-      "signals_examined": 108,
+      "last_screened_at": "2026-10-28T01:23:49.895Z",
+      "signals_examined": 109,
       "candidates_detected": 25
     },
     {
       "jurisdiction_id": "AUS-VIC",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-10-27T16:40:54.348Z",
+      "last_screened_at": "2026-10-28T01:23:49.895Z",
       "signals_examined": 26,
       "candidates_detected": 6
     },
     {
       "jurisdiction_id": "AUS-QLD",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-10-27T16:40:54.348Z",
-      "signals_examined": 65,
+      "last_screened_at": "2026-10-28T01:23:49.895Z",
+      "signals_examined": 66,
       "candidates_detected": 45
     },
     {
       "jurisdiction_id": "AUS-WA",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-10-27T16:40:54.348Z",
+      "last_screened_at": "2026-10-28T01:23:49.895Z",
       "signals_examined": 8,
       "candidates_detected": 3
     },
     {
       "jurisdiction_id": "AUS-SA",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-10-27T16:40:54.348Z",
+      "last_screened_at": "2026-10-28T01:23:49.895Z",
       "signals_examined": 4,
       "candidates_detected": 0
     },
     {
       "jurisdiction_id": "AUS-TAS",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-10-27T16:40:54.348Z",
+      "last_screened_at": "2026-10-28T01:23:49.895Z",
       "signals_examined": 21,
       "candidates_detected": 0
     },
     {
       "jurisdiction_id": "AUS-ACT",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-10-27T16:40:54.348Z",
+      "last_screened_at": "2026-10-28T01:23:49.895Z",
       "signals_examined": 24,
       "candidates_detected": 1
     },
     {
       "jurisdiction_id": "AUS-NT",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-10-27T16:40:54.348Z",
+      "last_screened_at": "2026-10-28T01:23:49.895Z",
       "signals_examined": 31,
       "candidates_detected": 0
     }
@@ -7464,19 +7464,123 @@
           "reason": "SUBSTANTIVE_THRESHOLD_EVALUATION_PROPAGATED"
         }
       ]
+    },
+    {
+      "candidate_id": "DISC-FED-PROCEDURAL-d770b813531083f8",
+      "jurisdiction_id": "AUS-FED",
+      "competition_family": "PROCEDURAL",
+      "proposed_competition_class": "PARLIAMENTARY_PROCEDURE",
+      "proposed_cycle_id": "AUS-FED-48TH-PARLIAMENT",
+      "subject": "Treasury Laws Amendment (Tax Reform No. 3) Bill 20...",
+      "candidate_state": "REVIEW_REQUIRED",
+      "detected_at": "2026-10-28T01:23:41.997Z",
+      "source_snapshot_ids": [
+        "AUTO-WATCH-APH-BILLS-20261028012304"
+      ],
+      "signal_event_ids": [
+        "SIG-REV-CHG-WATCH-APH-BILLS-20261028012304"
+      ],
+      "review_ids": [
+        "REV-CHG-WATCH-APH-BILLS-20261028012304"
+      ],
+      "area_evidence_ids": [],
+      "detail_version_ids": [],
+      "evidence_summary": "Screened PRIMARY_PARLIAMENT evidence contains language consistent with a procedural competition candidate. This is a discovery observation, not a registered contest or outcome inference.",
+      "registration_blockers": [
+        "MATERIAL_PROCEDURAL_OPPOSITION_REQUIRES_REVIEW"
+      ],
+      "linked_contest_id": null,
+      "state_history": [
+        {
+          "from": null,
+          "to": "REVIEW_REQUIRED",
+          "at": "2026-10-28T01:23:41.997Z",
+          "reason": "DETERMINISTIC_COMPETITION_FAMILY_SCREEN"
+        }
+      ]
+    },
+    {
+      "candidate_id": "DISC-FED-PROCEDURAL-4f42db37475ffa0e",
+      "jurisdiction_id": "AUS-FED",
+      "competition_family": "PROCEDURAL",
+      "proposed_competition_class": "PARLIAMENTARY_PROCEDURE",
+      "proposed_cycle_id": "AUS-FED-48TH-PARLIAMENT",
+      "subject": "Income Tax Rates Amendment (Minimum Tax on Discret...",
+      "candidate_state": "REVIEW_REQUIRED",
+      "detected_at": "2026-10-28T01:23:41.997Z",
+      "source_snapshot_ids": [
+        "AUTO-WATCH-APH-BILLS-20261028012304"
+      ],
+      "signal_event_ids": [
+        "SIG-REV-CHG-WATCH-APH-BILLS-20261028012304"
+      ],
+      "review_ids": [
+        "REV-CHG-WATCH-APH-BILLS-20261028012304"
+      ],
+      "area_evidence_ids": [],
+      "detail_version_ids": [],
+      "evidence_summary": "Screened PRIMARY_PARLIAMENT evidence contains language consistent with a procedural competition candidate. This is a discovery observation, not a registered contest or outcome inference.",
+      "registration_blockers": [
+        "MATERIAL_PROCEDURAL_OPPOSITION_REQUIRES_REVIEW"
+      ],
+      "linked_contest_id": null,
+      "state_history": [
+        {
+          "from": null,
+          "to": "REVIEW_REQUIRED",
+          "at": "2026-10-28T01:23:41.997Z",
+          "reason": "DETERMINISTIC_COMPETITION_FAMILY_SCREEN"
+        }
+      ]
+    },
+    {
+      "candidate_id": "DISC-FED-LEGISLATION-db39c807d672f25d",
+      "jurisdiction_id": "AUS-FED",
+      "competition_family": "LEGISLATION",
+      "proposed_competition_class": "LEGISLATIVE",
+      "proposed_cycle_id": "AUS-FED-48TH-PARLIAMENT",
+      "subject": "Australian Criminal Intelligence Commission Bill 2...",
+      "candidate_state": "EVIDENCE_GAP",
+      "detected_at": "2026-10-28T01:23:41.997Z",
+      "source_snapshot_ids": [
+        "AUTO-WATCH-APH-BILLS-20261028012304"
+      ],
+      "signal_event_ids": [
+        "SIG-REV-CHG-WATCH-APH-BILLS-20261028012304"
+      ],
+      "review_ids": [
+        "REV-CHG-WATCH-APH-BILLS-20261028012304"
+      ],
+      "area_evidence_ids": [],
+      "detail_version_ids": [],
+      "evidence_summary": "Screened PRIMARY_PARLIAMENT evidence contains language consistent with a legislation competition candidate. This is a discovery observation, not a registered contest or outcome inference.",
+      "registration_blockers": [
+        "MATERIAL_RESISTANCE_NOT_YET_EVIDENCED",
+        "SUPPORTING_SIDE_NOT_YET_RESOLVED",
+        "OPPOSING_SIDE_NOT_YET_RESOLVED"
+      ],
+      "linked_contest_id": null,
+      "state_history": [
+        {
+          "from": null,
+          "to": "EVIDENCE_GAP",
+          "at": "2026-10-28T01:23:41.997Z",
+          "reason": "DETERMINISTIC_COMPETITION_FAMILY_SCREEN"
+        }
+      ]
     }
   ],
-  "last_screened_at": "2026-10-27T16:40:54.348Z",
+  "last_screened_at": "2026-10-28T01:23:49.895Z",
   "last_screen_summary": {
-    "signals_examined": 537,
-    "candidates_total": 183,
-    "candidates_added": 0,
+    "signals_examined": 542,
+    "candidates_total": 186,
+    "candidates_added": 3,
     "candidate_lineage_merges": 382,
     "substantive_area_events_examined": 122,
     "threshold_state_transitions": 0,
     "registered_contests_unchanged": true
   },
-  "last_duplicate_reconciliation_at": "2026-10-27T16:40:54.443Z",
+  "last_duplicate_reconciliation_at": "2026-10-28T01:23:50.003Z",
   "last_duplicate_reconciliation": {
     "rejected": 0,
     "active_area_family_keys": 121

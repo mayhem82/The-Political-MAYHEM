@@ -180,7 +180,7 @@
       "captured_at": "2026-10-20T00:20:55.574Z",
       "acquisition_url": "https://www.parliament.sa.gov.au/",
       "requested_url": "https://www.parliament.sa.gov.au/",
-      "header_profile": "BROWSER_COMPATIBILITY",
+      "header_profile": "IDENTIFIED_AUTOMATION",
       "content_type": "text/html; charset=utf-8",
       "capture_mode": "NORMALISED_PAGE_HASH",
       "captured_representation_complete": true
@@ -313,9 +313,9 @@
       "source_id": "SRC-QLD-MINISTERIAL-STATEMENTS",
       "jurisdiction_id": "AUS-QLD",
       "party_id": null,
-      "content_hash": "a1e92785ab786ba57c33ab13e6d02f58edbd4195d6e6608033572d6c69654920",
-      "snapshot_id": "AUTO-WATCH-QLD-MINISTERIAL-STATEMENTS-20261029070654",
-      "captured_at": "2026-10-29T07:06:54.005Z",
+      "content_hash": "a5d927dc34ef651dda2c93eef9448e785fadf37e23fac36146c4be9e65d75680",
+      "snapshot_id": "AUTO-WATCH-QLD-MINISTERIAL-STATEMENTS-20261029142047",
+      "captured_at": "2026-10-29T14:20:47.954Z",
       "acquisition_url": "https://statements.qld.gov.au/",
       "requested_url": "https://statements.qld.gov.au/",
       "header_profile": "IDENTIFIED_AUTOMATION",
@@ -500,17 +500,17 @@
       "captured_at": "2026-10-28T08:33:38.321Z",
       "acquisition_url": "https://www.alp.org.au/news/all-news/",
       "requested_url": "https://www.alp.org.au/news/all-news/",
-      "header_profile": "BROWSER_COMPATIBILITY",
+      "header_profile": "IDENTIFIED_AUTOMATION",
       "content_type": "text/html; charset=utf-8",
       "capture_mode": "PUBLICATION_FEED_HASH",
       "captured_representation_complete": true
     }
   },
-  "updated_at": "2026-10-29T07:06:54.005Z",
+  "updated_at": "2026-10-29T14:20:47.954Z",
   "last_run": {
-    "captured_at": "2026-10-29T07:06:54.005Z",
+    "captured_at": "2026-10-29T14:20:47.954Z",
     "baselines_created": 0,
-    "source_changes_created": 7,
+    "source_changes_created": 1,
     "semantic_signals_created": 0,
     "representation_upgrades": 0,
     "failures": [
@@ -528,7 +528,7 @@
       },
       {
         "watch_id": "WATCH-TAS-HANSARD",
-        "error": "https://search.parliament.tas.gov.au/Search/search/search?IW_FIELD_ADVANCE_PHRASE=2026%20IN%20TITLE&IW_DATABASE=Hansard&IW_SORT=-9&IW_SEARCH_SCOPE=meta [IDENTIFIED_AUTOMATION] timeout>15000ms | https://search.parliament.tas.gov.au/Search/search/search?IW_FIELD_ADVANCE_PHRASE=2026%20IN%20TITLE&IW_DATABASE=Hansard&IW_SORT=-9&IW_SEARCH_SCOPE=meta [BROWSER_COMPATIBILITY] timeout>15000ms"
+        "error": "https://search.parliament.tas.gov.au/Search/search/search?IW_FIELD_ADVANCE_PHRASE=2026%20IN%20TITLE&IW_DATABASE=Hansard&IW_SORT=-9&IW_SEARCH_SCOPE=meta [IDENTIFIED_AUTOMATION] 503 Service Unavailable | https://search.parliament.tas.gov.au/Search/search/search?IW_FIELD_ADVANCE_PHRASE=2026%20IN%20TITLE&IW_DATABASE=Hansard&IW_SORT=-9&IW_SEARCH_SCOPE=meta [BROWSER_COMPATIBILITY] timeout>15000ms"
       },
       {
         "watch_id": "WATCH-TAS-PREMIER-NEWS",

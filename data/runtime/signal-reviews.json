@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-SIGNAL-REVIEWS-001",
   "created_at": "2026-09-09T05:05:00+10:00",
-  "updated_at": "2026-10-29T00:58:46.325Z",
+  "updated_at": "2026-10-29T07:08:41.209Z",
   "rules": {
     "append_only": true,
     "raw_source_change_is_immutable": true,
@@ -42061,6 +42061,210 @@
           }
         ],
         "delta_hash": "e8ea993278cde2ac4356b43c76b6d2fbef0b48a6bc0c478b68485bcb027abc86"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-APH-BILLS-20261029070654",
+      "source_change_event_id": "CHG-WATCH-APH-BILLS-20261029070654",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-APH-BILLS-20261029070654",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Parliament of Australia — Bills and Legislation added 3 structured publication records to its forward-captured official index: Domestic Gas Reservation Bill 2026; Domestic Gas Reservation (Consequential Amendments...; Domestic Gas Reservation Levy Bill 2026",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-10-29T07:08:41.209Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "461afefea358cd8e9eb7",
+            "title": "Domestic Gas Reservation Bill 2026",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7559"
+          },
+          {
+            "record_id": "97a5f3d1eecae28eae06",
+            "title": "Domestic Gas Reservation (Consequential Amendments...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7561"
+          },
+          {
+            "record_id": "dc7e8ed5257b5723c2e7",
+            "title": "Domestic Gas Reservation Levy Bill 2026",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7560"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "579186024e3e6839922f",
+            "title": "Australian Criminal Intelligence Commission (Natio...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7455"
+          },
+          {
+            "record_id": "ab808913f3cb133fd667",
+            "title": "Treasury Laws Amendment (Tax Reform No. 3) Bill 20...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7554"
+          },
+          {
+            "record_id": "eb2e380981f7f375f0ee",
+            "title": "Australian Criminal Intelligence Commission Bill 2...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7454"
+          }
+        ],
+        "delta_hash": "08094ad1a2a93dbcdce3bf0e5e271157fd2ae00236c4e38c160991b4e89f8431"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-NSW-MINISTERIAL-RELEASES-20261029070654",
+      "source_change_event_id": "CHG-WATCH-NSW-MINISTERIAL-RELEASES-20261029070654",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-NSW-MINISTERIAL-RELEASES-20261029070654",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "NSW Government — Ministerial releases added 1 structured publication record to its forward-captured official index: New designs unveiled for $265 million Port Macquarie Base Hospital Redevelopment",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-10-29T07:08:41.209Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "3135fd0723be8373fd1d",
+            "title": "New designs unveiled for $265 million Port Macquarie Base Hospital Redevelopment",
+            "url": "https://www.nsw.gov.au/ministerial-releases/port-macquarie-base-hospital-redesign-unveiled"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "4bb272d6f5c66dd101f1",
+            "title": "First MND notifications registered",
+            "url": "https://www.nsw.gov.au/ministerial-releases/first-motor-neurone-disease-notifications-received"
+          },
+          {
+            "record_id": "9bc61c0fd8d03820d61c",
+            "title": "Premier&#039;s Department",
+            "url": "https://www.nsw.gov.au/departments-and-agencies/archived-premiers-department"
+          },
+          {
+            "record_id": "a698f3ab43eef56b054e",
+            "title": "Cabinet Office",
+            "url": "https://www.nsw.gov.au/node/59224"
+          }
+        ],
+        "delta_hash": "30c86c7dafeb936d8f14af8980550a782d1fe61a4f8774e9f7df82ccec84a376"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-NSWEC-MEDIA-20261029070654",
+      "source_change_event_id": "CHG-WATCH-NSWEC-MEDIA-20261029070654",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-NSWEC-MEDIA-20261029070654",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "NSW Electoral Commission — news and media releases added 1 structured publication record to its forward-captured official index: arrow_forward Learn more",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-10-29T07:08:41.209Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "0144bab8a958197251f7",
+            "title": "arrow_forward Learn more",
+            "url": "https://elections.nsw.gov.au/service-maintenance-schedule"
+          }
+        ],
+        "removed_records": [],
+        "delta_hash": "f3d698a3f379f72e685485a8855f833eeadcf890254b7f6dc577b69511f79aca"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261029070654",
+      "source_change_event_id": "CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261029070654",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261029070654",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Queensland Government — Ministerial Media Statements added 3 structured publication records to its forward-captured official index: Trade and investment reset delivers jobs and economic boom; $6.38 million to launch advanced aerospace capability in Queensland; Obi Obi Creek restoration funding boost to protect threatened species",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-10-29T07:08:41.209Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "07f6f06b60ab32f421f9",
+            "title": "Trade and investment reset delivers jobs and economic boom",
+            "url": "https://statements.qld.gov.au/statements/106315"
+          },
+          {
+            "record_id": "6d9ec95cad295456b0bc",
+            "title": "$6.38 million to launch advanced aerospace capability in Queensland",
+            "url": "https://statements.qld.gov.au/statements/106318"
+          },
+          {
+            "record_id": "aff1be0b7264ef40e91b",
+            "title": "Obi Obi Creek restoration funding boost to protect threatened species",
+            "url": "https://statements.qld.gov.au/statements/106314"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "287bfbc8a8f1748bf2a3",
+            "title": "Tougher bail test to keep serious repeat offenders off the streets",
+            "url": "https://statements.qld.gov.au/statements/106300"
+          },
+          {
+            "record_id": "60751aa44a729649a17a",
+            "title": "2027 Premier’s Anzac Prize recipients revealed",
+            "url": "https://statements.qld.gov.au/statements/106301"
+          },
+          {
+            "record_id": "60a859703ed7af00bd22",
+            "title": "Premier appoints Child Safety Minister to continue reform agenda",
+            "url": "https://statements.qld.gov.au/statements/106297"
+          }
+        ],
+        "delta_hash": "5319455ca2be46110a21b7e7520d71b2cbe86211b3fa766930c15284390a9c6e"
       },
       "integrity": {
         "source_change_unchanged": true,

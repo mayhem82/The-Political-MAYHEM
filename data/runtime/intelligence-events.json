@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-INTELLIGENCE-EVENTS-001",
   "scope": "Australia — multi-jurisdiction",
-  "captured_at": "2026-10-28T16:04:42.890Z",
+  "captured_at": "2026-10-29T00:58:50.281Z",
   "mode": "FORWARD_ONLY",
   "rules": {
     "observation_distinct_from_inference": true,
@@ -116251,6 +116251,676 @@
       "projection_effect": "NO_EFFECT",
       "information_advantage": "NONE",
       "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-APH-LIVE-MINUTES-20261029005746",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-FED",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-APH-LIVE-MINUTES-20261029005746",
+      "captured_at": "2026-10-29T00:57:46.702Z",
+      "event_date": "2026-10-29",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_PARLIAMENT",
+      "source_id": "SRC-APH-LIVE-MINUTES",
+      "capture_mode": "NORMALISED_PAGE_HASH",
+      "review_policy": "REVIEW_UNSTRUCTURED_CHANGE",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-APH-LIVE-MINUTES-20261028160350",
+        "content_hash": "a41b79c06630ac5c5720cf29e9ee3786b4ce93784198ad2af576a285a78badf9",
+        "capture_mode": "NORMALISED_PAGE_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-APH-LIVE-MINUTES-20261029005746",
+        "content_hash": "c7ae00e12ca5ab286416cf780ab72907c7325471580f7740e7199dce14f46e9c",
+        "capture_mode": "NORMALISED_PAGE_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "TEXT_REPRESENTATION",
+        "first_difference_offset": 1937,
+        "before_length": 39155,
+        "after_length": 39394,
+        "before_excerpt": "e Blue\") | Bills, including proposed amendments | Votes and Proceedings | Notice Paper | Sitting calendar Last updated: Wednesday, 28 October 2026 at <TIME> No updates available Load updated page Automatically reload page Jump to current item before the House Draft House Minutes No. 93 Wednesday, 28 October 2026 - <TIME> 1 The House met, at 9 am , pursuant to adjournment. The Speaker (the Honourable M. Dick ) took the Chair, made an acknowledgement of country and read p rayers. - <TIME> 2 Selection Committee The Speaker presented the following document: Report No. 18 relating to the consideration of committee and delegation business and private Members’ business on Monday, 23 November 2026. - <TIME> 3 Agriculture Legislation Amendment (Biosecurity and Export Control) Bill 2026 Ms Collins ( Minister for Agriculture, Fisheries and Forestry ) , pursuant to notice, presented a Bill for an Act to amend the law relating to biosecurity and export control, and for related purposes . Document Ms Collins presented an explanatory memorandum to the bill . Bill read a first time. - <TIME> Ms Collins moved—That the bill be now read a second time. - <TIME> Debate adjourned ( Mr Thompson ) , and the resumption of the debate made an order of the day for the next sitting . - <TIME> 4 Competition and Consumer Amendment (AER Inquiry Powers) Bill 2026 Mr J Wilson ( Assistant Minister for Climate Change and Energy ) , pursuant to notice, presented a Bill for an Act to provide for the Australian Energy Regulator to inquire into matters relating to the energy market, and for related purposes . Document Mr J Wilson presented an explanatory memorandum to the bill . Bill read a first time. - <TIME> Mr J Wilson moved—That the bill be now read a second time. - <TIME> Debate adjourned ( Mr Thompson ) , and the resumption of the debate made an order of the day for the next sitting . - <TIME> 5 Health Legislation Amendment (Improved Medicare Integrity and Other Measures) Bill 2026 Ms White ( Assistant Minister for Health and Aged Care ) , pursuant to notice, presented a Bill for an Act to amend the law relating to health, and for related purposes . Document Ms White presented an explanatory memorandum to the bill . Bill read a first time. - <TIME> Ms White moved—That the bill be now read a second time. - <TIME> Debate adjourned ( Mr Thompson ) , and the resumption of the debate made an order of the day for the next sitting . - <TIME> 6 Defence Legislation Amendment (Accelerating Capability and Protecting Bases) Bill 2026 The order of the day having been read for the resumption of the debate on the question—That the bill be now read a second time— Debate resumed. Mr Thompson , <TIME>. - <TIME> Debate adjourned ( Ms Rowland — Attorney-General ), and the resumption of the debate made an order of the day for a later hour this day. - <TIME> 7 Australian Criminal Intelligence Commission Bill 2026 The order of the day having been read for the resumption of the debate on the question—That the bill be now read a second time— Debate resumed. - <TIME> Cognate debate with Australian Criminal Intelligence Commission (National Policing Information Charges) Bill 2026 . Mr Thompson , <TIME>. - <TIME> Debate adjourned ( Ms Kearney — Assistant Minister for Social Services ), and the resumption of the debate made an order of the day for a later hour this day. - <TIME> 8 Online Safety Amendment (Digital Duty of Care) Bill 2026 In accordance with the resolution agreed to on 27 October 2026 — The order of the day having been read for the resumption of the debate on the question—That the bill be now read a second time— And on the amendment moved thereto by Mrs McIntosh , viz.— That all words after “That” be omitted with a view to substituting the following words: “ the House: (1) recognises the former Coalition Government’s world-leading record in protecting Australians online, particularly children, including establishing the world’s first eSafety Commissioner, enacting the Online Safety Act 2021 and leading the charge for laws prohibiting children under 16 from accessing social media; (2) affirms that protecting children from serious online harm and defending freedom of speech are fundamental responsibilities of government; and (3) declines to give the bill a second reading because it: (a) replaces enforceable online safety codes and standards with a general duty of care, without guaranteeing equivalent safeguards against child sexual abuse, terrorist material, extreme violence, or children’s exposure to pornography and material promoting suicide, self-harm and eating disorders; (b) poses a grave threat to free speech, relying on vague and subjective definitions of online harm, including material promoting hostility towards women or gender equality, which risk the expression of lawful opinions and legitimate political and social debate; (c) creates powerful incentives for digital platforms to censor lawful speech through penalties up to $109.2 million without accountability for wrongful removal of lawful content; (d) revives the Government’s rejected misinformation and disinformation agenda, raising concerns that powers could suppress political dissent and debate; (e) gives excessive power to the Minister and eSafety Commissioner without safeguards or parliamentary scrutiny; (f) grants extraordinary covert surveillance powers, authorising the eSafety Commissioner and researchers to use ‘sock puppet’ identities and AI-generated content without judicial oversight or transparency; (g) creates broad and inconsistent exemptions, including for certain classified pornography, without explaining how this is consistent with protecting children; (h) imposes sweeping new regulatory burden on small businesses, charities and community organisations; and ( i ) fails to show that dismantling existing targeted, enforceable online safety protections and replacing them with a vague and excessively powerful regime will make children safer, while putting the democratic right to freedom of speech at unacceptable risk”— And on the amendment moved thereto by Dr Scamps, viz. —That all words after “House” be omitted with a view to substituting the following words: “, whilst not declining to give the bill a second reading: (1) notes that: (a) people, small businesses and community organisations need an accessible and affordable avenue for redress when they are in dispute with large digital platforms, including where their accounts are suspended or terminated, or they are otherwise adversely affected by a platform’s decisions or conduct; (b) an independent ombudsman is needed to provide accessible, independent and effective dispute resolution for users of online services; and (c) there is strong support for expanding the remit of the Telecommunications Industry Ombudsman to cover digital platforms, including from the public, consumer advocates, legal and community organisations, academics and parliamentarians; and (2) calls on the Government to: (a) require appropriate online service providers, as determined by a legislative instrument, to join and abide by an External Dispute Resolution scheme operated by the Telecommunications Industry Ombudsman; and (b) expand the remit of the Telecommunications Industry Ombudsman to establish an Online Services Ombudsman, providing independent, accessible and effective dispute resolution for users of digital services ” — - <TIME> Question—That the amendment moved by Dr Scamps to the amendment proposed by Mrs McIntosh be agreed to —put and negatived . - <TIME> Question—That the amendment moved by Mrs McIntosh be agreed to —put . - <TIME> Division 300 The House divided (the Speaker, Mr Dick, in the Chair)— AYES, 40 Ms Aldred* Mr Hamilton Ms McKenzie Mr Tehan Mr Batt Mr Hawke Mr Ted O’Brien Mr Thompson Ms Bell Mr Hogan Mr L O’Brien Mr Venning Mr Birrell Mr Joyce Mr Pasin Mr Violi Mr Boyce Mr Kennedy Ms Penfold Mr Wallace Mr Caldwell Ms Landry* Mr Pike Dr Webster Mr Chaffey Mr Leeser Ms Price Mr Willcox Mr Chester Mr Littleproud Mr Rebello Mr R Wilson Mr Conaghan Mr McCormack Ms Sharkie Mr Wood Mr Farley Mrs McIntosh Mr Small Mr Young NOES, 96 Mr Abdo Mr Conroy Ms M M H King Ms J Ryan Dr Aly Ms K Cook Ms Lawrence Dr M Ryan Ms Ambihaipahar Dr T Cook Mr Laxale Dr Scamps Ms Belyea Ms Doyle Ms Le Ms Scrymgour Ms Berry Mr Dreyfus Dr Leigh Ms Sitou Ms Boele Mrs Elliot Mr Lim Mr D Smith* Mr Bowen Ms Fernando Ms McBain Mr M Smith Ms Briskey Ms France Ms McBride Mr Soon Mr Burke Dr Freelander Ms Mascarenhas Ms Spender Mr Burnell Mr French Ms Miller-Frost Ms Stanley* Mr Burns Dr Garland Mr Moncrieff Ms Steggall Ms Byrnes Mr Giles Dr Mulino Ms Swanson Ms Campbell Mr Gorman Mr Neumann Ms Teesdale Dr Chalmers Mr Gosling Mr Ng Ms Templeman Ms Chaney Mr Gregg Ms O’Neil Ms Thwaites Dr Charlton Mr Hill Ms Payne Ms Urquhart Ms Chesters Mr Holzberger Mrs Phillips Ms Watson-Brown Mr Clare Mr Husic Ms Plibersek Mr Watts Ms Claydon Ms Jarrett Mr Rae Ms Wells Ms Clutterham Ms Jordan-Baird Dr Reid Ms White Ms Coffey Ms Kearney Mr Repacholi Mr Wilkie Ms Coker Mr Keogh Ms Rishworth Mr J Wilson Ms Collins Mr Khalil Ms Roberts Ms Witty Ms Comer Ms C King Ms Rowland Mr Zappia * Tellers And so it was negatived. - <TIME> Question—That the bill be now read a second time—put. - <TIME> Division 301 The House divided (the Speaker, Mr Dick, in the Chair)— AYES, 96 Mr Abdo Mr Conroy Ms C King Ms J Ryan Dr Aly Ms K Cook Ms M M H King Dr M Ryan Ms Ambihaipahar Dr T Cook Ms Lawrence Dr Scamps Ms Belyea Ms Doyle Mr Laxale Ms Scrymgour Ms Berry Mr Dreyfus Dr Leigh Ms Sitou Ms Boele Mrs Elliot Mr Lim Mr D Smith* Mr Bowen Ms Fernando Ms McBain Mr M Smith Ms Briskey Ms France Ms McBride Mr Soon Mr Burke Dr Freelander Ms Mascarenhas Ms Spender Mr Burnell Mr French Ms Miller-Frost Ms Stanley* Mr Burns Dr Garland Mr Moncrieff Ms Steggall Ms Byrnes Mr Gee Dr Mulino Ms Swanson Ms Campbell Mr Giles Mr Neumann Ms Teesdale Dr Chalmers Mr Gorman Mr Ng Ms Templeman Ms Chaney Mr Gosling Ms O’Neil Ms Thwaites Dr Charlton Mr Gregg Ms Payne Ms Urquhart Ms Chesters Mr Hill Mrs Phillips Ms Watson-Brown Mr Clare Mr Holzberger Ms Plibersek Mr Watts Ms Claydon Mr Husic Mr Rae Ms Wells Ms Clutterham Ms Jarrett Dr Reid Ms White Ms Coffey Ms Jordan-Baird Mr Repacholi Mr Wilkie Ms Coker Ms Kearney Ms Rishworth Mr J Wilson Ms Collins Mr Keogh Ms Roberts Ms Witty Ms Comer Mr Khalil Ms Rowland Mr Zappia NOES, 40 Ms Aldred* Mr Hamilton Ms McKenzie Mr Tehan Mr Batt Mr Hawke Mr Ted O’Brien Mr Thompson Ms Bell Mr Hogan Mr L O’Brien Mr Venning Mr Birrell Mr Joyce Mr Pasin Mr Violi Mr Boyce Mr Kennedy Ms Penfold Mr Wallace Mr Caldwell Ms Landry* Mr Pike Dr Webster Mr Chaffey Mr Leeser Ms Price Mr Willcox Mr Chester Mr Littleproud Mr Rebello Mr R Wilson Mr Conaghan Mr McCormack Ms Sharkie Mr Wood Mr Farley Mrs McIntosh Mr Small Mr Young * Tellers And so it was resolved in the affirmative. - <TIME> —bill read a second time. - <TIME> Consideration in detail Bill taken as a whole. - <TIME> Document Ms Wells ( Minister for Communications ) presented a supplementary explanatory memorandum to the bill. - <TIME> Question— That Government amendments (1) to (15) be agreed to — stated . - <TIME> Debate ensued. Ms Wells , <TIME>. - <TIME> Question—That the amendment s be agreed to—put. - <TIME> Division 302 The House divided (the Speaker, Mr Dick, in the Chair)— AYES, 97 Mr Abdo Ms K Cook Ms M M H King Ms J Ryan Dr Aly Dr T Cook Ms Lawrence Dr M Ryan Ms Ambihaipahar Ms Doyle Mr Laxale Dr Scamps Ms Belyea Mr Dreyfus Ms Le Ms Scrymgour Ms Berry Mrs Elliot Dr Leigh Ms Sitou Ms Boele Ms Fernando Mr Lim Mr D Smith* Mr Bowen Ms France Ms McBain Mr M Smith Ms Briskey Dr Freelander Ms McBride Mr Soon Mr Burke Mr French Ms Mascarenhas Ms Spender Mr Burnell Dr Garland Ms Miller-Frost Ms Stanley* Mr Burns Mr Gee Mr Moncrieff Ms Steggall Ms Byrnes Mr Giles Dr Mulino Ms Swanson Ms Campbell Mr Gorman Mr Neumann Ms Teesdale Dr Chalmers Mr Gosling Mr Ng Ms Templeman Ms Chaney Mr Gregg Ms O’Neil Ms Thwaites Dr Charlton Mr Hill Ms Payne Ms Urquhart Ms Chesters Mr Holzberger Mrs Phillips Ms Watson-Brown Mr Clare Mr Husic Ms Plibersek Mr Watts Ms Claydon Ms Jarrett Mr Rae Ms Wells Ms Clutterham Ms Jordan-Baird Dr Reid Ms White Ms Coffey Ms Kearney Mr Repacholi Mr Wilkie Ms Coker Mr Keogh Ms Rishworth Mr J Wilson Ms Collins Mr Khalil Ms Roberts Ms Witty Ms Comer Ms C King Ms Rowland Mr Zappia Mr Conroy NOES, 39 Ms Aldred* Mr Hogan Mr L O’Brien Mr Venning Mr Batt Mr Katter Mr Pasin Mr Violi Ms Bell Mr Kennedy Ms Penfold Mr Wallace Mr Birrell Ms Landry* Mr Pike Dr Webster Mr Boyce Mr Leeser Ms Price Mr Willcox Mr Caldwell Mr Littleproud Mr Rebello Mr R Wilson Mr Chaffey Mr McCormack Ms Sharkie Mr T Wilson Mr Conaghan Mrs McIntosh Mr Small Mr Wood Mr Hamilton Ms McKenzie Mr Tehan Mr Young Mr Hawke Mr Ted O’Brien Mr Thompson * Tellers And so it was resolved in the affirmative. - <TIME> Question— That amendments (1) to (5) moved by Dr Scamps be agreed to — stated . - <TIME> Debate ensued. Dr Scamps , <TIME>. Ms Wells , <TIME>. Ms Spender , <TIME>. - <TIME> Question—That the amendment s be agreed to—put. - <TIME> Division 303 The House divided (the Deputy Speaker, Mr Boyce, in the Chair)— AYES, 9 Ms Boele Ms Le Ms Spender* Ms Watson-Brown Ms Chaney Dr Scamps* Ms Steggall Mr Wilkie Mr Gee NOES, 73 Mr Abdo Ms Doyle Ms Lawrence Ms Scrymgour Ms Ambihaipahar Mr Dreyfus Mr Laxale Ms Sitou Ms Belyea Mrs Elliot Dr Leigh Mr Small Ms Berry Ms Fernando Mr Lim Mr D Smith* Mr Bowen Ms France Ms McBride Mr M Smith Ms Briskey Mr French Ms Mascarenhas Mr Soon Mr Burnell Dr Garland Ms Miller-Frost Ms Stanley* Mr Burns Mr Gorman Mr Moncrieff Ms Swanson Ms Byrnes Mr Gosling Dr Mulino Ms Teesdale Ms Campbell Mr Gregg Mr Neumann Ms Templeman Dr Charlton Mr Hill Mr Ng Ms Thwaites Ms Chesters Mr Holzberger Ms Payne Ms Urquhart Ms Claydon Mr Husic Mrs Phillips Mr Wallace Ms Clutterham Ms Jarrett Mr Rae Mr Watts Ms Coffey Ms Jordan-Baird Dr Reid Ms Wells Ms Coker Ms Kearney Mr Repacholi Ms White Ms Comer Mr Khalil Ms Roberts Ms Witty Ms K Cook Ms C King Ms J Ryan Mr Zappia Dr T Cook * Tellers And so it was negatived. - <TIME> Question— That amendments (1) to (8) moved by Ms Chaney be agreed to — stated . - <TIME> Debate ensued. Ms Chaney , <TIME>. Ms Steggall , <TIME>. - <TIME> Ms Wells addressing the House— - <TIME> The time allotted for the debate having expired— - <TIME> Question—That the amendment s be agreed to—put. - <TIME> Division 304 The House divided (the Speaker, Mr Dick, in the Chair)— AYES, 97 Mr Abdo Ms K Cook Ms Lawrence Dr M Ryan Dr Aly Dr T Cook Mr Laxale Dr Scamps Ms Ambihaipahar Ms Doyle Ms Le Ms Scrymgour Ms Belyea Mr Dreyfus Dr Leigh Ms Sitou Ms Berry Mrs Elliot Mr Lim Mr D Smith* Ms Boele Ms Fernando Ms McBain Mr M Smith Mr Bowen Ms France Ms McBride Mr Soon Ms Briskey Dr Freelander Ms Mascarenhas Ms Spender Mr Burke Mr French Ms Miller-Frost Ms Stanley* Mr Burnell Dr Garland Mr Moncrieff Ms Steggall Mr Burns Mr Giles Dr Mulino Ms Swanson Ms Byrnes Mr Gorman Mr Neumann Ms Teesdale Ms Campbell Mr Gosling Mr Ng Ms Templeman Dr Chalmers Mr Gregg Ms O’Neil Mr Thistlethwaite Ms Chaney Mr Hill Ms Payne Ms Thwaites Dr Charlton Mr Holzberger Mrs Phillips Ms Urquhart Ms Chesters Mr Husic Ms Plibersek Ms Watson-Brown Mr Clare Ms Jarrett Mr Rae Mr Watts Ms Claydon Ms Jordan-Baird Dr Reid Ms Wells Ms Clutterham Ms Kearney Mr Repacholi Ms White Ms Coffey Mr Keogh Ms Rishworth Mr Wilkie Ms Coker Mr Khalil Ms Roberts Mr J Wilson Ms Collins Ms C King Ms Rowland Ms Witty Ms Comer Ms M M H King Ms J Ryan Mr Zappia Mr Conroy NOES, 30 Ms Aldred* Mr Hawke Mr Pasin Mr Wallace Ms Bell Mr Hogan Ms Penfold Dr Webster Mr Birrell Mr Kennedy Ms Price Mr Willcox Mr Boyce Ms Landry* Mr Small Mr R Wilson Mr Caldwell Mr Littleproud Mr Tehan Mr T Wilson Mr Chaffey Mr McCormack Mr Thompson Mr Wood Mr Conaghan Ms McKenzie Mr Violi Mr Young Mr Hamilton Mr Ted O’Brien * Tellers And so it was resolved in the affirmative. - <TIME> Question— That amendments (1) to (5) moved by Ms Boele be agreed to — stated . - <TIME> Debate ensued. Ms Boele , <TIME>. Ms Wells , <TIME>. - <TIME> Amendment s negatived. - <TIME> Question— That amendments (1) to (4) moved by Ms Le be agreed to — stated . - <TIME> Debate ensued. Ms Le , <TIME>. Ms Wells , <TIME>. - <TIME> Question—That the amendment s be agreed to—put. - <TIME> Division 305 The House divided (the Deputy Speaker, Mr Boyce, in the Chair)— AYES, 11 Ms Boele Mr Joyce Dr Scamps Ms Steggall Mr Farley* Mr Katter Ms Sharkie Mr Wilkie Mr Gee Ms Le* Ms Spender NOES, 72 Mr Abdo Ms Doyle Mr Laxale Ms J Ryan Ms Ambihaipahar Mr Dreyfus Dr Leigh Ms Scrymgour Ms Belyea Mrs Elliot Mr Lim Ms Sitou Ms Berry Ms Fernando Ms McBride Mr D Smith* Ms Briskey Ms France Ms Mascarenhas Mr M Smith Mr Burns Mr French Ms Miller-Frost Mr Soon Ms Byrnes Dr Garland Mr Moncrieff Ms Stanley* Ms Campbell Mr Gorman Dr Mulino Ms Swanson Ms Chaney Mr Gosling Mr Neumann Ms Teesdale Dr Charlton Mr Gregg Mr Ng Ms Templeman Ms Chesters Mr Hill Ms Payne Ms Thwaites Ms Claydon Mr Holzberger Mrs Phillips Ms Urquhart Ms Clutterham Mr Husic Ms Plibersek Ms Watson-Brown Ms Coffey Ms Jarrett Mr Rae Mr Watts Ms Coker Ms Jordan-Baird Dr Reid Ms Wells Ms Comer Ms Kearney Mr Repacholi Ms White Ms K Cook Mr Khalil Ms Roberts Ms Witty Dr T Cook Ms Lawrence Ms Rowland Mr Zappia * Tellers And so it was negatived. - <TIME> Question— That the bill, as amended, be agreed to — put . - <TIME> Division 306 The House divided (the Deputy Speaker, Mr Boyce, in the Chair)— AYES, 96 Mr Abdo Mr Conroy Ms M M H King Dr M Ryan Dr Aly Ms K Cook Ms Lawrence Dr Scamps Ms Ambihaipahar Dr T Cook Mr Laxale Ms Scrymgour Ms Belyea Ms Doyle Dr Leigh Ms Sitou Ms Berry Mr Dreyfus Mr Lim Mr D Smith* Ms Boele Mrs Elliot Ms McBain Mr M Smith Mr Bowen Ms Fernando Ms McBride Mr Soon Ms Briskey Ms France Ms Mascarenhas Ms Spender Mr Burke Mr French Ms Miller-Frost Ms Stanley* Mr Burnell Dr Garland Mr Moncrieff Ms Steggall Mr Burns Mr Gee Dr Mulino Ms Swanson Ms Byrnes Mr Giles Mr Neumann Ms Teesdale Ms Campbell Mr Gorman Mr Ng Ms Templeman Dr Chalmers Mr Gosling Ms O’Neil Mr Thistlethwaite Ms Chaney Mr Gregg Ms Payne Ms Thwaites Dr Charlton Mr Hill Mrs Phillips Ms Urquhart Ms Chesters Mr Holzberger Ms Plibersek Ms Watson-Brown Mr Clare Mr Husic Mr Rae Mr Watts Ms Claydon Ms Jarrett Dr Reid Ms Wells Ms Clutterham Ms Jordan-Baird Mr Repacholi Ms White Ms Coffey Ms Kearney Ms Rishworth Mr Wilkie Ms Coker Mr Keogh Ms Roberts Mr J Wilson Ms Collins Mr Khalil Ms Rowland Ms Witty Ms Comer Ms C King Ms J Ryan Mr Zappia NOES, 37 Ms Aldred* Mr Joyce Mr Pasin Mr Venning Mr Batt Mr Kennedy Ms Penfold Mr Violi Ms Bell Ms Landry* Mr Pike Mr Wallace Mr Birrell Mr Leeser Ms Price Dr Webster Mr Caldwell Mr Littleproud Mr Rebello Mr Willcox Mr Chaffey Mrs McIntosh Ms Sharkie Mr R Wilson Mr Conaghan Ms McKenzie Mr Small Mr T Wilson Mr Farley Mr Ted O’Brien Mr Tehan Mr Wood Mr Hamilton Mr L O’Brien Mr Thompson Mr Young Mr Hogan * Tellers And so it was resolved in the affirmative. - <TIME> Bill , as amended, agreed to. Consideration in detail concluded. - <TIME> Question— That the bill be now read a third time — put . - <TIME> Division 307 The House divided (the Deputy Speaker, Mr Boyce, in the Chair)— AYES, 96 Mr Abdo Mr Conroy Ms M M H King Dr M Ryan Dr Aly Ms K Cook Ms Lawrence Dr Scamps Ms Ambihaipahar Dr T Cook Mr Laxale Ms Scrymgour Ms Belyea Ms Doyle Dr Leigh Ms Sitou Ms Berry Mr Dreyfus Mr Lim Mr D Smith* Ms Boele Mrs Elliot Ms McBain Mr M Smith Mr Bowen Ms Fernando Ms McBride Mr Soon Ms Briskey Ms France Ms Mascarenhas Ms Spender Mr Burke Mr French Ms Miller-Frost Ms Stanley* Mr Burnell Dr Garland Mr Moncrieff Ms Steggall Mr Burns Mr Gee Dr Mulino Ms Swanson Ms Byrnes Mr Giles Mr Neumann Ms Teesdale Ms Campbell Mr Gorman Mr Ng Ms Templeman Dr Chalmers Mr Gosling Ms O’Neil Mr Thistlethwaite Ms Chaney Mr Gregg Ms Payne Ms Thwaites Dr Charlton Mr Hill Mrs Phillips Ms Urquhart Ms Chesters Mr Holzberger Ms Plibersek Ms Watson-Brown Mr Clare Mr Husic Mr Rae Mr Watts Ms Claydon Ms Jarrett Dr Reid Ms Wells Ms Clutterham Ms Jordan-Baird Mr Repacholi Ms White Ms Coffey Ms Kearney Ms Rishworth Mr Wilkie Ms Coker Mr Keogh Ms Roberts Mr J Wilson Ms Collins Mr Khalil Ms Rowland Ms Witty Ms Comer Ms C King Ms J Ryan Mr Zappia NOES, 38 Ms Aldred* Mr Joyce Mr Pasin Mr Venning Mr Batt Mr Kennedy Ms Penfold Mr Violi Ms Bell Ms Landry* Mr Pike Mr Wallace Mr Birrell Mr Leeser Ms Price Dr Webster Mr Caldwell Mr Littleproud Mr Rebello Mr Willcox Mr Chaffey Mr McCormack Ms Sharkie Mr R Wilson Mr Conaghan Mrs McIntosh Mr Small Mr T Wilson Mr Farley Ms McKenzie Mr Tehan Mr Wood Mr Hamilton Mr Ted O’Brien Mr Thompson Mr Young Mr Hogan Mr L O’Brien * Tellers And so it was resolved in the affirmative. - <TIME> — bill read a third time. - <TIME> 9 Treasury Laws Amendment (Tax Reform No. 3) Bill 2026 The order of the day having been read for the resumption of the debate on the question—That the bill be now read a second time— - <TIME> Cognate debate with Income Tax Rates Amendment (Minimum Tax on Discretionary Trusts) Bill 2026 and Treasury Laws Amendment (Tax Reform No. 4) Bill 2026 . - <TIME> Debate resumed by Mr T Wilson who moved, as an amendment— That all words after “That” be omitted with a view to substituting the following words: “whilst not declining to give the bill a second reading, the House: (1) notes that: (a) the Government did not take a minimum tax on discretionary trusts to the 2025 election and promised before that election not to raise taxes; (b) Treasury’s own Impact Analysis says around 350,000 small businesses operate through a discretionary trust, and that each of them is left with three options: (i) pay a new 30 per cent tax; or (ii) restructure and pay stamp duty; or (iii) lock in fixed shares for life in a one-off election in 2028-29; (c) Treasury puts the compliance cost at an average of $141.5 million per year; and (d) twelve matters are left to legislative instruments that have not been released, and consultation ran for less than the 30-day minimum set by the Government’s own Office of Impact Analysis; and (2) calls on the Government to: (a) withdraw the minimum tax on discretionary trusts or, failing that, delay the start of the minimum tax on discretionary trusts by 12 months, to 1 July 2029; and (b) split the bill such that the capital gains tax amendments, the definition of a new residential dwelling and the payday superannuation transitional relief can be dealt with separately”. Debate ensued. Mr Holzberger , <TIME>. - <TIME> Quorum called , Mr Leeser . - <TIME> Quorum formed . Mr Holzberger , <TIME>. Mr McCormack , <TIME>. Ms Campbell , <TIME>. - <TIME> Quorum called , Mr Leeser . - <TIME> Quorum formed . Ms Campbell , <TIME>. Ms Aldred , <TIME>. Mr French , <TIME>. - <TIME> Quorum called , Mr Littleproud . - <TIME> Quorum formed . Mr French , <TIME>. - <TIME> Ms Le addressing the House— - <TIME> It being 1. 30 p m, the debate was interrupted in accordance with standing order 43 , Ms Le was granted leave to continue her speech when the debate is resumed, and the resumption of the debate made an order of the day for a later hour this day. - <TIME> 10 MEMBERS’ STATEMENTS Members’ statements were made. Ms Chaney , <TIME>. Mr Gosling , <TIME>. Mr Farley , <TIME>. Ms Clutterham , <TIME>. Mr Gee , <TIME>. Ms K Cook , <TIME>. Mr Wood , <TIME>. Ms Jordan-Baird , <TIME>. Ms Aldred , <TIME>. Mr French , <TIME>. Mr Batt , <TIME>. Mr Holzberger , <TIME>. Mr R Wilson , <TIME>. Ms Jarrett , <TIME>. Mr Birrell , <TIME>. Mr Repacholi , <TIME>. Ms Bell , <TIME>. Mr Laxale , <TIME>. Mr T Wilson , <TIME>. Mr Burns , <TIME>. - <TIME> Mr Albanese notified the House of ministerial arrangements. - <TIME> 11 MINISTERIAL ARRANGEMENTS Mr Albanese ( Prime Minister ) informed the House that, during the absence overseas of Mr Marles ( Deputy Prime Minister ) , Mr Conroy ( Minister for Defence Industry ) would answer questions on his behalf. - <TIME> 12 QUESTIONS - <TIME> ( 1 ) Mr Taylor to Mr Albanese ( Prime Minister ) - <TIME> ( 2 ) Ms France to Mr Albanese ( Prime Minister ) - <TIME> ( 3 ) Mr T Wilson to Dr Chalmers ( Treasurer ) - <TIME> ( 4 ) Ms Payne to Mr Clare ( Minister for Education ) - <TIME> Distinguished visitor announced. - <TIME> ( 5 ) Mr Joyce to Mr Albanese ( Prime Minister ) - <TIME> Member directed to leave At 2.19 pm the Member for Wide Bay ( Mr L O’Brien ) was directed, under standing order 94, to leave the Chamber for three hours for disorderly behaviour and he accordingly left the Chamber. - <TIME> Questions without notice continuing— Mr Albanese , <TIME>. Point of order, Mr Joyce . <TIME>. Mr Albanese , <TIME>. - <TIME> ( 6 ) Mrs Phillips to Mr Albanese ( Prime Minister ) - <TIME> ( 7 ) Mr Hogan to Mr Albanese ( Prime Minister ) - <TIME> ( 8 ) Ms Mascarenhas to Ms M M H King ( Minister for Resources ) - <TIME> ( 9 ) Ms Aldred to Ms C King ( Minister for Infrastructure, Transport, Regional Development and Local Government ) - <TIME> ( 10 ) Ms Doyle to Dr Chalmers ( Treasurer ) - <TIME> ( 11 ) Ms Price to Mr Albanese ( Prime Minister ) - <TIME> Mr Tehan ( Manager of Opposition Business ) sought leave to table documents . Leave not granted. Point of order, Mr Burke . <TIME>. Point of order, Mr Tehan . <TIME>. - <TIME> ( 12 ) Mr Repacholi to Ms Collins ( Minister for Agriculture, Fisheries and Forestry ) - <TIME> ( 13 ) Ms Steggall to Mr Albanese ( Prime Minister ) Ms Rowland , <TIME>. - <TIME> ( 14 ) Mr Burnell to Ms C King ( Minister for Infrastructure, Transport, Regional Development and Local Government ) - <TIME> Member directed to leave At 2.53 pm the Member for Gippsland ( Mr Chester ) was directed, under standing order 94, to leave the Chamber for one hour for interjecting and he accordingly left the Chamber. - <TIME> Questions without notice continued. Ms C King , <TIME>. - <TIME> ( 15 ) Dr Webster to Mr Albanese ( Prime Minister ) - <TIME> ( 16 ) Mr Watts to Ms Rishworth ( Minister for Employment and Workplace Relations ) - <TIME> ( 17 ) Ms Watson-Brown to Mr Clare ( Minister for Education ) - <TIME> ( 18 ) Ms Templeman to Mr Giles ( Minister for Skills and Training ) - <TIME> ( 19 ) Mr Pike to Mr Albanese ( Prime Minister ) - <TIME> ( 20 ) Ms Chesters to Mr Conroy ( Minister representing the Minister for Industry and Innovation ) - <TIME> ( 21 ) Ms Chaney to Mr Bowen ( Minister for Climate Change and Energy ) - <TIME> ( 22 ) Mr M Smith to Ms McBain ( Minister for Regional Development, Local Government and Territories ) - <TIME> 13 DOCUMENT S The following document s were presented: *Australian Institute of Criminology—Report for 2025-26. *Australian Public Service Commission—Report for 2025-26 , incorporating the report of the Merit Protection Commissioner. *Australian Signals Directorate—Report for 2025-26. *Australian Trade and Investment Commission—Report for 2025-26. Carbon Credits (Carbon Farming Initiative) Act 2011— 2026 review of the Act: Enha n cing the stability and integrity of the Australian Carbon Credit Unit Scheme—Report by the Climate Change Authority, September 2026. *Department of Social Services—Report for 2025-26. *Fair Work Commission—Report for 2025-26. * IP Australia—Report for 2025-26. *National Disability Insurance Agency—Report for 2025-26. *National Museum of Australia—Report for 2025-26. *Office of the Fair Work Ombudsman—Report for 2025-26. *Royal Australian Mint—Report for 2025-26. Treaties—Joint Standing Committee—Report 231: Pacific resilience and sport manipulation treaties—Government response, September 2026. *T he documents were made Parliamentary Papers. - <TIME> 14 DISCUSSION OF MATTER OF PUBLIC IMPORTANCE— Government spending The House was informed that Mr T Wilson had proposed that a definite matter of public importance be submitted to the House for discussion, namely, “ The Government’s addiction to spending, forcing higher inflation and interest rates, families to pay more on their mortgages and at the supermarket checkout ”. - <TIME> The proposed discussion having received the necessary support— - <TIME> Mr T Wilson addressed the House. - <TIME> Discussion ensued. Dr Leigh , <TIME>. Mr McCormack , <TIME>. Ms Sitou , <TIME>. Mr Pasin , <TIME>. Ms Lawrence , <TIME>. Mr Venning , <TIME>. Mr Gregg , <TIME>. Mr Rebello , <TIME>. Mr M Smith , <TIME>. - <TIME> Discussion concluded. - <TIME> 15 Treasury Laws Amendment (Tax Reform No. 3) Bill 2026 The order of the day having been read for the resumption of the debate on the question—That the bill be now read a second time— And on the amendment moved thereto by Mr T Wilson ( see item No. 9, page XX ) — Debate resumed. - <TIME> Cognate debate with Income Tax Rates Amendment (Minimum Tax on Discretionary Trusts) Bill 2026 and Treasury Laws Amendment (Tax Reform No. 4) Bill 2026 . Ms Le , <TIME>. Ms Jarrett , <TIME>. Mr Thompson , <TIME>. Mr Laxale , <TIME>. Intervention , Mr Thompson ( refused ), <TIME>. Mr Laxale , <TIME>. - <TIME> Quorum called , Mr Caldwell . - <TIME> Quorum formed . Mr Laxale , <TIME>. Ms Penfold , <TIME>. - <TIME> Quorum called , Mr Chaffey . - <TIME> Quorum formed . Ms Stanley , <TIME>. Ms Spender , <TIME>. Mr Husic , <TIME>. - <TIME> Mr Caldwell moved —That Mr Husic be granted an extension of time . - <TIME> Question—put and negatived . - <TIME> Debate continued. Mrs McIntosh , <TIME>. - <TIME> Ms Chaney moved, as an amendment to the amendment proposed by Mr T Wilson — That all words after “notes that” be omitted with a view to substituting the following words: “(a) the bill intends to exclude genuine testamentary trusts from the minimum tax on discretionary trusts; (b) the bill applies a beneficiary test to testamentary trusts ‘established’ on or after 1 July 2028, but does not say whether a testamentary trust is established when the will is made, when the will-maker dies, or when estate assets pass to the trustee; and (c) as a result, Australians making or reviewing a will cannot know whether the trust it creates will be covered by the new rules; and (2) calls on the Government to amend the bill so that: (a) the beneficiary test applies only where a testamentary trust is established under will or codicil provisions made or varied on or after 1 July 2028, under a court order made on or after that date, or on an intestacy where the deceased died on or after that date; and (b) the exclusion applies to income derived for the benefit of an individual, an exempt entity or the trustee of a special disability trust, so that naming an ineligible beneficiary in a will does not affect the treatment of the trust’s other income”. - <TIME> Dr Scamps moved, as an amendment to the amendment proposed by Ms Chaney — That the following words be added after paragraph (2): “(3) further notes that: (a) small and family businesses are the backbone of the Australian economy, supporting employment, investment, innovation and local communities; (b) small businesses face growing cost pressures from the cumulative impact of taxation, reporting and regulation across government portfolios; (c) government policy decisions, like the proposed 30 per cent minimum tax on discretionary trusts, are too often assessed individually, without adequately considering their cumulative impact on small businesses; and (d) the existing Impact Analysis Framework does not require dedicated, independent Small Business Impact Statements for all major policy decisions across portfolios; and (4) further calls on the Government to: (a) mandate publicly available Small Business Impact Statements for all major policy decisions materially affecting small businesses, prepared or independently assessed by a strengthened and adequately resourced Office of Impact Analysis; and (b) require ministers to publicly explain how small business impacts have been addressed and what measures have been taken to minimise regulatory and compliance burdens”. - <TIME> Debate ensued. Mr Violi , <TIME>. Mr Joyce , <TIME>. Ms Boele , <TIME>. - <TIME> 16 ADJOURNMENT DEBATE It being 7.30 pm —The question was proposed—That the House do now adjourn. Debate ensued. Ms Spender , <TIME>. Ms Stanley , <TIME>. Mr Birrell , <TIME>. Mr Soon , <TIME>. Mr Chaffey , <TIME>. Mr M Smith , <TIME>. - <TIME> 17 Treasury Laws Amendment (Tax Reform No. 3) Bill 2026 It being 8 pm— In accordance with the resolution agreed to on 27 October 2026 — The order of the day having been read for the resumption of the debate on the question—That the bill be now read a second time— And on the amendment moved by Dr Scamps to the amendment proposed by Ms Chaney to the amendment proposed by Mr T Wilson ( see item No. 15, page XX ) — Debate resumed. - <TIME> Cognate debate with Income Tax Rates Amendment (Minimum Tax on Discretionary Trusts) Bill 2026 and Treasury Laws Amendment (Tax Reform No. 4) Bill 2026 . Ms Bell , <TIME>. Dr M Ryan , <TIME>. Mr Birrell , <TIME>. Mr Willcox , <TIME>. Mr Farley , <TIME>. Dr Webster , <TIME>. Ms Steggall , <TIME>. Mr Rebello , <TIME>. - <TIME> Dr Mulino ( Assistant Treasurer ) required t hat the debate be extended until the conclusion of the speech by the Member for Calare , in accordance with the resolution agreed to on 27 October 2026 . - <TIME> Debate continued. Mr Gee , <TIME>. - <TIME> Debate adjourned and the resumption of the debate made an order of the day for the next sitting . - <TIME> 18 ADJOURNMENT At 9.58 pm , the Speaker adjourned the House until 9 am tomorrow , in accordance with the resolution agreed to on 27 October 2026 . - <TIME> DOCUMENT S The following document s were deemed to have been presented on 28 October 2026 (An explanatory statement has been presented with each instrument unless otherwise indicated by an asterisk) : Defence Act 1903— Woomera Prohibited Area Rules 2026—Woomera Prohibited Area (Specified Items) Instrument 2026 [F2026L01416]. Military Rehabilitation and Compensation Act 2004— Amendment Statement of Principles concerning cervical spondylosis (Balance of Probabilities)—No. 73 of 2026 [F2026L01422]. Amendment Statement of Principles concerning thoracolumbar intervertebral disc prolapse (Balance of Probabilities)—No. 75 of 2026 [F2026L01424]. Amendment Statement of Principles concerning thoracolumbar intervertebral disc prolapse (Reasonable Hypothesis)—No. 74 of 2026 [F2026L01423]. Amendment Statement of Principles concerning Thoracolumbar spondylosis (Reasonable Hypothesis)—No. 76 of 2026 [F2026L01425]. Statement of Principles concerning bronchiectasis (Balance of Probabilities)—No. 78 of 2026 [F2026L01427]. Statement of Principles concerning bronchiectasis (Reasonable Hypothesis)—No. 77 of 2026 [F2026L01426]. Statement of Principles concerning electrical injury (Balance of Probabilities)—No. 71 of 2026 [F2026L01420]. Statement of Principles concerning electrical injury (Reasonable Hypothesis)—No. 70 of 2026 [F2026L01419]. Statement of Principles concerning malignant neoplasm of the meninges (Balance of Probabilities)—No. 80 of 2026 [F2026L01429]. Statement of Principles concerning malignant neoplasm of the meninges (Reasonable Hypothesis)—No. 79 of 2026 [F2026L01428]. Statement of Principles concerning scrub typhus (Reasonable Hypothesis)—No. 68 of 2026 [F2026L01417]. National Health Act 1953— National Health (Highly Specialised Drugs Program) Special Arrangement Amendment (Nurse Practitioner Prescribing—PBS Nurse Practitioner Prescribing Review) Instrument 2026 —PB 125 of 2026 [F2026L01430]. - <TIME> ATTENDANCE All Members attended (at some time during the sitting) except Mr Buchholz , Mr Butler , Mr Georganas , * Dr Haines , Mr Marles and Mr Mitchell . * On leave In this section Bills and Legislation Tabled documents Chamber documents Work of the Senate House of Representatives ch",
+        "after_excerpt": "e Blue\") | Bills, including proposed amendments | Votes and Proceedings | Notice Paper | Sitting calendar Last updated: Thursday, 29 October 2026 at <TIME> No updates available Load updated page Automatically reload page Jump to current item before the House Draft House Minutes No. 94 Thursday, 29 October 2026 - <TIME> 1 The House met, at 9 am , pursuant to adjournment. The Speaker (the Honourable M. Dick ) took the Chair, made an acknowledgement of country and read p rayers. - <TIME> 2 Appropriations and Administration—Standing Committee —REPORT The Speaker presented the following document: Appropriations and Administration—Standing Committee — Report No. 36: Annual report 2025-26 — Report, October 2026 . In accordance with standing order 39( e ) the report was made a Parliamentary Paper. - <TIME> 3 Committee of Privileges and Members’ Interests —REPORT Mrs Elliot (Chair) presented the following document : Committee of Privileges and Members’ Interests — Report concerning a subpoena issued by the Federal Court of Australia and possible issues of parliamentary privilege — Report, October 2026 . In accordance with standing order 39( e ) the report was made a Parliamentary Paper. - <TIME> 4 Death penalty —STATEMENT BY MEMBER —DOCUMENT Mr Dreyfus , by leave, made a statement relating to the death penalty . - <TIME> Document Mr Dreyfus , by leave, presented the following document: Australia’s strategy for global abolition of the death penalty 2026 . - <TIME> Mr Ted O’Brien , by leave, addressed the House in reply. - <TIME> 5 SUSPENSION OF STANDING AND SESSIONAL ORDERS MOVED Mr Tehan ( Manager of Opposition Business ) mov ing a suspension of standing and sessional orders— - <TIME> Order o f t he d ay c alled o n Ms Rishworth ( Minister for Employment and Workplace Relations ) moved— That order of the day No. 1 , government business, be called on immediately . - <TIME> Question—put. - <TIME> Division 308 The House divided (the Speaker, Mr Dick, in the Chair)— AYES, 84 Mr Abdo Mr Conroy Mr Keogh Ms Rishworth Dr Aly Ms K Cook Mr Khalil Ms Roberts Ms Ambihaipahar Dr T Cook Ms C King Ms Rowland Ms Belyea Ms Doyle Ms M M H King Ms J Ryan Ms Berry Mr Dreyfus Ms Lawrence Ms Scrymgour Mr Bowen Mrs Elliot Mr Laxale Ms Sitou Ms Briskey Ms Fernando Dr Leigh Mr D Smith* Mr Burnell Ms France Mr Lim Mr M Smith Mr Burns Dr Freelander Ms McBride Mr Soon Ms Byrnes Mr French Ms Mascarenhas Ms Stanley* Ms Campbell Dr Garland Ms Miller-Frost Ms Swanson Dr Chalmers Mr Giles Mr Moncrieff Ms Teesdale Dr Charlton Mr Gorman Dr Mulino Ms Templeman Ms Chesters Mr Gosling Mr Neumann Mr Thistlethwaite Mr Clare Mr Gregg Mr Ng Ms Thwaites Ms Claydon Mr Hill Ms O’Neil Ms Urquhart Ms Clutterham Mr Holzberger Ms Payne Mr Watts Ms Coffey Mr Husic Mrs Phillips Ms White Ms Coker Ms Jarrett Mr Rae Mr J Wilson Ms Collins Ms Jordan-Baird Dr Reid Ms Witty Ms Comer Ms Kearney Mr Repacholi Mr Zappia NOES, 44 Ms Aldred* Mr Gee Mr L O’Brien Mr Tehan Mr Batt Mr Hawke Mr Pasin Mr Thompson Ms Bell Mr Hogan Ms Penfold Mr Venning Mr Birrell Mr Joyce Mr Pike Mr Violi Ms Boele Mr Kennedy Ms Price Mr Wallace Mr Boyce Ms Landry* Mr Rebello Ms Watson-Brown Mr Caldwell Mr Leeser Dr M Ryan Dr Webster Mr Chaffey Mr Littleproud Ms Sharkie Mr Willcox Mr Chester Mr McCormack Mr Small Mr R Wilson Mr Conaghan Mrs McIntosh Ms Spender Mr T Wilson Mr Farley Mr Ted O’Brien Ms Steggall Mr Wood * Tellers And so it was resolved in the affirmative. - <TIME> 6 Treasury Laws Amendment (Tax Reform No. 3) Bill 2026 In accordance with the resolution agreed to on 27 October 2026 — The order of the day having been read for the resumption of the debate on the question—That the bill be now read a second time— And on the amendment moved thereto by Mr T Wilson , viz.— That all words after “That” be omitted with a view to substituting the following words: “ whilst not declining to give the bill a second reading, the House: (1) notes that: (a) the Government did not take a minimum tax on discretionary trusts to the 2025 election and promised before that election not to raise taxes; (b) Treasury’s own Impact Analysis says around 350,000 small businesses operate through a discretionary trust, and that each of them is left with three options: ( i ) pay a new 30 per cent tax; or (ii) restructure and pay stamp duty; or (iii) lock in fixed shares for life in a one-off election in 2028-29; (c) Treasury puts the compliance cost at an average of $141.5 million per year; and (d) twelve matters are left to legislative instruments that have not been released, and consultation ran for less than the 30-day minimum set by the Government’s own Office of Impact Analysis; and (2) calls on the Government to: (a) withdraw the minimum tax on discretionary trusts or, failing that, delay the start of the minimum tax on discretionary trusts by 12 months, to 1 July 2029; and (b) split the bill such that the capital gains tax amendments, the definition of a new residential dwelling and the payday superannuation transitional relief can be dealt with separately”— And on the amendment moved thereto by Ms Chaney, viz. —That all words after “notes that” be omitted with a view to substituting the following words: “(a) the bill intends to exclude genuine testamentary trusts from the minimum tax on discretionary trusts; (b) the bill applies a beneficiary test to testamentary trusts ‘established’ on or after 1 July 2028, but does not say whether a testamentary trust is established when the will is made, when the will-maker dies, or when estate assets pass to the trustee; and (c) as a result, Australians making or reviewing a will cannot know whether the trust it creates will be covered by the new rules; and (2) calls on the Government to amend the bill so that: (a) the beneficiary test applies only where a testamentary trust is established under will or codicil provisions made or varied on or after 1 July 2028, under a court order made on or after that date, or on an intestacy where the deceased died on or after that date; and (b) the exclusion applies to income derived for the benefit of an individual, an exempt entity or the trustee of a special disability trust, so that naming an ineligible beneficiary in a will does not affect the treatment of the trust’s other income”— And on the amendment moved thereto by Dr Scamps, viz. —That the following words be added after paragraph (2): “(3) further notes that: (a) small and family businesses are the backbone of the Australian economy, supporting employment, investment, innovation and local communities; (b) small businesses face growing cost pressures from the cumulative impact of taxation, reporting and regulation across government portfolios; (c) government policy decisions, like the proposed 30 per cent minimum tax on discretionary trusts, are too often assessed individually, without adequately considering their cumulative impact on small businesses; and (d) the existing Impact Analysis Framework does not require dedicated, independent Small Business Impact Statements for all major policy decisions across portfolios; and (4) further calls on the Government to: (a) mandate publicly available Small Business Impact Statements for all major policy decisions materially affecting small businesses, prepared or independently assessed by a strengthened and adequately resourced Office of Impact Analysis; and (b) require ministers to publicly explain how small business impacts have been addressed and what measures have been taken to minimise regulatory and compliance burdens ” — - <TIME> Question—That the amendment moved by Dr Scamps to the amendment proposed by Ms Chaney be agreed to —put and negatived . - <TIME> Question—That the amendment moved by Ms Chaney to the amendment proposed by Mr T Wilson be agreed to —put . - <TIME> Division 309 The House divided (the Speaker, Mr Dick, in the Chair)— AYES, 9 Ms Boele Dr M Ryan* Ms Spender Ms Watson-Brown Ms Chaney Dr Scamps Ms Steggall Mr Wilkie Ms Le NOES, 114 Ms Aldred Mr Dreyfus Mr Littleproud Ms Scrymgour Dr Aly Mrs Elliot Ms McBain Ms Sitou Ms Ambihaipahar Ms Fernando Ms McBride Mr Small Mr Batt Ms France Mr McCormack Mr D Smith* Ms Belyea Dr Freelander Ms McKenzie Mr M Smith Ms Berry Mr French Ms Mascarenhas Mr Soon Mr Birrell Dr Garland Ms Miller-Frost Ms Stanley* Mr Boyce Mr Giles Mr Moncrieff Ms Swanson Ms Briskey Mr Gorman Dr Mulino Ms Teesdale Mr Burnell Mr Gosling Mr Neumann Mr Tehan Mr Burns Mr Gregg Mr Ng Ms Templeman Ms Byrnes Mr Hill Mr Ted O’Brien Mr Thistlethwaite Mr Caldwell Mr Hogan Mr L O’Brien Mr Thompson Ms Campbell Mr Holzberger Ms O’Neil Ms Thwaites Mr Chaffey Mr Husic Mr Pasin Ms Urquhart Dr Chalmers Ms Jarrett Ms Payne Mr Venning Dr Charlton Ms Jordan-Baird Ms Penfold Mr Violi Ms Chesters Ms Kearney Mrs Phillips Mr Wallace Mr Clare Mr Kennedy Mr Pike Mr Watts Ms Claydon Mr Keogh Ms Price Dr Webster Ms Clutterham Mr Khalil Mr Rae Ms White Ms Coffey Ms C King Mr Rebello Mr Willcox Ms Coker Ms M M H King Dr Reid Mr J Wilson Ms Comer Ms Landry* Mr Repacholi Mr R Wilson Mr Conaghan Ms Lawrence Ms Rishworth Mr T Wilson Mr Conroy Mr Laxale Ms Roberts Ms Witty Ms K Cook Mr Leeser Ms Rowland Mr Wood Dr T Cook Dr Leigh Ms J Ryan Mr Zappia Ms Doyle Mr Lim * Tellers And so it was negatived. - <TIME> Question—That the amendment moved by Mr T Wilson be agreed to —put . - <TIME> Division 310 The House divided (the Speaker, Mr Dick, in the Chair)— AYES, 42 Ms Aldred* Mr Hogan Ms Penfold Mr Thompson Mr Batt Mr Kennedy Mr Pike Mr Venning Ms Bell Ms Landry* Ms Price Mr Violi Mr Birrell Ms Le Mr Rebello Mr Wallace Ms Boele Mr Leeser Dr M Ryan Dr Webster Mr Boyce Mr Littleproud Dr Scamps Mr Wilkie Mr Caldwell Mr McCormack Ms Sharkie Mr Willcox Mr Chaffey Ms McKenzie Mr Small Mr R Wilson Ms Chaney Mr Ted O’Brien Ms Steggall Mr T Wilson Mr Conaghan Mr L O’Brien Mr Tehan Mr Wood Mr Gee Mr Pasin NOES, 84 Mr Abdo Dr T Cook Ms C King Ms Roberts Dr Aly Ms Doyle Ms M M H King Ms Rowland Ms Ambihaipahar Mr Dreyfus Ms Lawrence Ms J Ryan Ms Belyea Mrs Elliot Mr Laxale Ms Scrymgour Ms Berry Ms Fernando Dr Leigh Ms Sitou Ms Briskey Ms France Mr Lim Mr D Smith* Mr Burnell Dr Freelander Ms McBain Mr M Smith Mr Burns Mr French Ms McBride Mr Soon Ms Byrnes Dr Garland Ms Mascarenhas Ms Stanley* Ms Campbell Mr Giles Ms Miller-Frost Ms Swanson Dr Chalmers Mr Gorman Mr Moncrieff Ms Teesdale Dr Charlton Mr Gosling Dr Mulino Ms Templeman Ms Chesters Mr Gregg Mr Neumann Mr Thistlethwaite Mr Clare Mr Hill Mr Ng Ms Thwaites Ms Claydon Mr Holzberger Ms O’Neil Ms Urquhart Ms Clutterham Mr Husic Ms Payne Ms Watson-Brown Ms Coffey Ms Jarrett Mrs Phillips Mr Watts Ms Coker Ms Jordan-Baird Mr Rae Ms White Ms Comer Ms Kearney Dr Reid Mr J Wilson Mr Conroy Mr Keogh Mr Repacholi Ms Witty Ms K Cook Mr Khalil Ms Rishworth Mr Zappia * Tellers And so it was negatived. - <TIME> Question—That the bill be now read a second time—put. - <TIME> Division 311 The House divided (the Speaker, Mr Dick, in the Chair)— AYES, 89 Mr Abdo Dr T Cook Ms M M H King Ms J Ryan Dr Aly Ms Doyle Ms Lawrence Dr M Ryan Ms Ambihaipahar Mr Dreyfus Mr Laxale Ms Scrymgour Ms Belyea Mrs Elliot Dr Leigh Ms Sitou Ms Berry Ms Fernando Mr Lim Mr D Smith* Ms Briskey Ms France Ms McBain Mr M Smith Mr Burnell Dr Freelander Ms McBride Mr Soon Mr Burns Mr French Ms Mascarenhas Ms Spender Ms Byrnes Dr Garland Ms Miller-Frost Ms Stanley* Ms Campbell Mr Giles Mr Moncrieff Ms Steggall Dr Chalmers Mr Gorman Dr Mulino Ms Swanson Ms Chaney Mr Gosling Mr Neumann Ms Teesdale Dr Charlton Mr Gregg Mr Ng Ms Templeman Ms Chesters Mr Hill Ms O’Neil Mr Thistlethwaite Mr Clare Mr Holzberger Ms Payne Ms Thwaites Ms Claydon Mr Husic Mrs Phillips Ms Urquhart Ms Clutterham Ms Jarrett Mr Rae Ms Watson-Brown Ms Coffey Ms Jordan-Baird Dr Reid Mr Watts Ms Coker Ms Kearney Mr Repacholi Ms White Ms Collins Mr Keogh Ms Rishworth Mr J Wilson Ms Comer Mr Khalil Ms Roberts Ms Witty Mr Conroy Ms C King Ms Rowland Mr Zappia Ms K Cook NOES, 43 Ms Aldred* Mr Hawke Mr Ted O’Brien Mr Thompson Mr Batt Mr Hogan Mr L O’Brien Mr Venning Ms Bell Mr Joyce Mr Pasin Mr Violi Mr Birrell Mr Kennedy Ms Penfold Mr Wallace Ms Boele Ms Landry* Mr Pike Dr Webster Mr Boyce Ms Le Ms Price Mr Wilkie Mr Caldwell Mr Leeser Mr Rebello Mr Willcox Mr Chaffey Mr Littleproud Dr Scamps Mr R Wilson Mr Conaghan Mr McCormack Ms Sharkie Mr T Wilson Mr Farley Mrs McIntosh Mr Small Mr Wood Mr Gee Ms McKenzie Mr Tehan * Tellers And so it was resolved in the affirmative. - <TIME> —bill read a second time. - <TIME> Message from the Governor-General Message No. 106 , 7 October 2026 , from Her Excellency the Governor-General was announced recommending an appropriation for the purposes of the bill. - <TIME> Consideration in detail Bill taken as a whole. - <TIME> Question— That Opposition amendments (1) and (2) be agreed to — stated . - <TIME> Debate ensued. Mr T Wilson , <TIME>. - <TIME> Question—That the amendment s be agreed to—put. - <TIME> Division 312 The House divided (the Speaker, Mr Dick, in the Chair)— AYES, 43 Ms Aldred* Mr Hawke Mr Ted O’Brien Mr Thompson Mr Batt Mr Hogan Mr L O’Brien Mr Venning Ms Bell Mr Joyce Mr Pasin Mr Violi Mr Birrell Mr Kennedy Ms Penfold Mr Wallace Ms Boele Ms Landry* Mr Pike Dr Webster Mr Boyce Ms Le Ms Price Mr Wilkie Mr Caldwell Mr Leeser Mr Rebello Mr Willcox Mr Chaffey Mr Littleproud Dr Scamps Mr R Wilson Mr Conaghan Mr McCormack Ms Sharkie Mr T Wilson Mr Farley Mrs McIntosh Mr Small Mr Wood Mr Gee Ms McKenzie Mr Tehan NOES, 91 Mr Abdo Ms K Cook Ms M M H King Ms J Ryan Dr Aly Dr T Cook Ms Lawrence Dr M Ryan Ms Ambihaipahar Ms Doyle Mr Laxale Ms Scrymgour Ms Belyea Mr Dreyfus Dr Leigh Ms Sitou Ms Berry Mrs Elliot Mr Lim Mr D Smith* Mr Bowen Ms Fernando Ms McBain Mr M Smith Ms Briskey Ms France Ms McBride Mr Soon Mr Burnell Dr Freelander Ms Mascarenhas Ms Spender Mr Burns Mr French Ms Miller-Frost Ms Stanley* Ms Byrnes Dr Garland Mr Moncrieff Ms Steggall Ms Campbell Mr Giles Dr Mulino Ms Swanson Dr Chalmers Mr Gorman Mr Neumann Ms Teesdale Ms Chaney Mr Gosling Mr Ng Ms Templeman Dr Charlton Mr Gregg Ms O’Neil Mr Thistlethwaite Ms Chesters Mr Hill Ms Payne Ms Thwaites Mr Clare Mr Holzberger Mrs Phillips Ms Urquhart Ms Claydon Mr Husic Ms Plibersek Ms Watson-Brown Ms Clutterham Ms Jarrett Mr Rae Mr Watts Ms Coffey Ms Jordan-Baird Dr Reid Ms White Ms Coker Ms Kearney Mr Repacholi Mr J Wilson Ms Collins Mr Keogh Ms Rishworth Ms Witty Ms Comer Mr Khalil Ms Roberts Mr Zappia Mr Conroy Ms C King Ms Rowland * Tellers And so it was negatived. - <TIME> Question— That amendments (1) and (2) moved by Ms Chaney be agreed to — stated . - <TIME> Debate ensued. Ms Chaney , <TIME>. Mr T Wilson , <TIME>. Point of order, Mr Bowen . <TIME>. Mr T Wilson , <TIME>. - <TIME> Question—That the amendment s be agreed to—put. - <TIME> Division 313 The House divided (the Deputy Speaker, Dr Garland, in the Chair)— AYES, 17 Ms Boele Mr McCormack Dr Scamps* Ms Watson-Brown Ms Chaney* Mr Ted O’Brien Ms Sharkie Dr Webster Mr Katter Ms Penfold Ms Spender Mr Wilkie Mr Kennedy Dr M Ryan Ms Steggall Mr T Wilson Ms Le NOES, 79 Mr Abdo Ms Comer Mr Khalil Ms Rowland Dr Aly Ms K Cook Ms Lawrence Ms J Ryan Ms Ambihaipahar Dr T Cook Mr Laxale Ms Scrymgour Ms Belyea Ms Doyle Dr Leigh Ms Sitou Ms Berry Mr Dreyfus Mr Lim Mr D Smith* Mr Bowen Mrs Elliot Ms McBain Mr M Smith Ms Briskey Ms Fernando Ms McBride Mr Soon Mr Burnell Ms France Ms Mascarenhas Ms Stanley* Mr Burns Mr French Ms Miller-Frost Ms Swanson Ms Byrnes Mr Giles Mr Moncrieff Ms Teesdale Ms Campbell Mr Gorman Dr Mulino Ms Templeman Dr Chalmers Mr Gosling Mr Neumann Mr Thistlethwaite Dr Charlton Mr Gregg Mr Ng Ms Thwaites Ms Chesters Mr Hill Ms O’Neil Ms Urquhart Mr Clare Mr Holzberger Ms Payne Mr Watts Ms Claydon Mr Husic Mrs Phillips Ms White Ms Clutterham Ms Jarrett Mr Rae Mr J Wilson Ms Coffey Ms Jordan-Baird Dr Reid Ms Witty Ms Coker Ms Kearney Mr Repacholi Mr Zappia Ms Collins Mr Keogh Ms Rishworth * Tellers And so it was negatived. - <TIME> Question— That the bill be agreed to — put . - <TIME> Division 314 The House divided (the Deputy Speaker, Dr Garland, in the Chair)— AYES, 91 Mr Abdo Ms Comer Ms M M H King Ms J Ryan Mr Albanese Mr Conroy Ms Lawrence Dr M Ryan Dr Aly Ms K Cook Mr Laxale Ms Scrymgour Ms Ambihaipahar Dr T Cook Dr Leigh Ms Sitou Ms Belyea Ms Doyle Mr Lim Mr D Smith* Ms Berry Mr Dreyfus Ms McBain Mr M Smith Mr Bowen Mrs Elliot Ms McBride Mr Soon Ms Briskey Ms Fernando Ms Mascarenhas Ms Spender Mr Burke Ms France Ms Miller-Frost Ms Stanley* Mr Burnell Dr Freelander Mr Moncrieff Ms Steggall Mr Burns Mr French Dr Mulino Ms Swanson Ms Byrnes Mr Giles Mr Neumann Ms Teesdale Ms Campbell Mr Gorman Mr Ng Ms Templeman Dr Chalmers Mr Gosling Ms O’Neil Mr Thistlethwaite Ms Chaney Mr Gregg Ms Payne Ms Thwaites Dr Charlton Mr Hill Mrs Phillips Ms Urquhart Ms Chesters Mr Holzberger Ms Plibersek Ms Watson-Brown Mr Clare Mr Husic Mr Rae Mr Watts Ms Claydon Ms Jarrett Dr Reid Ms White Ms Clutterham Ms Jordan-Baird Mr Repacholi Mr J Wilson Ms Coffey Ms Kearney Ms Rishworth Ms Witty Ms Coker Mr Keogh Ms Roberts Mr Zappia Ms Collins Mr Khalil Ms Rowland NOES, 46 Ms Aldred* Mr Hastie Ms McKenzie Mr Tehan Mr Batt Mr Hawke Mr Ted O’Brien Mr Thompson Ms Bell Mr Hogan Mr L O’Brien Mr Venning Mr Birrell Mr Joyce Mr Pasin Mr Violi Ms Boele Mr Katter Ms Penfold Mr Wallace Mr Boyce Mr Kennedy Mr Pike Dr Webster Mr Caldwell Ms Landry* Ms Price Mr Wilkie Mr Chaffey Ms Le Mr Rebello Mr Willcox Mr Chester Mr Leeser Dr Scamps Mr R Wilson Mr Conaghan Mr Littleproud Ms Sharkie Mr T Wilson Mr Farley Mr McCormack Mr Small Mr Wood Mr Gee Mrs McIntosh * Tellers And so it was resolved in the affirmative. - <TIME> Bill agreed to. Consideration in detail concluded. - <TIME> Question— That the bill be now read a third time — put . - <TIME> Division 315 The House divided (the Deputy Speaker, Dr Garland, in the Chair)— AYES, 91 Mr Abdo Ms Comer Ms M M H King Ms J Ryan Mr Albanese Mr Conroy Ms Lawrence Dr M Ryan Dr Aly Ms K Cook Mr Laxale Ms Scrymgour Ms Ambihaipahar Dr T Cook Dr Leigh Ms Sitou Ms Belyea Ms Doyle Mr Lim Mr D Smith* Ms Berry Mr Dreyfus Ms McBain Mr M Smith Mr Bowen Mrs Elliot Ms McBride Mr Soon Ms Briskey Ms Fernando Ms Mascarenhas Ms Spender Mr Burke Ms France Ms Miller-Frost Ms Stanley* Mr Burnell Dr Freelander Mr Moncrieff Ms Steggall Mr Burns Mr French Dr Mulino Ms Swanson Ms Byrnes Mr Giles Mr Neumann Ms Teesdale Ms Campbell Mr Gorman Mr Ng Ms Templeman Dr Chalmers Mr Gosling Ms O’Neil Mr Thistlethwaite Ms Chaney Mr Gregg Ms Payne Ms Thwaites Dr Charlton Mr Hill Mrs Phillips Ms Urquhart Ms Chesters Mr Holzberger Ms Plibersek Ms Watson-Brown Mr Clare Mr Husic Mr Rae Mr Watts Ms Claydon Ms Jarrett Dr Reid Ms White Ms Clutterham Ms Jordan-Baird Mr Repacholi Mr J Wilson Ms Coffey Ms Kearney Ms Rishworth Ms Witty Ms Coker Mr Keogh Ms Roberts Mr Zappia Ms Collins Mr Khalil Ms Rowland NOES, 46 Ms Aldred* Mr Hastie Ms McKenzie Mr Tehan Mr Batt Mr Hawke Mr Ted O’Brien Mr Thompson Ms Bell Mr Hogan Mr L O’Brien Mr Venning Mr Birrell Mr Joyce Mr Pasin Mr Violi Ms Boele Mr Katter Ms Penfold Mr Wallace Mr Boyce Mr Kennedy Mr Pike Dr Webster Mr Caldwell Ms Landry* Ms Price Mr Wilkie Mr Chaffey Ms Le Mr Rebello Mr Willcox Mr Chester Mr Leeser Dr Scamps Mr R Wilson Mr Conaghan Mr Littleproud Ms Sharkie Mr T Wilson Mr Farley Mr McCormack Mr Small Mr Wood Mr Gee Mrs McIntosh * Tellers And so it was resolved in the affirmative. - <TIME> — bill read a third time. - <TIME> 7 Income Tax Rates Amendment (Minimum Tax on Discretionary Trusts) Bill 2026 In accordance with the resolution agreed to on 27 October 2026 — The order of the day having been read for the resumption of the debate on the question—That the bill be now read a second time— - <TIME> Question—put. - <TIME> Division 316 The House divided (the Speaker, Mr Dick, in the Chair)— AYES, 90 Mr Abdo Mr Conroy Ms M M H King Ms Rowland Mr Albanese Ms K Cook Ms Lawrence Ms J Ryan Dr Aly Dr T Cook Mr Laxale Dr M Ryan Ms Ambihaipahar Ms Doyle Dr Leigh Ms Scrymgour Ms Belyea Mr Dreyfus Mr Lim Ms Sitou Ms Berry Mrs Elliot Ms McBain Mr D Smith* Mr Bowen Ms Fernando Ms McBride Mr M Smith Ms Briskey Ms France Ms Mascarenhas Mr Soon Mr Burke Dr Freelander Ms Miller-Frost Ms Spender Mr Burnell Mr French Mr Moncrieff Ms Stanley* Mr Burns Dr Garland Dr Mulino Ms Steggall Ms Byrnes Mr Giles Mr Neumann Ms Swanson Ms Campbell Mr Gorman Mr Ng Ms Teesdale Dr Chalmers Mr Gosling Ms O’Neil Ms Templeman Dr Charlton Mr Gregg Ms Payne Mr Thistlethwaite Ms Chesters Mr Hill Mrs Phillips Ms Thwaites Mr Clare Mr Holzberger Ms Plibersek Ms Urquhart Ms Claydon Mr Husic Mr Rae Ms Watson-Brown Ms Clutterham Ms Jarrett Dr Reid Mr Watts Ms Coffey Ms Jordan-Baird Mr Repacholi Mr J Wilson Ms Coker Ms Kearney Ms Rishworth Ms Witty Ms Collins Mr Keogh Ms Roberts Mr Zappia Ms Comer Mr Khalil NOES, 45 Ms Aldred* Mr Hawke Ms McKenzie Mr Tehan Mr Batt Mr Hogan Mr Ted O’Brien Mr Thompson Ms Bell Mr Joyce Mr L O’Brien Mr Venning Mr Birrell Mr Katter Mr Pasin Mr Violi Ms Boele Mr Kennedy Ms Penfold Mr Wallace Mr Boyce Ms Landry* Mr Pike Dr Webster Mr Caldwell Ms Le Ms Price Mr Wilkie Mr Chaffey Mr Leeser Mr Rebello Mr Willcox Mr Chester Mr Littleproud Dr Scamps Mr R Wilson Mr Conaghan Mr McCormack Ms Sharkie Mr T Wilson Mr Farley Mrs McIntosh Mr Small Mr Wood Mr Gee * Tellers And so it was resolved in the affirmative. - <TIME> —bill read a second time. - <TIME> Question— That the bill be now read a third time — put . - <TIME> Division 317 The House divided (the Speaker, Mr Dick, in the Chair)— AYES, 91 Mr Abdo Ms Comer Mr Khalil Ms Rowland Mr Albanese Mr Conroy Ms M M H King Ms J Ryan Dr Aly Ms K Cook Ms Lawrence Dr M Ryan Ms Ambihaipahar Dr T Cook Mr Laxale Ms Scrymgour Ms Belyea Ms Doyle Dr Leigh Ms Sitou Ms Berry Mr Dreyfus Mr Lim Mr D Smith* Mr Bowen Mrs Elliot Ms McBain Mr M Smith Ms Briskey Ms Fernando Ms McBride Mr Soon Mr Burke Ms France Ms Mascarenhas Ms Spender Mr Burnell Dr Freelander Ms Miller-Frost Ms Stanley* Mr Burns Mr French Mr Moncrieff Ms Steggall Ms Byrnes Dr Garland Dr Mulino Ms Swanson Ms Campbell Mr Giles Mr Neumann Ms Teesdale Dr Chalmers Mr Gorman Mr Ng Ms Templeman Ms Chaney Mr Gosling Ms O’Neil Mr Thistlethwaite Dr Charlton Mr Gregg Ms Payne Ms Thwaites Ms Chesters Mr Hill Mrs Phillips Ms Urquhart Mr Clare Mr Holzberger Ms Plibersek Ms Watson-Brown Ms Claydon Mr Husic Mr Rae Mr Watts Ms Clutterham Ms Jarrett Dr Reid Mr J Wilson Ms Coffey Ms Jordan-Baird Mr Repacholi Ms Witty Ms Coker Ms Kearney Ms Rishworth Mr Zappia Ms Collins Mr Keogh Ms Roberts NOES, 45 Ms Aldred* Mr Hawke Ms McKenzie Mr Tehan Mr Batt Mr Hogan Mr Ted O’Brien Mr Thompson Ms Bell Mr Joyce Mr L O’Brien Mr Venning Mr Birrell Mr Katter Mr Pasin Mr Violi Ms Boele Mr Kennedy Ms Penfold Mr Wallace Mr Boyce Ms Landry* Mr Pike Dr Webster Mr Caldwell Ms Le Ms Price Mr Wilkie Mr Chaffey Mr Leeser Mr Rebello Mr Willcox Mr Chester Mr Littleproud Dr Scamps Mr R Wilson Mr Conaghan Mr McCormack Ms Sharkie Mr T Wilson Mr Farley Mrs McIntosh Mr Small Mr Wood Mr Gee * Tellers And so it was resolved in the affirmative. - <TIME> — bill read a third time. - <TIME> 8 Treasury Laws Amendment (Tax Reform No. 4) Bill 2026 In accordance with the resolution agreed to on 27 October 2026 — The order of the day having been read for the resumption of the debate on the question—That the bill be now read a second time— - <TIME> Question—That the amendment moved by Dr M Ryan to the amendment proposed by Ms Spender be agreed to, viz. — That all words after “notes that” be omitted with a view to substituting the following words: “(a) the bill was introduced less than 48 hours before debate commenced, and was debated cognately with two other bills, with the three bills and their explanatory memoranda together comprising 522 pages; (b) the Treasury Laws Amendment (Tax Reform No. 3) Bill 2026 and the Income Tax Rates Amendment (Minimum Tax on Discretionary Trusts) Bill 2026 have been referred to the Senate Economics Legislation Committee, but this bill has not; and (c) Schedule 2 inserts a power for the Minister to determine, by legislative instrument, kinds of activities that are integral to R&D, after consulting only another Minister; and (5) calls on to G overnment to: (a) refer its bill to the Senate Economics Legislation Committee for inquiry and report, so that provisions of Schedule 2 of the bill can be properly examined; and (b) require the Minister to consult Industry Innovation and Science Australia, the Commissioner of Taxation, and industry, before making any determination under proposed subsection 355-25(7) of the Income Tax Assessment Act 1997 ” —put. - <TIME> Division 318 The House divided (the Speaker, Mr Dick, in the Chair)— AYES, 10 Ms Boele* Ms Le Ms Spender Ms Watson-Brown Ms Chaney* Dr M Ryan Ms Steggall Mr Wilkie Mr Katter Dr Scamps NOES, 84 Mr Abdo Mr Conroy Mr Keogh Mr Repacholi Dr Aly Ms K Cook Mr Khalil Ms Rishworth Ms Ambihaipahar Dr T Cook Ms M M H King Ms Roberts Ms Belyea Ms Doyle Ms Lawrence Ms Rowland Ms Berry Mr Dreyfus Mr Laxale Ms J Ryan Mr Bowen Mrs Elliot Dr Leigh Ms Scrymgour Ms Briskey Ms Fernando Mr Lim Ms Sitou Mr Burnell Ms France Ms McBride Mr D Smith* Mr Burns Dr Freelander Ms Mascarenhas Mr M Smith Ms Byrnes Mr French Ms Miller-Frost Mr Soon Ms Campbell Dr Garland Mr Moncrieff Ms Stanley* Dr Chalmers Mr Giles Dr Mulino Ms Swanson Dr Charlton Mr Gorman Mr Neumann Ms Teesdale Ms Chesters Mr Gosling Mr Ng Ms Templeman Mr Clare Mr Gregg Ms O’Neil Mr Thistlethwaite Ms Claydon Mr Hill Ms Payne Ms Thwaites Ms Clutterham Mr Holzberger Ms Penfold Ms Urquhart Ms Coffey Mr Husic Mrs Phillips Mr Watts Ms Coker Ms Jarrett Ms Plibersek Mr J Wilson Ms Collins Ms Jordan-Baird Mr Rae Ms Witty Ms Comer Ms Kearney Dr Reid Mr Zappia * Tellers And so it was negatived. - <TIME> Question—That the amendment moved by Ms Spender to the amendment proposed by Ms Chaney be agreed to, viz. — That the following words be added after paragraph (3): “ (4) further notes that: (a) the Treasurer has acknowledged in the budget papers and in subsequent speeches that indexation is poorly suited to businesses that are high growth and/or with low-cost bases; (b) if subject to indexation, these assets potentially face some of the highest rates of tax on capital in the world; (c) the Government has undertaken several rounds of consultation to design a concession from indexation for such innovative businesses; (d) despite consultation, the Innovative Business CGT Concession (IBCC) remains intentionally narrow, and stakeholders feel it is complex and outcomes are uncertain; (e) coupled with other decisions, including asymmetry of losses and gains, this will discourage risk-taking and investment at a time when productivity growth is well below long-term average; and (f) a simpler, broader approach involving a lower flat discount for all active assets could allow the Government to maintain their policy intent of rebalancing Australia’s income tax system; and (5) calls on the Government to consider a simpler approach to the IBCC based on an ‘active asset’ test” —put. - <TIME> Division 319 The House divided (the Speaker, Mr Dick, in the Chair)— AYES, 9 Ms Boele Ms Le Dr Scamps Ms Steggall Ms Chaney* Dr M Ryan Ms Spender* Mr Wilkie Mr Katter NOES, 84 Mr Abdo Mr Conroy Mr Keogh Ms Rishworth Dr Aly Ms K Cook Mr Khalil Ms Roberts Ms Ambihaipahar Dr T Cook Ms M M H King Ms Rowland Ms Belyea Ms Doyle Ms Lawrence Ms J Ryan Ms Berry Mr Dreyfus Mr Laxale Ms Scrymgour Mr Bowen Mrs Elliot Dr Leigh Ms Sitou Ms Briskey Ms Fernando Mr Lim Mr D Smith* Mr Burnell Ms France Ms McBride Mr M Smith Mr Burns Dr Freelander Ms Mascarenhas Mr Soon Ms Byrnes Mr French Ms Miller-Frost Ms Stanley* Ms Campbell Dr Garland Mr Moncrieff Ms Swanson Dr Chalmers Mr Giles Dr Mulino Ms Teesdale Dr Charlton Mr Gorman Mr Neumann Ms Templeman Ms Chesters Mr Gosling Mr Ng Mr Thistlethwaite Mr Clare Mr Gregg Ms O’Neil Ms Thwaites Ms Claydon Mr Hill Ms Payne Ms Urquhart Ms Clutterham Mr Holzberger Mrs Phillips Ms Watson-Brown Ms Coffey Mr Husic Ms Plibersek Mr Watts Ms Coker Ms Jarrett Mr Rae Mr J Wilson Ms Collins Ms Jordan-Baird Dr Reid Ms Witty Ms Comer Ms Kearney Mr Repacholi Mr Zappia * Tellers And so it was negatived. - <TIME> Question—That the amendment moved by Ms Chaney be agreed to , viz. — That all words after “That” be omitted with a view to substituting the following words: “ whilst not declining to give the bill a second reading, the House: (1) notes that: (a) Ambitious Australia, the Government’s strategic examination of Australia’s research, development and innovation system, found that the Research and Development (R&D) Tax Incentive must be globally competitive, retain R&D-intensive firms and extend support to commercialisation; (b) the review did not recommend limiting access to the refundable R&D tax offset by company age; (c) the bill would, for the first time, end access to the refundable offset for companies conducting therapeutic goods R&D once they reach 15 years of age; and (d) many advanced therapies and medical technologies take longer than 15 years to reach market, meaning that the cut-off will often fall during costly late-stage clinical trials; (2) is concerned that this will push medical research, clinical trials and the jobs that come with them offshore; and (3) calls on the Government to remove the age limit on the refundable offset for therapeutic goods R&D” —put. - <TIME> Division 320 The House divided (the Speaker, Mr Dick, in the Chair)— AYES, 10 Ms Boele* Ms Le Ms Spender Ms Watson-Brown Ms Chaney* Dr M Ryan Ms Steggall Mr Wilkie Mr Katter Dr Scamps NOES, 82 Mr Abdo Ms K Cook Ms M M H King Ms Roberts Dr Aly Dr T Cook Ms Lawrence Ms Rowland Ms Ambihaipahar Ms Doyle Mr Laxale Ms J Ryan Ms Belyea Mr Dreyfus Dr Leigh Ms Scrymgour Ms Berry Mrs Elliot Mr Lim Ms Sitou Mr Bowen Ms Fernando Ms McBride Mr D Smith* Ms Briskey Ms France Ms Mascarenhas Mr M Smith Mr Burnell Dr Freelander Ms Miller-Frost Mr Soon Mr Burns Mr French Mr Moncrieff Ms Stanley* Ms Byrnes Dr Garland Dr Mulino Ms Swanson Ms Campbell Mr Giles Mr Neumann Ms Teesdale Dr Chalmers Mr Gorman Mr Ng Ms Templeman Dr Charlton Mr Gosling Ms O’Neil Mr Thistlethwaite Ms Chesters Mr Gregg Ms Payne Ms Thwaites Mr Clare Mr Hill Mrs Phillips Ms Urquhart Ms Claydon Mr Holzberger Ms Plibersek Mr Watts Ms Clutterham Mr Husic Mr Rae Ms White Ms Coffey Ms Jarrett Dr Reid Mr J Wilson Ms Coker Ms Jordan-Baird Mr Repacholi Ms Witty Ms Comer Ms Kearney Ms Rishworth Mr Zappia Mr Conroy Mr Khalil * Tellers And so it was negatived. - <TIME> Question—That the bill be now read a second time—put. - <TIME> Division 321 The House divided (the Speaker, Mr Dick, in the Chair)— AYES, 96 Mr Abdo Ms Comer Ms C King Ms J Ryan Mr Albanese Mr Conroy Ms M M H King Dr M Ryan Dr Aly Ms K Cook Ms Lawrence Dr Scamps Ms Ambihaipahar Dr T Cook Mr Laxale Ms Scrymgour Ms Belyea Ms Doyle Dr Leigh Ms Sitou Ms Berry Mr Dreyfus Mr Lim Mr D Smith* Ms Boele Mrs Elliot Ms McBain Mr M Smith Mr Bowen Ms Fernando Ms McBride Mr Soon Ms Briskey Ms France Ms Mascarenhas Ms Spender Mr Burke Dr Freelander Ms Miller-Frost Ms Stanley* Mr Burnell Mr French Mr Moncrieff Ms Steggall Mr Burns Dr Garland Dr Mulino Ms Swanson Ms Byrnes Mr Giles Mr Neumann Ms Teesdale Ms Campbell Mr Gorman Mr Ng Ms Templeman Dr Chalmers Mr Gosling Ms O’Neil Mr Thistlethwaite Ms Chaney Mr Gregg Ms Payne Ms Thwaites Dr Charlton Mr Hill Mrs Phillips Ms Urquhart Ms Chesters Mr Holzberger Ms Plibersek Ms Watson-Brown Mr Clare Mr Husic Mr Rae Mr Watts Ms Claydon Ms Jarrett Dr Reid Ms White Ms Clutterham Ms Jordan-Baird Mr Repacholi Mr Wilkie Ms Coffey Ms Kearney Ms Rishworth Mr J Wilson Ms Coker Mr Keogh Ms Roberts Ms Witty Ms Collins Mr Khalil Ms Rowland Mr Zappia NOES, 37 Ms Aldred* Mr Gee Ms McKenzie Mr Tehan Mr Batt Mr Hogan Mr Ted O’Brien Mr Thompson Ms Bell Mr Joyce Mr L O’Brien Mr Venning Mr Birrell Mr Kennedy Mr Pasin Mr Violi Mr Boyce Ms Landry* Ms Penfold Dr Webster Mr Caldwell Mr Leeser Mr Pike Mr Willcox Mr Chaffey Mr Littleproud Mr Rebello Mr R Wilson Mr Chester Mr McCormack Ms Sharkie Mr T Wilson Mr Conaghan Mrs McIntosh Mr Small Mr Wood Mr Farley * Tellers And so it was resolved in the affirmative. - <TIME> —bill read a second time. - <TIME> Message from the Governor-General Message No. , , from Her Excellency the Governor-General was announced recommending an appropriation for the purposes of the bill. - <TIME> Consideration in detail Bill taken as a whole. - <TIME> Question— That amendments (1) and (2) moved by Mr Joyce be agreed to — stated . - <TIME> Debate ensued. Mr Joyce , <TIME>. Mr Farley , <TIME>. - <TIME> Mr T Wilson addressing the House— - <TIME> The time allotted for the debate having expired— - <TIME> Question—That the amendment s be agreed to—put. - <TIME> Division The House divided and only Mr Farley and Mr Joyce voting “Aye”, the Speaker (Mr Dick) declared the question resolved in the negative. - <TIME> Question— That the amendment moved by Ms Spender be agreed to — stated . - <TIME> Debate ensued. Ms Spender , <TIME>. Mr T Wilson , <TIME>. Point of order, Dr M Ryan . <TIME>. Mr T Wilson , <TIME>. Point of order, Ms Steggall . <TIME>. Mr T Wilson , <TIME>. Point of order, Dr Scamps . <TIME>. - <TIME> The time allotted for the debate having expired— - <TIME> Question—That the amendment be agreed to—put. - <TIME> Division 322 The House divided (the Speaker, Mr Dick, in the Chair)— AYES, 9 Ms Boele Dr Scamps Ms Steggall Mr Wilkie Ms Chaney Ms Spender* Ms Watson-Brown* Mr T Wilson Dr M Ryan NOES, 81 Mr Abdo Dr T Cook Ms M M H King Ms Roberts Mr Albanese Ms Doyle Ms Lawrence Ms Rowland Dr Aly Mr Dreyfus Mr Laxale Ms J Ryan Ms Ambihaipahar Mrs Elliot Dr Leigh Ms Scrymgour Ms Belyea Ms Fernando Mr Lim Ms Sitou Ms Berry Ms France Ms McBride Mr D Smith* Ms Briskey Mr French Ms Mascarenhas Mr M Smith Mr Burnell Dr Garland Ms Miller-Frost Mr Soon Mr Burns Mr Giles Mr Moncrieff Ms Stanley* Ms Byrnes Mr Gorman Dr Mulino Ms Swanson Ms Campbell Mr Gosling Mr Neumann Ms Teesdale Dr Chalmers Mr Gregg Mr Ng Ms Templeman Ms Chesters Mr Hill Ms O’Neil Mr Thistlethwaite Mr Clare Mr Holzberger Ms Payne Ms Thwaites Ms Claydon Mr Husic Mrs Phillips Ms Urquhart Ms Clutterham Ms Jarrett Ms Plibersek Mr Watts Ms Coffey Ms Jordan-Baird Mr Rae Ms White Ms Coker Ms Kearney Dr Reid Mr J Wilson Ms Collins Mr Khalil Mr Repacholi Ms Witty Ms Comer Ms C King Ms Rishworth Mr Zappia Ms K Cook * Tellers And so it was negatived. - <TIME> Question— That the amendment moved by Dr M Ryan be agreed to — stated . - <TIME> Debate ensued. Dr M Ryan , <TIME>. Mr T Wilson , <TIME>. Point of order, Dr M Ryan . <TIME>. Mr T Wilson , <TIME>. - <TIME> Question—That the amendment be agreed to—put. - <TIME> Division 323 The House divided (the Speaker, Mr Dick, in the Chair)— AYES, 9 Ms Boele Dr Scamps Ms Steggall Mr Wilkie Ms Chaney Ms Spender Ms Watson-Brown* Mr T Wilson Dr M Ryan* NOES, 70 Mr Abdo Ms Doyle Ms Lawrence Ms Rowland Ms Ambihaipahar Mr Dreyfus Mr Laxale Ms J Ryan Ms Belyea Mrs Elliot Dr Leigh Ms Scrymgour Ms Berry Ms Fernando Mr Lim Mr D Smith* Ms Briskey Ms France Ms McBride Mr M Smith Mr Burnell Mr French Ms Mascarenhas Mr Soon Mr Burns Dr Garland Ms Miller-Frost Ms Stanley* Ms Campbell Mr Gorman Mr Moncrieff Ms Swanson Dr Chalmers Mr Gosling Dr Mulino Ms Teesdale Ms Chesters Mr Gregg Mr Neumann Ms Templeman Ms Claydon Mr Hill Mr Ng Ms Thwaites Ms Clutterham Mr Holzberger Ms O’Neil Ms Urquhart Ms Coffey Mr Husic Ms Payne Mr Watts Ms Coker Ms Jarrett Mrs Phillips Ms White Ms Collins Ms Jordan-Baird Mr Rae Mr J Wilson Ms Comer Ms Kearney Dr Reid Ms Witty Ms K Cook Mr Khalil Mr Repacholi Mr Zappia Dr T Cook Ms M M H King * Tellers And so it was negatived. - <TIME> Question— That the bill be agreed to — put . - <TIME> Division 324 ( This division is yet to be finalised and details are subject to change. ) The House divided (the Speaker, Mr Dick, in the Chair)— In this section Bills and Legislation Tabled documents Chamber documents Work of the Senate House of Representatives ch",
+        "delta_hash": "6352b04b92299f8e76703dafe029fc446c78cba1e7abb4086855482fdb837aa2"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-APH-BILLS-20261029005746",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-FED",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-APH-BILLS-20261029005746",
+      "captured_at": "2026-10-29T00:57:46.702Z",
+      "event_date": "2026-10-29",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_PARLIAMENT",
+      "source_id": "SRC-APH-BILLS",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "review_policy": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-APH-BILLS-20261028083338",
+        "content_hash": "38760ea8366262de10128f3c0ec0145f8b79945d400a20c1652da8ca71f0411d",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-APH-BILLS-20261029005746",
+        "content_hash": "39a7b0dcef0789f0ce886e5d4d5282cc38fe20727e16170eaf97f90c500898d8",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "STRUCTURED_RECORD_SET",
+        "records_added": [
+          {
+            "record_id": "ab808913f3cb133fd667",
+            "title": "Treasury Laws Amendment (Tax Reform No. 3) Bill 20...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7554"
+          },
+          {
+            "record_id": "b98f3e86ec1e5dbdfd21",
+            "title": "Treasury Laws Amendment (Tax Reform No. 4) Bill 20...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7566"
+          },
+          {
+            "record_id": "c319a14d6df0e73e4b13",
+            "title": "Income Tax Rates Amendment (Minimum Tax on Discret...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7555"
+          }
+        ],
+        "records_removed": [
+          {
+            "record_id": "461afefea358cd8e9eb7",
+            "title": "Domestic Gas Reservation Bill 2026",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7559"
+          },
+          {
+            "record_id": "97a5f3d1eecae28eae06",
+            "title": "Domestic Gas Reservation (Consequential Amendments...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7561"
+          },
+          {
+            "record_id": "dc7e8ed5257b5723c2e7",
+            "title": "Domestic Gas Reservation Levy Bill 2026",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7560"
+          }
+        ],
+        "added_count": 3,
+        "removed_count": 3,
+        "before_count": 96,
+        "after_count": 96,
+        "delta_hash": "4cf793bdacff956b6973f98fb4de023c37198bad96b64e9331a8e64c37ce502e"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-PM-MEDIA-20261029005746",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-FED",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-PM-MEDIA-20261029005746",
+      "captured_at": "2026-10-29T00:57:46.702Z",
+      "event_date": "2026-10-29",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-PM-MEDIA",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "review_policy": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-PM-MEDIA-20261028012304",
+        "content_hash": "67865d35a2462bd3aecdd70003285501b9931617e66fcb7c42a92dc74e03c649",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-PM-MEDIA-20261029005746",
+        "content_hash": "10dba9d6e8f2dccd77780af1b7b444654d140c06f9c91a4b7e141ccbbb667b34",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "STRUCTURED_RECORD_SET",
+        "records_added": [
+          {
+            "record_id": "044a1d8b1b7f79f7f739",
+            "title": "Veteran employment awards celebrate success beyond service",
+            "url": "https://www.pm.gov.au/media/veteran-employment-awards-celebrate-success-beyond-service"
+          },
+          {
+            "record_id": "24662c92178aae81a689",
+            "title": "Press conference - Canberra",
+            "url": "https://www.pm.gov.au/media/press-conference-canberra-32"
+          },
+          {
+            "record_id": "88890a48605ccb98e686",
+            "title": "National Police Bravery Awards",
+            "url": "https://www.pm.gov.au/media/national-police-bravery-awards"
+          },
+          {
+            "record_id": "a1c19145417b978d52c4",
+            "title": "National Veteran Employment Awards",
+            "url": "https://www.pm.gov.au/media/national-veteran-employment-awards"
+          }
+        ],
+        "records_removed": [
+          {
+            "record_id": "c1c213874a2f258b8a6d",
+            "title": "Funding for world-class Gold Coast sports facility",
+            "url": "https://www.pm.gov.au/media/funding-world-class-gold-coast-sports-facility"
+          },
+          {
+            "record_id": "cb7f75a5f96e36732ecf",
+            "title": "Radio interview - ABC Sydney",
+            "url": "https://www.pm.gov.au/media/radio-interview-abc-sydney-25"
+          },
+          {
+            "record_id": "d7661ced863a9c3bdc51",
+            "title": "Radio interview - Nova Perth",
+            "url": "https://www.pm.gov.au/media/radio-interview-nova-perth-10"
+          },
+          {
+            "record_id": "ff449f68710d6dbae6e5",
+            "title": "Future Brisbane",
+            "url": "https://www.pm.gov.au/media/future-brisbane"
+          }
+        ],
+        "added_count": 4,
+        "removed_count": 4,
+        "before_count": 27,
+        "after_count": 27,
+        "delta_hash": "512fcfa95fc1a3e0bb0af4ec33256512259240e8ad5c4b39b883fe3e6a27e238"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-NSW-MINISTERIAL-RELEASES-20261029005746",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-NSW",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-NSW-MINISTERIAL-RELEASES-20261029005746",
+      "captured_at": "2026-10-29T00:57:46.702Z",
+      "event_date": "2026-10-29",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-NSW-MINISTERIAL-RELEASES",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "review_policy": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-NSW-MINISTERIAL-RELEASES-20261028083338",
+        "content_hash": "14b70e7c39dcdee4b1a82957670934d206604a6a572d4499d1e08642d01da526",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-NSW-MINISTERIAL-RELEASES-20261029005746",
+        "content_hash": "e518113ffa8b48db5d89c2f42c420efcab5b51cd8f9ec7e63e94af1f53ece1ed",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "STRUCTURED_RECORD_SET",
+        "records_added": [
+          {
+            "record_id": "00a8f04696c06d42f746",
+            "title": "$10.5 million to boost Hunter, Ports Stephens, & Lake Macquarie regional communities’ lifestyles and economies",
+            "url": "https://www.nsw.gov.au/ministerial-releases/105-million-to-boost-hunter-ports-stephens-lake-macquarie-regional-communities-lifestyles-and-economies"
+          },
+          {
+            "record_id": "036c86b880b3e08519ae",
+            "title": "Minns Labor Government to improve safety at Princes Highway and Mortimer Road intersection",
+            "url": "https://www.nsw.gov.au/ministerial-releases/minns-labor-government-to-improve-safety-at-princes-highway-and-mortimer-road-intersection"
+          },
+          {
+            "record_id": "5b1ee543ce42833491a4",
+            "title": "More than $130,000 in fines as blitzes target unlicensed motor dealers",
+            "url": "https://www.nsw.gov.au/ministerial-releases/blitzes-target-unlicensed-motor-dealers"
+          },
+          {
+            "record_id": "66d559495d931107c836",
+            "title": "Final preparation underway before historic Southwest Metro opening",
+            "url": "https://www.nsw.gov.au/ministerial-releases/final-preparation-underway-before-historic-southwest-metro-opening"
+          },
+          {
+            "record_id": "7eaae98f18f27912c147",
+            "title": "Minns Labor Government opens $440 million Shoalhaven Memorial Hospital Redevelopment for the South Coast",
+            "url": "https://www.nsw.gov.au/ministerial-releases/minns-labor-government-opens-440-million-shoalhaven-memorial-hospital-redevelopment-for-south-coast"
+          },
+          {
+            "record_id": "9bc61c0fd8d03820d61c",
+            "title": "Premier&#039;s Department",
+            "url": "https://www.nsw.gov.au/departments-and-agencies/archived-premiers-department"
+          },
+          {
+            "record_id": "a0b293c501ea4ee5281d",
+            "title": "Minns Labor Government delivers simpler planning rules to power industrial growth",
+            "url": "https://www.nsw.gov.au/ministerial-releases/simpler-planning-proposed-industrial-land"
+          },
+          {
+            "record_id": "a698f3ab43eef56b054e",
+            "title": "Cabinet Office",
+            "url": "https://www.nsw.gov.au/node/59224"
+          },
+          {
+            "record_id": "b159b538507cd4a10b24",
+            "title": "Gundagai Lamb takes out top prize at NSW Export Awards",
+            "url": "https://www.nsw.gov.au/ministerial-releases/gundagai-lamb-takes-out-top-prize-at-nsw-export-awards"
+          },
+          {
+            "record_id": "b27378a759cbf8d6a252",
+            "title": "Funding announced to conserve war memorials across NSW",
+            "url": "https://www.nsw.gov.au/ministerial-releases/war-memorial-conservation"
+          },
+          {
+            "record_id": "f7b8d58103a776149199",
+            "title": "More regional women to benefit from free mental health and first aid training",
+            "url": "https://www.nsw.gov.au/ministerial-releases/more-regional-women-to-benefit-from-free-mental-health-and-first-aid-training"
+          }
+        ],
+        "records_removed": [
+          {
+            "record_id": "099dc42bc70bfd9ea329",
+            "title": "NSW&#x27;s commitment to mining and critical minerals on the global stage",
+            "url": "https://www.nsw.gov.au/ministerial-releases/sydney-hosts-mining-and-resources-conference"
+          },
+          {
+            "record_id": "1e6587876e56589e06c4",
+            "title": "Construction underway on major upgrade to Thornton Public School",
+            "url": "https://www.nsw.gov.au/ministerial-releases/construction-underway-on-major-upgrade-to-thornton-public-school"
+          },
+          {
+            "record_id": "352899e012ef16fb5600",
+            "title": "Minns Labor Government fast tracks road safety upgrades at nine regional locations",
+            "url": "https://www.nsw.gov.au/ministerial-releases/minns-labor-government-fast-tracks-road-safety-upgrades-at-nine-regional-locations"
+          },
+          {
+            "record_id": "3d9ceeeb1ea2a5a7170c",
+            "title": "Cabinet Office",
+            "url": "https://www.nsw.gov.au/the-cabinet-office"
+          },
+          {
+            "record_id": "5f115530acbceff14d28",
+            "title": "$6.58 million for 14 community- led projects in Riverina, Murray and Southern Tablelands",
+            "url": "https://www.nsw.gov.au/ministerial-releases/658-million-for-14-community-led-projects-riverina-murray-and-southern-tablelands"
+          },
+          {
+            "record_id": "7424c2628f4cf4f29aad",
+            "title": "2026 NSW Premier’s Awards recognise outstanding public service",
+            "url": "https://www.nsw.gov.au/ministerial-releases/2026-nsw-premiers-awards-recognise-outstanding-public-service"
+          },
+          {
+            "record_id": "93353cf3aff0473e2336",
+            "title": "Piling work complete on $30 million Marshalls Creek Bridge Upgrade",
+            "url": "https://www.nsw.gov.au/ministerial-releases/piling-work-complete-on-30-million-marshalls-creek-bridge-upgrade"
+          },
+          {
+            "record_id": "c391db669148c82b036e",
+            "title": "Minns Labor Government invests in TAFE NSW to boost hair and beauty workforce on the Mid North Coast",
+            "url": "https://www.nsw.gov.au/ministerial-releases/minns-labor-government-invests-tafe-nsw-to-boost-hair-and-beauty-workforce-on-mid-north-coast"
+          },
+          {
+            "record_id": "e959deabbeb7b841be0f",
+            "title": "Premier&#039;s Department",
+            "url": "https://www.nsw.gov.au/departments-and-agencies/premiers-department"
+          },
+          {
+            "record_id": "f055a7d998ceaca1bac3",
+            "title": "$50 million strengthens business, industry and communities across the NSW Southern Murray-Darling Basin",
+            "url": "https://www.nsw.gov.au/ministerial-releases/50-million-strengthens-business-industry-and-communities-across-nsw-southern-murray-darling-basin"
+          },
+          {
+            "record_id": "f0db2b75b2d9b5c3fc55",
+            "title": "Anniversary of the death of Cobar miners",
+            "url": "https://www.nsw.gov.au/ministerial-releases/anniversary-of-death-of-cobar-miners"
+          }
+        ],
+        "added_count": 11,
+        "removed_count": 11,
+        "before_count": 88,
+        "after_count": 88,
+        "delta_hash": "e8ea993278cde2ac4356b43c76b6d2fbef0b48a6bc0c478b68485bcb027abc86"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "SIG-REV-CHG-WATCH-APH-BILLS-20261029005746",
+      "parent_event_id": "CHG-WATCH-APH-BILLS-20261029005746",
+      "review_id": "REV-CHG-WATCH-APH-BILLS-20261029005746",
+      "jurisdiction_id": "AUS-FED",
+      "party_id": null,
+      "actor_id": null,
+      "contest_id": null,
+      "cycle_id": null,
+      "source_snapshot_id": "AUTO-WATCH-APH-BILLS-20261029005746",
+      "record_id": null,
+      "captured_at": "2026-10-29T00:58:46.325Z",
+      "event_date": "2026-10-29",
+      "checkpoint": "CONTINUOUS_FORWARD_SIGNAL_REVIEW",
+      "event_type": "SIGNAL_CREATED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_PARLIAMENT",
+      "source_id": "SRC-APH-BILLS",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "claim": "Parliament of Australia — Bills and Legislation added 3 structured publication records to its forward-captured official index: Treasury Laws Amendment (Tax Reform No. 3) Bill 20...; Treasury Laws Amendment (Tax Reform No. 4) Bill 20...; Income Tax Rates Amendment (Minimum Tax on Discret...",
+      "observed_behaviour": "One or more structured publication records appeared in the monitored official source index after the preceding forward snapshot.",
+      "publication_records_added": [
+        {
+          "record_id": "ab808913f3cb133fd667",
+          "title": "Treasury Laws Amendment (Tax Reform No. 3) Bill 20...",
+          "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7554"
+        },
+        {
+          "record_id": "b98f3e86ec1e5dbdfd21",
+          "title": "Treasury Laws Amendment (Tax Reform No. 4) Bill 20...",
+          "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7566"
+        },
+        {
+          "record_id": "c319a14d6df0e73e4b13",
+          "title": "Income Tax Rates Amendment (Minimum Tax on Discret...",
+          "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7555"
+        }
+      ],
+      "publication_records_removed": [
+        {
+          "record_id": "461afefea358cd8e9eb7",
+          "title": "Domestic Gas Reservation Bill 2026",
+          "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7559"
+        },
+        {
+          "record_id": "97a5f3d1eecae28eae06",
+          "title": "Domestic Gas Reservation (Consequential Amendments...",
+          "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7561"
+        },
+        {
+          "record_id": "dc7e8ed5257b5723c2e7",
+          "title": "Domestic Gas Reservation Levy Bill 2026",
+          "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7560"
+        }
+      ],
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "underlying_publication_claims_not_promoted_to_verified_fact": true,
+        "source_change_parent_retained": true,
+        "deterministic_review": true
+      }
+    },
+    {
+      "event_id": "SIG-REV-CHG-WATCH-PM-MEDIA-20261029005746",
+      "parent_event_id": "CHG-WATCH-PM-MEDIA-20261029005746",
+      "review_id": "REV-CHG-WATCH-PM-MEDIA-20261029005746",
+      "jurisdiction_id": "AUS-FED",
+      "party_id": null,
+      "actor_id": null,
+      "contest_id": null,
+      "cycle_id": null,
+      "source_snapshot_id": "AUTO-WATCH-PM-MEDIA-20261029005746",
+      "record_id": null,
+      "captured_at": "2026-10-29T00:58:46.325Z",
+      "event_date": "2026-10-29",
+      "checkpoint": "CONTINUOUS_FORWARD_SIGNAL_REVIEW",
+      "event_type": "SIGNAL_CREATED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-PM-MEDIA",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "claim": "Prime Minister of Australia — media added 4 structured publication records to its forward-captured official index: Veteran employment awards celebrate success beyond service; Press conference - Canberra; National Police Bravery Awards; National Veteran Employment Awards",
+      "observed_behaviour": "One or more structured publication records appeared in the monitored official source index after the preceding forward snapshot.",
+      "publication_records_added": [
+        {
+          "record_id": "044a1d8b1b7f79f7f739",
+          "title": "Veteran employment awards celebrate success beyond service",
+          "url": "https://www.pm.gov.au/media/veteran-employment-awards-celebrate-success-beyond-service"
+        },
+        {
+          "record_id": "24662c92178aae81a689",
+          "title": "Press conference - Canberra",
+          "url": "https://www.pm.gov.au/media/press-conference-canberra-32"
+        },
+        {
+          "record_id": "88890a48605ccb98e686",
+          "title": "National Police Bravery Awards",
+          "url": "https://www.pm.gov.au/media/national-police-bravery-awards"
+        },
+        {
+          "record_id": "a1c19145417b978d52c4",
+          "title": "National Veteran Employment Awards",
+          "url": "https://www.pm.gov.au/media/national-veteran-employment-awards"
+        }
+      ],
+      "publication_records_removed": [
+        {
+          "record_id": "c1c213874a2f258b8a6d",
+          "title": "Funding for world-class Gold Coast sports facility",
+          "url": "https://www.pm.gov.au/media/funding-world-class-gold-coast-sports-facility"
+        },
+        {
+          "record_id": "cb7f75a5f96e36732ecf",
+          "title": "Radio interview - ABC Sydney",
+          "url": "https://www.pm.gov.au/media/radio-interview-abc-sydney-25"
+        },
+        {
+          "record_id": "d7661ced863a9c3bdc51",
+          "title": "Radio interview - Nova Perth",
+          "url": "https://www.pm.gov.au/media/radio-interview-nova-perth-10"
+        },
+        {
+          "record_id": "ff449f68710d6dbae6e5",
+          "title": "Future Brisbane",
+          "url": "https://www.pm.gov.au/media/future-brisbane"
+        }
+      ],
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "underlying_publication_claims_not_promoted_to_verified_fact": true,
+        "source_change_parent_retained": true,
+        "deterministic_review": true
+      }
+    },
+    {
+      "event_id": "SIG-REV-CHG-WATCH-NSW-MINISTERIAL-RELEASES-20261029005746",
+      "parent_event_id": "CHG-WATCH-NSW-MINISTERIAL-RELEASES-20261029005746",
+      "review_id": "REV-CHG-WATCH-NSW-MINISTERIAL-RELEASES-20261029005746",
+      "jurisdiction_id": "AUS-NSW",
+      "party_id": null,
+      "actor_id": null,
+      "contest_id": null,
+      "cycle_id": null,
+      "source_snapshot_id": "AUTO-WATCH-NSW-MINISTERIAL-RELEASES-20261029005746",
+      "record_id": null,
+      "captured_at": "2026-10-29T00:58:46.325Z",
+      "event_date": "2026-10-29",
+      "checkpoint": "CONTINUOUS_FORWARD_SIGNAL_REVIEW",
+      "event_type": "SIGNAL_CREATED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-NSW-MINISTERIAL-RELEASES",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "claim": "NSW Government — Ministerial releases added 11 structured publication records to its forward-captured official index: $10.5 million to boost Hunter, Ports Stephens, & Lake Macquarie regional communities’ lifestyles and economies; Minns Labor Government to improve safety at Princes Highway and Mortimer Road intersection; More than $130,000 in fines as blitzes target unlicensed motor dealers; Final preparation underway before historic Southwest Metro opening; Minns Labor Government opens $440 million Shoalhaven Memorial Hospital Redevelopment for the South Coast; +6 more",
+      "observed_behaviour": "One or more structured publication records appeared in the monitored official source index after the preceding forward snapshot.",
+      "publication_records_added": [
+        {
+          "record_id": "00a8f04696c06d42f746",
+          "title": "$10.5 million to boost Hunter, Ports Stephens, & Lake Macquarie regional communities’ lifestyles and economies",
+          "url": "https://www.nsw.gov.au/ministerial-releases/105-million-to-boost-hunter-ports-stephens-lake-macquarie-regional-communities-lifestyles-and-economies"
+        },
+        {
+          "record_id": "036c86b880b3e08519ae",
+          "title": "Minns Labor Government to improve safety at Princes Highway and Mortimer Road intersection",
+          "url": "https://www.nsw.gov.au/ministerial-releases/minns-labor-government-to-improve-safety-at-princes-highway-and-mortimer-road-intersection"
+        },
+        {
+          "record_id": "5b1ee543ce42833491a4",
+          "title": "More than $130,000 in fines as blitzes target unlicensed motor dealers",
+          "url": "https://www.nsw.gov.au/ministerial-releases/blitzes-target-unlicensed-motor-dealers"
+        },
+        {
+          "record_id": "66d559495d931107c836",
+          "title": "Final preparation underway before historic Southwest Metro opening",
+          "url": "https://www.nsw.gov.au/ministerial-releases/final-preparation-underway-before-historic-southwest-metro-opening"
+        },
+        {
+          "record_id": "7eaae98f18f27912c147",
+          "title": "Minns Labor Government opens $440 million Shoalhaven Memorial Hospital Redevelopment for the South Coast",
+          "url": "https://www.nsw.gov.au/ministerial-releases/minns-labor-government-opens-440-million-shoalhaven-memorial-hospital-redevelopment-for-south-coast"
+        },
+        {
+          "record_id": "9bc61c0fd8d03820d61c",
+          "title": "Premier&#039;s Department",
+          "url": "https://www.nsw.gov.au/departments-and-agencies/archived-premiers-department"
+        },
+        {
+          "record_id": "a0b293c501ea4ee5281d",
+          "title": "Minns Labor Government delivers simpler planning rules to power industrial growth",
+          "url": "https://www.nsw.gov.au/ministerial-releases/simpler-planning-proposed-industrial-land"
+        },
+        {
+          "record_id": "a698f3ab43eef56b054e",
+          "title": "Cabinet Office",
+          "url": "https://www.nsw.gov.au/node/59224"
+        },
+        {
+          "record_id": "b159b538507cd4a10b24",
+          "title": "Gundagai Lamb takes out top prize at NSW Export Awards",
+          "url": "https://www.nsw.gov.au/ministerial-releases/gundagai-lamb-takes-out-top-prize-at-nsw-export-awards"
+        },
+        {
+          "record_id": "b27378a759cbf8d6a252",
+          "title": "Funding announced to conserve war memorials across NSW",
+          "url": "https://www.nsw.gov.au/ministerial-releases/war-memorial-conservation"
+        },
+        {
+          "record_id": "f7b8d58103a776149199",
+          "title": "More regional women to benefit from free mental health and first aid training",
+          "url": "https://www.nsw.gov.au/ministerial-releases/more-regional-women-to-benefit-from-free-mental-health-and-first-aid-training"
+        }
+      ],
+      "publication_records_removed": [
+        {
+          "record_id": "099dc42bc70bfd9ea329",
+          "title": "NSW&#x27;s commitment to mining and critical minerals on the global stage",
+          "url": "https://www.nsw.gov.au/ministerial-releases/sydney-hosts-mining-and-resources-conference"
+        },
+        {
+          "record_id": "1e6587876e56589e06c4",
+          "title": "Construction underway on major upgrade to Thornton Public School",
+          "url": "https://www.nsw.gov.au/ministerial-releases/construction-underway-on-major-upgrade-to-thornton-public-school"
+        },
+        {
+          "record_id": "352899e012ef16fb5600",
+          "title": "Minns Labor Government fast tracks road safety upgrades at nine regional locations",
+          "url": "https://www.nsw.gov.au/ministerial-releases/minns-labor-government-fast-tracks-road-safety-upgrades-at-nine-regional-locations"
+        },
+        {
+          "record_id": "3d9ceeeb1ea2a5a7170c",
+          "title": "Cabinet Office",
+          "url": "https://www.nsw.gov.au/the-cabinet-office"
+        },
+        {
+          "record_id": "5f115530acbceff14d28",
+          "title": "$6.58 million for 14 community- led projects in Riverina, Murray and Southern Tablelands",
+          "url": "https://www.nsw.gov.au/ministerial-releases/658-million-for-14-community-led-projects-riverina-murray-and-southern-tablelands"
+        },
+        {
+          "record_id": "7424c2628f4cf4f29aad",
+          "title": "2026 NSW Premier’s Awards recognise outstanding public service",
+          "url": "https://www.nsw.gov.au/ministerial-releases/2026-nsw-premiers-awards-recognise-outstanding-public-service"
+        },
+        {
+          "record_id": "93353cf3aff0473e2336",
+          "title": "Piling work complete on $30 million Marshalls Creek Bridge Upgrade",
+          "url": "https://www.nsw.gov.au/ministerial-releases/piling-work-complete-on-30-million-marshalls-creek-bridge-upgrade"
+        },
+        {
+          "record_id": "c391db669148c82b036e",
+          "title": "Minns Labor Government invests in TAFE NSW to boost hair and beauty workforce on the Mid North Coast",
+          "url": "https://www.nsw.gov.au/ministerial-releases/minns-labor-government-invests-tafe-nsw-to-boost-hair-and-beauty-workforce-on-mid-north-coast"
+        },
+        {
+          "record_id": "e959deabbeb7b841be0f",
+          "title": "Premier&#039;s Department",
+          "url": "https://www.nsw.gov.au/departments-and-agencies/premiers-department"
+        },
+        {
+          "record_id": "f055a7d998ceaca1bac3",
+          "title": "$50 million strengthens business, industry and communities across the NSW Southern Murray-Darling Basin",
+          "url": "https://www.nsw.gov.au/ministerial-releases/50-million-strengthens-business-industry-and-communities-across-nsw-southern-murray-darling-basin"
+        },
+        {
+          "record_id": "f0db2b75b2d9b5c3fc55",
+          "title": "Anniversary of the death of Cobar miners",
+          "url": "https://www.nsw.gov.au/ministerial-releases/anniversary-of-death-of-cobar-miners"
+        }
+      ],
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "underlying_publication_claims_not_promoted_to_verified_fact": true,
+        "source_change_parent_retained": true,
+        "deterministic_review": true
+      }
     }
   ]
 }

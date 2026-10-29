@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-SIGNAL-REVIEWS-001",
   "created_at": "2026-09-09T05:05:00+10:00",
-  "updated_at": "2026-10-28T16:04:38.249Z",
+  "updated_at": "2026-10-29T00:58:46.325Z",
   "rules": {
     "append_only": true,
     "raw_source_change_is_immutable": true,
@@ -41791,6 +41791,276 @@
           }
         ],
         "delta_hash": "5d498e1b4ddd3fcd6c30007f84a3f9c84fba282dadc5377649ed0436e338045c"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-APH-BILLS-20261029005746",
+      "source_change_event_id": "CHG-WATCH-APH-BILLS-20261029005746",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-APH-BILLS-20261029005746",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Parliament of Australia — Bills and Legislation added 3 structured publication records to its forward-captured official index: Treasury Laws Amendment (Tax Reform No. 3) Bill 20...; Treasury Laws Amendment (Tax Reform No. 4) Bill 20...; Income Tax Rates Amendment (Minimum Tax on Discret...",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-10-29T00:58:46.325Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "ab808913f3cb133fd667",
+            "title": "Treasury Laws Amendment (Tax Reform No. 3) Bill 20...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7554"
+          },
+          {
+            "record_id": "b98f3e86ec1e5dbdfd21",
+            "title": "Treasury Laws Amendment (Tax Reform No. 4) Bill 20...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7566"
+          },
+          {
+            "record_id": "c319a14d6df0e73e4b13",
+            "title": "Income Tax Rates Amendment (Minimum Tax on Discret...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7555"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "461afefea358cd8e9eb7",
+            "title": "Domestic Gas Reservation Bill 2026",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7559"
+          },
+          {
+            "record_id": "97a5f3d1eecae28eae06",
+            "title": "Domestic Gas Reservation (Consequential Amendments...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7561"
+          },
+          {
+            "record_id": "dc7e8ed5257b5723c2e7",
+            "title": "Domestic Gas Reservation Levy Bill 2026",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7560"
+          }
+        ],
+        "delta_hash": "4cf793bdacff956b6973f98fb4de023c37198bad96b64e9331a8e64c37ce502e"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-PM-MEDIA-20261029005746",
+      "source_change_event_id": "CHG-WATCH-PM-MEDIA-20261029005746",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-PM-MEDIA-20261029005746",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Prime Minister of Australia — media added 4 structured publication records to its forward-captured official index: Veteran employment awards celebrate success beyond service; Press conference - Canberra; National Police Bravery Awards; National Veteran Employment Awards",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-10-29T00:58:46.325Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "044a1d8b1b7f79f7f739",
+            "title": "Veteran employment awards celebrate success beyond service",
+            "url": "https://www.pm.gov.au/media/veteran-employment-awards-celebrate-success-beyond-service"
+          },
+          {
+            "record_id": "24662c92178aae81a689",
+            "title": "Press conference - Canberra",
+            "url": "https://www.pm.gov.au/media/press-conference-canberra-32"
+          },
+          {
+            "record_id": "88890a48605ccb98e686",
+            "title": "National Police Bravery Awards",
+            "url": "https://www.pm.gov.au/media/national-police-bravery-awards"
+          },
+          {
+            "record_id": "a1c19145417b978d52c4",
+            "title": "National Veteran Employment Awards",
+            "url": "https://www.pm.gov.au/media/national-veteran-employment-awards"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "c1c213874a2f258b8a6d",
+            "title": "Funding for world-class Gold Coast sports facility",
+            "url": "https://www.pm.gov.au/media/funding-world-class-gold-coast-sports-facility"
+          },
+          {
+            "record_id": "cb7f75a5f96e36732ecf",
+            "title": "Radio interview - ABC Sydney",
+            "url": "https://www.pm.gov.au/media/radio-interview-abc-sydney-25"
+          },
+          {
+            "record_id": "d7661ced863a9c3bdc51",
+            "title": "Radio interview - Nova Perth",
+            "url": "https://www.pm.gov.au/media/radio-interview-nova-perth-10"
+          },
+          {
+            "record_id": "ff449f68710d6dbae6e5",
+            "title": "Future Brisbane",
+            "url": "https://www.pm.gov.au/media/future-brisbane"
+          }
+        ],
+        "delta_hash": "512fcfa95fc1a3e0bb0af4ec33256512259240e8ad5c4b39b883fe3e6a27e238"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-NSW-MINISTERIAL-RELEASES-20261029005746",
+      "source_change_event_id": "CHG-WATCH-NSW-MINISTERIAL-RELEASES-20261029005746",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-NSW-MINISTERIAL-RELEASES-20261029005746",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "NSW Government — Ministerial releases added 11 structured publication records to its forward-captured official index: $10.5 million to boost Hunter, Ports Stephens, & Lake Macquarie regional communities’ lifestyles and economies; Minns Labor Government to improve safety at Princes Highway and Mortimer Road intersection; More than $130,000 in fines as blitzes target unlicensed motor dealers; Final preparation underway before historic Southwest Metro opening; Minns Labor Government opens $440 million Shoalhaven Memorial Hospital Redevelopment for the South Coast; +6 more",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-10-29T00:58:46.325Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "00a8f04696c06d42f746",
+            "title": "$10.5 million to boost Hunter, Ports Stephens, & Lake Macquarie regional communities’ lifestyles and economies",
+            "url": "https://www.nsw.gov.au/ministerial-releases/105-million-to-boost-hunter-ports-stephens-lake-macquarie-regional-communities-lifestyles-and-economies"
+          },
+          {
+            "record_id": "036c86b880b3e08519ae",
+            "title": "Minns Labor Government to improve safety at Princes Highway and Mortimer Road intersection",
+            "url": "https://www.nsw.gov.au/ministerial-releases/minns-labor-government-to-improve-safety-at-princes-highway-and-mortimer-road-intersection"
+          },
+          {
+            "record_id": "5b1ee543ce42833491a4",
+            "title": "More than $130,000 in fines as blitzes target unlicensed motor dealers",
+            "url": "https://www.nsw.gov.au/ministerial-releases/blitzes-target-unlicensed-motor-dealers"
+          },
+          {
+            "record_id": "66d559495d931107c836",
+            "title": "Final preparation underway before historic Southwest Metro opening",
+            "url": "https://www.nsw.gov.au/ministerial-releases/final-preparation-underway-before-historic-southwest-metro-opening"
+          },
+          {
+            "record_id": "7eaae98f18f27912c147",
+            "title": "Minns Labor Government opens $440 million Shoalhaven Memorial Hospital Redevelopment for the South Coast",
+            "url": "https://www.nsw.gov.au/ministerial-releases/minns-labor-government-opens-440-million-shoalhaven-memorial-hospital-redevelopment-for-south-coast"
+          },
+          {
+            "record_id": "9bc61c0fd8d03820d61c",
+            "title": "Premier&#039;s Department",
+            "url": "https://www.nsw.gov.au/departments-and-agencies/archived-premiers-department"
+          },
+          {
+            "record_id": "a0b293c501ea4ee5281d",
+            "title": "Minns Labor Government delivers simpler planning rules to power industrial growth",
+            "url": "https://www.nsw.gov.au/ministerial-releases/simpler-planning-proposed-industrial-land"
+          },
+          {
+            "record_id": "a698f3ab43eef56b054e",
+            "title": "Cabinet Office",
+            "url": "https://www.nsw.gov.au/node/59224"
+          },
+          {
+            "record_id": "b159b538507cd4a10b24",
+            "title": "Gundagai Lamb takes out top prize at NSW Export Awards",
+            "url": "https://www.nsw.gov.au/ministerial-releases/gundagai-lamb-takes-out-top-prize-at-nsw-export-awards"
+          },
+          {
+            "record_id": "b27378a759cbf8d6a252",
+            "title": "Funding announced to conserve war memorials across NSW",
+            "url": "https://www.nsw.gov.au/ministerial-releases/war-memorial-conservation"
+          },
+          {
+            "record_id": "f7b8d58103a776149199",
+            "title": "More regional women to benefit from free mental health and first aid training",
+            "url": "https://www.nsw.gov.au/ministerial-releases/more-regional-women-to-benefit-from-free-mental-health-and-first-aid-training"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "099dc42bc70bfd9ea329",
+            "title": "NSW&#x27;s commitment to mining and critical minerals on the global stage",
+            "url": "https://www.nsw.gov.au/ministerial-releases/sydney-hosts-mining-and-resources-conference"
+          },
+          {
+            "record_id": "1e6587876e56589e06c4",
+            "title": "Construction underway on major upgrade to Thornton Public School",
+            "url": "https://www.nsw.gov.au/ministerial-releases/construction-underway-on-major-upgrade-to-thornton-public-school"
+          },
+          {
+            "record_id": "352899e012ef16fb5600",
+            "title": "Minns Labor Government fast tracks road safety upgrades at nine regional locations",
+            "url": "https://www.nsw.gov.au/ministerial-releases/minns-labor-government-fast-tracks-road-safety-upgrades-at-nine-regional-locations"
+          },
+          {
+            "record_id": "3d9ceeeb1ea2a5a7170c",
+            "title": "Cabinet Office",
+            "url": "https://www.nsw.gov.au/the-cabinet-office"
+          },
+          {
+            "record_id": "5f115530acbceff14d28",
+            "title": "$6.58 million for 14 community- led projects in Riverina, Murray and Southern Tablelands",
+            "url": "https://www.nsw.gov.au/ministerial-releases/658-million-for-14-community-led-projects-riverina-murray-and-southern-tablelands"
+          },
+          {
+            "record_id": "7424c2628f4cf4f29aad",
+            "title": "2026 NSW Premier’s Awards recognise outstanding public service",
+            "url": "https://www.nsw.gov.au/ministerial-releases/2026-nsw-premiers-awards-recognise-outstanding-public-service"
+          },
+          {
+            "record_id": "93353cf3aff0473e2336",
+            "title": "Piling work complete on $30 million Marshalls Creek Bridge Upgrade",
+            "url": "https://www.nsw.gov.au/ministerial-releases/piling-work-complete-on-30-million-marshalls-creek-bridge-upgrade"
+          },
+          {
+            "record_id": "c391db669148c82b036e",
+            "title": "Minns Labor Government invests in TAFE NSW to boost hair and beauty workforce on the Mid North Coast",
+            "url": "https://www.nsw.gov.au/ministerial-releases/minns-labor-government-invests-tafe-nsw-to-boost-hair-and-beauty-workforce-on-mid-north-coast"
+          },
+          {
+            "record_id": "e959deabbeb7b841be0f",
+            "title": "Premier&#039;s Department",
+            "url": "https://www.nsw.gov.au/departments-and-agencies/premiers-department"
+          },
+          {
+            "record_id": "f055a7d998ceaca1bac3",
+            "title": "$50 million strengthens business, industry and communities across the NSW Southern Murray-Darling Basin",
+            "url": "https://www.nsw.gov.au/ministerial-releases/50-million-strengthens-business-industry-and-communities-across-nsw-southern-murray-darling-basin"
+          },
+          {
+            "record_id": "f0db2b75b2d9b5c3fc55",
+            "title": "Anniversary of the death of Cobar miners",
+            "url": "https://www.nsw.gov.au/ministerial-releases/anniversary-of-death-of-cobar-miners"
+          }
+        ],
+        "delta_hash": "e8ea993278cde2ac4356b43c76b6d2fbef0b48a6bc0c478b68485bcb027abc86"
       },
       "integrity": {
         "source_change_unchanged": true,

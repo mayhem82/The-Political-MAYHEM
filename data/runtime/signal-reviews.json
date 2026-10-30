@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-SIGNAL-REVIEWS-001",
   "created_at": "2026-09-09T05:05:00+10:00",
-  "updated_at": "2026-10-29T14:21:34.991Z",
+  "updated_at": "2026-10-30T01:01:01.252Z",
   "rules": {
     "append_only": true,
     "raw_source_change_is_immutable": true,
@@ -42305,6 +42305,186 @@
           }
         ],
         "delta_hash": "d1b14545f281338b626c079570259874e15352a12b7ae5d231002791214d146c"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-NSW-MINISTERIAL-RELEASES-20261030010015",
+      "source_change_event_id": "CHG-WATCH-NSW-MINISTERIAL-RELEASES-20261030010015",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-NSW-MINISTERIAL-RELEASES-20261030010015",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "NSW Government — Ministerial releases added 10 structured publication records to its forward-captured official index: David Harris MP announces retirement at 2027 state election; Investing in a carer-friendly future for NSW; First look at new regional helicopter bases; Southwest Metro: the train has left the station; Construction commences on new South Windsor Ambulance Station; +5 more",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-10-30T01:01:01.252Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "0ab545699cc7a1fe5df3",
+            "title": "David Harris MP announces retirement at 2027 state election",
+            "url": "https://www.nsw.gov.au/ministerial-releases/david-harris-mp-announces-retirement-at-2027-state-election"
+          },
+          {
+            "record_id": "1e9caab41aba777d1a86",
+            "title": "Investing in a carer-friendly future for NSW",
+            "url": "https://www.nsw.gov.au/ministerial-releases/investing-a-carer-friendly-future-for-nsw"
+          },
+          {
+            "record_id": "31f8bc144dc5f8ef55dc",
+            "title": "First look at new regional helicopter bases",
+            "url": "https://www.nsw.gov.au/ministerial-releases/first-look-at-new-regional-helicopter-bases"
+          },
+          {
+            "record_id": "536fea93a5e91c5d5fd9",
+            "title": "Southwest Metro: the train has left the station",
+            "url": "https://www.nsw.gov.au/ministerial-releases/southwest-metro-train-has-left-station"
+          },
+          {
+            "record_id": "90f278ac95d5a898ddd2",
+            "title": "Construction commences on new South Windsor Ambulance Station",
+            "url": "https://www.nsw.gov.au/ministerial-releases/south-windsor-ambulance-station"
+          },
+          {
+            "record_id": "990adc39fba58aab86ec",
+            "title": "Albanese and Minns Labor governments deliver safer level crossings for regional NSW",
+            "url": "https://www.nsw.gov.au/ministerial-releases/albanese-and-minns-labor-governments-deliver-safer-level-crossings-for-regional-nsw"
+          },
+          {
+            "record_id": "d098fcf5a38cf1811255",
+            "title": "Stay cost-savvy this spring rental season",
+            "url": "https://www.nsw.gov.au/ministerial-releases/stay-cost-savvy-spring-rental-season"
+          },
+          {
+            "record_id": "d6b4a8ea4abe66ce3f49",
+            "title": "Making it easier to move through Torakina Reserve at Brunswick Heads",
+            "url": "https://www.nsw.gov.au/ministerial-releases/easier-access-to-torakina-reserve-at-brunswick-heads"
+          },
+          {
+            "record_id": "d95e5de31a8890735175",
+            "title": "Jervis Bay Road intersection on the home stretch as western roundabout opens to traffic",
+            "url": "https://www.nsw.gov.au/ministerial-releases/jervis-bay-road-western-intersection-opening-set"
+          },
+          {
+            "record_id": "f78cb9e7d05e2c7d46f8",
+            "title": "Community reminded to have their say on Regional Corridors Upgrade Program – Newcastle to Dubbo",
+            "url": "https://www.nsw.gov.au/ministerial-releases/community-reminded-to-have-their-say-on-regional-corridors-upgrade-program-%e2%80%93-newcastle-to-dubbo"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "00a8f04696c06d42f746",
+            "title": "$10.5 million to boost Hunter, Ports Stephens, & Lake Macquarie regional communities’ lifestyles and economies",
+            "url": "https://www.nsw.gov.au/ministerial-releases/105-million-to-boost-hunter-ports-stephens-lake-macquarie-regional-communities-lifestyles-and-economies"
+          },
+          {
+            "record_id": "036c86b880b3e08519ae",
+            "title": "Minns Labor Government to improve safety at Princes Highway and Mortimer Road intersection",
+            "url": "https://www.nsw.gov.au/ministerial-releases/minns-labor-government-to-improve-safety-at-princes-highway-and-mortimer-road-intersection"
+          },
+          {
+            "record_id": "3135fd0723be8373fd1d",
+            "title": "New designs unveiled for $265 million Port Macquarie Base Hospital Redevelopment",
+            "url": "https://www.nsw.gov.au/ministerial-releases/port-macquarie-base-hospital-redesign-unveiled"
+          },
+          {
+            "record_id": "5b1ee543ce42833491a4",
+            "title": "More than $130,000 in fines as blitzes target unlicensed motor dealers",
+            "url": "https://www.nsw.gov.au/ministerial-releases/blitzes-target-unlicensed-motor-dealers"
+          },
+          {
+            "record_id": "66d559495d931107c836",
+            "title": "Final preparation underway before historic Southwest Metro opening",
+            "url": "https://www.nsw.gov.au/ministerial-releases/final-preparation-underway-before-historic-southwest-metro-opening"
+          },
+          {
+            "record_id": "7eaae98f18f27912c147",
+            "title": "Minns Labor Government opens $440 million Shoalhaven Memorial Hospital Redevelopment for the South Coast",
+            "url": "https://www.nsw.gov.au/ministerial-releases/minns-labor-government-opens-440-million-shoalhaven-memorial-hospital-redevelopment-for-south-coast"
+          },
+          {
+            "record_id": "a0b293c501ea4ee5281d",
+            "title": "Minns Labor Government delivers simpler planning rules to power industrial growth",
+            "url": "https://www.nsw.gov.au/ministerial-releases/simpler-planning-proposed-industrial-land"
+          },
+          {
+            "record_id": "b159b538507cd4a10b24",
+            "title": "Gundagai Lamb takes out top prize at NSW Export Awards",
+            "url": "https://www.nsw.gov.au/ministerial-releases/gundagai-lamb-takes-out-top-prize-at-nsw-export-awards"
+          },
+          {
+            "record_id": "b27378a759cbf8d6a252",
+            "title": "Funding announced to conserve war memorials across NSW",
+            "url": "https://www.nsw.gov.au/ministerial-releases/war-memorial-conservation"
+          },
+          {
+            "record_id": "f7b8d58103a776149199",
+            "title": "More regional women to benefit from free mental health and first aid training",
+            "url": "https://www.nsw.gov.au/ministerial-releases/more-regional-women-to-benefit-from-free-mental-health-and-first-aid-training"
+          }
+        ],
+        "delta_hash": "c9f47fa720ee9ccbf8a6f973852d4a402ec8345a28f1b5b3a02f37ab0eac351f"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261030010015",
+      "source_change_event_id": "CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261030010015",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261030010015",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Queensland Government — Ministerial Media Statements added 2 structured publication records to its forward-captured official index: Gold Coast manufacturer backed to produce more products locally; Tougher bail laws passed that target key Daniel's Law offences",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-10-30T01:01:01.252Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "b2ddb92905e554111c23",
+            "title": "Gold Coast manufacturer backed to produce more products locally",
+            "url": "https://statements.qld.gov.au/statements/106317"
+          },
+          {
+            "record_id": "ea3db29368a0ab162c11",
+            "title": "Tougher bail laws passed that target key Daniel's Law offences",
+            "url": "https://statements.qld.gov.au/statements/106323"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "23322d71d8d9b5125588",
+            "title": "Play On! Learn to Swim vouchers open",
+            "url": "https://statements.qld.gov.au/statements/106303"
+          },
+          {
+            "record_id": "669858fbe9d305201ce0",
+            "title": "Port of Mackay Container Depot Now Complete",
+            "url": "https://statements.qld.gov.au/statements/106302"
+          }
+        ],
+        "delta_hash": "362ac97ef2c3b044d30350557dbf178b70a7e8c208d079adb076f54cd8e240a1"
       },
       "integrity": {
         "source_change_unchanged": true,

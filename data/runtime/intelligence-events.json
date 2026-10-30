@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-INTELLIGENCE-EVENTS-001",
   "scope": "Australia — multi-jurisdiction",
-  "captured_at": "2026-10-29T14:21:40.313Z",
+  "captured_at": "2026-10-30T01:01:06.986Z",
   "mode": "FORWARD_ONLY",
   "rules": {
     "observation_distinct_from_inference": true,
@@ -117675,6 +117675,468 @@
           "record_id": "91be7ac9c483c740a3f5",
           "title": "New offence targets AI deepfake sex abuse predators",
           "url": "https://statements.qld.gov.au/statements/106304"
+        }
+      ],
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "underlying_publication_claims_not_promoted_to_verified_fact": true,
+        "source_change_parent_retained": true,
+        "deterministic_review": true
+      }
+    },
+    {
+      "event_id": "CHG-WATCH-NSW-MINISTERIAL-RELEASES-20261030010015",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-NSW",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-NSW-MINISTERIAL-RELEASES-20261030010015",
+      "captured_at": "2026-10-30T01:00:15.071Z",
+      "event_date": "2026-10-30",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-NSW-MINISTERIAL-RELEASES",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "review_policy": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-NSW-MINISTERIAL-RELEASES-20261029070654",
+        "content_hash": "bfd995eb248f2b757313f0203c3645e17a547b7e5e9a4ce6c372f30baeb1d863",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-NSW-MINISTERIAL-RELEASES-20261030010015",
+        "content_hash": "dcdf4e33a50c0e081bc552389b8586c68eb524095a46b3f147aa8fc7f7f2bb05",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "STRUCTURED_RECORD_SET",
+        "records_added": [
+          {
+            "record_id": "0ab545699cc7a1fe5df3",
+            "title": "David Harris MP announces retirement at 2027 state election",
+            "url": "https://www.nsw.gov.au/ministerial-releases/david-harris-mp-announces-retirement-at-2027-state-election"
+          },
+          {
+            "record_id": "1e9caab41aba777d1a86",
+            "title": "Investing in a carer-friendly future for NSW",
+            "url": "https://www.nsw.gov.au/ministerial-releases/investing-a-carer-friendly-future-for-nsw"
+          },
+          {
+            "record_id": "31f8bc144dc5f8ef55dc",
+            "title": "First look at new regional helicopter bases",
+            "url": "https://www.nsw.gov.au/ministerial-releases/first-look-at-new-regional-helicopter-bases"
+          },
+          {
+            "record_id": "536fea93a5e91c5d5fd9",
+            "title": "Southwest Metro: the train has left the station",
+            "url": "https://www.nsw.gov.au/ministerial-releases/southwest-metro-train-has-left-station"
+          },
+          {
+            "record_id": "90f278ac95d5a898ddd2",
+            "title": "Construction commences on new South Windsor Ambulance Station",
+            "url": "https://www.nsw.gov.au/ministerial-releases/south-windsor-ambulance-station"
+          },
+          {
+            "record_id": "990adc39fba58aab86ec",
+            "title": "Albanese and Minns Labor governments deliver safer level crossings for regional NSW",
+            "url": "https://www.nsw.gov.au/ministerial-releases/albanese-and-minns-labor-governments-deliver-safer-level-crossings-for-regional-nsw"
+          },
+          {
+            "record_id": "d098fcf5a38cf1811255",
+            "title": "Stay cost-savvy this spring rental season",
+            "url": "https://www.nsw.gov.au/ministerial-releases/stay-cost-savvy-spring-rental-season"
+          },
+          {
+            "record_id": "d6b4a8ea4abe66ce3f49",
+            "title": "Making it easier to move through Torakina Reserve at Brunswick Heads",
+            "url": "https://www.nsw.gov.au/ministerial-releases/easier-access-to-torakina-reserve-at-brunswick-heads"
+          },
+          {
+            "record_id": "d95e5de31a8890735175",
+            "title": "Jervis Bay Road intersection on the home stretch as western roundabout opens to traffic",
+            "url": "https://www.nsw.gov.au/ministerial-releases/jervis-bay-road-western-intersection-opening-set"
+          },
+          {
+            "record_id": "f78cb9e7d05e2c7d46f8",
+            "title": "Community reminded to have their say on Regional Corridors Upgrade Program – Newcastle to Dubbo",
+            "url": "https://www.nsw.gov.au/ministerial-releases/community-reminded-to-have-their-say-on-regional-corridors-upgrade-program-%e2%80%93-newcastle-to-dubbo"
+          }
+        ],
+        "records_removed": [
+          {
+            "record_id": "00a8f04696c06d42f746",
+            "title": "$10.5 million to boost Hunter, Ports Stephens, & Lake Macquarie regional communities’ lifestyles and economies",
+            "url": "https://www.nsw.gov.au/ministerial-releases/105-million-to-boost-hunter-ports-stephens-lake-macquarie-regional-communities-lifestyles-and-economies"
+          },
+          {
+            "record_id": "036c86b880b3e08519ae",
+            "title": "Minns Labor Government to improve safety at Princes Highway and Mortimer Road intersection",
+            "url": "https://www.nsw.gov.au/ministerial-releases/minns-labor-government-to-improve-safety-at-princes-highway-and-mortimer-road-intersection"
+          },
+          {
+            "record_id": "3135fd0723be8373fd1d",
+            "title": "New designs unveiled for $265 million Port Macquarie Base Hospital Redevelopment",
+            "url": "https://www.nsw.gov.au/ministerial-releases/port-macquarie-base-hospital-redesign-unveiled"
+          },
+          {
+            "record_id": "5b1ee543ce42833491a4",
+            "title": "More than $130,000 in fines as blitzes target unlicensed motor dealers",
+            "url": "https://www.nsw.gov.au/ministerial-releases/blitzes-target-unlicensed-motor-dealers"
+          },
+          {
+            "record_id": "66d559495d931107c836",
+            "title": "Final preparation underway before historic Southwest Metro opening",
+            "url": "https://www.nsw.gov.au/ministerial-releases/final-preparation-underway-before-historic-southwest-metro-opening"
+          },
+          {
+            "record_id": "7eaae98f18f27912c147",
+            "title": "Minns Labor Government opens $440 million Shoalhaven Memorial Hospital Redevelopment for the South Coast",
+            "url": "https://www.nsw.gov.au/ministerial-releases/minns-labor-government-opens-440-million-shoalhaven-memorial-hospital-redevelopment-for-south-coast"
+          },
+          {
+            "record_id": "a0b293c501ea4ee5281d",
+            "title": "Minns Labor Government delivers simpler planning rules to power industrial growth",
+            "url": "https://www.nsw.gov.au/ministerial-releases/simpler-planning-proposed-industrial-land"
+          },
+          {
+            "record_id": "b159b538507cd4a10b24",
+            "title": "Gundagai Lamb takes out top prize at NSW Export Awards",
+            "url": "https://www.nsw.gov.au/ministerial-releases/gundagai-lamb-takes-out-top-prize-at-nsw-export-awards"
+          },
+          {
+            "record_id": "b27378a759cbf8d6a252",
+            "title": "Funding announced to conserve war memorials across NSW",
+            "url": "https://www.nsw.gov.au/ministerial-releases/war-memorial-conservation"
+          },
+          {
+            "record_id": "f7b8d58103a776149199",
+            "title": "More regional women to benefit from free mental health and first aid training",
+            "url": "https://www.nsw.gov.au/ministerial-releases/more-regional-women-to-benefit-from-free-mental-health-and-first-aid-training"
+          }
+        ],
+        "added_count": 10,
+        "removed_count": 10,
+        "before_count": 86,
+        "after_count": 86,
+        "delta_hash": "c9f47fa720ee9ccbf8a6f973852d4a402ec8345a28f1b5b3a02f37ab0eac351f"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261030010015",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-QLD",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-QLD-MINISTERIAL-STATEMENTS-20261030010015",
+      "captured_at": "2026-10-30T01:00:15.071Z",
+      "event_date": "2026-10-30",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-QLD-MINISTERIAL-STATEMENTS",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "review_policy": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-QLD-MINISTERIAL-STATEMENTS-20261029142047",
+        "content_hash": "a5d927dc34ef651dda2c93eef9448e785fadf37e23fac36146c4be9e65d75680",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-QLD-MINISTERIAL-STATEMENTS-20261030010015",
+        "content_hash": "371c07011daac8577375bf491c04e2582edcfad343163a536c151ef37507ca8c",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "STRUCTURED_RECORD_SET",
+        "records_added": [
+          {
+            "record_id": "b2ddb92905e554111c23",
+            "title": "Gold Coast manufacturer backed to produce more products locally",
+            "url": "https://statements.qld.gov.au/statements/106317"
+          },
+          {
+            "record_id": "ea3db29368a0ab162c11",
+            "title": "Tougher bail laws passed that target key Daniel's Law offences",
+            "url": "https://statements.qld.gov.au/statements/106323"
+          }
+        ],
+        "records_removed": [
+          {
+            "record_id": "23322d71d8d9b5125588",
+            "title": "Play On! Learn to Swim vouchers open",
+            "url": "https://statements.qld.gov.au/statements/106303"
+          },
+          {
+            "record_id": "669858fbe9d305201ce0",
+            "title": "Port of Mackay Container Depot Now Complete",
+            "url": "https://statements.qld.gov.au/statements/106302"
+          }
+        ],
+        "added_count": 2,
+        "removed_count": 2,
+        "before_count": 16,
+        "after_count": 16,
+        "delta_hash": "362ac97ef2c3b044d30350557dbf178b70a7e8c208d079adb076f54cd8e240a1"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-TAS-HANSARD-20261030010015",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-TAS",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-TAS-HANSARD-20261030010015",
+      "captured_at": "2026-10-30T01:00:15.071Z",
+      "event_date": "2026-10-30",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_PARLIAMENT",
+      "source_id": "SRC-TAS-HANSARD",
+      "capture_mode": "NORMALISED_PAGE_HASH",
+      "review_policy": "REVIEW_UNSTRUCTURED_CHANGE",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-TAS-HANSARD-20261028160350",
+        "content_hash": "b0e1e385798a4b03fc37fa3b42b489a5eaadf35e807d9f721eadd8d9eae69f42",
+        "capture_mode": "NORMALISED_PAGE_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-TAS-HANSARD-20261030010015",
+        "content_hash": "e209faa718bebdeaeef74ad98ff46fa259e4530c2db64886d0cf31981a2fd173",
+        "capture_mode": "NORMALISED_PAGE_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "TEXT_REPRESENTATION",
+        "first_difference_offset": 324,
+        "before_length": 5850,
+        "after_length": 3205,
+        "before_excerpt": "rs ParliamentaryPapers Votes and Proceedings Entire Site Current Results Search Home Parliament Website Flickr People 1,034 Mr ROCKLIFF 928 Mr ABETZ 586 Ms Rattray 551 Mr BARNETT 482 Dr Woodruff 452 MR PRESIDENT 433 Ms Finlay 404 Mr WILLIE 380 Mr ELLIS 315 Ms Haddad 303 Mr Mitchell 286 Ms FORREST 280 Mr Willie 275 Mr Bayley 262 Mr Willie 224 Mr Abetz 212 Ms JOHNSTON 208 Ms Armitage 208 Ms RATTRAY 199 Mr George 197 Ms Forrest 180 Ms PALMER 165 Ms WEBB 159 Mr VINCENT 157 Ms BURNET 20 more... top 5 Organizations 373 Legislative Council 99 Department Of Health 98 Department Of Justice 82 Microsoft 40 CurrentSession Council 31 Department Of Premier 31 UNIVERSITY OF TASMANIA 28 KPMG 27 OF POLICE 25 Gap 22 Department Of Police 19 DEPARTMENT OF STATE 19 Whole Council 19 Woolworths 17 BY POLICE 17 LK Group 15 Gateway 15 Google 14 MyState Bank 13 LK GROUP 11 HERITAGE COUNCIL 11 Telstra 10 UNIVERSITY OF TASMANIA ACT 8 Department Of Defence 8 Invasive Species Council 20 more... top 5 Locations 7,729 Tasmania 2,735 TASMANIA 1,442 Australia 1,416 Hobart 307 Wales 306 Victoria 265 Mersey 224 Canberra 177 Queensland 168 Nepal 161 Montgomery 84 Kingston 67 Sydney 65 Melbourne 64 Vietnam 58 Dorset 52 Midlands 51 Wellington 38 Iran 37 Stillwater 36 America 34 Singapore 33 US 32 France 26 Cambridge 20 more... top 5 Sort by Best Match Date Size Date Filter by date Last 7 days Last Month Last 3 Months Last 6 Months Last 12 Months Showing 1 to 10 of 81 ( 162 hits) (2026 \"IN\" TITLE) Legislative Council Wednesday 28 October 2026 from f Legislative Coucil &bull; ...Legislative Council Wednesday 28 October 2026 ... Download Document Legislative Council Wednesday 28 October 2026 from f Legislative Coucil &bull; ...Legislative Council Wednesday 28 October 2026 ... Download Document Legislative Council Tuesday 27 October 2026 from f Legislative Council &bull; ...Legislative Council Tuesday 27 October 2026 ... Download Document House of Assembly Tuesday 27 October 2026 from f House of Assembly &bull; ...House of Assembly Tuesday 27 October 2026 ... Download Document House of Assembly Tuesday 27 October 2026 from f House of Assembly &bull; ...House of Assembly Tuesday 27 October 2026 ... Download Document Legislative Council Tuesday 27 October 2026 from f Legislative Council &bull; ...Legislative Council Tuesday 27 October 2026 ... Download Document Legislative Council Friday 11 September 2026 from f Legislative Council &bull; ...Legislative Council Friday 11 September 2026 Legislative Council Friday 11 September 2026 PARLIAMENT OF TASMANIA LEGISLATIVE COUNCIL REPORT OF DEBATES Friday 11 September 2026 REVISED EDITION Contents FRIDAY 11 SEPTEMBER 2026 .1 FIREARMS AMENDMENT (STRENGTHENING FIREARMS SECURITY) BILL 2026 (NO. 30) 1 FIRST READING .1 ADJOURNMENT .1 1 Friday 11 Spetember 2026 2 Friday 11 Spetember 2026 Friday 11 September 2026 The President, Mr Farrell , took the Chair at 9.30 a.m., acknowledged the Traditional People and read Prayers. FIREARMS AMENDMENT (STRENGTHENING FIREARMS SECURITY) BILL 2026 (No. 30) First Reading Bill received from the House of Assembly and read the first time. [9.32 a.m.] Ms RATTRAY (McIntyre - Leader for the Government in the Legislative Council) - Mr President, I move - That the second reading of the bill be made an order of the day for tomorrow. Motion agreed to. ADJOURNMENT Ms RATTRAY (McIntyre - Leader for the Government in the Legislative Council) - Mr President, I'd just like to thank all honourable members who made themselves available this morning for the quorum call to receive that important legislation. Mr President, I move - That at its rising the Council adjourn until 11 a.m. Tuesday 27 October 2026. Motion agreed to Ms RATTRAY - Mr President, I move - That the Council do now adjourn. The Council adjourned at 9.33 a.m. ... Download Document Legislative Council Friday 11 September 2026 from f Legislative Council &bull; ...Legislative Council Friday 11 September 2026 Legislative Council Friday 11 September 2026 PARLIAMENT OF TASMANIA LEGISLATIVE COUNCIL REPORT OF DEBATES Friday 11 September 2026 REVISED EDITION Contents FRIDAY 11 SEPTEMBER 2026 .1 FIREARMS AMENDMENT (STRENGTHENING FIREARMS SECURITY) BILL 2026 (NO. 30) 1 FIRST READING .1 ADJOURNMENT .1 1 Friday 11 Spetember 2026 2 Friday 11 Spetember 2026 Friday 11 September 2026 The President, Mr Farrell , took the Chair at 9.30 a.m., acknowledged the Traditional People and read Prayers. FIREARMS AMENDMENT (STRENGTHENING FIREARMS SECURITY) BILL 2026 (No. 30) First Reading Bill received from the House of Assembly and read the first time. [9.32 a.m.] Ms RATTRAY (McIntyre - Leader for the Government in the Legislative Council) - Mr President, I move - That the second reading of the bill be made an order of the day for tomorrow. Motion agreed to. ADJOURNMENT Ms RATTRAY (McIntyre - Leader for the Government in the Legislative Council) - Mr President, I'd just like to thank all honourable members who made themselves available this morning for the quorum call to receive that important legislation. Mr President, I move - That at its rising the Council adjourn until 11 a.m. Tuesday 27 October 2026. Motion agreed to Ms RATTRAY - Mr President, I move - That the Council do now adjourn. The Council adjourned at 9.33 a.m. ... Download Document House of Assembly Thursday 10 September 2026 from f House of Assembly &bull; ...House of Assembly Thursday 10 September 2026 ... Download Document Legislative Council Thursday 10 September 2026 from f Legislative Council &bull; ...Legislative Council Thursday 10 September 2026 ... Download Document 1 2 3 4 5 6 7 8 9 Next > &copy; Parliament of Tasmania",
+        "after_excerpt": "rs ParliamentaryPapers Votes and Proceedings Entire Site Current Results Search Home Parliament Website Flickr People 1,134 Mr ROCKLIFF 966 Mr ABETZ 616 Ms Rattray 581 Mr BARNETT 506 Dr Woodruff 467 Ms Finlay 467 MR PRESIDENT 415 Mr WILLIE 400 Mr ELLIS 339 Ms Haddad 333 Mr Mitchell 298 Mr Willie 296 Ms FORREST 289 Mr Bayley 289 Mr Willie 243 Ms PALMER 234 Mr Abetz 221 Mr George 216 Ms RATTRAY 212 Ms JOHNSTON 208 Ms Armitage 197 Ms Forrest 187 Mr VINCENT 175 Mr FERGUSON 166 Mr President 20 more... top 5 Organizations 393 Legislative Council 99 Department Of Health 98 Department Of Justice 88 Microsoft 42 CurrentSession Council 36 KPMG 31 LK Group 31 Department Of Premier 31 UNIVERSITY OF TASMANIA 27 OF POLICE 25 Gap 22 Department Of Police 20 MyState Bank 19 DEPARTMENT OF STATE 19 Whole Council 19 Woolworths 17 BY POLICE 15 Gateway 15 Google 13 LK GROUP 12 LK Group 11 HERITAGE COUNCIL 11 Telstra 10 UNIVERSITY OF TASMANIA ACT 9 Target 20 more... top 5 Locations 8,218 Tasmania 2,876 TASMANIA 1,626 Australia 1,496 Hobart 346 Victoria 317 Wales 285 Mersey 226 Canberra 225 Queensland 177 Montgomery 168 Nepal 86 Kingston 79 Sydney 77 Melbourne 64 Vietnam 60 Dorset 60 Midlands 51 Wellington 43 US 38 America 38 Iran 37 Stillwater 34 France 34 Singapore 31 UK 20 more... top 5 Clusters Council Thursday 17 Sort by Best Match Date Size Date Filter by date Last 7 days Last Month Last 3 Months Last 6 Months Last 12 Months Showing 1 to 10 of 87 ( 174 hits) (2026 \"IN\" TITLE) Legislative Council Thursday 29 October 2026 from f Legislative Council &bull; ...Legislative Council Thursday 29 October 2026 ... Download Document House of Assembly Thursday 29 October 2026 from f House of Assembly &bull; ...House of Assembly Thursday 29 October 2026 ... Download Document House of Assembly Thursday 29 October 2026 from f House of Assembly &bull; ...House of Assembly Thursday 29 October 2026 ... Download Document Legislative Council Thursday 29 October 2026 from f Legislative Council &bull; ...Legislative Council Thursday 29 October 2026 ... Download Document Legislative Council Wednesday 28 October 2026 from f Legislative Council &bull; ...Legislative Council Wednesday 28 October 2026 ... Download Document House of Assembly Wednesday 28 October 2026 from f House of Assembly &bull; ...House of Assembly Wednesday 28 October 2026 ... Download Document House of Assembly Wednesday 28 October 2026 from f House of Assembly &bull; ...House of Assembly Wednesday 28 October 2026 ... Download Document Legislative Council Wednesday 28 October 2026 from f Legislative Council &bull; ...Legislative Council Wednesday 28 October 2026 ... Download Document Legislative Council Tuesday 27 October 2026 from f Legislative Council &bull; ...Legislative Council Tuesday 27 October 2026 ... Download Document House of Assembly Tuesday 27 October 2026 from f House of Assembly &bull; ...House of Assembly Tuesday 27 October 2026 ... Download Document 1 2 3 4 5 6 7 8 9 Next > &copy; Parliament of Tasmania",
+        "delta_hash": "5ea22d58e939645555c2319eb7278e792a08412995f0ace790c7a5486613a059"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "SIG-REV-CHG-WATCH-NSW-MINISTERIAL-RELEASES-20261030010015",
+      "parent_event_id": "CHG-WATCH-NSW-MINISTERIAL-RELEASES-20261030010015",
+      "review_id": "REV-CHG-WATCH-NSW-MINISTERIAL-RELEASES-20261030010015",
+      "jurisdiction_id": "AUS-NSW",
+      "party_id": null,
+      "actor_id": null,
+      "contest_id": null,
+      "cycle_id": null,
+      "source_snapshot_id": "AUTO-WATCH-NSW-MINISTERIAL-RELEASES-20261030010015",
+      "record_id": null,
+      "captured_at": "2026-10-30T01:01:01.252Z",
+      "event_date": "2026-10-30",
+      "checkpoint": "CONTINUOUS_FORWARD_SIGNAL_REVIEW",
+      "event_type": "SIGNAL_CREATED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-NSW-MINISTERIAL-RELEASES",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "claim": "NSW Government — Ministerial releases added 10 structured publication records to its forward-captured official index: David Harris MP announces retirement at 2027 state election; Investing in a carer-friendly future for NSW; First look at new regional helicopter bases; Southwest Metro: the train has left the station; Construction commences on new South Windsor Ambulance Station; +5 more",
+      "observed_behaviour": "One or more structured publication records appeared in the monitored official source index after the preceding forward snapshot.",
+      "publication_records_added": [
+        {
+          "record_id": "0ab545699cc7a1fe5df3",
+          "title": "David Harris MP announces retirement at 2027 state election",
+          "url": "https://www.nsw.gov.au/ministerial-releases/david-harris-mp-announces-retirement-at-2027-state-election"
+        },
+        {
+          "record_id": "1e9caab41aba777d1a86",
+          "title": "Investing in a carer-friendly future for NSW",
+          "url": "https://www.nsw.gov.au/ministerial-releases/investing-a-carer-friendly-future-for-nsw"
+        },
+        {
+          "record_id": "31f8bc144dc5f8ef55dc",
+          "title": "First look at new regional helicopter bases",
+          "url": "https://www.nsw.gov.au/ministerial-releases/first-look-at-new-regional-helicopter-bases"
+        },
+        {
+          "record_id": "536fea93a5e91c5d5fd9",
+          "title": "Southwest Metro: the train has left the station",
+          "url": "https://www.nsw.gov.au/ministerial-releases/southwest-metro-train-has-left-station"
+        },
+        {
+          "record_id": "90f278ac95d5a898ddd2",
+          "title": "Construction commences on new South Windsor Ambulance Station",
+          "url": "https://www.nsw.gov.au/ministerial-releases/south-windsor-ambulance-station"
+        },
+        {
+          "record_id": "990adc39fba58aab86ec",
+          "title": "Albanese and Minns Labor governments deliver safer level crossings for regional NSW",
+          "url": "https://www.nsw.gov.au/ministerial-releases/albanese-and-minns-labor-governments-deliver-safer-level-crossings-for-regional-nsw"
+        },
+        {
+          "record_id": "d098fcf5a38cf1811255",
+          "title": "Stay cost-savvy this spring rental season",
+          "url": "https://www.nsw.gov.au/ministerial-releases/stay-cost-savvy-spring-rental-season"
+        },
+        {
+          "record_id": "d6b4a8ea4abe66ce3f49",
+          "title": "Making it easier to move through Torakina Reserve at Brunswick Heads",
+          "url": "https://www.nsw.gov.au/ministerial-releases/easier-access-to-torakina-reserve-at-brunswick-heads"
+        },
+        {
+          "record_id": "d95e5de31a8890735175",
+          "title": "Jervis Bay Road intersection on the home stretch as western roundabout opens to traffic",
+          "url": "https://www.nsw.gov.au/ministerial-releases/jervis-bay-road-western-intersection-opening-set"
+        },
+        {
+          "record_id": "f78cb9e7d05e2c7d46f8",
+          "title": "Community reminded to have their say on Regional Corridors Upgrade Program – Newcastle to Dubbo",
+          "url": "https://www.nsw.gov.au/ministerial-releases/community-reminded-to-have-their-say-on-regional-corridors-upgrade-program-%e2%80%93-newcastle-to-dubbo"
+        }
+      ],
+      "publication_records_removed": [
+        {
+          "record_id": "00a8f04696c06d42f746",
+          "title": "$10.5 million to boost Hunter, Ports Stephens, & Lake Macquarie regional communities’ lifestyles and economies",
+          "url": "https://www.nsw.gov.au/ministerial-releases/105-million-to-boost-hunter-ports-stephens-lake-macquarie-regional-communities-lifestyles-and-economies"
+        },
+        {
+          "record_id": "036c86b880b3e08519ae",
+          "title": "Minns Labor Government to improve safety at Princes Highway and Mortimer Road intersection",
+          "url": "https://www.nsw.gov.au/ministerial-releases/minns-labor-government-to-improve-safety-at-princes-highway-and-mortimer-road-intersection"
+        },
+        {
+          "record_id": "3135fd0723be8373fd1d",
+          "title": "New designs unveiled for $265 million Port Macquarie Base Hospital Redevelopment",
+          "url": "https://www.nsw.gov.au/ministerial-releases/port-macquarie-base-hospital-redesign-unveiled"
+        },
+        {
+          "record_id": "5b1ee543ce42833491a4",
+          "title": "More than $130,000 in fines as blitzes target unlicensed motor dealers",
+          "url": "https://www.nsw.gov.au/ministerial-releases/blitzes-target-unlicensed-motor-dealers"
+        },
+        {
+          "record_id": "66d559495d931107c836",
+          "title": "Final preparation underway before historic Southwest Metro opening",
+          "url": "https://www.nsw.gov.au/ministerial-releases/final-preparation-underway-before-historic-southwest-metro-opening"
+        },
+        {
+          "record_id": "7eaae98f18f27912c147",
+          "title": "Minns Labor Government opens $440 million Shoalhaven Memorial Hospital Redevelopment for the South Coast",
+          "url": "https://www.nsw.gov.au/ministerial-releases/minns-labor-government-opens-440-million-shoalhaven-memorial-hospital-redevelopment-for-south-coast"
+        },
+        {
+          "record_id": "a0b293c501ea4ee5281d",
+          "title": "Minns Labor Government delivers simpler planning rules to power industrial growth",
+          "url": "https://www.nsw.gov.au/ministerial-releases/simpler-planning-proposed-industrial-land"
+        },
+        {
+          "record_id": "b159b538507cd4a10b24",
+          "title": "Gundagai Lamb takes out top prize at NSW Export Awards",
+          "url": "https://www.nsw.gov.au/ministerial-releases/gundagai-lamb-takes-out-top-prize-at-nsw-export-awards"
+        },
+        {
+          "record_id": "b27378a759cbf8d6a252",
+          "title": "Funding announced to conserve war memorials across NSW",
+          "url": "https://www.nsw.gov.au/ministerial-releases/war-memorial-conservation"
+        },
+        {
+          "record_id": "f7b8d58103a776149199",
+          "title": "More regional women to benefit from free mental health and first aid training",
+          "url": "https://www.nsw.gov.au/ministerial-releases/more-regional-women-to-benefit-from-free-mental-health-and-first-aid-training"
+        }
+      ],
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "underlying_publication_claims_not_promoted_to_verified_fact": true,
+        "source_change_parent_retained": true,
+        "deterministic_review": true
+      }
+    },
+    {
+      "event_id": "SIG-REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261030010015",
+      "parent_event_id": "CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261030010015",
+      "review_id": "REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261030010015",
+      "jurisdiction_id": "AUS-QLD",
+      "party_id": null,
+      "actor_id": null,
+      "contest_id": null,
+      "cycle_id": null,
+      "source_snapshot_id": "AUTO-WATCH-QLD-MINISTERIAL-STATEMENTS-20261030010015",
+      "record_id": null,
+      "captured_at": "2026-10-30T01:01:01.252Z",
+      "event_date": "2026-10-30",
+      "checkpoint": "CONTINUOUS_FORWARD_SIGNAL_REVIEW",
+      "event_type": "SIGNAL_CREATED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-QLD-MINISTERIAL-STATEMENTS",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "claim": "Queensland Government — Ministerial Media Statements added 2 structured publication records to its forward-captured official index: Gold Coast manufacturer backed to produce more products locally; Tougher bail laws passed that target key Daniel's Law offences",
+      "observed_behaviour": "One or more structured publication records appeared in the monitored official source index after the preceding forward snapshot.",
+      "publication_records_added": [
+        {
+          "record_id": "b2ddb92905e554111c23",
+          "title": "Gold Coast manufacturer backed to produce more products locally",
+          "url": "https://statements.qld.gov.au/statements/106317"
+        },
+        {
+          "record_id": "ea3db29368a0ab162c11",
+          "title": "Tougher bail laws passed that target key Daniel's Law offences",
+          "url": "https://statements.qld.gov.au/statements/106323"
+        }
+      ],
+      "publication_records_removed": [
+        {
+          "record_id": "23322d71d8d9b5125588",
+          "title": "Play On! Learn to Swim vouchers open",
+          "url": "https://statements.qld.gov.au/statements/106303"
+        },
+        {
+          "record_id": "669858fbe9d305201ce0",
+          "title": "Port of Mackay Container Depot Now Complete",
+          "url": "https://statements.qld.gov.au/statements/106302"
         }
       ],
       "inference": null,

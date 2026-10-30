@@ -49,9 +49,9 @@
       "source_id": "SRC-NSW-MINISTERIAL-RELEASES",
       "jurisdiction_id": "AUS-NSW",
       "party_id": null,
-      "content_hash": "bfd995eb248f2b757313f0203c3645e17a547b7e5e9a4ce6c372f30baeb1d863",
-      "snapshot_id": "AUTO-WATCH-NSW-MINISTERIAL-RELEASES-20261029070654",
-      "captured_at": "2026-10-29T07:06:54.005Z",
+      "content_hash": "dcdf4e33a50c0e081bc552389b8586c68eb524095a46b3f147aa8fc7f7f2bb05",
+      "snapshot_id": "AUTO-WATCH-NSW-MINISTERIAL-RELEASES-20261030010015",
+      "captured_at": "2026-10-30T01:00:15.071Z",
       "acquisition_url": "https://www.nsw.gov.au/ministerial-releases",
       "requested_url": "https://www.nsw.gov.au/ministerial-releases",
       "header_profile": "IDENTIFIED_AUTOMATION",
@@ -189,9 +189,9 @@
       "source_id": "SRC-TAS-HANSARD",
       "jurisdiction_id": "AUS-TAS",
       "party_id": null,
-      "content_hash": "b0e1e385798a4b03fc37fa3b42b489a5eaadf35e807d9f721eadd8d9eae69f42",
-      "snapshot_id": "AUTO-WATCH-TAS-HANSARD-20261028160350",
-      "captured_at": "2026-10-28T16:03:50.884Z",
+      "content_hash": "e209faa718bebdeaeef74ad98ff46fa259e4530c2db64886d0cf31981a2fd173",
+      "snapshot_id": "AUTO-WATCH-TAS-HANSARD-20261030010015",
+      "captured_at": "2026-10-30T01:00:15.071Z",
       "acquisition_url": "https://search.parliament.tas.gov.au/Search/search/search?IW_FIELD_ADVANCE_PHRASE=2026%20IN%20TITLE&IW_DATABASE=Hansard&IW_SORT=-9&IW_SEARCH_SCOPE=meta",
       "requested_url": "https://search.parliament.tas.gov.au/Search/search/search?IW_FIELD_ADVANCE_PHRASE=2026%20IN%20TITLE&IW_DATABASE=Hansard&IW_SORT=-9&IW_SEARCH_SCOPE=meta",
       "header_profile": "BROWSER_COMPATIBILITY",
@@ -313,9 +313,9 @@
       "source_id": "SRC-QLD-MINISTERIAL-STATEMENTS",
       "jurisdiction_id": "AUS-QLD",
       "party_id": null,
-      "content_hash": "a5d927dc34ef651dda2c93eef9448e785fadf37e23fac36146c4be9e65d75680",
-      "snapshot_id": "AUTO-WATCH-QLD-MINISTERIAL-STATEMENTS-20261029142047",
-      "captured_at": "2026-10-29T14:20:47.954Z",
+      "content_hash": "371c07011daac8577375bf491c04e2582edcfad343163a536c151ef37507ca8c",
+      "snapshot_id": "AUTO-WATCH-QLD-MINISTERIAL-STATEMENTS-20261030010015",
+      "captured_at": "2026-10-30T01:00:15.071Z",
       "acquisition_url": "https://statements.qld.gov.au/",
       "requested_url": "https://statements.qld.gov.au/",
       "header_profile": "IDENTIFIED_AUTOMATION",
@@ -506,11 +506,11 @@
       "captured_representation_complete": true
     }
   },
-  "updated_at": "2026-10-29T14:20:47.954Z",
+  "updated_at": "2026-10-30T01:00:15.071Z",
   "last_run": {
-    "captured_at": "2026-10-29T14:20:47.954Z",
+    "captured_at": "2026-10-30T01:00:15.071Z",
     "baselines_created": 0,
-    "source_changes_created": 1,
+    "source_changes_created": 3,
     "semantic_signals_created": 0,
     "representation_upgrades": 0,
     "failures": [
@@ -525,10 +525,6 @@
       {
         "watch_id": "WATCH-ECQ-MEDIA",
         "error": "https://www.ecq.qld.gov.au/media/2026-media-statements [IDENTIFIED_AUTOMATION] 403 Forbidden | https://www.ecq.qld.gov.au/media/2026-media-statements [BROWSER_COMPATIBILITY] 403 Forbidden | https://www.ecq.qld.gov.au/home [IDENTIFIED_AUTOMATION] 403 Forbidden | https://www.ecq.qld.gov.au/home [BROWSER_COMPATIBILITY] 403 Forbidden"
-      },
-      {
-        "watch_id": "WATCH-TAS-HANSARD",
-        "error": "https://search.parliament.tas.gov.au/Search/search/search?IW_FIELD_ADVANCE_PHRASE=2026%20IN%20TITLE&IW_DATABASE=Hansard&IW_SORT=-9&IW_SEARCH_SCOPE=meta [IDENTIFIED_AUTOMATION] 503 Service Unavailable | https://search.parliament.tas.gov.au/Search/search/search?IW_FIELD_ADVANCE_PHRASE=2026%20IN%20TITLE&IW_DATABASE=Hansard&IW_SORT=-9&IW_SEARCH_SCOPE=meta [BROWSER_COMPATIBILITY] timeout>15000ms"
       },
       {
         "watch_id": "WATCH-TAS-PREMIER-NEWS",
@@ -564,7 +560,7 @@
   "coverage": {
     "active_sources": 36,
     "baselines_captured": 36,
-    "current_run_failures": 11,
+    "current_run_failures": 10,
     "jurisdictions": {
       "AUS-FED": {
         "configured_sources": 10,
@@ -636,7 +632,7 @@
       "AUS-TAS": {
         "configured_sources": 3,
         "baseline_sources": 3,
-        "current_run_failures": 2,
+        "current_run_failures": 1,
         "source_classes": [
           "PRIMARY_ELECTORAL_AUTHORITY",
           "PRIMARY_GOVERNMENT",

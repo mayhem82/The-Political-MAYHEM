@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-SIGNAL-REVIEWS-001",
   "created_at": "2026-09-09T05:05:00+10:00",
-  "updated_at": "2026-10-30T01:01:01.252Z",
+  "updated_at": "2026-10-30T07:07:58.305Z",
   "rules": {
     "append_only": true,
     "raw_source_change_is_immutable": true,
@@ -42485,6 +42485,116 @@
           }
         ],
         "delta_hash": "362ac97ef2c3b044d30350557dbf178b70a7e8c208d079adb076f54cd8e240a1"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-NSW-MINISTERIAL-RELEASES-20261030070725",
+      "source_change_event_id": "CHG-WATCH-NSW-MINISTERIAL-RELEASES-20261030070725",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-NSW-MINISTERIAL-RELEASES-20261030070725",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "NSW Government — Ministerial releases added 3 structured publication records to its forward-captured official index: Staff and volunteers celebrated at the 2026 NSW Health Awards; Cabinet Office; Premier&#039;s Department",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-10-30T07:07:58.305Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "5aec525ff289f197456b",
+            "title": "Staff and volunteers celebrated at the 2026 NSW Health Awards",
+            "url": "https://www.nsw.gov.au/ministerial-releases/2026-nsw-health-awards"
+          },
+          {
+            "record_id": "ae014846c978a27728f5",
+            "title": "Cabinet Office",
+            "url": "https://www.nsw.gov.au/departments-and-agencies/the-cabinet-office"
+          },
+          {
+            "record_id": "e959deabbeb7b841be0f",
+            "title": "Premier&#039;s Department",
+            "url": "https://www.nsw.gov.au/departments-and-agencies/premiers-department"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "f78cb9e7d05e2c7d46f8",
+            "title": "Community reminded to have their say on Regional Corridors Upgrade Program – Newcastle to Dubbo",
+            "url": "https://www.nsw.gov.au/ministerial-releases/community-reminded-to-have-their-say-on-regional-corridors-upgrade-program-%e2%80%93-newcastle-to-dubbo"
+          }
+        ],
+        "delta_hash": "fd8269e81292e3ff6bb405cb2a8430fd6678b7965ea7f5d6672ce9caf9a49921"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261030070725",
+      "source_change_event_id": "CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261030070725",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261030070725",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Queensland Government — Ministerial Media Statements added 3 structured publication records to its forward-captured official index: Major energy boost for new Toowoomba Hospital; 2026 Showcase awards celebrates excellence across Queensland state schools; New permit system to support transport of baled goods",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-10-30T07:07:58.305Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "9192ed5e7a0079c7211e",
+            "title": "Major energy boost for new Toowoomba Hospital",
+            "url": "https://statements.qld.gov.au/statements/106321"
+          },
+          {
+            "record_id": "991430c19942421f93bf",
+            "title": "2026 Showcase awards celebrates excellence across Queensland state schools",
+            "url": "https://statements.qld.gov.au/statements/106316"
+          },
+          {
+            "record_id": "b2d38b3aeab7b00f7fec",
+            "title": "New permit system to support transport of baled goods",
+            "url": "https://statements.qld.gov.au/statements/106320"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "6bc0c26ffc778cd6a853",
+            "title": "Brisbane to host historic ANZAC Day rugby double-header",
+            "url": "https://statements.qld.gov.au/statements/106312"
+          },
+          {
+            "record_id": "aaada887ce16ced25daf",
+            "title": "Queensland takes centre court securing World Wheelchair Rugby Cup",
+            "url": "https://statements.qld.gov.au/statements/106306"
+          },
+          {
+            "record_id": "b96bba3b733504117549",
+            "title": "Country Roads Connect seals missing link on Daymar-Weengallon Road",
+            "url": "https://statements.qld.gov.au/statements/106307"
+          }
+        ],
+        "delta_hash": "a9d8d8c4b84e4d7db7b36f09bfbc8bf37474429a1ee652cb6e19c4ecf79dea26"
       },
       "integrity": {
         "source_change_unchanged": true,

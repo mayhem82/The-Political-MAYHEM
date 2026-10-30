@@ -63,9 +63,9 @@
       "source_id": "SRC-APH-LIVE-MINUTES",
       "jurisdiction_id": "AUS-FED",
       "party_id": null,
-      "content_hash": "e4e90f23f0c09700100dd60cd173b5e9d9d10b894af0e100d024f4f232bffbbb",
-      "snapshot_id": "AUTO-WATCH-APH-LIVE-MINUTES-20261029070654",
-      "captured_at": "2026-10-29T07:06:54.005Z",
+      "content_hash": "094f966b264d7ab0668f109d6ea8b939e13af0f9f9b6bf83130f16a8ca4c8a3e",
+      "snapshot_id": "AUTO-WATCH-APH-LIVE-MINUTES-20261030140937",
+      "captured_at": "2026-10-30T14:09:37.034Z",
       "acquisition_url": "https://www.aph.gov.au/LiveMinutes",
       "requested_url": "https://www.aph.gov.au/LiveMinutes",
       "header_profile": "BROWSER_COMPATIBILITY",
@@ -161,9 +161,9 @@
       "source_id": "SRC-WA-HANSARD",
       "jurisdiction_id": "AUS-WA",
       "party_id": null,
-      "content_hash": "c9b5da21e59f03b0e7aaf8543bc5b128d099cfefb10dcc259a54dd33ad9889c3",
-      "snapshot_id": "AUTO-WATCH-WA-HANSARD-20261030070725",
-      "captured_at": "2026-10-30T07:07:25.871Z",
+      "content_hash": "97b214916cdcb2b24d03a2fcf1e7ca177a4fbfbfd44b99da00c7ea28698b5961",
+      "snapshot_id": "AUTO-WATCH-WA-HANSARD-20261030140937",
+      "captured_at": "2026-10-30T14:09:37.034Z",
       "acquisition_url": "https://www.parliament.wa.gov.au/4825795E0000B647/content/hansard-how-to-search-and-use-hansard",
       "requested_url": "https://www.parliament.wa.gov.au/4825795E0000B647/content/hansard-how-to-search-and-use-hansard",
       "header_profile": "BROWSER_COMPATIBILITY",
@@ -506,11 +506,11 @@
       "captured_representation_complete": true
     }
   },
-  "updated_at": "2026-10-30T07:07:25.871Z",
+  "updated_at": "2026-10-30T14:09:37.034Z",
   "last_run": {
-    "captured_at": "2026-10-30T07:07:25.871Z",
+    "captured_at": "2026-10-30T14:09:37.034Z",
     "baselines_created": 0,
-    "source_changes_created": 4,
+    "source_changes_created": 2,
     "semantic_signals_created": 0,
     "representation_upgrades": 0,
     "failures": [
@@ -525,10 +525,6 @@
       {
         "watch_id": "WATCH-ECQ-MEDIA",
         "error": "https://www.ecq.qld.gov.au/media/2026-media-statements [IDENTIFIED_AUTOMATION] 403 Forbidden | https://www.ecq.qld.gov.au/media/2026-media-statements [BROWSER_COMPATIBILITY] 403 Forbidden | https://www.ecq.qld.gov.au/home [IDENTIFIED_AUTOMATION] 403 Forbidden | https://www.ecq.qld.gov.au/home [BROWSER_COMPATIBILITY] 403 Forbidden"
-      },
-      {
-        "watch_id": "WATCH-TAS-HANSARD",
-        "error": "https://search.parliament.tas.gov.au/Search/search/search?IW_FIELD_ADVANCE_PHRASE=2026%20IN%20TITLE&IW_DATABASE=Hansard&IW_SORT=-9&IW_SEARCH_SCOPE=meta [IDENTIFIED_AUTOMATION] 503 Service Unavailable | https://search.parliament.tas.gov.au/Search/search/search?IW_FIELD_ADVANCE_PHRASE=2026%20IN%20TITLE&IW_DATABASE=Hansard&IW_SORT=-9&IW_SEARCH_SCOPE=meta [BROWSER_COMPATIBILITY] 503 Service Unavailable"
       },
       {
         "watch_id": "WATCH-TAS-PREMIER-NEWS",
@@ -564,7 +560,7 @@
   "coverage": {
     "active_sources": 36,
     "baselines_captured": 36,
-    "current_run_failures": 11,
+    "current_run_failures": 10,
     "jurisdictions": {
       "AUS-FED": {
         "configured_sources": 10,
@@ -636,7 +632,7 @@
       "AUS-TAS": {
         "configured_sources": 3,
         "baseline_sources": 3,
-        "current_run_failures": 2,
+        "current_run_failures": 1,
         "source_classes": [
           "PRIMARY_ELECTORAL_AUTHORITY",
           "PRIMARY_GOVERNMENT",

@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-INTELLIGENCE-EVENTS-001",
   "scope": "Australia — multi-jurisdiction",
-  "captured_at": "2026-10-30T23:48:44.738Z",
+  "captured_at": "2026-10-31T12:32:02.173Z",
   "mode": "FORWARD_ONLY",
   "rules": {
     "observation_distinct_from_inference": true,
@@ -122511,6 +122511,180 @@
           "record_id": "ffe6a78300be0f0ce7f3",
           "title": "What is public funding?",
           "url": "https://elections.nsw.gov.au/electoral-funding/public-funding/what-is-public-funding"
+        }
+      ],
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "underlying_publication_claims_not_promoted_to_verified_fact": true,
+        "source_change_parent_retained": true,
+        "deterministic_review": true
+      }
+    },
+    {
+      "event_id": "CHG-WATCH-PM-MEDIA-20261031123123",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-FED",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-PM-MEDIA-20261031123123",
+      "captured_at": "2026-10-31T12:31:23.916Z",
+      "event_date": "2026-10-31",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-PM-MEDIA",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "review_policy": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-PM-MEDIA-20261029005746",
+        "content_hash": "10dba9d6e8f2dccd77780af1b7b444654d140c06f9c91a4b7e141ccbbb667b34",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-PM-MEDIA-20261031123123",
+        "content_hash": "32ac65b5b654a6ae69f761f253c312c5a4d4011a6803f296a1d9ba23cadd4ad4",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "STRUCTURED_RECORD_SET",
+        "records_added": [
+          {
+            "record_id": "8a0061a9f8cca6adb65d",
+            "title": "2027 WA Australian of the Year Awards",
+            "url": "https://www.pm.gov.au/media/2027-wa-australian-year-awards"
+          },
+          {
+            "record_id": "ba4dffb6a1c86a01bcff",
+            "title": "2026 Commonwealth Heads of Government Health",
+            "url": "https://www.pm.gov.au/media/2026-commonwealth-heads-government-health"
+          }
+        ],
+        "records_removed": [
+          {
+            "record_id": "6446a635b97d14cfa703",
+            "title": "Australia&#039;s first major new airport has been decades in the making",
+            "url": "https://www.pm.gov.au/media/australias-first-major-new-airport-has-been-decades-making"
+          },
+          {
+            "record_id": "9a03f6c98c343fcc973f",
+            "title": "Hellenic Club Centenary Gala Ball",
+            "url": "https://www.pm.gov.au/media/hellenic-club-centenary-gala-ball"
+          }
+        ],
+        "added_count": 2,
+        "removed_count": 2,
+        "before_count": 27,
+        "after_count": 27,
+        "delta_hash": "bd0f22d0bd3975a58e6da3dac74e53cdfb7b85d4d553cb97768efd1204dfff4a"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-LIBERAL-HOME-20261031123123",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-FED",
+      "party_id": "AUS-FED-LIB",
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-LIBERAL-HOME-20261031123123",
+      "captured_at": "2026-10-31T12:31:23.916Z",
+      "event_date": "2026-10-31",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_PARTY",
+      "source_id": "SRC-LIBERAL-FEDERAL-HOME",
+      "capture_mode": "NORMALISED_PAGE_HASH",
+      "review_policy": "REVIEW_UNSTRUCTURED_CHANGE",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-LIBERAL-HOME-20261030070725",
+        "content_hash": "81893af630965b6697a0654dd909ac759739cd431d064e07f902bd0fad90fbf9",
+        "capture_mode": "NORMALISED_PAGE_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-LIBERAL-HOME-20261031123123",
+        "content_hash": "02b4c14dd149cedd5626fed814e82ed67d16e89cb3ed281269b4423d2e0cb459",
+        "capture_mode": "NORMALISED_PAGE_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "TEXT_REPRESENTATION",
+        "first_difference_offset": 1415,
+        "before_length": 5925,
+        "after_length": 5888,
+        "before_excerpt": "er of the Opposition in the Senate Meet the Liberal Team The Latest Stay up to date with the Liberal Party of Australia liberalaus Because Anthony Albanese and Jim Chalmers can’t manage money, inflation has been too high for too long. The more they spend, the more you pay. Oct 30 Open post by liberalaus with ID 17991570600067036 liberalaus Not that long ago, the Treasurer said the worst of the inflation challenge was “well and truly behind us”. The reality is that inflation is high and rising under his watch and every Australian is paying the price. It doesn’t have to be this way. Visit the link in bio to see our plan to fix the economy and protect our way of life. Oct 29 Open post by liberalaus with ID 18025259381862968 angustaylormp Today, we remember Daniel and honour the legacy that helps keep children safe across Australia. Through the Daniel Morcombe Foundation, Daniel’s parents, Bruce and Denise, have shown an unwavering commitment to child safety and protecting young Australians. Their tireless work educates children, empowers families and helps make our communities safer. Oct 29 Open post by angustaylormp with ID 18038298023844734 liberalaus Labor`s economic mismanagement means higher inflation, costing all Australians. Oct 29 Open post by liberalaus with ID 18035986298853759 angustaylormp This Remembrance Day, protests have been planned by students and teachers across Australia. This sacred day must not be hijacked. Oct 29 Open post by angustaylormp with ID 18034237469908975 senatorhume Fact: for every $2 Labor claims to have saved, they have spent $3. Oct 29 Open post by senatorhume with ID 18120075421953736 liberalaus Labor doesn`t respect small business, and everyone pays the price. Oct 29 Open post by liberalaus with ID 17970560666963503 angustaylormp We understand small business. We will fight for you and show you the respect you deserve! Oct 29 Open post by angustaylormp with ID 18108405335630090 liberalaus You cannot keep spending more, taxing more and driving up costs, then pretend inflation and interest rates have nothing to do with you. Oct 29 Open post by liberalaus with ID 18032242130683465 angustaylormp We have a plan to get small business back to where it belongs—at the centre of our economy. Great to call into Monaro Screens this morning, a family-run small business in Canberra. We’ll back small and family business every single day! Oct 29 Open post by angustaylormp with ID 18101202554564111 senatorhume Albo has a problem with the truth. Oct 29 Open post by senatorhume with ID 18230915194325384 liberalaus Labor`s record spending and deficits means inflation on average has been almost double what it was under the Liberals and Nationals. We need better economic management to tackle inflation and improve living standards. Oct 29 Open post by liberalaus with ID 17908998171331935 liberalaus Australia’s inflation is higher than in any major advanced economy. Economists and the Reserve Bank agree: Labor’s high spending is fuelling inflation. Oct 29 Open post by liberalaus with ID 17878994868651409 liberalaus Jim Chalmers` refuses to admit his spending is stoking inflation and higher interest rates. If he can`t admit there`s a problem, how can he fix it? Oct 28 Open post by liberalaus with ID 18115346441601573 liberalaus Albanese has a strange relationship with the truth. Oct 28 Open post by liberalaus with ID 18006282959795309 senatorhume The RBA has confirmed what Australians already know: Labor’s spending is keeping inflation too high. Oct 28 Open post by senatorhume with ID 18157149148524281 angustaylormp Labor’s wasteful spending is driving up the cost of living. Our plan will cut the waste, ease the pressure on households and fix the economy. Oct 28 Open post by angustaylormp with ID 18132638575703192 liberalaus Life isn’t easy under Albanese. Oct 28 Open post by liberalaus with ID 18184468438422742 We need your support to win! Help us by making a donation today. 🙏🏼 $30 👏🏼 $60 😃 $120 😁 $500 😲 $1,000 🥹 $2,000 ",
+        "after_excerpt": "er of the Opposition in the Senate Meet the Liberal Team The Latest Stay up to date with the Liberal Party of Australia senatorhume Labor’s Administration of the CFMEU is failing and they refuse to hold an inquiry into corruption in the construction sector. Why? Oct 31 Open post by senatorhume with ID 17978345370156905 angustaylormp Oct 31 Open post by angustaylormp with ID 18078473726742363 senatorhume And yet Labor thinks its spending isn’t a problem 🤔 Oct 30 Open post by senatorhume with ID 18090506171252287 liberalaus Australians are worse off under Labor. The Liberals and Nationals will restore your standard of living. Oct 30 Open post by liberalaus with ID 17990310945085169 liberalaus Because Anthony Albanese and Jim Chalmers can’t manage money, inflation has been too high for too long. The more they spend, the more you pay. Oct 30 Open post by liberalaus with ID 17991570600067036 liberalaus Not that long ago, the Treasurer said the worst of the inflation challenge was “well and truly behind us”. The reality is that inflation is high and rising under his watch and every Australian is paying the price. It doesn’t have to be this way. Visit the link in bio to see our plan to fix the economy and protect our way of life. Oct 29 Open post by liberalaus with ID 18025259381862968 angustaylormp Today, we remember Daniel and honour the legacy that helps keep children safe across Australia. Through the Daniel Morcombe Foundation, Daniel’s parents, Bruce and Denise, have shown an unwavering commitment to child safety and protecting young Australians. Their tireless work educates children, empowers families and helps make our communities safer. Oct 29 Open post by angustaylormp with ID 18038298023844734 liberalaus Labor`s economic mismanagement means higher inflation, costing all Australians. Oct 29 Open post by liberalaus with ID 18035986298853759 angustaylormp This Remembrance Day, protests have been planned by students and teachers across Australia. This sacred day must not be hijacked. Oct 29 Open post by angustaylormp with ID 18034237469908975 senatorhume Fact: for every $2 Labor claims to have saved, they have spent $3. Oct 29 Open post by senatorhume with ID 18120075421953736 liberalaus Labor doesn`t respect small business, and everyone pays the price. Oct 29 Open post by liberalaus with ID 17970560666963503 angustaylormp We understand small business. We will fight for you and show you the respect you deserve! Oct 29 Open post by angustaylormp with ID 18108405335630090 liberalaus You cannot keep spending more, taxing more and driving up costs, then pretend inflation and interest rates have nothing to do with you. Oct 29 Open post by liberalaus with ID 18032242130683465 angustaylormp We have a plan to get small business back to where it belongs—at the centre of our economy. Great to call into Monaro Screens this morning, a family-run small business in Canberra. We’ll back small and family business every single day! Oct 29 Open post by angustaylormp with ID 18101202554564111 senatorhume Albo has a problem with the truth. Oct 29 Open post by senatorhume with ID 18230915194325384 liberalaus Labor`s record spending and deficits means inflation on average has been almost double what it was under the Liberals and Nationals. We need better economic management to tackle inflation and improve living standards. Oct 29 Open post by liberalaus with ID 17908998171331935 liberalaus Australia’s inflation is higher than in any major advanced economy. Economists and the Reserve Bank agree: Labor’s high spending is fuelling inflation. Oct 29 Open post by liberalaus with ID 17878994868651409 liberalaus Jim Chalmers` refuses to admit his spending is stoking inflation and higher interest rates. If he can`t admit there`s a problem, how can he fix it? Oct 28 Open post by liberalaus with ID 18115346441601573 We need your support to win! Help us by making a donation today. 🙏🏼 $30 👏🏼 $60 😃 $120 😁 $500 😲 $1,000 🥹 $2,000 ",
+        "delta_hash": "ceff613d1b858df3644f9512ef39fa0a2c1ac4add663de8dd179ada8b2bb66e1"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "SIG-REV-CHG-WATCH-PM-MEDIA-20261031123123",
+      "parent_event_id": "CHG-WATCH-PM-MEDIA-20261031123123",
+      "review_id": "REV-CHG-WATCH-PM-MEDIA-20261031123123",
+      "jurisdiction_id": "AUS-FED",
+      "party_id": null,
+      "actor_id": null,
+      "contest_id": null,
+      "cycle_id": null,
+      "source_snapshot_id": "AUTO-WATCH-PM-MEDIA-20261031123123",
+      "record_id": null,
+      "captured_at": "2026-10-31T12:31:58.681Z",
+      "event_date": "2026-10-31",
+      "checkpoint": "CONTINUOUS_FORWARD_SIGNAL_REVIEW",
+      "event_type": "SIGNAL_CREATED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-PM-MEDIA",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "claim": "Prime Minister of Australia — media added 2 structured publication records to its forward-captured official index: 2027 WA Australian of the Year Awards; 2026 Commonwealth Heads of Government Health",
+      "observed_behaviour": "One or more structured publication records appeared in the monitored official source index after the preceding forward snapshot.",
+      "publication_records_added": [
+        {
+          "record_id": "8a0061a9f8cca6adb65d",
+          "title": "2027 WA Australian of the Year Awards",
+          "url": "https://www.pm.gov.au/media/2027-wa-australian-year-awards"
+        },
+        {
+          "record_id": "ba4dffb6a1c86a01bcff",
+          "title": "2026 Commonwealth Heads of Government Health",
+          "url": "https://www.pm.gov.au/media/2026-commonwealth-heads-government-health"
+        }
+      ],
+      "publication_records_removed": [
+        {
+          "record_id": "6446a635b97d14cfa703",
+          "title": "Australia&#039;s first major new airport has been decades in the making",
+          "url": "https://www.pm.gov.au/media/australias-first-major-new-airport-has-been-decades-making"
+        },
+        {
+          "record_id": "9a03f6c98c343fcc973f",
+          "title": "Hellenic Club Centenary Gala Ball",
+          "url": "https://www.pm.gov.au/media/hellenic-club-centenary-gala-ball"
         }
       ],
       "inference": null,

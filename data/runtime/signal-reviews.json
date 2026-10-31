@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-SIGNAL-REVIEWS-001",
   "created_at": "2026-09-09T05:05:00+10:00",
-  "updated_at": "2026-10-30T23:48:40.252Z",
+  "updated_at": "2026-10-31T12:31:58.681Z",
   "rules": {
     "append_only": true,
     "raw_source_change_is_immutable": true,
@@ -44515,6 +44515,56 @@
           }
         ],
         "delta_hash": "2818b038a9a322688e99865110ac1eb86665f5b99a3087938c7e78d5fbf2c195"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-PM-MEDIA-20261031123123",
+      "source_change_event_id": "CHG-WATCH-PM-MEDIA-20261031123123",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-PM-MEDIA-20261031123123",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Prime Minister of Australia — media added 2 structured publication records to its forward-captured official index: 2027 WA Australian of the Year Awards; 2026 Commonwealth Heads of Government Health",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-10-31T12:31:58.681Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "8a0061a9f8cca6adb65d",
+            "title": "2027 WA Australian of the Year Awards",
+            "url": "https://www.pm.gov.au/media/2027-wa-australian-year-awards"
+          },
+          {
+            "record_id": "ba4dffb6a1c86a01bcff",
+            "title": "2026 Commonwealth Heads of Government Health",
+            "url": "https://www.pm.gov.au/media/2026-commonwealth-heads-government-health"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "6446a635b97d14cfa703",
+            "title": "Australia&#039;s first major new airport has been decades in the making",
+            "url": "https://www.pm.gov.au/media/australias-first-major-new-airport-has-been-decades-making"
+          },
+          {
+            "record_id": "9a03f6c98c343fcc973f",
+            "title": "Hellenic Club Centenary Gala Ball",
+            "url": "https://www.pm.gov.au/media/hellenic-club-centenary-gala-ball"
+          }
+        ],
+        "delta_hash": "bd0f22d0bd3975a58e6da3dac74e53cdfb7b85d4d553cb97768efd1204dfff4a"
       },
       "integrity": {
         "source_change_unchanged": true,

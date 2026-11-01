@@ -69,63 +69,63 @@
     {
       "jurisdiction_id": "AUS-FED",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-11-01T07:34:31.180Z",
+      "last_screened_at": "2026-11-01T15:11:05.323Z",
       "signals_examined": 261,
       "candidates_detected": 106
     },
     {
       "jurisdiction_id": "AUS-NSW",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-11-01T07:34:31.180Z",
-      "signals_examined": 125,
-      "candidates_detected": 42
+      "last_screened_at": "2026-11-01T15:11:05.323Z",
+      "signals_examined": 130,
+      "candidates_detected": 47
     },
     {
       "jurisdiction_id": "AUS-VIC",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-11-01T07:34:31.180Z",
+      "last_screened_at": "2026-11-01T15:11:05.323Z",
       "signals_examined": 27,
       "candidates_detected": 6
     },
     {
       "jurisdiction_id": "AUS-QLD",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-11-01T07:34:31.180Z",
+      "last_screened_at": "2026-11-01T15:11:05.323Z",
       "signals_examined": 72,
       "candidates_detected": 45
     },
     {
       "jurisdiction_id": "AUS-WA",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-11-01T07:34:31.180Z",
+      "last_screened_at": "2026-11-01T15:11:05.323Z",
       "signals_examined": 8,
       "candidates_detected": 3
     },
     {
       "jurisdiction_id": "AUS-SA",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-11-01T07:34:31.180Z",
+      "last_screened_at": "2026-11-01T15:11:05.323Z",
       "signals_examined": 4,
       "candidates_detected": 0
     },
     {
       "jurisdiction_id": "AUS-TAS",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-11-01T07:34:31.180Z",
+      "last_screened_at": "2026-11-01T15:11:05.323Z",
       "signals_examined": 21,
       "candidates_detected": 0
     },
     {
       "jurisdiction_id": "AUS-ACT",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-11-01T07:34:31.180Z",
+      "last_screened_at": "2026-11-01T15:11:05.323Z",
       "signals_examined": 24,
       "candidates_detected": 1
     },
     {
       "jurisdiction_id": "AUS-NT",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-11-01T07:34:31.180Z",
+      "last_screened_at": "2026-11-01T15:11:05.323Z",
       "signals_examined": 31,
       "candidates_detected": 0
     }
@@ -8217,21 +8217,208 @@
           "reason": "SUBSTANTIVE_THRESHOLD_EVALUATION_PROPAGATED"
         }
       ]
+    },
+    {
+      "candidate_id": "DISC-NSW-ELECTION-63ac31608cc8cd75",
+      "jurisdiction_id": "AUS-NSW",
+      "competition_family": "ELECTION",
+      "proposed_competition_class": "ELECTORAL",
+      "proposed_cycle_id": null,
+      "subject": "Ingested substantive electoral evidence from Election day: Kiama Municipal Council by-election. Captured content includes stage: vote. Registration threshold state: evidence gap. Missing requirements: missing fact type stage, missing condition resolved participant or team.",
+      "candidate_state": "EVIDENCE_GAP",
+      "detected_at": "2026-11-01T15:11:04.870Z",
+      "source_snapshot_ids": [
+        "AUTO-WATCH-NSWEC-MEDIA-20261101073323"
+      ],
+      "signal_event_ids": [
+        "INTEL-AREA-c69b055c96b5cec1bd75ba65"
+      ],
+      "review_ids": [],
+      "area_evidence_ids": [
+        "AREA-c69b055c96b5cec1bd75ba65"
+      ],
+      "detail_version_ids": [
+        "DETAIL-6fd960ada05214676825cf75-V1"
+      ],
+      "evidence_summary": "Substantive source record body was acquired, routed to ELECTORAL, and written into intelligence with retained detail, source-snapshot and stage-10 threshold lineage. Match registration remains a separate action.",
+      "registration_blockers": [
+        "MISSING_CONDITION_RESOLVED_PARTICIPANT_OR_TEAM",
+        "MISSING_FACT_TYPE_STAGE"
+      ],
+      "linked_contest_id": null,
+      "state_history": [
+        {
+          "from": null,
+          "to": "EVIDENCE_GAP",
+          "at": "2026-11-01T15:11:04.870Z",
+          "reason": "SUBSTANTIVE_THRESHOLD_EVALUATION_PROPAGATED"
+        }
+      ]
+    },
+    {
+      "candidate_id": "DISC-NSW-ELECTION-83bb8de912489271",
+      "jurisdiction_id": "AUS-NSW",
+      "competition_family": "ELECTION",
+      "proposed_competition_class": "ELECTORAL",
+      "proposed_cycle_id": null,
+      "subject": "Ingested substantive electoral evidence from Nominations Open: Kiama Municipal Council by-election. Registration threshold state: evidence gap. Missing requirements: missing condition resolved participant or team.",
+      "candidate_state": "EVIDENCE_GAP",
+      "detected_at": "2026-11-01T15:11:04.870Z",
+      "source_snapshot_ids": [
+        "AUTO-WATCH-NSWEC-MEDIA-20261101073323"
+      ],
+      "signal_event_ids": [
+        "INTEL-AREA-0d88d27192602560e1c5725c"
+      ],
+      "review_ids": [],
+      "area_evidence_ids": [
+        "AREA-0d88d27192602560e1c5725c"
+      ],
+      "detail_version_ids": [
+        "DETAIL-89629516bd00b526be924270-V1"
+      ],
+      "evidence_summary": "Substantive source record body was acquired, routed to ELECTORAL, and written into intelligence with retained detail, source-snapshot and stage-10 threshold lineage. Match registration remains a separate action.",
+      "registration_blockers": [
+        "MISSING_CONDITION_RESOLVED_PARTICIPANT_OR_TEAM"
+      ],
+      "linked_contest_id": null,
+      "state_history": [
+        {
+          "from": null,
+          "to": "EVIDENCE_GAP",
+          "at": "2026-11-01T15:11:04.870Z",
+          "reason": "SUBSTANTIVE_THRESHOLD_EVALUATION_PROPAGATED"
+        }
+      ]
+    },
+    {
+      "candidate_id": "DISC-NSW-ELECTION-e0e878ad5f7eb5c3",
+      "jurisdiction_id": "AUS-NSW",
+      "competition_family": "ELECTION",
+      "proposed_competition_class": "ELECTORAL",
+      "proposed_cycle_id": null,
+      "subject": "Ingested substantive electoral evidence from One year to go – 2027 NSW State election. Captured content includes stage: consultation; outcome language: implemented. Registration threshold state: evidence gap. Missing requirements: missing fact type stage, missing condition resolved participant or te",
+      "candidate_state": "EVIDENCE_GAP",
+      "detected_at": "2026-11-01T15:11:04.870Z",
+      "source_snapshot_ids": [
+        "AUTO-WATCH-NSWEC-MEDIA-20261101073323"
+      ],
+      "signal_event_ids": [
+        "INTEL-AREA-ff02240b3773eccd83bf9b62"
+      ],
+      "review_ids": [],
+      "area_evidence_ids": [
+        "AREA-ff02240b3773eccd83bf9b62"
+      ],
+      "detail_version_ids": [
+        "DETAIL-5c4ed3c14803e980aac1667e-V1"
+      ],
+      "evidence_summary": "Substantive source record body was acquired, routed to ELECTORAL, and written into intelligence with retained detail, source-snapshot and stage-10 threshold lineage. Match registration remains a separate action.",
+      "registration_blockers": [
+        "MISSING_CONDITION_RESOLVED_PARTICIPANT_OR_TEAM",
+        "MISSING_FACT_TYPE_STAGE"
+      ],
+      "linked_contest_id": null,
+      "state_history": [
+        {
+          "from": null,
+          "to": "EVIDENCE_GAP",
+          "at": "2026-11-01T15:11:04.870Z",
+          "reason": "SUBSTANTIVE_THRESHOLD_EVALUATION_PROPAGATED"
+        }
+      ]
+    },
+    {
+      "candidate_id": "DISC-NSW-POLICY_ENACTMENT-ef91f347d2c324fd",
+      "jurisdiction_id": "AUS-NSW",
+      "competition_family": "POLICY_ENACTMENT",
+      "proposed_competition_class": "POLICY_ENACTMENT",
+      "proposed_cycle_id": "AUS-NSW-58TH-PARLIAMENT",
+      "subject": "Ingested substantive policy enactment evidence from One year to go – 2027 NSW State election. Captured content includes stage: consultation; outcome language: implemented. Registration threshold state: evidence gap. Missing requirements: missing fact type objective, missing fact type material resist",
+      "candidate_state": "EVIDENCE_GAP",
+      "detected_at": "2026-11-01T15:11:04.870Z",
+      "source_snapshot_ids": [
+        "AUTO-WATCH-NSWEC-MEDIA-20261101073323"
+      ],
+      "signal_event_ids": [
+        "INTEL-AREA-3e097091a12adeed29e2afe3"
+      ],
+      "review_ids": [],
+      "area_evidence_ids": [
+        "AREA-3e097091a12adeed29e2afe3"
+      ],
+      "detail_version_ids": [
+        "DETAIL-5c4ed3c14803e980aac1667e-V1"
+      ],
+      "evidence_summary": "Substantive source record body was acquired, routed to POLICY_ENACTMENT, and written into intelligence with retained detail, source-snapshot and stage-10 threshold lineage. Match registration remains a separate action.",
+      "registration_blockers": [
+        "MISSING_CONDITION_DISTINCT_SUPPORTING_AND_OPPOSING_SIDES",
+        "MISSING_FACT_TYPE_EXPLICIT_OPPOSITION_POSITION",
+        "MISSING_FACT_TYPE_EXPLICIT_SUPPORT_POSITION",
+        "MISSING_FACT_TYPE_MATERIAL_RESISTANCE",
+        "MISSING_FACT_TYPE_OBJECTIVE"
+      ],
+      "linked_contest_id": null,
+      "state_history": [
+        {
+          "from": null,
+          "to": "EVIDENCE_GAP",
+          "at": "2026-11-01T15:11:04.870Z",
+          "reason": "SUBSTANTIVE_THRESHOLD_EVALUATION_PROPAGATED"
+        }
+      ]
+    },
+    {
+      "candidate_id": "DISC-NSW-ELECTION-1ca7c50c7d08843a",
+      "jurisdiction_id": "AUS-NSW",
+      "competition_family": "ELECTION",
+      "proposed_competition_class": "ELECTORAL",
+      "proposed_cycle_id": null,
+      "subject": "Ingested substantive electoral evidence from Voting is compulsory: Kiama Municipal Council by-election. Captured content includes stage: vote. Registration threshold state: evidence gap. Missing requirements: missing fact type stage, missing condition resolved participant or team.",
+      "candidate_state": "EVIDENCE_GAP",
+      "detected_at": "2026-11-01T15:11:04.870Z",
+      "source_snapshot_ids": [
+        "AUTO-WATCH-NSWEC-MEDIA-20261101073323"
+      ],
+      "signal_event_ids": [
+        "INTEL-AREA-0ee7fb8c4b4691c333758f26"
+      ],
+      "review_ids": [],
+      "area_evidence_ids": [
+        "AREA-0ee7fb8c4b4691c333758f26"
+      ],
+      "detail_version_ids": [
+        "DETAIL-f0d1fcd5178088eaac1b619f-V1"
+      ],
+      "evidence_summary": "Substantive source record body was acquired, routed to ELECTORAL, and written into intelligence with retained detail, source-snapshot and stage-10 threshold lineage. Match registration remains a separate action.",
+      "registration_blockers": [
+        "MISSING_CONDITION_RESOLVED_PARTICIPANT_OR_TEAM",
+        "MISSING_FACT_TYPE_STAGE"
+      ],
+      "linked_contest_id": null,
+      "state_history": [
+        {
+          "from": null,
+          "to": "EVIDENCE_GAP",
+          "at": "2026-11-01T15:11:04.870Z",
+          "reason": "SUBSTANTIVE_THRESHOLD_EVALUATION_PROPAGATED"
+        }
+      ]
     }
   ],
-  "last_screened_at": "2026-11-01T07:34:31.180Z",
+  "last_screened_at": "2026-11-01T15:11:05.323Z",
   "last_screen_summary": {
-    "signals_examined": 573,
-    "candidates_total": 203,
-    "candidates_added": 17,
-    "candidate_lineage_merges": 398,
-    "substantive_area_events_examined": 128,
+    "signals_examined": 578,
+    "candidates_total": 208,
+    "candidates_added": 5,
+    "candidate_lineage_merges": 415,
+    "substantive_area_events_examined": 133,
     "threshold_state_transitions": 0,
     "registered_contests_unchanged": true
   },
-  "last_duplicate_reconciliation_at": "2026-11-01T07:34:31.266Z",
+  "last_duplicate_reconciliation_at": "2026-11-01T15:11:05.406Z",
   "last_duplicate_reconciliation": {
     "rejected": 0,
-    "active_area_family_keys": 127
+    "active_area_family_keys": 132
   }
 }

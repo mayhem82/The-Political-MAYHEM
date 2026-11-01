@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-SIGNAL-REVIEWS-001",
   "created_at": "2026-09-09T05:05:00+10:00",
-  "updated_at": "2026-11-01T15:10:57.313Z",
+  "updated_at": "2026-11-01T23:37:13.770Z",
   "rules": {
     "append_only": true,
     "raw_source_change_is_immutable": true,
@@ -46600,6 +46600,126 @@
           }
         ],
         "delta_hash": "a0bd5ac907bbd69d0906acf249638a874cf94c9366ff84da37be7c0b72f68cca"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-NSW-MINISTERIAL-RELEASES-20261101233626",
+      "source_change_event_id": "CHG-WATCH-NSW-MINISTERIAL-RELEASES-20261101233626",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-NSW-MINISTERIAL-RELEASES-20261101233626",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "NSW Government — Ministerial releases added 9 structured publication records to its forward-captured official index: New intake of paramedics and control staff; Building a mentally fit future for regional kids; Powerhouse Parramatta’s dress rehearsal ahead of historic opening; New South Wales leads push for return to pen and paper NAPLAN writing tests; Developer sought for Bradfield City’s next major jobs and business precinct; +4 more",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-11-01T23:37:13.770Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "312969d34ab92b66fcd5",
+            "title": "New intake of paramedics and control staff",
+            "url": "https://www.nsw.gov.au/ministerial-releases/new-intake-of-paramedics"
+          },
+          {
+            "record_id": "55e1ee1f3fe163a9c1db",
+            "title": "Building a mentally fit future for regional kids",
+            "url": "https://www.nsw.gov.au/ministerial-releases/building-a-mentally-fit-future-for-regional-kids"
+          },
+          {
+            "record_id": "5bce15584c0bd89daf82",
+            "title": "Powerhouse Parramatta’s dress rehearsal ahead of historic opening",
+            "url": "https://www.nsw.gov.au/departments-and-agencies/dciths/ministerial-media-releases/powerhouse-parramattas-dress-rehearsal-ahead-of-historic-opening"
+          },
+          {
+            "record_id": "612d6a3ebf42608066d5",
+            "title": "New South Wales leads push for return to pen and paper NAPLAN writing tests",
+            "url": "https://www.nsw.gov.au/ministerial-releases/new-south-wales-leads-push-for-return-to-pen-and-paper-naplan-writing-tests"
+          },
+          {
+            "record_id": "b988a12eaf6e0730e907",
+            "title": "Developer sought for Bradfield City’s next major jobs and business precinct",
+            "url": "https://www.nsw.gov.au/ministerial-releases/bradfield-city-business-developer-sought"
+          },
+          {
+            "record_id": "bfcf59c5212b792b293d",
+            "title": "Armed Response Command operational from today",
+            "url": "https://www.nsw.gov.au/ministerial-releases/armed-response-command-operational-from-today"
+          },
+          {
+            "record_id": "c8d2880aa8ff880a48f8",
+            "title": "Start dates set for Minns Labor Government’s new underquoting laws",
+            "url": "https://www.nsw.gov.au/ministerial-releases/start-dates-set-for-minns-labor-governments-new-underquoting-laws"
+          },
+          {
+            "record_id": "cc5c1eb9c66194f9f47a",
+            "title": "National Gun Buyback in NSW begins today, industry support grants open",
+            "url": "https://www.nsw.gov.au/ministerial-releases/national-gun-buyback-nsw-begins-today-industry-support-grants-open"
+          },
+          {
+            "record_id": "eccf020d362b201f847b",
+            "title": "Additional funding to improve track safety as greyhound racing transitions from Wentworth Park",
+            "url": "https://www.nsw.gov.au/ministerial-releases/greyhound-safety-transition-wentworth-park"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "0ab545699cc7a1fe5df3",
+            "title": "David Harris MP announces retirement at 2027 state election",
+            "url": "https://www.nsw.gov.au/ministerial-releases/david-harris-mp-announces-retirement-at-2027-state-election"
+          },
+          {
+            "record_id": "1e9caab41aba777d1a86",
+            "title": "Investing in a carer-friendly future for NSW",
+            "url": "https://www.nsw.gov.au/ministerial-releases/investing-a-carer-friendly-future-for-nsw"
+          },
+          {
+            "record_id": "51291aa2d2845ac615db",
+            "title": "Angus Barnes wins the 2025 Graham Gregory Award at the NSW Wine Awards",
+            "url": "https://www.nsw.gov.au/ministerial-releases/angus-barnes-wins-graham-gregory-award"
+          },
+          {
+            "record_id": "536fea93a5e91c5d5fd9",
+            "title": "Southwest Metro: the train has left the station",
+            "url": "https://www.nsw.gov.au/ministerial-releases/southwest-metro-train-has-left-station"
+          },
+          {
+            "record_id": "5aec525ff289f197456b",
+            "title": "Staff and volunteers celebrated at the 2026 NSW Health Awards",
+            "url": "https://www.nsw.gov.au/ministerial-releases/2026-nsw-health-awards"
+          },
+          {
+            "record_id": "90f278ac95d5a898ddd2",
+            "title": "Construction commences on new South Windsor Ambulance Station",
+            "url": "https://www.nsw.gov.au/ministerial-releases/south-windsor-ambulance-station"
+          },
+          {
+            "record_id": "990adc39fba58aab86ec",
+            "title": "Albanese and Minns Labor governments deliver safer level crossings for regional NSW",
+            "url": "https://www.nsw.gov.au/ministerial-releases/albanese-and-minns-labor-governments-deliver-safer-level-crossings-for-regional-nsw"
+          },
+          {
+            "record_id": "d6b4a8ea4abe66ce3f49",
+            "title": "Making it easier to move through Torakina Reserve at Brunswick Heads",
+            "url": "https://www.nsw.gov.au/ministerial-releases/easier-access-to-torakina-reserve-at-brunswick-heads"
+          },
+          {
+            "record_id": "d95e5de31a8890735175",
+            "title": "Jervis Bay Road intersection on the home stretch as western roundabout opens to traffic",
+            "url": "https://www.nsw.gov.au/ministerial-releases/jervis-bay-road-western-intersection-opening-set"
+          }
+        ],
+        "delta_hash": "bbc1f1cd681372245e10ec89b2cb7e3da60053be9825cadf5e0b061581505a11"
       },
       "integrity": {
         "source_change_unchanged": true,

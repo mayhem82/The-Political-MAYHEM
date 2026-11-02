@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-SIGNAL-REVIEWS-001",
   "created_at": "2026-09-09T05:05:00+10:00",
-  "updated_at": "2026-11-01T23:37:13.770Z",
+  "updated_at": "2026-11-02T06:05:35.303Z",
   "rules": {
     "append_only": true,
     "raw_source_change_is_immutable": true,
@@ -46720,6 +46720,172 @@
           }
         ],
         "delta_hash": "bbc1f1cd681372245e10ec89b2cb7e3da60053be9825cadf5e0b061581505a11"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-ONENATION-NEWS-20261102060432",
+      "source_change_event_id": "CHG-WATCH-ONENATION-NEWS-20261102060432",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-ONENATION-NEWS-20261102060432",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": "AUS-FED-ONP",
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Pauline Hanson's One Nation — Latest News added 3 structured publication records to its forward-captured official index: Pauline Hanson Questions Albanese Over Taxpayer-Funded Parliamentary Staffing Arrangements; Warren Pickering Highlights One Nation Victoria's Growing Support and Election Campaign; One Nation's Growing Support Attracts International Attention from GB News UK",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-11-02T06:05:35.303Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "7b325446e6444026fc87",
+            "title": "Pauline Hanson Questions Albanese Over Taxpayer-Funded Parliamentary Staffing Arrangements",
+            "url": "http://www.onenation.org.au/albanese-one-nation-staffing-dispute",
+            "published": "Mon, 02 Nov 2026 15:12:05 +1000"
+          },
+          {
+            "record_id": "93d1999836e12cd71d4c",
+            "title": "Warren Pickering Highlights One Nation Victoria's Growing Support and Election Campaign",
+            "url": "http://www.onenation.org.au/warren-pickering-election-momentum",
+            "published": "Mon, 02 Nov 2026 11:10:18 +1000"
+          },
+          {
+            "record_id": "98e9378bcfb8367f0c6f",
+            "title": "One Nation's Growing Support Attracts International Attention from GB News UK",
+            "url": "http://www.onenation.org.au/one-nation-international-coverage",
+            "published": "Mon, 02 Nov 2026 15:12:38 +1000"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "45f819938c9fbaefa1e8",
+            "title": "A message from the General Manager",
+            "url": "http://www.onenation.org.au/one-nation-political-growth",
+            "published": "Thu, 15 Oct 2026 12:22:20 +1000"
+          },
+          {
+            "record_id": "5bb64bd1aa122764b440",
+            "title": "Lee Hanson Speaks Out on Labor's Spending, Inflation and Cost-of-Living Crisis",
+            "url": "http://www.onenation.org.au/labor-cost-living-crisis",
+            "published": "Thu, 15 Oct 2026 01:00:05 +1000"
+          },
+          {
+            "record_id": "fe40d54fc2c1bcb5d6f0",
+            "title": "Colleen Harkin Questions Labor Funding for Melbourne Religious Centres Amid Hate Speech Concerns",
+            "url": "http://www.onenation.org.au/melbourne-hate-speech-funding",
+            "published": "Fri, 16 Oct 2026 11:21:38 +1000"
+          }
+        ],
+        "delta_hash": "90a79e4ad1dc6ddcf931c29e1ec371c5aa0e0def4d5b9a35b1168ed24ead912f"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261102060432",
+      "source_change_event_id": "CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261102060432",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261102060432",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Queensland Government — Ministerial Media Statements added 7 structured publication records to its forward-captured official index: Trade mission to Thailand and China champions Queensland exporters; Hervey Bay Hospital expansion officially open; Building a stronger, flood-resilient connection for the Scenic Rim; Full rail timetable restored ahead of schedule; Mine! Mine! Mine! Queensland snaps up Australian premier of Disney Pixar's Finding Nemo; +2 more",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-11-02T06:05:35.303Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "27e233635abff20bccea",
+            "title": "Trade mission to Thailand and China champions Queensland exporters",
+            "url": "https://statements.qld.gov.au/statements/106326"
+          },
+          {
+            "record_id": "2927ed199c70882258e8",
+            "title": "Hervey Bay Hospital expansion officially open",
+            "url": "https://statements.qld.gov.au/statements/106329"
+          },
+          {
+            "record_id": "342bb9058f056bf8c240",
+            "title": "Building a stronger, flood-resilient connection for the Scenic Rim",
+            "url": "https://statements.qld.gov.au/statements/106335"
+          },
+          {
+            "record_id": "544d3b5de9e6240e3a1d",
+            "title": "Full rail timetable restored ahead of schedule",
+            "url": "https://statements.qld.gov.au/statements/106332"
+          },
+          {
+            "record_id": "6c088e9e3add66ba3ca2",
+            "title": "Mine! Mine! Mine! Queensland snaps up Australian premier of Disney Pixar's Finding Nemo",
+            "url": "https://statements.qld.gov.au/statements/106325"
+          },
+          {
+            "record_id": "ac80c0912a08bbeb41ab",
+            "title": "Funding to strengthen reconciliation across Queensland",
+            "url": "https://statements.qld.gov.au/statements/106328"
+          },
+          {
+            "record_id": "ada5d386de7e37af2849",
+            "title": "Red tape flushed away for Queensland plumbers",
+            "url": "https://statements.qld.gov.au/statements/106327"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "07f6f06b60ab32f421f9",
+            "title": "Trade and investment reset delivers jobs and economic boom",
+            "url": "https://statements.qld.gov.au/statements/106315"
+          },
+          {
+            "record_id": "491a8d62aac4cca2b9db",
+            "title": "Commission of Inquiry child safety reforms underway",
+            "url": "https://statements.qld.gov.au/statements/106313"
+          },
+          {
+            "record_id": "6d9ec95cad295456b0bc",
+            "title": "$6.38 million to launch advanced aerospace capability in Queensland",
+            "url": "https://statements.qld.gov.au/statements/106318"
+          },
+          {
+            "record_id": "77caccfdd372c2352654",
+            "title": "Strongest bail laws in the nation passed to restore safety",
+            "url": "https://statements.qld.gov.au/statements/106322"
+          },
+          {
+            "record_id": "aff1be0b7264ef40e91b",
+            "title": "Obi Obi Creek restoration funding boost to protect threatened species",
+            "url": "https://statements.qld.gov.au/statements/106314"
+          },
+          {
+            "record_id": "b87cc78d7cc1ff12d95e",
+            "title": "Vital funding delivered for regional volunteering",
+            "url": "https://statements.qld.gov.au/statements/106311"
+          },
+          {
+            "record_id": "ea3db29368a0ab162c11",
+            "title": "Tougher bail laws passed that target key Daniel's Law offences",
+            "url": "https://statements.qld.gov.au/statements/106323"
+          }
+        ],
+        "delta_hash": "40d6041d039fd1b6e40ea45e1861732daad99070db34f7d2d42d6a5834e2b917"
       },
       "integrity": {
         "source_change_unchanged": true,

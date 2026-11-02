@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-SIGNAL-REVIEWS-001",
   "created_at": "2026-09-09T05:05:00+10:00",
-  "updated_at": "2026-11-02T15:56:03.187Z",
+  "updated_at": "2026-11-02T23:31:31.615Z",
   "rules": {
     "append_only": true,
     "raw_source_change_is_immutable": true,
@@ -46886,6 +46886,228 @@
           }
         ],
         "delta_hash": "40d6041d039fd1b6e40ea45e1861732daad99070db34f7d2d42d6a5834e2b917"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-PM-MEDIA-20261102233101",
+      "source_change_event_id": "CHG-WATCH-PM-MEDIA-20261102233101",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-PM-MEDIA-20261102233101",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Prime Minister of Australia — media added 3 structured publication records to its forward-captured official index: CHOGM Joint Forums and side events official launch; Commonwealth Nature Initiative side event; Press conference - Saint John&#039;s, Antigua and Barbuda",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-11-02T23:31:31.615Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "3eb34fa210a924e4197a",
+            "title": "CHOGM Joint Forums and side events official launch",
+            "url": "https://www.pm.gov.au/media/chogm-joint-forums-and-side-events-official-launch"
+          },
+          {
+            "record_id": "5c4e074dd1ee5863698b",
+            "title": "Commonwealth Nature Initiative side event",
+            "url": "https://www.pm.gov.au/media/commonwealth-nature-initiative-side-event"
+          },
+          {
+            "record_id": "c9aa9a4bc20594818421",
+            "title": "Press conference - Saint John&#039;s, Antigua and Barbuda",
+            "url": "https://www.pm.gov.au/media/press-conference-saint-johns-antigua-and-barbuda"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "2493468917eb9e48a1c9",
+            "title": "First passengers lift off from WSI",
+            "url": "https://www.pm.gov.au/media/first-passengers-lift-wsi"
+          },
+          {
+            "record_id": "a8ccb59da33cd9fafee9",
+            "title": "Opening of Western Sydney International Airport",
+            "url": "https://www.pm.gov.au/media/opening-western-sydney-international-airport"
+          },
+          {
+            "record_id": "f764cdeb99eacd30ef40",
+            "title": "Helen Haines - Parliament House, Canberra",
+            "url": "https://www.pm.gov.au/media/helen-haines-parliament-house-canberra"
+          }
+        ],
+        "delta_hash": "78ccf0a0012201c711a506fbee128d330550f792a6fb56f1b6f076d1f380b2e3"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-ONENATION-NEWS-20261102233101",
+      "source_change_event_id": "CHG-WATCH-ONENATION-NEWS-20261102233101",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-ONENATION-NEWS-20261102233101",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": "AUS-FED-ONP",
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Pauline Hanson's One Nation — Latest News added 1 structured publication record to its forward-captured official index: Pauline Hanson Visits WA with Luke Herdegen Following One Nation's Secret Harbour Victory",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-11-02T23:31:31.615Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "7764cc7eb13c9200a104",
+            "title": "Pauline Hanson Visits WA with Luke Herdegen Following One Nation's Secret Harbour Victory",
+            "url": "http://www.onenation.org.au/pauline-hanson-secret-harbour-visit",
+            "published": "Tue, 03 Nov 2026 08:51:25 +1000"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "9de5de763fd2c1415086",
+            "title": "Lee Hanson Criticises Tasmania's Youth Justice Blueprint Over Criminal Responsibility Age",
+            "url": "http://www.onenation.org.au/tasmania-youth-justice-reforms",
+            "published": "Fri, 16 Oct 2026 11:22:05 +1000"
+          }
+        ],
+        "delta_hash": "9ce72ee728ff6ec8c64d6a6e3257ba39fc923f108caa3c5a22d4cb0eda58865b"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-NSW-MINISTERIAL-RELEASES-20261102233101",
+      "source_change_event_id": "CHG-WATCH-NSW-MINISTERIAL-RELEASES-20261102233101",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-NSW-MINISTERIAL-RELEASES-20261102233101",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "NSW Government — Ministerial releases added 5 structured publication records to its forward-captured official index: Major Milestone for Heathcote Road Upgrade: Construction begins on $180 million project; Landmark building restoration program in Lismore complete; Full steam ahead on Western Harbour Tunnel as boring machines near halfway mark; Disaster Ready Fund round 4 supports NSW to get disaster ready; New $3.3 million Wagga Wagga facility training the next generation of agricultural mechanics",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-11-02T23:31:31.615Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "0917e0220ee2230b36b6",
+            "title": "Major Milestone for Heathcote Road Upgrade: Construction begins on $180 million project",
+            "url": "https://www.nsw.gov.au/ministerial-releases/major-milestone-for-heathcote-road-upgrade-construction-begins-on-180-million-project"
+          },
+          {
+            "record_id": "3e2400d3a81db55b9c18",
+            "title": "Landmark building restoration program in Lismore complete",
+            "url": "https://www.nsw.gov.au/ministerial-releases/landmark-building-restoration-program-lismore-complete"
+          },
+          {
+            "record_id": "7849773f23874d2cd513",
+            "title": "Full steam ahead on Western Harbour Tunnel as boring machines near halfway mark",
+            "url": "https://www.nsw.gov.au/ministerial-releases/full-steam-ahead-on-western-harbour-tunnel-as-boring-machines-near-halfway-mark"
+          },
+          {
+            "record_id": "d116797c36ab88f4400c",
+            "title": "Disaster Ready Fund round 4 supports NSW to get disaster ready",
+            "url": "https://www.nsw.gov.au/ministerial-releases/disaster-ready-fund-round-4-supports-nsw-to-get-disaster-ready"
+          },
+          {
+            "record_id": "e7e110759013cdc737ce",
+            "title": "New $3.3 million Wagga Wagga facility training the next generation of agricultural mechanics",
+            "url": "https://www.nsw.gov.au/ministerial-releases/new-33-million-wagga-wagga-facility-training-next-generation-of-agricultural-mechanics"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "31f8bc144dc5f8ef55dc",
+            "title": "First look at new regional helicopter bases",
+            "url": "https://www.nsw.gov.au/ministerial-releases/first-look-at-new-regional-helicopter-bases"
+          },
+          {
+            "record_id": "5bce15584c0bd89daf82",
+            "title": "Powerhouse Parramatta’s dress rehearsal ahead of historic opening",
+            "url": "https://www.nsw.gov.au/departments-and-agencies/dciths/ministerial-media-releases/powerhouse-parramattas-dress-rehearsal-ahead-of-historic-opening"
+          },
+          {
+            "record_id": "612d6a3ebf42608066d5",
+            "title": "New South Wales leads push for return to pen and paper NAPLAN writing tests",
+            "url": "https://www.nsw.gov.au/ministerial-releases/new-south-wales-leads-push-for-return-to-pen-and-paper-naplan-writing-tests"
+          },
+          {
+            "record_id": "bfcf59c5212b792b293d",
+            "title": "Armed Response Command operational from today",
+            "url": "https://www.nsw.gov.au/ministerial-releases/armed-response-command-operational-from-today"
+          },
+          {
+            "record_id": "c8d2880aa8ff880a48f8",
+            "title": "Start dates set for Minns Labor Government’s new underquoting laws",
+            "url": "https://www.nsw.gov.au/ministerial-releases/start-dates-set-for-minns-labor-governments-new-underquoting-laws"
+          }
+        ],
+        "delta_hash": "5be846f1c2afad8f3f79f00d7e77bf1df0120132549a965b265b9122a80724bd"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261102233101",
+      "source_change_event_id": "CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261102233101",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261102233101",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Queensland Government — Ministerial Media Statements added 1 structured publication record to its forward-captured official index: Ipswich Hospital expansion progresses under Hospital Rescue Plan",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-11-02T23:31:31.615Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "ef4102aac6884ccf2656",
+            "title": "Ipswich Hospital expansion progresses under Hospital Rescue Plan",
+            "url": "https://statements.qld.gov.au/statements/106339"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "b2ddb92905e554111c23",
+            "title": "Gold Coast manufacturer backed to produce more products locally",
+            "url": "https://statements.qld.gov.au/statements/106317"
+          }
+        ],
+        "delta_hash": "c3fb0648a81fadb16ec0aabafda842ecfd4b9e4325d76dd0bcf6fc8779419b6b"
       },
       "integrity": {
         "source_change_unchanged": true,

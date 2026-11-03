@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-SIGNAL-REVIEWS-001",
   "created_at": "2026-09-09T05:05:00+10:00",
-  "updated_at": "2026-11-02T23:31:31.615Z",
+  "updated_at": "2026-11-03T06:49:52.856Z",
   "rules": {
     "append_only": true,
     "raw_source_change_is_immutable": true,
@@ -47108,6 +47108,261 @@
           }
         ],
         "delta_hash": "c3fb0648a81fadb16ec0aabafda842ecfd4b9e4325d76dd0bcf6fc8779419b6b"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-ONENATION-NEWS-20261103064902",
+      "source_change_event_id": "CHG-WATCH-ONENATION-NEWS-20261103064902",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-ONENATION-NEWS-20261103064902",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": "AUS-FED-ONP",
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Pauline Hanson's One Nation — Latest News added 3 structured publication records to its forward-captured official index: Pauline Hanson fronts the media after brutal attack on a volunteer; One Nation Victoria Proposes Greater Government Transparency Through Cabinet Disclosure; One Nation Challenges Labor Over Farming Communities and Water Security",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-11-03T06:49:52.856Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "89b479d75dc95b89b97c",
+            "title": "Pauline Hanson fronts the media after brutal attack on a volunteer",
+            "url": "http://www.onenation.org.au/torquay-father-family-fundraiser",
+            "published": "Tue, 03 Nov 2026 14:00:00 +1000"
+          },
+          {
+            "record_id": "9d07f36b030aa375797e",
+            "title": "One Nation Victoria Proposes Greater Government Transparency Through Cabinet Disclosure",
+            "url": "http://www.onenation.org.au/victoria-cabinet-transparency-reform",
+            "published": "Tue, 03 Nov 2026 12:43:17 +1000"
+          },
+          {
+            "record_id": "a61e6fbe5f208bcb9d4b",
+            "title": "One Nation Challenges Labor Over Farming Communities and Water Security",
+            "url": "http://www.onenation.org.au/farley-water-food-security",
+            "published": "Tue, 03 Nov 2026 10:02:00 +1000"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "09d9ba0e11e79b653993",
+            "title": "One Nation Questions Sentencing in Case Involving Rape of Four Teenagers",
+            "url": "http://www.onenation.org.au/sentencing-connection-to-country",
+            "published": "Fri, 16 Oct 2026 11:58:09 +1000"
+          },
+          {
+            "record_id": "26e9c2eec1243032013b",
+            "title": "Labor NSW Government Copy and Paste One Nation Stamp Duty Policy",
+            "url": "http://www.onenation.org.au/newman-nsw-stamp-duty",
+            "published": "Fri, 16 Oct 2026 16:35:28 +1000"
+          },
+          {
+            "record_id": "e455138a970290df5701",
+            "title": "One Nation Accuses Labor of Threatening Free Speech with Digital Duty of Care Bill",
+            "url": "http://www.onenation.org.au/labor-digital-duty-free-speech",
+            "published": "Fri, 16 Oct 2026 11:58:17 +1000"
+          }
+        ],
+        "delta_hash": "428369d01e99cf247f86d5b571d58a4bedcca3f0583175ad908ffab3938706b5"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-NSW-MINISTERIAL-RELEASES-20261103064902",
+      "source_change_event_id": "CHG-WATCH-NSW-MINISTERIAL-RELEASES-20261103064902",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-NSW-MINISTERIAL-RELEASES-20261103064902",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "NSW Government — Ministerial releases added 1 structured publication record to its forward-captured official index: $2.6 million for NSW Wine Recovery Program",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-11-03T06:49:52.856Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "8461b9df43e0aa3dc711",
+            "title": "$2.6 million for NSW Wine Recovery Program",
+            "url": "https://www.nsw.gov.au/ministerial-releases/26-million-for-nsw-wine-recovery-program"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "cc5c1eb9c66194f9f47a",
+            "title": "National Gun Buyback in NSW begins today, industry support grants open",
+            "url": "https://www.nsw.gov.au/ministerial-releases/national-gun-buyback-nsw-begins-today-industry-support-grants-open"
+          }
+        ],
+        "delta_hash": "7d4d9e6e196ee3d4a518399d1b78ec8031a00aeddfbf6245b06273ebd669ba63"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-NSWEC-MEDIA-20261103064902",
+      "source_change_event_id": "CHG-WATCH-NSWEC-MEDIA-20261103064902",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-NSWEC-MEDIA-20261103064902",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "NSW Electoral Commission — news and media releases added 1 structured publication record to its forward-captured official index: In-person voting",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-11-03T06:49:52.856Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "8905d81034662d16dd69",
+            "title": "In-person voting",
+            "url": "https://elections.nsw.gov.au/voters/voting-options/voting-on-election-day"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "40d6e29aebf9a7ec024b",
+            "title": "Early voting and pre-polling in person",
+            "url": "https://elections.nsw.gov.au/voters/voting-options/early-voting-and-pre-polling-in-person"
+          },
+          {
+            "record_id": "4876e8860ff4e9c37c18",
+            "title": "Voting on election day",
+            "url": "https://elections.nsw.gov.au/voters/voting-options/voting-on-election-day"
+          }
+        ],
+        "delta_hash": "b0cbcb0f49bab8b1ce568c44e52b02de89caad31b0946e1468b724687146526e"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261103064902",
+      "source_change_event_id": "CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261103064902",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261103064902",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Queensland Government — Ministerial Media Statements added 4 structured publication records to its forward-captured official index: All aboard: Cairns Airport bus ready to roll; Talented students recognised at Visual Arts Awards; Queensland agricultural shows go on; Major step forward for Brisbane Youth Foyer",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-11-03T06:49:52.856Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "1e9dbfedd14185e47fe2",
+            "title": "All aboard: Cairns Airport bus ready to roll",
+            "url": "https://statements.qld.gov.au/statements/106347"
+          },
+          {
+            "record_id": "36867b6e0c8ebddd79b6",
+            "title": "Talented students recognised at Visual Arts Awards",
+            "url": "https://statements.qld.gov.au/statements/106340"
+          },
+          {
+            "record_id": "4d0d29440d1bd6714234",
+            "title": "Queensland agricultural shows go on",
+            "url": "https://statements.qld.gov.au/statements/106338"
+          },
+          {
+            "record_id": "a2f1d6572fb185d8aa07",
+            "title": "Major step forward for Brisbane Youth Foyer",
+            "url": "https://statements.qld.gov.au/statements/106336"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "9192ed5e7a0079c7211e",
+            "title": "Major energy boost for new Toowoomba Hospital",
+            "url": "https://statements.qld.gov.au/statements/106321"
+          },
+          {
+            "record_id": "991430c19942421f93bf",
+            "title": "2026 Showcase awards celebrates excellence across Queensland state schools",
+            "url": "https://statements.qld.gov.au/statements/106316"
+          },
+          {
+            "record_id": "b2d38b3aeab7b00f7fec",
+            "title": "New permit system to support transport of baled goods",
+            "url": "https://statements.qld.gov.au/statements/106320"
+          },
+          {
+            "record_id": "d2a2c6f54da9542c26ef",
+            "title": "28th Governor of Queensland sworn in",
+            "url": "https://statements.qld.gov.au/statements/106333"
+          }
+        ],
+        "delta_hash": "50131b069f6983999bd0dfe4bedaab12b946427ced79c58f2ee3724625a1b5ec"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-ECSA-NEWS-20261103064902",
+      "source_change_event_id": "CHG-WATCH-ECSA-NEWS-20261103064902",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-ECSA-NEWS-20261103064902",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Electoral Commission of South Australia — news and notices added 1 structured publication record to its forward-captured official index: Employment",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-11-03T06:49:52.856Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "45aff6a290c85c4f55d1",
+            "title": "Employment",
+            "url": "https://www.ecsa.sa.gov.au/mobile-employment"
+          }
+        ],
+        "removed_records": [],
+        "delta_hash": "8a7b1528897a5bd03684667776617bd2f82db988c825b340ed2179eb2348bb57"
       },
       "integrity": {
         "source_change_unchanged": true,

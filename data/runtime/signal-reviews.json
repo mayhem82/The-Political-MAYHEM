@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-SIGNAL-REVIEWS-001",
   "created_at": "2026-09-09T05:05:00+10:00",
-  "updated_at": "2026-11-03T06:49:52.856Z",
+  "updated_at": "2026-11-03T15:09:34.504Z",
   "rules": {
     "append_only": true,
     "raw_source_change_is_immutable": true,
@@ -47363,6 +47363,40 @@
         ],
         "removed_records": [],
         "delta_hash": "8a7b1528897a5bd03684667776617bd2f82db988c825b340ed2179eb2348bb57"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-VEC-MEDIA-20261103150847",
+      "source_change_event_id": "CHG-WATCH-VEC-MEDIA-20261103150847",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-VEC-MEDIA-20261103150847",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Victorian Electoral Commission — media centre added 1 structured publication record to its forward-captured official index: How the votes are counted",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-11-03T15:09:34.504Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "988f6ca6da32cbaabf38",
+            "title": "How the votes are counted",
+            "url": "https://www.vec.vic.gov.au/voting/2026-state-election/how-votes-are-counted"
+          }
+        ],
+        "removed_records": [],
+        "delta_hash": "9028a396b7eb7c6c938332efb540a0ae70e757ff0b2f58c06d5b012c019f9dd6"
       },
       "integrity": {
         "source_change_unchanged": true,

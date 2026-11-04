@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-SIGNAL-REVIEWS-001",
   "created_at": "2026-09-09T05:05:00+10:00",
-  "updated_at": "2026-11-04T01:23:18.724Z",
+  "updated_at": "2026-11-04T09:14:47.765Z",
   "rules": {
     "append_only": true,
     "raw_source_change_is_immutable": true,
@@ -47789,6 +47789,146 @@
           }
         ],
         "delta_hash": "04981e8bdbc4f873e12b6794813ae024dc9bd834cc7d4e1b9531054cd2dbc375"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-GREENS-FEDERAL-MEDIA-20261104091416",
+      "source_change_event_id": "CHG-WATCH-GREENS-FEDERAL-MEDIA-20261104091416",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-GREENS-FEDERAL-MEDIA-20261104091416",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": "AUS-FED-GRN",
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Australian Greens — Federal MPs media releases added 2 structured publication records to its forward-captured official index: Read more about Inquiry - Greens WFH bill backed by evidence; Inquiry - Greens WFH bill backed by evidence",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-11-04T09:14:47.765Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "52957f6d8ad60c01b47b",
+            "title": "Read more about Inquiry - Greens WFH bill backed by evidence",
+            "url": "https://greens.org.au/news/media-release/inquiry-greens-wfh-bill-backed-evidence"
+          },
+          {
+            "record_id": "d793da3d762a53f9aedd",
+            "title": "Inquiry - Greens WFH bill backed by evidence",
+            "url": "https://greens.org.au/news/media-release/inquiry-greens-wfh-bill-backed-evidence"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "5d6c95c6341c52111510",
+            "title": "Read more about Greens push for economic security reforms for women",
+            "url": "https://greens.org.au/news/media-release/greens-push-economic-security-reforms-women"
+          },
+          {
+            "record_id": "bb7dc9ec19e42a861a24",
+            "title": "Greens push for economic security reforms for women",
+            "url": "https://greens.org.au/news/media-release/greens-push-economic-security-reforms-women"
+          }
+        ],
+        "delta_hash": "d445aab1526e449debf1e4d96f74ffc4254ed749ea2c6fe3ac027dc044e7c405"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-NSWEC-MEDIA-20261104091416",
+      "source_change_event_id": "CHG-WATCH-NSWEC-MEDIA-20261104091416",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-NSWEC-MEDIA-20261104091416",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "NSW Electoral Commission — news and media releases added 1 structured publication record to its forward-captured official index: In-person voting",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-11-04T09:14:47.765Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "21f83ddbf89b87236376",
+            "title": "In-person voting",
+            "url": "https://elections.nsw.gov.au/voters/voting-options/in-person-voting"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "8905d81034662d16dd69",
+            "title": "In-person voting",
+            "url": "https://elections.nsw.gov.au/voters/voting-options/voting-on-election-day"
+          }
+        ],
+        "delta_hash": "86153a5c24ef2416c5472ea4866e8a86b316955c24a43e2b4d9fae7c82e12e34"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261104091416",
+      "source_change_event_id": "CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261104091416",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261104091416",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Queensland Government — Ministerial Media Statements added 2 structured publication records to its forward-captured official index: New energy investment unlocked for Queensland mines; North Burnett priorities front and centre at Mundubbera Regional Forum",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-11-04T09:14:47.765Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "03daebd0f7e77bff28cc",
+            "title": "New energy investment unlocked for Queensland mines",
+            "url": "https://statements.qld.gov.au/statements/106344"
+          },
+          {
+            "record_id": "e311acddaba0bbd86261",
+            "title": "North Burnett priorities front and centre at Mundubbera Regional Forum",
+            "url": "https://statements.qld.gov.au/statements/106343"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "6c088e9e3add66ba3ca2",
+            "title": "Mine! Mine! Mine! Queensland snaps up Australian premier of Disney Pixar's Finding Nemo",
+            "url": "https://statements.qld.gov.au/statements/106325"
+          },
+          {
+            "record_id": "ada5d386de7e37af2849",
+            "title": "Red tape flushed away for Queensland plumbers",
+            "url": "https://statements.qld.gov.au/statements/106327"
+          }
+        ],
+        "delta_hash": "19dcade904a763c7205a66418a7d8f5539db9c6017c98fa5d3297e862d4b9553"
       },
       "integrity": {
         "source_change_unchanged": true,

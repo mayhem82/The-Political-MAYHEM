@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-INTELLIGENCE-EVENTS-001",
   "scope": "Australia — multi-jurisdiction",
-  "captured_at": "2026-11-03T15:09:41.262Z",
+  "captured_at": "2026-11-04T01:23:24.497Z",
   "mode": "FORWARD_ONLY",
   "rules": {
     "observation_distinct_from_inference": true,
@@ -130333,6 +130333,1050 @@
         }
       ],
       "publication_records_removed": [],
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "underlying_publication_claims_not_promoted_to_verified_fact": true,
+        "source_change_parent_retained": true,
+        "deterministic_review": true
+      }
+    },
+    {
+      "event_id": "CHG-WATCH-PM-MEDIA-20261104012237",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-FED",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-PM-MEDIA-20261104012237",
+      "captured_at": "2026-11-04T01:22:37.620Z",
+      "event_date": "2026-11-04",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-PM-MEDIA",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "review_policy": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-PM-MEDIA-20261102233101",
+        "content_hash": "1aea88cee86ee0e3ced847cc102a75f6b9bec975c8a017f2f4b6dfccbfad7c94",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-PM-MEDIA-20261104012237",
+        "content_hash": "636d26cc99de705b525605cb10cb1042e7264e0f893dfb368c1954bfedd9a76d",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "STRUCTURED_RECORD_SET",
+        "records_added": [
+          {
+            "record_id": "43ca7bff752fcbe9e228",
+            "title": "Last » Last page",
+            "url": "https://www.pm.gov.au/media?page=284"
+          },
+          {
+            "record_id": "87d6b895fb7cd64d431d",
+            "title": "Commonwealth Heads of Government 2026 statement between the UK and Australia",
+            "url": "https://www.pm.gov.au/media/commonwealth-heads-government-2026-statement-between-uk-and-australia"
+          },
+          {
+            "record_id": "fb6797594ea1dc715dce",
+            "title": "Press conference - Saint John&#039;s, Antigua and Barbuda",
+            "url": "https://www.pm.gov.au/media/press-conference-saint-johns-antigua-and-barbuda-3-nov-2026"
+          }
+        ],
+        "records_removed": [
+          {
+            "record_id": "13996c668209b5c76773",
+            "title": "Digital duty of care",
+            "url": "https://www.pm.gov.au/media/digital-duty-care"
+          },
+          {
+            "record_id": "416b60688fab4829994b",
+            "title": "Western Sydney goes international",
+            "url": "https://www.pm.gov.au/media/western-sydney-goes-international"
+          },
+          {
+            "record_id": "d29a9466018edb244854",
+            "title": "Last » Last page",
+            "url": "https://www.pm.gov.au/media?page=283"
+          }
+        ],
+        "added_count": 3,
+        "removed_count": 3,
+        "before_count": 27,
+        "after_count": 27,
+        "delta_hash": "50b1d0c0fe7cb3ee6cc9142f57f049f2c6c2478941862c54a1e2c5d591d19b89"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-GREENS-FEDERAL-MEDIA-20261104012237",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-FED",
+      "party_id": "AUS-FED-GRN",
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-GREENS-FEDERAL-MEDIA-20261104012237",
+      "captured_at": "2026-11-04T01:22:37.620Z",
+      "event_date": "2026-11-04",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_PARTY",
+      "source_id": "SRC-GREENS-FEDERAL-RELEASE-INDEX",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "review_policy": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-GREENS-FEDERAL-MEDIA-20261028083338",
+        "content_hash": "cd2cc26f9aa309411e577f323a314c49dbf729cd6e6cdc0922bf43d84c712f7d",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-GREENS-FEDERAL-MEDIA-20261104012237",
+        "content_hash": "233c4860e0218716e27d7db276479bc1a3ee37272e45045f9c28c92b2b9d0f0e",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "STRUCTURED_RECORD_SET",
+        "records_added": [
+          {
+            "record_id": "5dcafa09a405ccc8cca9",
+            "title": "Read more about Labor&#039;s forest deal a stitch-up for the logging industry",
+            "url": "https://greens.org.au/news/media-release/labors-forest-deal-stitch-logging-industry"
+          },
+          {
+            "record_id": "da56212525f540a0074c",
+            "title": "Labor&#039;s forest deal a stitch-up for the logging industry",
+            "url": "https://greens.org.au/news/media-release/labors-forest-deal-stitch-logging-industry"
+          }
+        ],
+        "records_removed": [
+          {
+            "record_id": "f11f8ae7c2cefccb4b0d",
+            "title": "Labor protects fuel giants war profits, leaving Australians under the pump at bowser: Greens",
+            "url": "https://greens.org.au/news/media-release/labor-protects-fuel-giants-war-profits-leaving-australians-under-pump-bowser"
+          },
+          {
+            "record_id": "f6ccd840210aac4c75b8",
+            "title": "Read more about Labor protects fuel giants war profits, leaving Australians under the pump at bowser: Greens",
+            "url": "https://greens.org.au/news/media-release/labor-protects-fuel-giants-war-profits-leaving-australians-under-pump-bowser"
+          }
+        ],
+        "added_count": 2,
+        "removed_count": 2,
+        "before_count": 75,
+        "after_count": 75,
+        "delta_hash": "6e2c500bef55658722e61c4eca7773a62890fceeec6f84f5f67877f6f4b9c7ec"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-ONENATION-NEWS-20261104012237",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-FED",
+      "party_id": "AUS-FED-ONP",
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-ONENATION-NEWS-20261104012237",
+      "captured_at": "2026-11-04T01:22:37.620Z",
+      "event_date": "2026-11-04",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_PARTY",
+      "source_id": "SRC-ONENATION-FEDERAL-NEWS",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "review_policy": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-ONENATION-NEWS-20261103064902",
+        "content_hash": "7bc71d3151900219102b4fd949aab71ed7b961547cbe0612e77038dacafd1a31",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-ONENATION-NEWS-20261104012237",
+        "content_hash": "948c98c66194bba63d0b5176506508722d557412911fc69565bfc113901216bf",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "STRUCTURED_RECORD_SET",
+        "records_added": [
+          {
+            "record_id": "97b4a174e2431cbc81ba",
+            "title": "One Nation Questions Jess Wilson's Policies Ahead of Victorian State Election",
+            "url": "http://www.onenation.org.au/victoria-election-jess-wilson",
+            "published": "Wed, 04 Nov 2026 08:28:18 +1000"
+          }
+        ],
+        "records_removed": [
+          {
+            "record_id": "e372b71633cc02f2ad24",
+            "title": "Warren Pickering Outlines One Nation's Alternative Political Direction for Victoria",
+            "url": "http://www.onenation.org.au/warren-pickering-victoria-leadership",
+            "published": "Mon, 19 Oct 2026 10:18:23 +1000"
+          }
+        ],
+        "added_count": 1,
+        "removed_count": 1,
+        "before_count": 20,
+        "after_count": 20,
+        "delta_hash": "357fd8cc2b34a1af27d6a6e8f3e4034ecc8f175d19a27f56e2b11840ed5d5406"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-NSW-MINISTERIAL-RELEASES-20261104012237",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-NSW",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-NSW-MINISTERIAL-RELEASES-20261104012237",
+      "captured_at": "2026-11-04T01:22:37.620Z",
+      "event_date": "2026-11-04",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-NSW-MINISTERIAL-RELEASES",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "review_policy": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-NSW-MINISTERIAL-RELEASES-20261103064902",
+        "content_hash": "b1bb607e6518d51894cb9de5bd39bccd8f670ee54ba1cb584f8de3fb21f0a1e5",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-NSW-MINISTERIAL-RELEASES-20261104012237",
+        "content_hash": "35734d8efe89fcd7b8d63adbcecfe3c554dfd8b88536fdc9c5799955b7a8e807",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "STRUCTURED_RECORD_SET",
+        "records_added": [
+          {
+            "record_id": "01b90dd9c6da0b3fd948",
+            "title": "Sydney shines with the spirit of Diwali",
+            "url": "https://www.nsw.gov.au/ministerial-releases/sydney-shines-spirit-of-diwali"
+          },
+          {
+            "record_id": "148610794fb778190a48",
+            "title": "$5.9 million internet project connects 900 homes and businesses across Western NSW",
+            "url": "https://www.nsw.gov.au/ministerial-releases/59-million-internet-project-connects-900-homes-and-businesses-across-western-nsw"
+          },
+          {
+            "record_id": "275985f4ec27170442c9",
+            "title": "$15.94 million for active Central West and Western NSW communities",
+            "url": "https://www.nsw.gov.au/ministerial-releases/1594-million-for-active-central-west-and-western-nsw-communities"
+          },
+          {
+            "record_id": "5b42dac6527bd4ccfc6f",
+            "title": "Additional bus services coming to boost connections across the Northern Rivers",
+            "url": "https://www.nsw.gov.au/ministerial-releases/additional-bus-services-coming-to-boost-connections-across-northern-rivers"
+          },
+          {
+            "record_id": "5fb07793e5cab0d1173e",
+            "title": "High Court of Australia ruling on Uber and payroll taxes",
+            "url": "https://www.nsw.gov.au/ministerial-releases/high-court-of-australia-ruling-on-uber-and-payroll-taxes"
+          },
+          {
+            "record_id": "6f86f0259f6ba30d05d6",
+            "title": "New community facilities on the way for one of Australia’s most densely populated areas",
+            "url": "https://www.nsw.gov.au/ministerial-releases/new-community-facilities-on-way-for-one-of-australias-most-densely-populated-areas"
+          },
+          {
+            "record_id": "7565513d29b9214fcefc",
+            "title": "3,000 more weekly bus services as NSW Government continues to rebuild bus network",
+            "url": "https://www.nsw.gov.au/ministerial-releases/3000-more-weekly-bus-services-as-nsw-government-continues-to-rebuild-bus-network"
+          },
+          {
+            "record_id": "7feb6e857e52e24f9c02",
+            "title": "Hundreds more pharmacists to practice expanded scope",
+            "url": "https://www.nsw.gov.au/ministerial-releases/hundreds-more-pharmacists-to-practice-expanded-scope"
+          },
+          {
+            "record_id": "8541443a0bdc558385fe",
+            "title": "Stronger Blacks Drain crossing complete on Tweed Valley Way",
+            "url": "https://www.nsw.gov.au/ministerial-releases/stronger-blacks-drain-crossing-complete-on-tweed-valley-way"
+          },
+          {
+            "record_id": "acb6221d5806a4e7abee",
+            "title": "New site secured in Chisholm for rebuild and expansion of Maitland Grossmann High School",
+            "url": "https://www.nsw.gov.au/ministerial-releases/maitland-grossman-high-school-expansion-site-secured"
+          }
+        ],
+        "records_removed": [
+          {
+            "record_id": "0917e0220ee2230b36b6",
+            "title": "Major Milestone for Heathcote Road Upgrade: Construction begins on $180 million project",
+            "url": "https://www.nsw.gov.au/ministerial-releases/major-milestone-for-heathcote-road-upgrade-construction-begins-on-180-million-project"
+          },
+          {
+            "record_id": "312969d34ab92b66fcd5",
+            "title": "New intake of paramedics and control staff",
+            "url": "https://www.nsw.gov.au/ministerial-releases/new-intake-of-paramedics"
+          },
+          {
+            "record_id": "3e2400d3a81db55b9c18",
+            "title": "Landmark building restoration program in Lismore complete",
+            "url": "https://www.nsw.gov.au/ministerial-releases/landmark-building-restoration-program-lismore-complete"
+          },
+          {
+            "record_id": "55e1ee1f3fe163a9c1db",
+            "title": "Building a mentally fit future for regional kids",
+            "url": "https://www.nsw.gov.au/ministerial-releases/building-a-mentally-fit-future-for-regional-kids"
+          },
+          {
+            "record_id": "7849773f23874d2cd513",
+            "title": "Full steam ahead on Western Harbour Tunnel as boring machines near halfway mark",
+            "url": "https://www.nsw.gov.au/ministerial-releases/full-steam-ahead-on-western-harbour-tunnel-as-boring-machines-near-halfway-mark"
+          },
+          {
+            "record_id": "8461b9df43e0aa3dc711",
+            "title": "$2.6 million for NSW Wine Recovery Program",
+            "url": "https://www.nsw.gov.au/ministerial-releases/26-million-for-nsw-wine-recovery-program"
+          },
+          {
+            "record_id": "b988a12eaf6e0730e907",
+            "title": "Developer sought for Bradfield City’s next major jobs and business precinct",
+            "url": "https://www.nsw.gov.au/ministerial-releases/bradfield-city-business-developer-sought"
+          },
+          {
+            "record_id": "d116797c36ab88f4400c",
+            "title": "Disaster Ready Fund round 4 supports NSW to get disaster ready",
+            "url": "https://www.nsw.gov.au/ministerial-releases/disaster-ready-fund-round-4-supports-nsw-to-get-disaster-ready"
+          },
+          {
+            "record_id": "e7e110759013cdc737ce",
+            "title": "New $3.3 million Wagga Wagga facility training the next generation of agricultural mechanics",
+            "url": "https://www.nsw.gov.au/ministerial-releases/new-33-million-wagga-wagga-facility-training-next-generation-of-agricultural-mechanics"
+          },
+          {
+            "record_id": "eccf020d362b201f847b",
+            "title": "Additional funding to improve track safety as greyhound racing transitions from Wentworth Park",
+            "url": "https://www.nsw.gov.au/ministerial-releases/greyhound-safety-transition-wentworth-park"
+          }
+        ],
+        "added_count": 10,
+        "removed_count": 10,
+        "before_count": 88,
+        "after_count": 88,
+        "delta_hash": "baaab0b7fb6298ca35e760158e9c2a6e86c00b07ad8c9a44786a581c93a782a0"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-VEC-2026-STATE-ELECTION-20261104012237",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-VIC",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-VEC-2026-STATE-ELECTION-20261104012237",
+      "captured_at": "2026-11-04T01:22:37.620Z",
+      "event_date": "2026-11-04",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_ELECTORAL_AUTHORITY",
+      "source_id": "SRC-VEC-2026-STATE-ELECTION",
+      "capture_mode": "NORMALISED_PAGE_HASH",
+      "review_policy": "REVIEW_UNSTRUCTURED_CHANGE",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-VEC-2026-STATE-ELECTION-20261103150847",
+        "content_hash": "29d43a6899aa0035c97bdac26d4edfb49e2bf9f3b27e80282a26b7166f9d8863",
+        "capture_mode": "NORMALISED_PAGE_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-VEC-2026-STATE-ELECTION-20261104012237",
+        "content_hash": "dc5f9c4d24f104c460bde7ec41d822ff04c493982ce5318abeda3ca4aa294222",
+        "capture_mode": "NORMALISED_PAGE_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "TEXT_REPRESENTATION",
+        "first_difference_offset": 497,
+        "before_length": 19199,
+        "after_length": 20026,
+        "before_excerpt": "rolment VoterAlert Remove someone from the roll Electoral roll statistics Voting 2026 state election Away from Victoria Low sensory voting Vote by post Voting options How the votes are counted Electoral misinformation Current elections Banyule City Council Beale Ward by-election Greater Bendigo City Council Lockwood Ward by-election Mornington Peninsula Shire Council, Briars Ward by-election Murrindindi Shire Council Kinglake Ward by-election Fines and reviews Internal reviews and special circumstances Going to court How voting works Preferential voting Counting the votes Challenging an election What happens at a voting centre Types of elections State elections Local council elections Council countbacks and by-elections State by-elections, supplementary elections and appointments Other elections Learn to vote Easy English guides on voting How to fill out state ballot papers How to fill a council ballot paper Book a free information session Passport to Democracy program Talking Democracy resources Young voters History of elections in Victoria Results State election results 2022 state election results 2018 state election results 2014 state election results 2010 state election results 2006 state election results By-election and supplementary election results Council election results 2024 council election results 2021 South Gippsland Shire Council election results 2020 council election results 2017 Greater Geelong City Council election results 2016 council election results 2012 council election results 2008 council election results Council by-election and countback results Other election and poll results MAV elections 2025 MAV Metropolitan South region by-election Murray Valley Wine Grape Industry Development Order Poll 2024 Strawberry Poll 2026 Election statistics Local council election statistics State election statistics Electoral boundaries State districts State regions Local councils Council reviews Ward boundary reviews Electoral structure reviews What are electoral boundaries? Which boundaries cover where I live? State boundary reviews Download boundary maps Candidates & Parties Become a state election candidate How to nominate Campaigning Authorising state election material How-to-vote card guidelines Election information sessions Appointing a scrutineer Information for scrutineers Upper house groups State election candidate resources Become a local council candidate How to nominate Authorising local council election material Appointing a scrutineer Information for scrutineers Local council candidate resources Registered political parties About registered political parties Register a political party Currently registered parties Party decisions and changes Party registration review Political donations Information for donors Information for recipients New entrants Indexation Funding Funding for registered political parties Funding for independent members Funding for independent candidates State campaign account Funding glossary Annual returns Registered political parties Associated entities Independents and groups Third-party campaigners Languages Toggle search Search Type a minimum of three characters then press UP or DOWN on the keyboard to navigate the autocompleted search results Search button Close search bar Navigation Close navigation Enrolment Enrol to vote Enrol in other languages Get help to enrol Other ways to enrol Postal voting Enrolling for local council elections Check my enrolment Update my enrolment VoterAlert Remove someone from the roll Electoral roll statistics Voting 2026 state election Away from Victoria Low sensory voting Vote by post Voting options How the votes are counted Electoral misinformation Current elections Banyule City Council Beale Ward by-election Greater Bendigo City Council Lockwood Ward by-election Mornington Peninsula Shire Council, Briars Ward by-election Murrindindi Shire Council Kinglake Ward by-election Fines and reviews Internal reviews and special circumstances Going to court How voting works Preferential voting Counting the votes Challenging an election What happens at a voting centre Types of elections State elections Local council elections Council countbacks and by-elections State by-elections, supplementary elections and appointments Other elections Learn to vote Easy English guides on voting How to fill out state ballot papers How to fill a council ballot paper Book a free information session Passport to Democracy program Talking Democracy resources Young voters History of elections in Victoria Results State election results 2022 state election results 2018 state election results 2014 state election results 2010 state election results 2006 state election results By-election and supplementary election results Council election results 2024 council election results 2021 South Gippsland Shire Council election results 2020 council election results 2017 Greater Geelong City Council election results 2016 council election results 2012 council election results 2008 council election results Council by-election and countback results Other election and poll results MAV elections 2025 MAV Metropolitan South region by-election Murray Valley Wine Grape Industry Development Order Poll 2024 Strawberry Poll 2026 Election statistics Local council election statistics State election statistics Electoral boundaries State districts State regions Local councils Council reviews Ward boundary reviews Electoral structure reviews What are electoral boundaries? Which boundaries cover where I live? State boundary reviews Download boundary maps Candidates & Parties Become a state election candidate How to nominate Campaigning Authorising state election material How-to-vote card guidelines Election information sessions Appointing a scrutineer Information for scrutineers Upper house groups State election candidate resources Become a local council candidate How to nominate Authorising local council election material Appointing a scrutineer Information for scrutineers Local council candidate resources Registered political parties About registered political parties Register a political party Currently registered parties Party decisions and changes Party registration review Political donations Information for donors Information for recipients New entrants Indexation Funding Funding for registered political parties Funding for independent members Funding for independent candidates State campaign account Funding glossary Annual returns Registered political parties Associated entities Independents and groups Third-party campaigners Languages 2026 state election - check or update your details before 8 pm on Tuesday 3 November. Close Check your enrolment More state election information Back to Voting Home Voting 2026 state election On this page 2026 state election Listen There have been changes to Victoria's electoral laws following recent amendments to the Electoral Act 2002 . For further information, see our page about the 2026 Electoral Act amendments . On Saturday 28 November, Victorians will vote to elect the next Victorian Parliament. Each election is your chance to have your say about who represents you on the issues you care about. Your voice is important, and every vote counts. Voting options There are many ways you can vote in the 2026 state election. Voting options Electoral misinformation Stop and consider what you see, hear and read this election. Check the facts before you vote Away from Victoria If you'll be away from Victoria during the 2026 state election voting period, you can still vote. Away from Victoria Looking for casual election work? There are many different election roles available during the 2026 state election. Find what suits you today. Register for election work Prepare for November What's different this election There have been changes to electoral law since the last Victorian state election in 2022. We've also made some improvements to what we'll offer Victorian voters for this year's election. Changes to electoral law Some changes were made to the Electoral Act 2002, the law state elections are run under. The full list of changes is on our Electoral Act amendments page . Some key differences are: The electoral roll closes at 8 pm the day the writ of an election is issued, 1 week earlier than other elections. This year the roll will close at 8 pm on Tuesday 3 November , Melbourne Cup Day. There are fewer days for candidates to nominate. If you're an independent candidate, make sure you're prepared before nominations open on Wednesday 4 November. The early voting period is shorter. This year early voting will be available from Wednesday 18 to Friday 27 November. Changes we have made This year we've made some changes that will make it easier for all Victorians to actively participate in their democracy. Low sensory voting &ndash; there'll be a low-sensory mobile voting session in every district on Tuesday 17 November between 10am and 4pm. We'll share more information about this session later this year. Early voting centres &ndash; all early voting centres will also be election day voting centres. This will make it easier to find a voting centre location that works for you. EasyVote guide &ndash; we're mailing a printed version of our EasyVote guide to all households. This pamphlet will have all the key information about when, where, and how to vote correctly. Become a candidate Candidate nominations: open at 9 am Wednesday 4 November close at 12 noon on Monday 9 November for all candidates . There is a shorter nomination period this year. If you're an independent candidate, make sure you're prepared before nominations open. Independent candidates must nominate in person at the election office of the electorate they're nominating in. For district (lower house) independent candidates, this will be the district election office. For region (upper house) independent candidates this will be any district election office within your region. Candidate Helper is now available. This tool helps independent candidates prepare their nomination forms. You must print out and take these forms with you to your nomination appointment. Find more information on how to nominate Registered political parties must lodge the nomination forms for their endorsed candidates directly with us. More information Become a state election candidate Download a candidate handbook Know your electorate Victoria is made up of 88 districts and 8 regions. The 88 districts make up Victoria&rsquo;s lower house of Parliament, the Legislative Assembly. Each district is represented by one Member of Parliament (MP for short). The 8 regions make up Victoria&rsquo;s upper house of Parliament, the Legislative Council. Each region is represented by 5 Members of Parliament. If you&rsquo;ve moved house since the 2022 state election, you might be voting in a new electorate. If you do move house, it&rsquo;s your responsibility to keep your enrolment up to date . Why this is important When candidates nominate for an election, they nominate for either one district or one region. When you go to vote, you&rsquo;ll be given ballot papers for the district and region you&rsquo;re enrolled in. If you want to find out more about the candidates who want your vote, you need to know which electorate you&rsquo;re enrolled in. Knowing your electorate also helps you plan where you go to vote, if you want to vote in person. If you do vote in person, knowing which electorate you&rsquo;re enrolled in can make it faster for you at the voting centre. More information What are electoral boundaries? Interactive electoral boundaries map Electoral Boundaries Commission Parliament of Victoria website Work at the state election We need lots of people to help us run this election. Join us! Many jobs involve working in a voting centre, but there are also positions available before and after election day. If you&rsquo;ve worked with us in the past, let us know if you&rsquo;re available this November. Apply to work at the election Political donations There are strict laws that regulate political donations in Victoria, including: who can make a political donation the maximum value of political donations when you must disclose political donations you make or receive a ban on foreign donations. There have been recent updates to the political donation laws that all political participants should be aware of. Rules for campaigning You can start campaigning at any time, even before nominations open. When you&rsquo;re campaigning, you must: properly authorise your electoral material so it&rsquo;s clear who is accountable for it. The law about authorisations has recently changed so make sure you are familiar with the new rules. follow all non-electoral laws, such as defamation laws not distribute material that&rsquo;s likely to mislead voters into casting their vote incorrectly follow all political donation disclosure rules as soon as you publicly declare your intention to become a candidate. You must do this even if you don&rsquo;t end up nominating. If you see something you think is in breach of the Electoral Act 2002 , please submit a complaint . We&rsquo;ll investigate and, where appropriate, we&rsquo;ll let you know the outcome. More information Authorising electoral material Become a state election candidate Campaigning Missed the enrolment deadline? You can still vote if you missed the deadline. Visit a voting centre to enrol and vote on the spot. Bring one of the following forms of ID: driver licence or learner permit Australian passport recent electricity bill or council rates notice showing your name and address. Tell one of our voting centre staff you need to provisionally enrol. They can help. Early voting opens Wednesday 18 November . Public notices Notice of writ, enrolment and nominations - published 3 November 2026 Victorian state election I have re",
+        "after_excerpt": "rolment VoterAlert Remove someone from the roll Electoral roll statistics Voting 2026 state election Away from Victoria Voting options Voting locations Low sensory voting Vote by post Electoral misinformation Current elections Banyule City Council Beale Ward by-election Greater Bendigo City Council Lockwood Ward by-election Mornington Peninsula Shire Council, Briars Ward by-election Murrindindi Shire Council Kinglake Ward by-election Fines and reviews Internal reviews and special circumstances Going to court How voting works Preferential voting Counting the votes Challenging an election What happens at a voting centre Types of elections State elections Local council elections Council countbacks and by-elections State by-elections, supplementary elections and appointments Other elections Learn to vote Easy English guides on voting How to fill out state ballot papers How to fill a council ballot paper Book a free information session Passport to Democracy program Talking Democracy resources Young voters History of elections in Victoria Results State election results 2022 state election results 2018 state election results 2014 state election results 2010 state election results 2006 state election results By-election and supplementary election results Council election results 2024 council election results 2021 South Gippsland Shire Council election results 2020 council election results 2017 Greater Geelong City Council election results 2016 council election results 2012 council election results 2008 council election results Council by-election and countback results Other election and poll results MAV elections 2025 MAV Metropolitan South region by-election Murray Valley Wine Grape Industry Development Order Poll 2024 Strawberry Poll 2026 Election statistics Local council election statistics State election statistics Electoral boundaries State districts State regions Local councils Council reviews Ward boundary reviews Electoral structure reviews What are electoral boundaries? Which boundaries cover where I live? State boundary reviews Download boundary maps Candidates & Parties Become a state election candidate How to nominate Campaigning Authorising state election material How-to-vote card guidelines Election information sessions Appointing a scrutineer Information for scrutineers Upper house groups State election candidate resources Become a local council candidate How to nominate Authorising local council election material Appointing a scrutineer Information for scrutineers Local council candidate resources Registered political parties About registered political parties Register a political party Currently registered parties Party decisions and changes Party registration review Political donations Information for donors Information for recipients New entrants Indexation Funding Funding for registered political parties Funding for independent members Funding for independent candidates State campaign account Funding glossary Annual returns Registered political parties Associated entities Independents and groups Third-party campaigners Languages Toggle search Search Type a minimum of three characters then press UP or DOWN on the keyboard to navigate the autocompleted search results Search button Close search bar Navigation Close navigation Enrolment Enrol to vote Enrol in other languages Get help to enrol Other ways to enrol Postal voting Enrolling for local council elections Check my enrolment Update my enrolment VoterAlert Remove someone from the roll Electoral roll statistics Voting 2026 state election Away from Victoria Voting options Voting locations Low sensory voting Vote by post Electoral misinformation Current elections Banyule City Council Beale Ward by-election Greater Bendigo City Council Lockwood Ward by-election Mornington Peninsula Shire Council, Briars Ward by-election Murrindindi Shire Council Kinglake Ward by-election Fines and reviews Internal reviews and special circumstances Going to court How voting works Preferential voting Counting the votes Challenging an election What happens at a voting centre Types of elections State elections Local council elections Council countbacks and by-elections State by-elections, supplementary elections and appointments Other elections Learn to vote Easy English guides on voting How to fill out state ballot papers How to fill a council ballot paper Book a free information session Passport to Democracy program Talking Democracy resources Young voters History of elections in Victoria Results State election results 2022 state election results 2018 state election results 2014 state election results 2010 state election results 2006 state election results By-election and supplementary election results Council election results 2024 council election results 2021 South Gippsland Shire Council election results 2020 council election results 2017 Greater Geelong City Council election results 2016 council election results 2012 council election results 2008 council election results Council by-election and countback results Other election and poll results MAV elections 2025 MAV Metropolitan South region by-election Murray Valley Wine Grape Industry Development Order Poll 2024 Strawberry Poll 2026 Election statistics Local council election statistics State election statistics Electoral boundaries State districts State regions Local councils Council reviews Ward boundary reviews Electoral structure reviews What are electoral boundaries? Which boundaries cover where I live? State boundary reviews Download boundary maps Candidates & Parties Become a state election candidate How to nominate Campaigning Authorising state election material How-to-vote card guidelines Election information sessions Appointing a scrutineer Information for scrutineers Upper house groups State election candidate resources Become a local council candidate How to nominate Authorising local council election material Appointing a scrutineer Information for scrutineers Local council candidate resources Registered political parties About registered political parties Register a political party Currently registered parties Party decisions and changes Party registration review Political donations Information for donors Information for recipients New entrants Indexation Funding Funding for registered political parties Funding for independent members Funding for independent candidates State campaign account Funding glossary Annual returns Registered political parties Associated entities Independents and groups Third-party campaigners Languages Back to Voting Home Voting 2026 state election On this page 2026 state election Listen There have been changes to Victoria's electoral laws following recent amendments to the Electoral Act 2002 . For further information, see our page about the 2026 Electoral Act amendments . On Saturday 28 November, Victorians will vote to elect the next Victorian Parliament. Each election is your chance to have your say about who represents you on the issues you care about. Your voice is important, and every vote counts. Voting options There are many ways you can vote in the 2026 state election. Voting options Electoral misinformation Stop and consider what you see, hear and read this election. Check the facts before you vote Away from Victoria If you'll be away from Victoria during the 2026 state election voting period, you can still vote. Away from Victoria Looking for casual election work? There are many different election roles available during the 2026 state election. Find what suits you today. Register for election work Prepare for November What's different this election There have been changes to electoral law since the last Victorian state election in 2022. We've also made some improvements to what we'll offer Victorian voters for this year's election. Changes to electoral law Some changes were made to the Electoral Act 2002, the law state elections are run under. The full list of changes is on our Electoral Act amendments page . Some key differences are: The electoral roll closes at 8 pm the day the writ of an election is issued, 1 week earlier than other elections. This year the roll will close at 8 pm on Tuesday 3 November , Melbourne Cup Day. There are fewer days for candidates to nominate. If you're an independent candidate, make sure you're prepared before nominations open on Wednesday 4 November. The early voting period is shorter. This year early voting will be available from Wednesday 18 to Friday 27 November. Changes we have made This year we've made some changes that will make it easier for all Victorians to actively participate in their democracy. Low sensory voting &ndash; there'll be a low-sensory mobile voting session in every district on Tuesday 17 November between 10am and 4pm. We'll share more information about this session later this year. Early voting centres &ndash; all early voting centres will also be election day voting centres. This will make it easier to find a voting centre location that works for you. EasyVote guide &ndash; we're mailing a printed version of our EasyVote guide to all households. This pamphlet will have all the key information about when, where, and how to vote correctly. Become a candidate Candidate nominations: open at 9 am Wednesday 4 November close at 12 noon on Monday 9 November for all candidates . There is a shorter nomination period this year. If you're an independent candidate, make sure you're prepared before nominations open. Independent candidates must nominate in person at the election office of the electorate they're nominating in. For district (lower house) independent candidates, this will be the district election office. For region (upper house) independent candidates this will be any district election office within your region. Candidate Helper is now available. This tool helps independent candidates prepare their nomination forms. You must print out and take these forms with you to your nomination appointment. Find more information on how to nominate Registered political parties must lodge the nomination forms for their endorsed candidates directly with us. More information Become a state election candidate Download a candidate handbook Know your electorate Victoria is made up of 88 districts and 8 regions. The 88 districts make up Victoria&rsquo;s lower house of Parliament, the Legislative Assembly. Each district is represented by one Member of Parliament (MP for short). The 8 regions make up Victoria&rsquo;s upper house of Parliament, the Legislative Council. Each region is represented by 5 Members of Parliament. If you&rsquo;ve moved house since the 2022 state election, you might be voting in a new electorate. If you do move house, it&rsquo;s your responsibility to keep your enrolment up to date . Why this is important When candidates nominate for an election, they nominate for either one district or one region. When you go to vote, you&rsquo;ll be given ballot papers for the district and region you&rsquo;re enrolled in. If you want to find out more about the candidates who want your vote, you need to know which electorate you&rsquo;re enrolled in. Knowing your electorate also helps you plan where you go to vote, if you want to vote in person. If you do vote in person, knowing which electorate you&rsquo;re enrolled in can make it faster for you at the voting centre. More information What are electoral boundaries? Interactive electoral boundaries map Electoral Boundaries Commission Parliament of Victoria website Work at the state election We need lots of people to help us run this election. Join us! Many jobs involve working in a voting centre, but there are also positions available before and after election day. If you&rsquo;ve worked with us in the past, let us know if you&rsquo;re available this November. Apply to work at the election Political donations There are strict laws that regulate political donations in Victoria, including: who can make a political donation the maximum value of political donations when you must disclose political donations you make or receive a ban on foreign donations. There have been recent updates to the political donation laws that all political participants should be aware of. Rules for campaigning You can start campaigning at any time, even before nominations open. When you&rsquo;re campaigning, you must: properly authorise your electoral material so it&rsquo;s clear who is accountable for it. The law about authorisations has recently changed so make sure you are familiar with the new rules. follow all non-electoral laws, such as defamation laws not distribute material that&rsquo;s likely to mislead voters into casting their vote incorrectly follow all political donation disclosure rules as soon as you publicly declare your intention to become a candidate. You must do this even if you don&rsquo;t end up nominating. If you see something you think is in breach of the Electoral Act 2002 , please submit a complaint . We&rsquo;ll investigate and, where appropriate, we&rsquo;ll let you know the outcome. More information Authorising electoral material Become a state election candidate Campaigning Missed the enrolment deadline? You can still vote if you missed the deadline. Visit a voting centre to enrol and vote on the spot. Bring one of the following forms of ID: driver licence or learner permit Australian passport recent electricity bill or council rates notice showing your name and address. Tell one of our voting centre staff you need to provisionally enrol. They can help. Early voting opens Wednesday 18 November . Skip the queues and vote early. Find voting centres Get VoterAlert election reminders VoterAlert is our free SMS and email reminder service for voters in Victorian elections. Register now to get a digital EasyVote guide this November. After this election, we&rsquo;ll let you know when there&rsquo;s an election event in your area, like a by-election. How to sign up: Go to &lsquo; Check my enrolment &rsquo; {link to enrolment.vec.vic.gov.au}. Enter your details. Subscribe for VoterAlert under the heading &lsquo;Update contact details&rsquo;. Add your mobile and/or email address and tick the checkboxes. Sign up in Check my Enrolment Find out more about VoterAlert Stop and consider what you’re reading False or misleading information can spread quickly online. Sometimes people share it without knowing it&rsquo;s wrong. Take time to check any election information you see. Not everything you see, read or hear about voting and your rights is reliable. Check the facts before you vote Public notices Notice of writ, enrolment and nominations - published 3 November 2026 Victorian state election I have re",
+        "delta_hash": "8ef351fefc8c3b5ef89a39d11d7e98c19e1345b1efac84e543b8d57258a4139b"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-VEC-MEDIA-20261104012237",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-VIC",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-VEC-MEDIA-20261104012237",
+      "captured_at": "2026-11-04T01:22:37.620Z",
+      "event_date": "2026-11-04",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_ELECTORAL_AUTHORITY",
+      "source_id": "SRC-VEC-MEDIA",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "review_policy": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-VEC-MEDIA-20261103150847",
+        "content_hash": "db1c8d9f941ad43adf34413a3b2d91abba7088a04595dac18153083f90b4dab0",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-VEC-MEDIA-20261104012237",
+        "content_hash": "900ac3ab26e71e2c38e03123da7b60a2266d52535754a4f9868ee277111532e8",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "STRUCTURED_RECORD_SET",
+        "records_added": [
+          {
+            "record_id": "c58d10055f38f5da500c",
+            "title": "Voting locations",
+            "url": "https://www.vec.vic.gov.au/voting/2026-state-election/voting-locations"
+          }
+        ],
+        "records_removed": [
+          {
+            "record_id": "98274188bec0e0ab3970",
+            "title": "Check your enrolment",
+            "url": "https://www.vec.vic.gov.au/enrolment/check-my-enrolment"
+          },
+          {
+            "record_id": "988f6ca6da32cbaabf38",
+            "title": "How the votes are counted",
+            "url": "https://www.vec.vic.gov.au/voting/2026-state-election/how-votes-are-counted"
+          },
+          {
+            "record_id": "dc79e77a50d97b32a4ab",
+            "title": "More state election information",
+            "url": "https://www.vec.vic.gov.au/voting/2026-state-election"
+          }
+        ],
+        "added_count": 1,
+        "removed_count": 3,
+        "before_count": 147,
+        "after_count": 145,
+        "delta_hash": "22771a460384b9aff6a83c8d2962e5cbc8140450618af4eebd87b040fddaef8a"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261104012237",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-QLD",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-QLD-MINISTERIAL-STATEMENTS-20261104012237",
+      "captured_at": "2026-11-04T01:22:37.620Z",
+      "event_date": "2026-11-04",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-QLD-MINISTERIAL-STATEMENTS",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "review_policy": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-QLD-MINISTERIAL-STATEMENTS-20261103064902",
+        "content_hash": "c8ff6cf04baa0b86c77344864fffbf7747c8288e5e3283631e93cea618d4839f",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-QLD-MINISTERIAL-STATEMENTS-20261104012237",
+        "content_hash": "de1983f460fcb88a6ad6c030b2ec2b3e319ac118aacb8e77efed11d8a0bd0e3e",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "STRUCTURED_RECORD_SET",
+        "records_added": [
+          {
+            "record_id": "4e8fc4871f8a17feb1d7",
+            "title": "Extraordinary potential of the Taroom Trough revealed",
+            "url": "https://statements.qld.gov.au/statements/106348"
+          },
+          {
+            "record_id": "725e57b167c47df249ce",
+            "title": "New Designated Business and Community Precinct to make Mackay safer",
+            "url": "https://statements.qld.gov.au/statements/106346"
+          },
+          {
+            "record_id": "793624916c1a32339548",
+            "title": "Crucial water security delivered for Mount Morgan",
+            "url": "https://statements.qld.gov.au/statements/106345"
+          }
+        ],
+        "records_removed": [
+          {
+            "record_id": "2927ed199c70882258e8",
+            "title": "Hervey Bay Hospital expansion officially open",
+            "url": "https://statements.qld.gov.au/statements/106329"
+          },
+          {
+            "record_id": "342bb9058f056bf8c240",
+            "title": "Building a stronger, flood-resilient connection for the Scenic Rim",
+            "url": "https://statements.qld.gov.au/statements/106335"
+          },
+          {
+            "record_id": "544d3b5de9e6240e3a1d",
+            "title": "Full rail timetable restored ahead of schedule",
+            "url": "https://statements.qld.gov.au/statements/106332"
+          }
+        ],
+        "added_count": 3,
+        "removed_count": 3,
+        "before_count": 16,
+        "after_count": 16,
+        "delta_hash": "04981e8bdbc4f873e12b6794813ae024dc9bd834cc7d4e1b9531054cd2dbc375"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-WA-HANSARD-20261104012237",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-WA",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-WA-HANSARD-20261104012237",
+      "captured_at": "2026-11-04T01:22:37.620Z",
+      "event_date": "2026-11-04",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_PARLIAMENT",
+      "source_id": "SRC-WA-HANSARD",
+      "capture_mode": "NORMALISED_PAGE_HASH",
+      "review_policy": "REVIEW_UNSTRUCTURED_CHANGE",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-WA-HANSARD-20261103150847",
+        "content_hash": "bc497bc5f5e32f4357a6228519bd4a5324871065951e700023ee59f2e1320158",
+        "capture_mode": "NORMALISED_PAGE_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-WA-HANSARD-20261104012237",
+        "content_hash": "f1796a1fa20c6fd4442a13c64696da9db7296a944af43a2dec1ded1ecc07c1c0",
+        "capture_mode": "NORMALISED_PAGE_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "TEXT_REPRESENTATION",
+        "first_difference_offset": 364,
+        "before_length": 10829,
+        "after_length": 10834,
+        "before_excerpt": " The Legislative Council meets on 10/11/2026 (<TIME>) Council sit 10/11/2026 The Environment and Public Affairs meets tomorrow (<TIME>) Committee meet tomorrow The Community Development meets on 09/11/2026 (<TIME>) Committee meet 09/11/2026 Search this website Advanced Search Se",
+        "after_excerpt": " The Legislative Council meets on 10/11/2026 (<TIME>) Council sit 10/11/2026 The Environment and Public Affairs meets today (<TIME>) Watch live Watch Committee live The Community Development meets on 09/11/2026 (<TIME>) Committee meet 09/11/2026 Search this website Advanced Search Se",
+        "delta_hash": "aa24976f3e72f832fed79478b361128db7d5e84d1d2ab501abfa2599618bd35d"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "SIG-REV-CHG-WATCH-PM-MEDIA-20261104012237",
+      "parent_event_id": "CHG-WATCH-PM-MEDIA-20261104012237",
+      "review_id": "REV-CHG-WATCH-PM-MEDIA-20261104012237",
+      "jurisdiction_id": "AUS-FED",
+      "party_id": null,
+      "actor_id": null,
+      "contest_id": null,
+      "cycle_id": null,
+      "source_snapshot_id": "AUTO-WATCH-PM-MEDIA-20261104012237",
+      "record_id": null,
+      "captured_at": "2026-11-04T01:23:18.724Z",
+      "event_date": "2026-11-04",
+      "checkpoint": "CONTINUOUS_FORWARD_SIGNAL_REVIEW",
+      "event_type": "SIGNAL_CREATED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-PM-MEDIA",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "claim": "Prime Minister of Australia — media added 3 structured publication records to its forward-captured official index: Last » Last page; Commonwealth Heads of Government 2026 statement between the UK and Australia; Press conference - Saint John&#039;s, Antigua and Barbuda",
+      "observed_behaviour": "One or more structured publication records appeared in the monitored official source index after the preceding forward snapshot.",
+      "publication_records_added": [
+        {
+          "record_id": "43ca7bff752fcbe9e228",
+          "title": "Last » Last page",
+          "url": "https://www.pm.gov.au/media?page=284"
+        },
+        {
+          "record_id": "87d6b895fb7cd64d431d",
+          "title": "Commonwealth Heads of Government 2026 statement between the UK and Australia",
+          "url": "https://www.pm.gov.au/media/commonwealth-heads-government-2026-statement-between-uk-and-australia"
+        },
+        {
+          "record_id": "fb6797594ea1dc715dce",
+          "title": "Press conference - Saint John&#039;s, Antigua and Barbuda",
+          "url": "https://www.pm.gov.au/media/press-conference-saint-johns-antigua-and-barbuda-3-nov-2026"
+        }
+      ],
+      "publication_records_removed": [
+        {
+          "record_id": "13996c668209b5c76773",
+          "title": "Digital duty of care",
+          "url": "https://www.pm.gov.au/media/digital-duty-care"
+        },
+        {
+          "record_id": "416b60688fab4829994b",
+          "title": "Western Sydney goes international",
+          "url": "https://www.pm.gov.au/media/western-sydney-goes-international"
+        },
+        {
+          "record_id": "d29a9466018edb244854",
+          "title": "Last » Last page",
+          "url": "https://www.pm.gov.au/media?page=283"
+        }
+      ],
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "underlying_publication_claims_not_promoted_to_verified_fact": true,
+        "source_change_parent_retained": true,
+        "deterministic_review": true
+      }
+    },
+    {
+      "event_id": "SIG-REV-CHG-WATCH-GREENS-FEDERAL-MEDIA-20261104012237",
+      "parent_event_id": "CHG-WATCH-GREENS-FEDERAL-MEDIA-20261104012237",
+      "review_id": "REV-CHG-WATCH-GREENS-FEDERAL-MEDIA-20261104012237",
+      "jurisdiction_id": "AUS-FED",
+      "party_id": "AUS-FED-GRN",
+      "actor_id": null,
+      "contest_id": null,
+      "cycle_id": null,
+      "source_snapshot_id": "AUTO-WATCH-GREENS-FEDERAL-MEDIA-20261104012237",
+      "record_id": null,
+      "captured_at": "2026-11-04T01:23:18.724Z",
+      "event_date": "2026-11-04",
+      "checkpoint": "CONTINUOUS_FORWARD_SIGNAL_REVIEW",
+      "event_type": "SIGNAL_CREATED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_PARTY",
+      "source_id": "SRC-GREENS-FEDERAL-RELEASE-INDEX",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "claim": "Australian Greens — Federal MPs media releases added 2 structured publication records to its forward-captured official index: Read more about Labor&#039;s forest deal a stitch-up for the logging industry; Labor&#039;s forest deal a stitch-up for the logging industry",
+      "observed_behaviour": "One or more structured publication records appeared in the monitored official source index after the preceding forward snapshot.",
+      "publication_records_added": [
+        {
+          "record_id": "5dcafa09a405ccc8cca9",
+          "title": "Read more about Labor&#039;s forest deal a stitch-up for the logging industry",
+          "url": "https://greens.org.au/news/media-release/labors-forest-deal-stitch-logging-industry"
+        },
+        {
+          "record_id": "da56212525f540a0074c",
+          "title": "Labor&#039;s forest deal a stitch-up for the logging industry",
+          "url": "https://greens.org.au/news/media-release/labors-forest-deal-stitch-logging-industry"
+        }
+      ],
+      "publication_records_removed": [
+        {
+          "record_id": "f11f8ae7c2cefccb4b0d",
+          "title": "Labor protects fuel giants war profits, leaving Australians under the pump at bowser: Greens",
+          "url": "https://greens.org.au/news/media-release/labor-protects-fuel-giants-war-profits-leaving-australians-under-pump-bowser"
+        },
+        {
+          "record_id": "f6ccd840210aac4c75b8",
+          "title": "Read more about Labor protects fuel giants war profits, leaving Australians under the pump at bowser: Greens",
+          "url": "https://greens.org.au/news/media-release/labor-protects-fuel-giants-war-profits-leaving-australians-under-pump-bowser"
+        }
+      ],
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "underlying_publication_claims_not_promoted_to_verified_fact": true,
+        "source_change_parent_retained": true,
+        "deterministic_review": true
+      }
+    },
+    {
+      "event_id": "SIG-REV-CHG-WATCH-ONENATION-NEWS-20261104012237",
+      "parent_event_id": "CHG-WATCH-ONENATION-NEWS-20261104012237",
+      "review_id": "REV-CHG-WATCH-ONENATION-NEWS-20261104012237",
+      "jurisdiction_id": "AUS-FED",
+      "party_id": "AUS-FED-ONP",
+      "actor_id": null,
+      "contest_id": null,
+      "cycle_id": null,
+      "source_snapshot_id": "AUTO-WATCH-ONENATION-NEWS-20261104012237",
+      "record_id": "97b4a174e2431cbc81ba",
+      "captured_at": "2026-11-04T01:23:18.724Z",
+      "event_date": "2026-11-04",
+      "checkpoint": "CONTINUOUS_FORWARD_SIGNAL_REVIEW",
+      "event_type": "SIGNAL_CREATED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_PARTY",
+      "source_id": "SRC-ONENATION-FEDERAL-NEWS",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "claim": "Pauline Hanson's One Nation — Latest News added 1 structured publication record to its forward-captured official index: One Nation Questions Jess Wilson's Policies Ahead of Victorian State Election",
+      "observed_behaviour": "One or more structured publication records appeared in the monitored official source index after the preceding forward snapshot.",
+      "publication_records_added": [
+        {
+          "record_id": "97b4a174e2431cbc81ba",
+          "title": "One Nation Questions Jess Wilson's Policies Ahead of Victorian State Election",
+          "url": "http://www.onenation.org.au/victoria-election-jess-wilson",
+          "published": "Wed, 04 Nov 2026 08:28:18 +1000"
+        }
+      ],
+      "publication_records_removed": [
+        {
+          "record_id": "e372b71633cc02f2ad24",
+          "title": "Warren Pickering Outlines One Nation's Alternative Political Direction for Victoria",
+          "url": "http://www.onenation.org.au/warren-pickering-victoria-leadership",
+          "published": "Mon, 19 Oct 2026 10:18:23 +1000"
+        }
+      ],
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "underlying_publication_claims_not_promoted_to_verified_fact": true,
+        "source_change_parent_retained": true,
+        "deterministic_review": true
+      }
+    },
+    {
+      "event_id": "SIG-REV-CHG-WATCH-NSW-MINISTERIAL-RELEASES-20261104012237",
+      "parent_event_id": "CHG-WATCH-NSW-MINISTERIAL-RELEASES-20261104012237",
+      "review_id": "REV-CHG-WATCH-NSW-MINISTERIAL-RELEASES-20261104012237",
+      "jurisdiction_id": "AUS-NSW",
+      "party_id": null,
+      "actor_id": null,
+      "contest_id": null,
+      "cycle_id": null,
+      "source_snapshot_id": "AUTO-WATCH-NSW-MINISTERIAL-RELEASES-20261104012237",
+      "record_id": null,
+      "captured_at": "2026-11-04T01:23:18.724Z",
+      "event_date": "2026-11-04",
+      "checkpoint": "CONTINUOUS_FORWARD_SIGNAL_REVIEW",
+      "event_type": "SIGNAL_CREATED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-NSW-MINISTERIAL-RELEASES",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "claim": "NSW Government — Ministerial releases added 10 structured publication records to its forward-captured official index: Sydney shines with the spirit of Diwali; $5.9 million internet project connects 900 homes and businesses across Western NSW; $15.94 million for active Central West and Western NSW communities; Additional bus services coming to boost connections across the Northern Rivers; High Court of Australia ruling on Uber and payroll taxes; +5 more",
+      "observed_behaviour": "One or more structured publication records appeared in the monitored official source index after the preceding forward snapshot.",
+      "publication_records_added": [
+        {
+          "record_id": "01b90dd9c6da0b3fd948",
+          "title": "Sydney shines with the spirit of Diwali",
+          "url": "https://www.nsw.gov.au/ministerial-releases/sydney-shines-spirit-of-diwali"
+        },
+        {
+          "record_id": "148610794fb778190a48",
+          "title": "$5.9 million internet project connects 900 homes and businesses across Western NSW",
+          "url": "https://www.nsw.gov.au/ministerial-releases/59-million-internet-project-connects-900-homes-and-businesses-across-western-nsw"
+        },
+        {
+          "record_id": "275985f4ec27170442c9",
+          "title": "$15.94 million for active Central West and Western NSW communities",
+          "url": "https://www.nsw.gov.au/ministerial-releases/1594-million-for-active-central-west-and-western-nsw-communities"
+        },
+        {
+          "record_id": "5b42dac6527bd4ccfc6f",
+          "title": "Additional bus services coming to boost connections across the Northern Rivers",
+          "url": "https://www.nsw.gov.au/ministerial-releases/additional-bus-services-coming-to-boost-connections-across-northern-rivers"
+        },
+        {
+          "record_id": "5fb07793e5cab0d1173e",
+          "title": "High Court of Australia ruling on Uber and payroll taxes",
+          "url": "https://www.nsw.gov.au/ministerial-releases/high-court-of-australia-ruling-on-uber-and-payroll-taxes"
+        },
+        {
+          "record_id": "6f86f0259f6ba30d05d6",
+          "title": "New community facilities on the way for one of Australia’s most densely populated areas",
+          "url": "https://www.nsw.gov.au/ministerial-releases/new-community-facilities-on-way-for-one-of-australias-most-densely-populated-areas"
+        },
+        {
+          "record_id": "7565513d29b9214fcefc",
+          "title": "3,000 more weekly bus services as NSW Government continues to rebuild bus network",
+          "url": "https://www.nsw.gov.au/ministerial-releases/3000-more-weekly-bus-services-as-nsw-government-continues-to-rebuild-bus-network"
+        },
+        {
+          "record_id": "7feb6e857e52e24f9c02",
+          "title": "Hundreds more pharmacists to practice expanded scope",
+          "url": "https://www.nsw.gov.au/ministerial-releases/hundreds-more-pharmacists-to-practice-expanded-scope"
+        },
+        {
+          "record_id": "8541443a0bdc558385fe",
+          "title": "Stronger Blacks Drain crossing complete on Tweed Valley Way",
+          "url": "https://www.nsw.gov.au/ministerial-releases/stronger-blacks-drain-crossing-complete-on-tweed-valley-way"
+        },
+        {
+          "record_id": "acb6221d5806a4e7abee",
+          "title": "New site secured in Chisholm for rebuild and expansion of Maitland Grossmann High School",
+          "url": "https://www.nsw.gov.au/ministerial-releases/maitland-grossman-high-school-expansion-site-secured"
+        }
+      ],
+      "publication_records_removed": [
+        {
+          "record_id": "0917e0220ee2230b36b6",
+          "title": "Major Milestone for Heathcote Road Upgrade: Construction begins on $180 million project",
+          "url": "https://www.nsw.gov.au/ministerial-releases/major-milestone-for-heathcote-road-upgrade-construction-begins-on-180-million-project"
+        },
+        {
+          "record_id": "312969d34ab92b66fcd5",
+          "title": "New intake of paramedics and control staff",
+          "url": "https://www.nsw.gov.au/ministerial-releases/new-intake-of-paramedics"
+        },
+        {
+          "record_id": "3e2400d3a81db55b9c18",
+          "title": "Landmark building restoration program in Lismore complete",
+          "url": "https://www.nsw.gov.au/ministerial-releases/landmark-building-restoration-program-lismore-complete"
+        },
+        {
+          "record_id": "55e1ee1f3fe163a9c1db",
+          "title": "Building a mentally fit future for regional kids",
+          "url": "https://www.nsw.gov.au/ministerial-releases/building-a-mentally-fit-future-for-regional-kids"
+        },
+        {
+          "record_id": "7849773f23874d2cd513",
+          "title": "Full steam ahead on Western Harbour Tunnel as boring machines near halfway mark",
+          "url": "https://www.nsw.gov.au/ministerial-releases/full-steam-ahead-on-western-harbour-tunnel-as-boring-machines-near-halfway-mark"
+        },
+        {
+          "record_id": "8461b9df43e0aa3dc711",
+          "title": "$2.6 million for NSW Wine Recovery Program",
+          "url": "https://www.nsw.gov.au/ministerial-releases/26-million-for-nsw-wine-recovery-program"
+        },
+        {
+          "record_id": "b988a12eaf6e0730e907",
+          "title": "Developer sought for Bradfield City’s next major jobs and business precinct",
+          "url": "https://www.nsw.gov.au/ministerial-releases/bradfield-city-business-developer-sought"
+        },
+        {
+          "record_id": "d116797c36ab88f4400c",
+          "title": "Disaster Ready Fund round 4 supports NSW to get disaster ready",
+          "url": "https://www.nsw.gov.au/ministerial-releases/disaster-ready-fund-round-4-supports-nsw-to-get-disaster-ready"
+        },
+        {
+          "record_id": "e7e110759013cdc737ce",
+          "title": "New $3.3 million Wagga Wagga facility training the next generation of agricultural mechanics",
+          "url": "https://www.nsw.gov.au/ministerial-releases/new-33-million-wagga-wagga-facility-training-next-generation-of-agricultural-mechanics"
+        },
+        {
+          "record_id": "eccf020d362b201f847b",
+          "title": "Additional funding to improve track safety as greyhound racing transitions from Wentworth Park",
+          "url": "https://www.nsw.gov.au/ministerial-releases/greyhound-safety-transition-wentworth-park"
+        }
+      ],
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "underlying_publication_claims_not_promoted_to_verified_fact": true,
+        "source_change_parent_retained": true,
+        "deterministic_review": true
+      }
+    },
+    {
+      "event_id": "SIG-REV-CHG-WATCH-VEC-MEDIA-20261104012237",
+      "parent_event_id": "CHG-WATCH-VEC-MEDIA-20261104012237",
+      "review_id": "REV-CHG-WATCH-VEC-MEDIA-20261104012237",
+      "jurisdiction_id": "AUS-VIC",
+      "party_id": null,
+      "actor_id": null,
+      "contest_id": null,
+      "cycle_id": null,
+      "source_snapshot_id": "AUTO-WATCH-VEC-MEDIA-20261104012237",
+      "record_id": "c58d10055f38f5da500c",
+      "captured_at": "2026-11-04T01:23:18.724Z",
+      "event_date": "2026-11-04",
+      "checkpoint": "CONTINUOUS_FORWARD_SIGNAL_REVIEW",
+      "event_type": "SIGNAL_CREATED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_ELECTORAL_AUTHORITY",
+      "source_id": "SRC-VEC-MEDIA",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "claim": "Victorian Electoral Commission — media centre added 1 structured publication record to its forward-captured official index: Voting locations",
+      "observed_behaviour": "One or more structured publication records appeared in the monitored official source index after the preceding forward snapshot.",
+      "publication_records_added": [
+        {
+          "record_id": "c58d10055f38f5da500c",
+          "title": "Voting locations",
+          "url": "https://www.vec.vic.gov.au/voting/2026-state-election/voting-locations"
+        }
+      ],
+      "publication_records_removed": [
+        {
+          "record_id": "98274188bec0e0ab3970",
+          "title": "Check your enrolment",
+          "url": "https://www.vec.vic.gov.au/enrolment/check-my-enrolment"
+        },
+        {
+          "record_id": "988f6ca6da32cbaabf38",
+          "title": "How the votes are counted",
+          "url": "https://www.vec.vic.gov.au/voting/2026-state-election/how-votes-are-counted"
+        },
+        {
+          "record_id": "dc79e77a50d97b32a4ab",
+          "title": "More state election information",
+          "url": "https://www.vec.vic.gov.au/voting/2026-state-election"
+        }
+      ],
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "underlying_publication_claims_not_promoted_to_verified_fact": true,
+        "source_change_parent_retained": true,
+        "deterministic_review": true
+      }
+    },
+    {
+      "event_id": "SIG-REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261104012237",
+      "parent_event_id": "CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261104012237",
+      "review_id": "REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261104012237",
+      "jurisdiction_id": "AUS-QLD",
+      "party_id": null,
+      "actor_id": null,
+      "contest_id": null,
+      "cycle_id": null,
+      "source_snapshot_id": "AUTO-WATCH-QLD-MINISTERIAL-STATEMENTS-20261104012237",
+      "record_id": null,
+      "captured_at": "2026-11-04T01:23:18.724Z",
+      "event_date": "2026-11-04",
+      "checkpoint": "CONTINUOUS_FORWARD_SIGNAL_REVIEW",
+      "event_type": "SIGNAL_CREATED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-QLD-MINISTERIAL-STATEMENTS",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "claim": "Queensland Government — Ministerial Media Statements added 3 structured publication records to its forward-captured official index: Extraordinary potential of the Taroom Trough revealed; New Designated Business and Community Precinct to make Mackay safer; Crucial water security delivered for Mount Morgan",
+      "observed_behaviour": "One or more structured publication records appeared in the monitored official source index after the preceding forward snapshot.",
+      "publication_records_added": [
+        {
+          "record_id": "4e8fc4871f8a17feb1d7",
+          "title": "Extraordinary potential of the Taroom Trough revealed",
+          "url": "https://statements.qld.gov.au/statements/106348"
+        },
+        {
+          "record_id": "725e57b167c47df249ce",
+          "title": "New Designated Business and Community Precinct to make Mackay safer",
+          "url": "https://statements.qld.gov.au/statements/106346"
+        },
+        {
+          "record_id": "793624916c1a32339548",
+          "title": "Crucial water security delivered for Mount Morgan",
+          "url": "https://statements.qld.gov.au/statements/106345"
+        }
+      ],
+      "publication_records_removed": [
+        {
+          "record_id": "2927ed199c70882258e8",
+          "title": "Hervey Bay Hospital expansion officially open",
+          "url": "https://statements.qld.gov.au/statements/106329"
+        },
+        {
+          "record_id": "342bb9058f056bf8c240",
+          "title": "Building a stronger, flood-resilient connection for the Scenic Rim",
+          "url": "https://statements.qld.gov.au/statements/106335"
+        },
+        {
+          "record_id": "544d3b5de9e6240e3a1d",
+          "title": "Full rail timetable restored ahead of schedule",
+          "url": "https://statements.qld.gov.au/statements/106332"
+        }
+      ],
       "inference": null,
       "inference_class": "NONE",
       "projection_effect": "NO_EFFECT",

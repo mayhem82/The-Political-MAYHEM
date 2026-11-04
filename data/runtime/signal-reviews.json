@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-SIGNAL-REVIEWS-001",
   "created_at": "2026-09-09T05:05:00+10:00",
-  "updated_at": "2026-11-03T15:09:34.504Z",
+  "updated_at": "2026-11-04T01:23:18.724Z",
   "rules": {
     "append_only": true,
     "raw_source_change_is_immutable": true,
@@ -47397,6 +47397,398 @@
         ],
         "removed_records": [],
         "delta_hash": "9028a396b7eb7c6c938332efb540a0ae70e757ff0b2f58c06d5b012c019f9dd6"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-PM-MEDIA-20261104012237",
+      "source_change_event_id": "CHG-WATCH-PM-MEDIA-20261104012237",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-PM-MEDIA-20261104012237",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Prime Minister of Australia — media added 3 structured publication records to its forward-captured official index: Last » Last page; Commonwealth Heads of Government 2026 statement between the UK and Australia; Press conference - Saint John&#039;s, Antigua and Barbuda",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-11-04T01:23:18.724Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "43ca7bff752fcbe9e228",
+            "title": "Last » Last page",
+            "url": "https://www.pm.gov.au/media?page=284"
+          },
+          {
+            "record_id": "87d6b895fb7cd64d431d",
+            "title": "Commonwealth Heads of Government 2026 statement between the UK and Australia",
+            "url": "https://www.pm.gov.au/media/commonwealth-heads-government-2026-statement-between-uk-and-australia"
+          },
+          {
+            "record_id": "fb6797594ea1dc715dce",
+            "title": "Press conference - Saint John&#039;s, Antigua and Barbuda",
+            "url": "https://www.pm.gov.au/media/press-conference-saint-johns-antigua-and-barbuda-3-nov-2026"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "13996c668209b5c76773",
+            "title": "Digital duty of care",
+            "url": "https://www.pm.gov.au/media/digital-duty-care"
+          },
+          {
+            "record_id": "416b60688fab4829994b",
+            "title": "Western Sydney goes international",
+            "url": "https://www.pm.gov.au/media/western-sydney-goes-international"
+          },
+          {
+            "record_id": "d29a9466018edb244854",
+            "title": "Last » Last page",
+            "url": "https://www.pm.gov.au/media?page=283"
+          }
+        ],
+        "delta_hash": "50b1d0c0fe7cb3ee6cc9142f57f049f2c6c2478941862c54a1e2c5d591d19b89"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-GREENS-FEDERAL-MEDIA-20261104012237",
+      "source_change_event_id": "CHG-WATCH-GREENS-FEDERAL-MEDIA-20261104012237",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-GREENS-FEDERAL-MEDIA-20261104012237",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": "AUS-FED-GRN",
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Australian Greens — Federal MPs media releases added 2 structured publication records to its forward-captured official index: Read more about Labor&#039;s forest deal a stitch-up for the logging industry; Labor&#039;s forest deal a stitch-up for the logging industry",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-11-04T01:23:18.724Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "5dcafa09a405ccc8cca9",
+            "title": "Read more about Labor&#039;s forest deal a stitch-up for the logging industry",
+            "url": "https://greens.org.au/news/media-release/labors-forest-deal-stitch-logging-industry"
+          },
+          {
+            "record_id": "da56212525f540a0074c",
+            "title": "Labor&#039;s forest deal a stitch-up for the logging industry",
+            "url": "https://greens.org.au/news/media-release/labors-forest-deal-stitch-logging-industry"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "f11f8ae7c2cefccb4b0d",
+            "title": "Labor protects fuel giants war profits, leaving Australians under the pump at bowser: Greens",
+            "url": "https://greens.org.au/news/media-release/labor-protects-fuel-giants-war-profits-leaving-australians-under-pump-bowser"
+          },
+          {
+            "record_id": "f6ccd840210aac4c75b8",
+            "title": "Read more about Labor protects fuel giants war profits, leaving Australians under the pump at bowser: Greens",
+            "url": "https://greens.org.au/news/media-release/labor-protects-fuel-giants-war-profits-leaving-australians-under-pump-bowser"
+          }
+        ],
+        "delta_hash": "6e2c500bef55658722e61c4eca7773a62890fceeec6f84f5f67877f6f4b9c7ec"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-ONENATION-NEWS-20261104012237",
+      "source_change_event_id": "CHG-WATCH-ONENATION-NEWS-20261104012237",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-ONENATION-NEWS-20261104012237",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": "AUS-FED-ONP",
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Pauline Hanson's One Nation — Latest News added 1 structured publication record to its forward-captured official index: One Nation Questions Jess Wilson's Policies Ahead of Victorian State Election",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-11-04T01:23:18.724Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "97b4a174e2431cbc81ba",
+            "title": "One Nation Questions Jess Wilson's Policies Ahead of Victorian State Election",
+            "url": "http://www.onenation.org.au/victoria-election-jess-wilson",
+            "published": "Wed, 04 Nov 2026 08:28:18 +1000"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "e372b71633cc02f2ad24",
+            "title": "Warren Pickering Outlines One Nation's Alternative Political Direction for Victoria",
+            "url": "http://www.onenation.org.au/warren-pickering-victoria-leadership",
+            "published": "Mon, 19 Oct 2026 10:18:23 +1000"
+          }
+        ],
+        "delta_hash": "357fd8cc2b34a1af27d6a6e8f3e4034ecc8f175d19a27f56e2b11840ed5d5406"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-NSW-MINISTERIAL-RELEASES-20261104012237",
+      "source_change_event_id": "CHG-WATCH-NSW-MINISTERIAL-RELEASES-20261104012237",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-NSW-MINISTERIAL-RELEASES-20261104012237",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "NSW Government — Ministerial releases added 10 structured publication records to its forward-captured official index: Sydney shines with the spirit of Diwali; $5.9 million internet project connects 900 homes and businesses across Western NSW; $15.94 million for active Central West and Western NSW communities; Additional bus services coming to boost connections across the Northern Rivers; High Court of Australia ruling on Uber and payroll taxes; +5 more",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-11-04T01:23:18.724Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "01b90dd9c6da0b3fd948",
+            "title": "Sydney shines with the spirit of Diwali",
+            "url": "https://www.nsw.gov.au/ministerial-releases/sydney-shines-spirit-of-diwali"
+          },
+          {
+            "record_id": "148610794fb778190a48",
+            "title": "$5.9 million internet project connects 900 homes and businesses across Western NSW",
+            "url": "https://www.nsw.gov.au/ministerial-releases/59-million-internet-project-connects-900-homes-and-businesses-across-western-nsw"
+          },
+          {
+            "record_id": "275985f4ec27170442c9",
+            "title": "$15.94 million for active Central West and Western NSW communities",
+            "url": "https://www.nsw.gov.au/ministerial-releases/1594-million-for-active-central-west-and-western-nsw-communities"
+          },
+          {
+            "record_id": "5b42dac6527bd4ccfc6f",
+            "title": "Additional bus services coming to boost connections across the Northern Rivers",
+            "url": "https://www.nsw.gov.au/ministerial-releases/additional-bus-services-coming-to-boost-connections-across-northern-rivers"
+          },
+          {
+            "record_id": "5fb07793e5cab0d1173e",
+            "title": "High Court of Australia ruling on Uber and payroll taxes",
+            "url": "https://www.nsw.gov.au/ministerial-releases/high-court-of-australia-ruling-on-uber-and-payroll-taxes"
+          },
+          {
+            "record_id": "6f86f0259f6ba30d05d6",
+            "title": "New community facilities on the way for one of Australia’s most densely populated areas",
+            "url": "https://www.nsw.gov.au/ministerial-releases/new-community-facilities-on-way-for-one-of-australias-most-densely-populated-areas"
+          },
+          {
+            "record_id": "7565513d29b9214fcefc",
+            "title": "3,000 more weekly bus services as NSW Government continues to rebuild bus network",
+            "url": "https://www.nsw.gov.au/ministerial-releases/3000-more-weekly-bus-services-as-nsw-government-continues-to-rebuild-bus-network"
+          },
+          {
+            "record_id": "7feb6e857e52e24f9c02",
+            "title": "Hundreds more pharmacists to practice expanded scope",
+            "url": "https://www.nsw.gov.au/ministerial-releases/hundreds-more-pharmacists-to-practice-expanded-scope"
+          },
+          {
+            "record_id": "8541443a0bdc558385fe",
+            "title": "Stronger Blacks Drain crossing complete on Tweed Valley Way",
+            "url": "https://www.nsw.gov.au/ministerial-releases/stronger-blacks-drain-crossing-complete-on-tweed-valley-way"
+          },
+          {
+            "record_id": "acb6221d5806a4e7abee",
+            "title": "New site secured in Chisholm for rebuild and expansion of Maitland Grossmann High School",
+            "url": "https://www.nsw.gov.au/ministerial-releases/maitland-grossman-high-school-expansion-site-secured"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "0917e0220ee2230b36b6",
+            "title": "Major Milestone for Heathcote Road Upgrade: Construction begins on $180 million project",
+            "url": "https://www.nsw.gov.au/ministerial-releases/major-milestone-for-heathcote-road-upgrade-construction-begins-on-180-million-project"
+          },
+          {
+            "record_id": "312969d34ab92b66fcd5",
+            "title": "New intake of paramedics and control staff",
+            "url": "https://www.nsw.gov.au/ministerial-releases/new-intake-of-paramedics"
+          },
+          {
+            "record_id": "3e2400d3a81db55b9c18",
+            "title": "Landmark building restoration program in Lismore complete",
+            "url": "https://www.nsw.gov.au/ministerial-releases/landmark-building-restoration-program-lismore-complete"
+          },
+          {
+            "record_id": "55e1ee1f3fe163a9c1db",
+            "title": "Building a mentally fit future for regional kids",
+            "url": "https://www.nsw.gov.au/ministerial-releases/building-a-mentally-fit-future-for-regional-kids"
+          },
+          {
+            "record_id": "7849773f23874d2cd513",
+            "title": "Full steam ahead on Western Harbour Tunnel as boring machines near halfway mark",
+            "url": "https://www.nsw.gov.au/ministerial-releases/full-steam-ahead-on-western-harbour-tunnel-as-boring-machines-near-halfway-mark"
+          },
+          {
+            "record_id": "8461b9df43e0aa3dc711",
+            "title": "$2.6 million for NSW Wine Recovery Program",
+            "url": "https://www.nsw.gov.au/ministerial-releases/26-million-for-nsw-wine-recovery-program"
+          },
+          {
+            "record_id": "b988a12eaf6e0730e907",
+            "title": "Developer sought for Bradfield City’s next major jobs and business precinct",
+            "url": "https://www.nsw.gov.au/ministerial-releases/bradfield-city-business-developer-sought"
+          },
+          {
+            "record_id": "d116797c36ab88f4400c",
+            "title": "Disaster Ready Fund round 4 supports NSW to get disaster ready",
+            "url": "https://www.nsw.gov.au/ministerial-releases/disaster-ready-fund-round-4-supports-nsw-to-get-disaster-ready"
+          },
+          {
+            "record_id": "e7e110759013cdc737ce",
+            "title": "New $3.3 million Wagga Wagga facility training the next generation of agricultural mechanics",
+            "url": "https://www.nsw.gov.au/ministerial-releases/new-33-million-wagga-wagga-facility-training-next-generation-of-agricultural-mechanics"
+          },
+          {
+            "record_id": "eccf020d362b201f847b",
+            "title": "Additional funding to improve track safety as greyhound racing transitions from Wentworth Park",
+            "url": "https://www.nsw.gov.au/ministerial-releases/greyhound-safety-transition-wentworth-park"
+          }
+        ],
+        "delta_hash": "baaab0b7fb6298ca35e760158e9c2a6e86c00b07ad8c9a44786a581c93a782a0"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-VEC-MEDIA-20261104012237",
+      "source_change_event_id": "CHG-WATCH-VEC-MEDIA-20261104012237",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-VEC-MEDIA-20261104012237",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Victorian Electoral Commission — media centre added 1 structured publication record to its forward-captured official index: Voting locations",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-11-04T01:23:18.724Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "c58d10055f38f5da500c",
+            "title": "Voting locations",
+            "url": "https://www.vec.vic.gov.au/voting/2026-state-election/voting-locations"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "98274188bec0e0ab3970",
+            "title": "Check your enrolment",
+            "url": "https://www.vec.vic.gov.au/enrolment/check-my-enrolment"
+          },
+          {
+            "record_id": "988f6ca6da32cbaabf38",
+            "title": "How the votes are counted",
+            "url": "https://www.vec.vic.gov.au/voting/2026-state-election/how-votes-are-counted"
+          },
+          {
+            "record_id": "dc79e77a50d97b32a4ab",
+            "title": "More state election information",
+            "url": "https://www.vec.vic.gov.au/voting/2026-state-election"
+          }
+        ],
+        "delta_hash": "22771a460384b9aff6a83c8d2962e5cbc8140450618af4eebd87b040fddaef8a"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261104012237",
+      "source_change_event_id": "CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261104012237",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261104012237",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Queensland Government — Ministerial Media Statements added 3 structured publication records to its forward-captured official index: Extraordinary potential of the Taroom Trough revealed; New Designated Business and Community Precinct to make Mackay safer; Crucial water security delivered for Mount Morgan",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-11-04T01:23:18.724Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "4e8fc4871f8a17feb1d7",
+            "title": "Extraordinary potential of the Taroom Trough revealed",
+            "url": "https://statements.qld.gov.au/statements/106348"
+          },
+          {
+            "record_id": "725e57b167c47df249ce",
+            "title": "New Designated Business and Community Precinct to make Mackay safer",
+            "url": "https://statements.qld.gov.au/statements/106346"
+          },
+          {
+            "record_id": "793624916c1a32339548",
+            "title": "Crucial water security delivered for Mount Morgan",
+            "url": "https://statements.qld.gov.au/statements/106345"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "2927ed199c70882258e8",
+            "title": "Hervey Bay Hospital expansion officially open",
+            "url": "https://statements.qld.gov.au/statements/106329"
+          },
+          {
+            "record_id": "342bb9058f056bf8c240",
+            "title": "Building a stronger, flood-resilient connection for the Scenic Rim",
+            "url": "https://statements.qld.gov.au/statements/106335"
+          },
+          {
+            "record_id": "544d3b5de9e6240e3a1d",
+            "title": "Full rail timetable restored ahead of schedule",
+            "url": "https://statements.qld.gov.au/statements/106332"
+          }
+        ],
+        "delta_hash": "04981e8bdbc4f873e12b6794813ae024dc9bd834cc7d4e1b9531054cd2dbc375"
       },
       "integrity": {
         "source_change_unchanged": true,

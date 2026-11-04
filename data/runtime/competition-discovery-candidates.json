@@ -69,63 +69,63 @@
     {
       "jurisdiction_id": "AUS-FED",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-11-03T15:09:41.700Z",
-      "signals_examined": 265,
-      "candidates_detected": 106
+      "last_screened_at": "2026-11-04T01:23:25.020Z",
+      "signals_examined": 268,
+      "candidates_detected": 107
     },
     {
       "jurisdiction_id": "AUS-NSW",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-11-03T15:09:41.700Z",
-      "signals_examined": 134,
+      "last_screened_at": "2026-11-04T01:23:25.020Z",
+      "signals_examined": 135,
       "candidates_detected": 47
     },
     {
       "jurisdiction_id": "AUS-VIC",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-11-03T15:09:41.700Z",
-      "signals_examined": 28,
+      "last_screened_at": "2026-11-04T01:23:25.020Z",
+      "signals_examined": 29,
       "candidates_detected": 6
     },
     {
       "jurisdiction_id": "AUS-QLD",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-11-03T15:09:41.700Z",
-      "signals_examined": 75,
+      "last_screened_at": "2026-11-04T01:23:25.020Z",
+      "signals_examined": 76,
       "candidates_detected": 45
     },
     {
       "jurisdiction_id": "AUS-WA",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-11-03T15:09:41.700Z",
+      "last_screened_at": "2026-11-04T01:23:25.020Z",
       "signals_examined": 8,
       "candidates_detected": 3
     },
     {
       "jurisdiction_id": "AUS-SA",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-11-03T15:09:41.700Z",
+      "last_screened_at": "2026-11-04T01:23:25.020Z",
       "signals_examined": 5,
       "candidates_detected": 0
     },
     {
       "jurisdiction_id": "AUS-TAS",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-11-03T15:09:41.700Z",
+      "last_screened_at": "2026-11-04T01:23:25.020Z",
       "signals_examined": 21,
       "candidates_detected": 0
     },
     {
       "jurisdiction_id": "AUS-ACT",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-11-03T15:09:41.700Z",
+      "last_screened_at": "2026-11-04T01:23:25.020Z",
       "signals_examined": 24,
       "candidates_detected": 1
     },
     {
       "jurisdiction_id": "AUS-NT",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-11-03T15:09:41.700Z",
+      "last_screened_at": "2026-11-04T01:23:25.020Z",
       "signals_examined": 31,
       "candidates_detected": 0
     }
@@ -8404,19 +8404,54 @@
           "reason": "SUBSTANTIVE_THRESHOLD_EVALUATION_PROPAGATED"
         }
       ]
+    },
+    {
+      "candidate_id": "DISC-FED-ELECTION-c32065ad804a7200",
+      "jurisdiction_id": "AUS-FED",
+      "competition_family": "ELECTION",
+      "proposed_competition_class": "ELECTORAL",
+      "proposed_cycle_id": null,
+      "subject": "One Nation Questions Jess Wilson's Policies Ahead of Victorian State Election",
+      "candidate_state": "REVIEW_REQUIRED",
+      "detected_at": "2026-11-04T01:23:18.724Z",
+      "source_snapshot_ids": [
+        "AUTO-WATCH-ONENATION-NEWS-20261104012237"
+      ],
+      "signal_event_ids": [
+        "SIG-REV-CHG-WATCH-ONENATION-NEWS-20261104012237"
+      ],
+      "review_ids": [
+        "REV-CHG-WATCH-ONENATION-NEWS-20261104012237"
+      ],
+      "area_evidence_ids": [],
+      "detail_version_ids": [],
+      "evidence_summary": "Screened PRIMARY_PARTY evidence contains language consistent with a election competition candidate. This is a discovery observation, not a registered contest or outcome inference.",
+      "registration_blockers": [
+        "DISTINCT_ELECTORAL_CONTEST_SCOPE_REQUIRES_REVIEW",
+        "REGISTERED_COMPATIBLE_CYCLE_REQUIRED"
+      ],
+      "linked_contest_id": null,
+      "state_history": [
+        {
+          "from": null,
+          "to": "REVIEW_REQUIRED",
+          "at": "2026-11-04T01:23:18.724Z",
+          "reason": "DETERMINISTIC_COMPETITION_FAMILY_SCREEN"
+        }
+      ]
     }
   ],
-  "last_screened_at": "2026-11-03T15:09:41.700Z",
+  "last_screened_at": "2026-11-04T01:23:25.020Z",
   "last_screen_summary": {
-    "signals_examined": 591,
-    "candidates_total": 208,
-    "candidates_added": 0,
+    "signals_examined": 597,
+    "candidates_total": 209,
+    "candidates_added": 1,
     "candidate_lineage_merges": 420,
     "substantive_area_events_examined": 133,
     "threshold_state_transitions": 0,
     "registered_contests_unchanged": true
   },
-  "last_duplicate_reconciliation_at": "2026-11-03T15:09:41.788Z",
+  "last_duplicate_reconciliation_at": "2026-11-04T01:23:25.132Z",
   "last_duplicate_reconciliation": {
     "rejected": 0,
     "active_area_family_keys": 132

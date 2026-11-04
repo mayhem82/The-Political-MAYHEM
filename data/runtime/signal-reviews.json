@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-SIGNAL-REVIEWS-001",
   "created_at": "2026-09-09T05:05:00+10:00",
-  "updated_at": "2026-11-04T17:18:30.950Z",
+  "updated_at": "2026-11-04T23:40:40.502Z",
   "rules": {
     "append_only": true,
     "raw_source_change_is_immutable": true,
@@ -47929,6 +47929,146 @@
           }
         ],
         "delta_hash": "19dcade904a763c7205a66418a7d8f5539db9c6017c98fa5d3297e862d4b9553"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-NSW-MINISTERIAL-RELEASES-20261104234009",
+      "source_change_event_id": "CHG-WATCH-NSW-MINISTERIAL-RELEASES-20261104234009",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-NSW-MINISTERIAL-RELEASES-20261104234009",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "NSW Government — Ministerial releases added 7 structured publication records to its forward-captured official index: HSC exams come to an end for 75,000 students across New South Wales; Wingham Brush reopens with state-of-the-art upgrades after floods; NSW Government nitrous oxide rules now in effect; Ready, set, go for Lismore’s new $4.5m athletics track; Investigations into Tamworth’s water future complete; +2 more",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-11-04T23:40:40.502Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "526e54ca57ece0f13701",
+            "title": "HSC exams come to an end for 75,000 students across New South Wales",
+            "url": "https://www.nsw.gov.au/ministerial-releases/hsc-exams-come-to-an-end-for-75000-students-across-new-south-wales"
+          },
+          {
+            "record_id": "808298afb0a03bccbb54",
+            "title": "Wingham Brush reopens with state-of-the-art upgrades after floods",
+            "url": "https://www.nsw.gov.au/ministerial-releases/wingham-brush-reopens-state-of-art-upgrades-after-floods"
+          },
+          {
+            "record_id": "9dd24f6200ea9c210e30",
+            "title": "NSW Government nitrous oxide rules now in effect",
+            "url": "https://www.nsw.gov.au/ministerial-releases/nitrous-oxide-rules-take-effect"
+          },
+          {
+            "record_id": "b48a3e6727b55382ea48",
+            "title": "Ready, set, go for Lismore’s new $4.5m athletics track",
+            "url": "https://www.nsw.gov.au/ministerial-releases/ready-set-go-for-lismores-new-45m-athletics-track"
+          },
+          {
+            "record_id": "ba03f9ad5fc3dfae5a80",
+            "title": "Investigations into Tamworth’s water future complete",
+            "url": "https://www.nsw.gov.au/ministerial-releases/tamworth-water-future-investigated"
+          },
+          {
+            "record_id": "c94845137e726474e377",
+            "title": "Active transport projects delivered alongside housing in TOD precincts",
+            "url": "https://www.nsw.gov.au/ministerial-releases/active-transport-projects-delivered-alongside-housing"
+          },
+          {
+            "record_id": "f4d040268bbf77d3f76f",
+            "title": "More housing for women and children fleeing domestic violence",
+            "url": "https://www.nsw.gov.au/ministerial-releases/more-housing-for-women-and-children-fleeing-domestic-violence"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "01b90dd9c6da0b3fd948",
+            "title": "Sydney shines with the spirit of Diwali",
+            "url": "https://www.nsw.gov.au/ministerial-releases/sydney-shines-spirit-of-diwali"
+          },
+          {
+            "record_id": "148610794fb778190a48",
+            "title": "$5.9 million internet project connects 900 homes and businesses across Western NSW",
+            "url": "https://www.nsw.gov.au/ministerial-releases/59-million-internet-project-connects-900-homes-and-businesses-across-western-nsw"
+          },
+          {
+            "record_id": "275985f4ec27170442c9",
+            "title": "$15.94 million for active Central West and Western NSW communities",
+            "url": "https://www.nsw.gov.au/ministerial-releases/1594-million-for-active-central-west-and-western-nsw-communities"
+          },
+          {
+            "record_id": "5fb07793e5cab0d1173e",
+            "title": "High Court of Australia ruling on Uber and payroll taxes",
+            "url": "https://www.nsw.gov.au/ministerial-releases/high-court-of-australia-ruling-on-uber-and-payroll-taxes"
+          },
+          {
+            "record_id": "6f86f0259f6ba30d05d6",
+            "title": "New community facilities on the way for one of Australia’s most densely populated areas",
+            "url": "https://www.nsw.gov.au/ministerial-releases/new-community-facilities-on-way-for-one-of-australias-most-densely-populated-areas"
+          },
+          {
+            "record_id": "7feb6e857e52e24f9c02",
+            "title": "Hundreds more pharmacists to practice expanded scope",
+            "url": "https://www.nsw.gov.au/ministerial-releases/hundreds-more-pharmacists-to-practice-expanded-scope"
+          },
+          {
+            "record_id": "acb6221d5806a4e7abee",
+            "title": "New site secured in Chisholm for rebuild and expansion of Maitland Grossmann High School",
+            "url": "https://www.nsw.gov.au/ministerial-releases/maitland-grossman-high-school-expansion-site-secured"
+          }
+        ],
+        "delta_hash": "4ee3ca3b07d9a1ae83e22ec1d13e098a032d1e8f9077c31b83ad4d645cd56d98"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261104234009",
+      "source_change_event_id": "CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261104234009",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261104234009",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Queensland Government — Ministerial Media Statements added 1 structured publication record to its forward-captured official index: 40 new social homes deliver Christmas cheer for Bundaberg",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-11-04T23:40:40.502Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "d299bd52845583c24177",
+            "title": "40 new social homes deliver Christmas cheer for Bundaberg",
+            "url": "https://statements.qld.gov.au/statements/106353"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "27e233635abff20bccea",
+            "title": "Trade mission to Thailand and China champions Queensland exporters",
+            "url": "https://statements.qld.gov.au/statements/106326"
+          }
+        ],
+        "delta_hash": "e7c7f4c2999922c8d1c9b91815ba0e2e36bb1c8c23fa58daccc3e11c92741654"
       },
       "integrity": {
         "source_change_unchanged": true,

@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-INTELLIGENCE-EVENTS-001",
   "scope": "Australia — multi-jurisdiction",
-  "captured_at": "2026-11-05T15:28:47.255Z",
+  "captured_at": "2026-11-05T22:00:19.646Z",
   "mode": "FORWARD_ONLY",
   "rules": {
     "observation_distinct_from_inference": true,
@@ -132745,6 +132745,52 @@
         "source_change_parent_retained": true,
         "deterministic_review": true
       }
+    },
+    {
+      "event_id": "CHG-WATCH-WA-HANSARD-20261105215910",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-WA",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-WA-HANSARD-20261105215910",
+      "captured_at": "2026-11-05T21:59:10.670Z",
+      "event_date": "2026-11-06",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_PARLIAMENT",
+      "source_id": "SRC-WA-HANSARD",
+      "capture_mode": "NORMALISED_PAGE_HASH",
+      "review_policy": "REVIEW_UNSTRUCTURED_CHANGE",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-WA-HANSARD-20261104012237",
+        "content_hash": "f1796a1fa20c6fd4442a13c64696da9db7296a944af43a2dec1ded1ecc07c1c0",
+        "capture_mode": "NORMALISED_PAGE_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-WA-HANSARD-20261105215910",
+        "content_hash": "c9b5da21e59f03b0e7aaf8543bc5b128d099cfefb10dcc259a54dd33ad9889c3",
+        "capture_mode": "NORMALISED_PAGE_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "TEXT_REPRESENTATION",
+        "first_difference_offset": 325,
+        "before_length": 10834,
+        "after_length": 10825,
+        "before_excerpt": "1/2026 (<TIME>) Assembly sit 10/11/2026 The Legislative Council meets on 10/11/2026 (<TIME>) Council sit 10/11/2026 The Environment and Public Affairs meets today (<TIME>) Watch live Watch Committee live The Community Development meets on 09/11/2026 (<TIME>) Committee meet 09/11/2026 Search this website Advanced Search Search Parliamentary Business Bills (proposed laws) WA Acts and Regulations",
+        "after_excerpt": "1/2026 (<TIME>) Assembly sit 10/11/2026 The Legislative Council meets on 10/11/2026 (<TIME>) Council sit 10/11/2026 The Community Development meets on 09/11/2026 (<TIME>) Committee meet 09/11/2026 The Estimates Committee meets on 18/11/2026 (<TIME>) Committee meet 18/11/2026 Search this website Advanced Search Search Parliamentary Business Bills (proposed laws) WA Acts and Regulations",
+        "delta_hash": "e2226b2190e4e5dbf07b2a62bd0c3687b87c7fffd252eb480e06a713f101ecd6"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-SIGNAL-REVIEWS-001",
   "created_at": "2026-09-09T05:05:00+10:00",
-  "updated_at": "2026-11-04T23:40:40.502Z",
+  "updated_at": "2026-11-05T06:47:50.813Z",
   "rules": {
     "append_only": true,
     "raw_source_change_is_immutable": true,
@@ -48069,6 +48069,178 @@
           }
         ],
         "delta_hash": "e7c7f4c2999922c8d1c9b91815ba0e2e36bb1c8c23fa58daccc3e11c92741654"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-ONENATION-NEWS-20261105064714",
+      "source_change_event_id": "CHG-WATCH-ONENATION-NEWS-20261105064714",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-ONENATION-NEWS-20261105064714",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": "AUS-FED-ONP",
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Pauline Hanson's One Nation — Latest News added 1 structured publication record to its forward-captured official index: One Nation Raises Concerns Over Labor's Treatment of Australian Farmers and Regional Communities",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-11-05T06:47:50.813Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "fcd4d08d6241435ec6c1",
+            "title": "One Nation Raises Concerns Over Labor's Treatment of Australian Farmers and Regional Communities",
+            "url": "http://www.onenation.org.au/farmers-regional-australia-support",
+            "published": "Thu, 05 Nov 2026 15:03:31 +1000"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "b7b761f66312a6c087c9",
+            "title": "One Nation Raises Concerns Over Political Funding, Free Speech and Establishment Opposition",
+            "url": "http://www.onenation.org.au/one-nation-establishment-opposition",
+            "published": "Mon, 19 Oct 2026 15:45:27 +1000"
+          }
+        ],
+        "delta_hash": "f19eff93f90cbc37a1af454deaf2c34345c7529af50063f73f9678410aa6e5f6"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-NSW-MINISTERIAL-RELEASES-20261105064714",
+      "source_change_event_id": "CHG-WATCH-NSW-MINISTERIAL-RELEASES-20261105064714",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-NSW-MINISTERIAL-RELEASES-20261105064714",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "NSW Government — Ministerial releases added 2 structured publication records to its forward-captured official index: $5 million construction begins on new refuge in Hornsby; First-ever Skills Audit of coal workers released to back today’s coal jobs, and plan for the future",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-11-05T06:47:50.813Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "2aeba81e26fe0fd5a8d2",
+            "title": "$5 million construction begins on new refuge in Hornsby",
+            "url": "https://www.nsw.gov.au/ministerial-releases/5-million-construction-begins-on-new-refuge-hornsby"
+          },
+          {
+            "record_id": "c55da9d3c4cdc164f6f2",
+            "title": "First-ever Skills Audit of coal workers released to back today’s coal jobs, and plan for the future",
+            "url": "https://www.nsw.gov.au/ministerial-releases/first-ever-skills-audit-of-coal-workers-released-to-back-todays-coal-jobs-and-plan-for-future"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "7565513d29b9214fcefc",
+            "title": "3,000 more weekly bus services as NSW Government continues to rebuild bus network",
+            "url": "https://www.nsw.gov.au/ministerial-releases/3000-more-weekly-bus-services-as-nsw-government-continues-to-rebuild-bus-network"
+          },
+          {
+            "record_id": "8541443a0bdc558385fe",
+            "title": "Stronger Blacks Drain crossing complete on Tweed Valley Way",
+            "url": "https://www.nsw.gov.au/ministerial-releases/stronger-blacks-drain-crossing-complete-on-tweed-valley-way"
+          }
+        ],
+        "delta_hash": "e586cdaf2481e46ca0d820d3ba7711013f607964e433f43d6e9f4c83de2ec811"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261105064714",
+      "source_change_event_id": "CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261105064714",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261105064714",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Queensland Government — Ministerial Media Statements added 5 structured publication records to its forward-captured official index: Disaster support activated for storm-hit Queensland communities; Tourism industry feedback drives new workforce investment; New industry support to help Queensland fruit and vegetable growers prosper; Regional Queensland takes centre stage at world’s biggest import expo; New members appointed to Queensland Veterans’ Council",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-11-05T06:47:50.813Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "0744687d7243b7fa0ec9",
+            "title": "Disaster support activated for storm-hit Queensland communities",
+            "url": "https://statements.qld.gov.au/statements/106360"
+          },
+          {
+            "record_id": "15c9d1260e9bf1178e18",
+            "title": "Tourism industry feedback drives new workforce investment",
+            "url": "https://statements.qld.gov.au/statements/106359"
+          },
+          {
+            "record_id": "c354f0eba6aa3f5ea73c",
+            "title": "New industry support to help Queensland fruit and vegetable growers prosper",
+            "url": "https://statements.qld.gov.au/statements/106352"
+          },
+          {
+            "record_id": "ea420e73ea88de13e441",
+            "title": "Regional Queensland takes centre stage at world’s biggest import expo",
+            "url": "https://statements.qld.gov.au/statements/106351"
+          },
+          {
+            "record_id": "f833095eb0d0ef022dff",
+            "title": "New members appointed to Queensland Veterans’ Council",
+            "url": "https://statements.qld.gov.au/statements/106350"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "36867b6e0c8ebddd79b6",
+            "title": "Talented students recognised at Visual Arts Awards",
+            "url": "https://statements.qld.gov.au/statements/106340"
+          },
+          {
+            "record_id": "4d0d29440d1bd6714234",
+            "title": "Queensland agricultural shows go on",
+            "url": "https://statements.qld.gov.au/statements/106338"
+          },
+          {
+            "record_id": "a2f1d6572fb185d8aa07",
+            "title": "Major step forward for Brisbane Youth Foyer",
+            "url": "https://statements.qld.gov.au/statements/106336"
+          },
+          {
+            "record_id": "ac80c0912a08bbeb41ab",
+            "title": "Funding to strengthen reconciliation across Queensland",
+            "url": "https://statements.qld.gov.au/statements/106328"
+          },
+          {
+            "record_id": "ef4102aac6884ccf2656",
+            "title": "Ipswich Hospital expansion progresses under Hospital Rescue Plan",
+            "url": "https://statements.qld.gov.au/statements/106339"
+          }
+        ],
+        "delta_hash": "6285fe41b48bbaea6d43dd40eea65016ce429abdd01b4a205d9ff9bb9ca8d4a3"
       },
       "integrity": {
         "source_change_unchanged": true,

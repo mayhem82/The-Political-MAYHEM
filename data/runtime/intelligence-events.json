@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-INTELLIGENCE-EVENTS-001",
   "scope": "Australia — multi-jurisdiction",
-  "captured_at": "2026-11-05T22:00:19.646Z",
+  "captured_at": "2026-11-06T10:54:32.929Z",
   "mode": "FORWARD_ONLY",
   "rules": {
     "observation_distinct_from_inference": true,
@@ -132791,6 +132791,1130 @@
       "projection_effect": "NO_EFFECT",
       "information_advantage": "NONE",
       "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-APH-BILLS-20261106105325",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-FED",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-APH-BILLS-20261106105325",
+      "captured_at": "2026-11-06T10:53:25.875Z",
+      "event_date": "2026-11-06",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_PARLIAMENT",
+      "source_id": "SRC-APH-BILLS",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "review_policy": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-APH-BILLS-20261029070654",
+        "content_hash": "1f0e29632feebe18d01d7e088d8825e944900ad7868cad6264d9e1f6c2cc8d90",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-APH-BILLS-20261106105325",
+        "content_hash": "42f4571ae53c63b2cea5521fe6194bdd3045a81a7a3103cccbcc180a0f495b4e",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "STRUCTURED_RECORD_SET",
+        "records_added": [
+          {
+            "record_id": "0c02f85eb762e1f64212",
+            "title": "Current House bills list",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/layouts/DPS/Bills/?blsId=legislation%2fbillslst%2fbillslst_c203aa1c-1876-41a8-bc76-1de328bdb726"
+          },
+          {
+            "record_id": "a9d593cfe442932eabeb",
+            "title": "Current Senate bills list",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/layouts/DPS/Bills/?blsId=legislation%2fbillslst%2fbillslst_8100fb48-0592-488b-828b-d017b24562d4"
+          }
+        ],
+        "records_removed": [
+          {
+            "record_id": "29a68e1255907793c887",
+            "title": "Current Senate bills list",
+            "url": "https://www.aph.gov.au/layouts/DPS/Bills/?blsId=legislation%2fbillslst%2fbillslst_8100fb48-0592-488b-828b-d017b24562d4"
+          },
+          {
+            "record_id": "5965c705a3f269591b38",
+            "title": "Current House bills list",
+            "url": "https://www.aph.gov.au/layouts/DPS/Bills/?blsId=legislation%2fbillslst%2fbillslst_c203aa1c-1876-41a8-bc76-1de328bdb726"
+          }
+        ],
+        "added_count": 2,
+        "removed_count": 2,
+        "before_count": 96,
+        "after_count": 96,
+        "delta_hash": "ae8cb0e8dd22608ac58458e493e583cf381bbd5446989da87c826d1f7821f692"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-PM-MEDIA-20261106105325",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-FED",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-PM-MEDIA-20261106105325",
+      "captured_at": "2026-11-06T10:53:25.875Z",
+      "event_date": "2026-11-06",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-PM-MEDIA",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "review_policy": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-PM-MEDIA-20261104012237",
+        "content_hash": "636d26cc99de705b525605cb10cb1042e7264e0f893dfb368c1954bfedd9a76d",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-PM-MEDIA-20261106105325",
+        "content_hash": "65aad08112d39c0d005fbab967a41b7b1d44b1461dd29f57521ef96ff56863ad",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "STRUCTURED_RECORD_SET",
+        "records_added": [
+          {
+            "record_id": "a551b31666d748f900bb",
+            "title": "Departmental ministerial appointment",
+            "url": "https://www.pm.gov.au/media/departmental-ministerial-appointment"
+          }
+        ],
+        "records_removed": [
+          {
+            "record_id": "044a1d8b1b7f79f7f739",
+            "title": "Veteran employment awards celebrate success beyond service",
+            "url": "https://www.pm.gov.au/media/veteran-employment-awards-celebrate-success-beyond-service"
+          }
+        ],
+        "added_count": 1,
+        "removed_count": 1,
+        "before_count": 27,
+        "after_count": 27,
+        "delta_hash": "3ec1e4e25570e1d83b6e6c44f3405826b59722fed408a3229a3d570aa23b2aa2"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-LIBERAL-HOME-20261106105325",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-FED",
+      "party_id": "AUS-FED-LIB",
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-LIBERAL-HOME-20261106105325",
+      "captured_at": "2026-11-06T10:53:25.875Z",
+      "event_date": "2026-11-06",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_PARTY",
+      "source_id": "SRC-LIBERAL-FEDERAL-HOME",
+      "capture_mode": "NORMALISED_PAGE_HASH",
+      "review_policy": "REVIEW_UNSTRUCTURED_CHANGE",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-LIBERAL-HOME-20261105064714",
+        "content_hash": "13d19eac990c2ec84c8a14ac8647cc8e8732fbf5ab7fc1f04cd8e894bef70b7c",
+        "capture_mode": "NORMALISED_PAGE_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-LIBERAL-HOME-20261106105325",
+        "content_hash": "5678b639018ad413a17ef216b7b6faf481ddc0bd96402e36313d40bf4a70a25f",
+        "capture_mode": "NORMALISED_PAGE_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "TEXT_REPRESENTATION",
+        "first_difference_offset": 1415,
+        "before_length": 6365,
+        "after_length": 6359,
+        "before_excerpt": "er of the Opposition in the Senate Meet the Liberal Team The Latest Stay up to date with the Liberal Party of Australia liberalaus Australia’s interest rates are higher than any major advanced economy because Australia’s inflation has been too high, fuelled by Labor’s out of control spending. Nov 5 Open post by liberalaus with ID 17926413363441972 liberalaus Albanese is \"delulu” Nov 4 Open post by liberalaus with ID 18098099855139863 liberalaus If Labor refuses to admit it has a spending problem, how can they ever fix it? Nov 4 Open post by liberalaus with ID 18079092689427605 liberalaus Labor won’t admit they’ve got a spending problem. But it doesn’t have to be this way. The Liberals and Nationals have found $31 billion in savings that can be made now. Read more about our plan at the link in bio. Nov 4 Open post by liberalaus with ID 18182337061429096 liberalaus The more Labor spends, the more Australians pay. Nov 4 Open post by liberalaus with ID 17989501440086315 liberalaus If only Australians could pay their mortgages with Jim Chalmers’ and Anthony Albanese’s excuses. We have a Treasurer who can`t kick his out of control spending addiction, and it`s pushing inflation and interest rates higher. Nov 4 Open post by liberalaus with ID 18121018156981140 angustaylormp Enough of Anthony Albanese’s lies and excuses. The truth is the more Labor spends, the more Australians pay. Nov 4 Open post by angustaylormp with ID 18469356487187929 liberalaus Jim Chalmers won’t admit he’s got a spending problem. If Labor can`t admit there`s a problem, how can they fix it? Nov 3 Open post by liberalaus with ID 18145896187596010 angustaylormp Why won’t the Prime Minister be honest with Australians about his spending problem? Australians are paying more because of it. We know how to fix the economy. We’ve done it before and we can do it again. Nov 3 Open post by angustaylormp with ID 18154325521551332 liberalaus Yesterday’s rate rise didn’t happen by accident. This happened because the Prime Minister and his Treasurer have completely lost control of spending. Under Anthony Albanese and Jim Chalmers, government spending is at its highest level in four decades, outside the pandemic. This is fuelling inflation, and driving up interest rates. Nov 3 Open post by liberalaus with ID 17974317657177965 liberalaus Labor blames global factors. But this year alone, Australia has had five rate rises. The Euro Area has had two. The US and Canada have had one. Nov 3 Open post by liberalaus with ID 18038049410852543 angustaylormp The more Labor spends, the more Australians pay. Anthony Albanese, you’ve been called out by the Reserve Bank. No one is believing your excuses. Why won’t you be honest about your spending problem? The Liberals and Nationals will fix the economy. We will cut taxes. We will deliver cheaper energy. We will take the pressure off interest rates and off your household budget. We have done it before. We can do it again. Nov 3 Open post by angustaylormp with ID 17977786668169939 liberalaus Under Labor, Australians pay more. Nov 3 Open post by liberalaus with ID 18007623023990401 senatorhume At 4.85% our cash rate is higher than any major advanced economy, and the highest here since 2008. Nov 3 Open post by senatorhume with ID 17997193677047927 liberalaus Australians are paying the price for a government that can`t control spending, can`t beat inflation, and can`t get the economy moving. Nov 3 Open post by liberalaus with ID 18078595904432281 angustaylormp The more Labor spends, the more Australians pay. Anthony Albanese has completely lost control of spending. But he won’t be honest about it. He won’t tell Australians the truth. He won’t admit he’s got a spending problem. It doesn’t have to be like this. The Liberals and Nationals will cut spending. We will clean up Labor’s mess. We will fix the economy. Nov 3 Open post by angustaylormp with ID 17911791048475646 liberalaus Today, the Reserve Bank has raised interest rates again. Labor is trying to blame global events. However, the facts tell a different story. Nov 3 Open post by liberalaus with ID 18107109212270107 liberalaus Labor`s out of control spending is fuelling inflation and has forced interest rates in Australia to be higher than any major advanced economy. Nov 3 Open post by liberalaus with ID 18163218736503717 We need your support to win! Help us by making a donation today. 🙏🏼 $30 👏🏼 $60 😃 $120 😁 $500 😲 $1,000 🥹 $2,000 ",
+        "after_excerpt": "er of the Opposition in the Senate Meet the Liberal Team The Latest Stay up to date with the Liberal Party of Australia angustaylormp Labor’s assault on aspiration has activated Australians in many ways. Chances are you’ve seen a video or two from @financial.leigh and it was great to sit down with Leigh Morris to unpack why his takes on tax and the economy are hitting home with Australians. Leigh is part of the small business community that is fighting back—we will back them everyday, axe all of Labor’s toxic taxes and restore reward for hard work. Nov 6 Open post by angustaylormp with ID 18155731435527801 angustaylormp Labor wants credit for their “hard work”. While costs climb and they spend more and more on waste… do you really think they deserve a pat on the back? Nov 5 Open post by angustaylormp with ID 18020955971929371 angustaylormp The more Labor spends, the more Australians pay. Nov 5 Open post by angustaylormp with ID 18113986648881824 liberalaus Australia’s interest rates are higher than any major advanced economy because Australia’s inflation has been too high, fuelled by Labor’s out of control spending. Nov 5 Open post by liberalaus with ID 17926413363441972 liberalaus Albanese is \"delulu” Nov 4 Open post by liberalaus with ID 18098099855139863 liberalaus If Labor refuses to admit it has a spending problem, how can they ever fix it? Nov 4 Open post by liberalaus with ID 18079092689427605 liberalaus Labor won’t admit they’ve got a spending problem. But it doesn’t have to be this way. The Liberals and Nationals have found $31 billion in savings that can be made now. Read more about our plan at the link in bio. Nov 4 Open post by liberalaus with ID 18182337061429096 liberalaus The more Labor spends, the more Australians pay. Nov 4 Open post by liberalaus with ID 17989501440086315 liberalaus If only Australians could pay their mortgages with Jim Chalmers’ and Anthony Albanese’s excuses. We have a Treasurer who can`t kick his out of control spending addiction, and it`s pushing inflation and interest rates higher. Nov 4 Open post by liberalaus with ID 18121018156981140 angustaylormp Enough of Anthony Albanese’s lies and excuses. The truth is the more Labor spends, the more Australians pay. Nov 4 Open post by angustaylormp with ID 18469356487187929 liberalaus Jim Chalmers won’t admit he’s got a spending problem. If Labor can`t admit there`s a problem, how can they fix it? Nov 3 Open post by liberalaus with ID 18145896187596010 angustaylormp Why won’t the Prime Minister be honest with Australians about his spending problem? Australians are paying more because of it. We know how to fix the economy. We’ve done it before and we can do it again. Nov 3 Open post by angustaylormp with ID 18154325521551332 liberalaus Yesterday’s rate rise didn’t happen by accident. This happened because the Prime Minister and his Treasurer have completely lost control of spending. Under Anthony Albanese and Jim Chalmers, government spending is at its highest level in four decades, outside the pandemic. This is fuelling inflation, and driving up interest rates. Nov 3 Open post by liberalaus with ID 17974317657177965 liberalaus Labor blames global factors. But this year alone, Australia has had five rate rises. The Euro Area has had two. The US and Canada have had one. Nov 3 Open post by liberalaus with ID 18038049410852543 angustaylormp The more Labor spends, the more Australians pay. Anthony Albanese, you’ve been called out by the Reserve Bank. No one is believing your excuses. Why won’t you be honest about your spending problem? The Liberals and Nationals will fix the economy. We will cut taxes. We will deliver cheaper energy. We will take the pressure off interest rates and off your household budget. We have done it before. We can do it again. Nov 3 Open post by angustaylormp with ID 17977786668169939 liberalaus Under Labor, Australians pay more. Nov 3 Open post by liberalaus with ID 18007623023990401 senatorhume At 4.85% our cash rate is higher than any major advanced economy, and the highest here since 2008. Nov 3 Open post by senatorhume with ID 17997193677047927 liberalaus Australians are paying the price for a government that can`t control spending, can`t beat inflation, and can`t get the economy moving. Nov 3 Open post by liberalaus with ID 18078595904432281 We need your support to win! Help us by making a donation today. 🙏🏼 $30 👏🏼 $60 😃 $120 😁 $500 😲 $1,000 🥹 $2,000 ",
+        "delta_hash": "30642935507de59d510feb24c5289c1a2e851ca643cac835a5923d6314c789dd"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-GREENS-FEDERAL-MEDIA-20261106105325",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-FED",
+      "party_id": "AUS-FED-GRN",
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-GREENS-FEDERAL-MEDIA-20261106105325",
+      "captured_at": "2026-11-06T10:53:25.875Z",
+      "event_date": "2026-11-06",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_PARTY",
+      "source_id": "SRC-GREENS-FEDERAL-RELEASE-INDEX",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "review_policy": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-GREENS-FEDERAL-MEDIA-20261104091416",
+        "content_hash": "e8d10aedfddb9457a75321e2637f6ee2ac4c7242597694e6d697e707709ab5d4",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-GREENS-FEDERAL-MEDIA-20261106105325",
+        "content_hash": "e707b5a5e1a3cb7ab7fd0d6f6c87a33c8816b5b593712d94bd1c8a06528e308a",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "STRUCTURED_RECORD_SET",
+        "records_added": [
+          {
+            "record_id": "65412eb02a8bdb5ab3c2",
+            "title": "Read more about $2.2m a year - a lottery win or APS salary?",
+            "url": "https://greens.org.au/news/media-release/22m-year-lottery-win-or-aps-salary"
+          },
+          {
+            "record_id": "a633dd991948f72e884c",
+            "title": "$2.2m a year - a lottery win or APS salary?",
+            "url": "https://greens.org.au/news/media-release/22m-year-lottery-win-or-aps-salary"
+          },
+          {
+            "record_id": "c544fd82295a40836ae2",
+            "title": "US midterms prove we need a moratorium on data centres",
+            "url": "https://greens.org.au/sa/news/media-release/us-midterms-prove-we-need-moratorium-data-centres"
+          },
+          {
+            "record_id": "d8b5a0939f40e2c60be7",
+            "title": "Read more about US midterms prove we need a moratorium on data centres",
+            "url": "https://greens.org.au/sa/news/media-release/us-midterms-prove-we-need-moratorium-data-centres"
+          }
+        ],
+        "records_removed": [
+          {
+            "record_id": "0f6ac4ba0e3111cc5a01",
+            "title": "Read more about Greens call on Government to block livestreamed execution footage from Australian screens",
+            "url": "https://greens.org.au/news/media-release/greens-call-government-block-livestreamed-execution-footage-australian-screens"
+          },
+          {
+            "record_id": "13c6ff79fec0bf1905a6",
+            "title": "Greens call on Government to block livestreamed execution footage from Australian screens",
+            "url": "https://greens.org.au/news/media-release/greens-call-government-block-livestreamed-execution-footage-australian-screens"
+          },
+          {
+            "record_id": "2055ddb7ed6d41ada4a5",
+            "title": "RELEASE: $2.2m a year - a lottery win or APS salary?",
+            "url": "https://greens.org.au/news/media-release/release-22m-year-lottery-win-or-aps-salary"
+          },
+          {
+            "record_id": "ce43ca19f4f0258ce373",
+            "title": "Read more about RELEASE: $2.2m a year - a lottery win or APS salary?",
+            "url": "https://greens.org.au/news/media-release/release-22m-year-lottery-win-or-aps-salary"
+          }
+        ],
+        "added_count": 4,
+        "removed_count": 4,
+        "before_count": 75,
+        "after_count": 75,
+        "delta_hash": "36019fd509c7d690edbce13b956c6c308f078f6b3f8194c85f0acd717a467ab4"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-NSW-MINISTERIAL-RELEASES-20261106105325",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-NSW",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-NSW-MINISTERIAL-RELEASES-20261106105325",
+      "captured_at": "2026-11-06T10:53:25.875Z",
+      "event_date": "2026-11-06",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-NSW-MINISTERIAL-RELEASES",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "review_policy": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-NSW-MINISTERIAL-RELEASES-20261105064714",
+        "content_hash": "64d2ef2dcd1b49ec08eab6e8f760aed669b7e2f49b3d638a9516fb7b2e7caa78",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-NSW-MINISTERIAL-RELEASES-20261106105325",
+        "content_hash": "57fd722de2b38228b740bb9f94a87ccb3f119ef2fda3d16324fbe16f4b848b8b",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "STRUCTURED_RECORD_SET",
+        "records_added": [
+          {
+            "record_id": "07310e63f1feb296b93d",
+            "title": "Resilience work underway as South Coast Rail Plan begins",
+            "url": "https://www.nsw.gov.au/ministerial-releases/resilience-work-underway-as-south-coast-rail-plan-begins"
+          },
+          {
+            "record_id": "1f2cf685a7bb8a70c4ea",
+            "title": "NSW backs community-led prevention during 16 Days of Activism",
+            "url": "https://www.nsw.gov.au/ministerial-releases/nsw-backs-community-led-prevention-during-16-days-of-activism"
+          },
+          {
+            "record_id": "2c67866071179b50a8c7",
+            "title": "Minns Labor Government delivers bus service boost for Central Coast and new buses for Newcastle",
+            "url": "https://www.nsw.gov.au/ministerial-releases/minns-labor-government-delivers-bus-service-boost-for-central-coast-and-new-buses-for-newcastle"
+          },
+          {
+            "record_id": "3c51c2c416e8335cb9bc",
+            "title": "$5.2 million boost to firefighting capability for growing Sydney",
+            "url": "https://www.nsw.gov.au/ministerial-releases/aerial-ladder-truck-investment-for-sydney"
+          },
+          {
+            "record_id": "55cf30df6c631e566b36",
+            "title": "State’s top young spellers go for glory at New South Wales Premier’s Spelling Bee finals",
+            "url": "https://www.nsw.gov.au/ministerial-releases/states-top-young-spellers-go-for-glory-at-new-south-wales-premiers-spelling-bee-finals"
+          },
+          {
+            "record_id": "682f04078f7ecad09b15",
+            "title": "Re-elected Minns Labor Government to boost productivity and deliver more homes and jobs",
+            "url": "https://www.nsw.gov.au/ministerial-releases/re-elected-minns-labor-government-to-boost-productivity-and-deliver-more-homes-and-jobs"
+          },
+          {
+            "record_id": "77061a1c7f22cbcea06c",
+            "title": "Newcastle&#x27;s blockbuster year set for a grand finale: 120k fans, five major events over five stellar weeks",
+            "url": "https://www.nsw.gov.au/departments-and-agencies/dciths/ministerial-media-releases/newcastles-blockbuster-year-set-for-a-grand-finale-120k-fans-five-major-events-over-five-stellar-weeks"
+          },
+          {
+            "record_id": "8470ed5f96eacad1e7f2",
+            "title": "Firefighting fleet upgrades rollout to protect communities",
+            "url": "https://www.nsw.gov.au/ministerial-releases/firefighting-fleet-upgrades-rolled-out"
+          },
+          {
+            "record_id": "eb2c5ac694bb879c4133",
+            "title": "First look at design for new Engadine fire station",
+            "url": "https://www.nsw.gov.au/ministerial-releases/first-look-new-fire-station-engadine"
+          },
+          {
+            "record_id": "f5e0bcf1e5dbce49e644",
+            "title": "Minns Labor Government to take action on Cooks River",
+            "url": "https://www.nsw.gov.au/ministerial-releases/minns-labor-government-to-take-action-on-cooks-river"
+          }
+        ],
+        "records_removed": [
+          {
+            "record_id": "2aeba81e26fe0fd5a8d2",
+            "title": "$5 million construction begins on new refuge in Hornsby",
+            "url": "https://www.nsw.gov.au/ministerial-releases/5-million-construction-begins-on-new-refuge-hornsby"
+          },
+          {
+            "record_id": "526e54ca57ece0f13701",
+            "title": "HSC exams come to an end for 75,000 students across New South Wales",
+            "url": "https://www.nsw.gov.au/ministerial-releases/hsc-exams-come-to-an-end-for-75000-students-across-new-south-wales"
+          },
+          {
+            "record_id": "5b42dac6527bd4ccfc6f",
+            "title": "Additional bus services coming to boost connections across the Northern Rivers",
+            "url": "https://www.nsw.gov.au/ministerial-releases/additional-bus-services-coming-to-boost-connections-across-northern-rivers"
+          },
+          {
+            "record_id": "808298afb0a03bccbb54",
+            "title": "Wingham Brush reopens with state-of-the-art upgrades after floods",
+            "url": "https://www.nsw.gov.au/ministerial-releases/wingham-brush-reopens-state-of-art-upgrades-after-floods"
+          },
+          {
+            "record_id": "9dd24f6200ea9c210e30",
+            "title": "NSW Government nitrous oxide rules now in effect",
+            "url": "https://www.nsw.gov.au/ministerial-releases/nitrous-oxide-rules-take-effect"
+          },
+          {
+            "record_id": "b48a3e6727b55382ea48",
+            "title": "Ready, set, go for Lismore’s new $4.5m athletics track",
+            "url": "https://www.nsw.gov.au/ministerial-releases/ready-set-go-for-lismores-new-45m-athletics-track"
+          },
+          {
+            "record_id": "ba03f9ad5fc3dfae5a80",
+            "title": "Investigations into Tamworth’s water future complete",
+            "url": "https://www.nsw.gov.au/ministerial-releases/tamworth-water-future-investigated"
+          },
+          {
+            "record_id": "c55da9d3c4cdc164f6f2",
+            "title": "First-ever Skills Audit of coal workers released to back today’s coal jobs, and plan for the future",
+            "url": "https://www.nsw.gov.au/ministerial-releases/first-ever-skills-audit-of-coal-workers-released-to-back-todays-coal-jobs-and-plan-for-future"
+          },
+          {
+            "record_id": "c94845137e726474e377",
+            "title": "Active transport projects delivered alongside housing in TOD precincts",
+            "url": "https://www.nsw.gov.au/ministerial-releases/active-transport-projects-delivered-alongside-housing"
+          },
+          {
+            "record_id": "f4d040268bbf77d3f76f",
+            "title": "More housing for women and children fleeing domestic violence",
+            "url": "https://www.nsw.gov.au/ministerial-releases/more-housing-for-women-and-children-fleeing-domestic-violence"
+          }
+        ],
+        "added_count": 10,
+        "removed_count": 10,
+        "before_count": 88,
+        "after_count": 88,
+        "delta_hash": "eeedcbecbefe41b0eb1798dee7532e25f7205648a5c6b9e1eb9ac9b2c66b129a"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-NSWEC-MEDIA-20261106105325",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-NSW",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-NSWEC-MEDIA-20261106105325",
+      "captured_at": "2026-11-06T10:53:25.875Z",
+      "event_date": "2026-11-06",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_ELECTORAL_AUTHORITY",
+      "source_id": "SRC-NSWEC-MEDIA",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "review_policy": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-NSWEC-MEDIA-20261104091416",
+        "content_hash": "343f2c10c5cb29eac056abbeabd2c8b24e9010f5f64b2dd20657705f41760ed7",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-NSWEC-MEDIA-20261106105325",
+        "content_hash": "28311986dbe913542cbd7896d2c5db910eb869024a73bff9850eb5496c66c263",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "STRUCTURED_RECORD_SET",
+        "records_added": [
+          {
+            "record_id": "0144bab8a958197251f7",
+            "title": "arrow_forward Learn more",
+            "url": "https://elections.nsw.gov.au/service-maintenance-schedule"
+          }
+        ],
+        "records_removed": [],
+        "added_count": 1,
+        "removed_count": 0,
+        "before_count": 365,
+        "after_count": 366,
+        "delta_hash": "f3d698a3f379f72e685485a8855f833eeadcf890254b7f6dc577b69511f79aca"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-VEC-2026-STATE-ELECTION-20261106105325",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-VIC",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-VEC-2026-STATE-ELECTION-20261106105325",
+      "captured_at": "2026-11-06T10:53:25.875Z",
+      "event_date": "2026-11-06",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_ELECTORAL_AUTHORITY",
+      "source_id": "SRC-VEC-2026-STATE-ELECTION",
+      "capture_mode": "NORMALISED_PAGE_HASH",
+      "review_policy": "REVIEW_UNSTRUCTURED_CHANGE",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-VEC-2026-STATE-ELECTION-20261104171754",
+        "content_hash": "62e78a9e7bc83e4a9b65ff21b0e88291c67fad9503e61782a1b2469afaf0ca78",
+        "capture_mode": "NORMALISED_PAGE_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-VEC-2026-STATE-ELECTION-20261106105325",
+        "content_hash": "758d189abccb6a61cea748ea6480527fcfba7ba6811933c5a2bf8830192ae980",
+        "capture_mode": "NORMALISED_PAGE_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "TEXT_REPRESENTATION",
+        "first_difference_offset": 763,
+        "before_length": 20177,
+        "after_length": 20344,
+        "before_excerpt": "tion Greater Bendigo City Council Lockwood Ward by-election Mornington Peninsula Shire Council, Briars Ward by-election Murrindindi Shire Council Kinglake Ward by-election Fines and reviews Internal reviews and special circumstances Going to court How voting works Preferential voting Counting the votes Challenging an election What happens at a voting centre Types of elections State elections Local council elections Council countbacks and by-elections State by-elections, supplementary elections and appointments Other elections Learn to vote Easy English guides on voting How to fill out state ballot papers How to fill a council ballot paper Book a free information session Passport to Democracy program Talking Democracy resources Young voters History of elections in Victoria Results State election results 2022 state election results 2018 state election results 2014 state election results 2010 state election results 2006 state election results By-election and supplementary election results Council election results 2024 council election results 2021 South Gippsland Shire Council election results 2020 council election results 2017 Greater Geelong City Council election results 2016 council election results 2012 council election results 2008 council election results Council by-election and countback results Other election and poll results MAV elections 2025 MAV Metropolitan South region by-election Murray Valley Wine Grape Industry Development Order Poll 2024 Strawberry Poll 2026 Election statistics Local council election statistics State election statistics Electoral boundaries State districts State regions Local councils Council reviews Ward boundary reviews Electoral structure reviews What are electoral boundaries? Which boundaries cover where I live? State boundary reviews Download boundary maps Candidates & Parties Become a state election candidate How to nominate Campaigning Authorising state election material How-to-vote card guidelines Election information sessions Appointing a scrutineer Information for scrutineers Upper house groups State election candidate resources Become a local council candidate How to nominate Authorising local council election material Appointing a scrutineer Information for scrutineers Local council candidate resources Registered political parties About registered political parties Register a political party Currently registered parties Party decisions and changes Party registration review Political donations Information for donors Information for recipients New entrants Indexation Funding Funding for registered political parties Funding for independent members Funding for independent candidates State campaign account Funding glossary Annual returns Registered political parties Associated entities Independents and groups Third-party campaigners Languages Toggle search Search Type a minimum of three characters then press UP or DOWN on the keyboard to navigate the autocompleted search results Search button Close search bar Navigation Close navigation Enrolment Enrol to vote Enrol in other languages Get help to enrol Other ways to enrol Postal voting Enrolling for local council elections Check my enrolment Update my enrolment VoterAlert Remove someone from the roll Electoral roll statistics Voting 2026 state election Voting options Away from Victoria Voting locations Low sensory voting Vote by post Electoral misinformation Current elections Banyule City Council Beale Ward by-election Greater Bendigo City Council Lockwood Ward by-election Mornington Peninsula Shire Council, Briars Ward by-election Murrindindi Shire Council Kinglake Ward by-election Fines and reviews Internal reviews and special circumstances Going to court How voting works Preferential voting Counting the votes Challenging an election What happens at a voting centre Types of elections State elections Local council elections Council countbacks and by-elections State by-elections, supplementary elections and appointments Other elections Learn to vote Easy English guides on voting How to fill out state ballot papers How to fill a council ballot paper Book a free information session Passport to Democracy program Talking Democracy resources Young voters History of elections in Victoria Results State election results 2022 state election results 2018 state election results 2014 state election results 2010 state election results 2006 state election results By-election and supplementary election results Council election results 2024 council election results 2021 South Gippsland Shire Council election results 2020 council election results 2017 Greater Geelong City Council election results 2016 council election results 2012 council election results 2008 council election results Council by-election and countback results Other election and poll results MAV elections 2025 MAV Metropolitan South region by-election Murray Valley Wine Grape Industry Development Order Poll 2024 Strawberry Poll 2026 Election statistics Local council election statistics State election statistics Electoral boundaries State districts State regions Local councils Council reviews Ward boundary reviews Electoral structure reviews What are electoral boundaries? Which boundaries cover where I live? State boundary reviews Download boundary maps Candidates & Parties Become a state election candidate How to nominate Campaigning Authorising state election material How-to-vote card guidelines Election information sessions Appointing a scrutineer Information for scrutineers Upper house groups State election candidate resources Become a local council candidate How to nominate Authorising local council election material Appointing a scrutineer Information for scrutineers Local council candidate resources Registered political parties About registered political parties Register a political party Currently registered parties Party decisions and changes Party registration review Political donations Information for donors Information for recipients New entrants Indexation Funding Funding for registered political parties Funding for independent members Funding for independent candidates State campaign account Funding glossary Annual returns Registered political parties Associated entities Independents and groups Third-party campaigners Languages Back to Voting Home Voting 2026 state election On this page 2026 state election Listen There have been changes to Victoria's electoral laws following recent amendments to the Electoral Act 2002 . For further information, see our page about the 2026 Electoral Act amendments . On Saturday 28 November, Victorians will vote to elect the next Victorian Parliament. Each election is your chance to have your say about who represents you on the issues you care about. Your voice is important, and every vote counts. Candidate nominations are now open. Find district candidates Find region candidates You can also see our spreadsheet of all the candidates who have nominated so far. Our voting centre locator has all early and election day voting centres. Find election venues Voting options There are",
+        "after_excerpt": "tion Greater Bendigo City Council Lockwood Ward by-election Mornington Peninsula Shire Council, Briars Ward by-election Knox City Council Baird Ward by-election Murrindindi Shire Council Kinglake Ward by-election Fines and reviews Internal reviews and special circumstances Going to court How voting works Preferential voting Counting the votes Challenging an election What happens at a voting centre Types of elections State elections Local council elections Council countbacks and by-elections State by-elections, supplementary elections and appointments Other elections Learn to vote Easy English guides on voting How to fill out state ballot papers How to fill a council ballot paper Book a free information session Passport to Democracy program Talking Democracy resources Young voters History of elections in Victoria Results State election results 2022 state election results 2018 state election results 2014 state election results 2010 state election results 2006 state election results By-election and supplementary election results Council election results 2024 council election results 2021 South Gippsland Shire Council election results 2020 council election results 2017 Greater Geelong City Council election results 2016 council election results 2012 council election results 2008 council election results Council by-election and countback results Other election and poll results MAV elections 2025 MAV Metropolitan South region by-election Murray Valley Wine Grape Industry Development Order Poll 2024 Strawberry Poll 2026 Election statistics Local council election statistics State election statistics Electoral boundaries State districts State regions Local councils Council reviews Ward boundary reviews Electoral structure reviews What are electoral boundaries? Which boundaries cover where I live? State boundary reviews Download boundary maps Candidates & Parties Become a state election candidate How to nominate Campaigning Authorising state election material How-to-vote card guidelines Election information sessions Appointing a scrutineer Information for scrutineers Upper house groups State election candidate resources Become a local council candidate How to nominate Authorising local council election material Appointing a scrutineer Information for scrutineers Local council candidate resources Registered political parties About registered political parties Register a political party Currently registered parties Party decisions and changes Party registration review Political donations Information for donors Information for recipients New entrants Indexation Funding Funding for registered political parties Funding for independent members Funding for independent candidates State campaign account Funding glossary Annual returns Registered political parties Associated entities Independents and groups Third-party campaigners Languages Toggle search Search Type a minimum of three characters then press UP or DOWN on the keyboard to navigate the autocompleted search results Search button Close search bar Navigation Close navigation Enrolment Enrol to vote Enrol in other languages Get help to enrol Other ways to enrol Postal voting Enrolling for local council elections Check my enrolment Update my enrolment VoterAlert Remove someone from the roll Electoral roll statistics Voting 2026 state election Voting options Away from Victoria Voting locations Low sensory voting Vote by post Electoral misinformation Current elections Banyule City Council Beale Ward by-election Greater Bendigo City Council Lockwood Ward by-election Mornington Peninsula Shire Council, Briars Ward by-election Knox City Council Baird Ward by-election Murrindindi Shire Council Kinglake Ward by-election Fines and reviews Internal reviews and special circumstances Going to court How voting works Preferential voting Counting the votes Challenging an election What happens at a voting centre Types of elections State elections Local council elections Council countbacks and by-elections State by-elections, supplementary elections and appointments Other elections Learn to vote Easy English guides on voting How to fill out state ballot papers How to fill a council ballot paper Book a free information session Passport to Democracy program Talking Democracy resources Young voters History of elections in Victoria Results State election results 2022 state election results 2018 state election results 2014 state election results 2010 state election results 2006 state election results By-election and supplementary election results Council election results 2024 council election results 2021 South Gippsland Shire Council election results 2020 council election results 2017 Greater Geelong City Council election results 2016 council election results 2012 council election results 2008 council election results Council by-election and countback results Other election and poll results MAV elections 2025 MAV Metropolitan South region by-election Murray Valley Wine Grape Industry Development Order Poll 2024 Strawberry Poll 2026 Election statistics Local council election statistics State election statistics Electoral boundaries State districts State regions Local councils Council reviews Ward boundary reviews Electoral structure reviews What are electoral boundaries? Which boundaries cover where I live? State boundary reviews Download boundary maps Candidates & Parties Become a state election candidate How to nominate Campaigning Authorising state election material How-to-vote card guidelines Election information sessions Appointing a scrutineer Information for scrutineers Upper house groups State election candidate resources Become a local council candidate How to nominate Authorising local council election material Appointing a scrutineer Information for scrutineers Local council candidate resources Registered political parties About registered political parties Register a political party Currently registered parties Party decisions and changes Party registration review Political donations Information for donors Information for recipients New entrants Indexation Funding Funding for registered political parties Funding for independent members Funding for independent candidates State campaign account Funding glossary Annual returns Registered political parties Associated entities Independents and groups Third-party campaigners Languages Back to Voting Home Voting 2026 state election On this page 2026 state election Listen There have been changes to Victoria's electoral laws following recent amendments to the Electoral Act 2002 . For further information, see our page about the 2026 Electoral Act amendments . On Saturday 28 November, Victorians will vote to elect the next Victorian Parliament. Each election is your chance to have your say about who represents you on the issues you care about. Your voice is important, and every vote counts. Candidate nominations are now open. Find district candidates Find region candidates You can also see our spreadsheet of all the candidates who have nominated so far. You may need to clear your browser cache to see the most recent spreadsheet version. Our voting centre locator has all early and election day voting centres. Find election venues Voting options There are",
+        "delta_hash": "8c9ffcb4f89d820a8fcfd2724e2809bd6877609a8ff5254e3888c7a98fa8f154"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-VEC-MEDIA-20261106105325",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-VIC",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-VEC-MEDIA-20261106105325",
+      "captured_at": "2026-11-06T10:53:25.875Z",
+      "event_date": "2026-11-06",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_ELECTORAL_AUTHORITY",
+      "source_id": "SRC-VEC-MEDIA",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "review_policy": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-VEC-MEDIA-20261104012237",
+        "content_hash": "900ac3ab26e71e2c38e03123da7b60a2266d52535754a4f9868ee277111532e8",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-VEC-MEDIA-20261106105325",
+        "content_hash": "a8edae9d006842b6b51bfd1ec2ca0a38469470e039b0a4be36f187ab5b15fa39",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "STRUCTURED_RECORD_SET",
+        "records_added": [
+          {
+            "record_id": "883547f205c8f413c8e3",
+            "title": "Knox City Council Baird Ward by-election",
+            "url": "https://www.vec.vic.gov.au/voting/current-elections/knox-city-council-baird-ward-by-election"
+          }
+        ],
+        "records_removed": [],
+        "added_count": 1,
+        "removed_count": 0,
+        "before_count": 145,
+        "after_count": 146,
+        "delta_hash": "7f5ecb3dd915d7c7cdf45f15675b17715132bc9c2320b0981dc415c731a0d5b2"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261106105325",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-QLD",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-QLD-MINISTERIAL-STATEMENTS-20261106105325",
+      "captured_at": "2026-11-06T10:53:25.875Z",
+      "event_date": "2026-11-06",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-QLD-MINISTERIAL-STATEMENTS",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "review_policy": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-QLD-MINISTERIAL-STATEMENTS-20261105064714",
+        "content_hash": "d071a35683651781211311e6c1a54c78ed2789190a983e52280b0098dd4d7dc9",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-QLD-MINISTERIAL-STATEMENTS-20261106105325",
+        "content_hash": "24012dba02dc267a6c493efe19081d5709143a3c3cff1e81a73ec62faaa9a83f",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "STRUCTURED_RECORD_SET",
+        "records_added": [
+          {
+            "record_id": "42676ff166aa1cf5d1ee",
+            "title": "Biggest bush boost delivered in a decade",
+            "url": "https://statements.qld.gov.au/statements/106363"
+          },
+          {
+            "record_id": "bd2a63b8de5b1b3e4c60",
+            "title": "Helping small construction businesses boost their productivity",
+            "url": "https://statements.qld.gov.au/statements/106362"
+          },
+          {
+            "record_id": "f667e8cf62908808f817",
+            "title": "Delivering a plan for the next decade of volunteering in Queensland",
+            "url": "https://statements.qld.gov.au/statements/106354"
+          }
+        ],
+        "records_removed": [
+          {
+            "record_id": "1e9dbfedd14185e47fe2",
+            "title": "All aboard: Cairns Airport bus ready to roll",
+            "url": "https://statements.qld.gov.au/statements/106347"
+          },
+          {
+            "record_id": "4e8fc4871f8a17feb1d7",
+            "title": "Extraordinary potential of the Taroom Trough revealed",
+            "url": "https://statements.qld.gov.au/statements/106348"
+          },
+          {
+            "record_id": "725e57b167c47df249ce",
+            "title": "New Designated Business and Community Precinct to make Mackay safer",
+            "url": "https://statements.qld.gov.au/statements/106346"
+          }
+        ],
+        "added_count": 3,
+        "removed_count": 3,
+        "before_count": 16,
+        "after_count": 16,
+        "delta_hash": "7bedcbc8e8eb3a04427c2668715d5982ce701d13dc131216d95f32f6a5948317"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "SIG-REV-CHG-WATCH-APH-BILLS-20261106105325",
+      "parent_event_id": "CHG-WATCH-APH-BILLS-20261106105325",
+      "review_id": "REV-CHG-WATCH-APH-BILLS-20261106105325",
+      "jurisdiction_id": "AUS-FED",
+      "party_id": null,
+      "actor_id": null,
+      "contest_id": null,
+      "cycle_id": null,
+      "source_snapshot_id": "AUTO-WATCH-APH-BILLS-20261106105325",
+      "record_id": null,
+      "captured_at": "2026-11-06T10:54:28.455Z",
+      "event_date": "2026-11-06",
+      "checkpoint": "CONTINUOUS_FORWARD_SIGNAL_REVIEW",
+      "event_type": "SIGNAL_CREATED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_PARLIAMENT",
+      "source_id": "SRC-APH-BILLS",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "claim": "Parliament of Australia — Bills and Legislation added 2 structured publication records to its forward-captured official index: Current House bills list; Current Senate bills list",
+      "observed_behaviour": "One or more structured publication records appeared in the monitored official source index after the preceding forward snapshot.",
+      "publication_records_added": [
+        {
+          "record_id": "0c02f85eb762e1f64212",
+          "title": "Current House bills list",
+          "url": "https://www.aph.gov.au/Parliamentary_Business/layouts/DPS/Bills/?blsId=legislation%2fbillslst%2fbillslst_c203aa1c-1876-41a8-bc76-1de328bdb726"
+        },
+        {
+          "record_id": "a9d593cfe442932eabeb",
+          "title": "Current Senate bills list",
+          "url": "https://www.aph.gov.au/Parliamentary_Business/layouts/DPS/Bills/?blsId=legislation%2fbillslst%2fbillslst_8100fb48-0592-488b-828b-d017b24562d4"
+        }
+      ],
+      "publication_records_removed": [
+        {
+          "record_id": "29a68e1255907793c887",
+          "title": "Current Senate bills list",
+          "url": "https://www.aph.gov.au/layouts/DPS/Bills/?blsId=legislation%2fbillslst%2fbillslst_8100fb48-0592-488b-828b-d017b24562d4"
+        },
+        {
+          "record_id": "5965c705a3f269591b38",
+          "title": "Current House bills list",
+          "url": "https://www.aph.gov.au/layouts/DPS/Bills/?blsId=legislation%2fbillslst%2fbillslst_c203aa1c-1876-41a8-bc76-1de328bdb726"
+        }
+      ],
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "underlying_publication_claims_not_promoted_to_verified_fact": true,
+        "source_change_parent_retained": true,
+        "deterministic_review": true
+      }
+    },
+    {
+      "event_id": "SIG-REV-CHG-WATCH-PM-MEDIA-20261106105325",
+      "parent_event_id": "CHG-WATCH-PM-MEDIA-20261106105325",
+      "review_id": "REV-CHG-WATCH-PM-MEDIA-20261106105325",
+      "jurisdiction_id": "AUS-FED",
+      "party_id": null,
+      "actor_id": null,
+      "contest_id": null,
+      "cycle_id": null,
+      "source_snapshot_id": "AUTO-WATCH-PM-MEDIA-20261106105325",
+      "record_id": "a551b31666d748f900bb",
+      "captured_at": "2026-11-06T10:54:28.455Z",
+      "event_date": "2026-11-06",
+      "checkpoint": "CONTINUOUS_FORWARD_SIGNAL_REVIEW",
+      "event_type": "SIGNAL_CREATED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-PM-MEDIA",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "claim": "Prime Minister of Australia — media added 1 structured publication record to its forward-captured official index: Departmental ministerial appointment",
+      "observed_behaviour": "One or more structured publication records appeared in the monitored official source index after the preceding forward snapshot.",
+      "publication_records_added": [
+        {
+          "record_id": "a551b31666d748f900bb",
+          "title": "Departmental ministerial appointment",
+          "url": "https://www.pm.gov.au/media/departmental-ministerial-appointment"
+        }
+      ],
+      "publication_records_removed": [
+        {
+          "record_id": "044a1d8b1b7f79f7f739",
+          "title": "Veteran employment awards celebrate success beyond service",
+          "url": "https://www.pm.gov.au/media/veteran-employment-awards-celebrate-success-beyond-service"
+        }
+      ],
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "underlying_publication_claims_not_promoted_to_verified_fact": true,
+        "source_change_parent_retained": true,
+        "deterministic_review": true
+      }
+    },
+    {
+      "event_id": "SIG-REV-CHG-WATCH-GREENS-FEDERAL-MEDIA-20261106105325",
+      "parent_event_id": "CHG-WATCH-GREENS-FEDERAL-MEDIA-20261106105325",
+      "review_id": "REV-CHG-WATCH-GREENS-FEDERAL-MEDIA-20261106105325",
+      "jurisdiction_id": "AUS-FED",
+      "party_id": "AUS-FED-GRN",
+      "actor_id": null,
+      "contest_id": null,
+      "cycle_id": null,
+      "source_snapshot_id": "AUTO-WATCH-GREENS-FEDERAL-MEDIA-20261106105325",
+      "record_id": null,
+      "captured_at": "2026-11-06T10:54:28.455Z",
+      "event_date": "2026-11-06",
+      "checkpoint": "CONTINUOUS_FORWARD_SIGNAL_REVIEW",
+      "event_type": "SIGNAL_CREATED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_PARTY",
+      "source_id": "SRC-GREENS-FEDERAL-RELEASE-INDEX",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "claim": "Australian Greens — Federal MPs media releases added 4 structured publication records to its forward-captured official index: Read more about $2.2m a year - a lottery win or APS salary?; $2.2m a year - a lottery win or APS salary?; US midterms prove we need a moratorium on data centres; Read more about US midterms prove we need a moratorium on data centres",
+      "observed_behaviour": "One or more structured publication records appeared in the monitored official source index after the preceding forward snapshot.",
+      "publication_records_added": [
+        {
+          "record_id": "65412eb02a8bdb5ab3c2",
+          "title": "Read more about $2.2m a year - a lottery win or APS salary?",
+          "url": "https://greens.org.au/news/media-release/22m-year-lottery-win-or-aps-salary"
+        },
+        {
+          "record_id": "a633dd991948f72e884c",
+          "title": "$2.2m a year - a lottery win or APS salary?",
+          "url": "https://greens.org.au/news/media-release/22m-year-lottery-win-or-aps-salary"
+        },
+        {
+          "record_id": "c544fd82295a40836ae2",
+          "title": "US midterms prove we need a moratorium on data centres",
+          "url": "https://greens.org.au/sa/news/media-release/us-midterms-prove-we-need-moratorium-data-centres"
+        },
+        {
+          "record_id": "d8b5a0939f40e2c60be7",
+          "title": "Read more about US midterms prove we need a moratorium on data centres",
+          "url": "https://greens.org.au/sa/news/media-release/us-midterms-prove-we-need-moratorium-data-centres"
+        }
+      ],
+      "publication_records_removed": [
+        {
+          "record_id": "0f6ac4ba0e3111cc5a01",
+          "title": "Read more about Greens call on Government to block livestreamed execution footage from Australian screens",
+          "url": "https://greens.org.au/news/media-release/greens-call-government-block-livestreamed-execution-footage-australian-screens"
+        },
+        {
+          "record_id": "13c6ff79fec0bf1905a6",
+          "title": "Greens call on Government to block livestreamed execution footage from Australian screens",
+          "url": "https://greens.org.au/news/media-release/greens-call-government-block-livestreamed-execution-footage-australian-screens"
+        },
+        {
+          "record_id": "2055ddb7ed6d41ada4a5",
+          "title": "RELEASE: $2.2m a year - a lottery win or APS salary?",
+          "url": "https://greens.org.au/news/media-release/release-22m-year-lottery-win-or-aps-salary"
+        },
+        {
+          "record_id": "ce43ca19f4f0258ce373",
+          "title": "Read more about RELEASE: $2.2m a year - a lottery win or APS salary?",
+          "url": "https://greens.org.au/news/media-release/release-22m-year-lottery-win-or-aps-salary"
+        }
+      ],
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "underlying_publication_claims_not_promoted_to_verified_fact": true,
+        "source_change_parent_retained": true,
+        "deterministic_review": true
+      }
+    },
+    {
+      "event_id": "SIG-REV-CHG-WATCH-NSW-MINISTERIAL-RELEASES-20261106105325",
+      "parent_event_id": "CHG-WATCH-NSW-MINISTERIAL-RELEASES-20261106105325",
+      "review_id": "REV-CHG-WATCH-NSW-MINISTERIAL-RELEASES-20261106105325",
+      "jurisdiction_id": "AUS-NSW",
+      "party_id": null,
+      "actor_id": null,
+      "contest_id": null,
+      "cycle_id": null,
+      "source_snapshot_id": "AUTO-WATCH-NSW-MINISTERIAL-RELEASES-20261106105325",
+      "record_id": null,
+      "captured_at": "2026-11-06T10:54:28.455Z",
+      "event_date": "2026-11-06",
+      "checkpoint": "CONTINUOUS_FORWARD_SIGNAL_REVIEW",
+      "event_type": "SIGNAL_CREATED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-NSW-MINISTERIAL-RELEASES",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "claim": "NSW Government — Ministerial releases added 10 structured publication records to its forward-captured official index: Resilience work underway as South Coast Rail Plan begins; NSW backs community-led prevention during 16 Days of Activism; Minns Labor Government delivers bus service boost for Central Coast and new buses for Newcastle; $5.2 million boost to firefighting capability for growing Sydney; State’s top young spellers go for glory at New South Wales Premier’s Spelling Bee finals; +5 more",
+      "observed_behaviour": "One or more structured publication records appeared in the monitored official source index after the preceding forward snapshot.",
+      "publication_records_added": [
+        {
+          "record_id": "07310e63f1feb296b93d",
+          "title": "Resilience work underway as South Coast Rail Plan begins",
+          "url": "https://www.nsw.gov.au/ministerial-releases/resilience-work-underway-as-south-coast-rail-plan-begins"
+        },
+        {
+          "record_id": "1f2cf685a7bb8a70c4ea",
+          "title": "NSW backs community-led prevention during 16 Days of Activism",
+          "url": "https://www.nsw.gov.au/ministerial-releases/nsw-backs-community-led-prevention-during-16-days-of-activism"
+        },
+        {
+          "record_id": "2c67866071179b50a8c7",
+          "title": "Minns Labor Government delivers bus service boost for Central Coast and new buses for Newcastle",
+          "url": "https://www.nsw.gov.au/ministerial-releases/minns-labor-government-delivers-bus-service-boost-for-central-coast-and-new-buses-for-newcastle"
+        },
+        {
+          "record_id": "3c51c2c416e8335cb9bc",
+          "title": "$5.2 million boost to firefighting capability for growing Sydney",
+          "url": "https://www.nsw.gov.au/ministerial-releases/aerial-ladder-truck-investment-for-sydney"
+        },
+        {
+          "record_id": "55cf30df6c631e566b36",
+          "title": "State’s top young spellers go for glory at New South Wales Premier’s Spelling Bee finals",
+          "url": "https://www.nsw.gov.au/ministerial-releases/states-top-young-spellers-go-for-glory-at-new-south-wales-premiers-spelling-bee-finals"
+        },
+        {
+          "record_id": "682f04078f7ecad09b15",
+          "title": "Re-elected Minns Labor Government to boost productivity and deliver more homes and jobs",
+          "url": "https://www.nsw.gov.au/ministerial-releases/re-elected-minns-labor-government-to-boost-productivity-and-deliver-more-homes-and-jobs"
+        },
+        {
+          "record_id": "77061a1c7f22cbcea06c",
+          "title": "Newcastle&#x27;s blockbuster year set for a grand finale: 120k fans, five major events over five stellar weeks",
+          "url": "https://www.nsw.gov.au/departments-and-agencies/dciths/ministerial-media-releases/newcastles-blockbuster-year-set-for-a-grand-finale-120k-fans-five-major-events-over-five-stellar-weeks"
+        },
+        {
+          "record_id": "8470ed5f96eacad1e7f2",
+          "title": "Firefighting fleet upgrades rollout to protect communities",
+          "url": "https://www.nsw.gov.au/ministerial-releases/firefighting-fleet-upgrades-rolled-out"
+        },
+        {
+          "record_id": "eb2c5ac694bb879c4133",
+          "title": "First look at design for new Engadine fire station",
+          "url": "https://www.nsw.gov.au/ministerial-releases/first-look-new-fire-station-engadine"
+        },
+        {
+          "record_id": "f5e0bcf1e5dbce49e644",
+          "title": "Minns Labor Government to take action on Cooks River",
+          "url": "https://www.nsw.gov.au/ministerial-releases/minns-labor-government-to-take-action-on-cooks-river"
+        }
+      ],
+      "publication_records_removed": [
+        {
+          "record_id": "2aeba81e26fe0fd5a8d2",
+          "title": "$5 million construction begins on new refuge in Hornsby",
+          "url": "https://www.nsw.gov.au/ministerial-releases/5-million-construction-begins-on-new-refuge-hornsby"
+        },
+        {
+          "record_id": "526e54ca57ece0f13701",
+          "title": "HSC exams come to an end for 75,000 students across New South Wales",
+          "url": "https://www.nsw.gov.au/ministerial-releases/hsc-exams-come-to-an-end-for-75000-students-across-new-south-wales"
+        },
+        {
+          "record_id": "5b42dac6527bd4ccfc6f",
+          "title": "Additional bus services coming to boost connections across the Northern Rivers",
+          "url": "https://www.nsw.gov.au/ministerial-releases/additional-bus-services-coming-to-boost-connections-across-northern-rivers"
+        },
+        {
+          "record_id": "808298afb0a03bccbb54",
+          "title": "Wingham Brush reopens with state-of-the-art upgrades after floods",
+          "url": "https://www.nsw.gov.au/ministerial-releases/wingham-brush-reopens-state-of-art-upgrades-after-floods"
+        },
+        {
+          "record_id": "9dd24f6200ea9c210e30",
+          "title": "NSW Government nitrous oxide rules now in effect",
+          "url": "https://www.nsw.gov.au/ministerial-releases/nitrous-oxide-rules-take-effect"
+        },
+        {
+          "record_id": "b48a3e6727b55382ea48",
+          "title": "Ready, set, go for Lismore’s new $4.5m athletics track",
+          "url": "https://www.nsw.gov.au/ministerial-releases/ready-set-go-for-lismores-new-45m-athletics-track"
+        },
+        {
+          "record_id": "ba03f9ad5fc3dfae5a80",
+          "title": "Investigations into Tamworth’s water future complete",
+          "url": "https://www.nsw.gov.au/ministerial-releases/tamworth-water-future-investigated"
+        },
+        {
+          "record_id": "c55da9d3c4cdc164f6f2",
+          "title": "First-ever Skills Audit of coal workers released to back today’s coal jobs, and plan for the future",
+          "url": "https://www.nsw.gov.au/ministerial-releases/first-ever-skills-audit-of-coal-workers-released-to-back-todays-coal-jobs-and-plan-for-future"
+        },
+        {
+          "record_id": "c94845137e726474e377",
+          "title": "Active transport projects delivered alongside housing in TOD precincts",
+          "url": "https://www.nsw.gov.au/ministerial-releases/active-transport-projects-delivered-alongside-housing"
+        },
+        {
+          "record_id": "f4d040268bbf77d3f76f",
+          "title": "More housing for women and children fleeing domestic violence",
+          "url": "https://www.nsw.gov.au/ministerial-releases/more-housing-for-women-and-children-fleeing-domestic-violence"
+        }
+      ],
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "underlying_publication_claims_not_promoted_to_verified_fact": true,
+        "source_change_parent_retained": true,
+        "deterministic_review": true
+      }
+    },
+    {
+      "event_id": "SIG-REV-CHG-WATCH-NSWEC-MEDIA-20261106105325",
+      "parent_event_id": "CHG-WATCH-NSWEC-MEDIA-20261106105325",
+      "review_id": "REV-CHG-WATCH-NSWEC-MEDIA-20261106105325",
+      "jurisdiction_id": "AUS-NSW",
+      "party_id": null,
+      "actor_id": null,
+      "contest_id": null,
+      "cycle_id": null,
+      "source_snapshot_id": "AUTO-WATCH-NSWEC-MEDIA-20261106105325",
+      "record_id": "0144bab8a958197251f7",
+      "captured_at": "2026-11-06T10:54:28.455Z",
+      "event_date": "2026-11-06",
+      "checkpoint": "CONTINUOUS_FORWARD_SIGNAL_REVIEW",
+      "event_type": "SIGNAL_CREATED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_ELECTORAL_AUTHORITY",
+      "source_id": "SRC-NSWEC-MEDIA",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "claim": "NSW Electoral Commission — news and media releases added 1 structured publication record to its forward-captured official index: arrow_forward Learn more",
+      "observed_behaviour": "One or more structured publication records appeared in the monitored official source index after the preceding forward snapshot.",
+      "publication_records_added": [
+        {
+          "record_id": "0144bab8a958197251f7",
+          "title": "arrow_forward Learn more",
+          "url": "https://elections.nsw.gov.au/service-maintenance-schedule"
+        }
+      ],
+      "publication_records_removed": [],
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "underlying_publication_claims_not_promoted_to_verified_fact": true,
+        "source_change_parent_retained": true,
+        "deterministic_review": true
+      }
+    },
+    {
+      "event_id": "SIG-REV-CHG-WATCH-VEC-MEDIA-20261106105325",
+      "parent_event_id": "CHG-WATCH-VEC-MEDIA-20261106105325",
+      "review_id": "REV-CHG-WATCH-VEC-MEDIA-20261106105325",
+      "jurisdiction_id": "AUS-VIC",
+      "party_id": null,
+      "actor_id": null,
+      "contest_id": null,
+      "cycle_id": null,
+      "source_snapshot_id": "AUTO-WATCH-VEC-MEDIA-20261106105325",
+      "record_id": "883547f205c8f413c8e3",
+      "captured_at": "2026-11-06T10:54:28.455Z",
+      "event_date": "2026-11-06",
+      "checkpoint": "CONTINUOUS_FORWARD_SIGNAL_REVIEW",
+      "event_type": "SIGNAL_CREATED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_ELECTORAL_AUTHORITY",
+      "source_id": "SRC-VEC-MEDIA",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "claim": "Victorian Electoral Commission — media centre added 1 structured publication record to its forward-captured official index: Knox City Council Baird Ward by-election",
+      "observed_behaviour": "One or more structured publication records appeared in the monitored official source index after the preceding forward snapshot.",
+      "publication_records_added": [
+        {
+          "record_id": "883547f205c8f413c8e3",
+          "title": "Knox City Council Baird Ward by-election",
+          "url": "https://www.vec.vic.gov.au/voting/current-elections/knox-city-council-baird-ward-by-election"
+        }
+      ],
+      "publication_records_removed": [],
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "underlying_publication_claims_not_promoted_to_verified_fact": true,
+        "source_change_parent_retained": true,
+        "deterministic_review": true
+      }
+    },
+    {
+      "event_id": "SIG-REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261106105325",
+      "parent_event_id": "CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261106105325",
+      "review_id": "REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261106105325",
+      "jurisdiction_id": "AUS-QLD",
+      "party_id": null,
+      "actor_id": null,
+      "contest_id": null,
+      "cycle_id": null,
+      "source_snapshot_id": "AUTO-WATCH-QLD-MINISTERIAL-STATEMENTS-20261106105325",
+      "record_id": null,
+      "captured_at": "2026-11-06T10:54:28.455Z",
+      "event_date": "2026-11-06",
+      "checkpoint": "CONTINUOUS_FORWARD_SIGNAL_REVIEW",
+      "event_type": "SIGNAL_CREATED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-QLD-MINISTERIAL-STATEMENTS",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "claim": "Queensland Government — Ministerial Media Statements added 3 structured publication records to its forward-captured official index: Biggest bush boost delivered in a decade; Helping small construction businesses boost their productivity; Delivering a plan for the next decade of volunteering in Queensland",
+      "observed_behaviour": "One or more structured publication records appeared in the monitored official source index after the preceding forward snapshot.",
+      "publication_records_added": [
+        {
+          "record_id": "42676ff166aa1cf5d1ee",
+          "title": "Biggest bush boost delivered in a decade",
+          "url": "https://statements.qld.gov.au/statements/106363"
+        },
+        {
+          "record_id": "bd2a63b8de5b1b3e4c60",
+          "title": "Helping small construction businesses boost their productivity",
+          "url": "https://statements.qld.gov.au/statements/106362"
+        },
+        {
+          "record_id": "f667e8cf62908808f817",
+          "title": "Delivering a plan for the next decade of volunteering in Queensland",
+          "url": "https://statements.qld.gov.au/statements/106354"
+        }
+      ],
+      "publication_records_removed": [
+        {
+          "record_id": "1e9dbfedd14185e47fe2",
+          "title": "All aboard: Cairns Airport bus ready to roll",
+          "url": "https://statements.qld.gov.au/statements/106347"
+        },
+        {
+          "record_id": "4e8fc4871f8a17feb1d7",
+          "title": "Extraordinary potential of the Taroom Trough revealed",
+          "url": "https://statements.qld.gov.au/statements/106348"
+        },
+        {
+          "record_id": "725e57b167c47df249ce",
+          "title": "New Designated Business and Community Precinct to make Mackay safer",
+          "url": "https://statements.qld.gov.au/statements/106346"
+        }
+      ],
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "underlying_publication_claims_not_promoted_to_verified_fact": true,
+        "source_change_parent_retained": true,
+        "deterministic_review": true
+      }
     }
   ]
 }

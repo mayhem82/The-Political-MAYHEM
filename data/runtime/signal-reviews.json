@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-SIGNAL-REVIEWS-001",
   "created_at": "2026-09-09T05:05:00+10:00",
-  "updated_at": "2026-11-05T22:00:13.399Z",
+  "updated_at": "2026-11-06T10:54:28.455Z",
   "rules": {
     "append_only": true,
     "raw_source_change_is_immutable": true,
@@ -48241,6 +48241,424 @@
           }
         ],
         "delta_hash": "6285fe41b48bbaea6d43dd40eea65016ce429abdd01b4a205d9ff9bb9ca8d4a3"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-APH-BILLS-20261106105325",
+      "source_change_event_id": "CHG-WATCH-APH-BILLS-20261106105325",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-APH-BILLS-20261106105325",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Parliament of Australia — Bills and Legislation added 2 structured publication records to its forward-captured official index: Current House bills list; Current Senate bills list",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-11-06T10:54:28.455Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "0c02f85eb762e1f64212",
+            "title": "Current House bills list",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/layouts/DPS/Bills/?blsId=legislation%2fbillslst%2fbillslst_c203aa1c-1876-41a8-bc76-1de328bdb726"
+          },
+          {
+            "record_id": "a9d593cfe442932eabeb",
+            "title": "Current Senate bills list",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/layouts/DPS/Bills/?blsId=legislation%2fbillslst%2fbillslst_8100fb48-0592-488b-828b-d017b24562d4"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "29a68e1255907793c887",
+            "title": "Current Senate bills list",
+            "url": "https://www.aph.gov.au/layouts/DPS/Bills/?blsId=legislation%2fbillslst%2fbillslst_8100fb48-0592-488b-828b-d017b24562d4"
+          },
+          {
+            "record_id": "5965c705a3f269591b38",
+            "title": "Current House bills list",
+            "url": "https://www.aph.gov.au/layouts/DPS/Bills/?blsId=legislation%2fbillslst%2fbillslst_c203aa1c-1876-41a8-bc76-1de328bdb726"
+          }
+        ],
+        "delta_hash": "ae8cb0e8dd22608ac58458e493e583cf381bbd5446989da87c826d1f7821f692"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-PM-MEDIA-20261106105325",
+      "source_change_event_id": "CHG-WATCH-PM-MEDIA-20261106105325",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-PM-MEDIA-20261106105325",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Prime Minister of Australia — media added 1 structured publication record to its forward-captured official index: Departmental ministerial appointment",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-11-06T10:54:28.455Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "a551b31666d748f900bb",
+            "title": "Departmental ministerial appointment",
+            "url": "https://www.pm.gov.au/media/departmental-ministerial-appointment"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "044a1d8b1b7f79f7f739",
+            "title": "Veteran employment awards celebrate success beyond service",
+            "url": "https://www.pm.gov.au/media/veteran-employment-awards-celebrate-success-beyond-service"
+          }
+        ],
+        "delta_hash": "3ec1e4e25570e1d83b6e6c44f3405826b59722fed408a3229a3d570aa23b2aa2"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-GREENS-FEDERAL-MEDIA-20261106105325",
+      "source_change_event_id": "CHG-WATCH-GREENS-FEDERAL-MEDIA-20261106105325",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-GREENS-FEDERAL-MEDIA-20261106105325",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": "AUS-FED-GRN",
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Australian Greens — Federal MPs media releases added 4 structured publication records to its forward-captured official index: Read more about $2.2m a year - a lottery win or APS salary?; $2.2m a year - a lottery win or APS salary?; US midterms prove we need a moratorium on data centres; Read more about US midterms prove we need a moratorium on data centres",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-11-06T10:54:28.455Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "65412eb02a8bdb5ab3c2",
+            "title": "Read more about $2.2m a year - a lottery win or APS salary?",
+            "url": "https://greens.org.au/news/media-release/22m-year-lottery-win-or-aps-salary"
+          },
+          {
+            "record_id": "a633dd991948f72e884c",
+            "title": "$2.2m a year - a lottery win or APS salary?",
+            "url": "https://greens.org.au/news/media-release/22m-year-lottery-win-or-aps-salary"
+          },
+          {
+            "record_id": "c544fd82295a40836ae2",
+            "title": "US midterms prove we need a moratorium on data centres",
+            "url": "https://greens.org.au/sa/news/media-release/us-midterms-prove-we-need-moratorium-data-centres"
+          },
+          {
+            "record_id": "d8b5a0939f40e2c60be7",
+            "title": "Read more about US midterms prove we need a moratorium on data centres",
+            "url": "https://greens.org.au/sa/news/media-release/us-midterms-prove-we-need-moratorium-data-centres"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "0f6ac4ba0e3111cc5a01",
+            "title": "Read more about Greens call on Government to block livestreamed execution footage from Australian screens",
+            "url": "https://greens.org.au/news/media-release/greens-call-government-block-livestreamed-execution-footage-australian-screens"
+          },
+          {
+            "record_id": "13c6ff79fec0bf1905a6",
+            "title": "Greens call on Government to block livestreamed execution footage from Australian screens",
+            "url": "https://greens.org.au/news/media-release/greens-call-government-block-livestreamed-execution-footage-australian-screens"
+          },
+          {
+            "record_id": "2055ddb7ed6d41ada4a5",
+            "title": "RELEASE: $2.2m a year - a lottery win or APS salary?",
+            "url": "https://greens.org.au/news/media-release/release-22m-year-lottery-win-or-aps-salary"
+          },
+          {
+            "record_id": "ce43ca19f4f0258ce373",
+            "title": "Read more about RELEASE: $2.2m a year - a lottery win or APS salary?",
+            "url": "https://greens.org.au/news/media-release/release-22m-year-lottery-win-or-aps-salary"
+          }
+        ],
+        "delta_hash": "36019fd509c7d690edbce13b956c6c308f078f6b3f8194c85f0acd717a467ab4"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-NSW-MINISTERIAL-RELEASES-20261106105325",
+      "source_change_event_id": "CHG-WATCH-NSW-MINISTERIAL-RELEASES-20261106105325",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-NSW-MINISTERIAL-RELEASES-20261106105325",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "NSW Government — Ministerial releases added 10 structured publication records to its forward-captured official index: Resilience work underway as South Coast Rail Plan begins; NSW backs community-led prevention during 16 Days of Activism; Minns Labor Government delivers bus service boost for Central Coast and new buses for Newcastle; $5.2 million boost to firefighting capability for growing Sydney; State’s top young spellers go for glory at New South Wales Premier’s Spelling Bee finals; +5 more",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-11-06T10:54:28.455Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "07310e63f1feb296b93d",
+            "title": "Resilience work underway as South Coast Rail Plan begins",
+            "url": "https://www.nsw.gov.au/ministerial-releases/resilience-work-underway-as-south-coast-rail-plan-begins"
+          },
+          {
+            "record_id": "1f2cf685a7bb8a70c4ea",
+            "title": "NSW backs community-led prevention during 16 Days of Activism",
+            "url": "https://www.nsw.gov.au/ministerial-releases/nsw-backs-community-led-prevention-during-16-days-of-activism"
+          },
+          {
+            "record_id": "2c67866071179b50a8c7",
+            "title": "Minns Labor Government delivers bus service boost for Central Coast and new buses for Newcastle",
+            "url": "https://www.nsw.gov.au/ministerial-releases/minns-labor-government-delivers-bus-service-boost-for-central-coast-and-new-buses-for-newcastle"
+          },
+          {
+            "record_id": "3c51c2c416e8335cb9bc",
+            "title": "$5.2 million boost to firefighting capability for growing Sydney",
+            "url": "https://www.nsw.gov.au/ministerial-releases/aerial-ladder-truck-investment-for-sydney"
+          },
+          {
+            "record_id": "55cf30df6c631e566b36",
+            "title": "State’s top young spellers go for glory at New South Wales Premier’s Spelling Bee finals",
+            "url": "https://www.nsw.gov.au/ministerial-releases/states-top-young-spellers-go-for-glory-at-new-south-wales-premiers-spelling-bee-finals"
+          },
+          {
+            "record_id": "682f04078f7ecad09b15",
+            "title": "Re-elected Minns Labor Government to boost productivity and deliver more homes and jobs",
+            "url": "https://www.nsw.gov.au/ministerial-releases/re-elected-minns-labor-government-to-boost-productivity-and-deliver-more-homes-and-jobs"
+          },
+          {
+            "record_id": "77061a1c7f22cbcea06c",
+            "title": "Newcastle&#x27;s blockbuster year set for a grand finale: 120k fans, five major events over five stellar weeks",
+            "url": "https://www.nsw.gov.au/departments-and-agencies/dciths/ministerial-media-releases/newcastles-blockbuster-year-set-for-a-grand-finale-120k-fans-five-major-events-over-five-stellar-weeks"
+          },
+          {
+            "record_id": "8470ed5f96eacad1e7f2",
+            "title": "Firefighting fleet upgrades rollout to protect communities",
+            "url": "https://www.nsw.gov.au/ministerial-releases/firefighting-fleet-upgrades-rolled-out"
+          },
+          {
+            "record_id": "eb2c5ac694bb879c4133",
+            "title": "First look at design for new Engadine fire station",
+            "url": "https://www.nsw.gov.au/ministerial-releases/first-look-new-fire-station-engadine"
+          },
+          {
+            "record_id": "f5e0bcf1e5dbce49e644",
+            "title": "Minns Labor Government to take action on Cooks River",
+            "url": "https://www.nsw.gov.au/ministerial-releases/minns-labor-government-to-take-action-on-cooks-river"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "2aeba81e26fe0fd5a8d2",
+            "title": "$5 million construction begins on new refuge in Hornsby",
+            "url": "https://www.nsw.gov.au/ministerial-releases/5-million-construction-begins-on-new-refuge-hornsby"
+          },
+          {
+            "record_id": "526e54ca57ece0f13701",
+            "title": "HSC exams come to an end for 75,000 students across New South Wales",
+            "url": "https://www.nsw.gov.au/ministerial-releases/hsc-exams-come-to-an-end-for-75000-students-across-new-south-wales"
+          },
+          {
+            "record_id": "5b42dac6527bd4ccfc6f",
+            "title": "Additional bus services coming to boost connections across the Northern Rivers",
+            "url": "https://www.nsw.gov.au/ministerial-releases/additional-bus-services-coming-to-boost-connections-across-northern-rivers"
+          },
+          {
+            "record_id": "808298afb0a03bccbb54",
+            "title": "Wingham Brush reopens with state-of-the-art upgrades after floods",
+            "url": "https://www.nsw.gov.au/ministerial-releases/wingham-brush-reopens-state-of-art-upgrades-after-floods"
+          },
+          {
+            "record_id": "9dd24f6200ea9c210e30",
+            "title": "NSW Government nitrous oxide rules now in effect",
+            "url": "https://www.nsw.gov.au/ministerial-releases/nitrous-oxide-rules-take-effect"
+          },
+          {
+            "record_id": "b48a3e6727b55382ea48",
+            "title": "Ready, set, go for Lismore’s new $4.5m athletics track",
+            "url": "https://www.nsw.gov.au/ministerial-releases/ready-set-go-for-lismores-new-45m-athletics-track"
+          },
+          {
+            "record_id": "ba03f9ad5fc3dfae5a80",
+            "title": "Investigations into Tamworth’s water future complete",
+            "url": "https://www.nsw.gov.au/ministerial-releases/tamworth-water-future-investigated"
+          },
+          {
+            "record_id": "c55da9d3c4cdc164f6f2",
+            "title": "First-ever Skills Audit of coal workers released to back today’s coal jobs, and plan for the future",
+            "url": "https://www.nsw.gov.au/ministerial-releases/first-ever-skills-audit-of-coal-workers-released-to-back-todays-coal-jobs-and-plan-for-future"
+          },
+          {
+            "record_id": "c94845137e726474e377",
+            "title": "Active transport projects delivered alongside housing in TOD precincts",
+            "url": "https://www.nsw.gov.au/ministerial-releases/active-transport-projects-delivered-alongside-housing"
+          },
+          {
+            "record_id": "f4d040268bbf77d3f76f",
+            "title": "More housing for women and children fleeing domestic violence",
+            "url": "https://www.nsw.gov.au/ministerial-releases/more-housing-for-women-and-children-fleeing-domestic-violence"
+          }
+        ],
+        "delta_hash": "eeedcbecbefe41b0eb1798dee7532e25f7205648a5c6b9e1eb9ac9b2c66b129a"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-NSWEC-MEDIA-20261106105325",
+      "source_change_event_id": "CHG-WATCH-NSWEC-MEDIA-20261106105325",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-NSWEC-MEDIA-20261106105325",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "NSW Electoral Commission — news and media releases added 1 structured publication record to its forward-captured official index: arrow_forward Learn more",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-11-06T10:54:28.455Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "0144bab8a958197251f7",
+            "title": "arrow_forward Learn more",
+            "url": "https://elections.nsw.gov.au/service-maintenance-schedule"
+          }
+        ],
+        "removed_records": [],
+        "delta_hash": "f3d698a3f379f72e685485a8855f833eeadcf890254b7f6dc577b69511f79aca"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-VEC-MEDIA-20261106105325",
+      "source_change_event_id": "CHG-WATCH-VEC-MEDIA-20261106105325",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-VEC-MEDIA-20261106105325",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Victorian Electoral Commission — media centre added 1 structured publication record to its forward-captured official index: Knox City Council Baird Ward by-election",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-11-06T10:54:28.455Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "883547f205c8f413c8e3",
+            "title": "Knox City Council Baird Ward by-election",
+            "url": "https://www.vec.vic.gov.au/voting/current-elections/knox-city-council-baird-ward-by-election"
+          }
+        ],
+        "removed_records": [],
+        "delta_hash": "7f5ecb3dd915d7c7cdf45f15675b17715132bc9c2320b0981dc415c731a0d5b2"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261106105325",
+      "source_change_event_id": "CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261106105325",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261106105325",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Queensland Government — Ministerial Media Statements added 3 structured publication records to its forward-captured official index: Biggest bush boost delivered in a decade; Helping small construction businesses boost their productivity; Delivering a plan for the next decade of volunteering in Queensland",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-11-06T10:54:28.455Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "42676ff166aa1cf5d1ee",
+            "title": "Biggest bush boost delivered in a decade",
+            "url": "https://statements.qld.gov.au/statements/106363"
+          },
+          {
+            "record_id": "bd2a63b8de5b1b3e4c60",
+            "title": "Helping small construction businesses boost their productivity",
+            "url": "https://statements.qld.gov.au/statements/106362"
+          },
+          {
+            "record_id": "f667e8cf62908808f817",
+            "title": "Delivering a plan for the next decade of volunteering in Queensland",
+            "url": "https://statements.qld.gov.au/statements/106354"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "1e9dbfedd14185e47fe2",
+            "title": "All aboard: Cairns Airport bus ready to roll",
+            "url": "https://statements.qld.gov.au/statements/106347"
+          },
+          {
+            "record_id": "4e8fc4871f8a17feb1d7",
+            "title": "Extraordinary potential of the Taroom Trough revealed",
+            "url": "https://statements.qld.gov.au/statements/106348"
+          },
+          {
+            "record_id": "725e57b167c47df249ce",
+            "title": "New Designated Business and Community Precinct to make Mackay safer",
+            "url": "https://statements.qld.gov.au/statements/106346"
+          }
+        ],
+        "delta_hash": "7bedcbc8e8eb3a04427c2668715d5982ce701d13dc131216d95f32f6a5948317"
       },
       "integrity": {
         "source_change_unchanged": true,

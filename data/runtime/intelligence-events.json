@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-INTELLIGENCE-EVENTS-001",
   "scope": "Australia — multi-jurisdiction",
-  "captured_at": "2026-11-06T17:59:06.057Z",
+  "captured_at": "2026-11-07T02:49:36.407Z",
   "mode": "FORWARD_ONLY",
   "rules": {
     "observation_distinct_from_inference": true,
@@ -134031,6 +134031,134 @@
           "record_id": "a9d593cfe442932eabeb",
           "title": "Current Senate bills list",
           "url": "https://www.aph.gov.au/Parliamentary_Business/layouts/DPS/Bills/?blsId=legislation%2fbillslst%2fbillslst_8100fb48-0592-488b-828b-d017b24562d4"
+        }
+      ],
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "underlying_publication_claims_not_promoted_to_verified_fact": true,
+        "source_change_parent_retained": true,
+        "deterministic_review": true
+      }
+    },
+    {
+      "event_id": "CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261107024826",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-QLD",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-QLD-MINISTERIAL-STATEMENTS-20261107024826",
+      "captured_at": "2026-11-07T02:48:26.815Z",
+      "event_date": "2026-11-07",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-QLD-MINISTERIAL-STATEMENTS",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "review_policy": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-QLD-MINISTERIAL-STATEMENTS-20261106105325",
+        "content_hash": "24012dba02dc267a6c493efe19081d5709143a3c3cff1e81a73ec62faaa9a83f",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-QLD-MINISTERIAL-STATEMENTS-20261107024826",
+        "content_hash": "d18fd776bea0163de3238a6aaf49b196880c80f113c2edbd90149479dac55208",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "STRUCTURED_RECORD_SET",
+        "records_added": [
+          {
+            "record_id": "d147d96ed19459782ac3",
+            "title": "Tourism winners showcase Queensland as the Home of the Holiday",
+            "url": "https://statements.qld.gov.au/statements/106365"
+          },
+          {
+            "record_id": "ee0750050519ff3d888f",
+            "title": "Enhanced Eternal Flame burning brighter to honour veterans",
+            "url": "https://statements.qld.gov.au/statements/106364"
+          }
+        ],
+        "records_removed": [
+          {
+            "record_id": "793624916c1a32339548",
+            "title": "Crucial water security delivered for Mount Morgan",
+            "url": "https://statements.qld.gov.au/statements/106345"
+          },
+          {
+            "record_id": "e311acddaba0bbd86261",
+            "title": "North Burnett priorities front and centre at Mundubbera Regional Forum",
+            "url": "https://statements.qld.gov.au/statements/106343"
+          }
+        ],
+        "added_count": 2,
+        "removed_count": 2,
+        "before_count": 16,
+        "after_count": 16,
+        "delta_hash": "c4d88e9e0812983795ee552b1c4b0fa81d64ad633d6c3d897832148594b23e8c"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "SIG-REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261107024826",
+      "parent_event_id": "CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261107024826",
+      "review_id": "REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261107024826",
+      "jurisdiction_id": "AUS-QLD",
+      "party_id": null,
+      "actor_id": null,
+      "contest_id": null,
+      "cycle_id": null,
+      "source_snapshot_id": "AUTO-WATCH-QLD-MINISTERIAL-STATEMENTS-20261107024826",
+      "record_id": null,
+      "captured_at": "2026-11-07T02:49:31.346Z",
+      "event_date": "2026-11-07",
+      "checkpoint": "CONTINUOUS_FORWARD_SIGNAL_REVIEW",
+      "event_type": "SIGNAL_CREATED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-QLD-MINISTERIAL-STATEMENTS",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "claim": "Queensland Government — Ministerial Media Statements added 2 structured publication records to its forward-captured official index: Tourism winners showcase Queensland as the Home of the Holiday; Enhanced Eternal Flame burning brighter to honour veterans",
+      "observed_behaviour": "One or more structured publication records appeared in the monitored official source index after the preceding forward snapshot.",
+      "publication_records_added": [
+        {
+          "record_id": "d147d96ed19459782ac3",
+          "title": "Tourism winners showcase Queensland as the Home of the Holiday",
+          "url": "https://statements.qld.gov.au/statements/106365"
+        },
+        {
+          "record_id": "ee0750050519ff3d888f",
+          "title": "Enhanced Eternal Flame burning brighter to honour veterans",
+          "url": "https://statements.qld.gov.au/statements/106364"
+        }
+      ],
+      "publication_records_removed": [
+        {
+          "record_id": "793624916c1a32339548",
+          "title": "Crucial water security delivered for Mount Morgan",
+          "url": "https://statements.qld.gov.au/statements/106345"
+        },
+        {
+          "record_id": "e311acddaba0bbd86261",
+          "title": "North Burnett priorities front and centre at Mundubbera Regional Forum",
+          "url": "https://statements.qld.gov.au/statements/106343"
         }
       ],
       "inference": null,

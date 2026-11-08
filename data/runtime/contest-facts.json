@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-MAYHEM-CONTEST-FACTS-001",
   "status": "ACTIVE",
-  "updated_at": "2026-11-08T15:14:06.061Z",
+  "updated_at": "2026-11-08T23:44:49.963Z",
   "supported_competition_classes": [
     "ELECTORAL",
     "LEGISLATIVE",
@@ -45228,23 +45228,61 @@
         "competition_not_registered_by_fact": true
       },
       "fact_state_history": []
+    },
+    {
+      "fact_id": "FACT-012685e0b39fc10865a4c90b",
+      "competition_class": "LEGISLATIVE",
+      "jurisdiction_id": "AUS-FED",
+      "area_evidence_id": "AREA-5a006ece295ed84b0aa71a82",
+      "detail_record_id": "DETAIL-136bacdb72390396af8bfbbc",
+      "detail_version_id": "DETAIL-136bacdb72390396af8bfbbc-V1",
+      "source_snapshot_id": "AUTO-WATCH-ALP-NEWS-20261108234342",
+      "source_id": "SRC-ALP-FEDERAL-NEWS",
+      "source_class": "PRIMARY_PARTY",
+      "record_url": "https://www.alp.org.au/news/all-news/one-year-on-over-4-000-gp-practices-bulk-bill-all-patients/",
+      "record_title": "One year on, over 4,000 GP practices bulk bill all patients",
+      "fact_type": "PARTICIPANT",
+      "fact_state": "OBSERVED_SOURCE_TEXT",
+      "evidence_match": "Mark Butler",
+      "evidence_text": "Since 1970s Donate One year on, over 4,000 GP practices bulk bill all patients 1 November 2026 One year on, over 4,000 GP practices bulk bill all patients 1 November 2026 The Hon Mark Butler MP Minister for Health and Ageing Minister for Disability and the National Disability Insurance Scheme One year on from the Australian Government’s record investment in Medicare,",
+      "evidence_captured_at": "2026-11-08T23:44:45.316Z",
+      "extracted_at": "2026-11-08T23:44:49.780Z",
+      "actor_ids": [
+        "ACT-MARK-BUTLER"
+      ],
+      "party_ids": [],
+      "position_state": "UNRESOLVED",
+      "resistance_state": "UNRESOLVED",
+      "outcome_verification_state": "NOT_APPLICABLE",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "integrity": {
+        "source_text_preserved": true,
+        "area_lineage_preserved": true,
+        "entity_identity_limited_to_resolved_mentions": true,
+        "position_requires_explicit_language": true,
+        "position_entity_binding_required": false,
+        "competition_not_registered_by_fact": true
+      },
+      "fact_state_history": []
     }
   ],
   "summary": {
-    "active_area_evidence_examined": 132,
-    "facts_total": 1244,
-    "facts_added_this_run": 0,
+    "active_area_evidence_examined": 133,
+    "facts_total": 1245,
+    "facts_added_this_run": 1,
     "by_competition_class": {
       "BUDGET": 190,
       "ELECTORAL": 179,
-      "LEGISLATIVE": 599,
+      "LEGISLATIVE": 600,
       "PARLIAMENTARY_PROCEDURE": 160,
       "POLICY_ENACTMENT": 65
     },
     "by_fact_type": {
       "CONTEST_OBJECT": 344,
       "OBJECTIVE": 20,
-      "PARTICIPANT": 66,
+      "PARTICIPANT": 67,
       "EXPLICIT_SUPPORT_POSITION": 1,
       "EXPLICIT_OPPOSITION_POSITION": 4,
       "MATERIAL_RESISTANCE": 18,
@@ -45258,7 +45296,7 @@
       "IMPLEMENTATION_ACTION": 19,
       "POSSIBLE_OUTCOME_STATE": 156
     },
-    "active_facts": 1193,
+    "active_facts": 1194,
     "retracted_facts": 51,
     "facts_retracted_this_run": 0,
     "facts_reactivated_this_run": 0

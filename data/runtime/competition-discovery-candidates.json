@@ -69,63 +69,63 @@
     {
       "jurisdiction_id": "AUS-FED",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-11-08T15:14:06.809Z",
-      "signals_examined": 275,
-      "candidates_detected": 107
+      "last_screened_at": "2026-11-08T23:44:50.786Z",
+      "signals_examined": 278,
+      "candidates_detected": 108
     },
     {
       "jurisdiction_id": "AUS-NSW",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-11-08T15:14:06.809Z",
+      "last_screened_at": "2026-11-08T23:44:50.786Z",
       "signals_examined": 140,
       "candidates_detected": 47
     },
     {
       "jurisdiction_id": "AUS-VIC",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-11-08T15:14:06.809Z",
-      "signals_examined": 30,
+      "last_screened_at": "2026-11-08T23:44:50.786Z",
+      "signals_examined": 31,
       "candidates_detected": 7
     },
     {
       "jurisdiction_id": "AUS-QLD",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-11-08T15:14:06.809Z",
-      "signals_examined": 82,
+      "last_screened_at": "2026-11-08T23:44:50.786Z",
+      "signals_examined": 83,
       "candidates_detected": 45
     },
     {
       "jurisdiction_id": "AUS-WA",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-11-08T15:14:06.809Z",
+      "last_screened_at": "2026-11-08T23:44:50.786Z",
       "signals_examined": 8,
       "candidates_detected": 3
     },
     {
       "jurisdiction_id": "AUS-SA",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-11-08T15:14:06.809Z",
+      "last_screened_at": "2026-11-08T23:44:50.786Z",
       "signals_examined": 5,
       "candidates_detected": 0
     },
     {
       "jurisdiction_id": "AUS-TAS",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-11-08T15:14:06.809Z",
+      "last_screened_at": "2026-11-08T23:44:50.786Z",
       "signals_examined": 21,
       "candidates_detected": 0
     },
     {
       "jurisdiction_id": "AUS-ACT",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-11-08T15:14:06.809Z",
+      "last_screened_at": "2026-11-08T23:44:50.786Z",
       "signals_examined": 24,
       "candidates_detected": 1
     },
     {
       "jurisdiction_id": "AUS-NT",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-11-08T15:14:06.809Z",
+      "last_screened_at": "2026-11-08T23:44:50.786Z",
       "signals_examined": 31,
       "candidates_detected": 0
     }
@@ -8473,21 +8473,62 @@
           "reason": "DETERMINISTIC_COMPETITION_FAMILY_SCREEN"
         }
       ]
+    },
+    {
+      "candidate_id": "DISC-FED-LEGISLATION-9e69b831ba766471",
+      "jurisdiction_id": "AUS-FED",
+      "competition_family": "LEGISLATION",
+      "proposed_competition_class": "LEGISLATIVE",
+      "proposed_cycle_id": "AUS-FED-48TH-PARLIAMENT",
+      "subject": "Ingested substantive legislative evidence from One year on, over 4,000 GP practices bulk bill all patients. Captured content includes stage: Vote. Registration threshold state: evidence gap. Missing requirements: missing fact type contest object, missing fact type stage, missing fact type material r",
+      "candidate_state": "EVIDENCE_GAP",
+      "detected_at": "2026-11-08T23:44:50.225Z",
+      "source_snapshot_ids": [
+        "AUTO-WATCH-ALP-NEWS-20261108234342"
+      ],
+      "signal_event_ids": [
+        "INTEL-AREA-5a006ece295ed84b0aa71a82"
+      ],
+      "review_ids": [],
+      "area_evidence_ids": [
+        "AREA-5a006ece295ed84b0aa71a82"
+      ],
+      "detail_version_ids": [
+        "DETAIL-136bacdb72390396af8bfbbc-V1"
+      ],
+      "evidence_summary": "Substantive source record body was acquired, routed to LEGISLATIVE, and written into intelligence with retained detail, source-snapshot and stage-10 threshold lineage. Match registration remains a separate action.",
+      "registration_blockers": [
+        "MISSING_CONDITION_DISTINCT_SUPPORTING_AND_OPPOSING_SIDES",
+        "MISSING_FACT_TYPE_CONTEST_OBJECT",
+        "MISSING_FACT_TYPE_EXPLICIT_OPPOSITION_POSITION",
+        "MISSING_FACT_TYPE_EXPLICIT_SUPPORT_POSITION",
+        "MISSING_FACT_TYPE_MATERIAL_RESISTANCE",
+        "MISSING_FACT_TYPE_STAGE"
+      ],
+      "linked_contest_id": null,
+      "state_history": [
+        {
+          "from": null,
+          "to": "EVIDENCE_GAP",
+          "at": "2026-11-08T23:44:50.225Z",
+          "reason": "SUBSTANTIVE_THRESHOLD_EVALUATION_PROPAGATED"
+        }
+      ]
     }
   ],
-  "last_screened_at": "2026-11-08T15:14:06.809Z",
+  "last_screened_at": "2026-11-08T23:44:50.786Z",
   "last_screen_summary": {
-    "signals_examined": 616,
-    "candidates_total": 210,
-    "candidates_added": 0,
+    "signals_examined": 621,
+    "candidates_total": 211,
+    "candidates_added": 1,
     "candidate_lineage_merges": 422,
-    "substantive_area_events_examined": 133,
+    "substantive_area_events_examined": 134,
     "threshold_state_transitions": 0,
     "registered_contests_unchanged": true
   },
-  "last_duplicate_reconciliation_at": "2026-11-08T15:14:06.907Z",
+  "last_duplicate_reconciliation_at": "2026-11-08T23:44:50.902Z",
   "last_duplicate_reconciliation": {
     "rejected": 0,
-    "active_area_family_keys": 132
+    "active_area_family_keys": 133
   }
 }

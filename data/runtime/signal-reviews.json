@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-SIGNAL-REVIEWS-001",
   "created_at": "2026-09-09T05:05:00+10:00",
-  "updated_at": "2026-11-08T15:14:01.172Z",
+  "updated_at": "2026-11-08T23:44:44.034Z",
   "rules": {
     "append_only": true,
     "raw_source_change_is_immutable": true,
@@ -48849,6 +48849,213 @@
           }
         ],
         "delta_hash": "7764c66358191f80b6db321ed4abb4548be4c80548cfd52f2ef9f67d0dc6d524"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-PM-MEDIA-20261108234342",
+      "source_change_event_id": "CHG-WATCH-PM-MEDIA-20261108234342",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-PM-MEDIA-20261108234342",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Prime Minister of Australia — media added 2 structured publication records to its forward-captured official index: Press conference - Victoria Barracks Sydney; Preparing for high-risk weather season",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-11-08T23:44:44.034Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "5d02003c8c9f088ede56",
+            "title": "Press conference - Victoria Barracks Sydney",
+            "url": "https://www.pm.gov.au/media/press-conference-victoria-barracks-sydney"
+          },
+          {
+            "record_id": "a426a2b29a419de9880e",
+            "title": "Preparing for high-risk weather season",
+            "url": "https://www.pm.gov.au/media/preparing-high-risk-weather-season"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "984d5402f7be9c3807a8",
+            "title": "The Australian Workers&#039; Union 2026 National Conference",
+            "url": "https://www.pm.gov.au/media/australian-workers-union-2026-national-conference"
+          },
+          {
+            "record_id": "a1c19145417b978d52c4",
+            "title": "National Veteran Employment Awards",
+            "url": "https://www.pm.gov.au/media/national-veteran-employment-awards"
+          }
+        ],
+        "delta_hash": "9a5d6898c15948b8db295583bdf902ec7b26c50393fe0b51167d622b48e7d51e"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-ALP-NEWS-20261108234342",
+      "source_change_event_id": "CHG-WATCH-ALP-NEWS-20261108234342",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-ALP-NEWS-20261108234342",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": "AUS-FED-ALP",
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Australian Labor Party — news added 4 structured publication records to its forward-captured official index: New Medicare health check for 3-year-old children 2 November 2026; Digital detox in schools and curriculum reform 5 November 2026; Expanding crisis accommodation for Victorian women 2 November 2026; Over 4,000 GP practices bulk bill all patients 1 November 2026",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-11-08T23:44:44.034Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "59ae09b65c673154bf48",
+            "title": "New Medicare health check for 3-year-old children 2 November 2026",
+            "url": "https://www.alp.org.au/news/all-news/new-medicare-health-check-for-3-year-old-children/"
+          },
+          {
+            "record_id": "5d9fceef240a43bc4e75",
+            "title": "Digital detox in schools and curriculum reform 5 November 2026",
+            "url": "https://www.alp.org.au/news/all-news/digital-detox-in-schools-curriculum-reform-and-a-teaching-and-learning-commission/"
+          },
+          {
+            "record_id": "c52f65123a39e65a6d60",
+            "title": "Expanding crisis accommodation for Victorian women 2 November 2026",
+            "url": "https://www.alp.org.au/news/all-news/expanding-crisis-accommodation-for-victorian-women-children/"
+          },
+          {
+            "record_id": "ef2553993ba7e4342110",
+            "title": "Over 4,000 GP practices bulk bill all patients 1 November 2026",
+            "url": "https://www.alp.org.au/news/all-news/one-year-on-over-4-000-gp-practices-bulk-bill-all-patients/"
+          }
+        ],
+        "removed_records": [],
+        "delta_hash": "fc2d23dbddf3f4b142dd617978af91ee3cb874ae6f173d5b355d4cb647bd571a"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-NSWEC-MEDIA-20261108234342",
+      "source_change_event_id": "CHG-WATCH-NSWEC-MEDIA-20261108234342",
+      "decision": "EXCLUDED_AS_NON_SIGNAL",
+      "signal_event_id": null,
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": null,
+      "materiality_state": "IMMATERIAL",
+      "claim": "Structured publication-index change contained removals only. It is retained as a raw source change but is not automatically promoted into a political signal.",
+      "review_basis": "Deterministic review policy excludes removal-only index changes because disappearance from an index does not establish a political event, reversal or substantive fact.",
+      "reviewed_at": "2026-11-08T23:44:44.034Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [],
+        "removed_records": [
+          {
+            "record_id": "0144bab8a958197251f7",
+            "title": "arrow_forward Learn more",
+            "url": "https://elections.nsw.gov.au/service-maintenance-schedule"
+          }
+        ],
+        "delta_hash": "946ed7b594c9d469bf61755d3fd11c527c91cc3ccc76d66289cce6c4c498d50e"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-VEC-MEDIA-20261108234342",
+      "source_change_event_id": "CHG-WATCH-VEC-MEDIA-20261108234342",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-VEC-MEDIA-20261108234342",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Victorian Electoral Commission — media centre added 1 structured publication record to its forward-captured official index: How the votes are counted",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-11-08T23:44:44.034Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "988f6ca6da32cbaabf38",
+            "title": "How the votes are counted",
+            "url": "https://www.vec.vic.gov.au/voting/2026-state-election/how-votes-are-counted"
+          }
+        ],
+        "removed_records": [],
+        "delta_hash": "9028a396b7eb7c6c938332efb540a0ae70e757ff0b2f58c06d5b012c019f9dd6"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261108234342",
+      "source_change_event_id": "CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261108234342",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261108234342",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Queensland Government — Ministerial Media Statements added 1 structured publication record to its forward-captured official index: Service Queensland to modernise access to government services",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-11-08T23:44:44.034Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "62904980026277a89053",
+            "title": "Service Queensland to modernise access to government services",
+            "url": "https://statements.qld.gov.au/statements/106368"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "15c9d1260e9bf1178e18",
+            "title": "Tourism industry feedback drives new workforce investment",
+            "url": "https://statements.qld.gov.au/statements/106359"
+          }
+        ],
+        "delta_hash": "27b77dbf7524bc792f313440e4d5fb3ce8ff1e17ab93ad7bf22db15b7f72cbbf"
       },
       "integrity": {
         "source_change_unchanged": true,

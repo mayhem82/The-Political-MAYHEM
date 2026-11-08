@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-SIGNAL-REVIEWS-001",
   "created_at": "2026-09-09T05:05:00+10:00",
-  "updated_at": "2026-11-08T00:37:44.476Z",
+  "updated_at": "2026-11-08T07:23:06.465Z",
   "rules": {
     "append_only": true,
     "raw_source_change_is_immutable": true,
@@ -48759,6 +48759,96 @@
           }
         ],
         "delta_hash": "c4d88e9e0812983795ee552b1c4b0fa81d64ad633d6c3d897832148594b23e8c"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-PM-MEDIA-20261108072155",
+      "source_change_event_id": "CHG-WATCH-PM-MEDIA-20261108072155",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-PM-MEDIA-20261108072155",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Prime Minister of Australia — media added 1 structured publication record to its forward-captured official index: First update on the Defence Estate Audit",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-11-08T07:23:06.465Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "8f818d2a60add9b8fe05",
+            "title": "First update on the Defence Estate Audit",
+            "url": "https://www.pm.gov.au/media/first-update-defence-estate-audit"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "88890a48605ccb98e686",
+            "title": "National Police Bravery Awards",
+            "url": "https://www.pm.gov.au/media/national-police-bravery-awards"
+          }
+        ],
+        "delta_hash": "48c70d61a281f6d06895d54b7d2cfb790c227befa8b772d0c959a0efefb04692"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261108072155",
+      "source_change_event_id": "CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261108072155",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261108072155",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Queensland Government — Ministerial Media Statements added 2 structured publication records to its forward-captured official index: New masterplan sets future direction for The Prince Charles Hospital; Stronger ties with Indonesia to drive mining and processing opportunities for Queensland",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-11-08T07:23:06.465Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "0e0bf6db67760097e0d0",
+            "title": "New masterplan sets future direction for The Prince Charles Hospital",
+            "url": "https://statements.qld.gov.au/statements/106372"
+          },
+          {
+            "record_id": "5714bc7f244acd7a8464",
+            "title": "Stronger ties with Indonesia to drive mining and processing opportunities for Queensland",
+            "url": "https://statements.qld.gov.au/statements/106366"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "03daebd0f7e77bff28cc",
+            "title": "New energy investment unlocked for Queensland mines",
+            "url": "https://statements.qld.gov.au/statements/106344"
+          },
+          {
+            "record_id": "d299bd52845583c24177",
+            "title": "40 new social homes deliver Christmas cheer for Bundaberg",
+            "url": "https://statements.qld.gov.au/statements/106353"
+          }
+        ],
+        "delta_hash": "7764c66358191f80b6db321ed4abb4548be4c80548cfd52f2ef9f67d0dc6d524"
       },
       "integrity": {
         "source_change_unchanged": true,

@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-SIGNAL-REVIEWS-001",
   "created_at": "2026-09-09T05:05:00+10:00",
-  "updated_at": "2026-11-08T23:44:44.034Z",
+  "updated_at": "2026-11-09T06:32:06.611Z",
   "rules": {
     "append_only": true,
     "raw_source_change_is_immutable": true,
@@ -49056,6 +49056,230 @@
           }
         ],
         "delta_hash": "27b77dbf7524bc792f313440e4d5fb3ce8ff1e17ab93ad7bf22db15b7f72cbbf"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-PM-MEDIA-20261109063107",
+      "source_change_event_id": "CHG-WATCH-PM-MEDIA-20261109063107",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-PM-MEDIA-20261109063107",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Prime Minister of Australia — media added 1 structured publication record to its forward-captured official index: Press conference - National Situation Room",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-11-09T06:32:06.611Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "7983331f6682de159f16",
+            "title": "Press conference - National Situation Room",
+            "url": "https://www.pm.gov.au/media/press-conference-national-situation-room"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "24662c92178aae81a689",
+            "title": "Press conference - Canberra",
+            "url": "https://www.pm.gov.au/media/press-conference-canberra-32"
+          }
+        ],
+        "delta_hash": "928f0af18b7f94d8a14aac8789c1e7d6c7ddfede8f63188b9ff555c495935599"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-NSW-MINISTERIAL-RELEASES-20261109063107",
+      "source_change_event_id": "CHG-WATCH-NSW-MINISTERIAL-RELEASES-20261109063107",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-NSW-MINISTERIAL-RELEASES-20261109063107",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "NSW Government — Ministerial releases added 6 structured publication records to its forward-captured official index: The Power is on – Powerhouse Parramatta opens; Gripping adventures and words of wisdom come to life in Seniors’ Stories; Minns Labor Government looks to new opportunities to grow NSW tourism; Turning the page on screens in class as the Minns Labor Government ends ‘Bring Your Own Device’ requirements for public primary schools; More support for women and families with complex needs in South West Sydney; +1 more",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-11-09T06:32:06.611Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "08e3f1524a28d2f8817b",
+            "title": "The Power is on – Powerhouse Parramatta opens",
+            "url": "https://www.nsw.gov.au/departments-and-agencies/dciths/ministerial-media-releases/powerhouse-parramatta-opens"
+          },
+          {
+            "record_id": "14a8ed0e285f36a57e16",
+            "title": "Gripping adventures and words of wisdom come to life in Seniors’ Stories",
+            "url": "https://www.nsw.gov.au/ministerial-releases/gripping-adventures-and-words-of-wisdom-come-to-life-seniors-stories"
+          },
+          {
+            "record_id": "364e93887aefc939a07c",
+            "title": "Minns Labor Government looks to new opportunities to grow NSW tourism",
+            "url": "https://www.nsw.gov.au/departments-and-agencies/dciths/ministerial-media-releases/future-demand-tourism-report-unveiled-today"
+          },
+          {
+            "record_id": "49671aa3c4118a69f6da",
+            "title": "Turning the page on screens in class as the Minns Labor Government ends ‘Bring Your Own Device’ requirements for public primary schools",
+            "url": "https://www.nsw.gov.au/ministerial-releases/turning-page-on-screens-class-as-minns-labor-government-ends-bring-your-own-device-requirements-for-public-primary-schools"
+          },
+          {
+            "record_id": "ad1482b938b00b784d5b",
+            "title": "More support for women and families with complex needs in South West Sydney",
+            "url": "https://www.nsw.gov.au/ministerial-releases/more-support-for-women-and-families-complex-needs-south-west-sydney"
+          },
+          {
+            "record_id": "be848184cda5274c4c6c",
+            "title": "Repurposing temporary housing as focus shifts to permanent homes",
+            "url": "https://www.nsw.gov.au/ministerial-releases/repurposing-temporary-housing-as-focus-shifts-to-permanent-homes"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "1f2cf685a7bb8a70c4ea",
+            "title": "NSW backs community-led prevention during 16 Days of Activism",
+            "url": "https://www.nsw.gov.au/ministerial-releases/nsw-backs-community-led-prevention-during-16-days-of-activism"
+          },
+          {
+            "record_id": "3c51c2c416e8335cb9bc",
+            "title": "$5.2 million boost to firefighting capability for growing Sydney",
+            "url": "https://www.nsw.gov.au/ministerial-releases/aerial-ladder-truck-investment-for-sydney"
+          },
+          {
+            "record_id": "55cf30df6c631e566b36",
+            "title": "State’s top young spellers go for glory at New South Wales Premier’s Spelling Bee finals",
+            "url": "https://www.nsw.gov.au/ministerial-releases/states-top-young-spellers-go-for-glory-at-new-south-wales-premiers-spelling-bee-finals"
+          },
+          {
+            "record_id": "682f04078f7ecad09b15",
+            "title": "Re-elected Minns Labor Government to boost productivity and deliver more homes and jobs",
+            "url": "https://www.nsw.gov.au/ministerial-releases/re-elected-minns-labor-government-to-boost-productivity-and-deliver-more-homes-and-jobs"
+          },
+          {
+            "record_id": "77061a1c7f22cbcea06c",
+            "title": "Newcastle&#x27;s blockbuster year set for a grand finale: 120k fans, five major events over five stellar weeks",
+            "url": "https://www.nsw.gov.au/departments-and-agencies/dciths/ministerial-media-releases/newcastles-blockbuster-year-set-for-a-grand-finale-120k-fans-five-major-events-over-five-stellar-weeks"
+          },
+          {
+            "record_id": "8470ed5f96eacad1e7f2",
+            "title": "Firefighting fleet upgrades rollout to protect communities",
+            "url": "https://www.nsw.gov.au/ministerial-releases/firefighting-fleet-upgrades-rolled-out"
+          }
+        ],
+        "delta_hash": "2fcb0f635c476f8b3fe22d873dd2d70fbb6b265705c584cd1d739092ffa9a496"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-VEC-MEDIA-20261109063107",
+      "source_change_event_id": "CHG-WATCH-VEC-MEDIA-20261109063107",
+      "decision": "EXCLUDED_AS_NON_SIGNAL",
+      "signal_event_id": null,
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": null,
+      "materiality_state": "IMMATERIAL",
+      "claim": "Structured publication-index change contained removals only. It is retained as a raw source change but is not automatically promoted into a political signal.",
+      "review_basis": "Deterministic review policy excludes removal-only index changes because disappearance from an index does not establish a political event, reversal or substantive fact.",
+      "reviewed_at": "2026-11-09T06:32:06.611Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [],
+        "removed_records": [
+          {
+            "record_id": "f8223bed6f320769054d",
+            "title": "How to nominate",
+            "url": "https://www.vec.vic.gov.au/candidates-and-parties/become-a-state-election-candidate/how-to-nominate"
+          }
+        ],
+        "delta_hash": "8e0a557d5d88942fbb8668feac2f1a78252329b98168b1519515c410ec9b8a56"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261109063107",
+      "source_change_event_id": "CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261109063107",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261109063107",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Queensland Government — Ministerial Media Statements added 3 structured publication records to its forward-captured official index: Outback Way milestones deliver safer journeys for Western Queensland; Five-year partnerships to enhance economic and social participation; Bribie gets moving with new On Demand Transport service",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-11-09T06:32:06.611Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "77112f6168e3f7c20292",
+            "title": "Outback Way milestones deliver safer journeys for Western Queensland",
+            "url": "https://statements.qld.gov.au/statements/106371"
+          },
+          {
+            "record_id": "f2eff6204ad92a05e092",
+            "title": "Five-year partnerships to enhance economic and social participation",
+            "url": "https://statements.qld.gov.au/statements/106367"
+          },
+          {
+            "record_id": "f74fe55ee410d3eeb1ba",
+            "title": "Bribie gets moving with new On Demand Transport service",
+            "url": "https://statements.qld.gov.au/statements/106369"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "0744687d7243b7fa0ec9",
+            "title": "Disaster support activated for storm-hit Queensland communities",
+            "url": "https://statements.qld.gov.au/statements/106360"
+          },
+          {
+            "record_id": "c354f0eba6aa3f5ea73c",
+            "title": "New industry support to help Queensland fruit and vegetable growers prosper",
+            "url": "https://statements.qld.gov.au/statements/106352"
+          },
+          {
+            "record_id": "f833095eb0d0ef022dff",
+            "title": "New members appointed to Queensland Veterans’ Council",
+            "url": "https://statements.qld.gov.au/statements/106350"
+          }
+        ],
+        "delta_hash": "c2ac6eb35c4a0cb64649088efd430b3ee3ce4857ee843247ba904d572f7cf97b"
       },
       "integrity": {
         "source_change_unchanged": true,

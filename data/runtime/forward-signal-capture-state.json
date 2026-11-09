@@ -105,9 +105,9 @@
       "source_id": "SRC-VEC-2026-STATE-ELECTION",
       "jurisdiction_id": "AUS-VIC",
       "party_id": null,
-      "content_hash": "ab4bf9683b86c9dad1ea38b61fccecdfb98abe992d225f97d73d41a24e8ee8c0",
-      "snapshot_id": "AUTO-WATCH-VEC-2026-STATE-ELECTION-20261109063107",
-      "captured_at": "2026-11-09T06:31:07.427Z",
+      "content_hash": "467af488fc88cb4efd5a6c390c3d7ead88ec58a046ff0e5728080e4f7527be0b",
+      "snapshot_id": "AUTO-WATCH-VEC-2026-STATE-ELECTION-20261109173010",
+      "captured_at": "2026-11-09T17:30:10.785Z",
       "acquisition_url": "https://www.vec.vic.gov.au/voting/2026-state-election",
       "requested_url": "https://www.vec.vic.gov.au/voting/2026-state-election",
       "header_profile": "IDENTIFIED_AUTOMATION",
@@ -133,9 +133,9 @@
       "source_id": "SRC-VIC-HANSARD",
       "jurisdiction_id": "AUS-VIC",
       "party_id": null,
-      "content_hash": "d2f20a1e415883c8f52a80e56ebef78f8ba8057e9d34a4e7ab6f070b81b280e6",
-      "snapshot_id": "AUTO-WATCH-VIC-HANSARD-20261021232030",
-      "captured_at": "2026-10-21T23:20:30.090Z",
+      "content_hash": "c8695970242c712d24adc4ca67982c194ba76090e0d1f9b6c53c9921576b7368",
+      "snapshot_id": "AUTO-WATCH-VIC-HANSARD-20261109173010",
+      "captured_at": "2026-11-09T17:30:10.785Z",
       "acquisition_url": "https://www.parliament.vic.gov.au/hansard/",
       "requested_url": "https://www.parliament.vic.gov.au/hansard/",
       "header_profile": "IDENTIFIED_AUTOMATION",
@@ -161,9 +161,9 @@
       "source_id": "SRC-WA-HANSARD",
       "jurisdiction_id": "AUS-WA",
       "party_id": null,
-      "content_hash": "28e0c6db96b18fae2cc027657e0c6bb8f771e489d48c126f7d472ce8b901340e",
-      "snapshot_id": "AUTO-WATCH-WA-HANSARD-20261108234342",
-      "captured_at": "2026-11-08T23:43:42.479Z",
+      "content_hash": "ac095460109dfdd523d1c24b63ff193b6ed795fcb95fcf77778c7bdc31781e7c",
+      "snapshot_id": "AUTO-WATCH-WA-HANSARD-20261109173010",
+      "captured_at": "2026-11-09T17:30:10.785Z",
       "acquisition_url": "https://www.parliament.wa.gov.au/4825795E0000B647/content/hansard-how-to-search-and-use-hansard",
       "requested_url": "https://www.parliament.wa.gov.au/4825795E0000B647/content/hansard-how-to-search-and-use-hansard",
       "header_profile": "BROWSER_COMPATIBILITY",
@@ -506,11 +506,11 @@
       "captured_representation_complete": true
     }
   },
-  "updated_at": "2026-11-09T06:31:07.427Z",
+  "updated_at": "2026-11-09T17:30:10.785Z",
   "last_run": {
-    "captured_at": "2026-11-09T06:31:07.427Z",
+    "captured_at": "2026-11-09T17:30:10.785Z",
     "baselines_created": 0,
-    "source_changes_created": 7,
+    "source_changes_created": 3,
     "semantic_signals_created": 0,
     "representation_upgrades": 0,
     "failures": [
@@ -531,12 +531,8 @@
         "error": "https://www.ecq.qld.gov.au/media/2026-media-statements [IDENTIFIED_AUTOMATION] 403 Forbidden | https://www.ecq.qld.gov.au/media/2026-media-statements [BROWSER_COMPATIBILITY] 403 Forbidden | https://www.ecq.qld.gov.au/home [IDENTIFIED_AUTOMATION] 403 Forbidden | https://www.ecq.qld.gov.au/home [BROWSER_COMPATIBILITY] 403 Forbidden"
       },
       {
-        "watch_id": "WATCH-WA-GOV-MEDIA",
-        "error": "https://www.wa.gov.au/government/media-statements [IDENTIFIED_AUTOMATION] 403 Forbidden | https://www.wa.gov.au/government/media-statements [BROWSER_COMPATIBILITY] 403 Forbidden"
-      },
-      {
         "watch_id": "WATCH-TAS-HANSARD",
-        "error": "https://search.parliament.tas.gov.au/Search/search/search?IW_FIELD_ADVANCE_PHRASE=2026%20IN%20TITLE&IW_DATABASE=Hansard&IW_SORT=-9&IW_SEARCH_SCOPE=meta [IDENTIFIED_AUTOMATION] empty response | https://search.parliament.tas.gov.au/Search/search/search?IW_FIELD_ADVANCE_PHRASE=2026%20IN%20TITLE&IW_DATABASE=Hansard&IW_SORT=-9&IW_SEARCH_SCOPE=meta [BROWSER_COMPATIBILITY] timeout>15000ms"
+        "error": "https://search.parliament.tas.gov.au/Search/search/search?IW_FIELD_ADVANCE_PHRASE=2026%20IN%20TITLE&IW_DATABASE=Hansard&IW_SORT=-9&IW_SEARCH_SCOPE=meta [IDENTIFIED_AUTOMATION] timeout>15000ms | https://search.parliament.tas.gov.au/Search/search/search?IW_FIELD_ADVANCE_PHRASE=2026%20IN%20TITLE&IW_DATABASE=Hansard&IW_SORT=-9&IW_SEARCH_SCOPE=meta [BROWSER_COMPATIBILITY] timeout>15000ms"
       },
       {
         "watch_id": "WATCH-TAS-PREMIER-NEWS",
@@ -572,7 +568,7 @@
   "coverage": {
     "active_sources": 36,
     "baselines_captured": 36,
-    "current_run_failures": 13,
+    "current_run_failures": 12,
     "jurisdictions": {
       "AUS-FED": {
         "configured_sources": 10,
@@ -622,13 +618,13 @@
       "AUS-WA": {
         "configured_sources": 3,
         "baseline_sources": 3,
-        "current_run_failures": 1,
+        "current_run_failures": 0,
         "source_classes": [
           "PRIMARY_ELECTORAL_AUTHORITY",
           "PRIMARY_GOVERNMENT",
           "PRIMARY_PARLIAMENT"
         ],
-        "status": "CAPTURE_ACTIVE_DEGRADED_CURRENT_RUN"
+        "status": "CAPTURE_ACTIVE_FULL_CONFIGURED_BASELINE"
       },
       "AUS-SA": {
         "configured_sources": 3,

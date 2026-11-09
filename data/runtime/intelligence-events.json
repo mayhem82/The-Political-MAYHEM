@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-INTELLIGENCE-EVENTS-001",
   "scope": "Australia — multi-jurisdiction",
-  "captured_at": "2026-11-09T06:32:12.289Z",
+  "captured_at": "2026-11-09T17:31:21.103Z",
   "mode": "FORWARD_ONLY",
   "rules": {
     "observation_distinct_from_inference": true,
@@ -135947,6 +135947,144 @@
         "source_change_parent_retained": true,
         "deterministic_review": true
       }
+    },
+    {
+      "event_id": "CHG-WATCH-VIC-HANSARD-20261109173010",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-VIC",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-VIC-HANSARD-20261109173010",
+      "captured_at": "2026-11-09T17:30:10.785Z",
+      "event_date": "2026-11-10",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_PARLIAMENT",
+      "source_id": "SRC-VIC-HANSARD",
+      "capture_mode": "NORMALISED_PAGE_HASH",
+      "review_policy": "REVIEW_UNSTRUCTURED_CHANGE",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-VIC-HANSARD-20261021232030",
+        "content_hash": "d2f20a1e415883c8f52a80e56ebef78f8ba8057e9d34a4e7ab6f070b81b280e6",
+        "capture_mode": "NORMALISED_PAGE_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-VIC-HANSARD-20261109173010",
+        "content_hash": "c8695970242c712d24adc4ca67982c194ba76090e0d1f9b6c53c9921576b7368",
+        "capture_mode": "NORMALISED_PAGE_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "TEXT_REPRESENTATION",
+        "first_difference_offset": 49,
+        "before_length": 3073,
+        "after_length": 3167,
+        "before_excerpt": "Hansard - Parliament of Victoria Skip to content Parliamentary activity Hansard Hansard is the official report of the proceedings of the Parliament of Victoria from 1866",
+        "after_excerpt": "Hansard - Parliament of Victoria Skip to content Victorian State Election 2026 election information from the Parliament of Victoria Learn more Parliamentary activity Hansard Hansard is the official report of the proceedings of the Parliament of Victoria from 1866",
+        "delta_hash": "716555abeaee9fba993f9bc88bca7edc256d4282e3070159c0260be632530019"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-VEC-2026-STATE-ELECTION-20261109173010",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-VIC",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-VEC-2026-STATE-ELECTION-20261109173010",
+      "captured_at": "2026-11-09T17:30:10.785Z",
+      "event_date": "2026-11-10",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_ELECTORAL_AUTHORITY",
+      "source_id": "SRC-VEC-2026-STATE-ELECTION",
+      "capture_mode": "NORMALISED_PAGE_HASH",
+      "review_policy": "REVIEW_UNSTRUCTURED_CHANGE",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-VEC-2026-STATE-ELECTION-20261109063107",
+        "content_hash": "ab4bf9683b86c9dad1ea38b61fccecdfb98abe992d225f97d73d41a24e8ee8c0",
+        "capture_mode": "NORMALISED_PAGE_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-VEC-2026-STATE-ELECTION-20261109173010",
+        "content_hash": "467af488fc88cb4efd5a6c390c3d7ead88ec58a046ff0e5728080e4f7527be0b",
+        "capture_mode": "NORMALISED_PAGE_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "TEXT_REPRESENTATION",
+        "first_difference_offset": 7041,
+        "before_length": 20490,
+        "after_length": 20341,
+        "before_excerpt": "nual returns Registered political parties Associated entities Independents and groups Third-party campaigners Languages We are doing website maintenance at 7 pm tonight, Monday 9 November. Our website may be down for up to 5 minutes. Thank you for your patience. Close Back to Voting Home Voting 2026 state election On this page 2026 state election Listen There have been changes to Victor",
+        "after_excerpt": "nual returns Registered political parties Associated entities Independents and groups Third-party campaigners Languages Back to Voting Home Voting 2026 state election On this page 2026 state election Listen There have been changes to Victor",
+        "delta_hash": "9a065d437d17bb15f6f84bfdb5d185bfe313a93d96c2278a39d20bc2d6a3b1cb"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-WA-HANSARD-20261109173010",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-WA",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-WA-HANSARD-20261109173010",
+      "captured_at": "2026-11-09T17:30:10.785Z",
+      "event_date": "2026-11-10",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_PARLIAMENT",
+      "source_id": "SRC-WA-HANSARD",
+      "capture_mode": "NORMALISED_PAGE_HASH",
+      "review_policy": "REVIEW_UNSTRUCTURED_CHANGE",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-WA-HANSARD-20261108234342",
+        "content_hash": "28e0c6db96b18fae2cc027657e0c6bb8f771e489d48c126f7d472ce8b901340e",
+        "capture_mode": "NORMALISED_PAGE_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-WA-HANSARD-20261109173010",
+        "content_hash": "ac095460109dfdd523d1c24b63ff193b6ed795fcb95fcf77778c7bdc31781e7c",
+        "capture_mode": "NORMALISED_PAGE_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "TEXT_REPRESENTATION",
+        "first_difference_offset": 200,
+        "before_length": 10809,
+        "after_length": 10823,
+        "before_excerpt": "t Home Site map Accessibility Contact us Alerts Home Menu Show/Hide website navigation The Legislative Assembly meets tomorrow (<TIME>) Assembly sit tomorrow The Legislative Council meets tomorrow (<TIME>) Council sit tomorrow The Community Development meets today (<TIME>) Watch live Watch Committee live The Estimates Committee meets on 18/11/2026 (<TIME>) Committee meet 18/11/2026 Search this website Advanced Search Search Parliamentary Busines",
+        "after_excerpt": "t Home Site map Accessibility Contact us Alerts Home Menu Show/Hide website navigation The Legislative Assembly meets today (<TIME>) Watch live Watch Assembly live The Legislative Council meets today (<TIME>) Watch live Watch Council live The Estimates Committee meets on 18/11/2026 (<TIME>) Committee meet 18/11/2026 The Community Development meets on 18/11/2026 (<TIME>) Committee meet 18/11/2026 Search this website Advanced Search Search Parliamentary Busines",
+        "delta_hash": "2f3f791c1ce0831b07bc4bde9c8e9b03d35a863527b1beb088bc2edcc8ad7c92"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
     }
   ]
 }

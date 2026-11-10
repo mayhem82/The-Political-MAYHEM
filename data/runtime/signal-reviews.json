@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-SIGNAL-REVIEWS-001",
   "created_at": "2026-09-09T05:05:00+10:00",
-  "updated_at": "2026-11-10T01:32:57.045Z",
+  "updated_at": "2026-11-10T09:52:27.385Z",
   "rules": {
     "append_only": true,
     "raw_source_change_is_immutable": true,
@@ -49474,6 +49474,310 @@
           }
         ],
         "delta_hash": "830de29e7b0673ab4020c5c273f3c560a885581fc1bfbdec86f55b890329f72b"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-PM-MEDIA-20261110095125",
+      "source_change_event_id": "CHG-WATCH-PM-MEDIA-20261110095125",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-PM-MEDIA-20261110095125",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Prime Minister of Australia — media added 4 structured publication records to its forward-captured official index: Press conference - Parliament House, Canberra; New Australian AI safety and security protections; Advancing Australia&#039;s national interest; Strengthening Australia against AI-driven cyber incidents",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-11-10T09:52:27.385Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "9c962762dbf6e27ccd9c",
+            "title": "Press conference - Parliament House, Canberra",
+            "url": "https://www.pm.gov.au/media/press-conference-parliament-house-canberra-55"
+          },
+          {
+            "record_id": "c2595c9c12d0902d498d",
+            "title": "New Australian AI safety and security protections",
+            "url": "https://www.pm.gov.au/media/new-australian-ai-safety-and-security-protections"
+          },
+          {
+            "record_id": "d2873d88016f39ec40ea",
+            "title": "Advancing Australia&#039;s national interest",
+            "url": "https://www.pm.gov.au/media/advancing-australias-national-interest"
+          },
+          {
+            "record_id": "f87ae272e5f52cb335ad",
+            "title": "Strengthening Australia against AI-driven cyber incidents",
+            "url": "https://www.pm.gov.au/media/strengthening-australia-against-ai-driven-cyber-incidents"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "2252661a61ffafef23d2",
+            "title": "2026 Commonwealth Heads of Government Meeting",
+            "url": "https://www.pm.gov.au/media/2026-commonwealth-heads-government-meeting"
+          },
+          {
+            "record_id": "5c4e074dd1ee5863698b",
+            "title": "Commonwealth Nature Initiative side event",
+            "url": "https://www.pm.gov.au/media/commonwealth-nature-initiative-side-event"
+          },
+          {
+            "record_id": "8a0061a9f8cca6adb65d",
+            "title": "2027 WA Australian of the Year Awards",
+            "url": "https://www.pm.gov.au/media/2027-wa-australian-year-awards"
+          },
+          {
+            "record_id": "c9aa9a4bc20594818421",
+            "title": "Press conference - Saint John&#039;s, Antigua and Barbuda",
+            "url": "https://www.pm.gov.au/media/press-conference-saint-johns-antigua-and-barbuda"
+          }
+        ],
+        "delta_hash": "e58e5ad90613e06a1360b0074f9559f2f9361a09be037cf2ffd2877d4719c872"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-GREENS-FEDERAL-MEDIA-20261110095125",
+      "source_change_event_id": "CHG-WATCH-GREENS-FEDERAL-MEDIA-20261110095125",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-GREENS-FEDERAL-MEDIA-20261110095125",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": "AUS-FED-GRN",
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Australian Greens — Federal MPs media releases added 13 structured publication records to its forward-captured official index: Read more about Inquiry reveals a social housing system in crisis; Read more about Labor’s fossil fuel obsession burns a hole in your wallet; Labor’s coal and gas addiction comes with $6 billion annual bushfire bill; Read more about Greens ask, how many more headlines before Labor confronts the national childcare crisis?; Albanese spin can&#039;t conceal total capitulation to vampire AI corporations; +8 more",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-11-10T09:52:27.385Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "0e5c13cd6d445b0b44e6",
+            "title": "Read more about Inquiry reveals a social housing system in crisis",
+            "url": "https://greens.org.au/news/media-release/inquiry-reveals-social-housing-system-crisis"
+          },
+          {
+            "record_id": "20a1d7be6614a8506731",
+            "title": "Read more about Labor’s fossil fuel obsession burns a hole in your wallet",
+            "url": "https://greens.org.au/news/media-release/labors-fossil-fuel-obsession-burns-hole-your-wallet"
+          },
+          {
+            "record_id": "3bd6b0b952b5a37582fd",
+            "title": "Labor’s coal and gas addiction comes with $6 billion annual bushfire bill",
+            "url": "https://greens.org.au/news/media-release/labors-coal-and-gas-addiction-comes-6-billion-annual-bushfire-bill"
+          },
+          {
+            "record_id": "422575c9a9c46bd7bd6d",
+            "title": "Read more about Greens ask, how many more headlines before Labor confronts the national childcare crisis?",
+            "url": "https://greens.org.au/news/media-release/greens-ask-how-many-more-headlines-labor-confronts-national-childcare-crisis"
+          },
+          {
+            "record_id": "5125c43237b6f32d820c",
+            "title": "Albanese spin can&#039;t conceal total capitulation to vampire AI corporations",
+            "url": "https://greens.org.au/news/media-release/albanese-spin-cant-conceal-total-capitulation-vampire-ai-corporations"
+          },
+          {
+            "record_id": "5953f85e252041977d75",
+            "title": "Inquiry reveals Labor’s gas reserve bill brings Beetaloo climate bomb closer",
+            "url": "https://greens.org.au/news/media-release/inquiry-reveals-labors-gas-reserve-bill-brings-beetaloo-climate-bomb-closer"
+          },
+          {
+            "record_id": "9860b1e16a4ce1d66552",
+            "title": "Inquiry reveals a social housing system in crisis",
+            "url": "https://greens.org.au/news/media-release/inquiry-reveals-social-housing-system-crisis"
+          },
+          {
+            "record_id": "a66dc7a4ade6924a9277",
+            "title": "Greens ask, how many more headlines before Labor confronts the national childcare crisis?",
+            "url": "https://greens.org.au/news/media-release/greens-ask-how-many-more-headlines-labor-confronts-national-childcare-crisis"
+          },
+          {
+            "record_id": "a94c8f417718406aae81",
+            "title": "Last page Last »",
+            "url": "https://greens.org.au/news/media-releases?page=300"
+          },
+          {
+            "record_id": "b14d9099add0af11ae42",
+            "title": "Read more about Labor’s coal and gas addiction comes with $6 billion annual bushfire bill",
+            "url": "https://greens.org.au/news/media-release/labors-coal-and-gas-addiction-comes-6-billion-annual-bushfire-bill"
+          },
+          {
+            "record_id": "b6729d81f8de64b87010",
+            "title": "Read more about Inquiry reveals Labor’s gas reserve bill brings Beetaloo climate bomb closer",
+            "url": "https://greens.org.au/news/media-release/inquiry-reveals-labors-gas-reserve-bill-brings-beetaloo-climate-bomb-closer"
+          },
+          {
+            "record_id": "e43ed2e4c73d038e4935",
+            "title": "Labor’s fossil fuel obsession burns a hole in your wallet",
+            "url": "https://greens.org.au/news/media-release/labors-fossil-fuel-obsession-burns-hole-your-wallet"
+          },
+          {
+            "record_id": "ec9dd076dcbeb5a0b30e",
+            "title": "Read more about Albanese spin can&#039;t conceal total capitulation to vampire AI corporations",
+            "url": "https://greens.org.au/news/media-release/albanese-spin-cant-conceal-total-capitulation-vampire-ai-corporations"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "060b1943f9e838a8986c",
+            "title": "Greens to seek Senate inquiry into Labor&#039;s watered-down trust reforms",
+            "url": "https://greens.org.au/news/media-release/greens-seek-senate-inquiry-labors-watered-down-trust-reforms"
+          },
+          {
+            "record_id": "269c2ec2bc2ba1b81ee9",
+            "title": "Labor review into aged care assessments means human override must be urgently reinstated: Greens",
+            "url": "https://greens.org.au/news/media-release/labor-review-aged-care-assessments-means-human-override-must-be-urgently"
+          },
+          {
+            "record_id": "3224169bed6da178f7af",
+            "title": "Read more about Labor review into aged care assessments means human override must be urgently reinstated: Greens",
+            "url": "https://greens.org.au/news/media-release/labor-review-aged-care-assessments-means-human-override-must-be-urgently"
+          },
+          {
+            "record_id": "32845516baa3fb49b310",
+            "title": "Albanese Government needs to stand firm against big AI and protect Australian creatives",
+            "url": "https://greens.org.au/sa/news/media-release/albanese-government-needs-stand-firm-against-big-ai-and-protect-australian"
+          },
+          {
+            "record_id": "3dcdaf37dfd0921cf3bd",
+            "title": "Last page Last »",
+            "url": "https://greens.org.au/news/media-releases?page=299"
+          },
+          {
+            "record_id": "5994e9e9590687069c5c",
+            "title": "Read more about 78% of Australians back rent limits",
+            "url": "https://greens.org.au/news/media-release/78-australians-back-rent-limits"
+          },
+          {
+            "record_id": "6c1763cbec333430b6e1",
+            "title": "Read more about Albanese Government needs to stand firm against big AI and protect Australian creatives",
+            "url": "https://greens.org.au/sa/news/media-release/albanese-government-needs-stand-firm-against-big-ai-and-protect-australian"
+          },
+          {
+            "record_id": "8ac4f12354778f8b05f2",
+            "title": "Greens will not allow Labor to punch down on pensioners for quick cash",
+            "url": "https://greens.org.au/news/media-release/greens-will-not-allow-labor-punch-down-pensioners-quick-cash"
+          },
+          {
+            "record_id": "92542b4c4ecfb0ab2a45",
+            "title": "Labor’s stacked AI committee delivers utterly captured message",
+            "url": "https://greens.org.au/news/media-release/labors-stacked-ai-committee-delivers-utterly-captured-message"
+          },
+          {
+            "record_id": "abc4c2a73ea50a50b0ce",
+            "title": "Read more about Labor’s stacked AI committee delivers utterly captured message",
+            "url": "https://greens.org.au/news/media-release/labors-stacked-ai-committee-delivers-utterly-captured-message"
+          },
+          {
+            "record_id": "c09d980be4ebdd74e6c3",
+            "title": "Read more about Greens to seek Senate inquiry into Labor&#039;s watered-down trust reforms",
+            "url": "https://greens.org.au/news/media-release/greens-seek-senate-inquiry-labors-watered-down-trust-reforms"
+          },
+          {
+            "record_id": "dc185104eea4bccb3b9e",
+            "title": "Read more about Greens will not allow Labor to punch down on pensioners for quick cash",
+            "url": "https://greens.org.au/news/media-release/greens-will-not-allow-labor-punch-down-pensioners-quick-cash"
+          },
+          {
+            "record_id": "e5fc143c8e293a71f91b",
+            "title": "78% of Australians back rent limits",
+            "url": "https://greens.org.au/news/media-release/78-australians-back-rent-limits"
+          }
+        ],
+        "delta_hash": "9a69373bdc98964464049770aaec8da85945b248e409736cb6ec470314733344"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-VEC-MEDIA-20261110095125",
+      "source_change_event_id": "CHG-WATCH-VEC-MEDIA-20261110095125",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-VEC-MEDIA-20261110095125",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Victorian Electoral Commission — media centre added 1 structured publication record to its forward-captured official index: Find candidates",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-11-10T09:52:27.385Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "78266bbdd05a78f19597",
+            "title": "Find candidates",
+            "url": "https://www.vec.vic.gov.au/voting/2026-state-election/find-candidates"
+          }
+        ],
+        "removed_records": [],
+        "delta_hash": "c70bffd9794ce28608f272987cbc1313208ce6d22a0d93468b1213b869c955ef"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261110095125",
+      "source_change_event_id": "CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261110095125",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261110095125",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Queensland Government — Ministerial Media Statements added 1 structured publication record to its forward-captured official index: Contractors appointed to deliver new Youth Step Up Step Down facilities in Rockhampton and Townsville",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-11-10T09:52:27.385Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "eefee352c915f531a2ee",
+            "title": "Contractors appointed to deliver new Youth Step Up Step Down facilities in Rockhampton and Townsville",
+            "url": "https://statements.qld.gov.au/statements/106382"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "5714bc7f244acd7a8464",
+            "title": "Stronger ties with Indonesia to drive mining and processing opportunities for Queensland",
+            "url": "https://statements.qld.gov.au/statements/106366"
+          }
+        ],
+        "delta_hash": "8f306686db792af0a7d089c7139e571edd336c2a7f366995081aa7639863a620"
       },
       "integrity": {
         "source_change_unchanged": true,

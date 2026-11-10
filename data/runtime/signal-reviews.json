@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-SIGNAL-REVIEWS-001",
   "created_at": "2026-09-09T05:05:00+10:00",
-  "updated_at": "2026-11-09T17:31:14.835Z",
+  "updated_at": "2026-11-10T01:32:57.045Z",
   "rules": {
     "append_only": true,
     "raw_source_change_is_immutable": true,
@@ -49280,6 +49280,200 @@
           }
         ],
         "delta_hash": "c2ac6eb35c4a0cb64649088efd430b3ee3ce4857ee843247ba904d572f7cf97b"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-NSW-MINISTERIAL-RELEASES-20261110013153",
+      "source_change_event_id": "CHG-WATCH-NSW-MINISTERIAL-RELEASES-20261110013153",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-NSW-MINISTERIAL-RELEASES-20261110013153",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "NSW Government — Ministerial releases added 3 structured publication records to its forward-captured official index: Vaucloos gets a much-needed flush as the NSW Government cleans up iconic coastline; Announcing the winner of the 2026 NSW Music Prize; Legislation to save 400 Hunter jobs at Mt Pleasant to be introduced today",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-11-10T01:32:57.045Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "b0172942c7b5a573345b",
+            "title": "Vaucloos gets a much-needed flush as the NSW Government cleans up iconic coastline",
+            "url": "https://www.nsw.gov.au/ministerial-releases/vaucloos-gets-a-much-needed-flush-as-nsw-government-cleans-up-iconic-coastline"
+          },
+          {
+            "record_id": "d5fa84608ce16146559f",
+            "title": "Announcing the winner of the 2026 NSW Music Prize",
+            "url": "https://www.nsw.gov.au/departments-and-agencies/dciths/ministerial-media-releases/winner-2026-music-prize"
+          },
+          {
+            "record_id": "f0d27f8a061029586208",
+            "title": "Legislation to save 400 Hunter jobs at Mt Pleasant to be introduced today",
+            "url": "https://www.nsw.gov.au/ministerial-releases/legislation-to-save-400-hunter-jobs-at-mt-pleasant-to-be-introduced-today"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "07310e63f1feb296b93d",
+            "title": "Resilience work underway as South Coast Rail Plan begins",
+            "url": "https://www.nsw.gov.au/ministerial-releases/resilience-work-underway-as-south-coast-rail-plan-begins"
+          },
+          {
+            "record_id": "eb2c5ac694bb879c4133",
+            "title": "First look at design for new Engadine fire station",
+            "url": "https://www.nsw.gov.au/ministerial-releases/first-look-new-fire-station-engadine"
+          },
+          {
+            "record_id": "f5e0bcf1e5dbce49e644",
+            "title": "Minns Labor Government to take action on Cooks River",
+            "url": "https://www.nsw.gov.au/ministerial-releases/minns-labor-government-to-take-action-on-cooks-river"
+          }
+        ],
+        "delta_hash": "85a38f9ebe304266a3306de553254b50e449642c8de5c6b0ae08c606a6b48e47"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-VEC-MEDIA-20261110013153",
+      "source_change_event_id": "CHG-WATCH-VEC-MEDIA-20261110013153",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-VEC-MEDIA-20261110013153",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Victorian Electoral Commission — media centre added 1 structured publication record to its forward-captured official index: Find how-to-vote cards",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-11-10T01:32:57.045Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "8dbc05d9dffefd746074",
+            "title": "Find how-to-vote cards",
+            "url": "https://www.vec.vic.gov.au/voting/2026-state-election/how-to-vote-cards"
+          }
+        ],
+        "removed_records": [],
+        "delta_hash": "afe45063e3716f7bf60bf2098696a616122cb3b94ec8a043660e961ac694ef50"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261110013153",
+      "source_change_event_id": "CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261110013153",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261110013153",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Queensland Government — Ministerial Media Statements added 7 structured publication records to its forward-captured official index: Cabinet brings together Rural, Remote and Indigenous council leaders; More than 760 new homes fast tracked across the Redlands; Another 2,000 Free Nursing places backed for 2027; Service Queensland delivers a mobile ‘service centre on wheels’ for North and Far North Queensland; More teachers and teacher aides delivered across Queensland state schools since 2024; +2 more",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-11-10T01:32:57.045Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "074ff17fb38cf94d86b8",
+            "title": "Cabinet brings together Rural, Remote and Indigenous council leaders",
+            "url": "https://statements.qld.gov.au/statements/106390"
+          },
+          {
+            "record_id": "16fcdcaf7aed5618d9e9",
+            "title": "More than 760 new homes fast tracked across the Redlands",
+            "url": "https://statements.qld.gov.au/statements/106375"
+          },
+          {
+            "record_id": "34124926a9859800383d",
+            "title": "Another 2,000 Free Nursing places backed for 2027",
+            "url": "https://statements.qld.gov.au/statements/106388"
+          },
+          {
+            "record_id": "7dc6ccc2fe4a31248150",
+            "title": "Service Queensland delivers a mobile ‘service centre on wheels’ for North and Far North Queensland",
+            "url": "https://statements.qld.gov.au/statements/106384"
+          },
+          {
+            "record_id": "b573db5d5d91d4ab140b",
+            "title": "More teachers and teacher aides delivered across Queensland state schools since 2024",
+            "url": "https://statements.qld.gov.au/statements/106389"
+          },
+          {
+            "record_id": "eefb24841cfffef5f7ab",
+            "title": "Labor’s axed Cardiac Hybrid Theatre now a reality at Rockhampton Hospital",
+            "url": "https://statements.qld.gov.au/statements/106380"
+          },
+          {
+            "record_id": "f14cdb38f9ffb34d7e84",
+            "title": "Destination 2045 delivers for Great Keppel Island",
+            "url": "https://statements.qld.gov.au/statements/106376"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "0e0bf6db67760097e0d0",
+            "title": "New masterplan sets future direction for The Prince Charles Hospital",
+            "url": "https://statements.qld.gov.au/statements/106372"
+          },
+          {
+            "record_id": "42676ff166aa1cf5d1ee",
+            "title": "Biggest bush boost delivered in a decade",
+            "url": "https://statements.qld.gov.au/statements/106363"
+          },
+          {
+            "record_id": "bd2a63b8de5b1b3e4c60",
+            "title": "Helping small construction businesses boost their productivity",
+            "url": "https://statements.qld.gov.au/statements/106362"
+          },
+          {
+            "record_id": "d147d96ed19459782ac3",
+            "title": "Tourism winners showcase Queensland as the Home of the Holiday",
+            "url": "https://statements.qld.gov.au/statements/106365"
+          },
+          {
+            "record_id": "ea420e73ea88de13e441",
+            "title": "Regional Queensland takes centre stage at world’s biggest import expo",
+            "url": "https://statements.qld.gov.au/statements/106351"
+          },
+          {
+            "record_id": "ee0750050519ff3d888f",
+            "title": "Enhanced Eternal Flame burning brighter to honour veterans",
+            "url": "https://statements.qld.gov.au/statements/106364"
+          },
+          {
+            "record_id": "f667e8cf62908808f817",
+            "title": "Delivering a plan for the next decade of volunteering in Queensland",
+            "url": "https://statements.qld.gov.au/statements/106354"
+          }
+        ],
+        "delta_hash": "830de29e7b0673ab4020c5c273f3c560a885581fc1bfbdec86f55b890329f72b"
       },
       "integrity": {
         "source_change_unchanged": true,

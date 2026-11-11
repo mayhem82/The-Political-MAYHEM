@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-INTELLIGENCE-EVENTS-001",
   "scope": "Australia — multi-jurisdiction",
-  "captured_at": "2026-11-11T15:14:14.936Z",
+  "captured_at": "2026-11-11T22:00:04.797Z",
   "mode": "FORWARD_ONLY",
   "rules": {
     "observation_distinct_from_inference": true,
@@ -138217,6 +138217,154 @@
       "projection_effect": "NO_EFFECT",
       "information_advantage": "NONE",
       "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-PM-MEDIA-20261111215856",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-FED",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-PM-MEDIA-20261111215856",
+      "captured_at": "2026-11-11T21:58:56.069Z",
+      "event_date": "2026-11-12",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-PM-MEDIA",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "review_policy": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-PM-MEDIA-20261111062221",
+        "content_hash": "6938700ac9160f9c20eaf8fa1ce7544d5360f9150ca2a0f5b4bacb1c18fb3e90",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-PM-MEDIA-20261111215856",
+        "content_hash": "3759b22f4cb7dcaee2560c7b571af120d68426362b29752fdd2caa6c96b2883b",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "STRUCTURED_RECORD_SET",
+        "records_added": [
+          {
+            "record_id": "0798d054f43e149d2625",
+            "title": "High-Level Event on Clean Energy Transition and Electrification",
+            "url": "https://www.pm.gov.au/media/high-level-event-clean-energy-transition-and-electrification"
+          },
+          {
+            "record_id": "b783388d4a8fb0cb1577",
+            "title": "Last » Last page",
+            "url": "https://www.pm.gov.au/media?page=285"
+          },
+          {
+            "record_id": "ba680961502d0faf0baf",
+            "title": "COP31 Leaders&#039; Summit Opening Ceremony",
+            "url": "https://www.pm.gov.au/media/cop31-leaders-summit-opening-ceremony"
+          }
+        ],
+        "records_removed": [
+          {
+            "record_id": "43ca7bff752fcbe9e228",
+            "title": "Last » Last page",
+            "url": "https://www.pm.gov.au/media?page=284"
+          },
+          {
+            "record_id": "87d6b895fb7cd64d431d",
+            "title": "Commonwealth Heads of Government 2026 statement between the UK and Australia",
+            "url": "https://www.pm.gov.au/media/commonwealth-heads-government-2026-statement-between-uk-and-australia"
+          },
+          {
+            "record_id": "a551b31666d748f900bb",
+            "title": "Departmental ministerial appointment",
+            "url": "https://www.pm.gov.au/media/departmental-ministerial-appointment"
+          }
+        ],
+        "added_count": 3,
+        "removed_count": 3,
+        "before_count": 27,
+        "after_count": 27,
+        "delta_hash": "18045124532abfe986d5046eb80e51ad788d4494f5731d7cd2414f8baa201cb3"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "SIG-REV-CHG-WATCH-PM-MEDIA-20261111215856",
+      "parent_event_id": "CHG-WATCH-PM-MEDIA-20261111215856",
+      "review_id": "REV-CHG-WATCH-PM-MEDIA-20261111215856",
+      "jurisdiction_id": "AUS-FED",
+      "party_id": null,
+      "actor_id": null,
+      "contest_id": null,
+      "cycle_id": null,
+      "source_snapshot_id": "AUTO-WATCH-PM-MEDIA-20261111215856",
+      "record_id": null,
+      "captured_at": "2026-11-11T21:59:58.687Z",
+      "event_date": "2026-11-12",
+      "checkpoint": "CONTINUOUS_FORWARD_SIGNAL_REVIEW",
+      "event_type": "SIGNAL_CREATED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-PM-MEDIA",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "claim": "Prime Minister of Australia — media added 3 structured publication records to its forward-captured official index: High-Level Event on Clean Energy Transition and Electrification; Last » Last page; COP31 Leaders&#039; Summit Opening Ceremony",
+      "observed_behaviour": "One or more structured publication records appeared in the monitored official source index after the preceding forward snapshot.",
+      "publication_records_added": [
+        {
+          "record_id": "0798d054f43e149d2625",
+          "title": "High-Level Event on Clean Energy Transition and Electrification",
+          "url": "https://www.pm.gov.au/media/high-level-event-clean-energy-transition-and-electrification"
+        },
+        {
+          "record_id": "b783388d4a8fb0cb1577",
+          "title": "Last » Last page",
+          "url": "https://www.pm.gov.au/media?page=285"
+        },
+        {
+          "record_id": "ba680961502d0faf0baf",
+          "title": "COP31 Leaders&#039; Summit Opening Ceremony",
+          "url": "https://www.pm.gov.au/media/cop31-leaders-summit-opening-ceremony"
+        }
+      ],
+      "publication_records_removed": [
+        {
+          "record_id": "43ca7bff752fcbe9e228",
+          "title": "Last » Last page",
+          "url": "https://www.pm.gov.au/media?page=284"
+        },
+        {
+          "record_id": "87d6b895fb7cd64d431d",
+          "title": "Commonwealth Heads of Government 2026 statement between the UK and Australia",
+          "url": "https://www.pm.gov.au/media/commonwealth-heads-government-2026-statement-between-uk-and-australia"
+        },
+        {
+          "record_id": "a551b31666d748f900bb",
+          "title": "Departmental ministerial appointment",
+          "url": "https://www.pm.gov.au/media/departmental-ministerial-appointment"
+        }
+      ],
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "underlying_publication_claims_not_promoted_to_verified_fact": true,
+        "source_change_parent_retained": true,
+        "deterministic_review": true
+      }
     }
   ]
 }

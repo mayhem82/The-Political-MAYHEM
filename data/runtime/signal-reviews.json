@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-SIGNAL-REVIEWS-001",
   "created_at": "2026-09-09T05:05:00+10:00",
-  "updated_at": "2026-11-11T15:14:09.262Z",
+  "updated_at": "2026-11-11T21:59:58.687Z",
   "rules": {
     "append_only": true,
     "raw_source_change_is_immutable": true,
@@ -50068,6 +50068,66 @@
           }
         ],
         "delta_hash": "ae0f62023d54a8ce042b32fa428e2e9fe90820fa7fd5e535cbd05a73be88715b"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-PM-MEDIA-20261111215856",
+      "source_change_event_id": "CHG-WATCH-PM-MEDIA-20261111215856",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-PM-MEDIA-20261111215856",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Prime Minister of Australia — media added 3 structured publication records to its forward-captured official index: High-Level Event on Clean Energy Transition and Electrification; Last » Last page; COP31 Leaders&#039; Summit Opening Ceremony",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-11-11T21:59:58.687Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "0798d054f43e149d2625",
+            "title": "High-Level Event on Clean Energy Transition and Electrification",
+            "url": "https://www.pm.gov.au/media/high-level-event-clean-energy-transition-and-electrification"
+          },
+          {
+            "record_id": "b783388d4a8fb0cb1577",
+            "title": "Last » Last page",
+            "url": "https://www.pm.gov.au/media?page=285"
+          },
+          {
+            "record_id": "ba680961502d0faf0baf",
+            "title": "COP31 Leaders&#039; Summit Opening Ceremony",
+            "url": "https://www.pm.gov.au/media/cop31-leaders-summit-opening-ceremony"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "43ca7bff752fcbe9e228",
+            "title": "Last » Last page",
+            "url": "https://www.pm.gov.au/media?page=284"
+          },
+          {
+            "record_id": "87d6b895fb7cd64d431d",
+            "title": "Commonwealth Heads of Government 2026 statement between the UK and Australia",
+            "url": "https://www.pm.gov.au/media/commonwealth-heads-government-2026-statement-between-uk-and-australia"
+          },
+          {
+            "record_id": "a551b31666d748f900bb",
+            "title": "Departmental ministerial appointment",
+            "url": "https://www.pm.gov.au/media/departmental-ministerial-appointment"
+          }
+        ],
+        "delta_hash": "18045124532abfe986d5046eb80e51ad788d4494f5731d7cd2414f8baa201cb3"
       },
       "integrity": {
         "source_change_unchanged": true,

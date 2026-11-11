@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-SIGNAL-REVIEWS-001",
   "created_at": "2026-09-09T05:05:00+10:00",
-  "updated_at": "2026-11-10T17:52:14.989Z",
+  "updated_at": "2026-11-11T06:23:18.498Z",
   "rules": {
     "append_only": true,
     "raw_source_change_is_immutable": true,
@@ -49778,6 +49778,296 @@
           }
         ],
         "delta_hash": "8f306686db792af0a7d089c7139e571edd336c2a7f366995081aa7639863a620"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-PM-MEDIA-20261111062221",
+      "source_change_event_id": "CHG-WATCH-PM-MEDIA-20261111062221",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-PM-MEDIA-20261111062221",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Prime Minister of Australia — media added 2 structured publication records to its forward-captured official index: Remembrance Day 2026; Remarks - Changi Chapel, Singapore",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-11-11T06:23:18.498Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "17bba4b5f29c64355834",
+            "title": "Remembrance Day 2026",
+            "url": "https://www.pm.gov.au/media/remembrance-day-2026"
+          },
+          {
+            "record_id": "fe2e0170cba5d4977cbd",
+            "title": "Remarks - Changi Chapel, Singapore",
+            "url": "https://www.pm.gov.au/media/remarks-changi-chapel-singapore"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "3eb34fa210a924e4197a",
+            "title": "CHOGM Joint Forums and side events official launch",
+            "url": "https://www.pm.gov.au/media/chogm-joint-forums-and-side-events-official-launch"
+          },
+          {
+            "record_id": "fb6797594ea1dc715dce",
+            "title": "Press conference - Saint John&#039;s, Antigua and Barbuda",
+            "url": "https://www.pm.gov.au/media/press-conference-saint-johns-antigua-and-barbuda-3-nov-2026"
+          }
+        ],
+        "delta_hash": "ed9de3096ddb5591ec4193cc0a9f70df7577b6469c3c604006ae4c8cd61d60c2"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-NSW-MINISTERIAL-RELEASES-20261111062221",
+      "source_change_event_id": "CHG-WATCH-NSW-MINISTERIAL-RELEASES-20261111062221",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-NSW-MINISTERIAL-RELEASES-20261111062221",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "NSW Government — Ministerial releases added 10 structured publication records to its forward-captured official index: Reforms to protect sexual assault complainants pass NSW Parliament; New purpose-built support unit opens at Moruya High School; NSW Government staff blitz Australian biosecurity awards; Safer roads for the North Coast as Bruxner Highway upgrades begin between Ballina and Lismore; Construction underway on new public school and public early learning in Sydney’s North West; +5 more",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-11-11T06:23:18.498Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "0419a2487bb45e24f2b3",
+            "title": "Reforms to protect sexual assault complainants pass NSW Parliament",
+            "url": "https://www.nsw.gov.au/ministerial-releases/reforms-to-protect-sexual-assault-complainants-pass-nsw-parliament"
+          },
+          {
+            "record_id": "04455c15a6ea6e69ebec",
+            "title": "New purpose-built support unit opens at Moruya High School",
+            "url": "https://www.nsw.gov.au/ministerial-releases/new-purpose-built-support-unit-opens-at-moruya-high-school"
+          },
+          {
+            "record_id": "0f397b5c4c566e9c3fec",
+            "title": "NSW Government staff blitz Australian biosecurity awards",
+            "url": "https://www.nsw.gov.au/ministerial-releases/nsw-government-wins-australian-biosecurity-awards"
+          },
+          {
+            "record_id": "3ab09e1ec2fd84981bfc",
+            "title": "Safer roads for the North Coast as Bruxner Highway upgrades begin between Ballina and Lismore",
+            "url": "https://www.nsw.gov.au/ministerial-releases/safer-roads-for-north-coast-as-bruxner-highway-upgrades-begin-between-ballina-and-lismore"
+          },
+          {
+            "record_id": "44dcb20cee3ca3ceb3b9",
+            "title": "Construction underway on new public school and public early learning in Sydney’s North West",
+            "url": "https://www.nsw.gov.au/ministerial-releases/construction-underway-on-new-public-school-and-public-early-learning-sydneys-north-west"
+          },
+          {
+            "record_id": "52c0b512a51e0e36ca17",
+            "title": "NSW Ambulance strengthens multi-agency rescue capability with world-first rescue ambulances",
+            "url": "https://www.nsw.gov.au/ministerial-releases/nsw-ambulance-strengthens-multi-agency-rescue-capability-world-first-rescue-ambulances"
+          },
+          {
+            "record_id": "587d6eb7a984e894219c",
+            "title": "Tragic passing of Izzy Neale",
+            "url": "https://www.nsw.gov.au/ministerial-releases/tragic-passing-of-izzy-neale"
+          },
+          {
+            "record_id": "6ada03cfc0b5b56280ce",
+            "title": "Safer trips on the Mitchell Highway: Upgrades begin at Neurea South",
+            "url": "https://www.nsw.gov.au/ministerial-releases/safer-trips-on-mitchell-highway-upgrades-begin-at-neurea-south"
+          },
+          {
+            "record_id": "a57dcc4513a69d039181",
+            "title": "129 additional frontline security staff for 27 NSW hospitals",
+            "url": "https://www.nsw.gov.au/ministerial-releases/129-additional-frontline-security-staff-for-27-nsw-hospitals"
+          },
+          {
+            "record_id": "e2a1aba4a057e3a554f3",
+            "title": "Remembrance Day an opportunity to pause and reflect",
+            "url": "https://www.nsw.gov.au/ministerial-releases/remembrance-day-an-opportunity-to-pause-and-reflect"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "08e3f1524a28d2f8817b",
+            "title": "The Power is on – Powerhouse Parramatta opens",
+            "url": "https://www.nsw.gov.au/departments-and-agencies/dciths/ministerial-media-releases/powerhouse-parramatta-opens"
+          },
+          {
+            "record_id": "14a8ed0e285f36a57e16",
+            "title": "Gripping adventures and words of wisdom come to life in Seniors’ Stories",
+            "url": "https://www.nsw.gov.au/ministerial-releases/gripping-adventures-and-words-of-wisdom-come-to-life-seniors-stories"
+          },
+          {
+            "record_id": "2c67866071179b50a8c7",
+            "title": "Minns Labor Government delivers bus service boost for Central Coast and new buses for Newcastle",
+            "url": "https://www.nsw.gov.au/ministerial-releases/minns-labor-government-delivers-bus-service-boost-for-central-coast-and-new-buses-for-newcastle"
+          },
+          {
+            "record_id": "364e93887aefc939a07c",
+            "title": "Minns Labor Government looks to new opportunities to grow NSW tourism",
+            "url": "https://www.nsw.gov.au/departments-and-agencies/dciths/ministerial-media-releases/future-demand-tourism-report-unveiled-today"
+          },
+          {
+            "record_id": "49671aa3c4118a69f6da",
+            "title": "Turning the page on screens in class as the Minns Labor Government ends ‘Bring Your Own Device’ requirements for public primary schools",
+            "url": "https://www.nsw.gov.au/ministerial-releases/turning-page-on-screens-class-as-minns-labor-government-ends-bring-your-own-device-requirements-for-public-primary-schools"
+          },
+          {
+            "record_id": "ad1482b938b00b784d5b",
+            "title": "More support for women and families with complex needs in South West Sydney",
+            "url": "https://www.nsw.gov.au/ministerial-releases/more-support-for-women-and-families-complex-needs-south-west-sydney"
+          },
+          {
+            "record_id": "b0172942c7b5a573345b",
+            "title": "Vaucloos gets a much-needed flush as the NSW Government cleans up iconic coastline",
+            "url": "https://www.nsw.gov.au/ministerial-releases/vaucloos-gets-a-much-needed-flush-as-nsw-government-cleans-up-iconic-coastline"
+          },
+          {
+            "record_id": "be848184cda5274c4c6c",
+            "title": "Repurposing temporary housing as focus shifts to permanent homes",
+            "url": "https://www.nsw.gov.au/ministerial-releases/repurposing-temporary-housing-as-focus-shifts-to-permanent-homes"
+          },
+          {
+            "record_id": "d5fa84608ce16146559f",
+            "title": "Announcing the winner of the 2026 NSW Music Prize",
+            "url": "https://www.nsw.gov.au/departments-and-agencies/dciths/ministerial-media-releases/winner-2026-music-prize"
+          },
+          {
+            "record_id": "f0d27f8a061029586208",
+            "title": "Legislation to save 400 Hunter jobs at Mt Pleasant to be introduced today",
+            "url": "https://www.nsw.gov.au/ministerial-releases/legislation-to-save-400-hunter-jobs-at-mt-pleasant-to-be-introduced-today"
+          }
+        ],
+        "delta_hash": "93488475828a61f8d44042ddf62fa7a9d848022274128ebb83f9026dea59f28a"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261111062221",
+      "source_change_event_id": "CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261111062221",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261111062221",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Queensland Government — Ministerial Media Statements added 8 structured publication records to its forward-captured official index: Community Feedback gets The Wave to Another Key Milestone; Landmark blueprint for Cape York and Torres Strait; Special Constables program expanded to bolster police frontline; Hervey Bay Youth Foyer a step closer to reality; Service Queensland App expands to include seniors, carers and companions; +3 more",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-11-11T06:23:18.498Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "0787aad2112f4e67cb2c",
+            "title": "Community Feedback gets The Wave to Another Key Milestone",
+            "url": "https://statements.qld.gov.au/statements/106396"
+          },
+          {
+            "record_id": "0f0d706024793774de38",
+            "title": "Landmark blueprint for Cape York and Torres Strait",
+            "url": "https://statements.qld.gov.au/statements/106397"
+          },
+          {
+            "record_id": "13543c96c37d31569108",
+            "title": "Special Constables program expanded to bolster police frontline",
+            "url": "https://statements.qld.gov.au/statements/106356"
+          },
+          {
+            "record_id": "229ed815bb8237431a91",
+            "title": "Hervey Bay Youth Foyer a step closer to reality",
+            "url": "https://statements.qld.gov.au/statements/106393"
+          },
+          {
+            "record_id": "2d893cb522b028dc52e6",
+            "title": "Service Queensland App expands to include seniors, carers and companions",
+            "url": "https://statements.qld.gov.au/statements/106395"
+          },
+          {
+            "record_id": "6bf3fa49d664396067a8",
+            "title": "37 Supported Accommodation projects to break the cycle of homelessness",
+            "url": "https://statements.qld.gov.au/statements/106381"
+          },
+          {
+            "record_id": "9811f76f7431f87bc7b7",
+            "title": "Burketown Airport officially opens after major upgrade",
+            "url": "https://statements.qld.gov.au/statements/106385"
+          },
+          {
+            "record_id": "f1cbbb6489929002f563",
+            "title": "New bin lid rollout to drive less landfill, more recycling",
+            "url": "https://statements.qld.gov.au/statements/106394"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "074ff17fb38cf94d86b8",
+            "title": "Cabinet brings together Rural, Remote and Indigenous council leaders",
+            "url": "https://statements.qld.gov.au/statements/106390"
+          },
+          {
+            "record_id": "34124926a9859800383d",
+            "title": "Another 2,000 Free Nursing places backed for 2027",
+            "url": "https://statements.qld.gov.au/statements/106388"
+          },
+          {
+            "record_id": "62904980026277a89053",
+            "title": "Service Queensland to modernise access to government services",
+            "url": "https://statements.qld.gov.au/statements/106368"
+          },
+          {
+            "record_id": "77112f6168e3f7c20292",
+            "title": "Outback Way milestones deliver safer journeys for Western Queensland",
+            "url": "https://statements.qld.gov.au/statements/106371"
+          },
+          {
+            "record_id": "7dc6ccc2fe4a31248150",
+            "title": "Service Queensland delivers a mobile ‘service centre on wheels’ for North and Far North Queensland",
+            "url": "https://statements.qld.gov.au/statements/106384"
+          },
+          {
+            "record_id": "f14cdb38f9ffb34d7e84",
+            "title": "Destination 2045 delivers for Great Keppel Island",
+            "url": "https://statements.qld.gov.au/statements/106376"
+          },
+          {
+            "record_id": "f2eff6204ad92a05e092",
+            "title": "Five-year partnerships to enhance economic and social participation",
+            "url": "https://statements.qld.gov.au/statements/106367"
+          },
+          {
+            "record_id": "f74fe55ee410d3eeb1ba",
+            "title": "Bribie gets moving with new On Demand Transport service",
+            "url": "https://statements.qld.gov.au/statements/106369"
+          }
+        ],
+        "delta_hash": "ae0f62023d54a8ce042b32fa428e2e9fe90820fa7fd5e535cbd05a73be88715b"
       },
       "integrity": {
         "source_change_unchanged": true,

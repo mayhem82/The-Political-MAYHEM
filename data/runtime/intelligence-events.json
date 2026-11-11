@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-INTELLIGENCE-EVENTS-001",
   "scope": "Australia — multi-jurisdiction",
-  "captured_at": "2026-11-10T17:52:20.113Z",
+  "captured_at": "2026-11-11T06:23:23.800Z",
   "mode": "FORWARD_ONLY",
   "rules": {
     "observation_distinct_from_inference": true,
@@ -137403,6 +137403,762 @@
           "record_id": "5714bc7f244acd7a8464",
           "title": "Stronger ties with Indonesia to drive mining and processing opportunities for Queensland",
           "url": "https://statements.qld.gov.au/statements/106366"
+        }
+      ],
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "underlying_publication_claims_not_promoted_to_verified_fact": true,
+        "source_change_parent_retained": true,
+        "deterministic_review": true
+      }
+    },
+    {
+      "event_id": "CHG-WATCH-PM-MEDIA-20261111062221",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-FED",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-PM-MEDIA-20261111062221",
+      "captured_at": "2026-11-11T06:22:21.598Z",
+      "event_date": "2026-11-11",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-PM-MEDIA",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "review_policy": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-PM-MEDIA-20261110095125",
+        "content_hash": "785bc270bf1acba47608d77f68cd5be3a591e092bbce05ae86ebaf5252e3fe9a",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-PM-MEDIA-20261111062221",
+        "content_hash": "6938700ac9160f9c20eaf8fa1ce7544d5360f9150ca2a0f5b4bacb1c18fb3e90",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "STRUCTURED_RECORD_SET",
+        "records_added": [
+          {
+            "record_id": "17bba4b5f29c64355834",
+            "title": "Remembrance Day 2026",
+            "url": "https://www.pm.gov.au/media/remembrance-day-2026"
+          },
+          {
+            "record_id": "fe2e0170cba5d4977cbd",
+            "title": "Remarks - Changi Chapel, Singapore",
+            "url": "https://www.pm.gov.au/media/remarks-changi-chapel-singapore"
+          }
+        ],
+        "records_removed": [
+          {
+            "record_id": "3eb34fa210a924e4197a",
+            "title": "CHOGM Joint Forums and side events official launch",
+            "url": "https://www.pm.gov.au/media/chogm-joint-forums-and-side-events-official-launch"
+          },
+          {
+            "record_id": "fb6797594ea1dc715dce",
+            "title": "Press conference - Saint John&#039;s, Antigua and Barbuda",
+            "url": "https://www.pm.gov.au/media/press-conference-saint-johns-antigua-and-barbuda-3-nov-2026"
+          }
+        ],
+        "added_count": 2,
+        "removed_count": 2,
+        "before_count": 27,
+        "after_count": 27,
+        "delta_hash": "ed9de3096ddb5591ec4193cc0a9f70df7577b6469c3c604006ae4c8cd61d60c2"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-LIBERAL-HOME-20261111062221",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-FED",
+      "party_id": "AUS-FED-LIB",
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-LIBERAL-HOME-20261111062221",
+      "captured_at": "2026-11-11T06:22:21.598Z",
+      "event_date": "2026-11-11",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_PARTY",
+      "source_id": "SRC-LIBERAL-FEDERAL-HOME",
+      "capture_mode": "NORMALISED_PAGE_HASH",
+      "review_policy": "REVIEW_UNSTRUCTURED_CHANGE",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-LIBERAL-HOME-20261110095125",
+        "content_hash": "03efb9da00e464e544b3cc5a5813dfc9506b525dbc920acfa9bdd900aa229708",
+        "capture_mode": "NORMALISED_PAGE_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-LIBERAL-HOME-20261111062221",
+        "content_hash": "6406e94722ceaaaacc4d9c10eff9a0a7fa0bbb4d2de35116f13f63c767ad663d",
+        "capture_mode": "NORMALISED_PAGE_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "TEXT_REPRESENTATION",
+        "first_difference_offset": 1426,
+        "before_length": 6773,
+        "after_length": 6377,
+        "before_excerpt": "pposition in the Senate Meet the Liberal Team The Latest Stay up to date with the Liberal Party of Australia liberalaus During a time of economic crisis, rising interest rates, record business insolvencies and negative productivity growth, Labor could not appear any more out of touch if they tried. Nov 10 Open post by liberalaus with ID 18093658199226577 angustaylormp With @jesswilsonmp to announce her plan for more live music, more nights out, more jobs. The Liberal and Nationals will back our pubs, clubs and restaurants, scrap the ridiculous rules and make Victoria a great place to go out again. Victoria, there’s 18 days to go before you can ditch 12 years of Labor and get a fresh start under a Jess Wilson led Liberals and Nationals government. Nov 10 Open post by angustaylormp with ID 18109786622346493 liberalaus Australia`s future won`t be built by bigger government. It`ll be built by hardworking Australians with the freedom to succeed. Nov 9 Open post by liberalaus with ID 18128207602920605 angustaylormp Attacks on our war memorials should be a federal offence. We will protect what Australia stands for. Nov 9 Open post by angustaylormp with ID 18025152848929841 liberalaus Australian businesses don`t need more government getting in their way. They need the freedom to invest, grow and succeed. Nov 9 Open post by liberalaus with ID 17897860998654959 senatorhume The Big Build Royal Commission has started… here’s what you need to know. Nov 9 Open post by senatorhume with ID 18131523784781969 liberalaus While Australians are having to go without, Labor is splashing millions on yet another overseas climate conference. Nov 9 Open post by liberalaus with ID 18112387904138760 liberalaus Labor`s answer is more government. Ours is more opportunity. The Liberals and Nationals will cut unnecessary red tape and back the businesses that drive our economy. Nov 9 Open post by liberalaus with ID 18153091666552131 liberalaus Jim Chalmers’ mismanagement of the economy and spending addiction has driven inflation higher, leading to higher interest rates for Australians. Australians are paying the price for a government that can`t control spending, can`t beat inflation, and can`t get the economy moving. Nov 9 Open post by liberalaus with ID 18148491457572392 liberalaus Less paperwork. More productivity. Our plan to cut the federal regulatory burden by 25% will help unleash Australian enterprise. Nov 9 Open post by liberalaus with ID 18090887693506439 liberalaus Out of touch. Doesn’t get it. No wonder he can’t deal with the cost of living crisis. Nov 8 Open post by liberalaus with ID 18337179202277383 angustaylormp This is just the beginning. We will fight Labor’s defence base fire sale every step of the way. Nov 8 Open post by angustaylormp with ID 18112512167578264 liberalaus If only Australians could pay their mortgages with Jim Chalmers and Anthony Albanese`s spin. Nov 8 Open post by liberalaus with ID 18090109166301915 liberalaus Life isn’t easy under Albanese. A cost of living crisis, higher inflation, the largest decline in living standards in the developed world, and the highest interest rates in 18 years. Australians are paying the price for a government that can`t control spending, can`t beat inflation, and can`t get the economy moving. Nov 7 Open post by liberalaus with ID 18117384548027060 angustaylormp Pleasure to attend the 37th Ethnic Business Awards tonight. Founded by Joseph Assaf AO, tonight recognises the contributions of migrant and Indigenous Australians to business and the economy. Congratulations to all the nominees and to the winners: Qinghua Siluo (Michupet Supplies), Anson Zhang (OSW AU) and Steven Fordham (Blackrock industries). These are proud Australians who are understand the value of hard work and that this is the greatest country on earth. Nov 6 Open post by angustaylormp with ID 18170301730474356 angustaylormp We need to talk about Anthony Albanese’s spending problem. Nov 6 Open post by angustaylormp with ID 18034538546677313 angustaylormp Labor’s assault on aspiration has activated Australians in many ways. Chances are you’ve seen a video or two from @financial.leigh and it was great to sit down with Leigh Morris to unpack why his takes on tax and the economy are hitting home with Australians. Leigh is part of the small business community that is fighting back—we will back them everyday, axe all of Labor’s toxic taxes and restore reward for hard work. Nov 6 Open post by angustaylormp with ID 18155731435527801 angustaylormp Labor wants credit for their “hard work”. While costs climb and they spend more and more on waste… do you really think they deserve a pat on the back? Nov 5 Open post by angustaylormp with ID 18020955971929371 We need your support to win! Help us by making a donation today. 🙏🏼 $30 👏🏼 $60 😃 $120 😁 $500 😲 $1,000 🥹 $2,000 ",
+        "after_excerpt": "pposition in the Senate Meet the Liberal Team The Latest Stay up to date with the Liberal Party of Australia liberalaus Labor`s homegrown inflation and toxic taxes have smashed the housing market and made it harder for Australians to buy a home. Nov 11 Open post by liberalaus with ID 17994232329064842 liberalaus Real wages going backwards, power prices set to double, and an internal war within the government on the performance of the Treasurer. This is a government that has lost its way. Nov 11 Open post by liberalaus with ID 18276180934305348 angustaylormp Honouring all Australians who have served, suffered and sacrificed in wars and military operations for our nation at the Picton Remembrance Day service today. Our remembrance encourages gratitude, rouses responsibility, and holds us to the mark. Nov 11 Open post by angustaylormp with ID 18200334217388590 liberalaus Chris Bowen is spending millions on his COP ego trip. Meanwhile it’s been reported power prices will double by 2029 because of Labor`s energy policy failure. Nov 11 Open post by liberalaus with ID 17891160846620900 liberalaus Not a single Australian has seen Anthony Albanese and Chris Bowen’s promised $275 power bill cut. The Liberals and Nationals plan will deliver cheaper energy by scrapping Net Zero and unlocking our critical resources. Nov 10 Open post by liberalaus with ID 18142598293627598 liberalaus On 11 November 1918, the guns of the Western Front fell silent. Today, we remember the service and sacrifice of all Australians who have served in war and conflict. At the going down of the sun and in the morning, we will remember them. Lest we forget. Nov 10 Open post by liberalaus with ID 18119969408068648 angustaylormp Today, our silent remembrance at the 11th hour is a most meaningful minute. Nov 10 Open post by angustaylormp with ID 18122054834076559 liberalaus Labor’s housing taxes are driving away investment, weakening confidence and putting further pressure on Australia’s rental market. Nov 10 Open post by liberalaus with ID 18114674102269913 angustaylormp Cheers to a fresh start for Victoria! Nov 10 Open post by angustaylormp with ID 18128934544853944 liberalaus During a time of economic crisis, rising interest rates, record business insolvencies and negative productivity growth, Labor could not appear any more out of touch if they tried. Nov 10 Open post by liberalaus with ID 18093658199226577 angustaylormp With @jesswilsonmp to announce her plan for more live music, more nights out, more jobs. The Liberal and Nationals will back our pubs, clubs and restaurants, scrap the ridiculous rules and make Victoria a great place to go out again. Victoria, there’s 18 days to go before you can ditch 12 years of Labor and get a fresh start under a Jess Wilson led Liberals and Nationals government. Nov 10 Open post by angustaylormp with ID 18109786622346493 liberalaus Australia`s future won`t be built by bigger government. It`ll be built by hardworking Australians with the freedom to succeed. Nov 9 Open post by liberalaus with ID 18128207602920605 angustaylormp Attacks on our war memorials should be a federal offence. We will protect what Australia stands for. Nov 9 Open post by angustaylormp with ID 18025152848929841 liberalaus Australian businesses don`t need more government getting in their way. They need the freedom to invest, grow and succeed. Nov 9 Open post by liberalaus with ID 17897860998654959 senatorhume The Big Build Royal Commission has started… here’s what you need to know. Nov 9 Open post by senatorhume with ID 18131523784781969 liberalaus While Australians are having to go without, Labor is splashing millions on yet another overseas climate conference. Nov 9 Open post by liberalaus with ID 18112387904138760 liberalaus Labor`s answer is more government. Ours is more opportunity. The Liberals and Nationals will cut unnecessary red tape and back the businesses that drive our economy. Nov 9 Open post by liberalaus with ID 18153091666552131 liberalaus Jim Chalmers’ mismanagement of the economy and spending addiction has driven inflation higher, leading to higher interest rates for Australians. Australians are paying the price for a government that can`t control spending, can`t beat inflation, and can`t get the economy moving. Nov 9 Open post by liberalaus with ID 18148491457572392 We need your support to win! Help us by making a donation today. 🙏🏼 $30 👏🏼 $60 😃 $120 😁 $500 😲 $1,000 🥹 $2,000 ",
+        "delta_hash": "8b924ca2dfb59e3099e500b0f870dcc825063dbefabe6f41065f06b129b5bb7b"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-NSW-MINISTERIAL-RELEASES-20261111062221",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-NSW",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-NSW-MINISTERIAL-RELEASES-20261111062221",
+      "captured_at": "2026-11-11T06:22:21.598Z",
+      "event_date": "2026-11-11",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-NSW-MINISTERIAL-RELEASES",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "review_policy": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-NSW-MINISTERIAL-RELEASES-20261110013153",
+        "content_hash": "374bd48576f05e8103f9b7cab4db0e9086b3bd0f1de843251a11853949edc3c6",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-NSW-MINISTERIAL-RELEASES-20261111062221",
+        "content_hash": "595f16239357aeba5a40cfc284e5d11639e3194629d7c2c5edd0fd07d797511d",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "STRUCTURED_RECORD_SET",
+        "records_added": [
+          {
+            "record_id": "0419a2487bb45e24f2b3",
+            "title": "Reforms to protect sexual assault complainants pass NSW Parliament",
+            "url": "https://www.nsw.gov.au/ministerial-releases/reforms-to-protect-sexual-assault-complainants-pass-nsw-parliament"
+          },
+          {
+            "record_id": "04455c15a6ea6e69ebec",
+            "title": "New purpose-built support unit opens at Moruya High School",
+            "url": "https://www.nsw.gov.au/ministerial-releases/new-purpose-built-support-unit-opens-at-moruya-high-school"
+          },
+          {
+            "record_id": "0f397b5c4c566e9c3fec",
+            "title": "NSW Government staff blitz Australian biosecurity awards",
+            "url": "https://www.nsw.gov.au/ministerial-releases/nsw-government-wins-australian-biosecurity-awards"
+          },
+          {
+            "record_id": "3ab09e1ec2fd84981bfc",
+            "title": "Safer roads for the North Coast as Bruxner Highway upgrades begin between Ballina and Lismore",
+            "url": "https://www.nsw.gov.au/ministerial-releases/safer-roads-for-north-coast-as-bruxner-highway-upgrades-begin-between-ballina-and-lismore"
+          },
+          {
+            "record_id": "44dcb20cee3ca3ceb3b9",
+            "title": "Construction underway on new public school and public early learning in Sydney’s North West",
+            "url": "https://www.nsw.gov.au/ministerial-releases/construction-underway-on-new-public-school-and-public-early-learning-sydneys-north-west"
+          },
+          {
+            "record_id": "52c0b512a51e0e36ca17",
+            "title": "NSW Ambulance strengthens multi-agency rescue capability with world-first rescue ambulances",
+            "url": "https://www.nsw.gov.au/ministerial-releases/nsw-ambulance-strengthens-multi-agency-rescue-capability-world-first-rescue-ambulances"
+          },
+          {
+            "record_id": "587d6eb7a984e894219c",
+            "title": "Tragic passing of Izzy Neale",
+            "url": "https://www.nsw.gov.au/ministerial-releases/tragic-passing-of-izzy-neale"
+          },
+          {
+            "record_id": "6ada03cfc0b5b56280ce",
+            "title": "Safer trips on the Mitchell Highway: Upgrades begin at Neurea South",
+            "url": "https://www.nsw.gov.au/ministerial-releases/safer-trips-on-mitchell-highway-upgrades-begin-at-neurea-south"
+          },
+          {
+            "record_id": "a57dcc4513a69d039181",
+            "title": "129 additional frontline security staff for 27 NSW hospitals",
+            "url": "https://www.nsw.gov.au/ministerial-releases/129-additional-frontline-security-staff-for-27-nsw-hospitals"
+          },
+          {
+            "record_id": "e2a1aba4a057e3a554f3",
+            "title": "Remembrance Day an opportunity to pause and reflect",
+            "url": "https://www.nsw.gov.au/ministerial-releases/remembrance-day-an-opportunity-to-pause-and-reflect"
+          }
+        ],
+        "records_removed": [
+          {
+            "record_id": "08e3f1524a28d2f8817b",
+            "title": "The Power is on – Powerhouse Parramatta opens",
+            "url": "https://www.nsw.gov.au/departments-and-agencies/dciths/ministerial-media-releases/powerhouse-parramatta-opens"
+          },
+          {
+            "record_id": "14a8ed0e285f36a57e16",
+            "title": "Gripping adventures and words of wisdom come to life in Seniors’ Stories",
+            "url": "https://www.nsw.gov.au/ministerial-releases/gripping-adventures-and-words-of-wisdom-come-to-life-seniors-stories"
+          },
+          {
+            "record_id": "2c67866071179b50a8c7",
+            "title": "Minns Labor Government delivers bus service boost for Central Coast and new buses for Newcastle",
+            "url": "https://www.nsw.gov.au/ministerial-releases/minns-labor-government-delivers-bus-service-boost-for-central-coast-and-new-buses-for-newcastle"
+          },
+          {
+            "record_id": "364e93887aefc939a07c",
+            "title": "Minns Labor Government looks to new opportunities to grow NSW tourism",
+            "url": "https://www.nsw.gov.au/departments-and-agencies/dciths/ministerial-media-releases/future-demand-tourism-report-unveiled-today"
+          },
+          {
+            "record_id": "49671aa3c4118a69f6da",
+            "title": "Turning the page on screens in class as the Minns Labor Government ends ‘Bring Your Own Device’ requirements for public primary schools",
+            "url": "https://www.nsw.gov.au/ministerial-releases/turning-page-on-screens-class-as-minns-labor-government-ends-bring-your-own-device-requirements-for-public-primary-schools"
+          },
+          {
+            "record_id": "ad1482b938b00b784d5b",
+            "title": "More support for women and families with complex needs in South West Sydney",
+            "url": "https://www.nsw.gov.au/ministerial-releases/more-support-for-women-and-families-complex-needs-south-west-sydney"
+          },
+          {
+            "record_id": "b0172942c7b5a573345b",
+            "title": "Vaucloos gets a much-needed flush as the NSW Government cleans up iconic coastline",
+            "url": "https://www.nsw.gov.au/ministerial-releases/vaucloos-gets-a-much-needed-flush-as-nsw-government-cleans-up-iconic-coastline"
+          },
+          {
+            "record_id": "be848184cda5274c4c6c",
+            "title": "Repurposing temporary housing as focus shifts to permanent homes",
+            "url": "https://www.nsw.gov.au/ministerial-releases/repurposing-temporary-housing-as-focus-shifts-to-permanent-homes"
+          },
+          {
+            "record_id": "d5fa84608ce16146559f",
+            "title": "Announcing the winner of the 2026 NSW Music Prize",
+            "url": "https://www.nsw.gov.au/departments-and-agencies/dciths/ministerial-media-releases/winner-2026-music-prize"
+          },
+          {
+            "record_id": "f0d27f8a061029586208",
+            "title": "Legislation to save 400 Hunter jobs at Mt Pleasant to be introduced today",
+            "url": "https://www.nsw.gov.au/ministerial-releases/legislation-to-save-400-hunter-jobs-at-mt-pleasant-to-be-introduced-today"
+          }
+        ],
+        "added_count": 10,
+        "removed_count": 10,
+        "before_count": 88,
+        "after_count": 88,
+        "delta_hash": "93488475828a61f8d44042ddf62fa7a9d848022274128ebb83f9026dea59f28a"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-VEC-2026-STATE-ELECTION-20261111062221",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-VIC",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-VEC-2026-STATE-ELECTION-20261111062221",
+      "captured_at": "2026-11-11T06:22:21.598Z",
+      "event_date": "2026-11-11",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_ELECTORAL_AUTHORITY",
+      "source_id": "SRC-VEC-2026-STATE-ELECTION",
+      "capture_mode": "NORMALISED_PAGE_HASH",
+      "review_policy": "REVIEW_UNSTRUCTURED_CHANGE",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-VEC-2026-STATE-ELECTION-20261110095125",
+        "content_hash": "8994fdec970a56e38273dccc9f51b5d6b6b1d9bd05859cb724d829d962d86104",
+        "capture_mode": "NORMALISED_PAGE_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-VEC-2026-STATE-ELECTION-20261111062221",
+        "content_hash": "73bc8f555b618ef71c2b6f0f7323779d6dd6a9809102aebf013a4ed4e7b3217d",
+        "capture_mode": "NORMALISED_PAGE_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "TEXT_REPRESENTATION",
+        "first_difference_offset": 7206,
+        "before_length": 21316,
+        "after_length": 22417,
+        "before_excerpt": "hird-party campaigners Languages Back to Voting Home Voting 2026 state election On this page 2026 state election Listen There have been changes to Victoria's electoral laws following recent amendments to the Electoral Act 2002 . For further information, see our page about the 2026 Electoral Act amendments . On Saturday 28 November, Victorians will vote to elect the next Victorian Parliament. Each election is your chance to have your say about who represents you on the issues you care about. Your voice is important, and every vote counts. Candidate nominations closed at 12 noon on Monday 9 November. Find district candidates | Find region candidates You can also see our spreadsheet of all the candidates . You may need to clear your browser cache to see the most recent spreadsheet version. How-to-vote cards How-to-vote card registration is now open. Find how-to-vote cards Where to vote Our voting centre locator has all early and election day voting centres. Find election venues | See a list of all early voting centres Voting options There are many ways you can vote in the 2026 state election. Voting options Know when, where, and how to vote Don't miss your chance to help shape Victoria. Get reminders for the state election this November. Sign up for VoterAlert Away from Victoria If you'll be away from Victoria during the 2026 state election voting period, you can still vote. Away from Victoria Looking for casual election work? There are many different election roles available during the 2026 state election. Find what suits you today. Register for election work Prepare for November What's different this election There have been changes to electoral law since the last Victorian state election in 2022. We've also made some improvements to what we'll offer Victorian voters for this year's election. Changes to electoral law Some changes were made to the Electoral Act 2002, the law state elections are run under. The full list of changes is on our Electoral Act amendments page . Some key differences are: The electoral roll closes at 8 pm the day the writ of an election is issued, 1 week earlier than other elections. This year the roll will close at 8 pm on Tuesday 3 November , Melbourne Cup Day. There are fewer days for candidates to nominate. If you're an independent candidate, make sure you're prepared before nominations open on Wednesday 4 November. The early voting period is shorter. This year early voting will be available from Wednesday 18 to Friday 27 November. Changes we have made This year we've made some changes that will make it easier for all Victorians to actively participate in their democracy. Low sensory voting &ndash; there'll be a low-sensory mobile voting session in every district on Tuesday 17 November between 10am and 4pm. We'll share more information about this session later this year. Early voting centres &ndash; all early voting centres will also be election day voting centres. This will make it easier to find a voting centre location that works for you. EasyVote guide &ndash; we're mailing a printed version of our EasyVote guide to all households. This pamphlet will have all the key information about when, where, and how to vote correctly. Become a candidate Candidate nominations: open at 9 am Wednesday 4 November close at 12 noon on Monday 9 November for all candidates . There is a shorter nomination period this year. If you're an independent candidate, make sure you're prepared before nominations open. Independent candidates must nominate in person at the election office of the electorate they're nominating in. For district (lower house) independent candidates, this will be the district election office. For region (upper house) independent candidates this will be any district election office within your region. Candidate Helper is now available. This tool helps independent candidates prepare their nomination forms. You must print out and take these forms with you to your nomination appointment. Find more information on how to nominate Registered political parties must lodge the nomination forms for their endorsed candidates directly with us. More information Become a state election candidate Download a candidate handbook Know your electorate Victoria is made up of 88 districts and 8 regions. The 88 districts make up Victoria&rsquo;s lower house of Parliament, the Legislative Assembly. Each district is represented by one Member of Parliament (MP for short). The 8 regions make up Victoria&rsquo;s upper house of Parliament, the Legislative Council. Each region is represented by 5 Members of Parliament. If you&rsquo;ve moved house since the 2022 state election, you might be voting in a new electorate. If you do move house, it&rsquo;s your responsibility to keep your enrolment up to date . Why this is important When candidates nominate for an election, they nominate for either one district or one region. When you go to vote, you&rsquo;ll be given ballot papers for the district and region you&rsquo;re enrolled in. If you want to find out more about the candidates who want your vote, you need to know which electorate you&rsquo;re enrolled in. Knowing your electorate also helps you plan where you go to vote, if you want to vote in person. If you do vote in person, knowing which electorate you&rsquo;re enrolled in can make it faster for you at the voting centre. More information What are electoral boundaries? Interactive electoral boundaries map Electoral Boundaries Commission Parliament of Victoria website Work at the state election We need lots of people to help us run this election. Join us! Many jobs involve working in a voting centre, but there are also positions available before and after election day. If you&rsquo;ve worked with us in the past, let us know if you&rsquo;re available this November. Apply to work at the election Know the political donation rules Strict laws regulate political donations in Victoria. There are serious penalties for breaking any of these rules. Find out more about who can make political donations and the rules for making them. Rules for campaigning You can start campaigning at any time, even before nominations open. When you&rsquo;re campaigning, you must: properly authorise your electoral material so it&rsquo;s clear who is accountable for it. The law about authorisations has recently changed so make sure you are familiar with the new rules. follow all non-electoral laws, such as defamation laws not distribute material that&rsquo;s likely to mislead voters into casting their vote incorrectly follow all political donation disclosure rules as soon as you publicly declare your intention to become a candidate. You must do this even if you don&rsquo;t end up nominating. If you see something you think is in breach of the Electoral Act 2002 , please submit a complaint . We&rsquo;ll investigate and, where appropriate, we&rsquo;ll let you know the outcome. More information Authorising electoral material Become a state election candidate Campaigning Missed the enrolment deadline? You can still vote if you missed the deadline. Visit a voting centre to enrol and vote on the spot. Bring one of the following forms of ID: driver licence or learner permit Australian passport recent electricity bill or council rates notice showing your name and address. Tell one of our voting centre staff you need to provisionally enrol. They can help. Early voting opens Wednesday 18 November . Skip the queues and vote early. Find voting centres Get VoterAlert election reminders VoterAlert is our free SMS and email reminder service for voters in Victorian elections. Register now to get a digital EasyVote guide this November. After this election, we&rsquo;ll let you know when there&rsquo;s an election event in your area, like a by-election. How to sign up: Go to &lsquo; Check my enrolment &rsquo; {link to enrolment.vec.vic.gov.au}. Enter your details. Subscribe for VoterAlert under the heading &lsquo;Update contact details&rsquo;. Add your mobile and/or email address and tick the checkboxes. Sign up in Check my Enrolment Find out more about VoterAlert Stop and consider what you’re reading False or misleading information can spread quickly online. Sometimes people share it without knowing it&rsquo;s wrong. Take time to check any election information you see. Not everything you see, read or hear about voting and your rights is reliable. Check the facts before you vote How-to-vote cards How-to-vote cards A how-to-vote card (HTVC for short) is a printed guide that shows how a candidate or group wants you to fill out your ballot paper. How-to-vote cards are a suggestion only. How you vote is up to you. All how-to-vote cards must be authorised. Register how-to-vote cards with us if you want them to be: handed out on election day within 400 metres of a voting centre carried by our mobile voting teams. How-to-vote card registration is now open and closes at 12 noon on Friday 20 November. We publish all registered how-to-vote cards on this website between Tuesday 10 November and Monday 23 November . Find how-to-vote cards Want to hand out your own? Find out how to register a how-to-vote card. Public notices Notice of writ, enrolment and nominations - published 3 November 2026 Victorian state election I have received writs from Her Excellency Professor the Hon Margaret Gardner AC, Governor of Victoria, issued on Tuesday 3 November , for the general election of 88 members of the Legislative Assembly and 40 members of the Legislative Council. The writs specify the following dates for the election: Close of roll: 8 pm on Tuesday 3 November Nominations close (independent and registered political party candidates): 12 pm on Monday 9 November Election day: Saturday 28 November (voting centres open 8 am to 6 pm ) Return of the writs: on or before Saturday 19 December S. Bluemmel, Electoral Commissioner Who needs to vote? If you're currently enrolled, you must vote. If you don't vote, you may be fined. Check your enrolment at vec.vic.gov.au or scan the QR code. The electoral roll for the state election closed at 8 pm on Tuesday 3 November . If you missed the close of roll and you&rsquo;re eligible to enrol, you can still vote. Visit any voting centre and bring one of these documents: your Australian passport your Australian driver licence or learner permit a council rates notice in your name a utility bill in your name and for your current address, if you don't have a passport driver licence or council rates notice. If you are already enrolled and you changed your address before the close of roll but didn't update your details, you must vote in this election for your old address. If you have never enrolled, or your details are not current, you will not be fined if you enrol for this election. When to vote Election day is Saturday 28 November . Details of where to vote and other voting options, including early voting, will soon be available at vec.vic.gov.au and advertised in major newspapers and on VEC's social media channels. Information for candidates Nominations are now open for the Victorian state election All candidates must nominate by 12 pm on Monday 9 November . We cannot accept late nominations. If you are: a candidate endorsed by a registered political party, or the registered officer of the party, you must lodge your nomination at the VEC at 530 Collins Street, Melbourne an independent candidate, you must nominate with the election manager at the relevant election hub for the election that you wish to contest. Use Candidate Helper at vec.vic.gov.au to start your nomination form. Upper house candidates Independent candidates for the upper house (Legislative Council) must nominate at an election hub in their region. An election manager will give you a Candidate Kit and nomination form. You can ask to be grouped on the ballot paper with other candidates for the same region. How-to-vote cards You must register your how-to-vote card with the VEC if you plan to: distribute the card on election day, Saturday 28 November have an election official distribute the card at a mobile voting centre Registered how-to-vote cards are the only form of printed electoral material that may be distributed within 400 metres of a voting centre on election day. Submit your how-to-vote cards for registration from 9 am on Tuesday 10 November : Registered political parties must submit cards at the VEC at 530 Collins Street, Melbourne Individuals and organisations, other than registered political parties, must submit cards to an election manager. Registration closes at 12 pm on Friday 20 November . Late how-to-vote cards cannot be accepted. Scan the QR code or visit vec.vic.gov.au for all state election information. 131 832 info@vec.vic.gov.au vec.vic.gov.au @electionsvic Authorised by S. Bluemmel, Electoral Commissioner, 530 Collins Street, Melbourne, Victoria. 2026 state election timelin",
+        "after_excerpt": "hird-party campaigners Languages Back to Voting Home Voting 2026 state election On this page 2026 state election Listen On Saturday 28 November, Victorians will vote to elect the next Victorian Parliament. Each election is your chance to have your say about who represents you on the issues you care about. Your voice is important, and every vote counts. Candidate nominations closed at 12 noon on Monday 9 November. Find district candidates | Find region candidates You can also see our spreadsheet of all the candidates . You may need to clear your browser cache to see the most recent spreadsheet version. How-to-vote cards How-to-vote card registration is now open. Find how-to-vote cards Where to vote Our voting centre locator has all early and election day voting centres. Find election venues | See a list of all early voting centres Voting options There are many ways you can vote in the 2026 state election. Voting options Away from Victoria If you'll be away from Victoria during the 2026 state election voting period, you can still vote. Away from Victoria Know when, where, and how to vote Don't miss your chance to help shape Victoria. Get reminders for the state election this November. Sign up for VoterAlert Looking for casual election work? There are many different election roles available during the 2026 state election. Find what suits you today. Register for election work EasyVote guide 2026 Victorian state election EasyVote guide 2026 Victorian state election (pdf, 2.6 mb) Prepare for November What's different this election There have been changes to electoral law since the last Victorian state election in 2022. We've also made some improvements to what we'll offer Victorian voters for this year's election. Changes to electoral law Some changes were made to the Electoral Act 2002, the law state elections are run under. The full list of changes is on our Electoral Act amendments page . Some key differences are: The electoral roll closes at 8 pm the day the writ of an election is issued, 1 week earlier than other elections. This year the roll will close at 8 pm on Tuesday 3 November , Melbourne Cup Day. There are fewer days for candidates to nominate. If you're an independent candidate, make sure you're prepared before nominations open on Wednesday 4 November. The early voting period is shorter. This year early voting will be available from Wednesday 18 to Friday 27 November. Changes we have made This year we've made some changes that will make it easier for all Victorians to actively participate in their democracy. Low sensory voting &ndash; there'll be a low-sensory mobile voting session in every district on Tuesday 17 November between 10am and 4pm. We'll share more information about this session later this year. Early voting centres &ndash; all early voting centres will also be election day voting centres. This will make it easier to find a voting centre location that works for you. EasyVote guide &ndash; we're mailing a printed version of our EasyVote guide to all households. This pamphlet will have all the key information about when, where, and how to vote correctly. Become a candidate Candidate nominations: open at 9 am Wednesday 4 November close at 12 noon on Monday 9 November for all candidates . There is a shorter nomination period this year. If you're an independent candidate, make sure you're prepared before nominations open. Independent candidates must nominate in person at the election office of the electorate they're nominating in. For district (lower house) independent candidates, this will be the district election office. For region (upper house) independent candidates this will be any district election office within your region. Candidate Helper is now available. This tool helps independent candidates prepare their nomination forms. You must print out and take these forms with you to your nomination appointment. Find more information on how to nominate Registered political parties must lodge the nomination forms for their endorsed candidates directly with us. More information Become a state election candidate Download a candidate handbook Know your electorate Victoria is made up of 88 districts and 8 regions. The 88 districts make up Victoria&rsquo;s lower house of Parliament, the Legislative Assembly. Each district is represented by one Member of Parliament (MP for short). The 8 regions make up Victoria&rsquo;s upper house of Parliament, the Legislative Council. Each region is represented by 5 Members of Parliament. If you&rsquo;ve moved house since the 2022 state election, you might be voting in a new electorate. If you do move house, it&rsquo;s your responsibility to keep your enrolment up to date . Why this is important When candidates nominate for an election, they nominate for either one district or one region. When you go to vote, you&rsquo;ll be given ballot papers for the district and region you&rsquo;re enrolled in. If you want to find out more about the candidates who want your vote, you need to know which electorate you&rsquo;re enrolled in. Knowing your electorate also helps you plan where you go to vote, if you want to vote in person. If you do vote in person, knowing which electorate you&rsquo;re enrolled in can make it faster for you at the voting centre. More information What are electoral boundaries? Interactive electoral boundaries map Electoral Boundaries Commission Parliament of Victoria website Work at the state election We need lots of people to help us run this election. Join us! Many jobs involve working in a voting centre, but there are also positions available before and after election day. If you&rsquo;ve worked with us in the past, let us know if you&rsquo;re available this November. Apply to work at the election Know the political donation rules Strict laws regulate political donations in Victoria. There are serious penalties for breaking any of these rules. Find out more about who can make political donations and the rules for making them. Rules for campaigning You can start campaigning at any time, even before nominations open. When you&rsquo;re campaigning, you must: properly authorise your electoral material so it&rsquo;s clear who is accountable for it. The law about authorisations has recently changed so make sure you are familiar with the new rules. follow all non-electoral laws, such as defamation laws not distribute material that&rsquo;s likely to mislead voters into casting their vote incorrectly follow all political donation disclosure rules as soon as you publicly declare your intention to become a candidate. You must do this even if you don&rsquo;t end up nominating. If you see something you think is in breach of the Electoral Act 2002 , please submit a complaint . We&rsquo;ll investigate and, where appropriate, we&rsquo;ll let you know the outcome. More information Authorising electoral material Become a state election candidate Campaigning Missed the enrolment deadline? You can still vote if you missed the deadline. Visit a voting centre to enrol and vote on the spot. Bring one of the following forms of ID: driver licence or learner permit Australian passport recent electricity bill or council rates notice showing your name and address. Tell one of our voting centre staff you need to provisionally enrol. They can help. Early voting opens Wednesday 18 November . Skip the queues and vote early. Find voting centres Get VoterAlert election reminders VoterAlert is our free SMS and email reminder service for voters in Victorian elections. Register now to get a digital EasyVote guide this November. After this election, we&rsquo;ll let you know when there&rsquo;s an election event in your area, like a by-election. How to sign up: Go to &lsquo; Check my enrolment &rsquo; {link to enrolment.vec.vic.gov.au}. Enter your details. Subscribe for VoterAlert under the heading &lsquo;Update contact details&rsquo;. Add your mobile and/or email address and tick the checkboxes. Sign up in Check my Enrolment Find out more about VoterAlert Stop and consider what you’re reading False or misleading information can spread quickly online. Sometimes people share it without knowing it&rsquo;s wrong. Take time to check any election information you see. Not everything you see, read or hear about voting and your rights is reliable. Check the facts before you vote How-to-vote cards How-to-vote cards A how-to-vote card (HTVC for short) is a printed guide that shows how a candidate or group wants you to fill out your ballot paper. How-to-vote cards are a suggestion only. How you vote is up to you. All how-to-vote cards must be authorised. Register how-to-vote cards with us if you want them to be: handed out on election day within 400 metres of a voting centre carried by our mobile voting teams. How-to-vote card registration is now open and closes at 12 noon on Friday 20 November. We publish all registered how-to-vote cards on this website between Tuesday 10 November and Monday 23 November . Find how-to-vote cards Want to hand out your own? Find out how to register a how-to-vote card. Public notices Notice of writ, enrolment and nominations - published 3 November Victorian state election I have received writs from Her Excellency Professor the Hon Margaret Gardner AC, Governor of Victoria, issued on Tuesday 3 November , for the general election of 88 members of the Legislative Assembly and 40 members of the Legislative Council. The writs specify the following dates for the election: Close of roll: 8 pm on Tuesday 3 November Nominations close (independent and registered political party candidates): 12 pm on Monday 9 November Election day: Saturday 28 November (voting centres open 8 am to 6 pm ) Return of the writs: on or before Saturday 19 December S. Bluemmel, Electoral Commissioner Who needs to vote? If you're currently enrolled, you must vote. If you don't vote, you may be fined. Check your enrolment at vec.vic.gov.au or scan the QR code. The electoral roll for the state election closed at 8 pm on Tuesday 3 November . If you missed the close of roll and you&rsquo;re eligible to enrol, you can still vote. Visit any voting centre and bring one of these documents: your Australian passport your Australian driver licence or learner permit a council rates notice in your name a utility bill in your name and for your current address, if you don't have a passport driver licence or council rates notice. If you are already enrolled and you changed your address before the close of roll but didn't update your details, you must vote in this election for your old address. If you have never enrolled, or your details are not current, you will not be fined if you enrol for this election. When to vote Election day is Saturday 28 November . Details of where to vote and other voting options, including early voting, will soon be available at vec.vic.gov.au and advertised in major newspapers and on VEC's social media channels. Information for candidates Nominations are now open for the Victorian state election All candidates must nominate by 12 pm on Monday 9 November . We cannot accept late nominations. If you are: a candidate endorsed by a registered political party, or the registered officer of the party, you must lodge your nomination at the VEC at 530 Collins Street, Melbourne an independent candidate, you must nominate with the election manager at the relevant election hub for the election that you wish to contest. Use Candidate Helper at vec.vic.gov.au to start your nomination form. Upper house candidates Independent candidates for the upper house (Legislative Council) must nominate at an election hub in their region. An election manager will give you a Candidate Kit and nomination form. You can ask to be grouped on the ballot paper with other candidates for the same region. How-to-vote cards You must register your how-to-vote card with the VEC if you plan to: distribute the card on election day, Saturday 28 November have an election official distribute the card at a mobile voting centre Registered how-to-vote cards are the only form of printed electoral material that may be distributed within 400 metres of a voting centre on election day. Submit your how-to-vote cards for registration from 9 am on Tuesday 10 November : Registered political parties must submit cards at the VEC at 530 Collins Street, Melbourne Individuals and organisations, other than registered political parties, must submit cards to an election manager. Registration closes at 12 pm on Friday 20 November . Late how-to-vote cards cannot be accepted. Scan the QR code or visit vec.vic.gov.au for all state election information. 131 832 info@vec.vic.gov.au vec.vic.gov.au @electionsvic Authorised by S. Bluemmel, Electoral Commissioner, 530 Collins Street, Melbourne, Victoria. Get to know your candidates - published Wednesday 11 November Where to vote Saturday 28 November is election day. Find out where to vote at vec.vic.gov.au or by scanning the QR code. Ways to vote You can vote early from Wednesday 18 November . Other ways to vote include: postal voting telephone-assisted voting mobile voting low-sensory mobile voting. Visit vec.vic.gov.au or scan the QR code for voting options, locations, opening hours and eligibility requirements. Know your candidates Victorians will vote for 128 members of parliament: 88 to represent each district in the lower house (Legislative Assembly) 40 to represent 8 regions in the upper house (Legislative Council). Scan the QR code to view candidates in ballot-paper order. How-to-vote cards Registered how-to-vote cards show how candidates, registered political parties, or other people or organisations want you to vote. These will be available on our website as they are registered from Tuesday 10 November . Scan the QR code or visit vec.vic.gov.au for all state election information. 131 832 info@vec.vic.gov.au vec.vic.gov.au Authorised by S. Bluemmel, Electoral Commissioner, 530 Collins Street, Melbourne, Victoria. 2026 state election timelin",
+        "delta_hash": "54e129812ea14cf6dcddf5dfe2bc64b3d3b4e9615e66b9758955808f58bb2d9a"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261111062221",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-QLD",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-QLD-MINISTERIAL-STATEMENTS-20261111062221",
+      "captured_at": "2026-11-11T06:22:21.598Z",
+      "event_date": "2026-11-11",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-QLD-MINISTERIAL-STATEMENTS",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "review_policy": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-QLD-MINISTERIAL-STATEMENTS-20261110095125",
+        "content_hash": "0def517920222a154fb583026e9db049d7213f3c8e2f87c58ef05934b69919ec",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-QLD-MINISTERIAL-STATEMENTS-20261111062221",
+        "content_hash": "9d064a86005094eb1a2760d7f73fbe8ed11ba5aa3d871b4f25f671edcde80190",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "STRUCTURED_RECORD_SET",
+        "records_added": [
+          {
+            "record_id": "0787aad2112f4e67cb2c",
+            "title": "Community Feedback gets The Wave to Another Key Milestone",
+            "url": "https://statements.qld.gov.au/statements/106396"
+          },
+          {
+            "record_id": "0f0d706024793774de38",
+            "title": "Landmark blueprint for Cape York and Torres Strait",
+            "url": "https://statements.qld.gov.au/statements/106397"
+          },
+          {
+            "record_id": "13543c96c37d31569108",
+            "title": "Special Constables program expanded to bolster police frontline",
+            "url": "https://statements.qld.gov.au/statements/106356"
+          },
+          {
+            "record_id": "229ed815bb8237431a91",
+            "title": "Hervey Bay Youth Foyer a step closer to reality",
+            "url": "https://statements.qld.gov.au/statements/106393"
+          },
+          {
+            "record_id": "2d893cb522b028dc52e6",
+            "title": "Service Queensland App expands to include seniors, carers and companions",
+            "url": "https://statements.qld.gov.au/statements/106395"
+          },
+          {
+            "record_id": "6bf3fa49d664396067a8",
+            "title": "37 Supported Accommodation projects to break the cycle of homelessness",
+            "url": "https://statements.qld.gov.au/statements/106381"
+          },
+          {
+            "record_id": "9811f76f7431f87bc7b7",
+            "title": "Burketown Airport officially opens after major upgrade",
+            "url": "https://statements.qld.gov.au/statements/106385"
+          },
+          {
+            "record_id": "f1cbbb6489929002f563",
+            "title": "New bin lid rollout to drive less landfill, more recycling",
+            "url": "https://statements.qld.gov.au/statements/106394"
+          }
+        ],
+        "records_removed": [
+          {
+            "record_id": "074ff17fb38cf94d86b8",
+            "title": "Cabinet brings together Rural, Remote and Indigenous council leaders",
+            "url": "https://statements.qld.gov.au/statements/106390"
+          },
+          {
+            "record_id": "34124926a9859800383d",
+            "title": "Another 2,000 Free Nursing places backed for 2027",
+            "url": "https://statements.qld.gov.au/statements/106388"
+          },
+          {
+            "record_id": "62904980026277a89053",
+            "title": "Service Queensland to modernise access to government services",
+            "url": "https://statements.qld.gov.au/statements/106368"
+          },
+          {
+            "record_id": "77112f6168e3f7c20292",
+            "title": "Outback Way milestones deliver safer journeys for Western Queensland",
+            "url": "https://statements.qld.gov.au/statements/106371"
+          },
+          {
+            "record_id": "7dc6ccc2fe4a31248150",
+            "title": "Service Queensland delivers a mobile ‘service centre on wheels’ for North and Far North Queensland",
+            "url": "https://statements.qld.gov.au/statements/106384"
+          },
+          {
+            "record_id": "f14cdb38f9ffb34d7e84",
+            "title": "Destination 2045 delivers for Great Keppel Island",
+            "url": "https://statements.qld.gov.au/statements/106376"
+          },
+          {
+            "record_id": "f2eff6204ad92a05e092",
+            "title": "Five-year partnerships to enhance economic and social participation",
+            "url": "https://statements.qld.gov.au/statements/106367"
+          },
+          {
+            "record_id": "f74fe55ee410d3eeb1ba",
+            "title": "Bribie gets moving with new On Demand Transport service",
+            "url": "https://statements.qld.gov.au/statements/106369"
+          }
+        ],
+        "added_count": 8,
+        "removed_count": 8,
+        "before_count": 16,
+        "after_count": 16,
+        "delta_hash": "ae0f62023d54a8ce042b32fa428e2e9fe90820fa7fd5e535cbd05a73be88715b"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "SIG-REV-CHG-WATCH-PM-MEDIA-20261111062221",
+      "parent_event_id": "CHG-WATCH-PM-MEDIA-20261111062221",
+      "review_id": "REV-CHG-WATCH-PM-MEDIA-20261111062221",
+      "jurisdiction_id": "AUS-FED",
+      "party_id": null,
+      "actor_id": null,
+      "contest_id": null,
+      "cycle_id": null,
+      "source_snapshot_id": "AUTO-WATCH-PM-MEDIA-20261111062221",
+      "record_id": null,
+      "captured_at": "2026-11-11T06:23:18.498Z",
+      "event_date": "2026-11-11",
+      "checkpoint": "CONTINUOUS_FORWARD_SIGNAL_REVIEW",
+      "event_type": "SIGNAL_CREATED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-PM-MEDIA",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "claim": "Prime Minister of Australia — media added 2 structured publication records to its forward-captured official index: Remembrance Day 2026; Remarks - Changi Chapel, Singapore",
+      "observed_behaviour": "One or more structured publication records appeared in the monitored official source index after the preceding forward snapshot.",
+      "publication_records_added": [
+        {
+          "record_id": "17bba4b5f29c64355834",
+          "title": "Remembrance Day 2026",
+          "url": "https://www.pm.gov.au/media/remembrance-day-2026"
+        },
+        {
+          "record_id": "fe2e0170cba5d4977cbd",
+          "title": "Remarks - Changi Chapel, Singapore",
+          "url": "https://www.pm.gov.au/media/remarks-changi-chapel-singapore"
+        }
+      ],
+      "publication_records_removed": [
+        {
+          "record_id": "3eb34fa210a924e4197a",
+          "title": "CHOGM Joint Forums and side events official launch",
+          "url": "https://www.pm.gov.au/media/chogm-joint-forums-and-side-events-official-launch"
+        },
+        {
+          "record_id": "fb6797594ea1dc715dce",
+          "title": "Press conference - Saint John&#039;s, Antigua and Barbuda",
+          "url": "https://www.pm.gov.au/media/press-conference-saint-johns-antigua-and-barbuda-3-nov-2026"
+        }
+      ],
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "underlying_publication_claims_not_promoted_to_verified_fact": true,
+        "source_change_parent_retained": true,
+        "deterministic_review": true
+      }
+    },
+    {
+      "event_id": "SIG-REV-CHG-WATCH-NSW-MINISTERIAL-RELEASES-20261111062221",
+      "parent_event_id": "CHG-WATCH-NSW-MINISTERIAL-RELEASES-20261111062221",
+      "review_id": "REV-CHG-WATCH-NSW-MINISTERIAL-RELEASES-20261111062221",
+      "jurisdiction_id": "AUS-NSW",
+      "party_id": null,
+      "actor_id": null,
+      "contest_id": null,
+      "cycle_id": null,
+      "source_snapshot_id": "AUTO-WATCH-NSW-MINISTERIAL-RELEASES-20261111062221",
+      "record_id": null,
+      "captured_at": "2026-11-11T06:23:18.498Z",
+      "event_date": "2026-11-11",
+      "checkpoint": "CONTINUOUS_FORWARD_SIGNAL_REVIEW",
+      "event_type": "SIGNAL_CREATED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-NSW-MINISTERIAL-RELEASES",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "claim": "NSW Government — Ministerial releases added 10 structured publication records to its forward-captured official index: Reforms to protect sexual assault complainants pass NSW Parliament; New purpose-built support unit opens at Moruya High School; NSW Government staff blitz Australian biosecurity awards; Safer roads for the North Coast as Bruxner Highway upgrades begin between Ballina and Lismore; Construction underway on new public school and public early learning in Sydney’s North West; +5 more",
+      "observed_behaviour": "One or more structured publication records appeared in the monitored official source index after the preceding forward snapshot.",
+      "publication_records_added": [
+        {
+          "record_id": "0419a2487bb45e24f2b3",
+          "title": "Reforms to protect sexual assault complainants pass NSW Parliament",
+          "url": "https://www.nsw.gov.au/ministerial-releases/reforms-to-protect-sexual-assault-complainants-pass-nsw-parliament"
+        },
+        {
+          "record_id": "04455c15a6ea6e69ebec",
+          "title": "New purpose-built support unit opens at Moruya High School",
+          "url": "https://www.nsw.gov.au/ministerial-releases/new-purpose-built-support-unit-opens-at-moruya-high-school"
+        },
+        {
+          "record_id": "0f397b5c4c566e9c3fec",
+          "title": "NSW Government staff blitz Australian biosecurity awards",
+          "url": "https://www.nsw.gov.au/ministerial-releases/nsw-government-wins-australian-biosecurity-awards"
+        },
+        {
+          "record_id": "3ab09e1ec2fd84981bfc",
+          "title": "Safer roads for the North Coast as Bruxner Highway upgrades begin between Ballina and Lismore",
+          "url": "https://www.nsw.gov.au/ministerial-releases/safer-roads-for-north-coast-as-bruxner-highway-upgrades-begin-between-ballina-and-lismore"
+        },
+        {
+          "record_id": "44dcb20cee3ca3ceb3b9",
+          "title": "Construction underway on new public school and public early learning in Sydney’s North West",
+          "url": "https://www.nsw.gov.au/ministerial-releases/construction-underway-on-new-public-school-and-public-early-learning-sydneys-north-west"
+        },
+        {
+          "record_id": "52c0b512a51e0e36ca17",
+          "title": "NSW Ambulance strengthens multi-agency rescue capability with world-first rescue ambulances",
+          "url": "https://www.nsw.gov.au/ministerial-releases/nsw-ambulance-strengthens-multi-agency-rescue-capability-world-first-rescue-ambulances"
+        },
+        {
+          "record_id": "587d6eb7a984e894219c",
+          "title": "Tragic passing of Izzy Neale",
+          "url": "https://www.nsw.gov.au/ministerial-releases/tragic-passing-of-izzy-neale"
+        },
+        {
+          "record_id": "6ada03cfc0b5b56280ce",
+          "title": "Safer trips on the Mitchell Highway: Upgrades begin at Neurea South",
+          "url": "https://www.nsw.gov.au/ministerial-releases/safer-trips-on-mitchell-highway-upgrades-begin-at-neurea-south"
+        },
+        {
+          "record_id": "a57dcc4513a69d039181",
+          "title": "129 additional frontline security staff for 27 NSW hospitals",
+          "url": "https://www.nsw.gov.au/ministerial-releases/129-additional-frontline-security-staff-for-27-nsw-hospitals"
+        },
+        {
+          "record_id": "e2a1aba4a057e3a554f3",
+          "title": "Remembrance Day an opportunity to pause and reflect",
+          "url": "https://www.nsw.gov.au/ministerial-releases/remembrance-day-an-opportunity-to-pause-and-reflect"
+        }
+      ],
+      "publication_records_removed": [
+        {
+          "record_id": "08e3f1524a28d2f8817b",
+          "title": "The Power is on – Powerhouse Parramatta opens",
+          "url": "https://www.nsw.gov.au/departments-and-agencies/dciths/ministerial-media-releases/powerhouse-parramatta-opens"
+        },
+        {
+          "record_id": "14a8ed0e285f36a57e16",
+          "title": "Gripping adventures and words of wisdom come to life in Seniors’ Stories",
+          "url": "https://www.nsw.gov.au/ministerial-releases/gripping-adventures-and-words-of-wisdom-come-to-life-seniors-stories"
+        },
+        {
+          "record_id": "2c67866071179b50a8c7",
+          "title": "Minns Labor Government delivers bus service boost for Central Coast and new buses for Newcastle",
+          "url": "https://www.nsw.gov.au/ministerial-releases/minns-labor-government-delivers-bus-service-boost-for-central-coast-and-new-buses-for-newcastle"
+        },
+        {
+          "record_id": "364e93887aefc939a07c",
+          "title": "Minns Labor Government looks to new opportunities to grow NSW tourism",
+          "url": "https://www.nsw.gov.au/departments-and-agencies/dciths/ministerial-media-releases/future-demand-tourism-report-unveiled-today"
+        },
+        {
+          "record_id": "49671aa3c4118a69f6da",
+          "title": "Turning the page on screens in class as the Minns Labor Government ends ‘Bring Your Own Device’ requirements for public primary schools",
+          "url": "https://www.nsw.gov.au/ministerial-releases/turning-page-on-screens-class-as-minns-labor-government-ends-bring-your-own-device-requirements-for-public-primary-schools"
+        },
+        {
+          "record_id": "ad1482b938b00b784d5b",
+          "title": "More support for women and families with complex needs in South West Sydney",
+          "url": "https://www.nsw.gov.au/ministerial-releases/more-support-for-women-and-families-complex-needs-south-west-sydney"
+        },
+        {
+          "record_id": "b0172942c7b5a573345b",
+          "title": "Vaucloos gets a much-needed flush as the NSW Government cleans up iconic coastline",
+          "url": "https://www.nsw.gov.au/ministerial-releases/vaucloos-gets-a-much-needed-flush-as-nsw-government-cleans-up-iconic-coastline"
+        },
+        {
+          "record_id": "be848184cda5274c4c6c",
+          "title": "Repurposing temporary housing as focus shifts to permanent homes",
+          "url": "https://www.nsw.gov.au/ministerial-releases/repurposing-temporary-housing-as-focus-shifts-to-permanent-homes"
+        },
+        {
+          "record_id": "d5fa84608ce16146559f",
+          "title": "Announcing the winner of the 2026 NSW Music Prize",
+          "url": "https://www.nsw.gov.au/departments-and-agencies/dciths/ministerial-media-releases/winner-2026-music-prize"
+        },
+        {
+          "record_id": "f0d27f8a061029586208",
+          "title": "Legislation to save 400 Hunter jobs at Mt Pleasant to be introduced today",
+          "url": "https://www.nsw.gov.au/ministerial-releases/legislation-to-save-400-hunter-jobs-at-mt-pleasant-to-be-introduced-today"
+        }
+      ],
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "underlying_publication_claims_not_promoted_to_verified_fact": true,
+        "source_change_parent_retained": true,
+        "deterministic_review": true
+      }
+    },
+    {
+      "event_id": "SIG-REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261111062221",
+      "parent_event_id": "CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261111062221",
+      "review_id": "REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261111062221",
+      "jurisdiction_id": "AUS-QLD",
+      "party_id": null,
+      "actor_id": null,
+      "contest_id": null,
+      "cycle_id": null,
+      "source_snapshot_id": "AUTO-WATCH-QLD-MINISTERIAL-STATEMENTS-20261111062221",
+      "record_id": null,
+      "captured_at": "2026-11-11T06:23:18.498Z",
+      "event_date": "2026-11-11",
+      "checkpoint": "CONTINUOUS_FORWARD_SIGNAL_REVIEW",
+      "event_type": "SIGNAL_CREATED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-QLD-MINISTERIAL-STATEMENTS",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "claim": "Queensland Government — Ministerial Media Statements added 8 structured publication records to its forward-captured official index: Community Feedback gets The Wave to Another Key Milestone; Landmark blueprint for Cape York and Torres Strait; Special Constables program expanded to bolster police frontline; Hervey Bay Youth Foyer a step closer to reality; Service Queensland App expands to include seniors, carers and companions; +3 more",
+      "observed_behaviour": "One or more structured publication records appeared in the monitored official source index after the preceding forward snapshot.",
+      "publication_records_added": [
+        {
+          "record_id": "0787aad2112f4e67cb2c",
+          "title": "Community Feedback gets The Wave to Another Key Milestone",
+          "url": "https://statements.qld.gov.au/statements/106396"
+        },
+        {
+          "record_id": "0f0d706024793774de38",
+          "title": "Landmark blueprint for Cape York and Torres Strait",
+          "url": "https://statements.qld.gov.au/statements/106397"
+        },
+        {
+          "record_id": "13543c96c37d31569108",
+          "title": "Special Constables program expanded to bolster police frontline",
+          "url": "https://statements.qld.gov.au/statements/106356"
+        },
+        {
+          "record_id": "229ed815bb8237431a91",
+          "title": "Hervey Bay Youth Foyer a step closer to reality",
+          "url": "https://statements.qld.gov.au/statements/106393"
+        },
+        {
+          "record_id": "2d893cb522b028dc52e6",
+          "title": "Service Queensland App expands to include seniors, carers and companions",
+          "url": "https://statements.qld.gov.au/statements/106395"
+        },
+        {
+          "record_id": "6bf3fa49d664396067a8",
+          "title": "37 Supported Accommodation projects to break the cycle of homelessness",
+          "url": "https://statements.qld.gov.au/statements/106381"
+        },
+        {
+          "record_id": "9811f76f7431f87bc7b7",
+          "title": "Burketown Airport officially opens after major upgrade",
+          "url": "https://statements.qld.gov.au/statements/106385"
+        },
+        {
+          "record_id": "f1cbbb6489929002f563",
+          "title": "New bin lid rollout to drive less landfill, more recycling",
+          "url": "https://statements.qld.gov.au/statements/106394"
+        }
+      ],
+      "publication_records_removed": [
+        {
+          "record_id": "074ff17fb38cf94d86b8",
+          "title": "Cabinet brings together Rural, Remote and Indigenous council leaders",
+          "url": "https://statements.qld.gov.au/statements/106390"
+        },
+        {
+          "record_id": "34124926a9859800383d",
+          "title": "Another 2,000 Free Nursing places backed for 2027",
+          "url": "https://statements.qld.gov.au/statements/106388"
+        },
+        {
+          "record_id": "62904980026277a89053",
+          "title": "Service Queensland to modernise access to government services",
+          "url": "https://statements.qld.gov.au/statements/106368"
+        },
+        {
+          "record_id": "77112f6168e3f7c20292",
+          "title": "Outback Way milestones deliver safer journeys for Western Queensland",
+          "url": "https://statements.qld.gov.au/statements/106371"
+        },
+        {
+          "record_id": "7dc6ccc2fe4a31248150",
+          "title": "Service Queensland delivers a mobile ‘service centre on wheels’ for North and Far North Queensland",
+          "url": "https://statements.qld.gov.au/statements/106384"
+        },
+        {
+          "record_id": "f14cdb38f9ffb34d7e84",
+          "title": "Destination 2045 delivers for Great Keppel Island",
+          "url": "https://statements.qld.gov.au/statements/106376"
+        },
+        {
+          "record_id": "f2eff6204ad92a05e092",
+          "title": "Five-year partnerships to enhance economic and social participation",
+          "url": "https://statements.qld.gov.au/statements/106367"
+        },
+        {
+          "record_id": "f74fe55ee410d3eeb1ba",
+          "title": "Bribie gets moving with new On Demand Transport service",
+          "url": "https://statements.qld.gov.au/statements/106369"
         }
       ],
       "inference": null,

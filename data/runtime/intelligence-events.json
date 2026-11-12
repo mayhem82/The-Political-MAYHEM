@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-INTELLIGENCE-EVENTS-001",
   "scope": "Australia — multi-jurisdiction",
-  "captured_at": "2026-11-11T22:00:04.797Z",
+  "captured_at": "2026-11-12T11:12:51.829Z",
   "mode": "FORWARD_ONLY",
   "rules": {
     "observation_distinct_from_inference": true,
@@ -138353,6 +138353,484 @@
           "record_id": "a551b31666d748f900bb",
           "title": "Departmental ministerial appointment",
           "url": "https://www.pm.gov.au/media/departmental-ministerial-appointment"
+        }
+      ],
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "underlying_publication_claims_not_promoted_to_verified_fact": true,
+        "source_change_parent_retained": true,
+        "deterministic_review": true
+      }
+    },
+    {
+      "event_id": "CHG-WATCH-GREENS-FEDERAL-MEDIA-20261112111219",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-FED",
+      "party_id": "AUS-FED-GRN",
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-GREENS-FEDERAL-MEDIA-20261112111219",
+      "captured_at": "2026-11-12T11:12:19.674Z",
+      "event_date": "2026-11-12",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_PARTY",
+      "source_id": "SRC-GREENS-FEDERAL-RELEASE-INDEX",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "review_policy": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-GREENS-FEDERAL-MEDIA-20261110095125",
+        "content_hash": "41e63709eacda3e6cbca5ede03f7eae02c389ada42421024acbe08fedf579139",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-GREENS-FEDERAL-MEDIA-20261112111219",
+        "content_hash": "7deb4378ebef727520bb6940dc30d6d9f3f726b6d89041b8e01301e8ce93f5b0",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "STRUCTURED_RECORD_SET",
+        "records_added": [
+          {
+            "record_id": "066137bcae477e352ce1",
+            "title": "Read more about Labor, the party for ‘draft optional’ workers rights",
+            "url": "https://greens.org.au/news/media-release/labor-party-draft-optional-workers-rights"
+          },
+          {
+            "record_id": "2886badeefe1fcc7666e",
+            "title": "Tungkillo Data Centre Delay puts Big AI On Notice",
+            "url": "https://greens.org.au/sa/news/media-release/tungkillo-data-centre-delay-puts-big-ai-notice"
+          },
+          {
+            "record_id": "67dc86ee855ba5143690",
+            "title": "Read more about Tungkillo Data Centre Delay puts Big AI On Notice",
+            "url": "https://greens.org.au/sa/news/media-release/tungkillo-data-centre-delay-puts-big-ai-notice"
+          },
+          {
+            "record_id": "d358cf094109daaa2997",
+            "title": "Labor, the party for ‘draft optional’ workers rights",
+            "url": "https://greens.org.au/news/media-release/labor-party-draft-optional-workers-rights"
+          }
+        ],
+        "records_removed": [
+          {
+            "record_id": "78578b7d5d2b6ce680f8",
+            "title": "Inquiry: Australia’s delivery of social housing is a failure",
+            "url": "https://greens.org.au/news/media-release/inquiry-australias-delivery-social-housing-failure"
+          },
+          {
+            "record_id": "925f51262f984046b9f5",
+            "title": "Australia-EU Trade Agreement",
+            "url": "https://greens.org.au/sa/news/media-release/australia-eu-trade-agreement"
+          },
+          {
+            "record_id": "a1381f8f7ff2a6378c07",
+            "title": "Read more about Inquiry: Australia’s delivery of social housing is a failure",
+            "url": "https://greens.org.au/news/media-release/inquiry-australias-delivery-social-housing-failure"
+          },
+          {
+            "record_id": "c221e82d4489d499f4c1",
+            "title": "Read more about Australia-EU Trade Agreement",
+            "url": "https://greens.org.au/sa/news/media-release/australia-eu-trade-agreement"
+          }
+        ],
+        "added_count": 4,
+        "removed_count": 4,
+        "before_count": 75,
+        "after_count": 75,
+        "delta_hash": "2eacf817fd30f7f007aaabdced35ddeca6efc4a7b675073cee3e2324e955dc02"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-NSWEC-MEDIA-20261112111219",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-NSW",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-NSWEC-MEDIA-20261112111219",
+      "captured_at": "2026-11-12T11:12:19.674Z",
+      "event_date": "2026-11-12",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_ELECTORAL_AUTHORITY",
+      "source_id": "SRC-NSWEC-MEDIA",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "review_policy": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-NSWEC-MEDIA-20261108234342",
+        "content_hash": "343f2c10c5cb29eac056abbeabd2c8b24e9010f5f64b2dd20657705f41760ed7",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-NSWEC-MEDIA-20261112111219",
+        "content_hash": "28311986dbe913542cbd7896d2c5db910eb869024a73bff9850eb5496c66c263",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "STRUCTURED_RECORD_SET",
+        "records_added": [
+          {
+            "record_id": "0144bab8a958197251f7",
+            "title": "arrow_forward Learn more",
+            "url": "https://elections.nsw.gov.au/service-maintenance-schedule"
+          }
+        ],
+        "records_removed": [],
+        "added_count": 1,
+        "removed_count": 0,
+        "before_count": 365,
+        "after_count": 366,
+        "delta_hash": "f3d698a3f379f72e685485a8855f833eeadcf890254b7f6dc577b69511f79aca"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261112111219",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-QLD",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-QLD-MINISTERIAL-STATEMENTS-20261112111219",
+      "captured_at": "2026-11-12T11:12:19.674Z",
+      "event_date": "2026-11-12",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-QLD-MINISTERIAL-STATEMENTS",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "review_policy": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-QLD-MINISTERIAL-STATEMENTS-20261111062221",
+        "content_hash": "9d064a86005094eb1a2760d7f73fbe8ed11ba5aa3d871b4f25f671edcde80190",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-QLD-MINISTERIAL-STATEMENTS-20261112111219",
+        "content_hash": "633096f6b423a81e55abd50c6433393f88dd7a32a5f0be832823adf83cd778ca",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "STRUCTURED_RECORD_SET",
+        "records_added": [
+          {
+            "record_id": "6429e110e9afb67f9276",
+            "title": "Hundreds of jobs secured as New Burton Coal Mine officially reopened",
+            "url": "https://statements.qld.gov.au/statements/106410"
+          },
+          {
+            "record_id": "92157bafbcf545cca8e2",
+            "title": "Energy Roadmap delivering lower power prices on Sunshine Coast",
+            "url": "https://statements.qld.gov.au/statements/106403"
+          },
+          {
+            "record_id": "ba597c5764fb3124006f",
+            "title": "Funding available for disaster-impacted Queensland sporting clubs",
+            "url": "https://statements.qld.gov.au/statements/106402"
+          },
+          {
+            "record_id": "eac13b3123bd68da27d0",
+            "title": "More real homes delivered on the Gold Coast",
+            "url": "https://statements.qld.gov.au/statements/106417"
+          }
+        ],
+        "records_removed": [
+          {
+            "record_id": "16fcdcaf7aed5618d9e9",
+            "title": "More than 760 new homes fast tracked across the Redlands",
+            "url": "https://statements.qld.gov.au/statements/106375"
+          },
+          {
+            "record_id": "b573db5d5d91d4ab140b",
+            "title": "More teachers and teacher aides delivered across Queensland state schools since 2024",
+            "url": "https://statements.qld.gov.au/statements/106389"
+          },
+          {
+            "record_id": "eefb24841cfffef5f7ab",
+            "title": "Labor’s axed Cardiac Hybrid Theatre now a reality at Rockhampton Hospital",
+            "url": "https://statements.qld.gov.au/statements/106380"
+          },
+          {
+            "record_id": "eefee352c915f531a2ee",
+            "title": "Contractors appointed to deliver new Youth Step Up Step Down facilities in Rockhampton and Townsville",
+            "url": "https://statements.qld.gov.au/statements/106382"
+          }
+        ],
+        "added_count": 4,
+        "removed_count": 4,
+        "before_count": 16,
+        "after_count": 16,
+        "delta_hash": "c3f2121e52cd1c052d404a19a296a8f9cbe7a54a94dc5230a20a7e3e5eb8f812"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-TAS-HANSARD-20261112111219",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-TAS",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-TAS-HANSARD-20261112111219",
+      "captured_at": "2026-11-12T11:12:19.674Z",
+      "event_date": "2026-11-12",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_PARLIAMENT",
+      "source_id": "SRC-TAS-HANSARD",
+      "capture_mode": "NORMALISED_PAGE_HASH",
+      "review_policy": "REVIEW_UNSTRUCTURED_CHANGE",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-TAS-HANSARD-20261105064714",
+        "content_hash": "9901e35a5cc127da9498ea0f8b73c6cf426b8c30d74f7a60604a24803a35da46",
+        "capture_mode": "NORMALISED_PAGE_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-TAS-HANSARD-20261112111219",
+        "content_hash": "e209faa718bebdeaeef74ad98ff46fa259e4530c2db64886d0cf31981a2fd173",
+        "capture_mode": "NORMALISED_PAGE_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "TEXT_REPRESENTATION",
+        "first_difference_offset": 1491,
+        "before_length": 3176,
+        "after_length": 3205,
+        "before_excerpt": "0 Dorset 60 Midlands 51 Wellington 43 US 38 America 38 Iran 37 Stillwater 34 France 34 Singapore 31 UK 20 more... top 5 Sort by Best Match Date Size Date Filter by date Last 7 days Last Month Last 3 Months Last 6 Months Last 12 Months Showi",
+        "after_excerpt": "0 Dorset 60 Midlands 51 Wellington 43 US 38 America 38 Iran 37 Stillwater 34 France 34 Singapore 31 UK 20 more... top 5 Clusters Council Thursday 17 Sort by Best Match Date Size Date Filter by date Last 7 days Last Month Last 3 Months Last 6 Months Last 12 Months Showi",
+        "delta_hash": "d0664808e4e56818173c5adaad750026dbe8d2c3b6769d97b14ce318d3940f70"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "SIG-REV-CHG-WATCH-GREENS-FEDERAL-MEDIA-20261112111219",
+      "parent_event_id": "CHG-WATCH-GREENS-FEDERAL-MEDIA-20261112111219",
+      "review_id": "REV-CHG-WATCH-GREENS-FEDERAL-MEDIA-20261112111219",
+      "jurisdiction_id": "AUS-FED",
+      "party_id": "AUS-FED-GRN",
+      "actor_id": null,
+      "contest_id": null,
+      "cycle_id": null,
+      "source_snapshot_id": "AUTO-WATCH-GREENS-FEDERAL-MEDIA-20261112111219",
+      "record_id": null,
+      "captured_at": "2026-11-12T11:12:47.161Z",
+      "event_date": "2026-11-12",
+      "checkpoint": "CONTINUOUS_FORWARD_SIGNAL_REVIEW",
+      "event_type": "SIGNAL_CREATED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_PARTY",
+      "source_id": "SRC-GREENS-FEDERAL-RELEASE-INDEX",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "claim": "Australian Greens — Federal MPs media releases added 4 structured publication records to its forward-captured official index: Read more about Labor, the party for ‘draft optional’ workers rights; Tungkillo Data Centre Delay puts Big AI On Notice; Read more about Tungkillo Data Centre Delay puts Big AI On Notice; Labor, the party for ‘draft optional’ workers rights",
+      "observed_behaviour": "One or more structured publication records appeared in the monitored official source index after the preceding forward snapshot.",
+      "publication_records_added": [
+        {
+          "record_id": "066137bcae477e352ce1",
+          "title": "Read more about Labor, the party for ‘draft optional’ workers rights",
+          "url": "https://greens.org.au/news/media-release/labor-party-draft-optional-workers-rights"
+        },
+        {
+          "record_id": "2886badeefe1fcc7666e",
+          "title": "Tungkillo Data Centre Delay puts Big AI On Notice",
+          "url": "https://greens.org.au/sa/news/media-release/tungkillo-data-centre-delay-puts-big-ai-notice"
+        },
+        {
+          "record_id": "67dc86ee855ba5143690",
+          "title": "Read more about Tungkillo Data Centre Delay puts Big AI On Notice",
+          "url": "https://greens.org.au/sa/news/media-release/tungkillo-data-centre-delay-puts-big-ai-notice"
+        },
+        {
+          "record_id": "d358cf094109daaa2997",
+          "title": "Labor, the party for ‘draft optional’ workers rights",
+          "url": "https://greens.org.au/news/media-release/labor-party-draft-optional-workers-rights"
+        }
+      ],
+      "publication_records_removed": [
+        {
+          "record_id": "78578b7d5d2b6ce680f8",
+          "title": "Inquiry: Australia’s delivery of social housing is a failure",
+          "url": "https://greens.org.au/news/media-release/inquiry-australias-delivery-social-housing-failure"
+        },
+        {
+          "record_id": "925f51262f984046b9f5",
+          "title": "Australia-EU Trade Agreement",
+          "url": "https://greens.org.au/sa/news/media-release/australia-eu-trade-agreement"
+        },
+        {
+          "record_id": "a1381f8f7ff2a6378c07",
+          "title": "Read more about Inquiry: Australia’s delivery of social housing is a failure",
+          "url": "https://greens.org.au/news/media-release/inquiry-australias-delivery-social-housing-failure"
+        },
+        {
+          "record_id": "c221e82d4489d499f4c1",
+          "title": "Read more about Australia-EU Trade Agreement",
+          "url": "https://greens.org.au/sa/news/media-release/australia-eu-trade-agreement"
+        }
+      ],
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "underlying_publication_claims_not_promoted_to_verified_fact": true,
+        "source_change_parent_retained": true,
+        "deterministic_review": true
+      }
+    },
+    {
+      "event_id": "SIG-REV-CHG-WATCH-NSWEC-MEDIA-20261112111219",
+      "parent_event_id": "CHG-WATCH-NSWEC-MEDIA-20261112111219",
+      "review_id": "REV-CHG-WATCH-NSWEC-MEDIA-20261112111219",
+      "jurisdiction_id": "AUS-NSW",
+      "party_id": null,
+      "actor_id": null,
+      "contest_id": null,
+      "cycle_id": null,
+      "source_snapshot_id": "AUTO-WATCH-NSWEC-MEDIA-20261112111219",
+      "record_id": "0144bab8a958197251f7",
+      "captured_at": "2026-11-12T11:12:47.161Z",
+      "event_date": "2026-11-12",
+      "checkpoint": "CONTINUOUS_FORWARD_SIGNAL_REVIEW",
+      "event_type": "SIGNAL_CREATED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_ELECTORAL_AUTHORITY",
+      "source_id": "SRC-NSWEC-MEDIA",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "claim": "NSW Electoral Commission — news and media releases added 1 structured publication record to its forward-captured official index: arrow_forward Learn more",
+      "observed_behaviour": "One or more structured publication records appeared in the monitored official source index after the preceding forward snapshot.",
+      "publication_records_added": [
+        {
+          "record_id": "0144bab8a958197251f7",
+          "title": "arrow_forward Learn more",
+          "url": "https://elections.nsw.gov.au/service-maintenance-schedule"
+        }
+      ],
+      "publication_records_removed": [],
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "underlying_publication_claims_not_promoted_to_verified_fact": true,
+        "source_change_parent_retained": true,
+        "deterministic_review": true
+      }
+    },
+    {
+      "event_id": "SIG-REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261112111219",
+      "parent_event_id": "CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261112111219",
+      "review_id": "REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261112111219",
+      "jurisdiction_id": "AUS-QLD",
+      "party_id": null,
+      "actor_id": null,
+      "contest_id": null,
+      "cycle_id": null,
+      "source_snapshot_id": "AUTO-WATCH-QLD-MINISTERIAL-STATEMENTS-20261112111219",
+      "record_id": null,
+      "captured_at": "2026-11-12T11:12:47.161Z",
+      "event_date": "2026-11-12",
+      "checkpoint": "CONTINUOUS_FORWARD_SIGNAL_REVIEW",
+      "event_type": "SIGNAL_CREATED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-QLD-MINISTERIAL-STATEMENTS",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "claim": "Queensland Government — Ministerial Media Statements added 4 structured publication records to its forward-captured official index: Hundreds of jobs secured as New Burton Coal Mine officially reopened; Energy Roadmap delivering lower power prices on Sunshine Coast; Funding available for disaster-impacted Queensland sporting clubs; More real homes delivered on the Gold Coast",
+      "observed_behaviour": "One or more structured publication records appeared in the monitored official source index after the preceding forward snapshot.",
+      "publication_records_added": [
+        {
+          "record_id": "6429e110e9afb67f9276",
+          "title": "Hundreds of jobs secured as New Burton Coal Mine officially reopened",
+          "url": "https://statements.qld.gov.au/statements/106410"
+        },
+        {
+          "record_id": "92157bafbcf545cca8e2",
+          "title": "Energy Roadmap delivering lower power prices on Sunshine Coast",
+          "url": "https://statements.qld.gov.au/statements/106403"
+        },
+        {
+          "record_id": "ba597c5764fb3124006f",
+          "title": "Funding available for disaster-impacted Queensland sporting clubs",
+          "url": "https://statements.qld.gov.au/statements/106402"
+        },
+        {
+          "record_id": "eac13b3123bd68da27d0",
+          "title": "More real homes delivered on the Gold Coast",
+          "url": "https://statements.qld.gov.au/statements/106417"
+        }
+      ],
+      "publication_records_removed": [
+        {
+          "record_id": "16fcdcaf7aed5618d9e9",
+          "title": "More than 760 new homes fast tracked across the Redlands",
+          "url": "https://statements.qld.gov.au/statements/106375"
+        },
+        {
+          "record_id": "b573db5d5d91d4ab140b",
+          "title": "More teachers and teacher aides delivered across Queensland state schools since 2024",
+          "url": "https://statements.qld.gov.au/statements/106389"
+        },
+        {
+          "record_id": "eefb24841cfffef5f7ab",
+          "title": "Labor’s axed Cardiac Hybrid Theatre now a reality at Rockhampton Hospital",
+          "url": "https://statements.qld.gov.au/statements/106380"
+        },
+        {
+          "record_id": "eefee352c915f531a2ee",
+          "title": "Contractors appointed to deliver new Youth Step Up Step Down facilities in Rockhampton and Townsville",
+          "url": "https://statements.qld.gov.au/statements/106382"
         }
       ],
       "inference": null,

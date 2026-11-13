@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-SIGNAL-REVIEWS-001",
   "created_at": "2026-09-09T05:05:00+10:00",
-  "updated_at": "2026-11-13T16:25:59.818Z",
+  "updated_at": "2026-11-13T22:38:57.172Z",
   "rules": {
     "append_only": true,
     "raw_source_change_is_immutable": true,
@@ -50686,6 +50686,46 @@
           }
         ],
         "delta_hash": "0fa8dae98a2c92484dae6a9322d2bd617282bc13301572c561365e174f94b5a8"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-PM-MEDIA-20261113223824",
+      "source_change_event_id": "CHG-WATCH-PM-MEDIA-20261113223824",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-PM-MEDIA-20261113223824",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Prime Minister of Australia — media added 1 structured publication record to its forward-captured official index: COP31 Australia Investor Roundtable",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-11-13T22:38:57.172Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "5a8f5542c479dd6f30fd",
+            "title": "COP31 Australia Investor Roundtable",
+            "url": "https://www.pm.gov.au/media/cop31-australia-investor-roundtable"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "7983331f6682de159f16",
+            "title": "Press conference - National Situation Room",
+            "url": "https://www.pm.gov.au/media/press-conference-national-situation-room"
+          }
+        ],
+        "delta_hash": "fbf60e3efcff5e5a503a980ac42b4d1f6cfee4d6f65efcc68dbaa208a44cb301"
       },
       "integrity": {
         "source_change_unchanged": true,

@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-INTELLIGENCE-EVENTS-001",
   "scope": "Australia — multi-jurisdiction",
-  "captured_at": "2026-11-13T16:26:04.529Z",
+  "captured_at": "2026-11-13T22:39:01.984Z",
   "mode": "FORWARD_ONLY",
   "rules": {
     "observation_distinct_from_inference": true,
@@ -139938,6 +139938,160 @@
       "projection_effect": "NO_EFFECT",
       "information_advantage": "NONE",
       "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-PM-MEDIA-20261113223824",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-FED",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-PM-MEDIA-20261113223824",
+      "captured_at": "2026-11-13T22:38:24.885Z",
+      "event_date": "2026-11-14",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-PM-MEDIA",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "review_policy": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-PM-MEDIA-20261113075852",
+        "content_hash": "91b291ff3b0b1b78014abdb85155ebff5dfd3bec85663fd488245b8b2d4a4adb",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-PM-MEDIA-20261113223824",
+        "content_hash": "73a6bf057d1602649e7f24f8b01b90f66f1343fe97288b1af794dbe658fb034d",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "STRUCTURED_RECORD_SET",
+        "records_added": [
+          {
+            "record_id": "5a8f5542c479dd6f30fd",
+            "title": "COP31 Australia Investor Roundtable",
+            "url": "https://www.pm.gov.au/media/cop31-australia-investor-roundtable"
+          }
+        ],
+        "records_removed": [
+          {
+            "record_id": "7983331f6682de159f16",
+            "title": "Press conference - National Situation Room",
+            "url": "https://www.pm.gov.au/media/press-conference-national-situation-room"
+          }
+        ],
+        "added_count": 1,
+        "removed_count": 1,
+        "before_count": 27,
+        "after_count": 27,
+        "delta_hash": "fbf60e3efcff5e5a503a980ac42b4d1f6cfee4d6f65efcc68dbaa208a44cb301"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-VEC-2026-STATE-ELECTION-20261113223824",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-VIC",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-VEC-2026-STATE-ELECTION-20261113223824",
+      "captured_at": "2026-11-13T22:38:24.885Z",
+      "event_date": "2026-11-14",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_ELECTORAL_AUTHORITY",
+      "source_id": "SRC-VEC-2026-STATE-ELECTION",
+      "capture_mode": "NORMALISED_PAGE_HASH",
+      "review_policy": "REVIEW_UNSTRUCTURED_CHANGE",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-VEC-2026-STATE-ELECTION-20261113075852",
+        "content_hash": "ff0697085cb976558ecd4dca300139ae2cb41508385ea482123e0c018bbba5b1",
+        "capture_mode": "NORMALISED_PAGE_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-VEC-2026-STATE-ELECTION-20261113223824",
+        "content_hash": "9e0ec4e63c80a09bc83523e4411bd58e935a47f47f7c9e24432a8e122ceeb616",
+        "capture_mode": "NORMALISED_PAGE_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "TEXT_REPRESENTATION",
+        "first_difference_offset": 7119,
+        "before_length": 21564,
+        "after_length": 21414,
+        "before_excerpt": "nual returns Registered political parties Associated entities Independents and groups Third-party campaigners Languages Our email services are currently down due to the global Microsoft outage. There are other ways to contact us on our Contact us page. Close Contact us Back to Voting Home Voting 2026 state election On this page 2026 state election Listen On Saturday 28 November, Victoria",
+        "after_excerpt": "nual returns Registered political parties Associated entities Independents and groups Third-party campaigners Languages Back to Voting Home Voting 2026 state election On this page 2026 state election Listen On Saturday 28 November, Victoria",
+        "delta_hash": "82ba821f43a6700a5a41305b6679e103c10e8e63c0e45809dac926e8ee2a24b6"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "SIG-REV-CHG-WATCH-PM-MEDIA-20261113223824",
+      "parent_event_id": "CHG-WATCH-PM-MEDIA-20261113223824",
+      "review_id": "REV-CHG-WATCH-PM-MEDIA-20261113223824",
+      "jurisdiction_id": "AUS-FED",
+      "party_id": null,
+      "actor_id": null,
+      "contest_id": null,
+      "cycle_id": null,
+      "source_snapshot_id": "AUTO-WATCH-PM-MEDIA-20261113223824",
+      "record_id": "5a8f5542c479dd6f30fd",
+      "captured_at": "2026-11-13T22:38:57.172Z",
+      "event_date": "2026-11-14",
+      "checkpoint": "CONTINUOUS_FORWARD_SIGNAL_REVIEW",
+      "event_type": "SIGNAL_CREATED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-PM-MEDIA",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "claim": "Prime Minister of Australia — media added 1 structured publication record to its forward-captured official index: COP31 Australia Investor Roundtable",
+      "observed_behaviour": "One or more structured publication records appeared in the monitored official source index after the preceding forward snapshot.",
+      "publication_records_added": [
+        {
+          "record_id": "5a8f5542c479dd6f30fd",
+          "title": "COP31 Australia Investor Roundtable",
+          "url": "https://www.pm.gov.au/media/cop31-australia-investor-roundtable"
+        }
+      ],
+      "publication_records_removed": [
+        {
+          "record_id": "7983331f6682de159f16",
+          "title": "Press conference - National Situation Room",
+          "url": "https://www.pm.gov.au/media/press-conference-national-situation-room"
+        }
+      ],
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "underlying_publication_claims_not_promoted_to_verified_fact": true,
+        "source_change_parent_retained": true,
+        "deterministic_review": true
+      }
     }
   ]
 }

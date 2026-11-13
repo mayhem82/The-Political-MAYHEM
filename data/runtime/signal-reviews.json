@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-SIGNAL-REVIEWS-001",
   "created_at": "2026-09-09T05:05:00+10:00",
-  "updated_at": "2026-11-12T18:57:21.759Z",
+  "updated_at": "2026-11-13T07:59:26.399Z",
   "rules": {
     "append_only": true,
     "raw_source_change_is_immutable": true,
@@ -50302,6 +50302,390 @@
           }
         ],
         "delta_hash": "c3f2121e52cd1c052d404a19a296a8f9cbe7a54a94dc5230a20a7e3e5eb8f812"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-PM-MEDIA-20261113075852",
+      "source_change_event_id": "CHG-WATCH-PM-MEDIA-20261113075852",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-PM-MEDIA-20261113075852",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Prime Minister of Australia — media added 3 structured publication records to its forward-captured official index: Press conference - Antalya, Turkiye; Pacific Resilience Facility showcase; COP31 spotlight on the Pacific Resilience Facility",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-11-13T07:59:26.399Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "1835ec9a31807bea18a7",
+            "title": "Press conference - Antalya, Turkiye",
+            "url": "https://www.pm.gov.au/media/press-conference-antalya-turkiye"
+          },
+          {
+            "record_id": "a182d91d16ebcdca9df8",
+            "title": "Pacific Resilience Facility showcase",
+            "url": "https://www.pm.gov.au/media/pacific-resilience-facility-showcase"
+          },
+          {
+            "record_id": "e645cf5336eabba9c546",
+            "title": "COP31 spotlight on the Pacific Resilience Facility",
+            "url": "https://www.pm.gov.au/media/cop31-spotlight-pacific-resilience-facility"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "5d02003c8c9f088ede56",
+            "title": "Press conference - Victoria Barracks Sydney",
+            "url": "https://www.pm.gov.au/media/press-conference-victoria-barracks-sydney"
+          },
+          {
+            "record_id": "8f818d2a60add9b8fe05",
+            "title": "First update on the Defence Estate Audit",
+            "url": "https://www.pm.gov.au/media/first-update-defence-estate-audit"
+          },
+          {
+            "record_id": "a426a2b29a419de9880e",
+            "title": "Preparing for high-risk weather season",
+            "url": "https://www.pm.gov.au/media/preparing-high-risk-weather-season"
+          }
+        ],
+        "delta_hash": "d5f95583967eb34b0b8ade286dc8533794b59d91bd386177857684f7dd3924fa"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-GREENS-FEDERAL-MEDIA-20261113075852",
+      "source_change_event_id": "CHG-WATCH-GREENS-FEDERAL-MEDIA-20261113075852",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-GREENS-FEDERAL-MEDIA-20261113075852",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": "AUS-FED-GRN",
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Australian Greens — Federal MPs media releases added 2 structured publication records to its forward-captured official index: Backpacker backflip shows the cost of chasing the far-right on immigration; Read more about Backpacker backflip shows the cost of chasing the far-right on immigration",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-11-13T07:59:26.399Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "8f20aae8bdd7549b9581",
+            "title": "Backpacker backflip shows the cost of chasing the far-right on immigration",
+            "url": "https://greens.org.au/news/media-release/backpacker-backflip-shows-cost-chasing-far-right-immigration"
+          },
+          {
+            "record_id": "94fa4f3a869e5ab78f20",
+            "title": "Read more about Backpacker backflip shows the cost of chasing the far-right on immigration",
+            "url": "https://greens.org.au/news/media-release/backpacker-backflip-shows-cost-chasing-far-right-immigration"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "3a4be111700d198ca739",
+            "title": "Read more about Labor’s review into KPMG just more tinkering",
+            "url": "https://greens.org.au/news/media-release/labors-review-kpmg-just-more-tinkering"
+          },
+          {
+            "record_id": "f7058891c5e78b46fd26",
+            "title": "Labor’s review into KPMG just more tinkering",
+            "url": "https://greens.org.au/news/media-release/labors-review-kpmg-just-more-tinkering"
+          }
+        ],
+        "delta_hash": "b51750d07bd235a0ec8d8a1a409f061e4b04f19b5cf9ef1a3ff0a4a9da9cd95a"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-NSW-MINISTERIAL-RELEASES-20261113075852",
+      "source_change_event_id": "CHG-WATCH-NSW-MINISTERIAL-RELEASES-20261113075852",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-NSW-MINISTERIAL-RELEASES-20261113075852",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "NSW Government — Ministerial releases added 6 structured publication records to its forward-captured official index: First look revealed for new Narrabeen Ambulance Station; Urgent Care Service to deliver services in Forster-Tuncurry; Minns Labor Government backs NSW small business innovators with $3 million; More procedures now being offered as day surgery; Have your say: flood-safe rezoning to unlock up to 230 homes in Murwillumbah; +1 more",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-11-13T07:59:26.399Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "0cd89037c50f7ce84741",
+            "title": "First look revealed for new Narrabeen Ambulance Station",
+            "url": "https://www.nsw.gov.au/ministerial-releases/first-look-revealed-for-new-narrabeen-ambulance-station"
+          },
+          {
+            "record_id": "2bdb6fa3655fed49766d",
+            "title": "Urgent Care Service to deliver services in Forster-Tuncurry",
+            "url": "https://www.nsw.gov.au/ministerial-releases/first-urgent-care-service-forster-tuncurry"
+          },
+          {
+            "record_id": "79b867cd2f45248642bd",
+            "title": "Minns Labor Government backs NSW small business innovators with $3 million",
+            "url": "https://www.nsw.gov.au/ministerial-releases/minns-labor-government-backs-nsw-small-business-innovators-3-million"
+          },
+          {
+            "record_id": "8880effdc17be340d644",
+            "title": "More procedures now being offered as day surgery",
+            "url": "https://www.nsw.gov.au/ministerial-releases/more-procedures-offered-as-day-surgery"
+          },
+          {
+            "record_id": "a31f195c62be5d947be8",
+            "title": "Have your say: flood-safe rezoning to unlock up to 230 homes in Murwillumbah",
+            "url": "https://www.nsw.gov.au/ministerial-releases/have-your-say-flood-safe-rezoning-to-unlock-up-to-230-homes-murwillumbah"
+          },
+          {
+            "record_id": "d2950ba68cddd9442fe7",
+            "title": "Minns Labor Government helps Southwest Sydney students kick-start careers in trades and skilled industries",
+            "url": "https://www.nsw.gov.au/ministerial-releases/minns-labor-government-helps-southwest-sydney-students-kick-start-careers-trades-and-skilled-industries"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "0419a2487bb45e24f2b3",
+            "title": "Reforms to protect sexual assault complainants pass NSW Parliament",
+            "url": "https://www.nsw.gov.au/ministerial-releases/reforms-to-protect-sexual-assault-complainants-pass-nsw-parliament"
+          },
+          {
+            "record_id": "3ab09e1ec2fd84981bfc",
+            "title": "Safer roads for the North Coast as Bruxner Highway upgrades begin between Ballina and Lismore",
+            "url": "https://www.nsw.gov.au/ministerial-releases/safer-roads-for-north-coast-as-bruxner-highway-upgrades-begin-between-ballina-and-lismore"
+          },
+          {
+            "record_id": "44dcb20cee3ca3ceb3b9",
+            "title": "Construction underway on new public school and public early learning in Sydney’s North West",
+            "url": "https://www.nsw.gov.au/ministerial-releases/construction-underway-on-new-public-school-and-public-early-learning-sydneys-north-west"
+          },
+          {
+            "record_id": "52c0b512a51e0e36ca17",
+            "title": "NSW Ambulance strengthens multi-agency rescue capability with world-first rescue ambulances",
+            "url": "https://www.nsw.gov.au/ministerial-releases/nsw-ambulance-strengthens-multi-agency-rescue-capability-world-first-rescue-ambulances"
+          },
+          {
+            "record_id": "587d6eb7a984e894219c",
+            "title": "Tragic passing of Izzy Neale",
+            "url": "https://www.nsw.gov.au/ministerial-releases/tragic-passing-of-izzy-neale"
+          },
+          {
+            "record_id": "e2a1aba4a057e3a554f3",
+            "title": "Remembrance Day an opportunity to pause and reflect",
+            "url": "https://www.nsw.gov.au/ministerial-releases/remembrance-day-an-opportunity-to-pause-and-reflect"
+          }
+        ],
+        "delta_hash": "d47d867488ddfc496a8b20b2fe90c2328dfb8925bae6415115af47137499da84"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-NSWEC-MEDIA-20261113075852",
+      "source_change_event_id": "CHG-WATCH-NSWEC-MEDIA-20261113075852",
+      "decision": "EXCLUDED_AS_NON_SIGNAL",
+      "signal_event_id": null,
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": null,
+      "materiality_state": "IMMATERIAL",
+      "claim": "Structured publication-index change contained removals only. It is retained as a raw source change but is not automatically promoted into a political signal.",
+      "review_basis": "Deterministic review policy excludes removal-only index changes because disappearance from an index does not establish a political event, reversal or substantive fact.",
+      "reviewed_at": "2026-11-13T07:59:26.399Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [],
+        "removed_records": [
+          {
+            "record_id": "0144bab8a958197251f7",
+            "title": "arrow_forward Learn more",
+            "url": "https://elections.nsw.gov.au/service-maintenance-schedule"
+          }
+        ],
+        "delta_hash": "946ed7b594c9d469bf61755d3fd11c527c91cc3ccc76d66289cce6c4c498d50e"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261113075852",
+      "source_change_event_id": "CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261113075852",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261113075852",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Queensland Government — Ministerial Media Statements added 12 structured publication records to its forward-captured official index: Major milestone as work starts on key Springbrook transformation; Hope restored with 19 Supported Homes delivered for Logan; Construction to begin on major safety upgrades at Rungoo; New CT scanner delivers health services when Ingham needs them; Thousands of jobs secured with major investment in Weipa bauxite project; +7 more",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-11-13T07:59:26.399Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "37bb16e16229052fd0f4",
+            "title": "Major milestone as work starts on key Springbrook transformation",
+            "url": "https://statements.qld.gov.au/statements/106404"
+          },
+          {
+            "record_id": "42776e14b762d92b2047",
+            "title": "Hope restored with 19 Supported Homes delivered for Logan",
+            "url": "https://statements.qld.gov.au/statements/106411"
+          },
+          {
+            "record_id": "55bb25c6c125525e653c",
+            "title": "Construction to begin on major safety upgrades at Rungoo",
+            "url": "https://statements.qld.gov.au/statements/106419"
+          },
+          {
+            "record_id": "5edf855f85e0973bb3a9",
+            "title": "New CT scanner delivers health services when Ingham needs them",
+            "url": "https://statements.qld.gov.au/statements/106425"
+          },
+          {
+            "record_id": "6b31649744563072f3fa",
+            "title": "Thousands of jobs secured with major investment in Weipa bauxite project",
+            "url": "https://statements.qld.gov.au/statements/106421"
+          },
+          {
+            "record_id": "7ef7f81b02ff169ee1e5",
+            "title": "Queensland technology to drive beef industry innovation and sustainable cattle production",
+            "url": "https://statements.qld.gov.au/statements/106422"
+          },
+          {
+            "record_id": "9d9c52924f5a7ff1ca74",
+            "title": "Port Hinchinbrook dredging starts to unlock tourism opportunities",
+            "url": "https://statements.qld.gov.au/statements/106424"
+          },
+          {
+            "record_id": "b808d4a9e13cacb2eccc",
+            "title": "New homes fast tracked across Western Queensland",
+            "url": "https://statements.qld.gov.au/statements/106412"
+          },
+          {
+            "record_id": "ba4b89a287651cd914a6",
+            "title": "First step toward new critical minerals research centre in Mount Isa",
+            "url": "https://statements.qld.gov.au/statements/106418"
+          },
+          {
+            "record_id": "c28a493c30ea938f6eb2",
+            "title": "Aerospace jobs backed with Caloundra Aerodrome Priority Development Area",
+            "url": "https://statements.qld.gov.au/statements/106413"
+          },
+          {
+            "record_id": "daf836d09382a3c58a5a",
+            "title": "Backing local road safety champions to save lives on Queensland roads",
+            "url": "https://statements.qld.gov.au/statements/106408"
+          },
+          {
+            "record_id": "e6bc87cd55ec108b03c4",
+            "title": "Historic Binna Burra reopens after bushfire rebuild",
+            "url": "https://statements.qld.gov.au/statements/106407"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "0787aad2112f4e67cb2c",
+            "title": "Community Feedback gets The Wave to Another Key Milestone",
+            "url": "https://statements.qld.gov.au/statements/106396"
+          },
+          {
+            "record_id": "0f0d706024793774de38",
+            "title": "Landmark blueprint for Cape York and Torres Strait",
+            "url": "https://statements.qld.gov.au/statements/106397"
+          },
+          {
+            "record_id": "13543c96c37d31569108",
+            "title": "Special Constables program expanded to bolster police frontline",
+            "url": "https://statements.qld.gov.au/statements/106356"
+          },
+          {
+            "record_id": "229ed815bb8237431a91",
+            "title": "Hervey Bay Youth Foyer a step closer to reality",
+            "url": "https://statements.qld.gov.au/statements/106393"
+          },
+          {
+            "record_id": "2d893cb522b028dc52e6",
+            "title": "Service Queensland App expands to include seniors, carers and companions",
+            "url": "https://statements.qld.gov.au/statements/106395"
+          },
+          {
+            "record_id": "6429e110e9afb67f9276",
+            "title": "Hundreds of jobs secured as New Burton Coal Mine officially reopened",
+            "url": "https://statements.qld.gov.au/statements/106410"
+          },
+          {
+            "record_id": "6bf3fa49d664396067a8",
+            "title": "37 Supported Accommodation projects to break the cycle of homelessness",
+            "url": "https://statements.qld.gov.au/statements/106381"
+          },
+          {
+            "record_id": "92157bafbcf545cca8e2",
+            "title": "Energy Roadmap delivering lower power prices on Sunshine Coast",
+            "url": "https://statements.qld.gov.au/statements/106403"
+          },
+          {
+            "record_id": "9811f76f7431f87bc7b7",
+            "title": "Burketown Airport officially opens after major upgrade",
+            "url": "https://statements.qld.gov.au/statements/106385"
+          },
+          {
+            "record_id": "ba597c5764fb3124006f",
+            "title": "Funding available for disaster-impacted Queensland sporting clubs",
+            "url": "https://statements.qld.gov.au/statements/106402"
+          },
+          {
+            "record_id": "eac13b3123bd68da27d0",
+            "title": "More real homes delivered on the Gold Coast",
+            "url": "https://statements.qld.gov.au/statements/106417"
+          },
+          {
+            "record_id": "f1cbbb6489929002f563",
+            "title": "New bin lid rollout to drive less landfill, more recycling",
+            "url": "https://statements.qld.gov.au/statements/106394"
+          }
+        ],
+        "delta_hash": "0fa8dae98a2c92484dae6a9322d2bd617282bc13301572c561365e174f94b5a8"
       },
       "integrity": {
         "source_change_unchanged": true,

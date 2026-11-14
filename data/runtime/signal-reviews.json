@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-SIGNAL-REVIEWS-001",
   "created_at": "2026-09-09T05:05:00+10:00",
-  "updated_at": "2026-11-13T22:38:57.172Z",
+  "updated_at": "2026-11-14T10:39:35.809Z",
   "rules": {
     "append_only": true,
     "raw_source_change_is_immutable": true,
@@ -50726,6 +50726,40 @@
           }
         ],
         "delta_hash": "fbf60e3efcff5e5a503a980ac42b4d1f6cfee4d6f65efcc68dbaa208a44cb301"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-NSWEC-MEDIA-20261114103902",
+      "source_change_event_id": "CHG-WATCH-NSWEC-MEDIA-20261114103902",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-NSWEC-MEDIA-20261114103902",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "NSW Electoral Commission — news and media releases added 1 structured publication record to its forward-captured official index: arrow_forward Contact us",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-11-14T10:39:35.809Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "67aeea19cf37f628d283",
+            "title": "arrow_forward Contact us",
+            "url": "https://elections.nsw.gov.au/contact-us"
+          }
+        ],
+        "removed_records": [],
+        "delta_hash": "1c97fd4ae56bea49ec7c30ecee6784acd02c3138363bca4ec1d3c1ccfb3ea014"
       },
       "integrity": {
         "source_change_unchanged": true,

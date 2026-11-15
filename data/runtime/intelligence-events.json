@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-INTELLIGENCE-EVENTS-001",
   "scope": "Australia — multi-jurisdiction",
-  "captured_at": "2026-11-14T17:10:07.802Z",
+  "captured_at": "2026-11-15T01:56:58.815Z",
   "mode": "FORWARD_ONLY",
   "rules": {
     "observation_distinct_from_inference": true,
@@ -140234,6 +140234,114 @@
       "projection_effect": "NO_EFFECT",
       "information_advantage": "NONE",
       "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261115015617",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-QLD",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-QLD-MINISTERIAL-STATEMENTS-20261115015617",
+      "captured_at": "2026-11-15T01:56:17.527Z",
+      "event_date": "2026-11-15",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-QLD-MINISTERIAL-STATEMENTS",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "review_policy": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-QLD-MINISTERIAL-STATEMENTS-20261113075852",
+        "content_hash": "e7e86d8ce99088e488d30ee50821bf94e33e38255e96e9dcf113908bdc033e98",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-QLD-MINISTERIAL-STATEMENTS-20261115015617",
+        "content_hash": "73def20ee970e5e4cbfd17c3d11c69d404ef3119d995948eb16c6ec0872e19f7",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "STRUCTURED_RECORD_SET",
+        "records_added": [
+          {
+            "record_id": "6f28c5c5857983f96346",
+            "title": "Gather Brisbane selected to bring new Gabba arena and precinct to life",
+            "url": "https://statements.qld.gov.au/statements/106431"
+          }
+        ],
+        "records_removed": [
+          {
+            "record_id": "37bb16e16229052fd0f4",
+            "title": "Major milestone as work starts on key Springbrook transformation",
+            "url": "https://statements.qld.gov.au/statements/106404"
+          }
+        ],
+        "added_count": 1,
+        "removed_count": 1,
+        "before_count": 16,
+        "after_count": 16,
+        "delta_hash": "245beb49bac12eb0635c3fffea001f1230953cab659b4f06d042ab78c74bca3d"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "SIG-REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261115015617",
+      "parent_event_id": "CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261115015617",
+      "review_id": "REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261115015617",
+      "jurisdiction_id": "AUS-QLD",
+      "party_id": null,
+      "actor_id": null,
+      "contest_id": null,
+      "cycle_id": null,
+      "source_snapshot_id": "AUTO-WATCH-QLD-MINISTERIAL-STATEMENTS-20261115015617",
+      "record_id": "6f28c5c5857983f96346",
+      "captured_at": "2026-11-15T01:56:51.886Z",
+      "event_date": "2026-11-15",
+      "checkpoint": "CONTINUOUS_FORWARD_SIGNAL_REVIEW",
+      "event_type": "SIGNAL_CREATED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-QLD-MINISTERIAL-STATEMENTS",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "claim": "Queensland Government — Ministerial Media Statements added 1 structured publication record to its forward-captured official index: Gather Brisbane selected to bring new Gabba arena and precinct to life",
+      "observed_behaviour": "One or more structured publication records appeared in the monitored official source index after the preceding forward snapshot.",
+      "publication_records_added": [
+        {
+          "record_id": "6f28c5c5857983f96346",
+          "title": "Gather Brisbane selected to bring new Gabba arena and precinct to life",
+          "url": "https://statements.qld.gov.au/statements/106431"
+        }
+      ],
+      "publication_records_removed": [
+        {
+          "record_id": "37bb16e16229052fd0f4",
+          "title": "Major milestone as work starts on key Springbrook transformation",
+          "url": "https://statements.qld.gov.au/statements/106404"
+        }
+      ],
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "underlying_publication_claims_not_promoted_to_verified_fact": true,
+        "source_change_parent_retained": true,
+        "deterministic_review": true
+      }
     }
   ]
 }

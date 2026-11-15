@@ -1,7 +1,7 @@
 {
   "snapshot_register_id": "POLITICAL-SOURCE-SNAPSHOTS-001",
   "scope": "Australia — multi-jurisdiction",
-  "captured_at": "2026-11-14T17:09:19.943Z",
+  "captured_at": "2026-11-15T01:56:17.527Z",
   "mode": "FORWARD_ONLY",
   "hash_method": "SHA-256",
   "hash_basis": "captured_representation",
@@ -268228,6 +268228,115 @@
       "captured_representation_complete": true,
       "captured_representation_length": 6115,
       "structured_records": null,
+      "notes": "Automated forward capture after source representation changed. Raw source change is preserved separately from semantic signal promotion."
+    },
+    {
+      "snapshot_id": "AUTO-WATCH-QLD-MINISTERIAL-STATEMENTS-20261115015617",
+      "contest_id": null,
+      "cycle_id": null,
+      "source_id": "SRC-QLD-MINISTERIAL-STATEMENTS",
+      "source_registry_snapshot": "FORWARD-SIGNAL-SOURCE-REGISTRY-008",
+      "source_url": "https://statements.qld.gov.au/",
+      "acquisition_url": "https://statements.qld.gov.au/",
+      "requested_acquisition_url": "https://statements.qld.gov.au/",
+      "acquisition_header_profile": "IDENTIFIED_AUTOMATION",
+      "acquisition_content_type": "text/html; charset=utf-8",
+      "source_name": "Queensland Government — Ministerial Media Statements",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "original_source_class": null,
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "published_at": null,
+      "published_date": null,
+      "captured_at": "2026-11-15T01:56:17.527Z",
+      "content_hash": "73def20ee970e5e4cbfd17c3d11c69d404ef3119d995948eb16c6ec0872e19f7",
+      "hash_basis": "COMPLETE_STRUCTURED_PUBLICATION_RECORD_SET",
+      "previous_snapshot_id": "AUTO-WATCH-QLD-MINISTERIAL-STATEMENTS-20261113075852",
+      "public_access": "OPEN",
+      "captured_representation": "[{\"record_id\":\"22f549526f3c13acc7ec\",\"title\":\"Français (Other languages)\",\"url\":\"https://www.qld.gov.au/languages/\"},{\"record_id\":\"42776e14b762d92b2047\",\"title\":\"Hope restored with 19 Supported Homes delivered for Logan\",\"url\":\"https://statements.qld.gov.au/statements/106411\"},{\"record_id\":\"46044cff84355039d636\",\"title\":\"Help and Support\",\"url\":\"https://statements.qld.gov.au/Help\"},{\"record_id\":\"55bb25c6c125525e653c\",\"title\":\"Construction to begin on major safety upgrades at Rungoo\",\"url\":\"https://statements.qld.gov.au/statements/106419\"},{\"record_id\":\"5edf855f85e0973bb3a9\",\"title\":\"New CT scanner delivers health services when Ingham needs them\",\"url\":\"https://statements.qld.gov.au/statements/106425\"},{\"record_id\":\"6b31649744563072f3fa\",\"title\":\"Thousands of jobs secured with major investment in Weipa bauxite project\",\"url\":\"https://statements.qld.gov.au/statements/106421\"},{\"record_id\":\"6f28c5c5857983f96346\",\"title\":\"Gather Brisbane selected to bring new Gabba arena and precinct to life\",\"url\":\"https://statements.qld.gov.au/statements/106431\"},{\"record_id\":\"7382047c0f4e4ad97e00\",\"title\":\"complaints and compliments form\",\"url\":\"https://www.qld.gov.au/contact-us/complaints/\"},{\"record_id\":\"7ef7f81b02ff169ee1e5\",\"title\":\"Queensland technology to drive beef industry innovation and sustainable cattle production\",\"url\":\"https://statements.qld.gov.au/statements/106422\"},{\"record_id\":\"9d9c52924f5a7ff1ca74\",\"title\":\"Port Hinchinbrook dredging starts to unlock tourism opportunities\",\"url\":\"https://statements.qld.gov.au/statements/106424\"},{\"record_id\":\"b808d4a9e13cacb2eccc\",\"title\":\"New homes fast tracked across Western Queensland\",\"url\":\"https://statements.qld.gov.au/statements/106412\"},{\"record_id\":\"ba4b89a287651cd914a6\",\"title\":\"First step toward new critical minerals research centre in Mount Isa\",\"url\":\"https://statements.qld.gov.au/statements/106418\"},{\"record_id\":\"c28a493c30ea938f6eb2\",\"title\":\"Aerospace jobs backed with Caloundra Aerodrome Priority Development Area\",\"url\":\"https://statements.qld.gov.au/statements/106413\"},{\"record_id\":\"daf836d09382a3c58a5a\",\"title\":\"Backing local road safety champions to save lives on Queensland roads\",\"url\":\"https://statements.qld.gov.au/statements/106408\"},{\"record_id\":\"dd7fde88821e2a61f7a1\",\"title\":\"Disclaimer\",\"url\":\"https://www.qld.gov.au/legal/disclaimer/\"},{\"record_id\":\"e6bc87cd55ec108b03c4\",\"title\":\"Historic Binna Burra reopens after bushfire rebuild\",\"url\":\"https://statements.qld.gov.au/statements/106407\"}]",
+      "captured_representation_complete": true,
+      "captured_representation_length": 2491,
+      "structured_records": [
+        {
+          "record_id": "22f549526f3c13acc7ec",
+          "title": "Français (Other languages)",
+          "url": "https://www.qld.gov.au/languages/"
+        },
+        {
+          "record_id": "42776e14b762d92b2047",
+          "title": "Hope restored with 19 Supported Homes delivered for Logan",
+          "url": "https://statements.qld.gov.au/statements/106411"
+        },
+        {
+          "record_id": "46044cff84355039d636",
+          "title": "Help and Support",
+          "url": "https://statements.qld.gov.au/Help"
+        },
+        {
+          "record_id": "55bb25c6c125525e653c",
+          "title": "Construction to begin on major safety upgrades at Rungoo",
+          "url": "https://statements.qld.gov.au/statements/106419"
+        },
+        {
+          "record_id": "5edf855f85e0973bb3a9",
+          "title": "New CT scanner delivers health services when Ingham needs them",
+          "url": "https://statements.qld.gov.au/statements/106425"
+        },
+        {
+          "record_id": "6b31649744563072f3fa",
+          "title": "Thousands of jobs secured with major investment in Weipa bauxite project",
+          "url": "https://statements.qld.gov.au/statements/106421"
+        },
+        {
+          "record_id": "6f28c5c5857983f96346",
+          "title": "Gather Brisbane selected to bring new Gabba arena and precinct to life",
+          "url": "https://statements.qld.gov.au/statements/106431"
+        },
+        {
+          "record_id": "7382047c0f4e4ad97e00",
+          "title": "complaints and compliments form",
+          "url": "https://www.qld.gov.au/contact-us/complaints/"
+        },
+        {
+          "record_id": "7ef7f81b02ff169ee1e5",
+          "title": "Queensland technology to drive beef industry innovation and sustainable cattle production",
+          "url": "https://statements.qld.gov.au/statements/106422"
+        },
+        {
+          "record_id": "9d9c52924f5a7ff1ca74",
+          "title": "Port Hinchinbrook dredging starts to unlock tourism opportunities",
+          "url": "https://statements.qld.gov.au/statements/106424"
+        },
+        {
+          "record_id": "b808d4a9e13cacb2eccc",
+          "title": "New homes fast tracked across Western Queensland",
+          "url": "https://statements.qld.gov.au/statements/106412"
+        },
+        {
+          "record_id": "ba4b89a287651cd914a6",
+          "title": "First step toward new critical minerals research centre in Mount Isa",
+          "url": "https://statements.qld.gov.au/statements/106418"
+        },
+        {
+          "record_id": "c28a493c30ea938f6eb2",
+          "title": "Aerospace jobs backed with Caloundra Aerodrome Priority Development Area",
+          "url": "https://statements.qld.gov.au/statements/106413"
+        },
+        {
+          "record_id": "daf836d09382a3c58a5a",
+          "title": "Backing local road safety champions to save lives on Queensland roads",
+          "url": "https://statements.qld.gov.au/statements/106408"
+        },
+        {
+          "record_id": "dd7fde88821e2a61f7a1",
+          "title": "Disclaimer",
+          "url": "https://www.qld.gov.au/legal/disclaimer/"
+        },
+        {
+          "record_id": "e6bc87cd55ec108b03c4",
+          "title": "Historic Binna Burra reopens after bushfire rebuild",
+          "url": "https://statements.qld.gov.au/statements/106407"
+        }
+      ],
       "notes": "Automated forward capture after source representation changed. Raw source change is preserved separately from semantic signal promotion."
     }
   ]

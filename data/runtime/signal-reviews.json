@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-SIGNAL-REVIEWS-001",
   "created_at": "2026-09-09T05:05:00+10:00",
-  "updated_at": "2026-11-15T01:56:51.886Z",
+  "updated_at": "2026-11-15T09:27:50.932Z",
   "rules": {
     "append_only": true,
     "raw_source_change_is_immutable": true,
@@ -50800,6 +50800,76 @@
           }
         ],
         "delta_hash": "245beb49bac12eb0635c3fffea001f1230953cab659b4f06d042ab78c74bca3d"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-PM-MEDIA-20261115092716",
+      "source_change_event_id": "CHG-WATCH-PM-MEDIA-20261115092716",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-PM-MEDIA-20261115092716",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Prime Minister of Australia — media added 4 structured publication records to its forward-captured official index: Enhancing defence cooperation and maritime security in Southeast Asia; Press conference - Manila, Philippines; Remarks - Manila, Philippines; Jollibee coming to Australia",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-11-15T09:27:50.932Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "3918f86c4a10b3a767db",
+            "title": "Enhancing defence cooperation and maritime security in Southeast Asia",
+            "url": "https://www.pm.gov.au/media/enhancing-defence-cooperation-and-maritime-security-southeast-asia"
+          },
+          {
+            "record_id": "4c37a38a8de618f5b404",
+            "title": "Press conference - Manila, Philippines",
+            "url": "https://www.pm.gov.au/media/press-conference-manila-philippines"
+          },
+          {
+            "record_id": "a2f236a86e2e8f6f71d4",
+            "title": "Remarks - Manila, Philippines",
+            "url": "https://www.pm.gov.au/media/remarks-manila-philippines"
+          },
+          {
+            "record_id": "fd27db5c2cd8e7c50589",
+            "title": "Jollibee coming to Australia",
+            "url": "https://www.pm.gov.au/media/jollibee-coming-australia"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "9c962762dbf6e27ccd9c",
+            "title": "Press conference - Parliament House, Canberra",
+            "url": "https://www.pm.gov.au/media/press-conference-parliament-house-canberra-55"
+          },
+          {
+            "record_id": "c2595c9c12d0902d498d",
+            "title": "New Australian AI safety and security protections",
+            "url": "https://www.pm.gov.au/media/new-australian-ai-safety-and-security-protections"
+          },
+          {
+            "record_id": "d2873d88016f39ec40ea",
+            "title": "Advancing Australia&#039;s national interest",
+            "url": "https://www.pm.gov.au/media/advancing-australias-national-interest"
+          },
+          {
+            "record_id": "f87ae272e5f52cb335ad",
+            "title": "Strengthening Australia against AI-driven cyber incidents",
+            "url": "https://www.pm.gov.au/media/strengthening-australia-against-ai-driven-cyber-incidents"
+          }
+        ],
+        "delta_hash": "48584b4315dda7bdd1f92a96acb66a308efe3d33da931225ba5021be6d75eb3e"
       },
       "integrity": {
         "source_change_unchanged": true,

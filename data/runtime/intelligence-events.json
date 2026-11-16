@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-INTELLIGENCE-EVENTS-001",
   "scope": "Australia — multi-jurisdiction",
-  "captured_at": "2026-11-15T17:12:42.199Z",
+  "captured_at": "2026-11-16T02:10:01.204Z",
   "mode": "FORWARD_ONLY",
   "rules": {
     "observation_distinct_from_inference": true,
@@ -140602,6 +140602,511 @@
       "projection_effect": "NO_EFFECT",
       "information_advantage": "NONE",
       "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-APH-BILLS-20261116020923",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-FED",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-APH-BILLS-20261116020923",
+      "captured_at": "2026-11-16T02:09:23.129Z",
+      "event_date": "2026-11-16",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_PARLIAMENT",
+      "source_id": "SRC-APH-BILLS",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "review_policy": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-APH-BILLS-20261106175801",
+        "content_hash": "1f0e29632feebe18d01d7e088d8825e944900ad7868cad6264d9e1f6c2cc8d90",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-APH-BILLS-20261116020923",
+        "content_hash": "bf06519213b49e5d40961be34e523e774e10b29b72c41fdf17a6b3cf8b6be121",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "STRUCTURED_RECORD_SET",
+        "records_added": [
+          {
+            "record_id": "5dfdb0f54589f88ce831",
+            "title": "Social Security and Other Legislation Amendment (T...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7515"
+          },
+          {
+            "record_id": "6a8c24adf037db28b31b",
+            "title": "Anti-Money Laundering and Counter-Terrorism Financ...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7448"
+          },
+          {
+            "record_id": "73dd523fe50b553bd491",
+            "title": "Administrative and Judicial Review Legislation Ame...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7516"
+          }
+        ],
+        "records_removed": [
+          {
+            "record_id": "461afefea358cd8e9eb7",
+            "title": "Domestic Gas Reservation Bill 2026",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7559"
+          },
+          {
+            "record_id": "b98f3e86ec1e5dbdfd21",
+            "title": "Treasury Laws Amendment (Tax Reform No. 4) Bill 20...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7566"
+          },
+          {
+            "record_id": "c319a14d6df0e73e4b13",
+            "title": "Income Tax Rates Amendment (Minimum Tax on Discret...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7555"
+          }
+        ],
+        "added_count": 3,
+        "removed_count": 3,
+        "before_count": 96,
+        "after_count": 96,
+        "delta_hash": "ebeb696c49c712e32b3b818590d963b43ff02418809de36033234ab80ae866ab"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-ALP-NEWS-20261116020923",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-FED",
+      "party_id": "AUS-FED-ALP",
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-ALP-NEWS-20261116020923",
+      "captured_at": "2026-11-16T02:09:23.129Z",
+      "event_date": "2026-11-16",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_PARTY",
+      "source_id": "SRC-ALP-FEDERAL-NEWS",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "review_policy": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-ALP-NEWS-20261108234342",
+        "content_hash": "78f7b63ca4cdab57cd410481d48bae886aefc3a5b21ac700f4b9e86c57e5e24f",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-ALP-NEWS-20261116020923",
+        "content_hash": "c74b4040e554a66f890ff0ee247c69a4ed3a32c716544698501121e6ef7155e5",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "STRUCTURED_RECORD_SET",
+        "records_added": [
+          {
+            "record_id": "7861cbc0028954db4fc0",
+            "title": "New crisis housing for young mothers in Brisbane 16 November 2026",
+            "url": "https://www.alp.org.au/news/all-news/new-crisis-housing-for-young-mothers-in-brisbane/"
+          }
+        ],
+        "records_removed": [],
+        "added_count": 1,
+        "removed_count": 0,
+        "before_count": 501,
+        "after_count": 502,
+        "delta_hash": "b1be087955cceee35d7d08f1ce239e5b8f9d80eafcab6d082e39fd9b6214e979"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-NSWEC-MEDIA-20261116020923",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-NSW",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-NSWEC-MEDIA-20261116020923",
+      "captured_at": "2026-11-16T02:09:23.129Z",
+      "event_date": "2026-11-16",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_ELECTORAL_AUTHORITY",
+      "source_id": "SRC-NSWEC-MEDIA",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "review_policy": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-NSWEC-MEDIA-20261114103902",
+        "content_hash": "ed5c1cc15164792d57bcb26f8d3ab4744cbb568d9e5650cb114591dddb483588",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-NSWEC-MEDIA-20261116020923",
+        "content_hash": "343f2c10c5cb29eac056abbeabd2c8b24e9010f5f64b2dd20657705f41760ed7",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "STRUCTURED_RECORD_SET",
+        "records_added": [],
+        "records_removed": [
+          {
+            "record_id": "67aeea19cf37f628d283",
+            "title": "arrow_forward Contact us",
+            "url": "https://elections.nsw.gov.au/contact-us"
+          }
+        ],
+        "added_count": 0,
+        "removed_count": 1,
+        "before_count": 366,
+        "after_count": 365,
+        "delta_hash": "45a8925555c11ebacccf599569e9c0f64572a5fd271c07b61f1625340b59a7f5"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261116020923",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-QLD",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-QLD-MINISTERIAL-STATEMENTS-20261116020923",
+      "captured_at": "2026-11-16T02:09:23.129Z",
+      "event_date": "2026-11-16",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-QLD-MINISTERIAL-STATEMENTS",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "review_policy": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-QLD-MINISTERIAL-STATEMENTS-20261115015617",
+        "content_hash": "73def20ee970e5e4cbfd17c3d11c69d404ef3119d995948eb16c6ec0872e19f7",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-QLD-MINISTERIAL-STATEMENTS-20261116020923",
+        "content_hash": "41da11b98082233c74108a7a0b4ab1cc83b4faedc2520dff3638281bb7b9fbeb",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "STRUCTURED_RECORD_SET",
+        "records_added": [
+          {
+            "record_id": "24c3a08230f2af94112f",
+            "title": "Sunshine Coast Youth Foyer gains momentum",
+            "url": "https://statements.qld.gov.au/statements/106435"
+          },
+          {
+            "record_id": "8b609590cf2d86d00c56",
+            "title": "Community invited to help shape the future of Bowen State Harbour",
+            "url": "https://statements.qld.gov.au/statements/106436"
+          },
+          {
+            "record_id": "ab02d610e44e3ed0532f",
+            "title": "Next Stop: Harbour Town Gold Coast Light Rail extension moving ahead",
+            "url": "https://statements.qld.gov.au/statements/106434"
+          },
+          {
+            "record_id": "ae47917ca8cce2c5dc7d",
+            "title": "Magic Round kicks another goal for Queensland",
+            "url": "https://statements.qld.gov.au/statements/106433"
+          },
+          {
+            "record_id": "c4232c071c295cff703b",
+            "title": "Early works begin for new and improved Gin Gin rest area",
+            "url": "https://statements.qld.gov.au/statements/106439"
+          },
+          {
+            "record_id": "db5e8b33c26c653dce1d",
+            "title": "Community invited to help shape the future of Urangan State Harbour",
+            "url": "https://statements.qld.gov.au/statements/106429"
+          }
+        ],
+        "records_removed": [
+          {
+            "record_id": "5edf855f85e0973bb3a9",
+            "title": "New CT scanner delivers health services when Ingham needs them",
+            "url": "https://statements.qld.gov.au/statements/106425"
+          },
+          {
+            "record_id": "6b31649744563072f3fa",
+            "title": "Thousands of jobs secured with major investment in Weipa bauxite project",
+            "url": "https://statements.qld.gov.au/statements/106421"
+          },
+          {
+            "record_id": "9d9c52924f5a7ff1ca74",
+            "title": "Port Hinchinbrook dredging starts to unlock tourism opportunities",
+            "url": "https://statements.qld.gov.au/statements/106424"
+          },
+          {
+            "record_id": "b808d4a9e13cacb2eccc",
+            "title": "New homes fast tracked across Western Queensland",
+            "url": "https://statements.qld.gov.au/statements/106412"
+          },
+          {
+            "record_id": "c28a493c30ea938f6eb2",
+            "title": "Aerospace jobs backed with Caloundra Aerodrome Priority Development Area",
+            "url": "https://statements.qld.gov.au/statements/106413"
+          },
+          {
+            "record_id": "e6bc87cd55ec108b03c4",
+            "title": "Historic Binna Burra reopens after bushfire rebuild",
+            "url": "https://statements.qld.gov.au/statements/106407"
+          }
+        ],
+        "added_count": 6,
+        "removed_count": 6,
+        "before_count": 16,
+        "after_count": 16,
+        "delta_hash": "e82c81e19a7d1692da2d068c71035a2f1da53a7b22cb92da3454272141235f40"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "SIG-REV-CHG-WATCH-APH-BILLS-20261116020923",
+      "parent_event_id": "CHG-WATCH-APH-BILLS-20261116020923",
+      "review_id": "REV-CHG-WATCH-APH-BILLS-20261116020923",
+      "jurisdiction_id": "AUS-FED",
+      "party_id": null,
+      "actor_id": null,
+      "contest_id": null,
+      "cycle_id": null,
+      "source_snapshot_id": "AUTO-WATCH-APH-BILLS-20261116020923",
+      "record_id": null,
+      "captured_at": "2026-11-16T02:09:57.306Z",
+      "event_date": "2026-11-16",
+      "checkpoint": "CONTINUOUS_FORWARD_SIGNAL_REVIEW",
+      "event_type": "SIGNAL_CREATED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_PARLIAMENT",
+      "source_id": "SRC-APH-BILLS",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "claim": "Parliament of Australia — Bills and Legislation added 3 structured publication records to its forward-captured official index: Social Security and Other Legislation Amendment (T...; Anti-Money Laundering and Counter-Terrorism Financ...; Administrative and Judicial Review Legislation Ame...",
+      "observed_behaviour": "One or more structured publication records appeared in the monitored official source index after the preceding forward snapshot.",
+      "publication_records_added": [
+        {
+          "record_id": "5dfdb0f54589f88ce831",
+          "title": "Social Security and Other Legislation Amendment (T...",
+          "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7515"
+        },
+        {
+          "record_id": "6a8c24adf037db28b31b",
+          "title": "Anti-Money Laundering and Counter-Terrorism Financ...",
+          "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7448"
+        },
+        {
+          "record_id": "73dd523fe50b553bd491",
+          "title": "Administrative and Judicial Review Legislation Ame...",
+          "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7516"
+        }
+      ],
+      "publication_records_removed": [
+        {
+          "record_id": "461afefea358cd8e9eb7",
+          "title": "Domestic Gas Reservation Bill 2026",
+          "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7559"
+        },
+        {
+          "record_id": "b98f3e86ec1e5dbdfd21",
+          "title": "Treasury Laws Amendment (Tax Reform No. 4) Bill 20...",
+          "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7566"
+        },
+        {
+          "record_id": "c319a14d6df0e73e4b13",
+          "title": "Income Tax Rates Amendment (Minimum Tax on Discret...",
+          "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7555"
+        }
+      ],
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "underlying_publication_claims_not_promoted_to_verified_fact": true,
+        "source_change_parent_retained": true,
+        "deterministic_review": true
+      }
+    },
+    {
+      "event_id": "SIG-REV-CHG-WATCH-ALP-NEWS-20261116020923",
+      "parent_event_id": "CHG-WATCH-ALP-NEWS-20261116020923",
+      "review_id": "REV-CHG-WATCH-ALP-NEWS-20261116020923",
+      "jurisdiction_id": "AUS-FED",
+      "party_id": "AUS-FED-ALP",
+      "actor_id": null,
+      "contest_id": null,
+      "cycle_id": null,
+      "source_snapshot_id": "AUTO-WATCH-ALP-NEWS-20261116020923",
+      "record_id": "7861cbc0028954db4fc0",
+      "captured_at": "2026-11-16T02:09:57.306Z",
+      "event_date": "2026-11-16",
+      "checkpoint": "CONTINUOUS_FORWARD_SIGNAL_REVIEW",
+      "event_type": "SIGNAL_CREATED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_PARTY",
+      "source_id": "SRC-ALP-FEDERAL-NEWS",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "claim": "Australian Labor Party — news added 1 structured publication record to its forward-captured official index: New crisis housing for young mothers in Brisbane 16 November 2026",
+      "observed_behaviour": "One or more structured publication records appeared in the monitored official source index after the preceding forward snapshot.",
+      "publication_records_added": [
+        {
+          "record_id": "7861cbc0028954db4fc0",
+          "title": "New crisis housing for young mothers in Brisbane 16 November 2026",
+          "url": "https://www.alp.org.au/news/all-news/new-crisis-housing-for-young-mothers-in-brisbane/"
+        }
+      ],
+      "publication_records_removed": [],
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "underlying_publication_claims_not_promoted_to_verified_fact": true,
+        "source_change_parent_retained": true,
+        "deterministic_review": true
+      }
+    },
+    {
+      "event_id": "SIG-REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261116020923",
+      "parent_event_id": "CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261116020923",
+      "review_id": "REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261116020923",
+      "jurisdiction_id": "AUS-QLD",
+      "party_id": null,
+      "actor_id": null,
+      "contest_id": null,
+      "cycle_id": null,
+      "source_snapshot_id": "AUTO-WATCH-QLD-MINISTERIAL-STATEMENTS-20261116020923",
+      "record_id": null,
+      "captured_at": "2026-11-16T02:09:57.306Z",
+      "event_date": "2026-11-16",
+      "checkpoint": "CONTINUOUS_FORWARD_SIGNAL_REVIEW",
+      "event_type": "SIGNAL_CREATED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-QLD-MINISTERIAL-STATEMENTS",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "claim": "Queensland Government — Ministerial Media Statements added 6 structured publication records to its forward-captured official index: Sunshine Coast Youth Foyer gains momentum; Community invited to help shape the future of Bowen State Harbour; Next Stop: Harbour Town Gold Coast Light Rail extension moving ahead; Magic Round kicks another goal for Queensland; Early works begin for new and improved Gin Gin rest area; +1 more",
+      "observed_behaviour": "One or more structured publication records appeared in the monitored official source index after the preceding forward snapshot.",
+      "publication_records_added": [
+        {
+          "record_id": "24c3a08230f2af94112f",
+          "title": "Sunshine Coast Youth Foyer gains momentum",
+          "url": "https://statements.qld.gov.au/statements/106435"
+        },
+        {
+          "record_id": "8b609590cf2d86d00c56",
+          "title": "Community invited to help shape the future of Bowen State Harbour",
+          "url": "https://statements.qld.gov.au/statements/106436"
+        },
+        {
+          "record_id": "ab02d610e44e3ed0532f",
+          "title": "Next Stop: Harbour Town Gold Coast Light Rail extension moving ahead",
+          "url": "https://statements.qld.gov.au/statements/106434"
+        },
+        {
+          "record_id": "ae47917ca8cce2c5dc7d",
+          "title": "Magic Round kicks another goal for Queensland",
+          "url": "https://statements.qld.gov.au/statements/106433"
+        },
+        {
+          "record_id": "c4232c071c295cff703b",
+          "title": "Early works begin for new and improved Gin Gin rest area",
+          "url": "https://statements.qld.gov.au/statements/106439"
+        },
+        {
+          "record_id": "db5e8b33c26c653dce1d",
+          "title": "Community invited to help shape the future of Urangan State Harbour",
+          "url": "https://statements.qld.gov.au/statements/106429"
+        }
+      ],
+      "publication_records_removed": [
+        {
+          "record_id": "5edf855f85e0973bb3a9",
+          "title": "New CT scanner delivers health services when Ingham needs them",
+          "url": "https://statements.qld.gov.au/statements/106425"
+        },
+        {
+          "record_id": "6b31649744563072f3fa",
+          "title": "Thousands of jobs secured with major investment in Weipa bauxite project",
+          "url": "https://statements.qld.gov.au/statements/106421"
+        },
+        {
+          "record_id": "9d9c52924f5a7ff1ca74",
+          "title": "Port Hinchinbrook dredging starts to unlock tourism opportunities",
+          "url": "https://statements.qld.gov.au/statements/106424"
+        },
+        {
+          "record_id": "b808d4a9e13cacb2eccc",
+          "title": "New homes fast tracked across Western Queensland",
+          "url": "https://statements.qld.gov.au/statements/106412"
+        },
+        {
+          "record_id": "c28a493c30ea938f6eb2",
+          "title": "Aerospace jobs backed with Caloundra Aerodrome Priority Development Area",
+          "url": "https://statements.qld.gov.au/statements/106413"
+        },
+        {
+          "record_id": "e6bc87cd55ec108b03c4",
+          "title": "Historic Binna Burra reopens after bushfire rebuild",
+          "url": "https://statements.qld.gov.au/statements/106407"
+        }
+      ],
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "underlying_publication_claims_not_promoted_to_verified_fact": true,
+        "source_change_parent_retained": true,
+        "deterministic_review": true
+      }
     }
   ]
 }

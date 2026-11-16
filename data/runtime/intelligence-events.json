@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-INTELLIGENCE-EVENTS-001",
   "scope": "Australia — multi-jurisdiction",
-  "captured_at": "2026-11-16T02:10:01.204Z",
+  "captured_at": "2026-11-16T09:45:55.270Z",
   "mode": "FORWARD_ONLY",
   "rules": {
     "observation_distinct_from_inference": true,
@@ -141106,6 +141106,752 @@
         "underlying_publication_claims_not_promoted_to_verified_fact": true,
         "source_change_parent_retained": true,
         "deterministic_review": true
+      }
+    },
+    {
+      "event_id": "CHG-WATCH-APH-BILLS-20261116094514",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-FED",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-APH-BILLS-20261116094514",
+      "captured_at": "2026-11-16T09:45:14.628Z",
+      "event_date": "2026-11-16",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_PARLIAMENT",
+      "source_id": "SRC-APH-BILLS",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "review_policy": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-APH-BILLS-20261116020923",
+        "content_hash": "bf06519213b49e5d40961be34e523e774e10b29b72c41fdf17a6b3cf8b6be121",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-APH-BILLS-20261116094514",
+        "content_hash": "1f6b8541226d93ec2be9163388b35be21e36774f8088251799a3ef759280d353",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "STRUCTURED_RECORD_SET",
+        "records_added": [
+          {
+            "record_id": "a838badf9a5a8f06b4b5",
+            "title": "Counter-Terrorism Legislation Amendment Bill 2026",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7527"
+          },
+          {
+            "record_id": "c522e44dbf4b86263daf",
+            "title": "Private Health Insurance (National Joint Replaceme...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7544"
+          },
+          {
+            "record_id": "c6cf323b86329baf43f5",
+            "title": "Online Safety Amendment (Digital Duty of Care) Bil...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7553"
+          },
+          {
+            "record_id": "ed7bb388ba30f3177217",
+            "title": "Therapeutic Goods (Charges) Amendment Bill 2026",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7508"
+          },
+          {
+            "record_id": "eeccc10bea0407426596",
+            "title": "Therapeutic Goods Amendment (Medicines Shortages a...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7509"
+          }
+        ],
+        "records_removed": [
+          {
+            "record_id": "5dfdb0f54589f88ce831",
+            "title": "Social Security and Other Legislation Amendment (T...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7515"
+          },
+          {
+            "record_id": "6a8c24adf037db28b31b",
+            "title": "Anti-Money Laundering and Counter-Terrorism Financ...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7448"
+          },
+          {
+            "record_id": "73dd523fe50b553bd491",
+            "title": "Administrative and Judicial Review Legislation Ame...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7516"
+          },
+          {
+            "record_id": "97a5f3d1eecae28eae06",
+            "title": "Domestic Gas Reservation (Consequential Amendments...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7561"
+          },
+          {
+            "record_id": "dc7e8ed5257b5723c2e7",
+            "title": "Domestic Gas Reservation Levy Bill 2026",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7560"
+          }
+        ],
+        "added_count": 5,
+        "removed_count": 5,
+        "before_count": 96,
+        "after_count": 96,
+        "delta_hash": "4c1eec31ae94432da5908e13f2fea5446f28191759211d992f013851a33e992f"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-PM-MEDIA-20261116094514",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-FED",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-PM-MEDIA-20261116094514",
+      "captured_at": "2026-11-16T09:45:14.628Z",
+      "event_date": "2026-11-16",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-PM-MEDIA",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "review_policy": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-PM-MEDIA-20261115092716",
+        "content_hash": "cfa34c16d5afaa51f339c6f5c4feb367640573a264cc00d1344c242697137bc3",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-PM-MEDIA-20261116094514",
+        "content_hash": "bc8628f50d243fc4e385ed9f65efaa2096b316b6c6c1ba10ab8835ad10d98bfd",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "STRUCTURED_RECORD_SET",
+        "records_added": [
+          {
+            "record_id": "91d8de69f5ddfc5278b7",
+            "title": "Kasandigan: Philippines-Australia Leaders&#039; Statement on Expanded Security and Defense Cooperation",
+            "url": "https://www.pm.gov.au/media/kasandigan-philippines-australia-leaders-statement-expanded-security-and-defense-cooperation"
+          },
+          {
+            "record_id": "d84525a32cb74a704cfb",
+            "title": "ASEAN-Australia Joint Leaders&#039; Statement on the 5th Anniversary of the ASEAN-Australia Comprehensive Strategic Partnership",
+            "url": "https://www.pm.gov.au/media/asean-australia-joint-leaders-statement-5th-anniversary-asean-australia-comprehensive"
+          }
+        ],
+        "records_removed": [
+          {
+            "record_id": "0798d054f43e149d2625",
+            "title": "High-Level Event on Clean Energy Transition and Electrification",
+            "url": "https://www.pm.gov.au/media/high-level-event-clean-energy-transition-and-electrification"
+          },
+          {
+            "record_id": "ba680961502d0faf0baf",
+            "title": "COP31 Leaders&#039; Summit Opening Ceremony",
+            "url": "https://www.pm.gov.au/media/cop31-leaders-summit-opening-ceremony"
+          }
+        ],
+        "added_count": 2,
+        "removed_count": 2,
+        "before_count": 27,
+        "after_count": 27,
+        "delta_hash": "01dc33bb0ecf91d88013cbcb27cc329acca26e1be057a5903b363d2e220d1826"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-VEC-MEDIA-20261116094514",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-VIC",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-VEC-MEDIA-20261116094514",
+      "captured_at": "2026-11-16T09:45:14.628Z",
+      "event_date": "2026-11-16",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_ELECTORAL_AUTHORITY",
+      "source_id": "SRC-VEC-MEDIA",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "review_policy": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-VEC-MEDIA-20261110095125",
+        "content_hash": "02c9a726ce180b7dd7911c101dd27f25cfb266d25c91a1f5c24f0b49351aeebd",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-VEC-MEDIA-20261116094514",
+        "content_hash": "5367715fc817d53bdc53ba50f13c52bf94b75f58973a3b25a989522e33f5bc5a",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "STRUCTURED_RECORD_SET",
+        "records_added": [
+          {
+            "record_id": "b505447305048e49bf42",
+            "title": "election venue locator",
+            "url": "https://maps.vec.vic.gov.au/elections"
+          }
+        ],
+        "records_removed": [],
+        "added_count": 1,
+        "removed_count": 0,
+        "before_count": 148,
+        "after_count": 149,
+        "delta_hash": "8c7539042cc8572a59e855ac5ba84d0d035102454c65208e21a3274ee32ea6e0"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261116094514",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-QLD",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-QLD-MINISTERIAL-STATEMENTS-20261116094514",
+      "captured_at": "2026-11-16T09:45:14.628Z",
+      "event_date": "2026-11-16",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-QLD-MINISTERIAL-STATEMENTS",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "review_policy": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-QLD-MINISTERIAL-STATEMENTS-20261116020923",
+        "content_hash": "41da11b98082233c74108a7a0b4ab1cc83b4faedc2520dff3638281bb7b9fbeb",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-QLD-MINISTERIAL-STATEMENTS-20261116094514",
+        "content_hash": "27d496ff0c26beb4298fa7e29b6a277c2b8431b45e5cbf4b63dddde0b428493c",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "STRUCTURED_RECORD_SET",
+        "records_added": [
+          {
+            "record_id": "25d9a9c17006589dd131",
+            "title": "Mao’s Last Dancer to Magnetic: Queensland talent set to shine on the global stage",
+            "url": "https://statements.qld.gov.au/statements/106441"
+          }
+        ],
+        "records_removed": [
+          {
+            "record_id": "7ef7f81b02ff169ee1e5",
+            "title": "Queensland technology to drive beef industry innovation and sustainable cattle production",
+            "url": "https://statements.qld.gov.au/statements/106422"
+          }
+        ],
+        "added_count": 1,
+        "removed_count": 1,
+        "before_count": 16,
+        "after_count": 16,
+        "delta_hash": "3b8f7f28ba88b9b5ba1671879adb36ddb0fe46edb957c9da5d9a16b6acc770c8"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "SIG-REV-CHG-WATCH-APH-BILLS-20261116094514",
+      "parent_event_id": "CHG-WATCH-APH-BILLS-20261116094514",
+      "review_id": "REV-CHG-WATCH-APH-BILLS-20261116094514",
+      "jurisdiction_id": "AUS-FED",
+      "party_id": null,
+      "actor_id": null,
+      "contest_id": null,
+      "cycle_id": null,
+      "source_snapshot_id": "AUTO-WATCH-APH-BILLS-20261116094514",
+      "record_id": null,
+      "captured_at": "2026-11-16T09:45:48.014Z",
+      "event_date": "2026-11-16",
+      "checkpoint": "CONTINUOUS_FORWARD_SIGNAL_REVIEW",
+      "event_type": "SIGNAL_CREATED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_PARLIAMENT",
+      "source_id": "SRC-APH-BILLS",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "claim": "Parliament of Australia — Bills and Legislation added 5 structured publication records to its forward-captured official index: Counter-Terrorism Legislation Amendment Bill 2026; Private Health Insurance (National Joint Replaceme...; Online Safety Amendment (Digital Duty of Care) Bil...; Therapeutic Goods (Charges) Amendment Bill 2026; Therapeutic Goods Amendment (Medicines Shortages a...",
+      "observed_behaviour": "One or more structured publication records appeared in the monitored official source index after the preceding forward snapshot.",
+      "publication_records_added": [
+        {
+          "record_id": "a838badf9a5a8f06b4b5",
+          "title": "Counter-Terrorism Legislation Amendment Bill 2026",
+          "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7527"
+        },
+        {
+          "record_id": "c522e44dbf4b86263daf",
+          "title": "Private Health Insurance (National Joint Replaceme...",
+          "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7544"
+        },
+        {
+          "record_id": "c6cf323b86329baf43f5",
+          "title": "Online Safety Amendment (Digital Duty of Care) Bil...",
+          "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7553"
+        },
+        {
+          "record_id": "ed7bb388ba30f3177217",
+          "title": "Therapeutic Goods (Charges) Amendment Bill 2026",
+          "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7508"
+        },
+        {
+          "record_id": "eeccc10bea0407426596",
+          "title": "Therapeutic Goods Amendment (Medicines Shortages a...",
+          "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7509"
+        }
+      ],
+      "publication_records_removed": [
+        {
+          "record_id": "5dfdb0f54589f88ce831",
+          "title": "Social Security and Other Legislation Amendment (T...",
+          "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7515"
+        },
+        {
+          "record_id": "6a8c24adf037db28b31b",
+          "title": "Anti-Money Laundering and Counter-Terrorism Financ...",
+          "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7448"
+        },
+        {
+          "record_id": "73dd523fe50b553bd491",
+          "title": "Administrative and Judicial Review Legislation Ame...",
+          "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7516"
+        },
+        {
+          "record_id": "97a5f3d1eecae28eae06",
+          "title": "Domestic Gas Reservation (Consequential Amendments...",
+          "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7561"
+        },
+        {
+          "record_id": "dc7e8ed5257b5723c2e7",
+          "title": "Domestic Gas Reservation Levy Bill 2026",
+          "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7560"
+        }
+      ],
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "underlying_publication_claims_not_promoted_to_verified_fact": true,
+        "source_change_parent_retained": true,
+        "deterministic_review": true
+      }
+    },
+    {
+      "event_id": "SIG-REV-CHG-WATCH-PM-MEDIA-20261116094514",
+      "parent_event_id": "CHG-WATCH-PM-MEDIA-20261116094514",
+      "review_id": "REV-CHG-WATCH-PM-MEDIA-20261116094514",
+      "jurisdiction_id": "AUS-FED",
+      "party_id": null,
+      "actor_id": null,
+      "contest_id": null,
+      "cycle_id": null,
+      "source_snapshot_id": "AUTO-WATCH-PM-MEDIA-20261116094514",
+      "record_id": null,
+      "captured_at": "2026-11-16T09:45:48.014Z",
+      "event_date": "2026-11-16",
+      "checkpoint": "CONTINUOUS_FORWARD_SIGNAL_REVIEW",
+      "event_type": "SIGNAL_CREATED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-PM-MEDIA",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "claim": "Prime Minister of Australia — media added 2 structured publication records to its forward-captured official index: Kasandigan: Philippines-Australia Leaders&#039; Statement on Expanded Security and Defense Cooperation; ASEAN-Australia Joint Leaders&#039; Statement on the 5th Anniversary of the ASEAN-Australia Comprehensive Strategic Partnership",
+      "observed_behaviour": "One or more structured publication records appeared in the monitored official source index after the preceding forward snapshot.",
+      "publication_records_added": [
+        {
+          "record_id": "91d8de69f5ddfc5278b7",
+          "title": "Kasandigan: Philippines-Australia Leaders&#039; Statement on Expanded Security and Defense Cooperation",
+          "url": "https://www.pm.gov.au/media/kasandigan-philippines-australia-leaders-statement-expanded-security-and-defense-cooperation"
+        },
+        {
+          "record_id": "d84525a32cb74a704cfb",
+          "title": "ASEAN-Australia Joint Leaders&#039; Statement on the 5th Anniversary of the ASEAN-Australia Comprehensive Strategic Partnership",
+          "url": "https://www.pm.gov.au/media/asean-australia-joint-leaders-statement-5th-anniversary-asean-australia-comprehensive"
+        }
+      ],
+      "publication_records_removed": [
+        {
+          "record_id": "0798d054f43e149d2625",
+          "title": "High-Level Event on Clean Energy Transition and Electrification",
+          "url": "https://www.pm.gov.au/media/high-level-event-clean-energy-transition-and-electrification"
+        },
+        {
+          "record_id": "ba680961502d0faf0baf",
+          "title": "COP31 Leaders&#039; Summit Opening Ceremony",
+          "url": "https://www.pm.gov.au/media/cop31-leaders-summit-opening-ceremony"
+        }
+      ],
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "underlying_publication_claims_not_promoted_to_verified_fact": true,
+        "source_change_parent_retained": true,
+        "deterministic_review": true
+      }
+    },
+    {
+      "event_id": "SIG-REV-CHG-WATCH-VEC-MEDIA-20261116094514",
+      "parent_event_id": "CHG-WATCH-VEC-MEDIA-20261116094514",
+      "review_id": "REV-CHG-WATCH-VEC-MEDIA-20261116094514",
+      "jurisdiction_id": "AUS-VIC",
+      "party_id": null,
+      "actor_id": null,
+      "contest_id": null,
+      "cycle_id": null,
+      "source_snapshot_id": "AUTO-WATCH-VEC-MEDIA-20261116094514",
+      "record_id": "b505447305048e49bf42",
+      "captured_at": "2026-11-16T09:45:48.014Z",
+      "event_date": "2026-11-16",
+      "checkpoint": "CONTINUOUS_FORWARD_SIGNAL_REVIEW",
+      "event_type": "SIGNAL_CREATED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_ELECTORAL_AUTHORITY",
+      "source_id": "SRC-VEC-MEDIA",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "claim": "Victorian Electoral Commission — media centre added 1 structured publication record to its forward-captured official index: election venue locator",
+      "observed_behaviour": "One or more structured publication records appeared in the monitored official source index after the preceding forward snapshot.",
+      "publication_records_added": [
+        {
+          "record_id": "b505447305048e49bf42",
+          "title": "election venue locator",
+          "url": "https://maps.vec.vic.gov.au/elections"
+        }
+      ],
+      "publication_records_removed": [],
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "underlying_publication_claims_not_promoted_to_verified_fact": true,
+        "source_change_parent_retained": true,
+        "deterministic_review": true
+      }
+    },
+    {
+      "event_id": "SIG-REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261116094514",
+      "parent_event_id": "CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261116094514",
+      "review_id": "REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261116094514",
+      "jurisdiction_id": "AUS-QLD",
+      "party_id": null,
+      "actor_id": null,
+      "contest_id": null,
+      "cycle_id": null,
+      "source_snapshot_id": "AUTO-WATCH-QLD-MINISTERIAL-STATEMENTS-20261116094514",
+      "record_id": "25d9a9c17006589dd131",
+      "captured_at": "2026-11-16T09:45:48.014Z",
+      "event_date": "2026-11-16",
+      "checkpoint": "CONTINUOUS_FORWARD_SIGNAL_REVIEW",
+      "event_type": "SIGNAL_CREATED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-QLD-MINISTERIAL-STATEMENTS",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "claim": "Queensland Government — Ministerial Media Statements added 1 structured publication record to its forward-captured official index: Mao’s Last Dancer to Magnetic: Queensland talent set to shine on the global stage",
+      "observed_behaviour": "One or more structured publication records appeared in the monitored official source index after the preceding forward snapshot.",
+      "publication_records_added": [
+        {
+          "record_id": "25d9a9c17006589dd131",
+          "title": "Mao’s Last Dancer to Magnetic: Queensland talent set to shine on the global stage",
+          "url": "https://statements.qld.gov.au/statements/106441"
+        }
+      ],
+      "publication_records_removed": [
+        {
+          "record_id": "7ef7f81b02ff169ee1e5",
+          "title": "Queensland technology to drive beef industry innovation and sustainable cattle production",
+          "url": "https://statements.qld.gov.au/statements/106422"
+        }
+      ],
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "underlying_publication_claims_not_promoted_to_verified_fact": true,
+        "source_change_parent_retained": true,
+        "deterministic_review": true
+      }
+    },
+    {
+      "event_id": "INTEL-AREA-753ef2d31bf48246821af771",
+      "parent_event_id": "SIG-REV-CHG-WATCH-APH-BILLS-20261116094514",
+      "jurisdiction_id": "AUS-FED",
+      "party_id": null,
+      "actor_id": null,
+      "party_ids": [],
+      "actor_ids": [],
+      "contest_id": null,
+      "cycle_id": null,
+      "competition_class": "LEGISLATIVE",
+      "area_evidence_id": "AREA-753ef2d31bf48246821af771",
+      "detail_record_id": "DETAIL-748d4f4b17470aa6196e8578",
+      "detail_version_id": "DETAIL-748d4f4b17470aa6196e8578-V1",
+      "source_snapshot_id": "AUTO-WATCH-APH-BILLS-20261116094514",
+      "record_url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7508",
+      "captured_at": "2026-11-16T09:45:55.270Z",
+      "evidence_captured_at": "2026-11-16T09:45:49.272Z",
+      "event_date": "2026-11-16",
+      "checkpoint": "SUBSTANTIVE_INFORMATION_INGESTION",
+      "event_type": "AREA_EVIDENCE_INGESTED",
+      "area_routing_state": "SUBSTANTIVE_CONTENT_ROUTED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_PARLIAMENT",
+      "source_id": "SRC-APH-BILLS",
+      "claim": "Ingested substantive legislative evidence from Therapeutic Goods (Charges) Amendment Bill 2026 &ndash; Parliament of Australia. Captured content includes stage: Introduced; resistance language: Amendment; outcome language: passed. Registration threshold state: evidence gap. Missing requirements: missing fact type material resistance, missing fact type explicit support position, missing fact type explicit opposition position, missing condition distinct supporting and opposing sides.",
+      "observed_behaviour": "Therapeutic Goods (Charges) Amendment Bill 2026 &ndash; Parliament of Australia Skip to navigation Skip to content Therapeutic Goods (Charges) Amendment Bill 2026 Type Government Portfolio Health, Disability and Ageing Originating house House of Representatives Status Before Senate Parliament no 48 Track (What's this?) Permalink Summary Introduced with the Therapeutic Goods Amendment (Medicines Shortages and Other Measures) Bill 2026, the bill amends the Therapeutic Goods (Charges) Act 1989 to enable annual charges to be prescribed for the inclusion of grouped biologicals in the Australian Register of Therapeutic Goods. Progress House of Representatives Introduced and read a first time 02 Jul 2026 Second reading moved 02 Jul 2026 Second reading debate 11 Aug 2026 Referred to Federation Chamber 11 Aug 2026 Second reading debate 11 Aug 2026 Second reading agreed to 12 Aug 2026 Reported from Federation Chamber 12 Aug 2026 Third reading agreed to 12 Aug 2026 Senate Introduced and read a first time 12 Aug 2026 Second reading moved 12 Aug 2026 Second reading debate 16 Nov 2026 Second reading agreed to 16 Nov 2026 Committee of the Whole debate 16 Nov 2026 Documents and transcripts Text of bill First reading Explanatory memoranda Explanatory memorandum Transcript of speeches All second reading speeches Minister's second reading speech Proposed amendments No proposed amendments have been circulated. Schedules of amendments No documents at present Bills digest Bills Digest Notes Referred to Committee (02/07/2026): Senate Community Affairs Legislation Committee; Committee report (01/09/2026) Considered by scrutiny committee (12/08/2026): Senate Standing Committee for the Scrutiny of Bills; Scrutiny Digest 9 of 2026 Helpful information Text of bill First reading: Text of the bill a",
+      "extracted_cues": {
+        "resistance_terms": [
+          "Amendment"
+        ],
+        "stage_terms": [
+          "Introduced"
+        ],
+        "outcome_terms": [
+          "passed"
+        ],
+        "pressure_terms": []
+      },
+      "entity_mentions": {
+        "actors": [],
+        "teams": []
+      },
+      "position_state": "UNRESOLVED",
+      "resistance_state": "RESISTANCE_LANGUAGE_PRESENT",
+      "outcome_state": "OUTCOME_LANGUAGE_PRESENT",
+      "contest_fact_ids": [
+        "FACT-145d51e6a4960c862689d2a0",
+        "FACT-18ca354cf461b26c17828301",
+        "FACT-3321ef7d2e36ce030dd7285c",
+        "FACT-3cd4e67c15d5eb1daf5182eb",
+        "FACT-4b7a941c8bef533db1e74409",
+        "FACT-4d8acd9e0914dc6511576a9b",
+        "FACT-55d04647291cb1a680812bbb",
+        "FACT-55dcc562fa5382f7833fe19a",
+        "FACT-608161c7ac32ef1408d995fd",
+        "FACT-671950658f5d78e9f129ec92",
+        "FACT-69c31246a9c028718098f104",
+        "FACT-70adb89d5e97d3c60061bc21",
+        "FACT-aec5f2077593f898beb57b40",
+        "FACT-cbbd7001925e493aaa3685e0",
+        "FACT-e0cfce1cd0d610352385fe03",
+        "FACT-e6ab60f1f8ebe9aef72b7b33",
+        "FACT-f30c14c10d7f3987d23f3cac"
+      ],
+      "contest_fact_types": [
+        "AMENDMENT",
+        "CONTEST_OBJECT",
+        "OBJECTIVE",
+        "POSSIBLE_OUTCOME_STATE",
+        "PROCEDURAL_ACTION",
+        "STAGE",
+        "VOTE_OR_DIVISION"
+      ],
+      "threshold_evaluation_id": "THRESH-e7e1042c8ba9aa7a2faa9266",
+      "threshold_state": "EVIDENCE_GAP",
+      "threshold_blockers": [
+        "MISSING_CONDITION_DISTINCT_SUPPORTING_AND_OPPOSING_SIDES",
+        "MISSING_FACT_TYPE_EXPLICIT_OPPOSITION_POSITION",
+        "MISSING_FACT_TYPE_EXPLICIT_SUPPORT_POSITION",
+        "MISSING_FACT_TYPE_MATERIAL_RESISTANCE"
+      ],
+      "supporting_entities": [],
+      "opposing_entities": [],
+      "registration_action": "NO_AUTOMATIC_REGISTRATION",
+      "intelligence_signature": "9bdcc41efb4072a3285481fd2801b8d95d6978ad686971e34ceb6857eacfab2e",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "substantive_detail_lineage_required": true,
+        "active_contest_fact_lineage_required": true,
+        "threshold_evaluation_lineage_required": true,
+        "routing_does_not_register_match": true,
+        "threshold_eligibility_does_not_register_match": true,
+        "entity_mentions_do_not_establish_positions": true,
+        "retracted_facts_excluded": true,
+        "no_projection_effect_without_registered_target": true
+      }
+    },
+    {
+      "event_id": "INTEL-AREA-2552f57355ea82254564e222",
+      "parent_event_id": "SIG-REV-CHG-WATCH-APH-BILLS-20261116094514",
+      "jurisdiction_id": "AUS-FED",
+      "party_id": "AUS-FED-GRN",
+      "actor_id": "ACT-REBEKHA-SHARKIE",
+      "party_ids": [
+        "AUS-FED-GRN"
+      ],
+      "actor_ids": [
+        "ACT-REBEKHA-SHARKIE"
+      ],
+      "contest_id": null,
+      "cycle_id": null,
+      "competition_class": "LEGISLATIVE",
+      "area_evidence_id": "AREA-2552f57355ea82254564e222",
+      "detail_record_id": "DETAIL-a50140f782ed164de5c5ff95",
+      "detail_version_id": "DETAIL-a50140f782ed164de5c5ff95-V1",
+      "source_snapshot_id": "AUTO-WATCH-APH-BILLS-20261116094514",
+      "record_url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7527",
+      "captured_at": "2026-11-16T09:45:55.270Z",
+      "evidence_captured_at": "2026-11-16T09:45:51.605Z",
+      "event_date": "2026-11-16",
+      "checkpoint": "SUBSTANTIVE_INFORMATION_INGESTION",
+      "event_type": "AREA_EVIDENCE_INGESTED",
+      "area_routing_state": "SUBSTANTIVE_CONTENT_ROUTED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_PARLIAMENT",
+      "source_id": "SRC-APH-BILLS",
+      "claim": "Ingested substantive legislative evidence from Counter-Terrorism Legislation Amendment Bill 2026 &ndash; Parliament of Australia. Captured content includes stage: Introduced; resistance language: Amendment; outcome language: passed. Registration threshold state: evidence gap. Missing requirements: missing fact type explicit support position, missing fact type explicit opposition position, missing condition distinct supporting and opposing sides.",
+      "observed_behaviour": "Counter-Terrorism Legislation Amendment Bill 2026 &ndash; Parliament of Australia Skip to navigation Skip to content Counter-Terrorism Legislation Amendment Bill 2026 Type Government Portfolio Attorney-General Originating house House of Representatives Status Before Senate Parliament no 48 Track (What's this?) Permalink Summary Amends the: Crimes Act 1914 and Criminal Code Act 1995 to: extend the operation of certain counter-terrorism powers and other frameworks for a further 3 years, until 7 December 2029; and expand information-sharing arrangements; Criminal Code Act 1995 to: update the post-sentence order and control order frameworks for serious terrorist offenders; clarify the process for de-listing terrorist organisations; and expand protections for United Nations and associated personnel; Surveillance Devices Act 2004 and Telecommunications (Interception and Access) Act 1979 to enable agencies to obtain warrants in relation to serious terrorist offenders in custody when considering applications for control orders. Also makes consequential amendments to 5 Acts. Progress House of Representatives Introduced and read a first time 12 Aug 2026 Second reading moved 12 Aug 2026 Second reading debate 19 Aug 2026 Referred to Federation Chamber 19 Aug 2026 Second reading debate 19 Aug 2026 Second reading agreed to 19 Aug 2026 Consideration in detail debate 19 Aug 2026 Reported from Federation Chamber 20 Aug 2026 Third reading agreed to 20 Aug 2026 Senate Introduced and read a first time 20 Aug 2026 Second reading moved 20 Aug 2026 Second reading debate 16 Nov 2026 Documents and transcripts Text of bill First reading Explanatory memoranda Addendum to explanatory memorandum Explanatory memorandum Supplementary explanatory memorandum relating to sheet KI120 Supplementary explan",
+      "extracted_cues": {
+        "resistance_terms": [
+          "Amendment"
+        ],
+        "stage_terms": [
+          "Introduced"
+        ],
+        "outcome_terms": [
+          "passed"
+        ],
+        "pressure_terms": []
+      },
+      "entity_mentions": {
+        "actors": [
+          {
+            "actor_id": "ACT-REBEKHA-SHARKIE",
+            "name": "Rebekha Sharkie",
+            "match_variant": "sharkie rebekha",
+            "party_id_at_resolution": "AUS-FED-CA"
+          }
+        ],
+        "teams": [
+          {
+            "party_id": "AUS-FED-GRN",
+            "name": "Australian Greens",
+            "match_alias": "Australian Greens"
+          }
+        ]
+      },
+      "position_state": "UNRESOLVED",
+      "resistance_state": "RESISTANCE_LANGUAGE_PRESENT",
+      "outcome_state": "OUTCOME_LANGUAGE_PRESENT",
+      "contest_fact_ids": [
+        "FACT-073d5f3553983ca0c4da3d37",
+        "FACT-1954c7581b05ce106f873c12",
+        "FACT-319277c3eb438cd2ae165bc9",
+        "FACT-4660dc93111eafa97cd47ba9",
+        "FACT-46d5c8c6a615979ffe387909",
+        "FACT-5727067f369365529b6b7dd0",
+        "FACT-5d5a987462befd845b8fd41f",
+        "FACT-91115e0c77fcbd22af0fa0e6",
+        "FACT-a87873f9587312ef7d2e1d69",
+        "FACT-b172888e2ba96baf985f3ca7",
+        "FACT-b56922f29d2b5c9295e49f0b",
+        "FACT-b5cc510429ad2a349f7c4389",
+        "FACT-d21b9503cc76f37c82810893",
+        "FACT-e04bd1d961df3d98ccea379f",
+        "FACT-e82ef6b0e91a9216581423c0",
+        "FACT-fa11b0750f0001acd37d7a34"
+      ],
+      "contest_fact_types": [
+        "AMENDMENT",
+        "CONTEST_OBJECT",
+        "MATERIAL_RESISTANCE",
+        "OBJECTIVE",
+        "POSSIBLE_OUTCOME_STATE",
+        "PROCEDURAL_ACTION",
+        "STAGE",
+        "VOTE_OR_DIVISION"
+      ],
+      "threshold_evaluation_id": "THRESH-99a3d50960ab6e5f411c7ea4",
+      "threshold_state": "EVIDENCE_GAP",
+      "threshold_blockers": [
+        "MISSING_CONDITION_DISTINCT_SUPPORTING_AND_OPPOSING_SIDES",
+        "MISSING_FACT_TYPE_EXPLICIT_OPPOSITION_POSITION",
+        "MISSING_FACT_TYPE_EXPLICIT_SUPPORT_POSITION"
+      ],
+      "supporting_entities": [],
+      "opposing_entities": [],
+      "registration_action": "NO_AUTOMATIC_REGISTRATION",
+      "intelligence_signature": "7409b47311e2e53b0a9adbe36cf0534399c848c88ffd033a4dcbe86019837a51",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "substantive_detail_lineage_required": true,
+        "active_contest_fact_lineage_required": true,
+        "threshold_evaluation_lineage_required": true,
+        "routing_does_not_register_match": true,
+        "threshold_eligibility_does_not_register_match": true,
+        "entity_mentions_do_not_establish_positions": true,
+        "retracted_facts_excluded": true,
+        "no_projection_effect_without_registered_target": true
       }
     }
   ]

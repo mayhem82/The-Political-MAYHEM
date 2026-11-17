@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-SIGNAL-REVIEWS-001",
   "created_at": "2026-09-09T05:05:00+10:00",
-  "updated_at": "2026-11-16T20:30:22.537Z",
+  "updated_at": "2026-11-17T03:55:32.163Z",
   "rules": {
     "append_only": true,
     "raw_source_change_is_immutable": true,
@@ -51292,6 +51292,260 @@
           }
         ],
         "delta_hash": "3b8f7f28ba88b9b5ba1671879adb36ddb0fe46edb957c9da5d9a16b6acc770c8"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-APH-BILLS-20261117035456",
+      "source_change_event_id": "CHG-WATCH-APH-BILLS-20261117035456",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-APH-BILLS-20261117035456",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Parliament of Australia — Bills and Legislation added 1 structured publication record to its forward-captured official index: Administrative and Judicial Review Legislation Ame...",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-11-17T03:55:32.163Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "73dd523fe50b553bd491",
+            "title": "Administrative and Judicial Review Legislation Ame...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7516"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "c522e44dbf4b86263daf",
+            "title": "Private Health Insurance (National Joint Replaceme...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7544"
+          }
+        ],
+        "delta_hash": "8e9a66fe5def812f1e09ac4affedc0d2da813ae42099ab552b803b854ca06de0"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-PM-MEDIA-20261117035456",
+      "source_change_event_id": "CHG-WATCH-PM-MEDIA-20261117035456",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-PM-MEDIA-20261117035456",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Prime Minister of Australia — media added 3 structured publication records to its forward-captured official index: ASEAN-Australia Summit opening remarks; Asia Zero Emissions Community Leaders’ Meeting; Last » Last page",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-11-17T03:55:32.163Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "294d4cb747480b3d9d1e",
+            "title": "ASEAN-Australia Summit opening remarks",
+            "url": "https://www.pm.gov.au/media/asean-australia-summit-opening-remarks-1"
+          },
+          {
+            "record_id": "2fd145e0b2c70cd7e316",
+            "title": "Asia Zero Emissions Community Leaders’ Meeting",
+            "url": "https://www.pm.gov.au/media/asia-zero-emissions-community-leaders-meeting"
+          },
+          {
+            "record_id": "f0393043823573f0461f",
+            "title": "Last » Last page",
+            "url": "https://www.pm.gov.au/media?page=286"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "17bba4b5f29c64355834",
+            "title": "Remembrance Day 2026",
+            "url": "https://www.pm.gov.au/media/remembrance-day-2026"
+          },
+          {
+            "record_id": "b783388d4a8fb0cb1577",
+            "title": "Last » Last page",
+            "url": "https://www.pm.gov.au/media?page=285"
+          },
+          {
+            "record_id": "fe2e0170cba5d4977cbd",
+            "title": "Remarks - Changi Chapel, Singapore",
+            "url": "https://www.pm.gov.au/media/remarks-changi-chapel-singapore"
+          }
+        ],
+        "delta_hash": "eca05fd49477d7737a47da9ddbe47e3b41fd2d5e61680581fc7679b754bbcaa6"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-ALP-NEWS-20261117035456",
+      "source_change_event_id": "CHG-WATCH-ALP-NEWS-20261117035456",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-ALP-NEWS-20261117035456",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": "AUS-FED-ALP",
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Australian Labor Party — news added 1 structured publication record to its forward-captured official index: Bulk billing continues to increase year on year 17 November 2026",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-11-17T03:55:32.163Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "7188bbe28db272c7aec8",
+            "title": "Bulk billing continues to increase year on year 17 November 2026",
+            "url": "https://www.alp.org.au/news/all-news/bulk-billing-continues-to-increase-year-on-year/"
+          }
+        ],
+        "removed_records": [],
+        "delta_hash": "860985a95bcbec560f8721ad8ef6ff6e6c746bd18448db81b390e2f33051c874"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-GREENS-FEDERAL-MEDIA-20261117035456",
+      "source_change_event_id": "CHG-WATCH-GREENS-FEDERAL-MEDIA-20261117035456",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-GREENS-FEDERAL-MEDIA-20261117035456",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": "AUS-FED-GRN",
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Australian Greens — Federal MPs media releases added 2 structured publication records to its forward-captured official index: Read more about Labor’s plan is billions for the billionaires, austerity for us; Labor’s plan is billions for the billionaires, austerity for us",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-11-17T03:55:32.163Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "80be2fe03941efd2592e",
+            "title": "Read more about Labor’s plan is billions for the billionaires, austerity for us",
+            "url": "https://greens.org.au/news/media-release/labors-plan-billions-billionaires-austerity-us"
+          },
+          {
+            "record_id": "88207ab1fd6623fbdbd3",
+            "title": "Labor’s plan is billions for the billionaires, austerity for us",
+            "url": "https://greens.org.au/news/media-release/labors-plan-billions-billionaires-austerity-us"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "3bd6b0b952b5a37582fd",
+            "title": "Labor’s coal and gas addiction comes with $6 billion annual bushfire bill",
+            "url": "https://greens.org.au/news/media-release/labors-coal-and-gas-addiction-comes-6-billion-annual-bushfire-bill"
+          },
+          {
+            "record_id": "b14d9099add0af11ae42",
+            "title": "Read more about Labor’s coal and gas addiction comes with $6 billion annual bushfire bill",
+            "url": "https://greens.org.au/news/media-release/labors-coal-and-gas-addiction-comes-6-billion-annual-bushfire-bill"
+          }
+        ],
+        "delta_hash": "f61731326af3a109a56f73de1f2d91d104806dff7397f914c690a29868a9b6b7"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261117035456",
+      "source_change_event_id": "CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261117035456",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261117035456",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Queensland Government — Ministerial Media Statements added 4 structured publication records to its forward-captured official index: Construction Productivity Code implemented after damning CFMEU Inquiry Interim Report; Delivering long-term water security for Woorabinda; Trailblazer Dr Merle Thornton AM honoured with statue; Castlereagh floodway upgrades complete",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-11-17T03:55:32.163Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "0d25e8170bbd0a08b16b",
+            "title": "Construction Productivity Code implemented after damning CFMEU Inquiry Interim Report",
+            "url": "https://statements.qld.gov.au/statements/106445"
+          },
+          {
+            "record_id": "a04ca17669467a0bf631",
+            "title": "Delivering long-term water security for Woorabinda",
+            "url": "https://statements.qld.gov.au/statements/106377"
+          },
+          {
+            "record_id": "d6a247c129baf6fd636f",
+            "title": "Trailblazer Dr Merle Thornton AM honoured with statue",
+            "url": "https://statements.qld.gov.au/statements/106444"
+          },
+          {
+            "record_id": "ed99f2b0facebdea4568",
+            "title": "Castlereagh floodway upgrades complete",
+            "url": "https://statements.qld.gov.au/statements/106440"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "42776e14b762d92b2047",
+            "title": "Hope restored with 19 Supported Homes delivered for Logan",
+            "url": "https://statements.qld.gov.au/statements/106411"
+          },
+          {
+            "record_id": "55bb25c6c125525e653c",
+            "title": "Construction to begin on major safety upgrades at Rungoo",
+            "url": "https://statements.qld.gov.au/statements/106419"
+          },
+          {
+            "record_id": "ba4b89a287651cd914a6",
+            "title": "First step toward new critical minerals research centre in Mount Isa",
+            "url": "https://statements.qld.gov.au/statements/106418"
+          },
+          {
+            "record_id": "daf836d09382a3c58a5a",
+            "title": "Backing local road safety champions to save lives on Queensland roads",
+            "url": "https://statements.qld.gov.au/statements/106408"
+          }
+        ],
+        "delta_hash": "2cab3ddab54a2ac4f9f5ffe675dd4fddafabcf3cb27e6526bd7ff7518ca78291"
       },
       "integrity": {
         "source_change_unchanged": true,

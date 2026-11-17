@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-INTELLIGENCE-EVENTS-001",
   "scope": "Australia — multi-jurisdiction",
-  "captured_at": "2026-11-16T20:30:27.819Z",
+  "captured_at": "2026-11-17T03:55:37.540Z",
   "mode": "FORWARD_ONLY",
   "rules": {
     "observation_distinct_from_inference": true,
@@ -141899,6 +141899,700 @@
       "projection_effect": "NO_EFFECT",
       "information_advantage": "NONE",
       "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-APH-BILLS-20261117035456",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-FED",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-APH-BILLS-20261117035456",
+      "captured_at": "2026-11-17T03:54:56.604Z",
+      "event_date": "2026-11-17",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_PARLIAMENT",
+      "source_id": "SRC-APH-BILLS",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "review_policy": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-APH-BILLS-20261116094514",
+        "content_hash": "1f6b8541226d93ec2be9163388b35be21e36774f8088251799a3ef759280d353",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-APH-BILLS-20261117035456",
+        "content_hash": "4b5f9a81dd91fb0a44cdda49caeb750f2f6af44c0458840a45bc41c0dea1d620",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "STRUCTURED_RECORD_SET",
+        "records_added": [
+          {
+            "record_id": "73dd523fe50b553bd491",
+            "title": "Administrative and Judicial Review Legislation Ame...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7516"
+          }
+        ],
+        "records_removed": [
+          {
+            "record_id": "c522e44dbf4b86263daf",
+            "title": "Private Health Insurance (National Joint Replaceme...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7544"
+          }
+        ],
+        "added_count": 1,
+        "removed_count": 1,
+        "before_count": 96,
+        "after_count": 96,
+        "delta_hash": "8e9a66fe5def812f1e09ac4affedc0d2da813ae42099ab552b803b854ca06de0"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-PM-MEDIA-20261117035456",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-FED",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-PM-MEDIA-20261117035456",
+      "captured_at": "2026-11-17T03:54:56.604Z",
+      "event_date": "2026-11-17",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-PM-MEDIA",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "review_policy": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-PM-MEDIA-20261116094514",
+        "content_hash": "bc8628f50d243fc4e385ed9f65efaa2096b316b6c6c1ba10ab8835ad10d98bfd",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-PM-MEDIA-20261117035456",
+        "content_hash": "455fc6ba254bf515f66a8bb7086553001f00f963270ad13c2f9e80cd60cce8f5",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "STRUCTURED_RECORD_SET",
+        "records_added": [
+          {
+            "record_id": "294d4cb747480b3d9d1e",
+            "title": "ASEAN-Australia Summit opening remarks",
+            "url": "https://www.pm.gov.au/media/asean-australia-summit-opening-remarks-1"
+          },
+          {
+            "record_id": "2fd145e0b2c70cd7e316",
+            "title": "Asia Zero Emissions Community Leaders’ Meeting",
+            "url": "https://www.pm.gov.au/media/asia-zero-emissions-community-leaders-meeting"
+          },
+          {
+            "record_id": "f0393043823573f0461f",
+            "title": "Last » Last page",
+            "url": "https://www.pm.gov.au/media?page=286"
+          }
+        ],
+        "records_removed": [
+          {
+            "record_id": "17bba4b5f29c64355834",
+            "title": "Remembrance Day 2026",
+            "url": "https://www.pm.gov.au/media/remembrance-day-2026"
+          },
+          {
+            "record_id": "b783388d4a8fb0cb1577",
+            "title": "Last » Last page",
+            "url": "https://www.pm.gov.au/media?page=285"
+          },
+          {
+            "record_id": "fe2e0170cba5d4977cbd",
+            "title": "Remarks - Changi Chapel, Singapore",
+            "url": "https://www.pm.gov.au/media/remarks-changi-chapel-singapore"
+          }
+        ],
+        "added_count": 3,
+        "removed_count": 3,
+        "before_count": 27,
+        "after_count": 27,
+        "delta_hash": "eca05fd49477d7737a47da9ddbe47e3b41fd2d5e61680581fc7679b754bbcaa6"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-ALP-NEWS-20261117035456",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-FED",
+      "party_id": "AUS-FED-ALP",
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-ALP-NEWS-20261117035456",
+      "captured_at": "2026-11-17T03:54:56.604Z",
+      "event_date": "2026-11-17",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_PARTY",
+      "source_id": "SRC-ALP-FEDERAL-NEWS",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "review_policy": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-ALP-NEWS-20261116020923",
+        "content_hash": "c74b4040e554a66f890ff0ee247c69a4ed3a32c716544698501121e6ef7155e5",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-ALP-NEWS-20261117035456",
+        "content_hash": "ab82a92543b2eb1cd2f5a38b8d3f9cd9338d1685bf92825e1436e9c8c8c6a799",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "STRUCTURED_RECORD_SET",
+        "records_added": [
+          {
+            "record_id": "7188bbe28db272c7aec8",
+            "title": "Bulk billing continues to increase year on year 17 November 2026",
+            "url": "https://www.alp.org.au/news/all-news/bulk-billing-continues-to-increase-year-on-year/"
+          }
+        ],
+        "records_removed": [],
+        "added_count": 1,
+        "removed_count": 0,
+        "before_count": 502,
+        "after_count": 503,
+        "delta_hash": "860985a95bcbec560f8721ad8ef6ff6e6c746bd18448db81b390e2f33051c874"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-LIBERAL-HOME-20261117035456",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-FED",
+      "party_id": "AUS-FED-LIB",
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-LIBERAL-HOME-20261117035456",
+      "captured_at": "2026-11-17T03:54:56.604Z",
+      "event_date": "2026-11-17",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_PARTY",
+      "source_id": "SRC-LIBERAL-FEDERAL-HOME",
+      "capture_mode": "NORMALISED_PAGE_HASH",
+      "review_policy": "REVIEW_UNSTRUCTURED_CHANGE",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-LIBERAL-HOME-20261115171204",
+        "content_hash": "53181e2e13d49054902891fc5b0a6a2ad89d67b5e2262b398a697ae1f3cededf",
+        "capture_mode": "NORMALISED_PAGE_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-LIBERAL-HOME-20261117035456",
+        "content_hash": "415959087c87fc38d1f8cd50fafce7122d1ea08f02ce63eef0e6206a357a2409",
+        "capture_mode": "NORMALISED_PAGE_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "TEXT_REPRESENTATION",
+        "first_difference_offset": 1415,
+        "before_length": 6090,
+        "after_length": 6515,
+        "before_excerpt": "er of the Opposition in the Senate Meet the Liberal Team The Latest Stay up to date with the Liberal Party of Australia senatorhume There are 13 days until Victoria can have a fresh start. Let’s get this done. Find out where you can vote and change Victoria for the better. Nov 15 Open post by senatorhume with ID 18130593034882392 angustaylormp Australia is worth fighting for. With our team and strong plan we can fix our economy, restore Australians’ standard of living and protect our way of life. Nov 15 Open post by angustaylormp with ID 17998172742108449 senatorhume Anthony Albanese and Chris Bowen can`t be trusted on the world stage. Nov 14 Open post by senatorhume with ID 18139540717567062 liberalaus Power prices are up nearly 40% under Labor. The Liberals will deliver cheaper power and energy abundance. Nov 13 Open post by liberalaus with ID 18649585363063637 angustaylormp Labor is waging a war on small businesses right across the country. We will get government out of your way and reward hard work. The Liberal and Nationals will always have your back. Nov 13 Open post by angustaylormp with ID 17895438948621155 senatorhume Week one of the Royal Commission into Labor’s corrupt Big Build. Here’s what you need to know. We can stop this happening again but we need your help. Sign the petition &#8211; link is in the bio. Nov 13 Open post by senatorhume with ID 18117021182123038 liberalaus Labor`s massive climate conference spending will do nothing to bring bills down for Australians. The Liberals and Nationals plan will deliver cheaper energy by scrapping Net Zero and unlocking our critical resources. Nov 13 Open post by liberalaus with ID 18133688600494764 liberalaus Australians are entitled to ask what they’re getting in return for this use of taxpayer money, particularly when Labor has failed to deliver the cheaper electricity and lower cost of living it promised. Nov 13 Open post by liberalaus with ID 18233953030332867 liberalaus Still trying to figure out how this brings power bills down 🤔 Nov 13 Open post by liberalaus with ID 18100711076423002 liberalaus Anthony Albanese’s lies are catching up with him and Australians are paying for them every day. Nov 12 Open post by liberalaus with ID 17919663288516455 angustaylormp While Australians are facing soaring power prices, Anthony Albanese and Chris Bowen have fled the country. The Liberals and Nationals will scrap Net Zero and make Australia an energy superpower. Our plan will deliver affordable power and energy abundance. Nov 12 Open post by angustaylormp with ID 17949912321074474 liberalaus When interest rates go up, everyone talks about mortgages. But renters pay too. The Liberals have a plan to take the pressure off. Read more at the link in bio Nov 12 Open post by liberalaus with ID 18101431352437482 angustaylormp I took one message to Albo’s own seat: the more Labor spends, the more Australians pay. Nov 12 Open post by angustaylormp with ID 18057310070587165 liberalaus Why does Albanese have such a hard time with the truth? Nov 12 Open post by liberalaus with ID 18121512068470231 liberalaus Labor has delivered a trifecta of failure on housing: fewer homes, higher rents, and confidence in the housing market smashed. Nov 12 Open post by liberalaus with ID 18112456289184729 liberalaus The more Labor spends, the more Australians pay. Nov 12 Open post by liberalaus with ID 18003397739813562 angustaylormp Chris Bowen`s obsession with Net Zero is costing Australians. Labor has shut out our natural resources &#8211; our gas, coal and nuclear. Anthony Albanese promised to cut your power bills. Instead they`re going up. We will scrap Net Zero. It`s part of our plan to save $31 billion in wasteful spending and lower your power bills. Nov 12 Open post by angustaylormp with ID 18040357817890457 liberalaus Labor has tanked the housing market and trashed the economy. It doesn`t need to be this way. The Liberals and Nationals have a plan to fix the economy and protect our way of life. Nov 12 Open post by liberalaus with ID 18484085245117961 We need your support to win! Help us by making a donation today. 🙏🏼 $30 👏🏼 $60 😃 $120 😁 $500 😲 $1,000 🥹 $2,000 ",
+        "after_excerpt": "er of the Opposition in the Senate Meet the Liberal Team The Latest Stay up to date with the Liberal Party of Australia liberalaus Labor doesn`t believe in or support reward for effort. The Liberal and Nationals do &#8211; and we`ll reward your hard work everyday. Nov 16 Open post by liberalaus with ID 18393953011234544 angustaylormp Did you know that Anthony Albanese is spending $5 billion a year on the NDIS for people that aren’t Australian citizens? That’s right. While small businesses are closing at record rates &#8211; $5 billion a year, yes BILLION, is being spent on the NDIS for non-citizens. We will put that to an end. The Liberals and Nationals will remove permanent residency as a basis for NDIS eligibility to ensure the scheme provides support for Australian citizens that have a permanent and significant disability. Nov 16 Open post by angustaylormp with ID 17910087759669101 angustaylormp Good chats. Great people. All wanting to fix our economy and protect our way of life. Nov 16 Open post by angustaylormp with ID 18136866817795972 liberalaus The Liberals and Nationals will always back small businesses. We will scrap Labor`s toxic trusts tax on small business, slash red tape by 25% and establish a permanent $50,000 instant asset write-off. Nov 16 Open post by liberalaus with ID 18095329988680797 senatorhume Australians need a Government that will turn up and deliver. Instead we have a Prime Minister who is all innuendo and no outcome. And we are all paying the price. Nov 16 Open post by senatorhume with ID 18107786867290804 liberalaus The Albanese Government is this week trying to push their damaging tax changes through parliament. They should scrap them, and take it to the next election, so Australians can decide. Nov 16 Open post by liberalaus with ID 18111678515648994 liberalaus Labor has tanked the housing market and trashed the economy. Labor is now overseeing a once in a generation housing downturn. Nov 16 Open post by liberalaus with ID 18119647979078675 liberalaus Our welfare system and the NDIS should put Australian citizens first. Our generous safety net should prioritise Australian citizens who have made the commitment to Australia and its values. This does not mean Australia stops being generous – it means the system has clear rules, clear priorities and a sustainable foundation. Nov 16 Open post by liberalaus with ID 17996367630099855 liberalaus The more Labor spends, the more Australians pay. Nov 16 Open post by liberalaus with ID 18119382719605809 senatorhume There are 13 days until Victoria can have a fresh start. Let’s get this done. Find out where you can vote and change Victoria for the better. Nov 15 Open post by senatorhume with ID 18130593034882392 angustaylormp Australia is worth fighting for. With our team and strong plan we can fix our economy, restore Australians’ standard of living and protect our way of life. Nov 15 Open post by angustaylormp with ID 17998172742108449 senatorhume Anthony Albanese and Chris Bowen can`t be trusted on the world stage. Nov 14 Open post by senatorhume with ID 18139540717567062 liberalaus Power prices are up nearly 40% under Labor. The Liberals will deliver cheaper power and energy abundance. Nov 13 Open post by liberalaus with ID 18649585363063637 angustaylormp Labor is waging a war on small businesses right across the country. We will get government out of your way and reward hard work. The Liberal and Nationals will always have your back. Nov 13 Open post by angustaylormp with ID 17895438948621155 senatorhume Week one of the Royal Commission into Labor’s corrupt Big Build. Here’s what you need to know. We can stop this happening again but we need your help. Sign the petition &#8211; link is in the bio. Nov 13 Open post by senatorhume with ID 18117021182123038 liberalaus Labor`s massive climate conference spending will do nothing to bring bills down for Australians. The Liberals and Nationals plan will deliver cheaper energy by scrapping Net Zero and unlocking our critical resources. Nov 13 Open post by liberalaus with ID 18133688600494764 liberalaus Australians are entitled to ask what they’re getting in return for this use of taxpayer money, particularly when Labor has failed to deliver the cheaper electricity and lower cost of living it promised. Nov 13 Open post by liberalaus with ID 18233953030332867 liberalaus Still trying to figure out how this brings power bills down 🤔 Nov 13 Open post by liberalaus with ID 18100711076423002 We need your support to win! Help us by making a donation today. 🙏🏼 $30 👏🏼 $60 😃 $120 😁 $500 😲 $1,000 🥹 $2,000 ",
+        "delta_hash": "5326ed338f4d41f69e779c067a681a81897fbed20fb4e177263b4fc309634c73"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-GREENS-FEDERAL-MEDIA-20261117035456",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-FED",
+      "party_id": "AUS-FED-GRN",
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-GREENS-FEDERAL-MEDIA-20261117035456",
+      "captured_at": "2026-11-17T03:54:56.604Z",
+      "event_date": "2026-11-17",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_PARTY",
+      "source_id": "SRC-GREENS-FEDERAL-RELEASE-INDEX",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "review_policy": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-GREENS-FEDERAL-MEDIA-20261113075852",
+        "content_hash": "b7b7fb06308484707ba16510c22f478a512c39591a49c71db56bd176b931ca2e",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-GREENS-FEDERAL-MEDIA-20261117035456",
+        "content_hash": "f654a029a56cb8443fd81c1fea31cd5548acf66e5bf36e1365e16c671869ea4e",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "STRUCTURED_RECORD_SET",
+        "records_added": [
+          {
+            "record_id": "80be2fe03941efd2592e",
+            "title": "Read more about Labor’s plan is billions for the billionaires, austerity for us",
+            "url": "https://greens.org.au/news/media-release/labors-plan-billions-billionaires-austerity-us"
+          },
+          {
+            "record_id": "88207ab1fd6623fbdbd3",
+            "title": "Labor’s plan is billions for the billionaires, austerity for us",
+            "url": "https://greens.org.au/news/media-release/labors-plan-billions-billionaires-austerity-us"
+          }
+        ],
+        "records_removed": [
+          {
+            "record_id": "3bd6b0b952b5a37582fd",
+            "title": "Labor’s coal and gas addiction comes with $6 billion annual bushfire bill",
+            "url": "https://greens.org.au/news/media-release/labors-coal-and-gas-addiction-comes-6-billion-annual-bushfire-bill"
+          },
+          {
+            "record_id": "b14d9099add0af11ae42",
+            "title": "Read more about Labor’s coal and gas addiction comes with $6 billion annual bushfire bill",
+            "url": "https://greens.org.au/news/media-release/labors-coal-and-gas-addiction-comes-6-billion-annual-bushfire-bill"
+          }
+        ],
+        "added_count": 2,
+        "removed_count": 2,
+        "before_count": 75,
+        "after_count": 75,
+        "delta_hash": "f61731326af3a109a56f73de1f2d91d104806dff7397f914c690a29868a9b6b7"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261117035456",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-QLD",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-QLD-MINISTERIAL-STATEMENTS-20261117035456",
+      "captured_at": "2026-11-17T03:54:56.604Z",
+      "event_date": "2026-11-17",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-QLD-MINISTERIAL-STATEMENTS",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "review_policy": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-QLD-MINISTERIAL-STATEMENTS-20261116094514",
+        "content_hash": "27d496ff0c26beb4298fa7e29b6a277c2b8431b45e5cbf4b63dddde0b428493c",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-QLD-MINISTERIAL-STATEMENTS-20261117035456",
+        "content_hash": "5d0d4ae1724c1d311d5eca494dfe30dfe2f5cf1cd5ffa892fe3ff472553042fa",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "STRUCTURED_RECORD_SET",
+        "records_added": [
+          {
+            "record_id": "0d25e8170bbd0a08b16b",
+            "title": "Construction Productivity Code implemented after damning CFMEU Inquiry Interim Report",
+            "url": "https://statements.qld.gov.au/statements/106445"
+          },
+          {
+            "record_id": "a04ca17669467a0bf631",
+            "title": "Delivering long-term water security for Woorabinda",
+            "url": "https://statements.qld.gov.au/statements/106377"
+          },
+          {
+            "record_id": "d6a247c129baf6fd636f",
+            "title": "Trailblazer Dr Merle Thornton AM honoured with statue",
+            "url": "https://statements.qld.gov.au/statements/106444"
+          },
+          {
+            "record_id": "ed99f2b0facebdea4568",
+            "title": "Castlereagh floodway upgrades complete",
+            "url": "https://statements.qld.gov.au/statements/106440"
+          }
+        ],
+        "records_removed": [
+          {
+            "record_id": "42776e14b762d92b2047",
+            "title": "Hope restored with 19 Supported Homes delivered for Logan",
+            "url": "https://statements.qld.gov.au/statements/106411"
+          },
+          {
+            "record_id": "55bb25c6c125525e653c",
+            "title": "Construction to begin on major safety upgrades at Rungoo",
+            "url": "https://statements.qld.gov.au/statements/106419"
+          },
+          {
+            "record_id": "ba4b89a287651cd914a6",
+            "title": "First step toward new critical minerals research centre in Mount Isa",
+            "url": "https://statements.qld.gov.au/statements/106418"
+          },
+          {
+            "record_id": "daf836d09382a3c58a5a",
+            "title": "Backing local road safety champions to save lives on Queensland roads",
+            "url": "https://statements.qld.gov.au/statements/106408"
+          }
+        ],
+        "added_count": 4,
+        "removed_count": 4,
+        "before_count": 16,
+        "after_count": 16,
+        "delta_hash": "2cab3ddab54a2ac4f9f5ffe675dd4fddafabcf3cb27e6526bd7ff7518ca78291"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "SIG-REV-CHG-WATCH-APH-BILLS-20261117035456",
+      "parent_event_id": "CHG-WATCH-APH-BILLS-20261117035456",
+      "review_id": "REV-CHG-WATCH-APH-BILLS-20261117035456",
+      "jurisdiction_id": "AUS-FED",
+      "party_id": null,
+      "actor_id": null,
+      "contest_id": null,
+      "cycle_id": null,
+      "source_snapshot_id": "AUTO-WATCH-APH-BILLS-20261117035456",
+      "record_id": "73dd523fe50b553bd491",
+      "captured_at": "2026-11-17T03:55:32.163Z",
+      "event_date": "2026-11-17",
+      "checkpoint": "CONTINUOUS_FORWARD_SIGNAL_REVIEW",
+      "event_type": "SIGNAL_CREATED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_PARLIAMENT",
+      "source_id": "SRC-APH-BILLS",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "claim": "Parliament of Australia — Bills and Legislation added 1 structured publication record to its forward-captured official index: Administrative and Judicial Review Legislation Ame...",
+      "observed_behaviour": "One or more structured publication records appeared in the monitored official source index after the preceding forward snapshot.",
+      "publication_records_added": [
+        {
+          "record_id": "73dd523fe50b553bd491",
+          "title": "Administrative and Judicial Review Legislation Ame...",
+          "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7516"
+        }
+      ],
+      "publication_records_removed": [
+        {
+          "record_id": "c522e44dbf4b86263daf",
+          "title": "Private Health Insurance (National Joint Replaceme...",
+          "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7544"
+        }
+      ],
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "underlying_publication_claims_not_promoted_to_verified_fact": true,
+        "source_change_parent_retained": true,
+        "deterministic_review": true
+      }
+    },
+    {
+      "event_id": "SIG-REV-CHG-WATCH-PM-MEDIA-20261117035456",
+      "parent_event_id": "CHG-WATCH-PM-MEDIA-20261117035456",
+      "review_id": "REV-CHG-WATCH-PM-MEDIA-20261117035456",
+      "jurisdiction_id": "AUS-FED",
+      "party_id": null,
+      "actor_id": null,
+      "contest_id": null,
+      "cycle_id": null,
+      "source_snapshot_id": "AUTO-WATCH-PM-MEDIA-20261117035456",
+      "record_id": null,
+      "captured_at": "2026-11-17T03:55:32.163Z",
+      "event_date": "2026-11-17",
+      "checkpoint": "CONTINUOUS_FORWARD_SIGNAL_REVIEW",
+      "event_type": "SIGNAL_CREATED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-PM-MEDIA",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "claim": "Prime Minister of Australia — media added 3 structured publication records to its forward-captured official index: ASEAN-Australia Summit opening remarks; Asia Zero Emissions Community Leaders’ Meeting; Last » Last page",
+      "observed_behaviour": "One or more structured publication records appeared in the monitored official source index after the preceding forward snapshot.",
+      "publication_records_added": [
+        {
+          "record_id": "294d4cb747480b3d9d1e",
+          "title": "ASEAN-Australia Summit opening remarks",
+          "url": "https://www.pm.gov.au/media/asean-australia-summit-opening-remarks-1"
+        },
+        {
+          "record_id": "2fd145e0b2c70cd7e316",
+          "title": "Asia Zero Emissions Community Leaders’ Meeting",
+          "url": "https://www.pm.gov.au/media/asia-zero-emissions-community-leaders-meeting"
+        },
+        {
+          "record_id": "f0393043823573f0461f",
+          "title": "Last » Last page",
+          "url": "https://www.pm.gov.au/media?page=286"
+        }
+      ],
+      "publication_records_removed": [
+        {
+          "record_id": "17bba4b5f29c64355834",
+          "title": "Remembrance Day 2026",
+          "url": "https://www.pm.gov.au/media/remembrance-day-2026"
+        },
+        {
+          "record_id": "b783388d4a8fb0cb1577",
+          "title": "Last » Last page",
+          "url": "https://www.pm.gov.au/media?page=285"
+        },
+        {
+          "record_id": "fe2e0170cba5d4977cbd",
+          "title": "Remarks - Changi Chapel, Singapore",
+          "url": "https://www.pm.gov.au/media/remarks-changi-chapel-singapore"
+        }
+      ],
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "underlying_publication_claims_not_promoted_to_verified_fact": true,
+        "source_change_parent_retained": true,
+        "deterministic_review": true
+      }
+    },
+    {
+      "event_id": "SIG-REV-CHG-WATCH-ALP-NEWS-20261117035456",
+      "parent_event_id": "CHG-WATCH-ALP-NEWS-20261117035456",
+      "review_id": "REV-CHG-WATCH-ALP-NEWS-20261117035456",
+      "jurisdiction_id": "AUS-FED",
+      "party_id": "AUS-FED-ALP",
+      "actor_id": null,
+      "contest_id": null,
+      "cycle_id": null,
+      "source_snapshot_id": "AUTO-WATCH-ALP-NEWS-20261117035456",
+      "record_id": "7188bbe28db272c7aec8",
+      "captured_at": "2026-11-17T03:55:32.163Z",
+      "event_date": "2026-11-17",
+      "checkpoint": "CONTINUOUS_FORWARD_SIGNAL_REVIEW",
+      "event_type": "SIGNAL_CREATED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_PARTY",
+      "source_id": "SRC-ALP-FEDERAL-NEWS",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "claim": "Australian Labor Party — news added 1 structured publication record to its forward-captured official index: Bulk billing continues to increase year on year 17 November 2026",
+      "observed_behaviour": "One or more structured publication records appeared in the monitored official source index after the preceding forward snapshot.",
+      "publication_records_added": [
+        {
+          "record_id": "7188bbe28db272c7aec8",
+          "title": "Bulk billing continues to increase year on year 17 November 2026",
+          "url": "https://www.alp.org.au/news/all-news/bulk-billing-continues-to-increase-year-on-year/"
+        }
+      ],
+      "publication_records_removed": [],
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "underlying_publication_claims_not_promoted_to_verified_fact": true,
+        "source_change_parent_retained": true,
+        "deterministic_review": true
+      }
+    },
+    {
+      "event_id": "SIG-REV-CHG-WATCH-GREENS-FEDERAL-MEDIA-20261117035456",
+      "parent_event_id": "CHG-WATCH-GREENS-FEDERAL-MEDIA-20261117035456",
+      "review_id": "REV-CHG-WATCH-GREENS-FEDERAL-MEDIA-20261117035456",
+      "jurisdiction_id": "AUS-FED",
+      "party_id": "AUS-FED-GRN",
+      "actor_id": null,
+      "contest_id": null,
+      "cycle_id": null,
+      "source_snapshot_id": "AUTO-WATCH-GREENS-FEDERAL-MEDIA-20261117035456",
+      "record_id": null,
+      "captured_at": "2026-11-17T03:55:32.163Z",
+      "event_date": "2026-11-17",
+      "checkpoint": "CONTINUOUS_FORWARD_SIGNAL_REVIEW",
+      "event_type": "SIGNAL_CREATED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_PARTY",
+      "source_id": "SRC-GREENS-FEDERAL-RELEASE-INDEX",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "claim": "Australian Greens — Federal MPs media releases added 2 structured publication records to its forward-captured official index: Read more about Labor’s plan is billions for the billionaires, austerity for us; Labor’s plan is billions for the billionaires, austerity for us",
+      "observed_behaviour": "One or more structured publication records appeared in the monitored official source index after the preceding forward snapshot.",
+      "publication_records_added": [
+        {
+          "record_id": "80be2fe03941efd2592e",
+          "title": "Read more about Labor’s plan is billions for the billionaires, austerity for us",
+          "url": "https://greens.org.au/news/media-release/labors-plan-billions-billionaires-austerity-us"
+        },
+        {
+          "record_id": "88207ab1fd6623fbdbd3",
+          "title": "Labor’s plan is billions for the billionaires, austerity for us",
+          "url": "https://greens.org.au/news/media-release/labors-plan-billions-billionaires-austerity-us"
+        }
+      ],
+      "publication_records_removed": [
+        {
+          "record_id": "3bd6b0b952b5a37582fd",
+          "title": "Labor’s coal and gas addiction comes with $6 billion annual bushfire bill",
+          "url": "https://greens.org.au/news/media-release/labors-coal-and-gas-addiction-comes-6-billion-annual-bushfire-bill"
+        },
+        {
+          "record_id": "b14d9099add0af11ae42",
+          "title": "Read more about Labor’s coal and gas addiction comes with $6 billion annual bushfire bill",
+          "url": "https://greens.org.au/news/media-release/labors-coal-and-gas-addiction-comes-6-billion-annual-bushfire-bill"
+        }
+      ],
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "underlying_publication_claims_not_promoted_to_verified_fact": true,
+        "source_change_parent_retained": true,
+        "deterministic_review": true
+      }
+    },
+    {
+      "event_id": "SIG-REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261117035456",
+      "parent_event_id": "CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261117035456",
+      "review_id": "REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261117035456",
+      "jurisdiction_id": "AUS-QLD",
+      "party_id": null,
+      "actor_id": null,
+      "contest_id": null,
+      "cycle_id": null,
+      "source_snapshot_id": "AUTO-WATCH-QLD-MINISTERIAL-STATEMENTS-20261117035456",
+      "record_id": null,
+      "captured_at": "2026-11-17T03:55:32.163Z",
+      "event_date": "2026-11-17",
+      "checkpoint": "CONTINUOUS_FORWARD_SIGNAL_REVIEW",
+      "event_type": "SIGNAL_CREATED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-QLD-MINISTERIAL-STATEMENTS",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "claim": "Queensland Government — Ministerial Media Statements added 4 structured publication records to its forward-captured official index: Construction Productivity Code implemented after damning CFMEU Inquiry Interim Report; Delivering long-term water security for Woorabinda; Trailblazer Dr Merle Thornton AM honoured with statue; Castlereagh floodway upgrades complete",
+      "observed_behaviour": "One or more structured publication records appeared in the monitored official source index after the preceding forward snapshot.",
+      "publication_records_added": [
+        {
+          "record_id": "0d25e8170bbd0a08b16b",
+          "title": "Construction Productivity Code implemented after damning CFMEU Inquiry Interim Report",
+          "url": "https://statements.qld.gov.au/statements/106445"
+        },
+        {
+          "record_id": "a04ca17669467a0bf631",
+          "title": "Delivering long-term water security for Woorabinda",
+          "url": "https://statements.qld.gov.au/statements/106377"
+        },
+        {
+          "record_id": "d6a247c129baf6fd636f",
+          "title": "Trailblazer Dr Merle Thornton AM honoured with statue",
+          "url": "https://statements.qld.gov.au/statements/106444"
+        },
+        {
+          "record_id": "ed99f2b0facebdea4568",
+          "title": "Castlereagh floodway upgrades complete",
+          "url": "https://statements.qld.gov.au/statements/106440"
+        }
+      ],
+      "publication_records_removed": [
+        {
+          "record_id": "42776e14b762d92b2047",
+          "title": "Hope restored with 19 Supported Homes delivered for Logan",
+          "url": "https://statements.qld.gov.au/statements/106411"
+        },
+        {
+          "record_id": "55bb25c6c125525e653c",
+          "title": "Construction to begin on major safety upgrades at Rungoo",
+          "url": "https://statements.qld.gov.au/statements/106419"
+        },
+        {
+          "record_id": "ba4b89a287651cd914a6",
+          "title": "First step toward new critical minerals research centre in Mount Isa",
+          "url": "https://statements.qld.gov.au/statements/106418"
+        },
+        {
+          "record_id": "daf836d09382a3c58a5a",
+          "title": "Backing local road safety champions to save lives on Queensland roads",
+          "url": "https://statements.qld.gov.au/statements/106408"
+        }
+      ],
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "underlying_publication_claims_not_promoted_to_verified_fact": true,
+        "source_change_parent_retained": true,
+        "deterministic_review": true
+      }
     }
   ]
 }

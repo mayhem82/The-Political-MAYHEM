@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-SIGNAL-REVIEWS-001",
   "created_at": "2026-09-09T05:05:00+10:00",
-  "updated_at": "2026-11-17T03:55:32.163Z",
+  "updated_at": "2026-11-17T13:28:11.336Z",
   "rules": {
     "append_only": true,
     "raw_source_change_is_immutable": true,
@@ -51546,6 +51546,304 @@
           }
         ],
         "delta_hash": "2cab3ddab54a2ac4f9f5ffe675dd4fddafabcf3cb27e6526bd7ff7518ca78291"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-APH-BILLS-20261117132737",
+      "source_change_event_id": "CHG-WATCH-APH-BILLS-20261117132737",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-APH-BILLS-20261117132737",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Parliament of Australia — Bills and Legislation added 1 structured publication record to its forward-captured official index: Commonwealth Electoral Amendment Bill 2026",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-11-17T13:28:11.336Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "26e92a7006bbc47bdae8",
+            "title": "Commonwealth Electoral Amendment Bill 2026",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=s1529"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "c6cf323b86329baf43f5",
+            "title": "Online Safety Amendment (Digital Duty of Care) Bil...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7553"
+          }
+        ],
+        "delta_hash": "242719c83b8817f1323804fc89626f93983087ba67f5e5b4508ba00b446260d4"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-ALP-NEWS-20261117132737",
+      "source_change_event_id": "CHG-WATCH-ALP-NEWS-20261117132737",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-ALP-NEWS-20261117132737",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": "AUS-FED-ALP",
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Australian Labor Party — news added 1 structured publication record to its forward-captured official index: More Australians screening for cervical cancer 17 November 2026",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-11-17T13:28:11.336Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "b3d4636804dd7f99b14e",
+            "title": "More Australians screening for cervical cancer 17 November 2026",
+            "url": "https://www.alp.org.au/news/all-news/more-australians-screening-as-cervical-cancer-elimination-goal-draws-closer/"
+          }
+        ],
+        "removed_records": [],
+        "delta_hash": "019651d6d79d43660a9ef475ae58acb44a00ec803c22897d7a0dea447d49a65a"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-NSW-MINISTERIAL-RELEASES-20261117132737",
+      "source_change_event_id": "CHG-WATCH-NSW-MINISTERIAL-RELEASES-20261117132737",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-NSW-MINISTERIAL-RELEASES-20261117132737",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "NSW Government — Ministerial releases added 10 structured publication records to its forward-captured official index: Emergency volunteers to benefit from greater protections; Deceased racehorse discovery at Lucas Heights; Dozens of public schools celebrated for NAPLAN improvement under the Minns Labor Government; Contract awarded to deliver $488 million upgrade of Pacific Highway through Wyong Town Centre; Thousands of homes and jobs green-lit for Orchard Hills; +5 more",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-11-17T13:28:11.336Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "1aa3ecceb1cd59e4c0a9",
+            "title": "Emergency volunteers to benefit from greater protections",
+            "url": "https://www.nsw.gov.au/ministerial-releases/emergency-volunteers-to-benefit-from-greater-protections"
+          },
+          {
+            "record_id": "5b556cab1625114ca230",
+            "title": "Deceased racehorse discovery at Lucas Heights",
+            "url": "https://www.nsw.gov.au/ministerial-releases/deceased-racehorse-discovery-at-lucas-heights"
+          },
+          {
+            "record_id": "5e30a1de694b5bfc5be8",
+            "title": "Dozens of public schools celebrated for NAPLAN improvement under the Minns Labor Government",
+            "url": "https://www.nsw.gov.au/ministerial-releases/dozens-of-public-schools-celebrated-for-naplan-improvement-under-minns-labor-government"
+          },
+          {
+            "record_id": "963a97d159d0a1707b5b",
+            "title": "Contract awarded to deliver $488 million upgrade of Pacific Highway through Wyong Town Centre",
+            "url": "https://www.nsw.gov.au/ministerial-releases/contract-awarded-to-deliver-488-million-upgrade-of-pacific-highway-through-wyong-town-centre"
+          },
+          {
+            "record_id": "a9fab234e1d0bd9a294a",
+            "title": "Thousands of homes and jobs green-lit for Orchard Hills",
+            "url": "https://www.nsw.gov.au/ministerial-releases/homes-jobs-greenlit-orchard-hills"
+          },
+          {
+            "record_id": "ae6c648652109831ce6a",
+            "title": "Minns Labor Government strengthens Aboriginal land rights",
+            "url": "https://www.nsw.gov.au/ministerial-releases/minns-labor-government-strengthens-aboriginal-land-rights"
+          },
+          {
+            "record_id": "b8775826d31b0c027aac",
+            "title": "First look inside Grafton Base Hospital’s new maternity unit",
+            "url": "https://www.nsw.gov.au/ministerial-releases/first-look-inside-grafton-base-hospitals-new-maternity-unit"
+          },
+          {
+            "record_id": "be1855f564029b451303",
+            "title": "Bill ensuring fair pay for council and labour hire workers passes Parliament",
+            "url": "https://www.nsw.gov.au/ministerial-releases/bill-ensuring-fair-pay-for-council-and-labour-hire-workers-passes-parliament"
+          },
+          {
+            "record_id": "bf2e7b91ad1c89f6a6df",
+            "title": "NSW expands support for wildlife rescue, rehabilitation and emergency response",
+            "url": "https://www.nsw.gov.au/ministerial-releases/new-funding-wildlife-rehabilitation"
+          },
+          {
+            "record_id": "d5d290a5256738166ca2",
+            "title": "Funding boost to enhance cancer care for children",
+            "url": "https://www.nsw.gov.au/ministerial-releases/funding-boost-to-enhance-cancer-care-for-children"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "04455c15a6ea6e69ebec",
+            "title": "New purpose-built support unit opens at Moruya High School",
+            "url": "https://www.nsw.gov.au/ministerial-releases/new-purpose-built-support-unit-opens-at-moruya-high-school"
+          },
+          {
+            "record_id": "0cd89037c50f7ce84741",
+            "title": "First look revealed for new Narrabeen Ambulance Station",
+            "url": "https://www.nsw.gov.au/ministerial-releases/first-look-revealed-for-new-narrabeen-ambulance-station"
+          },
+          {
+            "record_id": "0f397b5c4c566e9c3fec",
+            "title": "NSW Government staff blitz Australian biosecurity awards",
+            "url": "https://www.nsw.gov.au/ministerial-releases/nsw-government-wins-australian-biosecurity-awards"
+          },
+          {
+            "record_id": "20867ab69b7b34bf4ba1",
+            "title": "Manage account",
+            "url": "https://account.service.nsw.gov.au/manage"
+          },
+          {
+            "record_id": "2bdb6fa3655fed49766d",
+            "title": "Urgent Care Service to deliver services in Forster-Tuncurry",
+            "url": "https://www.nsw.gov.au/ministerial-releases/first-urgent-care-service-forster-tuncurry"
+          },
+          {
+            "record_id": "6ada03cfc0b5b56280ce",
+            "title": "Safer trips on the Mitchell Highway: Upgrades begin at Neurea South",
+            "url": "https://www.nsw.gov.au/ministerial-releases/safer-trips-on-mitchell-highway-upgrades-begin-at-neurea-south"
+          },
+          {
+            "record_id": "79b867cd2f45248642bd",
+            "title": "Minns Labor Government backs NSW small business innovators with $3 million",
+            "url": "https://www.nsw.gov.au/ministerial-releases/minns-labor-government-backs-nsw-small-business-innovators-3-million"
+          },
+          {
+            "record_id": "8880effdc17be340d644",
+            "title": "More procedures now being offered as day surgery",
+            "url": "https://www.nsw.gov.au/ministerial-releases/more-procedures-offered-as-day-surgery"
+          },
+          {
+            "record_id": "88deb55ded916ee20414",
+            "title": "Logout of MyServiceNSW",
+            "url": "https://services.dcu.nsw.gov.au/myaccount/logout?destination=https%3A//www.nsw.gov.au/ministerial-releases"
+          },
+          {
+            "record_id": "a31f195c62be5d947be8",
+            "title": "Have your say: flood-safe rezoning to unlock up to 230 homes in Murwillumbah",
+            "url": "https://www.nsw.gov.au/ministerial-releases/have-your-say-flood-safe-rezoning-to-unlock-up-to-230-homes-murwillumbah"
+          },
+          {
+            "record_id": "a57dcc4513a69d039181",
+            "title": "129 additional frontline security staff for 27 NSW hospitals",
+            "url": "https://www.nsw.gov.au/ministerial-releases/129-additional-frontline-security-staff-for-27-nsw-hospitals"
+          },
+          {
+            "record_id": "d2950ba68cddd9442fe7",
+            "title": "Minns Labor Government helps Southwest Sydney students kick-start careers in trades and skilled industries",
+            "url": "https://www.nsw.gov.au/ministerial-releases/minns-labor-government-helps-southwest-sydney-students-kick-start-careers-trades-and-skilled-industries"
+          }
+        ],
+        "delta_hash": "06d2132c4b99290db3f6ee2837ea9780c1389199a42df46a1d3e017e4e500926"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-VEC-MEDIA-20261117132737",
+      "source_change_event_id": "CHG-WATCH-VEC-MEDIA-20261117132737",
+      "decision": "EXCLUDED_AS_NON_SIGNAL",
+      "signal_event_id": null,
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": null,
+      "materiality_state": "IMMATERIAL",
+      "claim": "Structured publication-index change contained removals only. It is retained as a raw source change but is not automatically promoted into a political signal.",
+      "review_basis": "Deterministic review policy excludes removal-only index changes because disappearance from an index does not establish a political event, reversal or substantive fact.",
+      "reviewed_at": "2026-11-17T13:28:11.336Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [],
+        "removed_records": [
+          {
+            "record_id": "72b29bceaf4b8d6e10b9",
+            "title": "Low sensory voting",
+            "url": "https://www.vec.vic.gov.au/voting/2026-state-election/low-sensory-voting"
+          }
+        ],
+        "delta_hash": "b9af6cbc959dc7d07a37cef7cf92979b2171a71983a9caf2b5b9e0ac803c6f51"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261117132737",
+      "source_change_event_id": "CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261117132737",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261117132737",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Queensland Government — Ministerial Media Statements added 2 structured publication records to its forward-captured official index: Landmark reforms put victims at the heart of Queensland's justice system; New reforms for Queensland’s nightlife",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-11-17T13:28:11.336Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "6a9fce41d9f6feccc134",
+            "title": "Landmark reforms put victims at the heart of Queensland's justice system",
+            "url": "https://statements.qld.gov.au/statements/106443"
+          },
+          {
+            "record_id": "f9f9d3a0313298b18e28",
+            "title": "New reforms for Queensland’s nightlife",
+            "url": "https://statements.qld.gov.au/statements/106442"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "6f28c5c5857983f96346",
+            "title": "Gather Brisbane selected to bring new Gabba arena and precinct to life",
+            "url": "https://statements.qld.gov.au/statements/106431"
+          },
+          {
+            "record_id": "ae47917ca8cce2c5dc7d",
+            "title": "Magic Round kicks another goal for Queensland",
+            "url": "https://statements.qld.gov.au/statements/106433"
+          }
+        ],
+        "delta_hash": "d9d5d7d18395463fa7d0980c199d98e6dd9da3133c95b9f5294339750a5c21e7"
       },
       "integrity": {
         "source_change_unchanged": true,

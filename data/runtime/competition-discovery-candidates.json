@@ -69,63 +69,63 @@
     {
       "jurisdiction_id": "AUS-FED",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-11-17T03:55:37.970Z",
-      "signals_examined": 298,
-      "candidates_detected": 113
+      "last_screened_at": "2026-11-17T13:28:16.900Z",
+      "signals_examined": 302,
+      "candidates_detected": 116
     },
     {
       "jurisdiction_id": "AUS-NSW",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-11-17T03:55:37.970Z",
-      "signals_examined": 146,
+      "last_screened_at": "2026-11-17T13:28:16.900Z",
+      "signals_examined": 147,
       "candidates_detected": 47
     },
     {
       "jurisdiction_id": "AUS-VIC",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-11-17T03:55:37.970Z",
+      "last_screened_at": "2026-11-17T13:28:16.900Z",
       "signals_examined": 34,
       "candidates_detected": 7
     },
     {
       "jurisdiction_id": "AUS-QLD",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-11-17T03:55:37.970Z",
-      "signals_examined": 93,
+      "last_screened_at": "2026-11-17T13:28:16.900Z",
+      "signals_examined": 94,
       "candidates_detected": 45
     },
     {
       "jurisdiction_id": "AUS-WA",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-11-17T03:55:37.970Z",
+      "last_screened_at": "2026-11-17T13:28:16.900Z",
       "signals_examined": 8,
       "candidates_detected": 3
     },
     {
       "jurisdiction_id": "AUS-SA",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-11-17T03:55:37.970Z",
+      "last_screened_at": "2026-11-17T13:28:16.900Z",
       "signals_examined": 5,
       "candidates_detected": 0
     },
     {
       "jurisdiction_id": "AUS-TAS",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-11-17T03:55:37.970Z",
+      "last_screened_at": "2026-11-17T13:28:16.900Z",
       "signals_examined": 21,
       "candidates_detected": 0
     },
     {
       "jurisdiction_id": "AUS-ACT",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-11-17T03:55:37.970Z",
+      "last_screened_at": "2026-11-17T13:28:16.900Z",
       "signals_examined": 24,
       "candidates_detected": 1
     },
     {
       "jurisdiction_id": "AUS-NT",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-11-17T03:55:37.970Z",
+      "last_screened_at": "2026-11-17T13:28:16.900Z",
       "signals_examined": 31,
       "candidates_detected": 0
     }
@@ -8703,21 +8703,137 @@
           "reason": "SUBSTANTIVE_THRESHOLD_EVALUATION_PROPAGATED"
         }
       ]
+    },
+    {
+      "candidate_id": "DISC-FED-LEGISLATION-2989638d4d473f93",
+      "jurisdiction_id": "AUS-FED",
+      "competition_family": "LEGISLATION",
+      "proposed_competition_class": "LEGISLATIVE",
+      "proposed_cycle_id": "AUS-FED-48TH-PARLIAMENT",
+      "subject": "Commonwealth Electoral Amendment Bill 2026",
+      "candidate_state": "EVIDENCE_GAP",
+      "detected_at": "2026-11-17T13:28:11.336Z",
+      "source_snapshot_ids": [
+        "AUTO-WATCH-APH-BILLS-20261117132737"
+      ],
+      "signal_event_ids": [
+        "SIG-REV-CHG-WATCH-APH-BILLS-20261117132737"
+      ],
+      "review_ids": [
+        "REV-CHG-WATCH-APH-BILLS-20261117132737"
+      ],
+      "area_evidence_ids": [],
+      "detail_version_ids": [],
+      "evidence_summary": "Screened PRIMARY_PARLIAMENT evidence contains language consistent with a legislation competition candidate. This is a discovery observation, not a registered contest or outcome inference.",
+      "registration_blockers": [
+        "MATERIAL_RESISTANCE_NOT_YET_EVIDENCED",
+        "SUPPORTING_SIDE_NOT_YET_RESOLVED",
+        "OPPOSING_SIDE_NOT_YET_RESOLVED"
+      ],
+      "linked_contest_id": null,
+      "state_history": [
+        {
+          "from": null,
+          "to": "EVIDENCE_GAP",
+          "at": "2026-11-17T13:28:11.336Z",
+          "reason": "DETERMINISTIC_COMPETITION_FAMILY_SCREEN"
+        }
+      ]
+    },
+    {
+      "candidate_id": "DISC-FED-LEGISLATION-8c2e2a0cb705f91b",
+      "jurisdiction_id": "AUS-FED",
+      "competition_family": "LEGISLATION",
+      "proposed_competition_class": "LEGISLATIVE",
+      "proposed_cycle_id": "AUS-FED-48TH-PARLIAMENT",
+      "subject": "Ingested substantive legislative evidence from Commonwealth Electoral Amendment Bill 2026 &ndash; Parliament of Australia. Captured content includes stage: Introduced; resistance language: Amendment; outcome language: passed. Registration threshold state: evidence gap. Missing requirements: missing ",
+      "candidate_state": "EVIDENCE_GAP",
+      "detected_at": "2026-11-17T13:28:16.302Z",
+      "source_snapshot_ids": [
+        "AUTO-WATCH-APH-BILLS-20261117132737"
+      ],
+      "signal_event_ids": [
+        "INTEL-AREA-3459c2bef8970a0d969c2b45"
+      ],
+      "review_ids": [],
+      "area_evidence_ids": [
+        "AREA-3459c2bef8970a0d969c2b45"
+      ],
+      "detail_version_ids": [
+        "DETAIL-ff324c52e89d9975d9b2a35b-V1"
+      ],
+      "evidence_summary": "Substantive source record body was acquired, routed to LEGISLATIVE, and written into intelligence with retained detail, source-snapshot and stage-10 threshold lineage. Match registration remains a separate action.",
+      "registration_blockers": [
+        "MISSING_CONDITION_DISTINCT_SUPPORTING_AND_OPPOSING_SIDES",
+        "MISSING_FACT_TYPE_EXPLICIT_OPPOSITION_POSITION",
+        "MISSING_FACT_TYPE_EXPLICIT_SUPPORT_POSITION",
+        "MISSING_FACT_TYPE_MATERIAL_RESISTANCE"
+      ],
+      "linked_contest_id": null,
+      "state_history": [
+        {
+          "from": null,
+          "to": "EVIDENCE_GAP",
+          "at": "2026-11-17T13:28:16.302Z",
+          "reason": "SUBSTANTIVE_THRESHOLD_EVALUATION_PROPAGATED"
+        }
+      ]
+    },
+    {
+      "candidate_id": "DISC-FED-BUDGET-84a24d3e0a65ffeb",
+      "jurisdiction_id": "AUS-FED",
+      "competition_family": "BUDGET",
+      "proposed_competition_class": "BUDGET",
+      "proposed_cycle_id": "AUS-FED-48TH-PARLIAMENT",
+      "subject": "Ingested substantive budget evidence from Commonwealth Electoral Amendment Bill 2026 &ndash; Parliament of Australia. Captured content includes stage: Introduced; resistance language: Amendment; outcome language: passed. Registration threshold state: evidence gap. Missing requirements: missing fact ",
+      "candidate_state": "EVIDENCE_GAP",
+      "detected_at": "2026-11-17T13:28:16.302Z",
+      "source_snapshot_ids": [
+        "AUTO-WATCH-APH-BILLS-20261117132737"
+      ],
+      "signal_event_ids": [
+        "INTEL-AREA-466d5d213f61bc9633d3304f"
+      ],
+      "review_ids": [],
+      "area_evidence_ids": [
+        "AREA-466d5d213f61bc9633d3304f"
+      ],
+      "detail_version_ids": [
+        "DETAIL-ff324c52e89d9975d9b2a35b-V1"
+      ],
+      "evidence_summary": "Substantive source record body was acquired, routed to BUDGET, and written into intelligence with retained detail, source-snapshot and stage-10 threshold lineage. Match registration remains a separate action.",
+      "registration_blockers": [
+        "MISSING_CONDITION_DISTINCT_SUPPORTING_AND_OPPOSING_SIDES",
+        "MISSING_FACT_TYPE_CONTEST_OBJECT",
+        "MISSING_FACT_TYPE_EXPLICIT_OPPOSITION_POSITION",
+        "MISSING_FACT_TYPE_EXPLICIT_SUPPORT_POSITION",
+        "MISSING_FACT_TYPE_MATERIAL_RESISTANCE",
+        "MISSING_FACT_TYPE_OBJECTIVE"
+      ],
+      "linked_contest_id": null,
+      "state_history": [
+        {
+          "from": null,
+          "to": "EVIDENCE_GAP",
+          "at": "2026-11-17T13:28:16.302Z",
+          "reason": "SUBSTANTIVE_THRESHOLD_EVALUATION_PROPAGATED"
+        }
+      ]
     }
   ],
-  "last_screened_at": "2026-11-17T03:55:37.970Z",
+  "last_screened_at": "2026-11-17T13:28:16.900Z",
   "last_screen_summary": {
-    "signals_examined": 660,
-    "candidates_total": 216,
-    "candidates_added": 0,
+    "signals_examined": 666,
+    "candidates_total": 219,
+    "candidates_added": 3,
     "candidate_lineage_merges": 430,
-    "substantive_area_events_examined": 136,
+    "substantive_area_events_examined": 138,
     "threshold_state_transitions": 0,
     "registered_contests_unchanged": true
   },
-  "last_duplicate_reconciliation_at": "2026-11-17T03:55:38.060Z",
+  "last_duplicate_reconciliation_at": "2026-11-17T13:28:17.020Z",
   "last_duplicate_reconciliation": {
     "rejected": 0,
-    "active_area_family_keys": 135
+    "active_area_family_keys": 137
   }
 }

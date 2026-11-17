@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-SIGNAL-REVIEWS-001",
   "created_at": "2026-09-09T05:05:00+10:00",
-  "updated_at": "2026-11-17T13:28:11.336Z",
+  "updated_at": "2026-11-17T22:25:28.483Z",
   "rules": {
     "append_only": true,
     "raw_source_change_is_immutable": true,
@@ -51844,6 +51844,116 @@
           }
         ],
         "delta_hash": "d9d5d7d18395463fa7d0980c199d98e6dd9da3133c95b9f5294339750a5c21e7"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-APH-BILLS-20261117222451",
+      "source_change_event_id": "CHG-WATCH-APH-BILLS-20261117222451",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-APH-BILLS-20261117222451",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Parliament of Australia — Bills and Legislation added 1 structured publication record to its forward-captured official index: Wearable Recording Devices (Import Control) Bill 2...",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-11-17T22:25:28.483Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "9b6c532a8df6c446d6d8",
+            "title": "Wearable Recording Devices (Import Control) Bill 2...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=s1519"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "6955ae575c545805b9bd",
+            "title": "Defence Legislation Amendment (Accelerating Capabi...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7568"
+          }
+        ],
+        "delta_hash": "73e6c4e92915390d19bf6bd23e1639409dc67a551d803528004db5d5cf69bb63"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-PM-MEDIA-20261117222451",
+      "source_change_event_id": "CHG-WATCH-PM-MEDIA-20261117222451",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-PM-MEDIA-20261117222451",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Prime Minister of Australia — media added 4 structured publication records to its forward-captured official index: Intervention - East Asia Summit - Manila, Philippines; Opening remarks - Quad Leaders&#039; Summit - Manila Philippines; Doorstop - Manila, Philippines; Quad Leaders’ Summit Joint Press Release",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-11-17T22:25:28.483Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "1522d9365247909143c3",
+            "title": "Intervention - East Asia Summit - Manila, Philippines",
+            "url": "https://www.pm.gov.au/media/intervention-east-asia-summit-manila-philippines"
+          },
+          {
+            "record_id": "1bec18a1d2108974d753",
+            "title": "Opening remarks - Quad Leaders&#039; Summit - Manila Philippines",
+            "url": "https://www.pm.gov.au/media/opening-remarks-quad-leaders-summit-manila-philippines"
+          },
+          {
+            "record_id": "aa56d5241243a2dea14b",
+            "title": "Doorstop - Manila, Philippines",
+            "url": "https://www.pm.gov.au/media/doorstop-manila-philippines"
+          },
+          {
+            "record_id": "b1da9df9dd477e668784",
+            "title": "Quad Leaders’ Summit Joint Press Release",
+            "url": "https://www.pm.gov.au/media/quad-leaders-summit-joint-press-release"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "1835ec9a31807bea18a7",
+            "title": "Press conference - Antalya, Turkiye",
+            "url": "https://www.pm.gov.au/media/press-conference-antalya-turkiye"
+          },
+          {
+            "record_id": "5a8f5542c479dd6f30fd",
+            "title": "COP31 Australia Investor Roundtable",
+            "url": "https://www.pm.gov.au/media/cop31-australia-investor-roundtable"
+          },
+          {
+            "record_id": "a182d91d16ebcdca9df8",
+            "title": "Pacific Resilience Facility showcase",
+            "url": "https://www.pm.gov.au/media/pacific-resilience-facility-showcase"
+          },
+          {
+            "record_id": "e645cf5336eabba9c546",
+            "title": "COP31 spotlight on the Pacific Resilience Facility",
+            "url": "https://www.pm.gov.au/media/cop31-spotlight-pacific-resilience-facility"
+          }
+        ],
+        "delta_hash": "3702563df3efcef0f9ccb7a9a72c7527f6400aaaa78ad52ceee43df8a9eb6336"
       },
       "integrity": {
         "source_change_unchanged": true,

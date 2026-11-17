@@ -69,63 +69,63 @@
     {
       "jurisdiction_id": "AUS-FED",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-11-17T13:28:16.900Z",
-      "signals_examined": 302,
-      "candidates_detected": 116
+      "last_screened_at": "2026-11-17T22:25:36.502Z",
+      "signals_examined": 304,
+      "candidates_detected": 117
     },
     {
       "jurisdiction_id": "AUS-NSW",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-11-17T13:28:16.900Z",
+      "last_screened_at": "2026-11-17T22:25:36.502Z",
       "signals_examined": 147,
       "candidates_detected": 47
     },
     {
       "jurisdiction_id": "AUS-VIC",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-11-17T13:28:16.900Z",
+      "last_screened_at": "2026-11-17T22:25:36.502Z",
       "signals_examined": 34,
       "candidates_detected": 7
     },
     {
       "jurisdiction_id": "AUS-QLD",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-11-17T13:28:16.900Z",
+      "last_screened_at": "2026-11-17T22:25:36.502Z",
       "signals_examined": 94,
       "candidates_detected": 45
     },
     {
       "jurisdiction_id": "AUS-WA",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-11-17T13:28:16.900Z",
+      "last_screened_at": "2026-11-17T22:25:36.502Z",
       "signals_examined": 8,
       "candidates_detected": 3
     },
     {
       "jurisdiction_id": "AUS-SA",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-11-17T13:28:16.900Z",
+      "last_screened_at": "2026-11-17T22:25:36.502Z",
       "signals_examined": 5,
       "candidates_detected": 0
     },
     {
       "jurisdiction_id": "AUS-TAS",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-11-17T13:28:16.900Z",
+      "last_screened_at": "2026-11-17T22:25:36.502Z",
       "signals_examined": 21,
       "candidates_detected": 0
     },
     {
       "jurisdiction_id": "AUS-ACT",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-11-17T13:28:16.900Z",
+      "last_screened_at": "2026-11-17T22:25:36.502Z",
       "signals_examined": 24,
       "candidates_detected": 1
     },
     {
       "jurisdiction_id": "AUS-NT",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-11-17T13:28:16.900Z",
+      "last_screened_at": "2026-11-17T22:25:36.502Z",
       "signals_examined": 31,
       "candidates_detected": 0
     }
@@ -8819,19 +8819,55 @@
           "reason": "SUBSTANTIVE_THRESHOLD_EVALUATION_PROPAGATED"
         }
       ]
+    },
+    {
+      "candidate_id": "DISC-FED-LEGISLATION-7e185d5ad3fbc8d6",
+      "jurisdiction_id": "AUS-FED",
+      "competition_family": "LEGISLATION",
+      "proposed_competition_class": "LEGISLATIVE",
+      "proposed_cycle_id": "AUS-FED-48TH-PARLIAMENT",
+      "subject": "Wearable Recording Devices (Import Control) Bill 2...",
+      "candidate_state": "EVIDENCE_GAP",
+      "detected_at": "2026-11-17T22:25:28.483Z",
+      "source_snapshot_ids": [
+        "AUTO-WATCH-APH-BILLS-20261117222451"
+      ],
+      "signal_event_ids": [
+        "SIG-REV-CHG-WATCH-APH-BILLS-20261117222451"
+      ],
+      "review_ids": [
+        "REV-CHG-WATCH-APH-BILLS-20261117222451"
+      ],
+      "area_evidence_ids": [],
+      "detail_version_ids": [],
+      "evidence_summary": "Screened PRIMARY_PARLIAMENT evidence contains language consistent with a legislation competition candidate. This is a discovery observation, not a registered contest or outcome inference.",
+      "registration_blockers": [
+        "MATERIAL_RESISTANCE_NOT_YET_EVIDENCED",
+        "SUPPORTING_SIDE_NOT_YET_RESOLVED",
+        "OPPOSING_SIDE_NOT_YET_RESOLVED"
+      ],
+      "linked_contest_id": null,
+      "state_history": [
+        {
+          "from": null,
+          "to": "EVIDENCE_GAP",
+          "at": "2026-11-17T22:25:28.483Z",
+          "reason": "DETERMINISTIC_COMPETITION_FAMILY_SCREEN"
+        }
+      ]
     }
   ],
-  "last_screened_at": "2026-11-17T13:28:16.900Z",
+  "last_screened_at": "2026-11-17T22:25:36.502Z",
   "last_screen_summary": {
-    "signals_examined": 666,
-    "candidates_total": 219,
-    "candidates_added": 3,
-    "candidate_lineage_merges": 430,
+    "signals_examined": 668,
+    "candidates_total": 220,
+    "candidates_added": 1,
+    "candidate_lineage_merges": 433,
     "substantive_area_events_examined": 138,
     "threshold_state_transitions": 0,
     "registered_contests_unchanged": true
   },
-  "last_duplicate_reconciliation_at": "2026-11-17T13:28:17.020Z",
+  "last_duplicate_reconciliation_at": "2026-11-17T22:25:36.598Z",
   "last_duplicate_reconciliation": {
     "rejected": 0,
     "active_area_family_keys": 137

@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-INTELLIGENCE-EVENTS-001",
   "scope": "Australia — multi-jurisdiction",
-  "captured_at": "2026-11-18T14:00:04.873Z",
+  "captured_at": "2026-11-18T21:58:21.601Z",
   "mode": "FORWARD_ONLY",
   "rules": {
     "observation_distinct_from_inference": true,
@@ -145080,6 +145080,180 @@
           "record_id": "db5e8b33c26c653dce1d",
           "title": "Community invited to help shape the future of Urangan State Harbour",
           "url": "https://statements.qld.gov.au/statements/106429"
+        }
+      ],
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "underlying_publication_claims_not_promoted_to_verified_fact": true,
+        "source_change_parent_retained": true,
+        "deterministic_review": true
+      }
+    },
+    {
+      "event_id": "CHG-WATCH-GREENS-FEDERAL-MEDIA-20261118215735",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-FED",
+      "party_id": "AUS-FED-GRN",
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-GREENS-FEDERAL-MEDIA-20261118215735",
+      "captured_at": "2026-11-18T21:57:35.193Z",
+      "event_date": "2026-11-19",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_PARTY",
+      "source_id": "SRC-GREENS-FEDERAL-RELEASE-INDEX",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "review_policy": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-GREENS-FEDERAL-MEDIA-20261118135929",
+        "content_hash": "8579ce2562a87f7a180d7cfe5c7efa3b3d1ba171f587024868171898914cb479",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-GREENS-FEDERAL-MEDIA-20261118215735",
+        "content_hash": "9ec9eb604030c95e4948b82dd9ae9d68c2413b64bf44b5a7137527bc3b3952bd",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "STRUCTURED_RECORD_SET",
+        "records_added": [
+          {
+            "record_id": "2f9c48870bfe952c0582",
+            "title": "Read more about Labor rejects WFH rights, fails workers",
+            "url": "https://greens.org.au/news/media-release/labor-rejects-wfh-rights-fails-workers"
+          },
+          {
+            "record_id": "36f726880b6deae2164e",
+            "title": "Labor rejects WFH rights, fails workers",
+            "url": "https://greens.org.au/news/media-release/labor-rejects-wfh-rights-fails-workers"
+          }
+        ],
+        "records_removed": [
+          {
+            "record_id": "5dcafa09a405ccc8cca9",
+            "title": "Read more about Labor&#039;s forest deal a stitch-up for the logging industry",
+            "url": "https://greens.org.au/news/media-release/labors-forest-deal-stitch-logging-industry"
+          },
+          {
+            "record_id": "da56212525f540a0074c",
+            "title": "Labor&#039;s forest deal a stitch-up for the logging industry",
+            "url": "https://greens.org.au/news/media-release/labors-forest-deal-stitch-logging-industry"
+          }
+        ],
+        "added_count": 2,
+        "removed_count": 2,
+        "before_count": 75,
+        "after_count": 75,
+        "delta_hash": "ef2bc6d39605508f30439453bbbc962e36b671a25c4ea73e7f4eeae1f8b327b4"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-WA-HANSARD-20261118215735",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-WA",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-WA-HANSARD-20261118215735",
+      "captured_at": "2026-11-18T21:57:35.193Z",
+      "event_date": "2026-11-19",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_PARLIAMENT",
+      "source_id": "SRC-WA-HANSARD",
+      "capture_mode": "NORMALISED_PAGE_HASH",
+      "review_policy": "REVIEW_UNSTRUCTURED_CHANGE",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-WA-HANSARD-20261118135929",
+        "content_hash": "793c8013054fa6a42ee32b0cad9ef0ba78c51d11cae8fe31cbd018c39019fa14",
+        "capture_mode": "NORMALISED_PAGE_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-WA-HANSARD-20261118215735",
+        "content_hash": "307367baa817f7872073a7a16c7ccfe9a4a527a5f71e5a8be047006ba50628de",
+        "capture_mode": "NORMALISED_PAGE_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "TEXT_REPRESENTATION",
+        "first_difference_offset": 349,
+        "before_length": 10740,
+        "after_length": 10742,
+        "before_excerpt": " Assembly live The Legislative Council meets today (<TIME>) Watch live Watch Council live The Estimates Committee meets today (<TIME>) Watch live Watch Committee live Search this website Advanced Search Search Parliamentary Business Bills (proposed laws) WA Acts and Regulations (curren",
+        "after_excerpt": " Assembly live The Legislative Council meets today (<TIME>) Watch live Watch Council live The Estimates Committee meets on 25/11/2026 (<TIME>) Committee meet 25/11/2026 Search this website Advanced Search Search Parliamentary Business Bills (proposed laws) WA Acts and Regulations (curren",
+        "delta_hash": "70ca52c1be12abc938c51d11acb1915bf2a59176eef0565d1d52fa4ca26fc4d5"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "SIG-REV-CHG-WATCH-GREENS-FEDERAL-MEDIA-20261118215735",
+      "parent_event_id": "CHG-WATCH-GREENS-FEDERAL-MEDIA-20261118215735",
+      "review_id": "REV-CHG-WATCH-GREENS-FEDERAL-MEDIA-20261118215735",
+      "jurisdiction_id": "AUS-FED",
+      "party_id": "AUS-FED-GRN",
+      "actor_id": null,
+      "contest_id": null,
+      "cycle_id": null,
+      "source_snapshot_id": "AUTO-WATCH-GREENS-FEDERAL-MEDIA-20261118215735",
+      "record_id": null,
+      "captured_at": "2026-11-18T21:58:15.856Z",
+      "event_date": "2026-11-19",
+      "checkpoint": "CONTINUOUS_FORWARD_SIGNAL_REVIEW",
+      "event_type": "SIGNAL_CREATED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_PARTY",
+      "source_id": "SRC-GREENS-FEDERAL-RELEASE-INDEX",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "claim": "Australian Greens — Federal MPs media releases added 2 structured publication records to its forward-captured official index: Read more about Labor rejects WFH rights, fails workers; Labor rejects WFH rights, fails workers",
+      "observed_behaviour": "One or more structured publication records appeared in the monitored official source index after the preceding forward snapshot.",
+      "publication_records_added": [
+        {
+          "record_id": "2f9c48870bfe952c0582",
+          "title": "Read more about Labor rejects WFH rights, fails workers",
+          "url": "https://greens.org.au/news/media-release/labor-rejects-wfh-rights-fails-workers"
+        },
+        {
+          "record_id": "36f726880b6deae2164e",
+          "title": "Labor rejects WFH rights, fails workers",
+          "url": "https://greens.org.au/news/media-release/labor-rejects-wfh-rights-fails-workers"
+        }
+      ],
+      "publication_records_removed": [
+        {
+          "record_id": "5dcafa09a405ccc8cca9",
+          "title": "Read more about Labor&#039;s forest deal a stitch-up for the logging industry",
+          "url": "https://greens.org.au/news/media-release/labors-forest-deal-stitch-logging-industry"
+        },
+        {
+          "record_id": "da56212525f540a0074c",
+          "title": "Labor&#039;s forest deal a stitch-up for the logging industry",
+          "url": "https://greens.org.au/news/media-release/labors-forest-deal-stitch-logging-industry"
         }
       ],
       "inference": null,

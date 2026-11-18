@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-SIGNAL-REVIEWS-001",
   "created_at": "2026-09-09T05:05:00+10:00",
-  "updated_at": "2026-11-18T14:00:01.366Z",
+  "updated_at": "2026-11-18T21:58:15.856Z",
   "rules": {
     "append_only": true,
     "raw_source_change_is_immutable": true,
@@ -52363,6 +52363,56 @@
           }
         ],
         "delta_hash": "bb96588b3598fbe03efa2e5eec00450b6b27327bb672309b2ea3d6b209fcef54"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-GREENS-FEDERAL-MEDIA-20261118215735",
+      "source_change_event_id": "CHG-WATCH-GREENS-FEDERAL-MEDIA-20261118215735",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-GREENS-FEDERAL-MEDIA-20261118215735",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": "AUS-FED-GRN",
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Australian Greens — Federal MPs media releases added 2 structured publication records to its forward-captured official index: Read more about Labor rejects WFH rights, fails workers; Labor rejects WFH rights, fails workers",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-11-18T21:58:15.856Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "2f9c48870bfe952c0582",
+            "title": "Read more about Labor rejects WFH rights, fails workers",
+            "url": "https://greens.org.au/news/media-release/labor-rejects-wfh-rights-fails-workers"
+          },
+          {
+            "record_id": "36f726880b6deae2164e",
+            "title": "Labor rejects WFH rights, fails workers",
+            "url": "https://greens.org.au/news/media-release/labor-rejects-wfh-rights-fails-workers"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "5dcafa09a405ccc8cca9",
+            "title": "Read more about Labor&#039;s forest deal a stitch-up for the logging industry",
+            "url": "https://greens.org.au/news/media-release/labors-forest-deal-stitch-logging-industry"
+          },
+          {
+            "record_id": "da56212525f540a0074c",
+            "title": "Labor&#039;s forest deal a stitch-up for the logging industry",
+            "url": "https://greens.org.au/news/media-release/labors-forest-deal-stitch-logging-industry"
+          }
+        ],
+        "delta_hash": "ef2bc6d39605508f30439453bbbc962e36b671a25c4ea73e7f4eeae1f8b327b4"
       },
       "integrity": {
         "source_change_unchanged": true,

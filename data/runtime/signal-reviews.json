@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-SIGNAL-REVIEWS-001",
   "created_at": "2026-09-09T05:05:00+10:00",
-  "updated_at": "2026-11-17T22:25:28.483Z",
+  "updated_at": "2026-11-18T14:00:01.366Z",
   "rules": {
     "append_only": true,
     "raw_source_change_is_immutable": true,
@@ -51954,6 +51954,415 @@
           }
         ],
         "delta_hash": "3702563df3efcef0f9ccb7a9a72c7527f6400aaaa78ad52ceee43df8a9eb6336"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-APH-BILLS-20261118135929",
+      "source_change_event_id": "CHG-WATCH-APH-BILLS-20261118135929",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-APH-BILLS-20261118135929",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Parliament of Australia — Bills and Legislation added 3 structured publication records to its forward-captured official index: Defence Legislation Amendment (Accelerating Capabi...; Private Health Insurance (National Joint Replaceme...; Australian Education Amendment (Accountability and...",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-11-18T14:00:01.366Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "6955ae575c545805b9bd",
+            "title": "Defence Legislation Amendment (Accelerating Capabi...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7568"
+          },
+          {
+            "record_id": "c522e44dbf4b86263daf",
+            "title": "Private Health Insurance (National Joint Replaceme...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7544"
+          },
+          {
+            "record_id": "cfcb2bd5cea6313b6415",
+            "title": "Australian Education Amendment (Accountability and...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=s1530"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "26e92a7006bbc47bdae8",
+            "title": "Commonwealth Electoral Amendment Bill 2026",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=s1529"
+          },
+          {
+            "record_id": "73dd523fe50b553bd491",
+            "title": "Administrative and Judicial Review Legislation Ame...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7516"
+          },
+          {
+            "record_id": "9b6c532a8df6c446d6d8",
+            "title": "Wearable Recording Devices (Import Control) Bill 2...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=s1519"
+          }
+        ],
+        "delta_hash": "c0e11e632f4549732aa7843675b625b7e765138918d74d25e4765e1f03676264"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-PM-MEDIA-20261118135929",
+      "source_change_event_id": "CHG-WATCH-PM-MEDIA-20261118135929",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-PM-MEDIA-20261118135929",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Prime Minister of Australia — media added 2 structured publication records to its forward-captured official index: APEC CEO Summit; Press conference - Shenzhen, China",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-11-18T14:00:01.366Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "8998e3429425495a311e",
+            "title": "APEC CEO Summit",
+            "url": "https://www.pm.gov.au/media/apec-ceo-summit"
+          },
+          {
+            "record_id": "9b3e9aa38f159014e0af",
+            "title": "Press conference - Shenzhen, China",
+            "url": "https://www.pm.gov.au/media/press-conference-shenzhen-china"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "3918f86c4a10b3a767db",
+            "title": "Enhancing defence cooperation and maritime security in Southeast Asia",
+            "url": "https://www.pm.gov.au/media/enhancing-defence-cooperation-and-maritime-security-southeast-asia"
+          },
+          {
+            "record_id": "fd27db5c2cd8e7c50589",
+            "title": "Jollibee coming to Australia",
+            "url": "https://www.pm.gov.au/media/jollibee-coming-australia"
+          }
+        ],
+        "delta_hash": "025a0003d888e5023a372f071c9906506c56c9aac2b87a453f4ad54c901801ac"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-ALP-NEWS-20261118135929",
+      "source_change_event_id": "CHG-WATCH-ALP-NEWS-20261118135929",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-ALP-NEWS-20261118135929",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": "AUS-FED-ALP",
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Australian Labor Party — news added 1 structured publication record to its forward-captured official index: Gender pay gap lowest on record 18 November 2026",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-11-18T14:00:01.366Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "50887732d73d1fc4dd4d",
+            "title": "Gender pay gap lowest on record 18 November 2026",
+            "url": "https://www.alp.org.au/news/all-news/addressing-low-paid-womens-work-helps-reduce-gender-pay-gap-to-lowest-on-record/"
+          }
+        ],
+        "removed_records": [],
+        "delta_hash": "e79e41f6afc5f179999f6a603f45c402702465c6d2b7b2319cb2197ce5d6a4db"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-GREENS-FEDERAL-MEDIA-20261118135929",
+      "source_change_event_id": "CHG-WATCH-GREENS-FEDERAL-MEDIA-20261118135929",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-GREENS-FEDERAL-MEDIA-20261118135929",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": "AUS-FED-GRN",
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Australian Greens — Federal MPs media releases added 11 structured publication records to its forward-captured official index: Greens back “Not AI’s to Take” campaign; Media Release: Optimizely hack shows the enshittification of the internet is putting you at risk; Read more about Greens back “Not AI’s to Take” campaign; Read more about Inquiry: No Excuse to Deny Under-18s Super; War parties’ stitch up could send you to prison for protesting; +6 more",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-11-18T14:00:01.366Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "08b39a6adba82267cf93",
+            "title": "Greens back “Not AI’s to Take” campaign",
+            "url": "https://greens.org.au/sa/news/media-release/greens-back-not-ais-take-campaign"
+          },
+          {
+            "record_id": "1d1af8a76e4bb8b065ee",
+            "title": "Media Release: Optimizely hack shows the enshittification of the internet is putting you at risk",
+            "url": "https://greens.org.au/news/media-release/media-release-optimizely-hack-shows-enshittification-internet-putting-you-risk"
+          },
+          {
+            "record_id": "24d479291dbca6ef27f5",
+            "title": "Read more about Greens back “Not AI’s to Take” campaign",
+            "url": "https://greens.org.au/sa/news/media-release/greens-back-not-ais-take-campaign"
+          },
+          {
+            "record_id": "6a4dbf458c59e8b1e189",
+            "title": "Read more about Inquiry: No Excuse to Deny Under-18s Super",
+            "url": "https://greens.org.au/news/media-release/inquiry-no-excuse-deny-under-18s-super"
+          },
+          {
+            "record_id": "6f7878c461a41379de28",
+            "title": "War parties’ stitch up could send you to prison for protesting",
+            "url": "https://greens.org.au/news/media-release/war-parties-stitch-could-send-you-prison-protesting"
+          },
+          {
+            "record_id": "7ff81e42ad44a95bbfc4",
+            "title": "Read more about War parties’ stitch up could send you to prison for protesting",
+            "url": "https://greens.org.au/news/media-release/war-parties-stitch-could-send-you-prison-protesting"
+          },
+          {
+            "record_id": "a2309862da6a5a6cf736",
+            "title": "Greens bill will force Labor to act on private school misconduct",
+            "url": "https://greens.org.au/news/media-release/greens-bill-will-force-labor-act-private-school-misconduct"
+          },
+          {
+            "record_id": "b07f6be04f90d35a0b86",
+            "title": "Read more about Media Release: Optimizely hack shows the enshittification of the internet is putting you at risk",
+            "url": "https://greens.org.au/news/media-release/media-release-optimizely-hack-shows-enshittification-internet-putting-you-risk"
+          },
+          {
+            "record_id": "c7729fe687d7d60af4f9",
+            "title": "Last page Last »",
+            "url": "https://greens.org.au/news/media-releases?page=301"
+          },
+          {
+            "record_id": "efef2dd447572894e65a",
+            "title": "Inquiry: No Excuse to Deny Under-18s Super",
+            "url": "https://greens.org.au/news/media-release/inquiry-no-excuse-deny-under-18s-super"
+          },
+          {
+            "record_id": "f43378a6fd101b753bee",
+            "title": "Read more about Greens bill will force Labor to act on private school misconduct",
+            "url": "https://greens.org.au/news/media-release/greens-bill-will-force-labor-act-private-school-misconduct"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "422575c9a9c46bd7bd6d",
+            "title": "Read more about Greens ask, how many more headlines before Labor confronts the national childcare crisis?",
+            "url": "https://greens.org.au/news/media-release/greens-ask-how-many-more-headlines-labor-confronts-national-childcare-crisis"
+          },
+          {
+            "record_id": "42d17cb61791af72a5f5",
+            "title": "Read more about Labor’s grim economic plan is driven by vampire US tech bros: Greens",
+            "url": "https://greens.org.au/news/media-release/labors-grim-economic-plan-driven-vampire-us-tech-bros-greens"
+          },
+          {
+            "record_id": "5953f85e252041977d75",
+            "title": "Inquiry reveals Labor’s gas reserve bill brings Beetaloo climate bomb closer",
+            "url": "https://greens.org.au/news/media-release/inquiry-reveals-labors-gas-reserve-bill-brings-beetaloo-climate-bomb-closer"
+          },
+          {
+            "record_id": "5ae85d76655b37b93a6c",
+            "title": "Read more about Greens vow to Hold Big Tech to Account and deliver Digital Duty of Care laws with Teeth",
+            "url": "https://greens.org.au/sa/news/media-release/greens-vow-hold-big-tech-account-and-deliver-digital-duty-care-laws-teeth"
+          },
+          {
+            "record_id": "65412eb02a8bdb5ab3c2",
+            "title": "Read more about $2.2m a year - a lottery win or APS salary?",
+            "url": "https://greens.org.au/news/media-release/22m-year-lottery-win-or-aps-salary"
+          },
+          {
+            "record_id": "a633dd991948f72e884c",
+            "title": "$2.2m a year - a lottery win or APS salary?",
+            "url": "https://greens.org.au/news/media-release/22m-year-lottery-win-or-aps-salary"
+          },
+          {
+            "record_id": "a66dc7a4ade6924a9277",
+            "title": "Greens ask, how many more headlines before Labor confronts the national childcare crisis?",
+            "url": "https://greens.org.au/news/media-release/greens-ask-how-many-more-headlines-labor-confronts-national-childcare-crisis"
+          },
+          {
+            "record_id": "a94c8f417718406aae81",
+            "title": "Last page Last »",
+            "url": "https://greens.org.au/news/media-releases?page=300"
+          },
+          {
+            "record_id": "b6729d81f8de64b87010",
+            "title": "Read more about Inquiry reveals Labor’s gas reserve bill brings Beetaloo climate bomb closer",
+            "url": "https://greens.org.au/news/media-release/inquiry-reveals-labors-gas-reserve-bill-brings-beetaloo-climate-bomb-closer"
+          },
+          {
+            "record_id": "c7d1ad1f36327a55f65e",
+            "title": "Greens vow to Hold Big Tech to Account and deliver Digital Duty of Care laws with Teeth",
+            "url": "https://greens.org.au/sa/news/media-release/greens-vow-hold-big-tech-account-and-deliver-digital-duty-care-laws-teeth"
+          },
+          {
+            "record_id": "ca5c4f6b329a16a78b1a",
+            "title": "Labor’s grim economic plan is driven by vampire US tech bros: Greens",
+            "url": "https://greens.org.au/news/media-release/labors-grim-economic-plan-driven-vampire-us-tech-bros-greens"
+          }
+        ],
+        "delta_hash": "0e3406141ad0f67a954a17cace2784ea07aa99d49b2b809d0fb3635a241de962"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-VEC-MEDIA-20261118135929",
+      "source_change_event_id": "CHG-WATCH-VEC-MEDIA-20261118135929",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-VEC-MEDIA-20261118135929",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Victorian Electoral Commission — media centre added 1 structured publication record to its forward-captured official index: Voting statistics",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-11-18T14:00:01.366Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "d01a9263100fda407f6c",
+            "title": "Voting statistics",
+            "url": "https://www.vec.vic.gov.au/voting/2026-state-election/voting-statistics"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "56093af9cce25f968ff0",
+            "title": "Banyule City Council Beale Ward by-election",
+            "url": "https://www.vec.vic.gov.au/voting/current-elections/banyule-city-council-beale-ward-by-election"
+          },
+          {
+            "record_id": "590f9dfedfe8aeb95336",
+            "title": "Mornington Peninsula Shire Council, Briars Ward by-election",
+            "url": "https://www.vec.vic.gov.au/voting/current-elections/mornington-peninsula-shire-council-briars-ward-by-election"
+          },
+          {
+            "record_id": "72bb0d2593496ef0448a",
+            "title": "Murrindindi Shire Council Kinglake Ward by-election",
+            "url": "https://www.vec.vic.gov.au/voting/current-elections/murrindindi-shire-council-kinglake-ward-by-election"
+          },
+          {
+            "record_id": "cf9d458e78ce594b5d00",
+            "title": "Greater Bendigo City Council Lockwood Ward by-election",
+            "url": "https://www.vec.vic.gov.au/voting/current-elections/greater-bendigo-city-council-lockwood-ward-by-election-oct26"
+          }
+        ],
+        "delta_hash": "55219514e03efc6575011776e71bcb30384e760b007589114d853d889cf25212"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261118135929",
+      "source_change_event_id": "CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261118135929",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261118135929",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Queensland Government — Ministerial Media Statements added 4 structured publication records to its forward-captured official index: Unlocking more water for Cape York; The Wave Stage 2 rolls forward with major contract award; Early works pave way for Brisbane Stadium and Victoria Park legacy; Thousands of Queenslanders get Set for Success",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-11-18T14:00:01.366Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "57cbaf166fdbc0ea9790",
+            "title": "Unlocking more water for Cape York",
+            "url": "https://statements.qld.gov.au/statements/106447"
+          },
+          {
+            "record_id": "7057791b9b1394a06a6d",
+            "title": "The Wave Stage 2 rolls forward with major contract award",
+            "url": "https://statements.qld.gov.au/statements/106451"
+          },
+          {
+            "record_id": "8f40900fa55bfe585531",
+            "title": "Early works pave way for Brisbane Stadium and Victoria Park legacy",
+            "url": "https://statements.qld.gov.au/statements/106450"
+          },
+          {
+            "record_id": "94f5f7d04e1203e7c4a9",
+            "title": "Thousands of Queenslanders get Set for Success",
+            "url": "https://statements.qld.gov.au/statements/106446"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "24c3a08230f2af94112f",
+            "title": "Sunshine Coast Youth Foyer gains momentum",
+            "url": "https://statements.qld.gov.au/statements/106435"
+          },
+          {
+            "record_id": "8b609590cf2d86d00c56",
+            "title": "Community invited to help shape the future of Bowen State Harbour",
+            "url": "https://statements.qld.gov.au/statements/106436"
+          },
+          {
+            "record_id": "ab02d610e44e3ed0532f",
+            "title": "Next Stop: Harbour Town Gold Coast Light Rail extension moving ahead",
+            "url": "https://statements.qld.gov.au/statements/106434"
+          },
+          {
+            "record_id": "db5e8b33c26c653dce1d",
+            "title": "Community invited to help shape the future of Urangan State Harbour",
+            "url": "https://statements.qld.gov.au/statements/106429"
+          }
+        ],
+        "delta_hash": "bb96588b3598fbe03efa2e5eec00450b6b27327bb672309b2ea3d6b209fcef54"
       },
       "integrity": {
         "source_change_unchanged": true,

@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-INTELLIGENCE-EVENTS-001",
   "scope": "Australia — multi-jurisdiction",
-  "captured_at": "2026-11-19T13:09:43.154Z",
+  "captured_at": "2026-11-19T21:36:33.885Z",
   "mode": "FORWARD_ONLY",
   "rules": {
     "observation_distinct_from_inference": true,
@@ -146389,6 +146389,180 @@
         }
       ],
       "publication_records_removed": [],
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "underlying_publication_claims_not_promoted_to_verified_fact": true,
+        "source_change_parent_retained": true,
+        "deterministic_review": true
+      }
+    },
+    {
+      "event_id": "CHG-WATCH-APH-BILLS-20261119213528",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-FED",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-APH-BILLS-20261119213528",
+      "captured_at": "2026-11-19T21:35:28.580Z",
+      "event_date": "2026-11-20",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_PARLIAMENT",
+      "source_id": "SRC-APH-BILLS",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "review_policy": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-APH-BILLS-20261119130856",
+        "content_hash": "a5ab93242b5877005fdaf87114ec55157b0824745f0840b50bb0cd876ff6b541",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-APH-BILLS-20261119213528",
+        "content_hash": "397456792fe4f10aa4488c7614d3164becfb644483fdc3928a21c4d0502dd361",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "STRUCTURED_RECORD_SET",
+        "records_added": [
+          {
+            "record_id": "29a68e1255907793c887",
+            "title": "Current Senate bills list",
+            "url": "https://www.aph.gov.au/layouts/DPS/Bills/?blsId=legislation%2fbillslst%2fbillslst_8100fb48-0592-488b-828b-d017b24562d4"
+          },
+          {
+            "record_id": "5965c705a3f269591b38",
+            "title": "Current House bills list",
+            "url": "https://www.aph.gov.au/layouts/DPS/Bills/?blsId=legislation%2fbillslst%2fbillslst_c203aa1c-1876-41a8-bc76-1de328bdb726"
+          }
+        ],
+        "records_removed": [
+          {
+            "record_id": "0c02f85eb762e1f64212",
+            "title": "Current House bills list",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/layouts/DPS/Bills/?blsId=legislation%2fbillslst%2fbillslst_c203aa1c-1876-41a8-bc76-1de328bdb726"
+          },
+          {
+            "record_id": "a9d593cfe442932eabeb",
+            "title": "Current Senate bills list",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/layouts/DPS/Bills/?blsId=legislation%2fbillslst%2fbillslst_8100fb48-0592-488b-828b-d017b24562d4"
+          }
+        ],
+        "added_count": 2,
+        "removed_count": 2,
+        "before_count": 96,
+        "after_count": 96,
+        "delta_hash": "ae77352edd3f794d48b6e319265a2b7c71b0e19c6183fe740c05730e845e3cf3"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-WA-HANSARD-20261119213528",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-WA",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-WA-HANSARD-20261119213528",
+      "captured_at": "2026-11-19T21:35:28.580Z",
+      "event_date": "2026-11-20",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_PARLIAMENT",
+      "source_id": "SRC-WA-HANSARD",
+      "capture_mode": "NORMALISED_PAGE_HASH",
+      "review_policy": "REVIEW_UNSTRUCTURED_CHANGE",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-WA-HANSARD-20261119130856",
+        "content_hash": "c33eff12cadd596a3447ff4613a0f265efa9e17e6615cffc1820ea0092f28a35",
+        "capture_mode": "NORMALISED_PAGE_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-WA-HANSARD-20261119213528",
+        "content_hash": "6376d87843bf4f7df162ce7925112e476e6f3b25b6f2cb0d47e56af56818895b",
+        "capture_mode": "NORMALISED_PAGE_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "TEXT_REPRESENTATION",
+        "first_difference_offset": 197,
+        "before_length": 10665,
+        "after_length": 10744,
+        "before_excerpt": "tent Home Site map Accessibility Contact us Alerts Home Menu Show/Hide website navigation The Legislative Council meets today (<TIME>) Watch live Watch Council live The Estimates Committee meets on 25/11/2026 (<TIME>) Committee meet 25/11/2026 Search this website Advanced Search Sear",
+        "after_excerpt": "tent Home Site map Accessibility Contact us Alerts Home Menu Show/Hide website navigation The Legislative Council meets on 24/11/2026 (<TIME>) Council sit 24/11/2026 The Legislative Assembly meets on 16/02/2027 (<TIME>) Assembly sit 16/02/2027 The Estimates Committee meets on 25/11/2026 (<TIME>) Committee meet 25/11/2026 Search this website Advanced Search Sear",
+        "delta_hash": "e0a26db2d19878902731e9c8a99b48537be300843d2fa1ba561850ca4095cfe4"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "SIG-REV-CHG-WATCH-APH-BILLS-20261119213528",
+      "parent_event_id": "CHG-WATCH-APH-BILLS-20261119213528",
+      "review_id": "REV-CHG-WATCH-APH-BILLS-20261119213528",
+      "jurisdiction_id": "AUS-FED",
+      "party_id": null,
+      "actor_id": null,
+      "contest_id": null,
+      "cycle_id": null,
+      "source_snapshot_id": "AUTO-WATCH-APH-BILLS-20261119213528",
+      "record_id": null,
+      "captured_at": "2026-11-19T21:36:28.076Z",
+      "event_date": "2026-11-20",
+      "checkpoint": "CONTINUOUS_FORWARD_SIGNAL_REVIEW",
+      "event_type": "SIGNAL_CREATED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_PARLIAMENT",
+      "source_id": "SRC-APH-BILLS",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "claim": "Parliament of Australia — Bills and Legislation added 2 structured publication records to its forward-captured official index: Current Senate bills list; Current House bills list",
+      "observed_behaviour": "One or more structured publication records appeared in the monitored official source index after the preceding forward snapshot.",
+      "publication_records_added": [
+        {
+          "record_id": "29a68e1255907793c887",
+          "title": "Current Senate bills list",
+          "url": "https://www.aph.gov.au/layouts/DPS/Bills/?blsId=legislation%2fbillslst%2fbillslst_8100fb48-0592-488b-828b-d017b24562d4"
+        },
+        {
+          "record_id": "5965c705a3f269591b38",
+          "title": "Current House bills list",
+          "url": "https://www.aph.gov.au/layouts/DPS/Bills/?blsId=legislation%2fbillslst%2fbillslst_c203aa1c-1876-41a8-bc76-1de328bdb726"
+        }
+      ],
+      "publication_records_removed": [
+        {
+          "record_id": "0c02f85eb762e1f64212",
+          "title": "Current House bills list",
+          "url": "https://www.aph.gov.au/Parliamentary_Business/layouts/DPS/Bills/?blsId=legislation%2fbillslst%2fbillslst_c203aa1c-1876-41a8-bc76-1de328bdb726"
+        },
+        {
+          "record_id": "a9d593cfe442932eabeb",
+          "title": "Current Senate bills list",
+          "url": "https://www.aph.gov.au/Parliamentary_Business/layouts/DPS/Bills/?blsId=legislation%2fbillslst%2fbillslst_8100fb48-0592-488b-828b-d017b24562d4"
+        }
+      ],
       "inference": null,
       "inference_class": "NONE",
       "projection_effect": "NO_EFFECT",

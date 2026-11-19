@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-SIGNAL-REVIEWS-001",
   "created_at": "2026-09-09T05:05:00+10:00",
-  "updated_at": "2026-11-18T21:58:15.856Z",
+  "updated_at": "2026-11-19T13:09:37.255Z",
   "rules": {
     "append_only": true,
     "raw_source_change_is_immutable": true,
@@ -52413,6 +52413,404 @@
           }
         ],
         "delta_hash": "ef2bc6d39605508f30439453bbbc962e36b671a25c4ea73e7f4eeae1f8b327b4"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-APH-BILLS-20261119130856",
+      "source_change_event_id": "CHG-WATCH-APH-BILLS-20261119130856",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-APH-BILLS-20261119130856",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Parliament of Australia — Bills and Legislation added 3 structured publication records to its forward-captured official index: Current House bills list; Commonwealth Electoral Amendment Bill 2026; Current Senate bills list",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-11-19T13:09:37.255Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "0c02f85eb762e1f64212",
+            "title": "Current House bills list",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/layouts/DPS/Bills/?blsId=legislation%2fbillslst%2fbillslst_c203aa1c-1876-41a8-bc76-1de328bdb726"
+          },
+          {
+            "record_id": "26e92a7006bbc47bdae8",
+            "title": "Commonwealth Electoral Amendment Bill 2026",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=s1529"
+          },
+          {
+            "record_id": "a9d593cfe442932eabeb",
+            "title": "Current Senate bills list",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/layouts/DPS/Bills/?blsId=legislation%2fbillslst%2fbillslst_8100fb48-0592-488b-828b-d017b24562d4"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "29a68e1255907793c887",
+            "title": "Current Senate bills list",
+            "url": "https://www.aph.gov.au/layouts/DPS/Bills/?blsId=legislation%2fbillslst%2fbillslst_8100fb48-0592-488b-828b-d017b24562d4"
+          },
+          {
+            "record_id": "5965c705a3f269591b38",
+            "title": "Current House bills list",
+            "url": "https://www.aph.gov.au/layouts/DPS/Bills/?blsId=legislation%2fbillslst%2fbillslst_c203aa1c-1876-41a8-bc76-1de328bdb726"
+          },
+          {
+            "record_id": "cfcb2bd5cea6313b6415",
+            "title": "Australian Education Amendment (Accountability and...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=s1530"
+          }
+        ],
+        "delta_hash": "bb29e7ba1d0b18695d9066ec25c41ed5c0ec3f6373039bf05b2b1801076f006e"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-PM-MEDIA-20261119130856",
+      "source_change_event_id": "CHG-WATCH-PM-MEDIA-20261119130856",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-PM-MEDIA-20261119130856",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Prime Minister of Australia — media added 1 structured publication record to its forward-captured official index: 33rd APEC Leaders&#039; Summit",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-11-19T13:09:37.255Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "b608e8e41d74b70065e5",
+            "title": "33rd APEC Leaders&#039; Summit",
+            "url": "https://www.pm.gov.au/media/33rd-apec-leaders-summit"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "a2f236a86e2e8f6f71d4",
+            "title": "Remarks - Manila, Philippines",
+            "url": "https://www.pm.gov.au/media/remarks-manila-philippines"
+          }
+        ],
+        "delta_hash": "2d0598d62bd4b828e45f436381bc6f7bad45a82fba90acf6bee7c730df0f4efa"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-GREENS-FEDERAL-MEDIA-20261119130856",
+      "source_change_event_id": "CHG-WATCH-GREENS-FEDERAL-MEDIA-20261119130856",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-GREENS-FEDERAL-MEDIA-20261119130856",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": "AUS-FED-GRN",
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Australian Greens — Federal MPs media releases added 6 structured publication records to its forward-captured official index: Sandpapergate ongoing saga shows the need for independent whistleblower systems for sport; Optimizely hack shows the enshittification of the internet is putting you at risk; RBA stop punishing workers for high inflation; Read more about RBA stop punishing workers for high inflation; Read more about Optimizely hack shows the enshittification of the internet is putting you at risk; +1 more",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-11-19T13:09:37.255Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "3bfc60cdc6c0580521a8",
+            "title": "Sandpapergate ongoing saga shows the need for independent whistleblower systems for sport",
+            "url": "https://greens.org.au/news/media-release/sandpapergate-ongoing-saga-shows-need-independent-whistleblower-systems-sport"
+          },
+          {
+            "record_id": "5dbc440a925630f3ded8",
+            "title": "Optimizely hack shows the enshittification of the internet is putting you at risk",
+            "url": "https://greens.org.au/news/media-release/optimizely-hack-shows-enshittification-internet-putting-you-risk"
+          },
+          {
+            "record_id": "8f9165912eac97a81fff",
+            "title": "RBA stop punishing workers for high inflation",
+            "url": "https://greens.org.au/news/media-release/rba-stop-punishing-workers-high-inflation"
+          },
+          {
+            "record_id": "9686e587bd71d967f8a9",
+            "title": "Read more about RBA stop punishing workers for high inflation",
+            "url": "https://greens.org.au/news/media-release/rba-stop-punishing-workers-high-inflation"
+          },
+          {
+            "record_id": "991d00228cd1897a62be",
+            "title": "Read more about Optimizely hack shows the enshittification of the internet is putting you at risk",
+            "url": "https://greens.org.au/news/media-release/optimizely-hack-shows-enshittification-internet-putting-you-risk"
+          },
+          {
+            "record_id": "fc90c931fa4f45f962ee",
+            "title": "Read more about Sandpapergate ongoing saga shows the need for independent whistleblower systems for sport",
+            "url": "https://greens.org.au/news/media-release/sandpapergate-ongoing-saga-shows-need-independent-whistleblower-systems-sport"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "1d1af8a76e4bb8b065ee",
+            "title": "Media Release: Optimizely hack shows the enshittification of the internet is putting you at risk",
+            "url": "https://greens.org.au/news/media-release/media-release-optimizely-hack-shows-enshittification-internet-putting-you-risk"
+          },
+          {
+            "record_id": "52957f6d8ad60c01b47b",
+            "title": "Read more about Inquiry - Greens WFH bill backed by evidence",
+            "url": "https://greens.org.au/news/media-release/inquiry-greens-wfh-bill-backed-evidence"
+          },
+          {
+            "record_id": "b07f6be04f90d35a0b86",
+            "title": "Read more about Media Release: Optimizely hack shows the enshittification of the internet is putting you at risk",
+            "url": "https://greens.org.au/news/media-release/media-release-optimizely-hack-shows-enshittification-internet-putting-you-risk"
+          },
+          {
+            "record_id": "c544fd82295a40836ae2",
+            "title": "US midterms prove we need a moratorium on data centres",
+            "url": "https://greens.org.au/sa/news/media-release/us-midterms-prove-we-need-moratorium-data-centres"
+          },
+          {
+            "record_id": "d793da3d762a53f9aedd",
+            "title": "Inquiry - Greens WFH bill backed by evidence",
+            "url": "https://greens.org.au/news/media-release/inquiry-greens-wfh-bill-backed-evidence"
+          },
+          {
+            "record_id": "d8b5a0939f40e2c60be7",
+            "title": "Read more about US midterms prove we need a moratorium on data centres",
+            "url": "https://greens.org.au/sa/news/media-release/us-midterms-prove-we-need-moratorium-data-centres"
+          }
+        ],
+        "delta_hash": "5ea9a13a65f55c238f97a3f15631bf2a4ade02a7ce4677c8f637cc03a444694c"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-NSWEC-MEDIA-20261119130856",
+      "source_change_event_id": "CHG-WATCH-NSWEC-MEDIA-20261119130856",
+      "decision": "EXCLUDED_AS_NON_SIGNAL",
+      "signal_event_id": null,
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": null,
+      "materiality_state": "IMMATERIAL",
+      "claim": "Structured publication-index change contained removals only. It is retained as a raw source change but is not automatically promoted into a political signal.",
+      "review_basis": "Deterministic review policy excludes removal-only index changes because disappearance from an index does not establish a political event, reversal or substantive fact.",
+      "reviewed_at": "2026-11-19T13:09:37.255Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [],
+        "removed_records": [
+          {
+            "record_id": "ef610962b9aa2f90cbeb",
+            "title": "Council costs for Local Government elections",
+            "url": "https://elections.nsw.gov.au/integrity-and-regulation/consultation/have-your-say-on-council-costs-for-local-government-elections"
+          }
+        ],
+        "delta_hash": "fe033b3ce4697b4512f2211fc9c06db94d880f186290320d54811569356b074d"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261119130856",
+      "source_change_event_id": "CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261119130856",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261119130856",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Queensland Government — Ministerial Media Statements added 7 structured publication records to its forward-captured official index: Investing in Queensland's next generation of environmental leaders; Justice reforms strengthen confidence in legal profession; Ratings agency backs Queensland’s strong and resilient economy; Stronger DFV laws deliver stronger protection for victims; Games On! Club House Grant to strengthen Queensland clubs; +2 more",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-11-19T13:09:37.255Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "0a7060aae7ea076edec2",
+            "title": "Investing in Queensland's next generation of environmental leaders",
+            "url": "https://statements.qld.gov.au/statements/106455"
+          },
+          {
+            "record_id": "40fd7fec71593b16fd9e",
+            "title": "Justice reforms strengthen confidence in legal profession",
+            "url": "https://statements.qld.gov.au/statements/106459"
+          },
+          {
+            "record_id": "57ac1a8933a02311ccbd",
+            "title": "Ratings agency backs Queensland’s strong and resilient economy",
+            "url": "https://statements.qld.gov.au/statements/106463"
+          },
+          {
+            "record_id": "5c6754ce6987b489ca8e",
+            "title": "Stronger DFV laws deliver stronger protection for victims",
+            "url": "https://statements.qld.gov.au/statements/106460"
+          },
+          {
+            "record_id": "5d0f8c493de881b4f1af",
+            "title": "Games On! Club House Grant to strengthen Queensland clubs",
+            "url": "https://statements.qld.gov.au/statements/106452"
+          },
+          {
+            "record_id": "afaea4cc4f92eaed3659",
+            "title": "Disaster recovery support activated for flood-hit Queensland councils",
+            "url": "https://statements.qld.gov.au/statements/106453"
+          },
+          {
+            "record_id": "f86a083ade541f4af9be",
+            "title": "New laws target hoon drivers and street racers to save lives on roads",
+            "url": "https://statements.qld.gov.au/statements/106454"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "0d25e8170bbd0a08b16b",
+            "title": "Construction Productivity Code implemented after damning CFMEU Inquiry Interim Report",
+            "url": "https://statements.qld.gov.au/statements/106445"
+          },
+          {
+            "record_id": "25d9a9c17006589dd131",
+            "title": "Mao’s Last Dancer to Magnetic: Queensland talent set to shine on the global stage",
+            "url": "https://statements.qld.gov.au/statements/106441"
+          },
+          {
+            "record_id": "a04ca17669467a0bf631",
+            "title": "Delivering long-term water security for Woorabinda",
+            "url": "https://statements.qld.gov.au/statements/106377"
+          },
+          {
+            "record_id": "c4232c071c295cff703b",
+            "title": "Early works begin for new and improved Gin Gin rest area",
+            "url": "https://statements.qld.gov.au/statements/106439"
+          },
+          {
+            "record_id": "d6a247c129baf6fd636f",
+            "title": "Trailblazer Dr Merle Thornton AM honoured with statue",
+            "url": "https://statements.qld.gov.au/statements/106444"
+          },
+          {
+            "record_id": "ed99f2b0facebdea4568",
+            "title": "Castlereagh floodway upgrades complete",
+            "url": "https://statements.qld.gov.au/statements/106440"
+          },
+          {
+            "record_id": "f9f9d3a0313298b18e28",
+            "title": "New reforms for Queensland’s nightlife",
+            "url": "https://statements.qld.gov.au/statements/106442"
+          }
+        ],
+        "delta_hash": "9d820095ee91cd927c5db3e428523e93ff921a664ee4f2b0216f5a5291523d95"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-WAEC-MEDIA-20261119130856",
+      "source_change_event_id": "CHG-WATCH-WAEC-MEDIA-20261119130856",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-WAEC-MEDIA-20261119130856",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Western Australian Electoral Commission — media releases added 1 structured publication record to its forward-captured official index: Mail Postal Votes this Week for the 2026 December Local Government Extraordinary Elections",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-11-19T13:09:37.255Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "34f6888c617e088f8d95",
+            "title": "Mail Postal Votes this Week for the 2026 December Local Government Extraordinary Elections",
+            "url": "https://www.elections.wa.gov.au/about-us/media/releases/2642"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "f9860baf159118d62a50",
+            "title": "Secret Harbour By-election officially underway",
+            "url": "https://www.elections.wa.gov.au/about-us/media/releases/2606"
+          }
+        ],
+        "delta_hash": "2c576a2c05aaa6906e6942e8896dabb6fe7b861f6386dae6cca7beebd9286694"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-ECSA-NEWS-20261119130856",
+      "source_change_event_id": "CHG-WATCH-ECSA-NEWS-20261119130856",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-ECSA-NEWS-20261119130856",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Electoral Commission of South Australia — news and notices added 1 structured publication record to its forward-captured official index: Council Election",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-11-19T13:09:37.255Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "80ff0664d05923697b30",
+            "title": "Council Election",
+            "url": "https://www.ecsa.sa.gov.au/2027-council-election"
+          }
+        ],
+        "removed_records": [],
+        "delta_hash": "e34b4adeddc08c656aaa63323abcc6fcc2e0b5905d01b127608f4b2cd118001f"
       },
       "integrity": {
         "source_change_unchanged": true,

@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-INTELLIGENCE-EVENTS-001",
   "scope": "Australia — multi-jurisdiction",
-  "captured_at": "2026-11-18T21:58:21.601Z",
+  "captured_at": "2026-11-19T13:09:43.154Z",
   "mode": "FORWARD_ONLY",
   "rules": {
     "observation_distinct_from_inference": true,
@@ -145256,6 +145256,1139 @@
           "url": "https://greens.org.au/news/media-release/labors-forest-deal-stitch-logging-industry"
         }
       ],
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "underlying_publication_claims_not_promoted_to_verified_fact": true,
+        "source_change_parent_retained": true,
+        "deterministic_review": true
+      }
+    },
+    {
+      "event_id": "CHG-WATCH-APH-BILLS-20261119130856",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-FED",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-APH-BILLS-20261119130856",
+      "captured_at": "2026-11-19T13:08:56.857Z",
+      "event_date": "2026-11-20",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_PARLIAMENT",
+      "source_id": "SRC-APH-BILLS",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "review_policy": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-APH-BILLS-20261118135929",
+        "content_hash": "b7ed2685e4e13b4011c940680db6929bce901f32ac19b7baa888debf7c4cab4e",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-APH-BILLS-20261119130856",
+        "content_hash": "a5ab93242b5877005fdaf87114ec55157b0824745f0840b50bb0cd876ff6b541",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "STRUCTURED_RECORD_SET",
+        "records_added": [
+          {
+            "record_id": "0c02f85eb762e1f64212",
+            "title": "Current House bills list",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/layouts/DPS/Bills/?blsId=legislation%2fbillslst%2fbillslst_c203aa1c-1876-41a8-bc76-1de328bdb726"
+          },
+          {
+            "record_id": "26e92a7006bbc47bdae8",
+            "title": "Commonwealth Electoral Amendment Bill 2026",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=s1529"
+          },
+          {
+            "record_id": "a9d593cfe442932eabeb",
+            "title": "Current Senate bills list",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/layouts/DPS/Bills/?blsId=legislation%2fbillslst%2fbillslst_8100fb48-0592-488b-828b-d017b24562d4"
+          }
+        ],
+        "records_removed": [
+          {
+            "record_id": "29a68e1255907793c887",
+            "title": "Current Senate bills list",
+            "url": "https://www.aph.gov.au/layouts/DPS/Bills/?blsId=legislation%2fbillslst%2fbillslst_8100fb48-0592-488b-828b-d017b24562d4"
+          },
+          {
+            "record_id": "5965c705a3f269591b38",
+            "title": "Current House bills list",
+            "url": "https://www.aph.gov.au/layouts/DPS/Bills/?blsId=legislation%2fbillslst%2fbillslst_c203aa1c-1876-41a8-bc76-1de328bdb726"
+          },
+          {
+            "record_id": "cfcb2bd5cea6313b6415",
+            "title": "Australian Education Amendment (Accountability and...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=s1530"
+          }
+        ],
+        "added_count": 3,
+        "removed_count": 3,
+        "before_count": 96,
+        "after_count": 96,
+        "delta_hash": "bb29e7ba1d0b18695d9066ec25c41ed5c0ec3f6373039bf05b2b1801076f006e"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-PM-MEDIA-20261119130856",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-FED",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-PM-MEDIA-20261119130856",
+      "captured_at": "2026-11-19T13:08:56.857Z",
+      "event_date": "2026-11-20",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-PM-MEDIA",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "review_policy": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-PM-MEDIA-20261118135929",
+        "content_hash": "e16909f5f6bc2d8b3e9cc3d07bfdb3fd4ad01c2e87ba3238a757fd8141bc626f",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-PM-MEDIA-20261119130856",
+        "content_hash": "a19422ca1715aee6fe894688ae28cf31ae36d6e56f0096982d9451ee4219412c",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "STRUCTURED_RECORD_SET",
+        "records_added": [
+          {
+            "record_id": "b608e8e41d74b70065e5",
+            "title": "33rd APEC Leaders&#039; Summit",
+            "url": "https://www.pm.gov.au/media/33rd-apec-leaders-summit"
+          }
+        ],
+        "records_removed": [
+          {
+            "record_id": "a2f236a86e2e8f6f71d4",
+            "title": "Remarks - Manila, Philippines",
+            "url": "https://www.pm.gov.au/media/remarks-manila-philippines"
+          }
+        ],
+        "added_count": 1,
+        "removed_count": 1,
+        "before_count": 27,
+        "after_count": 27,
+        "delta_hash": "2d0598d62bd4b828e45f436381bc6f7bad45a82fba90acf6bee7c730df0f4efa"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-LIBERAL-HOME-20261119130856",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-FED",
+      "party_id": "AUS-FED-LIB",
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-LIBERAL-HOME-20261119130856",
+      "captured_at": "2026-11-19T13:08:56.857Z",
+      "event_date": "2026-11-20",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_PARTY",
+      "source_id": "SRC-LIBERAL-FEDERAL-HOME",
+      "capture_mode": "NORMALISED_PAGE_HASH",
+      "review_policy": "REVIEW_UNSTRUCTURED_CHANGE",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-LIBERAL-HOME-20261118135929",
+        "content_hash": "0aebc5d60c31197ce591ee593fa8a476a8b38e25197c49f9af75648a766c3830",
+        "capture_mode": "NORMALISED_PAGE_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-LIBERAL-HOME-20261119130856",
+        "content_hash": "899813aae935238457ab7bb5c98ca01ed68d8051ef97ddd00535c3cc8bb9a548",
+        "capture_mode": "NORMALISED_PAGE_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "TEXT_REPRESENTATION",
+        "first_difference_offset": 1517,
+        "before_length": 6703,
+        "after_length": 7537,
+        "before_excerpt": "pposition in the Senate Meet the Liberal Team The Latest Stay up to date with the Liberal Party of Australia liberalaus Jim Chalmers and Anthony Albanese are now overseeing a once in a generation housing downturn. Only the Liberals and Nationals will scrap Labor`s damaging taxes and fix the housing market. Nov 17 Open post by liberalaus with ID 17915537109481083 angustaylormp Australians are paying for Chris Bowen’s obsession with Net Zero. We will scrap Net Zero. Done. Gone. It’s part of our plan to save $31 billion in wasteful spending and bring down the cost of your power bills. Nov 17 Open post by angustaylormp with ID 18103134227548333 angustaylormp The Liberals and Nationals will stop Labor’s assault on aspiration by axing every one of their toxic taxes. We can’t keep going the way we are going under Labor. We need a strong plan and a strong team to get our economy heading in the right direction again. Nov 17 Open post by angustaylormp with ID 17880596115633533 liberalaus We’ll put a speed limit on spending – preventing government from spending faster than the economy is growing. Nov 17 Open post by liberalaus with ID 18419550502087622 liberalaus Labor doesn`t believe in or support reward for effort. The Liberal and Nationals do &#8211; and we`ll reward your hard work everyday. Nov 16 Open post by liberalaus with ID 18393953011234544 angustaylormp Did you know that Anthony Albanese is spending $5 billion a year on the NDIS for people that aren’t Australian citizens? That’s right. While small businesses are closing at record rates &#8211; $5 billion a year, yes BILLION, is being spent on the NDIS for non-citizens. We will put that to an end. The Liberals and Nationals will remove permanent residency as a basis for NDIS eligibility to ensure the scheme provides support for Australian citizens that have a permanent and significant disability. Nov 16 Open post by angustaylormp with ID 17910087759669101 angustaylormp Good chats. Great people. All wanting to fix our economy and protect our way of life. Nov 16 Open post by angustaylormp with ID 18136866817795972 liberalaus The Liberals and Nationals will always back small businesses. We will scrap Labor`s toxic trusts tax on small business, slash red tape by 25% and establish a permanent $50,000 instant asset write-off. Nov 16 Open post by liberalaus with ID 18095329988680797 senatorhume Australians need a Government that will turn up and deliver. Instead we have a Prime Minister who is all innuendo and no outcome. And we are all paying the price. Nov 16 Open post by senatorhume with ID 18107786867290804 liberalaus The Albanese Government is this week trying to push their damaging tax changes through parliament. They should scrap them, and take it to the next election, so Australians can decide. Nov 16 Open post by liberalaus with ID 18111678515648994 liberalaus Labor has tanked the housing market and trashed the economy. Labor is now overseeing a once in a generation housing downturn. Nov 16 Open post by liberalaus with ID 18119647979078675 liberalaus Our welfare system and the NDIS should put Australian citizens first. Our generous safety net should prioritise Australian citizens who have made the commitment to Australia and its values. This does not mean Australia stops being generous – it means the system has clear rules, clear priorities and a sustainable foundation. Nov 16 Open post by liberalaus with ID 17996367630099855 liberalaus The more Labor spends, the more Australians pay. Nov 16 Open post by liberalaus with ID 18119382719605809 senatorhume There are 13 days until Victoria can have a fresh start. Let’s get this done. Find out where you can vote and change Victoria for the better. Nov 15 Open post by senatorhume with ID 18130593034882392 angustaylormp Australia is worth fighting for. With our team and strong plan we can fix our economy, restore Australians’ standard of living and protect our way of life. Nov 15 Open post by angustaylormp with ID 17998172742108449 senatorhume Anthony Albanese and Chris Bowen can`t be trusted on the world stage. Nov 14 Open post by senatorhume with ID 18139540717567062 liberalaus Power prices are up nearly 40% under Labor. The Liberals will deliver cheaper power and energy abundance. Nov 13 Open post by liberalaus with ID 18649585363063637 angustaylormp Labor is waging a war on small businesses right across the country. We will get government out of your way and reward hard work. The Liberal and Nationals will always have your back. Nov 13 Open post by angustaylormp with ID 17895438948621155 We need your support to win! Help us by making a donation today. 🙏🏼 $30 👏🏼 $60 😃 $120 😁 $500 😲 $1,000 🥹 $2,000",
+        "after_excerpt": "pposition in the Senate Meet the Liberal Team The Latest Stay up to date with the Liberal Party of Australia liberalaus Because Labor has lost control of their spending, inflation has been too high for too long and it`s pushing real wages backwards. Australians deserve an economy where hard work gets them ahead, not one where they run faster just to stand still. Nov 18 Open post by liberalaus with ID 18113329289336810 senatorhume This can’t be real… it’s our taxpayer money and we deserve the truth. Tell Labor that you want an inquiry that is national about this corruption. Sign the petition &#8211; link is in the bio. Nov 18 Open post by senatorhume with ID 18000013979856258 angustaylormp $5 BILLION A YEAR on the NDIS for non-citizens. All while Australian families and small businesses are struggling. The more Labor spends, the more Australians pay. We have a $31 billion plan to cut the waste and put Australians first. Nov 18 Open post by angustaylormp with ID 18121948019178100 angustaylormp If we lose small business, we lose the country. 46 businesses are failing every single day. Small business owners have had a gutful. They’re asking themselves why they should keep going when it’s becoming harder and harder to stay afloat. These businesses are the backbone of our communities. We cannot afford to lose them or the jobs, services and livelihoods they support. We’re fighting for the heart and soul of our country. Nov 18 Open post by angustaylormp with ID 18188994079419416 senatorhume It’s our money. But it funded worksites with work health and safety representatives on drugs at work. Sign the petition to get the truth and end the corruption &#8211; link is in the bio. Nov 18 Open post by senatorhume with ID 17918735841534806 liberalaus When your wages rise just to keep up with inflation, you are no better off – and you should not pay higher taxes as though you are. That is not fair and under a Liberal and Nationals government, it will end. Nov 18 Open post by liberalaus with ID 18172658905464280 liberalaus Under Labor, rents are up 25 per cent. The Liberals and Nationals have a plan to take the pressure off: Boost housing supply &#8211; unlocking up to 400,000 new homes Ease housing demand &#8211; keeping migration below new homes built Cut Labor’s waste &#8211; that fuels inflation and interest rates Scrap Labor’s taxes on housing Read more detail at the link in bio. Nov 17 Open post by liberalaus with ID 18171357292469379 liberalaus Jim Chalmers and Anthony Albanese are now overseeing a once in a generation housing downturn. Only the Liberals and Nationals will scrap Labor`s damaging taxes and fix the housing market. Nov 17 Open post by liberalaus with ID 17915537109481083 angustaylormp Australians are paying for Chris Bowen’s obsession with Net Zero. We will scrap Net Zero. Done. Gone. It’s part of our plan to save $31 billion in wasteful spending and bring down the cost of your power bills. Nov 17 Open post by angustaylormp with ID 18103134227548333 angustaylormp The Liberals and Nationals will stop Labor’s assault on aspiration by axing every one of their toxic taxes. We can’t keep going the way we are going under Labor. We need a strong plan and a strong team to get our economy heading in the right direction again. Nov 17 Open post by angustaylormp with ID 17880596115633533 liberalaus We’ll put a speed limit on spending – preventing government from spending faster than the economy is growing. Nov 17 Open post by liberalaus with ID 18419550502087622 liberalaus Labor doesn`t believe in or support reward for effort. The Liberal and Nationals do &#8211; and we`ll reward your hard work everyday. Nov 16 Open post by liberalaus with ID 18393953011234544 angustaylormp Did you know that Anthony Albanese is spending $5 billion a year on the NDIS for people that aren’t Australian citizens? That’s right. While small businesses are closing at record rates &#8211; $5 billion a year, yes BILLION, is being spent on the NDIS for non-citizens. We will put that to an end. The Liberals and Nationals will remove permanent residency as a basis for NDIS eligibility to ensure the scheme provides support for Australian citizens that have a permanent and significant disability. Nov 16 Open post by angustaylormp with ID 17910087759669101 angustaylormp Good chats. Great people. All wanting to fix our economy and protect our way of life. Nov 16 Open post by angustaylormp with ID 18136866817795972 liberalaus The Liberals and Nationals will always back small businesses. We will scrap Labor`s toxic trusts tax on small business, slash red tape by 25% and establish a permanent $50,000 instant asset write-off. Nov 16 Open post by liberalaus with ID 18095329988680797 senatorhume Australians need a Government that will turn up and deliver. Instead we have a Prime Minister who is all innuendo and no outcome. And we are all paying the price. Nov 16 Open post by senatorhume with ID 18107786867290804 liberalaus The Albanese Government is this week trying to push their damaging tax changes through parliament. They should scrap them, and take it to the next election, so Australians can decide. Nov 16 Open post by liberalaus with ID 18111678515648994 liberalaus Labor has tanked the housing market and trashed the economy. Labor is now overseeing a once in a generation housing downturn. Nov 16 Open post by liberalaus with ID 18119647979078675 We need your support to win! Help us by making a donation today. 🙏🏼 $30 👏🏼 $60 😃 $120 😁 $500 😲 $1,000 🥹 $2,000",
+        "delta_hash": "b65041e4635e2cf8bbbf4bff4715c9dcd8f7f5596b0640a5b70c9521439d3bc6"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-GREENS-FEDERAL-MEDIA-20261119130856",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-FED",
+      "party_id": "AUS-FED-GRN",
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-GREENS-FEDERAL-MEDIA-20261119130856",
+      "captured_at": "2026-11-19T13:08:56.857Z",
+      "event_date": "2026-11-20",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_PARTY",
+      "source_id": "SRC-GREENS-FEDERAL-RELEASE-INDEX",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "review_policy": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-GREENS-FEDERAL-MEDIA-20261118215735",
+        "content_hash": "9ec9eb604030c95e4948b82dd9ae9d68c2413b64bf44b5a7137527bc3b3952bd",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-GREENS-FEDERAL-MEDIA-20261119130856",
+        "content_hash": "282c3ce189b30baf8eb458bbfbe000e5c80529d9d5021a54e0918576ce39e94c",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "STRUCTURED_RECORD_SET",
+        "records_added": [
+          {
+            "record_id": "3bfc60cdc6c0580521a8",
+            "title": "Sandpapergate ongoing saga shows the need for independent whistleblower systems for sport",
+            "url": "https://greens.org.au/news/media-release/sandpapergate-ongoing-saga-shows-need-independent-whistleblower-systems-sport"
+          },
+          {
+            "record_id": "5dbc440a925630f3ded8",
+            "title": "Optimizely hack shows the enshittification of the internet is putting you at risk",
+            "url": "https://greens.org.au/news/media-release/optimizely-hack-shows-enshittification-internet-putting-you-risk"
+          },
+          {
+            "record_id": "8f9165912eac97a81fff",
+            "title": "RBA stop punishing workers for high inflation",
+            "url": "https://greens.org.au/news/media-release/rba-stop-punishing-workers-high-inflation"
+          },
+          {
+            "record_id": "9686e587bd71d967f8a9",
+            "title": "Read more about RBA stop punishing workers for high inflation",
+            "url": "https://greens.org.au/news/media-release/rba-stop-punishing-workers-high-inflation"
+          },
+          {
+            "record_id": "991d00228cd1897a62be",
+            "title": "Read more about Optimizely hack shows the enshittification of the internet is putting you at risk",
+            "url": "https://greens.org.au/news/media-release/optimizely-hack-shows-enshittification-internet-putting-you-risk"
+          },
+          {
+            "record_id": "fc90c931fa4f45f962ee",
+            "title": "Read more about Sandpapergate ongoing saga shows the need for independent whistleblower systems for sport",
+            "url": "https://greens.org.au/news/media-release/sandpapergate-ongoing-saga-shows-need-independent-whistleblower-systems-sport"
+          }
+        ],
+        "records_removed": [
+          {
+            "record_id": "1d1af8a76e4bb8b065ee",
+            "title": "Media Release: Optimizely hack shows the enshittification of the internet is putting you at risk",
+            "url": "https://greens.org.au/news/media-release/media-release-optimizely-hack-shows-enshittification-internet-putting-you-risk"
+          },
+          {
+            "record_id": "52957f6d8ad60c01b47b",
+            "title": "Read more about Inquiry - Greens WFH bill backed by evidence",
+            "url": "https://greens.org.au/news/media-release/inquiry-greens-wfh-bill-backed-evidence"
+          },
+          {
+            "record_id": "b07f6be04f90d35a0b86",
+            "title": "Read more about Media Release: Optimizely hack shows the enshittification of the internet is putting you at risk",
+            "url": "https://greens.org.au/news/media-release/media-release-optimizely-hack-shows-enshittification-internet-putting-you-risk"
+          },
+          {
+            "record_id": "c544fd82295a40836ae2",
+            "title": "US midterms prove we need a moratorium on data centres",
+            "url": "https://greens.org.au/sa/news/media-release/us-midterms-prove-we-need-moratorium-data-centres"
+          },
+          {
+            "record_id": "d793da3d762a53f9aedd",
+            "title": "Inquiry - Greens WFH bill backed by evidence",
+            "url": "https://greens.org.au/news/media-release/inquiry-greens-wfh-bill-backed-evidence"
+          },
+          {
+            "record_id": "d8b5a0939f40e2c60be7",
+            "title": "Read more about US midterms prove we need a moratorium on data centres",
+            "url": "https://greens.org.au/sa/news/media-release/us-midterms-prove-we-need-moratorium-data-centres"
+          }
+        ],
+        "added_count": 6,
+        "removed_count": 6,
+        "before_count": 75,
+        "after_count": 75,
+        "delta_hash": "5ea9a13a65f55c238f97a3f15631bf2a4ade02a7ce4677c8f637cc03a444694c"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-NSWEC-MEDIA-20261119130856",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-NSW",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-NSWEC-MEDIA-20261119130856",
+      "captured_at": "2026-11-19T13:08:56.857Z",
+      "event_date": "2026-11-20",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_ELECTORAL_AUTHORITY",
+      "source_id": "SRC-NSWEC-MEDIA",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "review_policy": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-NSWEC-MEDIA-20261116020923",
+        "content_hash": "343f2c10c5cb29eac056abbeabd2c8b24e9010f5f64b2dd20657705f41760ed7",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-NSWEC-MEDIA-20261119130856",
+        "content_hash": "83e7785746b9a0689453d5f925d9ed60fbfcac589395a3a1b8481f0e75b24a68",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "STRUCTURED_RECORD_SET",
+        "records_added": [],
+        "records_removed": [
+          {
+            "record_id": "ef610962b9aa2f90cbeb",
+            "title": "Council costs for Local Government elections",
+            "url": "https://elections.nsw.gov.au/integrity-and-regulation/consultation/have-your-say-on-council-costs-for-local-government-elections"
+          }
+        ],
+        "added_count": 0,
+        "removed_count": 1,
+        "before_count": 365,
+        "after_count": 364,
+        "delta_hash": "fe033b3ce4697b4512f2211fc9c06db94d880f186290320d54811569356b074d"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-VEC-2026-STATE-ELECTION-20261119130856",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-VIC",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-VEC-2026-STATE-ELECTION-20261119130856",
+      "captured_at": "2026-11-19T13:08:56.857Z",
+      "event_date": "2026-11-20",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_ELECTORAL_AUTHORITY",
+      "source_id": "SRC-VEC-2026-STATE-ELECTION",
+      "capture_mode": "NORMALISED_PAGE_HASH",
+      "review_policy": "REVIEW_UNSTRUCTURED_CHANGE",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-VEC-2026-STATE-ELECTION-20261118135929",
+        "content_hash": "355c4a20e496a693b6880a74741dc1675af7058eba0a88cf064b24f552f944e2",
+        "capture_mode": "NORMALISED_PAGE_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-VEC-2026-STATE-ELECTION-20261119130856",
+        "content_hash": "34f98ba860cf664cedf7492d6c7472496c98145e1a17c646711f4bbe1c98699e",
+        "capture_mode": "NORMALISED_PAGE_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "TEXT_REPRESENTATION",
+        "first_difference_offset": 7646,
+        "before_length": 22699,
+        "after_length": 22569,
+        "before_excerpt": "to-vote cards How to vote correctly How to fill out state ballot papers At the voting centre, you'll get 2 ballot papers &ndash; do you know how to complete them and make your vote count? How to vote correctly Transcript When you vote, you'll receive two ballot papers. You need to complete both. The small ballot paper is for the lower house. The large ballot paper is for the upper house. For the lower house, number every box in the order of your choice, starting from your first preference through to your last preference. For the upper house, you can vote above the line for parties or groups, or below the line for individual candidates. Whether you choose to vote above the line or below the line, you need to number at least one to five in your order of choice for your vote to count. Use numbers only, no ticks or crosses. Take your time and make sure both ballot papers are completed correctly. And if you need help at any point, election staff are there for you. Make your voice heard. Every vote counts. Authorised by S. Bluemmel, Electoral Commissioner, 530 Collins Street, Melbourne, Victoria. Voting options Early voting is now open. You can also apply for a postal vote. Voting options Away from Victoria If you'll be away from Victoria during the 2026 state election voting period, you can still vote. Away from Victoria Know when, where, and how to vote Don't miss your chance to help shape Victoria. Get reminders for the state election this November. Sign up for VoterAlert Voting statistics We'll publish daily updates on postal and early vote totals during the early voting period. Get voting statistics EasyVote guide 2026 Victorian state election EasyVote guide 2026 Victorian state election (pdf, 2.6 mb) Prepare for November Missed the enrolment deadline? You can still vote if you missed the deadline. Visit a voting centre to enrol and vote on the spot. Bring one of the following forms of ID: driver licence or learner permit Australian passport recent electricity bill or council rates notice showing your name and address. Tell one of our voting centre staff you need to provisionally enrol. They can help. Early voting opens Wednesday 18 November . Skip the queues and vote early. Find voting centres How-to-vote cards How-to-vote cards A how-to-vote card (HTVC for short) is a printed guide that shows how a candidate or group wants you to fill out your ballot paper. How-to-vote cards are a suggestion only. How you vote is up to you. All how-to-vote cards must be authorised. Register how-to-vote cards with us if you want them to be: handed out on election day within 400 metres of a voting centre carried by our mobile voting teams. How-to-vote card registration is now open and closes at 12 noon on Friday 20 November. We publish all registered how-to-vote cards on this website between Tuesday 10 November and Monday 23 November . Find how-to-vote cards Want to hand out your own? Find out how to register a how-to-vote card. Work at the state election We need lots of people to help us run this election. Join us! Many jobs involve working in a voting centre, but there are also positions available before and after election day. If you&rsquo;ve worked with us in the past, let us know if you&rsquo;re available this November. Apply to work at the election What's different this election There have been changes to electoral law since the last Victorian state election in 2022. We've also made some improvements to what we'll offer Victorian voters for this year's election. Changes to electoral law Some changes were made to the Electoral Act 2002, the law state elections are run under. The full list of changes is on our Electoral Act amendments page . Some key differences are: The electoral roll closes at 8 pm the day the writ of an election is issued, 1 week earlier than other elections. This year the roll will close at 8 pm on Tuesday 3 November , Melbourne Cup Day. There are fewer days for candidates to nominate. If you're an independent candidate, make sure you're prepared before nominations open on Wednesday 4 November. The early voting period is shorter. This year early voting will be available from Wednesday 18 to Friday 27 November. Changes we have made This year we've made some changes that will make it easier for all Victorians to actively participate in their democracy. Low sensory voting &ndash; there'll be a low-sensory mobile voting session in every district on Tuesday 17 November between 10am and 4pm. We'll share more information about this session later this year. Early voting centres &ndash; all early voting centres will also be election day voting centres. This will make it easier to find a voting centre location that works for you. EasyVote guide &ndash; we're mailing a printed version of our EasyVote guide to all households. This pamphlet will have all the key information about when, where, and how to vote correctly. Know your electorate Victoria is made up of 88 districts and 8 regions. The 88 districts make up Victoria&rsquo;s lower house of Parliament, the Legislative Assembly. Each district is represented by one Member of Parliament (MP for short). The 8 regions make up Victoria&rsquo;s upper house of Parliament, the Legislative Council. Each region is represented by 5 Members of Parliament. If you&rsquo;ve moved house since the 2022 state election, you might be voting in a new electorate. If you do move house, it&rsquo;s your responsibility to keep your enrolment up to date . Why this is important When candidates nominate for an election, they nominate for either one district or one region. When you go to vote, you&rsquo;ll be given ballot papers for the district and region you&rsquo;re enrolled in. If you want to find out more about the candidates who want your vote, you need to know which electorate you&rsquo;re enrolled in. Knowing your electorate also helps you plan where you go to vote, if you want to vote in person. If you do vote in person, knowing which electorate you&rsquo;re enrolled in can make it faster for you at the voting centre. More information What are electoral boundaries? Interactive electoral boundaries map Electoral Boundaries Commission Parliament of Victoria website Know the political donation rules Strict laws regulate political donations in Victoria. There are serious penalties for breaking any of these rules. Find out more about who can make political donations and the rules for making them. Rules for campaigning You can start campaigning at any time, even before nominations open. When you&rsquo;re campaigning, you must: properly authorise your electoral material so it&rsquo;s clear who is accountable for it. The law about authorisations has recently changed so make sure you are familiar with the new rules. follow all non-electoral laws, such as defamation laws not distribute material that&rsquo;s likely to mislead voters into casting their vote incorrectly follow all political donation disclosure rules as soon as you publicly declare your intention to become a candidate. You must do this even if you don&rsquo;t end up nominating. If you see something you think is in breach of the Electoral Act 2002 , please submit a complaint . We&rsquo;ll investigate and, where appropriate, we&rsquo;ll let you know the outcome. More information Authorising electoral material Become a state election candidate Campaigning Get VoterAlert election reminders VoterAlert is our free SMS and email reminder service for voters in Victorian elections. Register now to get a digital EasyVote guide this November. After this election, we&rsquo;ll let you know when there&rsquo;s an election event in your area, like a by-election. How to sign up: Go to &lsquo; Check my enrolment &rsquo; {link to enrolment.vec.vic.gov.au}. Enter your details. Subscribe for VoterAlert under the heading &lsquo;Update contact details&rsquo;. Add your mobile a",
+        "after_excerpt": "to-vote cards How to vote correctly How to fill out state ballot papers At the voting centre, you'll get 2 ballot papers. Do you know how to complete them and make your vote count? How to vote correctly Transcript When you vote, you'll receive two ballot papers. You need to complete both. The small ballot paper is for the lower house. The large ballot paper is for the upper house. For the lower house, number every box in the order of your choice, starting from your first preference through to your last preference. For the upper house, you can vote above the line for parties or groups, or below the line for individual candidates. Whether you choose to vote above the line or below the line, you need to number at least one to five in your order of choice for your vote to count. Use numbers only, no ticks or crosses. Take your time and make sure both ballot papers are completed correctly. And if you need help at any point, election staff are there for you. Make your voice heard. Every vote counts. Authorised by S. Bluemmel, Electoral Commissioner, 530 Collins Street, Melbourne, Victoria. Voting options Early voting is now open. You can also apply for a postal vote. Voting options Away from Victoria If you'll be away from Victoria during the 2026 state election voting period, you can still vote. Away from Victoria Know when, where, and how to vote Don't miss your chance to help shape Victoria. Get reminders for the state election this November. Sign up for VoterAlert Voting statistics We'll publish daily updates on postal and early vote totals during the early voting period. Get voting statistics EasyVote guide 2026 Victorian state election EasyVote guide 2026 Victorian state election (pdf, 2.6 mb) Prepare for November Missed the enrolment deadline? You can still vote if you missed the deadline. Visit a voting centre to enrol and vote on the spot. Bring one of the following forms of ID: driver licence or learner permit Australian passport recent electricity bill or council rates notice showing your name and address. Tell one of our voting centre staff you need to provisionally enrol. They can help. Early voting opens Wednesday 18 November . Skip the queues and vote early. Find voting centres How-to-vote cards How-to-vote cards A how-to-vote card (HTVC for short) is a printed guide that shows how a candidate or group wants you to fill out your ballot paper. How-to-vote cards are a suggestion only. How you vote is up to you. All how-to-vote cards must be authorised. Register how-to-vote cards with us if you want them to be: handed out on election day within 400 metres of a voting centre carried by our mobile voting teams. How-to-vote card registration is now open and closes at 12 noon on Friday 20 November. We publish all registered how-to-vote cards on this website between Tuesday 10 November and Monday 23 November . Find how-to-vote cards Want to hand out your own? Find out how to register a how-to-vote card. Work at the state election We need lots of people to help us run this election. Join us! Many jobs involve working in a voting centre, but there are also positions available before and after election day. If you&rsquo;ve worked with us in the past, let us know if you&rsquo;re available this November. Apply to work at the election What's different this election There have been changes to electoral law since the last Victorian state election in 2022. We've also made some improvements to what we'll offer Victorian voters for this year's election. Changes to electoral law Some changes were made to the Electoral Act 2002, the law state elections are run under. The full list of changes is on our Electoral Act amendments page . Some key differences are: The electoral roll closes at 8 pm the day the writ of an election is issued, 1 week earlier than other elections. This year the roll closed at 8 pm on Tuesday 3 November , Melbourne Cup Day. There are fewer days for candidates to nominate. If you're an independent candidate, make sure you're prepared before nominations open on Wednesday 4 November. The early voting period is shorter. This year early voting will be available from Wednesday 18 to Friday 27 November. Changes we have made This year we've made some changes that will make it easier for all Victorians to actively participate in their democracy. Low sensory voting &ndash; there was a low-sensory mobile voting session in every district on Tuesday 17 November between 10am and 4pm. Early voting centres &ndash; all early voting centres will also be election day voting centres. This will make it easier to find a voting centre location that works for you. EasyVote guide &ndash; we mailed a printed version of our EasyVote guide to all households. This pamphlet has all the key information about when, where and how to vote correctly. Know your electorate Victoria is made up of 88 districts and 8 regions. The 88 districts make up Victoria&rsquo;s lower house of Parliament, the Legislative Assembly. Each district is represented by one Member of Parliament (MP for short). The 8 regions make up Victoria&rsquo;s upper house of Parliament, the Legislative Council. Each region is represented by 5 Members of Parliament. If you&rsquo;ve moved house since the 2022 state election, you might be voting in a new electorate. If you do move house, it&rsquo;s your responsibility to keep your enrolment up to date . Why this is important When candidates nominate for an election, they nominate for either one district or one region. When you go to vote, you&rsquo;ll be given ballot papers for the district and region you&rsquo;re enrolled in. If you want to find out more about the candidates who want your vote, you need to know which electorate you&rsquo;re enrolled in. Knowing your electorate also helps you plan where you go to vote, if you want to vote in person. If you do vote in person, knowing which electorate you&rsquo;re enrolled in can make it faster for you at the voting centre. More information What are electoral boundaries? Interactive electoral boundaries map Electoral Boundaries Commission Parliament of Victoria website Know the political donation rules Strict laws regulate political donations in Victoria. There are serious penalties for breaking any of these rules. Find out more about who can make political donations and the rules for making them. Rules for campaigning You can start campaigning at any time, even before nominations open. When you&rsquo;re campaigning, you must: properly authorise your electoral material so it&rsquo;s clear who is accountable for it. The law about authorisations has recently changed so make sure you are familiar with the new rules. follow all non-electoral laws, such as defamation laws not distribute material that&rsquo;s likely to mislead voters into casting their vote incorrectly follow all political donation disclosure rules as soon as you publicly declare your intention to become a candidate. You must do this even if you don&rsquo;t end up nominating. If you see something you think is in breach of the Electoral Act 2002 , please submit a complaint . We&rsquo;ll investigate and, where appropriate, we&rsquo;ll let you know the outcome. More information Authorising electoral material Become a state election candidate Campaigning Get VoterAlert election reminders VoterAlert is our free SMS and email reminder service for voters in Victorian elections. Register now to get reminders for the 2026 Victorian state election. After this election, we&rsquo;ll let you know when there&rsquo;s an election event in your area, like a by-election. How to sign up: Go to Check my enrolment . Enter your details. Subscribe for VoterAlert under the heading &lsquo;Update contact details&rsquo;. Add your mobile a",
+        "delta_hash": "c3f30e275617402219ada1709cd9c442aebb7a6d104dbe768ed5c08a36d09d49"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261119130856",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-QLD",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-QLD-MINISTERIAL-STATEMENTS-20261119130856",
+      "captured_at": "2026-11-19T13:08:56.857Z",
+      "event_date": "2026-11-20",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-QLD-MINISTERIAL-STATEMENTS",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "review_policy": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-QLD-MINISTERIAL-STATEMENTS-20261118135929",
+        "content_hash": "64c41c1d5d02c7d67e2f6c7cfa2d47a0629af263181f561f7ec79208579faeec",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-QLD-MINISTERIAL-STATEMENTS-20261119130856",
+        "content_hash": "d7bf8890822ffcfa625e92aba5643e31846ae3c5cf06419996e6e9224dfd68ac",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "STRUCTURED_RECORD_SET",
+        "records_added": [
+          {
+            "record_id": "0a7060aae7ea076edec2",
+            "title": "Investing in Queensland's next generation of environmental leaders",
+            "url": "https://statements.qld.gov.au/statements/106455"
+          },
+          {
+            "record_id": "40fd7fec71593b16fd9e",
+            "title": "Justice reforms strengthen confidence in legal profession",
+            "url": "https://statements.qld.gov.au/statements/106459"
+          },
+          {
+            "record_id": "57ac1a8933a02311ccbd",
+            "title": "Ratings agency backs Queensland’s strong and resilient economy",
+            "url": "https://statements.qld.gov.au/statements/106463"
+          },
+          {
+            "record_id": "5c6754ce6987b489ca8e",
+            "title": "Stronger DFV laws deliver stronger protection for victims",
+            "url": "https://statements.qld.gov.au/statements/106460"
+          },
+          {
+            "record_id": "5d0f8c493de881b4f1af",
+            "title": "Games On! Club House Grant to strengthen Queensland clubs",
+            "url": "https://statements.qld.gov.au/statements/106452"
+          },
+          {
+            "record_id": "afaea4cc4f92eaed3659",
+            "title": "Disaster recovery support activated for flood-hit Queensland councils",
+            "url": "https://statements.qld.gov.au/statements/106453"
+          },
+          {
+            "record_id": "f86a083ade541f4af9be",
+            "title": "New laws target hoon drivers and street racers to save lives on roads",
+            "url": "https://statements.qld.gov.au/statements/106454"
+          }
+        ],
+        "records_removed": [
+          {
+            "record_id": "0d25e8170bbd0a08b16b",
+            "title": "Construction Productivity Code implemented after damning CFMEU Inquiry Interim Report",
+            "url": "https://statements.qld.gov.au/statements/106445"
+          },
+          {
+            "record_id": "25d9a9c17006589dd131",
+            "title": "Mao’s Last Dancer to Magnetic: Queensland talent set to shine on the global stage",
+            "url": "https://statements.qld.gov.au/statements/106441"
+          },
+          {
+            "record_id": "a04ca17669467a0bf631",
+            "title": "Delivering long-term water security for Woorabinda",
+            "url": "https://statements.qld.gov.au/statements/106377"
+          },
+          {
+            "record_id": "c4232c071c295cff703b",
+            "title": "Early works begin for new and improved Gin Gin rest area",
+            "url": "https://statements.qld.gov.au/statements/106439"
+          },
+          {
+            "record_id": "d6a247c129baf6fd636f",
+            "title": "Trailblazer Dr Merle Thornton AM honoured with statue",
+            "url": "https://statements.qld.gov.au/statements/106444"
+          },
+          {
+            "record_id": "ed99f2b0facebdea4568",
+            "title": "Castlereagh floodway upgrades complete",
+            "url": "https://statements.qld.gov.au/statements/106440"
+          },
+          {
+            "record_id": "f9f9d3a0313298b18e28",
+            "title": "New reforms for Queensland’s nightlife",
+            "url": "https://statements.qld.gov.au/statements/106442"
+          }
+        ],
+        "added_count": 7,
+        "removed_count": 7,
+        "before_count": 16,
+        "after_count": 16,
+        "delta_hash": "9d820095ee91cd927c5db3e428523e93ff921a664ee4f2b0216f5a5291523d95"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-WA-HANSARD-20261119130856",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-WA",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-WA-HANSARD-20261119130856",
+      "captured_at": "2026-11-19T13:08:56.857Z",
+      "event_date": "2026-11-20",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_PARLIAMENT",
+      "source_id": "SRC-WA-HANSARD",
+      "capture_mode": "NORMALISED_PAGE_HASH",
+      "review_policy": "REVIEW_UNSTRUCTURED_CHANGE",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-WA-HANSARD-20261118215735",
+        "content_hash": "307367baa817f7872073a7a16c7ccfe9a4a527a5f71e5a8be047006ba50628de",
+        "capture_mode": "NORMALISED_PAGE_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-WA-HANSARD-20261119130856",
+        "content_hash": "c33eff12cadd596a3447ff4613a0f265efa9e17e6615cffc1820ea0092f28a35",
+        "capture_mode": "NORMALISED_PAGE_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "TEXT_REPRESENTATION",
+        "first_difference_offset": 183,
+        "before_length": 10742,
+        "after_length": 10665,
+        "before_excerpt": "ip to main content Home Site map Accessibility Contact us Alerts Home Menu Show/Hide website navigation The Legislative Assembly meets today (<TIME>) Watch live Watch Assembly live The Legislative Council meets today (<TIME>) Watch live Watch Council live The Estimates Committee meets on 25/11/2026 (<TIME>) Committe",
+        "after_excerpt": "ip to main content Home Site map Accessibility Contact us Alerts Home Menu Show/Hide website navigation The Legislative Council meets today (<TIME>) Watch live Watch Council live The Estimates Committee meets on 25/11/2026 (<TIME>) Committe",
+        "delta_hash": "2d8be2e6cfa518e3056337b0d03514ed8e727c8041f740929c4224a95fc18fcf"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-WAEC-MEDIA-20261119130856",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-WA",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-WAEC-MEDIA-20261119130856",
+      "captured_at": "2026-11-19T13:08:56.857Z",
+      "event_date": "2026-11-20",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_ELECTORAL_AUTHORITY",
+      "source_id": "SRC-WAEC-MEDIA",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "review_policy": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-WAEC-MEDIA-20261022101158",
+        "content_hash": "76592f0a6a5da24668addd3709d265c1d8402e1bd3057549b8fc08974c14bf36",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-WAEC-MEDIA-20261119130856",
+        "content_hash": "1b8e713438e968f7bf39dc79e54fb7c249319c9b6cf28dbbeb145fd0a08cda46",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "STRUCTURED_RECORD_SET",
+        "records_added": [
+          {
+            "record_id": "34f6888c617e088f8d95",
+            "title": "Mail Postal Votes this Week for the 2026 December Local Government Extraordinary Elections",
+            "url": "https://www.elections.wa.gov.au/about-us/media/releases/2642"
+          }
+        ],
+        "records_removed": [
+          {
+            "record_id": "f9860baf159118d62a50",
+            "title": "Secret Harbour By-election officially underway",
+            "url": "https://www.elections.wa.gov.au/about-us/media/releases/2606"
+          }
+        ],
+        "added_count": 1,
+        "removed_count": 1,
+        "before_count": 96,
+        "after_count": 96,
+        "delta_hash": "2c576a2c05aaa6906e6942e8896dabb6fe7b861f6386dae6cca7beebd9286694"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-ECSA-NEWS-20261119130856",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-SA",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-ECSA-NEWS-20261119130856",
+      "captured_at": "2026-11-19T13:08:56.857Z",
+      "event_date": "2026-11-20",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_ELECTORAL_AUTHORITY",
+      "source_id": "SRC-ECSA-NEWS",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "review_policy": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-ECSA-NEWS-20261103064902",
+        "content_hash": "d90ab1582ce5492a88737efac10c7803e73f40c2fbcb9c300a53f0d454b732a0",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-ECSA-NEWS-20261119130856",
+        "content_hash": "0dbb5fba25070d5e97e3adc1393de83c212b7672914db314f29b2a5c8cf542b0",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "STRUCTURED_RECORD_SET",
+        "records_added": [
+          {
+            "record_id": "80ff0664d05923697b30",
+            "title": "Council Election",
+            "url": "https://www.ecsa.sa.gov.au/2027-council-election"
+          }
+        ],
+        "records_removed": [],
+        "added_count": 1,
+        "removed_count": 0,
+        "before_count": 236,
+        "after_count": 237,
+        "delta_hash": "e34b4adeddc08c656aaa63323abcc6fcc2e0b5905d01b127608f4b2cd118001f"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-TAS-HANSARD-20261119130856",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-TAS",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-TAS-HANSARD-20261119130856",
+      "captured_at": "2026-11-19T13:08:56.857Z",
+      "event_date": "2026-11-20",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_PARLIAMENT",
+      "source_id": "SRC-TAS-HANSARD",
+      "capture_mode": "NORMALISED_PAGE_HASH",
+      "review_policy": "REVIEW_UNSTRUCTURED_CHANGE",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-TAS-HANSARD-20261118135929",
+        "content_hash": "7b4f81f02f6087afc9188a21dd0d95b6c711645e8c1e18196908b5bf11666b45",
+        "capture_mode": "NORMALISED_PAGE_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-TAS-HANSARD-20261119130856",
+        "content_hash": "5cab13a3ff4559276cc767f8fced201fd1d1f6f297de5ae005b0f48d47ebba52",
+        "capture_mode": "NORMALISED_PAGE_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "TEXT_REPRESENTATION",
+        "first_difference_offset": 324,
+        "before_length": 3227,
+        "after_length": 3251,
+        "before_excerpt": "rs ParliamentaryPapers Votes and Proceedings Entire Site Current Results Search Home Parliament Website Flickr People 1,148 Mr ROCKLIFF 924 Mr ABETZ 626 Ms Rattray 571 Mr BARNETT 497 Dr Woodruff 470 MR PRESIDENT 464 Ms Finlay 421 Mr WILLIE 403 Mr ELLIS 318 Mr Willie 316 Ms Haddad 301 Mr Mitchell 300 Ms FORREST 272 Mr Bayley 266 Mr Willie 243 Ms PALMER 232 Ms RATTRAY 231 Deputy Speaker 227 Mr George 226 Mr Abetz 212 Ms JOHNSTON 210 Ms Armitage 199 Ms Forrest 191 Mr VINCENT 169 Mr President 20 more... top 5 Organizations 415 Legislative Council 99 Department Of Health 98 Department Of Justice 96 Microsoft 49 LK Group 46 CurrentSession Council 36 KPMG 31 Department Of Premier 30 UNIVERSITY OF TASMANIA 27 OF POLICE 26 Gap 22 Department Of Police 20 MyState Bank 19 DEPARTMENT OF STATE 19 Whole Council 19 Woolworths 17 BY POLICE 15 Gateway 15 Google 13 LK GROUP 12 Kingfisher 12 LK Group 11 HERITAGE COUNCIL 11 Telstra 10 UNIVERSITY OF TASMANIA ACT 20 more... top 5 Locations 8,135 Tasmania 2,992 TASMANIA 1,694 Australia 1,501 Hobart 353 Victoria 334 Wales 304 Mersey 228 Canberra 226 Queensland 190 Montgomery 168 Nepal 85 Kingston 79 Sydney 77 Melbourne 66 Midlands 64 Vietnam 60 Dorset 51 Wellington 41 US 40 Iran 38 America 37 Stillwater 34 France 32 Singapore 29 UK 20 more... top 5 Clusters Council Thursday 17 Sort by Best Match Date Size Date Filter by date Last 7 days Last Month Last 3 Months Last 6 Months Last 12 Months Showing 1 to 10 of 91 ( 182 hits) (2026 \"IN\" TITLE) Legislative Council Wednesday 18 November 2026 from f Legislative Council &bull; ...Legislative Council Wednesday 18 November 2026 ... Download Document House of Assembly Wednesday 18 November 2026 from f House of Assembly &bull; ...House of Assembly Wednesday 18 November 2026 ... Download Document Legislative Council Wednesday 18 November 2026 from f Legislative Council &bull; ...Legislative Council Wednesday 18 November 2026 ... Download Document Legislative Council Tuesday 17 November 2026 from f Legislative Council &bull; ...Legislative Council Tuesday 17 November 2026 ... Download Document House of Assembly Tuesday 17 November 2026 from f House of Assembly &bull; ...House of Assembly Tuesday 17 November 2026 ... Download Document Legislative Council Tuesday 17 November 2026 from f Legislative Council &bull; ...Legislative Council Tuesday 17 November 2026 ... Download Document Legislative Council Thursday 29 October 2026 from f Legislative Council &bull; ...Legislative Council Thursday 29 October 2026 ... Download Document House of Assembly Thursday 29 October 2026 from f House of Assembly &bull; ...House of Assembly Thursday 29 October 2026 ... Download Document House of Assembly Thursday 29 October 2026 from f House of Assembly &bull; ...House of Assembly Thursday 29 October 2026 ... Download Document Legislative Council Thursday 29 October 2026 from f Legislative Council &bull; ...Legislative Council Thursday 29 October 2026 ... Download Document 1 2 3 4 5 6 7 8 9 Next > &copy; Parliament of Tasmania",
+        "after_excerpt": "rs ParliamentaryPapers Votes and Proceedings Entire Site Current Results Search Home Parliament Website Flickr People 1,245 Mr ROCKLIFF 959 Mr ABETZ 682 Ms Rattray 590 Mr BARNETT 543 Dr Woodruff 511 Ms Finlay 487 MR PRESIDENT 433 Mr ELLIS 432 Mr WILLIE 404 Deputy Speaker 358 Ms FORREST 355 Ms Haddad 335 Mr Willie 331 Mr Willie 330 Mr Mitchell 301 Mr Bayley 267 Ms PALMER 248 Ms RATTRAY 243 Mr George 243 Mr Abetz 234 Ms JOHNSTON 229 Ms Forrest 218 Ms Armitage 206 Mr VINCENT 186 Mr President 20 more... top 5 Organizations 429 Legislative Council 189 Department Of Health 101 Microsoft 98 Department Of Justice 49 LK Group 48 CurrentSession Council 36 KPMG 31 Department Of Premier 30 UNIVERSITY OF TASMANIA 27 OF POLICE 26 Gap 22 Department Of Police 21 Whole Council 20 MyState Bank 19 DEPARTMENT OF STATE 19 Woolworths 17 BY POLICE 15 Gateway 15 Google 13 LK GROUP 12 Kingfisher 12 LK Group 11 HERITAGE COUNCIL 11 Telstra 10 Macquarie Point Development Corporation 20 more... top 5 Locations 8,781 Tasmania 3,052 TASMANIA 1,762 Australia 1,560 Hobart 361 Victoria 346 Wales 330 Mersey 250 Canberra 226 Queensland 225 Montgomery 168 Nepal 89 Kingston 83 Melbourne 79 Sydney 68 Midlands 64 Vietnam 62 Dorset 51 Wellington 43 US 42 Iran 38 America 37 Stillwater 34 France 32 Singapore 29 Perth 20 more... top 5 Clusters Council Thursday 19 Sort by Best Match Date Size Date Filter by date Last 7 days Last Month Last 3 Months Last 6 Months Last 12 Months Showing 1 to 10 of 96 ( 192 hits) (2026 \"IN\" TITLE) House of Assembly Thursday 19 November 2026 from f House of Assembly &bull; ...House of Assembly Thursday 19 November 2026 ... Download Document Legislative Council Thursday 19 November 2026 from f Legislative Council &bull; ...Legislative Council Thursday 19 November 2026 ... Download Document House of Assembly Thursday 19 November 2026 from f House of Assembly &bull; ...House of Assembly Thursday 19 November 2026 ... Download Document Legislative Council Thursday 19 November 2026 from f Legislative Council &bull; ...Legislative Council Thursday 19 November 2026 ... Download Document House of Assembly Wednesday 18 November 2026 from f House of Assembly &bull; ...House of Assembly Wednesday 18 November 2026 ... Download Document Legislative Council Wednesday 18 November 2026 from f Legislative Council &bull; ...Legislative Council Wednesday 18 November 2026 ... Download Document House of Assembly Wednesday 18 November 2026 from f House of Assembly &bull; ...House of Assembly Wednesday 18 November 2026 ... Download Document Legislative Council Wednesday 18 November 2026 from f Legislative Council &bull; ...Legislative Council Wednesday 18 November 2026 ... Download Document Legislative Council Tuesday 17 November 2026 from f Legislative Council &bull; ...Legislative Council Tuesday 17 November 2026 ... Download Document House of Assembly Tuesday 17 November 2026 from f House of Assembly &bull; ...House of Assembly Tuesday 17 November 2026 ... Download Document 1 2 3 4 5 6 7 8 9 Next > &copy; Parliament of Tasmania",
+        "delta_hash": "c9acd22b042d3824e309dff90be41828eccaf7d9db6e5f630c5fc2ce7293ceea"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "SIG-REV-CHG-WATCH-APH-BILLS-20261119130856",
+      "parent_event_id": "CHG-WATCH-APH-BILLS-20261119130856",
+      "review_id": "REV-CHG-WATCH-APH-BILLS-20261119130856",
+      "jurisdiction_id": "AUS-FED",
+      "party_id": null,
+      "actor_id": null,
+      "contest_id": null,
+      "cycle_id": null,
+      "source_snapshot_id": "AUTO-WATCH-APH-BILLS-20261119130856",
+      "record_id": null,
+      "captured_at": "2026-11-19T13:09:37.255Z",
+      "event_date": "2026-11-20",
+      "checkpoint": "CONTINUOUS_FORWARD_SIGNAL_REVIEW",
+      "event_type": "SIGNAL_CREATED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_PARLIAMENT",
+      "source_id": "SRC-APH-BILLS",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "claim": "Parliament of Australia — Bills and Legislation added 3 structured publication records to its forward-captured official index: Current House bills list; Commonwealth Electoral Amendment Bill 2026; Current Senate bills list",
+      "observed_behaviour": "One or more structured publication records appeared in the monitored official source index after the preceding forward snapshot.",
+      "publication_records_added": [
+        {
+          "record_id": "0c02f85eb762e1f64212",
+          "title": "Current House bills list",
+          "url": "https://www.aph.gov.au/Parliamentary_Business/layouts/DPS/Bills/?blsId=legislation%2fbillslst%2fbillslst_c203aa1c-1876-41a8-bc76-1de328bdb726"
+        },
+        {
+          "record_id": "26e92a7006bbc47bdae8",
+          "title": "Commonwealth Electoral Amendment Bill 2026",
+          "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=s1529"
+        },
+        {
+          "record_id": "a9d593cfe442932eabeb",
+          "title": "Current Senate bills list",
+          "url": "https://www.aph.gov.au/Parliamentary_Business/layouts/DPS/Bills/?blsId=legislation%2fbillslst%2fbillslst_8100fb48-0592-488b-828b-d017b24562d4"
+        }
+      ],
+      "publication_records_removed": [
+        {
+          "record_id": "29a68e1255907793c887",
+          "title": "Current Senate bills list",
+          "url": "https://www.aph.gov.au/layouts/DPS/Bills/?blsId=legislation%2fbillslst%2fbillslst_8100fb48-0592-488b-828b-d017b24562d4"
+        },
+        {
+          "record_id": "5965c705a3f269591b38",
+          "title": "Current House bills list",
+          "url": "https://www.aph.gov.au/layouts/DPS/Bills/?blsId=legislation%2fbillslst%2fbillslst_c203aa1c-1876-41a8-bc76-1de328bdb726"
+        },
+        {
+          "record_id": "cfcb2bd5cea6313b6415",
+          "title": "Australian Education Amendment (Accountability and...",
+          "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=s1530"
+        }
+      ],
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "underlying_publication_claims_not_promoted_to_verified_fact": true,
+        "source_change_parent_retained": true,
+        "deterministic_review": true
+      }
+    },
+    {
+      "event_id": "SIG-REV-CHG-WATCH-PM-MEDIA-20261119130856",
+      "parent_event_id": "CHG-WATCH-PM-MEDIA-20261119130856",
+      "review_id": "REV-CHG-WATCH-PM-MEDIA-20261119130856",
+      "jurisdiction_id": "AUS-FED",
+      "party_id": null,
+      "actor_id": null,
+      "contest_id": null,
+      "cycle_id": null,
+      "source_snapshot_id": "AUTO-WATCH-PM-MEDIA-20261119130856",
+      "record_id": "b608e8e41d74b70065e5",
+      "captured_at": "2026-11-19T13:09:37.255Z",
+      "event_date": "2026-11-20",
+      "checkpoint": "CONTINUOUS_FORWARD_SIGNAL_REVIEW",
+      "event_type": "SIGNAL_CREATED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-PM-MEDIA",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "claim": "Prime Minister of Australia — media added 1 structured publication record to its forward-captured official index: 33rd APEC Leaders&#039; Summit",
+      "observed_behaviour": "One or more structured publication records appeared in the monitored official source index after the preceding forward snapshot.",
+      "publication_records_added": [
+        {
+          "record_id": "b608e8e41d74b70065e5",
+          "title": "33rd APEC Leaders&#039; Summit",
+          "url": "https://www.pm.gov.au/media/33rd-apec-leaders-summit"
+        }
+      ],
+      "publication_records_removed": [
+        {
+          "record_id": "a2f236a86e2e8f6f71d4",
+          "title": "Remarks - Manila, Philippines",
+          "url": "https://www.pm.gov.au/media/remarks-manila-philippines"
+        }
+      ],
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "underlying_publication_claims_not_promoted_to_verified_fact": true,
+        "source_change_parent_retained": true,
+        "deterministic_review": true
+      }
+    },
+    {
+      "event_id": "SIG-REV-CHG-WATCH-GREENS-FEDERAL-MEDIA-20261119130856",
+      "parent_event_id": "CHG-WATCH-GREENS-FEDERAL-MEDIA-20261119130856",
+      "review_id": "REV-CHG-WATCH-GREENS-FEDERAL-MEDIA-20261119130856",
+      "jurisdiction_id": "AUS-FED",
+      "party_id": "AUS-FED-GRN",
+      "actor_id": null,
+      "contest_id": null,
+      "cycle_id": null,
+      "source_snapshot_id": "AUTO-WATCH-GREENS-FEDERAL-MEDIA-20261119130856",
+      "record_id": null,
+      "captured_at": "2026-11-19T13:09:37.255Z",
+      "event_date": "2026-11-20",
+      "checkpoint": "CONTINUOUS_FORWARD_SIGNAL_REVIEW",
+      "event_type": "SIGNAL_CREATED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_PARTY",
+      "source_id": "SRC-GREENS-FEDERAL-RELEASE-INDEX",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "claim": "Australian Greens — Federal MPs media releases added 6 structured publication records to its forward-captured official index: Sandpapergate ongoing saga shows the need for independent whistleblower systems for sport; Optimizely hack shows the enshittification of the internet is putting you at risk; RBA stop punishing workers for high inflation; Read more about RBA stop punishing workers for high inflation; Read more about Optimizely hack shows the enshittification of the internet is putting you at risk; +1 more",
+      "observed_behaviour": "One or more structured publication records appeared in the monitored official source index after the preceding forward snapshot.",
+      "publication_records_added": [
+        {
+          "record_id": "3bfc60cdc6c0580521a8",
+          "title": "Sandpapergate ongoing saga shows the need for independent whistleblower systems for sport",
+          "url": "https://greens.org.au/news/media-release/sandpapergate-ongoing-saga-shows-need-independent-whistleblower-systems-sport"
+        },
+        {
+          "record_id": "5dbc440a925630f3ded8",
+          "title": "Optimizely hack shows the enshittification of the internet is putting you at risk",
+          "url": "https://greens.org.au/news/media-release/optimizely-hack-shows-enshittification-internet-putting-you-risk"
+        },
+        {
+          "record_id": "8f9165912eac97a81fff",
+          "title": "RBA stop punishing workers for high inflation",
+          "url": "https://greens.org.au/news/media-release/rba-stop-punishing-workers-high-inflation"
+        },
+        {
+          "record_id": "9686e587bd71d967f8a9",
+          "title": "Read more about RBA stop punishing workers for high inflation",
+          "url": "https://greens.org.au/news/media-release/rba-stop-punishing-workers-high-inflation"
+        },
+        {
+          "record_id": "991d00228cd1897a62be",
+          "title": "Read more about Optimizely hack shows the enshittification of the internet is putting you at risk",
+          "url": "https://greens.org.au/news/media-release/optimizely-hack-shows-enshittification-internet-putting-you-risk"
+        },
+        {
+          "record_id": "fc90c931fa4f45f962ee",
+          "title": "Read more about Sandpapergate ongoing saga shows the need for independent whistleblower systems for sport",
+          "url": "https://greens.org.au/news/media-release/sandpapergate-ongoing-saga-shows-need-independent-whistleblower-systems-sport"
+        }
+      ],
+      "publication_records_removed": [
+        {
+          "record_id": "1d1af8a76e4bb8b065ee",
+          "title": "Media Release: Optimizely hack shows the enshittification of the internet is putting you at risk",
+          "url": "https://greens.org.au/news/media-release/media-release-optimizely-hack-shows-enshittification-internet-putting-you-risk"
+        },
+        {
+          "record_id": "52957f6d8ad60c01b47b",
+          "title": "Read more about Inquiry - Greens WFH bill backed by evidence",
+          "url": "https://greens.org.au/news/media-release/inquiry-greens-wfh-bill-backed-evidence"
+        },
+        {
+          "record_id": "b07f6be04f90d35a0b86",
+          "title": "Read more about Media Release: Optimizely hack shows the enshittification of the internet is putting you at risk",
+          "url": "https://greens.org.au/news/media-release/media-release-optimizely-hack-shows-enshittification-internet-putting-you-risk"
+        },
+        {
+          "record_id": "c544fd82295a40836ae2",
+          "title": "US midterms prove we need a moratorium on data centres",
+          "url": "https://greens.org.au/sa/news/media-release/us-midterms-prove-we-need-moratorium-data-centres"
+        },
+        {
+          "record_id": "d793da3d762a53f9aedd",
+          "title": "Inquiry - Greens WFH bill backed by evidence",
+          "url": "https://greens.org.au/news/media-release/inquiry-greens-wfh-bill-backed-evidence"
+        },
+        {
+          "record_id": "d8b5a0939f40e2c60be7",
+          "title": "Read more about US midterms prove we need a moratorium on data centres",
+          "url": "https://greens.org.au/sa/news/media-release/us-midterms-prove-we-need-moratorium-data-centres"
+        }
+      ],
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "underlying_publication_claims_not_promoted_to_verified_fact": true,
+        "source_change_parent_retained": true,
+        "deterministic_review": true
+      }
+    },
+    {
+      "event_id": "SIG-REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261119130856",
+      "parent_event_id": "CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261119130856",
+      "review_id": "REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261119130856",
+      "jurisdiction_id": "AUS-QLD",
+      "party_id": null,
+      "actor_id": null,
+      "contest_id": null,
+      "cycle_id": null,
+      "source_snapshot_id": "AUTO-WATCH-QLD-MINISTERIAL-STATEMENTS-20261119130856",
+      "record_id": null,
+      "captured_at": "2026-11-19T13:09:37.255Z",
+      "event_date": "2026-11-20",
+      "checkpoint": "CONTINUOUS_FORWARD_SIGNAL_REVIEW",
+      "event_type": "SIGNAL_CREATED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-QLD-MINISTERIAL-STATEMENTS",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "claim": "Queensland Government — Ministerial Media Statements added 7 structured publication records to its forward-captured official index: Investing in Queensland's next generation of environmental leaders; Justice reforms strengthen confidence in legal profession; Ratings agency backs Queensland’s strong and resilient economy; Stronger DFV laws deliver stronger protection for victims; Games On! Club House Grant to strengthen Queensland clubs; +2 more",
+      "observed_behaviour": "One or more structured publication records appeared in the monitored official source index after the preceding forward snapshot.",
+      "publication_records_added": [
+        {
+          "record_id": "0a7060aae7ea076edec2",
+          "title": "Investing in Queensland's next generation of environmental leaders",
+          "url": "https://statements.qld.gov.au/statements/106455"
+        },
+        {
+          "record_id": "40fd7fec71593b16fd9e",
+          "title": "Justice reforms strengthen confidence in legal profession",
+          "url": "https://statements.qld.gov.au/statements/106459"
+        },
+        {
+          "record_id": "57ac1a8933a02311ccbd",
+          "title": "Ratings agency backs Queensland’s strong and resilient economy",
+          "url": "https://statements.qld.gov.au/statements/106463"
+        },
+        {
+          "record_id": "5c6754ce6987b489ca8e",
+          "title": "Stronger DFV laws deliver stronger protection for victims",
+          "url": "https://statements.qld.gov.au/statements/106460"
+        },
+        {
+          "record_id": "5d0f8c493de881b4f1af",
+          "title": "Games On! Club House Grant to strengthen Queensland clubs",
+          "url": "https://statements.qld.gov.au/statements/106452"
+        },
+        {
+          "record_id": "afaea4cc4f92eaed3659",
+          "title": "Disaster recovery support activated for flood-hit Queensland councils",
+          "url": "https://statements.qld.gov.au/statements/106453"
+        },
+        {
+          "record_id": "f86a083ade541f4af9be",
+          "title": "New laws target hoon drivers and street racers to save lives on roads",
+          "url": "https://statements.qld.gov.au/statements/106454"
+        }
+      ],
+      "publication_records_removed": [
+        {
+          "record_id": "0d25e8170bbd0a08b16b",
+          "title": "Construction Productivity Code implemented after damning CFMEU Inquiry Interim Report",
+          "url": "https://statements.qld.gov.au/statements/106445"
+        },
+        {
+          "record_id": "25d9a9c17006589dd131",
+          "title": "Mao’s Last Dancer to Magnetic: Queensland talent set to shine on the global stage",
+          "url": "https://statements.qld.gov.au/statements/106441"
+        },
+        {
+          "record_id": "a04ca17669467a0bf631",
+          "title": "Delivering long-term water security for Woorabinda",
+          "url": "https://statements.qld.gov.au/statements/106377"
+        },
+        {
+          "record_id": "c4232c071c295cff703b",
+          "title": "Early works begin for new and improved Gin Gin rest area",
+          "url": "https://statements.qld.gov.au/statements/106439"
+        },
+        {
+          "record_id": "d6a247c129baf6fd636f",
+          "title": "Trailblazer Dr Merle Thornton AM honoured with statue",
+          "url": "https://statements.qld.gov.au/statements/106444"
+        },
+        {
+          "record_id": "ed99f2b0facebdea4568",
+          "title": "Castlereagh floodway upgrades complete",
+          "url": "https://statements.qld.gov.au/statements/106440"
+        },
+        {
+          "record_id": "f9f9d3a0313298b18e28",
+          "title": "New reforms for Queensland’s nightlife",
+          "url": "https://statements.qld.gov.au/statements/106442"
+        }
+      ],
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "underlying_publication_claims_not_promoted_to_verified_fact": true,
+        "source_change_parent_retained": true,
+        "deterministic_review": true
+      }
+    },
+    {
+      "event_id": "SIG-REV-CHG-WATCH-WAEC-MEDIA-20261119130856",
+      "parent_event_id": "CHG-WATCH-WAEC-MEDIA-20261119130856",
+      "review_id": "REV-CHG-WATCH-WAEC-MEDIA-20261119130856",
+      "jurisdiction_id": "AUS-WA",
+      "party_id": null,
+      "actor_id": null,
+      "contest_id": null,
+      "cycle_id": null,
+      "source_snapshot_id": "AUTO-WATCH-WAEC-MEDIA-20261119130856",
+      "record_id": "34f6888c617e088f8d95",
+      "captured_at": "2026-11-19T13:09:37.255Z",
+      "event_date": "2026-11-20",
+      "checkpoint": "CONTINUOUS_FORWARD_SIGNAL_REVIEW",
+      "event_type": "SIGNAL_CREATED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_ELECTORAL_AUTHORITY",
+      "source_id": "SRC-WAEC-MEDIA",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "claim": "Western Australian Electoral Commission — media releases added 1 structured publication record to its forward-captured official index: Mail Postal Votes this Week for the 2026 December Local Government Extraordinary Elections",
+      "observed_behaviour": "One or more structured publication records appeared in the monitored official source index after the preceding forward snapshot.",
+      "publication_records_added": [
+        {
+          "record_id": "34f6888c617e088f8d95",
+          "title": "Mail Postal Votes this Week for the 2026 December Local Government Extraordinary Elections",
+          "url": "https://www.elections.wa.gov.au/about-us/media/releases/2642"
+        }
+      ],
+      "publication_records_removed": [
+        {
+          "record_id": "f9860baf159118d62a50",
+          "title": "Secret Harbour By-election officially underway",
+          "url": "https://www.elections.wa.gov.au/about-us/media/releases/2606"
+        }
+      ],
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "underlying_publication_claims_not_promoted_to_verified_fact": true,
+        "source_change_parent_retained": true,
+        "deterministic_review": true
+      }
+    },
+    {
+      "event_id": "SIG-REV-CHG-WATCH-ECSA-NEWS-20261119130856",
+      "parent_event_id": "CHG-WATCH-ECSA-NEWS-20261119130856",
+      "review_id": "REV-CHG-WATCH-ECSA-NEWS-20261119130856",
+      "jurisdiction_id": "AUS-SA",
+      "party_id": null,
+      "actor_id": null,
+      "contest_id": null,
+      "cycle_id": null,
+      "source_snapshot_id": "AUTO-WATCH-ECSA-NEWS-20261119130856",
+      "record_id": "80ff0664d05923697b30",
+      "captured_at": "2026-11-19T13:09:37.255Z",
+      "event_date": "2026-11-20",
+      "checkpoint": "CONTINUOUS_FORWARD_SIGNAL_REVIEW",
+      "event_type": "SIGNAL_CREATED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_ELECTORAL_AUTHORITY",
+      "source_id": "SRC-ECSA-NEWS",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "claim": "Electoral Commission of South Australia — news and notices added 1 structured publication record to its forward-captured official index: Council Election",
+      "observed_behaviour": "One or more structured publication records appeared in the monitored official source index after the preceding forward snapshot.",
+      "publication_records_added": [
+        {
+          "record_id": "80ff0664d05923697b30",
+          "title": "Council Election",
+          "url": "https://www.ecsa.sa.gov.au/2027-council-election"
+        }
+      ],
+      "publication_records_removed": [],
       "inference": null,
       "inference_class": "NONE",
       "projection_effect": "NO_EFFECT",

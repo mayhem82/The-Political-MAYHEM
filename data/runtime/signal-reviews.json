@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-SIGNAL-REVIEWS-001",
   "created_at": "2026-09-09T05:05:00+10:00",
-  "updated_at": "2026-11-20T20:22:09.402Z",
+  "updated_at": "2026-11-21T09:56:16.565Z",
   "rules": {
     "append_only": true,
     "raw_source_change_is_immutable": true,
@@ -53540,6 +53540,80 @@
           }
         ],
         "delta_hash": "9bf9f99f42ae66ff101c9bc13307c8a82c7d39b134717bc9b6ee0f018f1a9559"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-PM-MEDIA-20261121095545",
+      "source_change_event_id": "CHG-WATCH-PM-MEDIA-20261121095545",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-PM-MEDIA-20261121095545",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Prime Minister of Australia — media added 1 structured publication record to its forward-captured official index: Statement on Joint Outcomes of the Australia-China Annual Leaders’ Meeting",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-11-21T09:56:16.565Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "b2371f923de09e4915b9",
+            "title": "Statement on Joint Outcomes of the Australia-China Annual Leaders’ Meeting",
+            "url": "https://www.pm.gov.au/media/statement-joint-outcomes-australia-china-annual-leaders-meeting-0"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "294d4cb747480b3d9d1e",
+            "title": "ASEAN-Australia Summit opening remarks",
+            "url": "https://www.pm.gov.au/media/asean-australia-summit-opening-remarks-1"
+          }
+        ],
+        "delta_hash": "5144927cb3c4d6beec3e4ceafa1a58d657014c30bb857562e8bb356f74b64936"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-NSWEC-MEDIA-20261121095545",
+      "source_change_event_id": "CHG-WATCH-NSWEC-MEDIA-20261121095545",
+      "decision": "EXCLUDED_AS_NON_SIGNAL",
+      "signal_event_id": null,
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": null,
+      "materiality_state": "IMMATERIAL",
+      "claim": "Structured publication-index change contained removals only. It is retained as a raw source change but is not automatically promoted into a political signal.",
+      "review_basis": "Deterministic review policy excludes removal-only index changes because disappearance from an index does not establish a political event, reversal or substantive fact.",
+      "reviewed_at": "2026-11-21T09:56:16.565Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [],
+        "removed_records": [
+          {
+            "record_id": "0144bab8a958197251f7",
+            "title": "arrow_forward Learn more",
+            "url": "https://elections.nsw.gov.au/service-maintenance-schedule"
+          }
+        ],
+        "delta_hash": "946ed7b594c9d469bf61755d3fd11c527c91cc3ccc76d66289cce6c4c498d50e"
       },
       "integrity": {
         "source_change_unchanged": true,

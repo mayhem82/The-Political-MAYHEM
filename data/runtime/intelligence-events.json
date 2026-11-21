@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-INTELLIGENCE-EVENTS-001",
   "scope": "Australia — multi-jurisdiction",
-  "captured_at": "2026-11-20T20:22:14.786Z",
+  "captured_at": "2026-11-21T09:56:19.899Z",
   "mode": "FORWARD_ONLY",
   "rules": {
     "observation_distinct_from_inference": true,
@@ -148271,6 +148271,213 @@
           "record_id": "df87cb68c796c1546bc8",
           "title": "Disclaimer",
           "url": "https://www.elections.wa.gov.au/Disclaimer"
+        }
+      ],
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "underlying_publication_claims_not_promoted_to_verified_fact": true,
+        "source_change_parent_retained": true,
+        "deterministic_review": true
+      }
+    },
+    {
+      "event_id": "CHG-WATCH-PM-MEDIA-20261121095545",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-FED",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-PM-MEDIA-20261121095545",
+      "captured_at": "2026-11-21T09:55:45.652Z",
+      "event_date": "2026-11-21",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-PM-MEDIA",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "review_policy": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-PM-MEDIA-20261120115354",
+        "content_hash": "8a8d505bbbc8ef68c34df892e7451cbe5f6a396ffc88911a0d8bb80aa19ec900",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-PM-MEDIA-20261121095545",
+        "content_hash": "d13cbb13314214b9439331ba20dc2d64e9a20a4b147bbdeeff7808a003574c49",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "STRUCTURED_RECORD_SET",
+        "records_added": [
+          {
+            "record_id": "b2371f923de09e4915b9",
+            "title": "Statement on Joint Outcomes of the Australia-China Annual Leaders’ Meeting",
+            "url": "https://www.pm.gov.au/media/statement-joint-outcomes-australia-china-annual-leaders-meeting-0"
+          }
+        ],
+        "records_removed": [
+          {
+            "record_id": "294d4cb747480b3d9d1e",
+            "title": "ASEAN-Australia Summit opening remarks",
+            "url": "https://www.pm.gov.au/media/asean-australia-summit-opening-remarks-1"
+          }
+        ],
+        "added_count": 1,
+        "removed_count": 1,
+        "before_count": 27,
+        "after_count": 27,
+        "delta_hash": "5144927cb3c4d6beec3e4ceafa1a58d657014c30bb857562e8bb356f74b64936"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-LIBERAL-HOME-20261121095545",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-FED",
+      "party_id": "AUS-FED-LIB",
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-LIBERAL-HOME-20261121095545",
+      "captured_at": "2026-11-21T09:55:45.652Z",
+      "event_date": "2026-11-21",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_PARTY",
+      "source_id": "SRC-LIBERAL-FEDERAL-HOME",
+      "capture_mode": "NORMALISED_PAGE_HASH",
+      "review_policy": "REVIEW_UNSTRUCTURED_CHANGE",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-LIBERAL-HOME-20261120115354",
+        "content_hash": "fab8f5ef9a02b4dbd7e0a10fa98deffdabdc41b43476289cf3bde560b4488767",
+        "capture_mode": "NORMALISED_PAGE_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-LIBERAL-HOME-20261121095545",
+        "content_hash": "84591fa19f8244349e3ab3e4ed8b0db0d4ce06aeaae603698faa8c6596f46c0a",
+        "capture_mode": "NORMALISED_PAGE_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "TEXT_REPRESENTATION",
+        "first_difference_offset": 1517,
+        "before_length": 8313,
+        "after_length": 8411,
+        "before_excerpt": "pposition in the Senate Meet the Liberal Team The Latest Stay up to date with the Liberal Party of Australia liberalaus We believe government should make it easier – not harder – to start, run and grow a small business. Nov 20 Open post by liberalaus with ID 18118757636038704 angustaylormp Amanda Rose certainly isn’t afraid to use her voice to stand up for small businesses. The founder of Entrepreneurial & Small Business Women Australia and Western Sydney Women, Amanda comes face-to-face with politicians all the time and tells it exactly how it is. I sat down with Amanda to discuss Labor’s war on small business, the madness of red tape and what we’d do to bring back reward for hard work. Nov 20 Open post by angustaylormp with ID 18076909154754087 liberalaus If Labor can`t admit there is a problem with their management of the economy, how can they ever fix it? Nov 20 Open post by liberalaus with ID 18151692898569344 angustaylormp Happy National Agriculture Day! 🇦🇺 Our farmers and producers feed our families, support our regional communities, create jobs and drive billions in exports. From the paddock to the dinner table, Australian agriculture is central to our nation’s prosperity. We must back our farmers, strengthen our regions and protect the industries that keep Australia strong. Our farmers are our future. Nov 19 Open post by angustaylormp with ID 18180450538449719 angustaylormp Labor is breaking our economy and Australians are paying for it. Out-of-control spending. Toxic taxes. More red tape. It doesn’t have to be this way. We have a plan to fix it. Nov 19 Open post by angustaylormp with ID 18139685842640628 senatorhume Labor and the Greens are blocking John Setka being banned from the CFMEU for life. Do they want him back in the union? Tell them what you think and sign the petition to get to the truth &#8211; link is in the bio. Nov 19 Open post by senatorhume with ID 17990093265088968 angustaylormp It was a real pleasure to join Lady Chu (and Archie!) on Banh Mi TV today! I was so touched by Nahji’s story. Her family arrived in Australia as refugees from Laos in 1978, determined to build a better future. Through hard work and determination, she has built an incredible life and business, sharing her love of Vietnamese food and culture with Australians. But because of Labor’s war on small business it’s getting harder for people like Nahji who have the ambition, drive and determination to build something for themselves and get ahead. We should be celebrating and backing Australians like you Nahji, and I’ll do that every day of the week. Nov 19 Open post by angustaylormp with ID 17947330839364740 liberalaus This is what Labor has given the economy: high inflation, higher unemployment, high interest rates, and job losses. There is a better way. Only the Liberals and Nationals have a plan to fix the economy and protect our way of life. Nov 19 Open post by liberalaus with ID 17983329363131261 liberalaus Because Labor has lost control of their spending, inflation has been too high for too long and it`s pushing real wages backwards. Australians deserve an economy where hard work gets them ahead, not one where they run faster just to stand still. Nov 18 Open post by liberalaus with ID 18113329289336810 senatorhume This can’t be real… it’s our taxpayer money and we deserve the truth. Tell Labor that you want an inquiry that is national about this corruption. Sign the petition &#8211; link is in the bio. Nov 18 Open post by senatorhume with ID 18000013979856258 angustaylormp $5 BILLION A YEAR on the NDIS for non-citizens. All while Australian families and small businesses are struggling. The more Labor spends, the more Australians pay. We have a $31 billion plan to cut the waste and put Australians first. Nov 18 Open post by angustaylormp with ID 18121948019178100 angustaylormp If we lose small business, we lose the country. 46 businesses are failing every single day. Small business owners have had a gutful. They’re asking themselves why they should keep going when it’s becoming harder and harder to stay afloat. These businesses are the backbone of our communities. We cannot afford to lose them or the jobs, services and livelihoods they support. We’re fighting for the heart and soul of our country. Nov 18 Open post by angustaylormp with ID 18188994079419416 senatorhume It’s our money. But it funded worksites with work health and safety representatives on drugs at work. Sign the petition to get the truth and end the corruption &#8211; link is in the bio. Nov 18 Open post by senatorhume with ID 17918735841534806 liberalaus When your wages rise just to keep up with inflation, you are no better off – and you should not pay higher taxes as though you are. That is not fair and under a Liberal and Nationals government, it will end. Nov 18 Open post by liberalaus with ID 18172658905464280 liberalaus Under Labor, rents are up 25 per cent. The Liberals and Nationals have a plan to take the pressure off: Boost housing supply &#8211; unlocking up to 400,000 new homes Ease housing demand &#8211; keeping migration below new homes built Cut Labor’s waste &#8211; that fuels inflation and interest rates Scrap Labor’s taxes on housing Read more detail at the link in bio. Nov 17 Open post by liberalaus with ID 18171357292469379 liberalaus Jim Chalmers and Anthony Albanese are now overseeing a once in a generation housing downturn. Only the Liberals and Nationals will scrap Labor`s damaging taxes and fix the housing market. Nov 17 Open post by liberalaus with ID 17915537109481083 angustaylormp Australians are paying for Chris Bowen’s obsession with Net Zero. We will scrap Net Zero. Done. Gone. It’s part of our plan to save $31 billion in wasteful spending and bring down the cost of your power bills. Nov 17 Open post by angustaylormp with ID 18103134227548333 angustaylormp The Liberals and Nationals will stop Labor’s assault on aspiration by axing every one of their toxic taxes. We can’t keep going the way we are going under Labor. We need a strong plan and a strong team to get our economy heading in the right direction again. Nov 17 Open post by angustaylormp with ID 17880596115633533 We need your support to win! Help us by making a donation today. 🙏🏼 $30 👏🏼 $60 😃 $120 😁 $500 😲 $1,000 🥹 $2,000",
+        "after_excerpt": "pposition in the Senate Meet the Liberal Team The Latest Stay up to date with the Liberal Party of Australia liberalaus Labor has a productivity problem, and their obsession with forcing red tape on to small businesses hasn`t helped. The Liberals and Nationals will aim to reduce the federal regulatory burden by 25% in our first term. Nov 20 Open post by liberalaus with ID 18132350254879126 liberalaus Labor are in denial about their mismanagement of the economy. Australia needs change. The Liberals and Nationals have a plan to get inflation down and take pressure off interest rates. We’ve already identified $31 billion in savings by cutting Labor’s waste, and we will put a speed limit on spending so government can’t spend faster than the economy is growing. Nov 20 Open post by liberalaus with ID 18131570080893131 liberalaus We believe government should make it easier – not harder – to start, run and grow a small business. Nov 20 Open post by liberalaus with ID 18118757636038704 angustaylormp Amanda Rose certainly isn’t afraid to use her voice to stand up for small businesses. The founder of Entrepreneurial & Small Business Women Australia and Western Sydney Women, Amanda comes face-to-face with politicians all the time and tells it exactly how it is. I sat down with Amanda to discuss Labor’s war on small business, the madness of red tape and what we’d do to bring back reward for hard work. Nov 20 Open post by angustaylormp with ID 18076909154754087 liberalaus If Labor can`t admit there is a problem with their management of the economy, how can they ever fix it? Nov 20 Open post by liberalaus with ID 18151692898569344 angustaylormp Happy National Agriculture Day! 🇦🇺 Our farmers and producers feed our families, support our regional communities, create jobs and drive billions in exports. From the paddock to the dinner table, Australian agriculture is central to our nation’s prosperity. We must back our farmers, strengthen our regions and protect the industries that keep Australia strong. Our farmers are our future. Nov 19 Open post by angustaylormp with ID 18180450538449719 angustaylormp Labor is breaking our economy and Australians are paying for it. Out-of-control spending. Toxic taxes. More red tape. It doesn’t have to be this way. We have a plan to fix it. Nov 19 Open post by angustaylormp with ID 18139685842640628 senatorhume Labor and the Greens are blocking John Setka being banned from the CFMEU for life. Do they want him back in the union? Tell them what you think and sign the petition to get to the truth &#8211; link is in the bio. Nov 19 Open post by senatorhume with ID 17990093265088968 angustaylormp It was a real pleasure to join Lady Chu (and Archie!) on Banh Mi TV today! I was so touched by Nahji’s story. Her family arrived in Australia as refugees from Laos in 1978, determined to build a better future. Through hard work and determination, she has built an incredible life and business, sharing her love of Vietnamese food and culture with Australians. But because of Labor’s war on small business it’s getting harder for people like Nahji who have the ambition, drive and determination to build something for themselves and get ahead. We should be celebrating and backing Australians like you Nahji, and I’ll do that every day of the week. Nov 19 Open post by angustaylormp with ID 17947330839364740 liberalaus This is what Labor has given the economy: high inflation, higher unemployment, high interest rates, and job losses. There is a better way. Only the Liberals and Nationals have a plan to fix the economy and protect our way of life. Nov 19 Open post by liberalaus with ID 17983329363131261 liberalaus Because Labor has lost control of their spending, inflation has been too high for too long and it`s pushing real wages backwards. Australians deserve an economy where hard work gets them ahead, not one where they run faster just to stand still. Nov 18 Open post by liberalaus with ID 18113329289336810 senatorhume This can’t be real… it’s our taxpayer money and we deserve the truth. Tell Labor that you want an inquiry that is national about this corruption. Sign the petition &#8211; link is in the bio. Nov 18 Open post by senatorhume with ID 18000013979856258 angustaylormp $5 BILLION A YEAR on the NDIS for non-citizens. All while Australian families and small businesses are struggling. The more Labor spends, the more Australians pay. We have a $31 billion plan to cut the waste and put Australians first. Nov 18 Open post by angustaylormp with ID 18121948019178100 angustaylormp If we lose small business, we lose the country. 46 businesses are failing every single day. Small business owners have had a gutful. They’re asking themselves why they should keep going when it’s becoming harder and harder to stay afloat. These businesses are the backbone of our communities. We cannot afford to lose them or the jobs, services and livelihoods they support. We’re fighting for the heart and soul of our country. Nov 18 Open post by angustaylormp with ID 18188994079419416 senatorhume It’s our money. But it funded worksites with work health and safety representatives on drugs at work. Sign the petition to get the truth and end the corruption &#8211; link is in the bio. Nov 18 Open post by senatorhume with ID 17918735841534806 liberalaus When your wages rise just to keep up with inflation, you are no better off – and you should not pay higher taxes as though you are. That is not fair and under a Liberal and Nationals government, it will end. Nov 18 Open post by liberalaus with ID 18172658905464280 liberalaus Under Labor, rents are up 25 per cent. The Liberals and Nationals have a plan to take the pressure off: Boost housing supply &#8211; unlocking up to 400,000 new homes Ease housing demand &#8211; keeping migration below new homes built Cut Labor’s waste &#8211; that fuels inflation and interest rates Scrap Labor’s taxes on housing Read more detail at the link in bio. Nov 17 Open post by liberalaus with ID 18171357292469379 liberalaus Jim Chalmers and Anthony Albanese are now overseeing a once in a generation housing downturn. Only the Liberals and Nationals will scrap Labor`s damaging taxes and fix the housing market. Nov 17 Open post by liberalaus with ID 17915537109481083 We need your support to win! Help us by making a donation today. 🙏🏼 $30 👏🏼 $60 😃 $120 😁 $500 😲 $1,000 🥹 $2,000",
+        "delta_hash": "a7d309be221132b33fc950fd3023bde3cbf00fa764b216464c85f7ddaa984b9d"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-NSWEC-MEDIA-20261121095545",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-NSW",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-NSWEC-MEDIA-20261121095545",
+      "captured_at": "2026-11-21T09:55:45.652Z",
+      "event_date": "2026-11-21",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_ELECTORAL_AUTHORITY",
+      "source_id": "SRC-NSWEC-MEDIA",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "review_policy": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-NSWEC-MEDIA-20261120115354",
+        "content_hash": "05f0a251001776b85bf904814686a39ab5028d97bf513713ccf7c62937015076",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-NSWEC-MEDIA-20261121095545",
+        "content_hash": "83e7785746b9a0689453d5f925d9ed60fbfcac589395a3a1b8481f0e75b24a68",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "STRUCTURED_RECORD_SET",
+        "records_added": [],
+        "records_removed": [
+          {
+            "record_id": "0144bab8a958197251f7",
+            "title": "arrow_forward Learn more",
+            "url": "https://elections.nsw.gov.au/service-maintenance-schedule"
+          }
+        ],
+        "added_count": 0,
+        "removed_count": 1,
+        "before_count": 365,
+        "after_count": 364,
+        "delta_hash": "946ed7b594c9d469bf61755d3fd11c527c91cc3ccc76d66289cce6c4c498d50e"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "SIG-REV-CHG-WATCH-PM-MEDIA-20261121095545",
+      "parent_event_id": "CHG-WATCH-PM-MEDIA-20261121095545",
+      "review_id": "REV-CHG-WATCH-PM-MEDIA-20261121095545",
+      "jurisdiction_id": "AUS-FED",
+      "party_id": null,
+      "actor_id": null,
+      "contest_id": null,
+      "cycle_id": null,
+      "source_snapshot_id": "AUTO-WATCH-PM-MEDIA-20261121095545",
+      "record_id": "b2371f923de09e4915b9",
+      "captured_at": "2026-11-21T09:56:16.565Z",
+      "event_date": "2026-11-21",
+      "checkpoint": "CONTINUOUS_FORWARD_SIGNAL_REVIEW",
+      "event_type": "SIGNAL_CREATED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-PM-MEDIA",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "claim": "Prime Minister of Australia — media added 1 structured publication record to its forward-captured official index: Statement on Joint Outcomes of the Australia-China Annual Leaders’ Meeting",
+      "observed_behaviour": "One or more structured publication records appeared in the monitored official source index after the preceding forward snapshot.",
+      "publication_records_added": [
+        {
+          "record_id": "b2371f923de09e4915b9",
+          "title": "Statement on Joint Outcomes of the Australia-China Annual Leaders’ Meeting",
+          "url": "https://www.pm.gov.au/media/statement-joint-outcomes-australia-china-annual-leaders-meeting-0"
+        }
+      ],
+      "publication_records_removed": [
+        {
+          "record_id": "294d4cb747480b3d9d1e",
+          "title": "ASEAN-Australia Summit opening remarks",
+          "url": "https://www.pm.gov.au/media/asean-australia-summit-opening-remarks-1"
         }
       ],
       "inference": null,

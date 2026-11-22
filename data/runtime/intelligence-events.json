@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-INTELLIGENCE-EVENTS-001",
   "scope": "Australia — multi-jurisdiction",
-  "captured_at": "2026-11-22T11:39:43.578Z",
+  "captured_at": "2026-11-22T19:41:56.706Z",
   "mode": "FORWARD_ONLY",
   "rules": {
     "observation_distinct_from_inference": true,
@@ -148664,6 +148664,160 @@
       "projection_effect": "NO_EFFECT",
       "information_advantage": "NONE",
       "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-PM-MEDIA-20261122194118",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-FED",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-PM-MEDIA-20261122194118",
+      "captured_at": "2026-11-22T19:41:18.287Z",
+      "event_date": "2026-11-23",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-PM-MEDIA",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "review_policy": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-PM-MEDIA-20261121095545",
+        "content_hash": "d13cbb13314214b9439331ba20dc2d64e9a20a4b147bbdeeff7808a003574c49",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-PM-MEDIA-20261122194118",
+        "content_hash": "51b1ef8b9814d9d7289c5a077b38f84198aff472575e29018d3be012e86e7f02",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "STRUCTURED_RECORD_SET",
+        "records_added": [
+          {
+            "record_id": "4eebad6ce74089b586fb",
+            "title": "Visit to Australia by the Prime Minister of Singapore",
+            "url": "https://www.pm.gov.au/media/visit-australia-prime-minister-singapore"
+          }
+        ],
+        "records_removed": [
+          {
+            "record_id": "d84525a32cb74a704cfb",
+            "title": "ASEAN-Australia Joint Leaders&#039; Statement on the 5th Anniversary of the ASEAN-Australia Comprehensive Strategic Partnership",
+            "url": "https://www.pm.gov.au/media/asean-australia-joint-leaders-statement-5th-anniversary-asean-australia-comprehensive"
+          }
+        ],
+        "added_count": 1,
+        "removed_count": 1,
+        "before_count": 27,
+        "after_count": 27,
+        "delta_hash": "6997360a5157fe1636f045a609ef4b25533b0e1a1e3d04743663dd273dc56acc"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-WA-HANSARD-20261122194118",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-WA",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-WA-HANSARD-20261122194118",
+      "captured_at": "2026-11-22T19:41:18.287Z",
+      "event_date": "2026-11-23",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_PARLIAMENT",
+      "source_id": "SRC-WA-HANSARD",
+      "capture_mode": "NORMALISED_PAGE_HASH",
+      "review_policy": "REVIEW_UNSTRUCTURED_CHANGE",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-WA-HANSARD-20261119213528",
+        "content_hash": "6376d87843bf4f7df162ce7925112e476e6f3b25b6f2cb0d47e56af56818895b",
+        "capture_mode": "NORMALISED_PAGE_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-WA-HANSARD-20261122194118",
+        "content_hash": "f2323018b151ed0a8a269bd12b70de8d5ccc46b9058e61768d8ce953d25bead4",
+        "capture_mode": "NORMALISED_PAGE_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "TEXT_REPRESENTATION",
+        "first_difference_offset": 197,
+        "before_length": 10744,
+        "after_length": 10737,
+        "before_excerpt": "tent Home Site map Accessibility Contact us Alerts Home Menu Show/Hide website navigation The Legislative Council meets on 24/11/2026 (<TIME>) Council sit 24/11/2026 The Legislative Assembly meets on 16/02/2027 (<TIME>) Assembly sit 16/02/2027 The Estimates Committee meets on 25/11/20",
+        "after_excerpt": "tent Home Site map Accessibility Contact us Alerts Home Menu Show/Hide website navigation The Legislative Council meets tomorrow (<TIME>) Council sit tomorrow The Legislative Assembly meets on 16/02/2027 (<TIME>) Assembly sit 16/02/2027 The Estimates Committee meets on 25/11/20",
+        "delta_hash": "15fc38efae0aa5eadbd1b15071c52abd89d9d4e3ea6d5d9745d838146244e7e3"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "SIG-REV-CHG-WATCH-PM-MEDIA-20261122194118",
+      "parent_event_id": "CHG-WATCH-PM-MEDIA-20261122194118",
+      "review_id": "REV-CHG-WATCH-PM-MEDIA-20261122194118",
+      "jurisdiction_id": "AUS-FED",
+      "party_id": null,
+      "actor_id": null,
+      "contest_id": null,
+      "cycle_id": null,
+      "source_snapshot_id": "AUTO-WATCH-PM-MEDIA-20261122194118",
+      "record_id": "4eebad6ce74089b586fb",
+      "captured_at": "2026-11-22T19:41:52.726Z",
+      "event_date": "2026-11-23",
+      "checkpoint": "CONTINUOUS_FORWARD_SIGNAL_REVIEW",
+      "event_type": "SIGNAL_CREATED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-PM-MEDIA",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "claim": "Prime Minister of Australia — media added 1 structured publication record to its forward-captured official index: Visit to Australia by the Prime Minister of Singapore",
+      "observed_behaviour": "One or more structured publication records appeared in the monitored official source index after the preceding forward snapshot.",
+      "publication_records_added": [
+        {
+          "record_id": "4eebad6ce74089b586fb",
+          "title": "Visit to Australia by the Prime Minister of Singapore",
+          "url": "https://www.pm.gov.au/media/visit-australia-prime-minister-singapore"
+        }
+      ],
+      "publication_records_removed": [
+        {
+          "record_id": "d84525a32cb74a704cfb",
+          "title": "ASEAN-Australia Joint Leaders&#039; Statement on the 5th Anniversary of the ASEAN-Australia Comprehensive Strategic Partnership",
+          "url": "https://www.pm.gov.au/media/asean-australia-joint-leaders-statement-5th-anniversary-asean-australia-comprehensive"
+        }
+      ],
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "underlying_publication_claims_not_promoted_to_verified_fact": true,
+        "source_change_parent_retained": true,
+        "deterministic_review": true
+      }
     }
   ]
 }

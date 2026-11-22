@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-SIGNAL-REVIEWS-001",
   "created_at": "2026-09-09T05:05:00+10:00",
-  "updated_at": "2026-11-22T11:39:37.222Z",
+  "updated_at": "2026-11-22T19:41:52.726Z",
   "rules": {
     "append_only": true,
     "raw_source_change_is_immutable": true,
@@ -53664,6 +53664,46 @@
           }
         ],
         "delta_hash": "b65b45344016b00fe155ac75339b92619ff1b428bf910b24df0b56eefa9a9192"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-PM-MEDIA-20261122194118",
+      "source_change_event_id": "CHG-WATCH-PM-MEDIA-20261122194118",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-PM-MEDIA-20261122194118",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Prime Minister of Australia — media added 1 structured publication record to its forward-captured official index: Visit to Australia by the Prime Minister of Singapore",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-11-22T19:41:52.726Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "4eebad6ce74089b586fb",
+            "title": "Visit to Australia by the Prime Minister of Singapore",
+            "url": "https://www.pm.gov.au/media/visit-australia-prime-minister-singapore"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "d84525a32cb74a704cfb",
+            "title": "ASEAN-Australia Joint Leaders&#039; Statement on the 5th Anniversary of the ASEAN-Australia Comprehensive Strategic Partnership",
+            "url": "https://www.pm.gov.au/media/asean-australia-joint-leaders-statement-5th-anniversary-asean-australia-comprehensive"
+          }
+        ],
+        "delta_hash": "6997360a5157fe1636f045a609ef4b25533b0e1a1e3d04743663dd273dc56acc"
       },
       "integrity": {
         "source_change_unchanged": true,

@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-SIGNAL-REVIEWS-001",
   "created_at": "2026-09-09T05:05:00+10:00",
-  "updated_at": "2026-11-21T17:33:50.184Z",
+  "updated_at": "2026-11-22T03:17:15.334Z",
   "rules": {
     "append_only": true,
     "raw_source_change_is_immutable": true,
@@ -53614,6 +53614,56 @@
           }
         ],
         "delta_hash": "946ed7b594c9d469bf61755d3fd11c527c91cc3ccc76d66289cce6c4c498d50e"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261122031638",
+      "source_change_event_id": "CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261122031638",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261122031638",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Queensland Government — Ministerial Media Statements added 2 structured publication records to its forward-captured official index: Two new Designated Business and Community Precincts to restore safety on the Gold Coast; Jack's Law wanding blitz makes Gold Coast Schoolies safer for thousands of teenagers",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-11-22T03:17:15.334Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "3afc5885642418f448c1",
+            "title": "Two new Designated Business and Community Precincts to restore safety on the Gold Coast",
+            "url": "https://statements.qld.gov.au/statements/106475"
+          },
+          {
+            "record_id": "6cee6f8d6a545ce06fad",
+            "title": "Jack's Law wanding blitz makes Gold Coast Schoolies safer for thousands of teenagers",
+            "url": "https://statements.qld.gov.au/statements/106472"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "40fd7fec71593b16fd9e",
+            "title": "Justice reforms strengthen confidence in legal profession",
+            "url": "https://statements.qld.gov.au/statements/106459"
+          },
+          {
+            "record_id": "809a41ec3e8299056ae7",
+            "title": "Major NRL fixtures to deliver boost for Rockhampton's visitor economy",
+            "url": "https://statements.qld.gov.au/statements/106467"
+          }
+        ],
+        "delta_hash": "b65b45344016b00fe155ac75339b92619ff1b428bf910b24df0b56eefa9a9192"
       },
       "integrity": {
         "source_change_unchanged": true,

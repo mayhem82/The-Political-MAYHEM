@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-INTELLIGENCE-EVENTS-001",
   "scope": "Australia — multi-jurisdiction",
-  "captured_at": "2026-11-21T17:33:54.244Z",
+  "captured_at": "2026-11-22T03:17:19.913Z",
   "mode": "FORWARD_ONLY",
   "rules": {
     "observation_distinct_from_inference": true,
@@ -148478,6 +148478,134 @@
           "record_id": "294d4cb747480b3d9d1e",
           "title": "ASEAN-Australia Summit opening remarks",
           "url": "https://www.pm.gov.au/media/asean-australia-summit-opening-remarks-1"
+        }
+      ],
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "underlying_publication_claims_not_promoted_to_verified_fact": true,
+        "source_change_parent_retained": true,
+        "deterministic_review": true
+      }
+    },
+    {
+      "event_id": "CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261122031638",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-QLD",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-QLD-MINISTERIAL-STATEMENTS-20261122031638",
+      "captured_at": "2026-11-22T03:16:38.057Z",
+      "event_date": "2026-11-22",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-QLD-MINISTERIAL-STATEMENTS",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "review_policy": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-QLD-MINISTERIAL-STATEMENTS-20261120115354",
+        "content_hash": "4fc9615c9b9b9f419eeca1aa057e8d5aeaa91157d604262f4079c02158d7eec2",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-QLD-MINISTERIAL-STATEMENTS-20261122031638",
+        "content_hash": "a57dcd9dfd5025264a8fd37841bca493e4056ae88e6fa9e0ef8a85b6ec169d15",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "STRUCTURED_RECORD_SET",
+        "records_added": [
+          {
+            "record_id": "3afc5885642418f448c1",
+            "title": "Two new Designated Business and Community Precincts to restore safety on the Gold Coast",
+            "url": "https://statements.qld.gov.au/statements/106475"
+          },
+          {
+            "record_id": "6cee6f8d6a545ce06fad",
+            "title": "Jack's Law wanding blitz makes Gold Coast Schoolies safer for thousands of teenagers",
+            "url": "https://statements.qld.gov.au/statements/106472"
+          }
+        ],
+        "records_removed": [
+          {
+            "record_id": "40fd7fec71593b16fd9e",
+            "title": "Justice reforms strengthen confidence in legal profession",
+            "url": "https://statements.qld.gov.au/statements/106459"
+          },
+          {
+            "record_id": "809a41ec3e8299056ae7",
+            "title": "Major NRL fixtures to deliver boost for Rockhampton's visitor economy",
+            "url": "https://statements.qld.gov.au/statements/106467"
+          }
+        ],
+        "added_count": 2,
+        "removed_count": 2,
+        "before_count": 16,
+        "after_count": 16,
+        "delta_hash": "b65b45344016b00fe155ac75339b92619ff1b428bf910b24df0b56eefa9a9192"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "SIG-REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261122031638",
+      "parent_event_id": "CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261122031638",
+      "review_id": "REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261122031638",
+      "jurisdiction_id": "AUS-QLD",
+      "party_id": null,
+      "actor_id": null,
+      "contest_id": null,
+      "cycle_id": null,
+      "source_snapshot_id": "AUTO-WATCH-QLD-MINISTERIAL-STATEMENTS-20261122031638",
+      "record_id": null,
+      "captured_at": "2026-11-22T03:17:15.334Z",
+      "event_date": "2026-11-22",
+      "checkpoint": "CONTINUOUS_FORWARD_SIGNAL_REVIEW",
+      "event_type": "SIGNAL_CREATED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_GOVERNMENT",
+      "source_id": "SRC-QLD-MINISTERIAL-STATEMENTS",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "claim": "Queensland Government — Ministerial Media Statements added 2 structured publication records to its forward-captured official index: Two new Designated Business and Community Precincts to restore safety on the Gold Coast; Jack's Law wanding blitz makes Gold Coast Schoolies safer for thousands of teenagers",
+      "observed_behaviour": "One or more structured publication records appeared in the monitored official source index after the preceding forward snapshot.",
+      "publication_records_added": [
+        {
+          "record_id": "3afc5885642418f448c1",
+          "title": "Two new Designated Business and Community Precincts to restore safety on the Gold Coast",
+          "url": "https://statements.qld.gov.au/statements/106475"
+        },
+        {
+          "record_id": "6cee6f8d6a545ce06fad",
+          "title": "Jack's Law wanding blitz makes Gold Coast Schoolies safer for thousands of teenagers",
+          "url": "https://statements.qld.gov.au/statements/106472"
+        }
+      ],
+      "publication_records_removed": [
+        {
+          "record_id": "40fd7fec71593b16fd9e",
+          "title": "Justice reforms strengthen confidence in legal profession",
+          "url": "https://statements.qld.gov.au/statements/106459"
+        },
+        {
+          "record_id": "809a41ec3e8299056ae7",
+          "title": "Major NRL fixtures to deliver boost for Rockhampton's visitor economy",
+          "url": "https://statements.qld.gov.au/statements/106467"
         }
       ],
       "inference": null,

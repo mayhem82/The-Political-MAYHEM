@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-SIGNAL-REVIEWS-001",
   "created_at": "2026-09-09T05:05:00+10:00",
-  "updated_at": "2026-11-22T19:41:52.726Z",
+  "updated_at": "2026-11-23T09:07:30.802Z",
   "rules": {
     "append_only": true,
     "raw_source_change_is_immutable": true,
@@ -53704,6 +53704,709 @@
           }
         ],
         "delta_hash": "6997360a5157fe1636f045a609ef4b25533b0e1a1e3d04743663dd273dc56acc"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-APH-BILLS-20261123090657",
+      "source_change_event_id": "CHG-WATCH-APH-BILLS-20261123090657",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-APH-BILLS-20261123090657",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Parliament of Australia — Bills and Legislation added 3 structured publication records to its forward-captured official index: Passenger Movement Charge Amendment Bill 2026; Child Support and Family Assistance Legislation Am...; Administrative and Judicial Review Legislation Ame...",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-11-23T09:07:30.802Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "447aa8624dcebfc63900",
+            "title": "Passenger Movement Charge Amendment Bill 2026",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7523"
+          },
+          {
+            "record_id": "53d1e729641b17686005",
+            "title": "Child Support and Family Assistance Legislation Am...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7549"
+          },
+          {
+            "record_id": "73dd523fe50b553bd491",
+            "title": "Administrative and Judicial Review Legislation Ame...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7516"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "c522e44dbf4b86263daf",
+            "title": "Private Health Insurance (National Joint Replaceme...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7544"
+          },
+          {
+            "record_id": "ed7bb388ba30f3177217",
+            "title": "Therapeutic Goods (Charges) Amendment Bill 2026",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7508"
+          },
+          {
+            "record_id": "eeccc10bea0407426596",
+            "title": "Therapeutic Goods Amendment (Medicines Shortages a...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7509"
+          }
+        ],
+        "delta_hash": "e612b7eb02b47d7cae1ff992d0023a5abb9526b5f93a66184d0176978fcf0b35"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-PM-MEDIA-20261123090657",
+      "source_change_event_id": "CHG-WATCH-PM-MEDIA-20261123090657",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-PM-MEDIA-20261123090657",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Prime Minister of Australia — media added 6 structured publication records to its forward-captured official index: Cheaper medicines stay cheaper with PBS co-payment freeze; Last » Last page; Press conference - Parliament House, Canberra; 9th Australia-China CEO Roundtable Beijing, China; Visit to Australia by the Prime Minister of the Solomon Islands; +1 more",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-11-23T09:07:30.802Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "151c037d50027ecbd647",
+            "title": "Cheaper medicines stay cheaper with PBS co-payment freeze",
+            "url": "https://www.pm.gov.au/media/cheaper-medicines-stay-cheaper-pbs-co-payment-freeze"
+          },
+          {
+            "record_id": "1ee30b9edb63420076b2",
+            "title": "Last » Last page",
+            "url": "https://www.pm.gov.au/media?page=287"
+          },
+          {
+            "record_id": "7ee47b376e70e63d617d",
+            "title": "Press conference - Parliament House, Canberra",
+            "url": "https://www.pm.gov.au/media/press-conference-parliament-house-canberra-56"
+          },
+          {
+            "record_id": "813bdd426a61c28f5533",
+            "title": "9th Australia-China CEO Roundtable Beijing, China",
+            "url": "https://www.pm.gov.au/media/9th-australia-china-ceo-roundtable-beijing-china"
+          },
+          {
+            "record_id": "847200c206b71bcab6b7",
+            "title": "Visit to Australia by the Prime Minister of the Solomon Islands",
+            "url": "https://www.pm.gov.au/media/visit-australia-prime-minister-solomon-islands-2"
+          },
+          {
+            "record_id": "ff6839fd364cf8eef6dc",
+            "title": "Australia-China Joint Statement on Climate Change and the Clean Energy Transition",
+            "url": "https://www.pm.gov.au/media/australia-china-joint-statement-climate-change-and-clean-energy-transition"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "1522d9365247909143c3",
+            "title": "Intervention - East Asia Summit - Manila, Philippines",
+            "url": "https://www.pm.gov.au/media/intervention-east-asia-summit-manila-philippines"
+          },
+          {
+            "record_id": "1bec18a1d2108974d753",
+            "title": "Opening remarks - Quad Leaders&#039; Summit - Manila Philippines",
+            "url": "https://www.pm.gov.au/media/opening-remarks-quad-leaders-summit-manila-philippines"
+          },
+          {
+            "record_id": "2fd145e0b2c70cd7e316",
+            "title": "Asia Zero Emissions Community Leaders’ Meeting",
+            "url": "https://www.pm.gov.au/media/asia-zero-emissions-community-leaders-meeting"
+          },
+          {
+            "record_id": "91d8de69f5ddfc5278b7",
+            "title": "Kasandigan: Philippines-Australia Leaders&#039; Statement on Expanded Security and Defense Cooperation",
+            "url": "https://www.pm.gov.au/media/kasandigan-philippines-australia-leaders-statement-expanded-security-and-defense-cooperation"
+          },
+          {
+            "record_id": "b1da9df9dd477e668784",
+            "title": "Quad Leaders’ Summit Joint Press Release",
+            "url": "https://www.pm.gov.au/media/quad-leaders-summit-joint-press-release"
+          },
+          {
+            "record_id": "f0393043823573f0461f",
+            "title": "Last » Last page",
+            "url": "https://www.pm.gov.au/media?page=286"
+          }
+        ],
+        "delta_hash": "37e5304d8309526f327a529d1a877aa3b9bf0fa8644d99c6b62777d667f97cde"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-ALP-NEWS-20261123090657",
+      "source_change_event_id": "CHG-WATCH-ALP-NEWS-20261123090657",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-ALP-NEWS-20261123090657",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": "AUS-FED-ALP",
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Australian Labor Party — news added 1 structured publication record to its forward-captured official index: Cheaper medicines stay cheaper with PBS co-payment 23 November 2026",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-11-23T09:07:30.802Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "b78b426839803b213841",
+            "title": "Cheaper medicines stay cheaper with PBS co-payment 23 November 2026",
+            "url": "https://www.alp.org.au/news/all-news/cheaper-medicines-stay-cheaper-with-pbs-co-payment-freeze/"
+          }
+        ],
+        "removed_records": [],
+        "delta_hash": "14a619f00c29fe55a2572f14d117776743adc5baffd887616e2aca047fce8e85"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-NSW-MINISTERIAL-RELEASES-20261123090657",
+      "source_change_event_id": "CHG-WATCH-NSW-MINISTERIAL-RELEASES-20261123090657",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-NSW-MINISTERIAL-RELEASES-20261123090657",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "NSW Government — Ministerial releases added 10 structured publication records to its forward-captured official index: Labor delivers legislation to secure hundreds of jobs at Mount Pleasant mine; Hollywood comes to Western Sydney; New taskforce to crack down on modern slavery; Premier’s Harmony Dinner returns to celebrate the people and communities behind NSW’s multicultural success; First Singapore Airlines flights connect Western Sydney to the world; +5 more",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-11-23T09:07:30.802Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "0b9de6932a808ecee691",
+            "title": "Labor delivers legislation to secure hundreds of jobs at Mount Pleasant mine",
+            "url": "https://www.nsw.gov.au/ministerial-releases/labor-delivers-legislation-to-secure-hundreds-of-jobs-at-mount-pleasant-mine"
+          },
+          {
+            "record_id": "0f654551514bc99cb79e",
+            "title": "Hollywood comes to Western Sydney",
+            "url": "https://www.nsw.gov.au/departments-and-agencies/dciths/ministerial-media-releases/hollywood-comes-to-western-sydney"
+          },
+          {
+            "record_id": "1737d23d078622599ad7",
+            "title": "New taskforce to crack down on modern slavery",
+            "url": "https://www.nsw.gov.au/ministerial-releases/new-taskforce-to-crack-down-on-modern-slavery"
+          },
+          {
+            "record_id": "357cdd7e2364d85d75dd",
+            "title": "Premier’s Harmony Dinner returns to celebrate the people and communities behind NSW’s multicultural success",
+            "url": "https://www.nsw.gov.au/ministerial-releases/premiers-harmony-dinner-returns"
+          },
+          {
+            "record_id": "4855091c4ba5616fda3e",
+            "title": "First Singapore Airlines flights connect Western Sydney to the world",
+            "url": "https://www.nsw.gov.au/departments-and-agencies/dciths/ministerial-media-releases/first-singapore-airlines-flights-connect-western-sydney-to-world"
+          },
+          {
+            "record_id": "5f4230a32467d52548b0",
+            "title": "Ribbon cut on The Hills’ first public preschool ahead of Gables Public School opening next year",
+            "url": "https://www.nsw.gov.au/ministerial-releases/ribbon-cut-on-hills-first-public-preschool-ahead-of-gables-public-school-opening-next-year"
+          },
+          {
+            "record_id": "db61bd104c90858fa0ea",
+            "title": "Red Imported Fire Ants detected & eradicated in Auburn",
+            "url": "https://www.nsw.gov.au/ministerial-releases/red-imported-fire-ants-eradicated-auburn"
+          },
+          {
+            "record_id": "dcd5f80349d0e6233d14",
+            "title": "Free ADHD diagnoses now rolling out across NSW",
+            "url": "https://www.nsw.gov.au/ministerial-releases/free-adhd-diagnoses-now-rolling-out-across-nsw"
+          },
+          {
+            "record_id": "e4a2e40341f1bf44f3df",
+            "title": "Experienced education leader to head NESA Board as new Chair",
+            "url": "https://www.nsw.gov.au/ministerial-releases/experienced-education-leader-to-head-nesa-board-as-new-chair"
+          },
+          {
+            "record_id": "f446708d74337d441976",
+            "title": "Great Western Highway repair reaches major milestone as third-lane design is revealed",
+            "url": "https://www.nsw.gov.au/ministerial-releases/great-western-highway-repair-reaches-major-milestone-as-third-lane-design-revealed"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "1c647bf244129b2e5f46",
+            "title": "UFC Fight Night gets ready to rumble in Sydney for the first time in nearly a decade",
+            "url": "https://www.nsw.gov.au/ministerial-releases/ufc-fight-night-gets-ready-to-rumble-sydney-for-first-time-nearly-a-decade"
+          },
+          {
+            "record_id": "2bd1ca5ac40ce871fd4b",
+            "title": "Body worn cameras rolling out for NSW hospital security staff",
+            "url": "https://www.nsw.gov.au/ministerial-releases/body-worn-cameras-rolling-out-for-nsw-hospital-security-staff"
+          },
+          {
+            "record_id": "3ce23e54555d80227ef4",
+            "title": "Minns Labor Government strengthens protections for tunnel workers from deadly dust diseases",
+            "url": "https://www.nsw.gov.au/ministerial-releases/minns-labor-government-strengthens-protections-for-tunnel-workers-from-deadly-dust-diseases"
+          },
+          {
+            "record_id": "6a08bd100566c5fee0fe",
+            "title": "NSW Government announces additional support for Bondi terror attack victims",
+            "url": "https://www.nsw.gov.au/ministerial-releases/nsw-government-announces-additional-support-for-bondi-terror-attack-victims"
+          },
+          {
+            "record_id": "8f7067281d1b6a653856",
+            "title": "Music and community return to flood-restored Dungarubba Memorial Hall",
+            "url": "https://www.nsw.gov.au/ministerial-releases/dungarubba-memorial-hall-restored"
+          },
+          {
+            "record_id": "8febcbb09cda2aae6b1f",
+            "title": "Families in Epping closer to accessing fee-free early learning",
+            "url": "https://www.nsw.gov.au/ministerial-releases/oatlands-public-preschool-final-construction"
+          },
+          {
+            "record_id": "b23798ab37c8dc1aa04f",
+            "title": "Beverly Hills renewal to finally unlock hundreds of homes and jobs",
+            "url": "https://www.nsw.gov.au/ministerial-releases/beverly-hills-renewal-to-finally-unlock-hundreds-of-homes-and-jobs"
+          },
+          {
+            "record_id": "b90663d80430b95b2bd9",
+            "title": "Life-changing TAVI procedure now available at Wollongong Hospital",
+            "url": "https://www.nsw.gov.au/ministerial-releases/life-changing-tavi-procedure-now-available-at-wollongong-hospital"
+          },
+          {
+            "record_id": "bca5f12b586fe69b33c7",
+            "title": "NSW to honour victims of Bondi Beach attack one year on",
+            "url": "https://www.nsw.gov.au/ministerial-releases/nsw-to-honour-victims-of-bondi-beach-attack-one-year-on"
+          },
+          {
+            "record_id": "f5be89e5f92e8ece5903",
+            "title": "Kyogle locals invited to reimagine flood-prone land at The Flat",
+            "url": "https://www.nsw.gov.au/ministerial-releases/flat-feedback-invited-kyogle-locals"
+          }
+        ],
+        "delta_hash": "520d71e1fe0168001d39c1d3ab51fbe4f7dff13994d5353fd7bc2dc6275180b7"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-NSWEC-MEDIA-20261123090657",
+      "source_change_event_id": "CHG-WATCH-NSWEC-MEDIA-20261123090657",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-NSWEC-MEDIA-20261123090657",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "NSW Electoral Commission — news and media releases added 1 structured publication record to its forward-captured official index: arrow_forward Learn more",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-11-23T09:07:30.802Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "0144bab8a958197251f7",
+            "title": "arrow_forward Learn more",
+            "url": "https://elections.nsw.gov.au/service-maintenance-schedule"
+          }
+        ],
+        "removed_records": [],
+        "delta_hash": "f3d698a3f379f72e685485a8855f833eeadcf890254b7f6dc577b69511f79aca"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261123090657",
+      "source_change_event_id": "CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261123090657",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261123090657",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Queensland Government — Ministerial Media Statements added 4 structured publication records to its forward-captured official index: Stronger protections for Queensland workers; Official naming brings Queensland Academy for Health Sciences Central Queensland one step closer; First look at Caloundra’s congestion-busting changes; Eight new mother and baby beds for Townsville",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-11-23T09:07:30.802Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "579c4994b243435f14df",
+            "title": "Stronger protections for Queensland workers",
+            "url": "https://statements.qld.gov.au/statements/106480"
+          },
+          {
+            "record_id": "99354cbaf4cef9948348",
+            "title": "Official naming brings Queensland Academy for Health Sciences Central Queensland one step closer",
+            "url": "https://statements.qld.gov.au/statements/106483"
+          },
+          {
+            "record_id": "df7d423d3a5bd70f4ff5",
+            "title": "First look at Caloundra’s congestion-busting changes",
+            "url": "https://statements.qld.gov.au/statements/106478"
+          },
+          {
+            "record_id": "e8a56462ac8ff85edae9",
+            "title": "Eight new mother and baby beds for Townsville",
+            "url": "https://statements.qld.gov.au/statements/106474"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "09ee2265bf289529b6ce",
+            "title": "Next wave of progress for Redland Whitewater Centre",
+            "url": "https://statements.qld.gov.au/statements/106468"
+          },
+          {
+            "record_id": "36ca87cf3bf9fb14f36d",
+            "title": "Inaugural Westminster Prize recipients revealed",
+            "url": "https://statements.qld.gov.au/statements/106456"
+          },
+          {
+            "record_id": "41389c313223453a0d85",
+            "title": "Work underway to deliver Barlow Park Stadium upgrade for 2032 and beyond",
+            "url": "https://statements.qld.gov.au/statements/106464"
+          },
+          {
+            "record_id": "63a63384d8a01047851c",
+            "title": "Life-saving medical equipment upgraded thanks to $3 billion funding boost",
+            "url": "https://statements.qld.gov.au/statements/106465"
+          }
+        ],
+        "delta_hash": "987ada50dda51aa957888534bb41e2a8c472932a4d86f9a6a588ed363100f4fe"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-WAEC-MEDIA-20261123090657",
+      "source_change_event_id": "CHG-WATCH-WAEC-MEDIA-20261123090657",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-WAEC-MEDIA-20261123090657",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Western Australian Electoral Commission — media releases added 2 structured publication records to its forward-captured official index: Site map; Disclaimer",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-11-23T09:07:30.802Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "c1ec193b02b8cdd61f04",
+            "title": "Site map",
+            "url": "https://www.elections.wa.gov.au/sitemap"
+          },
+          {
+            "record_id": "df87cb68c796c1546bc8",
+            "title": "Disclaimer",
+            "url": "https://www.elections.wa.gov.au/Disclaimer"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "058bbfb4a8acc6ae5f20",
+            "title": "Public Interest Disclosures",
+            "url": "https://www.elections.wa.gov.au/index.php/about-us/public-interest-disclosures"
+          },
+          {
+            "record_id": "17871702413b1918bcf3",
+            "title": "State Referendums",
+            "url": "https://www.elections.wa.gov.au/index.php/elections/state-referendums"
+          },
+          {
+            "record_id": "1be2d6bdef9cdb496a46",
+            "title": "Local Government Candidates",
+            "url": "https://www.elections.wa.gov.au/index.php/candidates-and-parties/local-government-candidates"
+          },
+          {
+            "record_id": "208092f6c2c9954410b9",
+            "title": "Voting options",
+            "url": "https://www.elections.wa.gov.au/index.php/vote/your-voting-options"
+          },
+          {
+            "record_id": "25ae5557246c84a18487",
+            "title": "State Elections",
+            "url": "https://www.elections.wa.gov.au/index.php/elections/state"
+          },
+          {
+            "record_id": "3b10a45cc47578c2f999",
+            "title": "Check Your Enrolment",
+            "url": "https://www.elections.wa.gov.au/index.php/check"
+          },
+          {
+            "record_id": "4468c9889b4edc07349c",
+            "title": "Site map",
+            "url": "https://www.elections.wa.gov.au/index.php/sitemap"
+          },
+          {
+            "record_id": "4bf6a00e3448d18a40f1",
+            "title": "Special Enrolment Categories",
+            "url": "https://www.elections.wa.gov.au/index.php/enrol/special-enrolment-categories"
+          },
+          {
+            "record_id": "501c02444d0db58e2a8a",
+            "title": "Removal from Electoral Roll",
+            "url": "https://www.elections.wa.gov.au/index.php/enrol/removal-electoral-roll"
+          },
+          {
+            "record_id": "5adf42c66d715d44c7ec",
+            "title": "Electoral Boundary Review",
+            "url": "https://www.elections.wa.gov.au/index.php/electorates/review-electoral-boundaries"
+          },
+          {
+            "record_id": "5b7b9d52147149ebaaf0",
+            "title": "Union and Other Elections",
+            "url": "https://www.elections.wa.gov.au/index.php/elections/other"
+          },
+          {
+            "record_id": "616c028cc40fbbdaa1c2",
+            "title": "Candidates and Parties",
+            "url": "https://www.elections.wa.gov.au/index.php/candidates-and-parties"
+          },
+          {
+            "record_id": "62bad24a09e043d13674",
+            "title": "List of Streets",
+            "url": "https://www.elections.wa.gov.au/index.php/electorates/list-streets-directory"
+          },
+          {
+            "record_id": "6348879c6eed860fba17",
+            "title": "Electorates",
+            "url": "https://www.elections.wa.gov.au/index.php/electorates"
+          },
+          {
+            "record_id": "67c4e8a9948e2fa9d197",
+            "title": "Publications",
+            "url": "https://www.elections.wa.gov.au/index.php/about-us/publications"
+          },
+          {
+            "record_id": "68c507aeb7e3a6844416",
+            "title": "Complaints and Feedback",
+            "url": "https://www.elections.wa.gov.au/index.php/about-us/complaints-and-feedback"
+          },
+          {
+            "record_id": "6abe5619d228490027b7",
+            "title": "Local government elections",
+            "url": "https://www.elections.wa.gov.au/index.php/elections/local"
+          },
+          {
+            "record_id": "749a8a5261de09f9bfb9",
+            "title": "Legislation",
+            "url": "https://www.elections.wa.gov.au/index.php/about-us/legislation"
+          },
+          {
+            "record_id": "773d752ee4fdf69f46df",
+            "title": "Enrol to Vote",
+            "url": "https://www.elections.wa.gov.au/index.php/enrol"
+          },
+          {
+            "record_id": "7ea8951db87421c464bf",
+            "title": "Elector Assistance",
+            "url": "https://www.elections.wa.gov.au/index.php/vote/elector-assistance"
+          },
+          {
+            "record_id": "882f0b788bba95ee4e2f",
+            "title": "Resources",
+            "url": "https://www.elections.wa.gov.au/index.php/resources"
+          },
+          {
+            "record_id": "891dc5120df4f93bc502",
+            "title": "How voting works",
+            "url": "https://www.elections.wa.gov.au/index.php/vote/voting-state-election"
+          },
+          {
+            "record_id": "89f60f578e28cfa20e8e",
+            "title": "Nominations (State)",
+            "url": "https://www.elections.wa.gov.au/index.php/candidates-and-parties/nominations-state-elections"
+          },
+          {
+            "record_id": "8a60a0a47334cf40ead2",
+            "title": "Enrolment Statistics",
+            "url": "https://www.elections.wa.gov.au/index.php/enrol/enrolment-statistics"
+          },
+          {
+            "record_id": "8ecf4c367c3f398f2132",
+            "title": "Local Government Enrolment",
+            "url": "https://www.elections.wa.gov.au/index.php/enrol/local-government-enrolment"
+          },
+          {
+            "record_id": "8ee0b30cb5aecc1dc13c",
+            "title": "Education",
+            "url": "https://www.elections.wa.gov.au/index.php/electoral-education"
+          },
+          {
+            "record_id": "8fd1cad60d59c4e28ea8",
+            "title": "Freedom of Information",
+            "url": "https://www.elections.wa.gov.au/index.php/about-us/freedom-information"
+          },
+          {
+            "record_id": "90e45e2e1e171d5fc5be",
+            "title": "Funding and Disclosure",
+            "url": "https://www.elections.wa.gov.au/index.php/funding-and-disclosure"
+          },
+          {
+            "record_id": "9fca82fe30f1a50d4bbe",
+            "title": "About Us",
+            "url": "https://www.elections.wa.gov.au/index.php/about-us"
+          },
+          {
+            "record_id": "a2498652d448d9396b24",
+            "title": "Voting Systems in WA",
+            "url": "https://www.elections.wa.gov.au/index.php/vote/voting-systems-in-wa"
+          },
+          {
+            "record_id": "a2d3debe5d5eea9efa94",
+            "title": "Voter Statistics",
+            "url": "https://www.elections.wa.gov.au/index.php/voterstatistics"
+          },
+          {
+            "record_id": "a7aeac172d9d4841c2b1",
+            "title": "How-to-vote cards",
+            "url": "https://www.elections.wa.gov.au/index.php/how-vote-cards"
+          },
+          {
+            "record_id": "a98c1791ebdb6c66be2f",
+            "title": "Returning Officers",
+            "url": "https://www.elections.wa.gov.au/index.php/elections/returning-officers"
+          },
+          {
+            "record_id": "aff4dbc7b19d23baf4b2",
+            "title": "Customer Service",
+            "url": "https://www.elections.wa.gov.au/index.php/about-us/customer-service"
+          },
+          {
+            "record_id": "b89e8c2268b46fae9bdb",
+            "title": "Disclaimer",
+            "url": "https://www.elections.wa.gov.au/index.php/Disclaimer"
+          },
+          {
+            "record_id": "b97e3b45b76c7d47a9f7",
+            "title": "Election Rules",
+            "url": "https://www.elections.wa.gov.au/index.php/candidates-and-parties/election-rules"
+          },
+          {
+            "record_id": "c63e6da8cda9d00af9ae",
+            "title": "Registered Political Parties",
+            "url": "https://www.elections.wa.gov.au/index.php/candidates-and-parties/registered-political-parties-in-wa"
+          },
+          {
+            "record_id": "c8da9321e9ed82d2a23f",
+            "title": "Didn&#039;t Vote?",
+            "url": "https://www.elections.wa.gov.au/index.php/vote/didnt-vote"
+          },
+          {
+            "record_id": "d5404940cc203fe80094",
+            "title": "Access to Enrolment Information",
+            "url": "https://www.elections.wa.gov.au/index.php/enrol/access-enrolment-information"
+          },
+          {
+            "record_id": "d944595e5962e544cf0e",
+            "title": "Electoral Education Centre",
+            "url": "https://www.elections.wa.gov.au/index.php/EEC"
+          },
+          {
+            "record_id": "da114fbb722ffa9aebe4",
+            "title": "Forms and Guides",
+            "url": "https://www.elections.wa.gov.au/index.php/candidates-and-parties/forms-and-guides"
+          },
+          {
+            "record_id": "e569948e3545cc12a4f0",
+            "title": "Update Your Enrolment",
+            "url": "https://www.elections.wa.gov.au/index.php/update"
+          },
+          {
+            "record_id": "ef7534ca808878e75500",
+            "title": "Returns and Reports",
+            "url": "https://www.elections.wa.gov.au/index.php/returns-and-reports"
+          },
+          {
+            "record_id": "f2584db4a163334da66b",
+            "title": "Political Finance Reports",
+            "url": "https://www.elections.wa.gov.au/index.php/candidates-and-parties/political-finance-reports"
+          },
+          {
+            "record_id": "f814c16bc426f76407f9",
+            "title": "Election Night",
+            "url": "https://www.elections.wa.gov.au/index.php/vote/election-night"
+          },
+          {
+            "record_id": "fbc5ecf6baf8d0b30c30",
+            "title": "Elections",
+            "url": "https://www.elections.wa.gov.au/index.php/elections"
+          },
+          {
+            "record_id": "fbfb2135976a51099c21",
+            "title": "Making a payment",
+            "url": "https://www.elections.wa.gov.au/index.php/about-us/making-payment"
+          },
+          {
+            "record_id": "ff40bae67b107e4c0799",
+            "title": "Find Your Electorate",
+            "url": "https://www.elections.wa.gov.au/index.php/electorates/find-your-electorate"
+          },
+          {
+            "record_id": "ff54fceb23adf71f11cf",
+            "title": "Special Inquiry",
+            "url": "https://www.elections.wa.gov.au/index.php/about-us/special-inquiry"
+          }
+        ],
+        "delta_hash": "55313cbbcc22dddc47aa6533d6d8ec605b7bb057ab4def936fe714be141c1ab4"
       },
       "integrity": {
         "source_change_unchanged": true,

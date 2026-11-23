@@ -69,63 +69,63 @@
     {
       "jurisdiction_id": "AUS-FED",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-11-22T19:41:57.298Z",
-      "signals_examined": 317,
-      "candidates_detected": 118
+      "last_screened_at": "2026-11-23T09:07:37.299Z",
+      "signals_examined": 321,
+      "candidates_detected": 120
     },
     {
       "jurisdiction_id": "AUS-NSW",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-11-22T19:41:57.298Z",
-      "signals_examined": 149,
+      "last_screened_at": "2026-11-23T09:07:37.299Z",
+      "signals_examined": 151,
       "candidates_detected": 47
     },
     {
       "jurisdiction_id": "AUS-VIC",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-11-22T19:41:57.298Z",
+      "last_screened_at": "2026-11-23T09:07:37.299Z",
       "signals_examined": 35,
       "candidates_detected": 7
     },
     {
       "jurisdiction_id": "AUS-QLD",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-11-22T19:41:57.298Z",
-      "signals_examined": 98,
+      "last_screened_at": "2026-11-23T09:07:37.299Z",
+      "signals_examined": 99,
       "candidates_detected": 45
     },
     {
       "jurisdiction_id": "AUS-WA",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-11-22T19:41:57.298Z",
-      "signals_examined": 10,
+      "last_screened_at": "2026-11-23T09:07:37.299Z",
+      "signals_examined": 11,
       "candidates_detected": 3
     },
     {
       "jurisdiction_id": "AUS-SA",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-11-22T19:41:57.298Z",
+      "last_screened_at": "2026-11-23T09:07:37.299Z",
       "signals_examined": 6,
       "candidates_detected": 0
     },
     {
       "jurisdiction_id": "AUS-TAS",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-11-22T19:41:57.298Z",
+      "last_screened_at": "2026-11-23T09:07:37.299Z",
       "signals_examined": 21,
       "candidates_detected": 0
     },
     {
       "jurisdiction_id": "AUS-ACT",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-11-22T19:41:57.298Z",
+      "last_screened_at": "2026-11-23T09:07:37.299Z",
       "signals_examined": 24,
       "candidates_detected": 1
     },
     {
       "jurisdiction_id": "AUS-NT",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-11-22T19:41:57.298Z",
+      "last_screened_at": "2026-11-23T09:07:37.299Z",
       "signals_examined": 31,
       "candidates_detected": 0
     }
@@ -8895,21 +8895,96 @@
           "reason": "DETERMINISTIC_COMPETITION_FAMILY_SCREEN"
         }
       ]
+    },
+    {
+      "candidate_id": "DISC-FED-LEGISLATION-36b178641763e686",
+      "jurisdiction_id": "AUS-FED",
+      "competition_family": "LEGISLATION",
+      "proposed_competition_class": "LEGISLATIVE",
+      "proposed_cycle_id": "AUS-FED-48TH-PARLIAMENT",
+      "subject": "Passenger Movement Charge Amendment Bill 2026",
+      "candidate_state": "EVIDENCE_GAP",
+      "detected_at": "2026-11-23T09:07:30.802Z",
+      "source_snapshot_ids": [
+        "AUTO-WATCH-APH-BILLS-20261123090657"
+      ],
+      "signal_event_ids": [
+        "SIG-REV-CHG-WATCH-APH-BILLS-20261123090657"
+      ],
+      "review_ids": [
+        "REV-CHG-WATCH-APH-BILLS-20261123090657"
+      ],
+      "area_evidence_ids": [],
+      "detail_version_ids": [],
+      "evidence_summary": "Screened PRIMARY_PARLIAMENT evidence contains language consistent with a legislation competition candidate. This is a discovery observation, not a registered contest or outcome inference.",
+      "registration_blockers": [
+        "MATERIAL_RESISTANCE_NOT_YET_EVIDENCED",
+        "SUPPORTING_SIDE_NOT_YET_RESOLVED",
+        "OPPOSING_SIDE_NOT_YET_RESOLVED"
+      ],
+      "linked_contest_id": null,
+      "state_history": [
+        {
+          "from": null,
+          "to": "EVIDENCE_GAP",
+          "at": "2026-11-23T09:07:30.802Z",
+          "reason": "DETERMINISTIC_COMPETITION_FAMILY_SCREEN"
+        }
+      ]
+    },
+    {
+      "candidate_id": "DISC-FED-LEGISLATION-8058811a0b7612d2",
+      "jurisdiction_id": "AUS-FED",
+      "competition_family": "LEGISLATION",
+      "proposed_competition_class": "LEGISLATIVE",
+      "proposed_cycle_id": "AUS-FED-48TH-PARLIAMENT",
+      "subject": "Ingested substantive legislative evidence from Passenger Movement Charge Amendment Bill 2026 &ndash; Parliament of Australia. Captured content includes stage: Introduced; resistance language: Amendment; outcome language: passed. Registration threshold state: evidence gap. Missing requirements: missi",
+      "candidate_state": "EVIDENCE_GAP",
+      "detected_at": "2026-11-23T09:07:36.798Z",
+      "source_snapshot_ids": [
+        "AUTO-WATCH-APH-BILLS-20261123090657"
+      ],
+      "signal_event_ids": [
+        "INTEL-AREA-46490a3669ceee55e439cda9"
+      ],
+      "review_ids": [],
+      "area_evidence_ids": [
+        "AREA-46490a3669ceee55e439cda9"
+      ],
+      "detail_version_ids": [
+        "DETAIL-cb0ba43cc296e1e15cbb0a4a-V1"
+      ],
+      "evidence_summary": "Substantive source record body was acquired, routed to LEGISLATIVE, and written into intelligence with retained detail, source-snapshot and stage-10 threshold lineage. Match registration remains a separate action.",
+      "registration_blockers": [
+        "MISSING_CONDITION_DISTINCT_SUPPORTING_AND_OPPOSING_SIDES",
+        "MISSING_FACT_TYPE_EXPLICIT_OPPOSITION_POSITION",
+        "MISSING_FACT_TYPE_EXPLICIT_SUPPORT_POSITION",
+        "MISSING_FACT_TYPE_MATERIAL_RESISTANCE"
+      ],
+      "linked_contest_id": null,
+      "state_history": [
+        {
+          "from": null,
+          "to": "EVIDENCE_GAP",
+          "at": "2026-11-23T09:07:36.798Z",
+          "reason": "SUBSTANTIVE_THRESHOLD_EVALUATION_PROPAGATED"
+        }
+      ]
     }
   ],
-  "last_screened_at": "2026-11-22T19:41:57.298Z",
+  "last_screened_at": "2026-11-23T09:07:37.299Z",
   "last_screen_summary": {
-    "signals_examined": 691,
-    "candidates_total": 221,
-    "candidates_added": 0,
+    "signals_examined": 699,
+    "candidates_total": 223,
+    "candidates_added": 2,
     "candidate_lineage_merges": 437,
-    "substantive_area_events_examined": 138,
+    "substantive_area_events_examined": 139,
     "threshold_state_transitions": 0,
     "registered_contests_unchanged": true
   },
-  "last_duplicate_reconciliation_at": "2026-11-22T19:41:57.407Z",
+  "last_duplicate_reconciliation_at": "2026-11-23T09:07:37.414Z",
   "last_duplicate_reconciliation": {
     "rejected": 0,
-    "active_area_family_keys": 137
+    "active_area_family_keys": 138
   }
 }

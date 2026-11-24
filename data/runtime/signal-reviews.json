@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-SIGNAL-REVIEWS-001",
   "created_at": "2026-09-09T05:05:00+10:00",
-  "updated_at": "2026-11-24T06:05:15.416Z",
+  "updated_at": "2026-11-24T17:46:49.045Z",
   "rules": {
     "append_only": true,
     "raw_source_change_is_immutable": true,
@@ -54777,6 +54777,186 @@
           }
         ],
         "delta_hash": "65f904594c4fa995b21279ee6efb4927c2bfea09bbaa1a2275b37fb685fda9f9"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-APH-BILLS-20261124174616",
+      "source_change_event_id": "CHG-WATCH-APH-BILLS-20261124174616",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-APH-BILLS-20261124174616",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Parliament of Australia — Bills and Legislation added 2 structured publication records to its forward-captured official index: Child Support and Family Assistance Legislation Am...; Australian Soldiers of the Anglo-Boer War Commissi...",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-11-24T17:46:49.045Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "53d1e729641b17686005",
+            "title": "Child Support and Family Assistance Legislation Am...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7549"
+          },
+          {
+            "record_id": "5e909f8a2b980e6e477e",
+            "title": "Australian Soldiers of the Anglo-Boer War Commissi...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=s1531"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "26e92a7006bbc47bdae8",
+            "title": "Commonwealth Electoral Amendment Bill 2026",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=s1529"
+          },
+          {
+            "record_id": "579186024e3e6839922f",
+            "title": "Australian Criminal Intelligence Commission (Natio...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7455"
+          }
+        ],
+        "delta_hash": "d2d20de2f1f85c4fe79dcfb8da912b77607a310347b6d1aacf755a424240fdfd"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-NSW-MINISTERIAL-RELEASES-20261124174616",
+      "source_change_event_id": "CHG-WATCH-NSW-MINISTERIAL-RELEASES-20261124174616",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-NSW-MINISTERIAL-RELEASES-20261124174616",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "NSW Government — Ministerial releases added 10 structured publication records to its forward-captured official index: Appointments to the NICC; Major $8.3 million Revesby Police Station upgrade underway; New Emergency Department opens at John Hunter Hospital; Countdown is on to register for star-studded 2027 Premier’s Gala Concerts; Hundreds of Central Coast ratepayers inconvenienced by council Australia Post decision; +5 more",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-11-24T17:46:49.045Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "00a4748a53184253aa41",
+            "title": "Appointments to the NICC",
+            "url": "https://www.nsw.gov.au/departments-and-agencies/dciths/ministerial-media-releases/appointments-to-nicc"
+          },
+          {
+            "record_id": "0939de1076fb9a2daf54",
+            "title": "Major $8.3 million Revesby Police Station upgrade underway",
+            "url": "https://www.nsw.gov.au/ministerial-releases/major-83-million-revesby-police-station-upgrade-underway"
+          },
+          {
+            "record_id": "1ca3fbb7c6ba257bfa24",
+            "title": "New Emergency Department opens at John Hunter Hospital",
+            "url": "https://www.nsw.gov.au/ministerial-releases/emergency-department-opens-john-hunter-hospital"
+          },
+          {
+            "record_id": "208d1f845af0455870a0",
+            "title": "Countdown is on to register for star-studded 2027 Premier’s Gala Concerts",
+            "url": "https://www.nsw.gov.au/ministerial-releases/countdown-on-to-register-for-star-studded-2027-premiers-gala-concerts"
+          },
+          {
+            "record_id": "24b648930ea62e09856e",
+            "title": "Hundreds of Central Coast ratepayers inconvenienced by council Australia Post decision",
+            "url": "https://www.nsw.gov.au/ministerial-releases/central-coast-council-stops-auspost-payments"
+          },
+          {
+            "record_id": "4e1fc18ded81e50d17cf",
+            "title": "Hundreds of guns returned, more bookings open to participate in the National Gun Buyback in NSW",
+            "url": "https://www.nsw.gov.au/ministerial-releases/hundreds-of-guns-returned-more-bookings-open-to-participate-national-gun-buyback-nsw"
+          },
+          {
+            "record_id": "6d67b94d67be99b6061d",
+            "title": "NSW Prospectus Highlights $200 Million Industrial Hemp Opportunity",
+            "url": "https://www.nsw.gov.au/ministerial-releases/nsw-prospectus-highlights-200-million-industrial-hemp-opportunity"
+          },
+          {
+            "record_id": "87ce9b2822e8b9dde1f3",
+            "title": "Northern Beaches Hospital recruits for Safe Staffing nurse ratios",
+            "url": "https://www.nsw.gov.au/ministerial-releases/northern-beaches-hospital-recruits-for-safe-staffing-nurse-ratios"
+          },
+          {
+            "record_id": "8a0b7f1ad1a3cd3bb7a4",
+            "title": "New toolkit empowering sport to respond to domestic, family and sexual violence disclosures",
+            "url": "https://www.nsw.gov.au/departments-and-agencies/office-of-sport/news-media/safe-to-speak-toolkit"
+          },
+          {
+            "record_id": "d85ae602841336c3fdcc",
+            "title": "NSW strengthens frontline response to cybercrime launching Joint Agency Cyber Command Centre",
+            "url": "https://www.nsw.gov.au/ministerial-releases/nsw-strengthens-frontline-response-to-cybercrime-launching-joint-agency-cyber-command-centre"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "0b9de6932a808ecee691",
+            "title": "Labor delivers legislation to secure hundreds of jobs at Mount Pleasant mine",
+            "url": "https://www.nsw.gov.au/ministerial-releases/labor-delivers-legislation-to-secure-hundreds-of-jobs-at-mount-pleasant-mine"
+          },
+          {
+            "record_id": "0f654551514bc99cb79e",
+            "title": "Hollywood comes to Western Sydney",
+            "url": "https://www.nsw.gov.au/departments-and-agencies/dciths/ministerial-media-releases/hollywood-comes-to-western-sydney"
+          },
+          {
+            "record_id": "1737d23d078622599ad7",
+            "title": "New taskforce to crack down on modern slavery",
+            "url": "https://www.nsw.gov.au/ministerial-releases/new-taskforce-to-crack-down-on-modern-slavery"
+          },
+          {
+            "record_id": "357cdd7e2364d85d75dd",
+            "title": "Premier’s Harmony Dinner returns to celebrate the people and communities behind NSW’s multicultural success",
+            "url": "https://www.nsw.gov.au/ministerial-releases/premiers-harmony-dinner-returns"
+          },
+          {
+            "record_id": "4855091c4ba5616fda3e",
+            "title": "First Singapore Airlines flights connect Western Sydney to the world",
+            "url": "https://www.nsw.gov.au/departments-and-agencies/dciths/ministerial-media-releases/first-singapore-airlines-flights-connect-western-sydney-to-world"
+          },
+          {
+            "record_id": "5f4230a32467d52548b0",
+            "title": "Ribbon cut on The Hills’ first public preschool ahead of Gables Public School opening next year",
+            "url": "https://www.nsw.gov.au/ministerial-releases/ribbon-cut-on-hills-first-public-preschool-ahead-of-gables-public-school-opening-next-year"
+          },
+          {
+            "record_id": "db61bd104c90858fa0ea",
+            "title": "Red Imported Fire Ants detected & eradicated in Auburn",
+            "url": "https://www.nsw.gov.au/ministerial-releases/red-imported-fire-ants-eradicated-auburn"
+          },
+          {
+            "record_id": "dcd5f80349d0e6233d14",
+            "title": "Free ADHD diagnoses now rolling out across NSW",
+            "url": "https://www.nsw.gov.au/ministerial-releases/free-adhd-diagnoses-now-rolling-out-across-nsw"
+          },
+          {
+            "record_id": "e4a2e40341f1bf44f3df",
+            "title": "Experienced education leader to head NESA Board as new Chair",
+            "url": "https://www.nsw.gov.au/ministerial-releases/experienced-education-leader-to-head-nesa-board-as-new-chair"
+          },
+          {
+            "record_id": "f446708d74337d441976",
+            "title": "Great Western Highway repair reaches major milestone as third-lane design is revealed",
+            "url": "https://www.nsw.gov.au/ministerial-releases/great-western-highway-repair-reaches-major-milestone-as-third-lane-design-revealed"
+          }
+        ],
+        "delta_hash": "16bc334cd254106de0c6252876a4c07948c010ce66611fdf8c0db1ed8cca9801"
       },
       "integrity": {
         "source_change_unchanged": true,

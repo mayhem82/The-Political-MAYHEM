@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-SIGNAL-REVIEWS-001",
   "created_at": "2026-09-09T05:05:00+10:00",
-  "updated_at": "2026-11-24T17:46:49.045Z",
+  "updated_at": "2026-11-25T02:31:12.239Z",
   "rules": {
     "append_only": true,
     "raw_source_change_is_immutable": true,
@@ -54957,6 +54957,345 @@
           }
         ],
         "delta_hash": "16bc334cd254106de0c6252876a4c07948c010ce66611fdf8c0db1ed8cca9801"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-APH-BILLS-20261125023015",
+      "source_change_event_id": "CHG-WATCH-APH-BILLS-20261125023015",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-APH-BILLS-20261125023015",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Parliament of Australia — Bills and Legislation added 3 structured publication records to its forward-captured official index: Private Health Insurance Amendment (Modernising th...; Commonwealth Electoral Amendment Bill 2026; Therapeutic Goods Amendment (Medicines Shortages a...",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-11-25T02:31:12.239Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "14a21cda8baaef3e63f1",
+            "title": "Private Health Insurance Amendment (Modernising th...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7564"
+          },
+          {
+            "record_id": "26e92a7006bbc47bdae8",
+            "title": "Commonwealth Electoral Amendment Bill 2026",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=s1529"
+          },
+          {
+            "record_id": "eeccc10bea0407426596",
+            "title": "Therapeutic Goods Amendment (Medicines Shortages a...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7509"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "5e909f8a2b980e6e477e",
+            "title": "Australian Soldiers of the Anglo-Boer War Commissi...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=s1531"
+          },
+          {
+            "record_id": "dd0a33f17938b1d766d6",
+            "title": "National Health Amendment (Cheaper Medicines) Bill...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7569"
+          },
+          {
+            "record_id": "eb2e380981f7f375f0ee",
+            "title": "Australian Criminal Intelligence Commission Bill 2...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7454"
+          }
+        ],
+        "delta_hash": "89074e1f4f68e79c224c274fa1e6556b81b1c7befe30744b73464dc0f4574d8b"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-PM-MEDIA-20261125023015",
+      "source_change_event_id": "CHG-WATCH-PM-MEDIA-20261125023015",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-PM-MEDIA-20261125023015",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Prime Minister of Australia — media added 6 structured publication records to its forward-captured official index: International Day for the Elimination of Violence against Women; Last » Last page; 2026 Prime Minister&#039;s prizes celebrate Australia&#039;s leading scientists, innovators and teachers; Signing of the Australia-Solomon Islands Treaty; Press conference - Parliament House, Canberra; +1 more",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-11-25T02:31:12.239Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "1866618fb6ffcde2ef29",
+            "title": "International Day for the Elimination of Violence against Women",
+            "url": "https://www.pm.gov.au/media/international-day-elimination-violence-against-women"
+          },
+          {
+            "record_id": "243defea2cac85f82227",
+            "title": "Last » Last page",
+            "url": "https://www.pm.gov.au/media?page=288"
+          },
+          {
+            "record_id": "2dc8d18a5a088e5295af",
+            "title": "2026 Prime Minister&#039;s prizes celebrate Australia&#039;s leading scientists, innovators and teachers",
+            "url": "https://www.pm.gov.au/media/2026-prime-ministers-prizes-celebrate-australias-leading-scientists-innovators-and-teachers"
+          },
+          {
+            "record_id": "9d005f0aada1ceecb320",
+            "title": "Signing of the Australia-Solomon Islands Treaty",
+            "url": "https://www.pm.gov.au/media/signing-australia-solomon-islands-treaty"
+          },
+          {
+            "record_id": "a22be4f6770e566d64a3",
+            "title": "Press conference - Parliament House, Canberra",
+            "url": "https://www.pm.gov.au/media/press-conference-parliament-house-canberra-58"
+          },
+          {
+            "record_id": "d68c89b1ae4c15747df8",
+            "title": "Prime Minister&#039;s prizes for science 2026",
+            "url": "https://www.pm.gov.au/media/prime-ministers-prizes-science-2026"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "05c914d883e4239bfd68",
+            "title": "Press conference - Shenzhen, China",
+            "url": "https://www.pm.gov.au/media/press-conference-shenzhen-china-20-november-2026"
+          },
+          {
+            "record_id": "1ee30b9edb63420076b2",
+            "title": "Last » Last page",
+            "url": "https://www.pm.gov.au/media?page=287"
+          },
+          {
+            "record_id": "813bdd426a61c28f5533",
+            "title": "9th Australia-China CEO Roundtable Beijing, China",
+            "url": "https://www.pm.gov.au/media/9th-australia-china-ceo-roundtable-beijing-china"
+          },
+          {
+            "record_id": "b2371f923de09e4915b9",
+            "title": "Statement on Joint Outcomes of the Australia-China Annual Leaders’ Meeting",
+            "url": "https://www.pm.gov.au/media/statement-joint-outcomes-australia-china-annual-leaders-meeting-0"
+          },
+          {
+            "record_id": "b608e8e41d74b70065e5",
+            "title": "33rd APEC Leaders&#039; Summit",
+            "url": "https://www.pm.gov.au/media/33rd-apec-leaders-summit"
+          },
+          {
+            "record_id": "ff6839fd364cf8eef6dc",
+            "title": "Australia-China Joint Statement on Climate Change and the Clean Energy Transition",
+            "url": "https://www.pm.gov.au/media/australia-china-joint-statement-climate-change-and-clean-energy-transition"
+          }
+        ],
+        "delta_hash": "b908e9fcf3c927a0e826eee0f1f8075070f68c6b73c4f8b144757b5dc8e5729b"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-ALP-NEWS-20261125023015",
+      "source_change_event_id": "CHG-WATCH-ALP-NEWS-20261125023015",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-ALP-NEWS-20261125023015",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": "AUS-FED-ALP",
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Australian Labor Party — news added 2 structured publication records to its forward-captured official index: International Day for the Elimination of Violence 25 November 2026; Action to end violence against women and children 25 November 2026",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-11-25T02:31:12.239Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "e738b6110edadb4da9d5",
+            "title": "International Day for the Elimination of Violence 25 November 2026",
+            "url": "https://www.alp.org.au/news/all-news/international-day-for-the-elimination-of-violence-against-women-2026/"
+          },
+          {
+            "record_id": "ef2fcd8d41b947334148",
+            "title": "Action to end violence against women and children 25 November 2026",
+            "url": "https://www.alp.org.au/news/all-news/2176-million-to-accelerate-action-to-end-violence-against-women-and-children/"
+          }
+        ],
+        "removed_records": [],
+        "delta_hash": "22a5f4214f95f44c2b9bcee15d549f4f33c6c54f8317f53d416f04f5818f9c90"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-GREENS-FEDERAL-MEDIA-20261125023015",
+      "source_change_event_id": "CHG-WATCH-GREENS-FEDERAL-MEDIA-20261125023015",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-GREENS-FEDERAL-MEDIA-20261125023015",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": "AUS-FED-GRN",
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Australian Greens — Federal MPs media releases added 4 structured publication records to its forward-captured official index: Read more about Greens demand end to luxury ships’ abuse of workers; Greens demand end to luxury ships’ abuse of workers; Read more about Greens protect 1.2 million pensioners from Labor&#039;s healthcare cuts; Greens protect 1.2 million pensioners from Labor&#039;s healthcare cuts",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-11-25T02:31:12.239Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "052ef59fc3f3bc417f26",
+            "title": "Read more about Greens demand end to luxury ships’ abuse of workers",
+            "url": "https://greens.org.au/news/media-release/greens-demand-end-luxury-ships-abuse-workers"
+          },
+          {
+            "record_id": "1950852f5fb7bff51943",
+            "title": "Greens demand end to luxury ships’ abuse of workers",
+            "url": "https://greens.org.au/news/media-release/greens-demand-end-luxury-ships-abuse-workers"
+          },
+          {
+            "record_id": "9cb51dc703c587efa6de",
+            "title": "Read more about Greens protect 1.2 million pensioners from Labor&#039;s healthcare cuts",
+            "url": "https://greens.org.au/news/media-release/greens-protect-12-million-pensioners-labors-healthcare-cuts"
+          },
+          {
+            "record_id": "c43a34074edbfff82bbc",
+            "title": "Greens protect 1.2 million pensioners from Labor&#039;s healthcare cuts",
+            "url": "https://greens.org.au/news/media-release/greens-protect-12-million-pensioners-labors-healthcare-cuts"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "80be2fe03941efd2592e",
+            "title": "Read more about Labor’s plan is billions for the billionaires, austerity for us",
+            "url": "https://greens.org.au/news/media-release/labors-plan-billions-billionaires-austerity-us"
+          },
+          {
+            "record_id": "88207ab1fd6623fbdbd3",
+            "title": "Labor’s plan is billions for the billionaires, austerity for us",
+            "url": "https://greens.org.au/news/media-release/labors-plan-billions-billionaires-austerity-us"
+          },
+          {
+            "record_id": "8f20aae8bdd7549b9581",
+            "title": "Backpacker backflip shows the cost of chasing the far-right on immigration",
+            "url": "https://greens.org.au/news/media-release/backpacker-backflip-shows-cost-chasing-far-right-immigration"
+          },
+          {
+            "record_id": "94fa4f3a869e5ab78f20",
+            "title": "Read more about Backpacker backflip shows the cost of chasing the far-right on immigration",
+            "url": "https://greens.org.au/news/media-release/backpacker-backflip-shows-cost-chasing-far-right-immigration"
+          }
+        ],
+        "delta_hash": "26818e0b2e33c51bf7532e9e6cc7f316c0b21c0a790c3c9495ac70defd7691e2"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261125023015",
+      "source_change_event_id": "CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261125023015",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261125023015",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Queensland Government — Ministerial Media Statements added 5 structured publication records to its forward-captured official index: Delivering relief to renters’ power bills; Scenic Rim Walking Trail reopens after Tropical Cyclone Jasper repairs; Defence manufacturing boost locked and loaded for Maryborough; New generation of trains on track for regional Queensland; Weekend trips on the move with more bus services in Highfields and Toowoomba",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-11-25T02:31:12.239Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "4741fd66172eefe1153c",
+            "title": "Delivering relief to renters’ power bills",
+            "url": "https://statements.qld.gov.au/statements/106499"
+          },
+          {
+            "record_id": "4e3a1e7d13fbf86359c6",
+            "title": "Scenic Rim Walking Trail reopens after Tropical Cyclone Jasper repairs",
+            "url": "https://statements.qld.gov.au/statements/106492"
+          },
+          {
+            "record_id": "6396288ec0f27654b413",
+            "title": "Defence manufacturing boost locked and loaded for Maryborough",
+            "url": "https://statements.qld.gov.au/statements/106502"
+          },
+          {
+            "record_id": "724ee6f0cfdf4d296e41",
+            "title": "New generation of trains on track for regional Queensland",
+            "url": "https://statements.qld.gov.au/statements/106496"
+          },
+          {
+            "record_id": "8a14f4b71be3bb167194",
+            "title": "Weekend trips on the move with more bus services in Highfields and Toowoomba",
+            "url": "https://statements.qld.gov.au/statements/106493"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "3afc5885642418f448c1",
+            "title": "Two new Designated Business and Community Precincts to restore safety on the Gold Coast",
+            "url": "https://statements.qld.gov.au/statements/106475"
+          },
+          {
+            "record_id": "579c4994b243435f14df",
+            "title": "Stronger protections for Queensland workers",
+            "url": "https://statements.qld.gov.au/statements/106480"
+          },
+          {
+            "record_id": "6cee6f8d6a545ce06fad",
+            "title": "Jack's Law wanding blitz makes Gold Coast Schoolies safer for thousands of teenagers",
+            "url": "https://statements.qld.gov.au/statements/106472"
+          },
+          {
+            "record_id": "df7d423d3a5bd70f4ff5",
+            "title": "First look at Caloundra’s congestion-busting changes",
+            "url": "https://statements.qld.gov.au/statements/106478"
+          },
+          {
+            "record_id": "e8a56462ac8ff85edae9",
+            "title": "Eight new mother and baby beds for Townsville",
+            "url": "https://statements.qld.gov.au/statements/106474"
+          }
+        ],
+        "delta_hash": "4dd4dc58a5135eb240a17765d00c1bc4290ced45033eeb6fb75db1fe6bb64ea3"
       },
       "integrity": {
         "source_change_unchanged": true,

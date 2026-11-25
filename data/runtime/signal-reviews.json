@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-SIGNAL-REVIEWS-001",
   "created_at": "2026-09-09T05:05:00+10:00",
-  "updated_at": "2026-11-25T02:31:12.239Z",
+  "updated_at": "2026-11-25T12:57:18.647Z",
   "rules": {
     "append_only": true,
     "raw_source_change_is_immutable": true,
@@ -55296,6 +55296,270 @@
           }
         ],
         "delta_hash": "4dd4dc58a5135eb240a17765d00c1bc4290ced45033eeb6fb75db1fe6bb64ea3"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-APH-BILLS-20261125125641",
+      "source_change_event_id": "CHG-WATCH-APH-BILLS-20261125125641",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-APH-BILLS-20261125125641",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Parliament of Australia — Bills and Legislation added 3 structured publication records to its forward-captured official index: Treasury Laws Amendment (Tax Reform No. 3) Bill 20...; Income Tax Rates Amendment (Minimum Tax on Discret...; Trade and Investment Agreements (Consultation) Bil...",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-11-25T12:57:18.647Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "ab808913f3cb133fd667",
+            "title": "Treasury Laws Amendment (Tax Reform No. 3) Bill 20...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7554"
+          },
+          {
+            "record_id": "c319a14d6df0e73e4b13",
+            "title": "Income Tax Rates Amendment (Minimum Tax on Discret...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7555"
+          },
+          {
+            "record_id": "f96bca4a49894044c0a9",
+            "title": "Trade and Investment Agreements (Consultation) Bil...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=s1498"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "26e92a7006bbc47bdae8",
+            "title": "Commonwealth Electoral Amendment Bill 2026",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=s1529"
+          },
+          {
+            "record_id": "c6cf323b86329baf43f5",
+            "title": "Online Safety Amendment (Digital Duty of Care) Bil...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7553"
+          },
+          {
+            "record_id": "eeccc10bea0407426596",
+            "title": "Therapeutic Goods Amendment (Medicines Shortages a...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7509"
+          }
+        ],
+        "delta_hash": "9306d16bb1fb5253928b27513ef8d2049554e6fe89b4a4fe692e8a6d1437c3e9"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-ALP-NEWS-20261125125641",
+      "source_change_event_id": "CHG-WATCH-ALP-NEWS-20261125125641",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-ALP-NEWS-20261125125641",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": "AUS-FED-ALP",
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Australian Labor Party — news added 3 structured publication records to its forward-captured official index: Apology made to LGBTQIA+ ADF personnel 25 November 2026; Australia’s Digital Duty of Care becomes law 25 November 2026; Apology to LGBTQIA+ ADF personnel 25 November 2026",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-11-25T12:57:18.647Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "5bf4959e8b83386a02fc",
+            "title": "Apology made to LGBTQIA+ ADF personnel 25 November 2026",
+            "url": "https://www.alp.org.au/news/all-news/apology-to-current-and-former-serving-lgbtqiaplus-adf-personnel/"
+          },
+          {
+            "record_id": "9498ea3353bed790b506",
+            "title": "Australia’s Digital Duty of Care becomes law 25 November 2026",
+            "url": "https://www.alp.org.au/news/all-news/australia-s-digital-duty-of-care-becomes-law/"
+          },
+          {
+            "record_id": "fa8bc2f9a646a4a4f6c1",
+            "title": "Apology to LGBTQIA+ ADF personnel 25 November 2026",
+            "url": "https://www.alp.org.au/news/all-news/apology-to-current-and-former-serving-lgbtqiaplus-adf-veterans-members-and-their-families/"
+          }
+        ],
+        "removed_records": [],
+        "delta_hash": "da94ff541cb49b7e53d9f6e862813e0f8599fedfd9b447c127828d58d953684b"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-GREENS-FEDERAL-MEDIA-20261125125641",
+      "source_change_event_id": "CHG-WATCH-GREENS-FEDERAL-MEDIA-20261125125641",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-GREENS-FEDERAL-MEDIA-20261125125641",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": "AUS-FED-GRN",
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Australian Greens — Federal MPs media releases added 8 structured publication records to its forward-captured official index: Read more about Big Tech will be hit with multibillion dollar fines under Greens agreement on Digital Duty Care; Digital Duty of Care Report Release; Read more about Digital Duty of Care Report Release; The Digital Duty of Care Laws have passed Parliament thanks to a deal struck between the Greens and Labor; Greens secure tax hit on jetsetting billionaires, clean up dodgy trust loopholes; +3 more",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-11-25T12:57:18.647Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "07f290735d327cd46b88",
+            "title": "Read more about Big Tech will be hit with multibillion dollar fines under Greens agreement on Digital Duty Care",
+            "url": "https://greens.org.au/news/media-release/big-tech-will-be-hit-multibillion-dollar-fines-under-greens-agreement-digital"
+          },
+          {
+            "record_id": "42519c7b817b7a2269f4",
+            "title": "Digital Duty of Care Report Release",
+            "url": "https://greens.org.au/news/media-release/digital-duty-care-report-release"
+          },
+          {
+            "record_id": "516be74d000f3219bcdd",
+            "title": "Read more about Digital Duty of Care Report Release",
+            "url": "https://greens.org.au/news/media-release/digital-duty-care-report-release"
+          },
+          {
+            "record_id": "75252e3c5d35a6cf1517",
+            "title": "The Digital Duty of Care Laws have passed Parliament thanks to a deal struck between the Greens and Labor",
+            "url": "https://greens.org.au/news/media-release/digital-duty-care-laws-have-passed-parliament-thanks-deal-struck-between-greens"
+          },
+          {
+            "record_id": "a0005bd100ffe0598ec5",
+            "title": "Greens secure tax hit on jetsetting billionaires, clean up dodgy trust loopholes",
+            "url": "https://greens.org.au/news/media-release/greens-secure-tax-hit-jetsetting-billionaires-clean-dodgy-trust-loopholes"
+          },
+          {
+            "record_id": "e4e9f678d118ceee076c",
+            "title": "Big Tech will be hit with multibillion dollar fines under Greens agreement on Digital Duty Care",
+            "url": "https://greens.org.au/news/media-release/big-tech-will-be-hit-multibillion-dollar-fines-under-greens-agreement-digital"
+          },
+          {
+            "record_id": "ec6ac1f7ee949cd391bb",
+            "title": "Read more about The Digital Duty of Care Laws have passed Parliament thanks to a deal struck between the Greens and Labor",
+            "url": "https://greens.org.au/news/media-release/digital-duty-care-laws-have-passed-parliament-thanks-deal-struck-between-greens"
+          },
+          {
+            "record_id": "f00dd518ba95955170d3",
+            "title": "Read more about Greens secure tax hit on jetsetting billionaires, clean up dodgy trust loopholes",
+            "url": "https://greens.org.au/news/media-release/greens-secure-tax-hit-jetsetting-billionaires-clean-dodgy-trust-loopholes"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "08b39a6adba82267cf93",
+            "title": "Greens back “Not AI’s to Take” campaign",
+            "url": "https://greens.org.au/sa/news/media-release/greens-back-not-ais-take-campaign"
+          },
+          {
+            "record_id": "24d479291dbca6ef27f5",
+            "title": "Read more about Greens back “Not AI’s to Take” campaign",
+            "url": "https://greens.org.au/sa/news/media-release/greens-back-not-ais-take-campaign"
+          },
+          {
+            "record_id": "25437f68241ddeb50fcd",
+            "title": "Read more about Digital Duty of Care Report Release",
+            "url": "https://greens.org.au/sa/news/media-release/digital-duty-care-report-release"
+          },
+          {
+            "record_id": "51a87ba3de0ae578dfad",
+            "title": "Read more about Big Tech will be hit with multibillion dollar fines under Greens agreement on Digital Duty Care",
+            "url": "https://greens.org.au/sa/news/media-release/big-tech-will-be-hit-multibillion-dollar-fines-under-greens-agreement-digital"
+          },
+          {
+            "record_id": "6a4dbf458c59e8b1e189",
+            "title": "Read more about Inquiry: No Excuse to Deny Under-18s Super",
+            "url": "https://greens.org.au/news/media-release/inquiry-no-excuse-deny-under-18s-super"
+          },
+          {
+            "record_id": "6e236fd83e67c765f2ae",
+            "title": "Digital Duty of Care Report Release",
+            "url": "https://greens.org.au/sa/news/media-release/digital-duty-care-report-release"
+          },
+          {
+            "record_id": "aec0feed1f3cc56d0ab6",
+            "title": "Big Tech will be hit with multibillion dollar fines under Greens agreement on Digital Duty Care",
+            "url": "https://greens.org.au/sa/news/media-release/big-tech-will-be-hit-multibillion-dollar-fines-under-greens-agreement-digital"
+          },
+          {
+            "record_id": "efef2dd447572894e65a",
+            "title": "Inquiry: No Excuse to Deny Under-18s Super",
+            "url": "https://greens.org.au/news/media-release/inquiry-no-excuse-deny-under-18s-super"
+          }
+        ],
+        "delta_hash": "a6081c92a4581196e86d8ff486155a46d262a822c237469b8c59f6354d706300"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261125125641",
+      "source_change_event_id": "CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261125125641",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261125125641",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Queensland Government — Ministerial Media Statements added 2 structured publication records to its forward-captured official index: New strategy delivered to drive trade and investment opportunities with South Korea; Cost of federal green tape laid bare by QLD Productivity Commission",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-11-25T12:57:18.647Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "640a29a4752fcbc214a2",
+            "title": "New strategy delivered to drive trade and investment opportunities with South Korea",
+            "url": "https://statements.qld.gov.au/statements/106497"
+          },
+          {
+            "record_id": "cf33d5c2ace254bdc9a5",
+            "title": "Cost of federal green tape laid bare by QLD Productivity Commission",
+            "url": "https://statements.qld.gov.au/statements/106503"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "99354cbaf4cef9948348",
+            "title": "Official naming brings Queensland Academy for Health Sciences Central Queensland one step closer",
+            "url": "https://statements.qld.gov.au/statements/106483"
+          },
+          {
+            "record_id": "a3c8e47e9a59c6cc2f3e",
+            "title": "Queensland's protected area network grows by 75,000 hectares",
+            "url": "https://statements.qld.gov.au/statements/106482"
+          }
+        ],
+        "delta_hash": "d5ece71318b780c9eccf3185fd2505cea828f5a25b41728c08d0da3b1b8600c8"
       },
       "integrity": {
         "source_change_unchanged": true,

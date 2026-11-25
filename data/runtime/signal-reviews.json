@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-SIGNAL-REVIEWS-001",
   "created_at": "2026-09-09T05:05:00+10:00",
-  "updated_at": "2026-11-25T12:57:18.647Z",
+  "updated_at": "2026-11-25T22:34:02.289Z",
   "rules": {
     "append_only": true,
     "raw_source_change_is_immutable": true,
@@ -55560,6 +55560,100 @@
           }
         ],
         "delta_hash": "d5ece71318b780c9eccf3185fd2505cea828f5a25b41728c08d0da3b1b8600c8"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-APH-BILLS-20261125223324",
+      "source_change_event_id": "CHG-WATCH-APH-BILLS-20261125223324",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-APH-BILLS-20261125223324",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Parliament of Australia — Bills and Legislation added 3 structured publication records to its forward-captured official index: Treasury Laws Amendment (Better Financial Framewor...; Universities Accord (Strengthening Governance) Bil...; National Health Amendment (Cheaper Medicines) Bill...",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-11-25T22:34:02.289Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "3a4d8f89a2d64dff4cbc",
+            "title": "Treasury Laws Amendment (Better Financial Framewor...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7575"
+          },
+          {
+            "record_id": "923a0c82e963d7162c83",
+            "title": "Universities Accord (Strengthening Governance) Bil...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7576"
+          },
+          {
+            "record_id": "dd0a33f17938b1d766d6",
+            "title": "National Health Amendment (Cheaper Medicines) Bill...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7569"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "92dff6f79d36953a3d1a",
+            "title": "Agriculture Legislation Amendment (Biosecurity and...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7565"
+          },
+          {
+            "record_id": "ab808913f3cb133fd667",
+            "title": "Treasury Laws Amendment (Tax Reform No. 3) Bill 20...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7554"
+          },
+          {
+            "record_id": "c319a14d6df0e73e4b13",
+            "title": "Income Tax Rates Amendment (Minimum Tax on Discret...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7555"
+          }
+        ],
+        "delta_hash": "634e9a8433823c2539eb1f666967004cdd970b530e53e0103eeb2b72de958a0a"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-ALP-NEWS-20261125223324",
+      "source_change_event_id": "CHG-WATCH-ALP-NEWS-20261125223324",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-ALP-NEWS-20261125223324",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": "AUS-FED-ALP",
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Australian Labor Party — news added 1 structured publication record to its forward-captured official index: Closing child support loopholes to prevent harm 26 November 2026",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-11-25T22:34:02.289Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "a76b357c4519fe15c2fb",
+            "title": "Closing child support loopholes to prevent harm 26 November 2026",
+            "url": "https://www.alp.org.au/news/all-news/no-parent-should-have-to-choose-between-safety-and-child-support/"
+          }
+        ],
+        "removed_records": [],
+        "delta_hash": "eaf1910bb99956a9b359308e53585fb209d36d1c41ad89a06d8c8f79d682b67d"
       },
       "integrity": {
         "source_change_unchanged": true,

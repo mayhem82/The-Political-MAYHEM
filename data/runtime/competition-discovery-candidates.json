@@ -69,63 +69,63 @@
     {
       "jurisdiction_id": "AUS-FED",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-11-25T12:57:23.583Z",
-      "signals_examined": 333,
-      "candidates_detected": 122
+      "last_screened_at": "2026-11-25T22:34:07.649Z",
+      "signals_examined": 335,
+      "candidates_detected": 123
     },
     {
       "jurisdiction_id": "AUS-NSW",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-11-25T12:57:23.583Z",
+      "last_screened_at": "2026-11-25T22:34:07.649Z",
       "signals_examined": 152,
       "candidates_detected": 47
     },
     {
       "jurisdiction_id": "AUS-VIC",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-11-25T12:57:23.583Z",
+      "last_screened_at": "2026-11-25T22:34:07.649Z",
       "signals_examined": 35,
       "candidates_detected": 7
     },
     {
       "jurisdiction_id": "AUS-QLD",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-11-25T12:57:23.583Z",
+      "last_screened_at": "2026-11-25T22:34:07.649Z",
       "signals_examined": 102,
       "candidates_detected": 45
     },
     {
       "jurisdiction_id": "AUS-WA",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-11-25T12:57:23.583Z",
+      "last_screened_at": "2026-11-25T22:34:07.649Z",
       "signals_examined": 11,
       "candidates_detected": 3
     },
     {
       "jurisdiction_id": "AUS-SA",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-11-25T12:57:23.583Z",
+      "last_screened_at": "2026-11-25T22:34:07.649Z",
       "signals_examined": 6,
       "candidates_detected": 0
     },
     {
       "jurisdiction_id": "AUS-TAS",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-11-25T12:57:23.583Z",
+      "last_screened_at": "2026-11-25T22:34:07.649Z",
       "signals_examined": 21,
       "candidates_detected": 0
     },
     {
       "jurisdiction_id": "AUS-ACT",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-11-25T12:57:23.583Z",
+      "last_screened_at": "2026-11-25T22:34:07.649Z",
       "signals_examined": 24,
       "candidates_detected": 1
     },
     {
       "jurisdiction_id": "AUS-NT",
       "screening_state": "SCREENED",
-      "last_screened_at": "2026-11-25T12:57:23.583Z",
+      "last_screened_at": "2026-11-25T22:34:07.649Z",
       "signals_examined": 31,
       "candidates_detected": 0
     }
@@ -9036,13 +9036,16 @@
       "candidate_state": "EVIDENCE_GAP",
       "detected_at": "2026-11-24T06:05:15.416Z",
       "source_snapshot_ids": [
-        "AUTO-WATCH-APH-BILLS-20261124060409"
+        "AUTO-WATCH-APH-BILLS-20261124060409",
+        "AUTO-WATCH-APH-BILLS-20261125223324"
       ],
       "signal_event_ids": [
-        "SIG-REV-CHG-WATCH-APH-BILLS-20261124060409"
+        "SIG-REV-CHG-WATCH-APH-BILLS-20261124060409",
+        "SIG-REV-CHG-WATCH-APH-BILLS-20261125223324"
       ],
       "review_ids": [
-        "REV-CHG-WATCH-APH-BILLS-20261124060409"
+        "REV-CHG-WATCH-APH-BILLS-20261124060409",
+        "REV-CHG-WATCH-APH-BILLS-20261125223324"
       ],
       "area_evidence_ids": [],
       "detail_version_ids": [],
@@ -9061,19 +9064,53 @@
           "reason": "DETERMINISTIC_COMPETITION_FAMILY_SCREEN"
         }
       ]
+    },
+    {
+      "candidate_id": "DISC-FED-PROCEDURAL-531bfab986f66d8d",
+      "jurisdiction_id": "AUS-FED",
+      "competition_family": "PROCEDURAL",
+      "proposed_competition_class": "PARLIAMENTARY_PROCEDURE",
+      "proposed_cycle_id": "AUS-FED-48TH-PARLIAMENT",
+      "subject": "Treasury Laws Amendment (Better Financial Framewor...",
+      "candidate_state": "REVIEW_REQUIRED",
+      "detected_at": "2026-11-25T22:34:02.289Z",
+      "source_snapshot_ids": [
+        "AUTO-WATCH-APH-BILLS-20261125223324"
+      ],
+      "signal_event_ids": [
+        "SIG-REV-CHG-WATCH-APH-BILLS-20261125223324"
+      ],
+      "review_ids": [
+        "REV-CHG-WATCH-APH-BILLS-20261125223324"
+      ],
+      "area_evidence_ids": [],
+      "detail_version_ids": [],
+      "evidence_summary": "Screened PRIMARY_PARLIAMENT evidence contains language consistent with a procedural competition candidate. This is a discovery observation, not a registered contest or outcome inference.",
+      "registration_blockers": [
+        "MATERIAL_PROCEDURAL_OPPOSITION_REQUIRES_REVIEW"
+      ],
+      "linked_contest_id": null,
+      "state_history": [
+        {
+          "from": null,
+          "to": "REVIEW_REQUIRED",
+          "at": "2026-11-25T22:34:02.289Z",
+          "reason": "DETERMINISTIC_COMPETITION_FAMILY_SCREEN"
+        }
+      ]
     }
   ],
-  "last_screened_at": "2026-11-25T12:57:23.583Z",
+  "last_screened_at": "2026-11-25T22:34:07.649Z",
   "last_screen_summary": {
-    "signals_examined": 715,
-    "candidates_total": 225,
-    "candidates_added": 0,
-    "candidate_lineage_merges": 448,
+    "signals_examined": 717,
+    "candidates_total": 226,
+    "candidates_added": 1,
+    "candidate_lineage_merges": 449,
     "substantive_area_events_examined": 139,
     "threshold_state_transitions": 0,
     "registered_contests_unchanged": true
   },
-  "last_duplicate_reconciliation_at": "2026-11-25T12:57:23.709Z",
+  "last_duplicate_reconciliation_at": "2026-11-25T22:34:07.752Z",
   "last_duplicate_reconciliation": {
     "rejected": 0,
     "active_area_family_keys": 138

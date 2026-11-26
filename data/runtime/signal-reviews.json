@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-SIGNAL-REVIEWS-001",
   "created_at": "2026-09-09T05:05:00+10:00",
-  "updated_at": "2026-11-25T22:34:02.289Z",
+  "updated_at": "2026-11-26T05:06:09.118Z",
   "rules": {
     "append_only": true,
     "raw_source_change_is_immutable": true,
@@ -55654,6 +55654,364 @@
         ],
         "removed_records": [],
         "delta_hash": "eaf1910bb99956a9b359308e53585fb209d36d1c41ad89a06d8c8f79d682b67d"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-APH-BILLS-20261126050534",
+      "source_change_event_id": "CHG-WATCH-APH-BILLS-20261126050534",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-APH-BILLS-20261126050534",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Parliament of Australia — Bills and Legislation added 5 structured publication records to its forward-captured official index: Passenger Movement Charge Amendment Bill 2026; Australian Criminal Intelligence Commission (Natio...; Agriculture Legislation Amendment (Biosecurity and...; Treasury Laws Amendment (Tax Reform No. 3) Bill 20...; Australian Criminal Intelligence Commission Bill 2...",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-11-26T05:06:09.118Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "447aa8624dcebfc63900",
+            "title": "Passenger Movement Charge Amendment Bill 2026",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7523"
+          },
+          {
+            "record_id": "579186024e3e6839922f",
+            "title": "Australian Criminal Intelligence Commission (Natio...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7455"
+          },
+          {
+            "record_id": "92dff6f79d36953a3d1a",
+            "title": "Agriculture Legislation Amendment (Biosecurity and...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7565"
+          },
+          {
+            "record_id": "ab808913f3cb133fd667",
+            "title": "Treasury Laws Amendment (Tax Reform No. 3) Bill 20...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7554"
+          },
+          {
+            "record_id": "eb2e380981f7f375f0ee",
+            "title": "Australian Criminal Intelligence Commission Bill 2...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7454"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "14a21cda8baaef3e63f1",
+            "title": "Private Health Insurance Amendment (Modernising th...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7564"
+          },
+          {
+            "record_id": "3a4d8f89a2d64dff4cbc",
+            "title": "Treasury Laws Amendment (Better Financial Framewor...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7575"
+          },
+          {
+            "record_id": "53d1e729641b17686005",
+            "title": "Child Support and Family Assistance Legislation Am...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7549"
+          },
+          {
+            "record_id": "923a0c82e963d7162c83",
+            "title": "Universities Accord (Strengthening Governance) Bil...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7576"
+          },
+          {
+            "record_id": "dd0a33f17938b1d766d6",
+            "title": "National Health Amendment (Cheaper Medicines) Bill...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7569"
+          }
+        ],
+        "delta_hash": "3cfe588ac92661ae3690b65bc2677e6a6d30c15943d49a85b03550ef508df7ee"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-AEC-MEDIA-20261126050534",
+      "source_change_event_id": "CHG-WATCH-AEC-MEDIA-20261126050534",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-AEC-MEDIA-20261126050534",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Australian Electoral Commission — media added 1 structured publication record to its forward-captured official index: Media standards",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-11-26T05:06:09.118Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "f28f9ab4583d032cd107",
+            "title": "Media standards",
+            "url": "https://www.aec.gov.au/media/media-standards.htm"
+          }
+        ],
+        "removed_records": [],
+        "delta_hash": "c34e81d814e5135b8e741baacd5072de50f9f1cf13902218ddbc58732e79fc3f"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-PM-MEDIA-20261126050534",
+      "source_change_event_id": "CHG-WATCH-PM-MEDIA-20261126050534",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-PM-MEDIA-20261126050534",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Prime Minister of Australia — media added 1 structured publication record to its forward-captured official index: Entry into force of the Fiji-Australia Vuvale Union and Ocean of Peace Alliance (Veitacini Treaty)",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-11-26T05:06:09.118Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "0bf6b18a089e118a2e33",
+            "title": "Entry into force of the Fiji-Australia Vuvale Union and Ocean of Peace Alliance (Veitacini Treaty)",
+            "url": "https://www.pm.gov.au/media/entry-force-fiji-australia-vuvale-union-and-ocean-peace-alliance-veitacini-treaty"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "4eebad6ce74089b586fb",
+            "title": "Visit to Australia by the Prime Minister of Singapore",
+            "url": "https://www.pm.gov.au/media/visit-australia-prime-minister-singapore"
+          }
+        ],
+        "delta_hash": "508a2d0e8db6a15738958b41179932941f74e0348783974e6ff9c41b964be8ef"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-GREENS-FEDERAL-MEDIA-20261126050534",
+      "source_change_event_id": "CHG-WATCH-GREENS-FEDERAL-MEDIA-20261126050534",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-GREENS-FEDERAL-MEDIA-20261126050534",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": "AUS-FED-GRN",
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Australian Greens — Federal MPs media releases added 2 structured publication records to its forward-captured official index: Read more about Labor-Liberal gas reservation deal leaves Australians shortchanged by billions; Labor-Liberal gas reservation deal leaves Australians shortchanged by billions",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-11-26T05:06:09.118Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "28127c32b708cbfa4d19",
+            "title": "Read more about Labor-Liberal gas reservation deal leaves Australians shortchanged by billions",
+            "url": "https://greens.org.au/news/media-release/labor-liberal-gas-reservation-deal-leaves-australians-shortchanged-billions"
+          },
+          {
+            "record_id": "c139c22ff198fbeaa9e6",
+            "title": "Labor-Liberal gas reservation deal leaves Australians shortchanged by billions",
+            "url": "https://greens.org.au/news/media-release/labor-liberal-gas-reservation-deal-leaves-australians-shortchanged-billions"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "2f9c48870bfe952c0582",
+            "title": "Read more about Labor rejects WFH rights, fails workers",
+            "url": "https://greens.org.au/news/media-release/labor-rejects-wfh-rights-fails-workers"
+          },
+          {
+            "record_id": "36f726880b6deae2164e",
+            "title": "Labor rejects WFH rights, fails workers",
+            "url": "https://greens.org.au/news/media-release/labor-rejects-wfh-rights-fails-workers"
+          }
+        ],
+        "delta_hash": "36f74ab2e987f9dba216caf98b2a20a284da4017a07030d7041a6e37ef439bcf"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-NSWEC-MEDIA-20261126050534",
+      "source_change_event_id": "CHG-WATCH-NSWEC-MEDIA-20261126050534",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-NSWEC-MEDIA-20261126050534",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "NSW Electoral Commission — news and media releases added 1 structured publication record to its forward-captured official index: Political donations transparency - Special report to NSW Parliament arrow_forward 26 Nov 2026 A special report by the NSW Electoral Commission on 2023 pre-election donation compliance has been tabled in the NSW Parliament.",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-11-26T05:06:09.118Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "ca52acd2f3e2b5fcb2cf",
+            "title": "Political donations transparency - Special report to NSW Parliament arrow_forward 26 Nov 2026 A special report by the NSW Electoral Commission on 2023 pre-election donation compliance has been tabled in the NSW Parliament.",
+            "url": "https://elections.nsw.gov.au/about-us/media-centre/news-and-media-releases/political-donations-transparency-special-report-to-nsw-parliament"
+          }
+        ],
+        "removed_records": [],
+        "delta_hash": "4017c7ca0ba38fa78ad5726673f337703e64cc2ea5b5c3f2ae95031df722051f"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261126050534",
+      "source_change_event_id": "CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261126050534",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261126050534",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Queensland Government — Ministerial Media Statements added 9 structured publication records to its forward-captured official index: Helping Queensland graziers recover with $6.4 million pest and weed funding; Powering ahead with Queensland's first dedicated battery recycling facility; Closing The Gap with $38 million investment across Far North Queensland; Games On! for Rockhampton Sports Precinct as works begin on new ‘Home of Netball’; New Major and Organised Crime Squad to restore safety in Central Queensland; +4 more",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-11-26T05:06:09.118Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "2409e696e3d4ed724246",
+            "title": "Helping Queensland graziers recover with $6.4 million pest and weed funding",
+            "url": "https://statements.qld.gov.au/statements/106509"
+          },
+          {
+            "record_id": "4a3650b1664273d688ba",
+            "title": "Powering ahead with Queensland's first dedicated battery recycling facility",
+            "url": "https://statements.qld.gov.au/statements/106498"
+          },
+          {
+            "record_id": "8e6ea5ee3110347dc3a9",
+            "title": "Closing The Gap with $38 million investment across Far North Queensland",
+            "url": "https://statements.qld.gov.au/statements/106512"
+          },
+          {
+            "record_id": "9023fd24ab3e88e44908",
+            "title": "Games On! for Rockhampton Sports Precinct as works begin on new ‘Home of Netball’",
+            "url": "https://statements.qld.gov.au/statements/106513"
+          },
+          {
+            "record_id": "b2f233a079ae31cb4f6a",
+            "title": "New Major and Organised Crime Squad to restore safety in Central Queensland",
+            "url": "https://statements.qld.gov.au/statements/106507"
+          },
+          {
+            "record_id": "c1126100e8cadd50e265",
+            "title": "Statement from the Minister for Health and Ambulance Services",
+            "url": "https://statements.qld.gov.au/statements/106516"
+          },
+          {
+            "record_id": "c7b1c4a9676302616df0",
+            "title": "New Transit Lounge at Ipswich Hospital to boost patient flow",
+            "url": "https://statements.qld.gov.au/statements/106511"
+          },
+          {
+            "record_id": "e40fbcf37b3d8486fd87",
+            "title": "Delivering upgraded accessible amenities for Noosaville",
+            "url": "https://statements.qld.gov.au/statements/106508"
+          },
+          {
+            "record_id": "f0ee60845174dc7be67d",
+            "title": "Hundreds of career opportunities delivered for regional and remote Queenslanders",
+            "url": "https://statements.qld.gov.au/statements/106510"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "0a2fc66c7b742e94866c",
+            "title": "Tech-savvy students code solutions to boost online safety",
+            "url": "https://statements.qld.gov.au/statements/106486"
+          },
+          {
+            "record_id": "4741fd66172eefe1153c",
+            "title": "Delivering relief to renters’ power bills",
+            "url": "https://statements.qld.gov.au/statements/106499"
+          },
+          {
+            "record_id": "4e3a1e7d13fbf86359c6",
+            "title": "Scenic Rim Walking Trail reopens after Tropical Cyclone Jasper repairs",
+            "url": "https://statements.qld.gov.au/statements/106492"
+          },
+          {
+            "record_id": "5808b804b314b1aef081",
+            "title": "Critical minerals boost for Far North Queensland with mine expansion",
+            "url": "https://statements.qld.gov.au/statements/106484"
+          },
+          {
+            "record_id": "6396288ec0f27654b413",
+            "title": "Defence manufacturing boost locked and loaded for Maryborough",
+            "url": "https://statements.qld.gov.au/statements/106502"
+          },
+          {
+            "record_id": "724ee6f0cfdf4d296e41",
+            "title": "New generation of trains on track for regional Queensland",
+            "url": "https://statements.qld.gov.au/statements/106496"
+          },
+          {
+            "record_id": "8d1f745c30dd463c5b05",
+            "title": "2032 Games Community Roadshow rolls into Toowoomba",
+            "url": "https://statements.qld.gov.au/statements/106488"
+          },
+          {
+            "record_id": "c8b969710af6dacd1b55",
+            "title": "The road to 2032 Games gets a regional boost in Toowoomba",
+            "url": "https://statements.qld.gov.au/statements/106485"
+          },
+          {
+            "record_id": "f0c8c5e7131b8f8e5bbe",
+            "title": "New Proven Initiatives early intervention program for Townsville",
+            "url": "https://statements.qld.gov.au/statements/106489"
+          }
+        ],
+        "delta_hash": "c5f4cfe693c1f54c7b65ca591c6aaea7547d30c990e0e23da4b5e498a3cbd6a7"
       },
       "integrity": {
         "source_change_unchanged": true,

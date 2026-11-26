@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-INTELLIGENCE-EVENTS-001",
   "scope": "Australia — multi-jurisdiction",
-  "captured_at": "2026-11-26T05:06:14.787Z",
+  "captured_at": "2026-11-26T15:18:41.670Z",
   "mode": "FORWARD_ONLY",
   "rules": {
     "observation_distinct_from_inference": true,
@@ -155442,6 +155442,394 @@
         "entity_mentions_do_not_establish_positions": true,
         "retracted_facts_excluded": true,
         "no_projection_effect_without_registered_target": true
+      }
+    },
+    {
+      "event_id": "CHG-WATCH-APH-LIVE-MINUTES-20261126151803",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-FED",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-APH-LIVE-MINUTES-20261126151803",
+      "captured_at": "2026-11-26T15:18:03.662Z",
+      "event_date": "2026-11-27",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_PARLIAMENT",
+      "source_id": "SRC-APH-LIVE-MINUTES",
+      "capture_mode": "NORMALISED_PAGE_HASH",
+      "review_policy": "REVIEW_UNSTRUCTURED_CHANGE",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-APH-LIVE-MINUTES-20261126050534",
+        "content_hash": "3f9c79cea80cfb3ed8dd3717b0ab011d34b4d3051458e42719d32f88e0615c38",
+        "capture_mode": "NORMALISED_PAGE_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-APH-LIVE-MINUTES-20261126151803",
+        "content_hash": "f70d37eb7441eb821e2fc75104ac91ea54fb079881faf9f2c194d88ab0483e11",
+        "capture_mode": "NORMALISED_PAGE_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "TEXT_REPRESENTATION",
+        "first_difference_offset": 34677,
+        "before_length": 36437,
+        "after_length": 40071,
+        "before_excerpt": "Wilson , <TIME>. Mr Repacholi , <TIME>. Mr Rebello , <TIME>. Ms Campbell , <TIME>. Ms Bell , <TIME>. Mr Gregg , <TIME>. In this section Bills and Legislation Tabled documents Chamber documents Work of the Senate House of Representatives cha",
+        "after_excerpt": "Wilson , <TIME>. Mr Repacholi , <TIME>. Mr Rebello , <TIME>. Ms Campbell , <TIME>. Ms Bell , <TIME>. Mr Gregg , <TIME>. Mr McCormack , <TIME>. Mr Soon , <TIME>. - <TIME> Discussion concluded. - <TIME> Ms Spender , by indulgence, made a statement on the one year anniversary of the Bondi antisemitic terror attack . - <TIME> Dr Leigh ( Assistant Minister for Productivity, Competition, Charities and Treasury ) , by indulgence, made a statement on the same matter . - <TIME> 30 SUSPENSION OF STANDING AND SESSIONAL ORDERS Dr Leigh ( Assistant Minister for Productivity, Competition, Charities and Treasury ) moved—That so much of the standing and sessional orders be suspended as would prevent no more than six Members immediately making statements of no longer than five minutes each. - <TIME> Question—put and passed , with the concurrence of an absolute majority . - <TIME> 31 STATEMENTS In accordance with the resolution agreed to earlier this sitting— S tatements were made. Ms Le , <TIME>. Mr Ng , <TIME>. Mr Leeser , <TIME>. Ms Lawrence , <TIME>. Mr McCormack , <TIME>. Ms Jordan-Baird , <TIME>. - <TIME> The Speaker made a statement on the death of Eric Aichinger, a long-serving member of the broadcasting team in the Department of the Parliamentary Service . - <TIME> 32 Matter of privilege raised by the Manager of Opposition Business —STATEMENT BY Speaker The Speaker made the following statement: On Monday, 23 November, the Manager of Opposition Business raised, as a matter of privilege, whether the Prime Minister had deliberately misled the House such as would constitute a contempt of the House. The Manager cited three statements made by the Prime Minister during question times: two on 9 September and one on 27 October. The statements concerned the purpose of funding for a community grant, the nature of the Prime Minister’s membership of the organisation receiving the grant, and his knowledge of state government funding received by the organisation. The Manager relied on evidence given to a Senate committee on 12 November to dispute the accuracy of those statements. I accept that this matter was raised by the Manager of Opposition Business at the earliest opportunity, as is required under standing order 51. Since that time, I have examined the Hansard record of the relevant periods of question time on 9 September and 27 October. I have also had regard to the proceedings of the Senate committee on 12 November. In some respects, the information the Prime Minister gave the House differs from the information the community organisation provided to the committee. Different questions may reasonably lead different people to emphasise different aspects of the same circumstances. Differences of emphasis do not, of themselves, demonstrate that the Prime Minister knowingly provided the House with incorrect information, with the intention of misleading. As I advised the House earlier this week, deliberately misleading the House can constitute a contempt and is a serious matter. Before giving precedence to a motion under standing order 51, the Speaker would need prima facie evidence that the House has been misled deliberately. A Speaker would need evidence of three things: first, that the Member gave the House incorrect information; second, that the Member knew at the time it was given that the information was incorrect; and third, that the information was provided by the Member with the intention to mislead the House. On the evidence available to me, it is not clear that a prima facie case has been made out such as would cause me to give precedence to a motion to refer the matter to the Committee of Privileges and Members’ Interests. - <TIME> 33 SUSPENSION OF SITTING At 4.56 pm , the Speaker left the Chair. In this section Bills and Legislation Tabled documents Chamber documents Work of the Senate House of Representatives cha",
+        "delta_hash": "e842fb3200988d5f18878bc22988585ac30f936ad733d0c59e11ba1c2825e5d3"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-APH-BILLS-20261126151803",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-FED",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-APH-BILLS-20261126151803",
+      "captured_at": "2026-11-26T15:18:03.662Z",
+      "event_date": "2026-11-27",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_PARLIAMENT",
+      "source_id": "SRC-APH-BILLS",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "review_policy": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-APH-BILLS-20261126050534",
+        "content_hash": "1719379223a54b0d268e027c171c514e4150b9ceddb469d00a8fb9160e39f5b4",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-APH-BILLS-20261126151803",
+        "content_hash": "ffb03db173eb502155a8e82522b16290945b84c2a08917659b09122200e3b1f1",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "STRUCTURED_RECORD_SET",
+        "records_added": [
+          {
+            "record_id": "461afefea358cd8e9eb7",
+            "title": "Domestic Gas Reservation Bill 2026",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7559"
+          },
+          {
+            "record_id": "97a5f3d1eecae28eae06",
+            "title": "Domestic Gas Reservation (Consequential Amendments...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7561"
+          },
+          {
+            "record_id": "dc7e8ed5257b5723c2e7",
+            "title": "Domestic Gas Reservation Levy Bill 2026",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7560"
+          }
+        ],
+        "records_removed": [
+          {
+            "record_id": "447aa8624dcebfc63900",
+            "title": "Passenger Movement Charge Amendment Bill 2026",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7523"
+          },
+          {
+            "record_id": "92dff6f79d36953a3d1a",
+            "title": "Agriculture Legislation Amendment (Biosecurity and...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7565"
+          },
+          {
+            "record_id": "ab808913f3cb133fd667",
+            "title": "Treasury Laws Amendment (Tax Reform No. 3) Bill 20...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7554"
+          }
+        ],
+        "added_count": 3,
+        "removed_count": 3,
+        "before_count": 96,
+        "after_count": 96,
+        "delta_hash": "9fa8aee4b27751e89f78a40c9336b7ad5bd74e51ec4d3720ff6b96f51382bb77"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-GREENS-FEDERAL-MEDIA-20261126151803",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-FED",
+      "party_id": "AUS-FED-GRN",
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-GREENS-FEDERAL-MEDIA-20261126151803",
+      "captured_at": "2026-11-26T15:18:03.662Z",
+      "event_date": "2026-11-27",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_PARTY",
+      "source_id": "SRC-GREENS-FEDERAL-RELEASE-INDEX",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "review_policy": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-GREENS-FEDERAL-MEDIA-20261126050534",
+        "content_hash": "e738bbd9dbd5772c7722e35b04f685197888d7efb772196890eddecc2a726033",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-GREENS-FEDERAL-MEDIA-20261126151803",
+        "content_hash": "c541bfddc9a6fc100d89eb0aedb565f183f9cb70b08ecebe415be6bc965c4282",
+        "capture_mode": "PUBLICATION_FEED_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "STRUCTURED_RECORD_SET",
+        "records_added": [
+          {
+            "record_id": "39ed2398bf8e5ef4a72f",
+            "title": "“A national shame”: Report finds aged care system leaving older people unsafe in their homes",
+            "url": "https://greens.org.au/news/media-release/national-shame-report-finds-aged-care-system-leaving-older-people-unsafe-their"
+          },
+          {
+            "record_id": "4bb0c97e2ca432215855",
+            "title": "Read more about “A national shame”: Report finds aged care system leaving older people unsafe in their homes",
+            "url": "https://greens.org.au/news/media-release/national-shame-report-finds-aged-care-system-leaving-older-people-unsafe-their"
+          },
+          {
+            "record_id": "c77b0a3f66b0ad5316cf",
+            "title": "Last page Last »",
+            "url": "https://greens.org.au/news/media-releases?page=302"
+          }
+        ],
+        "records_removed": [
+          {
+            "record_id": "6f7878c461a41379de28",
+            "title": "War parties’ stitch up could send you to prison for protesting",
+            "url": "https://greens.org.au/news/media-release/war-parties-stitch-could-send-you-prison-protesting"
+          },
+          {
+            "record_id": "7ff81e42ad44a95bbfc4",
+            "title": "Read more about War parties’ stitch up could send you to prison for protesting",
+            "url": "https://greens.org.au/news/media-release/war-parties-stitch-could-send-you-prison-protesting"
+          },
+          {
+            "record_id": "c7729fe687d7d60af4f9",
+            "title": "Last page Last »",
+            "url": "https://greens.org.au/news/media-releases?page=301"
+          }
+        ],
+        "added_count": 3,
+        "removed_count": 3,
+        "before_count": 75,
+        "after_count": 75,
+        "delta_hash": "22068e3d881c5ba27cf4d9da3151a2ca99993fde9d880f62b637db098ea0dbf4"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "CHG-WATCH-WA-HANSARD-20261126151803",
+      "parent_event_id": null,
+      "jurisdiction_id": "AUS-WA",
+      "party_id": null,
+      "actor_id": null,
+      "source_snapshot_id": "AUTO-WATCH-WA-HANSARD-20261126151803",
+      "captured_at": "2026-11-26T15:18:03.662Z",
+      "event_date": "2026-11-27",
+      "checkpoint": "CONTINUOUS_FORWARD_SOURCE_CAPTURE",
+      "event_type": "SOURCE_CHANGED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "OBSERVED",
+      "semantic_review_state": "PENDING",
+      "materiality_state": "UNASSESSED",
+      "source_class": "PRIMARY_PARLIAMENT",
+      "source_id": "SRC-WA-HANSARD",
+      "capture_mode": "NORMALISED_PAGE_HASH",
+      "review_policy": "REVIEW_UNSTRUCTURED_CHANGE",
+      "before": {
+        "snapshot_id": "AUTO-WATCH-WA-HANSARD-20261125223324",
+        "content_hash": "846c5a3616cb6ef41467b6c7c96dd79a2253fd2324cf2e04a58bf9406df0729d",
+        "capture_mode": "NORMALISED_PAGE_HASH"
+      },
+      "after": {
+        "snapshot_id": "AUTO-WATCH-WA-HANSARD-20261126151803",
+        "content_hash": "51b4ffd229f6ad63371ad50de229f6077d8a8e98cab3e75d3cef70bf6c370440",
+        "capture_mode": "NORMALISED_PAGE_HASH"
+      },
+      "representation_delta": {
+        "delta_type": "TEXT_REPRESENTATION",
+        "first_difference_offset": 183,
+        "before_length": 10743,
+        "after_length": 10668,
+        "before_excerpt": "ip to main content Home Site map Accessibility Contact us Alerts Home Menu Show/Hide website navigation The Legislative Council meets today (<TIME>) Watch live Watch Council live The Legislative Assembly meets on 16/02/2027 (<TIME>) Assembly sit 16/02/2027 The Estimates Committee meets on 17/02/2027 (<TIME>) Commi",
+        "after_excerpt": "ip to main content Home Site map Accessibility Contact us Alerts Home Menu Show/Hide website navigation The Legislative Assembly meets on 16/02/2027 (<TIME>) Assembly sit 16/02/2027 The Estimates Committee meets on 17/02/2027 (<TIME>) Commi",
+        "delta_hash": "597a8d8ac4e0cb5c691f8dce1bb46c07937735ebdbdf5cff9f8df0a52ed5e52d"
+      },
+      "claim": "Monitored official source changed from its previous forward-captured representation. This is a verified source-change observation only; it is not yet a political signal.",
+      "observed_behaviour": "The captured representation of the monitored source changed relative to the immediately preceding forward snapshot.",
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false
+    },
+    {
+      "event_id": "SIG-REV-CHG-WATCH-APH-BILLS-20261126151803",
+      "parent_event_id": "CHG-WATCH-APH-BILLS-20261126151803",
+      "review_id": "REV-CHG-WATCH-APH-BILLS-20261126151803",
+      "jurisdiction_id": "AUS-FED",
+      "party_id": null,
+      "actor_id": null,
+      "contest_id": null,
+      "cycle_id": null,
+      "source_snapshot_id": "AUTO-WATCH-APH-BILLS-20261126151803",
+      "record_id": null,
+      "captured_at": "2026-11-26T15:18:37.428Z",
+      "event_date": "2026-11-27",
+      "checkpoint": "CONTINUOUS_FORWARD_SIGNAL_REVIEW",
+      "event_type": "SIGNAL_CREATED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_PARLIAMENT",
+      "source_id": "SRC-APH-BILLS",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "claim": "Parliament of Australia — Bills and Legislation added 3 structured publication records to its forward-captured official index: Domestic Gas Reservation Bill 2026; Domestic Gas Reservation (Consequential Amendments...; Domestic Gas Reservation Levy Bill 2026",
+      "observed_behaviour": "One or more structured publication records appeared in the monitored official source index after the preceding forward snapshot.",
+      "publication_records_added": [
+        {
+          "record_id": "461afefea358cd8e9eb7",
+          "title": "Domestic Gas Reservation Bill 2026",
+          "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7559"
+        },
+        {
+          "record_id": "97a5f3d1eecae28eae06",
+          "title": "Domestic Gas Reservation (Consequential Amendments...",
+          "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7561"
+        },
+        {
+          "record_id": "dc7e8ed5257b5723c2e7",
+          "title": "Domestic Gas Reservation Levy Bill 2026",
+          "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7560"
+        }
+      ],
+      "publication_records_removed": [
+        {
+          "record_id": "447aa8624dcebfc63900",
+          "title": "Passenger Movement Charge Amendment Bill 2026",
+          "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7523"
+        },
+        {
+          "record_id": "92dff6f79d36953a3d1a",
+          "title": "Agriculture Legislation Amendment (Biosecurity and...",
+          "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7565"
+        },
+        {
+          "record_id": "ab808913f3cb133fd667",
+          "title": "Treasury Laws Amendment (Tax Reform No. 3) Bill 20...",
+          "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7554"
+        }
+      ],
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "underlying_publication_claims_not_promoted_to_verified_fact": true,
+        "source_change_parent_retained": true,
+        "deterministic_review": true
+      }
+    },
+    {
+      "event_id": "SIG-REV-CHG-WATCH-GREENS-FEDERAL-MEDIA-20261126151803",
+      "parent_event_id": "CHG-WATCH-GREENS-FEDERAL-MEDIA-20261126151803",
+      "review_id": "REV-CHG-WATCH-GREENS-FEDERAL-MEDIA-20261126151803",
+      "jurisdiction_id": "AUS-FED",
+      "party_id": "AUS-FED-GRN",
+      "actor_id": null,
+      "contest_id": null,
+      "cycle_id": null,
+      "source_snapshot_id": "AUTO-WATCH-GREENS-FEDERAL-MEDIA-20261126151803",
+      "record_id": null,
+      "captured_at": "2026-11-26T15:18:37.428Z",
+      "event_date": "2026-11-27",
+      "checkpoint": "CONTINUOUS_FORWARD_SIGNAL_REVIEW",
+      "event_type": "SIGNAL_CREATED",
+      "evidence_state": "VERIFIED",
+      "signal_state": "CONFIRMED_FACT",
+      "semantic_review_state": "PROMOTED",
+      "materiality_state": "UNKNOWN",
+      "source_class": "PRIMARY_PARTY",
+      "source_id": "SRC-GREENS-FEDERAL-RELEASE-INDEX",
+      "capture_mode": "PUBLICATION_FEED_HASH",
+      "claim": "Australian Greens — Federal MPs media releases added 3 structured publication records to its forward-captured official index: “A national shame”: Report finds aged care system leaving older people unsafe in their homes; Read more about “A national shame”: Report finds aged care system leaving older people unsafe in their homes; Last page Last »",
+      "observed_behaviour": "One or more structured publication records appeared in the monitored official source index after the preceding forward snapshot.",
+      "publication_records_added": [
+        {
+          "record_id": "39ed2398bf8e5ef4a72f",
+          "title": "“A national shame”: Report finds aged care system leaving older people unsafe in their homes",
+          "url": "https://greens.org.au/news/media-release/national-shame-report-finds-aged-care-system-leaving-older-people-unsafe-their"
+        },
+        {
+          "record_id": "4bb0c97e2ca432215855",
+          "title": "Read more about “A national shame”: Report finds aged care system leaving older people unsafe in their homes",
+          "url": "https://greens.org.au/news/media-release/national-shame-report-finds-aged-care-system-leaving-older-people-unsafe-their"
+        },
+        {
+          "record_id": "c77b0a3f66b0ad5316cf",
+          "title": "Last page Last »",
+          "url": "https://greens.org.au/news/media-releases?page=302"
+        }
+      ],
+      "publication_records_removed": [
+        {
+          "record_id": "6f7878c461a41379de28",
+          "title": "War parties’ stitch up could send you to prison for protesting",
+          "url": "https://greens.org.au/news/media-release/war-parties-stitch-could-send-you-prison-protesting"
+        },
+        {
+          "record_id": "7ff81e42ad44a95bbfc4",
+          "title": "Read more about War parties’ stitch up could send you to prison for protesting",
+          "url": "https://greens.org.au/news/media-release/war-parties-stitch-could-send-you-prison-protesting"
+        },
+        {
+          "record_id": "c7729fe687d7d60af4f9",
+          "title": "Last page Last »",
+          "url": "https://greens.org.au/news/media-releases?page=301"
+        }
+      ],
+      "inference": null,
+      "inference_class": "NONE",
+      "projection_effect": "NO_EFFECT",
+      "information_advantage": "NONE",
+      "frozen": false,
+      "integrity": {
+        "underlying_publication_claims_not_promoted_to_verified_fact": true,
+        "source_change_parent_retained": true,
+        "deterministic_review": true
       }
     }
   ]

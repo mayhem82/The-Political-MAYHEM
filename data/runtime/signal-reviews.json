@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-SIGNAL-REVIEWS-001",
   "created_at": "2026-09-09T05:05:00+10:00",
-  "updated_at": "2026-11-26T05:06:09.118Z",
+  "updated_at": "2026-11-26T15:18:37.428Z",
   "rules": {
     "append_only": true,
     "raw_source_change_is_immutable": true,
@@ -56012,6 +56012,126 @@
           }
         ],
         "delta_hash": "c5f4cfe693c1f54c7b65ca591c6aaea7547d30c990e0e23da4b5e498a3cbd6a7"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-APH-BILLS-20261126151803",
+      "source_change_event_id": "CHG-WATCH-APH-BILLS-20261126151803",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-APH-BILLS-20261126151803",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Parliament of Australia — Bills and Legislation added 3 structured publication records to its forward-captured official index: Domestic Gas Reservation Bill 2026; Domestic Gas Reservation (Consequential Amendments...; Domestic Gas Reservation Levy Bill 2026",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-11-26T15:18:37.428Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "461afefea358cd8e9eb7",
+            "title": "Domestic Gas Reservation Bill 2026",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7559"
+          },
+          {
+            "record_id": "97a5f3d1eecae28eae06",
+            "title": "Domestic Gas Reservation (Consequential Amendments...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7561"
+          },
+          {
+            "record_id": "dc7e8ed5257b5723c2e7",
+            "title": "Domestic Gas Reservation Levy Bill 2026",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7560"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "447aa8624dcebfc63900",
+            "title": "Passenger Movement Charge Amendment Bill 2026",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7523"
+          },
+          {
+            "record_id": "92dff6f79d36953a3d1a",
+            "title": "Agriculture Legislation Amendment (Biosecurity and...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7565"
+          },
+          {
+            "record_id": "ab808913f3cb133fd667",
+            "title": "Treasury Laws Amendment (Tax Reform No. 3) Bill 20...",
+            "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7554"
+          }
+        ],
+        "delta_hash": "9fa8aee4b27751e89f78a40c9336b7ad5bd74e51ec4d3720ff6b96f51382bb77"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-GREENS-FEDERAL-MEDIA-20261126151803",
+      "source_change_event_id": "CHG-WATCH-GREENS-FEDERAL-MEDIA-20261126151803",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-GREENS-FEDERAL-MEDIA-20261126151803",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": "AUS-FED-GRN",
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Australian Greens — Federal MPs media releases added 3 structured publication records to its forward-captured official index: “A national shame”: Report finds aged care system leaving older people unsafe in their homes; Read more about “A national shame”: Report finds aged care system leaving older people unsafe in their homes; Last page Last »",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-11-26T15:18:37.428Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "39ed2398bf8e5ef4a72f",
+            "title": "“A national shame”: Report finds aged care system leaving older people unsafe in their homes",
+            "url": "https://greens.org.au/news/media-release/national-shame-report-finds-aged-care-system-leaving-older-people-unsafe-their"
+          },
+          {
+            "record_id": "4bb0c97e2ca432215855",
+            "title": "Read more about “A national shame”: Report finds aged care system leaving older people unsafe in their homes",
+            "url": "https://greens.org.au/news/media-release/national-shame-report-finds-aged-care-system-leaving-older-people-unsafe-their"
+          },
+          {
+            "record_id": "c77b0a3f66b0ad5316cf",
+            "title": "Last page Last »",
+            "url": "https://greens.org.au/news/media-releases?page=302"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "6f7878c461a41379de28",
+            "title": "War parties’ stitch up could send you to prison for protesting",
+            "url": "https://greens.org.au/news/media-release/war-parties-stitch-could-send-you-prison-protesting"
+          },
+          {
+            "record_id": "7ff81e42ad44a95bbfc4",
+            "title": "Read more about War parties’ stitch up could send you to prison for protesting",
+            "url": "https://greens.org.au/news/media-release/war-parties-stitch-could-send-you-prison-protesting"
+          },
+          {
+            "record_id": "c7729fe687d7d60af4f9",
+            "title": "Last page Last »",
+            "url": "https://greens.org.au/news/media-releases?page=301"
+          }
+        ],
+        "delta_hash": "22068e3d881c5ba27cf4d9da3151a2ca99993fde9d880f62b637db098ea0dbf4"
       },
       "integrity": {
         "source_change_unchanged": true,

@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-SIGNAL-REVIEWS-001",
   "created_at": "2026-09-09T05:05:00+10:00",
-  "updated_at": "2026-11-26T15:18:37.428Z",
+  "updated_at": "2026-11-27T00:36:17.377Z",
   "rules": {
     "append_only": true,
     "raw_source_change_is_immutable": true,
@@ -56132,6 +56132,130 @@
           }
         ],
         "delta_hash": "22068e3d881c5ba27cf4d9da3151a2ca99993fde9d880f62b637db098ea0dbf4"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-PM-MEDIA-20261127003535",
+      "source_change_event_id": "CHG-WATCH-PM-MEDIA-20261127003535",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-PM-MEDIA-20261127003535",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Prime Minister of Australia — media added 1 structured publication record to its forward-captured official index: Radio interview - 4CA Cairns",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-11-27T00:36:17.377Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "1b5b9b2e62dbc1c1668c",
+            "title": "Radio interview - 4CA Cairns",
+            "url": "https://www.pm.gov.au/media/radio-interview-4ca-cairns-3"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "151c037d50027ecbd647",
+            "title": "Cheaper medicines stay cheaper with PBS co-payment freeze",
+            "url": "https://www.pm.gov.au/media/cheaper-medicines-stay-cheaper-pbs-co-payment-freeze"
+          }
+        ],
+        "delta_hash": "95e65666611561abaa6a7baaa1bb1259dd1c655af61f889bb3988ab72b212327"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-ALP-NEWS-20261127003535",
+      "source_change_event_id": "CHG-WATCH-ALP-NEWS-20261127003535",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-ALP-NEWS-20261127003535",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": "AUS-FED-ALP",
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Australian Labor Party — news added 1 structured publication record to its forward-captured official index: Australian gas reserved for Australians 27 November 2026",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-11-27T00:36:17.377Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "502c44618e05ee73ce7d",
+            "title": "Australian gas reserved for Australians 27 November 2026",
+            "url": "https://www.alp.org.au/news/all-news/australian-gas-reserved-for-australians/"
+          }
+        ],
+        "removed_records": [],
+        "delta_hash": "ffa23650db0091b9216321045e6e2fcd10022a94d0b972729e4aca73ca4f996e"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-GREENS-FEDERAL-MEDIA-20261127003535",
+      "source_change_event_id": "CHG-WATCH-GREENS-FEDERAL-MEDIA-20261127003535",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-GREENS-FEDERAL-MEDIA-20261127003535",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": "AUS-FED-GRN",
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Australian Greens — Federal MPs media releases added 2 structured publication records to its forward-captured official index: Labor rejects super for under 18s for 3rd time; Read more about Labor rejects super for under 18s for 3rd time",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-11-27T00:36:17.377Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "185d2af5b184eed47cda",
+            "title": "Labor rejects super for under 18s for 3rd time",
+            "url": "https://greens.org.au/news/media-release/labor-rejects-super-under-18s-3rd-time"
+          },
+          {
+            "record_id": "77ef11931b71ebe450a3",
+            "title": "Read more about Labor rejects super for under 18s for 3rd time",
+            "url": "https://greens.org.au/news/media-release/labor-rejects-super-under-18s-3rd-time"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "a2309862da6a5a6cf736",
+            "title": "Greens bill will force Labor to act on private school misconduct",
+            "url": "https://greens.org.au/news/media-release/greens-bill-will-force-labor-act-private-school-misconduct"
+          },
+          {
+            "record_id": "f43378a6fd101b753bee",
+            "title": "Read more about Greens bill will force Labor to act on private school misconduct",
+            "url": "https://greens.org.au/news/media-release/greens-bill-will-force-labor-act-private-school-misconduct"
+          }
+        ],
+        "delta_hash": "5118540923cc9d593b5ff5eaedad4ba5369d7a92d6010498d8dcf4e80d27f7bb"
       },
       "integrity": {
         "source_change_unchanged": true,

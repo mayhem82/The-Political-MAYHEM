@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-SIGNAL-REVIEWS-001",
   "created_at": "2026-09-09T05:05:00+10:00",
-  "updated_at": "2026-11-27T00:36:17.377Z",
+  "updated_at": "2026-11-27T09:42:20.115Z",
   "rules": {
     "append_only": true,
     "raw_source_change_is_immutable": true,
@@ -56256,6 +56256,256 @@
           }
         ],
         "delta_hash": "5118540923cc9d593b5ff5eaedad4ba5369d7a92d6010498d8dcf4e80d27f7bb"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-PM-MEDIA-20261127094136",
+      "source_change_event_id": "CHG-WATCH-PM-MEDIA-20261127094136",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-PM-MEDIA-20261127094136",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Prime Minister of Australia — media added 1 structured publication record to its forward-captured official index: Press conference - Canberra",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-11-27T09:42:20.115Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "62465eae85c47a8ce250",
+            "title": "Press conference - Canberra",
+            "url": "https://www.pm.gov.au/media/press-conference-canberra-33"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "7ee47b376e70e63d617d",
+            "title": "Press conference - Parliament House, Canberra",
+            "url": "https://www.pm.gov.au/media/press-conference-parliament-house-canberra-56"
+          }
+        ],
+        "delta_hash": "d1f2bf0a6c5dced34d0ad03033ccd9b7dacdef80d5b2a59ab76bf6b797f50570"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-NSW-MINISTERIAL-RELEASES-20261127094136",
+      "source_change_event_id": "CHG-WATCH-NSW-MINISTERIAL-RELEASES-20261127094136",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-NSW-MINISTERIAL-RELEASES-20261127094136",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "NSW Government — Ministerial releases added 10 structured publication records to its forward-captured official index: New 64-bed Maitland mental health facility takes shape; Labor slashes debt and deficit. Again.; NSW Government introduces Biosecurity Control Order as part of fire ant escalation effort; 75 rehoming organisations receive funding to help improve animal welfare; Vacant Maitland home transformed into safe accommodation for women in crisis; +5 more",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-11-27T09:42:20.115Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "23a110d7a6d704133aea",
+            "title": "New 64-bed Maitland mental health facility takes shape",
+            "url": "https://www.nsw.gov.au/ministerial-releases/new-64-bed-maitland-mental-health-facility-takes-shape"
+          },
+          {
+            "record_id": "449eeb00747c8ab524fe",
+            "title": "Labor slashes debt and deficit. Again.",
+            "url": "https://www.nsw.gov.au/ministerial-releases/labor-slashes-debt-and-deficit-again"
+          },
+          {
+            "record_id": "4dc055c1cd9fccb9bd74",
+            "title": "NSW Government introduces Biosecurity Control Order as part of fire ant escalation effort",
+            "url": "https://www.nsw.gov.au/ministerial-releases/nsw-government-introduces-biosecurity-control-order-as-part-of-fire-ant-escalation-effort"
+          },
+          {
+            "record_id": "51aa4480d40acb45628f",
+            "title": "75 rehoming organisations receive funding to help improve animal welfare",
+            "url": "https://www.nsw.gov.au/ministerial-releases/75-animal-welfare-grants-awarded"
+          },
+          {
+            "record_id": "524b755d7a8ae1e2a3dc",
+            "title": "Vacant Maitland home transformed into safe accommodation for women in crisis",
+            "url": "https://www.nsw.gov.au/ministerial-releases/maitland-home-transformed-emergency-acccommodation"
+          },
+          {
+            "record_id": "99163e511946bb9537ce",
+            "title": "Warrawong Parklands secured for future generations under parklands reforms",
+            "url": "https://www.nsw.gov.au/ministerial-releases/warrawong-parklands-secured-for-future-generations-under-parklands-reforms"
+          },
+          {
+            "record_id": "a281a4bd8211b4279e29",
+            "title": "New transport priorities set for the New England North West with 20 year plan released",
+            "url": "https://www.nsw.gov.au/ministerial-releases/new-transport-priorities-set-for-new-england-north-west-20-year-plan-released"
+          },
+          {
+            "record_id": "bb1971cd921088544e3c",
+            "title": "Minns Labor Government invests in grassroots rugby",
+            "url": "https://www.nsw.gov.au/departments-and-agencies/dciths/ministerial-media-releases/round-2-rugby-world-cup-legacy-program"
+          },
+          {
+            "record_id": "fc3ba45327d165cdba0c",
+            "title": "Pondi returns earlier for a fourth summer season",
+            "url": "https://www.nsw.gov.au/ministerial-releases/pondi-returns-for-fourth-summer"
+          },
+          {
+            "record_id": "ff00e0e61ffc550f5bc2",
+            "title": "Minns Labor Government Builds Back Better for Murwillumbah school community",
+            "url": "https://www.nsw.gov.au/ministerial-releases/minns-labor-government-builds-back-better-for-murwillumbah-school-community"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "00a4748a53184253aa41",
+            "title": "Appointments to the NICC",
+            "url": "https://www.nsw.gov.au/departments-and-agencies/dciths/ministerial-media-releases/appointments-to-nicc"
+          },
+          {
+            "record_id": "0939de1076fb9a2daf54",
+            "title": "Major $8.3 million Revesby Police Station upgrade underway",
+            "url": "https://www.nsw.gov.au/ministerial-releases/major-83-million-revesby-police-station-upgrade-underway"
+          },
+          {
+            "record_id": "1ca3fbb7c6ba257bfa24",
+            "title": "New Emergency Department opens at John Hunter Hospital",
+            "url": "https://www.nsw.gov.au/ministerial-releases/emergency-department-opens-john-hunter-hospital"
+          },
+          {
+            "record_id": "208d1f845af0455870a0",
+            "title": "Countdown is on to register for star-studded 2027 Premier’s Gala Concerts",
+            "url": "https://www.nsw.gov.au/ministerial-releases/countdown-on-to-register-for-star-studded-2027-premiers-gala-concerts"
+          },
+          {
+            "record_id": "24b648930ea62e09856e",
+            "title": "Hundreds of Central Coast ratepayers inconvenienced by council Australia Post decision",
+            "url": "https://www.nsw.gov.au/ministerial-releases/central-coast-council-stops-auspost-payments"
+          },
+          {
+            "record_id": "4e1fc18ded81e50d17cf",
+            "title": "Hundreds of guns returned, more bookings open to participate in the National Gun Buyback in NSW",
+            "url": "https://www.nsw.gov.au/ministerial-releases/hundreds-of-guns-returned-more-bookings-open-to-participate-national-gun-buyback-nsw"
+          },
+          {
+            "record_id": "6d67b94d67be99b6061d",
+            "title": "NSW Prospectus Highlights $200 Million Industrial Hemp Opportunity",
+            "url": "https://www.nsw.gov.au/ministerial-releases/nsw-prospectus-highlights-200-million-industrial-hemp-opportunity"
+          },
+          {
+            "record_id": "87ce9b2822e8b9dde1f3",
+            "title": "Northern Beaches Hospital recruits for Safe Staffing nurse ratios",
+            "url": "https://www.nsw.gov.au/ministerial-releases/northern-beaches-hospital-recruits-for-safe-staffing-nurse-ratios"
+          },
+          {
+            "record_id": "8a0b7f1ad1a3cd3bb7a4",
+            "title": "New toolkit empowering sport to respond to domestic, family and sexual violence disclosures",
+            "url": "https://www.nsw.gov.au/departments-and-agencies/office-of-sport/news-media/safe-to-speak-toolkit"
+          },
+          {
+            "record_id": "d85ae602841336c3fdcc",
+            "title": "NSW strengthens frontline response to cybercrime launching Joint Agency Cyber Command Centre",
+            "url": "https://www.nsw.gov.au/ministerial-releases/nsw-strengthens-frontline-response-to-cybercrime-launching-joint-agency-cyber-command-centre"
+          }
+        ],
+        "delta_hash": "0d5dbf07b0b0e1e3add7d3b9ea8c5bf1044ebc65ae0f5e04bbf063db4d773831"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261127094136",
+      "source_change_event_id": "CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261127094136",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-QLD-MINISTERIAL-STATEMENTS-20261127094136",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Queensland Government — Ministerial Media Statements added 5 structured publication records to its forward-captured official index: 860 coal jobs secured near Dysart as $1.3 billion coal mine extension greenlit; Kennedy sprints to top honours at the Queensland Sport Awards; Backing short courses for long term success; Professional Foster Care pilot expands to the Far North; Statement from the Attorney-General",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-11-27T09:42:20.115Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "2c2f0b5b15380d22aab7",
+            "title": "860 coal jobs secured near Dysart as $1.3 billion coal mine extension greenlit",
+            "url": "https://statements.qld.gov.au/statements/106522"
+          },
+          {
+            "record_id": "3a20fdd21e6113a59dd1",
+            "title": "Kennedy sprints to top honours at the Queensland Sport Awards",
+            "url": "https://statements.qld.gov.au/statements/106518"
+          },
+          {
+            "record_id": "45609a316bdc925e73b7",
+            "title": "Backing short courses for long term success",
+            "url": "https://statements.qld.gov.au/statements/106517"
+          },
+          {
+            "record_id": "8f00ad0c987ac0995efc",
+            "title": "Professional Foster Care pilot expands to the Far North",
+            "url": "https://statements.qld.gov.au/statements/106520"
+          },
+          {
+            "record_id": "afe4a6387547f6fe786e",
+            "title": "Statement from the Attorney-General",
+            "url": "https://statements.qld.gov.au/statements/106526"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "640a29a4752fcbc214a2",
+            "title": "New strategy delivered to drive trade and investment opportunities with South Korea",
+            "url": "https://statements.qld.gov.au/statements/106497"
+          },
+          {
+            "record_id": "8a14f4b71be3bb167194",
+            "title": "Weekend trips on the move with more bus services in Highfields and Toowoomba",
+            "url": "https://statements.qld.gov.au/statements/106493"
+          },
+          {
+            "record_id": "9023fd24ab3e88e44908",
+            "title": "Games On! for Rockhampton Sports Precinct as works begin on new ‘Home of Netball’",
+            "url": "https://statements.qld.gov.au/statements/106513"
+          },
+          {
+            "record_id": "c1126100e8cadd50e265",
+            "title": "Statement from the Minister for Health and Ambulance Services",
+            "url": "https://statements.qld.gov.au/statements/106516"
+          },
+          {
+            "record_id": "cf33d5c2ace254bdc9a5",
+            "title": "Cost of federal green tape laid bare by QLD Productivity Commission",
+            "url": "https://statements.qld.gov.au/statements/106503"
+          }
+        ],
+        "delta_hash": "d24ce892d251ba46fb2de6499bc76a05bd6e912951a693ae62880983ea406815"
       },
       "integrity": {
         "source_change_unchanged": true,

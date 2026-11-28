@@ -7,9 +7,9 @@
       "source_id": "SRC-LIBERAL-FEDERAL-HOME",
       "jurisdiction_id": "AUS-FED",
       "party_id": "AUS-FED-LIB",
-      "content_hash": "d6fe84c065611ed4d4886667a7301b9900b8e1bd38d02e84cb837986aa0eb643",
-      "snapshot_id": "AUTO-WATCH-LIBERAL-HOME-20261127094136",
-      "captured_at": "2026-11-27T09:41:36.001Z",
+      "content_hash": "1598644d75e1e0625283d7da6289e6ef91ee575bd485b02852719c981486f07a",
+      "snapshot_id": "AUTO-WATCH-LIBERAL-HOME-20261128024116",
+      "captured_at": "2026-11-28T02:41:16.153Z",
       "acquisition_url": "https://www.liberal.org.au/",
       "requested_url": "https://www.liberal.org.au/",
       "header_profile": "IDENTIFIED_AUTOMATION",
@@ -105,9 +105,9 @@
       "source_id": "SRC-VEC-2026-STATE-ELECTION",
       "jurisdiction_id": "AUS-VIC",
       "party_id": null,
-      "content_hash": "80f02ae61d84896a3f018b3b47f79d2e4e6daec7a97882b005fb21557549017b",
-      "snapshot_id": "AUTO-WATCH-VEC-2026-STATE-ELECTION-20261127094136",
-      "captured_at": "2026-11-27T09:41:36.001Z",
+      "content_hash": "ffd5fc98c950c8bb37638e21d5f2b9d344b1b4ab30b4b91172955f8678cebd4e",
+      "snapshot_id": "AUTO-WATCH-VEC-2026-STATE-ELECTION-20261128024116",
+      "captured_at": "2026-11-28T02:41:16.153Z",
       "acquisition_url": "https://www.vec.vic.gov.au/voting/2026-state-election",
       "requested_url": "https://www.vec.vic.gov.au/voting/2026-state-election",
       "header_profile": "IDENTIFIED_AUTOMATION",
@@ -243,9 +243,9 @@
       "source_id": "SRC-PM-MEDIA",
       "jurisdiction_id": "AUS-FED",
       "party_id": null,
-      "content_hash": "fcbde8eb2e6a2e19f529d5a92f50a25c56e8cf5db3ba364c600cf7d610d1535a",
-      "snapshot_id": "AUTO-WATCH-PM-MEDIA-20261127094136",
-      "captured_at": "2026-11-27T09:41:36.001Z",
+      "content_hash": "fa2ca6be0b019c4d998d89c7ec62696144a94cffae9206d80bdd473e9297bb13",
+      "snapshot_id": "AUTO-WATCH-PM-MEDIA-20261128024116",
+      "captured_at": "2026-11-28T02:41:16.153Z",
       "acquisition_url": "https://www.pm.gov.au/media",
       "requested_url": "https://www.pm.gov.au/media",
       "header_profile": "IDENTIFIED_AUTOMATION",
@@ -506,11 +506,11 @@
       "captured_representation_complete": true
     }
   },
-  "updated_at": "2026-11-27T19:28:50.110Z",
+  "updated_at": "2026-11-28T02:41:16.153Z",
   "last_run": {
-    "captured_at": "2026-11-27T19:28:50.110Z",
+    "captured_at": "2026-11-28T02:41:16.153Z",
     "baselines_created": 0,
-    "source_changes_created": 0,
+    "source_changes_created": 3,
     "semantic_signals_created": 0,
     "representation_upgrades": 0,
     "failures": [
@@ -529,6 +529,10 @@
       {
         "watch_id": "WATCH-ECQ-MEDIA",
         "error": "https://www.ecq.qld.gov.au/media/2026-media-statements [IDENTIFIED_AUTOMATION] 403 Forbidden | https://www.ecq.qld.gov.au/media/2026-media-statements [BROWSER_COMPATIBILITY] 403 Forbidden | https://www.ecq.qld.gov.au/home [IDENTIFIED_AUTOMATION] 403 Forbidden | https://www.ecq.qld.gov.au/home [BROWSER_COMPATIBILITY] 403 Forbidden"
+      },
+      {
+        "watch_id": "WATCH-TAS-HANSARD",
+        "error": "https://search.parliament.tas.gov.au/Search/search/search?IW_FIELD_ADVANCE_PHRASE=2026%20IN%20TITLE&IW_DATABASE=Hansard&IW_SORT=-9&IW_SEARCH_SCOPE=meta [IDENTIFIED_AUTOMATION] empty response | https://search.parliament.tas.gov.au/Search/search/search?IW_FIELD_ADVANCE_PHRASE=2026%20IN%20TITLE&IW_DATABASE=Hansard&IW_SORT=-9&IW_SEARCH_SCOPE=meta [BROWSER_COMPATIBILITY] timeout>15000ms"
       },
       {
         "watch_id": "WATCH-TAS-PREMIER-NEWS",
@@ -564,7 +568,7 @@
   "coverage": {
     "active_sources": 36,
     "baselines_captured": 36,
-    "current_run_failures": 11,
+    "current_run_failures": 12,
     "jurisdictions": {
       "AUS-FED": {
         "configured_sources": 10,
@@ -636,7 +640,7 @@
       "AUS-TAS": {
         "configured_sources": 3,
         "baseline_sources": 3,
-        "current_run_failures": 1,
+        "current_run_failures": 2,
         "source_classes": [
           "PRIMARY_ELECTORAL_AUTHORITY",
           "PRIMARY_GOVERNMENT",

@@ -1,7 +1,7 @@
 {
   "ledger_id": "POLITICAL-SIGNAL-REVIEWS-001",
   "created_at": "2026-09-09T05:05:00+10:00",
-  "updated_at": "2026-11-27T19:29:42.800Z",
+  "updated_at": "2026-11-28T02:42:08.735Z",
   "rules": {
     "append_only": true,
     "raw_source_change_is_immutable": true,
@@ -56506,6 +56506,46 @@
           }
         ],
         "delta_hash": "d24ce892d251ba46fb2de6499bc76a05bd6e912951a693ae62880983ea406815"
+      },
+      "integrity": {
+        "source_change_unchanged": true,
+        "review_append_only": true,
+        "no_projection_effect_by_default": true
+      }
+    },
+    {
+      "review_id": "REV-CHG-WATCH-PM-MEDIA-20261128024116",
+      "source_change_event_id": "CHG-WATCH-PM-MEDIA-20261128024116",
+      "decision": "PROMOTED_TO_SIGNAL",
+      "signal_event_id": "SIG-REV-CHG-WATCH-PM-MEDIA-20261128024116",
+      "contest_id": null,
+      "cycle_id": null,
+      "party_id": null,
+      "actor_id": null,
+      "signal_state": "CONFIRMED_FACT",
+      "materiality_state": "UNKNOWN",
+      "claim": "Prime Minister of Australia — media added 1 structured publication record to its forward-captured official index: Entry into force of landmark Vanuatu-Australia Nakamal Agreement",
+      "review_basis": "Deterministic structured-record comparison between consecutive forward snapshots. Promotion verifies only that the official monitored publication index added the listed record(s); it does not verify the substantive claims contained in those publications.",
+      "reviewed_at": "2026-11-28T02:42:08.735Z",
+      "reviewer_mode": "DETERMINISTIC_RULE",
+      "policy_id": "FORWARD-SIGNAL-REVIEW-POLICY-001",
+      "policy_name": "AUTO_PROMOTE_PUBLICATION_ADDITIONS",
+      "structured_evidence": {
+        "added_records": [
+          {
+            "record_id": "2de12282c268d7218db1",
+            "title": "Entry into force of landmark Vanuatu-Australia Nakamal Agreement",
+            "url": "https://www.pm.gov.au/media/entry-force-landmark-vanuatu-australia-nakamal-agreement"
+          }
+        ],
+        "removed_records": [
+          {
+            "record_id": "847200c206b71bcab6b7",
+            "title": "Visit to Australia by the Prime Minister of the Solomon Islands",
+            "url": "https://www.pm.gov.au/media/visit-australia-prime-minister-solomon-islands-2"
+          }
+        ],
+        "delta_hash": "aa09e0faad0f8f957e7bf5327c9814f380ad65f14a2afd5a6de0b8dc48a965dc"
       },
       "integrity": {
         "source_change_unchanged": true,
